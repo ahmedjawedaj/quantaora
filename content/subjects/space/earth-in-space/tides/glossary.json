@@ -1,0 +1,9 @@
+{
+  "componentId": "tides",
+  "terms": [
+    { "term": "Tidal bulge", "conceptId": "tidal-bulges", "definition": "A stretching of Earth's oceans caused by the Moon's (and Sun's) gravity; two bulges exist at all times, one near-side and one far-side." },
+    { "term": "Differential gravity", "conceptId": "differential-gravity", "definition": "The difference in gravitational pull across Earth's width, which is what actually creates both tidal bulges, including the far-side one." },
+    { "term": "Spring tide", "conceptId": "spring-and-neap-tides", "definition": "Extra-high and extra-low tides that happen when the Sun and Moon are aligned (New or Full Moon), combining their pulls." },
+    { "term": "Neap tide", "conceptId": "spring-and-neap-tides", "definition": "Milder tides that happen when the Sun and Moon are at right angles (quarter moons), partly cancelling each other's pull." }
+  ]
+}

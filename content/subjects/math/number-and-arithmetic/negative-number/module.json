@@ -1,0 +1,87 @@
+{
+  "id": "negative-number",
+  "subject": "math",
+  "title": "Negative Numbers",
+  "summary": "Negative numbers are amounts below zero, shown left of zero on a number line. They model temperatures below freezing, debts, and depths. Explore what a negative number means, ordering negatives, and adding/subtracting with them.",
+  "gradeMin": 5,
+  "gradeMax": 7,
+  "skillIds": [
+    "negative-below-zero",
+    "negative-order-compare",
+    "negative-add-subtract",
+    "negative-real-world"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Number Relationships",
+    "systemOrGroup": "Negative numbers",
+    "component": "Negative Numbers",
+    "displayPath": "Math > Number Sense And Arithmetic > Number Relationships > Negative numbers > Negative Numbers"
+  },
+  "crossReferences": [
+    {
+      "label": "Number line (Number Sense)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Number line",
+      "note": "Negative numbers are the part of the number line left of zero."
+    },
+    {
+      "label": "Subtraction (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Subtraction",
+      "note": "Subtracting a larger number from a smaller one reaches a negative result."
+    },
+    {
+      "label": "Temperature regulation (Biology)",
+      "branch": "human-physiology",
+      "lowLevelItem": "hypothalamus",
+      "note": "Real temperatures measured in degrees below zero are ordinary negative numbers."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Number Relationships > Negative numbers",
+  "compareCandidate": {
+    "label": "Negative vs. positive numbers",
+    "description": "Positive numbers are above zero; negative numbers are below zero. On the number line they mirror across zero, and a negative number is always smaller than every positive number."
+  },
+  "parts": [
+    "Numbers below zero",
+    "The negative half of the number line",
+    "Adding and subtracting left of zero"
+  ],
+  "processes": [
+    "Ordering negatives by their distance from zero",
+    "Adding and subtracting with a sign",
+    "Applying negatives to real contexts"
+  ],
+  "plainLanguageExplanation": "A negative number is any number below zero, written with a minus sign like −3. It sits left of zero on the number line. Negatives describe real situations: −5° means five degrees below freezing, −3 means a debt of three, and −200 is two hundred meters below sea level. On the number line, the further left a negative is, the smaller it is — so −3 is larger than −5 even though 5 is larger than 3. Adding a negative moves left; subtracting a negative moves right. This can feel backwards at first, but the number line makes it concrete.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A number below zero, shown left of zero" },
+    { "label": "Examples", "value": "−3°C (below freezing), debts, depths below sea level" },
+    { "label": "Ordering", "value": "Farther left = smaller: −5 < −3 < −1" },
+    { "label": "vs. positive", "value": "Any negative is less than any positive" },
+    { "label": "Add a negative", "value": "Moves left: −3 + (−2) = −5" },
+    { "label": "Subtract a negative", "value": "Moves right: 4 − (−2) = 6" }
+  ],
+  "whyItMatters": "Negative numbers let math describe the half of the world below zero — freezing weather, bank balances, depths, and drops in value. They are essential for algebra, where equations can have answers below zero, and appear in every science and finance field.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Negative numbers",
+  "tagline": "Numbers below zero",
+  "didYouKnow": "For thousands of years mathematicians rejected negative numbers as 'absurd'. It took until the 1500s for them to be fully accepted as useful tools, not just mistakes.",
+  "conditions": [
+    "Temperatures below freezing",
+    "Bank account overdrafts",
+    "Debts",
+    "Depths below sea level"
+  ],
+  "compareCandidateId": "number-line",
+  "compareReason": "Negative numbers and the number line belong together — the line is where the negative half lives, so comparing them grounds 'below zero' spatially."
+}

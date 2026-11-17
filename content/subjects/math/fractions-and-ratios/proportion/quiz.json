@@ -1,0 +1,80 @@
+{
+  "componentId": "proportion",
+  "questions": [
+    {
+      "id": "proportion-def",
+      "conceptId": "proportion-equal-ratios",
+      "hotspotId": "hs-proportion-eq",
+      "prompt": "What is a proportion?",
+      "options": [
+        "A statement that two ratios are equal",
+        "A single ratio",
+        "A fraction with a large denominator",
+        "A number that is multiplied by itself"
+      ],
+      "correctIndex": 0,
+      "explanation": "A proportion says two ratios compare the same way — 2:4 = 4:8.",
+      "misconception": "A proportion is not just one ratio — it is the EQUALITY of two ratios."
+    },
+    {
+      "id": "proportion-cross",
+      "conceptId": "proportion-cross-products",
+      "hotspotId": "hs-cross-products",
+      "prompt": "In the proportion a/b = c/d, which cross product is correct?",
+      "options": [
+        "a × d equals b × c",
+        "a × b equals c × d",
+        "a + d equals b + c",
+        "a × c equals b × d"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cross products multiply across the equals sign: a × d = b × c.",
+      "misconception": "The multiplication goes ACROSS (a×d and b×c), not along the same side (a×b) — that is the whole point of cross multiplication."
+    },
+    {
+      "id": "proportion-solve",
+      "conceptId": "proportion-solve-missing",
+      "hotspotId": "hs-missing-value",
+      "prompt": "Solve for x: 3/5 = x/10",
+      "options": [
+        "6",
+        "15",
+        "5",
+        "30"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cross multiply: 3 × 10 = 5 × x → 30 = 5x → x = 6.",
+      "misconception": "x is not 5 or 15 — the cross product gives 5x = 30, so dividing both sides by 5 yields x = 6."
+    },
+    {
+      "id": "proportion-scale",
+      "conceptId": "proportion-real-world",
+      "hotspotId": "hs-missing-value",
+      "prompt": "A recipe for 4 people uses 2 cups of flour. For 10 people, how many cups?",
+      "options": [
+        "5 cups",
+        "8 cups",
+        "2.5 cups",
+        "20 cups"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set up 2/4 = x/10. Cross multiply: 2 × 10 = 4 × x → 20 = 4x → x = 5.",
+      "misconception": "The flour must scale with the people ratio — 2/4 = x/10 gives 5 cups, not 8 or 2.5 (which do not keep the ratio constant)."
+    },
+    {
+      "id": "proportion-graph",
+      "conceptId": "proportion-real-world",
+      "hotspotId": "hs-proportion-eq",
+      "prompt": "If a car drives 60 km in 1 hour, how far in 3 hours at the same rate?",
+      "options": [
+        "180 km",
+        "120 km",
+        "20 km",
+        "63 km"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate ratio stays constant: 60/1 = x/3 → x = 60 × 3 = 180 km.",
+      "misconception": "Keeping the RATE (60 per hour) constant means multiplying by time — 180 km, not adding or halving."
+    }
+  ]
+}

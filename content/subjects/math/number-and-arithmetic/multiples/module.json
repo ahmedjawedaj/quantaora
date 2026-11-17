@@ -1,0 +1,87 @@
+{
+  "id": "multiples",
+  "subject": "math",
+  "title": "Multiples",
+  "summary": "Multiples of a number are the results of multiplying it by 1, 2, 3... — multiples of 3 are 3, 6, 9, 12. Explore the times-table pattern, skip counting, and how multiples pair with factors.",
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "skillIds": [
+    "multiples-times-table",
+    "multiples-skip-count",
+    "multiples-infinite",
+    "multiples-vs-factors"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Number Relationships",
+    "systemOrGroup": "Factors and multiples",
+    "component": "Multiples",
+    "displayPath": "Math > Number Sense And Arithmetic > Number Relationships > Factors and multiples > Multiples"
+  },
+  "crossReferences": [
+    {
+      "label": "Multiplication (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Multiplication",
+      "note": "A multiple is the product of a number and a whole number — the times-table answers."
+    },
+    {
+      "label": "Factors (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Factors",
+      "note": "If 12 is a multiple of 3, then 3 is a factor of 12 — the same relationship from the other direction."
+    },
+    {
+      "label": "Equivalent fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Equivalent fraction",
+      "note": "Common multiples of denominators are used to make equivalent fractions share a common denominator."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Number Relationships > Factors and multiples",
+  "compareCandidate": {
+    "label": "Multiples vs. factors",
+    "description": "Multiples are what a number produces when multiplied (3, 6, 9, 12...). Factors are what multiply together to produce a number. 12 is a multiple of 3, and 3 is a factor of 12."
+  },
+  "parts": [
+    "The times-table results",
+    "Skip counting steps",
+    "The infinite pattern"
+  ],
+  "processes": [
+    "Generating multiples by multiplying",
+    "Skip counting by equal steps",
+    "Finding common multiples"
+  ],
+  "plainLanguageExplanation": "Multiples of a number are made by multiplying it by the whole numbers: 1, 2, 3, 4... Multiples of 3 are 3 × 1 = 3, 3 × 2 = 6, 3 × 3 = 9, and so on — 3, 6, 9, 12, 15... This is the same as skip counting by threes. Because the whole numbers go on forever, every number has an endless list of multiples. Multiples and factors describe the same relationship from opposite sides: 12 is a multiple of 3 because 3 × 4 = 12, and that also tells you 3 and 4 are factors of 12. Common multiples (numbers on both 3's list and 4's list, like 12) are useful for comparing fractions.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A multiple = a number × a whole number" },
+    { "label": "Multiples of 3", "value": "3, 6, 9, 12, 15, 18, 21..." },
+    { "label": "Skip counting", "value": "Multiples are what you say when counting by equal steps" },
+    { "label": "Endless list", "value": "Every number has infinitely many multiples" },
+    { "label": "Common multiple", "value": "A number on two different multiples lists, like 12" },
+    { "label": "vs. factor", "value": "12 is a multiple of 3; 3 is a factor of 12" }
+  ],
+  "whyItMatters": "Multiples power the times tables, skip counting, and finding common denominators when adding fractions. Spotting multiples — like noticing 36 is on 12's list — makes mental math and fraction work much faster.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Multiples",
+  "tagline": "The number's times-table list",
+  "didYouKnow": "Skip counting and the times table are the same thing — when you chant '5, 10, 15, 20', you are reciting the multiples of 5.",
+  "conditions": [
+    "Skip counting",
+    "Times tables",
+    "Common denominators",
+    "Finding patterns"
+  ],
+  "compareCandidateId": "factors",
+  "compareReason": "Multiples and factors are two views of one relationship — comparing them stops the most common mix-up in number theory."
+}

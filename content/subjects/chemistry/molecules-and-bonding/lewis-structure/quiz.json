@@ -1,0 +1,65 @@
+{
+  "componentId": "lewis-structure",
+  "questions": [
+    {
+      "id": "lewis-q-definition",
+      "conceptId": "lewis-dots-valence",
+      "hotspotId": "hs-lewis-dots",
+      "prompt": "What does a Lewis structure show?",
+      "options": [
+        "An element's symbol with dots for its valence electrons",
+        "The full periodic table",
+        "The atom's nucleus with protons and neutrons",
+        "The temperature of an element"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Lewis structure is an element's symbol surrounded by dots — one dot for each valence electron.",
+      "misconception": "Lewis structures do not draw nuclei, inner electrons, or the periodic table — they are a stripped-down picture of just the valence electrons."
+    },
+    {
+      "id": "lewis-q-dot-count",
+      "conceptId": "lewis-dots-valence",
+      "hotspotId": "hs-lewis-dots",
+      "prompt": "How many dots does carbon (4 valence electrons) have in its Lewis structure?",
+      "options": [
+        "Four",
+        "One",
+        "Seven",
+        "Twelve"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each valence electron gets one dot, so carbon's 4 valence electrons are drawn as 4 dots.",
+      "misconception": "The dot count always matches the valence electron count exactly — one dot per valence electron, no more, no less."
+    },
+    {
+      "id": "lewis-q-predict",
+      "conceptId": "lewis-predicts-bonding",
+      "hotspotId": "hs-lewis-bonding",
+      "prompt": "What do the dots in a Lewis structure help you predict?",
+      "options": [
+        "How many bonds the atom can form",
+        "The element's melting point",
+        "The atom's weight",
+        "Where the element was found"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dots reveal how many electrons are available to bond, so they predict how many bonds the atom can form.",
+      "misconception": "Melting point, weight, and discovery location are not related to the dot diagram — the dots are purely about bonding potential."
+    },
+    {
+      "id": "lewis-q-shared-pair",
+      "conceptId": "lewis-dot-placement",
+      "hotspotId": "hs-lewis-bonding",
+      "prompt": "In a Lewis structure, what does a shared pair of dots between two symbols represent?",
+      "options": [
+        "A covalent bond",
+        "An ion",
+        "A neutron",
+        "An empty shell"
+      ],
+      "correctIndex": 0,
+      "explanation": "When two symbols share a pair of dots between them, that shared pair represents a covalent bond — shared electrons.",
+      "misconception": "A shared dot pair is not an ion, neutron, or empty shell — it is literally the two valence electrons being shared, which is the definition of a covalent bond."
+    }
+  ]
+}

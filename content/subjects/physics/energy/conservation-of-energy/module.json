@@ -1,0 +1,98 @@
+{
+  "id": "conservation-of-energy",
+  "subject": "physics",
+  "title": "Conservation of Energy",
+  "summary": "Energy is never created or destroyed — it only changes form. The total energy of a closed system stays constant while it trades between kinetic, potential, heat, light, and sound. In this model a roller coaster runs a loop and a running bar shows the stored height energy draining into motion as the cart rides, then re-storing climb after climb.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "energy-conserved-never-lost",
+    "energy-changes-form",
+    "energy-sank-to-heat",
+    "closed-systems"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Energy",
+    "unit": "Energy Conservation",
+    "systemOrGroup": "Energy Conservation and Efficiency",
+    "component": "Conservation of Energy",
+    "displayPath": "Physics > Energy > Energy Conservation > Energy Conservation and Efficiency > Conservation of Energy"
+  },
+  "crossReferences": [
+    {
+      "label": "Kinetic & potential energy (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Kinetic & potential energy",
+      "note": "The two star forms the cart trades between: height's potential rides down into motion's kinetic."
+    },
+    {
+      "label": "Efficiency (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Efficiency",
+      "note": "Energy never vanishes, but losses to heat mean only part of it does useful work — efficiency measures the useful share."
+    }
+  ],
+  "belongsTo": "Energy > Energy Conservation > Energy Conservation and Efficiency",
+  "compareCandidate": {
+    "label": "Conserved total vs. energy forms",
+    "description": "The grand total never changes while a ball-to-loop constantly swaps potential and kinetic forms; heat is where the 'missing' share goes."
+  },
+  "parts": [
+    "The coaster track loop",
+    "The cart",
+    "The energy bar",
+    "The heat loss readout"
+  ],
+  "processes": [
+    "Exchanging height for speed",
+    "Tracking the total energy",
+    "Seeing heat bleed out of friction",
+    "Closing the loop back to height"
+  ],
+  "plainLanguageExplanation": "Here's a law that never breaks: energy can't be created or destroyed — it can only change form. The total amount in a closed system is fixed, forever. In this roller-coaster model you'll watch that: a bar tracks the rider from the top of the hill down into a loop. At the crest guys near the peak, almost all energy is stored (potential); halfway down, it splits into movement (kinetic); rub against the track and a little slips into heat — but the total of height, speed, heat, and sound never changes. What you spend popping a jack-in-the-box early isn't gone; it's in the sound and the stretch. The car brakes to a stop on the model and the bar shows warmth from the brakes — energy turned into heat instead of motion, but never into nothing. Learn this one law and whole fields of physics become a budget book: every joule goes somewhere, and it's simply a matter of tracking which form.",
+  "keyFacts": [
+    {
+      "label": "The law",
+      "value": "Energy is never created or destroyed; it only changes form"
+    },
+    {
+      "label": "Closed systems",
+      "value": "No escape: total energy stays constant"
+    },
+    {
+      "label": "Forms it takes",
+      "value": "Kinetic, potential, thermal, light, sound, chemical"
+    },
+    {
+      "label": "The 'loss' trick",
+      "value": "Heat and sound aren't losses — they're energy in a less usable form"
+    },
+    {
+      "label": "Track it",
+      "value": "At any moment: PE + KE + heat = the same total"
+    }
+  ],
+  "whyItMatters": "Conservation of energy is the thesis of physics — the first law of thermodynamics. It's how we trace a car's braking, a light bulb's glow and a battery's drain, and it frames every energy question: where did it go? Not questions like 'run out' only mean one form is spent; the energy still exists — so we question sinks, impact craters, and the sun's fusion all through this single law.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Law of conservation of energy",
+  "tagline": "Energy never vanishes, only changes form",
+  "didYouKnow": "If you bounce a ball to 70% of its drop height, its lost height is not destroyed — it became sound and heat from the floor plus air drag. The zoom that 'disappears' into brakes on every cart of this coaster is still there; it's just heat that spreads through the rails in the rails.",
+  "conditions": [
+    "Coasters and pendulums",
+    "Braking cars warming their pads",
+    "Bulbs glowing (and heating up)",
+    "Falling water hitting a mill's paddles",
+    "Our own food energy becoming motion and heat"
+  ],
+  "compareCandidateId": "efficiency",
+  "compareReason": "Conservation says the total is fixed; efficiency says how much of that total actually did the useful job — the two laws that frame every energy story."
+}

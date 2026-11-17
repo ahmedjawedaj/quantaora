@@ -1,0 +1,119 @@
+{
+  "id": "chloroplast",
+  "componentId": "chloroplast",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/chloroplast/chloroplast.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/chloroplast.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Whole chloroplast",
+    "Outer membrane",
+    "Grana + thylakoids",
+    "Stroma",
+    "Food-oxygen markers"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-outer",
+      "label": "Outer membrane",
+      "conceptId": "chloroplast-green-food-maker",
+      "position": [
+        0.2,
+        0.2,
+        0.1
+      ],
+      "description": "The rounded outer membrane that wraps the whole chloroplast and lets materials in and out.",
+      "positionHint": "The smooth outer shell of the chloroplast.",
+      "color": "#6B85A8",
+      "function": "Wraps and protects the chloroplast."
+    },
+    {
+      "id": "hs-stroma",
+      "label": "Stroma (fluid)",
+      "conceptId": "thylakoids-grana",
+      "position": [
+        -0.1,
+        0.15,
+        0.2
+      ],
+      "description": "The fluid space inside the chloroplast that fills around the stacks of discs.",
+      "positionHint": "The open fluid area between the grana stacks.",
+      "color": "#B5846A",
+      "function": "Fluid that holds the grana and makes the food."
+    },
+    {
+      "id": "hs-grana",
+      "label": "Grana (disc stacks)",
+      "conceptId": "thylakoids-grana",
+      "position": [
+        0.1,
+        0.3,
+        0.15
+      ],
+      "description": "The stacks of flat green discs (thylakoids) where the light-powered reactions happen.",
+      "positionHint": "The green coin/stacc stacks standing upright in the middle.",
+      "color": "#7FA874",
+      "function": "Catch the light and start making the food."
+    },
+    {
+      "id": "hs-chlorophyll",
+      "label": "Chlorophyll",
+      "conceptId": "chlorophyll-captures-light",
+      "position": [
+        0.15,
+        0.32,
+        0.1
+      ],
+      "description": "The green pigment visible on the discs that captures sunlight energy.",
+      "positionHint": "The vibrant green tint coating the grana.",
+      "color": "#7FA874",
+      "function": "Captures and absorbs the sunlight."
+    },
+    {
+      "id": "hs-output",
+      "label": "Food + oxygen out",
+      "conceptId": "photosynthesis-in-plant",
+      "position": [
+        0,
+        -0.2,
+        0.22
+      ],
+      "description": "The sugar food and the oxygen the chloroplast outputs at the end of photosynthesis.",
+      "positionHint": "Small dots of food (gold) and oxygen (pale) leaving the chloroplast base.",
+      "color": "#D9A441",
+      "function": "Sends out the sugar and releases the oxygen."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean stylized organelle - rounded green form, muted pale greens holding the disc stacks, not cartoon, not cluttered, no glow. Strong color only on the hotspot dots and the small food-oxygen dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.55. The chlorophyll tint is a material color, never emissive.",
+  "assetBrief": "SUBJECT: a single oval green chloroplast cut open, with stacks of flat green thylakoid discs (grana) upright in a fluid stroma, an outer membrane, and small golden sugar and pale oxygen dots leaving the base. Restrained muted-green on warm cream. Named nodes: OuterMembrane, ThylakoidStack, Stroma, ChlorophyllDisc, FoodOut, OxygenOut. Budget 10-14k.",
+  "visual": {
+    "shape": "chloroplast-stack"
+  }
+}

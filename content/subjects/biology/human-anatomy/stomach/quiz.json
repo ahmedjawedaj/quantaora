@@ -1,0 +1,80 @@
+{
+  "componentId": "stomach",
+  "questions": [
+    {
+      "id": "stm-q-job",
+      "conceptId": "stomach-churns-food",
+      "hotspotId": "hs-stomach-bag",
+      "prompt": "What is the main job of the stomach?",
+      "options": [
+        "Churn food and start breaking it down with acid and enzymes",
+        "Absorb most nutrients",
+        "Filter blood",
+        "Store urine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stomach churns food with its muscular walls and mixes it with acid and enzymes to start digestion.",
+      "misconception": "Most nutrient absorption happens in the small intestine - the stomach's job is churning and initial breakdown."
+    },
+    {
+      "id": "stm-q-acid",
+      "conceptId": "acid-and-enzymes",
+      "hotspotId": "hs-acid",
+      "prompt": "What is in the stomach's gastric juice?",
+      "options": [
+        "Acid and digestive enzymes",
+        "Only water",
+        "Bile",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gastric juice contains acid and enzymes that break down food (especially protein) and kill germs.",
+      "misconception": "Bile is made by the liver and stored in the gallbladder, not part of the stomach's gastric juice."
+    },
+    {
+      "id": "stm-q-mucus",
+      "conceptId": "protein-breakdown",
+      "hotspotId": "hs-mucus",
+      "prompt": "Why doesn't the stomach digest itself with its own acid?",
+      "options": [
+        "A mucus lining protects the wall",
+        "The acid is not strong",
+        "The wall is made of metal",
+        "The acid only works outside"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stomach wall is coated with mucus that shields it from the acid and enzymes it produces.",
+      "misconception": "The stomach acid is genuinely strong - it is the protective mucus layer that keeps the wall safe."
+    },
+    {
+      "id": "stm-q-chyme",
+      "conceptId": "chyme-to-intestine",
+      "hotspotId": "hs-chyme",
+      "prompt": "What happens to the food mixture after the stomach?",
+      "options": [
+        "It becomes chyme and moves to the small intestine",
+        "It turns into blood instantly",
+        "It stays in the stomach forever",
+        "It goes to the lungs"
+      ],
+      "correctIndex": 0,
+      "explanation": "After mixing and partial breakdown, the food becomes a soupy mixture called chyme and moves into the small intestine.",
+      "misconception": "Chyme is the step before absorption - it does not become blood or stay put; it moves on to the intestine."
+    },
+    {
+      "id": "stm-q-germs",
+      "conceptId": "acid-and-enzymes",
+      "hotspotId": "hs-acid",
+      "prompt": "Besides breaking down food, what else does stomach acid do?",
+      "options": [
+        "Kills many germs that arrive with food",
+        "Makes the food sweet",
+        "Paints the stomach",
+        "Cools the body"
+      ],
+      "correctIndex": 0,
+      "explanation": "The strong acid in the stomach kills many of the germs (bacteria, viruses) that can come in with food and drink.",
+      "misconception": "Acid's germ-killing role is as important as digestion - it is a first line of defense in the gut."
+    }
+  ]
+}

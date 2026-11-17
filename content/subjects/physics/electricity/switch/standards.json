@@ -1,0 +1,26 @@
+{
+  "componentId": "switch",
+  "standards": [
+    {
+      "standardId": "4-PS3-2",
+      "standard": "Energy Transfer",
+      "description": "Energy travels through complete electric circuits; a switch makes or breaks the path.",
+      "level": "primary",
+      "traceDetail": "Flipping the lever instantly starts or stops the bulb."
+    },
+    {
+      "standardId": "MS-PS2-5",
+      "standard": "Electric Forces and Fields",
+      "description": "Current flows only in a closed circuit; a gap in the loop interrupts it.",
+      "level": "primary",
+      "traceDetail": "The opened switch is the gap that halts the loop."
+    },
+    {
+      "standardId": "HS-PS2-5",
+      "standard": "Macroscopic Circuits",
+      "description": "Circuit behavior follows from path completeness and component ratings; overcurrent wastes heat.",
+      "level": "support",
+      "traceDetail": "Post-warming reminder ties current to switch amperage rating."
+    }
+  ]
+}

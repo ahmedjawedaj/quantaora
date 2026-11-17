@@ -1,0 +1,89 @@
+{
+  "id": "speed",
+  "subject": "physics",
+  "title": "Speed",
+  "summary": "Speed is how fast something is going — the distance it covers divided by the time it takes. Run 100 m in 20 s and your speed is 5 meters every second. Speed is a scalar: it has a size (5 m/s) but no direction. Explore how a motion sensor charts speed on a graph and how 'average' and 'instant' speed differ.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "speed-distance-per-time",
+    "speed-average",
+    "speed-instant",
+    "speed-graph"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Describing Motion",
+    "systemOrGroup": "Speed and Velocity",
+    "component": "Speed",
+    "displayPath": "Physics > Mechanics > Describing Motion > Speed and Velocity > Speed"
+  },
+  "crossReferences": [
+    {
+      "label": "Distance (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Distance",
+      "note": "Speed is exactly the distance traveled divided by the time taken — the distance is the numerator in every speed formula."
+    },
+    {
+      "label": "Velocity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Velocity",
+      "note": "Velocity is speed paired with a direction; speed alone is the scalar half of that picture."
+    },
+    {
+      "label": "Acceleration (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Acceleration",
+      "note": "When speed changes over time, that change is acceleration — the downhill topic after speed."
+    }
+  ],
+  "belongsTo": "Mechanics > Describing Motion > Speed and Velocity",
+  "compareCandidate": {
+    "label": "Speed vs. velocity",
+    "description": "Speed only tells you how fast (like 80 km/h). Velocity tells you how fast AND which way (like 80 km/h north). A car on a round track can have a constant speed but a constantly changing velocity."
+  },
+  "parts": [
+    "The distance traveled",
+    "The time that distance took",
+    "The moving character on the track",
+    "The speed graph"
+  ],
+  "processes": [
+    "Measuring distance covered and elapsed time",
+    "Dividing distance by time to calculate speed",
+    "Reading average vs. instant speed",
+    "Plotting a distance-over-time slope as d/t"
+  ],
+  "plainLanguageExplanation": "Speed tells you how fast something is moving — how much distance it covers in a unit of time. It's a simple ratio: speed = distance / time. If a cyclist rides 60 km in 2 hours the speed is 60/2 = 30 km/h. The standard physics unit is meters per second (m/s). Speed is a scalar, meaning it has size but no direction. There are two flavors: average speed (total distance / total time — what you compute at the end), and instant speed (the needle on a car's speedometer right now). A car that stops at every light can average 30 km/h over the trip even though it hits 60 km/h between lights, showing average is the whole trip while instant is the moment. Graphs of distance vs. time rise at a steady rate (fixed slope) when speed is constant — the steeper the slope line, the faster you're going.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Speed = distance ÷ time" },
+    { "label": "Common units", "value": "m/s (SI), also km/h, mph" },
+    { "label": "Scalar", "value": "Has size but NO direction — 30 km/h is complete by itself" },
+    { "label": "Average speed", "value": "Total distance ÷ total time, all stops included" },
+    { "label": "Instant speed", "value": "The speed at a single moment — what a speedometer shows" },
+    { "label": "Graph shape", "value": "A constant speed is a straight slanting line on a distance-time graph" }
+  ],
+  "whyItMatters": "Speed is the number behind almost every trip: how fast a sprinter, a delivery driver, or a satellite moves. It's the classic classroom formula — speed = distance ÷ time — the one most-used equation outside school. Knowing the difference between average and instant speed explains why speed cameras don't just care how far you got, but how fast at a single moment. Speed also paves the road to velocity, acceleration, forces, and energy — the rest of mechanics.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Speed (kinematics)",
+  "tagline": "Distance every second",
+  "didYouKnow": "The speedometer was invented in the late 1800s, and the fastest car on land has topped 1228 km/h. But even fast is relative: the International Space Station circles Earth at about 28,000 km/h — more than 20 times that — yet astronauts onboard feel perfectly still.",
+  "conditions": [
+    "Speedometers in cars",
+    "Sprinter times",
+    "Sports radar guns",
+    "Falling leaves in storms (terminal speed)"
+  ],
+  "compareCandidateId": "velocity",
+  "compareReason": "Speed is the scalar twin of velocity — showing the same trip as 'fast, no direction' vs 'fast, northward' makes the vector versus scalar split instantly visible."
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "distance",
+  "questions": [
+    {
+      "id": "distance-q-definition",
+      "conceptId": "distance-length-of-path",
+      "hotspotId": "hs-path-distance",
+      "prompt": "What is distance in physics?",
+      "options": [
+        "The total length of the path an object actually travels",
+        "The straight line from start to finish",
+        "How far north an object ends up",
+        "The time an object spends moving"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is the total path length — all the meters actually covered, even when the route bends.",
+      "misconception": "A familiar mix-up is treating distance as the straight line 'as the crow flies' — but that defines displacement, and distance counts the full winding path instead."
+    },
+    {
+      "id": "distance-q-scalar",
+      "conceptId": "distance-always-positive",
+      "hotspotId": "hs-path-distance",
+      "prompt": "A hiker walks 8 m forward, then no back. What is the total distance traveled?",
+      "options": [
+        "16 m",
+        "0 m",
+        "8 m",
+        "It cannot be known"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance adds the two legs together: 8 m out plus 8 m back = 16 m. Distance never subtracts — it only grows as you cover ground.",
+      "misconception": "Some try to 'cancel' the return leg because you end where you started. That subtraction belongs to displacement, not distance."
+    },
+    {
+      "id": "distance-q-displacement",
+      "conceptId": "distance-total-vs-direct",
+      "hotspotId": "hs-straight-line",
+      "prompt": "In the model, the winding path reads 25 m and the straight shortcut reads 9 m. Which statement is correct?",
+      "options": [
+        "Distance = 25 m and displacement = 9 m",
+        "Distance = 9 m and displacement = 25 m",
+        "Distance = displacement = 25 m",
+        "Both distances are the same because they end between the same gates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance is the full path length (25 m); displacement is the straight line from start to finish (9 m).",
+      "misconception": "The instinct to average both readings or make them equal is common; the two quantities are independent — the challenge is they're measured the same maps but answer different questions."
+    },
+    {
+      "id": "distance-q-unit",
+      "conceptId": "distance-unit",
+      "hotspotId": "hs-path-distance",
+      "prompt": "Which unit is the standard measuring stick for distance?",
+      "options": [
+        "Meter (m)",
+        "Second (s)",
+        "Kilogram (kg)",
+        "Volt (V)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The meter (m) is the SI unit of distance. Seconds measure time, kilograms measure mass, and volts measure voltage.",
+      "misconception": "Learners sometimes recycle time or mass units because they've used them in other problems; the model's readout keeps length in meters even though a stopwatch is also visible."
+    },
+    {
+      "id": "distance-q-speed",
+      "conceptId": "distance-length-of-path",
+      "hotspotId": "hs-path-distance",
+      "prompt": "A runner covers 200 m in 40 s. Which calculation uses distance correctly to find speed?",
+      "options": [
+        "200 m ÷ 40 s = 5 m/s",
+        "200 m × 40 s = 8000 m·s",
+        "40 s ÷ 200 m = 0.2 s/m",
+        "200 m + 40 s = 240"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed = distance ÷ time, so 200 m ÷ 40 s = 5 m/s — distance is the meter count fed into the ratio.",
+      "misconception": "Some invert the fraction (s ÷ m). Unit-checking: dividing meters by seconds does give m/s, and meters × seconds gives m·s, a meaningless unit."
+    }
+  ]
+}

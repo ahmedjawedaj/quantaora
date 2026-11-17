@@ -1,0 +1,46 @@
+{
+  "id": "moon-phases",
+  "subject": "space",
+  "title": "Moon Phases",
+  "name": "Moon Phases",
+  "scientificName": "Lunar phase cycle",
+  "branch": "Earth In Space",
+  "system": "Moon · orbiting Earth, lit by the Sun",
+  "model": "",
+  "tagline": "The Moon never changes shape — only how much lit side faces us does",
+  "summary": "The Moon doesn't make its own light, and it doesn't actually change shape — half of it is always lit by the Sun, exactly like Earth always has a day side and a night side. What changes across about 29.5 days is how much of that lit half happens to be facing Earth as the Moon orbits us, which is exactly what the phase wheel tracks.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": ["moon-phase-geometry", "synodic-month", "tidal-locking", "phases-vs-eclipses"],
+  "type": "simulation",
+  "estimatedMinutes": 11,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Earth In Space",
+    "unit": "Earth's Motion & Cycles",
+    "systemOrGroup": "Moon · orbiting Earth, lit by the Sun",
+    "component": "Moon Phases",
+    "displayPath": "Space > Earth In Space > Earth's Motion & Cycles > Moon · orbiting Earth, lit by the Sun > Moon Phases"
+  },
+  "belongsTo": ["Earth In Space", "Space"],
+  "keyFacts": [
+    { "label": "Orbital period around Earth", "value": "~27.3 days (sidereal)" },
+    { "label": "Full phase cycle (synodic month)", "value": "~29.5 days — slightly longer, because Earth also moved around the Sun meanwhile" },
+    { "label": "New Moon", "value": "Moon is between Earth and Sun — its lit side faces away from us entirely" },
+    { "label": "Full Moon", "value": "Moon is opposite the Sun — its whole lit side faces Earth" },
+    { "label": "Half the Moon", "value": "Is always lit by the Sun, no matter what phase we see" },
+    { "label": "Common misconception", "value": "Phases are NOT caused by Earth's shadow — that's what an eclipse is, and it's rare" }
+  ],
+  "whyItMatters": "Mixing up moon phases with eclipses is one of the most common mistakes in astronomy — this simulation makes the real cause (simple geometry, not a shadow) impossible to miss, since you can watch the same sunlight source stay fixed while only the Moon's angle to Earth changes.",
+  "didYouKnow": "Because the Moon is tidally locked to Earth, we always see the same face of it no matter what phase it's in — the changing shape is entirely about lighting angle, never about the Moon turning to show us a different side.",
+  "conditions": ["Half of the Moon is always sunlit", "The Moon orbits Earth roughly every 27.3 days", "The visible lit fraction depends only on the Sun-Earth-Moon angle"],
+  "compareCandidateId": "eclipses",
+  "compareReason": "Phases and eclipses are both about Sun-Earth-Moon geometry and get confused constantly — comparing them side by side makes the real difference obvious: phases happen every month from ordinary angles, eclipses need a rare, near-perfect straight line.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "muscle-cell",
+  "subject": "biology",
+  "title": "Muscle Cell",
+  "summary": "A muscle cell (myocyte) is a specialized cell built for one job: contract and relax to produce movement or force. Explore its sarcolemma, multiple peripheral nuclei, mitochondria, myofibrils, and sarcoplasmic reticulum, explain how a nerve signal becomes a contraction, and compare it to a neuron to see how shape follows function.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "sarcolemma-cell-membrane",
+    "multiple-nuclei",
+    "mitochondria",
+    "myofibrils",
+    "sarcoplasmic-reticulum"
+  ],
+  "type": "model",
+  "estimatedMinutes": 14,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Specialized Cells",
+    "systemOrGroup": "Muscle cell (specialized cell)",
+    "component": "Muscle Cell",
+    "displayPath": "Biology > Cell Biology > Specialized Cells > Muscle Cell"
+  },
+  "crossReferences": [
+    {
+      "label": "Muscular System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Muscular system",
+      "note": "Thousands of muscle cells like this one bundle together into the fibers, fascicles, and whole muscles covered in the Human Anatomy branch's Muscular System unit."
+    },
+    {
+      "label": "Muscle Contraction (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Muscle contraction",
+      "note": "The sliding-filament, calcium-release, and nerve-signaling processes referenced in this component's lesson are expanded as a full process in the Human Physiology branch."
+    }
+  ],
+  "belongsTo": "Cell Biology > Specialized Cells > Muscle cell (specialized cell)",
+  "compareCandidate": {
+    "label": "Muscle cell vs. Neuron",
+    "description": "Both are specialized cells built around a single job, but a neuron is long and branching to send an electrical signal fast across distance, while a muscle cell is packed edge-to-edge with parallel contractile fibers built to convert a signal into physical force. Comparing them highlights how a specialized cell's shape follows directly from its function."
+  },
+  "parts": [
+    "Sarcolemma (cell membrane)",
+    "Multiple nuclei",
+    "Mitochondria",
+    "Myofibrils",
+    "Sarcoplasmic reticulum"
+  ],
+  "processes": [
+    "Muscle contraction (the sliding-filament mechanism)",
+    "Nerve signaling (a motor neuron triggers the contraction)",
+    "Cellular respiration (mitochondria generate the ATP contraction needs)",
+    "Calcium release and reuptake (sarcoplasmic reticulum controls when filaments grip and release)"
+  ],
+  "plainLanguageExplanation": "A muscle cell is a long, stretchy cell that has one job: to get shorter (contract) on command, then relax back out. Thousands of these cells bundle together to make up a muscle — like the biceps in your arm. Inside each muscle cell are rope-like fibers called myofibrils, packed with two kinds of protein filaments that grip each other and pull, sliding past one another like the sections of a collapsible telescope. That sliding is what makes the whole cell — and the muscle it's part of — get shorter and pull on your bones, or squeeze your heart, or push food through your gut. Because contracting takes so much energy, muscle cells are stuffed with mitochondria (the cell's power plants) and often have more than one nucleus to help run such a large, busy cell.",
+  "keyFacts": [
+    { "label": "Main job", "value": "Contract (shorten) and relax to produce movement or force" },
+    { "label": "Shape", "value": "Long and fiber-like — some skeletal muscle cells run the full length of a muscle" },
+    { "label": "Nuclei", "value": "Skeletal muscle cells are unusual: they can have hundreds of nuclei in one cell" },
+    { "label": "Contraction proteins", "value": "Actin (thin) and myosin (thick) filaments slide past each other to shorten the cell" },
+    { "label": "Energy demand", "value": "Packed with mitochondria because contraction burns a constant supply of ATP" },
+    { "label": "Three types", "value": "Skeletal (moves bones, voluntary), cardiac (heart, involuntary), smooth (organs/vessels, involuntary)" }
+  ],
+  "whyItMatters": "Every movement you make — walking, blinking, chewing, your heart beating right now, even digesting your last meal — depends on muscle cells contracting. Understanding how they work explains why muscles get tired (they run low on fuel and oxygen during heavy overuse, which is part of why cramps happen) and why exercise makes muscles stronger (it builds more myofibrils and mitochondria). It also explains why conditions like muscular dystrophy happen — not because cells run out of fuel, but because a structural protein that holds the fiber's membrane together (such as dystrophin) is missing or faulty, so the fiber breaks down and weakens over time.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

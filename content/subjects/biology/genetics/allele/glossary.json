@@ -1,0 +1,94 @@
+{
+  "componentId": "allele",
+  "terms": [
+    {
+      "term": "Allele",
+      "conceptId": "allele",
+      "definition": "One version of a gene; different alleles create different traits, like different flower colors.",
+      "function": "Occupies a locus on a chromosome and, together with its paired allele, determines the genotype for that gene.",
+      "whereItIs": "Seated at a specific locus on a chromosome, inside the nucleus of nearly every cell.",
+      "whyItMatters": "Alleles are the reason offspring resemble both parents but are never an exact copy of either one.",
+      "relatedConcept": "gene"
+    },
+    {
+      "term": "Gene",
+      "conceptId": "gene",
+      "definition": "A segment of DNA that carries instructions for one trait; a gene is like a question, and its alleles are the possible answers.",
+      "function": "Defines which trait a locus controls; the specific instruction actually carried there is determined by which allele is present.",
+      "whereItIs": "A defined location (locus) on a chromosome.",
+      "whyItMatters": "Understanding that a gene is the category and an allele is one version of it is the key distinction this whole component teaches.",
+      "relatedConcept": "allele"
+    },
+    {
+      "term": "Locus",
+      "conceptId": "locus",
+      "definition": "The specific location on a chromosome where a particular gene (and its alleles) is found.",
+      "function": "Marks the shared physical position on both chromosome copies where the two paired alleles for a gene are seated.",
+      "whereItIs": "A fixed point along a chromosome's length, shown as a thin ring around the chromosome rod in this model.",
+      "whyItMatters": "Both alleles for a gene must be at the same locus on their matching chromosomes for them to pair up and be compared.",
+      "relatedConcept": "allele"
+    },
+    {
+      "term": "Dominant allele",
+      "conceptId": "dominant-allele",
+      "hotspotId": "dominant-allele",
+      "definition": "An allele whose trait appears in the body even if only one copy of it is present.",
+      "function": "Masks the recessive allele's trait in the phenotype whenever the two are paired together (heterozygous).",
+      "whereItIs": "Written with a capital letter (e.g. P); shown as the bold terracotta token in the model.",
+      "whyItMatters": "Dominant alleles are why a trait can appear in a child even if only one parent visibly carries it.",
+      "relatedConcept": "recessive-allele",
+      "quizId": "allele-q-dominant-expressed"
+    },
+    {
+      "term": "Recessive allele",
+      "conceptId": "recessive-allele",
+      "hotspotId": "recessive-allele",
+      "definition": "An allele whose trait only appears in the body when both inherited copies are recessive.",
+      "function": "Its trait is masked in the phenotype whenever paired with a dominant allele, but it's still carried and can be passed to offspring.",
+      "whereItIs": "Written with a lowercase letter (e.g. p); shown as the muted, outlined sand token in the model.",
+      "whyItMatters": "Recessive alleles explain how a trait can 'skip a generation' — two parents who don't show it can still both carry and pass it on.",
+      "relatedConcept": "dominant-allele",
+      "quizId": "allele-q-hidden-recessive"
+    },
+    {
+      "term": "Homozygous",
+      "conceptId": "homozygous-pairing",
+      "hotspotId": "homozygous-pairing",
+      "definition": "Having two identical alleles for a gene (both dominant, like PP, or both recessive, like pp).",
+      "function": "When homozygous recessive (pp), there's no dominant allele present to mask the trait, so the recessive phenotype is visible.",
+      "whereItIs": "Shown in the model when both locus tokens match — both bold-terracotta or both muted-sand.",
+      "whyItMatters": "Homozygous recessive is the only pairing where a recessive trait actually becomes visible.",
+      "relatedConcept": "heterozygous-pairing",
+      "quizId": "allele-q-homozygous-recessive"
+    },
+    {
+      "term": "Heterozygous",
+      "conceptId": "heterozygous-pairing",
+      "hotspotId": "heterozygous-pairing",
+      "definition": "Having two different alleles for a gene (one dominant, one recessive, like Pp).",
+      "function": "The dominant allele's trait shows in the phenotype while the recessive allele is masked but still carried.",
+      "whereItIs": "The model's default state — one bold-terracotta token opposite one muted-sand token.",
+      "whyItMatters": "Most 'carriers' of a recessive trait are heterozygous — they show the dominant trait but can still pass the recessive allele to their children.",
+      "relatedConcept": "homozygous-pairing",
+      "quizId": "allele-q-inheritance-source"
+    },
+    {
+      "term": "Genotype",
+      "conceptId": "genotype",
+      "definition": "The specific pair of alleles an organism has for a gene (e.g., Pp).",
+      "function": "Determines the phenotype according to the dominant/recessive relationship between the two alleles present.",
+      "whereItIs": "Read directly off the two locus tokens in the model — e.g. one dominant + one recessive token reads as 'Pp.'",
+      "whyItMatters": "Genotype is the underlying 'code'; phenotype is what you actually see — the two can differ, which is the whole point of recessive alleles.",
+      "relatedConcept": "phenotype"
+    },
+    {
+      "term": "Phenotype",
+      "conceptId": "phenotype",
+      "definition": "The physical trait that actually shows up because of the genotype (e.g., purple flowers).",
+      "function": "The observable outcome produced once the dominant/recessive relationship between the two alleles in the genotype is resolved.",
+      "whereItIs": "The visible trait a genotype produces — not shown directly on the model itself, but the result the side panel reports for each pairing state.",
+      "whyItMatters": "Phenotype is what natural selection, breeders, and doctors can actually observe — genotype is what's inherited and passed on.",
+      "relatedConcept": "genotype"
+    }
+  ]
+}

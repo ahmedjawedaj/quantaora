@@ -1,0 +1,11 @@
+{
+  "componentId": "rotation-and-revolution",
+  "terms": [
+    { "term": "Rotation", "conceptId": "axial-rotation", "definition": "Earth spinning in place around its own axis; one full spin takes about 24 hours." },
+    { "term": "Revolution", "conceptId": "orbital-revolution", "definition": "Earth travelling all the way around the Sun; one full lap takes about 365.25 days." },
+    { "term": "Axis", "conceptId": "axial-rotation", "definition": "The imaginary line through the North and South Poles that Earth spins around." },
+    { "term": "Orbit", "conceptId": "orbital-revolution", "definition": "Earth's roughly circular path around the Sun." },
+    { "term": "Equator", "conceptId": "equator-and-hemispheres", "definition": "The imaginary line circling Earth exactly halfway between the poles." },
+    { "term": "Hemisphere", "conceptId": "equator-and-hemispheres", "definition": "Half of Earth — Northern, Southern, Eastern, or Western." }
+  ]
+}

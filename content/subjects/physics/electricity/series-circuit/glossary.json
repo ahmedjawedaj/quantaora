@@ -1,0 +1,45 @@
+{
+  "componentId": "series-circuit",
+  "terms": [
+    {
+      "term": "Series circuit",
+      "conceptId": "series-one-loop",
+      "hotspotId": "hs-loop",
+      "definition": "A circuit where all components share one single loop.",
+      "whyItMatters": "Sets the rules: one current, shared volts, one break stops all.",
+      "whereItIs": "The chain of bulbs on one ribbon.",
+      "relatedConcept": "parallel-circuit",
+      "quizId": "se-q1"
+    },
+    {
+      "term": "Shared current",
+      "conceptId": "series-same-current-all",
+      "hotspotId": "hs-meter",
+      "definition": "The identical amperes flowing through every series element.",
+      "whyItMatters": "One number describes the whole loop's flow.",
+      "whereItIs": "The meter reading the same at every bulb.",
+      "relatedConcept": "current",
+      "quizId": "se-q2"
+    },
+    {
+      "term": "Voltage split",
+      "conceptId": "series-volts-share",
+      "hotspotId": "hs-battery",
+      "definition": "The supply volts dividing up across the series components.",
+      "whyItMatters": "It's why each equal bulb runs dimmer in series.",
+      "whereItIs": "The volt labels shrinking along the chain.",
+      "relatedConcept": "voltage",
+      "quizId": "se-q3"
+    },
+    {
+      "term": "One break stops all",
+      "conceptId": "series-one-break-stops-all",
+      "hotspotId": "hs-remove-a",
+      "definition": "The rule that opening any point of a series loop kills its entire flow.",
+      "whyItMatters": "It explains string-light failures and why houses aren't series.",
+      "whereItIs": "The 'pop a bulb' instant darkness demo.",
+      "relatedConcept": "switch",
+      "quizId": "se-q4"
+    }
+  ]
+}

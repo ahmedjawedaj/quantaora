@@ -1,0 +1,40 @@
+{
+  "asset": "virus-influenza-envelope-b-nih.glb",
+  "assetGroup": "Influenza Capsid, Envelope and RNA (deconstructible, 3-part set) - this file is envelope half B; see virus-influenza-capsid-rna-nih.glb for the core piece and virus-influenza-envelope-a-nih.glb for the other half",
+  "componentMapping": "biology > microbiology > Virus (low-level item) - supporting piece of the primary virus candidate",
+  "sourceUrl": "https://3d.nih.gov/entries/14934",
+  "sourceEntryId": "3DPX-014934",
+  "creator": "NIH 3D user \"PeeryA\"",
+  "owner": "NIH 3D (3d.nih.gov); commissioned by the Smithsonian National Museum of Natural History for the \"Outbreak: Epidemics in a Connected World\" exhibit",
+  "license": "CC-BY 4.0",
+  "attributionRequired": true,
+  "attributionText": "\"Influenza Capsid, Envelope and RNA\" by PeeryA, NIH 3D (3d.nih.gov, entry 3DPX-014934), commissioned by the Smithsonian National Museum of Natural History. Licensed CC-BY 4.0.",
+  "redistributionStatus": "Permitted under CC-BY 4.0 (commercial use and modification allowed with attribution).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/19620/runs/d4631609-d6de-4d13-a1f7-0b08367dc8f9/output-files/427377",
+  "downloadedVariant": "Influenza_half_B_NIH3D.glb",
+  "fileSizeBytes": 11501672,
+  "sha256": "c127407e2929527dbd369cc2f9d28f3941a80c48593c69cc8af431684f50b911",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 2,
+    "sampleBoundsMin": [
+      -3.426267623901367,
+      9.028529035504107e-8,
+      0.0009201328502967954
+    ],
+    "sampleBoundsMax": [
+      -0.980802595615387,
+      3.3465919494628906,
+      3.3179287910461426
+    ],
+    "notes": "Envelope half-shell piece of the deconstructible influenza set. Not render-inspected visually in this pass."
+  }
+}

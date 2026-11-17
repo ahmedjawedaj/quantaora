@@ -1,0 +1,65 @@
+{
+  "componentId": "vacuole",
+  "questions": [
+    {
+      "id": "vac-q-job",
+      "conceptId": "vacuole-storage",
+      "hotspotId": "hs-vac-sac",
+      "prompt": "What is the main job of a vacuole?",
+      "options": [
+        "To store water and materials",
+        "To build proteins",
+        "To release energy",
+        "To hold the DNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vacuole is a storage sac for water, salts, nutrients, pigments, and some waste.",
+      "misconception": "Building protein is the ribosome and energy is the mitochondrion - the vacuole is about storage."
+    },
+    {
+      "id": "vac-q-central",
+      "conceptId": "central-vacuole-water-support",
+      "hotspotId": "hs-central",
+      "prompt": "How does the central vacuole help a plant cell?",
+      "options": [
+        "Water pressure pushes outward and helps the plant stand firm",
+        "It makes chlorophyll",
+        "It fights off bacteria",
+        "It builds the cell wall"
+      ],
+      "correctIndex": 0,
+      "explanation": "A full vacuole presses water against the cell wall, making the cell firm - the plant stands tall. When empty, the plant wilts.",
+      "misconception": "Chlorophyll and energy come from chloroplasts; the vacuole's job in a plant is water storage and firmness."
+    },
+    {
+      "id": "vac-q-wilt",
+      "conceptId": "central-vacuole-water-support",
+      "hotspotId": "hs-water",
+      "prompt": "Why does a plant droop or wilt when it has not been watered?",
+      "options": [
+        "Its vacuoles lose water, so cells lose their firmness",
+        "Its vacuoles turn into roots",
+        "Its vacuoles freeze",
+        "Its vacuoles make too much sugar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without water the central vacuoles shrink, the cells lose their internal pressure, and the plant's stem can no longer stand firm.",
+      "misconception": "Wilting is not about roots or temperature alone - it is the loss of vacuole water pressure at the cellular level."
+    },
+    {
+      "id": "vac-q-animal",
+      "conceptId": "small-vacuoles-transport",
+      "hotspotId": "hs-small",
+      "prompt": "How do animal cells usually compare with plant cells when it comes to vacuoles?",
+      "options": [
+        "Animal cells have several smaller vacuoles; plant cells often have one large central one",
+        "Animal cells have one enormous central vacuole",
+        "Animal cells have no vacuoles at all",
+        "They are identical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plant cells typically keep one large central vacuole for water support, while animal cells use several smaller vacuoles for storage and transport.",
+      "misconception": "The arrangement differs by cell type - the giant central vacuole is a plant-cell hallmark."
+    }
+  ]
+}

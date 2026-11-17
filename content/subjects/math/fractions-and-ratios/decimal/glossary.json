@@ -1,0 +1,41 @@
+{
+  "componentId": "decimal",
+  "terms": [
+    {
+      "term": "Decimal",
+      "conceptId": "decimal-fraction-other-name",
+      "hotspotId": "hs-decimal-point",
+      "definition": "A fraction written with a decimal point and place value instead of a numerator and denominator.",
+      "function": "0.3 names the same amount as 3/10.",
+      "whereItIs": "The value shown by the grid and strip together.",
+      "whyItMatters": "Decimals are the standard format for money and measurement."
+    },
+    {
+      "term": "Decimal point",
+      "conceptId": "decimal-tenths-hundredths",
+      "hotspotId": "hs-decimal-point",
+      "definition": "The dot that separates the whole-number part from the fraction part of a decimal.",
+      "function": "Everything right of it is a fraction of one whole.",
+      "whereItIs": "The dot on the place-value strip.",
+      "whyItMatters": "It marks where 'ones' ends and 'parts of one' begin."
+    },
+    {
+      "term": "Tenths, hundredths, thousandths",
+      "conceptId": "decimal-place-value",
+      "hotspotId": "hs-place-columns",
+      "definition": "The first three place values after the decimal point.",
+      "function": "0.4 is 4 tenths; 0.75 is 75 hundredths; 0.006 is 6 thousandths.",
+      "whereItIs": "The labeled columns on the strip.",
+      "whyItMatters": "Reading decimals correctly means reading these places."
+    },
+    {
+      "term": "Hundred grid",
+      "conceptId": "decimal-fraction-other-name",
+      "hotspotId": "hs-grid",
+      "definition": "A 10-by-10 grid where each cube represents one hundredth.",
+      "function": "Shades 30 cubes to show 30 hundredths = 0.3.",
+      "whereItIs": "The square grid of 100 small cubes.",
+      "whyItMatters": "It makes decimals visual and concrete."
+    }
+  ]
+}

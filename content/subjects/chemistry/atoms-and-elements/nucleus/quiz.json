@@ -1,0 +1,65 @@
+{
+  "componentId": "nucleus",
+  "questions": [
+    {
+      "id": "nucleus-q-what",
+      "conceptId": "nucleus-core-of-atom",
+      "hotspotId": "hs-nucleus-core",
+      "prompt": "What is the nucleus of an atom?",
+      "options": [
+        "The dense core at the atom's center",
+        "The outer cloud where electrons live",
+        "The space between the shells",
+        "The entire atom itself"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nucleus is the dense core at the very center of the atom — the compact bundle of protons and neutrons.",
+      "misconception": "The electron cloud and the gaps between shells are NOT the nucleus — the nucleus is specifically the tiny, packed core at the center."
+    },
+    {
+      "id": "nucleus-q-contents",
+      "conceptId": "nucleus-protons-neutrons",
+      "hotspotId": "hs-nucleus-particles",
+      "prompt": "What particles are packed inside the nucleus?",
+      "options": [
+        "Protons and neutrons",
+        "Protons and electrons",
+        "Neutrons and electrons",
+        "Electrons only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nucleus is packed with protons and neutrons — the heavy particles. Electrons orbit far outside it.",
+      "misconception": "Electrons never live in the nucleus — they orbit in the shells far outside. The nucleus is strictly protons and neutrons."
+    },
+    {
+      "id": "nucleus-q-mass",
+      "conceptId": "nucleus-holds-mass",
+      "hotspotId": "hs-nucleus-core",
+      "prompt": "How much of an atom's mass is in the nucleus?",
+      "options": [
+        "Nearly all of it",
+        "About half",
+        "Almost none of it",
+        "Exactly none"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nucleus holds nearly all the atom's mass — protons and neutrons are about 1,836 times heavier than electrons.",
+      "misconception": "Even though the nucleus is tiny, it is staggeringly dense — nearly the entire atom's weight sits in that small core."
+    },
+    {
+      "id": "nucleus-q-charge",
+      "conceptId": "nucleus-core-of-atom",
+      "hotspotId": "hs-nucleus-pull",
+      "prompt": "What charge does the nucleus carry, and what does it do?",
+      "options": [
+        "Positive — and it pulls the negative electrons into orbit",
+        "Negative — and it pushes electrons away",
+        "Neutral — it has no effect",
+        "Positive — and it repels the electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The protons give the nucleus a positive charge, which attracts the negative electrons and keeps them orbiting the atom.",
+      "misconception": "The nucleus never repels electrons — opposite charges attract, so the positive nucleus is exactly what holds the negative electrons in place."
+    }
+  ]
+}

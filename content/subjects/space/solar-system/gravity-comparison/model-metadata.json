@@ -1,0 +1,147 @@
+{
+  "id": "gravity-comparison",
+  "componentId": "gravity-comparison",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/solar-system/gravity-comparison.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/solar-system/gravity-comparison.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: generated at runtime from three.js primitives by a scene-builder module, not a GLB. `url` is a placeholder pointing to where that scene-builder module should live following this project's conventions. `thumbnailUrl` is a placeholder PNG following the standard asset-folder convention (spec section 21). `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated values derived from the assetBrief — a starting point for the dev implementing the scene-builder, verified against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.5,
+      5.6
+    ],
+    "target": [
+      0,
+      0.55,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.5,
+      5.6
+    ],
+    "target": [
+      0,
+      0.55,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Gravity platforms (Moon, Mars, Earth, Saturn, Jupiter, Sun)",
+    "Astronaut figure",
+    "Weight readout + mass/weight toggle card",
+    "Gravity labels (g values)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-moon-scale",
+      "label": "Moon platform",
+      "conceptId": "moon-gravity-one-sixth",
+      "position": [
+        -2.8,
+        0.22,
+        0.2
+      ],
+      "description": "Gravity 0.17 g — about one sixth of Earth's. The astronaut's weight readout drops to about one sixth here.",
+      "positionHint": "Leftmost platform in the row. A low flat slab topped with a small grey sphere (Moon) and a small astronaut figure whose floating readout shows the lightest number of the row.",
+      "color": "#A6B0C4",
+      "function": "Demonstrates the weakest gravity platform in the row."
+    },
+    {
+      "id": "hs-mars-scale",
+      "label": "Mars platform",
+      "conceptId": "weight-depends-on-gravity",
+      "position": [
+        -1.7,
+        0.2,
+        0.2
+      ],
+      "description": "Gravity 0.38 g. A 40 kg person would feel like they weighed about 15 kg on Mars.",
+      "positionHint": "Second platform from the left, topped with a muted rust sphere. The astronaut reads ~0.38 × Earth weight.",
+      "color": "#C08B5C",
+      "function": "Shows an intermediate gravity between Moon and Earth."
+    },
+    {
+      "id": "hs-earth-scale",
+      "label": "Earth platform",
+      "conceptId": "weight-depends-on-gravity",
+      "position": [
+        -0.6,
+        0.25,
+        0.2
+      ],
+      "description": "Gravity 1 g — the reference platform. Every other number in the row is a multiple of this one.",
+      "positionHint": "Center-left platform, topped with a dusty blue-green sphere. The astronaut's readout matches the learner's own Earth weight.",
+      "color": "#7FA88A",
+      "function": "Anchors the comparison at 1 g."
+    },
+    {
+      "id": "hs-saturn-scale",
+      "label": "Saturn platform",
+      "conceptId": "saturn-gravity-surprise",
+      "position": [
+        0.6,
+        0.28,
+        0.15
+      ],
+      "description": "Gravity about 1.07 g — nearly the same as Earth, despite Saturn being nine times wider. Its vast radius and low density spread its mass so thin that the surface pull barely differs.",
+      "positionHint": "Center-right platform, topped with a pale gold sphere wearing two thin ring discs. The readout almost matches Earth's — the row's biggest surprise.",
+      "color": "#C9B46E",
+      "function": "Surprises learners: big world, almost-Earth weight."
+    },
+    {
+      "id": "hs-jupiter-scale",
+      "label": "Jupiter platform",
+      "conceptId": "jupiter-gravity-strongest",
+      "position": [
+        1.9,
+        0.3,
+        0.2
+      ],
+      "description": "Gravity 2.5 g — the strongest pull of the planets. A 40 kg person would feel like 100 kg here.",
+      "positionHint": "Second platform from the right, topped with the largest sphere (cream-and-tan banded). The readout shows the row's highest number.",
+      "color": "#D9A441",
+      "function": "Demonstrates the most massive planet's pull."
+    },
+    {
+      "id": "hs-sun-scale",
+      "label": "Sun platform",
+      "conceptId": "weight-depends-on-gravity",
+      "position": [
+        3.2,
+        0.45,
+        0.15
+      ],
+      "description": "Gravity about 28 g — but there is no surface to stand on. The platform is shown only to complete the comparison; its readout is off the scale.",
+      "positionHint": "Rightmost platform, a large warm cream sphere with a 'no surface' caution tag. The readout displays '—' with a note that no one could ever stand here.",
+      "color": "#E8A33D",
+      "function": "Completes the gravity ladder and introduces the 'no surface' idea."
+    },
+    {
+      "id": "hs-mass-weight-note",
+      "label": "Mass vs. weight card",
+      "conceptId": "mass-never-changes",
+      "position": [
+        0,
+        1.35,
+        -0.2
+      ],
+      "description": "A floating note card: 'Your mass is the same everywhere in the universe. Your weight changes because gravity changes.'",
+      "positionHint": "Floating above the row, centered. A slim ivory card with two short text lines, readable from the default camera.",
+      "color": "#6B85A8",
+      "function": "Reminds the learner that only the weight number changes as the astronaut hops platforms."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, no floor grid, no glow, no bloom, no emissive materials, no cartoon outlines. Six low flat platforms stand in a single row on a soft radial ground-shadow, each holding a small matte sphere and a tiny articulated astronaut figure (capsule body + sphere helmet + cylinder limbs, uniform warm white with a soft amber visor). Each platform carries a small flat label plane with its g value. The weight readout is a slim floating panel that updates as the astronaut moves. All body colors are the branch-standard muted set; the astronaut's visor amber and the hotspot dots are the only warm saturated accents. The astronaut hops between platforms with a simple arc tween (runtime animation, not baked), landing poses per platform — a deep crouch on Jupiter, an easy hover-jump on the Moon.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, no emissive channels. Platforms: warm ivory matte (roughness ~0.7). Spheres: roughness ~0.55-0.65, baked mottling/banding. Astronaut: matte white suit (roughness ~0.6) with subtle sheen, amber visor (roughness 0.3, slight clearcoat). Readout and label planes: dark warm-grey text sprites. Any highlight-on-tap feedback is app runtime, not baked.",
+  "assetBrief": "SUBJECT: A gravity-comparison 'balance row' — six platforms along X at y=0 (Moon -2.8, Mars -1.7, Earth -0.6, Saturn 0.6, Jupiter 1.9, Sun 3.2), each a low flat slab (1.1 wide, 0.08 tall, 0.9 deep) with a sphere above it (radii: Moon 0.18, Mars 0.2, Earth 0.21, Saturn 0.26 + ring discs, Jupiter 0.3, Sun 0.38) and a small label plane with the g value (0.17, 0.38, 1.0, 1.07, 2.5, ~28). One astronaut figure (total height ~0.55) hops between platforms when tapped: animate a simple parabolic hop (rise ~0.35 above the platform, forward arc), with a landing pose per platform (deep crouch on Jupiter, near-hover float on the Moon). A floating weight readout panel above the row shows the astronaut's weight: 'Mass 40 kg — Weight on this world: X kg' (mass × g). The mass number must not change as the astronaut hops; only the weight changes — this is the component's core teaching point, so the toggle card (mass/weight) swaps the panel's emphasized number. Sun platform shows weight '—' with a 'no surface to stand on' note. Default camera [0, 1.5, 5.6] → target [0, 0.55, 0] frames the whole row. Auto-rotate off (reading/comparison model); camera may gently dolly on the tapped platform. Grounding: radial ground-shadow beneath the row. Named groups per layers list.",
+  "visual": {
+    "shape": "gravity-well"
+  }
+}

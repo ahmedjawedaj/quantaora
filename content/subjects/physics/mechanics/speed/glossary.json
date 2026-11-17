@@ -1,0 +1,46 @@
+{
+  "componentId": "speed",
+  "terms": [
+    {
+      "term": "Speed",
+      "conceptId": "speed-distance-per-time",
+      "hotspotId": "hs-speed-car",
+      "definition": "The distance traveled per unit of time — distance divided by time.",
+      "function": "Tells how fast an object moves without any direction information.",
+      "whereItIs": "Read on the track as meters per second while the car rolls.",
+      "whyItMatters": "It is the most used physics ratio and the basis of speedometers.",
+      "relatedConcept": "speed-average",
+      "quizId": "speed-q-formula"
+    },
+    {
+      "term": "Average speed",
+      "conceptId": "speed-average",
+      "hotspotId": "hs-speed-ticker",
+      "definition": "Total distance traveled divided by total time elapsed, across a whole journey.",
+      "whyItMatters": "It flattens stops and bursts into one trip-level number — the easy one to compute with a stopwatch.",
+      "whereItIs": "The final reading of the distance ticker after a run.",
+      "relatedConcept": "speed-distance-per-time",
+      "quizId": "speed-q-average"
+    },
+    {
+      "term": "Instantaneous speed",
+      "conceptId": "speed-instant",
+      "hotspotId": "hs-speed-car",
+      "definition": "The speed at one particular moment — what a speedometer needle shows.",
+      "whyItMatters": "Explains why a vehicle can break a speed limit even when its average over a mile is right.",
+      "whereItIs": "The live m/s readout on the car while it moves.",
+      "relatedConcept": "speed-distance-per-time",
+      "quizId": "speed-q-steep"
+    },
+    {
+      "term": "Distance-time graph",
+      "conceptId": "speed-graph",
+      "hotspotId": "hs-speed-graph",
+      "definition": "A graph with distance on one axis and time on the other; its slope equals speed.",
+      "whyItMatters": "Reading the slope gives speed at a glance; a flat line means the object is stopped.",
+      "whereItIs": "The floating screen above the track drawing the car's distance history.",
+      "relatedConcept": "speed-instant",
+      "quizId": "speed-q-graph"
+    }
+  ]
+}

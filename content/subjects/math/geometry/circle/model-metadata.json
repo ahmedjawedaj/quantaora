@@ -1,0 +1,90 @@
+{
+  "id": "circle",
+  "componentId": "circle",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/circle/circle.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/circle.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.5,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.5,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Wheel",
+    "Center dot",
+    "Radius and diameter",
+    "Circumference tape"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-circle-rim",
+      "label": "Circle",
+      "conceptId": "circle-definition",
+      "position": [
+        0.9,
+        0.55,
+        0.1
+      ],
+      "description": "The smooth rim of the wheel \u2014 every point the same distance from the center.",
+      "positionHint": "The curved edge of the wheel.",
+      "color": "#D9A441",
+      "function": "The circle's outer edge."
+    },
+    {
+      "id": "hs-radius",
+      "label": "Radius",
+      "conceptId": "circle-radius-diameter",
+      "position": [
+        0.45,
+        0.75,
+        0.15
+      ],
+      "description": "The segment from the center to the rim.",
+      "positionHint": "The highlighted center-to-rim stroke.",
+      "color": "#7FA86A",
+      "function": "Center-to-rim distance."
+    },
+    {
+      "id": "hs-diameter",
+      "label": "Diameter",
+      "conceptId": "circle-circumference",
+      "position": [
+        -0.9,
+        0.15,
+        0.15
+      ],
+      "description": "The segment across the wheel through the center \u2014 two radii.",
+      "positionHint": "The highlighted across-the-circle stroke.",
+      "color": "#6B85A8",
+      "function": "Full width through the center."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. An upright wheel with a highlighted radius and diameter and a removable circumference tape. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Wheel: warm paper disc (roughness ~0.5). Center: small solid warm-ink sphere. Radius and diameter strokes: thin warm-ink strips. Circumference tape: thin warm paper strip around the rim, peelable into a straight line. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: circles, radius, diameter, circumference and pi \u2014 a flat wheel with highlighted radius and diameter, a peelable circumference tape, a roll/unroll demo, and a drag control to resize.\n\nGEOMETRY: An upright flat wheel standing on a board. Center dot O; a radius stroke center-to-rim tagged 'r'; a diameter stroke across through center tagged 'd = 2r'; a tape hugging the rim labeled circumference. 'Unroll' peels the tape off and straightens it into a line along the board; 'roll' moves the wheel one full turn so its travel equals the straightened tape. Drag on the rim grows or shrinks the wheel; radius/diameter/tags update live.\n\nLAYERS (toggleable): (1) board; (2) wheel disc; (3) radius + diameter strokes; (4) circumference tape + tags.\n\nCAMERA: three-quarter from front, slightly above, frames wheel and tape; labels legible. Budget 5-9k triangles. Named nodes: Board, Wheel, CenterDot, RadiusStroke, DiameterStroke, CircumferenceTape, RollMechanism, Tags. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "disc-torus"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "acceleration",
+  "subject": "physics",
+  "title": "Acceleration",
+  "summary": "Acceleration is how quickly velocity changes — speeding up, slowing down, or turning is all acceleration. A launch-up bike that climbs from 0 to 10 m/s in 5 s accelerates at 2 m/s every second. Explore a pedal-driven cart this time, and watch acceleration bend a velocity-time graph upward or downward.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "acceleration-change-in-velocity",
+    "acceleration-formula",
+    "acceleration-positive-negative",
+    "acceleration-graph"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Describing Motion",
+    "systemOrGroup": "Acceleration",
+    "component": "Acceleration",
+    "displayPath": "Physics > Mechanics > Describing Motion > Acceleration > Acceleration"
+  },
+  "crossReferences": [
+    {
+      "label": "Velocity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Velocity",
+      "note": "Acceleration is defined only as a change in velocity, so solid velocity reading comes first."
+    },
+    {
+      "label": "Force (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Force",
+      "note": "A net force is exactly what causes an acceleration to happen — Newton's second law ties the two together."
+    },
+    {
+      "label": "Velocity changing while turning (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Velocity",
+      "note": "A dress-circle turn is acceleration too, since velocity rotates, not just speeds."
+    }
+  ],
+  "belongsTo": "Mechanics > Describing Motion > Acceleration",
+  "compareCandidate": {
+    "label": "Acceleration vs. velocity",
+    "description": "Velocity tells how fast and which way; acceleration tells how quickly that velocity changes. Constant speed is velocity-only; a turning or speeding-up cart adds acceleration on top."
+  },
+  "parts": [
+    "The cart being accelerated",
+    "The gas and brake controls",
+    "The velocity-time graph screen",
+    "The acceleration readout"
+  ],
+  "processes": [
+    "Measuring how velocity changes each second",
+    "Computing (final − initial) velocity ÷ time",
+    "Seeing positive, zero, and negative acceleration",
+    "Reading acceleration as the slope of a velocity-time graph"
+  ],
+  "keyFacts": [
+    { "label": "Definition", "value": "The rate at which velocity changes" },
+    { "label": "Formula", "value": "acceleration = (final velocity − initial velocity) ÷ time" },
+    { "label": "SI unit", "value": "m/s² (meters per second, per second)" },
+    { "label": "Three kinds", "value": "Speeding up, slowing down (negative), and turning" },
+    { "label": "Zero acceleration", "value": "Velocity stays constant — steady motion, not necessarily rest" },
+    { "label": "Graph", "value": "Steep upward velocity-time slope = big acceleration" }
+  ],
+  "plainLanguageExplanation": "Acceleration is the meter of change — how fast velocity changes every second. If a car rolls from rest to 20 m/s in 5 seconds, its acceleration = (20 − 0) / 5 = 4 m/s²: every single second, it's gaining 4 m/s of speed. The s² in the unit is why: it's 'velocity gained, per second.' Acceleration isn't only about going faster. A brake pad slowing a train ( −3 m/s²) is still acceleration — in reverse. So is running a curve while keeping speed: velocity turns, and turning is a change of velocity. It comes from motion only when a net force shows up (Newton's second law). The model lets you drive a cart and trace the velocity line on a screen, bending it steeper when you push the gas and dipping it negative when you brake.",
+  "whyItMatters": "Acceleration is what actually connects force to motion — the formula a = (final speed − initial speed) ÷ time is the doorway to Newton's second law and to understanding everything from rocket launch to the jolt of a sudden stop. It also explains car 'g-force', why brakes need power, the weight you feel in an elevator, and the push-back in your seat when a bus starts. Kids feel acceleration on every playground swing and every bike jump, and physics finally names it.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Acceleration (kinematics)",
+  "tagline": "How fast the fast changes",
+  "didYouKnow": "'G-force' in sports cars and rides isn't a force you feel — it's acceleration, how rapidly your velocity changes, expressed in units of Earth's gravity. A top rocket can yank its crew through big numbers of g at liftoff.",
+  "conditions": [
+    "Taking off in a car",
+    "Braking at stop signs",
+    "Elevator lift-off",
+    "Roller coaster drops",
+    "Rocket launches"
+  ],
+  "compareCandidateId": "velocity",
+  "compareReason": "Velocity asks how fast you are going and which way; acceleration asks how quickly that velocity is changing — pairing them on one cart reveals the layering."
+}

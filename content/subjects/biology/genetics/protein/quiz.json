@@ -1,0 +1,64 @@
+{
+  "componentId": "protein",
+  "questions": [
+    {
+      "id": "protein-q-shape-function",
+      "conceptId": "function-determined-by-shape",
+      "hotspotId": "hs-shape-function",
+      "prompt": "What determines whether a protein can do its specific job in the body?",
+      "options": [
+        "Its exact 3D folded shape",
+        "How many amino acids it has in total",
+        "How much it weighs",
+        "What color it is"
+      ],
+      "correctIndex": 0,
+      "explanation": "A protein's folded 3D shape creates the specific pockets, grooves, and surfaces it needs to grab onto other molecules and do its job — like a key needing the right shape to fit a lock. Size alone doesn't guarantee the right shape, weight isn't a functional property of proteins, and proteins don't have a meaningful visible color in this sense.",
+      "misconception": "Learners often assume 'bigger' or 'more amino acids' automatically means 'more powerful' or 'more functional,' when really it's the precise shape — not the size — that lets a protein do its job."
+    },
+    {
+      "id": "protein-q-gene-origin",
+      "conceptId": "built-from-gene-instructions",
+      "hotspotId": "hs-gene-origin",
+      "prompt": "Where do the instructions for building a specific protein's amino acid sequence come from?",
+      "options": [
+        "A gene, a section of DNA",
+        "The protein copies another nearby protein",
+        "The amino acids arrange themselves randomly",
+        "Instructions come from outside the cell only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gene is a section of DNA whose sequence spells out the exact order of amino acids for one protein; that instruction is copied and used inside the cell to build the chain. Proteins don't copy other proteins to know their sequence, the order isn't random, and the core instructions are stored inside the cell's DNA, not supplied from outside.",
+      "misconception": "Learners sometimes think proteins somehow 'figure out' their own structure, or that one protein directly copies another, missing that the master instructions are written in DNA/genes."
+    },
+    {
+      "id": "protein-q-folded-shape",
+      "conceptId": "folded-3d-shape",
+      "hotspotId": "hs-folded-shape",
+      "prompt": "A protein's amino acid chain gets built correctly, but the chain fails to fold into its normal shape. What is the most likely result?",
+      "options": [
+        "The protein probably can't function properly, even though its building blocks are correct",
+        "The protein works exactly the same as normal, since folding doesn't matter",
+        "The protein becomes a completely different type of molecule, like a carbohydrate",
+        "The protein automatically fixes its own folding error every time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Function depends on shape, not just on having the correct amino acids in the chain — a misfolded protein usually can't fit together with the molecules it needs to interact with, so it can't do its job properly, even if every amino acid is correct. Folding is not optional or automatic-always-perfect, and misfolding doesn't turn a protein into a different class of molecule.",
+      "misconception": "Learners often separate 'having the right ingredients' from 'having the right shape,' assuming correct building blocks alone guarantee correct function."
+    },
+    {
+      "id": "protein-q-compare-dna",
+      "conceptId": "compare-protein-dna",
+      "prompt": "How are proteins and DNA most accurately compared?",
+      "options": [
+        "DNA stores the instructions; proteins are the folded, working molecules built from those instructions",
+        "DNA and proteins are just two different names for the same molecule",
+        "Proteins store instructions, and DNA does the physical work in cells",
+        "DNA and proteins have no real connection to each other"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNA acts like a stable instruction manual kept in the cell, while proteins are the active, folded molecules built by reading those instructions and doing the actual physical work. DNA and proteins are chemically different types of molecules, their roles are not swapped, and they are directly connected through the process of gene expression.",
+      "misconception": "Because both are learned about together in genetics, learners often blur DNA and protein into being 'the same thing' or interchangeable, rather than seeing one as the instructions and the other as the built product."
+    }
+  ]
+}

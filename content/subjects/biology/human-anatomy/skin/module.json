@@ -1,0 +1,107 @@
+{
+  "id": "skin",
+  "subject": "biology",
+  "title": "Skin",
+  "summary": "The skin is the body's largest organ - a protective outer covering that shields you, helps control temperature, senses touch, and repairs itself. Explore its layers and its many jobs.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "epidermis-dermis-layers",
+    "protection-and-sensation",
+    "temperature-control-sweating",
+    "skin-repairs-itself"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Integumentary system",
+    "component": "Skin",
+    "displayPath": "Biology > Human Anatomy > Integumentary system > Skin"
+  },
+  "crossReferences": [
+    {
+      "label": "Temperature Regulation (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Temperature regulation",
+      "note": "Sweating and skin blood flow are the skin's starring role in temperature regulation."
+    },
+    {
+      "label": "Ear (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Ear",
+      "note": "Like the ear, the skin is a sensory organ, but it senses touch, pressure, heat, and cold rather than sound."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Integumentary system > Skin",
+  "compareCandidate": {
+    "label": "Skin vs. bark",
+    "description": "A tree's bark and our skin both protect, but skin is alive throughout, senses touch, sweats to cool us, and constantly repairs itself - bark is a nonliving protective layer."
+  },
+  "parts": [
+    "Epidermis",
+    "Dermis",
+    "Sweat glands",
+    "Sensory nerves",
+    "Hair roots"
+  ],
+  "processes": [
+    "Protecting the body",
+    "Sensing touch and temperature",
+    "Controlling temperature by sweating",
+    "Repairing itself"
+  ],
+  "plainLanguageExplanation": "The skin is the body's largest organ - in an adult it covers about 2 square meters. It has two main layers. The outer epidermis is the thin protective surface; its outer cells wear away and are constantly replaced. Below it, the thicker dermis contains blood vessels, nerves that sense touch, sweat glands, oil glands, and hair roots. The skin has many jobs: it protects the body from damage, germs, and water loss; it helps control temperature through sweating and blood flow; it lets you feel touch, pressure, heat, and cold; and it repairs itself when cut. A deeper layer, the hypodermis, attaches it to the body.",
+  "keyFacts": [
+    {
+      "label": "Size",
+      "value": "The largest organ - about 2 square meters in an adult"
+    },
+    {
+      "label": "Layers",
+      "value": "Epidermis (outer) and dermis (inner), over the hypodermis"
+    },
+    {
+      "label": "Protection",
+      "value": "Shields the body from damage, germs, and water loss"
+    },
+    {
+      "label": "Sensing",
+      "value": "Feels touch, pressure, heat, and cold"
+    },
+    {
+      "label": "Temperature",
+      "value": "Sweats and adjusts blood flow to control heat"
+    },
+    {
+      "label": "Repair",
+      "value": "Outer cells are replaced constantly; cuts heal"
+    },
+    {
+      "label": "Extras",
+      "value": "Contains sweat glands, oil glands, and hair roots"
+    }
+  ],
+  "whyItMatters": "The skin is your body's first line of defense and its largest sense organ. Understanding it explains why you sweat, why cuts heal, why you can feel a light touch, and why your skin constantly replaces itself.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Skin (Cutis)",
+  "tagline": "The body's protective covering",
+  "didYouKnow": "You shed about 30,000 to 40,000 dead skin cells every minute - your skin completely renews its outer layer roughly every month.",
+  "conditions": [
+    "Sunburn",
+    "Acne",
+    "Eczema",
+    "Burns"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Integumentary system > Skin",
+  "plain": "The skin is the body's largest organ - in an adult it covers about 2 square meters. It has two main layers. The outer epidermis is the thin protective surface; its outer cells wear away and are constantly replaced. Below it, the thicker dermis contains blood vessels, nerves that sense touch, sweat glands, oil glands, and hair roots. The skin has many jobs: it protects the body from damage, germs, and water loss; it helps control temperature through sweating and blood flow; it lets you feel touch, pressure, heat, and cold; and it repairs itself when cut. A deeper layer, the hypodermis, attaches it to the body."
+}

@@ -1,0 +1,42 @@
+{
+  "componentId": "neutron-star",
+  "terms": [
+    {
+      "term": "Neutron star",
+      "definition": "A stellar remnant of about two solar masses packed into a ball roughly 20 km across, made almost entirely of neutrons — the densest object that is still not a black hole.",
+      "conceptId": "neutron-degeneracy-pressure",
+      "hotspotId": "hs-interior",
+      "function": "The final core left when a superheavy star explodes."
+    },
+    {
+      "term": "Neutron degeneracy pressure",
+      "definition": "The resistance of tightly packed neutrons when quantum rules forbid them from sharing the same state — it is what holds the star up.",
+      "conceptId": "neutron-degeneracy-pressure",
+      "hotspotId": "hs-interior",
+      "function": "The neutron star's structural support.",
+      "whyItMatters": "It spells the end of the white dwarf family of support: lightest cores make white dwarfs, heavier ones make this."
+    },
+    {
+      "term": "Pulsar",
+      "definition": "A rotating neutron star whose radio beams sweep past Earth at regular intervals, making it appear to flash like a lighthouse.",
+      "conceptId": "pulsar-beacon-effect",
+      "hotspotId": "hs-beams",
+      "function": "A cosmic clock — because the star's rotation is so steady, pulsars keep time accurately."
+    },
+    {
+      "term": "Supernova remnant",
+      "definition": "The leftover debris cloud of a supernova explosion; the core remnant (neutron star) sits at its center.",
+      "conceptId": "supernova-remnant-core",
+      "hotspotId": "hs-supernova-outflow",
+      "whereItIs": "The expanding cloud around a newborn neutron star",
+      "whyItMatters": "It carries fresh heavy elements into the galaxy."
+    },
+    {
+      "term": "Conservation of angular momentum",
+      "definition": "The rule that a spinning object spins faster when its mass moves inward — the reason a collapsing star core becomes a rapidly spinning neutron star.",
+      "conceptId": "conservation-of-angular-momentum",
+      "hotspotId": "hs-beams",
+      "function": "Explains pulsar spin rates from a single turn a day to dozens a second."
+    }
+  ]
+}

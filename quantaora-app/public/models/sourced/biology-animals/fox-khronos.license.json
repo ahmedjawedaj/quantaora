@@ -1,0 +1,33 @@
+{
+  "asset": "fox-khronos.glb",
+  "component": "Animals > Behavior / animated animal movement",
+  "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Fox",
+  "downloadUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Fox/glTF-Binary/Fox.glb",
+  "provider": "Khronos glTF Sample Assets",
+  "creator": "PixelMannen; tomkranis; AsoboStudio and scurest",
+  "license": "CC0 model with CC-BY 4.0 rigging/animation/conversion",
+  "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Fox#legal",
+  "attributionRequired": true,
+  "attributionText": "Fox model by PixelMannen; rigging and animation by tomkranis; glTF conversion by AsoboStudio and scurest. Khronos glTF Sample Assets. CC0 / CC-BY 4.0.",
+  "redistributionStatus": "Redistributable with attribution for rigging, animation, and glTF conversion.",
+  "dateSourced": "2026-09-08",
+  "fileSizeBytes": 162852,
+  "sha256": "d97044e701822bac5a62696459b27d7b375aada5de8574ed4362edbba94771f7",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 26,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "imageCount": 1,
+    "embeddedImages": 1,
+    "externalUriImages": 0,
+    "animationCount": 3,
+    "hasBinChunk": true,
+    "approxDimensions": [25.1854, 79.0289, 154.7199]
+  },
+  "notes": "Animated fox GLB with Survey, Walk, and Run cycles. Used for Animals > Behavior because motion is central to behavior learning and the existing toolbar can expose play/pause when animations are present."
+}

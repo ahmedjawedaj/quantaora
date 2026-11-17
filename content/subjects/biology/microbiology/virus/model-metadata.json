@@ -1,0 +1,106 @@
+{
+  "id": "virus",
+  "componentId": "virus",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/microbiology/virus/virus.glb",
+  "assetCredit": "Procedural placeholder (icosahedron + spike cones). Not yet approved: the real poliovirus capsid asset (NIH 3D 3DPX-001519, EMDB 5886, CC0 1.0) is CONDITIONAL in docs/assets/reviews/biology-cell-visual.md #10 (line 48, over the size budget) and its decimated derivative in docs/assets/reviews/conditional-optimization.md #1 has no recorded PASS visual-acceptance verdict (that document only recommends a fresh review). Do not wire either GLB until a PASS is recorded.",
+  "thumbnailUrl": "/assets/thumbnails/biology/microbiology/virus.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Single virus",
+    "Protein coat",
+    "Genetic material",
+    "Host cell",
+    "Reproduction animation"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-coat",
+      "label": "Protein coat",
+      "conceptId": "virus-genetic-material-coat",
+      "position": [
+        0.1,
+        0.25,
+        0.2
+      ],
+      "description": "The outer protein shell of the virus that holds and protects the genetic material.",
+      "positionHint": "The outer capsule layer of the viral particle.",
+      "color": "#6B85A8",
+      "function": "Protects and carries the genes inside."
+    },
+    {
+      "id": "hs-genetic",
+      "label": "Genetic material",
+      "conceptId": "virus-genetic-material-coat",
+      "position": [
+        0,
+        0.2,
+        0.22
+      ],
+      "description": "The DNA or RNA inside the virus that carries its genes - the blueprint for making more viruses.",
+      "positionHint": "The coiled strand inside the coat.",
+      "color": "#D9A441",
+      "function": "Carries the genetic instructions."
+    },
+    {
+      "id": "hs-spikes",
+      "label": "Attachment spikes",
+      "conceptId": "virus-invades-host-cell",
+      "position": [
+        0.25,
+        0.3,
+        0.18
+      ],
+      "description": "Protein spikes on the outside that help the virus attach to a specific host cell.",
+      "positionHint": "Short projections poking from the coat surface.",
+      "color": "#D98A6A",
+      "function": "Stick the virus to its target cell."
+    },
+    {
+      "id": "hs-host",
+      "label": "Host cell",
+      "conceptId": "virus-invades-host-cell",
+      "position": [
+        -0.35,
+        0.05,
+        0.15
+      ],
+      "description": "A living cell the virus invades, using the cell's machinery to build more viruses.",
+      "positionHint": "The larger adjacent cell the viral particles are moving toward.",
+      "color": "#7FA874",
+      "function": "Provides machinery for the virus to copy itself."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier best: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A calm, clean stylized diorama. Muted, not gamey; glowing color used sparingly - the protein coat a refined neutral with restrained contrast, nothing luminous. Strong saturated color only on the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.55-0.65. The coat is a clean surface, no emissive.",
+  "assetBrief": "SUBJECT: a single icosahedral (capsule-ball) virus centrally placed, with a clean protein outer coat, visible internal genetic strand, and a few surface attachment spikes. A second larger host cell sits to one side, and a reproduction layer animates new small viruses emerging. Muted palette on warm cream. Named nodes: VirusCoat, GeneticStrand, Spikes, HostCell, NewVirusDots. Budget 12-16k.",
+  "visual": {
+    "shape": "virus-spikes"
+  }
+}

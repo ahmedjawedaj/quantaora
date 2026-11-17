@@ -1,0 +1,90 @@
+{
+  "id": "triangle",
+  "componentId": "triangle",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/triangle/triangle.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/triangle.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Triangular plate",
+    "Sides",
+    "Vertices",
+    "Angle tags"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-triangle-plate",
+      "label": "Triangle",
+      "conceptId": "triangle-definition",
+      "position": [
+        0,
+        0.5,
+        0.15
+      ],
+      "description": "The closed shape with three straight sides and three angles.",
+      "positionHint": "The triangular plate standing on the board.",
+      "color": "#D9A441",
+      "function": "The three-sided closed shape."
+    },
+    {
+      "id": "hs-side",
+      "label": "Side",
+      "conceptId": "triangle-definition",
+      "position": [
+        0.7,
+        0.15,
+        0.1
+      ],
+      "description": "One of the three straight segments of the triangle.",
+      "positionHint": "The bottom edge of the plate.",
+      "color": "#7FA86A",
+      "function": "A straight edge of the triangle."
+    },
+    {
+      "id": "hs-vertex-a",
+      "label": "Vertex A",
+      "conceptId": "triangle-180",
+      "position": [
+        -0.6,
+        0.75,
+        0.2
+      ],
+      "description": "One of the three corner points where two sides meet.",
+      "positionHint": "The labeled corner dot at the top.",
+      "color": "#6B85A8",
+      "function": "A corner of the triangle."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A triangular plate standing on edge with labeled sides, corner vertices, and live angle arcs at each corner. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Triangular plate: warm paper surface (roughness ~0.5). Sides: thin warm-ink strips. Vertices: small solid warm-ink spheres with label tags. Angle arcs: thin curved warm-ink strips with degree tags. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the triangle as the rigid three-sided shape \u2014 a triangular plate with draggable vertices, live angle tags summing to 180\u00b0, and a press test showing rigidity.\n\nGEOMETRY: A flat triangular plate standing on a base board. Its three vertices A, B, C are draggable dots; the plate and its three side strokes deform as they move. At each vertex a small arc and degree tag show the interior angle; a running total tag shows the sum always equal to 180\u00b0. A 'press test' button pushes on one side and the triangle holds rigid, while a companion 4-sided frame visibly sways for comparison. Presets morph the triangle into equilateral, isosceles, scalene, right.\n\nLAYERS (toggleable): (1) base board; (2) triangular plate; (3) vertices A, B, C; (4) angle arcs + total tag.\n\nCAMERA: three-quarter from front-left, slightly above, frames plate and presets; labels legible. Budget 5-9k triangles. Named nodes: Board, TrianglePlate, SideStrokes, Vertex_A, Vertex_B, Vertex_C, AngleTags, TotalTag, PressTest. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "triangle-prism"
+  }
+}

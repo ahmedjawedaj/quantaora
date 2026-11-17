@@ -1,0 +1,115 @@
+{
+  "id": "dna-replication",
+  "componentId": "dna-replication",
+  "subject": "biology",
+  "url": "/assets/models/biology/genetics/dna-replication/dna-replication.procedural.js",
+  "thumbnailUrl": "/assets/thumbnails/biology/genetics/dna-replication.png",
+  "modelType": "procedural-three",
+  "defaultCamera": {
+    "position": [
+      11,
+      2,
+      13
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      11,
+      2,
+      13
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraNote": "Tightened from the original draft's [13, 2, 15] to [11, 2, 13] (closer, narrower effective FOV ~32deg) so the four-stage vertical storyboard fills the frame comparably to reference single-organ hero shots, while still keeping fine detail (groove asymmetry, unpaired base stubs, cross-section gap) legible. Still a 3/4 elevated view, not top-down or dead-on side, so all four stages stay readable at once.",
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "defaultVisibleLayers": [
+    "Sugar-phosphate backbone",
+    "Base pairs",
+    "Enzymes (helicase / DNA polymerase)",
+    "Hotspot labels"
+  ],
+  "layers": [
+    {
+      "name": "Sugar-phosphate backbone",
+      "visibleByDefault": true
+    },
+    {
+      "name": "Base pairs",
+      "visibleByDefault": true
+    },
+    {
+      "name": "Enzymes (helicase / DNA polymerase)",
+      "visibleByDefault": true
+    },
+    {
+      "name": "Hotspot labels",
+      "visibleByDefault": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hotspot-helix-unwinds",
+      "label": "Helix Unwinds",
+      "conceptId": "dna-helix-unwinds",
+      "position": [
+        0.85,
+        6.5,
+        0.3
+      ],
+      "positionHint": "Top segment of the model, y ≈ +6.5, on the outer edge of the still-twisted helix just above the point where the two backbones begin to splay apart.",
+      "description": "At the top of the molecule the intact double helix meets the replication fork. The enzyme helicase breaks the hydrogen bonds between base pairs and unwinds the two backbone strands, like unzipping a spiral zipper."
+    },
+    {
+      "id": "hotspot-strands-separate",
+      "label": "Strands Separate",
+      "conceptId": "dna-strands-separate",
+      "position": [
+        0,
+        2,
+        0.6
+      ],
+      "positionHint": "Middle-upper segment, y ≈ +2, centered at the vertex of the Y where the two backbones diverge, offset slightly forward on the +z axis so it reads clearly during auto-rotate.",
+      "description": "Just below the unwinding point, the two backbone strands peel fully apart into a Y-shaped replication fork, each exposing its row of unpaired bases so new nucleotides can attach."
+    },
+    {
+      "id": "hotspot-new-strands-built",
+      "label": "New Strands Built",
+      "conceptId": "dna-new-strands-built",
+      "position": [
+        0,
+        -2,
+        0.6
+      ],
+      "positionHint": "Middle-lower segment, y ≈ -2, centered between the two forming daughter strands where new base-pair rungs are actively appearing, slightly offset toward the viewer.",
+      "description": "DNA polymerase reads each separated template strand and matches free-floating nucleotides to it by base-pairing rules (A with T, G with C), building a brand-new complementary strand alongside each original."
+    },
+    {
+      "id": "hotspot-two-copies-formed",
+      "label": "Two DNA Copies Formed",
+      "conceptId": "dna-two-copies-formed",
+      "position": [
+        0,
+        -6.5,
+        0.5
+      ],
+      "positionHint": "Bottom segment, y ≈ -6.5, in the gap between the two fully re-formed, separate double helices sitting side by side.",
+      "description": "The process finishes with two complete double helices, each made of one original strand and one newly built strand — two identical copies of the starting DNA molecule."
+    }
+  ],
+  "hotspotDotStylingNote": "Deliberate deviation from Anatomy Atelier's colored-halo dot treatment (visible in assets/reference/anatomy-atelier/desktop-interaction.png), not an oversight: this model already uses color to carry the A-T/G-C base-identity code (muted coral-red, dusty blue, leaf green, warm gold). A color-coded hotspot halo system layered on top would compete with that base-pair color code and risk learners reading a hotspot's ring color as a fifth base color. Hotspot dots stay small, flat, single-color discs in a neutral ink tone specifically so they read unambiguously as 'UI marker, tap here' and never as 'this is a base pair.' If a future cross-component pass standardizes colored-halo hotspots app-wide, this component's dots should switch to a color reserved outside the A/T/G/C palette (e.g. graphite, matching the enzyme accent) rather than reusing any base color.",
+  "visualStyleNotes": "Anatomy Atelier language applied to a molecule: one large, centered hero object floating on a warm off-white/paper background, minimal chrome (no cockpit HUD, no floating grids), soft matte materials with gentle single-source studio lighting and soft ambient occlusion in the grooves — no emissive glow, no neon rim-light, no bloom. Base-pair colors follow the standard biology mnemonic but desaturated ~20-30% to sit inside the Biology subject palette (coral, leaf green, warm paper): adenine = muted coral-red, thymine = soft dusty blue, guanine = muted leaf green, cytosine = soft warm gold. Backbones are a warm bone/cream matte plastic, not white-white and not glossy. Enzymes (helicase, DNA polymerase) are abstracted smooth rounded blob/clamp shapes in a single graphite-charcoal accent so they read as \"tools acting on the molecule\" without competing with the strand colors or turning into cartoon characters. Hotspot dots are small, flat, single-color circles (no pulsing glow rings) in a neutral ink color — see hotspotDotStylingNote above for why this intentionally departs from the reference's colored-halo dots — opening a soft tactile structure card on click. Typography for any in-scene labels: humanist sans, small, understated scientific caption style — never large gamey callouts.",
+  "assetBrief": "Build ONE continuous procedural double-helix structure, oriented vertically along the Y-axis, that reads top-to-bottom as a single storyboard of DNA replication in four stages — this is the \"see it\" hero object for the component and must work as a static, non-animated model that a learner can orbit, plus expose four clearly separated regions for the required hotspots. Do not build four disconnected objects; the backbones must visually flow continuously from stage to stage so the eye follows the process downward.\n\nGEOMETRY / LAYOUT (local model space, Y up, total height ≈ 15 units, centered at origin):\n1. Stage \"Helix Unwinds\" (y ≈ +4 to +7.5): a standard intact B-DNA double helix — two backbone strands as smooth tapered tubes (radius ≈ 0.18) sweeping around a central axis in a right-handed double helix, pitch ≈ 3.4 units per full turn, ~10 base-pair rungs per turn, so this segment shows roughly 1 full turn. Base-pair rungs are short cylinders (radius ≈ 0.06) connecting the two backbones at each rung position, colored by base per the palette above, with a visible major/minor groove asymmetry (the two backbone strands are NOT evenly spaced around the axis — offset per real B-DNA geometry, roughly 22°/198° split around the circumference). Just below y ≈ +4.5 the twisting motion of the backbones visibly relaxes and begins to open — this transition point is where the helicase enzyme (small rounded-clamp mesh, graphite color, radius ≈ 0.4) sits, straddling both backbones like a pinch point.\n2. Stage \"Strands Separate\" (y ≈ +0.5 to +4): the two backbones stop twisting around each other and splay outward into a Y-shape (replication fork), each strand curving smoothly outward and slightly forward (+z) so both are visible without occluding each other from the default camera. Bases along each separated strand stick out as short unpaired stubs (half-length cylinders, no rung on the far side yet) to show they are exposed and available for pairing. No enzymes required in this segment beyond the helicase already placed at its top boundary.\n3. Stage \"New Strands Built\" (y ≈ -4 to +0.5): each of the two separated template strands now runs alongside a newly synthesized complementary strand (visually distinguished by a slightly lighter/desaturated tube tint than the original template backbone, so learners can tell \"old\" vs \"new\" strand apart — this is the key pedagogical detail of semi-conservative replication). Base-pair rungs reappear here, now fully paired (template base + newly added complementary base, correct A-T / G-C coloring), gradually increasing in completeness as you move down the segment. Place one small rounded DNA-polymerase mesh (graphite, slightly larger/more oval than helicase, ≈0.5 unit) on each of the two forming strands near the top of this segment, positioned as if \"reading\" the template and adding bases.\n4. Stage \"Two DNA Copies Formed\" (y ≈ -7.5 to -4): the two strand-pairs from stage 3 each re-twist into a complete, fully independent double helix (same turn geometry as stage 1), now separated with a REDUCED lateral offset of x ≈ -1.4 / +1.4 (narrowed from an earlier draft's ±2.2) AND a front/back depth stagger of z ≈ +0.6 / -0.6, so the two helices read as clearly distinct, side-by-side molecules without (a) widening the overall bounding box enough to hurt frame-fill at the tightened default camera, or (b) fully occluding one another as they pass through profile during auto-rotate — at any rotation angle the depth offset keeps at least one full backbone edge of each helix visible past the other. Each daughter helix should be built from one \"original-tint\" backbone and one \"new-tint\" backbone to reinforce that both copies are hybrids of old + new material.\n\nMATERIALS: matte, low-roughness-but-not-glossy PBR (roughness ≈ 0.55, no metalness) on all mesh; a single soft key light plus warm ambient fill, no emissive materials anywhere, no bloom/glow post-processing. Ground/background is the app's warm off-white, not a gradient or vignette.\n\nCROSS-SECTION: support a cutting-plane cross-section perpendicular to the helix axis at any Y position, revealing the base-pair rung edge-on with the hydrogen-bond gap between paired bases visible (do not model actual H-bond lines, just leave the correct small gap so a \"cross-section\" camera framing reads as a clean textbook ladder-rung slice).\n\nCAMERA: default frames the full vertical storyboard — position [11, 2, 13], target [0, 0, 0] (tightened from an earlier [13, 2, 15] draft; see cameraNote above), roughly a 3/4 elevated view so all four stages are legible at once without a top-down or dead-on side angle. Auto-rotate is on by default (slow, ~6s/turn) so learners immediately perceive the double-helix geometry in 3D before touching it.\n\nWHAT NOT TO DO: no glossy toy-plastic shaders, no neon/glow base-pair colors, no cartoon enzyme characters with faces, no floating text labels baked into the mesh (labels are UI-layer, driven by hotspot data), no more than the four listed hotspot regions, no dense multi-turn helix (keep total turns per stage low, ~1 turn each, for visual clarity at kid-friendly reading speed), no dark/lab-neon background — must sit on the warm off-white Anatomy-Atelier-style backdrop, no widening the final-stage lateral offset back out past ±1.4 units without re-verifying frame-fill and occlusion at the tightened default camera.",
+  "visual": {
+    "shape": "transcription-flow"
+  }
+}

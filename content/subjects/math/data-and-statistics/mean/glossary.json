@@ -1,0 +1,41 @@
+{
+  "componentId": "mean",
+  "terms": [
+    {
+      "term": "Mean",
+      "conceptId": "mean-definition",
+      "hotspotId": "hs-mean-line",
+      "definition": "The data total divided by the number of data points — the average.",
+      "function": "The one-value fair share of the whole dataset.",
+      "whereItIs": "The level line across the bins.",
+      "whyItMatters": "The mean is the most quotable number in data."
+    },
+    {
+      "term": "Fair share",
+      "conceptId": "mean-share",
+      "hotspotId": "hs-bin",
+      "definition": "The value every point would get if all data were shared evenly.",
+      "function": "Think of pouring all values into one pile and re-dividing.",
+      "whereItIs": "Each bin leveled to the same height.",
+      "whyItMatters": "Fair share makes the formula feel true."
+    },
+    {
+      "term": "Sum and count",
+      "conceptId": "mean-compute",
+      "hotspotId": "hs-total-plate",
+      "definition": "The two ingredients of the mean — the total and the number of points.",
+      "function": "Mean = sum ÷ count.",
+      "whereItIs": "The plate at the front of the table.",
+      "whyItMatters": "Forgetting either part breaks the computation."
+    },
+    {
+      "term": "Outlier effect",
+      "conceptId": "mean-outlier",
+      "hotspotId": "hs-mean-line",
+      "definition": "A very large or small point pulls the mean strongly.",
+      "function": "Every point is added, so extremes shift the total.",
+      "whereItIs": "Visible when a huge bin joins the table.",
+      "whyItMatters": "Outlier sensitivity is why some datasets prefer the median."
+    }
+  ]
+}

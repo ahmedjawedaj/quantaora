@@ -1,0 +1,79 @@
+{
+  "componentId": "dna",
+  "questions": [
+    {
+      "id": "dna-q-double-helix",
+      "conceptId": "double-helix",
+      "hotspotId": "hotspot-double-helix",
+      "prompt": "What overall shape does a DNA molecule form?",
+      "options": [
+        "A flat, straight ladder with no twist",
+        "A single loop, like a rubber band",
+        "A double helix — two strands twisted around a shared axis, like a spiral staircase",
+        "A branching tree shape"
+      ],
+      "correctIndex": 2,
+      "explanation": "DNA's two strands twist around a shared axis, forming a double helix — like a spiral staircase. The twist is a real 3D feature of the molecule, not just an artistic choice in diagrams.",
+      "misconception": "Many learners picture DNA as a flat ladder because that's how it's often simplified in 2D textbook diagrams, missing that the real molecule is twisted in three dimensions."
+    },
+    {
+      "id": "dna-q-base-pairs",
+      "conceptId": "base-pairs",
+      "hotspotId": "hotspot-base-pairs",
+      "prompt": "In DNA base pairing, if one strand has the base Cytosine (C), what base must sit directly across from it on the other strand?",
+      "options": [
+        "Adenine (A)",
+        "Guanine (G)",
+        "Thymine (T)",
+        "Another Cytosine (C)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cytosine always pairs with Guanine (C-G), and Adenine always pairs with Thymine (A-T). This strict pairing rule is what lets one strand act as a template to rebuild the other.",
+      "misconception": "Learners often guess A, T, or a repeat of C because they haven't yet fixed the specific A-T / C-G pairing rule and are guessing based on 'any base can pair with any base' or matching letters that look similar."
+    },
+    {
+      "id": "dna-q-backbone",
+      "conceptId": "backbone",
+      "hotspotId": "hotspot-backbone",
+      "prompt": "What is the main job of the sugar-phosphate backbone in DNA?",
+      "options": [
+        "It carries the specific genetic code that determines a trait like eye color",
+        "It copies the entire DNA molecule right before a cell divides",
+        "It swaps oxygen and carbon dioxide between the two strands",
+        "It forms the two structural rails that hold the base pairs in place and give each strand its shape"
+      ],
+      "correctIndex": 3,
+      "explanation": "The sugar-phosphate backbone is a repeating chain of sugar and phosphate molecules running up each side of the ladder. It's the strong structural rail that holds the base pairs (the rungs) in place — the genetic code itself is carried by the sequence of bases, not the backbone.",
+      "misconception": "Learners often mix up the backbone's structural role with the base pairs' coding role, assuming the outer rails must be what 'spells out' the genetic instructions since they're the most visually prominent part of the twisted shape."
+    },
+    {
+      "id": "dna-q-genes",
+      "conceptId": "genes",
+      "hotspotId": "hotspot-genes",
+      "prompt": "What is a gene?",
+      "options": [
+        "A specific stretch of DNA sequence that carries instructions for a protein or trait",
+        "A single individual base like A, T, C, or G",
+        "The entire DNA molecule in one cell",
+        "A type of cell found only in the nucleus"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gene is a defined section of the DNA sequence — not the whole molecule and not a single letter — that codes for a particular protein or trait, like eye color.",
+      "misconception": "Learners sometimes think 'gene' and 'DNA' are two names for the same whole thing, when DNA is the full molecule and a gene is just one meaningful stretch of it — the same confusion as thinking one page of a book is the same as the whole book."
+    },
+    {
+      "id": "dna-q-location",
+      "conceptId": "dna-location",
+      "prompt": "Where in a human cell is DNA normally found?",
+      "options": [
+        "Spread loosely through the cytoplasm, outside the nucleus",
+        "Only inside red blood cells",
+        "Coiled up inside the nucleus",
+        "Only inside sperm and egg cells"
+      ],
+      "correctIndex": 2,
+      "explanation": "DNA is tightly coiled and packaged inside the cell's nucleus in almost every human cell (mature red blood cells are actually an exception — they lose their nucleus, and sperm/egg cells are not the only cells that carry DNA).",
+      "misconception": "Learners sometimes assume DNA is loose throughout the whole cell like general cytoplasmic material, or that it's exclusive to reproductive cells because those are the cells most associated with 'passing on DNA' — rather than recognizing nearly every cell in the body carries a full copy, contained within the nucleus."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "golgi-apparatus",
+  "componentId": "golgi-apparatus",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/golgi-apparatus/golgi-apparatus.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/golgi-apparatus.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Arriving vesicles",
+    "Stacked cisternae",
+    "Departing vesicles",
+    "Labeling region"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cisternae",
+      "label": "Stacked pouches (cisternae)",
+      "conceptId": "golgi-sorts-ships",
+      "position": [
+        0.15,
+        0.3,
+        0.2
+      ],
+      "description": "The flattened membrane pouches stacked like pancakes that sort and process cargo.",
+      "color": "#D98A6A",
+      "function": "Sorts, labels, and packages the products passing through."
+    },
+    {
+      "id": "hs-in",
+      "label": "Arriving bubble",
+      "conceptId": "receives-from-er",
+      "position": [
+        -0.4,
+        0.15,
+        0.25
+      ],
+      "description": "A transport bubble from the ER fusing with the Golgi to deliver cargo.",
+      "color": "#6B85A8",
+      "function": "Delivers proteins and lipids from the ER."
+    },
+    {
+      "id": "hs-out",
+      "label": "Departing bubble",
+      "conceptId": "golgi-sorts-ships",
+      "position": [
+        0.4,
+        -0.2,
+        0.2
+      ],
+      "description": "A packaged bubble leaving the Golgi, carrying products to their destination.",
+      "color": "#B5846A",
+      "function": "Ships finished products to their destination."
+    },
+    {
+      "id": "hs-label",
+      "label": "Labeling region",
+      "conceptId": "packages-and-labels",
+      "position": [
+        -0.1,
+        -0.1,
+        0.3
+      ],
+      "description": "Where products get molecular tags telling the cell where they belong.",
+      "color": "#D9A441",
+      "function": "Adds tags that direct products to the right place."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organelle floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality - museum-model cross-section caps, never gore. COLOR IS RESTRAINED: the organelle reads as a calm warm-paper specimen; each structural part is modeled in a muted near-neutral shade (warm taupe, pale vanilla, soft slate), never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Interior fluid (if any) is softly translucent but not glassy; cross-section cuts are clean flat museum caps. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: the Golgi apparatus as a stack of flattened membrane pouches (4-6 cisternae) seen at a slight angle in a cutaway cell slice. A transport bubble is shown fusing with the entry face on one side, and several smaller packaged bubbles are shown budding off the exit face on the other. A soft highlight ring suggests the labeling region. Warm-paper palette, muted. Named nodes: Cisterna01-06, ArrivingVesicle, DepartingVesicle01-03, LabelingRing. Budget 12-16k.",
+  "visual": {
+    "shape": "golgi-stack"
+  }
+}

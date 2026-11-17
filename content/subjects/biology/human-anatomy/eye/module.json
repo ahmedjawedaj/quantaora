@@ -1,0 +1,108 @@
+{
+  "id": "eye",
+  "subject": "biology",
+  "title": "Eye",
+  "summary": "The eye is the body's camera - it lets in light through a lens, focuses it, and turns it into signals the brain reads as sight. Explore its key parts and the journey of light.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "cornea-pupil-iris",
+    "lens-focuses-light",
+    "retina-light-cells",
+    "optic-nerve-to-brain"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Sensory systems",
+    "component": "Eye",
+    "displayPath": "Biology > Human Anatomy > Sensory systems > Eye"
+  },
+  "crossReferences": [
+    {
+      "label": "Brain (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Brain",
+      "note": "The brain's occipital region processes the visual signals the eye sends - sight happens in the brain."
+    },
+    {
+      "label": "Nerve Signaling (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Nerve signaling",
+      "note": "The eye's signals travel as nerve signals to the brain."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Sensory systems > Eye",
+  "compareCandidate": {
+    "label": "Eye vs. camera",
+    "description": "The eye and a camera work very alike: a lens focuses light onto a light-sensitive surface (retina or film/sensor). But the eye can focus automatically, moves in its socket, and its signal is processed by a living brain."
+  },
+  "parts": [
+    "Cornea",
+    "Pupil and iris",
+    "Lens",
+    "Retina",
+    "Optic nerve",
+    "Sclera"
+  ],
+  "processes": [
+    "Letting light in",
+    "Focusing light with the lens",
+    "Turning light into signals on the retina",
+    "Carrying signals to the brain"
+  ],
+  "plainLanguageExplanation": "The eye works like a camera. Light enters through the clear front (cornea) and passes through a hole called the pupil, whose size is controlled by the colored iris. The lens behind the pupil focuses the light onto the back of the eye, a screen called the retina. The retina is covered with light-sensing cells that turn light into signals. Those signals travel through the optic nerve to the brain, which builds the picture you see. The eyeball sits in a protective socket, and the sclera is its tough white outer coat. This whole path - light in, focused, sensed, sent - is how you see.",
+  "keyFacts": [
+    {
+      "label": "Nickname",
+      "value": "The body's camera"
+    },
+    {
+      "label": "Entry",
+      "value": "Light enters through the clear cornea and the pupil"
+    },
+    {
+      "label": "Iris",
+      "value": "The colored part that controls pupil size"
+    },
+    {
+      "label": "Lens",
+      "value": "Focuses light onto the retina"
+    },
+    {
+      "label": "Retina",
+      "value": "The screen at the back with light-sensing cells"
+    },
+    {
+      "label": "Signal",
+      "value": "The optic nerve carries the signal to the brain"
+    },
+    {
+      "label": "Protection",
+      "value": "The sclera is the tough white outer coat"
+    }
+  ],
+  "whyItMatters": "The eye lets you experience the world through sight. Understanding its parts explains why you need glasses, why pupils change size, and how light becomes the images your brain sees.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Eye (Oculus)",
+  "tagline": "The body's camera",
+  "didYouKnow": "Your eyes capture light and send about 10 million bits of information to your brain every second.",
+  "conditions": [
+    "Nearsightedness",
+    "Farsightedness",
+    "Cataract",
+    "Color blindness"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Sensory systems > Eye",
+  "plain": "The eye works like a camera. Light enters through the clear front (cornea) and passes through a hole called the pupil, whose size is controlled by the colored iris. The lens behind the pupil focuses the light onto the back of the eye, a screen called the retina. The retina is covered with light-sensing cells that turn light into signals. Those signals travel through the optic nerve to the brain, which builds the picture you see. The eyeball sits in a protective socket, and the sclera is its tough white outer coat. This whole path - light in, focused, sensed, sent - is how you see."
+}

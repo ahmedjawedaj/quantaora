@@ -1,0 +1,69 @@
+{
+  "componentId": "andromeda",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/galaxies/andromeda.scene.ts",
+  "thumbnailUrl": "src/features/model-viewer/thumbnails/space/galaxies/andromeda.png",
+  "cameraDefault": {
+    "position": [9, 4.2, 10.5],
+    "target": [0, 0, 0]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    {
+      "id": "disk",
+      "label": "Galactic disk",
+      "explanation": "The thin, spinning plane of stars and gas — wider and smoother than the Milky Way's, with no central bar."
+    },
+    {
+      "id": "nucleus",
+      "label": "Bright nucleus",
+      "explanation": "The dense center, glowing extra-bright and hosting a supermassive black hole of over 100 million solar masses."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-central-bulge",
+      "label": "Central bulge",
+      "conceptId": "galaxy-central-bulge",
+      "position": [0.1, 0, 0.2],
+      "description": "The crowded, bright hub of Andromeda — brighter and rounder than our own galaxy's bulge.",
+      "function": "Shows where Andromeda's trillion stars crowd together."
+    },
+    {
+      "id": "hs-spiral-arm",
+      "label": "Smooth spiral arm",
+      "conceptId": "classic-spiral-arm",
+      "position": [-2.2, 0.3, 1.6],
+      "description": "A classic, smooth spiral arm — Andromeda is a textbook spiral with no central bar, unlike the Milky Way.",
+      "function": "Highlights what makes Andromeda a 'classic' spiral."
+    },
+    {
+      "id": "hs-dust-lane",
+      "label": "Dust lanes",
+      "conceptId": "galaxy-dust-lane",
+      "position": [0.9, 0.15, 2.4],
+      "description": "Dark bands of dust and gas threading the arms — the raw material for new stars.",
+      "function": "Points out the dark dust that traces the arms."
+    },
+    {
+      "id": "hs-satellite-galaxies",
+      "label": "Satellite galaxies",
+      "conceptId": "satellite-galaxy",
+      "position": [3.2, 0.6, -1.1],
+      "description": "Two small companion galaxies, M32 and M110, that orbit Andromeda like moons orbit a planet.",
+      "function": "Shows that galaxies can have smaller galaxies circling them."
+    },
+    {
+      "id": "hs-collision-course",
+      "label": "Collision course",
+      "conceptId": "galaxy-merger-path",
+      "position": [-3.4, 0.2, -1.8],
+      "description": "The direction the Milky Way is falling toward Andromeda at about 110 kilometers per second — a merger in roughly four billion years.",
+      "function": "Marks the future merger path with our own galaxy."
+    }
+  ],
+  "visual": {
+    "shape": "galaxy-disk"
+  }
+}

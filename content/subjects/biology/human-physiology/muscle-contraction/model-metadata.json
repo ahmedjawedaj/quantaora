@@ -1,0 +1,163 @@
+{
+  "id": "muscle-contraction",
+  "componentId": "muscle-contraction",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/models/biology/authored/physiology-muscle-contraction-muscle-cell.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/muscle-contraction.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: it is generated entirely from three.js primitives at runtime by a scene-builder module, not loaded from a GLB file, so there is no binary asset to place under public/assets/models/. `url` is a placeholder pointing to where that scene-builder module should live, following this project's source-code conventions, and must resolve to the real implemented module once built. `thumbnailUrl` is a placeholder PNG path following the standard asset-folder convention (spec section 21) for the static preview/card image, and must be generated (a rendered screenshot of the resting pose) once the procedural scene exists. `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated numeric values derived from the assetBrief's described scene layout — a starting point for the dev implementing the scene-builder, not measurements of an existing mesh — and should be verified and adjusted against the actual running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      1.6,
+      0.85,
+      1.85
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      1.6,
+      0.85,
+      1.85
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraFramingNote": "Tightened from an earlier full-width framing draft ([2.4, 1.1, 2.6]) specifically so the sarcomere + immediate SR zone (roughly x=-0.75 to x=+0.75) reads as the large, dominant, centered subject at default load, matching the reference's dominant-object framing rather than showing the full ~2.7-unit-wide storyboard evenly. At this closer distance the nerve terminal and axon stub (out past x=-1.3) sit near the left frame edge, partially cropped — read intentionally as 'the mechanism continues off-frame toward its trigger,' not as an equally-weighted fifth of the composition. Clicking the hs-nerve-signal hotspot (or any hotspot outside the default crop) should ease the camera outward/toward that stage's position so it's never permanently off-screen, only de-emphasized at rest.",
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "crossSectionNote": "No separate cross-section control is exposed, to avoid a redundant toggle. The model is already authored as an interior cutaway (the sarcomere, SR tubes, and cross-bridge detail are the default view), and the one layer that would normally be 'cut away' to reveal that interior — the whole-fiber context shell — already has its own dedicated entry in `layers` ('Whole-fiber context shell (translucent cutaway trough)') that can be shown or hidden independently. A second crossSectionAvailable control would duplicate that same show/hide action under a different name, so it is turned off here; if a future revision adds real depth-wise cross-sectioning (e.g. slicing through the myofibril's radial cross-section to show filament packing), re-enable this flag and give it a distinct, non-overlapping effect from the layer toggle.",
+  "groundingNote": "A soft radial ground-shadow (a faint, blurred dark ellipse on the studio backdrop directly beneath the sarcomere/SR assembly, not a modeled pedestal object) sits under the scene, matching the grounding treatment visible in all three Anatomy Atelier reference stills (desktop-overview, desktop-interaction, mobile-overview). The whole-fiber context shell floats a small, consistent height above this shadow plane so the assembly reads as a large object resting in a lit studio space, not as parts floating in a void.",
+  "paletteJustificationNote": "This model intentionally uses more hues (5-6) than a typical single-organ Anatomy Atelier asset, which usually reserves saturation for hotspot dots alone against one dominant tissue tone. The justification: a whole organ like a heart is anatomically one continuous tissue, so a single dominant hue is accurate and reads cleanly. This asset is a molecular mechanism diagram where the pedagogical task is telling apart 4-5 functionally distinct, simultaneously-visible actors (nerve, calcium, actin, myosin, supporting membrane) that a single-hue treatment would visually flatten into an undifferentiated mass — the color-per-structure convention here mirrors how printed biology textbooks and standard cross-bridge-cycle diagrams already color-code these same structures, so it is a legibility requirement of this specific subject, not a stylistic drift from the reference. To keep this from reading as busier than the reference bar allows, saturation stays low across the board (see materials notes below), the palette is capped at 6 hues total, and it is still organized around one dominant warm family (coral/red-brown/tan covering the three largest, most central structures — actin, myosin, Z-discs) with only two cooler accent hues (leaf green for SR, sky-blue for calcium) and one neutral accent (violet-gray for the nerve terminal) reserved for the smaller supporting structures — the same 'one dominant family, accent reserved for what needs to stand out' logic the reference uses, just applied across a multi-part mechanism instead of a single tissue.",
+  "layers": [
+    "Whole-fiber context shell (translucent cutaway trough)",
+    "Neuromuscular junction (nerve terminal + motor end plate)",
+    "Sarcoplasmic reticulum network + calcium ion pool",
+    "Sarcomere detail (Z-discs, actin, myosin, cross-bridge heads)",
+    "Resting-length ghost overlay (for shortening comparison)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-nerve-signal",
+      "label": "Nerve signal arrives",
+      "conceptId": "nerve-signal-arrives",
+      "position": [
+        -1.4,
+        0.3,
+        0.35
+      ],
+      "description": "An electrical impulse travels down the motor neuron's axon and reaches the neuromuscular junction, releasing a chemical signal that depolarizes the muscle fiber's membrane.",
+      "positionHint": "Far left end of the scene (~x=-1.4), on the bulbous nerve terminal (motor end plate) where it presses into a shallow indent on the sarcolemma's outer shell. The axon trails off-frame to the upper-left, cut off cleanly (not tapered to a point) to read as 'continues beyond view.'",
+      "structureCard": {
+        "name": "Nerve signal arrival",
+        "plainLanguageDefinition": "The moment an electrical 'go' message from the brain reaches the muscle and starts the whole contraction process.",
+        "function": "Delivers the electrical signal from a motor neuron to the muscle fiber and releases a chemical messenger (acetylcholine) that depolarizes the sarcolemma, kicking off the entire excitation-contraction sequence.",
+        "whereItIs": "At the neuromuscular junction — the bulbous nerve terminal (motor end plate) pressed into a shallow indent on the muscle fiber's outer membrane, at the far left end of the scene where the axon enters from off-frame.",
+        "whyItMatters": "Nothing else in the sequence happens without this step — it's the trigger that converts a nervous-system decision ('move your arm') into a physical muscle response.",
+        "relatedConcept": "calcium-release"
+      },
+      "color": "#9B8FA6",
+      "function": "Delivers the electrical signal from a motor neuron to the muscle fiber and releases acetylcholine, depolarizing the sarcolemma."
+    },
+    {
+      "id": "hs-calcium-release",
+      "label": "Calcium release",
+      "conceptId": "calcium-release",
+      "position": [
+        -0.65,
+        0.2,
+        0.35
+      ],
+      "description": "The signal spreads inward along the membrane and triggers the sarcoplasmic reticulum to release its stored calcium ions into the space around the filaments.",
+      "positionHint": "Left-center (~x=-0.65), on the net-like sarcoplasmic reticulum tubes wrapping the myofibril just past the nerve terminal. Small pale-blue sphere instances (calcium ions) cluster here, mid-scatter between the SR tube and the filament zone at this stage's animation pose.",
+      "structureCard": {
+        "name": "Calcium release",
+        "plainLanguageDefinition": "The muscle fiber's internal calcium storage tank dumps its calcium into the space around the filaments, switching contraction on.",
+        "function": "The sarcoplasmic reticulum releases stored calcium ions in response to the nerve signal; the calcium binds to a regulatory protein on actin and uncovers the myosin-binding sites.",
+        "whereItIs": "In the net-like sarcoplasmic reticulum tubes wrapping the myofibril just past the nerve terminal, where pale-blue calcium ion spheres appear mid-scatter into the filament zone.",
+        "whyItMatters": "Calcium is the switch — without it, myosin's binding sites on actin stay covered and no contraction can occur no matter how strong the nerve signal is.",
+        "relatedConcept": "actin-myosin-filament-sliding"
+      },
+      "color": "#9FC6D9",
+      "function": "The sarcoplasmic reticulum releases stored calcium ions, exposing myosin-binding sites on actin."
+    },
+    {
+      "id": "hs-filament-sliding",
+      "label": "Actin-myosin filament sliding",
+      "conceptId": "actin-myosin-filament-sliding",
+      "position": [
+        0,
+        0.05,
+        0.2
+      ],
+      "description": "Calcium exposes binding sites on actin; myosin heads attach, pivot in a power stroke, release, and reattach farther along — a ratchet-like walking motion that pulls the actin filaments inward.",
+      "positionHint": "Dead center of the scene (~x=0, slightly forward at z=0.2), directly on the cross-bridge overlap zone where the thick myosin filament's paddle-shaped heads visibly grip the thinner actin filaments. The single most prominent, highest-detail region of the model.",
+      "structureCard": {
+        "name": "Actin-myosin filament sliding",
+        "plainLanguageDefinition": "Thousands of tiny myosin 'arms' grab the thin actin filaments and pull them inward, like a hand-over-hand rope pull.",
+        "function": "Myosin heads attach to newly exposed sites on actin, pivot through a power stroke pulling actin inward, release, and reattach farther along — repeating this cross-bridge cycle using energy from ATP.",
+        "whereItIs": "Dead center of the model, where the thick myosin filament's paddle-shaped heads visibly grip the thinner actin filaments in the overlap zone — the single most detailed region of the model.",
+        "whyItMatters": "This is the actual mechanical event of contraction — every earlier step (nerve signal, calcium) exists only to trigger this filament-sliding motion.",
+        "relatedConcept": "muscle-shortens"
+      },
+      "color": "#D97B63",
+      "function": "Myosin heads attach to actin, pivot through a power stroke pulling actin inward, release, and reattach farther along, repeating with ATP."
+    },
+    {
+      "id": "hs-muscle-shortens",
+      "label": "Muscle shortens",
+      "conceptId": "muscle-shortens",
+      "position": [
+        0,
+        0.4,
+        0.15
+      ],
+      "description": "As thousands of cross-bridge cycles repeat, actin is pulled deeper between the myosin filaments, the Z-discs move closer together, and the whole sarcomere — and the fiber — shortens.",
+      "positionHint": "Raised slightly above center (~x=0, y=0.4), pointing at the full Z-disc-to-Z-disc span of the sarcomere unit rather than any single filament. At this stage the sarcomere geometry sits in its shortened pose, with the faint 'resting-length' ghost outline layer visible behind it for before/after comparison.",
+      "structureCard": {
+        "name": "Muscle shortens",
+        "plainLanguageDefinition": "As the sliding repeats across thousands of cross-bridges, the whole sarcomere pulls itself shorter.",
+        "function": "Repeated cross-bridge cycling pulls actin progressively deeper between the myosin filaments, drawing the two Z-discs closer together and shortening the sarcomere — and, multiplied across a whole fiber, the muscle.",
+        "whereItIs": "Spans the full Z-disc-to-Z-disc width of the sarcomere unit, shown here in its shortened pose next to a faint 'resting-length' ghost outline for comparison.",
+        "whyItMatters": "This is the visible, functional outcome of contraction — it's what actually pulls on a tendon and moves a bone, or squeezes a heart chamber, or closes an eyelid.",
+        "relatedConcept": "muscle-relaxation"
+      },
+      "color": "#8B4A3A",
+      "function": "Repeated cross-bridge cycling pulls the Z-discs closer together, shortening the sarcomere and the fiber."
+    },
+    {
+      "id": "hs-muscle-relaxation",
+      "label": "Muscle relaxation",
+      "conceptId": "muscle-relaxation",
+      "position": [
+        0.75,
+        0.2,
+        0.35
+      ],
+      "description": "When nerve stimulation stops, calcium is pumped back into the sarcoplasmic reticulum, binding sites are covered again, cross-bridges release, and the filaments slide back to resting length.",
+      "positionHint": "Right side of the scene (~x=0.75), on a second sarcoplasmic reticulum tube segment modeled as the 'reuptake' side — calcium ion spheres here are mid-animation converging back into the SR tube rather than scattering out.",
+      "structureCard": {
+        "name": "Muscle relaxation",
+        "plainLanguageDefinition": "When the nerve signal stops, calcium gets pumped back into storage and the filaments let go, sliding back to resting length.",
+        "function": "Calcium is actively pumped back into the sarcoplasmic reticulum, re-covering actin's binding sites so myosin can no longer attach; the filaments slide back apart and the sarcomere returns to resting length.",
+        "whereItIs": "On the right-side sarcoplasmic reticulum tube segment (the 'reuptake' side), where calcium ion spheres are shown mid-animation converging back into the tube.",
+        "whyItMatters": "Relaxation is just as active a process as contraction — it costs ATP too — and without it a muscle would stay locked in contraction (this is part of why rigor mortis happens after death, when ATP runs out).",
+        "relatedConcept": "nerve-signal-arrives"
+      },
+      "color": "#8FA98C",
+      "function": "Calcium is pumped back into the sarcoplasmic reticulum, binding sites are covered again, and filaments slide back to resting length."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, large centered object, minimal chrome, no HUD clutter, no glow/gradient effects, no cartoon outlines. This is a mechanism/process model (not a single static organ), so it is a horizontal \"storyboard\" scene laid out left-to-right along local X — nerve terminal -> sarcoplasmic reticulum -> sarcomere overlap zone -> shortened sarcomere -> reuptake SR — so a viewer's eye and the camera's slow auto-rotate naturally read it like a diagram even before any hotspot is clicked. See `cameraFramingNote` for how the default camera keeps this readable as one dominant subject rather than a thin strip of small parts, and `groundingNote` for how the scene avoids a 'floating in void' look. Auto-rotate is slow (~28s/revolution) and automatically pauses whenever a hotspot's stage animation is actively playing, so camera motion never gets confused with the filament sliding motion the animation is trying to teach; it resumes after the animation settles. Materials are uniformly matte PBR (roughness ~0.6-0.8, near-zero metalness, no emissive channels — calcium ions read as small solid pale-blue spheres, not particles or glowing dots). Palette stays inside Quantaora's biology identity, with the multi-hue choice explicitly justified in `paletteJustificationNote`: coral for actin (thin filaments), a deeper muted red-brown for myosin (thick filaments + cross-bridge heads), warm cream/tan for Z-discs, pale leaf green (semi-translucent) for the sarcoplasmic reticulum tubes, soft muted violet-gray for the nerve terminal and axon (visually distinct from muscle tissue), pale sky-blue for calcium ion spheres, and a very light warm off-white translucent shell for the whole-fiber context trough. Hotspot dots are small flat-colored circles matching the app's standard hotspot treatment, each opening a soft tactile structure card; clicking a hotspot both opens its card and plays that stage's short primitive-transform animation (calcium scatter, myosin head rotation, Z-disc translation) rather than a skeletal/GLB animation clip, since this is a procedural-three build.",
+  "assetBrief": "SUBJECT: A schematic, zoomed-in cutaway of a single skeletal-muscle motor unit segment — one neuromuscular junction feeding into one exposed sarcomere — used to teach the 5-stage excitation-contraction sequence (nerve signal -> calcium release -> filament sliding -> shortening -> relaxation). This is NOT a whole muscle belly, NOT a full multinucleated fiber (see the separate \"Muscle Cell\" component for that), and NOT anatomically exhaustive — it is a clean teaching diagram built from primitives, staged as discrete animated poses rather than continuous real-time physics.\n\nBUILD METHOD: procedural-three. Do not author a GLB. Build entirely from three.js primitives (cylinders, capsules, tori/tube segments, flattened discs, small spheres) organized as named groups so the app's layer-toggle UI and hotspot/animation system can address each part independently. Drive the 5 stages with a small state machine (resting / signal / calcium / sliding / shortened->relaxing back to resting) that tweens primitive positions and rotations (e.g. with three.js AnimationMixer keyframes or a simple lerp/tween utility) — no skeletal rig needed.\n\nGROUNDING: Add a soft radial ground-shadow beneath the assembly (a faint, blurred dark ellipse on the backdrop, not a modeled object) per `groundingNote`, so the scene reads as resting in a lit studio space rather than floating in a void, matching all three Anatomy Atelier reference stills.\n\nCAMERA / FRAMING: Default camera per `cameraDefault`/`cameraFramingNote` above — cropped to the sarcomere + immediate SR zone (roughly x=-0.75 to +0.75) as the dominant, frame-filling subject, with the nerve terminal/axon at the far left edge read as a clear 'continues off-frame toward its trigger' element rather than weighted equally across the full storyboard width.\n\nCROSS-SECTION: No separate cross-section control — see `crossSectionNote`. The model is already an interior cutaway by default; the whole-fiber context shell layer alone provides the show/hide-the-exterior function.\n\nSCENE LAYOUT (local X axis, left to right, all units approximate, origin at scene center):\n- x = -1.6 to -1.3: Axon stub — a thin tapering cylinder entering from the upper-left, cut off cleanly off-frame (not organically tapered to nothing, just a clean cut end implying \"continues beyond view\").\n- x = -1.3: Nerve terminal (motor end plate) — a squashed-sphere/capsule bouton, radius ~0.15, pressed into a shallow matching indent on the sarcolemma shell surface directly below it. Optionally scatter 4-6 tiny spheres (neurotransmitter vesicles) just inside the bouton, static, not animated (detail only, not a hotspot target).\n- x = -1.1 to +1.1: Sarcolemma context shell — an open half-pipe/trough shape (like a cylinder with the front third removed lengthwise, matching the \"wedge cutaway\" language used elsewhere in this app) running the full width of the scene at radius ~0.5, semi-translucent warm off-white, so it reads as \"we are inside one fiber\" without occluding the interior detail. This is the \"Whole-fiber context shell\" layer — toggle-able off entirely for a clean interior-only view.\n- x = -0.75 and x = +0.75: Two sarcoplasmic reticulum tube clusters — each a net of 3-4 thin toroidal/tube segments (radius ~0.06 tube thickness) wrapping around the myofibril's circumference at that point along X, pale leaf green, ~40% opacity. The left cluster is the \"release\" side (paired with hs-calcium-release), the right cluster is the \"reuptake\" side (paired with hs-muscle-relaxation) — visually near-identical geometry, differentiated only by which way their calcium ion spheres are animating.\n- x = -0.5 to +0.5: The sarcomere unit — the star of the model:\n  - Two Z-discs: thin flattened cylinders (discs), radius ~0.35, thickness ~0.03, oriented perpendicular to X, positioned at the sarcomere's two ends (resting pose: x=-0.5 and x=+0.5, i.e. ~1.0 unit apart). Warm cream/tan color.\n  - Actin (thin) filaments: 6-8 thin cylinders (radius ~0.015), anchored to each Z-disc pointing inward toward center, resting-pose length reaching to about x=+/-0.15 (leaving a visible central H-zone gap at rest). Coral color.\n  - Myosin (thick) filaments: 3-4 thicker cylinders (radius ~0.035) centered on the M-line at x=0, spanning roughly x=-0.35 to +0.35, interleaved between the actin filaments in cross-section (offset radially so they read as \"in between\" not overlapping). Deeper muted red-brown color. Along each myosin filament, add 6-10 small paddle-shaped cross-bridge heads (tiny angled cylinders or flattened capsules, ~0.04 long) as child objects that can rotate about their attachment point — this rotation IS the \"power stroke\" animated at the hs-filament-sliding stage.\n  - Titin-suggestion (optional, low priority): a single very thin elastic-looking line/cylinder from each Z-disc to the nearest myosin filament tip, barely visible, only if budget allows — omit without penalty if it complicates the primitive count.\n\nANIMATION STAGES (poses the state machine tweens between, keyed to the 5 hotspots in order):\n1. Resting (default/idle pose, camera lands here): actin/myosin as described above, Z-discs 1.0 unit apart, calcium ions all resting inside their SR tube clusters (invisible/hidden or tucked inside the translucent tube geometry), cross-bridge heads at a neutral, un-rotated angle.\n2. hs-nerve-signal: no geometry change required — this stage's \"animation\" can be a subtle pulse/travel cue along the axon stub (e.g. a small light-colored ring or dot traveling along the axon toward the terminal over ~1s), everything else stays at resting pose.\n3. hs-calcium-release: 8-12 small pale-blue spheres (~0.02 radius) animate from inside the left SR tube cluster, scattering outward into the gap around the actin/myosin overlap zone over ~1-1.5s, then hold there.\n4. hs-filament-sliding: cross-bridge heads on the myosin filaments rotate through a repeating small-angle sweep (power-stroke motion, ~30-40 degree arc) in a staggered/wave pattern along the filament length over ~2s, giving a visible \"walking\" impression without literally translating the actin yet (that payoff is stage 5).\n5. hs-muscle-shortens: actin filaments translate inward along X and the two Z-discs translate inward to close the sarcomere from ~1.0 unit apart down to ~0.75 unit apart (25% shortening — visible but not exaggerated) over ~1.5s; simultaneously fade in the \"resting-length ghost overlay\" layer (a faint wireframe or 20%-opacity outline of the original Z-disc positions) behind the shortened geometry so the before/after comparison reads clearly.\n6. hs-muscle-relaxation: reverse the above — the 8-12 calcium spheres travel from the overlap zone into the right-side SR tube cluster over ~1.5s, cross-bridge heads return to neutral angle, Z-discs and actin filaments translate back outward to the 1.0-unit resting spacing, ghost overlay fades out.\n\nMATERIALS: Matte PBR throughout, roughness ~0.6-0.8, metalness ~0, zero emissive on every material including the calcium ion spheres (no glow — they read as small solid pale sky-blue beads, not particle-effect dots). Sarcolemma context shell: warm off-white, ~35-45% opacity. SR tubes: pale leaf green, ~40% opacity. Actin: soft coral, fully opaque matte. Myosin + cross-bridge heads: deeper muted red-brown, fully opaque matte. Z-discs: warm cream/tan, fully opaque matte. Nerve terminal + axon: muted violet-gray, fully opaque matte, visually distinct from every muscle-tissue color so it never gets confused with the sarcomere itself. Calcium ions: pale sky-blue, fully opaque matte, small enough to read as \"ions\" not \"props.\" See `paletteJustificationNote` for why this model uses more hues than a single-organ asset would.\n\nTOPOLOGY/BUDGET: Very low — everything is primitives with modest segment counts (12-16 radial segments on cylinders is plenty; this is a diagram, not a hero asset). Target well under 15k triangles total including all instanced calcium spheres and cross-bridge heads, since it must run smoothly as a live animated three.js scene rather than a static loaded mesh, including on mid-range tablets.\n\nREFERENCE: Match the render language of assets/reference/anatomy-atelier/desktop-overview.png and desktop-interaction.png (warm off-white backdrop, large centered soft-shaded subject, restrained cutaway, small flat hotspot dots, soft tactile label cards, soft ground shadow) re-skinned to this biology coral/green/violet-gray palette — even though the underlying subject here is a mechanism diagram rather than a whole organ.\n\nDO NOT: use neon/glow or emissive materials anywhere (especially not on the calcium ions — no \"energy particle\" look), use chrome/metallic shaders, use cartoon black outlines or cel-shading, model a full anatomically exhaustive muscle fiber or whole muscle belly (that scope belongs to the separate Muscle Cell component — this one stays a schematic single-sarcomere + NMJ segment), bake any text/labels into the geometry (labeling happens entirely through the app's hotspot UI), run a perpetual/looping cross-bridge cycling animation that never settles (the model must snap cleanly between the 5 discrete named poses tied to hotspot clicks, holding still at rest otherwise — perpetual motion reads as busy/gamey and works against the calm Anatomy Atelier bar), leave the scene without a ground shadow (see GROUNDING above), frame the default camera as an even, full-width wide shot (see CAMERA / FRAMING above), or make the shortening effect exaggerated/cartoonish (keep it to the ~25% figure specified above, not a squash-and-stretch cartoon collapse).",
+  "visual": {
+    "shape": "muscle-pump"
+  }
+}

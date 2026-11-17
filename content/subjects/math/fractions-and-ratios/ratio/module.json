@@ -1,0 +1,87 @@
+{
+  "id": "ratio",
+  "subject": "math",
+  "title": "Ratio",
+  "summary": "A ratio compares two quantities — 3 red beads to 5 blue beads is 3:5. Explore ratios as part-to-part and part-to-whole comparisons, and how to read, write, and simplify them.",
+  "gradeMin": 5,
+  "gradeMax": 7,
+  "skillIds": [
+    "ratio-compare-two",
+    "ratio-part-part",
+    "ratio-read-write-simplify",
+    "ratio-consistent"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Fractions And Ratios",
+    "unit": "Ratios and Proportions",
+    "systemOrGroup": "Ratios",
+    "component": "Ratio",
+    "displayPath": "Math > Fractions And Ratios > Ratios and Proportions > Ratios > Ratio"
+  },
+  "crossReferences": [
+    {
+      "label": "Fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Fraction",
+      "note": "A part-to-whole ratio is a fraction — 3 red beads out of 8 total is 3/8."
+    },
+    {
+      "label": "Proportion (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Proportion",
+      "note": "When two ratios are equal, they form a proportion — 3:5 = 6:10."
+    },
+    {
+      "label": "Equivalent fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Equivalent fraction",
+      "note": "Simplifying a ratio is the same idea as simplifying a fraction."
+    }
+  ],
+  "belongsTo": "Fractions And Ratios > Ratios and Proportions > Ratios",
+  "compareCandidate": {
+    "label": "Ratio vs. fraction",
+    "description": "A fraction compares a part to the whole (3/8 of the beads are red). A ratio compares two quantities (3 red to 5 blue) — it can be part-to-part, which a fraction alone cannot show."
+  },
+  "parts": [
+    "Two compared quantities",
+    "The 3:5 readout",
+    "Part-to-part vs. part-to-whole"
+  ],
+  "processes": [
+    "Reading and writing ratios",
+    "Comparing part-to-part and part-to-whole",
+    "Simplifying ratios"
+  ],
+  "plainLanguageExplanation": "A ratio compares two quantities by division. If a bag has 3 red beads and 5 blue beads, the ratio of red to blue is 3:5 — read '3 to 5'. Ratios can compare part to part (red to blue) or part to whole (red to all 8 beads). A ratio stays true when you scale both numbers by the same factor: 3:5, 6:10, and 9:15 all describe the same mix. That is why ratios can be simplified, like fractions — 6:10 simplifies to 3:5. The order matters in a ratio: red:blue is 3:5, but blue:red is 5:3. Ratios are everywhere — recipes, maps, mixing colors, and sports stats.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A comparison of two quantities" },
+    { "label": "Reading", "value": "3:5 is read '3 to 5'" },
+    { "label": "Order matters", "value": "red:blue 3:5 vs. blue:red 5:3" },
+    { "label": "Scaling", "value": "3:5, 6:10, 9:15 are the same ratio" },
+    { "label": "Simplify", "value": "6:10 simplifies to 3:5" },
+    { "label": "Types", "value": "Part-to-part (red:blue) and part-to-whole (red:total)" }
+  ],
+  "whyItMatters": "Ratios describe how amounts relate to each other, from recipes and map scales to mixing paint and sports statistics. Ratio understanding is the launchpad for proportions, which solve real problems like 'if 2 cups makes 4 servings, how much for 6?'",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Ratio",
+  "tagline": "Comparing two quantities",
+  "didYouKnow": "Map scales are ratios — '1:100,000' on a map means 1 centimeter on the paper is 100,000 centimeters in real life. The entire map is a giant ratio.",
+  "conditions": [
+    "Recipes",
+    "Map scales",
+    "Mixing colors",
+    "Sports statistics"
+  ],
+  "compareCandidateId": "proportion",
+  "compareReason": "A ratio becomes useful when you scale it into a proportion — comparing 3:5 with its equal 6:10 shows exactly why ratios matter."
+}

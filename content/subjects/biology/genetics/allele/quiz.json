@@ -1,0 +1,64 @@
+{
+  "componentId": "allele",
+  "questions": [
+    {
+      "id": "allele-q-dominant-expressed",
+      "conceptId": "dominant-allele",
+      "hotspotId": "dominant-allele",
+      "prompt": "A gene has two possible alleles: R (dominant, red) and r (recessive, white). An organism has the genotype Rr. What color will it actually be?",
+      "options": [
+        "Red",
+        "White",
+        "Pink, a blend of both",
+        "It's impossible to know"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct! Because R is dominant, it overrides the recessive r allele, so the phenotype (visible trait) is red — even though the organism still carries a hidden 'white' allele it could pass to offspring.",
+      "misconception": "Many learners assume the two alleles blend together like mixing paint (giving pink), or assume you need more information. But dominant/recessive inheritance isn't blending — the dominant allele's trait fully shows up whenever it's present, masking the recessive one."
+    },
+    {
+      "id": "allele-q-homozygous-recessive",
+      "conceptId": "homozygous-pairing",
+      "hotspotId": "homozygous-pairing",
+      "prompt": "Which genotype below is homozygous recessive?",
+      "options": [
+        "BB",
+        "Bb",
+        "bB",
+        "bb"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct! 'Homozygous' means both alleles match, and 'recessive' means both are the lowercase (recessive) version — so bb is homozygous recessive. This is the only genotype where the recessive trait will actually be visible.",
+      "misconception": "A common mistake is picking Bb or bB, but those are heterozygous (two different alleles), not homozygous — mixing up 'different letters' with 'recessive' is the trap. Others pick BB, forgetting that 'recessive' specifically means the lowercase letter, not just 'matching.'"
+    },
+    {
+      "id": "allele-q-inheritance-source",
+      "conceptId": "allele",
+      "prompt": "For a gene on a non-sex chromosome, where do an organism's two alleles come from?",
+      "options": [
+        "Both from the same parent, whichever contributed more DNA",
+        "One from each biological parent",
+        "They form spontaneously as the organism grows",
+        "One from a parent, one created randomly by mutation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct! For genes on non-sex chromosomes, an organism inherits one allele from its biological mother and one from its biological father, which is why offspring share traits with both parents but aren't identical to either. (Genes on the sex chromosomes are an exception to this one-from-each-parent rule — for example, a person with one X and one Y chromosome has only a single copy of most X-linked genes, inherited from the mother.)",
+      "misconception": "Learners sometimes think traits come from just one parent (like whoever is 'more dominant' as a person) or think alleles appear randomly — but barring a mutation, both copies of a non-sex-chromosome gene are inherited, one per parent, every time."
+    },
+    {
+      "id": "allele-q-hidden-recessive",
+      "conceptId": "heterozygous-pairing",
+      "hotspotId": "heterozygous-pairing",
+      "prompt": "For this question, imagine human eye color were controlled by a single gene with a simple dominant/recessive pair — brown (B) dominant over blue (b). (In real life, eye color actually depends on several genes working together, so this is a simplified teaching model, not the full story.) Two brown-eyed parents, each genotype Bb, have a child. Why is it genetically possible, in this simplified model, for that child to have blue eyes?",
+      "options": [
+        "It isn't possible — two brown-eyed parents can only have brown-eyed children",
+        "Each parent could pass down their hidden recessive allele, giving the child bb",
+        "Eye color skips a generation randomly, unrelated to the parents' alleles",
+        "The child's eye color is decided entirely by environment, not alleles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct! Even though both parents show brown eyes, each one is heterozygous (Bb) and carries a hidden recessive 'blue' allele. If both parents happen to pass down their recessive b, the child ends up bb — homozygous recessive — and shows blue eyes in this simplified single-gene model. Remember: real human eye color involves multiple genes interacting, so actual outcomes are more varied than this Bb example suggests.",
+      "misconception": "A common misconception is that a parent's visible trait (phenotype) is the only allele they can pass on. But heterozygous parents carry a masked recessive allele that doesn't show in them, yet can still be inherited and become visible in their children. A second, separate misconception is treating real human eye color as this clean of a single-gene trait — it isn't; this question uses it only as a simplified teaching model."
+    }
+  ]
+}

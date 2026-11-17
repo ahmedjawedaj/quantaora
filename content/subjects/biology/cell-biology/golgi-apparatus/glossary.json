@@ -1,0 +1,48 @@
+{
+  "componentId": "golgi-apparatus",
+  "terms": [
+    {
+      "term": "Golgi apparatus",
+      "conceptId": "golgi-sorts-ships",
+      "hotspotId": "hs-cisternae",
+      "definition": "The sorting and shipping center of the cell - a stack of flattened pouches that finishes and packages products.",
+      "function": "Sorts, labels, and dispatches proteins and lipids to their destinations.",
+      "whereItIs": "Near the ER in the cytoplasm.",
+      "whyItMatters": "It decides where every product the cell makes should go.",
+      "relatedConcept": "receives-from-er",
+      "quizId": "gol-q-sorts"
+    },
+    {
+      "term": "Cisterna",
+      "conceptId": "golgi-sorts-ships",
+      "hotspotId": "hs-cisternae",
+      "definition": "One flattened membrane pouch of the Golgi stack.",
+      "function": "The work surface where cargo moves through processing.",
+      "whereItIs": "Stacked in the Golgi apparatus.",
+      "whyItMatters": "The stack is the path cargo follows through the mailroom.",
+      "relatedConcept": "packages-and-labels"
+    },
+    {
+      "term": "Vesicle",
+      "conceptId": "golgi-sorts-ships",
+      "hotspotId": "hs-out",
+      "definition": "A small membrane bubble used to carry cargo to its destination.",
+      "function": "Transports packaged products from the Golgi outward.",
+      "whereItIs": "Budding from the Golgi into the cytoplasm.",
+      "whyItMatters": "It is the delivery box of the cell's mailroom.",
+      "relatedConcept": "receives-from-er",
+      "quizId": "gol-q-ship"
+    },
+    {
+      "term": "Molecular label",
+      "conceptId": "packages-and-labels",
+      "hotspotId": "hs-label",
+      "definition": "A tag the Golgi adds to a product that acts like a shipping address.",
+      "function": "Directs each product to the correct destination.",
+      "whereItIs": "On products inside the Golgi.",
+      "whyItMatters": "Labels are how the cell avoids sending products to the wrong place.",
+      "relatedConcept": "golgi-sorts-ships",
+      "quizId": "gol-q-label"
+    }
+  ]
+}

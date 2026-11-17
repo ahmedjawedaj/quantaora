@@ -1,0 +1,80 @@
+{
+  "componentId": "volume",
+  "questions": [
+    {
+      "id": "volume-def",
+      "conceptId": "volume-definition",
+      "hotspotId": "hs-volume-box",
+      "prompt": "What does volume measure?",
+      "options": [
+        "The space a 3D object fills",
+        "The surface of a flat shape",
+        "The distance around an object",
+        "The height of a shape"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume is how much space a solid takes up.",
+      "misconception": "Surface is area and the outline is perimeter — volume is specifically the space INSIDE a 3D object."
+    },
+    {
+      "id": "volume-units",
+      "conceptId": "volume-cubic-units",
+      "hotspotId": "hs-base-layer",
+      "prompt": "Volume is measured in...",
+      "options": [
+        "Cubic units",
+        "Square units",
+        "Degrees",
+        "Plain units"
+      ],
+      "correctIndex": 0,
+      "explanation": "We count unit CUBES packing the solid, so volume uses cubic units.",
+      "misconception": "Square units measure flat area and plain units measure length — the solid's three dimensions call for cubic units."
+    },
+    {
+      "id": "volume-prism",
+      "conceptId": "volume-prism",
+      "hotspotId": "hs-height-layer",
+      "prompt": "What is the volume of a box 5 long, 3 wide, and 2 tall?",
+      "options": [
+        "30 cubic units",
+        "10 cubic units",
+        "15 cubic units",
+        "20 cubic units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volume = length × width × height = 5 × 3 × 2 = 30 cubic units.",
+      "misconception": "All three dimensions multiply together — 5 × 3 = 15 only gets the base layer, missing the height."
+    },
+    {
+      "id": "volume-layers",
+      "conceptId": "volume-prism",
+      "hotspotId": "hs-base-layer",
+      "prompt": "A box's base layer holds 12 cubes and it is 3 layers tall. Its volume is...",
+      "options": [
+        "36 cubic units",
+        "12 cubic units",
+        "15 cubic units",
+        "4 cubic units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base area × height layers: 12 × 3 = 36 cubic units.",
+      "misconception": "Volume stacks the base layer for every layer of height — the base alone is only one layer."
+    },
+    {
+      "id": "volume-real",
+      "conceptId": "volume-real",
+      "hotspotId": "hs-volume-box",
+      "prompt": "Which real-world question needs VOLUME?",
+      "options": [
+        "How much water fits in the pool",
+        "How much fence around the yard",
+        "How much carpet for the floor",
+        "How many tiles on the wall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water filling a pool measures its interior space — volume.",
+      "misconception": "Fence is perimeter, carpet is area, and tiles cover a surface — only filling a 3D space needs volume."
+    }
+  ]
+}

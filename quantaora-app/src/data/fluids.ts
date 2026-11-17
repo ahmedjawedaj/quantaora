@@ -1,0 +1,267 @@
+import type { ComponentContent, KeyFact, QuizQuestion } from './types'
+
+const FLUIDS_APPARATUS_MODEL = '/models/physics/authored/physics-fluids-apparatus-suite.glb'
+
+function lesson(predictionPrompt: string, change: string, observe: string, explain: string) {
+  return {
+    steps: [
+      { title: 'Predict', body: predictionPrompt },
+      { title: 'Change', body: change },
+      { title: 'Observe', body: observe },
+      { title: 'Explain', body: explain },
+    ],
+    predictionPrompt,
+    practiceItem: change,
+    checkpoint: explain,
+  }
+}
+
+function facts(definition: string, variable: string, observation: string): KeyFact[] {
+  return [
+    { label: 'Definition', value: definition },
+    { label: 'Change', value: variable },
+    { label: 'Observe', value: observation },
+    { label: 'Rule', value: 'Fluids flow and push, so pressure, density, and viscosity decide what moves.' },
+  ]
+}
+
+function quiz(prompt: string, answer: string, misconception: string): QuizQuestion[] {
+  return [
+    {
+      prompt,
+      options: [answer, misconception, 'Only solid objects can make forces', 'Fluid behavior ignores depth'],
+      correctIndex: 0,
+      explanation: answer,
+      misconception,
+    },
+    {
+      prompt: 'What makes a fluid investigation fair?',
+      options: ['Change one variable such as depth, density, or viscosity', 'Change the whole setup at once', 'Ignore the container', 'Remove all measurements'],
+      correctIndex: 0,
+      explanation: 'One controlled change reveals which fluid property caused the result.',
+      misconception: 'Multiple changes can hide the cause of a pressure, floating, or flow effect.',
+    },
+    {
+      prompt: 'Which materials count as fluids in physics?',
+      options: ['Liquids and gases', 'Only drinking water', 'Only hard solids', 'Only metals'],
+      correctIndex: 0,
+      explanation: 'Liquids and gases are fluids because they flow and take the shape of their container.',
+      misconception: 'A fluid is not always a liquid; air is a fluid too.',
+    },
+  ]
+}
+
+export const fluids: ComponentContent[] = [
+  {
+    id: 'physics-fluids-pressure',
+    name: 'Pressure',
+    scientificName: 'Fluid pressure',
+    subject: 'physics',
+    branch: 'Fluids',
+    system: 'Fluid Statics',
+    model: FLUIDS_APPARATUS_MODEL,
+    tagline: 'Fluid push spread over area',
+    summary: 'Pressure is force spread over area. In a fluid at rest, pressure pushes in all directions and usually increases with depth because more fluid is stacked above.',
+    keyFacts: facts('Pressure is force per unit area.', 'Increase depth or squeeze a smaller area.', 'A deeper gauge reads more pressure and jets can shoot farther.'),
+    whyItMatters: 'Pressure explains drinking straws, dams, tires, diving, weather, and hydraulic machines.',
+    didYouKnow: 'Deep-sea vehicles need strong hulls because water pressure rises rapidly with depth.',
+    belongsTo: ['Physics', 'Fluids', 'Fluid Statics'],
+    conditions: ['Acts in all directions', 'Increases with fluid depth', 'Depends on density and gravity'],
+    visual: { shape: 'force-push', variables: ['depth', 'area', 'pressure'] },
+    hotspots: [
+      {
+        id: 'deep-gauge',
+        label: 'Deep gauge',
+        position: [-0.25, -0.55, 0],
+        color: '#38bdf8',
+        description: 'A pressure reading lower in the fluid column.',
+        function: 'Shows that deeper fluid has more weight above it.',
+      },
+      {
+        id: 'surface-gauge',
+        label: 'Surface gauge',
+        position: [-0.25, 0.45, 0],
+        color: '#a3e635',
+        description: 'A pressure reading near the top of the fluid.',
+        function: 'Gives a comparison point for the deeper reading.',
+      },
+      {
+        id: 'side-push',
+        label: 'Side push',
+        position: [0.55, -0.25, 0],
+        color: '#f97316',
+        description: 'Fluid pressure pushes sideways as well as downward.',
+        function: 'Explains why container walls and dams feel fluid force.',
+      },
+    ],
+    lesson: lesson(
+      'Predict which hole in a water bottle shoots water farther: the upper hole or the lower hole.',
+      'Open holes at two depths while keeping the same water level and hole size.',
+      'The lower stream usually shoots farther from the bottle.',
+      'The lower hole has more water above it, so higher pressure pushes the stream out faster.',
+    ),
+    quiz: quiz('Why does fluid pressure increase with depth?', 'More fluid above adds more weight pressing on each area.', 'Deep water has no gravity.'),
+    compareCandidate: 'physics-fluids-buoyancy',
+    compareReason: 'Pressure changes with depth; buoyancy comes from pressure being stronger at the bottom of an object than at the top.',
+  },
+  {
+    id: 'physics-fluids-buoyancy',
+    name: 'Buoyancy',
+    scientificName: 'Buoyant force',
+    subject: 'physics',
+    branch: 'Fluids',
+    system: 'Fluid Statics',
+    model: FLUIDS_APPARATUS_MODEL,
+    tagline: 'The upward push from displaced fluid',
+    summary: 'Buoyancy is the upward force a fluid exerts on an object. An object floats when the upward buoyant force can balance its weight before the object sinks completely.',
+    keyFacts: facts('Buoyancy is the upward fluid force on an object.', 'Change object volume, mass, or fluid density.', 'The object floats higher, lower, or sinks.'),
+    whyItMatters: 'Buoyancy explains boats, submarines, hot-air balloons, life jackets, and why some objects float while others sink.',
+    didYouKnow: 'A steel ship floats because its overall shape displaces enough water for a large buoyant force.',
+    belongsTo: ['Physics', 'Fluids', 'Fluid Statics'],
+    conditions: ['Requires a surrounding fluid', 'Depends on displaced fluid weight', 'Balances weight when floating'],
+    visual: { shape: 'weight-scale', variables: ['upward force', 'object weight', 'displaced fluid'] },
+    hotspots: [
+      {
+        id: 'upward-force',
+        label: 'Upward force',
+        position: [0, 0.45, 0],
+        color: '#38bdf8',
+        description: 'The net push from fluid pressure on the object.',
+        function: 'Can balance weight and make the object float.',
+      },
+      {
+        id: 'object-weight',
+        label: 'Weight',
+        position: [0, -0.2, 0],
+        color: '#ef4444',
+        description: 'Gravity pulling the object downward.',
+        function: 'Competes with buoyancy to decide floating or sinking.',
+      },
+      {
+        id: 'displaced-fluid',
+        label: 'Displaced fluid',
+        position: [0.55, -0.05, 0],
+        color: '#a3e635',
+        description: 'The fluid pushed aside by the object.',
+        function: 'Sets the maximum buoyant force by its weight.',
+      },
+    ],
+    lesson: lesson(
+      'Predict whether a clay ball or a clay boat shape floats better when they have the same mass.',
+      'Change only the clay shape from compact ball to hollow boat.',
+      'The boat shape floats higher or avoids sinking because it displaces more water.',
+      'The mass stayed the same, but larger volume displaced more water, so buoyancy increased.',
+    ),
+    quiz: quiz('What sets the buoyant force on an object?', 'The weight of the fluid the object displaces.', 'Only the color of the object.'),
+    compareCandidate: 'physics-fluids-density',
+    compareReason: 'Buoyancy decides the upward push; density helps decide whether that push can balance the object weight.',
+  },
+  {
+    id: 'physics-fluids-density',
+    name: 'Density',
+    scientificName: 'Mass density',
+    subject: 'physics',
+    branch: 'Fluids',
+    system: 'Material Properties',
+    model: FLUIDS_APPARATUS_MODEL,
+    tagline: 'How much mass fits in a volume',
+    summary: 'Density compares mass to volume. In fluids, density differences help decide floating, sinking, layering, and how pressure grows with depth.',
+    keyFacts: facts('Density is mass per unit volume.', 'Change mass packed into the same volume or change fluid type.', 'Dense fluids sink below less dense fluids; dense objects sink more easily.'),
+    whyItMatters: 'Density explains oil floating on water, weather fronts, ocean layers, balloons, and why ships need a large volume.',
+    didYouKnow: 'Ice floats in liquid water because solid ice is less dense than the water around it.',
+    belongsTo: ['Physics', 'Fluids', 'Material Properties'],
+    conditions: ['Compares mass and volume', 'Affected by material and temperature', 'Density differences can cause layering'],
+    visual: { shape: 'mass-balance', variables: ['mass', 'volume', 'fluid layering'] },
+    hotspots: [
+      {
+        id: 'same-volume',
+        label: 'Same volume',
+        position: [-0.45, 0.15, 0],
+        color: '#38bdf8',
+        description: 'Two equal-size samples can contain different amounts of mass.',
+        function: 'Makes density visible as mass packed into volume.',
+      },
+      {
+        id: 'dense-layer',
+        label: 'Dense layer',
+        position: [0.25, -0.45, 0],
+        color: '#f97316',
+        description: 'The denser fluid settles lower in a layered column.',
+        function: 'Shows how density affects vertical order.',
+      },
+      {
+        id: 'less-dense-layer',
+        label: 'Less dense layer',
+        position: [0.25, 0.35, 0],
+        color: '#a3e635',
+        description: 'The less dense fluid floats above the denser fluid.',
+        function: 'Creates a clear compare target for density changes.',
+      },
+    ],
+    lesson: lesson(
+      'Predict where oil goes when it is poured into water.',
+      'Add equal volumes of oil and water, then gently swap which one is poured first.',
+      'The oil layer ends up above the water layer.',
+      'Oil is less dense than water, so the same volume has less mass and floats on top.',
+    ),
+    quiz: quiz('What does density compare?', 'Mass to volume.', 'Speed to time only.'),
+    compareCandidate: 'physics-fluids-buoyancy',
+    compareReason: 'Density predicts relative sinking or floating; buoyancy is the force balance that makes it happen.',
+  },
+  {
+    id: 'physics-fluids-flow-viscosity',
+    name: 'Flow And Viscosity',
+    scientificName: 'Viscous fluid flow',
+    subject: 'physics',
+    branch: 'Fluids',
+    system: 'Fluid Dynamics',
+    model: FLUIDS_APPARATUS_MODEL,
+    tagline: 'How easily a fluid moves',
+    summary: 'Flow is fluid motion, and viscosity is resistance to that motion. Low-viscosity fluids like water pour quickly; high-viscosity fluids like honey resist flow.',
+    keyFacts: facts('Viscosity is a fluid resistance to flow.', 'Change fluid type, temperature, or tube width.', 'Thicker or colder fluids flow more slowly through the same path.'),
+    whyItMatters: 'Viscosity matters in blood flow, engines, lava, syrup, paint, pipelines, and weather models.',
+    didYouKnow: 'Warming honey lowers its viscosity, so it pours more easily.',
+    belongsTo: ['Physics', 'Fluids', 'Fluid Dynamics'],
+    conditions: ['Depends on internal friction', 'Often changes with temperature', 'Narrow paths slow flow more'],
+    visual: { shape: 'current-loop', variables: ['flow rate', 'viscosity', 'temperature'] },
+    hotspots: [
+      {
+        id: 'fast-water',
+        label: 'Fast flow',
+        position: [-0.45, 0.25, 0],
+        color: '#38bdf8',
+        description: 'A low-viscosity fluid moves quickly through the channel.',
+        function: 'Provides a comparison against thicker fluids.',
+      },
+      {
+        id: 'slow-syrup',
+        label: 'Slow flow',
+        position: [0.45, -0.05, 0],
+        color: '#f97316',
+        description: 'A high-viscosity fluid resists motion and lags behind.',
+        function: 'Shows internal friction reducing flow rate.',
+      },
+      {
+        id: 'narrow-channel',
+        label: 'Narrow channel',
+        position: [0.1, -0.35, 0],
+        color: '#a3e635',
+        description: 'A tight path makes the same fluid flow more slowly.',
+        function: 'Connects geometry to resistance in fluid motion.',
+      },
+    ],
+    lesson: lesson(
+      'Predict whether cold syrup or warm syrup reaches the end of a ramp first.',
+      'Change temperature while keeping the same syrup amount and ramp angle.',
+      'Warm syrup flows faster and reaches the end sooner.',
+      'Higher temperature lowers viscosity for many liquids, reducing internal resistance to flow.',
+    ),
+    quiz: quiz('What does high viscosity mean?', 'The fluid resists flow more strongly.', 'The fluid has no particles.'),
+    compareCandidate: 'physics-fluids-pressure',
+    compareReason: 'Pressure can drive fluid motion; viscosity resists that motion and changes the flow rate.',
+  },
+]
+
+export const fluidsById = Object.fromEntries(
+  fluids.map((component) => [component.id, component]),
+) as Record<string, ComponentContent>

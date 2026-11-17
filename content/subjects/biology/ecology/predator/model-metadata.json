@@ -1,0 +1,104 @@
+{
+  "id": "predator",
+  "componentId": "predator",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/ecology/predator/predator.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/ecology/predator.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Hunting",
+    "Sharp senses",
+    "Speed and claws",
+    "Population balance"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-hunt",
+      "label": "Hunting",
+      "conceptId": "hunts-and-eats",
+      "position": [
+        0.25,
+        0.2,
+        0.1
+      ],
+      "description": "Stalking, chasing, and catching prey.",
+      "color": "#D98A6A",
+      "function": "How predators get their food.",
+      "positionHint": "A pursuit motion line."
+    },
+    {
+      "id": "hs-senses",
+      "label": "Sharp senses",
+      "conceptId": "hunting-adaptations",
+      "position": [
+        0.35,
+        -0.05,
+        0.15
+      ],
+      "description": "Keen eyesight, hearing, and smell.",
+      "color": "#6B85A8",
+      "function": "Helps find prey from far away.",
+      "positionHint": "An eye and ear mark."
+    },
+    {
+      "id": "hs-speed",
+      "label": "Speed and claws",
+      "conceptId": "hunting-adaptations",
+      "position": [
+        -0.3,
+        0.1,
+        0.15
+      ],
+      "description": "Fast sprints and sharp claws or teeth.",
+      "color": "#D9A441",
+      "function": "Helps catch and hold prey.",
+      "positionHint": "A claw and speed streak."
+    },
+    {
+      "id": "hs-check",
+      "label": "Keeping balance",
+      "conceptId": "keeps-prey-in-check",
+      "position": [
+        0.0,
+        -0.25,
+        0.1
+      ],
+      "description": "Predators stop prey from overpopulating.",
+      "color": "#7FA874",
+      "function": "Keeps the ecosystem in balance.",
+      "positionHint": "A balance symbol."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The scene reads as a calm stylized diorama - simplified, clean shapes with a restrained warm-paper and muted-green palette, not cartoon, not cluttered. COLOR IS RESTRAINED: each subject is a muted near-paper shade; strong saturated color is reserved entirely for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a stylized diorama of a predator (a sleek fox) mid-hunt in an open field, with informational marks: a pursuit motion line behind it (hunting), an eye and ear mark for sharp senses, a speed streak and claw shape, and a balance symbol showing its role in controlling prey numbers. Warm off-white background, muted greens and paper tones, no glow. Named nodes: Fox, MotionLine, SensesMark, ClawMark, BalanceSymbol. Budget 10-14k.",
+  "visual": {
+    "shape": "predator-prey"
+  }
+}

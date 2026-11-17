@@ -1,0 +1,48 @@
+{
+  "componentId": "cytoskeleton",
+  "terms": [
+    {
+      "term": "Cytoskeleton",
+      "conceptId": "protein-fiber-network",
+      "hotspotId": "hs-microtubule",
+      "definition": "The network of protein fibers that gives a cell shape and organizes its contents.",
+      "function": "Supports the cell, holds organelles, and moves materials.",
+      "whereItIs": "Running through the cytoplasm.",
+      "whyItMatters": "It is the cell's skeleton, muscle, and transport system in one.",
+      "relatedConcept": "microtubule-tracks-transport",
+      "quizId": "cs-q-job"
+    },
+    {
+      "term": "Microtubule",
+      "conceptId": "microtubule-tracks-transport",
+      "hotspotId": "hs-microtubule",
+      "definition": "A thick hollow protein tube used as a support beam and transport track.",
+      "function": "Acts as a rail that cargo bubbles ride along.",
+      "whereItIs": "Spanning the cell as straight tracks.",
+      "whyItMatters": "They are the cell's delivery rails.",
+      "relatedConcept": "cell-shape-and-movement",
+      "quizId": "cs-q-tracks"
+    },
+    {
+      "term": "Actin filament",
+      "conceptId": "cell-shape-and-movement",
+      "hotspotId": "hs-actin",
+      "definition": "A thin protein fiber that helps shape the cell and drive movement.",
+      "function": "Pushes the membrane to let the cell crawl or change shape.",
+      "whereItIs": "Thin wavy lines near the cell edges.",
+      "whyItMatters": "It lets cells move and change form.",
+      "relatedConcept": "protein-fiber-network",
+      "quizId": "cs-q-move"
+    },
+    {
+      "term": "Intermediate filament",
+      "conceptId": "protein-fiber-network",
+      "hotspotId": "hs-intermediate",
+      "definition": "A middle-sized protein cable that anchors organelles in place.",
+      "function": "Gives the cell a stable framework.",
+      "whereItIs": "Running as cables through the cytoplasm.",
+      "whyItMatters": "They hold the cell's parts securely in place.",
+      "relatedConcept": "cell-shape-and-movement"
+    }
+  ]
+}

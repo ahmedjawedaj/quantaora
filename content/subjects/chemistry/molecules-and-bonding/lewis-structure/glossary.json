@@ -1,0 +1,49 @@
+{
+  "componentId": "lewis-structure",
+  "terms": [
+    {
+      "term": "Lewis structure",
+      "conceptId": "lewis-dots-valence",
+      "hotspotId": "hs-lewis-symbol",
+      "definition": "A diagram showing an element's symbol surrounded by dots for its valence electrons.",
+      "function": "Predicts how many bonds an atom can form at a glance.",
+      "whereItIs": "The three dot diagrams in the model.",
+      "whyItMatters": "It is the everyday shorthand chemists use to picture bonding.",
+      "relatedConcept": "lewis-predicts-bonding",
+      "quizId": "lewis-q-definition"
+    },
+    {
+      "term": "Valence electron dot",
+      "conceptId": "lewis-dots-valence",
+      "hotspotId": "hs-lewis-dots",
+      "definition": "One dot drawn per valence electron around an element's symbol.",
+      "function": "Shows how many electrons the atom has available for bonding.",
+      "whereItIs": "The teal dots on the three tiles in the model.",
+      "whyItMatters": "The dots are the entire message of a Lewis structure.",
+      "relatedConcept": "lewis-dot-placement",
+      "quizId": "lewis-q-dot-count"
+    },
+    {
+      "term": "Shared pair",
+      "conceptId": "lewis-predicts-bonding",
+      "hotspotId": "hs-lewis-bonding",
+      "definition": "A pair of dots shared between two symbols, representing a covalent bond.",
+      "function": "Shows two atoms sharing valence electrons to hold together.",
+      "whereItIs": "The dot pairs that become the rods of the methane molecule.",
+      "whyItMatters": "Shared pairs are how a Lewis structure draws a real bond.",
+      "relatedConcept": "lewis-dots-valence",
+      "quizId": "lewis-q-shared-pair"
+    },
+    {
+      "term": "Bonding prediction",
+      "conceptId": "lewis-predicts-bonding",
+      "hotspotId": "hs-lewis-bonding",
+      "definition": "Using an atom's dot count to predict how it will bond.",
+      "function": "Tells you the number of bonds an atom can form before any reaction.",
+      "whereItIs": "Carbon's four dots predicting four bonds to hydrogen.",
+      "whyItMatters": "Prediction is the whole point of drawing Lewis structures.",
+      "relatedConcept": "lewis-dot-placement",
+      "quizId": "lewis-q-predict"
+    }
+  ]
+}

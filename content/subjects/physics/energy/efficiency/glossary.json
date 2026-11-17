@@ -1,0 +1,46 @@
+{
+  "componentId": "efficiency",
+  "terms": [
+    {
+      "term": "Efficiency",
+      "conceptId": "efficiency-useful-over-total",
+      "hotspotId": "hs-percent",
+      "definition": "The share of input energy that becomes useful output.",
+      "function": "Rates machines, bulbs, and engines on how little they waste.",
+      "whereItIs": "The percent badge above the engine's bars.",
+      "whyItMatters": "The lever behind fuel bills, battery life, and greener machines.",
+      "relatedConcept": "conservation-of-energy",
+      "quizId": "ef-q-definition"
+    },
+    {
+      "term": "Efficiency = useful ÷ total × 100",
+      "conceptId": "efficiency-useful-over-total",
+      "hotspotId": "hs-percent",
+      "definition": "The percent recipe that measures the useful share of any energy conversion.",
+      "whyItMatters": "One formula lets you compare an LED and a filament, a car and a train.",
+      "whereItIs": "The number the badge computes from the two bars.",
+      "relatedConcept": "efficiency-percentage",
+      "quizId": "ef-q-formula"
+    },
+    {
+      "term": "Energy losses (heat, sound)",
+      "conceptId": "efficiency-losses-to-heat",
+      "hotspotId": "hs-waste",
+      "definition": "The input that escapes as heat, noise, or drag instead of doing useful work.",
+      "whyItMatters": "They are why efficiency never reaches 100% and why 'wasted' energy still exists.",
+      "whereItIs": "The grey waste bar.",
+      "relatedConcept": "energy-sank-to-heat",
+      "quizId": "ef-q-heat"
+    },
+    {
+      "term": "Efficiency below 100%",
+      "conceptId": "efficiency-always-below-100",
+      "hotspotId": "hs-waste",
+      "definition": "The unavoidable rule that every real machine loses something.",
+      "whyItMatters": "It drives engineers to cut friction — the cheapest path to more useful output.",
+      "whereItIs": "The badge that always sits under the 100 line.",
+      "relatedConcept": "efficiency-useful-over-total",
+      "quizId": "ef-q-below-100"
+    }
+  ]
+}

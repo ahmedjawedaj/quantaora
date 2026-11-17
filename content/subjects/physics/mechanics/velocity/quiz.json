@@ -1,0 +1,80 @@
+{
+  "componentId": "velocity",
+  "questions": [
+    {
+      "id": "velocity-q-definition",
+      "conceptId": "velocity-speed-with-direction",
+      "hotspotId": "hs-velocity-arrow",
+      "prompt": "What is velocity in physics?",
+      "options": [
+        "Speed with a direction, such as 80 km/h east",
+        "The total distance traveled per hour",
+        "A push or pull on an object",
+        "How heavy an object is"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity joins a speed with a direction — it tells both how fast and which way. Distance per hour without a direction is speed only.",
+      "misconception": "Some think velocity and speed are synonyms. The whole point of the component is the direction slapping the two apart."
+    },
+    {
+      "id": "velocity-q-vector",
+      "conceptId": "velocity-vector-quantity",
+      "hotspotId": "hs-velocity-arrow",
+      "prompt": "Why is velocity called a vector quantity?",
+      "options": [
+        "Because it has both magnitude and direction",
+        "Because it only has one big number",
+        "Because it has no direction at all",
+        "Because it is always measured in meters"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vector always carries both size and direction — like an arrow. Velocity's direction is as real as its number, so up arrows draw velocity best.",
+      "misconception": "Learners mix 'vector' up with 'big' or 'powerful'; it's a word for direction-carryingness, not for size."
+    },
+    {
+      "id": "velocity-q-turn",
+      "conceptId": "velocity-changes-with-direction",
+      "hotspotId": "hs-velocity-arrow",
+      "prompt": "A car drives a perfect circle at a constant 20 m/s. Which is true?",
+      "options": [
+        "The speed is constant but the velocity is always changing",
+        "The velocity is constant but the speed changes",
+        "Both speed and velocity are constant",
+        "Both speed and velocity keep changing"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the circle the arrow always turns to point along the road, so the direction part — and hence velocity — keeps changing while the 20 m/s size holds.",
+      "misconception": "The intuition 'constant speed = same motion' is exactly wrong: the turning is a real change in velocity, not a mood buzz about the speedometer."
+    },
+    {
+      "id": "velocity-q-negative",
+      "conceptId": "velocity-changes-with-direction",
+      "hotspotId": "hs-negative-arrow",
+      "prompt": "On a position-time graph, what does a downward-slanting line describe?",
+      "options": [
+        "Negative velocity — the object is moving back toward the start",
+        "The object standing still",
+        "Speeding up quickly",
+        "The object being dropped"
+      ],
+      "correctIndex": 0,
+      "explanation": "A position sliding back down means displacement is decreasing, so velocity is negative — the direction has reversed to 'back toward home.'",
+      "misconception": "Downward isn't 'falling' or 'slowing'; it's motion in the reverse direction on the graph's scale."
+    },
+    {
+      "id": "velocity-q-formula",
+      "conceptId": "velocity-vector-quantity",
+      "hotspotId": "hs-velocity-arrow",
+      "prompt": "Which formula correctly computes velocity?",
+      "options": [
+        "displacement ÷ time",
+        "distance ÷ time",
+        "mass × speed",
+        "distance + time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity = displacement ÷ time, not distance ÷ time. Displacement brings the direction, so velocity keeps its arrow.",
+      "misconception": "distance ÷ time (the speed answer) is the sleeper wrong choice — the direction-holding displacement is the bit that turns speed into velocity."
+    }
+  ]
+}

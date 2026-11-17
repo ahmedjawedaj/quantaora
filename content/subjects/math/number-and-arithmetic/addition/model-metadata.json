@@ -1,0 +1,90 @@
+{
+  "id": "addition",
+  "componentId": "addition",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/addition/addition.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/addition.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.5,
+      3.5
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.5,
+      3.5
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Cube groups",
+    "Combined total",
+    "Number line count-on",
+    "Column view"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-addends",
+      "label": "Addends",
+      "conceptId": "addition-combining-groups",
+      "position": [
+        -0.7,
+        0.4,
+        0
+      ],
+      "description": "The addends are the groups being combined \u2014 here, a group of 3 cubes and a group of 4 cubes.",
+      "positionHint": "The two separate cube groups sitting on the mat, one on the left and one on the right.",
+      "color": "#D9A441",
+      "function": "The numbers you add together to find a total."
+    },
+    {
+      "id": "hs-sum",
+      "label": "Sum",
+      "conceptId": "addition-combining-groups",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "description": "The sum is the total after the groups combine \u2014 3 and 4 become a single group of 7.",
+      "positionHint": "The merged 7-cube group that forms when the two smaller groups slide together.",
+      "color": "#7FA86A",
+      "function": "The total result of the addition."
+    },
+    {
+      "id": "hs-count-on",
+      "label": "Count on",
+      "conceptId": "addition-count-on",
+      "position": [
+        0.2,
+        0.6,
+        0.3
+      ],
+      "description": "Count on starts at the first addend and counts forward the second addend's amount \u2014 from 3, four steps land on 7.",
+      "positionHint": "The arrow marker stepping along the number line in front of the mat.",
+      "color": "#6B85A8",
+      "function": "A faster adding strategy than counting every cube from one."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A calm base-ten mat holds two groups of small cubes that merge on interaction, with a number line running along the front edge. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Clean, uncluttered, specimen-quality clean-3D, not cartoon.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Cubes: warm off-white (roughness ~0.5), with left group carrying a faint violet cast and right group a faint amber cast so they read as distinct addends. Mat: soft warm-grey (roughness ~0.85). Number line: thin ink-grey cylinder with warm paper label plates. Marker arrow: warm amber (roughness ~0.45). No emissive channels anywhere \u2014 highlight/glow on interaction handled by app runtime UI.",
+  "assetBrief": "SUBJECT: addition as a physical 'put together' \u2014 two cube groups on a mat that merge into a single sum group, with a count-on number line across the front.\n\nGEOMETRY: Mat (thin rounded slab, ~4 wide). Left group: 3 unit cubes (x \u2248 \u22120.8, z \u2248 0) with faint violet tint; right group: 4 unit cubes (x \u2248 0.8, z \u2248 0) with faint amber tint. A Merge action (app-driven) slides the right group into the left group, forming one 7-cube group at x \u2248 0. Number line along the front (y \u2248 \u22120.15, z \u2248 0.9) with ticks 1..10 and a CountOn marker arrow that the learner steps forward.\n\nLAYERS (toggleable): (1) separate groups / merged sum; (2) number line + count-on arrow; (3) column view (two stacked digit plates with a carry stub).\n\nCAMERA: head-on from +z frames mat and number line; calm, minimal chrome. Budget 5-10k triangles. Named nodes: LeftGroup, RightGroup, SumGroup, Mat, CountOn_Arrow, NumberLine, ColumnDigits, CarryStub. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "add-groups"
+  }
+}

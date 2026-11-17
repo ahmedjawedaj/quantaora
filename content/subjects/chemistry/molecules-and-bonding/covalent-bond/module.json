@@ -1,0 +1,109 @@
+{
+  "id": "covalent-bond",
+  "subject": "chemistry",
+  "title": "Covalent Bond",
+  "summary": "A covalent bond is a chemical bond formed when atoms share electrons — the way nonmetals stick together to build molecules like water, oxygen, and methane. Explore how sharing electrons works and why it holds atoms together.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "covalent-shared-electrons",
+    "covalent-nonmetals-share",
+    "covalent-builds-molecules"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Molecules And Bonding",
+    "unit": "How Atoms Bond",
+    "systemOrGroup": "The two great bonds",
+    "component": "Covalent Bond",
+    "displayPath": "Chemistry > Molecules And Bonding > How Atoms Bond > The two great bonds > Covalent Bond"
+  },
+  "crossReferences": [
+    {
+      "label": "Ionic bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Ionic bond",
+      "note": "The covalent bond shares electrons; the ionic bond transfers them. The two are the great rival bonds of chemistry."
+    },
+    {
+      "label": "Molecule (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Molecule",
+      "note": "Covalent bonds are what hold molecules together — two or more atoms joined by shared electrons."
+    },
+    {
+      "label": "Valence electron (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Valence electron",
+      "note": "It is the valence electrons — the outer electrons — that get shared in a covalent bond."
+    },
+    {
+      "label": "Nonmetal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Nonmetal",
+      "note": "Covalent bonds typically form between nonmetals, which prefer to share electrons rather than trade them."
+    }
+  ],
+  "belongsTo": "Molecules And Bonding > How Atoms Bond > The two great bonds",
+  "compareCandidate": {
+    "label": "Covalent bond vs. ionic bond",
+    "description": "A covalent bond shares electrons — nonmetal atoms pull a pair together and both own it. An ionic bond transfers electrons — a metal gives electrons to a nonmetal, and the opposite charges attract. Sharing versus transferring."
+  },
+  "parts": [
+    "Shared pair of electrons",
+    "Usually between nonmetals",
+    "The glue of molecules"
+  ],
+  "processes": [
+    "Sharing valence electrons to reach full shells",
+    "Building molecules like H₂O, O₂, and CH₄",
+    "Holding atoms together in a strong bond"
+  ],
+  "plainLanguageExplanation": "A covalent bond is the chemical 'glue' that forms when atoms share electrons. Picture two atoms each needing one more electron to have a full outer shell. Instead of one stealing from the other, they compromise: both put a pair of electrons between them and share it, so both get the benefit. That shared pair is the covalent bond. Covalent bonds almost always form between nonmetals, which are all in the same boat — each needs a few more electrons, so sharing is the natural solution. Water is the classic example: one oxygen atom shares one electron pair with each of two hydrogen atoms, and the two covalent bonds hold the H₂O molecule together. Oxygen gas works the same way — two oxygen atoms share two pairs, making a double bond. Covalent bonds are strong: the shared pair is pulled on by both nuclei, and that double-sided pull is what holds the atoms together in molecules as stable as water, carbon dioxide, and methane.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A bond formed when two atoms share a pair of electrons"
+    },
+    {
+      "label": "Who shares",
+      "value": "Usually two nonmetals, which both need electrons"
+    },
+    {
+      "label": "What it builds",
+      "value": "Molecules — H₂O, O₂, CO₂, CH₄ and more"
+    },
+    {
+      "label": "Double bonds",
+      "value": "Some atoms share two pairs at once — a double bond, like in O₂"
+    },
+    {
+      "label": "Why it holds",
+      "value": "Both nuclei pull on the shared electrons, gluing the atoms together"
+    },
+    {
+      "label": "Electrons involved",
+      "value": "The valence electrons — the ones in the outer shells"
+    }
+  ],
+  "whyItMatters": "Covalent bonds are the bonds of life and breath. Water, oxygen, carbon dioxide, and nearly every molecule in your body are held together by shared electrons. Understanding covalent bonding unlocks why molecules have their shapes, why some bonds are strong, and how the chemistry of life is built from a handful of simple sharing moves.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Covalent bond",
+  "tagline": "The bond that shares",
+  "didYouKnow": "Every time you breathe out carbon dioxide, you exhale molecules held together by double covalent bonds — each C=O bond is two shared pairs between one carbon and one oxygen atom.",
+  "conditions": [
+    "Water and air molecules",
+    "Organic chemistry",
+    "Biochemistry"
+  ],
+  "compareCandidateId": "ionic-bond",
+  "compareReason": "Sharing versus transferring — comparing the covalent bond with its rival the ionic bond makes the single most important distinction in bonding crystal clear."
+}

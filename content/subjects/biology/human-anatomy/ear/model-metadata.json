@@ -1,0 +1,118 @@
+{
+  "id": "ear",
+  "componentId": "ear",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/ear.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Outer ear",
+    "Eardrum and tiny bones",
+    "Cochlea",
+    "Balance canals"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-outer",
+      "label": "Outer ear",
+      "conceptId": "outer-ear-sound-waves",
+      "position": [
+        0.0,
+        0.15,
+        0.5
+      ],
+      "description": "The visible part plus the ear canal that funnels sound.",
+      "color": "#D98A6A",
+      "function": "Collects and funnels sound waves.",
+      "positionHint": "The outer visible part."
+    },
+    {
+      "id": "hs-eardrum",
+      "label": "Eardrum",
+      "conceptId": "eardrum-middle-bones",
+      "position": [
+        0.0,
+        0.1,
+        0.3
+      ],
+      "description": "The thin membrane that vibrates with sound.",
+      "color": "#D9A441",
+      "function": "Vibrates when sound waves hit it.",
+      "positionHint": "At the end of the ear canal."
+    },
+    {
+      "id": "hs-bones",
+      "label": "Tiny middle-ear bones",
+      "conceptId": "eardrum-middle-bones",
+      "position": [
+        0.05,
+        0.05,
+        0.15
+      ],
+      "description": "The hammer, anvil, and stirrup that pass vibrations on.",
+      "color": "#B5846A",
+      "function": "Pass and strengthen vibrations.",
+      "positionHint": "In the middle ear."
+    },
+    {
+      "id": "hs-cochlea",
+      "label": "Cochlea",
+      "conceptId": "cochlea-signals",
+      "position": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "description": "The coiled structure that turns vibrations into signals.",
+      "color": "#6B85A8",
+      "function": "Turns vibrations into nerve signals.",
+      "positionHint": "Deep in the inner ear."
+    },
+    {
+      "id": "hs-balance",
+      "label": "Balance canals",
+      "conceptId": "balance-canals",
+      "position": [
+        0.25,
+        0.1,
+        -0.1
+      ],
+      "description": "The semicircular canals that help keep balance.",
+      "color": "#B5846A",
+      "function": "Sense head position and movement.",
+      "positionHint": "Above the cochlea."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a human ear as a stylized-specimen study, shown in a clean cutaway that opens the ear canal and shows the eardrum, the chain of three tiny bones, and the coiled cochlea with the balance canals above it. A wavy sound line enters the outer ear and travels the path. Warm paper palette, muted, no glow. Named nodes: OuterEar, EarCanal, Eardrum, HammerBone, AnvilBone, StirrupBone, Cochlea, BalanceCanals, AuditoryNerve. Budget 20-28k.",
+  "visual": {
+    "shape": "ear-shell"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "point",
+  "questions": [
+    {
+      "id": "point-def",
+      "conceptId": "point-definition",
+      "hotspotId": "hs-point-a",
+      "prompt": "What is a point?",
+      "options": [
+        "An exact location with no size",
+        "A small circle you draw",
+        "A short straight mark",
+        "A letter on a page"
+      ],
+      "correctIndex": 0,
+      "explanation": "A point is a position with no length, width, or thickness — the dot is only its symbol.",
+      "misconception": "The dot is just a picture of a point; the point itself is a location with zero size."
+    },
+    {
+      "id": "point-naming",
+      "conceptId": "point-naming",
+      "hotspotId": "hs-point-a",
+      "prompt": "How do you name a point?",
+      "options": [
+        "With a capital letter",
+        "With a lowercase letter",
+        "With a number",
+        "Points have no names"
+      ],
+      "correctIndex": 0,
+      "explanation": "Points are labeled with capital letters like point A.",
+      "misconception": "Points use capital letters by convention so they stand out from lines and other symbols."
+    },
+    {
+      "id": "point-plot",
+      "conceptId": "point-plot",
+      "hotspotId": "hs-plane",
+      "prompt": "To plot a point on a grid you need to know...",
+      "options": [
+        "Its row and its column",
+        "Its color",
+        "How big it is",
+        "Its shape"
+      ],
+      "correctIndex": 0,
+      "explanation": "A grid position is a pair — one spot along each direction.",
+      "misconception": "Position needs two coordinates (row and column); size and color are not part of where a point sits."
+    },
+    {
+      "id": "point-building",
+      "conceptId": "point-building-block",
+      "hotspotId": "hs-point-a",
+      "prompt": "Which shape is made of a stretch between two points?",
+      "options": [
+        "A segment",
+        "A point",
+        "A dot",
+        "A letter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A segment is the straight stretch between two endpoint points.",
+      "misconception": "A point is a single location — it takes two points plus the space between them to make a segment."
+    },
+    {
+      "id": "point-vertex",
+      "conceptId": "point-building-block",
+      "hotspotId": "hs-point-a",
+      "prompt": "What is the vertex of an angle?",
+      "options": [
+        "The point where the two rays meet",
+        "The middle of the angle",
+        "The length of the rays",
+        "The space inside the angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two rays share a common point called the vertex — that point is the angle's corner.",
+      "misconception": "The vertex is a shared point, not a length, middle, or region — it is exactly where the rays touch."
+    }
+  ]
+}

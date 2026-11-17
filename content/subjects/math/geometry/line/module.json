@@ -1,0 +1,86 @@
+{
+  "id": "line",
+  "subject": "math",
+  "title": "Line",
+  "summary": "A line is a straight path of points extending forever in both directions. Explore how lines are drawn, named, and used as the base of segments, rays, and angles.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "line-definition",
+    "line-infinite",
+    "line-naming",
+    "line-family"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 6,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Building blocks",
+    "systemOrGroup": "Basic elements",
+    "component": "Line",
+    "displayPath": "Math > Geometry > Building blocks > Basic elements > Line"
+  },
+  "crossReferences": [
+    {
+      "label": "Point (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Point",
+      "note": "A line is a straight path made of countless points."
+    },
+    {
+      "label": "Ray (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Ray",
+      "note": "A ray is part of a line that extends forever in only ONE direction."
+    },
+    {
+      "label": "Segment (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Segment",
+      "note": "A segment is the part of a line between two endpoints."
+    }
+  ],
+  "belongsTo": "Geometry > Building blocks > Basic elements",
+  "compareCandidate": {
+    "label": "Line vs. segment",
+    "description": "A line extends forever both ways with no ends; a segment is a piece of a line with two clear endpoints."
+  },
+  "parts": [
+    "The straight path",
+    "The arrowheads",
+    "Its infinite ends"
+  ],
+  "processes": [
+    "Naming a line",
+    "Extending a line through points"
+  ],
+  "plainLanguageExplanation": "A line is a perfectly straight path that goes on forever in both directions. It is made of an endless string of points, and you show its never-ending ends by drawing small arrowheads. You name a line with two of its points in any order, like line AB or AB. A line has no thickness and no endpoints — it just keeps going. Slice a line to make its cousins: stop both ends for a segment, or stop just one end for a ray.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A straight path extending forever in both directions" },
+    { "label": "Arrowheads", "value": "Show the line keeps going" },
+    { "label": "Made of", "value": "Countless points in a straight row" },
+    { "label": "Naming", "value": "Line AB, using two points" },
+    { "label": "No ends", "value": "Extends forever — no endpoints" },
+    { "label": "Cousins", "value": "Stopping the ends makes segments and rays" }
+  ],
+  "whyItMatters": "Lines are everywhere — roads, edges, laser beams, and horizons. Knowing that a line goes on forever is what lets geometry talk about direction, straightness, and the pieces we cut out of it.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Line",
+  "tagline": "Straight, and forever",
+  "didYouKnow": "You can never draw a complete line — it goes on forever in both directions, so every line you have ever seen is actually just a piece of the real one.",
+  "conditions": [
+    "Naming lines",
+    "Extending shapes",
+    "Finding straight paths",
+    "Building rays and segments"
+  ],
+  "compareCandidateId": "segment",
+  "compareReason": "Students blur lines with segments — comparing shows the infinite ends vs. the two endpoints."
+}

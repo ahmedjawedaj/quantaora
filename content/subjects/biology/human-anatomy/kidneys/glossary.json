@@ -1,0 +1,58 @@
+{
+  "componentId": "kidneys",
+  "terms": [
+    {
+      "term": "Kidneys",
+      "conceptId": "kidney-cleans-blood",
+      "hotspotId": "hs-kidney-shape",
+      "definition": "Two bean-shaped organs that filter waste from the blood.",
+      "function": "Make urine and keep water and salts balanced.",
+      "whereItIs": "Back of the abdomen, one on each side of the spine.",
+      "whyItMatters": "They keep the blood clean and the body balanced.",
+      "relatedConcept": "nephrons-filter-blood",
+      "quizId": "kid-q-job"
+    },
+    {
+      "term": "Nephron",
+      "conceptId": "nephrons-filter-blood",
+      "hotspotId": "hs-nephron",
+      "definition": "The tiny filtering unit inside the kidney.",
+      "function": "Filters the blood and produces the fluid that becomes urine.",
+      "whereItIs": "Scattered through the kidney.",
+      "whyItMatters": "Nephrons are where the actual filtering happens.",
+      "relatedConcept": "kidney-cleans-blood",
+      "quizId": "kid-q-nephron"
+    },
+    {
+      "term": "Urine",
+      "conceptId": "waste-to-urine",
+      "hotspotId": "hs-urine",
+      "definition": "The liquid waste the kidneys produce.",
+      "function": "Carries waste and extra water out of the body.",
+      "whereItIs": "Made in the kidneys, stored in the bladder.",
+      "whyItMatters": "It is how the body safely removes waste.",
+      "relatedConcept": "water-salt-balance",
+      "quizId": "kid-q-urine"
+    },
+    {
+      "term": "Bladder",
+      "conceptId": "waste-to-urine",
+      "hotspotId": "hs-urine",
+      "definition": "The muscular sac that stores urine.",
+      "function": "Holds urine until it is released.",
+      "whereItIs": "Lower part of the abdomen.",
+      "whyItMatters": "It lets the body store waste until it can be released.",
+      "relatedConcept": "kidney-cleans-blood"
+    },
+    {
+      "term": "Ureter",
+      "conceptId": "waste-to-urine",
+      "hotspotId": "hs-urine",
+      "definition": "The tube carrying urine from kidney to bladder.",
+      "function": "Transports urine.",
+      "whereItIs": "Connecting each kidney to the bladder.",
+      "whyItMatters": "It is the delivery pipe for urine.",
+      "relatedConcept": "waste-to-urine"
+    }
+  ]
+}

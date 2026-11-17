@@ -1,0 +1,134 @@
+{
+  "id": "parallel-circuit",
+  "componentId": "parallel-circuit",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/parallel-circuit/parallel-circuit.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/parallel-circuit.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.2,
+      4.6
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Two shared rails",
+    "Three branch lanes (A, B, C)",
+    "Battery",
+    "Junction meters"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-top-rail",
+      "label": "Top Rail",
+      "conceptId": "parallel-multiple-branches",
+      "position": [
+        -0.4,
+        1.1,
+        0
+      ],
+      "description": "The shared entry that feeds every branch straight from the battery.",
+      "colorHint": "A cool-grey horizontal rail across the top.",
+      "color": "#6B85A8",
+      "function": "Carries full source to each branch."
+    },
+    {
+      "id": "hs-branch-a",
+      "label": "Branch A",
+      "conceptId": "parallel-multiple-branches",
+      "position": [
+        -0.6,
+        0.0,
+        0.1
+      ],
+      "description": "First lane: its own bulb, its own complete path across the rails.",
+      "colorHint": "Warm bulb on the far-left lane.",
+      "color": "#D9A441",
+      "function": "Independent bulb lane."
+    },
+    {
+      "id": "hs-branch-b",
+      "label": "Branch B",
+      "conceptId": "parallel-same-voltage-each",
+      "position": [
+        0,
+        0,
+        0.1
+      ],
+      "description": "Middle lane, full voltage, removable on its own.",
+      "colorHint": "Warm bulb on the center lane.",
+      "color": "#D9A441",
+      "function": "The test bulb."
+    },
+    {
+      "id": "hs-branch-c",
+      "label": "Branch C",
+      "conceptId": "parallel-independent-branches",
+      "position": [
+        0.6,
+        0.0,
+        0.1
+      ],
+      "description": "Right lane, still full brightness after its neighbor is removed.",
+      "colorHint": "Warm bulb on the far-right lane.",
+      "color": "#D9A441",
+      "function": "Survives when a sibling breaks."
+    },
+    {
+      "id": "hs-battery",
+      "label": "Battery",
+      "conceptId": "parallel-same-voltage-each",
+      "position": [
+        -0.2,
+        1.5,
+        0
+      ],
+      "description": "The source whose full volts every branch sees.",
+      "colorHint": "Small blue battery at the top rail's tail.",
+      "color": "#6B85A8",
+      "function": "Feeds all branches in parallel."
+    },
+    {
+      "id": "hs-junction-a",
+      "label": "Junction Meter",
+      "conceptId": "parallel-current-splits-at-junction",
+      "position": [
+        1.3,
+        1.1,
+        0.1
+      ],
+      "description": "Gauge that shows total current = the sum of branch currents it rejoins.",
+      "colorHint": "Round green instrument on the rejoin rail.",
+      "color": "#7FA86A",
+      "function": "Proves the current-splitting rule."
+    },
+    {
+      "id": "hs-remove-a",
+      "label": "Remove / Replace Bulb B",
+      "conceptId": "parallel-independent-branches",
+      "position": [
+        0,
+        -0.7,
+        0.2
+      ],
+      "description": "The unplug test that leaves the other branches lit.",
+      "colorHint": "A small unscrew chip below the center bulb.",
+      "color": "#D96B5A",
+      "function": "Demonstrates independent survival."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. Two cool-grey rails, three warm bulbs on separate lanes, one blue battery at the top, a green junction meter near the rejoin.",
+  "materialNotes": "Metallic=0 for bulbs (warm rough glass); rails a subtle cool-grey roughness 0.3; battery faces a restrained blue cast; no bloom, no emissive.",
+  "assetBrief": "SUBJECT: parallel circuit behavior on separate lanes between two shared rails.\n\nGEOMETRY: top and bottom horizontal rails at y=1.1 and y=-0.6; three vertical branch lanes at x=-0.6,0,0.6, each carrying a bulb at y=0; battery at (-0.2,1.5,0); junction meter stand at (1.3,1.1,0.1); an unscrew chip below the middle lane.\n\nINTERACTION: clicking either bulb flashes its meter (all full brightness); the chip removes branch B; branches A and C stay lit; reinstalling restores the trio.\n\nNAMED NODES: TopRail, BranchA, BranchB, BranchC, Cell, JunctionMeter, RemoveChip. 8-11k tris.",
+  "visual": {
+    "shape": "parallel-circuit"
+  }
+}

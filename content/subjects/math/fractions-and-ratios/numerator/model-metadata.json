@@ -1,0 +1,89 @@
+{
+  "id": "numerator",
+  "componentId": "numerator",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/fractions-and-ratios/numerator/numerator.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/fractions-and-ratios/numerator.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.5,
+      3.4
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.5,
+      3.4
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Fraction bar",
+    "Filled segments",
+    "Fraction plate"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-numerator-label",
+      "label": "Numerator",
+      "conceptId": "numerator-top-of-fraction",
+      "position": [
+        0,
+        0.95,
+        0.3
+      ],
+      "description": "The numerator is the top number \u2014 the count of parts you have.",
+      "positionHint": "The lit '3' above the fraction bar in the 3/4 plate.",
+      "color": "#D96B5A",
+      "function": "Counts the parts you have."
+    },
+    {
+      "id": "hs-filled-segments",
+      "label": "Filled segments",
+      "conceptId": "numerator-counts-parts",
+      "position": [
+        -0.35,
+        0.25,
+        0
+      ],
+      "description": "The filled segments are the parts the numerator counts \u2014 3 lit segments for the numerator 3.",
+      "positionHint": "The lit segments inside the fraction bar.",
+      "color": "#7FA86A",
+      "function": "Show the equal parts counted by the numerator."
+    },
+    {
+      "id": "hs-denominator-label",
+      "label": "Denominator",
+      "conceptId": "numerator-top-of-fraction",
+      "position": [
+        0,
+        -0.1,
+        0.3
+      ],
+      "description": "The denominator (bottom) stays fixed while the numerator changes \u2014 it names the part size.",
+      "positionHint": "The '4' below the fraction bar, unlit.",
+      "color": "#6B85A8",
+      "function": "Names the equal parts; stays fixed here."
+    }
+  ],
+  "visualStyleNotes": "Fractions And Ratios, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A single clean fraction bar split into segments with a fill slider and a fraction plate. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (coral / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Fraction bar: warm paper white with thin ink-grey segment seams (roughness ~0.5). Filled segments: warm amber fill (roughness ~0.45). Fraction plate: warm paper with ink 'n/d' text where the numerator is highlighted. Slider: soft warm-grey rail with amber knob. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the numerator of a fraction, isolated \u2014 a fraction bar split into equal segments where only the lit (filled) count changes.\n\nGEOMETRY: Fraction bar: thin rounded slab (length ~2.4, width ~0.3) at origin, y \u2248 0.25, split into 4 segments by thin seams. Filled segments are warm amber; empty ones stay paper white. Fill slider at the front (y \u2248 \u22120.2) adjusts numerator 0..4 with denominator fixed at 4. Fraction plate floats above-left showing 'n/4' with the numerator lit.\n\nLAYERS (toggleable): (1) segment seams; (2) filled segments; (3) fraction plate with numerator/denominator badges.\n\nCAMERA: head-on from +z frames bar and plate; labels legible. Budget 5-9k triangles. Named nodes: FractionBar, Segments, Seams, FilledFill, Slider_Knob, FractionPlate, NumeratorBadge, DenominatorBadge. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "fraction-bar"
+  }
+}

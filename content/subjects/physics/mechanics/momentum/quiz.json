@@ -1,0 +1,80 @@
+{
+  "componentId": "momentum",
+  "questions": [
+    {
+      "id": "momentum-q-formula",
+      "conceptId": "momentum-mass-times-velocity",
+      "hotspotId": "hs-p-value",
+      "prompt": "A 4 kg cart moves at 3 m/s. What is its momentum?",
+      "options": [
+        "12 kg·m/s",
+        "7 kg·m/s",
+        "1.3 kg·m/s",
+        "34 kg·m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum = mass × velocity = 4 × 3 = 12 kg·m/s.",
+      "misconception": "Adding (7), dividing (1.3), or scrambling the numbers (34) comes from skipping the multiplication — momentum is mass × velocity."
+    },
+    {
+      "id": "momentum-q-vector",
+      "conceptId": "momentum-vector",
+      "hotspotId": "hs-velocity-arrow",
+      "prompt": "Why is momentum considered a vector quantity?",
+      "options": [
+        "Because it points in the direction of the motion",
+        "Because it only has a size",
+        "Because it is always a rounded number",
+        "Because it is measured in seconds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum inherits direction from velocity, so it points the way the object moves — like every vector.",
+      "misconception": "Reading momentum as a plain amount like distance hides its most useful trait: sign and direction matter for conservation."
+    },
+    {
+      "id": "momentum-q-conservation",
+      "conceptId": "momentum-conservation",
+      "hotspotId": "hs-momentum-bar",
+      "prompt": "Two carts collide. What stays the same before and after the collision?",
+      "options": [
+        "The total momentum of the two carts",
+        "Each cart's momentum individually",
+        "The total mass plus a mystery piece",
+        "They always lose energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is conserved in collisions — the total before equals the total after, even though the carts swap it between them.",
+      "misconception": "Each cart's own momentum DOES change — but the total naturally holds; that's the conservation core."
+    },
+    {
+      "id": "momentum-q-impulse",
+      "conceptId": "momentum-impulse",
+      "hotspotId": "hs-cart-a",
+      "prompt": "What actually changes an object's momentum?",
+      "options": [
+        "A force acting for a time (impulse = F × Δt)",
+        "Just observing the object",
+        "Changing its color smoothly",
+        "Moving in a direction without any contact"
+      ],
+      "correctIndex": 0,
+      "explanation": "A force applied over time — its impulse, F × Δt — is what changes momentum, whether the object speeds up, slows, or turns.",
+      "misconception": "'Momentum changes by itself' is a sneaky wrong answer; impulse is the mover, and it is how the conservation balance gets shifted."
+    },
+    {
+      "id": "momentum-q-mass",
+      "conceptId": "momentum-mass-times-velocity",
+      "hotspotId": "hs-mass-slider",
+      "prompt": "Two objects move at the same speed. Which has more momentum?",
+      "options": [
+        "The one with more mass",
+        "The one with a brighter color",
+        "The one moving uphill",
+        "They cannot differ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum = mass × velocity, so at the same speed the heavier object carries more momentum.",
+      "misconception": "Same speed doesn't mean same momentum — mass sorts it out, which is why a slow truck hurts more than a fast football."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "componentId": "eye",
+  "terms": [
+    {
+      "term": "Eye",
+      "conceptId": "optic-nerve-to-brain",
+      "hotspotId": "hs-optic",
+      "definition": "The organ of sight that turns light into signals.",
+      "function": "Lets light in, focuses it, and senses it.",
+      "whereItIs": "In the eye sockets of the skull.",
+      "whyItMatters": "It is how the body senses the visual world.",
+      "relatedConcept": "retina-light-cells",
+      "quizId": "eye-q-path"
+    },
+    {
+      "term": "Cornea",
+      "conceptId": "cornea-pupil-iris",
+      "hotspotId": "hs-cornea",
+      "definition": "The clear front window of the eye.",
+      "function": "Lets light in and starts focusing.",
+      "whereItIs": "The front of the eye.",
+      "whyItMatters": "It is the eye's first light-gathering surface.",
+      "relatedConcept": "lens-focuses-light"
+    },
+    {
+      "term": "Retina",
+      "conceptId": "retina-light-cells",
+      "hotspotId": "hs-retina",
+      "definition": "The light-sensitive screen at the back of the eye.",
+      "function": "Turns light into nerve signals.",
+      "whereItIs": "Lining the back of the eyeball.",
+      "whyItMatters": "It is where light becomes a signal.",
+      "relatedConcept": "optic-nerve-to-brain",
+      "quizId": "eye-q-retina"
+    },
+    {
+      "term": "Lens",
+      "conceptId": "lens-focuses-light",
+      "hotspotId": "hs-lens",
+      "definition": "The flexible part that focuses light on the retina.",
+      "function": "Bends light so the image is sharp.",
+      "whereItIs": "Behind the iris.",
+      "whyItMatters": "It makes the image clear and in focus.",
+      "relatedConcept": "retina-light-cells",
+      "quizId": "eye-q-lens"
+    },
+    {
+      "term": "Optic nerve",
+      "conceptId": "optic-nerve-to-brain",
+      "hotspotId": "hs-optic",
+      "definition": "The nerve carrying sight signals from the eye to the brain.",
+      "function": "Transports the visual signal.",
+      "whereItIs": "Leaving the back of the eye toward the brain.",
+      "whyItMatters": "It is the cable that connects the eye to the brain.",
+      "relatedConcept": "retina-light-cells",
+      "quizId": "eye-q-brain"
+    }
+  ]
+}

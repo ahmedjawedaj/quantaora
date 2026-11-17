@@ -1,0 +1,48 @@
+{
+  "componentId": "root",
+  "terms": [
+    {
+      "term": "Root",
+      "conceptId": "root-anchors-plant",
+      "hotspotId": "hs-root",
+      "definition": "The part of a plant that grows downward into the soil to anchor the plant and absorb water and minerals.",
+      "function": "Supplies the plant with water and minerals and holds it in place.",
+      "whereItIs": "Underground, extending down into the soil.",
+      "whyItMatters": "Without roots, plants could not stand up or get water and could not survive.",
+      "relatedConcept": "root-hairs-absorb-water",
+      "quizId": "root-q-concept"
+    },
+    {
+      "term": "Root hairs",
+      "conceptId": "root-hairs-absorb-water",
+      "hotspotId": "hs-root-hair",
+      "definition": "Tiny finger-like extensions on a root that greatly increase its surface area for absorbing water and minerals.",
+      "function": "Cause the root to soak up more water from the soil.",
+      "whereItIs": "Just behind the tip of the root.",
+      "whyItMatters": "More root hairs mean a healthy, well-watered plant.",
+      "relatedConcept": "root-anchors-plant",
+      "quizId": "root-q-hairs"
+    },
+    {
+      "term": "Root cap",
+      "conceptId": "root-cap-protects",
+      "hotspotId": "hs-root-cap",
+      "definition": "A protective covering at the very tip of a root that shields the growing tip as it pushes through the soil.",
+      "function": "Protects the delicate tip from damage as the root grows downward.",
+      "whereItIs": "At the very tip of the root.",
+      "whyItMatters": "It lets the root safely grow through rough soil and stones.",
+      "relatedConcept": "root-hairs-absorb-water",
+      "quizId": "root-q-cap"
+    },
+    {
+      "term": "Xylem",
+      "conceptId": "root-axial-conductivity",
+      "hotspotId": "hs-xylem",
+      "definition": "Tiny tubes in the plant that carry water upward, from the root into the stem and leaves.",
+      "function": "Transports water and minerals up from the root.",
+      "whereItIs": "Running through the core of the root, up the stem.",
+      "whyItMatters": "It carries the water that roots take in up to the rest of the plant.",
+      "relatedConcept": "root-anchors-plant"
+    }
+  ]
+}

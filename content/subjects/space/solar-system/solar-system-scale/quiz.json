@@ -1,0 +1,80 @@
+{
+  "componentId": "solar-system-scale",
+  "questions": [
+    {
+      "id": "ss-scale-q-sun-size",
+      "conceptId": "sun-dominates-in-size",
+      "hotspotId": "hs-sun",
+      "prompt": "About how many times wider is the Sun than Earth?",
+      "options": [
+        "About 2 times",
+        "About 109 times",
+        "About 1,000 times",
+        "About the same size"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sun's radius is about 696,000 km while Earth's is about 6,371 km — roughly 109 times wider. More than a million Earths would fit inside the Sun's volume.",
+      "misconception": "Textbook diagrams often draw the Sun only a few times bigger than the planets so everything fits on the page, which makes it easy to underestimate the Sun's true dominance."
+    },
+    {
+      "id": "ss-scale-q-au",
+      "conceptId": "au-distance-unit",
+      "hotspotId": "hs-au-scale",
+      "prompt": "What is one astronomical unit (AU)?",
+      "options": [
+        "The distance light travels in one year",
+        "The average distance from Earth to the Sun, about 150 million km",
+        "The diameter of the Sun",
+        "The distance across the whole solar system"
+      ],
+      "correctIndex": 1,
+      "explanation": "One AU is the average Sun–Earth distance, about 150 million km. It is the standard ruler astronomers use for distances inside the solar system.",
+      "misconception": "AU and light-year get mixed up often — a light-year is the distance light travels in a year (about 9.5 trillion km) and is used for distances to other stars, while the AU is the Sun–Earth distance and is used inside the solar system."
+    },
+    {
+      "id": "ss-scale-q-why-diagrams",
+      "conceptId": "distance-gaps-are-huge",
+      "hotspotId": "hs-distance-gap",
+      "prompt": "Why do most textbook diagrams of the solar system not show true scale?",
+      "options": [
+        "True scale would make the planets invisible specks separated by huge gaps",
+        "Artists do not know the real sizes",
+        "The Sun is too big to draw at any size",
+        "The planets change size every year"
+      ],
+      "correctIndex": 0,
+      "explanation": "At true scale the planets would be far too small to label and the gaps between them far too large, so diagrams compress the distances to stay readable — which quietly hides the real emptiness.",
+      "misconception": "Some learners assume the compressed diagram is accurate because it appears in a book. In reality it is a deliberate compromise: showing sizes and showing distances at the same time is physically impossible on one page."
+    },
+    {
+      "id": "ss-scale-q-light-time",
+      "conceptId": "light-travel-time-across-solar-system",
+      "hotspotId": "hs-au-scale",
+      "prompt": "About how long does sunlight take to travel from the Sun to Earth?",
+      "options": [
+        "About 8 seconds",
+        "About 8 minutes",
+        "About 8 hours",
+        "About 8 days"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light travels at about 300,000 km per second, so the 150 million km trip from the Sun to Earth takes about 8 minutes. To Neptune it takes roughly 4–5 hours.",
+      "misconception": "Because the Sun is so close in drawings, it is easy to imagine sunlight arriving instantly — but the Sun's light you see right now left the Sun 8 minutes ago."
+    },
+    {
+      "id": "ss-scale-q-true-view",
+      "conceptId": "planets-are-tiny-specks",
+      "hotspotId": "hs-earth-speck",
+      "prompt": "In a true-to-scale view of the solar system, which statement is correct?",
+      "options": [
+        "The planets are large and packed close together",
+        "The planets are tiny specks spread across vast empty distances",
+        "All eight planets are about the same size",
+        "The Sun is smaller than Jupiter"
+      ],
+      "correctIndex": 1,
+      "explanation": "At true scale, planets are minuscule compared with the Sun and with the distances between them — the solar system is mostly empty space.",
+      "misconception": "Space looks 'crowded' in diagrams, so it is easy to believe the solar system is packed with objects. In reality, if you shrank the Sun to a basketball, Earth would be a peppercorn about 30 m away."
+    }
+  ]
+}

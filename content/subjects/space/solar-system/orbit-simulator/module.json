@@ -1,0 +1,103 @@
+{
+  "id": "orbit-simulator",
+  "subject": "space",
+  "title": "Orbit Simulator",
+  "summary": "A planet stays in its orbit because two things balance: the Sun's gravity constantly pulling it inward and its own sideways motion carrying it forward. Switch planets on, run the clock, and watch why Mercury dashes around the Sun while Neptune crawls — and why a planet that slows down starts to fall.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "gravity-holds-planets-in-orbit",
+    "farther-planets-orbit-slower",
+    "orbits-are-ellipses",
+    "falling-around-the-sun",
+    "asteroid-belt-between-mars-and-jupiter"
+  ],
+  "type": "model",
+  "estimatedMinutes": 14,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Solar System",
+    "unit": "Sun and Planets",
+    "systemOrGroup": "Planets (orbital motion)",
+    "component": "Orbit Simulator",
+    "displayPath": "Space > Solar System > Sun and Planets > Planets (orbital motion) > Orbit Simulator"
+  },
+  "crossReferences": [
+    {
+      "label": "Revolution (Earth in Space)",
+      "branch": "earth-in-space",
+      "component": "Revolution",
+      "note": "This simulator animates every planet's trip around the Sun; the Earth in Space branch's Revolution component zooms in on Earth's own yearly journey and connects it to the seasons."
+    },
+    {
+      "label": "Solar System Scale (Solar System)",
+      "branch": "solar-system",
+      "component": "Solar system scale",
+      "note": "The orbits in this simulator are drawn at the same relative distances measured in AU — the scale component explains where those distances come from."
+    },
+    {
+      "label": "Planet Cards (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet cards",
+      "note": "Every year-length fact on the planet cards is exactly what this simulator animates: run each planet and time how long its circuit takes."
+    }
+  ],
+  "belongsTo": "Solar System > Sun and Planets > Planets (orbital motion)",
+  "compareCandidate": {
+    "label": "Fast inner orbit vs. slow outer orbit",
+    "description": "Mercury whips around the Sun in 88 days on a small, tight circle. Neptune slowly drifts through its enormous orbit in about 165 years. Same gravity, same Sun — only the distance is different, and distance alone explains both the size of the path and the speed of the trip."
+  },
+  "parts": [
+    "The Sun (gravitational anchor)",
+    "Orbit paths (one per planet)",
+    "Running planet markers",
+    "The asteroid belt",
+    "Speed and period readout"
+  ],
+  "processes": [
+    "Gravity as an inward pull, not a force that pushes planets around",
+    "How forward motion plus inward pull makes a closed loop",
+    "Why more distance means a longer year",
+    "Elliptical orbits and the Sun at one focus"
+  ],
+  "plainLanguageExplanation": "People sometimes imagine gravity as a rope pulling planets around the Sun, or as a motor keeping them going. Neither is right. A planet is flying forward on its own — it would keep going in a straight line forever if nothing turned it. Gravity does not push planets around; it pulls them inward, toward the Sun, every single moment. The planet's forward motion tries to carry it off into space, gravity tries to drag it into the Sun, and the two together curve its path into a endlessly repeating loop: an orbit. This is why orbiting is often described as 'falling around the Sun' — the planet is always falling, but it keeps missing. The simulator lets you watch this balance in action. Run Mercury and you see a tight, fast dash; run Neptune and you see a giant slow crawl. The asteroid belt orbits between Mars and Jupiter, and a readout shows each planet's changing speed and how long its year takes. The shapes are ellipses — slightly squashed circles — with the Sun at one focus rather than the center, which is why a planet's distance from the Sun changes a little across its year.",
+  "keyFacts": [
+    {
+      "label": "What keeps a planet orbiting",
+      "value": "The Sun's gravity pulls it inward while its own forward motion carries it past — the two balance into a closed loop"
+    },
+    {
+      "label": "Orbits are ellipses",
+      "value": "Planet orbits are slightly squashed circles with the Sun at one of the two focus points, not the center"
+    },
+    {
+      "label": "Distance sets the year",
+      "value": "Mercury's year is 88 Earth days; Neptune's is about 165 Earth years — the farther out, the longer the loop"
+    },
+    {
+      "label": "Distance sets the speed too",
+      "value": "Inner planets travel faster along their orbits; outer planets drift more slowly"
+    },
+    {
+      "label": "Asteroid belt location",
+      "value": "The asteroid belt orbits between Mars (1.5 AU) and Jupiter (5.2 AU), in the solar system's widest orbital gap"
+    },
+    {
+      "label": "Run/compare controls",
+      "value": "Switch any planet on or off, speed up time, and compare two orbits side by side"
+    }
+  ],
+  "whyItMatters": "Orbits are the single most important mechanism in all of astronomy. Satellites, the Moon, every planet, every comet, and every planet orbiting another star follows these same rules. Understanding that orbiting is 'falling around' explains real, everyday space news: why a satellite that loses speed falls out of orbit, why the James Webb Space Telescope must constantly nudge itself, and how astronomers fling probes from planet to planet by timing gravity's pull. If you understand orbits, you understand how spacecraft actually travel.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Keplerian Orbital Motion",
+  "tagline": "Falling around the Sun, forever",
+  "didYouKnow": "Astronauts on the Space Station are falling toward Earth every single moment — they just keep missing it. Orbiting is falling, but always just missing the ground.",
+  "compareCandidateId": "gravity-comparison",
+  "compareReason": "The Orbit Simulator shows gravity as the invisible pull steering every planet; the Gravity Comparison component makes that same gravity measurable by telling you how heavy you would feel on each world."
+}

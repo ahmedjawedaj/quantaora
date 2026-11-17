@@ -1,0 +1,132 @@
+{
+  "id": "momentum",
+  "componentId": "momentum",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/momentum/momentum.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/momentum.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.4,
+      4.3
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.4,
+      4.3
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Two carts on track",
+    "Mass sliders",
+    "Velocity arrows",
+    "Momentum readouts and conservation banner"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cart-a",
+      "label": "Cart A",
+      "conceptId": "momentum-mass-times-velocity",
+      "position": [
+        -0.7,
+        0.35,
+        0
+      ],
+      "description": "The left cart whose mass and velocity combine into momentum.",
+      "colorHint": "Amber cart on the left end of the track.",
+      "color": "#D9A441",
+      "function": "Carries Cart A with a tunable mass and velocity."
+    },
+    {
+      "id": "hs-cart-b",
+      "label": "Cart B",
+      "conceptId": "momentum-mass-times-velocity",
+      "position": [
+        0.7,
+        0.35,
+        0
+      ],
+      "description": "The right cart, facing Cart A across the track.",
+      "colorHint": "Blue cart on the right end of the track.",
+      "color": "#6B85A8",
+      "function": "Carries Cart B with a tunable mass and velocity."
+    },
+    {
+      "id": "hs-mass-slider",
+      "label": "Mass Sliders",
+      "conceptId": "momentum-mass-times-velocity",
+      "position": [
+        0,
+        0.65,
+        0.5
+      ],
+      "description": "Sliders set each cart's mass in kg — one knob of the momentum product.",
+      "colorHint": "Two small sliders on pedestals.",
+      "color": "#7FA86A",
+      "function": "Sets the mass input to the momentum equation."
+    },
+    {
+      "id": "hs-velocity-arrow",
+      "label": "Velocity Arrows",
+      "conceptId": "momentum-vector",
+      "position": [
+        0,
+        1.0,
+        0
+      ],
+      "description": "Arrows attached to the carts showing their velocity — length and direction become momentum's direction.",
+      "colorHint": "Coral arrows over each cart.",
+      "color": "#D96B5A",
+      "function": "Shows the velocity that gives momentum its size and direction."
+    },
+    {
+      "id": "hs-p-value",
+      "label": "Momentum Values",
+      "conceptId": "momentum-mass-times-velocity",
+      "position": [
+        -0.7,
+        0.85,
+        0.2
+      ],
+      "description": "Each cart's live momentum (mass × velocity) in kg·m/s.",
+      "colorOf": "Small badges on the carts.",
+      "color": "#D9A441",
+      "function": "Displays the computed momentum on each cart."
+    },
+    {
+      "id": "hs-momentum-bar",
+      "label": "Conservation Banner",
+      "conceptId": "momentum-conservation",
+      "position": [
+        0,
+        1.7,
+        0
+      ],
+      "description": "The floating banner showing total momentum — identical before and after every collision.",
+      "colorHint": "A wide banner floating above the track.",
+      "color": "#6B85A8",
+      "function": "Verifies that total momentum is conserved across collisions."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette, no floor grid. A straight warm track with two carts (amber and blue), coral velocity arrows, green mass sliders, and a floating conservation banner. Saturated color on arrows, sliders, banner only. Neutral studio light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness, metallic=0. Track: warm-grey cylinder/rail (roughness ~0.5). Cart A: amber rounded box with wheels; Cart B: blue. Arrows: matte coral prisms. Banner: soft paper white with green total. Sliders warm-grey.",
+  "assetBrief": "SUBJECT: momentum as mass × velocity, vector, and conserved across collisions on a track.\n\nGEOMETRY: a straight track along +x (length ~5) with two carts (each ~0.5 long) at ±1.1, facing each other. Velocity arrows above each cart, small mass sliders on pedestals beside the track, a floating conservation banner overhead.\n\nINTERACTION: sliders set mass (1-8 kg) and speed (0-4 m/s, direction buttons); Go runs the carts and plays an elastic collision; the banner holds total constant with a flash effect when the math matches.\n\nLAYERS: carts+track; sliders; arrows; readouts+banner.\n\nNAMED NODES: TrackRail, Cart_A, Cart_B, MassSlider_A, MassSlider_B, VelocityArrow_A, VelocityArrow_B, MomentumBadge_A, MomentumBadge_B, ConservationBanner. 7-11k tris.",
+  "visual": {
+    "shape": "momentum-mass"
+  }
+}

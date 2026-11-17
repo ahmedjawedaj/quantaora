@@ -1,0 +1,104 @@
+{
+  "id": "force",
+  "componentId": "force",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/force/force.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/force.png",
+  "defaultCamera": {
+    "position": [
+      0.2,
+      1.5,
+      4.0
+    ],
+    "target": [
+      0,
+      0.25,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.2,
+      1.5,
+      4.0
+    ],
+    "target": [
+      0,
+      0.25,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Wooden box",
+    "Left and right force arrows",
+    "Net force arrow",
+    "Newton scale"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-force-arrows",
+      "label": "Force Arrows",
+      "conceptId": "force-push-pull",
+      "position": [
+        0.9,
+        0.45,
+        0
+      ],
+      "description": "Two arrows meeting at the box — each is a push or pull with a size in newtons and a direction.",
+      "positionHint": "Left and right arrow beams touching the box sides.",
+      "color": "#6B85A8",
+      "function": "Represents each applied force with length = newtons and heading = direction."
+    },
+    {
+      "id": "hs-force-box",
+      "label": "Object",
+      "conceptId": "force-vector",
+      "position": [
+        0,
+        0.18,
+        0
+      ],
+      "description": "The box all the forces act on — it moves only when the forces stop cancelling.",
+      "positionHint": "A smooth wooden box at center.",
+      "color": "#D9A441",
+      "function": "The target object whose motion the net force controls."
+    },
+    {
+      "id": "hs-net-force",
+      "label": "Net Force Arrow",
+      "conceptId": "force-net-force",
+      "position": [
+        0,
+        0.7,
+        0
+      ],
+      "description": "The leftover arrow after the two pushes combine — zero N when balanced, or a single strong arrow when they aren't.",
+      "positionHint": "A third arrow floating above the box, appearing on Go.",
+      "color": "#7FA86A",
+      "function": "Shows the combined net force in newtons and its direction."
+    },
+    {
+      "id": "hs-force-scale",
+      "label": "Newton Scale",
+      "conceptId": "force-newton-unit",
+      "position": [
+        -1.2,
+        0.6,
+        0
+      ],
+      "description": "The plate reading each pull, in newtons (N), the SI unit for force.",
+      "positionHint": "A small scale plate on a post to the side.",
+      "color": "#6B85A8",
+      "function": "Measures and displays force magnitude in newtons."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette, no floor grid. Warm wooden box on a neutral mat, two coral/blue force arrows of adjustable length, floating green net arrow, small newton scale. Saturated color only on arrows and dots. Neutral studio light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0. Box: warm oak (roughness ~0.5, thin grain). Arrows: matte saturated prisms (roughness ~0.4). Scale: paper face with ink digits. Slider handles warm-grey. Readout labels runtime overlay.",
+  "assetBrief": "SUBJECT: forces as arrows in newtons, balanced vs. unbalanced, on a wooden box.\n\nGEOMETRY: box at origin on a soft mat (1.2×1.2 footprint, height .35). Left and right arrow beams from either side meet the box at its surfaces (adjustable length 0..120 as 0..120 N). Net arrow floats overhead (0,0.7,0). Scale plate on a low post on the -x side.\n\nINTERACTION: 2 sliders set left/right force; Go shows net arrow and animates box slide when net ≠ 0; Reset re-centers.\n\nLAYERS: box; arrows pair; net arrow; scale.\n\nNAMED NODES: Box, LeftArrow, RightArrow, NetArrow, ScalePlate, Mat. 5-8k tris.",
+  "visual": {
+    "shape": "force-push"
+  }
+}

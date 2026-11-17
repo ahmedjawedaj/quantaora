@@ -1,0 +1,119 @@
+{
+  "id": "bacteria",
+  "componentId": "bacteria",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/microbiology/bacteria/bacteria.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/microbiology/bacteria.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Single bacterium",
+    "Cell wall",
+    "Cell membrane",
+    "Interior (DNA)",
+    "Division animation"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cellwall",
+      "label": "Cell wall",
+      "conceptId": "bacteria-cell-structure",
+      "position": [
+        0.15,
+        0.2,
+        0.2
+      ],
+      "description": "A firm outer layer that gives the bacterium its shape and support.",
+      "positionHint": "A thin outer sleeve around the rod-shaped cell.",
+      "color": "#D9A441",
+      "function": "Supports and shapes the bacterium."
+    },
+    {
+      "id": "hs-membrane",
+      "label": "Cell membrane",
+      "conceptId": "bacteria-cell-structure",
+      "position": [
+        -0.15,
+        0.2,
+        0.22
+      ],
+      "description": "A thin inner layer just under the wall that controls what enters and leaves the cell.",
+      "positionHint": "A pale line right inside the cell wall.",
+      "color": "#D98A6A",
+      "function": "Controls what passes in and out."
+    },
+    {
+      "id": "hs-dna",
+      "label": "DNA (genetic material)",
+      "conceptId": "bacteria-cell-structure",
+      "position": [
+        0,
+        0.25,
+        0.18
+      ],
+      "description": "The bacterium's loose DNA, floating freely since it has no nucleus.",
+      "positionHint": "A coil/loose knot of DNA near the center of the cell interior.",
+      "color": "#6B85A8",
+      "function": "Carries the instructions the bacterium needs."
+    },
+    {
+      "id": "hs-flagellum",
+      "label": "Flagellum",
+      "conceptId": "bacteria-cell-structure",
+      "position": [
+        0.3,
+        0.1,
+        0.2
+      ],
+      "description": "A tail-like whip that the bacterium can use to move.",
+      "positionHint": "A long thin tail extending from one end of the cell.",
+      "color": "#B5846A",
+      "function": "Helps the bacterium move."
+    },
+    {
+      "id": "hs-divide",
+      "label": "Cells splitting",
+      "conceptId": "binary-fission-reproduction",
+      "position": [
+        0,
+        -0.15,
+        0.22
+      ],
+      "description": "The place where the bacterium pinches to split in two during binary fission.",
+      "positionHint": "The pinching midline seen during the division animation.",
+      "color": "#7FA874",
+      "function": "The split that makes two cells from one."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier best throughout: warm off-white/paper background (#F7F3EC) with a soft radial glow, no floor grid, no props and minimal, clean surface so the microbe is a calm, centered subject. Stylized-clean clear primitive bacteria, soft neutral material, not glowing or gamey. Strong saturated color reserved for the hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.55-0.65. DNA coil is a clean stylized knot, not glowing.",
+  "assetBrief": "SUBJECT: a single rod-shaped bacterium, centered and large, with a partial cutaway exposing a membrane, a loose DNA coil, and a trailing flagellum. A division layer animates the cell pinching into two. Muted warm backdrop, soft neutrals. Named nodes: BacteriumBody, CellWall, CellMembrane, DNA, Flagellum, SplitPoint. Budget 10-14k.",
+  "visual": {
+    "shape": "bacteria-rod"
+  }
+}

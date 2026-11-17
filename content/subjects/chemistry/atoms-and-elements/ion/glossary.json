@@ -1,0 +1,49 @@
+{
+  "componentId": "ion",
+  "terms": [
+    {
+      "term": "Ion",
+      "conceptId": "ion-charged-atom",
+      "hotspotId": "hs-ion-pair",
+      "definition": "An atom that has gained or lost electrons, so it carries an electric charge.",
+      "function": "The charged particle that forms ionic bonds and conducts in solution.",
+      "whereItIs": "Na⁺ and Cl⁻ — the charged atoms in the model.",
+      "whyItMatters": "Ions drive nerve signals, batteries, and the chemistry of salt.",
+      "relatedConcept": "ion-gain-or-lose-electrons",
+      "quizId": "ion-q-definition"
+    },
+    {
+      "term": "Cation",
+      "conceptId": "ion-gain-or-lose-electrons",
+      "hotspotId": "hs-ion-loses",
+      "definition": "A positive ion, formed when an atom loses electrons.",
+      "function": "The electron giver — becomes positive because it now has more protons than electrons.",
+      "whereItIs": "Sodium as Na⁺ in the model.",
+      "whyItMatters": "Cations pair with anions to build ionic compounds.",
+      "relatedConcept": "ion-positive-negative",
+      "quizId": "ion-q-positive"
+    },
+    {
+      "term": "Anion",
+      "conceptId": "ion-gain-or-lose-electrons",
+      "hotspotId": "hs-ion-gains",
+      "definition": "A negative ion, formed when an atom gains electrons.",
+      "function": "The electron taker — becomes negative because it now has more electrons than protons.",
+      "whereItIs": "Chlorine as Cl⁻ in the model.",
+      "whyItMatters": "Anions pair with cations to build ionic compounds.",
+      "relatedConcept": "ion-positive-negative",
+      "quizId": "ion-q-negative"
+    },
+    {
+      "term": "Ionic attraction",
+      "conceptId": "ion-positive-negative",
+      "hotspotId": "hs-ion-pair",
+      "definition": "The pull between a positive and a negative ion.",
+      "function": "Binds ions together into ionic compounds like table salt.",
+      "whereItIs": "The glow band between Na⁺ and Cl⁻ in the model.",
+      "whyItMatters": "This attraction is the basis of ionic bonding.",
+      "relatedConcept": "ion-charged-atom",
+      "quizId": "ion-q-builds"
+    }
+  ]
+}

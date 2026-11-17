@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/ahmedjawedaj/quantaora/security/advisories/new
+    about: Report security and privacy issues privately.
+  - name: Live app
+    url: https://quantaora.vercel.app
+    about: Open the current public alpha.

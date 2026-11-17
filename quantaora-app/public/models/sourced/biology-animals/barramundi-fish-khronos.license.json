@@ -1,0 +1,33 @@
+{
+  "asset": "barramundi-fish-khronos.glb",
+  "component": "Animals > Vertebrate and Invertebrate / fish vertebrate example",
+  "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/BarramundiFish",
+  "downloadUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/BarramundiFish/glTF-Binary/BarramundiFish.glb",
+  "provider": "Khronos glTF Sample Assets",
+  "creator": "Microsoft",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Optional credit: Barramundi Fish, Microsoft / Khronos glTF Sample Assets, CC0.",
+  "redistributionStatus": "Freely redistributable as a CC0 GLB sample asset.",
+  "dateSourced": "2026-09-08",
+  "fileSizeBytes": 12488144,
+  "sha256": "ecc3bafb6b00f2c8b810863c388e3768a7b7ea0d0335e8cb8c574c266e571f4a",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 1,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 3,
+    "imageCount": 3,
+    "embeddedImages": 3,
+    "externalUriImages": 0,
+    "animationCount": 0,
+    "hasBinChunk": true,
+    "approxDimensions": [0.1429, 0.2875, 0.6431]
+  },
+  "notes": "Real textured fish GLB used as the Animals branch vertebrate example. It is a clearer default learner view than the mosquito-in-amber asset because the body plan is immediately visible."
+}

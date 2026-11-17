@@ -1,0 +1,195 @@
+{
+  "id": "transcription-translation",
+  "componentId": "transcription-translation",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/biology/genetics/transcription-translation.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/biology/genetics/transcription-translation.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: it is generated entirely from three.js primitives at runtime by a scene-builder module, not loaded from a GLB file, so there is no binary asset to place under public/assets/models/. `url` is a placeholder pointing to where that scene-builder module should live, following this project's source-code conventions, and must resolve to the real implemented module once built. `thumbnailUrl` is a placeholder PNG path following the standard asset-folder convention (spec section 21) for the static preview/card image, and must be generated (a rendered screenshot of the default framing) once the procedural scene exists. `defaultCamera`/`cameraDefault`, every hotspot's `position`, and the mobile presets in `viewportCameraStrategy` below are estimated numeric values derived from the assetBrief's described scene layout — a starting point for the dev implementing the scene-builder, not measurements of an existing scene — and should be verified and adjusted against the actual running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0.3,
+      2.5,
+      10.5
+    ],
+    "target": [
+      -0.5,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.3,
+      2.5,
+      10.5
+    ],
+    "target": [
+      -0.5,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Nucleus & Chromatin",
+    "DNA / Transcription Bubble",
+    "mRNA Strand",
+    "Ribosome (Large + Small Subunit)",
+    "Growing Polypeptide Chain",
+    "Hotspot Markers",
+    "Ground / Shadow Plane"
+  ],
+  "groundingNote": "A soft, faint, warm-grey shadow-catcher plane sits beneath the full scene by default — sized to the whole composition's footprint, from the nucleus's leftmost edge to the protein chain's rightmost bead — rendering only a soft radial contact shadow, not a visible solid disc or pedestal. This is a default-on element (see `layers`), not an opt-out extra: every Anatomy Atelier reference view grounds its specimen with exactly this soft-shadow-on-a-plinth treatment, and this asset keeps that same visual anchor instead of floating free. The page background itself stays the app's warm off-white per spec §12; this plane exists only to catch a shadow, not to add a visible ground surface.",
+  "cameraFramingNote": "The composition spans roughly 8.8 world units left-to-right (nucleus at x=-4.3 to the protein chain tip at x=4.5) but only about 2.4 units top-to-bottom — a wide, landscape-shaped scene that does not fit a portrait mobile viewport at a single static zoom without shrinking every part of the diagram to illegibility. Rather than compressing the composition (which would crowd the nucleus and ribosome together and undercut the deliberate left-to-right reading order), this component uses dynamic per-viewport camera reframing: see `viewportCameraStrategy` below for the concrete desktop vs. mobile behavior.",
+  "viewportCameraStrategy": {
+    "desktop": "Landscape / wide viewports (aspect ratio >= 1) use the single static `cameraDefault` above, framing the full nucleus-to-protein-chain composition at once so the left-to-right process reads in one view.",
+    "mobile": "Portrait / narrow viewports (aspect ratio < 1) do not use `cameraDefault` at rest. Instead the viewer starts framed on the first stage (transcription, `mobilePresets[0]`) and dynamically fit-to-view reframes to the active hotspot's local zone as the learner steps through the 4 hotspots in order — each preset below frames roughly a 3-unit-wide window around that stage, matching the guided narrative sequence already described in `visualStyleNotes`. A 'zoom to fit' control lets the learner pull back to see the whole composition at a reduced scale on demand; this wide/zoomed-out view is not the default because it renders every stage too small to read on a phone screen.",
+    "mobilePresets": [
+      {
+        "hotspotId": "hs-dna-transcribed",
+        "position": [
+          -4.0,
+          1.6,
+          4.5
+        ],
+        "target": [
+          -4.0,
+          0.2,
+          0
+        ]
+      },
+      {
+        "hotspotId": "hs-mrna-exits",
+        "position": [
+          -2.1,
+          1.3,
+          4.0
+        ],
+        "target": [
+          -2.1,
+          0.3,
+          0
+        ]
+      },
+      {
+        "hotspotId": "hs-ribosome-reads",
+        "position": [
+          1.0,
+          0.9,
+          4.0
+        ],
+        "target": [
+          1.0,
+          -0.2,
+          0
+        ]
+      },
+      {
+        "hotspotId": "hs-protein-assembled",
+        "position": [
+          3.5,
+          2.3,
+          4.2
+        ],
+        "target": [
+          3.5,
+          1.2,
+          0.3
+        ]
+      }
+    ]
+  },
+  "hotspots": [
+    {
+      "id": "hs-dna-transcribed",
+      "label": "DNA → mRNA",
+      "conceptId": "dna-transcribed-into-mrna",
+      "position": [
+        -4.3,
+        -0.3,
+        0.4
+      ],
+      "positionStatus": "provisional-estimate-pending-scene-build",
+      "positionHint": "At the unwound 'transcription bubble' near the base of the DNA helix inside the nucleus, roughly (-4.3, -0.3, 0.4) — where the two DNA strands visibly separate and the new mRNA thread begins.",
+      "description": "Inside the nucleus, an enzyme (RNA polymerase) unwinds a short stretch of the DNA double helix and builds a matching strand of mRNA by reading one DNA strand as a template.",
+      "structureCard": {
+        "name": "DNA Transcribed Into mRNA (Transcription)",
+        "plainLanguageDefinition": "The step where an enzyme unwinds a short piece of DNA and builds a matching, disposable RNA copy of it.",
+        "function": "RNA polymerase unwinds a short stretch of the DNA double helix, reads one strand as a template, and links RNA bases together to build a matching mRNA strand.",
+        "whereItIs": "Inside the nucleus, at the 'transcription bubble' near the base of the DNA helix, where the two DNA strands visibly separate and the new mRNA thread begins.",
+        "whyItMatters": "This step keeps the master DNA copy safe in the nucleus while still letting the cell act on its instructions — without it, the cell would have to risk its one permanent genetic library every time it needed a protein.",
+        "relatedConcept": "mrna-leaves-nucleus"
+      }
+    },
+    {
+      "id": "hs-mrna-exits",
+      "label": "mRNA leaves the nucleus",
+      "conceptId": "mrna-leaves-nucleus",
+      "position": [
+        -2.1,
+        0.3,
+        0.3
+      ],
+      "positionStatus": "provisional-estimate-pending-scene-build",
+      "positionHint": "At the nuclear pore gap in the envelope shell, roughly (-2.1, 0.3, 0.3), where the mRNA tube passes from inside the translucent nucleus to outside it.",
+      "description": "The finished mRNA strand exits the nucleus through a pore in the nuclear envelope, carrying the DNA's instructions out into the cytoplasm where the ribosome is waiting.",
+      "structureCard": {
+        "name": "mRNA Leaves The Nucleus",
+        "plainLanguageDefinition": "The finished mRNA copy exits the nucleus through a pore in its envelope and travels into the cytoplasm.",
+        "function": "Carries the transcribed instructions out of the nucleus, through a nuclear pore, to where a ribosome is waiting in the cytoplasm.",
+        "whereItIs": "At the nuclear pore gap in the nuclear envelope, where the mRNA tube crosses from inside the translucent nucleus to outside it.",
+        "whyItMatters": "This handoff physically connects the two halves of the central dogma — without mRNA making this trip, the instructions copied from DNA would never reach a ribosome.",
+        "relatedConcept": "ribosome-reads-mrna"
+      }
+    },
+    {
+      "id": "hs-ribosome-reads",
+      "label": "Ribosome reads the mRNA",
+      "conceptId": "ribosome-reads-mrna",
+      "position": [
+        1.0,
+        -0.2,
+        0.5
+      ],
+      "positionStatus": "provisional-estimate-pending-scene-build",
+      "positionHint": "At the two-lobed ribosome assembly clamped on the mRNA tube, roughly (1.0, -0.2, 0.5), where the thread visibly passes through the cleft between the large and small subunits.",
+      "description": "The ribosome clamps onto the mRNA strand and moves along it, reading the sequence three letters (a codon) at a time to determine which amino acid comes next.",
+      "structureCard": {
+        "name": "Ribosome Reads The mRNA (Translation Begins)",
+        "plainLanguageDefinition": "The ribosome clamps onto the mRNA strand and reads it three letters (one codon) at a time.",
+        "function": "Moves along the mRNA strand, reading each 3-base codon in order and matching it, via tRNA, to the correct amino acid to add next.",
+        "whereItIs": "At the two-lobed ribosome assembly in the cytoplasm, clamped on the mRNA where the thread passes through the cleft between the large and small subunits.",
+        "whyItMatters": "This is where the genetic code actually gets decoded into a physical sequence of amino acids — the direct link between a gene's sequence and a protein's structure.",
+        "relatedConcept": "amino-acids-assembled-into-protein"
+      }
+    },
+    {
+      "id": "hs-protein-assembled",
+      "label": "Amino acids → protein",
+      "conceptId": "amino-acids-assembled-into-protein",
+      "position": [
+        3.2,
+        1.0,
+        0.3
+      ],
+      "positionStatus": "provisional-estimate-pending-scene-build",
+      "positionHint": "Along the bead chain arcing up and away from the top of the ribosome, roughly (3.2, 1.0, 0.3), near where the last few beads begin to coil.",
+      "description": "As the ribosome reads each codon, it links the matching amino acid onto a growing chain. The finished chain of amino acids is the protein, which will go on to fold into its working shape.",
+      "structureCard": {
+        "name": "Amino Acids Assembled Into Protein",
+        "plainLanguageDefinition": "As the ribosome reads each codon, it links the matching amino acid onto a growing chain, which becomes the finished protein.",
+        "function": "Links each newly matched amino acid onto the end of a growing chain in the exact order the mRNA codons specify, until a stop codon ends the chain.",
+        "whereItIs": "Along the bead chain arcing up and away from the top of the ribosome, near where the last few beads begin to coil.",
+        "whyItMatters": "This finished chain is the protein — the actual working molecule (enzyme, structural fiber, hormone, antibody) that carries out the instructions originally copied from DNA.",
+        "relatedConcept": "dna-transcribed-into-mrna"
+      }
+    }
+  ],
+  "visualStyleNotes": "Diagram-grade, not photoreal: warm off-white world background, calm matte clay-shaded surfaces, soft three-point studio lighting, no glow/bloom/emissive, no particle FX, muted pastel accent palette (never saturated primaries) — matches assets/reference/anatomy-atelier exactly. Unlike a single anatomical organ, this component is a left-to-right process (nucleus/transcription on the left flowing into ribosome/translation on the right), so auto-rotate is off by default to preserve that reading order; users orbit manually or step through hotspots, which double as a guided narrative sequence (1→2→3→4 mirrors the biological order of events — see `viewportCameraStrategy.mobile` for how this sequence also drives camera framing on phones). Cross-section support is limited to a nuclear-envelope cutaway/translucency toggle that fully reveals the DNA and transcription bubble inside the nucleus — there is no whole-model slice plane since the asset is already an open schematic, not a solid volume. Keep hotspot dot styling identical to Anatomy Atelier's colored-dot-opens-card pattern; do not introduce new UI chrome for this component. See `groundingNote` for the default-on soft shadow plane that anchors the whole composition, matching every Anatomy Atelier reference view.",
+  "assetBrief": "SUBJECT: A single continuous schematic scene showing the central dogma pipeline — transcription (inside the nucleus) flowing into translation (at a ribosome in the cytoplasm) — read left to right like a diagram, not a literal cell.\n\nSCENE LAYOUT (world units, y-up, camera looks down -Z):\n1. Nucleus envelope — a translucent double-membrane shell, roughly spherical/oblate, centered at (-4, 0.5, 0), radius ~2.2, with a single visible nuclear-pore gap cut into the shell facing +X at approx (-2.1, 0.3, 0.3) so the mRNA strand has a clear \"exit\" reads as an opening, not a hole in geometry that looks broken.\n2. DNA double helix — a short authored/proceduralized double-helix ribbon segment (two intertwined ribbon strands + simplified rung bars, NOT full nucleotide-level molecular detail) centered inside the nucleus at (-4.3, 0.4, 0), ~2.5 units tall. Bottom third of the helix is shown mid-unwound (\"transcription bubble\") with the two strands visibly separated and a small ellipsoid representing RNA polymerase sitting at the unwind point, a short newborn mRNA thread trailing from it.\n3. mRNA strand — a single smooth tube/spline (not a flat ribbon) running from the transcription bubble, through the nuclear pore gap, out into the cytoplasm, curving gently to the ribosome at roughly (1.0, -0.2, 0), continuing a short tail past it to (3.0, -0.6, 0) where it trails off (3' end, unthreaded).\n4. Ribosome — two asymmetric rounded lobes clamped on the mRNA at (1.0, -0.2, 0): large subunit (~0.9 radius, dome/mushroom-cap silhouette) sits above the mRNA tube, small subunit (~0.55 radius) sits below/behind it, mRNA visibly threading through the cleft between them. No internal rRNA/tRNA detail — keep it as two soft geometric lobes.\n5. Growing polypeptide chain — a chain of 6–8 spherical \"bead\" amino acids (varied pastel hues, uniform size ~0.28 radius, connected by thin cylindrical links) exiting the top of the ribosome and arcing up and to the right from about (1.3, 0.6, 0) to (4.5, 1.8, 0.3), with the last 2–3 beads coiling into a loose alpha-helix-like curl to hint at folding, not fully folded.\n\nSee `viewportCameraStrategy` for how this wide, landscape-shaped composition reframes on portrait/mobile viewports — the geometry itself is authored once at this full layout; only the camera behavior differs per viewport.\n\nMATERIALS / PALETTE (match Anatomy Atelier: warm off-white world, calm desaturated accent hues, matte soft-shaded surfaces, NO glow/emissive, NO glassy PBR sheen):\n- Nuclear envelope: translucent alpha ~0.25, cool warm-grey (#D8D2C4-ish tint), matte, thin visible double-membrane line.\n- DNA ribbons: two-tone muted terracotta/clay and warm slate blue, matte clay-like shading, soft AO in the grooves.\n- RNA polymerase ellipsoid: dusty olive/sage, matte.\n- mRNA tube: warm coral/salmon, slightly glossier than DNA to visually read as \"the active thread\" but still matte-soft, no emissive.\n- Ribosome lobes: two closely related warm neutral tones (sand + warm taupe) so the two subunits read as one assembly, matte clay shading with soft contact shadow where they clamp the mRNA.\n- Amino acid beads: a small curated palette of 5–6 muted pastel accent colors (sage, dusty blue, clay, ochre, muted plum) cycling around the chain — no two adjacent beads identical — plus thin warm-grey cylindrical link connectors.\n- Ground/background: a soft, faint, warm-grey shadow-catcher plane sits beneath the full scene by default (from the nucleus's leftmost edge to the protein chain's rightmost bead, sized to that full footprint), rendering only a soft radial contact shadow — not a visible solid disc/pedestal — consistent with Anatomy Atelier's grounded-specimen-on-a-plinth treatment seen in every reference view. This is a default-on element, not an opt-in extra (see `groundingNote`). The page background itself stays the app's warm off-white per spec §12; this plane exists only to catch a shadow, not to add a visible ground surface.\n\nLIGHTING: soft three-point studio lighting, warm key light from upper-front-left, cool fill from the right, low-intensity rim light for silhouette separation — consistent with Anatomy Atelier's calm, shadow-soft, non-dramatic look. No colored/glow rim lighting.\n\nDO NOT: do not render literal nucleotide base-pair detail (A-T/G-C letters or accurate double-helix base stacking) — this is a conceptual/schematic model, not a molecular-accuracy asset. Do not add glow, bloom, emissive materials, particle effects, or sci-fi energy trails on the mRNA or ribosome. Do not clutter with tRNA/anticodon detail, ribosomal RNA structure, or codon-table overlays — those belong in lesson content/UI, not the 3D geometry. Do not make the nucleus envelope fully opaque (must read as translucent so DNA is visible without interaction) nor fully invisible (must read as a boundary). Do not scale the ribosome larger than the nucleus — relative scale should stay schematically believable (ribosome and DNA helix are drawn at a comparable \"readable\" scale, not to true biological proportion, per the diagram-not-photoreal brief). Avoid saturated primary colors (bright red/green/blue) anywhere — stay within the muted/pastel Anatomy Atelier palette. Do not leave the composition floating without the default-on ground shadow plane described above.\n\nBUILD METHOD: procedural via Three.js primitives + simple spline/tube geometry (SphereGeometry/dome for ribosome lobes, TubeGeometry along a CatmullRomCurve3 for the mRNA, a custom twisted-ribbon generator or TorusKnot-style parametric curve for the DNA helix, SphereGeometry beads + CylinderGeometry links for the protein chain). No external GLB import required; this keeps the asset lightweight and lets layers/hotspots bind directly to named mesh groups.\n\nANIMATION (optional, static pose acceptable for v1 hotspot mode): if animated, loop should show the mRNA thread slowly advancing through the ribosome cleft while one new amino acid bead fades in and joins the chain roughly every 2–3 seconds — a slow, continuous \"conveyor\" motion, not fast/gamey.",
+  "visual": {
+    "shape": "protein-chain"
+  }
+}

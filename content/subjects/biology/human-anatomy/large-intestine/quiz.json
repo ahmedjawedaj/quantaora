@@ -1,0 +1,80 @@
+{
+  "componentId": "large-intestine",
+  "questions": [
+    {
+      "id": "li-q-job",
+      "conceptId": "absorbs-water-salts",
+      "hotspotId": "hs-li-colon",
+      "prompt": "What is the main job of the large intestine?",
+      "options": [
+        "Absorb water and salts from leftover food",
+        "Absorb all the nutrients",
+        "Make oxygen",
+        "Pump blood"
+      ],
+      "correctIndex": 0,
+      "explanation": "The large intestine absorbs water and salts from the leftover material and packs it into solid waste.",
+      "misconception": "Nutrient absorption happens in the small intestine - the large intestine's focus is water and waste."
+    },
+    {
+      "id": "li-q-name",
+      "conceptId": "large-but-short",
+      "hotspotId": "hs-li-colon",
+      "prompt": "How does the large intestine compare in length with the small intestine?",
+      "options": [
+        "It is shorter but wider",
+        "It is longer and narrower",
+        "It is exactly the same size",
+        "It is the longest tube"
+      ],
+      "correctIndex": 0,
+      "explanation": "The large intestine is only about 1.5 meters but much wider than the small intestine, which is why it is called 'large'.",
+      "misconception": "'Large' means wide, not long - the small intestine is actually the longer tube."
+    },
+    {
+      "id": "li-q-bacteria",
+      "conceptId": "good-bacteria-colon",
+      "hotspotId": "hs-bacteria",
+      "prompt": "What do the friendly bacteria in the large intestine do?",
+      "options": [
+        "Help process leftover material and make some vitamins",
+        "Digest the stomach",
+        "Make bones",
+        "Pump blood"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friendly bacteria in the colon process some leftover material and even make a few vitamins the body can use.",
+      "misconception": "These bacteria are helpers, not dangers - they are part of your healthy microbiome."
+    },
+    {
+      "id": "li-q-waste",
+      "conceptId": "forms-solid-waste",
+      "hotspotId": "hs-waste",
+      "prompt": "Where is solid waste stored before it leaves the body?",
+      "options": [
+        "In the rectum",
+        "In the stomach",
+        "In the lungs",
+        "In the kidneys"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rectum, the last part of the large intestine, stores the solid waste until it is released.",
+      "misconception": "Waste is not stored in the stomach or lungs - the rectum at the end of the large intestine holds it."
+    },
+    {
+      "id": "li-q-water-amount",
+      "conceptId": "absorbs-water-salts",
+      "hotspotId": "hs-water",
+      "prompt": "What happens to most of the water that reaches the large intestine?",
+      "options": [
+        "It is absorbed back into the body",
+        "It is always lost as waste",
+        "It turns to air",
+        "It stays in the colon forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "The large intestine absorbs most of the water back into the blood, which is why the body does not lose huge amounts daily.",
+      "misconception": "The body is very efficient with water - nearly all of it is recycled here rather than wasted."
+    }
+  ]
+}

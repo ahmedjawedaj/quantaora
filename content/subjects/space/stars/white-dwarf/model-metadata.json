@@ -1,0 +1,95 @@
+{
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/stars/white-dwarf.scene.ts",
+  "thumbnailUrl": "src/features/model-viewer/thumbnails/space/stars/white-dwarf.png",
+  "cameraDefault": {
+    "position": [
+      3.2,
+      2.1,
+      4.8
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    {
+      "id": "dwarf-core",
+      "label": "Degenerate core",
+      "explanation": "An Earth-sized ball of electron-degenerate matter — the whole former star's core, packed to the quantum limit."
+    },
+    {
+      "id": "nebula",
+      "label": "Planetary nebula",
+      "explanation": "The red giant's envelope, glowing green-blue as it drifts away — the leftover shell that names the nebula."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-degenerate-interior",
+      "label": "Electron-degenerate interior",
+      "conceptId": "electron-degeneracy-pressure",
+      "position": [
+        0.25,
+        0,
+        0.35
+      ],
+      "description": "Inside: the core is held open by electrons refusing to be squeezed closer. No fusion — just quantum refusal."
+    },
+    {
+      "id": "hs-planetary-nebula",
+      "label": "Planetary nebula (leftover envelope)",
+      "conceptId": "planetary-nebula-shedding",
+      "position": [
+        1.6,
+        0.7,
+        0.9
+      ],
+      "description": "The gas the red giant pushed off, drifting away around the exposed core — the 'planetary' name is a historical accident."
+    },
+    {
+      "id": "hs-no-fusion-core",
+      "label": "Dead core — no fusion",
+      "conceptId": "cooling-over-aeons",
+      "position": [
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "description": "No furnace here. The white glow is leftover heat, radiating away and never re-lit."
+    },
+    {
+      "id": "hs-chandrasekhar-limit",
+      "label": "Chandrasekhar limit (1.4 solar masses)",
+      "conceptId": "chandrasekhar-mass-limit",
+      "position": [
+        0,
+        1.15,
+        0
+      ],
+      "description": "The ceiling: above ~1.4 solar masses, electron pressure fails and the remnant must become a neutron star or explode."
+    },
+    {
+      "id": "hs-density-scale",
+      "label": "Density to the scale of a teaspoon",
+      "conceptId": "density-extreme-scale",
+      "position": [
+        1.1,
+        -0.85,
+        0.4
+      ],
+      "description": "A tiny spoon object floats below the dwarf, labelled '5.5 tons' — a visual anchor for the density."
+    }
+  ],
+  "visualStyleNotes": "Small marble-white sphere beside a model of Earth at the same scale, warm off-white render, gentle glow. A translucent blue-green shell of drifting gas surrounds the pair. Hotspot beads and labels in the standard umber style — clean, no clutter.",
+  "materialNotes": "Dwarf: emissive white with soft bloom, slightly blue near the rim. Nebula: faint translucent green-blue fresnel. Earth model: existing blue-and-white globe style from the solar-system scenes, scaled to ~0.55 units.",
+  "assetBrief": "Procedural Three.js scene: dwarf sphere (radius ~0.5), Earth sphere (radius ~0.55) placed beside it, planetary nebula as a faint translucent ring/cloud, cross-section plane available. Camera frames both bodies; auto-rotate on.",
+  "componentId": "white-dwarf",
+  "visual": {
+    "shape": "white-dwarf"
+  }
+}

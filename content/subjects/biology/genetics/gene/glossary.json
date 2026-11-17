@@ -1,0 +1,103 @@
+{
+  "componentId": "gene",
+  "terms": [
+    {
+      "term": "Gene",
+      "conceptId": "gene",
+      "definition": "A short, specific stretch of DNA that carries the instructions to build one protein, or to influence one trait.",
+      "function": "Stores the instructions a cell reads to build one particular protein.",
+      "whereItIs": "Found at a specific spot, called a locus, along a chromosome.",
+      "whyItMatters": "Genes are the reason children resemble their parents and the reason some illnesses run in families — they're the instruction manual for every living thing.",
+      "relatedConcept": "segment-of-dna"
+    },
+    {
+      "term": "Segment of DNA",
+      "conceptId": "segment-of-dna",
+      "hotspotId": "hs-segment-of-dna",
+      "definition": "The short, defined stretch of the DNA double helix that makes up one whole gene, from the start of its promoter to the end of its coding sequence.",
+      "function": "Physically holds one gene's full instruction set within the much longer DNA molecule that makes up a chromosome.",
+      "whereItIs": "The brighter, full-opacity band of the helix, standing out from the dimmed context strand that fades away above and below it.",
+      "whyItMatters": "Recognizing a gene as one bounded stretch within a much longer strand is the foundation for understanding that a chromosome carries thousands of separate genes, not just one continuous instruction.",
+      "relatedConcept": "promoter-region",
+      "quizId": "gene-q-segment"
+    },
+    {
+      "term": "Promoter region",
+      "conceptId": "promoter-region",
+      "hotspotId": "hs-promoter-region",
+      "definition": "A short DNA sequence right before a gene's coding sequence that acts like an 'on switch,' telling the cell where to start reading that gene.",
+      "function": "Signals to the cell's copying machinery where a particular gene begins, so reading starts in the right place.",
+      "whereItIs": "The short amber-gold band at the upstream (start) end of the highlighted gene segment.",
+      "whyItMatters": "If a promoter is damaged, the gene that follows it may never get read at all, even if the coding sequence itself is perfectly intact.",
+      "relatedConcept": "coding-sequence",
+      "quizId": "gene-q-promoter"
+    },
+    {
+      "term": "Coding sequence",
+      "conceptId": "coding-sequence",
+      "hotspotId": "hs-coding-sequence",
+      "definition": "The part of a gene that spells out, letter by letter, the instructions for building a protein.",
+      "function": "Provides the actual template the cell reads to assemble a specific protein, one building block at a time.",
+      "whereItIs": "The longer teal-blue band that immediately follows the promoter region within the highlighted gene segment.",
+      "whyItMatters": "This is where the gene's real information lives — changes (mutations) here can change the protein that gets built, and sometimes the trait it produces.",
+      "relatedConcept": "produces-protein-or-trait",
+      "quizId": "gene-q-coding"
+    },
+    {
+      "term": "Protein / trait output",
+      "conceptId": "produces-protein-or-trait",
+      "hotspotId": "hs-produces-protein-or-trait",
+      "definition": "The single protein a gene's coding sequence is used to build, which can in turn shape one observable trait.",
+      "function": "Represents the end result of reading a gene — a working protein molecule that goes on to do a job in the body.",
+      "whereItIs": "The small folded-ribbon shape floating just past the end of the coding sequence, connected to it by a thin leader line.",
+      "whyItMatters": "A gene doesn't produce a trait directly — it produces a protein first, and it's that protein's action that shapes the trait we can actually observe.",
+      "relatedConcept": "trait",
+      "quizId": "gene-q-protein"
+    },
+    {
+      "term": "DNA",
+      "conceptId": "dna",
+      "definition": "The long, twisted molecule (shaped like a spiral ladder) that stores genetic instructions using four chemical letters: A, T, C, and G.",
+      "function": "Serves as the physical storage medium for every gene an organism has.",
+      "whereItIs": "Coiled up inside the nucleus of almost every cell in the body, packaged into chromosomes.",
+      "whyItMatters": "DNA is the shared molecule every gene is made of — understanding its structure is the basis for understanding how genes work.",
+      "relatedConcept": "chromosome"
+    },
+    {
+      "term": "Chromosome",
+      "conceptId": "chromosome",
+      "definition": "A tightly coiled, thread-like package of DNA. Genes are arranged along chromosomes like beads on a string.",
+      "function": "Organizes and protects an organism's DNA, keeping many genes bundled together in an orderly, copyable form.",
+      "whereItIs": "Packed inside the nucleus of a cell; humans typically have 23 pairs.",
+      "whyItMatters": "A chromosome is the larger structure a gene 'belongs to' — this is the level a gene sits inside of before you zoom out to the whole cell.",
+      "relatedConcept": "locus"
+    },
+    {
+      "term": "Locus",
+      "conceptId": "locus",
+      "definition": "The specific address, or location, where a gene sits on a chromosome.",
+      "function": "Gives every gene a fixed, identifiable position, so the same gene is found at the same spot on the same chromosome in every individual of a species.",
+      "whereItIs": "A specific point along a chromosome's length.",
+      "whyItMatters": "Because a gene's locus is fixed, scientists and doctors can reliably find and study the same gene across different people.",
+      "relatedConcept": "chromosome"
+    },
+    {
+      "term": "Allele",
+      "conceptId": "allele",
+      "definition": "One specific version of a gene. Different people can carry different alleles of the same gene, which is why the same gene can produce different outcomes.",
+      "function": "Accounts for variation between individuals — since everyone has the same genes but not always the same alleles of them.",
+      "whereItIs": "At the same locus as the gene it's a version of; a person typically carries two alleles of most genes, one inherited from each parent.",
+      "whyItMatters": "A gene and an allele are not the same thing: everyone carries the ABO blood-type gene, for example, but which alleles (A, B, or O) they carry determines their actual blood type.",
+      "relatedConcept": "gene"
+    },
+    {
+      "term": "Trait",
+      "conceptId": "trait",
+      "definition": "An observable characteristic — like blood type or the ability to taste a certain bitter chemical — that a gene (sometimes combined with the environment) helps produce.",
+      "function": "Represents the visible or measurable outcome that results, often indirectly, from a gene's protein product.",
+      "whereItIs": "Not a physical structure itself — it's an observable result of proteins doing their work throughout the body.",
+      "whyItMatters": "Traits are how genetics becomes visible in everyday life — they're the reason siblings can share features, and the reason some conditions run in families.",
+      "relatedConcept": "produces-protein-or-trait"
+    }
+  ]
+}

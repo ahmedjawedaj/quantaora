@@ -1,0 +1,65 @@
+{
+  "componentId": "root",
+  "questions": [
+    {
+      "id": "root-q-direction",
+      "conceptId": "root-anchors-plant",
+      "hotspotId": "hs-root",
+      "prompt": "Which way do roots grow, and why?",
+      "options": [
+        "Downward into the soil, to anchor the plant and reach water and minerals",
+        "Upward toward the sun, to catch light",
+        "Outward into the air, to spread seeds",
+        "They do not grow at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roots grow downward into the soil. This anchors the plant in place and lets it reach water and minerals underground.",
+      "misconception": "A common mix-up is thinking roots grow toward light like stems do - but roots grow down into the dark soil because they anchor and absorb, not because they photosynthesize."
+    },
+    {
+      "id": "root-q-hairs",
+      "conceptId": "root-hairs-absorb-water",
+      "hotspotId": "hs-root-hair",
+      "prompt": "Why do roots have root hairs?",
+      "options": [
+        "They increase the surface area so the root can absorb more water",
+        "They make the root stronger against wind",
+        "They carry out photosynthesis",
+        "They store food for animals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Root hairs are tiny extensions that greatly increase the root's surface area. More surface area means the root can take in much more water from the soil.",
+      "misconception": "Some learners think root hairs make the root tough or spiky to hold on. - But their real job is to boost surface area for soaking up water and minerals."
+    },
+    {
+      "id": "root-q-cap",
+      "conceptId": "root-cap-protects",
+      "hotspotId": "hs-root-cap",
+      "prompt": "What covers the very tip of a root, and what does it do?",
+      "options": [
+        "The root cap - it protects the tip as it pushes through the soil",
+        "The bark - it keeps water out",
+        "The leaf - it catches light",
+        "Nothing covers the root tip"
+      ],
+      "correctIndex": 0,
+      "explanation": "The root cap is a protective covering at the very tip. It shields the delicate growing tip as the root pushes through soil and stones.",
+      "misconception": "A common error is thinking roots push through soil easily because they are sharp. - Instead the root cap cushions and protects the growing tip from being damaged."
+    },
+    {
+      "id": "root-q-nochloro",
+      "conceptId": "root-hairs-absorb-water",
+      "hotspotId": "hs-root",
+      "prompt": "Does a root photosynthesize (make food from sunlight)?",
+      "options": [
+        "No - roots live in dark soil and have no chloroplasts",
+        "Yes - roots are green and make sugar",
+        "Only the very tip does",
+        "Roots only make oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roots grow underground in the dark, so they contain little to no chloroplasts and do not photosynthesize. Leaves do the food-making.",
+      "misconception": "People often assume every greenish plant part makes food. - but photosynthesis needs light, and roots live in darkness underground, so leaves do that job."
+    }
+  ]
+}

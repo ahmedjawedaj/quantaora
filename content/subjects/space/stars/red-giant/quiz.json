@@ -1,0 +1,80 @@
+{
+  "componentId": "red-giant",
+  "questions": [
+    {
+      "id": "rg-q-why",
+      "conceptId": "core-hydrogen-exhaustion",
+      "hotspotId": "hs-inert-core",
+      "prompt": "What actually triggers a main-sequence star to become a red giant?",
+      "options": [
+        "It runs out of hydrogen in its core",
+        "It runs out of gravity",
+        "A passing star knocks it off balance",
+        "It gets too hot and boils off"
+      ],
+      "correctIndex": 0,
+      "explanation": "After billions of years the core's hydrogen is fused into helium. Without that fusion pushing outward, gravity wins in the core — and the envelope responds by swelling, while a shell just outside the core starts burning the remaining hydrogen.",
+      "misconception": "It feels like a star grows as it adds energy, but the giant's swell is the signature of the core running dry: the missing furnace is what lets the envelope balloon."
+    },
+    {
+      "id": "rg-q-fuse",
+      "conceptId": "shell-hydrogen-burning",
+      "hotspotId": "hs-burning-shell",
+      "prompt": "In a red giant, where does hydrogen fusion continue to happen?",
+      "options": [
+        "In the very center, where it always did",
+        "In a thin shell wrapped around the helium core",
+        "Across the whole swollen envelope",
+        "Nowhere — the giant has no fusion at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "The inert core is too hot for hydrogen but not yet hot enough for helium, so burning continues in a thin shell just outside the core — like a coal ring smoldering around a cold center.",
+      "misconception": "It's natural to picture the star's fusion staying wherever it started, but the scene moves: the only hydrogen left burns in a thin rind outside the dead center."
+    },
+    {
+      "id": "rg-q-color",
+      "conceptId": "surface-cooling-reddening",
+      "hotspotId": "hs-red-photosphere",
+      "prompt": "Why does the red giant's surface look red instead of yellow-white?",
+      "options": [
+        "Because its gas is dirty from dust",
+        "Because the envelope expanded, spread, and therefore cooled to about 3,000 K",
+        "Because red stars radiate more light overall",
+        "Because the core leaks red dye into the envelope"
+      ],
+      "correctIndex": 1,
+      "explanation": "The same gas spread over a far larger surface means each patch is thinner and cooler. A surface around 3,000 K radiates mostly in the red — exactly what color is a thermometer predicts.",
+      "misconception": "Red 'hot like a fire' intuition returns here — but the giant is cooler than the star it used to be; the red tells you the surface is failing to keep the old temperature."
+    },
+    {
+      "id": "rg-q-sun",
+      "conceptId": "sun-red-giant-future",
+      "hotspotId": "hs-expanded-envelope",
+      "prompt": "What will happen to the Sun in roughly five billion years?",
+      "options": [
+        "Nothing — it will shine exactly as today forever",
+        "It will shrink into a small cool ball",
+        "It will swell into a red giant big enough to swallow Mercury and Venus",
+        "It will wander away from the solar system"
+      ],
+      "correctIndex": 2,
+      "explanation": "When its core hydrogen gives out, the Sun swells into a red giant whose surface reaches roughly the orbit of Earth — Mercury and Venus are engulfed; Earth's oceans boil even if it is not swallowed.",
+      "misconception": "The Sun feels permanent, but 'permanent' only lasts the main-sequence lifetime of ten billion years; the red giant stage arrives as surely as an alarm clock."
+    },
+    {
+      "id": "rg-q-timeline",
+      "conceptId": "stellar-expansion",
+      "hotspotId": "hs-expanded-envelope",
+      "prompt": "Compared with its main-sequence size, a red giant is about how much larger?",
+"options": [
+        "A little bit larger — about 1.5 times",
+        "Hundreds of thousands of times larger",
+        "Dozens of times larger in diameter",
+        "About the same size but redder"
+      ],
+      "correctIndex": 2,
+      "explanation": "A Sun-like star swells to roughly 30 to 100 times its main-sequence radius — a volume many thousands of times larger, with the envelope correspondingly thin.",
+      "misconception": "The name 'giant' suggests maybe twice, but the slider in the model makes the real leap unforgettable: the old star would fit inside the red one dozens of times over."
+    }
+  ]
+}

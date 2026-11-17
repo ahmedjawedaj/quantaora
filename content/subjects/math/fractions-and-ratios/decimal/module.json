@@ -1,0 +1,87 @@
+{
+  "id": "decimal",
+  "subject": "math",
+  "title": "Decimal",
+  "summary": "A decimal is another way to write a fraction using place value and a decimal point — 0.5 is another name for 1/2. Explore tenths, hundredths, and thousandths, and how decimals fit in place value.",
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "skillIds": [
+    "decimal-fraction-other-name",
+    "decimal-tenths-hundredths",
+    "decimal-place-value",
+    "decimal-compare"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Fractions And Ratios",
+    "unit": "Fraction, Decimal, Percent",
+    "systemOrGroup": "Decimals",
+    "component": "Decimal",
+    "displayPath": "Math > Fractions And Ratios > Fraction, Decimal, Percent > Decimals > Decimal"
+  },
+  "crossReferences": [
+    {
+      "label": "Fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Fraction",
+      "note": "A decimal is a fraction written with place value instead of a numerator and denominator."
+    },
+    {
+      "label": "Equivalent fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Equivalent fraction",
+      "note": "1/2, 2/4, and 0.5 all name the same amount."
+    },
+    {
+      "label": "Percent (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Percent",
+      "note": "Decimals and percents are two sides of 'out of one hundred' — 0.25 and 25% are equal."
+    }
+  ],
+  "belongsTo": "Fractions And Ratios > Fraction, Decimal, Percent > Decimals",
+  "compareCandidate": {
+    "label": "Decimal vs. fraction",
+    "description": "A fraction writes a part as numerator over denominator (3/10). A decimal writes the same part using place value after a point (0.3). Same value, different code."
+  },
+  "parts": [
+    "Decimal point and place values",
+    "Tenths, hundredths, thousandths",
+    "Grid representation"
+  ],
+  "processes": [
+    "Reading and writing decimals",
+    "Converting between fractions and decimals",
+    "Comparing decimals"
+  ],
+  "plainLanguageExplanation": "A decimal is a way of showing a fraction using place value and a decimal point. Instead of writing '3 tenths' as 3/10, a decimal writes it as 0.3 — the digit 3 sits in the tenths place right after the point. The first place after the point is tenths, the second is hundredths, the third thousandths. So 0.5 means 5 tenths, which is the same as 5/10 or 1/2. Money is the decimals you use every day: $0.75 is seventy-five hundredths of a dollar. To compare decimals, compare place by place from the left. A decimal that names the same amount as a fraction is its decimal form.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A fraction written using place value after a decimal point" },
+    { "label": "0.5", "value": "5 tenths = 5/10 = 1/2" },
+    { "label": "Places", "value": "Tenths, hundredths, thousandths after the point" },
+    { "label": "Money", "value": "$0.75 is seventy-five hundredths of a dollar" },
+    { "label": "Compare", "value": "Compare place by place from the left" },
+    { "label": "Zeros", "value": "0.50 equals 0.5 — trailing zeros don't change value" }
+  ],
+  "whyItMatters": "Decimals are how we measure money, distances, weights, and time precisely. Together with fractions and percents, decimals let you move freely between the number formats used across science, shopping, and daily life.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Decimal",
+  "tagline": "Fractions in place-value form",
+  "didYouKnow": "The word 'decimal' comes from the Latin 'decimus', meaning 'a tenth' — the whole system is built on splitting a whole into tenths, hundredths, and thousandths.",
+  "conditions": [
+    "Money and prices",
+    "Measurements",
+    "Comparing sizes",
+    "Converting to percents"
+  ],
+  "compareCandidateId": "percent",
+  "compareReason": "Decimals and percents both describe 'out of a hundred' — comparing 0.25 with 25% makes the connection effortless."
+}

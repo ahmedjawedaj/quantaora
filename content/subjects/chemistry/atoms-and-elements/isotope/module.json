@@ -1,0 +1,109 @@
+{
+  "id": "isotope",
+  "subject": "chemistry",
+  "title": "Isotope",
+  "summary": "Isotopes are atoms of the same element with different numbers of neutrons — same protons, different mass. Carbon-12 and carbon-14 are both carbon, but carbon-14 is heavier.",
+  "gradeMin": 8,
+  "gradeMax": 10,
+  "skillIds": [
+    "isotope-same-element-diff-neutrons",
+    "isotope-same-protons",
+    "isotope-different-mass"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "Atoms That Vary",
+    "systemOrGroup": "Variations of an atom",
+    "component": "Isotope",
+    "displayPath": "Chemistry > Atoms And Elements > Atoms That Vary > Variations of an atom > Isotope"
+  },
+  "crossReferences": [
+    {
+      "label": "Neutron (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Neutron",
+      "note": "It is the neutron count that varies between isotopes — the particle whose count can change without changing the element."
+    },
+    {
+      "label": "Proton (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Proton",
+      "note": "Isotopes of the same element always have the same proton count — the protons never change."
+    },
+    {
+      "label": "Atomic mass (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Atomic mass",
+      "note": "Different isotopes have different atomic masses — the periodic table shows an average of them."
+    },
+    {
+      "label": "Ion (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Ion",
+      "note": "Isotopes vary neutrons; ions vary electrons. Two completely different kinds of atom variation."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > Atoms That Vary > Variations of an atom",
+  "compareCandidate": {
+    "label": "Isotope vs. ion",
+    "description": "Isotopes are atoms of the same element with different neutron counts — same element, different mass. Ions are atoms with different electron counts — same element, different charge. Neutrons change the weight; electrons change the charge."
+  },
+  "parts": [
+    "Same protons",
+    "Different neutrons",
+    "Same element, different mass"
+  ],
+  "processes": [
+    "Sharing the element but varying the weight",
+    "Being used for dating, medicine, and power",
+    "Creating the averages on the periodic table"
+  ],
+  "plainLanguageExplanation": "An isotope is a version of an atom that has a different number of neutrons. Here is the rule: the protons never change. An atom of carbon always has 6 protons — that is what makes it carbon. But the neutron count can vary. Ordinary carbon has 6 neutrons, and the result is carbon-12. Some carbon atoms have 8 neutrons instead — that is carbon-14. Both are carbon. Same protons, same element, same chemistry — but different neutron counts and therefore different masses. Why do we care? Because different isotopes of the same element have useful differences. Carbon-14 is radioactive and decays at a steady, known rate — so archaeologists measure carbon-14 left in ancient bones to date them. In medicine, radioactive isotopes are used to trace and treat disease. In power plants, uranium isotopes release enormous energy. And on the periodic table, the atomic mass shown for each element is really an average of all its isotopes, weighted by how common each one is. Isotopes are the same element with a different weight — and those weight differences power science.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "Atoms of the same element with different numbers of neutrons"
+    },
+    {
+      "label": "What stays the same",
+      "value": "The proton count — and therefore the element — never changes"
+    },
+    {
+      "label": "What changes",
+      "value": "The neutron count — and therefore the mass"
+    },
+    {
+      "label": "Naming",
+      "value": "Carbon-12 and carbon-14 — the number is the total particle count"
+    },
+    {
+      "label": "Uses",
+      "value": "Radiocarbon dating, medicine, nuclear power"
+    },
+    {
+      "label": "Periodic table",
+      "value": "The listed atomic mass is an average of the element's isotopes"
+    }
+  ],
+  "whyItMatters": "Isotopes matter far beyond the chemistry classroom. They let archaeologists date ancient objects, let doctors image and treat disease, and let power plants generate electricity. Understanding isotopes also explains why atomic masses on the periodic table are averages, not simple whole numbers.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Isotope",
+  "tagline": "Same element, different weight",
+  "didYouKnow": "Every time scientists date an ancient bone or shipwreck, they are counting the carbon-14 atoms left inside it — a clock that has been ticking for thousands of years.",
+  "conditions": [
+    "Radiocarbon dating",
+    "Nuclear medicine",
+    "Nuclear power"
+  ],
+  "compareCandidateId": "ion",
+  "compareReason": "Isotopes change neutrons and ions change electrons — comparing these two variations of the same atom makes the distinction between mass and charge unforgettable."
+}

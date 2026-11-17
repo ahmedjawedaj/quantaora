@@ -1,0 +1,65 @@
+{
+  "componentId": "organism",
+  "questions": [
+    {
+      "id": "org-q-def",
+      "conceptId": "organism-living-thing",
+      "hotspotId": "hs-cells",
+      "prompt": "What is an organism?",
+      "options": [
+        "Any living thing made of cells",
+        "Any rock or crystal",
+        "Anything that moves",
+        "Only large animals"
+      ],
+      "correctIndex": 0,
+      "explanation": "An organism is any living thing - a plant, animal, fungus, or microbe - and all organisms are made of cells.",
+      "misconception": "Moving does not make something alive (cars move), and organisms include tiny microbes, not just big animals."
+    },
+    {
+      "id": "org-q-cells",
+      "conceptId": "made-of-cells",
+      "hotspotId": "hs-cells",
+      "prompt": "What are all organisms built from?",
+      "options": [
+        "Cells",
+        "Rocks",
+        "Air bubbles",
+        "Metal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every living thing is made of one or more cells - the basic unit of life.",
+      "misconception": "Organisms are not built from rocks or metal - cells are the building blocks of all life."
+    },
+    {
+      "id": "org-q-activity",
+      "conceptId": "life-activities",
+      "hotspotId": "hs-grow",
+      "prompt": "Which is an activity that living things do?",
+      "options": [
+        "Grow and use energy",
+        "Turn into rock",
+        "Freeze solid",
+        "Never change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Living things grow, use energy, respond to surroundings, reproduce, and stay balanced.",
+      "misconception": "Living things change and use energy - they do not freeze into one fixed state."
+    },
+    {
+      "id": "org-q-level",
+      "conceptId": "organism-in-hierarchy",
+      "hotspotId": "hs-cells",
+      "prompt": "In ecology, what is the first level in the hierarchy?",
+      "options": [
+        "The organism",
+        "The ecosystem",
+        "The biosphere",
+        "The biome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ecology builds up from the organism, then population, community, and ecosystem.",
+      "misconception": "The organism is the starting level - ecosystems are built out of organisms, not the other way."
+    }
+  ]
+}

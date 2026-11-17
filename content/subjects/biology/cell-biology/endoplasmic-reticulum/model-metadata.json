@@ -1,0 +1,100 @@
+{
+  "id": "endoplasmic-reticulum",
+  "componentId": "endoplasmic-reticulum",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/endoplasmic-reticulum/endoplasmic-reticulum.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/endoplasmic-reticulum.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Rough ER",
+    "Smooth ER",
+    "Ribosomes on rough ER",
+    "Transport bubbles"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-rough",
+      "label": "Rough ER",
+      "conceptId": "rough-er-proteins",
+      "position": [
+        0.35,
+        0.3,
+        0.2
+      ],
+      "description": "The portion of the ER covered in ribosomes, where proteins are built and folded.",
+      "color": "#D98A6A",
+      "function": "Builds and folds proteins with the help of its ribosomes."
+    },
+    {
+      "id": "hs-smooth",
+      "label": "Smooth ER",
+      "conceptId": "smooth-er-lipids",
+      "position": [
+        -0.35,
+        -0.1,
+        0.25
+      ],
+      "description": "The portion without ribosomes, which makes lipids and processes molecules.",
+      "color": "#6B85A8",
+      "function": "Makes fats and helps process and move molecules."
+    },
+    {
+      "id": "hs-vesicle",
+      "label": "Transport bubble (vesicle)",
+      "conceptId": "membrane-network-transport",
+      "position": [
+        0.0,
+        -0.3,
+        0.3
+      ],
+      "description": "A small membrane bubble that buds off the ER to carry materials to other organelles.",
+      "color": "#B5846A",
+      "function": "Carries finished products to the next stop."
+    },
+    {
+      "id": "hs-network",
+      "label": "Membrane network",
+      "conceptId": "membrane-network-transport",
+      "position": [
+        0.1,
+        0.05,
+        0.4
+      ],
+      "description": "The connected maze of folded membranes that spreads through the cytoplasm.",
+      "color": "#D9A441",
+      "function": "Provides the highway that moves materials around the cell."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organelle floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality - museum-model cross-section caps, never gore. COLOR IS RESTRAINED: the organelle reads as a calm warm-paper specimen; each structural part is modeled in a muted near-neutral shade (warm taupe, pale vanilla, soft slate), never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Interior fluid (if any) is softly translucent but not glassy; cross-section cuts are clean flat museum caps. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: the endoplasmic reticulum as a connected folded membrane network shown in a cutaway cell slice. The membranes form many wavy, flattened sacs and tubes spreading through the frame. One region is studded with small ribosome dots (rough ER); a smoother region continues as tubes (smooth ER). A few small membrane bubbles (vesicles) are shown budding off at the edges, in the process of carrying cargo. Warm-paper muted palette, restrained. Named nodes: RoughER, SmoothER, RibosomeDots, Vesicle01-04. Budget 12-18k.",
+  "visual": {
+    "shape": "er-tubes"
+  }
+}

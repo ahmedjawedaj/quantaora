@@ -1,0 +1,46 @@
+{
+  "componentId": "acceleration",
+  "terms": [
+    {
+      "term": "Acceleration",
+      "conceptId": "acceleration-change-in-velocity",
+      "hotspotId": "hs-cart",
+      "definition": "The rate at which velocity changes with time.",
+      "function": "Reports how quickly speed or direction changes, in m/s².",
+      "whereItIs": "Read live on the badge next to the cart while it drives.",
+      "whyItMatters": "It is the connector between forces and motion in Newton's second law.",
+      "relatedConcept": "velocity",
+      "quizId": "accel-q-definition"
+    },
+    {
+      "term": "m/s²",
+      "conceptId": "acceleration-formula",
+      "hotspotId": "hs-accel-readout",
+      "definition": "The SI unit of acceleration — meters per second, per second.",
+      "whyItMatters": "The 'per second per second' captures that velocity grows by that many m/s every single second.",
+      "whereItIs": "On the readout plate behind the live number.",
+      "relatedConcept": "acceleration-change-in-velocity",
+      "quizId": "accel-q-formula"
+    },
+    {
+      "term": "Deceleration",
+      "conceptId": "acceleration-negative",
+      "hotspotId": "hs-brake",
+      "definition": "Negative acceleration — velocity is decreasing over time.",
+      "whyItMatters": "Brakes are negative acceleration, still acceleration in the formula's eyes.",
+      "whereItIs": "The red brake pedal and the downward-dipping graph.",
+      "relatedConcept": "acceleration-vector",
+      "quizId": "accel-q-negative"
+    },
+    {
+      "term": "Zero acceleration",
+      "conceptId": "acceleration-positive-negative",
+      "hotspotId": "hs-accel-readout",
+      "definition": "Velocity holding perfectly constant — the graph line is flat.",
+      "whyItMatters": "Motion with a zero-acceleration readout is cruising, not a state of no movement.",
+      "whereItIs": "The flat middle portion of the velocity-time line.",
+      "relatedConcept": "acceleration-formula",
+      "quizId": "accel-q-zero"
+    }
+  ]
+}

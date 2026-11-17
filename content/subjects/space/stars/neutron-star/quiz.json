@@ -1,0 +1,80 @@
+{
+  "componentId": "neutron-star",
+  "questions": [
+    {
+      "id": "ns-q-dense",
+      "conceptId": "density-city-scale",
+      "hotspotId": "hs-crust",
+      "prompt": "How dense is a neutron star compared with ordinary matter?",
+      "options": [
+        "About as dense as granite",
+        "About as dense as gold",
+        "A sugar-cube-size piece weighs about a billion tonnes",
+        "Only slightly denser than water"
+      ],
+      "correctIndex": 2,
+      "explanation": "Two solar masses packed into a 20-km ball means a sugar cube of neutron matter weighs roughly a billion tonnes — a mountain in your hand.",
+      "misconception": "Everything you've touched is ordinary matter, so 'very dense' usually means gold or lead — but those are still almost entirely empty space compared with the neutron lattice of a collapsed star."
+    },
+    {
+      "id": "ns-q-hold",
+      "conceptId": "neutron-degeneracy-pressure",
+      "hotspotId": "hs-interior",
+      "prompt": "What keeps a neutron star from collapsing into a black hole?",
+      "options": [
+        "Fusion fires in its center",
+        "Neutrons packed to the quantum limit push back — neutron degeneracy pressure",
+        "A solid iron frame inside",
+        "Its spin flings gravity away"
+      ],
+      "correctIndex": 1,
+      "explanation": "Like electrons in a white dwarf, neutrons cannot be squeezed into the same quantum state. Packed that tight, they push back hard enough to hold up roughly two solar masses — for now.",
+      "misconception": "The word 'collapse' makes it sound like it happens instantly; but the collapse only stops when the matter is squeezed into its absolute limit — and the limit of that squeeze is what 'degeneracy' names."
+    },
+    {
+      "id": "ns-q-born",
+      "conceptId": "supernova-remnant-core",
+      "hotspotId": "hs-supernova-outflow",
+      "prompt": "A neutron star is the leftover of which event?",
+      "options": [
+        "A red giant puffing off a nebula",
+        "A supernova — the explosion of a very massive star",
+        "A planet crash",
+        "Two white dwarfs cooling together"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stars with at least about eight solar masses end in a supernova whose core collapses into a neutron star — the explosion's debris cloud surrounds the new remnant.",
+      "misconception": "After the white dwarf's gentle planetary nebula, it is easy to assume every star's end is soft — but the neutron star is born in the most violent event the star will ever have."
+    },
+    {
+      "id": "ns-q-pulsar",
+      "conceptId": "pulsar-beacon-effect",
+      "hotspotId": "hs-beams",
+      "prompt": "Why does a pulsar seem to flash at perfectly regular intervals?",
+      "options": [
+        "It blinks like a signal light on purpose",
+        "Radio beams from its poles sweep past Earth with every rotation, like a lighthouse",
+        "It is actually a hole opening and closing",
+        "Its fusion reignites every few seconds"
+      ],
+      "correctIndex": 1,
+      "explanation": "The magnetic poles spit out narrow beams. As the star rotates up to hundreds of times per second, each beam swings across Earth like a lighthouse beam — giving the clock-like ticking.",
+      "misconception": "A steady pulse naturally reads as a deliberate signal — in 1967 the discoverers even jokingly named it LGM-1, 'Little Green Men', before concluding it was a rotating remnant."
+    },
+    {
+      "id": "ns-q-spin",
+      "conceptId": "conservation-of-angular-momentum",
+      "hotspotId": "hs-beams",
+      "prompt": "Why does a neutron star spin so fast?",
+      "options": [
+        "A supernova gives it a push like a kick",
+        "Its magnetic field accelerates it later",
+        "When the huge star's core shrinks from ~1,000 km to ~20 km, spin speeds up like a skater pulling in her arms",
+        "It does not spin fast — telescopes only look at it briefly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Angular momentum is conserved: the collapsing core pulls its mass inward, and the same total spin wrapped into a tiny radius must spin much faster — from maybe one rotation a day to dozens per second.",
+      "misconception": "It feels like the explosion should provide the speed; in reality the pre-explosion star's own slow rotation is amplified by the shrink — the same trick a spinning skater performs."
+    }
+  ]
+}

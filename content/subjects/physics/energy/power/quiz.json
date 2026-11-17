@@ -1,0 +1,80 @@
+{
+  "componentId": "power",
+  "questions": [
+    {
+      "id": "pow-q-definition",
+      "conceptId": "power-work-over-time",
+      "hotspotId": "hs-watt",
+      "prompt": "What does power measure?",
+      "options": [
+        "How fast work is done — energy per second",
+        "How much total work was done",
+        "How far an object moves",
+        "How heavy an object is"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power is the rate of doing work, work per second — the tempo of energy.",
+      "misconception": "Power is often confused with total work; rate is the key difference."
+    },
+    {
+      "id": "pow-q-formula",
+      "conceptId": "power-work-over-time",
+      "hotspotId": "hs-watt",
+      "prompt": "You do 600 J of work in 2 seconds. What is your power?",
+      "options": [
+        "300 W",
+        "1200 W",
+        "600 W",
+        "150 W"
+      ],
+      "correctIndex": 0,
+      "explanation": "Power = work ÷ time = 600 ÷ 2 = 300 W.",
+      "misconception": "Multiplying (1200) or misplacing which way to divide (150) are the classic slips."
+    },
+    {
+      "id": "pow-q-faster",
+      "conceptId": "power-same-work-faster-rate",
+      "hotspotId": "hs-speed-knob",
+      "prompt": "Two machines do the same work; machine A finishes in 1 second, machine B in 4 seconds. Which has higher power?",
+      "options": [
+        "Machine A",
+        "Machine B",
+        "They are the same",
+        "Neither — power dropped"
+      ],
+      "correctIndex": 0,
+      "explanation": "Same work in less time means higher power — A divides by 1, B by 4.",
+      "misconception": "It is tempting to call them equal because the work matches; the rate, not the total, sets power."
+    },
+    {
+      "id": "pow-q-watt",
+      "conceptId": "power-watts",
+      "hotspotId": "hs-watt",
+      "prompt": "One watt equals...",
+      "options": [
+        "One joule per second",
+        "One newton per metre",
+        "One joule squared square-rooted",
+        "One second per joule"
+      ],
+      "correctIndex": 0,
+      "explanation": "The watt is joules divided by seconds; a 60 W bulb spends 60 J each second.",
+      "misconception": "Mixing the watt with force-time combinations misses the joules-per-second definition."
+    },
+    {
+      "id": "pow-q-rate",
+      "conceptId": "power-more-work-same-time",
+      "hotspotId": "hs-watt",
+      "prompt": "Two runners, same time: runner A transfers 100 J, runner B transfers 200 J. Who has more power?",
+      "options": [
+        "Runner B",
+        "Runner A",
+        "Both the same",
+        "Neither, time was equal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Same time with more work means higher power — power = work ÷ time, and B's numerator is bigger.",
+      "misconception": "Assuming equality because the time matched; the extra energy also counts."
+    }
+  ]
+}

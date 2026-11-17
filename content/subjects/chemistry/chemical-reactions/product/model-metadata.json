@@ -1,0 +1,89 @@
+{
+  "id": "product",
+  "componentId": "product",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/chemical-reactions/product/product.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/chemical-reactions/product.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Equation scene",
+    "Product forming",
+    "Atom inheritance"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-product-made",
+      "label": "The product",
+      "conceptId": "product-created-by-reaction",
+      "position": [
+        0.95,
+        0.35,
+        0
+      ],
+      "description": "The water molecule on the right is the product — the new substance the reaction creates from the hydrogen and oxygen reactants.",
+      "positionHint": "The water molecule on the right side of the equation.",
+      "color": "#7FA86A",
+      "function": "Shows the new substance created by the reaction."
+    },
+    {
+      "id": "hs-product-form",
+      "label": "Forming the product",
+      "conceptId": "product-created-by-reaction",
+      "position": [
+        0.55,
+        0.15,
+        0
+      ],
+      "description": "When the form layer is on, the product assembles atom by atom from the reactant atoms — the reaction made visible.",
+      "positionHint": "The water molecule assembling in the center-right when the layer is on.",
+      "color": "#D9A441",
+      "function": "Shows the product being assembled by the reaction."
+    },
+    {
+      "id": "hs-product-atoms",
+      "label": "Inherited atoms",
+      "conceptId": "product-new-substance",
+      "position": [
+        0.85,
+        0.85,
+        0
+      ],
+      "description": "Every atom in this product came from the reactants — same atoms, new connections. None are created or destroyed.",
+      "positionHint": "The atoms of the product, highlighted with trails back to the reactants.",
+      "color": "#D96B5A",
+      "function": "Shows that product atoms come from the reactants."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A miniature chemical equation floats centered — reactants on the left, an arrow, and a freshly formed water product on the right — lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Ball-stick molecules in CPK colors: hydrogen warm off-white, oxygen muted red. Strong saturated color is reserved for the small flat hotspot dots (molecular-green / amber / coral accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Hydrogen spheres: warm off-white, roughness ~0.5. Oxygen spheres: muted red, roughness ~0.45. Bond rods: thin graphite cylinders. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a chemical equation for making water, focused on the product, built to be read as 'right side = the new substance the reaction creates.' Three procedural layers, all clean primitives:\n\n1) MAIN: a flat equation scene — LEFT: two hydrogen molecules (H₂) and one oxygen molecule (O₂) as in the reactant component; CENTER: a flat arrow tile (app-rendered glyph); RIGHT: one water molecule (H₂O) slightly brighter than the reactants, as if freshly formed.\n\n2) PRODUCT FORMING (toggleable layer): the reaction runs — reactant bonds break and the product's water molecule assembles atom by atom on the right (app animates atoms gliding into place).\n\n3) ATOM INHERITANCE (toggleable layer): the product's atoms each light up with a faint trail back to the reactant molecule they came from — making 'same atoms, rearranged' visible.\n\nCamera: framed so all three zones fit with negative space; auto-rotate default. Budget 6-10k triangles. Named nodes: Reactant_H2_01-02, Reactant_O2, Product_H2O, EquationArrow, AtomInheritanceTrails. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "product-vial"
+  }
+}

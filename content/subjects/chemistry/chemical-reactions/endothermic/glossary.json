@@ -1,0 +1,48 @@
+{
+  "componentId": "endothermic",
+  "terms": [
+    {
+      "term": "Endothermic reaction",
+      "conceptId": "endothermic-absorbs-energy",
+      "hotspotId": "hs-endothermic-pack",
+      "definition": "A chemical reaction that absorbs energy from its surroundings.",
+      "function": "Cools its surroundings by drawing heat in from them.",
+      "whereItIs": "The cold pack and leaf in the model.",
+      "whyItMatters": "Endothermic reactions power cold packs, cooking, and photosynthesis.",
+      "relatedConcept": "endothermic-cools-surroundings",
+      "quizId": "endothermic-q-definition"
+    },
+    {
+      "term": "Absorbed energy",
+      "conceptId": "endothermic-cools-surroundings",
+      "hotspotId": "hs-endothermic-energy",
+      "definition": "The energy an endothermic reaction draws in from its surroundings.",
+      "function": "Feeds the reaction while cooling the environment.",
+      "whereItIs": "The arrows and waves converging in the model.",
+      "whyItMatters": "Absorbed energy is why these reactions leave things cold.",
+      "relatedConcept": "endothermic-absorbs-energy",
+      "quizId": "endothermic-q-effect"
+    },
+    {
+      "term": "Energy gap",
+      "conceptId": "endothermic-absorbs-energy",
+      "hotspotId": "hs-endothermic-levels",
+      "definition": "The difference between the reactants' low energy and the products' higher energy.",
+      "function": "Explains why the reaction must absorb energy.",
+      "whereItIs": "The gap between the two energy bars in the model.",
+      "whyItMatters": "It shows exactly how much energy the reaction pulls in.",
+      "relatedConcept": "endothermic-cools-surroundings",
+      "quizId": "endothermic-q-why"
+    },
+    {
+      "term": "Photosynthesis",
+      "conceptId": "endothermic-examples",
+      "definition": "The endothermic reaction plants use to build sugars from sunlight, water, and carbon dioxide.",
+      "function": "The most important endothermic reaction on Earth.",
+      "whereItIs": "The leaf in the model.",
+      "whyItMatters": "Photosynthesis is the energy foundation of almost all life.",
+      "relatedConcept": "endothermic-absorbs-energy",
+      "quizId": "endothermic-q-example"
+    }
+  ]
+}

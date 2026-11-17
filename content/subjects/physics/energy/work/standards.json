@@ -1,0 +1,26 @@
+{
+  "componentId": "work",
+  "standards": [
+    {
+      "standardId": "PS3.C",
+      "standard": "Relationship Between Energy and Forces",
+      "description": "When objects interact, forces transfer energy between them; work is that transfer measured as force times distance.",
+      "level": "primary",
+      "traceDetail": "Pushing the cart along the track shows work = force × distance adding kinetic energy."
+    },
+    {
+      "standardId": "MS-PS3-1",
+      "standard": "Kinetic Energy and Mass/Speed",
+      "description": "The amount of energy transferred depends on the net force and the distance, and work done on an object increases its kinetic energy.",
+      "level": "support",
+      "traceDetail": "The cart's gaining energy equals the work counter — energy conservation in a glance."
+    },
+    {
+      "standardId": "MATH-6-EE-B",
+      "standard": "Reason About and Solve One-Variable Equations",
+      "description": "Understand solving equations as a process of deducing which number makes them true.",
+      "level": "support",
+      "traceDetail": "Force × distance products and J totals for practice."
+    }
+  ]
+}

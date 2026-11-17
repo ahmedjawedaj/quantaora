@@ -1,0 +1,48 @@
+{
+  "componentId": "isotope",
+  "terms": [
+    {
+      "term": "Isotope",
+      "conceptId": "isotope-same-element-diff-neutrons",
+      "hotspotId": "hs-isotope-pair",
+      "definition": "Atoms of the same element with different numbers of neutrons.",
+      "function": "Gives an element versions with different masses.",
+      "whereItIs": "The carbon-12 and carbon-14 pair in the model.",
+      "whyItMatters": "Isotopes power dating, medicine, and nuclear energy.",
+      "relatedConcept": "isotope-different-mass",
+      "quizId": "isotope-q-definition"
+    },
+    {
+      "term": "Mass number",
+      "conceptId": "isotope-different-mass",
+      "hotspotId": "hs-isotope-neutrons",
+      "definition": "The total number of protons plus neutrons in an atom.",
+      "function": "Names the isotope — carbon-14 has a mass number of 14.",
+      "whereItIs": "The 12 in carbon-12 and the 14 in carbon-14.",
+      "whyItMatters": "The mass number is how each isotope is identified.",
+      "relatedConcept": "isotope-same-element-diff-neutrons",
+      "quizId": "isotope-q-mass"
+    },
+    {
+      "term": "Proton count",
+      "conceptId": "isotope-same-protons",
+      "hotspotId": "hs-isotope-protons",
+      "definition": "The number of protons in an atom, identical across all isotopes of an element.",
+      "function": "Keeps all isotopes the same element.",
+      "whereItIs": "The 6 red protons in both nuclei.",
+      "whyItMatters": "The fixed proton count is what 'same element' means.",
+      "relatedConcept": "isotope-same-element-diff-neutrons",
+      "quizId": "isotope-q-protons"
+    },
+    {
+      "term": "Radioactive decay",
+      "conceptId": "isotope-different-mass",
+      "definition": "The steady breakdown of an unstable isotope, releasing particles and energy.",
+      "function": "Gives scientists a clock for dating and a tool for medicine and power.",
+      "whereItIs": "The behavior of carbon-14, hinted by the use icons.",
+      "whyItMatters": "Decay is what makes isotopes useful and powerful.",
+      "relatedConcept": "isotope-same-element-diff-neutrons",
+      "quizId": "isotope-q-uses"
+    }
+  ]
+}

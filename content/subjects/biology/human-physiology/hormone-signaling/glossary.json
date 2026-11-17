@@ -1,0 +1,123 @@
+{
+  "componentId": "hormone-signaling",
+  "terms": [
+    {
+      "term": "Gland Releases Hormone",
+      "conceptId": "gland-releases-hormone",
+      "hotspotId": "hs-gland-release",
+      "definition": "The first stage of the pathway: an endocrine gland detects a trigger and releases a hormone directly into the bloodstream.",
+      "function": "Synthesizes and stores a specific hormone, then releases it into nearby blood vessels in response to an internal trigger, such as a nerve signal, a change in blood chemistry, or another hormone.",
+      "whereItIs": "At the gland — the leftmost group in the model, where the small ring at its base pulses each time it releases.",
+      "whyItMatters": "This is where a hormone message begins — without release into the bloodstream, the rest of the chain has nothing to carry.",
+      "relatedConcept": "hormone-travels-in-bloodstream",
+      "quizId": "hormone-signaling-q-gland"
+    },
+    {
+      "term": "Hormone Travels In Bloodstream",
+      "conceptId": "hormone-travels-in-bloodstream",
+      "hotspotId": "hs-bloodstream",
+      "definition": "The second stage: the released hormone travels through the blood, passing by cells throughout the body until it reaches ones that can respond to it.",
+      "function": "The circulatory system carries the hormone molecule from the gland to every part of the body, exposing it to far more cells than the few that will actually respond.",
+      "whereItIs": "Along the curved vessel connecting the gland to the target cell, where small traveling hormone particles are visible mid-flow.",
+      "whyItMatters": "Because the bloodstream reaches everywhere, one gland's release can influence tissues far from where the hormone was made — but only where a matching receptor exists.",
+      "relatedConcept": "target-cell-receptor-binds-hormone",
+      "quizId": "hormone-signaling-q-bloodstream"
+    },
+    {
+      "term": "Target Cell Receptor Binds Hormone",
+      "conceptId": "target-cell-receptor-binds-hormone",
+      "hotspotId": "hs-receptor-bind",
+      "definition": "The third stage: a hormone binds to a receptor on a target cell whose shape matches it, like a key fitting a lock.",
+      "function": "The receptor protein's shape matches only its specific hormone; binding triggers a shape change in the receptor that starts a signal cascade inside the cell.",
+      "whereItIs": "At the tip of the small receptor protruding from the target cell's membrane, facing the incoming vessel.",
+      "whyItMatters": "This matching step is why a hormone can pass right by most cells with no effect — only the cells built to recognize it respond at all.",
+      "relatedConcept": "cell-response-triggered",
+      "quizId": "hormone-signaling-q-receptor"
+    },
+    {
+      "term": "Cell Response Triggered",
+      "conceptId": "cell-response-triggered",
+      "hotspotId": "hs-cell-response",
+      "definition": "The fourth stage: binding at the receptor sets off a chain of changes inside the target cell, changing what the cell does.",
+      "function": "The bound receptor activates internal signaling molecules that alter the cell's behavior, such as turning specific genes on or off, or speeding up an existing process.",
+      "whereItIs": "At the internal marker near the center of the target cell, visible when the cross-section cutaway is active.",
+      "whyItMatters": "This is the actual payoff of the whole pathway — everything before it (release, travel, binding) exists only to trigger this change inside the cell.",
+      "relatedConcept": "feedback-regulation",
+      "quizId": "hormone-signaling-q-response"
+    },
+    {
+      "term": "Feedback Regulation",
+      "conceptId": "feedback-regulation",
+      "hotspotId": "hs-feedback",
+      "definition": "The fifth stage: the body senses the cell's response and signals the gland to adjust hormone release up or down to stay balanced.",
+      "function": "A sensor — often the gland itself, or a controlling structure like the pituitary gland — detects the resulting change and signals the gland to increase or decrease further hormone release, keeping the response within a healthy range.",
+      "whereItIs": "Along the thin dashed arc that loops from the target cell back over the scene to the gland.",
+      "whyItMatters": "Feedback is why hormone levels settle back to normal instead of overshooting — it's the body's built-in way of self-correcting, and it's what breaks down in conditions like diabetes.",
+      "relatedConcept": "gland-releases-hormone",
+      "quizId": "hormone-signaling-q-feedback"
+    },
+    {
+      "term": "Hormone",
+      "conceptId": "hormone",
+      "definition": "A chemical messenger made by a gland that travels through the blood and changes how a target cell behaves.",
+      "function": "Carries a specific instruction from the gland that made it to any cell in the body that carries a matching receptor.",
+      "whereItIs": "Produced inside a gland, then released into and carried by the bloodstream.",
+      "whyItMatters": "Hormones are the actual 'message' in hormone signaling — without a hormone molecule, there's nothing for the bloodstream to carry or a receptor to bind.",
+      "relatedConcept": "gland-releases-hormone"
+    },
+    {
+      "term": "Gland",
+      "conceptId": "gland",
+      "definition": "An organ that makes and releases hormones directly into the bloodstream, such as the pancreas or thyroid.",
+      "function": "Synthesizes a specific hormone and secretes it into nearby blood vessels when triggered.",
+      "whereItIs": "Located throughout the body; real examples include the pituitary, thyroid, adrenal glands, and pancreas, mapped in the Human Anatomy branch's Endocrine System unit.",
+      "whyItMatters": "Glands are the source of every hormone signal — this model's single generic gland stands in for the whole set of real endocrine glands.",
+      "relatedConcept": "gland-releases-hormone"
+    },
+    {
+      "term": "Bloodstream",
+      "conceptId": "bloodstream",
+      "definition": "The network of blood vessels that carries hormones from the gland that made them to cells all over the body.",
+      "function": "Provides a body-wide transport route so a hormone made in one gland can reach target cells anywhere.",
+      "whereItIs": "The circulatory system as a whole; in this model, represented by a single vessel segment running from gland to target cell.",
+      "whyItMatters": "Without the bloodstream's constant circulation, a hormone would have no way to reach a target cell that isn't right next to the gland.",
+      "relatedConcept": "hormone-travels-in-bloodstream"
+    },
+    {
+      "term": "Receptor",
+      "conceptId": "receptor",
+      "definition": "A protein on or inside a cell shaped to bind one specific hormone, like a lock built for a particular key.",
+      "function": "Recognizes and binds only its matching hormone, converting that binding event into an internal signal the cell can act on.",
+      "whereItIs": "On the surface (or inside) of a target cell — in this model, the small protrusion on the target cell facing the vessel.",
+      "whyItMatters": "The receptor is what makes a cell a 'target' at all — no matching receptor means no response, no matter how much hormone passes by.",
+      "relatedConcept": "target-cell-receptor-binds-hormone"
+    },
+    {
+      "term": "Target Cell",
+      "conceptId": "target-cell",
+      "definition": "A cell that has the matching receptor for a hormone, so it's the one cell type that actually responds to that hormone's message.",
+      "function": "Receives the hormone signal via its matching receptor and changes its behavior in response.",
+      "whereItIs": "Wherever a matching receptor exists; in this model, the single large cell on the right side of the scene.",
+      "whyItMatters": "Different hormones have different target cells — this is how one bloodstream carrying many hormones can produce many different, specific effects around the body.",
+      "relatedConcept": "cell-response-triggered"
+    },
+    {
+      "term": "Feedback Loop",
+      "conceptId": "feedback-loop",
+      "definition": "A control system where the result of a hormone's action sends a signal back to the gland to increase or decrease further hormone release.",
+      "function": "Keeps hormone levels within a healthy range by adjusting future release based on the outcome of past release.",
+      "whereItIs": "Conceptually spans the whole pathway; in this model, shown as the dashed arc looping from the target cell back to the gland.",
+      "whyItMatters": "Feedback loops are what keep the endocrine system self-correcting rather than constantly over- or under-shooting — the mechanism behind homeostasis for hormone levels.",
+      "relatedConcept": "feedback-regulation"
+    },
+    {
+      "term": "Endocrine System",
+      "conceptId": "endocrine-system",
+      "definition": "The whole network of glands throughout the body that produce and release hormones.",
+      "function": "Coordinates slower, longer-lasting body-wide processes — growth, metabolism, blood sugar, stress response — by releasing hormones into the blood.",
+      "whereItIs": "Made up of glands distributed throughout the body, mapped as anatomical structures in the Human Anatomy branch's Endocrine System unit.",
+      "whyItMatters": "Hormone signaling is the process the endocrine system as a whole carries out — this component shows the general pathway; the Endocrine System unit shows where the real glands sit in the body.",
+      "relatedConcept": "gland"
+    }
+  ]
+}

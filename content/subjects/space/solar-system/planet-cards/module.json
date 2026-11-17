@@ -1,0 +1,102 @@
+{
+  "id": "planet-cards",
+  "subject": "space",
+  "title": "Planet Cards",
+  "summary": "Eight planets, eight cards — a flip-through deck that turns every planet into a readable fact sheet: what it's made of, how big it is, how far from the Sun, how long its day and year last, and how strong its gravity is. Pick any two cards to compare side by side and see how the planets sort into two families: small rocky worlds and huge gas or ice giants.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "planet-card-fact-sheet",
+    "planets-sort-by-type",
+    "gas-giants-vs-rocky-worlds",
+    "day-length-per-planet",
+    "year-length-per-planet"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Solar System",
+    "unit": "Sun and Planets",
+    "systemOrGroup": "Planets (card catalog)",
+    "component": "Planet Cards",
+    "displayPath": "Space > Solar System > Sun and Planets > Planets (card catalog) > Planet Cards"
+  },
+  "crossReferences": [
+    {
+      "label": "Planet Rotation and Day Length (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet rotation and day length",
+      "note": "The cards list each planet's day length as one line of a fact sheet; the Planet Rotation and Day Length component makes those numbers visible as spinning spheres so the differences feel real."
+    },
+    {
+      "label": "Gravity Comparison (Solar System)",
+      "branch": "solar-system",
+      "component": "Gravity comparison",
+      "note": "The cards list each planet's surface gravity as a fact; the Gravity Comparison component turns that fact into a hands-on scale so you can feel how heavy you'd be on each world."
+    },
+    {
+      "label": "Planet Size Comparison (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet size comparison",
+      "note": "The cards report each planet's radius relative to Earth; the Planet Size Comparison component shows those radii as real spheres lined up next to each other."
+    }
+  ],
+  "belongsTo": "Solar System > Sun and Planets > Planets (card catalog)",
+  "compareCandidate": {
+    "label": "Rocky planet vs. gas giant",
+    "description": "Mercury, Venus, Earth, and Mars are small, dense, rocky worlds with solid surfaces. Jupiter, Saturn, Uranus, and Neptune are enormous worlds of gas and ice with no solid surface to stand on — comparing one of each family makes the two types of planet impossible to confuse."
+  },
+  "parts": [
+    "Eight planet cards (one per planet)",
+    "Fact rows (type, radius, distance, day, year, gravity, moons)",
+    "Compare two cards side by side",
+    "Family tags (rocky world / gas giant / ice giant)"
+  ],
+  "processes": [
+    "Reading and comparing data tables",
+    "Sorting planets into families by composition",
+    "Relating day length to spin and year length to distance",
+    "Using Earth as the reference for every comparison"
+  ],
+  "plainLanguageExplanation": "A planet card is like a baseball card, but for a world: one side is a picture, and the other is a list of stats. Every planet has a card in this deck, and every card uses the same rows — what the planet is made of, its radius compared to Earth, its distance from the Sun in AU, how long one day lasts, how long one year lasts, its surface gravity compared to Earth, and how many moons it has. Because every card uses the same rows, you can lay two cards side by side and compare any row directly: Earth's day is 24 hours, Mars's is 24.6 hours, Jupiter's is under 10 hours. The deck also sorts itself into two families automatically: the four inner planets are rocky worlds, and the four outer planets are gas giants (Jupiter and Saturn) and ice giants (Uranus and Neptune). When you flip through the deck, watch how day length, year length, and gravity each follow their own pattern — that's the beginning of reading planets like data, the way astronomers do.",
+  "keyFacts": [
+    {
+      "label": "Card rows",
+      "value": "Every card shows: composition, radius vs Earth, distance (AU), day length, year length, gravity vs Earth, and moon count"
+    },
+    {
+      "label": "Two families",
+      "value": "Inner four planets are small rocky worlds; outer four are gas giants (Jupiter, Saturn) and ice giants (Uranus, Neptune)"
+    },
+    {
+      "label": "Day lengths vary wildly",
+      "value": "Jupiter's day is about 9.9 hours, Earth's is 24, Venus's is about 117 Earth days"
+    },
+    {
+      "label": "Year lengths grow with distance",
+      "value": "Mercury's year is 88 Earth days; Neptune's is about 165 Earth years"
+    },
+    {
+      "label": "Earth is the reference",
+      "value": "Radii and gravity are written as multiples of Earth's, so every card compares against the world you live on"
+    },
+    {
+      "label": "Compare mode",
+      "value": "Pick any two cards and the model lines them up side by side, row for row"
+    }
+  ],
+  "whyItMatters": "Astronomers cannot visit most planets, so they learn about worlds by comparing rows of data — exactly what this deck does. The skill of reading a table and spotting patterns (rocky planets are small, gas giants are huge, outer planets have long years) transfers directly to real science: it is how scientists decide which exoplanets might be Earth-like, and it is how mission planners decide which worlds to visit next. Learning to see planets as data instead of just pictures is the first step toward thinking like an astronomer.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Planetary Fact Sheet",
+  "tagline": "Baseball cards for worlds",
+  "didYouKnow": "If you lined up every planet card by day length, Jupiter would win with a day under 10 hours — the biggest planet spins the fastest of all.",
+  "compareCandidateId": "planet-size-comparison",
+  "compareReason": "The cards report sizes as numbers; the Planet Size Comparison component draws those same numbers as real spheres — together they connect the data row to the visual fact."
+}

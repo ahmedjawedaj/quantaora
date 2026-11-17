@@ -1,0 +1,38 @@
+{
+  "asset": "virus-influenza-whole-nih.glb",
+  "assetGroup": "Standalone whole influenza virion - single assembled mesh, not a deconstructible/piece set",
+  "componentMapping": "biology > microbiology > Virus (low-level item) - re-sourced replacement candidate for the influenza gap flagged in docs/assets/biology-cell.md / docs/assets/reviews/biology-cell-visual.md, where the earlier 3-piece deconstructible set (virus-influenza-capsid-rna-nih.glb + envelope-a/b) had its capsid-RNA disc REJECTed and both envelope halves marked CONDITIONAL (neither reads as 'a virus' alone). This file is a single, whole, exterior-recognizable virion in one mesh - PRIMARY candidate for the Virus component's influenza-specific display.",
+  "sourceUrl": "https://3d.nih.gov/entries/3DPX-000030",
+  "sourceEntryId": "3DPX-000030",
+  "underlyingStructureData": "Derived from electron microscopy data provided by Bernard Heymann (NCI); segmented/colorized by Darrell Hurt (NIAID). Surface coloring: blue = hemagglutinin, red = neuraminidase, yellow = viral membrane.",
+  "creator": "Darrell Hurt (NIAID, NIH)",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC0 1.0 (Public Domain Dedication)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Recommended credit: \"Influenza virus\", NIH 3D (3d.nih.gov, entry 3DPX-000030), by Darrell Hurt (NIAID/NIH), from EM data provided by Bernard Heymann (NCI). CC0 1.0.",
+  "redistributionStatus": "Unrestricted (CC0 public domain dedication) - confirmed via the entry page's own \"Public Domain\" badge linking to https://creativecommons.org/publicdomain/zero/1.0/.",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/18/runs/d8b7c161-4310-4394-aedd-2c9d6c2b0dd5/output-files/454",
+  "downloadedVariant": "Flu_NIH3D.glb",
+  "fileSizeBytes": 3025888,
+  "sha256": "3eceb8820695f354b4fa1707997b50b18495e3a1e3e14ef7106082222229a23a",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "declaredLengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 3,
+    "meshAttributes": "POSITION + COLOR_0 (real per-vertex color: blue/red/yellow protein coloring, no NORMAL attribute present)",
+    "approxBoundingBox": {
+      "min": [-8.052189826965332, -8.535771369934082, -9.310992240905762],
+      "max": [8.993285179138184, 9.321768760681152, 7.717721462249756]
+    },
+    "approxDimensions": [17.0455, 17.8575, 17.0287],
+    "notes": "Comfortably within the 15MB hero-asset budget (2.9MB). No NORMAL accessor - would render flat/unlit through a loader that doesn't auto-compute vertex normals (same gap noted on several Wave-1 NIH files); needs computeVertexNormals() or an equivalent fix at integration time. Single continuous mesh (not a multi-piece assembly), spherical/spiky silhouette densely covered in protein knobs, closely resembles the general 'iconic virus' shape of the already-shipped polio capsid but with distinct two-tone (blue/red) surface coloring matching real hemagglutinin/neuraminidase distribution. STATUS: render-review-pending - not self-declared PASS; needs a visual-acceptance pass (per the pattern in docs/assets/reviews/biology-cell-visual.md) before any route/registry integration."
+  }
+}

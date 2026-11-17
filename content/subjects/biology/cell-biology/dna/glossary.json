@@ -1,0 +1,49 @@
+{
+  "componentId": "dna",
+  "terms": [
+    {
+      "term": "DNA",
+      "conceptId": "genetic-code-storage",
+      "hotspotId": "hs-helix",
+      "definition": "Deoxyribonucleic acid - the molecule that stores the instructions a living thing needs to build and run itself.",
+      "function": "Carries the genetic code and passes it to new cells.",
+      "whereItIs": "Mostly in the nucleus of cells.",
+      "whyItMatters": "It is the code of life.",
+      "relatedConcept": "double-helix",
+      "quizId": "dna-q-what"
+    },
+    {
+      "term": "Double helix",
+      "conceptId": "double-helix",
+      "hotspotId": "hs-helix",
+      "definition": "The twisted ladder shape made by two winding DNA strands.",
+      "function": "Lets a long molecule be packed tightly and copied accurately.",
+      "whereItIs": "The overall shape of the DNA strand.",
+      "whyItMatters": "Its twist is how DNA packs a huge amount of code into a tiny space and still copies it faithfully.",
+      "relatedConcept": "base-pairing",
+      "quizId": "dna-q-shape"
+    },
+    {
+      "term": "Base",
+      "conceptId": "base-pairing",
+      "hotspotId": "hs-base-pair",
+      "definition": "One of the four chemical letters of DNA: A, T, G, C.",
+      "function": "The letters that store the code, pairing with a partner.",
+      "where": "As the rungs of the DNA ladder.",
+      "why": "The sequence of these letters is the information.",
+      "relatedConcept": "double-helix",
+      "quizId": "dna-q-bases"
+    },
+    {
+      "term": "Backbone",
+      "conceptId": "genetic-code-storage",
+      "hotspotId": "hs-backbone",
+      "definition": "The sugar and phosphate chain that forms the two rails of the DNA ladder.",
+      "function": "Provides the strong structural frame of the strand.",
+      "where": "The outer edges of each strand.",
+      "why": "It supports and protects the code-carrying bases.",
+      "relatedConcept": "base-pairing",
+      "whyItMatters": "It supports and protects the code-carrying bases of the strand."
+    }
+  ]
+}

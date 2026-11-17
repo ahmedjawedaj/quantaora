@@ -1,0 +1,87 @@
+{
+  "id": "factors",
+  "subject": "math",
+  "title": "Factors",
+  "summary": "Factors are numbers that multiply together to make a product — 3 and 4 are factors of 12 because 3 × 4 = 12. Explore how factors come in pairs, how to find all the factors of a number, and what factor pairs and factor pairs of larger numbers look like.",
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "skillIds": [
+    "factors-multiply-to-product",
+    "factors-find-all",
+    "factors-factor-pairs",
+    "factors-divide-evenly"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Number Relationships",
+    "systemOrGroup": "Factors and multiples",
+    "component": "Factors",
+    "displayPath": "Math > Number Sense And Arithmetic > Number Relationships > Factors and multiples > Factors"
+  },
+  "crossReferences": [
+    {
+      "label": "Multiplication (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Multiplication",
+      "note": "A factor is one of the numbers multiplied together to build a product."
+    },
+    {
+      "label": "Division (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Division",
+      "note": "A number divides evenly by all of its factors — the division has no remainder."
+    },
+    {
+      "label": "Multiples (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Multiples",
+      "note": "Factors and multiples are two sides of the same relationship: 3 is a factor of 12, and 12 is a multiple of 3."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Number Relationships > Factors and multiples",
+  "compareCandidate": {
+    "label": "Factors vs. multiples",
+    "description": "Factors multiply TOGETHER to make a number (3 and 4 → 12). Multiples are the number's times-table results (12, 24, 36...). One says 'what builds it', the other says 'what it builds'."
+  },
+  "parts": [
+    "Factor pairs",
+    "The complete factor list",
+    "The division check"
+  ],
+  "processes": [
+    "Finding all factor pairs",
+    "Checking divisibility",
+    "Understanding factor size limits"
+  ],
+  "plainLanguageExplanation": "A factor of a number is any number that multiplies with another to give that number. 3 × 4 = 12, so 3 and 4 are both factors of 12 — and 3 × 4 is called a factor pair. Factors always come in pairs, and every factor divides the original number evenly, leaving no remainder. To find all the factors of 12, test the small numbers 1, 2, 3... up to the middle of the number; each one that divides evenly pairs with another factor (1 pairs with 12, 2 with 6, 3 with 4). A factor is always less than or equal to the number it belongs to, and 1 and the number itself are always factors.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A factor divides a number evenly, or multiplies to equal it" },
+    { "label": "Example", "value": "Factors of 12: 1, 2, 3, 4, 6, 12" },
+    { "label": "Factor pairs", "value": "1×12, 2×6, 3×4 — three pairs for 12" },
+    { "label": "Always factors", "value": "1 and the number itself" },
+    { "label": "Even division", "value": "12 ÷ 4 = 3 leaves no remainder, so 4 is a factor" },
+    { "label": "Size limit", "value": "No factor is bigger than the number it belongs to" }
+  ],
+  "whyItMatters": "Factors unlock mental math and number theory. Finding factors powers division, simplifying fractions, finding common denominators, prime factorization, and later algebra. When you see that 24 and 36 both divide by 12, you can reduce a fraction instantly.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Factors",
+  "tagline": "Numbers that multiply to a product",
+  "didYouKnow": "Prime numbers have exactly two factors — 1 and themselves. Composite numbers like 12 have more, and factor pairs are why square numbers (like 9) have a special 'middle' pair where both factors are equal.",
+  "conditions": [
+    "Reducing fractions",
+    "Finding common denominators",
+    "Prime factorization",
+    "Mental math"
+  ],
+  "compareCandidateId": "multiples",
+  "compareReason": "Factors and multiples describe the same relationship from opposite directions — comparing them makes the distinction stick."
+}

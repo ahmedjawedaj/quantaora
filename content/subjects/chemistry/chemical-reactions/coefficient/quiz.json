@@ -1,0 +1,65 @@
+{
+  "componentId": "coefficient",
+  "questions": [
+    {
+      "id": "coefficient-q-definition",
+      "conceptId": "coefficient-counts-units",
+      "hotspotId": "hs-coefficient-number",
+      "prompt": "What is a coefficient in a chemical equation?",
+      "options": [
+        "The number in front of a formula that counts how many units react",
+        "The small number inside a formula",
+        "The arrow between reactants and products",
+        "The symbol for an element"
+      ],
+      "correctIndex": 0,
+      "explanation": "A coefficient is the big number in front of a formula, counting whole units of the substance.",
+      "misconception": "The small number inside a formula is a subscript (it counts atoms within one unit) — the coefficient is specifically the number in FRONT."
+    },
+    {
+      "id": "coefficient-q-multiplies",
+      "conceptId": "coefficient-front-of-formula",
+      "hotspotId": "hs-coefficient-multiplies",
+      "prompt": "What does the 2 in 2H₂O multiply?",
+      "options": [
+        "Every atom in the formula — 4 hydrogens and 2 oxygens",
+        "Only the first atom in the formula",
+        "Nothing — it just sits there",
+        "Only the water's temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "A coefficient multiplies every atom in the formula it fronts: 2H₂O = 2×2 = 4 hydrogens and 2 oxygens.",
+      "misconception": "The coefficient multiplies the ENTIRE formula, not just part of it — every atom gets multiplied, which is why 2H₂O has four hydrogens."
+    },
+    {
+      "id": "coefficient-q-subscript",
+      "conceptId": "coefficient-front-of-formula",
+      "hotspotId": "hs-coefficient-number",
+      "prompt": "How is a coefficient different from a subscript?",
+      "options": [
+        "Coefficient counts units (front); subscript counts atoms (inside)",
+        "They are the same thing",
+        "Coefficient counts atoms; subscript counts units",
+        "Subscript is always bigger"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coefficient in front counts whole molecules/units; the subscript inside counts atoms within one formula unit.",
+      "misconception": "The two numbers play opposite roles — the coefficient multiplies the whole unit while the subscript describes one unit's internal atoms."
+    },
+    {
+      "id": "coefficient-q-balance",
+      "conceptId": "coefficient-balances-equations",
+      "hotspotId": "hs-coefficient-balance",
+      "prompt": "Why do we choose coefficients when balancing an equation?",
+      "options": [
+        "So the atoms on the left match the atoms on the right",
+        "To make the equation look longer",
+        "To change the elements involved",
+        "To make the products heavier"
+      ],
+      "correctIndex": 0,
+      "explanation": "Choosing the right coefficients makes every atom's count equal on both sides — enforcing conservation of mass.",
+      "misconception": "Balancing never changes what elements react — it only adjusts the NUMBER of each unit so the atom counts match."
+    }
+  ]
+}

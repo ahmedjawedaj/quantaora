@@ -1,0 +1,102 @@
+{
+  "subject": "biology",
+  "componentId": "mutation",
+  "modelType": "procedural-three",
+  "cameraDefault": {
+    "position": [
+      0,
+      1.1,
+      5.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "defaultVisibleLayers": [
+    "DNA double-helix backbone (reference strand)",
+    "Base-pair rungs (reference sequence, 12 bp)",
+    "Mutation overlay segment (bp 5-7, swaps between substitution / insertion / deletion states)"
+  ],
+  "layers": [
+    {
+      "name": "DNA double-helix backbone (reference strand)",
+      "visibleByDefault": true
+    },
+    {
+      "name": "Base-pair rungs (reference sequence, 12 bp)",
+      "visibleByDefault": true
+    },
+    {
+      "name": "Mutation overlay segment (bp 5-7, swaps between substitution / insertion / deletion states)",
+      "visibleByDefault": true
+    },
+    {
+      "name": "mRNA transcript ribbon (ghost strand beneath DNA)",
+      "visibleByDefault": false,
+      "revealedBy": "hs-protein-effect",
+      "revealBehavior": "Fades in (opacity 0 to full over ~400ms) only when the hs-protein-effect hotspot is opened; fades back out when the hotspot card is closed. Not part of the default hero-object view, matching the reference's single-specimen negative-space framing."
+    },
+    {
+      "name": "Amino acid / protein bead chain (translated readout, reference vs mutated compare)",
+      "visibleByDefault": false,
+      "revealedBy": "hs-protein-effect",
+      "revealBehavior": "Fades in (opacity 0 to full over ~400ms) only when the hs-protein-effect hotspot is opened; fades back out when the hotspot card is closed. Not part of the default hero-object view, matching the reference's single-specimen negative-space framing."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-substitution",
+      "label": "Substitution mutation",
+      "conceptId": "substitution-mutation",
+      "position": [
+        -0.45,
+        0.35,
+        0.35
+      ],
+      "description": "Highlights a single base pair in the middle segment where one nucleotide pair is swapped for another (e.g. A-T to G-C). Clicking morphs that one rung's paired spheres to new base colors in ~500ms while the rest of the strand and its twist geometry stay unchanged, then updates the protein bead chain to show exactly one recolored amino acid bead (or none, if the substitution is silent) with no shift in chain length — demonstrating a point mutation's typically localized, non-frameshifting effect."
+    },
+    {
+      "id": "hs-insertion",
+      "label": "Insertion mutation",
+      "conceptId": "insertion-mutation",
+      "position": [
+        0.0,
+        0.42,
+        -0.3
+      ],
+      "description": "Highlights the point where an extra base pair is added into the sequence. Clicking fades in one new rung between existing bp-6 and bp-7, pushing every downstream rung outward along the helix axis and smoothly recalculating the backbone twist to keep spacing even. The mRNA ribbon and protein bead chain below update to show a frameshift: every amino acid bead from the insertion point onward recolors to a neutral grey 'scrambled' tone, and a red stop-bead may appear early, illustrating how one extra letter shifts the entire downstream reading frame."
+    },
+    {
+      "id": "hs-deletion",
+      "label": "Deletion mutation",
+      "conceptId": "deletion-mutation",
+      "position": [
+        0.45,
+        0.18,
+        0.4
+      ],
+      "description": "Highlights the point where a base pair is removed. Clicking collapses one rung (it shrinks and fades over ~500ms) and pulls every downstream rung inward to close the gap, recalculating helix twist so the strand stays continuous and evenly spaced. The protein bead chain updates identically in spirit to the insertion case (grey scrambled beads / possible early stop bead downstream of the deletion point) so learners can visually compare how insertion and deletion both cause frameshifts while substitution does not."
+    },
+    {
+      "id": "hs-protein-effect",
+      "label": "Effect on protein function",
+      "conceptId": "effect-on-protein-function",
+      "position": [
+        0,
+        -0.65,
+        0.5
+      ],
+      "description": "Opens the protein-readout comparison: a reference bead chain (uniform warm-clay color, folded gently like a loose ribbon) sits above a second bead chain that reflects whichever DNA state is currently active (reference/substitution/insertion/deletion). Substitution shows a single recolored bead; insertion/deletion show a full downstream color shift and possible early stop bead. Opening this hotspot is what fades in the mRNA ribbon and both bead chains (they are hidden in the default hero-object view); closing it fades them back out. This hotspot's card explains, in plain language, why small DNA changes can have outsized (or negligible) effects on the protein a gene ultimately builds."
+    }
+  ],
+  "hotspotSeparationNote": "Hotspot positions are deliberately spread beyond the literal bp6/bp7 mutation point (which is where the geometry itself edits) so the three billboarded discs remain individually legible and clickable at the default camera distance (z=5.2): minimum pairwise separation between hs-substitution, hs-insertion, and hs-deletion is ~0.45 units in at least one axis, with additional y/z offsets so no two discs occupy the same screen-space region. Do not collapse these back toward a single shared coordinate even though the underlying mutation always applies to the same rung.",
+  "visualStyleNotes": "Match Anatomy Atelier exactly: warm off-white scene background (~#F7F3EC), no environment glow, no bloom/emissive materials, no particle effects. The DNA segment is the single hero object and the only thing visible in the default/idle view (mRNA ribbon and both protein bead chains are hidden until hs-protein-effect is opened, per defaultVisibleLayers above) — centered and large in frame (fills ~55-60% of viewport height), floating with a soft contact shadow, not resting on a visible pedestal. When the protein readout does fade in, it renders below/in-front of the DNA at reduced scale (~0.7x) without encroaching on the specimen's reserved contact-shadow floor space. Materials are matte/satin PBR (roughness 0.55-0.7, low/no metalness, a whisper of clearcoat on the backbone only) in a restrained, muted palette — think unglazed ceramic and pastel enamel, never neon or saturated primaries: backbone ribbons in warm bone/cream (#EDE6D6), base-pair rungs in four muted hues distinguishable at a glance (soft terracotta, sage, dusty blue, warm ochre — avoid pure RGB primaries), the mutated/overlay segment in a slightly warmer accent (muted coral #D98B72) so it reads as 'the part that changed' without shouting. Hotspot dots follow the reference system exactly: small flat-shaded colored discs with a thin white ring, camera-facing (billboarded), opening the same soft tactile off-white structure cards used elsewhere in the app on click. Idle state auto-rotates the whole assembly slowly (about 6 seconds per revolution) about the vertical axis; rotation pauses automatically whenever a hotspot card is open or a mutation state is toggled, and resumes ~4s after the user stops interacting. Only one mutation state (reference / substitution / insertion / deletion) is active at a time — selecting a new hotspot smoothly reverts any other active mutation state before applying its own, so learners always compare exactly one change against the baseline rather than stacking edits. Absolutely no gamey elements: no particle bursts, no screen shake, no cartoon outlines, no drop-shadow-heavy UI, no saturated gradients — everything should look like a calm, premium science-museum exhibit piece.",
+  "assetBrief": "Build a short, simplified B-DNA double-helix segment representing 12 base pairs, used as a comparison rig for three mutation types plus a translated-protein readout. This is a procedural-three asset: construct entirely from primitive geometries (cylinders, capsules/spheres, torus segments) composed in code — no sculpted or scanned mesh, no glb import needed.\n\nSCALE & LAYOUT\n- Overall bounding box: ~3.2 units long (helix axis, oriented horizontally along X so the strand reads left-to-right like a sentence), ~1.0 unit diameter, centered at world origin with the vertical midline at y ≈ 0.1.\n- Two backbone ribbons: each a smooth tube (extruded along a helical spline, radius ~0.04) tracing a double-helix path with realistic-feeling turn rate — target ~1 to 1.1 full turns across the 12 bp segment (i.e. close to real B-DNA's ~10.5 bp/turn), NOT an exaggerated cartoon spiral. Backbone material: matte cream PBR (#EDE6D6), roughness 0.6, very slight clearcoat (0.1) for a soft ceramic sheen — no metalness.\n- 12 base-pair rungs, evenly spaced along the axis (~0.26 units apart), each rung = two small capsule/sphere \"nucleotide\" caps (radius ~0.09) joined by a thin connecting cylinder (the hydrogen-bond rung, radius ~0.015, pale grey #DDD6C8), positioned so the pair sits between the two backbone ribbons at the correct rotational angle for that position in the helix.\n- Base-pair color coding (4 muted hues, assign consistently per nucleotide identity so the same \"letter\" always reads the same color across the whole app, not just this model): A ≈ dusty blue #8FA6B2, T ≈ warm ochre #D2A65A, G ≈ sage #93A67E, C ≈ soft terracotta #C17A5D. Do not use saturated/primary RGB — desaturate ~20-30% from a naive palette pick to stay in the Anatomy Atelier register.\n\nMUTATION OVERLAY SEGMENT (bp positions 5, 6, 7 — center of the strand)\n- These three rungs are tagged as the \"editable\" segment. Build each of the three mutation states as a small set of tween-able transforms/material swaps applied to this segment, driven by which hotspot is active:\n  1. Reference (default): normal rung at bp-6, unchanged spacing.\n  2. Substitution: the bp-6 rung's two nucleotide caps swap to a different color pair (e.g. A-T caps recolor to G-C caps) in place — no change to rung position, spacing, or backbone twist. Animate the color swap via a ~500ms material lerp, not a hard cut.\n  3. Insertion: a new 13th rung fades in (scale 0→1, opacity 0→1 over ~500ms) inserted between bp-6 and bp-7, and every rung + backbone control point from bp-7 onward translates outward along the axis by one rung-spacing to make room; recompute the backbone spline through the new control points so the tube stays continuous (no visible seam/kink).\n  4. Deletion: the bp-6 rung scales to 0 and fades out over ~500ms, then every rung + backbone control point from bp-7 onward translates inward by one rung-spacing to close the gap; recompute the backbone spline the same way.\n- All three states must be mutually exclusive and instantly reversible — store the reference-state transform for every affected node so any state can cleanly re-derive from it (don't accumulate drift across repeated toggles).\n- Hotspot marker discs for hs-substitution, hs-insertion, and hs-deletion are positioned near, but not exactly on top of, the literal bp6/bp7 edit point (see hotspotSeparationNote above) purely so they remain distinct, individually clickable targets; the actual geometry edit always happens at the bp6/bp7 segment regardless of marker position.\n\nTRANSCRIPT + PROTEIN READOUT (secondary, hidden by default — see defaultVisibleLayers; only fades in when hs-protein-effect is opened; sits below/behind the DNA, ~0.6 units lower on Y, slightly reduced scale ~0.7x so it reads as a \"readout\" not a second hero object, and positioned clear of the DNA's reserved contact-shadow floor space)\n- mRNA ribbon: a thin flat ribbon strip (or slim tube), pale lavender-grey (#C9C2D6), running parallel beneath the DNA — purely decorative connective tissue between DNA and protein, no interactivity of its own.\n- Protein bead chain: a row of 8-10 spheres (radius ~0.07, spaced ~0.16 apart) connected by a thin smooth ribbon/tube backbone, gently curved (not straight) to read as a folded peptide rather than a rigid rod. Two parallel copies: a static \"reference\" chain (all beads warm clay #C9B79C) positioned slightly above, and a \"current state\" chain below it that reflects the active DNA mutation state:\n  - Reference DNA state → current chain identical to reference chain (all beads warm clay).\n  - Substitution → exactly one bead (the one corresponding to codon containing bp-6) recolors to muted orange (#D98B72); all others stay warm clay; chain length unchanged.\n  - Insertion/Deletion → every bead from the corresponding codon position onward recolors to neutral grey (#B5AFA6), and optionally the last 1-2 beads shrink/fade to indicate a premature stop, illustrating a frameshift; chain length may visually shorten by 1 bead for deletion or lengthen by 1 for insertion before the frameshift grey-out, to hint at the reading-frame shift without requiring literal codon-accurate translation.\n\nLIGHTING & FINISH\n- No baked/emissive lighting in the asset — rely entirely on the app's shared neutral studio lighting rig (soft key + fill, no colored rim lights). Materials must read correctly under flat, even, warm-white light only.\n- No glow, no bloom post-processing dependency, no transparency-heavy glass/crystal looks. Every surface should look touchable and matte-to-satin, consistent with the rest of the app's model library.\n\nWHAT NOT TO DO\n- Do not model a full, anatomically dense double helix with dozens of base pairs — 12 is deliberately minimal for legibility at the target viewport size.\n- Do not use neon, saturated, or glowing colors for the base pairs — keep to the muted palette specified above.\n- Do not add cartoon eyes/faces, sparkle effects, or game-UI flourishes to the beads or backbone.\n- Do not hard-cut between mutation states; every transition must be a smooth ~400-600ms tween.\n- Do not let insertion/deletion transforms leave a visible kink or gap in the backbone tube — always recompute the spline through updated control points.\n- Do not show the mRNA ribbon or either protein bead chain in the default idle view — they must stay hidden/faded until hs-protein-effect is explicitly opened, so the base view stays a single hero specimen matching the reference's negative-space framing.",
+  "visual": {
+    "shape": "mutation-swap"
+  }
+}

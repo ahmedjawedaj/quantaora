@@ -1,0 +1,65 @@
+{
+  "componentId": "neutron",
+  "questions": [
+    {
+      "id": "neutron-q-charge",
+      "conceptId": "neutron-no-charge",
+      "hotspotId": "hs-neutron-neutral",
+      "prompt": "What charge does a neutron carry?",
+      "options": [
+        "No charge at all — it is neutral",
+        "Positive (+1)",
+        "Negative (-1)",
+        "The same charge as a proton"
+      ],
+      "correctIndex": 0,
+      "explanation": "A neutron is electrically neutral — it carries no charge, which is exactly why it is called a neutron.",
+      "misconception": "The positive charge belongs to protons and the negative to electrons — the neutron is the one particle with no charge at all."
+    },
+    {
+      "id": "neutron-q-isotope",
+      "conceptId": "neutron-isotopes",
+      "hotspotId": "hs-neutron-isotopes",
+      "prompt": "Carbon-12 has 6 neutrons and carbon-14 has 8. What are these two atoms called?",
+      "options": [
+        "Isotopes — same element, different neutron count",
+        "Different elements",
+        "Ions of different elements",
+        "Protons and electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atoms of the same element with different neutron counts are isotopes — both are carbon, just different weights.",
+      "misconception": "Since both have the same protons, they are the SAME element — only the neutrons differ, which makes them isotopes, not different elements."
+    },
+    {
+      "id": "neutron-q-location",
+      "conceptId": "neutron-in-nucleus",
+      "hotspotId": "hs-neutron-nucleus",
+      "prompt": "Where do neutrons live in an atom?",
+      "options": [
+        "In the nucleus, packed with the protons",
+        "Orbiting the electron cloud",
+        "Only in radioactive atoms",
+        "Between the shells and the nucleus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neutrons are packed into the nucleus alongside the protons — the dense core at the atom's center.",
+      "misconception": "All atoms have neutrons in their nuclei (except most hydrogen), and neutrons never orbit — they stay in the core with the protons."
+    },
+    {
+      "id": "neutron-q-mass",
+      "conceptId": "neutron-in-nucleus",
+      "hotspotId": "hs-neutron-neutral",
+      "prompt": "What does a neutron add to an atom?",
+      "options": [
+        "Mass — it makes the atom heavier",
+        "Charge — it makes the atom positive",
+        "Electrons — it brings more electrons",
+        "Color — it changes how the atom looks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neutrons add mass to the atom without adding any charge — heavier isotopes are heavier because of extra neutrons.",
+      "misconception": "Neutrons never change charge or electron count — their whole contribution is mass (plus nuclear stability)."
+    }
+  ]
+}

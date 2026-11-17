@@ -1,0 +1,120 @@
+{
+  "id": "breathing",
+  "componentId": "breathing",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/models/lungs.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/breathing.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.4,
+      3.2
+    ],
+    "target": [
+      0,
+      1.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.4,
+      3.2
+    ],
+    "target": [
+      0,
+      1.1,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Torso silhouette (semi-transparent shell, toggle-able)",
+    "Ribcage (thin off-white lattice, semi-transparent)",
+    "Trachea & primary bronchi",
+    "Lungs — left (2 lobes) and right (3 lobes)",
+    "Diaphragm (dome muscle sheet, base of cavity)",
+    "Alveoli cluster inset (zoomed grape-like cluster at one bronchiole tip, shown as a floating detail callout, not full-lung density)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-diaphragm",
+      "label": "Diaphragm contraction",
+      "conceptId": "diaphragm-contraction",
+      "position": [
+        -0.15,
+        0.35,
+        0.55
+      ],
+      "description": "The diaphragm, a dome-shaped muscle beneath the lungs, contracts and flattens downward, increasing the volume of the chest cavity to draw air in.",
+      "positionHint": "Base of the thoracic cavity, on the diaphragm dome, slightly left of center so it reads clearly against the lung base above it",
+      "color": "#C08868",
+      "function": "Contracts and flattens to enlarge the chest cavity, pulling air into the lungs."
+    },
+    {
+      "id": "hs-lung-expansion",
+      "label": "Lung expansion",
+      "conceptId": "lung-expansion",
+      "position": [
+        -0.55,
+        1.1,
+        0.35
+      ],
+      "description": "As the chest cavity enlarges, the lungs — elastic, sponge-like organs — expand outward and downward to fill the extra volume, drawing air deeper into the airways.",
+      "positionHint": "Mid-outer surface of the right lung (larger, 3-lobe side; appears on the viewer's left in a front-facing view), roughly at the widest point of its silhouette",
+      "color": "#D8A99A",
+      "function": "Expands passively to fill the extra space the diaphragm creates, drawing air deeper into the airways."
+    },
+    {
+      "id": "hs-inhale",
+      "label": "Inhale",
+      "conceptId": "inhale",
+      "position": [
+        0,
+        2.1,
+        0.5
+      ],
+      "description": "Air is pulled in through the nose/mouth, down the trachea, and into the bronchi as the chest cavity expands and pressure inside the lungs drops below atmospheric pressure.",
+      "positionHint": "Top of the trachea, just below where it would meet the neck, front-center of the model",
+      "color": "#E3A857",
+      "function": "Pulls air in through the nose or mouth as pressure inside the lungs drops below outside pressure."
+    },
+    {
+      "id": "hs-gas-exchange",
+      "label": "Gas exchange at alveoli",
+      "conceptId": "gas-exchange-alveoli",
+      "position": [
+        -0.9,
+        0.75,
+        0.65
+      ],
+      "description": "At the tips of the smallest airways, clusters of tiny air sacs called alveoli let oxygen pass into the bloodstream and carbon dioxide pass out, across a thin, moist wall wrapped in capillaries.",
+      "positionHint": "On the zoomed alveoli-cluster inset floating just off the lower-outer edge of the right lung, connected to the lung surface by a thin leader line/callout",
+      "color": "#E8C4BB",
+      "function": "Lets oxygen diffuse into the blood and carbon dioxide diffuse out, across the thin alveoli walls."
+    },
+    {
+      "id": "hs-exhale",
+      "label": "Exhale",
+      "conceptId": "exhale",
+      "position": [
+        0,
+        1.55,
+        0.5
+      ],
+      "description": "The diaphragm relaxes and rises, the chest cavity shrinks, and the elastic lungs recoil, pushing carbon-dioxide-rich air back up the airway and out.",
+      "positionHint": "Lower trachea / upper bronchi junction, front-center, just above where the airway splits into the two lungs",
+      "color": "#D99B4E",
+      "function": "Pushes carbon-dioxide-rich air back out as the diaphragm relaxes and the lungs recoil."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier language, strictly. Warm off-white/cream background (no pure white, no dark mode by default), large centered 3D object filling most of the viewport with generous negative space around it. Calm, premium sans-serif UI type for hotspot labels and cards — no playful/rounded kid-app fonts, no comic outlines. Clean stylized-anatomical 3D with soft studio lighting (single warm key light + soft fill, gentle contact shadow under the model, no rim-light glow, no bloom, no emissive materials). Muted, desaturated anatomical palette: dusty rose/salmon for lung tissue, soft terracotta for the diaphragm, warm bone/ivory for the ribcage lattice, muted coral for the trachea/bronchi lining — never saturated cartoon reds or textbook-poster brights. Hotspot dots use a small fixed palette rather than one single accent color: this component has two process-stage hotspots that sit on the airway itself (Inhale, Exhale — muted amber) and three that sit on a distinct organ/structure (Diaphragm contraction — terracotta, Lung expansion — dusty rose, Gas exchange at alveoli — a slightly lighter dusty pink than the lung), so each dot's hue echoes the tissue it's marking; all dots share the same small flat-circle shape and thin outer ring on hover, opening a soft-shadowed rounded card, matching the reference screenshots' hotspot treatment. This multi-hue-per-hotspot-type scheme is a deliberate choice for this component, not a claimed exact match to any single reference screenshot — confirm against a multi-organ/Systems-tab reference capture (not yet available; see assetBrief note) before treating it as fully validated against Anatomy Atelier's actual convention. Absolutely no glow/gradient-heavy shaders, no neon rim lighting, no particle effects, no cartoon bevels, no gamified badges/progress-bar chrome on the model itself.",
+  "materialNotes": "Matte-satin PBR with subtle moist specular highlights on organ surfaces (see reference brain gyri highlights) — glossier than flat matte, well short of glossy plastic or SSS glow. Roughness roughly 0.45-0.65 on lung and diaphragm tissue so curved surfaces catch a soft highlight roll-off, similar to the neuron component's soma/dendrite treatment. Ribcage and torso shell stay closer to true matte since they're context, not focal tissue. No subsurface-scattering theatrics, no emissive/glow anywhere on the mesh.",
+  "assetBrief": "GOAL: A calm, clinical-but-approachable 3D torso cutaway showing the mechanics of one breathing cycle (diaphragm contraction → lung expansion → inhale → gas exchange → exhale), matching Anatomy Atelier's visual register (see assets/reference/anatomy-atelier/*.png) as closely as a single-organ-only reference set allows.\n\nVALIDATION CAVEAT (read first): the two current reference images only show single isolated organs, not a multi-organ composite or a torso-shell cutaway. Before treating this full composite (shell + ribcage + trachea + 2 lungs + diaphragm + alveoli inset) as a validated match to Anatomy Atelier's quality bar, capture and review a multi-organ/system reference view (e.g. the Systems tab on the live site, https://anatomy-livid.vercel.app/) to confirm organ density, framing conventions, and whether a torso shell is ever actually used there — adjust this brief's SCOPE OF GEOMETRY and MATERIALS sections if that reference contradicts the assumptions below.\n\nSCOPE OF GEOMETRY: Model a simplified adult torso from the base of the neck to just below the ribcage, front-facing, roughly 1.6-1.8 head-heights tall in-frame. Do NOT model arms, full head, or below-waist anatomy — crop cleanly like the reference (Anatomy Atelier crops its subject tight with no extraneous limbs). Include:\n1. An optional translucent outer torso/skin shell (toggleable off for the default cutaway view) at ~15% opacity, warm ivory tint.\n2. A simplified ribcage rendered as a light lattice of curved rib bones, semi-transparent (~40% opacity) so it reads as context, not obstruction.\n3. Trachea as a ringed tube descending from the neck opening, splitting into left and right primary bronchi at the carina (~1/3 down the chest cavity).\n4. Two lungs with correct asymmetry: right lung shown as 3 lobes (upper/middle/lower), left lung as 2 lobes (upper/lower) with a visible cardiac notch on its medial edge. Surface should be softly lobed, matte-satin, slightly glossy like the reference's organ surfaces — not hyper-realistic vascular texture, not low-poly faceted either. Mid-detail stylized-anatomical, same fidelity tier as the reference's organ models.\n5. Diaphragm as a dome-shaped muscle sheet at the base of the cavity, anchored to the lower ribs, with a visible central tendon.\n6. A separate small \"alveoli cluster\" detail mesh (8-12 grape-like sacs branching off a terminal bronchiole, wrapped in a few thin capillary threads) built as its own sub-object positioned near the lower-outer right lung — this is a callout/inset, NOT meant to tile across the whole lung surface.\n\nRIG / ANIMATION: Build two named GLB animation clips the front-end can scrub or loop: (a) \"inhale\" — diaphragm dome flattens downward ~15-20% of its height, ribcage lifts/expands slightly (2-3 degrees), both lungs scale up ~8-12% especially at their lower/outer volume; (b) \"exhale\" — reverse of the above, diaphragm domes back up, lungs recoil. Keep the motion cycle physically believable and gentle (real resting-breath amplitude, not a cartoon gasp) — roughly a 4-second full cycle at rest. No secondary bounce/squash-stretch cartoon easing; use smooth ease-in-out.\n\nMATERIALS: Matte-satin PBR (see materialNotes field above — subtle moist specular sheen on organ surfaces, glossier than flat matte, well short of glossy plastic or SSS glow), no emissive channels anywhere. Palette (desaturated, warm-neutral base to match the off-white background):\n- Lung tissue: dusty rose/salmon (~#D8A99A range), slightly darker at lobe creases via AO baking, not vertex-glow.\n- Diaphragm: muted terracotta (~#C08868 range).\n- Ribcage: warm bone/ivory (~#EDE3D3 range), semi-transparent.\n- Trachea/bronchi: muted coral-pink interior, ivory cartilage rings.\n- Alveoli cluster: slightly lighter dusty pink than lung tissue so it reads as a \"zoomed-in\" detail, with faint thin red/blue capillary threads (desaturated, not neon).\n- Torso shell (optional): near-transparent warm ivory, for context only.\n\nCAMERA / STAGING: Default framing is a static three-quarter-to-front view (see cameraDefault) — NOT a full 360-degree turntable-first presentation; auto-rotate should default OFF because the cutaway reads correctly only from roughly front-on, and rotating too far hides the diaphragm/lung relationship. Provide the standard auto-rotate toggle per spec, just default it off. Support the standard isolate control (fade out torso shell + ribcage to inspect just lungs+diaphragm+trachea) and a cross-section state that pulls the near-side ribcage/torso shell fully away/hidden to expose the internal cavity clearly — this is functionally the \"default\" viewing mode for this component since the cavity must be visible to teach the concept at all.\n\nHOTSPOTS: 5 dots exactly as specified in the hotspots array, sized and styled identically to the reference screenshots (small flat circle, subtle outer ring on hover/focus, opens a soft-shadowed rounded info card with the concept name + 1-2 sentence explanation). Use the small fixed hotspot palette described in visualStyleNotes above (muted amber for the two airway/process-stage hotspots — Inhale, Exhale; terracotta for Diaphragm contraction; dusty rose for Lung expansion; light dusty pink for Gas exchange at alveoli) rather than one single accent color for all five — confirm this palette choice against a multi-organ reference capture per the VALIDATION CAVEAT above before finalizing. The two process-stage hotspots (Inhale, Exhale) sit on the airway rather than on a discrete organ — treat them as process-stage markers, positioned along the trachea, not floating in empty space.\n\nDO NOT: use bright saturated \"textbook poster\" reds/pinks; add glow, bloom, emissive rim-light, or particle/breath-mist effects; model full arms, head, or legs; make the alveoli cluster tile across the entire lung surface (it's a single callout detail, not full lung micro-anatomy); use cartoon outlines, toon shading, or bevel-heavy low-poly style; default auto-rotate to on; add gamified UI chrome (badges, XP bars, mascots) to the 3D scene itself — that belongs to surrounding app UI, not the model file.\n\nDELIVERABLE: Single .glb with named mesh groups matching the layers list, named animation clips \"inhale\" and \"exhale\" (and optionally a combined looping \"breathing-cycle\" clip), and hotspot anchor empties/nodes named to match each hotspot id (hs-diaphragm, hs-lung-expansion, hs-inhale, hs-gas-exchange, hs-exhale) so the front-end can attach dot markers without further manual placement.",
+  "visual": {
+    "shape": "breathing-bellows"
+  }
+}

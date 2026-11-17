@@ -1,0 +1,80 @@
+{
+  "componentId": "current",
+  "questions": [
+    {
+      "id": "cu-q-definition",
+      "conceptId": "current-charge-in-motion",
+      "hotspotId": "hs-wire",
+      "prompt": "What is electric current?",
+      "options": [
+        "The flow of electric charge along a path",
+        "The force that pushes charge",
+        "The heat in a wire",
+        "The brightness of a bulb"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current is charge in motion — the electrons marching through the wire.",
+      "misconception": "Voltage (the push) and current (the flow) are often swapped."
+    },
+    {
+      "id": "cu-q-unit",
+      "conceptId": "current-unit-amp",
+      "hotspotId": "hs-ammeter",
+      "prompt": "In what unit is electric current measured?",
+      "options": [
+        "Amperes (A)",
+        "Volts (V)",
+        "Ohms (Ω)",
+        "Watts (W)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amps measure the rate of charge flow; volts measure the push, ohms the resistance.",
+      "misconception": "Volt (push), ohm (resistance), and amp (flow) get mixed up on appliance labels."
+    },
+    {
+      "id": "cu-q-loop",
+      "conceptId": "current-flow-needs-a-loop",
+      "hotspotId": "hs-break",
+      "prompt": "You cut one wire of a lamp circuit. What happens to the current?",
+      "options": [
+        "It stops everywhere",
+        "It half-flows on one side",
+        "It doubles on the other side",
+        "Nothing changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current needs a complete loop; a single break anywhere stops the whole circuit.",
+      "misconception": "Thinking current still reaches parts beyond the cut; a series loop is all-or-nothing."
+    },
+    {
+      "id": "cu-q-brightness",
+      "conceptId": "current-brighter-with-more-flow",
+      "hotspotId": "hs-bulb",
+      "prompt": "You increase the current through a bulb. What do you expect?",
+      "options": [
+        "The bulb glows brighter",
+        "The bulb dims",
+        "The bulb goes off",
+        "The bulb stays the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "More charge passing the filament each second means more energy each second — brighter light.",
+      "misconception": "The direction of the current/brightness link is sometimes flipped."
+    },
+    {
+      "id": "cu-q-same-everywhere",
+      "conceptId": "current-charge-in-motion",
+      "hotspotId": "hs-ammeter",
+      "prompt": "In one simple loop, the current near the battery compared with near the bulb is...",
+      "options": [
+        "The same everywhere",
+        "Bigger near the battery",
+        "Bigger near the bulb",
+        "Zero in the middle"
+      ],
+      "correctIndex": 0,
+      "explanation": "A series loop carries one shared current; it cannot pile up or empty in one spot.",
+      "misconception": "Thinking current 'spends itself' along the wire; it flows as one equal flow everywhere."
+    }
+  ]
+}

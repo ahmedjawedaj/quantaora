@@ -1,0 +1,26 @@
+{
+  "componentId": "bulb",
+  "standards": [
+    {
+      "standardId": "4-PS3-2",
+      "standard": "Energy Transfer",
+      "description": "Energy is transferred by electric currents; the bulb converts current energy into light and heat.",
+      "level": "primary",
+      "traceDetail": "Filament heat and glow visible when the loop closes."
+    },
+    {
+      "standardId": "PS3.A",
+      "standard": "Energy in Motion",
+      "description": "Moving objects and electric currents carry energy that devices convert into other forms.",
+      "level": "support",
+      "traceDetail": "Current's energy becomes the filament's heat and emitted light."
+    },
+    {
+      "standardId": "MS-PS2-5",
+      "standard": "Electric Forces and Fields",
+      "description": "A complete circuit is needed for current; the bulb demonstrates a closed-loop path.",
+      "level": "primary",
+      "traceDetail": "The switch opening shows current halting and the glow dying."
+    }
+  ]
+}

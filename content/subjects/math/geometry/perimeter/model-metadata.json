@@ -1,0 +1,90 @@
+{
+  "id": "perimeter",
+  "componentId": "perimeter",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/perimeter/perimeter.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/perimeter.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      2.0,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      2.0,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Garden bed",
+    "Fence posts",
+    "Walker",
+    "Distance tape"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-perimeter-outline",
+      "label": "Perimeter",
+      "conceptId": "perimeter-definition",
+      "position": [
+        0.5,
+        0.6,
+        0.1
+      ],
+      "description": "The full loop the walker travels around the bed \u2014 the outline distance.",
+      "positionHint": "The path traced around the garden bed.",
+      "color": "#D9A441",
+      "function": "The total distance around the shape."
+    },
+    {
+      "id": "hs-side",
+      "label": "Side",
+      "conceptId": "perimeter-add",
+      "position": [
+        0.8,
+        0.1,
+        0.15
+      ],
+      "description": "One straight edge whose length adds to the total.",
+      "positionHint": "The lower edge of the bed.",
+      "color": "#7FA86A",
+      "function": "One length added to the perimeter."
+    },
+    {
+      "id": "hs-walker",
+      "label": "The walker",
+      "conceptId": "perimeter-polygon",
+      "position": [
+        -0.9,
+        0.15,
+        0.15
+      ],
+      "description": "The little figure that travels the edge \u2014 the measurement in motion.",
+      "positionHint": "The small walker figure on the outline.",
+      "color": "#6B85A8",
+      "function": "Moves along the perimeter to measure it."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A garden bed with corner fence posts, a small walker figure, and a running distance tape. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Garden bed: warm paper panel (roughness ~0.5). Fence posts: small warm-grey posts at the corners. Walker: small rounded warm warm figure. Distance tape: thin warm paper strip with ink ticks extending along the outline. Counter plate: warm paper with a live total. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: perimeter as the walk around a shape \u2014 a rectangular garden bed with fence posts, a walker figure that circles the edge, a running distance tape, and a live total counter; a triangle preset.\n\nGEOMETRY: A flat rectangular bed on a board with fence posts at its corners. A small walker figure sits on the outline; 'auto-walk' moves it around the perimeter while a distance tape extends along the edges and a counter climbs to the total. Dragging a corner resizes the bed and resets the walk. A 'triangle bed' preset swaps to three posts, sum three sides.\n\nLAYERS (toggleable): (1) board; (2) garden bed; (3) fence posts; (4) walker + distance tape + counter.\n\nCAMERA: high three-quarter above the board, frames the bed and walker; labels legible. Budget 5-9k triangles. Named nodes: Board, GardenBed, FencePosts, Walker, DistanceTape, CounterTag, TrianglePreset. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "perimeter-frame"
+  }
+}

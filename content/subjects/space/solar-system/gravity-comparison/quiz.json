@@ -1,0 +1,80 @@
+{
+  "componentId": "gravity-comparison",
+  "questions": [
+    {
+      "id": "gravcmp-q-most",
+      "conceptId": "jupiter-gravity-strongest",
+      "hotspotId": "hs-jupiter-scale",
+      "prompt": "On which of these would a person weigh the most?",
+      "options": [
+        "The Moon",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jupiter has the strongest surface gravity of the planets — about 2.5 times Earth's — because it is by far the most massive planet.",
+      "misconception": "Saturn is nearly as big as Jupiter, so it is tempting to guess Saturn — but Saturn's low density and huge radius mean its surface gravity is actually close to Earth's, not Jupiter's."
+    },
+    {
+      "id": "gravcmp-q-mass",
+      "conceptId": "mass-never-changes",
+      "hotspotId": "hs-mass-weight-note",
+      "prompt": "If you flew to Jupiter, what would happen to your mass?",
+      "options": [
+        "It would stay exactly the same",
+        "It would become 2.5 times bigger",
+        "It would shrink to almost nothing",
+        "It would depend on which planet you visit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is the amount of matter in your body — it is a property of you, not of the planet. Only your weight changes, because weight is gravity's pull on that mass.",
+      "misconception": "Because we usually measure 'how heavy we are' with a scale, mass and weight blur together in everyday thinking — but a scale measures a force (weight), and forces change with location while mass does not."
+    },
+    {
+      "id": "gravcmp-q-moon",
+      "conceptId": "moon-gravity-one-sixth",
+      "hotspotId": "hs-moon-scale",
+      "prompt": "About how strong is the Moon's surface gravity compared with Earth's?",
+      "options": [
+        "About one sixth as strong",
+        "About half as strong",
+        "About the same",
+        "About six times stronger"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Moon's gravity is about 0.17 times Earth's — roughly one sixth — which is why Apollo astronauts could hop with huge, bouncy strides.",
+      "misconception": "The Moon looks bright and substantial in the sky, so it is easy to assume its gravity must be close to Earth's — but it is a small world, and its pull is much weaker."
+    },
+    {
+      "id": "gravcmp-q-saturn",
+      "conceptId": "saturn-gravity-surprise",
+      "hotspotId": "hs-saturn-scale",
+      "prompt": "Saturn is about nine times wider than Earth. How does its surface gravity compare?",
+      "options": [
+        "About nine times stronger",
+        "Almost the same as Earth's (about 1.07 ×)",
+        "About half of Earth's",
+        "Too weak to measure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saturn's huge radius puts its 'surface' (cloud tops) very far from its center, and its density is far lower than Earth's — the two effects cancel, leaving gravity almost equal to Earth's.",
+      "misconception": "Bigger usually means stronger gravity in everyday life, so assuming Saturn's gravity scales with its size is natural — but surface gravity depends on both mass and radius, and Saturn's vast radius spreads its pull thin."
+    },
+    {
+      "id": "gravcmp-q-define",
+      "conceptId": "weight-depends-on-gravity",
+      "hotspotId": "hs-earth-scale",
+      "prompt": "What is the best definition of 'weight'?",
+      "options": [
+        "The amount of matter in your body",
+        "The force of gravity pulling on your mass",
+        "How tall you are",
+        "How fast you can run"
+      ],
+      "correctIndex": 1,
+      "explanation": "Weight is a force — gravity's pull on your mass. Change the gravity (go to the Moon) and the force changes, even though your mass stays identical.",
+      "misconception": "The everyday sentence 'I weigh 40 kg' mixes the two up — kilograms measure mass, while weight is a force measured in newtons. On the Moon the same 40 kg of mass 'weighs' only about a sixth as much."
+    }
+  ]
+}

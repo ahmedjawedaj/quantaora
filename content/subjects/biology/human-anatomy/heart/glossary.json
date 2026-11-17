@@ -1,0 +1,60 @@
+{
+  "componentId": "heart",
+  "terms": [
+    {
+      "term": "Heart",
+      "conceptId": "pumping-blood",
+      "hotspotId": "hs-aorta",
+      "definition": "The muscular organ that pumps blood around the body.",
+      "function": "Double pump sending blood to lungs and body.",
+      "whereItIs": "In the chest, behind the breastbone.",
+      "whyItMatters": "It keeps oxygen and nutrients flowing to every cell.",
+      "relatedConcept": "heart-double-pump",
+      "quizId": "hrt-q-double"
+    },
+    {
+      "term": "Atrium",
+      "conceptId": "four-chambers",
+      "hotspotId": "hs-right-atrium",
+      "definition": "One of the two upper chambers that receive blood.",
+      "function": "Collects blood before it moves to the ventricle.",
+      "whereItIs": "Top of the heart, one on each side.",
+      "whyItMatters": "It is the receiving room of the heart.",
+      "relatedConcept": "heart-double-pump",
+      "quizId": "hrt-q-chambers"
+    },
+    {
+      "term": "Ventricle",
+      "conceptId": "heart-double-pump",
+      "hotspotId": "hs-left-ventricle",
+      "definition": "One of the two lower pumping chambers.",
+      "function": "Pumps blood out to the lungs or the body.",
+      "whereItIs": "Bottom of the heart, one on each side.",
+      "whyItMatters": "The ventricles do the actual pumping.",
+      "relatedConcept": "four-chambers",
+      "quizId": "hrt-q-muscle"
+    },
+    {
+      "term": "Valve",
+      "conceptId": "heart-valves-one-way",
+      "hotspotId": "hs-valve",
+      "definition": "A flap in the heart that lets blood flow one way only.",
+      "function": "Prevents blood from flowing backward.",
+      "whereItIs": "Between the atria and ventricles and in the big vessels.",
+      "whyItMatters": "They keep circulation moving in the right direction.",
+      "relatedConcept": "pumping-blood",
+      "quizId": "hrt-q-valve"
+    },
+    {
+      "term": "Aorta",
+      "conceptId": "pumping-blood",
+      "hotspotId": "hs-aorta",
+      "definition": "The biggest artery, carrying blood out to the body.",
+      "function": "Main highway out of the heart.",
+      "whereItIs": "Leaving the left ventricle and curving upward.",
+      "whyItMatters": "It distributes oxygen-rich blood to the whole body.",
+      "relatedConcept": "heart-double-pump",
+      "quizId": "hrt-q-aorta"
+    }
+  ]
+}

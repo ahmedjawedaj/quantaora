@@ -1,0 +1,109 @@
+{
+  "id": "element",
+  "subject": "chemistry",
+  "title": "Element",
+  "summary": "An element is a pure substance made of only one kind of atom — like oxygen, gold, or carbon. There are about 90 natural elements, and everything is built from them.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "element-one-kind-of-atom",
+    "element-pure-substance",
+    "element-about-90-natural"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "The Atom",
+    "systemOrGroup": "The smallest piece of matter",
+    "component": "Element",
+    "displayPath": "Chemistry > Atoms And Elements > The Atom > The smallest piece of matter > Element"
+  },
+  "crossReferences": [
+    {
+      "label": "Atom (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Atom",
+      "note": "An element is a substance made of only one kind of atom — the atom is its single building block."
+    },
+    {
+      "label": "Proton (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Proton",
+      "note": "Every element is defined by its proton count — carbon is any atom with exactly 6 protons."
+    },
+    {
+      "label": "Compound (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Compound",
+      "note": "When different elements bond together, they form a compound — elements are the raw ingredients."
+    },
+    {
+      "label": "Periodic table (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Group",
+      "note": "The periodic table is the organized list of all the elements."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > The Atom > The smallest piece of matter",
+  "compareCandidate": {
+    "label": "Element vs. compound",
+    "description": "An element is a pure substance of only one kind of atom — gold is all gold atoms. A compound is a pure substance of different elements bonded together — water is hydrogen + oxygen. Elements are the raw ingredients; compounds are the cooked dishes."
+  },
+  "parts": [
+    "One kind of atom",
+    "A pure substance",
+    "One of ~90 natural elements"
+  ],
+  "processes": [
+    "Making up everything as raw ingredients",
+    "Defining each pure substance by its atom type",
+    "Combining into compounds and molecules"
+  ],
+  "plainLanguageExplanation": "An element is a pure substance made of only one kind of atom. Gold is an element: every single atom in a gold ring is a gold atom. Oxygen is an element: every atom is an oxygen atom. Carbon, iron, aluminum, helium — all elements. Each element is a unique type of atom, and each is defined by its proton count: any atom with 6 protons is carbon, any atom with 79 is gold, and there is no overlap. Scientists know of about 90 elements that occur naturally on Earth, and a few more that only exist in labs. Here is the amazing part: everything in the universe is built from these ~90 kinds of atoms, arranged and combined in endless ways. The elements are the alphabet of nature — just a few dozen letters, but they write everything: the air, the ocean, your body, the stars. When elements combine by bonding, they make compounds and molecules. But the elements themselves — the pure ingredients — cannot be broken down into anything simpler by chemical means.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A pure substance made of only one kind of atom"
+    },
+    {
+      "label": "Defined by",
+      "value": "Proton count — 6 protons = carbon, 79 = gold"
+    },
+    {
+      "label": "How many",
+      "value": "About 90 natural elements, plus a few lab-made ones"
+    },
+    {
+      "label": "Pure",
+      "value": "Cannot be broken down chemically into anything simpler"
+    },
+    {
+      "label": "Examples",
+      "value": "Oxygen, gold, carbon, iron, helium, aluminum"
+    },
+    {
+      "label": "They combine",
+      "value": "Bond together into compounds and molecules"
+    }
+  ],
+  "whyItMatters": "Elements are the pure ingredients of the universe. Everything you can touch, taste, breathe, and see is built from combinations of about 90 elements. Understanding what an element is — and that each is a unique kind of atom — is the foundation for the periodic table, compounds, and all of chemistry.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Chemical element",
+  "tagline": "The pure ingredients of everything",
+  "didYouKnow": "You are mostly four elements: oxygen, carbon, hydrogen, and nitrogen make up about 96% of your body's mass.",
+  "conditions": [
+    "All pure substances",
+    "The periodic table",
+    "Making compounds"
+  ],
+  "compareCandidateId": "compound",
+  "compareReason": "The element-versus-compound split (raw ingredient versus cooked dish) is the most important classification in chemistry — comparing them makes both unmistakable."
+}

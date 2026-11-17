@@ -1,0 +1,80 @@
+{
+  "componentId": "subtraction",
+  "questions": [
+    {
+      "id": "subtraction-8-3",
+      "conceptId": "subtraction-take-away",
+      "hotspotId": "hs-difference",
+      "prompt": "What is 8 − 3?",
+      "options": [
+        "5",
+        "6",
+        "11",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Taking 3 away from 8 leaves 5.",
+      "misconception": "A common slip is the difference reversing — 8 − 3 is 5, not 6 or 11; count the remaining cubes to check."
+    },
+    {
+      "id": "subtraction-parts",
+      "conceptId": "subtraction-take-away",
+      "hotspotId": "hs-subtrahend",
+      "prompt": "In 15 − 7 = 8, which number is the subtrahend (the amount taken away)?",
+      "options": [
+        "7",
+        "15",
+        "8",
+        "23"
+      ],
+      "correctIndex": 0,
+      "explanation": "The subtrahend is the number you subtract from the minuend — here 7.",
+      "misconception": "Confusing minuend and subtrahend scrambles subtraction; the minuend (15) is the starting amount and 7 is subtracted from it."
+    },
+    {
+      "id": "subtraction-compare",
+      "conceptId": "subtraction-compare",
+      "hotspotId": "hs-left-jump",
+      "prompt": "Which subtraction fact asks 'how many more?'",
+      "options": [
+        "13 − 5 = 8 tells you 13 is 8 more than 5",
+        "5 + 3 = 8 tells you how to add",
+        "9 − 9 = 0 tells you nothing",
+        "Comparison needs no math"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtraction can compare: 13 − 5 = 8 means 13 exceeds 5 by 8.",
+      "misconception": "Comparison questions are subtraction, not a separate skill — 'how many more' is exactly what 13 − 5 answers."
+    },
+    {
+      "id": "subtraction-borrow",
+      "conceptId": "subtraction-borrowing",
+      "hotspotId": "hs-left-jump",
+      "prompt": "To subtract 52 − 27, the ones column is 2 minus 7. What must you do?",
+      "options": [
+        "Borrow one ten from the tens column, making 12 − 7",
+        "Subtract 7 from 2 and write 5",
+        "Ignore the ones column",
+        "Add instead of subtract"
+      ],
+      "correctIndex": 0,
+      "explanation": "Borrow: turn one of the 5 tens into a ten, so 2 becomes 12, then 12 − 7 = 5; tens become 4 − 2 = 2, giving 25.",
+      "misconception": "Writing 2−7 as a negative ones digit is wrong — borrowing creates ten more ones so the digit becomes large enough to subtract."
+    },
+    {
+      "id": "subtraction-inverse",
+      "conceptId": "subtraction-inverse-add",
+      "hotspotId": "hs-difference",
+      "prompt": "Which fact check the subtraction 17 − 9 = 8?",
+      "options": [
+        "8 + 9 = 17",
+        "17 + 9 = 26",
+        "9 − 8 = 1",
+        "17 × 9 = 153"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtraction is the inverse of addition — adding the subtrahend back to the difference returns the minuend: 8 + 9 = 17.",
+      "misconception": "The check adds the subtracted part back; 8 + 9 = 17 proves 17 − 9 = 8."
+    }
+  ]
+}

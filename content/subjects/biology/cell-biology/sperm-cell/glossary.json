@@ -1,0 +1,37 @@
+{
+  "componentId": "sperm-cell",
+  "terms": [
+    {
+      "term": "Flagellum",
+      "definition": "A long, whip-like structure a cell uses to swim or move through fluid.",
+      "conceptId": "sperm-cell-tail"
+    },
+    {
+      "term": "Mitochondria",
+      "definition": "Structures inside a cell that convert nutrients into usable energy (ATP) — often called the cell's 'power plants.'",
+      "conceptId": "sperm-cell-midpiece"
+    },
+    {
+      "term": "Nucleus",
+      "definition": "The compartment inside a cell that stores its DNA (genetic instructions).",
+      "conceptId": "sperm-cell-head"
+    },
+    {
+      "term": "Acrosome",
+      "definition": "A cap of enzymes on the front of the sperm's head that helps it break through the outer coating of an egg cell.",
+      "conceptId": "sperm-cell-head"
+    },
+    {
+      "term": "Haploid",
+      "definition": "Having exactly half the normal number of chromosomes — true of sperm and egg cells so that when they combine, the full number is restored."
+    },
+    {
+      "term": "Fertilization",
+      "definition": "The moment a sperm cell and an egg cell join together to form a single new cell."
+    },
+    {
+      "term": "Spermatogenesis",
+      "definition": "The biological process that produces sperm cells in the testes."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "asset": "virus-bacteriophage-t4-capsid-bychain-nih.glb",
+  "componentMapping": "biology > microbiology > Virus (low-level item)",
+  "sourceUrl": "https://3d.nih.gov/entries/3DPX-007978",
+  "sourceEntryId": "3DPX-007978",
+  "underlyingStructureData": "PDB 5VF3 (bacteriophage T4 isometric capsid)",
+  "creator": "National Institute of Allergy and Infectious Diseases (NIAID); submitted by James Tyrwhitt Drake",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC0 1.0 (Public Domain Dedication)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Recommended credit: \"Bacteriophage T4 isometric capsid\", NIAID / NIH 3D (3d.nih.gov, entry 3DPX-007978), derived from PDB 5VF3. CC0 1.0.",
+  "redistributionStatus": "Unrestricted (CC0 public domain dedication).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/9172/runs/de996ef3-93b6-4d26-bb9f-e1640ba5afcb/output-files/206223",
+  "downloadedVariant": "5VF3-surf-bychain-print_NIH3D.glb (colored by protein chain)",
+  "fileSizeBytes": 10924696,
+  "sha256": "7f43d63b47c613ca27fca22211495d4ccc5ec29015ce5d7670e353abb44ff0fb",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 3,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 4,
+    "sampleBoundsMin": [
+      -436.9689636230469,
+      -431.15008544921875,
+      -463.69378662109375
+    ],
+    "sampleBoundsMax": [
+      437.4129638671875,
+      431.0590515136719,
+      464.23944091796875
+    ],
+    "notes": "Capsid shell only (icosahedral head), does NOT include the T4 tail/tail-fibers/baseplate, so it under-represents the iconic 'lunar-lander' T4 silhouette kids typically picture. Good for 'virus capsid protein structure' teaching point; a commissioned full-virion model is recommended for the primary Virus hero (see report gap notes). Not render-inspected visually in this pass."
+  }
+}

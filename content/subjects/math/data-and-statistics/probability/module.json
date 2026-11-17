@@ -1,0 +1,86 @@
+{
+  "id": "probability",
+  "subject": "math",
+  "title": "Probability",
+  "summary": "Probability measures how likely an event is — from 0 (impossible) to 1 (certain). Explore experiments, the chance of an event, and how outcomes are counted.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "probability-definition",
+    "probability-scale",
+    "probability-compute",
+    "probability-experiment"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Probability",
+    "systemOrGroup": "Chance",
+    "component": "Probability",
+    "displayPath": "Math > Data And Statistics > Probability > Chance > Probability"
+  },
+  "crossReferences": [
+    {
+      "label": "Data point (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Data point",
+      "note": "Repeated trials produce data points; probability predicts their mix."
+    },
+    {
+      "label": "Bar chart (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Bar chart",
+      "note": "Trial outcomes can be tallied in a bar chart versus the predicted chances."
+    },
+    {
+      "label": "Mean (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Mean",
+      "note": "Over many trials the average result approaches the probability."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Probability > Chance",
+  "compareCandidate": {
+    "label": "Theoretical vs. experimental probability",
+    "description": "Theoretical probability is the 'by design' chance; experimental is what actually happens in trials — they get closer as trials grow."
+  },
+  "parts": [
+    "The chance scale",
+    "The event",
+    "The outcomes"
+  ],
+  "processes": [
+    "Computing chance as favorable ÷ possible",
+    "Running a probability experiment"
+  ],
+  "plainLanguageExplanation": "Probability measures the chance that something happens, as a number from 0 to 1 (or 0% to 100%). Impossible is 0, certain is 1, and 0.5 means 'equally likely or not'. To find the probability of an event, count the ways it can happen and divide by all possible outcomes: spinning a 4-sided spinner has 1 way to land on 3 and 4 total sides, so the chance is 1 ÷ 4 = 0.25 (25%). What actually happens in experiments is experimental probability — it shakes close to the calculated one when you run many trials.",
+  "keyFacts": [
+    { "label": "Definition", "value": "How likely an event is — 0 to 1" },
+    { "label": "Scale", "value": "0 impossible, 1 certain" },
+    { "label": "Fraction", "value": "Ways for the event ÷ total ways" },
+    { "label": "Example", "value": "4-sided spinner: P(3) = 1/4 = 25%" },
+    { "label": "As percent", "value": "1/4 = 0.25 = 25%" },
+    { "label": "Experiments", "value": "Real trials approach the theory with many runs" }
+  ],
+  "whyItMatters": "Probability sits behind weather forecasts, insurance, games, and medical predictions. Reading a number like '30% chance of rain' correctly means knowing what 0.3 actually guarantees — and what it does not.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Probability",
+  "tagline": "Chance as a number",
+  "didYouKnow": "The word 'probability' traces to French 'probable' — reason to believe. Mathematicians like Cardano in the 1500s and Pascal in the 1650s made chance countable from gambling games.",
+  "conditions": [
+    "Weather odds",
+    "Game rolls",
+    "Insurance risk",
+    "Medical chances"
+  ],
+  "compareCandidateId": "data-point",
+  "compareReason": "Students treat a single experiment's result as the true chance — comparing the theoretical design with actual trial outcomes shows why many trials are needed."
+}

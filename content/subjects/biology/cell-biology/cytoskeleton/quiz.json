@@ -1,0 +1,65 @@
+{
+  "componentId": "cytoskeleton",
+  "questions": [
+    {
+      "id": "cs-q-job",
+      "conceptId": "protein-fiber-network",
+      "hotspotId": "hs-microtubule",
+      "prompt": "What is the main job of the cytoskeleton?",
+      "options": [
+        "Give the cell shape and move materials",
+        "Store water",
+        "Make food from sunlight",
+        "Hold the DNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cytoskeleton is a protein fiber network that gives shape, anchors organelles, and moves materials (and even whole cells).",
+      "misconception": "Making food is the chloroplast and storing water is the vacuole - the cytoskeleton is the cell's framework and transport rail."
+    },
+    {
+      "id": "cs-q-fibers",
+      "conceptId": "protein-fiber-network",
+      "hotspotId": "hs-intermediate",
+      "prompt": "What are the fibers of the cytoskeleton made of?",
+      "options": [
+        "Proteins",
+        "Sugars",
+        "Fats",
+        "Metals"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cytoskeleton is built from protein fibers: thin filaments, hollow microtubules, and intermediate cables.",
+      "misconception": "These are not sugar or fat - they are protein structures, the same building blocks that make muscles and enzymes."
+    },
+    {
+      "id": "cs-q-tracks",
+      "conceptId": "microtubule-tracks-transport",
+      "hotspotId": "hs-transport",
+      "prompt": "How do materials travel long distances inside a cell?",
+      "options": [
+        "Cargo bubbles ride along microtubule tracks",
+        "They dissolve in air",
+        "They bounce randomly with no path",
+        "They teleport"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cells move cargo in bubbles that are carried along microtubule rails, much like trains on a track.",
+      "misconception": "Cargo does not just drift randomly - the cytoskeleton provides organized rails for fast, directed transport."
+    },
+    {
+      "id": "cs-q-move",
+      "conceptId": "cell-shape-and-movement",
+      "hotspotId": "hs-actin",
+      "prompt": "How can the cytoskeleton help a whole cell move?",
+      "options": [
+        "It rebuilds and shifts fibers, letting the cell crawl",
+        "It grows legs of bone",
+        "It becomes liquid",
+        "It attaches to the nucleus and pulls it"
+      ],
+      "correctIndex": 0,
+      "explanation": "By changing and rebuilding its fibers, the cytoskeleton can push the cell's membrane outward and let the cell crawl forward.",
+      "misconception": "Cells do not grow bone legs - they crawl by dynamically reshaping their internal fiber network."
+    }
+  ]
+}

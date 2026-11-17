@@ -1,0 +1,46 @@
+{
+  "componentId": "current",
+  "terms": [
+    {
+      "term": "Electric current",
+      "conceptId": "current-charge-in-motion",
+      "hotspotId": "hs-wire",
+      "definition": "The flow of electric charge through a path — electrons in motion.",
+      "function": "Carries the charge, the brightness, and the energy around every circuit.",
+      "whereItIs": "The streaming dots inside the clear wire.",
+      "whyItMatters": "It is the 'how much moves' number on every device label.",
+      "relatedConcept": "charge",
+      "quizId": "cu-q-definition"
+    },
+    {
+      "term": "Ampere (A)",
+      "conceptId": "current-unit-amp",
+      "hotspotId": "hs-ammeter",
+      "definition": "The unit of current; one ampere is one coulomb of charge per second.",
+      "whyItMatters": "The amp rating governs chargers, fuses, and wires.",
+      "whereItIs": "The green ammeter readout.",
+      "relatedConcept": "current-charge-in-motion",
+      "quizId": "cu-q-unit"
+    },
+    {
+      "term": "Closed loop requirement",
+      "conceptId": "current-flow-needs-a-loop",
+      "hotspotId": "hs-break",
+      "definition": "Current only flows when the path is unbroken from battery back to battery.",
+      "whyItMatters": "It's why switches and breakers work — break the loop, kill the current.",
+      "whereItIs": "The removable break segment on the wire.",
+      "relatedConcept": "current-charge-in-motion",
+      "quizId": "cu-q-loop"
+    },
+    {
+      "term": "Current and brightness",
+      "conceptId": "current-brighter-with-more-flow",
+      "hotspotId": "hs-bulb",
+      "definition": "The pairing where higher current through the bulb makes it glow brighter.",
+      "whyItMatters": "Brightness, ammeter, and flow all tell the same truth.",
+      "whereItIs": "The bulb rising and falling with the slider.",
+      "relatedConcept": "current-unit-amp",
+      "quizId": "cu-q-brightness"
+    }
+  ]
+}

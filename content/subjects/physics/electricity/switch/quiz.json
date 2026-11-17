@@ -1,0 +1,80 @@
+{
+  "componentId": "switch",
+  "questions": [
+    {
+      "id": "sw-q-job",
+      "conceptId": "switch-opens-closes-loop",
+      "hotspotId": "hs-lever",
+      "prompt": "What does a switch do in a circuit?",
+      "options": [
+        "It opens or closes the path for current",
+        "It makes the current dimmer",
+        "It creates new current",
+        "It stores the current"
+      ],
+      "correctIndex": 0,
+      "explanation": "A switch gates the road: closed lets current through, open blocks it.",
+      "misconception": "Some expect a switch to dim or create flow; it only opens or closes the path."
+    },
+    {
+      "id": "sw-q2",
+      "conceptId": "switch-instantly-stops-current",
+      "hotspotId": "hs-base",
+      "prompt": "You open a switch in a series loop. When does the current stop?",
+      "options": [
+        "Immediately, everywhere",
+        "After a slow fade",
+        "Never — it leaks on",
+        "Only at the switch point"
+      ],
+      "correctIndex": 0,
+      "explanation": "A break anywhere in a series loop blocks current instantly across the whole path.",
+      "misconception": "Fading current is a mistaken idea; the gap stops it on the spot."
+    },
+    {
+      "id": "sw-q3",
+      "conceptId": "switch-opens-closes-loop",
+      "hotspotId": "hs-posts",
+      "prompt": "When the switch is CLOSED, its contacts are...",
+      "options": [
+        "Touching, letting current through",
+        "Apart, blocking current",
+        "Swapped with the bulb",
+        "Melting at the posts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Closed means the metal contacts touch — a complete conductor across the gap.",
+      "misconception": "'Closed' sounds like 'blocked'; for a switch it means the road is open."
+    },
+    {
+      "id": "sw-q4",
+      "conceptId": "switch-too-much-current-safety",
+      "hotspotId": "hs-wire",
+      "prompt": "Why must a switch be rated for the current it carries?",
+      "options": [
+        "Too much current can overheat and damage it",
+        "Switches are always broken anyway",
+        "The current will reverse direction",
+        "It changes the battery's volts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every conductor heats with current; a switch too weak for the flow can overheat dangerously.",
+      "misconception": "Assuming any switch handles any current; amperage ratings exist precisely for this risk."
+    },
+    {
+      "id": "sw-q5",
+      "conceptId": "switch-only-path-decider",
+      "hotspotId": "hs-lever",
+      "prompt": "A switch in series with a bulb is open. The bulb is...",
+      "options": [
+        "Dark — no current reaches it",
+        "Bright at half strength",
+        "Flashing fast",
+        "Unaffected"
+      ],
+      "correctIndex": 0,
+      "explanation": "Open switch = broken loop = zero current everywhere including the bulb: dark at once.",
+      "misconception": "The bulb isn't 'across' anything; it's in the same series, so it goes dark together."
+    }
+  ]
+}

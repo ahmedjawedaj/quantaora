@@ -1,0 +1,80 @@
+{
+  "componentId": "mean",
+  "questions": [
+    {
+      "id": "mean-def",
+      "conceptId": "mean-definition",
+      "hotspotId": "hs-mean-line",
+      "prompt": "What is the mean of a dataset?",
+      "options": [
+        "Total divided by the number of data points",
+        "The middle value when sorted",
+        "The most common value",
+        "The largest value"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mean is sum ÷ count — the average.",
+      "misconception": "The middle value is the median and the most common is the mode — the mean divides the total by the count."
+    },
+    {
+      "id": "mean-compute",
+      "conceptId": "mean-compute",
+      "hotspotId": "hs-total-plate",
+      "prompt": "What is the mean of 2, 4, 6, and 8?",
+      "options": [
+        "5",
+        "20",
+        "4",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total = 2 + 4 + 6 + 8 = 20; mean = 20 ÷ 4 = 5.",
+      "misconception": "The total (20) is not the mean — you must divide it by the count (4) to get the average, 5."
+    },
+    {
+      "id": "mean-share",
+      "conceptId": "mean-share",
+      "hotspotId": "hs-bin",
+      "prompt": "The mean of 3, 4, and 8 represents...",
+      "options": [
+        "The value each point would get if shared evenly",
+        "The value that appears twice",
+        "The middle of the three numbers",
+        "The sum of the three numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "3 + 4 + 8 = 15, shared across 3 points = 5 each — the fair-share value.",
+      "misconception": "The mean is the fair share, not the sum (15), the middle (4), or the mode."
+    },
+    {
+      "id": "mean-count",
+      "conceptId": "mean-compute",
+      "hotspotId": "hs-total-plate",
+      "prompt": "A group's total is 40 and there are 8 people. The mean is...",
+      "options": [
+        "5",
+        "8",
+        "40",
+        "32"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mean = total ÷ count = 40 ÷ 8 = 5.",
+      "misconception": "You divide, not subtract or keep — 40 ÷ 8 = 5, the per-person share."
+    },
+    {
+      "id": "mean-outlier",
+      "conceptId": "mean-outlier",
+      "hotspotId": "hs-mean-line",
+      "prompt": "How does one very large value affect the mean?",
+      "options": [
+        "It pulls the mean upward a lot",
+        "It has no effect at all",
+        "It lowers the mean",
+        "It becomes the median"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because every point is added, one huge value raises the total and pulls the mean up.",
+      "misconception": "The mean uses every point, so outliers tug it strongly — unlike the median which ignores extremes."
+    }
+  ]
+}

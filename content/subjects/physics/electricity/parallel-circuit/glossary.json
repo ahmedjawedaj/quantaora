@@ -1,0 +1,45 @@
+{
+  "componentId": "parallel-circuit",
+  "terms": [
+    {
+      "term": "Parallel circuit",
+      "conceptId": "parallel-multiple-branches",
+      "hotspotId": "hs-top-rail",
+      "definition": "A circuit where each component rides its own branch between two shared rails.",
+      "whyItMatters": "Sets the rules: full voltage each, independent survival, current splits.",
+      "whereItIs": "The separate lanes between the top and bottom rails.",
+      "relatedConcept": "series-circuit",
+      "quizId": "p-q1"
+    },
+    {
+      "term": "Full voltage",
+      "conceptId": "parallel-same-voltage-each",
+      "hotspotId": "hs-battery",
+      "definition": "Every parallel branch connects straight across the source, so each sees the whole battery volts.",
+      "whyItMatters": "It's why parallel bulbs shine at full brightness while series ones dim.",
+      "whereItIs": "The battery feeding both rails at once.",
+      "relatedConcept": "voltage",
+      "quizId": "p-q2"
+    },
+    {
+      "term": "Independent branches",
+      "conceptId": "parallel-independent-branches",
+      "hotspotId": "hs-remove-a",
+      "definition": "The property that opening one branch leaves every other branch working.",
+      "whyItMatters": "It's the reason houses are wired parallel so one failure doesn't black out a room.",
+      "whereItIs": "The 'remove bulb B' survival demo.",
+      "relatedConcept": "switch",
+      "quizId": "p-q3"
+    },
+    {
+      "term": "Current junction",
+      "conceptId": "parallel-current-splits-at-junction",
+      "hotspotId": "hs-junction-a",
+      "definition": "The point where current splits into the branches and rejoins after them — total equals the sum.",
+      "whyItMatters": "It explains why the main wire into a parallel set carries more current than any branch.",
+      "whereItIs": "The meter reading on the rejoin rail.",
+      "relatedConcept": "current",
+      "quizId": "p-q4"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "methane.glb",
+  "component": "molecules-and-bonding / starterMolecules / Methane (CH4)",
+  "pipeline": "textbook-geometry",
+  "sourceUrl": null,
+  "sourceDescription": "No standalone RCSB PDB Chemical Component Dictionary entry exists for plain methane (the 3-letter code 'CH4' is assigned to an unrelated tetraamine compound; RCSB full-text search for 'methane' returns only methanesulfonate/methanamine-type ligands, not CH4 itself — methane is essentially never a crystallographic ligand). Geometry instead uses the standard textbook tetrahedral construction: C-H bond length 1.09 Angstrom, H-C-H angle 109.5 degrees, H atoms placed at four alternating corners of a cube inscribing the tetrahedron. These are uncopyrightable physical constants, not third-party creative content.",
+  "creatorOwner": "Quantaora (project-authored GLB, public/models/sourced/chemistry-structure/build-molecules.mjs, using three.js + GLTFExporter — same technique already used for public/models/chemistry/atoms-and-elements/atom.glb).",
+  "creator": "Quantaora (project-authored GLB, public/models/sourced/chemistry-structure/build-molecules.mjs, using three.js + GLTFExporter — same technique already used for public/models/chemistry/atoms-and-elements/atom.glb).",
+  "license": "Project-owned authored asset (built from public-domain physical constants)",
+  "attributionRequired": false,
+  "attributionText": "Not required — project-owned asset.",
+  "redistributionStatus": "Redistributable — project-owned, no restriction.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 201460,
+  "sha256": "59c912b968c013886e850da355ce9511540e3ea36b890f3294e6cbb15b822fb2",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 9,
+    "meshCount": 9,
+    "materialCount": 6,
+    "textureCount": 0,
+    "imageCount": 0,
+    "animationCount": 0,
+    "accessorCount": 36,
+    "generator": "THREE.GLTFExporter r185",
+    "gltfVersion": "2.0"
+  },
+  "approxWorldBoundingBoxUnits": [
+    1.192,
+    1.192,
+    1.192
+  ],
+  "boundingBoxNote": "Computed via THREE.Box3.setFromObject on the authored scene graph (world-space, post-transform) at build time, not from raw accessor min/max (which reflect local unit-geometry space for TRS-transformed nodes)."
+}

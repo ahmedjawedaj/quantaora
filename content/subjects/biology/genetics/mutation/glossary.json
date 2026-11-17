@@ -1,0 +1,91 @@
+{
+  "componentId": "mutation",
+  "vocabulary": [
+    {
+      "term": "DNA",
+      "definition": "The long molecule made of four repeating letters (A, T, C, G) that carries the instructions for building and running a living thing."
+    },
+    {
+      "term": "Gene",
+      "definition": "A specific stretch of DNA that contains the instructions for one protein or trait."
+    },
+    {
+      "term": "Nucleotide",
+      "definition": "One single 'letter' in the DNA code — the basic building block of a DNA strand."
+    },
+    {
+      "term": "Substitution mutation",
+      "definition": "A mutation where one DNA letter is swapped for a different one, like changing one word in a sentence."
+    },
+    {
+      "term": "Insertion mutation",
+      "definition": "A mutation where one or more extra DNA letters are added into the sequence that weren't there before."
+    },
+    {
+      "term": "Deletion mutation",
+      "definition": "A mutation where one or more DNA letters are removed from the sequence."
+    },
+    {
+      "term": "Effect on protein function",
+      "definition": "How much (or how little) a given DNA mutation changes the protein a gene builds — ranging from no change at all, to one altered amino acid, to a fully scrambled or truncated protein."
+    },
+    {
+      "term": "Frameshift",
+      "definition": "A scrambling of every instruction after an insertion or deletion, caused by shifting how the three-letter reading groups line up."
+    },
+    {
+      "term": "Codon",
+      "definition": "A group of three DNA (or RNA) letters that the cell reads as the instruction for one amino acid."
+    },
+    {
+      "term": "Protein",
+      "definition": "A working molecule built from a chain of amino acids, assembled according to a gene's instructions; proteins do most of the jobs inside a cell."
+    },
+    {
+      "term": "Mutagen",
+      "definition": "Something in the environment — like UV light, certain chemicals, or radiation — that raises the chance of a mutation occurring."
+    },
+    {
+      "term": "Germline mutation",
+      "definition": "A mutation in a sperm or egg cell, which can be passed down to offspring."
+    },
+    {
+      "term": "Somatic mutation",
+      "definition": "A mutation in a regular body cell, which affects only that individual and is not inherited by their offspring."
+    }
+  ],
+  "structureCards": [
+    {
+      "conceptId": "substitution-mutation",
+      "label": "Substitution mutation",
+      "function": "Swaps one DNA letter (nucleotide) for a different one at a single position in the sequence, without changing the total length of the strand.",
+      "whereItIs": "Can occur anywhere along a gene; in this model, shown at the bp-6 rung within the mutation overlay segment (bp 5-7).",
+      "whyItMatters": "Because the genetic code is read in three-letter codons and several codons can code for the same amino acid, a substitution sometimes changes nothing (silent), sometimes swaps one amino acid (missense), and occasionally creates an early stop signal (nonsense) — but it never shifts the reading frame for the rest of the sequence.",
+      "relatedConcept": "insertion-mutation"
+    },
+    {
+      "conceptId": "insertion-mutation",
+      "label": "Insertion mutation",
+      "function": "Adds one or more extra DNA letters into the sequence that weren't there before, lengthening the strand at that point.",
+      "whereItIs": "Can occur anywhere along a gene; in this model, shown as a new rung fading in between bp-6 and bp-7 within the mutation overlay segment.",
+      "whyItMatters": "When the number of inserted letters isn't a multiple of three, every codon boundary downstream shifts (a frameshift), usually scrambling the rest of the protein — a much larger effect than a substitution's single-codon change.",
+      "relatedConcept": "deletion-mutation"
+    },
+    {
+      "conceptId": "deletion-mutation",
+      "label": "Deletion mutation",
+      "function": "Removes one or more DNA letters from the sequence, shortening the strand at that point.",
+      "whereItIs": "Can occur anywhere along a gene; in this model, shown as the bp-6 rung collapsing and downstream rungs closing the gap within the mutation overlay segment.",
+      "whyItMatters": "Like an insertion, a deletion that isn't a multiple of three letters causes a frameshift, scrambling every codon downstream of the deletion point — the mirror-image case to insertion, useful for comparing how both disrupt the reading frame the same way while substitution does not.",
+      "relatedConcept": "insertion-mutation"
+    },
+    {
+      "conceptId": "effect-on-protein-function",
+      "label": "Effect on protein function",
+      "function": "Compares the reference protein (built from the unmutated gene) against the protein built from whichever mutated DNA state is currently active, to show how much the final protein actually changes.",
+      "whereItIs": "Shown in the protein-readout layer below the DNA strand — two parallel amino acid bead chains (reference on top, current mutation state below) that only appear when this hotspot is opened.",
+      "whyItMatters": "This is the payoff step of the whole component: it makes visible why a one-letter DNA change can be invisible (silent substitution), small (missense substitution — one bead recolors), or dramatic (insertion/deletion — most of the downstream chain scrambles), connecting the DNA-level edit to a real functional consequence.",
+      "relatedConcept": "substitution-mutation"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "place-value",
+  "questions": [
+    {
+      "id": "place-value-589",
+      "conceptId": "place-value-position-meaning",
+      "hotspotId": "hs-hundreds",
+      "prompt": "In the number 589, what is the 5 actually worth?",
+      "options": [
+        "500",
+        "50",
+        "5",
+        "800"
+      ],
+      "correctIndex": 0,
+      "explanation": "5 sits in the hundreds place, so it is worth 5 × 100 = 500.",
+      "misconception": "A frequent error is reading 589 by its digit alone and thinking the 5 means '5' — but the hundreds place multiplies it by one hundred."
+    },
+    {
+      "id": "place-value-tens",
+      "conceptId": "place-value-position-meaning",
+      "hotspotId": "hs-tens",
+      "prompt": "What is the digit in the tens place of the number 426?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "26"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 426, the tens place holds 2, so the value of that digit is 2 tens = 20.",
+      "misconception": "Some read '426' as having a 6 in tens or a 4 in tens — the order of places from the right is ones, then tens (2), then hundreds (4)."
+    },
+    {
+      "id": "place-value-ten-time",
+      "conceptId": "place-value-ten-times",
+      "hotspotId": "hs-tens",
+      "prompt": "Moving a digit one place to the left (from tens to hundreds) multiplies its value by how much?",
+      "options": [
+        "10",
+        "2",
+        "100",
+        "It stays the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Base ten treats each left step as ten times larger, so tens to hundreds is ×10.",
+      "misconception": "The pattern is exact and consistent ×10 per left shift for each box — not 2 or an arbitrary jump."
+    },
+    {
+      "id": "place-value-regroup",
+      "conceptId": "place-value-regrouping",
+      "hotspotId": "hs-blocks",
+      "prompt": "What happens when the ones column reaches ten during addition?",
+      "options": [
+        "Ten ones regroup into one ten carries into the next place",
+        "The number erases itself",
+        "Ten ones become ten hundreds",
+        "Nothing changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "When ten ones pile up, they are regrouped into a single ten block and carried to the tens column.",
+      "misconception": "Regrouping moves upward exactly ten at a time to the next higher place, not all the way to hundreds or left unchanged."
+    },
+    {
+      "id": "place-value-expanded",
+      "conceptId": "place-value-read-write",
+      "hotspotId": "hs-digit-number",
+      "prompt": "Write 915 as hundreds + tens + ones, in expanded form.",
+      "options": [
+        "900 + 10 + 5",
+        "9 + 1 + 5",
+        "90 + 10 + 5",
+        "900 + 15"
+      ],
+      "correctIndex": 0,
+      "explanation": "915 = 9 hundreds (900) + 1 ten (10) + 5 ones (5) = 900 + 10 + 5.",
+      "misconception": "Adding the digits' raw numbers (9+1+5) ignores place — the correct expanded form preserves each position's worth (900, 10, 5)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "componentId": "negative-number",
+  "terms": [
+    {
+      "term": "Negative number",
+      "conceptId": "negative-below-zero",
+      "hotspotId": "hs-negative-side",
+      "definition": "A number below zero, written with a minus sign, like −3.",
+      "function": "Models amounts below a zero reference — temperatures, debts, depths.",
+      "whereItIs": "The left half of the number line.",
+      "whyItMatters": "Negatives let math describe the world below zero."
+    },
+    {
+      "term": "Zero boundary",
+      "conceptId": "negative-order-compare",
+      "hotspotId": "hs-zero",
+      "definition": "The mark at zero separating positive (right) from negative (left) numbers.",
+      "function": "The reference point that every number is compared against.",
+      "whereItIs": "The central mark on the line.",
+      "whyItMatters": "Zero anchors all ordering — every negative is below it and every positive above it."
+    },
+    {
+      "term": "Ordering negatives",
+      "conceptId": "negative-order-compare",
+      "hotspotId": "hs-negative-side",
+      "definition": "Arranging negative numbers by their distance from zero; farther left means smaller.",
+      "function": "−6 < −2 because −6 is further left of zero.",
+      "whereItIs": "Read directly from the number line positions.",
+      "whyItMatters": "It prevents the common mistake of treating −6 as bigger than −2."
+    },
+    {
+      "term": "Adding a negative",
+      "conceptId": "negative-add-subtract",
+      "hotspotId": "hs-add-negative",
+      "definition": "Moving left on the number line by the size of the negative.",
+      "function": "−3 + (−2) = −5, stepping two left from −3.",
+      "whereItIs": "The leftward stepping arrow on the line.",
+      "whyItMatters": "It is the rule that makes negative arithmetic consistent with the number line."
+    },
+    {
+      "term": "Subtracting a negative",
+      "conceptId": "negative-add-subtract",
+      "hotspotId": "hs-add-negative",
+      "definition": "Moving right on the number line — the result becomes larger.",
+      "function": "4 − (−2) = 6 because taking away a debt adds value.",
+      "whereItIs": "The rightward stepping arrow on the line.",
+      "whyItMatters": "It is the famously 'tricky' rule that trips students up — the line makes it visible."
+    }
+  ]
+}

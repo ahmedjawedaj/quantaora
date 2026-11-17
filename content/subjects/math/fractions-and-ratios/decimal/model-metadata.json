@@ -1,0 +1,89 @@
+{
+  "id": "decimal",
+  "componentId": "decimal",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/fractions-and-ratios/decimal/decimal.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/fractions-and-ratios/decimal.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.8
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.8
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Hundred grid",
+    "Place-value strip",
+    "Fill slider"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-grid",
+      "label": "Hundred grid",
+      "conceptId": "decimal-fraction-other-name",
+      "position": [
+        -0.8,
+        0.4,
+        0
+      ],
+      "description": "A 10-by-10 grid where each lit cube is one hundredth \u2014 30 lit cubes are 30 hundredths or 0.3.",
+      "positionHint": "The square grid of 100 small cubes, some lit amber.",
+      "color": "#D9A441",
+      "function": "Visualizes decimals as parts of a hundred."
+    },
+    {
+      "id": "hs-decimal-point",
+      "label": "Decimal point",
+      "conceptId": "decimal-tenths-hundredths",
+      "position": [
+        0.7,
+        0.65,
+        0.3
+      ],
+      "description": "The decimal point separates the whole-number part from the fraction part.",
+      "positionHint": "The dot on the place-value strip between the ones and tenths columns.",
+      "color": "#D96B5A",
+      "function": "Marks where whole numbers end and tenths begin."
+    },
+    {
+      "id": "hs-place-columns",
+      "label": "Place columns",
+      "conceptId": "decimal-place-value",
+      "position": [
+        0.7,
+        0.2,
+        0.3
+      ],
+      "description": "Tenths, hundredths, and thousandths are the place columns after the point.",
+      "positionHint": "The labeled columns to the right of the decimal point.",
+      "color": "#7FA86A",
+      "function": "Give each decimal digit its place-based value."
+    }
+  ],
+  "visualStyleNotes": "Fractions And Ratios, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean 10\u00d710 grid of small cubes beside a place-value strip, with a fill slider. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / coral / molecular-green from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Grid cubes: warm paper white (roughness ~0.5); lit cubes: warm amber (roughness ~0.45). Place-value strip: warm paper with ink-grey column labels and an ink decimal point. Fill slider: soft warm-grey rail with amber knob. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: decimals as parts of a hundred \u2014 a 10\u00d710 cube grid with a fill slider and a place-value strip showing tenths/hundredths.\n\nGEOMETRY: Hundred grid: 100 small cubes in 10 rows \u00d7 10 columns (spacing ~0.1) at x \u2248 \u22120.9, y \u2248 0.25. Fill slider at the front controls how many cubes light (0..100), and the label shows the decimal (0.0..1.0). Place-value strip: a floating panel at x \u2248 0.7 showing '0 . 3 0' with column labels ones/tenths/hundredths under each digit. A mode toggle switches the strip between tenths and hundredths display.\n\nLAYERS (toggleable): (1) grid + lit cubes; (2) place-value strip; (3) fraction-label plate.\n\nCAMERA: head-on, slightly above, from +z frames grid and strip; labels legible. Budget 7-12k triangles. Named nodes: GridCubes, LitCubes, FillSlider_Knob, PlaceValueStrip, DecimalPoint, ColumnLabels, FractionPlate. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "hundred-grid"
+  }
+}

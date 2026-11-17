@@ -1,0 +1,38 @@
+{
+  "componentId": "habitat",
+  "terms": [
+    {
+      "term": "Habitat",
+      "conceptId": "natural-home",
+      "hotspotId": "hs-home",
+      "definition": "The natural home of a species - where it lives and gets what it needs.",
+      "function": "Provides food, water, shelter, and space to raise young.",
+      "whereItIs": "Within an ecosystem.",
+      "whyItMatters": "Every species depends on its habitat to survive.",
+      "relatedConcept": "food-water-shelter",
+      "quizId": "hab-q-def"
+    },
+    {
+      "term": "Habitat needs",
+      "conceptId": "food-water-shelter",
+      "hotspotId": "hs-food",
+      "definition": "The essentials a habitat must supply: food, water, and shelter.",
+      "function": "Keeps the species alive and healthy.",
+      "whereItIs": "Provided by the home environment.",
+      "whyItMatters": "If one need is missing, the species struggles.",
+      "relatedConcept": "natural-home",
+      "quizId": "hab-q-needs"
+    },
+    {
+      "term": "Habitat loss",
+      "conceptId": "habitat-change-loss",
+      "hotspotId": "hs-change",
+      "definition": "The destruction or change of a habitat.",
+      "function": "Removes the home a species depends on.",
+      "whereItIs": "Caused by changes like deforestation or drainage.",
+      "whyItMatters": "It is a major threat to many species.",
+      "relatedConcept": "natural-home",
+      "quizId": "hab-q-change"
+    }
+  ]
+}

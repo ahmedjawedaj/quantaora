@@ -1,0 +1,111 @@
+{
+  "componentId": "neuron",
+  "terms": [
+    {
+      "term": "Neuron",
+      "conceptId": "neuron",
+      "definition": "A nerve cell specialized to send and receive electrical and chemical signals.",
+      "function": "Receives, integrates, and transmits signals that make up the nervous system's communication network.",
+      "whereItIs": "Found in the brain, spinal cord, and nerves throughout the body.",
+      "whyItMatters": "Every thought, feeling, movement, and memory depends on neurons firing signals to one another.",
+      "relatedConcept": "cell-body-soma"
+    },
+    {
+      "term": "Cell body (soma)",
+      "conceptId": "cell-body-soma",
+      "hotspotId": "hs-soma",
+      "definition": "The main part of a neuron containing the nucleus, where the cell's core life-support functions happen.",
+      "function": "Integrates incoming signals from the dendrites and houses the organelles that keep the neuron alive.",
+      "whereItIs": "The wide central bulb the dendritic tree and axon both attach to.",
+      "whyItMatters": "It's the neuron's control center — without it managing the cell's DNA and energy needs, the rest of the neuron couldn't function.",
+      "relatedConcept": "nucleus",
+      "quizId": "neuron-q-soma"
+    },
+    {
+      "term": "Nucleus",
+      "conceptId": "nucleus",
+      "hotspotId": "hs-nucleus",
+      "definition": "The structure inside a cell that holds its DNA and directs which proteins the cell builds.",
+      "function": "Stores the neuron's genetic instructions and directs protein production needed to build and maintain the cell.",
+      "whereItIs": "Inside the cell body (soma), visible when the soma is cross-sectioned or shown semi-transparent.",
+      "whyItMatters": "It's the instruction center for everything the neuron builds and repairs over its lifetime.",
+      "relatedConcept": "cell-body-soma",
+      "quizId": "neuron-q-nucleus"
+    },
+    {
+      "term": "Mitochondrion",
+      "conceptId": "mitochondrion",
+      "hotspotId": "hs-mitochondrion",
+      "definition": "A small bean-shaped organelle that produces the ATP energy a cell needs to do its work.",
+      "function": "Produces the ATP energy the neuron needs to fire signals and to maintain the ion gradients that make firing possible.",
+      "whereItIs": "Near the base of the soma, close to where the axon begins.",
+      "whyItMatters": "Without a steady energy supply, a neuron couldn't reset its ion balance and would quickly stop being able to fire.",
+      "relatedConcept": "cell-body-soma",
+      "quizId": "neuron-q-mitochondrion"
+    },
+    {
+      "term": "Dendrite",
+      "conceptId": "dendrites",
+      "hotspotId": "hs-dendrites",
+      "definition": "A branch-like extension of a neuron that receives signals from other neurons.",
+      "function": "Catches incoming chemical signals from neighboring neurons and carries them toward the cell body.",
+      "whereItIs": "The branching, tapering tree extending out from one side of the soma.",
+      "whyItMatters": "Dendrites are the 'listening end' of the neuron — more branching means a neuron can gather input from more neighboring cells.",
+      "relatedConcept": "synapse",
+      "quizId": "neuron-q-dendrites"
+    },
+    {
+      "term": "Axon",
+      "conceptId": "axon",
+      "hotspotId": "hs-axon",
+      "definition": "The long, thin fiber of a neuron that carries a signal away from the cell body toward other cells.",
+      "function": "Carries the neuron's electrical signal (action potential) from the cell body all the way to the axon terminals.",
+      "whereItIs": "The single long shaft extending from the soma, opposite the dendrites.",
+      "whyItMatters": "The axon is the 'sending end' of the neuron — its length lets a single cell body signal targets far away, from the spinal cord to a toe.",
+      "relatedConcept": "myelin-sheath",
+      "quizId": "neuron-q-axon"
+    },
+    {
+      "term": "Myelin sheath",
+      "conceptId": "myelin-sheath",
+      "hotspotId": "hs-myelin-sheath",
+      "definition": "A fatty layer wrapped around many axons that insulates them and speeds up signal travel.",
+      "function": "Insulates segments of the axon so the electrical signal jumps quickly between the gaps (nodes of Ranvier) instead of leaking away.",
+      "whereItIs": "Wrapped in sausage-link segments around the axon shaft, past the unmyelinated axon hillock.",
+      "whyItMatters": "Myelin is why some signals travel over 100 meters per second — damage to it, as in multiple sclerosis, slows reactions and can cause numbness.",
+      "relatedConcept": "axon",
+      "quizId": "neuron-q-myelin"
+    },
+    {
+      "term": "Axon terminal",
+      "conceptId": "axon-terminals",
+      "hotspotId": "hs-axon-terminals",
+      "definition": "The branching end of an axon where it connects to the next cell and releases neurotransmitters.",
+      "function": "Converts the arriving electrical signal into a chemical signal by releasing neurotransmitters toward the next cell.",
+      "whereItIs": "The branching cluster of small bulbous endings at the far end of the axon.",
+      "whyItMatters": "This is where an electrical signal becomes a chemical one — the handoff point that lets one neuron's message reach the next.",
+      "relatedConcept": "synapse",
+      "quizId": "neuron-q-axon-terminals"
+    },
+    {
+      "term": "Synapse",
+      "conceptId": "synapse",
+      "hotspotId": "hs-synapse",
+      "definition": "The tiny gap between two neurons (or a neuron and another cell) where a signal is passed on, usually using chemical messengers.",
+      "function": "Provides the junction where neurotransmitters released by an axon terminal cross the gap and bind to the next cell's dendrites, continuing the signal.",
+      "whereItIs": "The small gap between an axon terminal and a neighboring cell's dendrite or membrane.",
+      "whyItMatters": "Neurons don't touch — the synapse is where the entire nervous system's cell-to-cell communication actually happens, and it's the target of many medicines.",
+      "relatedConcept": "neurotransmitter",
+      "quizId": "neuron-q-synapse"
+    },
+    {
+      "term": "Neurotransmitter",
+      "conceptId": "neurotransmitter",
+      "definition": "A chemical messenger released at a synapse that carries a signal from one neuron to the next.",
+      "function": "Crosses the synaptic gap and binds to receptors on the next cell, passing the signal along chemically.",
+      "whereItIs": "Released from the axon terminal into the synapse.",
+      "whyItMatters": "Neurotransmitters are how caffeine, many medicines, and neurological conditions change the way neurons communicate.",
+      "relatedConcept": "synapse"
+    }
+  ]
+}

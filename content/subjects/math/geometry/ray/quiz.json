@@ -1,0 +1,80 @@
+{
+  "componentId": "ray",
+  "questions": [
+    {
+      "id": "ray-def",
+      "conceptId": "ray-definition",
+      "hotspotId": "hs-ray-path",
+      "prompt": "What is a ray?",
+      "options": [
+        "One endpoint, extends forever one way",
+        "Two endpoints, stops both ways",
+        "No endpoints, forever both ways",
+        "A curved path"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ray starts at one endpoint and continues forever in one direction.",
+      "misconception": "The shape with two endpoints is a segment and the one with none is a line — a ray has exactly one endpoint."
+    },
+    {
+      "id": "ray-naming",
+      "conceptId": "ray-naming",
+      "hotspotId": "hs-endpoint",
+      "prompt": "Which point comes first in 'ray AB'?",
+      "options": [
+        "A — the endpoint",
+        "B — the arrowhead",
+        "Either one",
+        "The middle point"
+      ],
+      "correctIndex": 0,
+      "explanation": "The endpoint always comes first when naming a ray.",
+      "misconception": "Ray AB means starting at A and heading through B — the endpoint leads the name, so AB and BA name different rays."
+    },
+    {
+      "id": "ray-one-direction",
+      "conceptId": "ray-one-direction",
+      "hotspotId": "hs-arrowhead",
+      "prompt": "To draw a ray, you use...",
+      "options": [
+        "One dot and one arrowhead",
+        "Two dots and two arrowheads",
+        "Two dots only",
+        "A curve"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ray shows its one end with a dot and its endless direction with one arrowhead.",
+      "misconception": "Two arrowheads would mean a line, and two dots would make it a segment — a ray needs exactly one of each."
+    },
+    {
+      "id": "ray-angle",
+      "conceptId": "ray-angle",
+      "hotspotId": "hs-ray-path",
+      "prompt": "What do two rays sharing an endpoint form?",
+      "options": [
+        "An angle",
+        "A segment",
+        "A single ray",
+        "A line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two rays from one shared endpoint make an angle; the shared point is the vertex.",
+      "misconception": "Only rays that share a start point form an angle — two separate rays are just two rays, and the sharing is essential."
+    },
+    {
+      "id": "ray-endpoint",
+      "conceptId": "ray-definition",
+      "hotspotId": "hs-endpoint",
+      "prompt": "In the angle, the shared endpoint of the rays is called the...",
+      "options": [
+        "Vertex",
+        "Arrowhead",
+        "Midpoint",
+        "Line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The common endpoint where two rays meet in an angle is the vertex.",
+      "misconception": "The vertex is the corner point of the angle; the arrowhead and midpoint are different features of other figures."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "componentId": "digestion",
+  "terms": [
+    {
+      "term": "Digestion",
+      "conceptId": "digestion",
+      "definition": "The whole process of breaking food down into pieces and nutrients small enough for the body to absorb and use.",
+      "function": "Converts food into nutrients cells can use for energy, growth, and repair, and packages up whatever the body can't use for elimination.",
+      "whereItIs": "Runs the length of the digestive tract, from the mouth to the rectum.",
+      "whyItMatters": "It's the only way anything you eat actually becomes usable fuel and building material for your cells.",
+      "relatedConcept": "mouth-mechanical-and-chemical-breakdown"
+    },
+    {
+      "term": "Mouth (Mechanical & Chemical Breakdown)",
+      "conceptId": "mouth-mechanical-and-chemical-breakdown",
+      "hotspotId": "hs-mouth",
+      "definition": "The entry point of the digestive tract, where teeth and tongue physically break food apart and saliva starts breaking it down chemically.",
+      "function": "Teeth and tongue mechanically break food into smaller pieces while saliva's enzyme (amylase) begins chemical breakdown of starches, forming a soft mass called a bolus.",
+      "whereItIs": "The very top of the digestive tract, just above where the esophagus begins.",
+      "whyItMatters": "Breaking food into smaller pieces here gives every later station a head start — a chunk that's already partly broken down digests faster and more completely.",
+      "relatedConcept": "stomach-acid-breakdown",
+      "quizId": "digestion-q-mouth"
+    },
+    {
+      "term": "Stomach (Acid Breakdown)",
+      "conceptId": "stomach-acid-breakdown",
+      "hotspotId": "hs-stomach",
+      "definition": "A J-shaped muscular pouch that churns food and bathes it in strong acid and enzymes.",
+      "function": "Churns food and bathes it in hydrochloric acid and the enzyme pepsin, breaking proteins down into a semi-liquid mixture called chyme.",
+      "whereItIs": "Upper-left part of the abdomen, just below the esophagus, on the widest curve of the digestive tract.",
+      "whyItMatters": "The stomach's acid doesn't just help digest protein — it also kills most of the bacteria that come in with food, protecting the rest of the digestive tract.",
+      "relatedConcept": "small-intestine-nutrient-absorption",
+      "quizId": "digestion-q-stomach"
+    },
+    {
+      "term": "Small Intestine (Nutrient Absorption)",
+      "conceptId": "small-intestine-nutrient-absorption",
+      "hotspotId": "hs-small-intestine",
+      "definition": "A long, coiled tube (about 6-7 meters folded up) where most digestion finishes and nutrients pass into the bloodstream.",
+      "function": "Bile, pancreatic enzymes, and villi-lined walls complete digestion and absorb nutrients into the bloodstream.",
+      "whereItIs": "Filling the lower-central part of the abdomen, coiled compactly.",
+      "whyItMatters": "This is where digestion actually pays off — its villi-covered walls create a huge surface area, so this one organ absorbs the vast majority of the nutrients your body gets from food.",
+      "relatedConcept": "large-intestine-water-absorption",
+      "quizId": "digestion-q-small-intestine"
+    },
+    {
+      "term": "Large Intestine (Water Absorption)",
+      "conceptId": "large-intestine-water-absorption",
+      "hotspotId": "hs-large-intestine",
+      "definition": "A thicker tube that frames the small intestine on three sides and reclaims water from digested material.",
+      "function": "Frames the small intestine (ascending, transverse, descending colon) and absorbs water and remaining salts, compacting leftover material into solid waste.",
+      "whereItIs": "Wrapping around the outer edge of the small intestine's coils — up the right side, across the top, and down the left side of the abdomen.",
+      "whyItMatters": "Without the large intestine reclaiming water here, your body would lose far too much fluid every time you had a bowel movement.",
+      "relatedConcept": "waste-elimination",
+      "quizId": "digestion-q-large-intestine"
+    },
+    {
+      "term": "Waste Elimination",
+      "conceptId": "waste-elimination",
+      "hotspotId": "hs-waste-elimination",
+      "definition": "The rectum and anal canal, where the digestive tract's leftover material is stored and released.",
+      "function": "The rectum stores compacted waste until the anal sphincter releases it from the body as stool, completing the digestive process.",
+      "whereItIs": "The very bottom of the digestive tract, below the large intestine's final curve.",
+      "whyItMatters": "This final step is what lets your body get rid of everything it couldn't use — without it, waste would build up with no room left for new food to be processed.",
+      "relatedConcept": "large-intestine-water-absorption",
+      "quizId": "digestion-q-waste"
+    },
+    {
+      "term": "Mechanical digestion",
+      "conceptId": "mechanical-digestion",
+      "definition": "Physically breaking food into smaller pieces, like chewing with teeth or churning in the stomach.",
+      "function": "Increases food's exposed surface area so chemical digestion (enzymes and acid) can work on it faster.",
+      "whereItIs": "Happens mainly in the mouth (chewing) and stomach (churning).",
+      "whyItMatters": "Without this physical breakdown first, chemical digestion alone would take far longer to process a meal.",
+      "relatedConcept": "chemical-digestion"
+    },
+    {
+      "term": "Chemical digestion",
+      "conceptId": "chemical-digestion",
+      "definition": "Breaking food's molecules apart using acids and enzymes, turning large molecules into small ones the body can absorb.",
+      "function": "Uses enzymes and stomach acid to break carbohydrates, proteins, and fats down into absorbable building blocks.",
+      "whereItIs": "Begins in the mouth with saliva, continues in the stomach with acid and pepsin, and finishes in the small intestine with bile and pancreatic enzymes.",
+      "whyItMatters": "This is the step that actually makes nutrients small enough to cross into the bloodstream — mechanical breakdown alone can't do that.",
+      "relatedConcept": "enzyme"
+    },
+    {
+      "term": "Enzyme",
+      "conceptId": "enzyme",
+      "definition": "A protein that speeds up a chemical reaction, such as breaking a big food molecule into smaller pieces, without being used up itself.",
+      "function": "Speeds up the chemical breakdown of carbohydrates, proteins, and fats at multiple stations along the digestive tract.",
+      "whereItIs": "Released in saliva (mouth), stomach fluid (stomach), and bile/pancreatic fluid delivered into the small intestine.",
+      "whyItMatters": "Without enzymes, chemical digestion would happen far too slowly to keep up with how often the body needs fuel.",
+      "relatedConcept": "chemical-digestion"
+    },
+    {
+      "term": "Villi",
+      "conceptId": "villi",
+      "definition": "Tiny finger-shaped folds lining the small intestine that increase its surface area so more nutrients can be absorbed into the blood.",
+      "function": "Multiply the small intestine's inner surface area, giving nutrients vastly more contact points to pass into the bloodstream.",
+      "whereItIs": "Covering the inner wall of the small intestine.",
+      "whyItMatters": "Villi are the main reason the small intestine, not the stomach, absorbs most of the body's nutrients.",
+      "relatedConcept": "small-intestine-nutrient-absorption"
+    },
+    {
+      "term": "Peristalsis",
+      "conceptId": "peristalsis",
+      "definition": "Wave-like muscle squeezes that push food along the digestive tract, from the esophagus all the way to the end.",
+      "function": "Moves food and digested material forward through the digestive tract regardless of body position.",
+      "whereItIs": "Occurs along the entire length of the digestive tract, from the esophagus through the intestines.",
+      "whyItMatters": "It's why food keeps moving through your system even when you're lying down — digestion doesn't depend on gravity.",
+      "relatedConcept": "digestion",
+      "quizId": "digestion-q-peristalsis"
+    },
+    {
+      "term": "Absorption",
+      "conceptId": "absorption",
+      "definition": "The process of nutrients passing from inside the digestive tract into the bloodstream.",
+      "function": "Transfers digested nutrients (and, in the large intestine, water) across the digestive tract's lining and into the blood.",
+      "whereItIs": "Happens mainly in the small intestine (nutrients) and large intestine (water).",
+      "whyItMatters": "Absorption is the actual handoff point where digestion's work becomes usable fuel for the rest of the body.",
+      "relatedConcept": "small-intestine-nutrient-absorption"
+    },
+    {
+      "term": "Nutrient",
+      "conceptId": "nutrient",
+      "definition": "A substance from food, like protein, carbohydrate, fat, vitamin, or mineral, that the body needs to work and grow.",
+      "function": "Supplies the energy and building materials every cell in the body needs to function, grow, and repair itself.",
+      "whereItIs": "Extracted from food throughout digestion, then absorbed into the blood mainly in the small intestine.",
+      "whyItMatters": "Nutrients are the entire reason the body digests food in the first place.",
+      "relatedConcept": "absorption"
+    }
+  ]
+}

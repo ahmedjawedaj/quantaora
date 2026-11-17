@@ -1,0 +1,32 @@
+{
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/j/Jupiter_1_142984.glb",
+  "resourcePage": "https://science.nasa.gov/resource/jupiter-3d-model/",
+  "creator": "NASA Visualization Technology Applications and Development (VTAD)",
+  "license": "Public domain (U.S. Government work, science.nasa.gov / NASA media usage guidelines)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 11479456,
+  "sha256": "8edc4e9b88b73ca1b125a258f0ecaef7fc6494a7cadda37704af459a119f4870",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 1,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "imageCount": 1,
+    "animationCount": 0,
+    "accessorCount": 4,
+    "generator": "Khronos Blender glTF 2.0 I/O",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      1000,
+      935.126,
+      1000
+    ]
+  }
+}

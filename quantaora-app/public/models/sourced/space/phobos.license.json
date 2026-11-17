@@ -1,0 +1,33 @@
+{
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/gltf_files/24878_Phobos_1_1000.glb",
+  "resourcePage": "https://science.nasa.gov/resource/phobos-mars-moon-3d-model/",
+  "creator": "NASA/JPL-Caltech",
+  "license": "Public domain (U.S. Government work, science.nasa.gov / NASA media usage guidelines)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 3855016,
+  "sha256": "757712101e4fbcf9527942ee664a3bc6dfe3ab460466b760f4bf51ee85dbd8d3",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 1,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "imageCount": 1,
+    "animationCount": 0,
+    "accessorCount": 4,
+    "generator": "Khronos Blender glTF 2.0 I/O",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      24.3711,
+      20.521,
+      27.0375
+    ]
+  },
+  "notes": "Irregular potato-shaped body from real shape-model data — the case where authored geometry matters most vs. a sphere placeholder."
+}

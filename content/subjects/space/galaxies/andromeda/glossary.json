@@ -1,0 +1,40 @@
+{
+  "componentId": "andromeda",
+  "terms": [
+    {
+      "term": "Spiral galaxy",
+      "definition": "A flat, spinning disk of stars, gas and dust with arms winding out from the center — Andromeda is a classic, smooth example with no bar.",
+      "conceptId": "classic-spiral-arm",
+      "hotspotId": "hs-spiral-arm",
+      "function": "Andromeda's architectural class."
+    },
+    {
+      "term": "Central bulge",
+      "definition": "The crowded, bright hub at a galaxy's center — Andromeda's is brighter and rounder than the Milky Way's.",
+      "conceptId": "galaxy-central-bulge",
+      "hotspotId": "hs-central-bulge",
+      "function": "The old, densely packed heart of the galaxy."
+    },
+    {
+      "term": "Light-year",
+      "definition": "The distance light travels in one year — about 9.5 trillion kilometers. Andromeda is 2.5 million light-years away.",
+      "conceptId": "light-year-scale",
+      "hotspotId": "hs-collision-course",
+      "function": "The ruler of the galaxy's distance."
+    },
+    {
+      "term": "Satellite galaxy",
+      "definition": "A small galaxy that orbits a larger one — M32 and M110 orbit Andromeda like moons.",
+      "conceptId": "satellite-galaxy",
+      "hotspotId": "hs-satellite-galaxies",
+      "function": "Shows that galaxies can have smaller companions."
+    },
+    {
+      "term": "Galaxy merger",
+      "definition": "Two galaxies falling together and fusing into one larger galaxy — the Milky Way and Andromeda will merge in about four billion years.",
+      "conceptId": "galaxy-merger-path",
+      "hotspotId": "hs-collision-course",
+      "function": "Andromeda's destination."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "componentId": "current",
+  "standards": [
+    {
+      "standardId": "4-PS3-2",
+      "standard": "Energy Transfer",
+      "description": "Make observations to provide evidence that energy is transferred via electric currents.",
+      "level": "primary",
+      "traceDetail": "Streaming dots movement and bulb brightness are observations of energy traveling in a loop."
+    },
+    {
+      "standardId": "MS-PS2-5",
+      "standard": "Electric Forces and Fields",
+      "description": "Understand that electric charge movement in a closed circuit constitutes a current.",
+      "level": "primary",
+      "traceDetail": "The battery-driven march of electrons through the loop is the charge movement of the standard."
+    },
+    {
+      "standardId": "HS-PS2-5",
+      "standard": "Macroscopic Electrical Systems",
+      "description": "Use a macroscopic description to state that electric current in a circuit is the overall movement of charge.",
+      "level": "primary",
+      "traceDetail": "Current defined as charge passing points per amp and per coulomb."
+    }
+  ]
+}

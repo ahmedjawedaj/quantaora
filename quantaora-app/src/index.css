@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------
+   Quantaora design tokens
+   Three-layer: primitive -> semantic -> component (see .claude/skills/design-system)
+   Warm off-white studio base + a violet "aura" brand accent + five subject
+   identities that take over once a learner is inside that subject's space.
+   --------------------------------------------------------------------- */
+@theme {
+  /* Type */
+  --font-display: "Fraunces", "Iowan Old Style", ui-serif, Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+
+  /* Primitive neutrals — warm paper, not clinical white */
+  --color-paper-50: oklch(0.985 0.008 80);
+  --color-paper-100: oklch(0.972 0.011 78);
+  --color-paper-200: oklch(0.948 0.014 74);
+  --color-paper-300: oklch(0.905 0.016 70);
+  --color-ink-900: oklch(0.225 0.018 55);
+  --color-ink-700: oklch(0.36 0.02 55);
+  --color-ink-500: oklch(0.53 0.018 55);
+  --color-ink-300: oklch(0.72 0.014 60);
+
+  /* Brand — "aura" violet, used for global chrome/landing, not subject spaces */
+  --color-aura-900: oklch(0.32 0.135 300);
+  --color-aura-600: oklch(0.5 0.175 300);
+  --color-aura-400: oklch(0.66 0.145 300);
+  --color-aura-200: oklch(0.87 0.05 300);
+  --color-aura-100: oklch(0.94 0.028 300);
+
+  /* Subject identities (spec section 12) */
+  --color-physics-deep: oklch(0.42 0.17 260);
+  --color-physics-accent: oklch(0.87 0.17 98);
+  --color-chemistry-deep: oklch(0.42 0.08 195);
+  --color-chemistry-accent: oklch(0.74 0.15 148);
+  --color-math-deep: oklch(0.34 0.1 292);
+  --color-math-accent: oklch(0.62 0.13 250);
+  --color-biology-deep: oklch(0.6 0.15 32);
+  --color-biology-accent: oklch(0.64 0.13 148);
+  --color-space-deep: oklch(0.24 0.05 264);
+  --color-space-accent: oklch(0.78 0.13 85);
+
+  /* Semantic */
+  --color-background: var(--color-paper-50);
+  --color-surface: var(--color-paper-100);
+  --color-surface-raised: oklch(0.995 0.004 80);
+  --color-border: var(--color-paper-300);
+  --color-foreground: var(--color-ink-900);
+  --color-muted-foreground: var(--color-ink-500);
+  --color-brand: var(--color-aura-600);
+  --color-brand-strong: var(--color-aura-900);
+  --color-brand-soft: var(--color-aura-100);
+
+  /* Radius + shadow language: soft tactile cards, not sharp/corporate */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --shadow-tactile: 0 1px 2px oklch(0.3 0.03 55 / 0.04), 0 8px 24px oklch(0.3 0.03 55 / 0.06);
+  --shadow-tactile-lg: 0 4px 8px oklch(0.3 0.03 55 / 0.05), 0 24px 48px oklch(0.3 0.03 55 / 0.10);
+
+  --animate-drift: drift 22s ease-in-out infinite;
+  --animate-pulse-slow: pulse-slow 2.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  50% { transform: translate3d(0, -14px, 0) rotate(1.5deg); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-aura-200);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-grain {
+    background-image: radial-gradient(oklch(0.3 0.02 55 / 0.05) 1px, transparent 1px);
+    background-size: 3px 3px;
+  }
+}
+
+@layer components {
+  [data-lab-stage] {
+    overflow: hidden;
+  }
+
+  [data-lab-stage] [data-canvas-overlay] {
+    transition: opacity 180ms ease, transform 180ms ease;
+  }
+
+  [data-lab-stage][data-clean-view="true"] [data-canvas-overlay] {
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  [data-lab-stage]:fullscreen {
+    width: 100vw !important;
+    height: 100vh !important;
+    background: var(--color-background);
+  }
+
+  [data-lab-stage]:-webkit-full-screen {
+    width: 100vw !important;
+    height: 100vh !important;
+    background: var(--color-background);
+  }
+}

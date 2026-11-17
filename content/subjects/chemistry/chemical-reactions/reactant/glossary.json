@@ -1,0 +1,38 @@
+{
+  "componentId": "reactant",
+  "terms": [
+    {
+      "term": "Reactant",
+      "conceptId": "reactant-starts-reaction",
+      "hotspotId": "hs-reactant-materials",
+      "definition": "A substance that takes part in a chemical reaction — a starting material.",
+      "function": "Provides the atoms that get rearranged into products.",
+      "whereItIs": "The hydrogen and oxygen molecules on the left of the equation.",
+      "whyItMatters": "Every reaction begins with its reactants.",
+      "relatedConcept": "reactant-consumed",
+      "quizId": "reactant-q-definition"
+    },
+    {
+      "term": "Chemical equation",
+      "conceptId": "reactant-left-of-equation",
+      "hotspotId": "hs-reactant-combine",
+      "definition": "A shorthand description of a reaction, with reactants on the left and products on the right.",
+      "function": "Shows what reacts and what is produced at a glance.",
+      "whereItIs": "The whole left-arrow-right scene in the model.",
+      "whyItMatters": "Equations are the language of chemistry.",
+      "relatedConcept": "reactant-starts-reaction",
+      "quizId": "reactant-q-position"
+    },
+    {
+      "term": "Consumption",
+      "conceptId": "reactant-consumed",
+      "hotspotId": "hs-reactant-consumed",
+      "definition": "The using-up of reactants as a reaction proceeds.",
+      "function": "Turns starting materials into new substances while conserving atoms.",
+      "whereItIs": "The atoms flowing from left to right in the model.",
+      "whyItMatters": "Consumption explains how matter transforms without being lost.",
+      "relatedConcept": "reactant-left-of-equation",
+      "quizId": "reactant-q-consumed"
+    }
+  ]
+}

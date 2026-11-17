@@ -1,0 +1,95 @@
+{
+  "id": "white-dwarf",
+  "subject": "space",
+  "title": "White Dwarf",
+  "summary": "The exposed, cooling core of a dead star. A Sun-like star ends its red-giant chapter by shedding its outer layers, leaving behind a sphere about the size of Earth that still packs up to 1.4 times the Sun's mass — supported by the quantum refusal of electrons to be squeezed closer together.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "electron-degeneracy-pressure",
+    "planetary-nebula-shedding",
+    "density-extreme-scale",
+    "cooling-over-aeons",
+    "chandrasekhar-mass-limit"
+  ],
+  "type": "model",
+  "estimatedMinutes": 13,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Stars",
+    "unit": "Stellar Lifecycle",
+    "systemOrGroup": "Stellar remnants",
+    "component": "White Dwarf",
+    "displayPath": "Space > Stars > Stellar Lifecycle > Stellar remnants > White Dwarf"
+  },
+  "crossReferences": [
+    {
+      "label": "Red Giant (Stars)",
+      "branch": "stars",
+      "component": "Red Giant",
+      "note": "The white dwarf is literally the red giant's exposed core after the envelope drifts away into a planetary nebula."
+    },
+    {
+      "label": "Neutron Star (Stars)",
+      "branch": "stars",
+      "component": "Neutron star",
+      "note": "The alternative remnant for heavier stars — the neutron star is the white dwarf's denser cousin, born in a supernova instead."
+    }
+  ],
+  "belongsTo": "Stars > Stellar Lifecycle > Stellar remnants",
+  "compareCandidate": {
+    "label": "White dwarf vs. neutron star",
+    "description": "Both are ultradense leftover cores, and both support themselves with a quantum pressure — but one is built of electrons pushed to their limit and the other of neutrons forced together by the supernova that made it. Comparing them makes visible how the same disaster can yield two very different debris."
+  },
+  "parts": [
+    "Electron-degenerate core (nightmarish density)",
+    "Carbon–oxygen mantle, no fusion",
+    "Thin atmosphere of hydrogen or helium"
+  ],
+  "processes": [
+    "Envelope shedding (planetary nebula)",
+    "Electron degeneracy pressure",
+    "Gravity–pressure standoff",
+    "Glacier-like cooling over billions of years"
+  ],
+  "plainLanguageExplanation": "When a Sun-like star exhausts its final fuel, the story ends with the last thing anyone expects: a 'star' that no longer fuses anything at all. The red giant's weak outer layers are puffed away into space, forming a glowing ring called a planetary nebula (nothing to do with planets — the name is just history). What is left is the star's core, and that core is extraordinary. It is about the size of Earth, yet it holds up to 1.4 times the Sun's entire mass, so a single teaspoon of its matter would weigh around five and a half tons. What keeps it from collapsing further? Electrons. The quantum rules of matter say two electrons cannot be squeezed into the same place, so as gravity tries to crush the star, the electrons push back with a pressure that does not depend on temperature at all — electron degeneracy pressure. The white dwarf's surface glows white-hot (tens of thousands of kelvin), but it has no furnace: that glow is residual heat, cooling like an ember that has stopped burning, over billions of years. Beyond about 1.4 solar masses — the Chandrasekhar limit — even electron pressure gives out, and the core is instead born as the even denser remnant covered in the next components: a neutron star.",
+  "keyFacts": [
+    {
+      "label": "Density nightmare",
+      "value": "Earth-sized sphere with up to 1.4 solar masses — a teaspoon of its matter would weigh ~5.5 tons"
+    },
+    {
+      "label": "No fusion",
+      "value": "A dead object: cooling ember, not furnace — no nuclear fires left"
+    },
+    {
+      "label": "Support mechanism",
+      "value": "Electron degeneracy pressure — quantum refusal to be squeezed closer"
+    },
+    {
+      "label": "Birth",
+      "value": "Born when the red giant's envelope drifts off as a planetary nebula"
+    },
+    {
+      "label": "Temperature",
+      "value": "Newly formed dwarfs ~100,000 K surface; then cool almost unchangeably slowly"
+    },
+    {
+      "label": "Deadline",
+      "value": "Above ~1.4 solar masses (Chandrasekhar limit) gravity wins — the remnant must go neutron"
+    }
+  ],
+  "whyItMatters": "White dwarfs settle what the stellar lifecycle means: they are the final state of the vast majority of known stars, including the Sun. They are also the clearest classroom window into genuinely unearthly physics, where the ordinary rules of gas pressure are replaced by quantum refusal. Their matter is recycled into later stars when envelope shedding enriches the galaxy, they anchor a whole field of astronomy (binary companions squeezed to such density that their orbits visibly change), and knowing the Chandrasekhar limit makes the supernova machinery of the next components a comprehensible chain instead of magic.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Electron-degenerate stellar remnant (Chandrasekhar-limited)",
+  "tagline": "A dead star as dense as it gets",
+  "didYouKnow": "A teaspoon of white dwarf would weigh about as much as a small school bus, and it would keep that crushing density happily on the kitchen counter — it only explodes if something tries to squeeze it further.",
+  "compareCandidateId": "neutron-star",
+  "compareReason": "Two extreme debris made of the same theme — squeezed core, no fusion — but electrons versus neutrons, and a nebula-shedding birth versus a supernova one. The pair makes the mass limit the dividing line."
+}

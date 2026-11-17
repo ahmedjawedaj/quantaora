@@ -1,0 +1,89 @@
+{
+  "id": "number-line",
+  "subject": "math",
+  "title": "Number Line",
+  "summary": "A number line is a straight horizontal line with equally-spaced numbers that helps you see the size of numbers, order them, and add or subtract by stepping along the line. Explore where numbers live, how spacing works, and how jumps model addition and subtraction.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "number-line-order-numbers",
+    "number-line-spacing-equal",
+    "number-line-add-subtract-by-jumps",
+    "number-line-compare-size"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Understanding Numbers",
+    "systemOrGroup": "Number line",
+    "component": "Number Line",
+    "displayPath": "Math > Number Sense And Arithmetic > Understanding Numbers > Number line > Number Line"
+  },
+  "crossReferences": [
+    {
+      "label": "Place value (Number Sense)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Place value",
+      "note": "The number positions marked on a line depend on the place value of the digits that form each number."
+    },
+    {
+      "label": "Addition (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Addition",
+      "note": "Addition is modeled as a jump to the right on the number line — the counting-on strategy you see on the line."
+    },
+    {
+      "label": "Negative number (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Negative number",
+      "note": "The number line extends past zero to the left, which is exactly where negative numbers live on the line."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Understanding Numbers > Number line",
+  "compareCandidate": {
+    "label": "Number line vs. labeled chart",
+    "description": "A number line is a continuous visual ruler where each number sits at a distinct ordered point and spacing is equal between fixed steps — it shows magnitude and order at a glance. A plain labeled chart just lists numbers without showing their size as a position along a length."
+  },
+  "parts": [
+    "A straight line with equal tick marks",
+    "Numbers placed at ordered positions",
+    "Zero as the reference point",
+    "An arrow showing direction and jumps"
+  ],
+  "processes": [
+    "Ordering numbers by their position on the line",
+    "Adding by jumping right",
+    "Subtracting by jumping left",
+    "Comparing magnitude at a glance"
+  ],
+  "plainLanguageExplanation": "Picture a long, straight ruler with equally spaced tick marks, and a number written at each mark. That is a number line. Numbers get bigger as you go to the right and smaller as you go to the left, which makes it easy to see which number is bigger — the one on the right is always larger. The number 0 sits in the middle as your reference point, with positive numbers to the right and negative numbers to the left. Because the spacing between the tics is always equal, you can use the line to add and subtract: to add, you hop to the right; to subtract, you hop to the left. For example, to solve 5 + 3 you start at 5 and hop three marks right to land on 8. A number line turns 'how many bigger?' into 'how far apart?' — a movable ruler for numbers.",
+  "keyFacts": [
+    { "label": "Direction", "value": "Numbers increase to the right, decrease to the left" },
+    { "label": "Reference point", "value": "Zero separates positive (right) from negative (left) numbers" },
+    { "label": "Equal spacing", "value": "The gap between consecutive numbers is always the same" },
+    { "label": "Adding", "value": "Jump right along the line — 3 + 3 starts at 3 and lands on 6" },
+    { "label": "Subtracting", "value": "Jump left along the line — 7 − 2 starts at 7 and lands on 5" },
+    { "label": "Order", "value": "The rightmost number is always the greater number" }
+  ],
+  "whyItMatters": "The number line is a mental map for nearly all of math. It makes place value, ordering, addition, subtraction, and even negative numbers visual and physical. When you see that 7 is two jumps beyond 5, or that −3 is three jumps left of zero, abstract rows of digits become something you can actually move along.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Integer number line",
+  "tagline": "A movable ruler for numbers",
+  "didYouKnow": "The number line goes on forever in both directions — even the biggest number you can dream of still has a mark exactly one step to its right.",
+  "conditions": [
+    "Ordering numbers",
+    "Rounding",
+    "Jump counting",
+    "Negative numbers"
+  ],
+  "compareCandidateId": "place-value",
+  "compareReason": "A number line shows raw position and magnitude, while place value explains the digit structure hidden inside each marked number — comparing them shows two different ways to 'read' a number."
+}

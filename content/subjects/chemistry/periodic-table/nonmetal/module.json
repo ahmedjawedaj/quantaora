@@ -1,0 +1,109 @@
+{
+  "id": "nonmetal",
+  "subject": "chemistry",
+  "title": "Nonmetal",
+  "summary": "A nonmetal is an element that is dull, often brittle, and a poor conductor of heat and electricity. Explore the nonmetal family — gases like oxygen, brittle solids like sulfur — and where they sit on the periodic table.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "nonmetal-dull-brittle-poor-conductor",
+    "nonmetal-occupies-right",
+    "nonmetal-gases-and-brittle-solids"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "The great elemental families",
+    "component": "Nonmetal",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > The great elemental families > Nonmetal"
+  },
+  "crossReferences": [
+    {
+      "label": "Metal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Metal",
+      "note": "Nonmetals are the opposite of metals — dull versus shiny, poor versus good conductors, right side versus left side of the table."
+    },
+    {
+      "label": "Metalloid (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Metalloid",
+      "note": "Metalloids sit on the staircase between metals and nonmetals, sharing some traits with each."
+    },
+    {
+      "label": "Halogen (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Halogen",
+      "note": "The halogens are a famous nonmetal family — reactive nonmetals like fluorine and chlorine."
+    },
+    {
+      "label": "Covalent bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Covalent bond",
+      "note": "Nonmetals bond with each other by sharing electrons in covalent bonds, forming molecules like O₂ and CO₂."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > The great elemental families",
+  "compareCandidate": {
+    "label": "Nonmetal vs. metal",
+    "description": "Nonmetals are dull, often brittle, and poor conductors, and they occupy the right side of the table. Metals are shiny, malleable, conductive, and fill the left and middle. Two opposite families."
+  },
+  "parts": [
+    "Dull, non-shiny surface",
+    "Brittle solids or gases",
+    "Poor heat and electricity conduction"
+  ],
+  "processes": [
+    "Existing as gases or brittle solids at room temperature",
+    "Gaining electrons to form negative ions",
+    "Bonding with each other by sharing electrons"
+  ],
+  "plainLanguageExplanation": "A nonmetal is an element that is, basically, the opposite of a metal. While metals are shiny, nonmetals are dull — a lump of sulfur does not gleam like a bar of iron. While metals bend and stretch, many nonmetal solids are brittle — they shatter rather than bend, like a chunk of carbon (charcoal) or sulfur. And while metals conduct heat and electricity well, nonmetals are poor conductors. Their physical states are varied too: many nonmetals are gases at room temperature, like oxygen, nitrogen, and the noble gases, while others are brittle solids like sulfur and phosphorus, and one, bromine, is even a liquid. Nonmetals occupy the upper right of the periodic table, a smaller family than the metals. In chemistry, nonmetals tend to do the opposite of metals: instead of giving electrons away, they grab electrons and become negative ions, and when nonmetals bond with each other they share electrons in covalent bonds, building molecules like water and carbon dioxide.",
+  "keyFacts": [
+    {
+      "label": "Look",
+      "value": "Dull — no shiny luster"
+    },
+    {
+      "label": "Shaping",
+      "value": "Brittle solids that shatter rather than bend (when solid)"
+    },
+    {
+      "label": "Conduction",
+      "value": "Poor conductors of heat and electricity"
+    },
+    {
+      "label": "States",
+      "value": "Many are gases at room temperature (O₂, N₂); others are brittle solids like sulfur; bromine is a liquid"
+    },
+    {
+      "label": "Where they sit",
+      "value": "The upper right of the periodic table — a smaller family than the metals"
+    },
+    {
+      "label": "Bonding",
+      "value": "Tend to gain electrons (negative ions) and share electrons in covalent bonds"
+    }
+  ],
+  "whyItMatters": "Nonmetals are the life-support family: the oxygen you breathe, the nitrogen filling most of the air, and the carbon at the heart of all living things are all nonmetals. Understanding how they differ from metals explains why they form gases, why they bond by sharing electrons, and why the right side of the periodic table behaves so differently from the left.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Nonmetal",
+  "tagline": "The dull, quiet family",
+  "didYouKnow": "The air you just breathed is about 78% nitrogen and 21% oxygen — both nonmetals — meaning you are literally surrounded by this family right now.",
+  "conditions": [
+    "Respiration",
+    "Covalent bonding",
+    "Insulation"
+  ],
+  "compareCandidateId": "metal",
+  "compareReason": "Nonmetals and metals are the table's two opposite personalities — comparing their look, feel, conduction, and table position makes each family's identity obvious."
+}

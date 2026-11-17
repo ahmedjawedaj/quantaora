@@ -1,0 +1,25 @@
+{
+  "id": "plant-cell",
+  "subject": "biology",
+  "title": "Plant Cell",
+  "summary": "Explore a 3D plant cell — rotate it, cut it open, and identify the cell wall, chloroplasts, and central vacuole that set plant cells apart from animal cells.",
+  "gradeMin": 3,
+  "gradeMax": 8,
+  "skillIds": [
+    "cell-wall",
+    "cell-membrane",
+    "cytoplasm",
+    "nucleus",
+    "dna",
+    "mitochondrion",
+    "ribosome",
+    "endoplasmic-reticulum",
+    "golgi-apparatus",
+    "vacuole",
+    "chloroplast",
+    "cytoskeleton",
+    "plant-vs-animal-cell"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12
+}

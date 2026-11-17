@@ -1,0 +1,87 @@
+{
+  "id": "fraction",
+  "subject": "math",
+  "title": "Fraction",
+  "summary": "A fraction is a part of a whole — like 3/4 of a pizza. The bottom number (denominator) tells how many equal parts the whole is split into; the top number (numerator) tells how many you have. Explore fractions as equal parts of a whole and of a group.",
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "skillIds": [
+    "fraction-part-of-whole",
+    "fraction-equal-parts",
+    "fraction-part-of-group",
+    "fraction-read-write"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Fractions And Ratios",
+    "unit": "Fraction Basics",
+    "systemOrGroup": "Fractions",
+    "component": "Fraction",
+    "displayPath": "Math > Fractions And Ratios > Fraction Basics > Fractions > Fraction"
+  },
+  "crossReferences": [
+    {
+      "label": "Numerator (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Numerator",
+      "note": "The numerator is the top of the fraction — the part you count or take."
+    },
+    {
+      "label": "Denominator (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Denominator",
+      "note": "The denominator is the bottom — the number of equal parts the whole is split into."
+    },
+    {
+      "label": "Equivalent fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Equivalent fraction",
+      "note": "Different fractions can name the same amount — 1/2, 2/4, and 3/6 are equal."
+    }
+  ],
+  "belongsTo": "Fractions And Ratios > Fraction Basics > Fractions",
+  "compareCandidate": {
+    "label": "Fraction vs. whole number",
+    "description": "A whole number counts full items — 3 apples. A fraction names part of an item — 3/4 of an apple. A fraction is less than 1 when its numerator is smaller than its denominator."
+  },
+  "parts": [
+    "A whole split into equal parts",
+    "Numerator and denominator",
+    "Part of a whole vs. part of a group"
+  ],
+  "processes": [
+    "Splitting a whole into equal parts",
+    "Reading and writing fractions",
+    "Finding a fraction of a group"
+  ],
+  "plainLanguageExplanation": "A fraction describes part of a whole. When you split a pizza into 4 equal slices and eat 3, you have eaten 3/4 (three quarters) of the pizza. The number on the bottom, the denominator, counts the equal parts the whole was split into — the 4 slices. The number on top, the numerator, counts how many of those parts you are talking about — the 3 eaten. The line between them is read as 'out of'. Fractions can also describe part of a group: 3/4 of 8 balls means 6 balls. If the numerator is smaller than the denominator, the fraction is less than 1, like 3/4; equal parts is what makes a fraction honest — every piece must be the same size.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A fraction is part of a whole or part of a group" },
+    { "label": "Parts", "value": "Numerator (top) ÷ denominator (bottom)" },
+    { "label": "Example", "value": "3/4 of a pizza = 3 of 4 equal slices" },
+    { "label": "Equal parts", "value": "The whole must be split into equal-size pieces" },
+    { "label": "Less than 1", "value": "When numerator < denominator, the fraction is less than 1" },
+    { "label": "Whole", "value": "4/4 = 1 whole — all the parts put back together" }
+  ],
+  "whyItMatters": "Fractions are how we share things fairly and measure partial amounts — half a cup, three quarters of an hour, a third of a budget. Fractions underpin decimals, percents, ratios, probability, and almost all of higher math.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Fraction",
+  "tagline": "Parts of a whole",
+  "didYouKnow": "The word 'fraction' comes from the Latin 'fractus', meaning broken — a fraction is literally a broken-off piece of a whole.",
+  "conditions": [
+    "Sharing pizza or cake",
+    "Measuring ingredients",
+    "Reading time (quarter to)",
+    "Probabilities"
+  ],
+  "compareCandidateId": "equivalent-fraction",
+  "compareReason": "Two different-looking fractions can name the same amount — comparing 1/2 with 2/4 shows what equal parts really mean."
+}

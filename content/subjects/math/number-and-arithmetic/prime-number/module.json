@@ -1,0 +1,87 @@
+{
+  "id": "prime-number",
+  "subject": "math",
+  "title": "Prime Number",
+  "summary": "A prime number has exactly two factors: 1 and itself. 7 is prime; 12 is not. Explore how primes are the unbreakable building blocks of all whole numbers.",
+  "gradeMin": 4,
+  "gradeMax": 7,
+  "skillIds": [
+    "prime-exactly-two-factors",
+    "prime-building-blocks",
+    "prime-vs-composite",
+    "prime-detection"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Number Relationships",
+    "systemOrGroup": "Prime numbers",
+    "component": "Prime Number",
+    "displayPath": "Math > Number Sense And Arithmetic > Number Relationships > Prime numbers > Prime Number"
+  },
+  "crossReferences": [
+    {
+      "label": "Factors (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Factors",
+      "note": "A prime is defined by its factor count — exactly two factors."
+    },
+    {
+      "label": "Multiples (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Multiples",
+      "note": "Primes still have multiples (7, 14, 21...), but the multiples list is not what makes them prime."
+    },
+    {
+      "label": "Division (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Division",
+      "note": "Testing whether a number is prime uses division — trying smaller numbers to see if any divide evenly."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Number Relationships > Prime numbers",
+  "compareCandidate": {
+    "label": "Prime vs. composite",
+    "description": "A prime has exactly two factors (1 and itself). A composite has more — it can be broken into smaller factors. 7 is prime; 8 is composite."
+  },
+  "parts": [
+    "Exactly two factors",
+    "The Sieve of Eratosthenes",
+    "Prime factorization chains"
+  ],
+  "processes": [
+    "Detecting primes by factor testing",
+    "Sifting primes with a sieve",
+    "Expressing numbers as products of primes"
+  ],
+  "plainLanguageExplanation": "A prime number is a whole number bigger than 1 that has exactly two factors: 1 and itself. 7 is prime because only 1 and 7 divide it evenly. 8 is composite because 1, 2, 4, and 8 all divide it. One is not prime (it has just one factor) and not composite. Primes are the 'atoms' of arithmetic: every whole number bigger than 1 can be built by multiplying primes together in one unique way — 60 = 2 × 2 × 3 × 5. This is called prime factorization, and it is exactly what makes primes so important.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A whole number > 1 with exactly two factors: 1 and itself" },
+    { "label": "Examples", "value": "2, 3, 5, 7, 11, 13, 17, 19 are the first primes" },
+    { "label": "Not prime", "value": "1 is neither prime nor composite; even numbers > 2 are composite" },
+    { "label": "Smallest prime", "value": "2 is the only even prime" },
+    { "label": "Unique build", "value": "Every number has ONE unique prime factorization (60 = 2×2×3×5)" },
+    { "label": "Used in", "value": "Simplifying fractions, code security (cryptography)" }
+  ],
+  "whyItMatters": "Primes are the building blocks of every whole number. They drive prime factorization, which simplifies fractions, finds least common multiples, and unlocks the cryptography that keeps passwords and online messages secure. Knowing primes helps you see the structure inside numbers.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Prime number",
+  "tagline": "Numbers with exactly two factors",
+  "didYouKnow": "There is no largest prime — mathematicians proved the primes go on forever. Today the biggest known primes have millions of digits and power the security of your passwords.",
+  "conditions": [
+    "Prime factorization",
+    "Simplifying fractions",
+    "Finding common denominators",
+    "Coding and security"
+  ],
+  "compareCandidateId": "factors",
+  "compareReason": "Primes are defined by factors (exactly two), so comparing prime vs. factor-count shows how the same idea of factors sorts all numbers into prime or composite."
+}

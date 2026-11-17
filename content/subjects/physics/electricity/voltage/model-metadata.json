@@ -1,0 +1,120 @@
+{
+  "id": "voltage",
+  "componentId": "voltage",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/voltage/voltage.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/voltage.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.2,
+      4.2
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Battery bank and cells",
+    "Wire loop",
+    "Voltmeter",
+    "Bulb"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cells",
+      "label": "Battery Bank",
+      "conceptId": "voltage-pumps-charge",
+      "position": [
+        -0.8,
+        0.5,
+        0
+      ],
+      "description": "The stack of 1.5 V cells whose push the voltmeter reads.",
+      "colorHint": "Warm cell tower in a holder.",
+      "color": "#D96B5A",
+      "function": "Stores and delivers the voltage push."
+    },
+    {
+      "id": "hs-add-cell",
+      "label": "Add Cell",
+      "conceptId": "voltage-dictates-current",
+      "position": [
+        -1.1,
+        0.9,
+        0.2
+      ],
+      "description": "Tap to add another 1.5 V cell to the stack; volts and bulb brightness climb.",
+      "colorHint": "A small upward arrow chip above the bank.",
+      "color": "#7FA86A",
+      "function": "Raises the battery bank's total voltage."
+    },
+    {
+      "id": "hs-remove-cell",
+      "label": "Remove Cell",
+      "conceptId": "voltage-dictates-current",
+      "position": [
+        -1.1,
+        0.2,
+        0.2
+      ],
+      "description": "Tap to take the last cell out; the voltmeter and bulb drop together.",
+      "colorHint": "A small downward arrow chip below the bank.",
+      "color": "#6B85A8",
+      "function": "Lowers the battery bank's total voltage."
+    },
+    {
+      "id": "hs-voltmeter",
+      "label": "Voltmeter",
+      "conceptId": "voltage-unit-volt",
+      "position": [
+        -1.5,
+        1.0,
+        0.1
+      ],
+      "description": "The instrument straddling the bank's two ends, reading volts.",
+      "colorHint": "Round pale-green gauge with two probes.",
+      "color": "#7FA86A",
+      "function": "Reads the potential difference in volts."
+    },
+    {
+      "id": "hs-loop",
+      "label": "Wire Loop",
+      "conceptId": "voltage-the-push",
+      "position": [
+        0.4,
+        0.2,
+        0
+      ],
+      "description": "The wire path the push drives current around.",
+      "colorHint": "Cool clear-grey loop from bank to bulb and back.",
+      "color": "#6B85A8",
+      "function": "Carries the current the voltage pushes."
+    },
+    {
+      "id": "hs-bulb",
+      "label": "Bulb",
+      "conceptId": "voltage-dictates-current",
+      "position": [
+        1.4,
+        0.7,
+        0.1
+      ],
+      "description": "Glows brighter with every added volt — the visible effect of the push.",
+      "colorHint": "Small clear bulb whose warm glow grows.",
+      "color": "#D9A441",
+      "function": "Shows the current's response to voltage."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. A small battery bank tower, a cool wire loop, a round voltmeter, and a bulb whose glow scales with added cells.",
+  "materialNotes": "Metallic=0, roughness ~0.5. Cells warm red/ochre; voltmeter face pale green; bulb glass clear with warm emissive-only-in-glow kept dim.",
+  "assetBrief": "SUBJECT: voltage as the push driving a bulb on a simple loop.\n\nGEOMETRY: a holder for up to six 1.5 V cells; a wire loop to a bulb; a voltmeter across the bank; add/remove chips.\n\nINTERACTION: add/remove chips slide cells; voltmeter = cells × 1.5 V; bulb glow and simulated ammeter rise with volts.\n\nNAMED NODES: BankHolder, CellStack, AddChip, RemoveChip, Voltmeter, LoopWire, BulbGlow. 7-10k tris.",
+  "visual": {
+    "shape": "voltage-meter"
+  }
+}

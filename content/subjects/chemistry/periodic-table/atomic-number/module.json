@@ -1,0 +1,103 @@
+{
+  "id": "atomic-number",
+  "subject": "chemistry",
+  "title": "Atomic Number",
+  "summary": "The atomic number is the number of protons in an element's atoms — the single number that names the element and gives it its box on the periodic table. Explore what it counts and why it never changes.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "atomic-number-counts-protons",
+    "atomic-number-identifies-element",
+    "atomic-number-orders-table"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "The numbers on an element card",
+    "component": "Atomic Number",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > The numbers on an element card > Atomic Number"
+  },
+  "crossReferences": [
+    {
+      "label": "Proton (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Proton",
+      "note": "The atomic number IS the proton count — every atom of an element has exactly this many protons in its nucleus."
+    },
+    {
+      "label": "Element (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Element",
+      "note": "Each element on the periodic table is defined by its unique atomic number — no two elements share one."
+    },
+    {
+      "label": "Atomic mass (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Atomic mass",
+      "note": "The atomic number and the atomic mass are both printed on an element card, but they count different things — protons versus the average total mass."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > The numbers on an element card",
+  "compareCandidate": {
+    "label": "Atomic number vs. atomic mass",
+    "description": "The atomic number counts protons — a clean whole number that names the element. The atomic mass is an average mass of all the element's atoms, including neutrons, so it is usually a decimal. Same card, two very different numbers."
+  },
+  "parts": [
+    "Counts protons",
+    "Identifies the element",
+    "Orders the periodic table"
+  ],
+  "processes": [
+    "Assigning each element a unique box on the table",
+    "Keeping element identity fixed through reactions",
+    "Pairing with atomic mass on the element card"
+  ],
+  "plainLanguageExplanation": "The atomic number is the number of protons in an element's atoms. It is the most important number in chemistry because it is the element's identity: an element with atomic number 6 is carbon, with atomic number 8 it is oxygen, with 79 it is gold. Every element has its own unique atomic number, and no two elements share one. The periodic table is organized using this number — the elements are arranged from left to right in order of increasing atomic number, starting with hydrogen (1) and running up through the table. On each element's card in the periodic table, the atomic number is the small number usually printed at the top. It is also the number of electrons in a neutral atom of the element, because a neutral atom has equal protons and electrons. The atomic number never changes during chemical reactions — atoms can lose or gain electrons and become ions, but they keep their protons, so they keep their identity.",
+  "keyFacts": [
+    {
+      "label": "What it counts",
+      "value": "The number of protons in an element's atoms"
+    },
+    {
+      "label": "Identity",
+      "value": "It is the element's unique ID — atomic number 6 is carbon, 8 is oxygen"
+    },
+    {
+      "label": "Order",
+      "value": "Elements are listed on the table in order of increasing atomic number"
+    },
+    {
+      "label": "Electrons",
+      "value": "In a neutral atom, the atomic number also equals the number of electrons"
+    },
+    {
+      "label": "Fixed",
+      "value": "It never changes in chemical reactions — protons stay put"
+    },
+    {
+      "label": "Examples",
+      "value": "Hydrogen = 1, Carbon = 6, Oxygen = 8, Sodium = 11, Gold = 79"
+    }
+  ],
+  "whyItMatters": "The atomic number is the key that unlocks the entire periodic table. Once you know that each element is defined by its proton count and that the table is arranged by that count, you can find any element, predict whether atoms of the same kind are truly the same, and understand why the table's layout works the way it does.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Atomic number (Z)",
+  "tagline": "The element's identity number",
+  "didYouKnow": "Because the atomic number counts protons and the periodic table is ordered by it, element 118, oganesson, has 118 protons — and every new element discovered is simply the next number up.",
+  "conditions": [
+    "Element identity",
+    "Periodic table order",
+    "Neutral atom electron count"
+  ],
+  "compareCandidateId": "atomic-mass",
+  "compareReason": "Both numbers sit on every element card, but the atomic number is a clean whole proton count that names the element, while atomic mass is a decimal average that includes neutrons — comparing them shows what each number really means."
+}

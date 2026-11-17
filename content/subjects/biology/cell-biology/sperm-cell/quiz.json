@@ -1,0 +1,53 @@
+{
+  "componentId": "sperm-cell",
+  "questions": [
+    {
+      "prompt": "What is the main job of the tail (flagellum) of a sperm cell?",
+      "options": [
+        "To store the cell's genetic material",
+        "To propel the sperm forward by whipping back and forth",
+        "To produce the energy used by the whole cell",
+        "To break through the egg's outer coating"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tail's job is movement — it whips and rotates to push the sperm forward. It doesn't make its own energy (that's the midpiece's job) or store DNA (that's the head's job); it just uses the power it's given.",
+      "misconception": "Learners often lump all three parts together as 'the moving parts,' assuming the tail must also generate its own energy or carry DNA, when each part actually has one specialized job."
+    },
+    {
+      "prompt": "Why does the midpiece contain so many tightly packed mitochondria?",
+      "options": [
+        "To store the sperm's DNA safely",
+        "To generate the energy (ATP) needed to power the tail's movement",
+        "To produce the enzymes used to penetrate the egg",
+        "To help the sperm float on fluid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mitochondria convert nutrients into ATP, the energy the tail burns to whip back and forth. Placing them right next to the tail keeps the fuel supply close to where it's used, minimizing how far that energy has to travel.",
+      "misconception": "Some learners assume mitochondria are found throughout the whole cell equally, missing that their concentration in the midpiece is a deliberate design that puts fuel production right beside the tail that needs it."
+    },
+    {
+      "prompt": "What is unique about the number of chromosomes in a sperm cell compared to most other cells in the body?",
+      "options": [
+        "It has twice as many chromosomes as a normal body cell",
+        "It has exactly half the usual number of chromosomes (it's haploid)",
+        "It has no chromosomes at all",
+        "It has the same number of chromosomes as any other body cell"
+      ],
+      "correctIndex": 1,
+      "explanation": "A sperm cell is haploid, meaning it carries half the normal chromosome number (23 instead of 46). When it combines with an egg cell (also haploid) during fertilization, the resulting cell gets the full, normal number back.",
+      "misconception": "A common mix-up is assuming every cell in the body has the same full chromosome set, which would mean a new organism ends up with double the normal amount after fertilization — sex cells are the deliberate exception that keeps the number stable across generations."
+    },
+    {
+      "prompt": "What does the acrosome, located in the sperm's head, actually do?",
+      "options": [
+        "It powers the tail's whipping motion",
+        "It stores backup energy for long swims",
+        "It contains enzymes that help the sperm break through the egg's outer coating",
+        "It holds the sperm's supply of mitochondria"
+      ],
+      "correctIndex": 2,
+      "explanation": "The acrosome is a cap of enzymes sitting at the front of the head. When the sperm reaches an egg, it releases those enzymes to digest through the egg's protective outer layer, allowing fertilization to happen.",
+      "misconception": "Learners sometimes assume anything at the 'front' of a moving cell must be for propulsion or energy, confusing the acrosome's chemical role with the tail's mechanical one or the midpiece's energy role."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "componentId": "protozoa",
+  "terms": [
+    {
+      "term": "Protozoan",
+      "conceptId": "protozoa-single-celled",
+      "hotspotId": "hs-amoeba",
+      "definition": "A single-celled living organism with a true nucleus, larger and more active than a bacterium.",
+      "function": "A complete living organism in one cell that can move and eat.",
+      "whereItIs": "In ponds, oceans, soil, and inside other living things.",
+      "whyItMatters": "It is the simplest 'animal-like' cell in the microbial world.",
+      "quizId": "protozoa-q-cell"
+    },
+    {
+      "term": "Flagellum",
+      "conceptId": "protozoa-move",
+      "hotspotId": "hs-flagellum",
+      "definition": "A long whip-like tail that some protozoa use to swim.",
+      "function": "Whips back and forth to move the cell through water.",
+      "whereItIs": "A tail-like structure extending from some protozoa.",
+      "whyItMatters": "It is one way a protozoan can travel and hunt.",
+      "quizId": "protozoa-q-move"
+    },
+    {
+      "term": "Pseudopod",
+      "conceptId": "protozoa-move",
+      "hotspotId": "hs-amoeba",
+      "definition": "A temporary 'false foot' that an amoeba stretches out to move and capture food.",
+      "function": "Lets the amoeba slide forward and pull in food.",
+      "whereItIs": "Formed at the edge of an amoeba as it flows.",
+      "whyItMatters": "It is how an amoeba is able to move and feed.",
+      "quizId": "protozoa-q-eat"
+    },
+    {
+      "term": "Food vacuole",
+      "conceptId": "protozoa-eat",
+      "hotspotId": "hs-food",
+      "definition": "The small sac inside a protozoan that holds the food it has captured.",
+      "function": "Holds and digests the food the cell swallowed.",
+      "whereItIs": "Inside the cell body of the protozoan.",
+      "whyItMatters": "It is the way a single-celled protozoan digests what it is eaten.",
+      "quizId": "protozoa-q-eat"
+    },
+    {
+      "term": "Nucleus",
+      "conceptId": "protozoa-nucleus",
+      "hotspotId": "hs-nucleus",
+      "definition": "The true nucleus that holds the genetic material of a protozoan.",
+      "function": "Stores the cell's genetic instructions.",
+      "whereItIs": "Inside the cell in the center.",
+      "whyItMatters": "The true nucleus is what separates a protozoan from a bacterium.",
+      "quizId": "protozoa-q-nucleus"
+    }
+  ]
+}

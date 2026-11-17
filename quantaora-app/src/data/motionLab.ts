@@ -1,0 +1,81 @@
+import type { ComponentContent } from './types'
+
+export const motionLab: ComponentContent = {
+  id: 'motion-lab',
+  name: 'Motion Lab',
+  scientificName: 'F = ma',
+  subject: 'physics',
+  branch: 'Mechanics',
+  system: 'Newtonian Motion',
+  model: '',
+  tagline: 'Force, mass, and friction in motion',
+  summary: 'A cart on a track, pushed by a force you control, slowed by friction you control. Watch position and velocity respond in real time.',
+  keyFacts: [
+    { label: 'Position', value: '0 m' },
+    { label: 'Velocity', value: '0 m/s' },
+    { label: 'Applied force', value: '0 N' },
+    { label: 'Mass', value: '5 kg' },
+    { label: 'Friction', value: '0.1' },
+    { label: 'Net acceleration', value: '0 m/s²' },
+  ],
+  whyItMatters: "Newton's second law, F = ma, is exactly what this lab simulates: the net force divided by mass gives you the cart's acceleration at every instant.",
+  didYouKnow: 'Friction always opposes motion — increase it enough and even a strong push will only inch the cart forward before it stops.',
+  belongsTo: ['Newtonian Motion', 'Mechanics', 'Physics'],
+  conditions: [],
+  // No second live Mechanics component exists yet to compare against.
+  compareCandidate: '',
+  compareReason: '',
+  hotspots: [],
+  lesson: {
+    steps: [
+      { title: 'Position and distance', body: "The cart's position is where it is right now, measured from the center mark. Distance is how far it has traveled, regardless of direction." },
+      { title: 'Velocity vs. speed', body: 'Speed is just how fast the cart moves. Velocity adds direction — positive means moving right, negative means moving left.' },
+      { title: 'Force and acceleration', body: 'Push the cart with a force, and Newton\'s second law (F = ma) says the acceleration equals that force divided by the mass.' },
+      { title: 'Friction fights back', body: 'Friction always opposes motion. With the friction slider up, a chunk of your applied force goes into fighting friction instead of speeding up the cart.' },
+      { title: 'Read the graphs', body: 'The position-time graph curves as the cart speeds up. The velocity-time graph is straight while the net force stays constant — a direct picture of constant acceleration.' },
+    ],
+    predictionPrompt: 'Before you press run: if you double the mass but keep the same force, will the cart accelerate faster or slower?',
+    practiceItem: 'Set force to 15 N, mass to 5 kg, and friction to 0.1, then run the simulation and read the velocity after 2 seconds.',
+    checkpoint: 'A 4-question force, mass, and friction check.',
+  },
+  quiz: [
+    {
+      prompt: "According to Newton's second law, what happens to acceleration if you double the mass while keeping force the same?",
+      options: ['It doubles', 'It stays the same', 'It is cut in half', 'It becomes zero'],
+      correctIndex: 2,
+      explanation: 'Since a = F/m, doubling the mass while keeping force constant cuts the acceleration in half.',
+      misconception: "It's easy to assume more mass means more acceleration, but mass actually resists acceleration — that's the whole point of F = ma.",
+    },
+    {
+      prompt: 'What does friction do to a moving cart?',
+      options: [
+        'Speeds it up',
+        'Opposes its motion, slowing it down',
+        'Has no effect at all',
+        'Only affects mass, not velocity',
+      ],
+      correctIndex: 1,
+      explanation: 'Friction acts opposite to the direction of motion, working against whatever force is pushing the cart.',
+      misconception: "Since friction depends on surfaces touching, it's easy to think of it as a fixed 'wall' rather than a force that actively opposes movement.",
+    },
+    {
+      prompt: 'If the applied force exactly equals the friction force, what happens to a cart already at rest?',
+      options: [
+        'It accelerates quickly',
+        'It stays at rest — the net force is zero',
+        'It moves backward',
+        'It moves at constant high speed',
+      ],
+      correctIndex: 1,
+      explanation: 'When applied force and friction cancel out, the net force is zero, so by F = ma, acceleration is also zero — the cart stays still.',
+      misconception: "It's tempting to think 'a force is being applied, so it must move' — but what matters is the net force after friction, not the applied force alone.",
+    },
+    {
+      prompt: 'On a velocity-time graph, what does a straight, tilted line indicate?',
+      options: ['Zero velocity', 'Constant acceleration', 'Changing acceleration', 'Constant position'],
+      correctIndex: 1,
+      explanation: 'A straight line on a velocity-time graph means velocity is changing at a steady rate — that steady rate is constant acceleration.',
+      misconception: 'It\'s easy to confuse a straight line on a velocity-time graph with "constant velocity," but constant velocity would actually be a flat, horizontal line.',
+    },
+  ],
+}

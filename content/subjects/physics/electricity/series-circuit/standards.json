@@ -1,0 +1,26 @@
+{
+  "componentId": "series-circuit",
+  "standards": [
+    {
+      "standardId": "4-PS3-2",
+      "standard": "Energy Transfer",
+      "description": "Electric energy transfers through a complete circuit; a series loop transfers it to every component.",
+      "level": "primary",
+      "traceDetail": "The shared loop drives all three bulbs together."
+    },
+    {
+      "standardId": "MS-PS3-5",
+      "standard": "Energy and Charge Conservation",
+      "description": "Electric current through components in series is the same at all points; charge is conserved.",
+      "level": "primary",
+      "traceDetail": "Identical ammeter reads at each bulb prove the single current."
+    },
+    {
+      "standardId": "HS-PS2-5",
+      "standard": "Macroscopic Circuits",
+      "description": "Circuit current and voltage division follow series topology; a break anywhere stops the loop.",
+      "level": "primary",
+      "traceDetail": "Removing bulb B opens the loop, showing the series survival rule."
+    }
+  ]
+}

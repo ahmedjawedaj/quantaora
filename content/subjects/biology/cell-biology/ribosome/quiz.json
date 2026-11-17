@@ -1,0 +1,65 @@
+{
+  "componentId": "ribosome",
+  "questions": [
+    {
+      "id": "rib-q-job",
+      "conceptId": "protein-building",
+      "hotspotId": "hs-large-subunit",
+      "prompt": "What is the main job of the ribosome?",
+      "options": [
+        "To build proteins by linking amino acids",
+        "To store the cell's DNA",
+        "To release energy from food",
+        "To hold water for the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ribosome is the protein builder. It reads the instruction and links amino acids together to make a protein.",
+      "misconception": "Storing DNA is the nucleus's job, and energy comes from the mitochondrion. The ribosome specializes in building protein."
+    },
+    {
+      "id": "rib-q-any",
+      "conceptId": "reads-instructions",
+      "hotspotId": "hs-read",
+      "prompt": "What does the ribosome read to know which protein to build?",
+      "options": [
+        "A coded message copied from the DNA",
+        "The cell membrane",
+        "Waste molecules",
+        "Water levels"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ribosome reads a copy of an instruction made from the DNA, called a message, which tells it the order of amino acids.",
+      "misconception": "The ribosome does not read the DNA itself - it reads a portable copy that leaves the nucleus."
+    },
+    {
+      "id": "rib-q-amino",
+      "conceptId": "amino-acid-linking",
+      "hotspotId": "hs-join",
+      "prompt": "What does the ribosome link together to build a protein?",
+      "options": [
+        "Amino acids",
+        "Lipids",
+        "Simple sugars",
+        "Metal atoms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Proteins are chains of amino acids, and the ribosome is the machine that links them in the right order.",
+      "misconception": "Some learners guess sugars or fats, but those build other things. Proteins are specifically chains of amino acids."
+    },
+    {
+      "id": "rib-q-anywhere",
+      "conceptId": "protein-building",
+      "hotspotId": "hs-small-subunit",
+      "prompt": "Where can ribosomes be found in a cell?",
+      "options": [
+        "Floating free or attached to the rough ER",
+        "Only inside the nucleus",
+        "Only in the cell wall",
+        "Only in the vacuole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ribosomes either float freely in the cytoplasm or clamp onto the rough endoplasmic reticulum, which then helps package their proteins.",
+      "misconception": "Ribosomes work in the cytoplasm, not locked in the nucleus - and only plant cells have a cell wall."
+    }
+  ]
+}

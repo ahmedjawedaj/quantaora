@@ -1,0 +1,104 @@
+{
+  "id": "population",
+  "componentId": "population",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/ecology/population/population.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/ecology/population.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Same species",
+    "Same area",
+    "Growth arrow",
+    "Limiting factors"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-pop-group",
+      "label": "Group of one species",
+      "conceptId": "same-species-group",
+      "position": [
+        0.0,
+        0.2,
+        0.15
+      ],
+      "description": "Several individuals of the same species together in one area.",
+      "color": "#D98A6A",
+      "function": "A group of the same kind of organism.",
+      "positionHint": "The whole group."
+    },
+    {
+      "id": "hs-grow",
+      "label": "Growth",
+      "conceptId": "population-growth-shrink",
+      "position": [
+        0.3,
+        0.1,
+        0.1
+      ],
+      "description": "The population getting larger.",
+      "color": "#7FA874",
+      "function": "More births/arrivals than deaths/departures.",
+      "positionHint": "An upward arrow."
+    },
+    {
+      "id": "hs-limit",
+      "label": "Limiting factors",
+      "conceptId": "population-limiting-factors",
+      "position": [
+        -0.3,
+        0.0,
+        0.2
+      ],
+      "description": "Food, water, space, and disease that cap the size.",
+      "color": "#D9A441",
+      "function": "Set limits on how big a population can get.",
+      "positionHint": "Small resource markers."
+    },
+    {
+      "id": "hs-area",
+      "label": "Same area",
+      "conceptId": "same-species-group",
+      "position": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "description": "The shared place where the group lives.",
+      "color": "#6B85A8",
+      "function": "Defines where the population is found.",
+      "positionHint": "The ground area beneath the group."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The scene reads as a calm stylized diorama - simplified, clean shapes with a restrained warm-paper and muted-green palette, not cartoon, not cluttered. COLOR IS RESTRAINED: each subject is a muted near-paper shade; strong saturated color is reserved entirely for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a stylized diorama of a population - a cluster of identical simple organisms (e.g., small bird shapes) gathered in one patch of ground. Around the cluster: an upward growth arrow, small resource markers (a food dot, water drop, space tile), and a boundary ring showing the shared area. Warm off-white background, muted, no glow. Named nodes: OrganismCluster, GrowthArrow, FoodMarker, WaterMarker, SpaceTile, AreaRing. Budget 8-12k.",
+  "visual": {
+    "shape": "population-cluster"
+  }
+}

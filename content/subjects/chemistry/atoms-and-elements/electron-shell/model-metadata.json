@@ -1,0 +1,89 @@
+{
+  "id": "electron-shell",
+  "componentId": "electron-shell",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/atoms-and-elements/electron-shell/electron-shell.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/atoms-and-elements/electron-shell.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Sodium atom with shells",
+    "Fill order",
+    "Reactivity"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-shell-layers",
+      "label": "The shells",
+      "conceptId": "shell-layer-around-nucleus",
+      "position": [
+        0.6,
+        -0.55,
+        0
+      ],
+      "description": "The two ring layers around the nucleus are the electron shells — layers of space at fixed distances where electrons orbit.",
+      "positionHint": "The two concentric translucent rings around the sodium nucleus.",
+      "color": "#D9A441",
+      "function": "Shows the shell layers around the nucleus."
+    },
+    {
+      "id": "hs-shell-inner",
+      "label": "Inner shell",
+      "conceptId": "shell-holds-maximum",
+      "position": [
+        0.35,
+        0.25,
+        0
+      ],
+      "description": "The shell closest to the nucleus holds at most 2 electrons. It fills first, before the outer shell.",
+      "positionHint": "The inner ring with its two small electron dots.",
+      "color": "#6B85A8",
+      "function": "Shows the innermost, first-filled shell."
+    },
+    {
+      "id": "hs-shell-outer",
+      "label": "Outermost shell",
+      "conceptId": "shell-outermost-bonds",
+      "position": [
+        1.1,
+        0.3,
+        0
+      ],
+      "description": "The outer shell holds the valence electrons. Sodium's single outer electron makes it eager to bond — this shell decides the chemistry.",
+      "positionHint": "The outer ring with its single electron dot.",
+      "color": "#7FA86A",
+      "function": "Shows the outermost shell that drives bonding."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A sodium atom floats centered with two clear shell rings, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Nucleus: soft muted violet; shell rings: thin translucent hairline circles; inner electrons: small dim teal dots; outer electron: larger, brighter teal. Strong saturated color is reserved for the small flat hotspot dots (amber / slate / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Nucleus: soft muted violet matte, roughness ~0.5. Shell rings: translucent hairline circles, alpha ~0.25. Inner electrons: small dim teal dots, roughness ~0.5. Outer electron: larger brighter teal dot, roughness ~0.4. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a sodium atom with its electron shells, built to be read as 'organized layers of electrons — the outer layer does the chemistry.' Three procedural layers, all clean primitives:\n\n1) MAIN: a ball model of a sodium atom — soft muted violet nucleus (radius ~0.5) at center, two thin translucent hairline shell rings at radii ~0.9 (inner) and ~1.4 (outer). Two small dim teal electron dots (radius ~0.06) on the inner ring; ONE larger brighter teal electron dot (radius ~0.09) on the outer ring. Rings are full circles in the equatorial plane.\n\n2) FILL ORDER (toggleable layer): a small dim dot appears on the inner ring and the app animates electrons filling inner positions first (2 dots), then the outer dot appearing last — showing inner-first filling.\n\n3) REACTIVITY (toggleable layer): a soft highlight rings the outer electron while a small calm neon icon (a full outer shell of 8 dots) floats beside the atom for contrast — reactive lonely electron versus inert full shell.\n\nCamera: framed so both shells and the nucleus fit with negative space; auto-rotate default. Budget 5-9k triangles. Named nodes: SodiumNucleus, ShellRing_Inner, ShellRing_Outer, InnerElectrons_02, OuterElectron_01, NeonCompareIcon, NeonShellDots_08. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "shell-layers"
+  }
+}

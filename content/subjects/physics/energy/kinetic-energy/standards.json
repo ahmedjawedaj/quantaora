@@ -1,0 +1,26 @@
+{
+  "componentId": "kinetic-energy",
+  "standards": [
+    {
+      "standardId": "PS3.A",
+      "standard": "Definitions of Energy",
+      "description": "The faster an object moves, the more kinetic energy it has, and the more work it can do than at a slower speed.",
+      "level": "primary",
+      "traceDetail": "Moving cart holds kinetic energy that rises with its speed."
+    },
+    {
+      "standardId": "MS-PS3-1",
+      "standard": "Kinetic Energy and Mass/Speed",
+      "description": "Construct and interpret graphical displays of data to describe the relationships of kinetic energy to the mass of an object and to the speed of an object.",
+      "level": "primary",
+      "traceDetail": "Scale model of mass and speed sliders mapping to kinetic energy bar; KE = ½mv² with squared-speed emphasis."
+    },
+    {
+      "standardId": "MATH-6-EE.A.1",
+      "standard": "Exponents and Order of Operations",
+      "description": "Write and evaluate numerical expressions involving whole-number exponents.",
+      "level": "support",
+      "traceDetail": "Speed² in the KE example forms exponent-based evaluation."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "mode",
+  "subject": "math",
+  "title": "Mode",
+  "summary": "The mode is the value that appears most often in a dataset. Explore how to spot the most frequent value — and what to do when there is a tie or no mode at all.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "mode-definition",
+    "mode-find",
+    "mode-ties",
+    "mode-categorical"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Statistics",
+    "systemOrGroup": "Summarizing data",
+    "component": "Mode",
+    "displayPath": "Math > Data And Statistics > Statistics > Summarizing data > Mode"
+  },
+  "crossReferences": [
+    {
+      "label": "Data point (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Data point",
+      "note": "The mode is the most repeated data point value."
+    },
+    {
+      "label": "Mean (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Mean",
+      "note": "Unlike the mean, the mode needs no arithmetic — just counting."
+    },
+    {
+      "label": "Bar chart (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Bar chart",
+      "note": "On a bar chart the mode is the tallest bar."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Statistics > Summarizing data",
+  "compareCandidate": {
+    "label": "Mode vs. mean",
+    "description": "The mode is the most frequent value (pure counting); the mean is the fair-share value (pure arithmetic). Mode works even for words and colors."
+  },
+  "parts": [
+    "The values",
+    "The repeats",
+    "The winner"
+  ],
+  "processes": [
+    "Counting how often each value appears",
+    "Handling ties and no-mode cases"
+  ],
+  "plainLanguageExplanation": "The mode is the value that shows up most often in a dataset. Count how many times each value appears and the one with the highest count wins. In 2, 3, 3, 3, 5, the mode is 3. Two values tied for most make two modes (bimodal); if every value appears the same number of times, there is no mode. Unlike the mean and median, the mode works for any kind of data — it can be a number, a color, or a food, which makes it perfect for survey answers.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The most frequent value" },
+    { "label": "How to find it", "value": "Count each value's appearances" },
+    { "label": "Example", "value": "2, 3, 3, 3, 5 → mode 3" },
+    { "label": "Ties", "value": "Two winners = bimodal" },
+    { "label": "None", "value": "All values equal count = no mode" },
+    { "label": "Special", "value": "Works for words and categories too" }
+  ],
+  "whyItMatters": "Retailers care about the mode (best-selling size), survey makers care about the mode (most common answer), and city planners care about the mode (busiest hour). It answers the 'most popular' question no other statistic can.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Mode",
+  "tagline": "The most frequent value",
+  "didYouKnow": "'Mode' and 'modern' share a root from Latin 'modus' — meaning measure, manner, or way. A mode is 'the way it most commonly is'.",
+  "conditions": [
+    "Customer favorites",
+    "Survey answers",
+    "Most common size",
+    "Peak-hour analysis"
+  ],
+  "compareCandidateId": "mean",
+  "compareReason": "Students expect every summary to need arithmetic — comparing the count-based mode with the arithmetic mean shows the mode works for non-numbers too."
+}

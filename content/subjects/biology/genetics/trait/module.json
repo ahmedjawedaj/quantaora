@@ -1,0 +1,125 @@
+{
+  "id": "trait",
+  "name": "Trait",
+  "subject": "biology",
+  "branch": "Genetics",
+  "system": "Genes and Inheritance",
+  "title": "Trait",
+  "tagline": "The visible answer to a hidden genetic question",
+  "summary": "A trait is an observable characteristic of a living thing — like a pea plant's flower color, height, or leaf size. Traits come from genes, but the connection isn't always simple: the same genotype can look different depending on the environment, and \"inherited\" means something specific — passed from parent to offspring through alleles, not just genetic. Explore genotype, phenotype, inherited trait, and environmental influence on a single pea plant, and see why two plants that look alike can carry different hidden instructions.",
+  "gradeMin": 5,
+  "gradeMax": 9,
+  "skillIds": [
+    "genotype",
+    "phenotype",
+    "inherited-trait",
+    "environmental-influence",
+    "gene",
+    "allele",
+    "dominant-allele",
+    "recessive-allele"
+  ],
+  "type": "model",
+  "estimatedMinutes": 14,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "Genes and Inheritance",
+    "systemOrGroup": "Trait (heritable characteristic)",
+    "component": "Trait",
+    "displayPath": "Biology > Genetics > Genes and Inheritance > Trait"
+  },
+  "crossReferences": [
+    {
+      "label": "Flower, Stem, Seed (Plants)",
+      "branch": "plants",
+      "structure": "Flower / Stem / Seed",
+      "note": "This component's 3D model is the same pea plant whose flower, stem, and seed pod are covered structurally in the Plants branch — here they're re-used as the visible carriers of phenotype, environmental influence, and inherited trait rather than as plant anatomy."
+    },
+    {
+      "label": "Evolution (not yet sourced)",
+      "branch": "evolution",
+      "note": "Differences in traits within a population are the raw material natural selection acts on — but the Evolution branch is marked \"detailed: false\" in the taxonomy and has no transcribed content yet. Flagging this relationship rather than inventing Evolution-branch facts here; revisit once that branch is sourced."
+    }
+  ],
+  "belongsTo": "Genetics > Genes and Inheritance > Trait (heritable characteristic)",
+  "belongsToPath": ["Genes and Inheritance", "Genetics", "Biology"],
+  "compareCandidate": {
+    "label": "Genotype vs. Phenotype",
+    "description": "Genotype and phenotype describe the same trait from two different angles. Genotype is the hidden pair of alleles an organism carries — for this pea plant's flower color, that might be PP, Pp, or pp. Phenotype is what actually shows up when you look at the plant — here, either purple or white flowers. The catch is that genotype doesn't map to phenotype in a simple one-to-one way: a PP plant and a Pp plant look identical (both purple), because the single dominant P allele is enough to mask the recessive p allele in Pp. You cannot reliably tell an organism's full genotype just by looking at its phenotype — which is exactly why a Punnett square, which works from genotypes, predicts offspring more reliably than guessing from a parent's appearance alone."
+  },
+  "compareCandidateId": "genotype-vs-phenotype",
+  "compareReason": "Genotype and phenotype are the two concepts learners confuse most in this component — comparing them directly, using the same plant and the same PP/Pp/pp example, is the fastest way to make the distinction stick.",
+  "parts": [
+    "Genotype",
+    "Phenotype",
+    "Inherited trait",
+    "Environmental influence"
+  ],
+  "processes": [
+    "Inheritance",
+    "Punnett squares"
+  ],
+  "plainLanguageExplanation": "A trait is a feature of a living thing that you can observe or measure — like a pea plant's flower color, its height, or how big its leaves grow. Every trait connects back to genes, tiny instructions written in DNA, but the connection isn't always a straight line. This component uses one pea plant to show four related ideas at once: its genotype (the hidden pair of alleles it carries), its phenotype (the purple flower you can actually see), the fact that its seed pod carries those alleles forward as an inherited trait, and the way its own leaves show environmental influence — the same genetic instructions producing a bigger leaf on the sunny side of the stem and a smaller one on the shaded side. Think of genotype as the hidden instruction, phenotype as the visible answer, inherited trait as the act of handing that instruction to the next generation, and environmental influence as everything outside the genes that can still change how the answer turns out.",
+  "keyFacts": [
+    { "label": "Definition", "value": "An observable characteristic of an organism, produced by its genes, its environment, or both" },
+    { "label": "Source", "value": "Traits are controlled by genes located on chromosomes inside the nucleus of a cell" },
+    { "label": "Genotype vs. phenotype", "value": "Genotype is the allele pair an organism carries; phenotype is the physical trait that actually shows up" },
+    { "label": "What makes a trait \"inherited\"", "value": "A trait is inherited specifically when its alleles are passed from parent to offspring through reproduction — not simply because it happens to be genetic" },
+    { "label": "Dominant and recessive", "value": "When two different alleles are present (e.g. P and p), one can mask the other in the resulting phenotype — Pp still looks purple, the same as PP" },
+    { "label": "Same genotype, different phenotype", "value": "Environmental conditions such as light, water, and nutrients can change how a trait is expressed even when the underlying genotype stays identical — as seen in this plant's own sun-side vs. shade-side leaves" },
+    { "label": "Not all traits are simple", "value": "Many traits, such as human height or skin tone, are influenced by many genes working together plus environmental factors, not just one gene pair — unlike the single-gene pea traits used in this lesson" }
+  ],
+  "whyItMatters": "Understanding traits is how scientists explain why family members and offspring resemble their parents, how doctors predict and screen for inherited conditions, how farmers and breeders improve crops and livestock, and how forensic scientists use DNA to identify individuals. Traits are also the foundation for understanding evolution: differences in traits within a population are what natural selection acts on over generations. Mendel's own pea plants — the same species modeled in this component — are the historical starting point for nearly all of modern genetics.",
+  "model": {
+    "type": "procedural-three",
+    "path": "src/features/model-viewer/scenes/biology/genetics/trait.scene.ts",
+    "note": "This component uses generated Three.js geometry (a simplified, iconographic pea plant assembled from primitives and light spline-driven bends, see model-metadata.json's assetBrief) rather than a static GLB. Spec §21's asset-strategy bucket assigns biology models to GLB/GLTF by default; see model-metadata.json's assetStrategy field for the flagged deviation rationale and what changes if this is reversed to a GLB pipeline."
+  },
+  "lesson": {
+    "steps": [
+      {
+        "title": "See it",
+        "body": "Look at the pea plant model — the same single plant this entire lesson is built around. It's carrying four ideas at once: a hidden genotype tucked inside its stem, a visible phenotype in its purple flower, an inherited trait riding in its seed pod, and a real difference in leaf size caused by environment. Rotate it slowly and notice how ordinary it looks at first glance — most of what makes a trait a trait isn't visible until you know exactly where to look."
+      },
+      {
+        "title": "Touch it",
+        "body": "Tap the Phenotype hotspot on the flower first — it's the easiest of the four to spot, because it's something you can literally see: this plant's purple flower color. Then tap Inherited Trait on the seed pod hanging from the stem, and Environmental Influence on the smaller leaves growing on the shaded side of the stem."
+      },
+      {
+        "title": "Name it",
+        "body": "Name each of the four hotspots: Genotype (the hidden PP/Pp/pp allele pair), Phenotype (the purple flower you can see), Inherited Trait (what the seed pod passes forward), and Environmental Influence (the leaf-size difference). Inherited Trait is easy to confuse with genotype and phenotype, but it names something different: not the instructions themselves (genotype) and not today's visible result (phenotype), but the act of handing those alleles from parent plant to offspring through seeds. A trait only counts as \"inherited\" when its alleles actually get passed on — a suntan or a scar can be genetic-adjacent in cause, but neither one is written into the seeds this plant produces."
+      },
+      {
+        "title": "Explain it",
+        "body": "Open the Cross-section layer to bisect the stem and reveal the genotype capsule inside — two small beads representing this plant's two alleles for flower color: one for P (dominant, purple) and one for p (recessive, white). Because P masks p, a plant with genotype Pp looks exactly as purple as a plant with genotype PP — you cannot tell them apart from the phenotype alone. Now look back at the leaves on the two sides of the stem: every leaf on this plant shares the exact same genotype, yet the leaves that caught more light grew fuller while the shaded ones stayed smaller. That's environmental influence in action — sunlight changed how a trait (leaf size) was expressed without changing a single allele underneath it."
+      },
+      {
+        "title": "Belongs to",
+        "body": "Trait belongs to Biology > Genetics > Genes and Inheritance, alongside Gene, Allele, and Chromosome — the genotype capsule you just opened sits on a chromosome inside the nucleus of every cell in this plant. Zooming out, this same pea plant model's flower, stem, and seed pod reappear as plant anatomy in the Plants branch. Zooming out further, differences in traits like flower color are the raw material natural selection acts on in evolution — a connection this app will expand once the Evolution branch is sourced."
+      },
+      {
+        "title": "Compare it",
+        "body": "Compare genotype and phenotype directly using this plant: its genotype is the hidden Pp allele pair; its phenotype is the purple flower that pair produces. A PP plant would have a different genotype but the identical purple phenotype — proof that you cannot always read an organism's full genotype just from looking at it."
+      },
+      {
+        "title": "Use it",
+        "body": "Use the Punnett square tool to cross this plant's Pp genotype with a pp (white-flowered) plant, predict the offspring genotype and phenotype ratios, then check your answer against the tool's result."
+      },
+      {
+        "title": "Review it",
+        "body": "Checkpoint: you can correctly predict offspring outcomes from two parent genotypes using a Punnett square, explain in your own words why genotype and phenotype aren't always the same thing, and describe what specifically makes a trait \"inherited\" rather than just genetic or environmental."
+      }
+    ],
+    "predictionPrompt": "Two purple-flowered pea plants are crossed, and one of their offspring grows white flowers. Since purple (P) is dominant over white (p), what must be true about both parent plants' genotypes for a white-flowered offspring to be possible — and why doesn't either parent's own purple phenotype tell you that on its own?",
+    "practiceItem": "Cross a Pp (purple) pea plant with a pp (white) pea plant using a Punnett square. List all possible offspring genotypes and the resulting phenotype ratio, then confirm your answer against the simulator's result.",
+    "checkpoint": "Checkpoint: you can predict a trait's possible outcomes from two parent genotypes using a Punnett square, explain why genotype and phenotype aren't always the same thing, and explain what makes a trait specifically \"inherited\" as opposed to environmentally influenced."
+  },
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

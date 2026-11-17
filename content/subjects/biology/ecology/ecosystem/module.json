@@ -1,0 +1,99 @@
+{
+  "id": "ecosystem",
+  "subject": "biology",
+  "title": "Ecosystem",
+  "summary": "An ecosystem is a community of living things plus the nonliving surroundings they depend on - water, soil, sunlight, and climate - all interacting as one system. Explore how living and nonliving parts work together.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "living-plus-nonliving",
+    "energy-flows-through",
+    "matter-recycled",
+    "ecosystem-size-range"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Ecosystem",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Ecosystem"
+  },
+  "crossReferences": [
+    {
+      "label": "Community (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Community",
+      "note": "The living part of an ecosystem is its community."
+    },
+    {
+      "label": "Habitat (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Habitat",
+      "note": "Each organism's habitat is the specific place within the ecosystem where it lives."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Ecosystem",
+  "compareCandidate": {
+    "label": "Ecosystem vs. habitat",
+    "description": "A habitat is one species' home - the place that species lives in. An ecosystem is the whole system: all species PLUS the nonliving surroundings in an area."
+  },
+  "parts": [
+    "Community (living)",
+    "Nonliving surroundings",
+    "Energy flow",
+    "Matter recycling"
+  ],
+  "processes": [
+    "Energy flowing from sun to plants to animals",
+    "Matter being recycled by decomposers",
+    "Living and nonliving depending on each other"
+  ],
+  "plainLanguageExplanation": "An ecosystem is everything in an area working together: all the living things (the community) plus the nonliving things around them, like water, soil, sunlight, air, and temperature. In an ecosystem, the living things depend on the nonliving parts - plants need sunlight and water, animals need plants, and decomposers recycle dead material into soil. Energy flows through the ecosystem (from sun to plants to animals), and matter is recycled. An ecosystem can be as small as a pond or a rotting log, or as large as a whole desert or forest.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "A community plus its nonliving surroundings"
+    },
+    {
+      "label": "Living part",
+      "value": "All plants, animals, fungi, and microbes"
+    },
+    {
+      "label": "Nonliving part",
+      "value": "Water, soil, sunlight, air, and temperature"
+    },
+    {
+      "label": "Energy",
+      "value": "Flows from the sun, to plants, to animals"
+    },
+    {
+      "label": "Matter",
+      "value": "Recycled - decomposers return materials to the soil"
+    },
+    {
+      "label": "Sizes",
+      "value": "From a puddle to a whole desert or forest"
+    }
+  ],
+  "whyItMatters": "Ecosystems are how nature organizes life on Earth. Understanding them explains why living and nonliving things depend on each other, what happens when one part changes, and how energy and matter move through nature.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "Living things + their surroundings",
+  "didYouKnow": "A single rotting log can be a whole ecosystem, supporting fungi, insects, mosses, and bacteria that recycle its wood.",
+  "conditions": [
+    "Deforestation",
+    "Pollution",
+    "Climate change"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Ecosystem",
+  "plain": "An ecosystem is everything in an area working together: all the living things (the community) plus the nonliving things around them, like water, soil, sunlight, air, and temperature. In an ecosystem, the living things depend on the nonliving parts - plants need sunlight and water, animals need plants, and decomposers recycle dead material into soil. Energy flows through the ecosystem (from sun to plants to animals), and matter is recycled. An ecosystem can be as small as a pond or a rotting log, or as large as a whole desert or forest."
+}

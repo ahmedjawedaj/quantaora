@@ -1,0 +1,89 @@
+{
+  "id": "electron",
+  "componentId": "electron",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/atoms-and-elements/electron/electron.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/atoms-and-elements/electron.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.1
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.1
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Atom with electron cloud",
+    "Shells",
+    "Bonding"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-electron-cloud",
+      "label": "The electron cloud",
+      "conceptId": "electron-orbit-shells",
+      "position": [
+        0.95,
+        0.7,
+        0
+      ],
+      "description": "The large, faint region around the nucleus is the electron cloud — where the electrons orbit, far outside the tiny core.",
+      "positionHint": "The large translucent sphere around the small nucleus.",
+      "color": "#6B85A8",
+      "function": "Shows the region where electrons orbit the nucleus."
+    },
+    {
+      "id": "hs-electron-shell",
+      "label": "A shell layer",
+      "conceptId": "electron-orbit-shells",
+      "position": [
+        0.75,
+        -0.6,
+        0
+      ],
+      "description": "Electrons don't orbit at random — they live in specific shell layers at fixed distances from the nucleus.",
+      "positionHint": "The distinct ring layers the electrons follow, visible when the shells layer is on.",
+      "color": "#D9A441",
+      "function": "Shows electrons organized into shell layers."
+    },
+    {
+      "id": "hs-electron-bonding",
+      "label": "The electron that bonds",
+      "conceptId": "electron-chemistry",
+      "position": [
+        1.15,
+        0.2,
+        0
+      ],
+      "description": "The outermost electrons are the valence electrons — the ones that reach out and do the chemistry in every reaction.",
+      "positionHint": "The outer-shell electron reaching toward a partner, visible when the bonding layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows the outer electrons that drive chemical reactions."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A small nucleus with a large electron cloud floats centered, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Nucleus: soft red/gray bundle; electron cloud: large translucent warm-white shell with small teal electron dots moving through it; shell rings: thin translucent hairline circles. Strong saturated color is reserved for the small flat hotspot dots and the bonding electron (slate / amber / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Nucleus: soft red + gray spheres, roughness ~0.4. Electron dots: small muted teal spheres, roughness ~0.4. Cloud shell: translucent warm-white, alpha ~0.12. Shell rings: translucent hairline circles, alpha ~0.25. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: an atom focused on its electrons, built to be read as 'tiny negative particles orbiting in shells — the ones that do chemistry.' Three procedural layers, all clean primitives:\n\n1) MAIN: a small nucleus cluster at center (a few soft red and gray spheres, radius ~0.3), surrounded by a large translucent warm-white cloud sphere (radius ~1.7, alpha ~0.12). Small muted teal electron dots (radius ~0.07) are placed on the cloud at two shell distances, drifting slowly along their ring paths (app-driven orbit).\n\n2) SHELLS (toggleable layer): two thin translucent hairline rings appear at the shell radii, and the electron dots snap into clear positions on the rings — revealing the organized shell structure.\n\n3) BONDING (toggleable layer): an outer-shell electron detaches and reaches toward a small partner atom appearing to one side (app animates), sharing a glow band — showing the outer electron driving a reaction.\n\nCamera: framed so the full cloud and nucleus are visible with negative space; auto-rotate default. Budget 6-10k triangles. Named nodes: NucleusCluster, ElectronCloud, Electrons_Shell1, Electrons_Shell2, ShellRing_01, ShellRing_02, BondingElectron, PartnerAtom. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "orbital-cloud"
+  }
+}

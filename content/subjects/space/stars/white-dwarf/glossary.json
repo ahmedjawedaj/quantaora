@@ -1,0 +1,44 @@
+{
+  "componentId": "white-dwarf",
+  "terms": [
+    {
+      "term": "White dwarf",
+      "definition": "The exposed core of a dead Sun-like star: about the size of Earth, holding up to 1.4 solar masses, shining only from leftover heat.",
+      "conceptId": "electron-degeneracy-pressure",
+      "hotspotId": "hs-degenerate-interior",
+      "function": "The final stage for most stars, including the Sun."
+    },
+    {
+      "term": "Electron degeneracy pressure",
+      "definition": "The pressure that arises because electrons refuse to be squeezed into the same space — it holds a white dwarf up even though nothing is burning.",
+      "conceptId": "electron-degeneracy-pressure",
+      "hotspotId": "hs-degenerate-interior",
+      "function": "The white dwarf's structural support.",
+      "whereItIs": "Throughout the compressed interior",
+      "whyItMatters": "It proves support does not need fire."
+    },
+    {
+      "term": "Planetary nebula",
+      "definition": "The glowing shell of gas a red giant puffs off before the white dwarf is exposed — named centuries ago for its planet-like roundness.",
+      "conceptId": "planetary-nebula-shedding",
+      "hotspotId": "hs-planetary-nebula",
+      "function": "Recycles star matter back into the galaxy, enriching the next star generation.",
+      "whyItMatters": "Most of the elements beyond hydrogen and helium reach new stars this way."
+    },
+    {
+      "term": "Chandrasekhar limit",
+      "definition": "The maximum mass of a white dwarf, about 1.4 solar masses; beyond it electron pressure can no longer prevent collapse.",
+      "conceptId": "chandrasekhar-mass-limit",
+      "hotspotId": "hs-chandrasekhar-limit",
+      "function": "Sets the threshold where a remnant must become a neutron star or explode."
+    },
+    {
+      "term": "Degenerate matter",
+      "definition": "Matter packed so tightly that quantum effects, not heat, create its pressure — the substance a white dwarf is made of.",
+      "conceptId": "density-extreme-scale",
+      "hotspotId": "hs-density-scale",
+      "whereItIs": "The whole interior of the dwarf",
+      "whyItMatters": "One teaspoon of it weighs about 5.5 tons."
+    }
+  ]
+}

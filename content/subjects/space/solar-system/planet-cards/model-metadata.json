@@ -1,0 +1,119 @@
+{
+  "id": "planet-cards",
+  "componentId": "planet-cards",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/solar-system/planet-cards.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/solar-system/planet-cards.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: it is generated entirely from three.js primitives at runtime by a scene-builder module, not loaded from a GLB file. `url` is a placeholder pointing to where that scene-builder module should live following this project's conventions. `thumbnailUrl` is a placeholder PNG path following the standard asset-folder convention (spec section 21). `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated values derived from the assetBrief's described scene layout — a starting point for the dev implementing the scene-builder, to be verified against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.4,
+      4.6
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.4,
+      4.6
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Card fan (all eight cards)",
+    "Selected card (pulled forward)",
+    "Compare pair (two cards side by side)",
+    "Family tags (rocky / gas giant / ice giant)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-mercury-card",
+      "label": "Mercury card",
+      "conceptId": "planet-card-fact-sheet",
+      "position": [
+        -1.7,
+        0.28,
+        0.3
+      ],
+      "description": "The smallest planet's card: radius 0.38 × Earth, 0.39 AU from the Sun, an 88-day year, a 176-Earth-day day, gravity 0.38 g, zero moons.",
+      "positionHint": "Leftmost card in the fan. A slim rounded-rect card (flat box with slight bevel) holding a small mottled grey sphere and text rows. When selected, the card eases forward toward the camera.",
+      "color": "#C09A6E",
+      "function": "Opens Mercury's fact sheet and pulls it forward for reading."
+    },
+    {
+      "id": "hs-earth-card",
+      "label": "Earth card",
+      "conceptId": "planet-card-fact-sheet",
+      "position": [
+        -0.7,
+        0.26,
+        0.42
+      ],
+      "description": "The reference card: radius 1 × Earth, 1 AU, a 24-hour day, a 365.25-day year, gravity 1 g, one large moon. Every other card compares against this one.",
+      "positionHint": "Center-left card in the fan, slightly forward of the others. Holds a dusty blue-green sphere with a small pale companion sphere for the Moon.",
+      "color": "#7FA88A",
+      "function": "Opens Earth's fact sheet — the reference every other card measures against."
+    },
+    {
+      "id": "hs-jupiter-card",
+      "label": "Jupiter card",
+      "conceptId": "gas-giants-vs-rocky-worlds",
+      "position": [
+        1.0,
+        0.3,
+        0.32
+      ],
+      "description": "The biggest planet's card: radius 11 × Earth, 5.2 AU, a 9.9-hour day, a 12-year year, gravity 2.5 g, 95+ known moons.",
+      "positionHint": "Right-center card in the fan, its sphere the largest of any card. Cream-and-tan banded sphere with a small storm-oval detail.",
+      "color": "#D9A441",
+      "function": "Opens Jupiter's fact sheet and demonstrates the gas-giant family."
+    },
+    {
+      "id": "hs-saturn-card",
+      "label": "Saturn card",
+      "conceptId": "planet-card-fact-sheet",
+      "position": [
+        1.7,
+        0.32,
+        0.1
+      ],
+      "description": "The ringed giant's card: radius 9.1 × Earth, 9.6 AU, a 10.7-hour day, a 29-year year, gravity 1.07 g, 140+ known moons.",
+      "positionHint": "Rightmost card in the fan. Pale gold sphere ringed by two thin flat ring discs, tilted on the card.",
+      "color": "#C9B46E",
+      "function": "Opens Saturn's fact sheet and highlights its ring system."
+    },
+    {
+      "id": "hs-family-tag",
+      "label": "Planet families",
+      "conceptId": "planets-sort-by-type",
+      "position": [
+        0,
+        0.95,
+        0
+      ],
+      "description": "The deck sorts itself into two families: the four inner cards are tagged 'rocky world,' the four outer cards 'gas giant' or 'ice giant.'",
+      "positionHint": "A floating tag cluster above the fan — a warm ochre tag for rocky worlds over the inner four cards and a cool slate tag for gas/ice giants over the outer four, joined by a subtle dividing arc.",
+      "color": "#6B85A8",
+      "function": "Labels the compositional families the cards sort themselves into."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, minimal chrome, no glow, no bloom, no emissive materials, no cartoon outlines, no floor grid. The cards float in a shallow fan over a soft radial ground-shadow. Each card is a slim rounded-rect flat box (warm ivory face, warm grey edge) holding a small matte planet sphere and short text rows rendered as plane text; all eight share identical layout so comparisons read instantly. Planet colors are the branch-standard muted set (Mercury mottled grey-ochre, Venus warm cream, Earth dusty blue-green, Mars muted rust, Jupiter cream-and-tan bands, Saturn pale gold, Uranus pale grey-green, Neptune soft slate blue) — restrained, slightly desaturated, never saturated legend colors. The selected card eases forward and slightly up; compare mode brings two cards side by side, equidistant from camera. Hotspot dots are the only saturated color in the scene.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, no emissive channels. Cards: ivory matte (roughness ~0.6) with a faint warm grey edge. Planet spheres: roughness ~0.55-0.65, gentle specular falloff, banding/mottling as baked vertex paint, never image textures. Text rows are simple dark-warm-grey plane sprites (not glowing labels). Selection motion (card easing) is a runtime tween, not baked animation.",
+  "assetBrief": "SUBJECT: A deck of eight planet cards floating in a shallow fan, centered around (0, 0.4, 0). Each card: a rounded-rect flat box ~0.9 wide × 1.25 tall × 0.03 thick, holding one planet sphere (radius ~0.22) on the upper half and seven short text-row planes on the lower half (composition, radius vs Earth, distance AU, day length, year length, gravity vs Earth, moons). Card spacing along the fan arc: x from -1.9 to +1.9, each card rotated ~7° about Y so the fan reads left-to-right in planet order (Mercury → Neptune). Behavior states driven by the app layer control: (1) fan view — all cards visible; (2) selected card — tapping a card eases it forward (+z ~0.9) and slightly up, camera does not move; (3) compare pair — picking two cards brings them to equal distances, side by side, card rows aligning row-for-row; (4) family tags — two small flat tags float above the fan: warm ochre 'Rocky worlds' over Mercury–Mars cards, cool slate 'Gas/ice giants' over Jupiter–Neptune cards. Auto-rotate off by default (this is a reading model, not an object to spin) — the app may enable slow orbit only when no card is selected. Default camera [0, 1.4, 4.6] → target [0, 0.5, 0] frames the whole fan. Grounding: soft radial ground-shadow beneath the fan. Group cards and tags under names matching the layers list.",
+  "visual": {
+    "shape": "planet-cards"
+  }
+}

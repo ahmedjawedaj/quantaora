@@ -1,0 +1,112 @@
+{
+  "id": "digestion",
+  "subject": "biology",
+  "title": "Digestion",
+  "summary": "Digestion is the process that turns food into fuel your cells can use, running through five stations from mouth to rectum along roughly 9 meters of digestive tract. Explore how each station — mouth, stomach, small intestine, large intestine, and waste elimination — breaks food down a little more, until nutrients are absorbed into the bloodstream and everything left over is compacted and removed.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "mouth-mechanical-and-chemical-breakdown",
+    "stomach-acid-breakdown",
+    "small-intestine-nutrient-absorption",
+    "large-intestine-water-absorption",
+    "waste-elimination"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Body Systems Processes",
+    "systemOrGroup": "Digestive System (process)",
+    "component": "Digestion",
+    "displayPath": "Biology > Human Physiology > Body Systems Processes > Digestive System (process) > Digestion"
+  },
+  "crossReferences": [
+    {
+      "label": "Digestive System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Digestive system",
+      "note": "The organs this component's model shows in action — mouth, stomach, small intestine, large intestine, rectum — are also mapped as anatomical structures in the Human Anatomy branch's Digestive System unit."
+    },
+    {
+      "label": "Blood Circulation (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Blood circulation",
+      "note": "Nutrients absorbed by the small intestine enter the bloodstream and are carried around the body by the circulatory process covered separately in this branch."
+    },
+    {
+      "label": "Filtration By Kidneys (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Filtration by kidneys",
+      "note": "Digestion eliminates solid waste through the large intestine and rectum, a separate elimination pathway from the kidneys' filtration of liquid waste covered elsewhere in this branch."
+    }
+  ],
+  "belongsTo": "Human Physiology > Body Systems Processes > Digestive System (process)",
+  "compareCandidate": {
+    "label": "Digestion vs. the Respiratory System",
+    "description": "Both are input-processing systems that take something from outside the body (food vs. air) and extract what cells need (nutrients vs. oxygen) while expelling what's left over (waste vs. carbon dioxide) — comparing them highlights the shared pattern of intake, breakdown/exchange, absorption, and elimination."
+  },
+  "parts": [
+    "Mouth",
+    "Stomach",
+    "Small Intestine",
+    "Large Intestine",
+    "Rectum / Waste Elimination"
+  ],
+  "processes": [
+    "Peristalsis (muscle waves moving food along)",
+    "Enzyme-based chemical breakdown of carbohydrates, proteins, and fats",
+    "Nutrient absorption into the bloodstream",
+    "Water reabsorption",
+    "Gut microbiome fermentation of leftover fiber"
+  ],
+  "plainLanguageExplanation": "Digestion is your body's way of turning food into fuel. Think of it like a factory assembly line running from your mouth to the other end of your body: at each station, a different tool breaks the food down a little more, until what's left is small enough for your blood to carry it to every cell you have. Chewing and stomach acid smash food apart physically and chemically; the small intestine pulls out the nutrients your body actually wants and sends them into your bloodstream; the large intestine squeezes out the leftover water; and whatever your body truly can't use gets packed up and sent out as waste. The whole system is basically a long, winding tube — about 9 meters of it — with each section built to do one job really well.",
+  "keyFacts": [
+    {
+      "label": "Total length of the digestive tract",
+      "value": "About 9 meters (30 feet) from mouth to end, mostly coiled up as small and large intestine"
+    },
+    {
+      "label": "Time food spends in the stomach",
+      "value": "Roughly 2 to 4 hours, depending on what was eaten"
+    },
+    {
+      "label": "Stomach acid strength",
+      "value": "Hydrochloric acid at a pH of about 1.5-3.5, strong enough to kill most swallowed bacteria and start breaking down proteins"
+    },
+    {
+      "label": "Where most nutrients get absorbed",
+      "value": "The small intestine, whose inner wall is covered in tiny finger-like folds called villi that massively increase its absorbing surface"
+    },
+    {
+      "label": "Main job of the large intestine",
+      "value": "Absorbing water and leftover salts from digested material, turning it from liquid to solid waste"
+    },
+    {
+      "label": "Full trip time",
+      "value": "Food typically takes about 24 to 72 hours to travel the entire digestive tract from mouth to exit"
+    }
+  ],
+  "whyItMatters": "Every cell in your body needs fuel and building materials to work, grow, and repair itself, and food is the only place those come from. But a sandwich can't just walk into a cell — it has to be broken down into pieces small enough to slip through cell walls, like glucose, amino acids, and fatty acids. Digestion is the entire reason you can turn lunch into energy for running, thinking, and growing. When any part of this system is out of balance, it shows up fast — stomachaches, low energy, or trouble absorbing key nutrients — which is why understanding it helps you understand your own body's daily signals.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Gastrointestinal Digestion",
+  "tagline": "Turning lunch into fuel",
+  "didYouKnow": "The small intestine's inner wall is covered in tiny finger-like villi that massively increase its absorbing surface — that surface area is why it, not the stomach, absorbs most of your nutrients.",
+  "conditions": [
+    "Acid reflux (GERD)",
+    "Irritable bowel syndrome",
+    "Lactose intolerance",
+    "Peptic ulcers",
+    "Constipation",
+    "Celiac disease"
+  ],
+  "compareCandidateId": "breathing",
+  "compareReason": "Both are input-processing systems that take something from outside the body (food vs. air) and extract what cells need (nutrients vs. oxygen) while expelling what's left over (waste vs. carbon dioxide) — comparing them highlights the shared pattern of intake, breakdown/exchange, absorption, and elimination."
+}

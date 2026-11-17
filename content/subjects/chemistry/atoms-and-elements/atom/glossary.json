@@ -1,0 +1,48 @@
+{
+  "componentId": "atom",
+  "terms": [
+    {
+      "term": "Atom",
+      "conceptId": "atom-smallest-particle",
+      "hotspotId": "hs-atom-structure",
+      "definition": "The smallest particle of an element that still behaves like that element.",
+      "function": "The building block of molecules, compounds, and all matter.",
+      "whereItIs": "The whole nucleus-plus-cloud structure in the model.",
+      "whyItMatters": "Everything in the universe is built from atoms.",
+      "relatedConcept": "atom-nucleus-and-electrons",
+      "quizId": "atom-q-definition"
+    },
+    {
+      "term": "Nucleus",
+      "conceptId": "atom-nucleus-and-electrons",
+      "hotspotId": "hs-atom-nucleus",
+      "definition": "The dense core of the atom, packed with protons and neutrons.",
+      "function": "Holds nearly all the atom's mass and its positive charge.",
+      "whereItIs": "The small bundle at the center of the model.",
+      "whyItMatters": "The nucleus gives the atom its identity and weight.",
+      "relatedConcept": "atom-smallest-particle",
+      "quizId": "atom-q-contents"
+    },
+    {
+      "term": "Electron cloud",
+      "conceptId": "atom-nucleus-and-electrons",
+      "hotspotId": "hs-atom-electron-cloud",
+      "definition": "The region around the nucleus where electrons orbit.",
+      "function": "Holds the electrons in shells, in the atom's mostly-empty space.",
+      "whereItIs": "The large translucent sphere in the model.",
+      "whyItMatters": "The electrons in the cloud are what drive chemistry.",
+      "relatedConcept": "atom-nucleus-and-electrons",
+      "quizId": "atom-q-empty"
+    },
+    {
+      "term": "Molecule",
+      "conceptId": "atom-building-blocks",
+      "definition": "Two or more atoms held together by chemical bonds.",
+      "function": "What atoms build when they bond together.",
+      "whereItIs": "The two bonded atoms in the build-a-molecule layer.",
+      "whyItMatters": "Molecules are how atoms combine into everything.",
+      "relatedConcept": "atom-smallest-particle",
+      "quizId": "atom-q-builds"
+    }
+  ]
+}

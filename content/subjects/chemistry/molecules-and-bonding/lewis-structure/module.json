@@ -1,0 +1,109 @@
+{
+  "id": "lewis-structure",
+  "subject": "chemistry",
+  "title": "Lewis Structure",
+  "summary": "A Lewis structure is a shorthand diagram that shows an element's symbol with dots for its valence electrons — a fast way to picture how atoms will bond. Explore the dot diagrams of common elements.",
+  "gradeMin": 8,
+  "gradeMax": 10,
+  "skillIds": [
+    "lewis-dots-valence",
+    "lewis-predicts-bonding",
+    "lewis-dot-placement"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Molecules And Bonding",
+    "unit": "Electrons That Bond",
+    "systemOrGroup": "Drawing the electrons",
+    "component": "Lewis Structure",
+    "displayPath": "Chemistry > Molecules And Bonding > Electrons That Bond > Drawing the electrons > Lewis Structure"
+  },
+  "crossReferences": [
+    {
+      "label": "Valence electron (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Valence electron",
+      "note": "A Lewis structure is simply a drawing of the valence electrons — one dot per valence electron around the element's symbol."
+    },
+    {
+      "label": "Covalent bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Covalent bond",
+      "note": "In a Lewis structure, dots can be paired and shared between symbols — the shared pairs represent covalent bonds."
+    },
+    {
+      "label": "Group (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Group",
+      "note": "Elements in the same group draw the same number of dots — the Lewis structure is the group's pattern made visible."
+    },
+    {
+      "label": "Molecule (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Molecule",
+      "note": "Lewis structures show which atoms will team up into a molecule by revealing their bonding-ready electrons."
+    }
+  ],
+  "belongsTo": "Molecules And Bonding > Electrons That Bond > Drawing the electrons",
+  "compareCandidate": {
+    "label": "Lewis structure vs. shell model",
+    "description": "The shell model draws every shell and every electron. The Lewis structure shows only the valence electrons, as dots around the symbol — a stripped-down, easy-to-draw version that focuses purely on bonding."
+  },
+  "parts": [
+    "Element symbol at center",
+    "Dots for valence electrons",
+    "Dot arrangement predicts bonds"
+  ],
+  "processes": [
+    "Placing one dot per valence electron around the symbol",
+    "Arranging dots on four sides before pairing",
+    "Using dot count to predict bonding"
+  ],
+  "plainLanguageExplanation": "A Lewis structure is a quick, simple diagram chemists use to show an atom's valence electrons. You write the element's symbol — like Na for sodium — then place dots around it, one dot for each valence electron. Sodium, with one valence electron, gets one dot. Carbon, with four, gets four dots. The dots are placed around the four sides of the symbol, first one per side, then pairing up as needed. Why does this matter? Because the dots reveal bonding. Atoms want full outer shells, so the dots show exactly which electrons are available to bond. An atom with one dot — like sodium — is set up to give that dot away. An atom with seven dots — like chlorine — needs one more. When you draw two symbols next to each other, dots between them can be paired and shared: two symbols sharing a pair of dots are drawing a covalent bond. Lewis structures are the shorthand that lets chemists see, at a glance, how atoms will combine — before a single molecule forms.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A diagram with the element's symbol and dots for its valence electrons"
+    },
+    {
+      "label": "The dot rule",
+      "value": "One dot per valence electron, placed around the symbol's four sides"
+    },
+    {
+      "label": "What dots show",
+      "value": "Which electrons are available to bond"
+    },
+    {
+      "label": "Sharing pairs",
+      "value": "Shared dot pairs between symbols represent covalent bonds"
+    },
+    {
+      "label": "Examples",
+      "value": "Na has 1 dot, C has 4, Cl has 7"
+    },
+    {
+      "label": "Why it's useful",
+      "value": "Predicts bonding at a glance — fast and easy to draw"
+    }
+  ],
+  "whyItMatters": "Lewis structures are the everyday tool chemists use to predict bonding before any experiment. Reading a dot diagram tells you how many bonds an atom will form, whether it will give or take electrons, and how molecules will assemble. It is the practical skill that connects valence electrons to real chemical formulas.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Lewis structure (electron dot diagram)",
+  "tagline": "The dot diagram of bonding",
+  "didYouKnow": "The Lewis structure was invented by Gilbert Lewis in 1916 — over a century later it is still the fastest way chemists picture how atoms bond.",
+  "conditions": [
+    "Predicting bonds and formulas",
+    "Reading chemical equations",
+    "Every chemistry classroom"
+  ],
+  "compareCandidateId": "valence-electron",
+  "compareReason": "A Lewis structure is the valence electron idea drawn as a diagram — comparing the full shell model with the stripped-down dot diagram shows the same idea in two forms."
+}

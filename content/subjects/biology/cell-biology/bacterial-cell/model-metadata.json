@@ -1,0 +1,171 @@
+{
+  "id": "bacterial-cell",
+  "subject": "biology",
+  "url": "/assets/models/biology/cell-biology/bacterial-cell.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/bacterial-cell.png",
+  "assetStatus": "pending-3d-production",
+  "modelType": "glb-authored",
+  "defaultCamera": {
+    "position": [
+      2.6,
+      1.3,
+      3
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Flagellum",
+    "Cell wall",
+    "Cell membrane",
+    "Cytoplasm",
+    "Ribosomes",
+    "DNA (nucleoid)"
+  ],
+  "hotspotPositionNote": "position [x,y,z] values below are provisional estimates derived from the asset brief's stated proportions (2.2-unit-long, 0.7-unit-diameter capsule body centered at the origin, long axis on world X, flagellated pole at +X). They must be recalculated against the actual GLB geometry once the model is produced, before these coordinates are relied on for hotspot placement in the viewer.",
+  "hotspots": [
+    {
+      "id": "hs-cell-membrane",
+      "label": "Cell Membrane",
+      "conceptId": "cell-membrane",
+      "position": [
+        0,
+        0.3,
+        0
+      ],
+      "positionStatus": "provisional-estimate-pending-glb",
+      "positionHint": "Thin boundary layer just inside the cell wall, placed at the mid-length equator of the rod where the cross-section cut is most visible",
+      "description": "A thin, flexible layer just inside the cell wall that controls what enters and leaves the cell.",
+      "definition": "A thin, flexible layer of fats and proteins that forms the inner boundary of the cell.",
+      "function": "Controls which nutrients, water, and waste molecules move into and out of the cell.",
+      "location": "Sits directly beneath the rigid cell wall, wrapping the entire cell and lining the cytoplasm.",
+      "whyItMatters": "It's the checkpoint for everything entering or leaving the cell, so many disinfectants and some antibiotics work by damaging this layer until the cell can no longer control its own contents.",
+      "relatedConcept": {
+        "conceptId": "cell-wall",
+        "label": "Cell Wall",
+        "reason": "The membrane and the wall sit right next to each other but do different jobs — membrane controls traffic in and out, wall provides rigid shape and protection — and learners commonly conflate the two."
+      }
+    },
+    {
+      "id": "hs-cytoplasm",
+      "label": "Cytoplasm",
+      "conceptId": "cytoplasm",
+      "position": [
+        0.1,
+        0.05,
+        0.1
+      ],
+      "positionStatus": "provisional-estimate-pending-glb",
+      "positionHint": "Interior gel-fill volume, visible once the cross-section cut plane is active; hotspot floats near the center of the exposed interior",
+      "description": "The jelly-like fluid filling the inside of the cell where chemical reactions and floating structures live.",
+      "definition": "The gel-like fluid that fills the interior of the cell.",
+      "function": "Provides the watery medium where chemical reactions happen and where the DNA and ribosomes float freely.",
+      "location": "Fills the entire interior of the cell, bounded on all sides by the cell membrane.",
+      "whyItMatters": "Because bacteria have no internal compartments, everything that happens inside the cell — building proteins, breaking down nutrients, copying DNA — happens together in this one shared space, so a single chemical change in the cytoplasm can affect the whole cell at once.",
+      "relatedConcept": {
+        "conceptId": "nucleus",
+        "label": "Nucleus",
+        "reason": "A eukaryotic cell's cytoplasm is organized around a membrane-bound nucleus and other organelles; a bacterium's cytoplasm is one open space with nothing walled off, which is the core prokaryote-vs-eukaryote contrast."
+      }
+    },
+    {
+      "id": "hs-dna-nucleoid",
+      "label": "DNA (Nucleoid)",
+      "conceptId": "dna-nucleoid",
+      "position": [
+        -0.37,
+        0.1,
+        -0.07
+      ],
+      "positionStatus": "provisional-estimate-pending-glb",
+      "positionHint": "Irregular tangled blob positioned slightly off-center within the cytoplasm, roughly one-third along the rod's length from the non-flagellated pole",
+      "description": "A loosely coiled tangle of DNA sitting free in the cytoplasm, since bacteria have no nucleus to hold it in.",
+      "definition": "The cell's single circular chromosome, loosely coiled together in a region called the nucleoid.",
+      "function": "Stores the genetic instructions the cell uses to build proteins and to copy itself during reproduction.",
+      "location": "Floats freely within the cytoplasm, off-center, not enclosed by any membrane of its own.",
+      "whyItMatters": "Because the nucleoid has no membrane around it, the cell's entire genetic library is directly exposed to the cytoplasm — this is the single biggest structural difference between a bacterium and one of your own cells, and it's exactly what a nucleus-less cell means in practice.",
+      "relatedConcept": {
+        "conceptId": "nucleus",
+        "label": "Nucleus",
+        "reason": "The nucleoid does the same basic job as a eukaryotic nucleus — housing the cell's DNA — but without a surrounding membrane, making this the clearest direct comparison point between the two cell types."
+      }
+    },
+    {
+      "id": "hs-ribosome",
+      "label": "Ribosome",
+      "conceptId": "ribosome",
+      "position": [
+        0.35,
+        0.18,
+        0.15
+      ],
+      "positionStatus": "provisional-estimate-pending-glb",
+      "positionHint": "One representative dot from the scattered cluster of small ribosome instances distributed through the cytoplasm, picked near the upper-right of the exposed cross-section",
+      "description": "One of thousands of tiny particles scattered through the cytoplasm that build proteins from genetic instructions.",
+      "definition": "A tiny molecular machine, smaller than the ribosomes in human cells, that reads genetic instructions and links amino acids into proteins.",
+      "function": "Builds every protein the cell needs to grow, repair itself, and function.",
+      "location": "Scattered in large numbers throughout the cytoplasm.",
+      "whyItMatters": "Bacterial (70S) ribosomes are a different size and shape from human (80S) ribosomes, so many antibiotics are designed to jam bacterial ribosomes specifically — stopping the bacteria's protein production without harming the patient's own cells.",
+      "relatedConcept": {
+        "conceptId": "80s-ribosome",
+        "label": "80S Ribosome (Eukaryotic)",
+        "reason": "Comparing the bacterial 70S ribosome to the larger eukaryotic 80S ribosome explains why some antibiotics can target bacteria selectively without harming human cells."
+      }
+    },
+    {
+      "id": "hs-cell-wall",
+      "label": "Cell Wall",
+      "conceptId": "cell-wall",
+      "position": [
+        -0.75,
+        0.35,
+        0
+      ],
+      "positionStatus": "provisional-estimate-pending-glb",
+      "positionHint": "Outer rigid shell of the rod, hotspot placed on the exterior surface at the widest point of the capsule shape, opposite the flagellum",
+      "description": "A rigid outer layer outside the membrane that gives the bacterium its shape and protects it from bursting.",
+      "definition": "A rigid outer layer built mainly from a mesh-like molecule called peptidoglycan.",
+      "function": "Gives the cell its fixed rod shape and keeps it from swelling up and bursting.",
+      "location": "The outermost layer of the cell, surrounding the cell membrane.",
+      "whyItMatters": "Peptidoglycan doesn't exist in human cells, so several major antibiotic families (like penicillin) work by blocking its construction — weakening the wall until the bacterium bursts, while leaving the patient's own wall-free cells untouched.",
+      "relatedConcept": {
+        "conceptId": "peptidoglycan",
+        "label": "Peptidoglycan",
+        "reason": "The cell wall's protective strength comes specifically from peptidoglycan, the molecule that most cell-wall-targeting antibiotics are built to disrupt."
+      }
+    },
+    {
+      "id": "hs-flagellum",
+      "label": "Flagellum",
+      "conceptId": "flagellum",
+      "position": [
+        2.7,
+        0.15,
+        -0.05
+      ],
+      "positionStatus": "provisional-estimate-pending-glb",
+      "positionHint": "Thin tapering whip-like tail extending outward from one pole of the rod; hotspot placed at the midpoint of its length",
+      "description": "A long, whip-like tail that rotates like a propeller to move the bacterium through liquid.",
+      "definition": "A long, whip-like tail built from coiled protein filaments.",
+      "function": "Rotates like a propeller, driven by a tiny motor at its base, to push the cell through liquid.",
+      "location": "Extends outward from one pole (end) of the rod-shaped cell.",
+      "whyItMatters": "The flagellum lets a bacterium steer itself toward food or away from harmful chemicals (a behavior called chemotaxis), which directly affects how infections spread and how bacteria colonize new environments.",
+      "relatedConcept": {
+        "conceptId": "cilia",
+        "label": "Cilia",
+        "reason": "Cilia are the short, hair-like movement structures found on some eukaryotic cells — comparing them to a bacterium's single long flagellum highlights how differently prokaryotes and eukaryotes solve the same problem of movement."
+      }
+    }
+  ],
+  "visualStyleNotes": "Match Anatomy Atelier exactly: model renders as a single hero object centered on a warm off-white (near #F7F3EC) background/ground with no environment clutter, soft even studio lighting (large soft key + gentle fill, no hard specular hotspots, no rim-light glow), minimal chrome around the viewer frame. Material is matte-satin, not glossy/plastic and not metallic — think soft biological tissue with a faint warm subsurface-scattering fake (slightly lit-from-within look via a soft Fresnel-driven color lift, not a bloom/glow effect). Apply Quantaora's biology accent palette restrained and desaturated: warm coral for the cell wall/membrane, muted leaf green for the cytoplasm fill, warm paper/cream as the base undertone, graphite-navy for the nucleoid tangle for contrast. Absolutely no neon/saturated \"germ cartoon\" colors, no cartoon eyes/face, no bump-mapped pimply skin texture, no baked-in text labels, no glossy plastic toy look, and no gradient/glow halos anywhere — flat, calm, scientific-illustration lighting only. Hotspot dots are small solid-color circles (colored per layer, consistent with the app's existing hotspot dot language) that sit flush on or just above the surface and open a structure card on click; they must read as elegant and precise, not gamey pins or bouncing markers.",
+  "assetBrief": "DELIVERABLE: one GLB (glTF 2.0 binary, Draco-compressed geometry, embedded textures under 4K) named bacterial-cell.glb, plus a thumbnail PNG render matching the default camera framing below.\n\nSHAPE & PROPORTIONS: Model a rod-shaped bacillus bacterium (E. coli-like), not a coccus (sphere) or spirillum (spiral) — rod shape is the clearest teaching silhouette for this component. Body is a stadium/capsule form: a cylinder with hemispherical (gently rounded, not pointed) end caps. Length-to-diameter ratio approximately 3:1 (e.g. 2.2 units long, 0.7 units diameter). Model origin sits at the geometric center of the rod, long axis aligned to world X, so auto-rotate spins around a natural axis. Surface should have very subtle organic undulation (not a hard mechanical cylinder) but stay clean and simple — this is a diagrammatic anatomical asset, not a hyper-realistic microbe render.\n\nLAYERED CONSTRUCTION (build as separate, independently toggle-able mesh nodes, named to match conceptIds for hotspot/layer binding):\n1. `flagellum` — a single long, thin, gently tapering tube (helical/wavy, 2–3 soft undulations, not a straight spike) attached at one pole, extending outward roughly 1.5x the body length. Slightly translucent, lighter tone than the wall.\n2. `cellWall` — the rigid outer shell of the rod, solid coral-toned matte material. This is the outermost visible surface in the default (non-cross-section) view.\n3. `cellMembrane` — a very thin shell just inside the wall, only exposed when the wall is toggled off or the cross-section is active. Slightly different warm tone from the wall so the two layers read as distinct in cross-section.\n4. `cytoplasm` — the interior fill volume, muted leaf-green translucent-matte material, only visible via cross-section or layer isolation.\n5. `nucleoid` — one irregular, loosely tangled blob (think a soft scribble/knot shape, asymmetric, NOT a smooth sphere) positioned off-center within the cytoplasm, graphite-navy tone for contrast. This should visually read as \"loose coiled thread,\" distinguishing it from a nucleus (which this cell deliberately lacks).\n6. `ribosomes` — 40–80 small instanced spheres (uniform tiny size, roughly 1/40th of body diameter) scattered evenly through the cytoplasm volume, slightly darker/warmer than the cytoplasm so they read as discrete particles, not noise.\n\nCROSS-SECTION: Build the model so a single planar cut along the long axis (through the center, perpendicular to Y or Z) cleanly exposes all interior layers in the correct order (wall → membrane → cytoplasm with visible nucleoid + ribosomes) with clean capped cut-faces (no z-fighting, no open non-manifold geometry at the cut plane). This powers the viewer's cross-section toggle described in spec §13.\n\nMATERIALS: Matte-satin PBR (roughness ~0.55–0.7, near-zero metalness) for all layers. No glossy highlights, no metallic sheen, no emissive glow. Use flat/gradient procedural coloring rather than printed texture maps — no baked text, no seams, no photographic bacterial texture. Palette: cell wall coral (~#E8846B family), membrane a slightly lighter warm coral-cream, cytoplasm muted leaf green (~#8FAE7D family) at moderate opacity so the nucleoid/ribosomes are visible through it in cross-section, nucleoid graphite-navy (~#3A3F4B family), ribosomes a warm mid-tone that contrasts against the green cytoplasm, flagellum pale warm cream, slightly translucent.\n\nSCALE & EXPORT: Stylized display scale (not real micrometer scale) — treat the whole rod as roughly 2–2.5 world units long so it fills the default camera frame with headroom. Poly budget: keep total under ~25k triangles (body + flagellum + ribosome instances combined) for smooth mobile performance; use instancing for the ribosome cluster rather than 80 unique meshes. UV-unwrap primary shells even though textures are flat-colored, in case future detail passes need them. Deliver with Y-up orientation, centered origin, and clean named node hierarchy (`cellWall`, `cellMembrane`, `cytoplasm`, `nucleoid`, `ribosomes`, `flagellum`) so the app's layer-toggle and hotspot systems can bind directly to node names without remapping.\n\nDEFAULT CAMERA: position [2.6, 1.3, 3.0], target [0, 0, 0] — a calm 3/4 elevated view showing the rod's length, the flagellum trailing off one end, and enough of the body surface to place all wall/membrane hotspots legibly; auto-rotate is on by default per the component's autoRotateDefault.\n\nDO NOT: give it cartoon eyes, a face, or personality; use bright saturated \"germ mascot\" colors (hot pink, neon green, etc.); add bumpy pimple/pore texture or a wet/slimy glossy shader; add background props, petri dish, or environment — it must render as an isolated hero object on transparent/off-white per Anatomy Atelier framing; bake any text/labels into textures; make the nucleoid a smooth sphere (it must read as an irregular free-floating tangle, the entire teaching point being \"no nucleus\"); make the flagellum a rigid straight spike (it should read as a flexible whip/propeller).",
+  "componentId": "bacterial-cell",
+  "visual": {
+    "shape": "bacteria-rod"
+  }
+}

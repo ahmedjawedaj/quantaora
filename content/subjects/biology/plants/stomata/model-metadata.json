@@ -1,0 +1,105 @@
+{
+  "id": "stomata",
+  "componentId": "stomata",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/stomata/stomata.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/stomata.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Whole leaf surface",
+    "Surface zoom - one stoma",
+    "Guard cells highlighted",
+    "Open vs. closed states",
+    "Gas flow dots"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-stoma",
+      "label": "Stoma pore",
+      "conceptId": "stomata-tiny-pores",
+      "position": [
+        0.1,
+        0.3,
+        0.2
+      ],
+      "description": "A tiny pore on the leaf surface that opens and closes to let gases pass.",
+      "positionHint": "A small bean-shaped opening between the two guard cells.",
+      "color": "#D9A441",
+      "function": "Lets carbon dioxide in and oxygen out."
+    },
+    {
+      "id": "hs-guardcells",
+      "label": "Guard cells",
+      "conceptId": "guard-cells-open-close",
+      "position": [
+        -0.15,
+        0.3,
+        0.22
+      ],
+      "description": "The two curved cells around the pore that swell to open it and relax to close it.",
+      "positionHint": "The two crescent-shaped cells that frame the stoma opening.",
+      "color": "#7FA874",
+      "function": "Open and close the pore like gates."
+    },
+    {
+      "id": "hs-gas",
+      "label": "Gas flow",
+      "conceptId": "carbon-dioxide-in-oxygen-out",
+      "position": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "description": "Carbon dioxide (CO2) enters the pore and oxygen (O2) leaves during photosynthesis.",
+      "positionHint": "Small directional dots entering and leaving the pore when the gas layer is on.",
+      "color": "#6B85A8",
+      "function": "Moves carbon dioxide in and oxygen out."
+    },
+    {
+      "id": "hs-surface",
+      "label": "Leaf surface",
+      "conceptId": "stomata-save-water",
+      "position": [
+        0,
+        0.15,
+        0.25
+      ],
+      "description": "The smooth outer layer of the leaf where many stomata are found.",
+      "positionHint": "The flat textured surface the stoma sits on.",
+      "color": "#B5846A",
+      "function": "Holds the stomata and connects them to the leaf body."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean stylized leaf-surface diorama - muted green surface, cream tones, not cartoon, not cluttered, no glow. Strong color reserved for the hotspot dots and tiny gas dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive.",
+  "assetBrief": "SUBJECT: an enlarged view of a leaf surface showing several stomata, with one stoma magnified at center, framed by two crescent guard cells. An open/close slider toggles the guard cells bent-apart or together. Tiny colored gas dots enter (carbon dioxide) and leave (oxygen). Named nodes: LeafSurface, StomaOpen, StomaClosed, GuardCells, GasIn, GasOut. Budget 10-14k.",
+  "visual": {
+    "shape": "stomata-pores"
+  }
+}

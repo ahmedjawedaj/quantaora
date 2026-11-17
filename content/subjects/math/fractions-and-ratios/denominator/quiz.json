@@ -1,0 +1,80 @@
+{
+  "componentId": "denominator",
+  "questions": [
+    {
+      "id": "denominator-position",
+      "conceptId": "denominator-bottom-of-fraction",
+      "hotspotId": "hs-denominator-plate",
+      "prompt": "In the fraction 2/7, which number is the denominator?",
+      "options": [
+        "7",
+        "2",
+        "Both",
+        "Neither"
+      ],
+      "correctIndex": 0,
+      "explanation": "The denominator is the bottom number — the 7.",
+      "misconception": "The top number (2) is the numerator; the denominator sits at the bottom of the fraction."
+    },
+    {
+      "id": "denominator-meaning",
+      "conceptId": "denominator-counts-equal-parts",
+      "hotspotId": "hs-denominator-bars",
+      "prompt": "What does the denominator 5 tell you in the fraction 2/5?",
+      "options": [
+        "The whole is split into 5 equal parts",
+        "You have 5 parts",
+        "There are 5 wholes",
+        "Each part is the size of 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "The denominator 5 names the total equal parts the whole is divided into.",
+      "misconception": "The numerator 2 is the count you have — the denominator is the total equal parts in the ONE whole."
+    },
+    {
+      "id": "denominator-size",
+      "conceptId": "denominator-part-size",
+      "hotspotId": "hs-part-size",
+      "prompt": "Which single part is SMALLER?",
+      "options": [
+        "1/8",
+        "1/4",
+        "1/2",
+        "1/3"
+      ],
+      "correctIndex": 0,
+      "explanation": "More cuts mean smaller pieces — 1/8 is the smallest because the whole is split into the most parts.",
+      "misconception": "A larger denominator means SMALLER parts, not bigger — 1/8 is half the size of 1/4."
+    },
+    {
+      "id": "denominator-compare",
+      "conceptId": "denominator-compare",
+      "hotspotId": "hs-part-size",
+      "prompt": "Which fraction is SMALLER?",
+      "options": [
+        "2/5",
+        "2/3",
+        "2/2",
+        "2/4"
+      ],
+      "correctIndex": 0,
+      "explanation": "With the same numerator 2, the larger denominator makes smaller parts — so 2/5 is the smallest.",
+      "misconception": "With matching numerators, compare only the denominators: a bigger denominator means a smaller fraction, so 2/5 < 2/3."
+    },
+    {
+      "id": "denominator-same",
+      "conceptId": "denominator-counts-equal-parts",
+      "hotspotId": "hs-denominator-plate",
+      "prompt": "Why do you need a COMMON denominator to add fractions like 1/2 + 1/3?",
+      "options": [
+        "So both fractions describe parts of the same size",
+        "Because numerators are too small",
+        "Because fractions cannot be added",
+        "To make the numbers bigger"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only same-sized parts can be counted together, so both fractions must share a common denominator before adding.",
+      "misconception": "Adding 1/2 + 1/3 ≠ 2/5 — halves and thirds are different-size parts; a common denominator (sixths) is required first."
+    }
+  ]
+}

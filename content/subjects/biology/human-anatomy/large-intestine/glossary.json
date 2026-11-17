@@ -1,0 +1,48 @@
+{
+  "componentId": "large-intestine",
+  "terms": [
+    {
+      "term": "Large intestine",
+      "conceptId": "absorbs-water-salts",
+      "hotspotId": "hs-li-colon",
+      "definition": "The wide, short final tube of the digestive tract.",
+      "function": "Absorbs water and salts and packs waste.",
+      "whereItIs": "After the small intestine, ending at the rectum.",
+      "whyItMatters": "It saves water and removes the body's waste.",
+      "relatedConcept": "forms-solid-waste",
+      "quizId": "li-q-job"
+    },
+    {
+      "term": "Colon",
+      "conceptId": "large-but-short",
+      "hotspotId": "hs-li-colon",
+      "definition": "The main wide tube of the large intestine.",
+      "function": "Absorbs water and moves waste along.",
+      "whereItIs": "Making up most of the large intestine.",
+      "whyItMatters": "It is where most water recovery happens.",
+      "relatedConcept": "absorbs-water-salts"
+    },
+    {
+      "term": "Rectum",
+      "conceptId": "forms-solid-waste",
+      "hotspotId": "hs-waste",
+      "definition": "The last part of the large intestine that stores waste.",
+      "function": "Holds solid waste until it leaves the body.",
+      "whereItIs": "The end of the large intestine.",
+      "whyItMatters": "It lets the body release waste on its own timing.",
+      "relatedConcept": "absorbs-water-salts",
+      "quizId": "li-q-waste"
+    },
+    {
+      "term": "Gut microbiome",
+      "conceptId": "good-bacteria-colon",
+      "hotspotId": "hs-bacteria",
+      "definition": "The helpful bacteria living in the gut, especially the large intestine.",
+      "function": "Help digest leftover material and make vitamins.",
+      "whereItIs": "In the large intestine contents.",
+      "whyItMatters": "They are important partners in digestion and health.",
+      "relatedConcept": "absorbs-water-salts",
+      "quizId": "li-q-bacteria"
+    }
+  ]
+}

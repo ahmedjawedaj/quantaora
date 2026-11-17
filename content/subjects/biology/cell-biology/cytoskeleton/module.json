@@ -1,0 +1,100 @@
+{
+  "id": "cytoskeleton",
+  "subject": "biology",
+  "title": "Cytoskeleton",
+  "summary": "The cytoskeleton is the cell's internal framework - a network of protein fibers that gives the cell its shape, holds organelles in place, and moves materials (and even the whole cell) around. Explore its three fiber types and the constant movement it powers.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "protein-fiber-network",
+    "microtubule-tracks-transport",
+    "cell-shape-and-movement"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Cytoskeleton",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Cytoskeleton"
+  },
+  "crossReferences": [
+    {
+      "label": "Cytoplasm (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Cytoplasm",
+      "note": "The cytoskeleton runs through the cytoplasm, giving the fluid filling an organized structure."
+    },
+    {
+      "label": "Cell membrane (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Cell membrane",
+      "note": "The cytoskeleton attaches to the membrane and can even help it pinch and move during division."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Cytoskeleton vs. human skeleton",
+    "description": "Like our skeleton, the cytoskeleton gives shape and support - but it is far more dynamic. It constantly rebuilds, moves materials, and even moves the whole cell, like a skeleton that is also its own muscle."
+  },
+  "parts": [
+    "Microtubules (tracks)",
+    "Actin filaments",
+    "Intermediate filaments",
+    "Transport along tracks"
+  ],
+  "processes": [
+    "Giving the cell its shape",
+    "Holding organelles in place",
+    "Moving materials along tracks",
+    "Moving the whole cell"
+  ],
+  "plainLanguageExplanation": "The cytoskeleton is a web of protein fibers running through the cytoplasm that acts like the cell's skeleton, muscles, and road system all in one. It has three types of fibers: thin filaments (like ropes), thicker tubes called microtubules (like support beams and tracks), and middle-sized intermediate filaments (like cables). This framework gives the cell its shape, anchors organelles in place, and provides tracks along which materials are moved. It can even change shape to move the whole cell, which is how some cells crawl. So the cytoskeleton is the cell's internal frame and delivery rail combined.",
+  "keyFacts": [
+    {
+      "label": "Nickname",
+      "value": "The cell's skeleton, muscles, and roads"
+    },
+    {
+      "label": "Made of",
+      "value": "Protein fibers: filaments, microtubules, and intermediate fibers"
+    },
+    {
+      "label": "Main jobs",
+      "value": "Give shape, anchor organelles, and move materials and cells"
+    },
+    {
+      "label": "Movable",
+      "value": "It can rebuild and change to let the cell crawl or divide"
+    },
+    {
+      "label": "Tracks",
+      "value": "Microtubules are like rails along which materials are carried"
+    },
+    {
+      "label": "Dynamic",
+      "value": "Always being rebuilt and moved around"
+    }
+  ],
+  "whyItMatters": "The cytoskeleton is why a cell can hold its shape, move its parts, and sometimes move itself. It makes cell division and cell movement possible, so understanding it is key to seeing how cells stay organized and get things done.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Cytoskeleton",
+  "tagline": "The cell's inner scaffold",
+  "didYouKnow": "When a cell divides, the cytoskeleton rebuilds into a special framework that separates the DNA copies into the two new cells.",
+  "conditions": [
+    "Cell division",
+    "Cell movement",
+    "Intracellular transport"
+  ],
+  "branch": "cell-biology",
+  "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Cytoskeleton",
+  "plain": "The cytoskeleton is a web of protein fibers running through the cytoplasm that acts like the cell's skeleton, muscles, and road system all in one. It has three types of fibers: thin filaments (like ropes), thicker tubes called microtubules (like support beams and tracks), and middle-sized intermediate filaments (like cables). This framework gives the cell its shape, anchors organelles in place, and provides tracks along which materials are moved. It can even change shape to move the whole cell, which is how some cells crawl. So the cytoskeleton is the cell's internal frame and delivery rail combined."
+}

@@ -1,0 +1,139 @@
+{
+  "id": "muscle-cell",
+  "componentId": "muscle-cell",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/muscle-cell/muscle-cell.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/muscle-cell.png",
+  "assetStatus": "GLB not yet authored. `url` and `thumbnailUrl` are placeholder paths that follow this project's asset-folder convention (spec §21) and must resolve to the real exported files once the model is built. `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated numeric values derived from the assetBrief's described geometry (radius ~0.22 units, length ~2 units, tapered ends, wedge cutaway) — they are a starting point for the 3D artist/dev, not measurements of an existing mesh, and should be verified and adjusted against the actual authored GLB before shipping.",
+  "defaultCamera": {
+    "position": [
+      1.8,
+      0.95,
+      2.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      1.8,
+      0.95,
+      2.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Full cell (sarcolemma, exterior)",
+    "Cutaway — myofibril bundles",
+    "Cutaway — sarcoplasmic reticulum network",
+    "Cutaway — mitochondria clusters",
+    "Peripheral nuclei"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-sarcolemma",
+      "label": "Sarcolemma",
+      "conceptId": "sarcolemma-cell-membrane",
+      "position": [
+        0.73,
+        0.15,
+        0.14
+      ],
+      "description": "The thin, elastic outer membrane that encloses the muscle fiber and carries the electrical signal that triggers contraction.",
+      "positionHint": "On the intact (non-cutaway) exterior surface, roughly a third of the way from one tapered end — a spot where the smooth membrane skin is clearly visible and unobstructed by the cutaway wedge.",
+      "structureCard": {
+        "function": "Encloses the muscle fiber and carries the electrical signal from a nerve that tells the cell to contract.",
+        "whereItIs": "The smooth outer skin of the whole fiber — visible on the intact, non-cutaway end of the model.",
+        "whyItMatters": "Without the sarcolemma passing the nerve signal inward, the contraction machinery never gets the 'go' signal — this is the first step in every muscle contraction.",
+        "relatedConcept": "sarcoplasmic-reticulum"
+      }
+    },
+    {
+      "id": "hs-nuclei",
+      "label": "Multiple nuclei",
+      "conceptId": "multiple-nuclei",
+      "position": [
+        -0.55,
+        0.1,
+        0.15
+      ],
+      "description": "Skeletal muscle fibers are multinucleated — many oval nuclei sit flattened just beneath the membrane along the cell's length, instead of one central nucleus.",
+      "positionHint": "On two or three small flattened ellipsoids pressed against the inner face of the sarcolemma near the cutaway edge, so their peripheral (not central) position reads clearly against the cut cross-section.",
+      "structureCard": {
+        "function": "Directs protein production across the whole fiber; multiple nuclei let one very large, long cell keep up with its workload.",
+        "whereItIs": "Pressed flat against the inside of the sarcolemma, spaced along the cell's length rather than clustered in the center.",
+        "whyItMatters": "A single nucleus can't manage a cell this large — the peripheral, multiplied arrangement is the defining trait that separates skeletal muscle from ordinary cells.",
+        "relatedConcept": "sarcolemma-cell-membrane"
+      }
+    },
+    {
+      "id": "hs-mitochondria",
+      "label": "Mitochondria",
+      "conceptId": "mitochondria",
+      "position": [
+        0.05,
+        -0.05,
+        0.08
+      ],
+      "description": "Bean-shaped power plants clustered between the myofibril bundles, supplying the ATP that fuels repeated contraction.",
+      "positionHint": "Inside the cutaway interior, nestled in the gaps between myofibril bundles roughly midway along the cell's length — small, distinct oblong shapes distinguishable from the striated fibers around them.",
+      "structureCard": {
+        "function": "Produce the ATP energy that powers every contraction cycle.",
+        "whereItIs": "Clustered in the gaps between myofibril bundles, most densely near the middle of the fiber.",
+        "whyItMatters": "Contraction runs constantly and burns energy fast — that's why muscle cells pack in far more mitochondria than most other cell types.",
+        "relatedConcept": "myofibrils"
+      }
+    },
+    {
+      "id": "hs-myofibrils",
+      "label": "Myofibrils",
+      "conceptId": "myofibrils",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "description": "Long bundled protein filaments running the length of the fiber, striped with repeating light and dark bands — these are what actually shorten to contract the muscle.",
+      "positionHint": "Dead center of the exposed cutaway face, on the parallel bundle of striated rods running lengthwise — the single most prominent feature of the interior view.",
+      "structureCard": {
+        "function": "Bundles of actin and myosin filaments that slide past each other to shorten the cell — this is the actual contraction machinery.",
+        "whereItIs": "Fill almost the entire interior of the fiber, running its full length; the striped pattern you see in the cutaway.",
+        "whyItMatters": "Myofibrils are what actually contract — every other structure in the cell exists to trigger, fuel, or support what happens here.",
+        "relatedConcept": "sarcoplasmic-reticulum"
+      }
+    },
+    {
+      "id": "hs-sarcoplasmic-reticulum",
+      "label": "Sarcoplasmic reticulum",
+      "conceptId": "sarcoplasmic-reticulum",
+      "position": [
+        -0.2,
+        0.08,
+        0.19
+      ],
+      "description": "A fine, net-like membrane system that wraps around each myofibril bundle and stores the calcium that triggers contraction on demand.",
+      "positionHint": "A delicate lace-like membrane sheath visible wrapping one exposed myofibril bundle near the cutaway edge, offset slightly from the central bundle hotspot so it doesn't overlap it.",
+      "structureCard": {
+        "function": "Stores calcium and releases it in a burst to trigger the myofibrils to grip and pull.",
+        "whereItIs": "A fine net-like membrane wrapped around each myofibril bundle, visible lacing through the cutaway interior.",
+        "whyItMatters": "It's the switch between 'signal received' and 'contraction happening' — without its calcium release, the sarcolemma's signal never reaches the filaments.",
+        "relatedConcept": "myofibrils"
+      }
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar: warm off-white studio background (#F7F3ED-ish), large object centered and dominant in frame, minimal chrome, no HUD clutter. Matte, non-metallic, softly lit PBR shading with gentle ambient occlusion in the cutaway crevices — no gloss, no emissive glow, no neon rim-lighting, no cartoon outlines. Biology subject palette per spec: coral for the sarcolemma exterior, leaf green accents for the sarcoplasmic reticulum netting, warm paper/cream for connective tissue tone, muted red-brown for myofibril striation bands, soft yellow-tan for mitochondria — all desaturated/warm rather than saturated \"textbook diagram\" primaries. Hotspot dots: small flat-colored circles (one per subject accent color already in the palette), consistent size, with a thin static leader line to a soft tactile label card on click — cards use the same warm off-white + serif/humanist-sans pairing as the rest of the app chrome. Auto-rotate is slow and subtle (one full revolution ~24s) and stops immediately on user drag or hotspot click. Cross-section is a static pre-modeled cutaway wedge (roughly one-third of the cylinder's radius removed lengthwise), not a real-time clipping-plane shader — matches Anatomy Atelier's authored-cutaway approach rather than a procedural slice.",
+  "assetBrief": "SUBJECT: A single skeletal muscle fiber (multinucleated myocyte), not a generic \"cell blob\" and not a whole muscle/tissue bundle — one elongated fiber shown large enough that its internal striated structure is legible.\n\nSHAPE & PROPORTIONS: Real skeletal muscle fibers are impractically long and thin (up to tens of mm long, ~10-100 micron diameter) — do NOT model true proportions. Instead build a stylized, gently tapered cylindrical capsule with rounded/blunt-tapered ends, aspect ratio roughly 1:4 to 1:5 (length:diameter), oriented horizontally along the model's local X-axis, centered at the origin, overall length ~2 world units and radius ~0.2-0.25 units (diameter ~0.4-0.5 units) — that diameter is what actually produces the stated 1:4-1:5 length:diameter ratio, so build to this radius rather than the thicker ~0.35-0.4 figure an earlier draft of this brief used. The default camera (see defaultCamera field above, already tightened to match this slimmer profile) frames it with generous but not excessive margin. Surface should read as a soft cylinder, not a perfect geometric primitive — allow very slight organic irregularity in the outer silhouette (subtle bulges, not perfectly straight walls) so it doesn't look like a procedural capsule primitive.\n\nCUTAWAY CONSTRUCTION: Model a single authored longitudinal wedge cutaway removing roughly the front-facing third of the cylinder's cross-section for about 60% of the fiber's length (centered, leaving both tapered ends intact and uncut so the \"whole fiber\" silhouette is still readable at a glance). The cut face should have a clean, slightly rounded edge (not a razor-sharp CAD edge) consistent with Anatomy Atelier's soft-edged organ cutaways. Inside the cutaway, sculpt/texture:\n  - Parallel bundled rod-like myofibrils running the full length of the cut, with fine repeating cross-striations (alternating slightly darker/lighter bands) suggested via a baked normal/color texture rather than dense separate geometry — must read clearly as \"striped fibers,\" the single most recognizable feature of striated muscle.\n  - A delicate net/mesh-like membrane (sarcoplasmic reticulum) wrapping one or two of the exposed myofibril bundles near the cut edge — thin, semi-translucent, lace-like geometry or texture, distinct in color (leaf green tint) from the myofibril bundles themselves.\n  - Small bean/oblong-shaped mitochondria (5-10 instances, low-poly but smooth, ~0.03-0.05 units long) scattered in the interstitial gaps between myofibril bundles, especially clustered near mid-length.\n  - 2-3 small flattened oval nuclei pressed against the *inner* face of the sarcolemma near the cut edge (peripheral placement is anatomically essential — do not center a nucleus in the fiber's core, that would misrepresent skeletal muscle's defining multinucleated-peripheral trait).\n\nMATERIALS/SHADING: Matte PBR, roughness high (~0.6-0.8), zero/near-zero metalness, no emissive channels, no subsurface glow hacks. Sarcolemma: soft coral, very slightly translucent at the intact exterior so a faint hint of underlying striation is visible without a cutaway (subtle, not a glowing X-ray effect). Myofibrils: warm muted red-brown with a baked banding texture. Mitochondria: soft yellow-tan, smooth matte. Sarcoplasmic reticulum: pale leaf green, thin and slightly translucent. Nuclei: warm cream/off-white with a slightly darker matte fleck texture (chromatin suggestion), not a flat solid color. Overall palette must sit inside Quantaora's biology identity (coral / leaf green / warm paper) — avoid clinical textbook reds/blues/purples and avoid glossy \"wet tissue\" look.\n\nTOPOLOGY/BUDGET: Game-viewer-friendly — aim for under ~40k triangles total (fiber body + interior detail combined), single UV set, one baked texture atlas (2K) for striation/membrane/nuclei detail rather than dense geometric micro-detail, so it loads fast in a Three.js/glTF viewer on mid-range devices including tablets.\n\nLOD/LAYER TOGGLES: Deliver interior sub-meshes (myofibril bundles, sarcoplasmic reticulum netting, mitochondria cluster, nuclei) as separate named nodes/groups in the GLB so the app's layer-toggle UI can show/hide each independently, matching the `layers` list in this spec.\n\nREFERENCE: Match the render language of assets/reference/anatomy-atelier/desktop-overview.png and desktop-interaction.png (warm off-white backdrop, large centered soft-shaded object, restrained cutaway revealing clean internal structure, small flat hotspot dots) — treat those screenshots as the literal lighting/material/composition target, just re-skinned to the biology coral/green palette.\n\nDO NOT: use neon/glow materials, chrome/metallic shaders, cartoon black outlines, exaggerated cel-shading, a bisected/symmetric surgical cross-section (this is a wedge cutaway, not a full hemisphere split), a centrally-located single nucleus (anatomically wrong for skeletal muscle), dense visible-noise \"video game gore\" internal geometry, or a cluttered scene with props/props text/labels baked into the mesh — all labeling happens via the app's hotspot UI, not baked-in text.",
+  "visual": {
+    "shape": "muscle-fiber"
+  }
+}

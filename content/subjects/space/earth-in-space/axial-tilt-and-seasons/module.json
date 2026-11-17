@@ -1,0 +1,46 @@
+{
+  "id": "axial-tilt-and-seasons",
+  "subject": "space",
+  "title": "Axial Tilt & Seasons",
+  "name": "Axial Tilt & Seasons",
+  "scientificName": "Earth's 23.5° obliquity",
+  "branch": "Earth In Space",
+  "system": "Earth · tilted axis, changing seasons",
+  "model": "",
+  "tagline": "Seasons aren't about distance from the Sun — they're about the tilt",
+  "summary": "Earth's axis leans 23.5° away from straight up-and-down relative to its orbit, and that lean stays pointed the same direction in space all year as Earth travels around the Sun. That's the entire cause of seasons: for half the year the Northern Hemisphere leans toward the Sun (its summer, while the South has winter), and for the other half it leans away (its winter, while the South has summer).",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": ["axial-tilt", "seasons-cause", "solstice-and-equinox", "daylight-hours"],
+  "type": "simulation",
+  "estimatedMinutes": 11,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Earth In Space",
+    "unit": "Earth's Motion & Cycles",
+    "systemOrGroup": "Earth · tilted axis, changing seasons",
+    "component": "Axial Tilt & Seasons",
+    "displayPath": "Space > Earth In Space > Earth's Motion & Cycles > Earth · tilted axis, changing seasons > Axial Tilt & Seasons"
+  },
+  "belongsTo": ["Earth In Space", "Space"],
+  "keyFacts": [
+    { "label": "Earth's axial tilt", "value": "23.5° from vertical" },
+    { "label": "June solstice", "value": "Northern Hemisphere leans most toward the Sun — its longest day" },
+    { "label": "December solstice", "value": "Northern Hemisphere leans most away — its shortest day" },
+    { "label": "Equinoxes (March & September)", "value": "Neither hemisphere leans toward the Sun — day and night are close to equal everywhere" },
+    { "label": "Distance from the Sun", "value": "Barely changes across the year and is NOT what causes seasons" },
+    { "label": "Tilt at 0°", "value": "No lean at all means no seasons — every day would be equinox-like everywhere" }
+  ],
+  "whyItMatters": "This is one of the most commonly misunderstood ideas in all of astronomy — most people guess Earth is closer to the Sun in summer. It's actually the opposite in the Northern Hemisphere (Earth is closest to the Sun in January). Tilt, not distance, is the real cause, and seeing the two hemispheres flip seasons at exactly the same moment proves it.",
+  "didYouKnow": "If Earth had zero axial tilt, there would be no seasons anywhere — every single day of the year would look like an equinox, with 12 hours of daylight everywhere on Earth.",
+  "conditions": ["23.5° axial tilt, fixed in direction as Earth orbits", "Position in orbit changes which hemisphere leans toward the Sun", "Hemispheres always experience opposite seasons"],
+  "compareCandidateId": "rotation-and-revolution",
+  "compareReason": "Seasons only make sense once you already know rotation and revolution are separate motions — tilt is the extra ingredient layered on top of revolution that turns a plain orbit into a yearly seasonal cycle.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

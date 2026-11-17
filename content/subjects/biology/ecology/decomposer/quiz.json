@@ -1,0 +1,65 @@
+{
+  "componentId": "decomposer",
+  "questions": [
+    {
+      "id": "dec-q-def",
+      "conceptId": "breaks-down-dead",
+      "hotspotId": "hs-dead",
+      "prompt": "What does a decomposer do?",
+      "options": [
+        "Breaks down dead plants and animals",
+        "Makes its own food from sunlight",
+        "Hunts living animals",
+        "Takes water from the soil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Decomposers break down dead matter and return its materials to the soil.",
+      "misconception": "Decomposers work on things that are already dead; making food is a producer's job, and hunting is a predator's."
+    },
+    {
+      "id": "dec-q-kinds",
+      "conceptId": "fungi-bacteria-worms",
+      "hotspotId": "hs-fungus",
+      "prompt": "Which of these is a decomposer?",
+      "options": [
+        "A mushroom",
+        "A lion",
+        "A blade of grass",
+        "A rabbit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fungi like mushrooms break down dead wood and leaves, making them decomposers.",
+      "misconception": "Mushrooms are decomposers, not plants - they do not make their own food from sunlight."
+    },
+    {
+      "id": "dec-q-nutrient",
+      "conceptId": "recycles-nutrients",
+      "hotspotId": "hs-recycle",
+      "prompt": "What do decomposers return to the soil?",
+      "options": [
+        "Nutrients like nitrogen and minerals",
+        "Sunlight",
+        "Oxygen bubbles",
+        "Heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "As decomposers break down dead matter, they release nutrients that plants can reuse.",
+      "misconception": "Decomposers recycle nutrients; sunlight comes from the sun, not from decay."
+    },
+    {
+      "id": "dec-q-without",
+      "conceptId": "ecosystem-recyclers",
+      "hotspotId": "hs-recycle",
+      "prompt": "What would happen without decomposers?",
+      "options": [
+        "Nutrients would stay locked in dead things and soil would run short",
+        "Nothing would change",
+        "Plants would make more food",
+        "Animals would become producers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without decomposers, dead bodies would not break down and their nutrients would never return to the soil.",
+      "misconception": "Decomposers are essential recyclers - without them the whole nutrient cycle would stop."
+    }
+  ]
+}

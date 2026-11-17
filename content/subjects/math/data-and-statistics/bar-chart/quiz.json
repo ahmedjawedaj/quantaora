@@ -1,0 +1,80 @@
+{
+  "componentId": "bar-chart",
+  "questions": [
+    {
+      "id": "bar-def",
+      "conceptId": "bar-chart-definition",
+      "hotspotId": "hs-bar-tallest",
+      "prompt": "What does the height of a bar show?",
+      "options": [
+        "The count or value for that category",
+        "The order of the categories",
+        "The color of the data",
+        "The average of the whole chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each bar's height represents that category's count on the value axis.",
+      "misconception": "Height is the value, not order or color — the average in the whole chart would be one line, not per-bar heights."
+    },
+    {
+      "id": "bar-axes",
+      "conceptId": "bar-chart-axes",
+      "hotspotId": "hs-value-axis",
+      "prompt": "The side axis of a bar chart shows...",
+      "options": [
+        "The values or counts",
+        "The category names",
+        "The bar colors",
+        "The date"
+      ],
+      "correctIndex": 0,
+      "explanation": "The value axis (vertical) measures the counts each bar reaches.",
+      "misconception": "The categories line up on the bottom axis — the side axis measures how high each bar, i.e. the value."
+    },
+    {
+      "id": "bar-read",
+      "conceptId": "bar-chart-read",
+      "hotspotId": "hs-value-axis",
+      "prompt": "How do you read the value of a bar?",
+      "options": [
+        "Run a line from its top to the value axis",
+        "Read the label under the bar only",
+        "Count the space between bars",
+        "Look at the tallest bar's color"
+      ],
+      "correctIndex": 0,
+      "explanation": "Read across from the bar top to the number on the value axis.",
+      "misconception": "The label names the category but not the value — the height itself projects onto the value axis."
+    },
+    {
+      "id": "bar-compare",
+      "conceptId": "bar-chart-compare",
+      "hotspotId": "hs-bar-tallest",
+      "prompt": "How can you tell which category is biggest at a glance?",
+      "options": [
+        "The tallest bar",
+        "The bar with the lighter color",
+        "The first bar on the left",
+        "The bar with the widest space"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tallest bar is the biggest category — heights make comparison instant.",
+      "misconception": "Color, position, and spacing carry no value — height is the only measure here."
+    },
+    {
+      "id": "bar-vs-line",
+      "conceptId": "bar-chart-compare",
+      "hotspotId": "hs-category-axis",
+      "prompt": "When is a bar chart the better choice than a line graph?",
+      "options": [
+        "Comparing separate categories",
+        "Showing change over time",
+        "Measuring degrees",
+        "Finding a perimeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bars shine for comparing distinct categories side by side.",
+      "misconception": "Tracking change across time is where line graphs shine — bars are about comparing non-ordered categories."
+    }
+  ]
+}

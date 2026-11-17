@@ -1,0 +1,99 @@
+{
+  "id": "seed",
+  "subject": "biology",
+  "title": "Seed",
+  "summary": "A seed is a baby plant in a protective case with its own food supply. Explore the seed coat, the stored food, and the tiny embryo inside that can sprout and grow into a new plant.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "seed-embryo-baby-plant",
+    "seed-coat-protects",
+    "seed-food-stored",
+    "germination-sprouting",
+    "seed-spread"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Reproduction",
+    "systemOrGroup": "Plant organs",
+    "component": "Seed",
+    "displayPath": "Biology > Plants > Plant Reproduction > Plant organs > Seed"
+  },
+  "crossReferences": [
+    {
+      "label": "Flower (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Flower",
+      "note": "Seeds are made inside the flower's fruit after pollination and fertilization."
+    },
+    {
+      "label": "Germination (Plants process)",
+      "branch": "plants",
+      "lowLevelItem": "Seed",
+      "note": "When a seed gets water and warmth, it can germinate and grow into a new plant."
+    }
+  ],
+  "belongsTo": "Plants > Plant Reproduction > Plant organs",
+  "compareCandidate": {
+    "label": "Seed vs. spore",
+    "description": "A seed holds a baby plant (embryo) plus stored food inside a protective coat. A spore is tiny and has no stored food; it is a simpler way some plants reproduce."
+  },
+  "parts": [
+    "Seed coat",
+    "Embryo (baby plant)",
+    "Stored food",
+    "Sprout (during germination)"
+  ],
+  "processes": [
+    "Germination - seed sprouting into a new plant",
+    "Spreading to new places",
+    "Storing the baby plant's first food"
+  ],
+  "plainLanguageExplanation": "A seed is a baby plant in a box. It has a hard outer coat that protects it, a tiny embryo that is the actual baby plant, and stored food the baby plant can use to get started. When a seed lands in the right place - with some water, warmth, and air - it germinates: it takes in water, the embryo begins to grow, and a tiny root and shoot push out. Later it becomes a new plant. Seeds can be carried by wind, water, and animals to new places.",
+  "keyFacts": [
+    {
+      "label": "Contents",
+      "value": "A seed coat, a baby plant embryo, and stored food"
+    },
+    {
+      "label": "Seed coat",
+      "value": "Tough protective outer layer"
+    },
+    {
+      "label": "Embryo",
+      "value": "The tiny baby plant inside"
+    },
+    {
+      "label": "Stored food",
+      "value": "Provides the seedling's first energy"
+    },
+    {
+      "label": "Germination",
+      "value": "Needs water, warmth, and air so it can sprout"
+    },
+    {
+      "label": "Spreading",
+      "value": "Seeds spread by wind, water, and animals"
+    }
+  ],
+  "whyItMatters": "Seeds are how flowering plants make the next generation and spread over the land. Understanding seeds explains how new plants grow, how farmers plant crops, and why animals (including us) eat things like whole grains and nuts.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Semen",
+  "tagline": "A baby plant in a box",
+  "didYouKnow": "Some seeds are spread far by the wind, others by water or by animals eating fruit and carrying the seeds to new places.",
+  "conditions": [
+    "Germination",
+    "Seed dispersal"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Reproduction > Plant organs > Seed"
+}

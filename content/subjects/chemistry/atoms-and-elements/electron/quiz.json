@@ -1,0 +1,65 @@
+{
+  "componentId": "electron",
+  "questions": [
+    {
+      "id": "electron-q-charge",
+      "conceptId": "electron-negative-charge",
+      "hotspotId": "hs-electron-cloud",
+      "prompt": "What charge does an electron carry?",
+      "options": [
+        "Negative (-1)",
+        "Positive (+1)",
+        "No charge",
+        "A charge that changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electron carries a -1 negative charge — the opposite of the positive proton.",
+      "misconception": "The positive charge belongs to protons, and electrons are never neutral or variable — every electron is always -1."
+    },
+    {
+      "id": "electron-q-location",
+      "conceptId": "electron-orbit-shells",
+      "hotspotId": "hs-electron-shell",
+      "prompt": "Where do electrons live in an atom?",
+      "options": [
+        "Orbiting the nucleus in shells",
+        "Packed inside the nucleus",
+        "Attached to the protons",
+        "They float at fixed spots outside the atom"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electrons orbit the nucleus in organized layers called shells, far outside the dense core.",
+      "misconception": "The nucleus is packed with protons and neutrons — electrons stay in the shells, orbiting far outside the core."
+    },
+    {
+      "id": "electron-q-chemistry",
+      "conceptId": "electron-chemistry",
+      "hotspotId": "hs-electron-bonding",
+      "prompt": "Which electrons are involved in chemical reactions?",
+      "options": [
+        "The outermost electrons — the valence electrons",
+        "The innermost electrons",
+        "The protons and neutrons",
+        "Only electrons in the nucleus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The outermost electrons — the valence electrons — are the ones shared, lost, or gained during reactions.",
+      "misconception": "It is never the inner electrons (or the nuclear particles) that react — the chemistry happens with the outermost-shell electrons."
+    },
+    {
+      "id": "electron-q-weight",
+      "conceptId": "electron-orbit-shells",
+      "hotspotId": "hs-electron-cloud",
+      "prompt": "How does the mass of an electron compare to a proton?",
+      "options": [
+        "It is about 1,836 times lighter",
+        "It is about the same",
+        "It is heavier",
+        "It has no mass at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electron is tiny — about 1,836 times lighter than a proton — which is why nearly all of an atom's mass is in the nucleus.",
+      "misconception": "Electrons do have mass, but almost none compared to protons and neutrons — the nucleus carries nearly all the atom's weight."
+    }
+  ]
+}

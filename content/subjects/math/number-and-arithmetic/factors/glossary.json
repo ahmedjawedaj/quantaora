@@ -1,0 +1,50 @@
+{
+  "componentId": "factors",
+  "terms": [
+    {
+      "term": "Factor",
+      "conceptId": "factors-multiply-to-product",
+      "hotspotId": "hs-factor-pair",
+      "definition": "A number that divides another number evenly, or multiplies with a partner to equal it.",
+      "function": "4 is a factor of 12 because 12 ÷ 4 = 3 with no remainder.",
+      "whereItIs": "Each number shown on the factor-pair cards.",
+      "whyItMatters": "Factors are the building blocks of a number's structure."
+    },
+    {
+      "term": "Factor pair",
+      "conceptId": "factors-multiply-to-product",
+      "hotspotId": "hs-factor-pair",
+      "definition": "Two factors that multiply together to produce the number.",
+      "function": "3 × 4 = 12, so (3, 4) is a factor pair of 12.",
+      "whereItIs": "The multiplication cards arranged around the center number.",
+      "whyItMatters": "Factor pairs make it efficient to list all factors of a number."
+    },
+    {
+      "term": "Divisibility",
+      "conceptId": "factors-divide-evenly",
+      "hotspotId": "hs-division-check",
+      "definition": "The property of a number being divisible by another with no remainder.",
+      "function": "Confirms whether a candidate is a factor — even division means yes.",
+      "whereItIs": "The division proof flipped up on each factor card.",
+      "whyItMatters": "It is the test that decides which numbers count as factors."
+    },
+    {
+      "term": "Factor list",
+      "conceptId": "factors-find-all",
+      "hotspotId": "hs-factor-list",
+      "definition": "The complete set of numbers that divide a number evenly.",
+      "function": "Shows every factor, from 1 up to the number itself.",
+      "whereItIs": "The front list plate showing 1, 2, 3, 4, 6, 12 for 12.",
+      "whyItMatters": "Listing factors is the first step of prime factorization and simplifying fractions."
+    },
+    {
+      "term": "Composite number",
+      "conceptId": "factors-find-all",
+      "hotspotId": "hs-factor-pair",
+      "definition": "A whole number with more than two factors.",
+      "function": "12 has six factors, so it is composite.",
+      "whereItIs": "The center card when it shows 12, 18, or 24.",
+      "whyItMatters": "Composite numbers can be broken into factor pairs; primes cannot."
+    }
+  ]
+}

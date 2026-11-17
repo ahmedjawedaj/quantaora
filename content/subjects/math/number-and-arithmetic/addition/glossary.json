@@ -1,0 +1,50 @@
+{
+  "componentId": "addition",
+  "terms": [
+    {
+      "term": "Addend",
+      "conceptId": "addition-combining-groups",
+      "hotspotId": "hs-addends",
+      "definition": "One of the numbers you add together in an addition problem.",
+      "function": "Provides a group of items to be combined into the total.",
+      "whereItIs": "The two cube groups on the mat — 3 and 4.",
+      "whyItMatters": "Knowing the parts of addition helps you read and solve word problems."
+    },
+    {
+      "term": "Sum",
+      "conceptId": "addition-combining-groups",
+      "hotspotId": "hs-sum",
+      "definition": "The total result after the addends are combined.",
+      "function": "Answers the 'how many in all?' question.",
+      "whereItIs": "The merged group of 7 cubes.",
+      "whyItMatters": "The sum is the goal of every addition problem."
+    },
+    {
+      "term": "Count on",
+      "conceptId": "addition-count-on",
+      "hotspotId": "hs-count-on",
+      "definition": "A strategy that starts at the first addend and counts forward the second addend's amount.",
+      "function": "Solves addition faster than counting every item from one.",
+      "whereItIs": "The arrow stepping along the number line.",
+      "whyItMatters": "It is one of the first mental-math shortcuts children learn."
+    },
+    {
+      "term": "Regrouping",
+      "conceptId": "addition-columns-regroup",
+      "hotspotId": "hs-count-on",
+      "definition": "Exchanging ten units of a place for one unit of the next higher place.",
+      "function": "Keeps column addition correct when a column reaches ten or more.",
+      "whereItIs": "The 'carry' step in the column view of the model.",
+      "whyItMatters": "It is the same place-value exchange that powers carrying in addition."
+    },
+    {
+      "term": "Commutative property",
+      "conceptId": "addition-properties",
+      "hotspotId": "hs-addends",
+      "definition": "The property that changing the order of addends does not change the sum.",
+      "function": "3 + 4 and 4 + 3 both equal 7.",
+      "whereItIs": "Demonstrated by combining the two cube groups in either order.",
+      "whyItMatters": "It lets you add numbers in whatever order is easiest."
+    }
+  ]
+}

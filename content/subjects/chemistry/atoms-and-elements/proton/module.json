@@ -1,0 +1,109 @@
+{
+  "id": "proton",
+  "subject": "chemistry",
+  "title": "Proton",
+  "summary": "A proton is a positively charged particle in the nucleus of an atom. The number of protons decides which element an atom is — every element is defined by its proton count.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "proton-positive-charge",
+    "proton-defines-element",
+    "proton-in-nucleus"
+  ],
+  "type": "model",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "Inside The Atom",
+    "systemOrGroup": "Subatomic particles",
+    "component": "Proton",
+    "displayPath": "Chemistry > Atoms And Elements > Inside The Atom > Subatomic particles > Proton"
+  },
+  "crossReferences": [
+    {
+      "label": "Neutron (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Neutron",
+      "note": "Protons and neutrons are partners in the nucleus — but protons carry a positive charge while neutrons carry none."
+    },
+    {
+      "label": "Electron (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron",
+      "note": "Protons are positive and sit in the nucleus; electrons are negative and orbit far outside. Opposite charges pull the atom together."
+    },
+    {
+      "label": "Nucleus (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Nucleus",
+      "note": "The nucleus is the bundle of protons and neutrons at the atom's core — where the proton lives."
+    },
+    {
+      "label": "Atomic number (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Atomic number",
+      "note": "The atomic number on the periodic table is simply the number of protons in an atom — the identity card of the element."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > Inside The Atom > Subatomic particles",
+  "compareCandidate": {
+    "label": "Proton vs. neutron",
+    "description": "A proton carries a positive charge and defines the element; a neutron carries no charge at all. They live side by side in the nucleus, but the proton is the one that gives an atom its identity."
+  },
+  "parts": [
+    "Positive electric charge",
+    "Lives in the nucleus",
+    "Count defines the element"
+  ],
+  "processes": [
+    "Carrying the atom's positive charge",
+    "Fixing which element an atom is",
+    "Pulling electrons into orbit"
+  ],
+  "plainLanguageExplanation": "A proton is one of the three particles that make up atoms, and it is the one that gives an atom its identity. A proton is a tiny particle with a positive electric charge, living in the nucleus — the dense core at the center of every atom. The most important fact about protons is this: the NUMBER of protons decides what element an atom is. Every atom with exactly 6 protons is carbon. Every atom with 79 protons is gold. There is no way around it — change the proton count and you change the element. That is why the atomic number on the periodic table is just the proton count. Protons also do the pulling in an atom: their positive charge attracts the negative electrons, keeping the electron cloud wrapped around the nucleus. Without protons, there would be no elements, no atoms, no chemistry — protons are the identity of everything around you.",
+  "keyFacts": [
+    {
+      "label": "Charge",
+      "value": "Positive — one proton has a +1 charge"
+    },
+    {
+      "label": "Location",
+      "value": "In the nucleus, the dense core of the atom"
+    },
+    {
+      "label": "The key job",
+      "value": "Its count defines the element — 6 protons = carbon, 79 protons = gold"
+    },
+    {
+      "label": "Atomic number",
+      "value": "The periodic table's atomic number is the proton count"
+    },
+    {
+      "label": "Pulling power",
+      "value": "Attracts negative electrons, holding the atom together"
+    },
+    {
+      "label": "Mass",
+      "value": "Heavy — about 1,836 times more massive than an electron"
+    }
+  ],
+  "whyItMatters": "Protons are the identity of matter. The entire periodic table is a list of proton counts, and every element on it is what it is because of how many protons it carries. Understanding protons unlocks why elements differ, why the table is ordered the way it is, and why atoms behave the way they do.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Proton",
+  "tagline": "The particle that names the element",
+  "didYouKnow": "If you changed just ONE proton in a carbon atom, you would turn it into nitrogen — the element next door on the periodic table. Proton count is everything.",
+  "conditions": [
+    "Element identity",
+    "Atomic number",
+    "Nuclear charge"
+  ],
+  "compareCandidateId": "neutron",
+  "compareReason": "The proton and neutron are inseparable neighbors in the nucleus, yet one carries the element's identity and the other carries nothing — comparing them makes the proton's defining role unforgettable."
+}

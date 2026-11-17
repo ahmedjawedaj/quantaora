@@ -1,0 +1,82 @@
+{
+  "id": "neuron",
+  "subject": "biology",
+  "title": "Neuron",
+  "summary": "A neuron is a nerve cell built to send and receive electrical and chemical signals. Explore its branching dendrites, long axon, myelin insulation, and the synapse where it hands the signal off to the next cell — then see how that shape connects to everything from reflexes to memory.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "cell-body-soma",
+    "nucleus",
+    "mitochondrion",
+    "dendrites",
+    "axon",
+    "myelin-sheath",
+    "axon-terminals",
+    "synapse"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Specialized Cells",
+    "systemOrGroup": "Neuron (specialized cell)",
+    "component": "Neuron",
+    "displayPath": "Biology > Cell Biology > Specialized Cells > Neuron"
+  },
+  "crossReferences": [
+    {
+      "label": "Nervous System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Nervous system",
+      "note": "Neurons are the building block of the brain, spinal cord, and nerves covered in the Human Anatomy branch's Nervous System unit."
+    },
+    {
+      "label": "Nerve Signaling (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Nerve signaling",
+      "note": "The action-potential and synaptic-transmission processes referenced in this component's lesson are expanded as a full process in the Human Physiology branch."
+    }
+  ],
+  "belongsTo": "Cell Biology > Specialized Cells > Neuron (specialized cell)",
+  "compareCandidate": {
+    "label": "Neuron vs. a generic animal cell",
+    "description": "A generic animal cell (e.g., a skin or muscle cell) shares the same core organelles (nucleus, mitochondria) but has a compact, roughly round shape, unlike the neuron's long, branching, signal-carrying shape."
+  },
+  "parts": [
+    "Cell body (soma)",
+    "Nucleus",
+    "Mitochondrion",
+    "Dendrites",
+    "Axon",
+    "Myelin sheath",
+    "Axon terminals",
+    "Synapse"
+  ],
+  "processes": [
+    "Signal reception at dendrites",
+    "Electrical impulse (action potential) travel along the axon",
+    "Saltatory conduction along myelinated segments",
+    "Neurotransmitter release at the synapse",
+    "Signal transfer to the next neuron or muscle cell",
+    "Nervous system reflex arcs"
+  ],
+  "plainLanguageExplanation": "A neuron is a nerve cell — a tiny messenger that carries information through your body as fast electrical signals. Picture a tree lying on its side: the roots (dendrites) catch signals from other neurons, the trunk (axon) carries the signal down the line, and the branches at the far end (axon terminals) pass the message on to the next cell. Billions of these cells are wired together inside your brain, spinal cord, and nerves, and they're how you feel a pinprick, decide to move your hand, remember a birthday, or blink without even thinking about it.",
+  "keyFacts": [
+    { "label": "Cell type", "value": "Specialized cell of the nervous system" },
+    { "label": "Main job", "value": "Receives, processes, and sends electrical and chemical signals" },
+    { "label": "Signal speed", "value": "Myelinated neurons can send signals over 100 meters per second" },
+    { "label": "Where found", "value": "Brain, spinal cord, and nerves throughout the body" },
+    { "label": "Cell division", "value": "Most mature neurons do not divide once fully developed" },
+    { "label": "Communication point", "value": "Signals pass to the next cell across a gap called a synapse" }
+  ],
+  "whyItMatters": "Every thought, feeling, movement, and memory you have exists because neurons are firing signals to each other right now. Understanding how a neuron works explains how reflexes protect you, why nerve damage or conditions like multiple sclerosis (which affects myelin) can slow reactions or cause numbness, and how medicines and even everyday things like caffeine change the way neurons communicate. It's also the starting point for understanding the whole nervous system, from touching a hot stove to learning to ride a bike.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

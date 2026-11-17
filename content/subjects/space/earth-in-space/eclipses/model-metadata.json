@@ -1,0 +1,16 @@
+{
+  "componentId": "eclipses",
+  "modelType": "procedural-r3f",
+  "url": "src/components/explorer/EarthSpaceViewer.tsx",
+  "thumbnailUrl": "/assets/thumbnails/space/earth-in-space/eclipses.png",
+  "assetStatus": "Already implemented — a hand-built React Three Fiber scene (EarthSpaceViewer.tsx, mode=\"eclipses\"), not a pending asset. Earth and the Moon render from the same real, already-cleared GLBs used elsewhere in Space.",
+  "defaultCamera": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "cameraDefault": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": ["Sun (light source)", "Earth", "Moon", "Alignment offset / shadow-path readout"],
+  "hotspots": [],
+  "visualStyleNotes": "Anatomy Atelier quality bar: warm off-white studio backdrop, no floor grid, no glow/bloom. Sun, Earth and Moon are arranged along the current alignment offset with the Moon's real 5.1° orbital tilt toggleable; the shadow-strength readout (total/partial/none) updates live as the offset slider moves.",
+  "materialNotes": "Earth and Moon use their existing real GLB material sets (metallic-roughness PBR); no emissive channels — alignment quality is read from the offset slider and the side-panel readout, not a rendered shadow-fade effect.",
+  "note": "Process-driven component: the 'Touch it' interaction is a live physics simulation (eclipse-type toggle, alignment-offset slider, tilt toggle) rather than tapping points on a single model, so this component intentionally carries no hotspots."
+}

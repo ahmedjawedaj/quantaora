@@ -1,0 +1,89 @@
+{
+  "id": "compound",
+  "componentId": "compound",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/molecules-and-bonding/compound/compound.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/molecules-and-bonding/compound.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.1,
+      3.3
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.1,
+      3.3
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Three compounds",
+    "Element split",
+    "New identity"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-compound-examples",
+      "label": "Example compounds",
+      "conceptId": "compound-different-elements",
+      "position": [
+        -0.85,
+        0.55,
+        0
+      ],
+      "description": "Three compounds: water (H₂O), carbon dioxide (CO₂), and table salt (NaCl). Each is a new substance made from different elements.",
+      "positionHint": "The three substances arranged in a row — the ball-stick molecules and the salt cube.",
+      "color": "#D9A441",
+      "function": "Shows real compounds built from different elements."
+    },
+    {
+      "id": "hs-compound-elements",
+      "label": "The elements inside",
+      "conceptId": "compound-different-elements",
+      "position": [
+        0.7,
+        0.9,
+        0
+      ],
+      "description": "Each compound contains atoms of different elements — hydrogen and oxygen in water, sodium and chlorine in salt. The element-split layer pulls these apart.",
+      "positionHint": "The differently colored atom spheres inside each compound.",
+      "color": "#7FA86A",
+      "function": "Shows the different elements combined in each compound."
+    },
+    {
+      "id": "hs-compound-new-identity",
+      "label": "A brand-new substance",
+      "conceptId": "compound-new-identity",
+      "position": [
+        0,
+        -0.55,
+        0
+      ],
+      "description": "Bonding gives the elements a new identity. Sodium (metal) and chlorine (poison gas) become harmless salt; flammable hydrogen and fire-feeding oxygen become water that puts out fires.",
+      "positionHint": "The central card space, where the identity layer shows property labels flipping.",
+      "color": "#D96B5A",
+      "function": "Shows how compound properties differ from element properties."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. Three substances float in a row, small in frame with generous negative space, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Ball-stick molecules follow the standard CPK colors (oxygen muted red, hydrogen warm off-white, carbon soft graphite); salt is a soft violet/green alternating cube. Strong saturated color is reserved for the small flat hotspot dots (amber / molecular-green / coral accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Molecule spheres: CPK colors as in the app's molecule data (O muted red, H warm off-white, C soft graphite), roughness ~0.45-0.5. Salt lattice: alternating soft violet and soft green matte cubes, roughness ~0.6. Bond rods: thin graphite cylinders. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: three everyday compounds, built to be read as 'different elements bonded into a brand-new substance.' Three procedural layers, all clean primitives:\n\n1) MAIN: three substances in a row (spacing ~1.4): (a) water H₂O — one muted-red sphere (r~0.34) + two warm off-white spheres (r~0.22) at ~104.5°, single graphite rods; (b) carbon dioxide CO₂ — one soft-graphite sphere (r~0.3) flanked by two muted-red spheres in a line, double rods; (c) table salt NaCl — a 3×3×3 grid of alternating soft-violet and soft-green small cubes (edge ~0.16) representing the ionic lattice.\n\n2) ELEMENT SPLIT (toggleable layer): each compound's atoms separate outward (app animates) — water pulls into its H and O atoms, salt pulls into violet and green cubes — leaving each element visibly distinct and no longer the compound.\n\n3) NEW IDENTITY (toggleable layer): a soft flat card floats above center; the app renders property labels that flip — over water, 'flammable gas' (H) and 'feeds fire' (O) flip to 'puts out fire'; over salt, 'reactive metal' and 'poisonous gas' flip to 'safe to eat'.\n\nCamera: framed so all three compounds fit in a row with negative space; auto-rotate default. Budget 8-12k triangles. Named nodes: Compound_H2O, Compound_CO2, Compound_NaCl, Hydrogens, Oxygens, Carbon, SaltCells, SaltCell_Na, SaltCell_Cl, IdentityCard. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "molecule-balls"
+  }
+}

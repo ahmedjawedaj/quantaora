@@ -1,0 +1,103 @@
+{
+  "id": "metal",
+  "componentId": "metal",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/metal/metal.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/metal.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.8,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.8,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Metal ingot",
+    "Free electrons",
+    "Table region"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-metal-sample",
+      "label": "Metal ingot",
+      "conceptId": "metal-shiny-malleable-conductive",
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "description": "A polished metal ingot — a typical metal sample: smooth, solid, and gleaming. This one could be copper or iron.",
+      "positionHint": "The smooth metallic ingot at the center of the scene.",
+      "color": "#D9A441",
+      "function": "Shows a real metal sample with its classic look."
+    },
+    {
+      "id": "hs-metal-shine",
+      "label": "Luster",
+      "conceptId": "metal-shiny-malleable-conductive",
+      "position": [
+        0.7,
+        0.6,
+        0.15
+      ],
+      "description": "The gleam on the ingot is luster — the shiny quality of metals that polished surfaces reflect light strongly.",
+      "positionHint": "The bright highlight on the ingot's upper face.",
+      "color": "#D96B5A",
+      "function": "Marks the shiny luster that metals are known for."
+    },
+    {
+      "id": "hs-metal-conductivity",
+      "label": "Free electrons",
+      "conceptId": "metal-shiny-malleable-conductive",
+      "position": [
+        0,
+        0,
+        0.45
+      ],
+      "description": "The drifting dots are the metal's free electrons — loose outer electrons that wander between atoms and carry heat and electricity.",
+      "positionHint": "The small drifting dots moving through the ingot, visible when the free-electrons layer is on.",
+      "color": "#6B85A8",
+      "function": "Shows the loose electrons that make metals conductive."
+    },
+    {
+      "id": "hs-metal-region",
+      "label": "Metal region of the table",
+      "conceptId": "metal-occupies-left-and-middle",
+      "position": [
+        0,
+        -1.35,
+        0.2
+      ],
+      "description": "The highlighted zone on the periodic table is where metals live — the left side and the middle, covering about 80% of the elements.",
+      "positionHint": "The large highlighted zone on the table section below the ingot.",
+      "color": "#7FA86A",
+      "function": "Shows where metals sit on the periodic table."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. The metal ingot floats centered above a section of the table, lit with soft neutral studio light — the ingot may carry a gentle soft-specular gleam (that IS its point), but no glow, no bloom, no emissive. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: the ingot is a warm metallic copper-grey at moderate roughness (not chrome-saturated), the table tiles are warm paper-white. Strong saturated color is reserved entirely for the small flat hotspot dots (amber / coral / slate / molecular green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=1 ONLY on the ingot (it is the one object in the chemistry set that should read as true metal), roughness ~0.25 so it shows a soft polished gleam without mirror-chrome. Everything else metallic=0: table tiles paper-white roughness ~0.55, free-electron dots muted teal roughness ~0.4. No emissive channels anywhere — any pulse or highlight is handled by app runtime UI, not baked into the asset.",
+  "assetBrief": "SUBJECT: a metal ingot with its loose electrons, built to be read as 'the shiny, conductive workhorse of the elements.' Three procedural layers, all clean primitives:\n\n1) MAIN: one smooth rounded rectangular ingot at the center (like a gold-brick shape, ~1.4 x 0.8 x 0.6, corners softly rounded), warm copper-grey metal material with a soft polished gleam. This is the star of the scene.\n\n2) FREE ELECTRONS (toggleable layer): ~10 tiny muted-teal dots (radius ~0.05) drifting slowly through the ingot's volume (the app animates gentle wander paths) — the loose conduction electrons.\n\n3) TABLE REGION (toggleable layer): below the ingot, a flat section of periodic table (grid of paper-white tiles, ~9 columns x 5 rows). The tiles of the left 2 columns and the center block are given a faint muted warm-green cast and slight raise, marking the metal region; a thin stair-step boundary hints where nonmetals would begin.\n\nCamera: framed so the ingot is large and centered with the table slab below; auto-rotate default. Budget 6-10k triangles. Named nodes: MetalIngot, FreeElectron_01-10, TableSlab, MetalRegion, StepBoundary. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "metal-lattice"
+  }
+}

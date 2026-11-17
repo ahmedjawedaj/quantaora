@@ -1,0 +1,50 @@
+{
+  "componentId": "equivalent-fraction",
+  "terms": [
+    {
+      "term": "Equivalent fraction",
+      "conceptId": "equiv-fraction-same-amount",
+      "hotspotId": "hs-equivalence",
+      "definition": "Different fractions that name the same amount, like 1/2 and 2/4.",
+      "function": "2/4 and 3/6 both name the same share as 1/2.",
+      "whereItIs": "The two circles with matching shaded amounts.",
+      "whyItMatters": "Equivalence lets you rewrite fractions freely to add or compare them."
+    },
+    {
+      "term": "Scale rule",
+      "conceptId": "equiv-fraction-multiply-both",
+      "hotspotId": "hs-scale-rule",
+      "definition": "Multiplying (or dividing) both the numerator and denominator by the same number.",
+      "function": "1/2 × 2/2 = 2/4 keeps the amount unchanged.",
+      "whereItIs": "The scale control on the circles.",
+      "whyItMatters": "It is the mechanism that creates every equivalent fraction."
+    },
+    {
+      "term": "Simplify",
+      "conceptId": "equiv-fraction-simplify",
+      "hotspotId": "hs-simplify",
+      "definition": "Dividing a fraction's top and bottom by a common factor until they share only the factor 1.",
+      "function": "6/8 ÷ 2/2 = 3/4, its simplest form.",
+      "whereItIs": "The simplify control on the right circle.",
+      "whyItMatters": "Simplest form is the cleanest, easiest-to-read version of a fraction."
+    },
+    {
+      "term": "Cross multiplication",
+      "conceptId": "equiv-fraction-compare",
+      "hotspotId": "hs-equivalence",
+      "definition": "Multiplying diagonally across a fraction pair to test equality.",
+      "function": "1×6 = 2×3, so 1/2 = 3/6.",
+      "whereItIs": "The check the app runs whenever two circles are compared.",
+      "whyItMatters": "It gives a quick, reliable test for equivalent fractions."
+    },
+    {
+      "term": "Common denominator",
+      "conceptId": "equiv-fraction-compare",
+      "hotspotId": "hs-scale-rule",
+      "definition": "A shared denominator two fractions are rewritten into for comparison or addition.",
+      "function": "1/2 becomes 2/4 to add with 3/4.",
+      "whereItIs": "Produced by scaling with the scale rule.",
+      "whyItMatters": "It lets fractions with different part sizes be combined."
+    }
+  ]
+}

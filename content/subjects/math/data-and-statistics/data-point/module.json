@@ -1,0 +1,86 @@
+{
+  "id": "data-point",
+  "subject": "math",
+  "title": "Data Point",
+  "summary": "A data point is one single piece of information — one measurement, one answer, one observation. Explore how individual points form datasets and feed every chart and statistic.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "data-point-definition",
+    "data-point-collect",
+    "data-point-dataset",
+    "data-point-trace"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 6,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Data basics",
+    "systemOrGroup": "Data and statistics",
+    "component": "Data point",
+    "displayPath": "Math > Data And Statistics > Data basics > Data and statistics > Data point"
+  },
+  "crossReferences": [
+    {
+      "label": "Table (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Table",
+      "note": "A table organizes data points into rows and columns."
+    },
+    {
+      "label": "Bar chart (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Bar chart",
+      "note": "Each bar summarizes a group of data points."
+    },
+    {
+      "label": "Mean (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Mean",
+      "note": "The mean is computed from all the data points."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Data basics > Data and statistics",
+  "compareCandidate": {
+    "label": "Data point vs. statistic",
+    "description": "A data point is one raw observation; a statistic like the mean is a summary computed from many points."
+  },
+  "parts": [
+    "The single value",
+    "Its label",
+    "Its place in the dataset"
+  ],
+  "processes": [
+    "Collecting data points",
+    "Watching points build a dataset"
+  ],
+  "plainLanguageExplanation": "A data point is one single piece of information — one child's height, one day's temperature, one quiz score. It is the smallest unit of data. Collect many data points and you have a dataset. Each point has a value (like 150 cm) and usually a label (like 'Ali'). Charts show data points grouped or graphed, and statistics like the mean, median, and mode are all computed from the individual points. Understanding data starts with understanding that every graph is built from individual points.",
+  "keyFacts": [
+    { "label": "Definition", "value": "One single piece of information" },
+    { "label": "Examples", "value": "One height, one score, one temperature" },
+    { "label": "Label + value", "value": "'Ali' = 150 cm" },
+    { "label": "Many together", "value": "Form a dataset" },
+    { "label": "In charts", "value": "Points build bars, graphs, and tables" },
+    { "label": "In statistics", "value": "Mean, median, mode all start from points" }
+  ],
+  "whyItMatters": "Every chart, graph, and statistic is built from data points. Recognizing a single point — and where it lives in a dataset — is the first and most basic skill in statistics.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Data point",
+  "tagline": "One piece of information",
+  "didYouKnow": "The tallest data point in the dataset, the shortest, and every point in between — even the weird one that looks like a mistake — all count as data points and all influence your summary.",
+  "conditions": [
+    "Collecting measurements",
+    "Reading charts",
+    "Building tables",
+    "Interpreting surveys"
+  ],
+  "compareCandidateId": "mean",
+  "compareReason": "Students confuse the raw observation with its summary — comparing one point with the average computed from all of them makes the difference visible."
+}

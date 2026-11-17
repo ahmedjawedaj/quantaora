@@ -1,0 +1,121 @@
+{
+  "componentId": "inheritance-punnett-squares",
+  "terms": [
+    {
+      "term": "Gene",
+      "conceptId": "gene",
+      "definition": "A segment of DNA that carries the instructions for a specific trait.",
+      "function": "Defines which trait a locus controls; the two alleles a Punnett square combines are both versions of the same gene.",
+      "whereItIs": "A defined location on a chromosome, inherited one copy from each parent.",
+      "whyItMatters": "A Punnett square only makes sense when both parents' alleles being crossed belong to the same gene.",
+      "relatedConcept": "allele"
+    },
+    {
+      "term": "Allele",
+      "conceptId": "allele",
+      "definition": "One version of a gene; different alleles can produce different versions of the same trait.",
+      "function": "The letters written along a Punnett square's edges and combined inside its cells are alleles.",
+      "whereItIs": "One allele per gene comes from each parent; the grid's top row and left column each hold one parent's pair.",
+      "whyItMatters": "Without correctly identifying each parent's alleles, the whole grid produces the wrong predictions.",
+      "relatedConcept": "gene"
+    },
+    {
+      "term": "Dominant",
+      "conceptId": "dominant",
+      "definition": "An allele whose trait shows up in the phenotype even when only one copy is present.",
+      "function": "Written with a capital letter (e.g. R); masks the recessive allele's trait whenever the two are paired together.",
+      "whereItIs": "Engraved as an uppercase letter on the parent and offspring beads in the model.",
+      "whyItMatters": "Dominant alleles are why a trait can appear in offspring even if only one parent visibly shows it.",
+      "relatedConcept": "recessive"
+    },
+    {
+      "term": "Recessive",
+      "conceptId": "recessive",
+      "definition": "An allele whose trait only shows up when two copies (one from each parent) are present.",
+      "function": "Written with a lowercase letter (e.g. r); its trait is masked whenever paired with a dominant allele, but it can still be passed on.",
+      "whereItIs": "Engraved as a lowercase letter on the parent and offspring beads in the model.",
+      "whyItMatters": "Recessive alleles explain how a trait can 'skip a generation' — two parents who don't show it can still both carry and pass it on.",
+      "relatedConcept": "dominant"
+    },
+    {
+      "term": "Genotype",
+      "conceptId": "genotype",
+      "definition": "The specific pair of alleles an organism carries for a gene, written as letters (e.g., Rr).",
+      "function": "Determines the phenotype according to the dominant/recessive relationship between the two alleles present.",
+      "whereItIs": "Read directly off each Punnett square cell — the row letter plus the column letter.",
+      "whyItMatters": "Genotype is the underlying code; phenotype is what you actually see — the two can differ, which is the whole point of recessive alleles.",
+      "relatedConcept": "phenotype"
+    },
+    {
+      "term": "Phenotype",
+      "conceptId": "phenotype",
+      "definition": "The observable trait that results from an organism's genotype.",
+      "function": "The visible outcome produced once the dominant/recessive relationship between the two alleles in a genotype is resolved.",
+      "whereItIs": "Not shown directly as a letter in the grid — it's read by grouping genotypes that share the same dominant/recessive outcome.",
+      "whyItMatters": "Phenotype is what a Punnett square's ratio ultimately predicts and what you can actually check against real offspring.",
+      "relatedConcept": "genotype",
+      "quizId": "inheritance-punnett-squares-q-heterozygous-phenotype"
+    },
+    {
+      "term": "Homozygous",
+      "conceptId": "homozygous",
+      "definition": "Having two identical alleles for a gene, like RR or rr.",
+      "function": "A homozygous parent contributes the same allele no matter which of its two copies gets passed on, so all of its offspring receive that same letter.",
+      "whereItIs": "Both alleles in a parent's bead pair show the same letter.",
+      "whyItMatters": "Crossing a homozygous dominant parent (RR) with any other parent guarantees every offspring shows the dominant phenotype.",
+      "relatedConcept": "heterozygous"
+    },
+    {
+      "term": "Heterozygous",
+      "conceptId": "heterozygous",
+      "definition": "Having two different alleles for a gene, like Rr.",
+      "function": "A heterozygous parent has a 50/50 chance of passing either allele to a given offspring, which is what creates a spread of possible genotypes in the grid.",
+      "whereItIs": "The two alleles in a parent's bead pair show different letters.",
+      "whyItMatters": "Crossing two heterozygous parents (Rr x Rr) is the classic monohybrid cross that produces the 1:2:1 genotype and 3:1 phenotype ratios.",
+      "relatedConcept": "homozygous"
+    },
+    {
+      "term": "Punnett square",
+      "conceptId": "punnett-square-grid",
+      "hotspotId": "hs-punnett-square-grid",
+      "definition": "A grid tool that lays out all possible allele combinations from a cross between two parents.",
+      "function": "Systematically lists every combination two parents' alleles can produce for a gene, turning a random process into something you can see and count.",
+      "whereItIs": "The four-celled vertical slab at the center of the model.",
+      "whyItMatters": "It's the core tool geneticists and students use to predict the odds of different genotypes and traits appearing in offspring.",
+      "relatedConcept": "predicted-genotype-ratios",
+      "quizId": "inheritance-punnett-squares-q-prediction-not-guarantee"
+    },
+    {
+      "term": "Parent alleles combine",
+      "conceptId": "parent-alleles-combine",
+      "hotspotId": "hs-parent-alleles-combine",
+      "definition": "The point where each parent's two alleles for a gene line up along the grid's edges, ready to be combined into offspring genotypes.",
+      "function": "Supplies the raw genetic material for the cross: each parent randomly passes just one of their two alleles per gene.",
+      "whereItIs": "The father's two allele beads sit above the grid's top edge; the mother's two allele beads sit beside the grid's left edge.",
+      "whyItMatters": "This step is what makes a Punnett square accurate — it only works if you correctly identify what each parent can actually pass on.",
+      "relatedConcept": "punnett-square-grid",
+      "quizId": "inheritance-punnett-squares-q-random-allele-passing"
+    },
+    {
+      "term": "Predicted genotype ratios",
+      "conceptId": "predicted-genotype-ratios",
+      "hotspotId": "hs-predicted-genotype-ratios",
+      "definition": "The count of how many grid cells produced each possible genotype, expressed as a ratio such as 1:2:1.",
+      "function": "Converts the four individual grid cells into a single summary number that predicts genotype odds across many offspring.",
+      "whereItIs": "The left disk-tower cluster on the shelf below the grid; tower height encodes count.",
+      "whyItMatters": "Genotype ratios are the first checkpoint for whether a cross was set up and read correctly, before translating to visible traits.",
+      "relatedConcept": "predicted-phenotype-ratios"
+    },
+    {
+      "term": "Predicted phenotype ratios",
+      "conceptId": "predicted-phenotype-ratios",
+      "hotspotId": "hs-predicted-phenotype-ratios",
+      "definition": "The count of how many grid cells produce each visible trait, expressed as a ratio such as 3:1, after grouping genotypes that share the same trait.",
+      "function": "Translates genotype counts into the trait ratio you could actually observe by looking at the offspring.",
+      "whereItIs": "The right disk-tower cluster on the shelf below the grid, smaller than the genotype cluster.",
+      "whyItMatters": "Phenotype ratios are what you can actually check against real offspring — the testable prediction a Punnett square ultimately makes.",
+      "relatedConcept": "predicted-genotype-ratios",
+      "quizId": "inheritance-punnett-squares-q-monohybrid-ratio"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "componentId": "transcription-translation",
+  "terms": [
+    {
+      "term": "Transcription And Translation",
+      "conceptId": "transcription-translation",
+      "definition": "The two-step process that turns a gene's DNA instructions into an actual protein: transcription copies the gene into mRNA, then translation reads that mRNA to build the protein.",
+      "function": "Converts the genetic information stored in DNA into the working proteins that carry out nearly every task inside a cell.",
+      "whereItIs": "Transcription happens inside the nucleus; translation happens afterward at a ribosome in the cytoplasm.",
+      "whyItMatters": "This is the process, often called the central dogma of molecular biology, that connects your DNA to every physical trait and function your body has.",
+      "relatedConcept": "dna-transcribed-into-mrna"
+    },
+    {
+      "term": "DNA Transcribed Into mRNA (Transcription)",
+      "conceptId": "dna-transcribed-into-mrna",
+      "hotspotId": "hs-dna-transcribed",
+      "definition": "The step where an enzyme unwinds a short piece of DNA and builds a matching, disposable mRNA copy of it.",
+      "function": "RNA polymerase unwinds a short stretch of the DNA double helix, reads one strand as a template, and links RNA bases together to build a matching mRNA strand.",
+      "whereItIs": "Inside the nucleus, at the 'transcription bubble' near the base of the DNA helix, where the two DNA strands visibly separate and the new mRNA thread begins.",
+      "whyItMatters": "This step keeps the master DNA copy safe in the nucleus while still letting the cell act on its instructions — without it, the cell would have to risk its one permanent genetic library every time it needed a protein.",
+      "relatedConcept": "mrna-leaves-nucleus",
+      "quizId": "transcription-translation-q-rna-polymerase"
+    },
+    {
+      "term": "mRNA Leaves The Nucleus",
+      "conceptId": "mrna-leaves-nucleus",
+      "hotspotId": "hs-mrna-exits",
+      "definition": "The finished mRNA copy exits the nucleus through a pore in its envelope and travels into the cytoplasm.",
+      "function": "Carries the transcribed instructions out of the nucleus, through a nuclear pore, to where a ribosome is waiting in the cytoplasm.",
+      "whereItIs": "At the nuclear pore gap in the nuclear envelope, where the mRNA tube passes from inside the translucent nucleus to outside it.",
+      "whyItMatters": "This handoff physically connects the two halves of the central dogma — without mRNA making this trip, the instructions copied from DNA would never reach a ribosome.",
+      "relatedConcept": "ribosome-reads-mrna",
+      "quizId": "transcription-translation-q-why-mrna-copy"
+    },
+    {
+      "term": "Ribosome Reads The mRNA (Translation Begins)",
+      "conceptId": "ribosome-reads-mrna",
+      "hotspotId": "hs-ribosome-reads",
+      "definition": "The ribosome clamps onto the mRNA strand and reads it three letters (one codon) at a time.",
+      "function": "Moves along the mRNA strand, reading each 3-base codon in order and matching it, via tRNA, to the correct amino acid to add next.",
+      "whereItIs": "At the two-lobed ribosome assembly in the cytoplasm, clamped on the mRNA where the thread passes through the cleft between the large and small subunits.",
+      "whyItMatters": "This is where the genetic code actually gets decoded into a physical sequence of amino acids — the direct link between a gene's sequence and a protein's structure.",
+      "relatedConcept": "amino-acids-assembled-into-protein",
+      "quizId": "transcription-translation-q-translation-location"
+    },
+    {
+      "term": "Amino Acids Assembled Into Protein",
+      "conceptId": "amino-acids-assembled-into-protein",
+      "hotspotId": "hs-protein-assembled",
+      "definition": "As the ribosome reads each codon, it links the matching amino acid onto a growing chain, which becomes the finished protein.",
+      "function": "Links each newly matched amino acid onto the end of a growing chain in the exact order the mRNA codons specify, until a stop codon ends the chain.",
+      "whereItIs": "Along the bead chain arcing up and away from the top of the ribosome, near where the last few beads begin to coil.",
+      "whyItMatters": "This finished chain is the protein — the actual working molecule (enzyme, structural fiber, hormone, antibody) that carries out the instructions originally copied from DNA.",
+      "relatedConcept": "dna-transcribed-into-mrna",
+      "quizId": "transcription-translation-q-codon"
+    },
+    {
+      "term": "DNA",
+      "conceptId": "dna",
+      "definition": "The molecule that stores a cell's genetic instructions, kept safely inside the nucleus.",
+      "function": "Serves as the permanent template that transcription reads to produce mRNA; never leaves the nucleus and is never directly used to build a protein.",
+      "whereItIs": "Coiled inside the nucleus, including the short unwound stretch shown at the transcription bubble.",
+      "whyItMatters": "DNA is the master copy of every instruction the cell has — protecting it while still letting the cell act on it is the entire reason transcription exists.",
+      "relatedConcept": "dna-transcribed-into-mrna"
+    },
+    {
+      "term": "Nucleus",
+      "conceptId": "nucleus",
+      "definition": "The compartment inside a cell where DNA is stored and transcription takes place.",
+      "function": "Encloses and protects the DNA, and is where RNA polymerase builds mRNA before that mRNA exits through a nuclear pore.",
+      "whereItIs": "The large translucent membrane-bound compartment on the left side of the scene, with a single visible pore where the mRNA exits.",
+      "whyItMatters": "Compartmentalizing DNA inside the nucleus is what makes it possible to keep the master genetic copy separate from, and protected from, the rest of the cell's activity.",
+      "relatedConcept": "mrna-leaves-nucleus"
+    },
+    {
+      "term": "mRNA (Messenger RNA)",
+      "conceptId": "mrna",
+      "definition": "The disposable RNA copy of a gene that carries instructions from the nucleus to a ribosome.",
+      "function": "Acts as the working copy of a gene's sequence, carrying the instructions RNA polymerase transcribed out of the nucleus to a ribosome for translation.",
+      "whereItIs": "The single continuous tube running from the transcription bubble inside the nucleus, out through the nuclear pore, to the ribosome in the cytoplasm.",
+      "whyItMatters": "mRNA is single-stranded, uses uracil instead of thymine, and is temporary — it lets the cell build proteins without ever risking the permanent DNA copy.",
+      "relatedConcept": "dna"
+    },
+    {
+      "term": "RNA Polymerase",
+      "conceptId": "rna-polymerase",
+      "definition": "The enzyme that builds an mRNA strand by reading a DNA template during transcription.",
+      "function": "Unwinds a short stretch of DNA and links RNA bases together, one at a time, to build a strand of mRNA that matches the DNA template it's reading.",
+      "whereItIs": "Sits at the unwind point of the transcription bubble, at the base of the DNA helix inside the nucleus.",
+      "whyItMatters": "Without this enzyme, the instructions stored in DNA could never be copied into a usable working form.",
+      "relatedConcept": "dna-transcribed-into-mrna"
+    },
+    {
+      "term": "Ribosome",
+      "conceptId": "ribosome",
+      "definition": "The molecular machine, found in the cytoplasm, that reads mRNA and assembles amino acids into a protein during translation.",
+      "function": "Clamps onto mRNA, reads it one codon at a time, and links the matching amino acids into a growing protein chain.",
+      "whereItIs": "In the cytoplasm, outside the nucleus, clamped onto the mRNA strand.",
+      "whyItMatters": "The ribosome is the physical site where the genetic code gets translated into a real, working molecule — a protein.",
+      "relatedConcept": "ribosome-reads-mrna"
+    },
+    {
+      "term": "Codon",
+      "conceptId": "codon",
+      "definition": "A sequence of three mRNA bases that codes for one specific amino acid (or a start/stop signal).",
+      "function": "Acts as the ribosome's basic unit of instruction; each codon tells the ribosome exactly one amino acid to add next, or when to start or stop.",
+      "whereItIs": "Read in order along the mRNA strand as it passes through the ribosome.",
+      "whyItMatters": "Codons are the actual 'letters' of the genetic code — the specific 3-letter grouping is what makes translation possible at all.",
+      "relatedConcept": "ribosome-reads-mrna"
+    },
+    {
+      "term": "tRNA (Transfer RNA)",
+      "conceptId": "trna",
+      "definition": "A small RNA molecule that carries one specific amino acid and matches it to the correct codon on the mRNA.",
+      "function": "Delivers the correct amino acid to the ribosome for each codon being read, matching its own anticodon to the mRNA codon.",
+      "whereItIs": "Ferries amino acids to the ribosome as it moves along the mRNA strand.",
+      "whyItMatters": "tRNA is the translator between the genetic code (codons) and the physical building blocks (amino acids) — without it, the ribosome would have no way to match the two.",
+      "relatedConcept": "amino-acids-assembled-into-protein"
+    },
+    {
+      "term": "Amino Acid",
+      "conceptId": "amino-acid",
+      "definition": "A small building-block molecule; chains of amino acids, linked in a specific order, fold up to form a protein.",
+      "function": "Links onto the growing protein chain in the order specified by the mRNA's codons, one amino acid per codon.",
+      "whereItIs": "Delivered by tRNA to the ribosome, then linked into the bead chain arcing away from the ribosome.",
+      "whyItMatters": "The specific sequence of amino acids determines how a protein folds and what job it can do, so getting this order right is the entire point of translation.",
+      "relatedConcept": "amino-acids-assembled-into-protein"
+    },
+    {
+      "term": "Start Codon",
+      "conceptId": "start-codon",
+      "definition": "The codon AUG, which marks the point where the ribosome begins building a protein.",
+      "function": "Signals the ribosome where to start reading and also codes for the first amino acid (methionine) in the new chain.",
+      "whereItIs": "The first codon read once the ribosome clamps onto the mRNA and begins translation.",
+      "whyItMatters": "Without a defined starting point, the ribosome wouldn't know where a gene's instructions actually begin along the mRNA strand.",
+      "relatedConcept": "codon"
+    },
+    {
+      "term": "Stop Codon",
+      "conceptId": "stop-codon",
+      "definition": "One of three special codons (UAA, UAG, UGA) that signal the ribosome to stop adding amino acids.",
+      "function": "Tells the ribosome the protein chain is complete and triggers its release from the ribosome.",
+      "whereItIs": "The final codon read at the end of a gene's mRNA sequence.",
+      "whyItMatters": "Without a stop signal, the ribosome would keep adding amino acids past the point where the actual protein's instructions end.",
+      "relatedConcept": "codon"
+    }
+  ]
+}

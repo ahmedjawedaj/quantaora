@@ -1,0 +1,115 @@
+{
+  "id": "friction",
+  "componentId": "friction",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/friction/friction.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/friction.png",
+  "defaultCamera": {
+    "position": [
+      1.6,
+      1.4,
+      4.2
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      1.6,
+      1.4,
+      4.2
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Bench with three surface strips",
+    "Book and load block",
+    "Friction arrow",
+    "Force gauge"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-friction-book",
+      "label": "Sliding Book",
+      "conceptId": "friction-contact-force",
+      "position": [
+        0.3,
+        0.3,
+        0
+      ],
+      "description": "The object drawn across the strips — its sliding is what generates the friction we measure.",
+      "colorHint": "A plain hardcover book on the bench.",
+      "color": "#D9A441",
+      "function": "Carries the sliding that friction resists."
+    },
+    {
+      "id": "hs-surface-strips",
+      "label": "Surface Strips",
+      "conceptId": "friction-depends-on-surfaces-and-press",
+      "position": [
+        -1.0,
+        0.12,
+        0.2
+      ],
+      "description": "Three strips — sandpaper, wood, and ice — with very different friction felt by the sliding book.",
+      "color": "#7FA86A",
+      "function": "Provides surfaces of increasing smoothness to test.",
+      "colorHint": "Colored segments along the bench."
+    },
+    {
+      "id": "hs-friction-arrow",
+      "label": "Friction Arrow",
+      "conceptId": "friction-opposes-motion",
+      "position": [
+        0.4,
+        0.7,
+        0
+      ],
+      "description": "The force arrow that points opposite the book's motion — that's the direction friction always acts.",
+      "color": "#D96B5A",
+      "function": "Draws the friction force pushing against motion."
+    },
+    {
+      "id": "hs-gauge",
+      "label": "Force Gauge",
+      "conceptId": "friction-contact-force",
+      "position": [
+        1.2,
+        0.8,
+        0
+      ],
+      "description": "The reading in newtons showing how big the friction is for the current surface and press.",
+      "color": "#6B85A8",
+      "function": "Measures the friction force value."
+    },
+    {
+      "id": "hs-press-load",
+      "label": "Load Block",
+      "conceptId": "friction-depends-on-surfaces-and-press",
+      "position": [
+        0.3,
+        0.6,
+        0
+      ],
+      "description": "An extra block you can drop on the book to press harder — and watch friction climb.",
+      "color": "#7FA86A",
+      "function": "Increases the normal force (press) to raise friction."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper backdrop, soft vignette, no floor grid. A long warm bench with three surface-strip tiles, a neat hardcover book, a coral friction arrow, and a pillar-mounted gauge. Neutral light, no bloom, no emissive. Saturated color only on arrow, gauge, strips",
+  "materialNotes": "Metallic-roughness PBR, metallic=0. Sandpaper tile: warm rough (roughness near 0.95). Wood: smooth mid (0.6). Ice: phantom glossy smooth (0.15, high clearcoat-like value). Book: amber cover smooth. Gauge: paper face.",
+  "assetBrief": "SUBJECT: friction as the resisting contact force across varying surfaces and press.\n\nGEOMETRY: a bench of length ~4.5 along +x with three surface tiles (sandpaper/wood/ice) at y=0.12 top, on wooden legs. Book (0.5×0.07×0.8) sits over the tiles, draggable along the bench. Gauge poles stand at the -x end; load block can stack on the book.\n\nINTERACTION: surface selector moves the book across strips and the gauge recalcs force; load toggle adds the press block and friction rises accordingly.\n\nNAMED NODES: BenchTop, SandpaperStrip, WoodStrip, IceStrip, Book, LoadBlock, FrictionArrow, GaugePlate. 6-10k tris.",
+  "visual": {
+    "shape": "friction-block"
+  }
+}

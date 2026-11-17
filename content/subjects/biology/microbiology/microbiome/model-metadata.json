@@ -1,0 +1,120 @@
+{
+  "id": "microbiome",
+  "componentId": "microbiome",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/microbiology/microbiome/microbiome.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/microbiology/microbiome.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.4
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.4
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Human silhouette",
+    "Gut microbiome",
+    "Skin microbiome",
+    "Microbes (dense dots)",
+    "Helpful jobs labels",
+    "Balance view"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-gut",
+      "label": "Gut microbiome",
+      "conceptId": "microbiome-community",
+      "position": [
+        0,
+        0.1,
+        0.1
+      ],
+      "description": "The largest community of the microbiome, living along the intestines.",
+      "positionHint": "The dense band of microbe dots along the intestinal tract.",
+      "color": "#7FA874",
+      "function": "The biggest colony, mostly helping with digestion."
+    },
+    {
+      "id": "hs-skin",
+      "label": "Skin microbiome",
+      "conceptId": "microbiome-community",
+      "position": [
+        0.3,
+        0.4,
+        0.08
+      ],
+      "description": "The microbes living on the surface of your skin.",
+      "positionHint": "A sparse band of dots over the arm or torso outline.",
+      "color": "#6B85A8",
+      "function": "Colony of microbes living on the skin."
+    },
+    {
+      "id": "hs-bacteria",
+      "label": "Mostly bacteria",
+      "conceptId": "microbiome-trillions",
+      "position": [
+        -0.25,
+        0.05,
+        0.12
+      ],
+      "description": "Most members of the microbiome are bacteria, with a few fungi like yeast.",
+      "positionHint": "A magnified inset showing the dot shapes are mostly bacteria-like.",
+      "color": "#D9A441",
+      "function": "Shows most members are tiny bacteria."
+    },
+    {
+      "id": "hs-jobs",
+      "label": "Helpful jobs",
+      "conceptId": "microbiome-helpful-jobs",
+      "position": [
+        0,
+        -0.15,
+        0.1
+      ],
+      "description": "The helpful jobs the microbiome does: digestion, vitamins, immune training.",
+      "positionHint": "Small label pins over the gut in the jobs layer.",
+      "color": "#D98A6A",
+      "function": "Digests food, makes vitamins, trains the immune system."
+    },
+    {
+      "id": "hs-balance",
+      "label": "Balanced community",
+      "conceptId": "microbiome-balance-health",
+      "position": [
+        0.15,
+        -0.2,
+        0.12
+      ],
+      "description": "The state where the mix of microbes stays balanced and healthy.",
+      "positionHint": "The even, mixed distribution of colored dots in the balance view.",
+      "color": "#B5846A",
+      "function": "Represents a healthy balanced mix of microbes."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A calm stylized silhouette of a human body with soft skin tone and a highlighted gut, overlaid with small clean microbe dots. Restrained warm palette, not gamey, not cluttered, no glow. Strong saturated color reserved for the small hotspot dots and the microbe dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Microbe dots are simple small spheres; no emissive.",
+  "assetBrief": "SUBJECT: a soft neutral silhouette of a human body with the digestive tract highlighted, and a dense, gentle field of tiny dots representing the microbiome along the gut and more sparsely on the skin. A magnified inset shows the dots are mostly bacteria shapes, with some yeast. Layers animate helpful-job labels and a balanced mixed view. Named nodes: BodySilhouette, GutTract, SkinSurface, MicrobeDots, JobLabels, BalanceView. Budget 14-18k.",
+  "visual": {
+    "shape": "microbiome-mix"
+  }
+}

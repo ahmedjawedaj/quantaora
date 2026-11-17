@@ -1,0 +1,87 @@
+{
+  "id": "subtraction",
+  "subject": "math",
+  "title": "Subtraction",
+  "summary": "Subtraction is taking some away from a group to find what is left — 8 − 3 is 5. Explore subtraction as taking away, as comparing (how many more), and as the inverse of addition, with borrowing across place value.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "subtraction-take-away",
+    "subtraction-compare",
+    "subtraction-inverse-addition",
+    "subtraction-borrowing"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Arithmetic Operations",
+    "systemOrGroup": "Subtraction",
+    "component": "Subtraction",
+    "displayPath": "Math > Number Sense And Arithmetic > Arithmetic Operations > Subtraction > Subtraction"
+  },
+  "crossReferences": [
+    {
+      "label": "Addition (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Addition",
+      "note": "Subtraction is the inverse of addition — 10 − 4 checks the addition 4 + 6 = 10."
+    },
+    {
+      "label": "Number line (Number Sense)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Number line",
+      "note": "Subtraction is modeled as a jump to the left on the number line."
+    },
+    {
+      "label": "Place value (Number Sense)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Place value",
+      "note": "Borrowing in column subtraction is place-value regrouping in reverse — one ten splits into ten ones."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Arithmetic Operations > Subtraction",
+  "compareCandidate": {
+    "label": "Subtraction vs. addition",
+    "description": "Addition puts groups together; subtraction takes them apart. The same three numbers form both facts — 6 + 4 = 10, 10 − 4 = 6, and 10 − 6 = 4."
+  },
+  "parts": [
+    "Minuend, subtrahend, and difference",
+    "The number-line jump left",
+    "The take-away and compare views"
+  ],
+  "processes": [
+    "Taking away from a group",
+    "Comparing to find 'how many more or fewer'",
+    "Column subtraction with borrowing"
+  ],
+  "plainLanguageExplanation": "Subtraction finds out what is left after you take some away, or how many more one amount is than another. In 8 − 3 = 5, you start with 8, take away 3, and 5 is left; this difference is also how much more 8 is than 3. The starting number is the minuend, the amount taken away is the subtrahend, and the answer is the difference. Subtraction is the inverse of addition — since 5 + 3 = 8, knowing one addition fact gives you a whole subtraction fact family. When subtracting in columns, if a top digit is smaller than the one below it, you borrow: take one ten from the next column and turn it into ten ones.",
+  "keyFacts": [
+    { "label": "Meaning", "value": "Taking away from a group, or comparing two quantities" },
+    { "label": "Parts", "value": "Minuend − subtrahend = difference" },
+    { "label": "Inverse", "value": "Subtraction undoes addition: 8 − 3 checks 5 + 3 = 8" },
+    { "label": "Example", "value": "8 − 3 = 5 marbles left" },
+    { "label": "Compare", "value": "8 − 3 also says: 8 is 5 more than 3" },
+    { "label": "Borrowing", "value": "Split a ten into ten ones when a digit is too small" }
+  ],
+  "whyItMatters": "Subtraction is used to find leftovers, differences, and change — paying for something, comparing scores, or finding how much taller one thing is than another. Understanding subtraction as the inverse of addition also strengthens number facts and mental math.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Subtraction",
+  "tagline": "Taking away and comparing",
+  "didYouKnow": "Two different questions are answered by subtraction: 'what is left?' and 'how many more?'. Mathematicians call taking away 'separate' problems and comparing 'difference' problems — but the math is the same.",
+  "conditions": [
+    "Counting change",
+    "Comparing heights",
+    "How many more",
+    "Difference word problems"
+  ],
+  "compareCandidateId": "addition",
+  "compareReason": "Addition and subtraction are mirror opposites over the same three numbers, so comparing them makes both operations faster to recall as one fact family."
+}

@@ -1,0 +1,41 @@
+{
+  "componentId": "table",
+  "terms": [
+    {
+      "term": "Table",
+      "conceptId": "table-definition",
+      "hotspotId": "hs-table-header",
+      "definition": "Data organized into rows and columns for easy reading.",
+      "function": "Stores and presents data points in a grid.",
+      "whereItIs": "The scoreboard on the board.",
+      "whyItMatters": "Tables are how the world records and shares data."
+    },
+    {
+      "term": "Row",
+      "conceptId": "table-read",
+      "hotspotId": "hs-row",
+      "definition": "A horizontal line of cells — one full record.",
+      "function": "Holds one item's data across all columns.",
+      "whereItIs": "One horizontal strip of the grid.",
+      "whyItMatters": "Tracing a row shows everything about one item."
+    },
+    {
+      "term": "Column",
+      "conceptId": "table-rows-columns",
+      "hotspotId": "hs-column",
+      "definition": "A vertical line of cells — one attribute.",
+      "function": "Holds one kind of value for every record.",
+      "whereItIs": "The vertical strips of the grid.",
+      "whyItMatters": "Columns let you compare the same attribute across items."
+    },
+    {
+      "term": "Header",
+      "conceptId": "table-chart",
+      "hotspotId": "hs-table-header",
+      "definition": "The top row naming each column.",
+      "function": "Tells you what each column holds.",
+      "whereItIs": "The top strip of the table.",
+      "whyItMatters": "Without headers, cells have no meaning."
+    }
+  ]
+}

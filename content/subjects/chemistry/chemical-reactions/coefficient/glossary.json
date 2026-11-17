@@ -1,0 +1,38 @@
+{
+  "componentId": "coefficient",
+  "terms": [
+    {
+      "term": "Coefficient",
+      "conceptId": "coefficient-counts-units",
+      "hotspotId": "hs-coefficient-number",
+      "definition": "The number in front of a chemical formula that counts how many units react.",
+      "function": "Sets the proportions of a reaction and enables balancing.",
+      "whereItIs": "The highlighted 2s in front of 2H₂ and 2H₂O.",
+      "whyItMatters": "Coefficients are how chemists balance equations and count matter.",
+      "relatedConcept": "coefficient-balances-equations",
+      "quizId": "coefficient-q-definition"
+    },
+    {
+      "term": "Subscript",
+      "conceptId": "coefficient-front-of-formula",
+      "hotspotId": "hs-coefficient-number",
+      "definition": "The small number inside a formula that counts atoms within one unit.",
+      "function": "Describes a single molecule's internal composition.",
+      "whereItIs": "The small 2 inside H₂O.",
+      "whyItMatters": "Subscripts and coefficients must not be confused — one counts inside, the other counts units.",
+      "relatedConcept": "coefficient-counts-units",
+      "quizId": "coefficient-q-subscript"
+    },
+    {
+      "term": "Balanced equation",
+      "conceptId": "coefficient-balances-equations",
+      "hotspotId": "hs-coefficient-balance",
+      "definition": "An equation whose coefficients make the atoms equal on both sides.",
+      "function": "Obeys conservation of mass and shows true reaction proportions.",
+      "whereItIs": "The whole 2H₂ + O₂ → 2H₂O scene in the model.",
+      "whyItMatters": "Balanced equations are the trustworthy recipes of chemistry.",
+      "relatedConcept": "coefficient-counts-units",
+      "quizId": "coefficient-q-balance"
+    }
+  ]
+}

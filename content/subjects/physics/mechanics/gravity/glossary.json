@@ -1,0 +1,45 @@
+{
+  "componentId": "gravity",
+  "terms": [
+    {
+      "term": "Gravity",
+      "conceptId": "gravity-force-between-masses",
+      "hotspotId": "hs-planet",
+      "definition": "The force that pulls any two masses toward each other.",
+      "whyItMatters": "It holds moons, planets, and the whole solar system together, and gives everything its weight.",
+      "whereItIs": "Everywhere — pictured as inward arrows around the planet.",
+      "relatedConcept": "weight",
+      "quizId": "gravity-q-definition"
+    },
+    {
+      "term": "Gravitational field strength (g)",
+      "conceptId": "gravity-gravitational-field",
+      "hotspotId": "hs-gravity-accel",
+      "definition": "How strong gravity is at a location — about 9.8 m/s² on Earth.",
+      "whyItMatters": "Multiply it by mass and you get weight (W = mg); it is the 'g' behind every weighing.",
+      "whereItIs": "Tagged on the planet as 9.8 m/s².",
+      "relatedConcept": "gravity-force-between-masses",
+      "quizId": "gravity-q-field"
+    },
+    {
+      "term": "Free fall",
+      "conceptId": "gravity-fall-same-acceleration",
+      "hotspotId": "hs-falling-balls",
+      "definition": "Falling under gravity alone with no air resistance acting.",
+      "whyItMatters": "In free fall every object accelerates equally — the bowling ball and the feather land together.",
+      "whereItIs": "The vacuum tube that removes the air.",
+      "relatedConcept": "gravity-force-between-masses",
+      "quizId": "gravity-q-fall"
+    },
+    {
+      "term": "Orbit",
+      "conceptId": "gravity-force-between-masses",
+      "hotspotId": "hs-satellite-orbit",
+      "definition": "The looping path of an object that keeps falling around a body without landing.",
+      "whyItMatters": "Explains why the Moon, satellites, and planets all circle instead of flying straight.",
+      "whereItIs": "The dashed ring carrying the satellite.",
+      "relatedConcept": "gravity-gravitational-field",
+      "quizId": "gravity-q-orbit"
+    }
+  ]
+}

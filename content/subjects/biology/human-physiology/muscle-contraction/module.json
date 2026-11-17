@@ -1,0 +1,110 @@
+{
+  "id": "muscle-contraction",
+  "subject": "biology",
+  "title": "Muscle Contraction",
+  "summary": "Muscle contraction is the process that turns a nerve signal into physical movement. Follow a single motor unit through its five-stage sequence — nerve signal, calcium release, actin-myosin filament sliding, shortening, and relaxation — to see the sliding filament mechanism that powers every voluntary movement in the body.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "nerve-signal-arrives",
+    "calcium-release",
+    "actin-myosin-filament-sliding",
+    "muscle-shortens",
+    "muscle-relaxation"
+  ],
+  "type": "model",
+  "estimatedMinutes": 16,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Muscular System Physiology",
+    "systemOrGroup": "Muscle contraction (process)",
+    "component": "Muscle Contraction",
+    "displayPath": "Biology > Human Physiology > Muscular System Physiology > Muscle contraction (process) > Muscle Contraction"
+  },
+  "crossReferences": [
+    {
+      "label": "Muscle Cell (Cell Biology)",
+      "branch": "cell-biology",
+      "systemOrGroup": "Muscle cell (specialized cell)",
+      "note": "This component zooms into a single sarcomere and neuromuscular junction inside one muscle cell to explain the mechanism; the Cell Biology branch's Muscle Cell component shows the whole cell those sarcomeres live inside, including the sarcoplasmic reticulum and mitochondria that support contraction."
+    },
+    {
+      "label": "Muscular System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Muscular system",
+      "note": "This process happens inside every one of the millions of muscle fibers that make up the muscles covered in the Human Anatomy branch's Muscular System unit — this component explains the 'how' behind that system's movement."
+    },
+    {
+      "label": "Nerve Signaling (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Nerve signaling",
+      "note": "The nerve-signal-arrives stage of this component is the endpoint of the broader nerve signaling process covered as its own component — that process explains how the electrical impulse travels down the motor neuron before it ever reaches this neuromuscular junction."
+    }
+  ],
+  "belongsTo": "Human Physiology > Muscular System Physiology > Muscle contraction (process)",
+  "compareCandidate": {
+    "label": "Skeletal Muscle Contraction vs. Smooth Muscle Contraction",
+    "description": "This component covers fast, voluntary, striated skeletal muscle contraction triggered by direct nerve signaling at a neuromuscular junction. Smooth muscle contraction is involuntary, has no visible sarcomere striations, and contracts far more slowly under different control (often hormonal or autonomic rather than a single direct nerve impulse) — comparing the two shows how contraction speed and control depend on how the tissue is structured."
+  },
+  "parts": [
+    "Nerve signal arrives",
+    "Calcium release",
+    "Actin-myosin filament sliding",
+    "Muscle shortens",
+    "Muscle relaxation"
+  ],
+  "processes": [
+    "Sliding filament mechanism",
+    "Excitation-contraction coupling (nerve signal to muscle response)",
+    "ATP-powered cross-bridge cycling",
+    "Calcium reuptake and muscle relaxation"
+  ],
+  "plainLanguageExplanation": "Muscle contraction is how your muscles pull to make you move. Inside every muscle are millions of thread-like filaments arranged in tiny repeating units. When your brain sends an electrical \"go\" signal down a nerve to the muscle, it triggers a flood of calcium inside the muscle cell. That calcium acts like a key, unlocking the connection points between two types of filaments — thin ones (actin) and thick ones (myosin). The thick filaments then grab the thin filaments and pull them inward, like thousands of tiny hands doing a hand-over-hand rope pull. This shortens the muscle overall, which is what lets you bend your elbow, blink, or run. When the nerve signal stops, calcium gets pumped away, the filaments let go, and the muscle relaxes back to its resting length. None of this happens one filament at a time — it happens in millions of these units simultaneously, all through the muscle, which is why a contraction feels instant and powerful even though it's built from microscopic tugging.",
+  "keyFacts": [
+    {
+      "label": "Core mechanism",
+      "value": "Sliding filament theory: thin (actin) and thick (myosin) filaments slide past each other; the filaments themselves don't shrink."
+    },
+    {
+      "label": "Trigger",
+      "value": "A nerve impulse releases the chemical acetylcholine at the neuromuscular junction, which electrically excites the muscle fiber."
+    },
+    {
+      "label": "Key ion",
+      "value": "Calcium (Ca2+) released from the sarcoplasmic reticulum exposes the myosin-binding sites on actin, allowing contraction to start."
+    },
+    {
+      "label": "Energy source",
+      "value": "ATP powers the myosin heads to repeatedly grab, pull, and release actin in a cycle called cross-bridge cycling; ATP is also needed for the muscle to let go and relax."
+    },
+    {
+      "label": "Repeating unit",
+      "value": "The sarcomere is the basic contractile unit of a muscle fiber, repeated end-to-end thousands of times along a myofibril."
+    },
+    {
+      "label": "Speed",
+      "value": "A single contraction cycle can happen in a fraction of a second, which is why reflexes and fast movements are possible."
+    }
+  ],
+  "whyItMatters": "Every single movement you make — walking, talking, blinking, your heart beating, even smiling — depends on this exact mechanism happening billions of times inside your body right now. Understanding it also explains real things: why muscles get tired (they run low on ATP or calcium handling slows down), why rigor mortis happens after death (no ATP means myosin can't release its grip on actin), and how some medicines and nerve toxins work by blocking the signal at the neuromuscular junction. It's the physical, mechanical answer to \"how does thinking about moving my arm actually move my arm?\"",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Excitation-Contraction Coupling",
+  "tagline": "Thousands of tiny tugs, one big move",
+  "didYouKnow": "During contraction the actin and myosin filaments don't actually shrink — they slide past each other and overlap more, which is why it's called the sliding filament mechanism, not the shrinking filament mechanism.",
+  "conditions": [
+    "Muscle cramps",
+    "Muscular dystrophy",
+    "Myasthenia gravis",
+    "Rigor mortis",
+    "Tetanus"
+  ],
+  "compareCandidateId": "nerve-signaling",
+  "compareReason": "The \"nerve signal arrives\" stage of muscle contraction is the direct endpoint of the broader nerve signaling process — nerve signaling explains how the electrical impulse travels down the motor neuron before it ever reaches this neuromuscular junction, so the two processes chain directly into one another."
+}

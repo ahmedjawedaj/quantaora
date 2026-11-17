@@ -1,0 +1,41 @@
+{
+  "componentId": "triangle",
+  "terms": [
+    {
+      "term": "Triangle",
+      "conceptId": "triangle-definition",
+      "hotspotId": "hs-triangle-plate",
+      "definition": "A closed shape with three straight sides, three vertices, and three angles.",
+      "function": "The smallest closed polygon.",
+      "whereItIs": "The triangular plate on the board.",
+      "whyItMatters": "Triangles are the strongest and most common engineering shape."
+    },
+    {
+      "term": "Vertex",
+      "conceptId": "triangle-180",
+      "hotspotId": "hs-vertex-a",
+      "definition": "A corner point where two sides of the triangle meet.",
+      "function": "Each of the three corners holds an interior angle.",
+      "whereItIs": "The labeled corner dots.",
+      "whyItMatters": "Vertices are where angles are measured."
+    },
+    {
+      "term": "Rigid",
+      "conceptId": "triangle-rigid",
+      "hotspotId": "hs-triangle-plate",
+      "definition": "The property of holding its shape under pressure — cannot be pushed out of form.",
+      "function": "A triangle's sides lock its angles in place.",
+      "whereItIs": "Visible in the press test.",
+      "whyItMatters": "Rigidity makes triangles the backbone of bridges and roofs."
+    },
+    {
+      "term": "Equilateral / Isosceles / Scalene",
+      "conceptId": "triangle-types",
+      "hotspotId": "hs-vertex-a",
+      "definition": "Triangle families by side lengths: all equal, two equal, none equal.",
+      "function": "Name the triangle from its sides at a glance.",
+      "whereItIs": "The preset labels on the board.",
+      "whyItMatters": "Side families help you describe and classify any triangle."
+    }
+  ]
+}

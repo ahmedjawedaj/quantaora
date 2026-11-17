@@ -1,0 +1,45 @@
+{
+  "componentId": "stomata",
+  "terms": [
+    {
+      "term": "Stoma (stomata)",
+      "conceptId": "stomata-tiny-pores",
+      "hotspotId": "hs-stoma",
+      "definition": "A tiny pore on the surface of a leaf or stem that opens and closes to allow gases to pass.",
+      "function": "Lets carbon dioxide in and oxygen out.",
+      "whereItIs": "On the outer surface of leaves and stems.",
+      "whyItMatters": "It is the main doorway for the gases a plant needs for life.",
+      "quizId": "stomata-q-what"
+    },
+    {
+      "term": "Guard cell",
+      "conceptId": "guard-cells-open-close",
+      "hotspotId": "hs-guardcells",
+      "definition": "One of two cells beside a stoma that swell to open the pore and relax to close it.",
+      "function": "Controls whether the stoma is open or closed.",
+      "whereItIs": "Framing each stomata pore on the leaf.",
+      "whyItMatters": "It lets the plant decide when to exchange gas and when to save water.",
+      "quizId": "stomata-q-guardcells"
+    },
+    {
+      "term": "Gas exchange",
+      "conceptId": "carbon-dioxide-in-oxygen-out",
+      "hotspotId": "hs-gas",
+      "definition": "The movement of carbon dioxide into a leaf and oxygen out through the stomata.",
+      "function": "Brings in a plant's food-making gas and removes the oxygen it makes.",
+      "whereItIs": "Through the open stomata on the leaf.",
+      "whyItMatters": "It is how plants take in what they need make food.",
+      "quizId": "stomata-q-gas"
+    },
+    {
+      "term": "Transpiration",
+      "conceptId": "transpiration",
+      "hotspotId": "hs-surface",
+      "definition": "The loss of water vapor from a plant through its stomata.",
+      "function": "A side effect of open stomata that the plant keeps under control by closing the pores to save water.",
+      "whereItIs": "Mainly through the stomata on the leaves.",
+      "whyItMatters": "It links the constancy of breathing to the plant's need to conserve water.",
+      "quizId": "stomata-q-water"
+    }
+  ]
+}

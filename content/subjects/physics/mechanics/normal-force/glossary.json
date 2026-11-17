@@ -1,0 +1,46 @@
+{
+  "componentId": "normal-force",
+  "terms": [
+    {
+      "term": "Normal force",
+      "conceptId": "normal-perpendicular-support",
+      "hotspotId": "hs-normal-arrow",
+      "definition": "The support force a surface pushes back with, perpendicular to the surface.",
+      "function": "Holds objects against gravity and other presses, always at a right angle to the contact surface.",
+      "whereItIs": "The blue arrow rising from the tabletop.",
+      "whyItMatters": "It is the reason things rest on surfaces instead of falling through.",
+      "relatedConcept": "gravity",
+      "quizId": "normal-q-definition"
+    },
+    {
+      "term": "Perpendicular",
+      "conceptId": "normal-perpendicular-support",
+      "hotspotId": "hs-normal-arrow",
+      "definition": "At a right angle (90°) to a given line or surface.",
+      "whyItMatters": "'Normal' in physics means perpendicular — the force's direction is locked to a 90° angle with the surface.",
+      "whereItIs": "Described by the arrow's right-angle meeting the table's surface.",
+      "relatedConcept": "normal-force",
+      "quizId": "normal-q-direction"
+    },
+    {
+      "term": "Weight balance",
+      "conceptId": "normal-balances-weight",
+      "hotspotId": "hs-weight-arrow",
+      "definition": "The condition on flat, still ground where the normal force equals the weight and they cancel.",
+      "whyItMatters": "It is the usual everyday case — and the ramp or elevator is what breaks the simple equality.",
+      "whereItIs": "The matched arrow pair at the flat table.",
+      "relatedConcept": "weight",
+      "quizId": "normal-q-balance"
+    },
+    {
+      "term": "Ramp support",
+      "conceptId": "normal-force-varies-with-contact",
+      "hotspotId": "hs-ramp-tilt",
+      "definition": "On a tilted surface, the perpendicular support needed shrinks because only part of the weight presses into it.",
+      "whyItMatters": "Shows normal force is not a fixed equal of weight but a response to how the object presses.",
+      "whereItIs": "The tilted arrow on the raised table edge.",
+      "relatedConcept": "normal-force",
+      "quizId": "normal-q-ramp"
+    }
+  ]
+}

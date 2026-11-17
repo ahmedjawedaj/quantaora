@@ -1,0 +1,42 @@
+{
+  "componentId": "supernova",
+  "terms": [
+    {
+      "term": "Supernova",
+      "definition": "The explosion of a massive star when its iron core collapses and rebounds — for weeks it outshines its entire galaxy.",
+      "conceptId": "core-collapse-trigger",
+      "hotspotId": "hs-shockwave",
+      "function": "The death event of stars above about eight solar masses."
+    },
+    {
+      "term": "Iron core",
+      "definition": "The end-product center of a massive star: iron is the element that takes energy to fuse, so once it forms, fusion stops releasing energy and gravity takes over.",
+      "conceptId": "core-collapse-trigger",
+      "hotspotId": "hs-iron-core",
+      "whereItIs": "The center of the pre-explosion star",
+      "whyItMatters": "The moment the iron core forms is the fuse for the whole explosion."
+    },
+    {
+      "term": "Shock wave",
+      "definition": "The bounce that tears a supernova apart — the collapsing core stops abruptly and throws a pressure wave outward at close to light speed.",
+      "conceptId": "rebound-shock-wave",
+      "hotspotId": "hs-shockwave",
+      "function": "Carries the explosion energy outward through the star's layers."
+    },
+    {
+      "term": "Supernova remnant",
+      "definition": "The expanding shell of debris left after the explosion, glowing for thousands of years as it cools and mixes with the surrounding gas.",
+      "conceptId": "visible-months-outburst",
+      "hotspotId": "hs-remnant-shell",
+      "whereItIs": "The outward-moving shell around the new neutron star or black hole",
+      "whyItMatters": "It delivers newly made heavy elements into the galaxy."
+    },
+    {
+      "term": "Element synthesis",
+      "definition": "The forging of elements during the explosion — extreme heat and fast neutron captures build everything heavier than iron, from silver to uranium.",
+      "conceptId": "elements-forged-in-explosion",
+      "hotspotId": "hs-element-forge",
+      "function": "Produces most of the heavy elements that make up the Earth and living things."
+    }
+  ]
+}

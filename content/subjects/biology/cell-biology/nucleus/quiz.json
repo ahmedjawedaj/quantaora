@@ -1,0 +1,80 @@
+{
+  "componentId": "nucleus",
+  "questions": [
+    {
+      "id": "nuc-q-control-center",
+      "conceptId": "dna-storage-control-center",
+      "hotspotId": "hs-nucleoplasm",
+      "prompt": "What is the main job of the nucleus in a cell?",
+      "options": [
+        "To store the cell's DNA and coordinate its activities",
+        "To make energy from food",
+        "To break down waste proteins",
+        "To hold water for the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nucleus is the control center of the cell. It stores the DNA — the instructions — and decides how those instructions are used to keep the cell alive and working.",
+      "misconception": "A common mix-up is thinking energy production is the nucleus's job. That actually happens in the mitochondrion, the 'powerhouse.' The nucleus is about keeping the instructions, not generating the energy."
+    },
+    {
+      "id": "nuc-q-envelope",
+      "conceptId": "nuclear-envelope",
+      "hotspotId": "hs-nuclear-envelope",
+      "prompt": "What is the nuclear envelope?",
+      "options": [
+        "A double membrane that separates the nucleus from the cytoplasm",
+        "A single tough wall like a cell wall",
+        "The fluid inside the nucleus",
+        "The protein factory of the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nuclear envelope is a double-layered membrane that wraps the nucleus, separating its contents (DNA and nucleoplasm) from the cytoplasm. It is studded with pores that control traffic in and out.",
+      "misconception": "Learners sometimes compare it to a rigid cell wall, but it is a flexible, double membrane, and unlike a solid wall it has pores that purposefully let molecules pass through."
+    },
+    {
+      "id": "nuc-q-pores",
+      "conceptId": "nuclear-pores-controlled-transport",
+      "hotspotId": "hs-nuclear-pore",
+      "prompt": "What is the purpose of the pores in the nuclear envelope?",
+      "options": [
+        "To control what materials enter and leave the nucleus",
+        "To let the nucleus float freely in the cytoplasm",
+        "To allow the whole cell to drain out",
+        "To make the nucleus leak the DNA out permanently"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nuclear pores are openings that act like controlled doors. They let messages and materials (like RNA copies of instructions and the parts needed to build ribosomes) pass between the nucleus and the cytoplasm.",
+      "misconception": "It's tempting to think pores just let everything leak through, but they are selective gates — the cell chooses what passes, keeping the DNA inside where it's protected."
+    },
+    {
+      "id": "nuc-q-nucleolus",
+      "conceptId": "nucleolus",
+      "hotspotId": "hs-nucleolus",
+      "prompt": "What is the nucleolus, and what does it do?",
+      "options": [
+        "A dense structure where ribosome parts are assembled",
+        "A chamber that stores water",
+        "The green pigment of a plant cell",
+        "The cell's main energy supplier"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nucleolus is a dense, darker region inside the nucleus. Its job is to assemble the parts used to build ribosomes — the protein makers — before they are shipped out through the pores.",
+      "misconception": "Some think the nucleolus is a separate container for DNA. DNA is spread through the nucleus as chromatin; the nucleolus specializes in making the RNA that becomes part of ribosomes."
+    },
+    {
+      "id": "nuc-q-prokaryote",
+      "conceptId": "nuclear-envelope",
+      "hotspotId": "hs-nuclear-envelope",
+      "prompt": "Which type of cell has no membrane-bound nucleus?",
+      "options": [
+        "A bacterial (prokaryotic) cell",
+        "An animal cell",
+        "A plant cell",
+        "A fungal cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bacteria are prokaryotes — their DNA floats freely in the cytoplasm in a region called the nucleoid, with no complete surrounding membrane. Animal, plant, and fungal cells are eukaryotes and do have a nucleus.",
+      "misconception": "It's easy to assume 'all cells have a nucleus,' but prokaryotes like bacteria manage their DNA without one — that's one of the biggest differences between the two cell types."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "componentId": "trait",
+  "questions": [
+    {
+      "id": "trait-q-genotype-phenotype",
+      "conceptId": "genotype",
+      "hotspotId": "hotspot-genotype",
+      "prompt": "What is the difference between genotype and phenotype?",
+      "options": [
+        "Genotype is the pair of alleles an organism carries; phenotype is the observable trait that results",
+        "Genotype and phenotype are two names for the exact same thing",
+        "Genotype is only found in plants; phenotype is only found in animals",
+        "Phenotype is inherited from parents, but genotype is not"
+      ],
+      "correctIndex": 0,
+      "explanation": "Genotype is the underlying genetic makeup — which alleles an organism carries — while phenotype is what actually shows up and can be observed. Two organisms can share a phenotype but have different genotypes if a dominant allele is masking a recessive one, exactly like this pea plant's PP and Pp plants both looking purple.",
+      "misconception": "Many learners think genotype and phenotype are interchangeable terms for 'genes,' missing that phenotype is the visible outcome while genotype is the hidden instruction set behind it."
+    },
+    {
+      "id": "trait-q-dominant-recessive",
+      "conceptId": "genotype",
+      "hotspotId": "hotspot-genotype",
+      "prompt": "A pea plant has one allele for tall stems (dominant) and one allele for short stems (recessive). What will its phenotype be?",
+      "options": [
+        "Tall, because the dominant allele is expressed over the recessive one",
+        "Short, because recessive alleles always win",
+        "A blend of tall and short",
+        "It's impossible to know without seeing the plant's environment"
+      ],
+      "correctIndex": 0,
+      "explanation": "When an organism carries one dominant and one recessive allele, the dominant allele's trait is the one expressed in the phenotype — the recessive trait is masked, though the recessive allele is still present in the genotype and can be passed on to offspring.",
+      "misconception": "A common misconception is that traits always blend together like mixing paint, or that whichever allele is 'stronger' wins outright — rather than understanding that dominant/recessive is about which trait is visibly expressed, not which allele is biologically more powerful."
+    },
+    {
+      "id": "trait-q-white-offspring",
+      "conceptId": "genotype",
+      "hotspotId": "hotspot-genotype",
+      "prompt": "Two purple-flowered pea plants are crossed, and one offspring plant grows white flowers. Purple (P) is dominant over white (p). What does this tell you?",
+      "options": [
+        "Both parent plants must carry a hidden recessive p allele, even though their own flowers are purple",
+        "Flower color skips a generation on a fixed schedule",
+        "One of the parent plants must not be the biological parent",
+        "White flowers can appear randomly regardless of the parents' alleles"
+      ],
+      "correctIndex": 0,
+      "explanation": "If both purple-flowered parents have genotype Pp, their phenotype is purple, but each can still pass the recessive p allele to a seed. An offspring that inherits p from both parents has genotype pp and shows the recessive white phenotype — even though neither parent looked white themselves.",
+      "misconception": "A widespread misconception is that a parent's phenotype tells you their complete genotype, and that recessive traits 'skip' generations mysteriously — when in fact recessive alleles are simply carried silently by parents whose phenotype shows the dominant trait instead."
+    },
+    {
+      "id": "trait-q-environmental-influence",
+      "conceptId": "environmental-influence",
+      "hotspotId": "hotspot-environment",
+      "prompt": "On this pea plant model, the leaves on the sunlit side of the stem grew noticeably larger than the leaves on the shaded side, even though every leaf shares the same genotype. What does this demonstrate?",
+      "options": [
+        "Environmental conditions like light exposure can change how a trait is expressed without changing the underlying genotype",
+        "The shaded leaves must have a different, mutated genotype from the sunlit leaves",
+        "Leaf size is not a trait, since it can change during the plant's life",
+        "Genes only matter for flower color, not for other traits like leaf size"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leaf size here is genetically identical across the plant, but sunlight exposure changed how strongly that genetic potential for growth was expressed — a textbook case of environmental influence on phenotype. The genotype didn't change; the expressed outcome did.",
+      "misconception": "Learners often assume any visible difference between two parts of the same organism must come from a genetic difference, overlooking that environment (light, water, nutrients) can shift how a shared genotype is expressed."
+    },
+    {
+      "id": "trait-q-tanning",
+      "conceptId": "environmental-influence",
+      "hotspotId": "hotspot-environment",
+      "prompt": "Which of these is the best example of an environmental influence on a trait, rather than a purely inherited trait?",
+      "options": [
+        "A person's skin tanning darker after weeks in the sun",
+        "A pea plant inheriting purple flowers from a purple-flowered parent",
+        "A pea plant inheriting the recessive allele for white flowers",
+        "A pea plant's seeds carrying the same alleles as the parent plant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tanning is triggered by sun exposure changing how existing pigment-producing cells behave — a temporary, environmentally driven change to phenotype, not something coded directly by alleles passed through seeds or offspring the way flower color is.",
+      "misconception": "Learners often assume every visible trait must come directly from genes, overlooking that environment (sunlight, diet, water, nutrients) can also change how a trait is expressed, sometimes temporarily and without altering the genotype at all."
+    },
+    {
+      "id": "trait-q-inherited-trait",
+      "conceptId": "inherited-trait",
+      "hotspotId": "hotspot-inherited-trait",
+      "prompt": "What specifically makes a trait an \"inherited trait,\" as opposed to just being a genotype or a phenotype?",
+      "options": [
+        "Its alleles are actually passed from parent to offspring through reproduction, such as through this pea plant's seeds",
+        "It is any trait that is visible on the outside of the organism",
+        "It is any trait controlled by more than one gene",
+        "It is any trait that cannot be changed by the environment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Genotype describes the alleles an organism currently carries, and phenotype describes how those alleles (plus environment) show up right now. \"Inherited trait\" describes something different from both: the transmission itself — the fact that a parent's alleles are copied into its offspring's seeds or gametes, carrying that trait forward into the next generation.",
+      "misconception": "Learners often use 'inherited trait,' 'genotype,' and 'phenotype' interchangeably, missing that inherited trait specifically names the parent-to-offspring transmission of alleles, not just the presence of a gene (genotype) or its visible result in one organism (phenotype)."
+    }
+  ]
+}

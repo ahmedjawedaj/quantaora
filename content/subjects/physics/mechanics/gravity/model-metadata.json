@@ -1,0 +1,118 @@
+{
+  "id": "gravity",
+  "componentId": "gravity",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/gravity/gravity.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/gravity.png",
+  "defaultCamera": {
+    "position": [
+      1.0,
+      1.9,
+      4.4
+    ],
+    "target": [
+      0,
+      0.6,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      1.0,
+      1.9,
+      4.4
+    ],
+    "target": [
+      0,
+      0.6,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Vacuum drop tube",
+    "Planet and field arrows",
+    "Satellite orbit",
+    "Gravity value tag"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-falling-balls",
+      "label": "Fall Together",
+      "conceptId": "gravity-fall-same-acceleration",
+      "position": [
+        -1.1,
+        0.4,
+        0
+      ],
+      "description": "A transparent vacuum tube with a bowling ball and a feather — both fall together because gravity accelerates every mass equally.",
+      "positionHint": "Tall glass tube on the left with two objects at its top.",
+      "color": "#D96B5A",
+      "function": "Demonstrates equal fall acceleration without air resistance."
+    },
+    {
+      "id": "hs-planet",
+      "label": "Planet",
+      "conceptId": "gravity-force-between-masses",
+      "position": [
+        0.4,
+        0.4,
+        0
+      ],
+      "description": "The source of the gravity in the scene — a round planet surrounded by inward field arrows.",
+      "positionHint": "A warm sphere center-right with arrows streaming to its heart.",
+      "color": "#D9A441",
+      "function": "Acts as the center of attraction for field arrows and orbits."
+    },
+    {
+      "id": "hs-field-arrows",
+      "label": "Field Arrows",
+      "conceptId": "gravity-field",
+      "position": [
+        0.4,
+        1.4,
+        0
+      ],
+      "description": "Arrows pointing toward the planet's center — every one shows the direction gravity pulls.",
+      "positionHint": "A ring of short arrows around the planet pointing inward.",
+      "color": "#6B85A8",
+      "function": "Shows the direction of the gravitational field."
+    },
+    {
+      "id": "hs-satellite-orbit",
+      "label": "Satellite Orbit",
+      "conceptId": "gravity-force-between-masses",
+      "position": [
+        -0.6,
+        1.5,
+        0
+      ],
+      "description": "A satellite tracing a circled path — gravity bends its straight-line motion into an orbit.",
+      "positionHint": "A moon/satellite on a ring path above the planet.",
+      "color": "#7FA86A",
+      "function": "Shows gravity continually pulling a moving object into orbital path."
+    },
+    {
+      "id": "hs-gravity-accel",
+      "label": "9.8 m/s² Tag",
+      "conceptId": "gravity-gravitational-field",
+      "position": [
+        0.1,
+        1.95,
+        0
+      ],
+      "description": "The tag naming Earth's gravitational field strength — about 9.8 m/s².",
+      "positionHint": "A small plaque above the planet.",
+      "color": "#D9A441",
+      "function": "Labels the field strength used for W = mg and falling."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette, no floor grid. A glass vacuum tube, a small warm planet with faint inward arrows, a satellite orbit ring, and a floating tag. Saturated color on arrows/satellite hotspots only. Soft neutral studio light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0. Tube: glass-like with invisible walls (app keeps glass visible but not refractive). Planet: warm amber mottled sphere (roughness ~0.5). Arrows: matte blue ribbons. Orbit: soft green dashed ring. Tag: paper white.",
+  "assetBrief": "SUBJECT: gravity as pull, equal-fall, and orbit binder.\n\nGEOMETRY: scene centered. Left: a glass vacuum tube (cylindrical, tall ~3 units) with a bowling ball and a feather inside near its top. Right-center: planet sphere (r≈0.8) at (0.4,0.4,0) with a thin ring of inward arrows. Above the planet a dashed green orbit ring (r≈1.3) with a small satellite sphere moving along it.\n\nINTERACTION: Drop animates the two objects falling with identical acceleration for equal-time landing; satellite slider drags the orbit radius.\n\nNAMED NODES: VacuumTube, BowlingBall, Feather, Planet, FieldArrows, OrbitRing, Satellite, FieldTag. 6-10k tris.",
+  "visual": {
+    "shape": "gravity-field"
+  }
+}

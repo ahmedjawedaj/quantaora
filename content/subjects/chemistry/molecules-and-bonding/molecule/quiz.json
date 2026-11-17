@@ -1,0 +1,65 @@
+{
+  "componentId": "molecule",
+  "questions": [
+    {
+      "id": "molecule-q-definition",
+      "conceptId": "molecule-two-plus-atoms",
+      "hotspotId": "hs-molecule-examples",
+      "prompt": "What is a molecule?",
+      "options": [
+        "Two or more atoms held together by covalent bonds",
+        "A single atom by itself",
+        "A mixture of unconnected atoms",
+        "A group of protons and neutrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "A molecule is two or more atoms joined by covalent bonds, acting as one unit.",
+      "misconception": "A single atom is not a molecule — and unconnected atoms in a mixture are not bonded into a team. A molecule specifically needs covalent bonds joining its atoms."
+    },
+    {
+      "id": "molecule-q-smallest",
+      "conceptId": "molecule-smallest-unit",
+      "hotspotId": "hs-molecule-atoms",
+      "prompt": "Why is a molecule called the 'smallest unit' of a substance?",
+      "options": [
+        "Break it further and you lose the substance's identity",
+        "Molecules cannot be broken at all",
+        "It is the largest piece that exists",
+        "It is too small to be measured"
+      ],
+      "correctIndex": 0,
+      "explanation": "Break a molecule and you get separate atoms — no longer the substance. The molecule is the smallest piece that keeps its identity.",
+      "misconception": "Molecules absolutely can be broken — chemical reactions do it constantly. 'Smallest unit' means the smallest piece that is STILL the substance, not the smallest possible particle."
+    },
+    {
+      "id": "molecule-q-example",
+      "conceptId": "molecule-two-plus-atoms",
+      "hotspotId": "hs-molecule-examples",
+      "prompt": "Which of these is a molecule?",
+      "options": [
+        "O₂ — two oxygen atoms bonded together",
+        "A single oxygen atom",
+        "A bucket of mixed sand and salt",
+        "A proton"
+      ],
+      "correctIndex": 0,
+      "explanation": "O₂ is two oxygen atoms held by a covalent bond — a molecule. A single atom and a proton are not molecules, and the sand-salt mix has no bonds.",
+      "misconception": "A single atom and a mixture are the two classic false answers — a molecule needs at least two atoms that are actually bonded together."
+    },
+    {
+      "id": "molecule-q-holds-together",
+      "conceptId": "molecule-covalent-bonds",
+      "hotspotId": "hs-molecule-bonds",
+      "prompt": "What holds the atoms of a molecule together?",
+      "options": [
+        "Covalent bonds — shared electrons",
+        "Magnetic attraction",
+        "Gravity",
+        "Tiny hooks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The atoms in a molecule are held together by covalent bonds, where atoms share pairs of electrons.",
+      "misconception": "Molecules are not held by hooks or magnets — the binding force is the covalent bond, the shared-electron connection between atoms."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "range",
+  "questions": [
+    {
+      "id": "range-def",
+      "conceptId": "range-definition",
+      "hotspotId": "hs-range-arrow",
+      "prompt": "What does the range measure?",
+      "options": [
+        "How spread out the data is",
+        "The middle value of the data",
+        "The most frequent value",
+        "The total of the data"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range is the spread — largest minus smallest.",
+      "misconception": "Middle, frequent, and total describe the median, mode, and mean — the range is about the overall spread."
+    },
+    {
+      "id": "range-compute",
+      "conceptId": "range-compute",
+      "hotspotId": "hs-high-block",
+      "prompt": "What is the range of 12, 45, 30, 8?",
+      "options": [
+        "37",
+        "8",
+        "45",
+        "30"
+      ],
+      "correctIndex": 0,
+      "explanation": "Largest 45 minus smallest 8 = 37.",
+      "misconception": "The range is a subtraction of extremes (45 − 8), not a single extreme, the middle, or the total."
+    },
+    {
+      "id": "range-small",
+      "conceptId": "range-spread",
+      "hotspotId": "hs-range-arrow",
+      "prompt": "A small range means the data is...",
+      "options": [
+        "Bunched close together",
+        "Spread very wide",
+        "All identical to the mean",
+        "Empty"
+      ],
+      "correctIndex": 0,
+      "explanation": "A small high-minus-low gap means the values sit close together.",
+      "misconception": "A small range shows closeness, not width — and values near a common level are bunched, not spread."
+    },
+    {
+      "id": "range-outlier",
+      "conceptId": "range-spread",
+      "hotspotId": "hs-range-arrow",
+      "prompt": "Adding one very low value to a dataset makes the range...",
+      "options": [
+        "Larger",
+        "Smaller",
+        "Unchanged",
+        "Zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The new low stretches the high-minus-low gap, enlarging the range.",
+      "misconception": "An extreme at either end widens the distance, growing the range — not shrinking it."
+    },
+    {
+      "id": "range-comparison",
+      "conceptId": "range-comparison",
+      "hotspotId": "hs-range-arrow",
+      "prompt": "Two classes both have mean 70. What does their different range tell you?",
+      "options": [
+        "How differently spread the scores are",
+        "Which class is smarter",
+        "That the means are wrong",
+        "Nothing at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range adds spread information the mean cannot show.",
+      "misconception": "Mean and range measure different things — the range says nothing about ability or correctness, only spread."
+    }
+  ]
+}

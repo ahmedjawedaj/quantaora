@@ -1,0 +1,93 @@
+{
+  "id": "phloem",
+  "subject": "biology",
+  "title": "Phloem",
+  "summary": "Phloem is the plant tissue that carries food (sugar) all over the plant, from the leaves where it is made to the roots, stem, fruits, and seeds that use it. Explore how the plant shares the food its leaves make.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "phloem-carries-food",
+    "food-from-leaves-around",
+    "phloem-living-tubes",
+    "food-and-living-cells"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Transport",
+    "systemOrGroup": "Plant transport tissues",
+    "component": "Phloem",
+    "displayPath": "Biology > Plants > Plant Transport > Plant transport tissues > Phloem"
+  },
+  "crossReferences": [
+    {
+      "label": "Xylem (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Xylem",
+      "note": "Xylem carries water up; phloem carries the food that leaves make down. They are the plant's two opposite transport systems."
+    },
+    {
+      "label": "Leaf (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Leaf",
+      "note": "The phloem starts where the leaf makes the sugar food by photosynthesis and carries it to all the other parts."
+    }
+  ],
+  "belongsTo": "Plants > Plant Transport > Plant transport tissues",
+  "compareCandidate": {
+    "label": "Phloem vs. xylem",
+    "description": "Phloem carries food (sugar) from the leaves to everywhere it is needed - roots, fruits, seeds. Xylem carries water and minerals up, the opposite direction with opposite cargo."
+  },
+  "parts": [
+    "Food/sugar moving down",
+    "Living tube cells",
+    "Leaf source",
+    "Root/seed sink"
+  ],
+  "processes": [
+    "Carrying sugar food from the leaves",
+    "Feeding the roots, fruits, and seeds",
+    "Moving food to growing parts and storage"
+  ],
+  "plainLanguageExplanation": "Phloem is the tissue that carries food around. It carries the sugar that leaves make through photosynthesis to every other part of the plant that needs it. Unlike the xylem (which is just a pipe), the phloem tubes are made of living cells that work to move the food. The food goes to root, stems, fruits, seeds, and growing shoots. Some of the sugar gets stored too as starch.",
+  "keyFacts": [
+    {
+      "label": "What it carries",
+      "value": "Food (sugar) made in the leaves"
+    },
+    {
+      "label": "Direction",
+      "value": "From the leaves to storage and the rest of the plant"
+    },
+    {
+      "label": "Cells",
+      "value": "Living tube cells moving food with living cells"
+    },
+    {
+      "label": "Destination",
+      "value": "Roots, stems, fruits, seeds, growing shoots"
+    },
+    {
+      "label": "Relationship",
+      "value": "Works with xylem but carries food, not water"
+    }
+  ],
+  "whyItMatters": "Photosynthesis gets all the food. Phloem is how that food gets that comes out to every living part of the plant, from a snap of growing shoot to the seeds. Understanding phloem explains how a plant feeds itself all over.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Phloem",
+  "tagline": "The plant's food delivery system",
+  "didYouKnow": "The sugar food moves through phloem into fruits and seeds, so the sweetness in fruit is food the plant was carrying in its phloem.",
+  "conditions": [
+    "Food transport"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Transport > Plant transport tissues > Phloem"
+}

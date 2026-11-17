@@ -1,0 +1,80 @@
+{
+  "componentId": "number-line",
+  "questions": [
+    {
+      "id": "number-line-direction",
+      "conceptId": "number-line-order-numbers",
+      "hotspotId": "hs-positive-side",
+      "prompt": "On a number line, which direction do numbers increase?",
+      "options": [
+        "To the right",
+        "To the left",
+        "Upward",
+        "They never increase"
+      ],
+      "correctIndex": 0,
+      "explanation": "Numbers get larger as you move to the right along the line, so the rightmost number is always the greatest.",
+      "misconception": "A common mistake is thinking numbers grow to the left — but left of a number is always a smaller number, and right is always larger."
+    },
+    {
+      "id": "number-line-zero",
+      "conceptId": "number-line-compare-size",
+      "hotspotId": "hs-zero-reference",
+      "prompt": "What is the value exactly in the middle of all the integer marks on this line?",
+      "options": [
+        "Zero",
+        "One",
+        "Negative five",
+        "There is no middle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zero is the reference point in the center of the line, separating positive numbers on the right from negative numbers on the left.",
+      "misconception": "Some think the line's middle mark is '1' or '5' — but on a symmetric integer line through zero, the center is exactly 0."
+    },
+    {
+      "id": "number-line-add",
+      "conceptId": "number-line-add-subtract-by-jumps",
+      "hotspotId": "hs-minus-spacing",
+      "prompt": "To add on a number line, do you jump right or left?",
+      "options": [
+        "Right",
+        "Left",
+        "Up",
+        "You cannot add on a number line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding means moving toward larger numbers, which is to the right along the line. 3 + 2 = 5 because two right steps from 3 land on 5.",
+      "misconception": "Adding never means stepping left — that is subtraction. Right always gains value."
+    },
+    {
+      "id": "number-line-subtract",
+      "conceptId": "number-line-add-subtract-by-jumps",
+      "hotspotId": "hs-negative-side",
+      "prompt": "Starting at 7, you jump 2 to the left. What number do you land on?",
+      "options": [
+        "5",
+        "9",
+        "2",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jumping left 2 from 7 decreases the value: 7 − 2 = 5.",
+      "misconception": "Jumping left is subtraction, so 7 − 2 = 5, not 9 (which would be adding 2)."
+    },
+    {
+      "id": "number-line-consistency",
+      "conceptId": "number-line-spacing-equal",
+      "hotspotId": "hs-negative-side",
+      "prompt": "Why must the gaps between consecutive numbers on a line be the same size?",
+      "options": [
+        "So that jumps measure true distances correctly",
+        "Because numbers must look neat",
+        "So zero stays in the middle",
+        "They do not have to be equal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equal gaps are what make the line an honest ruler — each step measures a real amount, so adding, subtracting, ordering and comparison are accurate.",
+      "misconception": "Equal spacing is not about neatness; it is essential for the line to measure real value, otherwise every jump and every comparison would be wrong."
+    }
+  ]
+}

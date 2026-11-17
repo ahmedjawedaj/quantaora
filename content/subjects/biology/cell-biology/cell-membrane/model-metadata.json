@@ -1,0 +1,105 @@
+{
+  "id": "cell-membrane",
+  "componentId": "cell-membrane",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/cell-biology/cell-membrane/cell-membrane.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/cell-membrane.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.3,
+      2.4
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.3,
+      2.4
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Phospholipid bilayer",
+    "Embedded proteins",
+    "Transport across the membrane",
+    "Boundary context"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-bilayer",
+      "label": "Phospholipid bilayer",
+      "conceptId": "phospholipid-bilayer",
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "description": "The double layer of phospholipids that forms the membrane's flexible foundation.",
+      "positionHint": "Along the whole surface of the membrane sheet.",
+      "color": "#D98A6A",
+      "function": "Forms a flexible boundary made of a double layer of lipid molecules."
+    },
+    {
+      "id": "hs-protein",
+      "label": "Embedded protein",
+      "conceptId": "membrane-transport",
+      "position": [
+        0.45,
+        0.18,
+        0.2
+      ],
+      "description": "A protein floating in the membrane that helps move larger or charged molecules across.",
+      "positionHint": "A larger blob shape sticking through the bilayer near the right edge.",
+      "color": "#B5846A",
+      "function": "Helps larger or charged molecules cross where the lipid layer cannot carry them."
+    },
+    {
+      "id": "hs-selective-gate",
+      "label": "Selective gate",
+      "conceptId": "selective-permeability",
+      "position": [
+        -0.35,
+        0.16,
+        0.25
+      ],
+      "description": "The controlled opening that lets some molecules through while blocking others.",
+      "positionHint": "Every place a molecule is shown passing the membrane - small dots pass freely, large ones meet a door.",
+      "color": "#6B85A8",
+      "function": "Decides selectively which substances may cross the membrane."
+    },
+    {
+      "id": "hs-boundary",
+      "label": "Flexible boundary",
+      "conceptId": "flexible-boundary",
+      "position": [
+        0,
+        -0.15,
+        0.5
+      ],
+      "description": "The membrane as the outer edge that separates the cell's inside from the outside.",
+      "positionHint": "The margin of the membrane sheet closest to the viewer.",
+      "color": "#7fa88a",
+      "function": "Separates the cell's interior from its surroundings with a flexible layer."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. Highlight three zones of a cut-away cell panel: a translucent cytoplasm on the inside, the membrane sheet as a wavy double layer, and a faint exterior. Use a warm near-paper palette for the lipid heads and tails (soft taupe/vanilla), pale blue-grey accent for the small water molecule dots that pass through, and a warm amber accent for the protein that moves the larger objects. Strong saturated color reserved for the hotspot dots only, never the mesh.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6. The membrane can be translucent at edges (alpha ~0.8) but keep the main streak opaque; no emissive, no glow. Small passing dots are the only size-changed highlights.",
+  "assetBrief": "SUBJECT: a simplified cross-section panel of a cell membrane built for teaching transport. A thin wavy sheet (the bilayer) runs across the middle of the frame, tilted slightly for depth. On it, draw many small 'head' spheres along the upper and lower row of the lipid tails (paler interior) and floating protein blobs that poke between them. Below and above the sheet, add a few small pale-blue water dots that are shown moving straight through between the lipid tails (transport), and a larger amber nutrient object that is shown waiting at one protein door that opens for it. Include a faint translucent zone for cytoplasm on one side and exterior on the other. Triangle budget 8-12k. Named nodes: LipidBilayer, ProteinCarrierA/B, WaterDots, NutrientCargo, CytoplasmContext, ExteriorContext. camera framings leave negative space for hotspot cards.",
+  "referenceMatch": "Object floats alone centered on warm off-white ground, no props; auto-rotate slow and on by default; matches desktop-overview.png.",
+  "visual": {
+    "shape": "membrane-bilayer"
+  }
+}

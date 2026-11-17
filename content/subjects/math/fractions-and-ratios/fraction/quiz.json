@@ -1,0 +1,80 @@
+{
+  "componentId": "fraction",
+  "questions": [
+    {
+      "id": "fraction-3-4",
+      "conceptId": "fraction-part-of-whole",
+      "hotspotId": "hs-fraction-pizza",
+      "prompt": "What does 3/4 of a pizza mean?",
+      "options": [
+        "3 of 4 equal slices",
+        "4 of 3 equal slices",
+        "3 whole pizzas",
+        "3 slices out of a possible 4 whole pizzas"
+      ],
+      "correctIndex": 0,
+      "explanation": "The denominator 4 names the equal parts the whole is split into; the numerator 3 counts the parts taken.",
+      "misconception": "Reading the fraction backwards (4 of 3) or thinking the parts are whole pizzas mixes up which number counts the equal parts of the ONE whole."
+    },
+    {
+      "id": "fraction-equal-parts",
+      "conceptId": "fraction-equal-parts",
+      "hotspotId": "hs-denominator",
+      "prompt": "Why must the parts of a fraction be equal?",
+      "options": [
+        "So each part names the same size piece of the whole",
+        "So the pizza looks neat",
+        "Because the numerator needs matching slices",
+        "They do not have to be equal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Equal parts make the fraction an honest measure — 1/4 means exactly the same size piece no matter which part you take.",
+      "misconception": "Neatness is not the reason — if the pieces are uneven, '3 of 4' no longer names a fixed amount of the whole."
+    },
+    {
+      "id": "fraction-6-8",
+      "conceptId": "fraction-part-of-group",
+      "hotspotId": "hs-numerator",
+      "prompt": "There are 8 marbles and you have 3 of them. What fraction of the marbles do you have?",
+      "options": [
+        "3/8",
+        "8/3",
+        "3/3",
+        "5/8"
+      ],
+      "correctIndex": 0,
+      "explanation": "The group is 8 marbles (denominator) and you have 3 (numerator), so the fraction is 3/8.",
+      "misconception": "8/3 is the inverted (wrong) order, and 5/8 counts the marbles you do NOT have — a fraction of a group uses the total as the denominator."
+    },
+    {
+      "id": "fraction-less-than-1",
+      "conceptId": "fraction-read-write",
+      "hotspotId": "hs-fraction-pizza",
+      "prompt": "Which fraction is less than 1?",
+      "options": [
+        "2/3",
+        "4/4",
+        "7/3",
+        "5/2"
+      ],
+      "correctIndex": 0,
+      "explanation": "2/3 is less than 1 because the numerator is smaller than the denominator — you have fewer parts than the whole.",
+      "misconception": "4/4 equals exactly 1, and fractions with a numerator larger than the denominator (7/3, 5/2) are greater than 1."
+    },
+    {
+      "id": "fraction-write",
+      "conceptId": "fraction-read-write",
+      "hotspotId": "hs-denominator",
+      "prompt": "Which fraction is written as 'three fifths'?",
+      "options": [
+        "3/5",
+        "5/3",
+        "3/3",
+        "5/5"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Three fifths' means 3 (numerator) out of 5 (denominator): 3/5.",
+      "misconception": "5/3 says 'five thirds', not 'three fifths' — the word order matches numerator first, then denominator."
+    }
+  ]
+}

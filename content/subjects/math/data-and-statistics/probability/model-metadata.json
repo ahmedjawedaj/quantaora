@@ -1,0 +1,90 @@
+{
+  "id": "probability",
+  "componentId": "probability",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/probability/probability.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/probability.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Spinner board",
+    "Sectors",
+    "Scale",
+    "Trial chart"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-spinner",
+      "label": "Spinner",
+      "conceptId": "probability-definition",
+      "position": [
+        0.4,
+        0.7,
+        0.15
+      ],
+      "description": "The round board with four equal-colored sectors numbered 1-4.",
+      "positionHint": "The round spinner at the center.",
+      "color": "#D9A441",
+      "function": "Generates random outcomes."
+    },
+    {
+      "id": "hs-scale",
+      "label": "Probability scale",
+      "conceptId": "probability-compute",
+      "position": [
+        -0.5,
+        0.15,
+        0.15
+      ],
+      "description": "The bar from 0 (impossible) to 1 (certain), where the outcome's chance rests at 0.25.",
+      "positionHint": "The horizontal scale bar at the front.",
+      "color": "#7FA86A",
+      "function": "Marks the chance from 0 to 1."
+    },
+    {
+      "id": "hs-outcome-3",
+      "label": "Sector 3",
+      "conceptId": "probability-compute",
+      "position": [
+        -0.3,
+        0.8,
+        0.1
+      ],
+      "description": "One of the four equal sectors of the spinner.",
+      "positionHint": "The 3-labeled sector of the spinner.",
+      "color": "#6B85A8",
+      "function": "One possible outcome."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A round spinner board with four sectors, a pointer, a chance scale at the front, and a small trial bar chart. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / slate-blue from the Math palette). Specimen-quality clean-3D, not gamey, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Spinner board: warm paper disc (roughness ~0.5). Sectors: four desaturated color wedges with ink numbers. Pointer: a slim warm-grey needle rotating. Scale bar: soft warm-grey rail reading 0 to 1 with a count marker that slides. Trial chart: a small bar chart rack beside the board. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: probability on a 0-1 scale \u2014 a 4-sector spinner; the chance of any outcome (1/4) sits at 0.25 on a scale; trials fill a chart and confirm the theory.\n\nGEOMETRY: A round spinner board with four equal sectors numbered 1, 2, 3, 4 and a central needle. At the front, a horizontal scale bar from 0 (impossible) to 1 (certain) with a marker that rests at 0.25; popping out a second label shows 0.5. 'Spin' rotates the needle and stops with a tick; 'spin 40' runs 40 quick trials while a small bar chart fills and the scale's marker revisits the landing. A slow mode speaks to the needle one spin at a time.\n\nLAYERS (toggleable): (1) spinner board; (2) sectors + needle; (3) scale bar; (4) trial chart.\n\nCAMERA: three-quarter from front, slightly above, frames spinner and scale together; labels legible. Budget 7-11k triangles. Named nodes: SpinnerBoard, Sectors, Needle, ScaleBar, ScaleMarker, TrialChart, Spin40Button. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "probability-marbles"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "small-intestine",
+  "questions": [
+    {
+      "id": "si-q-job",
+      "conceptId": "finishes-digestion",
+      "hotspotId": "hs-si-tube",
+      "prompt": "What is the main job of the small intestine?",
+      "options": [
+        "Finish digestion and absorb nutrients",
+        "Store urine",
+        "Pump blood",
+        "Filter air"
+      ],
+      "correctIndex": 0,
+      "explanation": "The small intestine finishes breaking down food and absorbs nearly all the nutrients into the blood.",
+      "misconception": "Storing urine is the bladder, pumping blood is the heart - nutrient absorption is the small intestine's job."
+    },
+    {
+      "id": "si-q-villi",
+      "conceptId": "villi-absorption",
+      "hotspotId": "hs-villi",
+      "prompt": "What are villi?",
+      "options": [
+        "Tiny finger-like projections that absorb nutrients",
+        "Air sacs in the lung",
+        "Tubes in the kidney",
+        "Bones in the ear"
+      ],
+      "correctIndex": 0,
+      "explanation": "Villi are millions of tiny finger-like projections lining the small intestine that absorb nutrients into the blood.",
+      "misconception": "Air sacs are alveoli in the lungs - villi are the intestine's absorption fingers."
+    },
+    {
+      "id": "si-q-surface",
+      "conceptId": "enormous-surface-area",
+      "hotspotId": "hs-villi",
+      "prompt": "Why is the small intestine's inner surface folded into villi?",
+      "options": [
+        "To make a huge surface area for absorption",
+        "To make it stronger",
+        "To hold air",
+        "To make it look fancy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Folding the surface into millions of villi gives the small intestine an enormous area, so nutrients can be absorbed quickly.",
+      "misconception": "The folds are not for strength or looks - surface area is exactly the point for fast absorption."
+    },
+    {
+      "id": "si-q-name",
+      "conceptId": "finishes-digestion",
+      "hotspotId": "hs-si-tube",
+      "prompt": "Why is the small intestine called 'small'?",
+      "options": [
+        "It is narrower than the large intestine",
+        "It is shorter than the large intestine",
+        "It is the smallest organ",
+        "It is tiny in length"
+      ],
+      "correctIndex": 0,
+      "explanation": "Despite being about 6 meters long, the small intestine is called 'small' because it is narrower than the large intestine.",
+      "misconception": "The name refers to width, not length - the small intestine is actually much longer than the large one."
+    },
+    {
+      "id": "si-q-next",
+      "conceptId": "nutrient-absorption-blood",
+      "hotspotId": "hs-blood",
+      "prompt": "What happens to nutrients after the villi absorb them?",
+      "options": [
+        "They enter the blood to reach the body",
+        "They turn into bone",
+        "They stay in the intestine forever",
+        "They become air"
+      ],
+      "correctIndex": 0,
+      "explanation": "Absorbed nutrients cross into blood vessels inside the villi and are carried around the body.",
+      "misconception": "Nutrients don't get stored in the intestine - they enter the blood and are delivered to cells everywhere."
+    }
+  ]
+}

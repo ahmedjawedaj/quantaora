@@ -1,0 +1,90 @@
+{
+  "id": "momentum",
+  "subject": "physics",
+  "title": "Momentum",
+  "summary": "Momentum is the 'motion of mass' — how much 'get-up-and-go' a moving object carries, computed as mass × velocity. A loaded truck creeping along and a baseball hurtling in both have momentum. Explore how momentum builds, transfers in collisions, and is always conserved.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "momentum-mass-times-velocity",
+    "momentum-vector",
+    "momentum-conservation",
+    "momentum-impulse"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Momentum",
+    "systemOrGroup": "Momentum",
+    "component": "Momentum",
+    "displayPath": "Physics > Mechanics > Momentum > Momentum > Momentum"
+  },
+  "crossReferences": [
+    {
+      "label": "Mass (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Mass",
+      "note": "Momentum = mass × velocity, so mass is one of the two knobs that set the momentum."
+    },
+    {
+      "label": "Velocity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Velocity",
+      "note": "Velocity is the other momentum knob — and it supplies the direction, making momentum a vector."
+    },
+    {
+      "label": "Force (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Force",
+      "note": "A force applied for a time (impulse) is what changes momentum — Newton's second law in momentum form."
+    }
+  ],
+  "belongsTo": "Mechanics > Momentum > Momentum",
+  "compareCandidate": {
+    "label": "Momentum vs. force",
+    "description": "A force is a push or pull applied now; momentum is the motion an object already has from its mass and velocity. Forces transfer momentum between objects."
+  },
+  "parts": [
+    "Two collision carts on a track",
+    "Mass sliders on each cart",
+    "Velocity arrows on each cart",
+    "The momentum readout and conservation bar"
+  ],
+  "processes": [
+    "Computing momentum = mass × velocity",
+    "Building up momentum and carrying it in a direction",
+    "Transferring momentum between carts in a collision",
+    "Seeing total momentum stay constant (conservation)"
+  ],
+  "plainLanguageExplanation": "Momentum is the amount of 'motion' bottled in a moving object — the quantity that makes a fast bowling ball hard to stop and a slow truck even harder. The formula is simple: momentum = mass × velocity. Double the mass or double the velocity and you double the momentum. Because velocity has a direction, momentum does too — a ball going left has momentum pointing left. The superpower of momentum is that it cannot be created or destroyed: when two carts collide, the momentum lost by one is gained by the other, so the total before equals the total after. That's conservation of momentum — the reason a cannon recoils when you fire it and why a skater glides forward after throwing a backpack backward. In the model, two carts on a track roll into each other: set their masses and speeds, press Go, and watch them exchange velocity arrows while the total-momentum banner never changes.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Momentum = mass × velocity (p = mv)" },
+    { "label": "Unit", "value": "kg·m/s" },
+    { "label": "Vector", "value": "Points in the direction of motion" },
+    { "label": "Bigger momentum", "value": "More mass, more velocity, or both harder to stop" },
+    { "label": "Conserved", "value": "In a collision total momentum before = total after" },
+    { "label": "Changed by impulse", "value": "Force × time (F·Δt) is what changes momentum" }
+  ],
+  "whyItMatters": "Momentum is the concept behind collisions of every scale — car safety design (crumple zones extend crash time), sports (why follow-through matters), and rocketry (how a rocket moves by throwing gas backward). It explains why heavier moving objects are harder to stop and why momentum can never just vanish; it's a threshold that makes the whole 'collision' part of physics predictable. Understanding momentum is the launch pad for impulse and, later, energy.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Momentum",
+  "tagline": "Mass in motion",
+  "didYouKnow": "A rocket in space doesn't overcome a wall of air — it throws a little gas backward. That is momentum conservation at work: the engine pushes gas one way, and the ship pushes itself the other way onto a new course.",
+  "conditions": [
+    "Car crashes (crumple zones)",
+    "Rocket launches",
+    "Pool ball shots",
+    "Running into a tackle",
+    "Kick-off in soccer"
+  ],
+  "compareCandidateId": "force",
+  "compareReason": "A push or pull (force) versus the motion already possessed (momentum) — bumping two carts shows exactly how one gets transferred without ever being destroyed."
+}

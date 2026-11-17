@@ -1,0 +1,118 @@
+{
+  "id": "normal-force",
+  "componentId": "normal-force",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/normal-force/normal-force.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/normal-force.png",
+  "defaultCamera": {
+    "position": [
+      0.3,
+      1.3,
+      4.0
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.3,
+      1.3,
+      4.0
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Table and book",
+    "Normal force arrow",
+    "Weight arrow",
+    "Press button and ramp tilt"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-book",
+      "label": "Book on Table",
+      "conceptId": "normal-perpendicular-support",
+      "position": [
+        0,
+        0.7,
+        0
+      ],
+      "description": "The book the surface supports — held up because the surface pushes back with an equal perpendicular force.",
+      "colorHint": "A neat hardcover book resting on the tabletop.",
+      "color": "#D9A441",
+      "function": "Serves as the object the normal force supports."
+    },
+    {
+      "id": "hs-normal-arrow",
+      "label": "Normal Force Arrow",
+      "conceptId": "normal-perpendicular-support",
+      "position": [
+        0.15,
+        0.45,
+        0
+      ],
+      "description": "The upward perpendicular push from the surface — always at a right angle to the tabletop.",
+      "colorHint": "A blue arrow rising from the table surface.",
+      "color": "#6B85A8",
+      "function": "Draws the surface's perpendicular support force."
+    },
+    {
+      "id": "hs-weight-arrow",
+      "label": "Weight Arrow",
+      "conceptId": "normal-balances-weight",
+      "position": [
+        -0.15,
+        0.45,
+        0
+      ],
+      "description": "The downward gravity pull on the book — the arrow the normal force matches on flat ground.",
+      "colorHint": "A downward amber arrow from the book's center.",
+      "color": "#D96B5A",
+      "function": "Shows the weight the normal force balances."
+    },
+    {
+      "id": "hs-press-button",
+      "label": "Press Control",
+      "conceptId": "normal-force-varies-with-contact",
+      "position": [
+        1.2,
+        0.6,
+        0.3
+      ],
+      "description": "Adds an extra downward press so the surface has to push back harder — the normal arrow grows.",
+      "colorHint": "A small hand-press pedestal on the table edge.",
+      "color": "#7FA86A",
+      "function": "Increases the required support and grows the normal force."
+    },
+    {
+      "id": "hs-ramp-tilt",
+      "label": "Ramp Tilt",
+      "conceptId": "normal-force-varies-with-contact",
+      "position": [
+        -1.2,
+        0.4,
+        0.2
+      ],
+      "description": "Tilt the table into a ramp: the arrow stays perpendicular to the surface while shrinking, because only part of the weight presses in.",
+      "colorHint": "A tilt handle at the table's far end.",
+      "color": "#D9A441",
+      "function": "Tilts the surface to show the normal force rotate and shrink."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette, no floor grid. A tidy wooden table with a hardcover book, a blue perpendicular arrow and a downward amber arrow, plus a press pedestal and tilt handle. Saturated color on the arrows and dots only. Neutral studio light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0. Tabletop: warm oak (roughness ~0.5). Book: amber cover. Normal arrow: matte blue prism with cone head. Weight arrow: coral. Pedestal and handle warm-grey. Readouts runtime overlay.",
+  "assetBrief": "SUBJECT: the normal force as a surface's perpendicular support, equal to weight on flat ground and shrinking on ramps.\n\nGEOMETRY: table (top ~2.4×1.2 at y=0.55) with a book (0.45×0.09×0.7) centered. Normal arrow up from top at book center; weight arrow down from the book center. Press pedestal (1.2,0.6,0.3) and tilt handle (-1.2,0.4,0.2) at the table ends.\n\nINTERACTION: press button grows the arrows; tilt handle rotates the whole tabletop from 0° to 45° while the normal arrow stays perpendicular and shrinks (weight arrow constant). Elevator mode pops a small platform accelerating up to show the spike.\n\nNAMED NODES: TableLegs, TableTop, Book, NormalArrow, WeightArrow, PressPedestal, TiltHandle, ElevatorPad. 6-10k tris.",
+  "visual": {
+    "shape": "normal-force"
+  }
+}

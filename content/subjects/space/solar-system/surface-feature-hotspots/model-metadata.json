@@ -1,0 +1,135 @@
+{
+  "id": "surface-feature-hotspots",
+  "componentId": "surface-feature-hotspots",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/solar-system/surface-feature-hotspots.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/solar-system/surface-feature-hotspots.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: generated at runtime from three.js primitives, not a GLB. `url` is a placeholder for the scene-builder module per project conventions. `thumbnailUrl` is a placeholder PNG. `defaultCamera`/`cameraDefault` and hotspot `position`s are estimates derived from the assetBrief — verify against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0.4,
+      1.1,
+      4.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.4,
+      1.1,
+      4.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Jupiter (Great Red Spot)",
+    "Mars (Olympus Mons + Valles Marineris)",
+    "Saturn (rings)",
+    "Earth (oceans and continents)",
+    "The Moon (maria)",
+    "Landmark label planes"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-great-red-spot",
+      "label": "Great Red Spot",
+      "conceptId": "great-red-spot-is-a-storm",
+      "position": [
+        -1.5,
+        0.22,
+        -0.15
+      ],
+      "description": "A swirling storm on Jupiter wider than Earth, observed continuously for at least 190 years. The model shows it as a subtle oval indent in the banded surface.",
+      "positionHint": "Lower-left sphere (Jupiter, radius ~0.62), on the upper-left of the visible face — a slightly recessed flat oval with soft edge shading among the cream-and-tan bands, paired with a small Earth-reference disc floating beside it.",
+      "color": "#D9A441",
+      "function": "Shows the solar system's biggest storm, scaled against an Earth reference."
+    },
+    {
+      "id": "hs-olympus-mons",
+      "label": "Olympus Mons",
+      "conceptId": "olympus-mons-tallest-volcano",
+      "position": [
+        1.7,
+        0.05,
+        -0.3
+      ],
+      "description": "The tallest volcano in the solar system — about 22 km high on Mars, nearly three times Mount Everest — a broad shield volcano built by lava flows.",
+      "positionHint": "Right-center sphere (Mars, radius ~0.4), a gently raised dome with a faint summit caldera ring on the upper-right of the face.",
+      "color": "#C08B5C",
+      "function": "Highlights the solar system's record volcano."
+    },
+    {
+      "id": "hs-valles-marineris",
+      "label": "Valles Marineris",
+      "conceptId": "valles-marineris-canyon-system",
+      "position": [
+        1.7,
+        -0.28,
+        0.1
+      ],
+      "description": "A canyon system over 4,000 km long on Mars — about the width of the United States — with depths several times the Grand Canyon's.",
+      "positionHint": "Same Mars sphere as Olympus Mons, lower area — a shallow V-shaped groove wrapping partway around the sphere's equator region.",
+      "color": "#A6B0C4",
+      "function": "Marks the solar system's grandest canyon network."
+    },
+    {
+      "id": "hs-saturn-rings",
+      "label": "Saturn's rings",
+      "conceptId": "saturn-rings-ice-and-rock",
+      "position": [
+        -0.1,
+        0.75,
+        0.3
+      ],
+      "description": "Trillions of separate chunks of ice and rock — not solid sheets — orbiting Saturn, from dust grains to house-sized boulders.",
+      "positionHint": "Upper-center sphere (Saturn, radius ~0.45), the ring plane where the torus meets the planet — the hotspot sits on the inner edge of the main ring band.",
+      "color": "#C9B46E",
+      "function": "Marks the ring system and its orbiting-particle structure."
+    },
+    {
+      "id": "hs-earth-features",
+      "label": "Oceans and continents",
+      "conceptId": "earth-oceans-and-continents",
+      "position": [
+        -0.7,
+        -0.5,
+        -0.1
+      ],
+      "description": "Earth is the only world known to have liquid water oceans on its surface, dividing its continents — the features we live on.",
+      "positionHint": "Lower-center sphere (Earth, radius ~0.3), an ocean-blue face with warm green-brown continent patches.",
+      "color": "#7FA88A",
+      "function": "Marks the only known life-bearing surface features."
+    },
+    {
+      "id": "hs-moon-maria",
+      "label": "The Moon's maria",
+      "conceptId": "moon-maria-lava-plains",
+      "position": [
+        1.2,
+        0.4,
+        0.55
+      ],
+      "description": "The dark patches on the Moon's face — ancient plains of solidified lava that flooded impact basins billions of years ago.",
+      "positionHint": "Right side of the scene, a small grey sphere (radius ~0.15) with three darker grey-blue oval patches.",
+      "color": "#8FA6A0",
+      "function": "Shows the Moon's volcanic plains."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, no floor grid, no glow, no bloom, no emissive materials, no cartoon outlines. Six worlds float in a loose arc over a soft radial ground-shadow: Jupiter (upper-left), Saturn (upper-center), Mars (right-center), Earth (lower-center), the Moon (right), each at a comfortable reading size with landmark detail modeled as subtle surface relief (baked displacement, not decals). Landmark labels are slim text planes that appear on hotspot tap. A small Earth-reference disc floats beside the Great Red Spot to sell its size. Planet colors are the branch's muted set; hotspot dots are the only saturated accents. Auto-rotate is slow (~30s/rev) and pauses when a hotspot is open.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, roughness ~0.55-0.65. Surface detail (storm oval, dome, groove, ring banding, maria) modeled as baked vertex displacement or flat-shaded relief on the sphere geometry — no image textures, no emissive. Ring: a thin flat torus (two bands) in pale gold at low opacity. Labels: dark warm-grey text sprites. No emissive channels; app runtime handles highlight-on-tap.",
+  "assetBrief": "SUBJECT: A 'world gallery' — six spheres arranged in a shallow arc on XZ: Jupiter (-1.6, 0.1, -0.2; radius 0.62), Saturn (-0.1, 0.2, 0.25; radius 0.45, plus ring torus radii 0.75/0.9 at tilt ~26°), Mars (1.7, -0.05, -0.1; radius 0.4), Earth (-0.7, -0.4, 0.4; radius 0.3), the Moon (1.2, 0.15, 0.6; radius 0.15). Feature relief: Great Red Spot — a shallow recessed oval (2:1 axis) on Jupiter's face, tinted a few percent away from the base banding; Olympus Mons — a low dome (radius 0.09, height 0.02) with a faint caldera ring; Valles Marineris — a shallow V-groove (0.35 long, 0.01 deep) wrapping the equator region of Mars; Saturn rings — thin two-band torus; Earth — baked ocean/continent two-tone relief; Moon maria — three low dark oval patches. An Earth-reference disc (radius 0.05, thin cylinder) floats near the Great Red Spot connected by a hairline. Landmark labels (name planes) toggle with hotspots. Camera default [0.4, 1.1, 4.6] → [0, 0.2, 0] shows all six worlds; tapping a hotspot eases the camera to that world (framing it at ~70% viewport height). Grounding: radial ground-shadow beneath the arc. Named groups per layers list.",
+  "visual": {
+    "shape": "surface-orb"
+  }
+}

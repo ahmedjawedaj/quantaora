@@ -1,0 +1,16 @@
+{
+  "id": "hemoglobin-protein",
+  "pdbId": "1HHO",
+  "title": "Human deoxyhemoglobin backbone",
+  "sourceName": "RCSB PDB 1HHO",
+  "sourceUrl": "https://www.rcsb.org/structure/1HHO",
+  "coordinateUrl": "https://files.rcsb.org/download/1HHO.pdb",
+  "license": "RCSB PDB data files are distributed under CC0 1.0 Universal",
+  "licenseStatus": "CLEAR",
+  "qualityTier": "support",
+  "targetComponents": [
+    "biology-biochemistry-protein",
+    "chem-biolink-protein-folding"
+  ],
+  "generatedBy": "scripts/assets/build-rcsb-biochemistry-glbs.mjs"
+}

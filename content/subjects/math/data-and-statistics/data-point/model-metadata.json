@@ -1,0 +1,90 @@
+{
+  "id": "data-point",
+  "componentId": "data-point",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/data-point/data-point.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/data-point.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Measuring board",
+    "Dataset row",
+    "Point cubes",
+    "Chart plate"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-point-cube",
+      "label": "Data point",
+      "conceptId": "data-point-definition",
+      "position": [
+        -0.2,
+        0.55,
+        0.15
+      ],
+      "description": "One cube \u2014 one single observation from the dataset.",
+      "positionHint": "The lifted cube at the front.",
+      "color": "#D9A441",
+      "function": "One piece of data."
+    },
+    {
+      "id": "hs-value-tag",
+      "label": "Value",
+      "conceptId": "data-point-collect",
+      "position": [
+        0.4,
+        0.45,
+        0.2
+      ],
+      "description": "The measurement the point records \u2014 'Ali = 150 cm'.",
+      "positionHint": "The small tag beside the cube.",
+      "color": "#7FA86A",
+      "function": "The value of the observation."
+    },
+    {
+      "id": "hs-dataset-row",
+      "label": "Dataset",
+      "conceptId": "data-point-dataset",
+      "position": [
+        -0.9,
+        0.2,
+        0.1
+      ],
+      "description": "The row of cubes \u2014 many data points collected together.",
+      "positionHint": "The full row of cubes on the board.",
+      "color": "#6B85A8",
+      "function": "The collection of all points."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A measuring board with a row of point cubes, one lifted out, and a chart plate behind. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Point cubes: warm paper cubes with ink value tags (roughness ~0.5). Measuring board: warm paper panel with subtle ruler ticks. Chart plate: warm paper panel behind, with a faint dot grid. Mean line (demo): thin dashed warm-ink strip. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the data point as one observation \u2014 a row of labeled cubes on a measuring board, each a child's height; lifting a cube shows its tag; dragging a cube to the chart plate turns it into a dot on a growing line graph.\n\nGEOMETRY: A measuring board with a row of small cubes in ascending order, each with a label tag ('Ali', 'Mia', ...) and a value (cm). One cube can be lifted out to the front and read. 'Add measurement' slides a new cube in. Dragging a cube onto the chart plate behind places a dot at its height; multiple dots connect into a growing line graph. A 'mean' demo draws a dashed line at the average of the placed points.\n\nLAYERS (toggleable): (1) measuring board; (2) dataset row; (3) point cubes + tags; (4) chart plate + dots.\n\nCAMERA: three-quarter from front-left, slightly above, frames board and chart plate; labels legible. Budget 5-9k triangles. Named nodes: Board, DatasetRow, PointCubes, ValueTags, ChartPlate, Dots, MeanLine. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "data-point-dot-axes"
+  }
+}

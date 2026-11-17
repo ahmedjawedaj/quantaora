@@ -1,0 +1,65 @@
+{
+  "componentId": "ionic-bond",
+  "questions": [
+    {
+      "id": "ionic-q-definition",
+      "conceptId": "ionic-transfers-electrons",
+      "hotspotId": "hs-ionic-transfer",
+      "prompt": "What is an ionic bond?",
+      "options": [
+        "A bond formed when electrons are transferred from one atom to another",
+        "A bond formed when atoms share a pair of electrons",
+        "A bond that only happens between gases",
+        "A bond made of magnets"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ionic bond forms when electrons are transferred — one atom gives electrons, the other takes them.",
+      "misconception": "Sharing a pair of electrons is a COVALENT bond — the ionic bond is specifically about transferring electrons from one atom to another."
+    },
+    {
+      "id": "ionic-q-who-gives",
+      "conceptId": "ionic-metal-gives-nonmetal-takes",
+      "hotspotId": "hs-ionic-transfer",
+      "prompt": "In an ionic bond between sodium and chlorine, which atom gives the electron?",
+      "options": [
+        "Sodium — the metal — gives it to chlorine, the nonmetal",
+        "Chlorine gives it to sodium",
+        "Both atoms give one electron each",
+        "Neither atom gives anything"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sodium, a metal with one lonely outer electron, gives it to chlorine, a nonmetal that needs one more to complete its shell.",
+      "misconception": "It is always the metal that gives and the nonmetal that takes — the metal's few outer electrons are easy to let go, while the nonmetal wants more to complete its shell."
+    },
+    {
+      "id": "ionic-q-attraction",
+      "conceptId": "ionic-transfers-electrons",
+      "hotspotId": "hs-ions-attract",
+      "prompt": "After sodium gives chlorine an electron, what holds the two atoms together?",
+      "options": [
+        "The attraction between opposite charges — Na⁺ and Cl⁻",
+        "A shared pair of electrons",
+        "A physical hook between the atoms",
+        "Magnetic fields"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sodium becomes positive Na⁺ and chlorine becomes negative Cl⁻, and opposite charges attract — that attraction IS the ionic bond.",
+      "misconception": "There is no shared pair and no physical hook — the bond is pure electrical attraction between the positive and negative ions."
+    },
+    {
+      "id": "ionic-q-lattice",
+      "conceptId": "ionic-builds-salts",
+      "hotspotId": "hs-ionic-lattice",
+      "prompt": "What structure do millions of sodium and chlorine ions form in table salt?",
+      "options": [
+        "A repeating crystal lattice of alternating positive and negative ions",
+        "A single huge molecule",
+        "A flat sheet of atoms",
+        "A random cloud of ions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Millions of Na⁺ and Cl⁻ ions lock into a repeating grid called a crystal lattice — the structure of table salt.",
+      "misconception": "Ionic compounds are not single molecules — they are giant repeating lattices where every ion is surrounded by ions of the opposite charge."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "negative-number",
+  "questions": [
+    {
+      "id": "negative-meaning",
+      "conceptId": "negative-below-zero",
+      "hotspotId": "hs-negative-side",
+      "prompt": "What does a temperature of −5°C mean?",
+      "options": [
+        "5 degrees below zero",
+        "5 degrees above zero",
+        "Half of 5 degrees",
+        "Nothing — it cannot exist"
+      ],
+      "correctIndex": 0,
+      "explanation": "The minus sign means below zero — −5°C is five degrees below freezing.",
+      "misconception": "Negative temperatures exist all the time in winter; the minus sign means below zero, not 'impossible'."
+    },
+    {
+      "id": "negative-order",
+      "conceptId": "negative-order-compare",
+      "hotspotId": "hs-negative-side",
+      "prompt": "Which is the SMALLEST number?",
+      "options": [
+        "−6",
+        "−2",
+        "0",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the number line, further left means smaller — −6 is the farthest left and the smallest.",
+      "misconception": "With negatives, bigger-looking digits are NOT bigger values — −6 is smaller than −2 because it is farther from zero."
+    },
+    {
+      "id": "negative-add",
+      "conceptId": "negative-add-subtract",
+      "hotspotId": "hs-add-negative",
+      "prompt": "What is −3 + (−2)?",
+      "options": [
+        "−5",
+        "5",
+        "−1",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding a negative moves left: start at −3 and step left 2 to reach −5.",
+      "misconception": "Adding two negatives does not give a positive — it moves further left into more negative territory (−5)."
+    },
+    {
+      "id": "negative-subtract-negative",
+      "conceptId": "negative-add-subtract",
+      "hotspotId": "hs-add-negative",
+      "prompt": "What is 4 − (−2)?",
+      "options": [
+        "6",
+        "2",
+        "−2",
+        "−6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtracting a negative moves right: 4 − (−2) = 4 + 2 = 6.",
+      "misconception": "The two minus signs become a plus — subtracting a negative is a gain, like taking away a debt, so the result is LARGER (6), not smaller."
+    },
+    {
+      "id": "negative-real-world",
+      "conceptId": "negative-real-world",
+      "hotspotId": "hs-zero",
+      "prompt": "Which real situation is best modeled by a negative number?",
+      "options": [
+        "A submarine at 300 meters BELOW sea level",
+        "A mountain 300 meters above sea level",
+        "A child who is 300 cm tall",
+        "A bucket with 300 marbles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Below sea level is below zero on the altitude scale, so it is modeled as −300 m.",
+      "misconception": "Heights, lengths, and counts are positive; only amounts measured below a zero reference (like depth below sea level) are negative."
+    }
+  ]
+}

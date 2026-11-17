@@ -1,0 +1,80 @@
+{
+  "componentId": "protozoa",
+  "questions": [
+    {
+      "id": "protozoa-q-cell",
+      "conceptId": "protozoa-single-celled",
+      "hotspotId": "hs-amoeba",
+      "prompt": "What is a protozoan?",
+      "options": [
+        "A single-celled living thing with a true nucleus",
+        "A multi-celled plant",
+        "A virus without genes",
+        "A clump of rock crystals"
+      ],
+      "correctIndex": 0,
+      "explanation": "A protozoan is a single-celled organism with a true nucleus, larger and more animal-like than a bacterium.",
+      "misconception": "It is easy to mix protozoa up with bacteria, but protozoa are single-celled WITH a true nucleus and are more active."
+    },
+    {
+      "id": "protozoa-q-move",
+      "conceptId": "protozoa-move",
+      "hotspotId": "hs-flagellum",
+      "prompt": "How can protozoa move?",
+      "options": [
+        "With a flagellum, cilia, or by stretching false feet",
+        "By rolling like a ball",
+        "By flying in the air",
+        "They cannot move at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protozoa move with a whiplike flagellum, many cilia hairs, or by forming pseudopods (false feet), as the amoeba does.",
+      "misconception": "These micro-are not rooted or still; they actively swim and crawl in water."
+    },
+    {
+      "id": "protozoa-q-eat",
+      "conceptId": "protozoa-eat",
+      "hotspotId": "hs-food",
+      "prompt": "How do protozoa get food?",
+      "options": [
+        "They hunt and engulf food into a little sac",
+        "They build food from sunlight only",
+        "They soak up sand like rocks",
+        "They cannot eat anything"
+      ],
+      "correctIndex": 0,
+      "explanation": "Many protozoa capture and engulf small food particles into a food vacuole, like a tiny animal eating.",
+      "misconception": "Since protozoa are like animals, they do not make food from light; they hunt and swallow small pieces."
+    },
+    {
+      "id": "protozoa-q-nucleus",
+      "conceptId": "protozoa-nucleus",
+      "hotspotId": "hs-nucleus",
+      "prompt": "What makes a protozoan different from a bacterium?",
+      "options": [
+        "It has a true nucleus and is often larger and more active",
+        "It has no genetic material at all",
+        "It is a plant that photosynthesizes",
+        "It is made of thousands of cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protozoa have a true nucleus (eukaryotic) and are usually larger and more active than bacteria, which have no true nucleus.",
+      "misconception": "A protozoan is not a plant and is not multi-celled; the true difference from a virus is having a single cell with a nucleus."
+    },
+    {
+      "id": "protozoa-q-help",
+      "conceptId": "protozoa-helpful-and-harmful",
+      "hotspotId": "hs-amoeba",
+      "prompt": "Which statement is TRUE about protozoa?",
+      "options": [
+        "Most are harmless, and a few can cause disease like malaria",
+        "All of them always cause disease",
+        "They only live in outer space",
+        "They are all giant animals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most protozoa are harmless and even helpful in food webs, though a small number spread by vectors can cause diseases.",
+      "misconception": "The idea that all protozoa cause disease is wrong; only some cause illness, and most are harmless or helpful."
+    }
+  ]
+}

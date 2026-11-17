@@ -1,0 +1,49 @@
+{
+  "componentId": "blood-vessels",
+  "terms": [
+    {
+      "term": "Blood vessel",
+      "conceptId": "arteries-carry-away",
+      "hotspotId": "hs-artery",
+      "definition": "A tube that carries blood around the body.",
+      "function": "Delivers blood to every part of the body.",
+      "whereItIs": "Throughout the whole body.",
+      "whyItMatters": "They are the body's delivery network.",
+      "relatedConcept": "capillaries-exchange",
+      "quizId": "bv-q-three"
+    },
+    {
+      "term": "Artery",
+      "conceptId": "arteries-carry-away",
+      "hotspotId": "hs-artery",
+      "definition": "A thick-walled vessel carrying blood away from the heart.",
+      "function": "Delivers blood under high pressure.",
+      "whereItIs": "Spreading out from the heart.",
+      "whyItMatters": "They supply the body's blood at high pressure.",
+      "relatedConcept": "veins-carry-back",
+      "quizId": "bv-q-artery"
+    },
+    {
+      "term": "Vein",
+      "conceptId": "veins-carry-back",
+      "hotspotId": "hs-vein",
+      "definition": "A vessel carrying blood back toward the heart.",
+      "function": "Returns blood, using valves to stop backflow.",
+      "whereItIs": "Returning from the body toward the heart.",
+      "whyItMatters": "They bring the blood home.",
+      "relatedConcept": "one-way-valves",
+      "quizId": "bv-q-vein"
+    },
+    {
+      "term": "Capillary",
+      "conceptId": "capillaries-exchange",
+      "hotspotId": "hs-capillary",
+      "definition": "The tiniest blood vessel, where exchange happens.",
+      "function": "Lets oxygen, nutrients, and waste pass to and from cells.",
+      "whereItIs": "Forming fine meshes between arteries and veins.",
+      "whyItMatters": "This is where the real delivery happens.",
+      "relatedConcept": "arteries-carry-away",
+      "quizId": "bv-q-capillary"
+    }
+  ]
+}

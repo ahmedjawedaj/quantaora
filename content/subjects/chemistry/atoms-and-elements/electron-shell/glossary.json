@@ -1,0 +1,48 @@
+{
+  "componentId": "electron-shell",
+  "terms": [
+    {
+      "term": "Electron shell",
+      "conceptId": "shell-layer-around-nucleus",
+      "hotspotId": "hs-shell-layers",
+      "definition": "A layer of space around the nucleus, at a fixed distance, where electrons orbit.",
+      "function": "Organizes electrons into layers and sets the atom's reactivity via its outer layer.",
+      "whereItIs": "The two translucent rings around the sodium nucleus.",
+      "whyItMatters": "Shells are the architecture that decides how atoms bond.",
+      "relatedConcept": "shell-outermost-bonds",
+      "quizId": "shell-q-what"
+    },
+    {
+      "term": "Inner shell",
+      "conceptId": "shell-holds-maximum",
+      "hotspotId": "hs-shell-inner",
+      "definition": "A shell closer to the nucleus, filled before the outer shells.",
+      "function": "Holds electrons without participating in bonding.",
+      "whereItIs": "The inner ring with its two electron dots.",
+      "whyItMatters": "Inner shells are what the outer chemistry sits on top of.",
+      "relatedConcept": "shell-layer-around-nucleus",
+      "quizId": "shell-q-capacity"
+    },
+    {
+      "term": "Valence electrons",
+      "conceptId": "shell-outermost-bonds",
+      "hotspotId": "hs-shell-outer",
+      "definition": "The electrons in the outermost shell of an atom.",
+      "function": "The electrons that bond — shared, lost, or gained in reactions.",
+      "whereItIs": "The single bright electron on sodium's outer ring.",
+      "whyItMatters": "Valence electrons are the entire basis of chemical bonding.",
+      "relatedConcept": "shell-holds-maximum",
+      "quizId": "shell-q-outermost"
+    },
+    {
+      "term": "Full shell",
+      "conceptId": "shell-outermost-bonds",
+      "definition": "An outermost shell that holds its maximum number of electrons.",
+      "function": "Makes an atom stable and unreactive — the noble gas state.",
+      "whereItIs": "Shown by the calm neon icon in the reactivity layer.",
+      "whyItMatters": "The drive to fill the outer shell is what pushes atoms to react.",
+      "relatedConcept": "shell-layer-around-nucleus",
+      "quizId": "shell-q-outermost"
+    }
+  ]
+}

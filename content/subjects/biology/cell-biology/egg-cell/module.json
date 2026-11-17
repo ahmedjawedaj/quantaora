@@ -1,0 +1,71 @@
+{
+  "id": "egg-cell",
+  "subject": "biology",
+  "title": "Egg Cell",
+  "summary": "Explore the human egg cell (ovum) — the largest cell the body makes and the only one built to become a new organism. Identify its cell membrane, nutrient-rich cytoplasm, nucleus, and protective zona pellucida, and see how it's built for fertilization.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "zona-pellucida",
+    "cell-membrane",
+    "cytoplasm-nutrient-rich",
+    "nucleus"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Specialized Cells",
+    "systemOrGroup": "Egg cell (specialized cell)",
+    "component": "Egg Cell",
+    "displayPath": "Biology > Cell Biology > Specialized Cells > Egg Cell"
+  },
+  "belongsTo": "Cell Biology > Specialized Cells > Egg cell (specialized cell)",
+  "crossReferences": [
+    {
+      "label": "Reproductive System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Reproductive system",
+      "note": "The egg cell is classified as a specialized cell in the Cell Biology branch, but it develops and matures inside the ovary and is released during ovulation, both covered in the Human Anatomy branch's Reproductive System unit."
+    },
+    {
+      "label": "Chromosomes and Meiosis (Genetics)",
+      "branch": "genetics",
+      "note": "Why the egg cell's nucleus holds only 23 chromosomes instead of the usual 46 is explained by meiosis, the cell-division process covered in the Genetics branch."
+    }
+  ],
+  "compareCandidate": {
+    "label": "Egg cell vs. Sperm cell",
+    "description": "A sperm cell is tiny, has almost no cytoplasm, and can swim using a tail, while the egg cell is the largest human cell, carries a large nutrient-rich cytoplasm, and cannot move on its own — two specialized cells built for opposite, complementary jobs in fertilization."
+  },
+  "parts": [
+    "Cell membrane",
+    "Nucleus",
+    "Cytoplasm (nutrient-rich)",
+    "Zona pellucida"
+  ],
+  "processes": [
+    "Fertilization",
+    "Ovulation",
+    "Early embryonic development",
+    "Meiosis (how egg cells form with half the usual DNA)"
+  ],
+  "plainLanguageExplanation": "An egg cell (scientists call it an ovum) is the biggest single cell your body can make — and it's the only cell built to become a brand-new person. Think of it like a well-stocked survival pod: it carries half of the genetic instructions needed to build a baby, plus a big storeroom of nutrients to fuel the very first days of life, all wrapped in protective layers. Unlike most cells in your body that just divide and copy themselves, the egg cell's entire job is to wait, get fertilized by a sperm cell, and then kick-start the growth of a whole new organism.",
+  "keyFacts": [
+    { "label": "Size", "value": "About 0.1-0.12 mm across — roughly the size of a period on a printed page, and the largest human cell." },
+    { "label": "Genetic contribution", "value": "Carries 23 chromosomes — half the DNA needed to form a new human, matching the 23 from a sperm cell." },
+    { "label": "Where it's made", "value": "Develops and matures inside the ovaries." },
+    { "label": "Fertilization window", "value": "Once released (ovulation), an egg cell can typically be fertilized for about 12-24 hours." },
+    { "label": "Protective coat", "value": "Surrounded by the zona pellucida, a tough outer coating that normally allows only one sperm cell to fertilize the egg." },
+    { "label": "Movement", "value": "Unlike a sperm cell, an egg cell cannot swim on its own — it is moved along the fallopian tube by tiny hair-like cilia." }
+  ],
+  "whyItMatters": "Every person who has ever lived started as a single fertilized egg cell. Understanding how it's built — its nutrient stores, its protective coating, its half-set of DNA — is the foundation for understanding human reproduction, genetics, and early development, and it explains why some fertility treatments and prenatal science focus so closely on this one cell.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

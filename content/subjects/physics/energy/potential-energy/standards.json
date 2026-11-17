@@ -1,0 +1,26 @@
+{
+  "componentId": "potential-energy",
+  "standards": [
+    {
+      "standardId": "PS3.A",
+      "standard": "Definitions of Energy",
+      "description": "The higher an object is lifted, the more gravitational potential energy it has, and the more work it can do when released.",
+      "level": "primary",
+      "traceDetail": "Block-on-shelf model links height and mass to stored energy in joules."
+    },
+    {
+      "standardId": "MS-PS3-2",
+      "standard": "Potential Energy and the Energy of Position",
+      "description": "Develop a model to describe that when the arrangement of objects interacting at a distance changes, different amounts of potential energy are stored in the system.",
+      "level": "primary",
+      "traceDetail": "Moving the shelf changes height and thus the stored gravitational potential energy, shown on the meter."
+    },
+    {
+      "standardId": "PS3.C",
+      "standard": "Relationship Between Energy and Forces",
+      "description": "When two objects interact, each one exerts a force on the other, and these forces can transfer energy between them.",
+      "level": "support",
+      "traceDetail": "Gravity's pull on the held block is the force that governs its stored potential."
+    }
+  ]
+}

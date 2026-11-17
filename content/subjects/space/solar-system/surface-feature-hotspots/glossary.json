@@ -1,0 +1,60 @@
+{
+  "componentId": "surface-feature-hotspots",
+  "terms": [
+    {
+      "term": "Storm system",
+      "conceptId": "great-red-spot-is-a-storm",
+      "hotspotId": "hs-great-red-spot",
+      "definition": "A whirling region of gas or fluid weather — on Jupiter, the Great Red Spot is the biggest known one.",
+      "function": "Explains why the Great Red Spot is moving, churning weather, not a solid mark.",
+      "whereItIs": "The recessed oval on Jupiter's face in the model.",
+      "whyItMatters": "Jupiter's storm is wide enough to swallow Earth, and has persisted for at least 190 years — weather on a scale Earth can't produce.",
+      "relatedConcept": "saturn-rings-ice-and-rock",
+      "quizId": "sfeat-q-red-spot"
+    },
+    {
+      "term": "Shield volcano",
+      "conceptId": "olympus-mons-tallest-volcano",
+      "hotspotId": "hs-olympus-mons",
+      "definition": "A broad, gently sloping volcano built up by layer after layer of lava flows — Olympus Mons is the tallest known.",
+      "function": "Explains Olympus Mons's wide, low profile and how it grew to 22 km tall without plate tectonics moving its hotspot.",
+      "whereItIs": "The low dome with a caldera ring on Mars's face.",
+      "whyItMatters": "Olympus Mons is nearly three times Mount Everest's height — the biggest volcanic mountain known anywhere.",
+      "relatedConcept": "valles-marineris-canyon-system",
+      "quizId": "sfeat-q-olympus"
+    },
+    {
+      "term": "Rift canyon",
+      "conceptId": "valles-marineris-canyon-system",
+      "hotspotId": "hs-valles-marineris",
+      "definition": "A canyon formed when the ground pulls apart along cracks — Valles Marineris is the solar system's grandest example.",
+      "function": "Explains Valles Marineris's straight, branched shape and its record length of over 4,000 km.",
+      "whereItIs": "The shallow V-groove wrapping partway around Mars's equator in the model.",
+      "whyItMatters": "It would stretch across the entire United States — and it records Mars's tectonic and watery history.",
+      "relatedConcept": "olympus-mons-tallest-volcano",
+      "quizId": "sfeat-q-valles"
+    },
+    {
+      "term": "Ring system",
+      "conceptId": "saturn-rings-ice-and-rock",
+      "hotspotId": "hs-saturn-rings",
+      "definition": "A flat disc of countless separate particles orbiting a planet — each chunk its own tiny moon.",
+      "function": "Explains how the 'sheets' of Saturn's rings can stay up: every ice chunk is in its own orbit.",
+      "whereItIs": "The pale gold torus around Saturn in the model.",
+      "whyItMatters": "Rings are not solid — they are trillions of ice-and-rock bodies, from dust grains to house-sized boulders.",
+      "relatedConcept": "moon-maria-lava-plains",
+      "quizId": "sfeat-q-rings"
+    },
+    {
+      "term": "Maria (lunar plains)",
+      "conceptId": "moon-maria-lava-plains",
+      "hotspotId": "hs-moon-maria",
+      "definition": "The dark patches on the Moon — ancient plains of solidified lava that flooded giant impact basins.",
+      "function": "Explains the Moon's dark 'seas' — volcanic rock, not water.",
+      "whereItIs": "The three dark oval patches on the Moon sphere in the model.",
+      "whyItMatters": "The maria record the massive impacts and volcanism of the young solar system — and their name comes from early astronomers who really thought they were seas.",
+      "relatedConcept": "great-red-spot-is-a-storm",
+      "quizId": "sfeat-q-maria"
+    }
+  ]
+}

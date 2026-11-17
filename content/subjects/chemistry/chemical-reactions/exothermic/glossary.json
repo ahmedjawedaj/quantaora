@@ -1,0 +1,48 @@
+{
+  "componentId": "exothermic",
+  "terms": [
+    {
+      "term": "Exothermic reaction",
+      "conceptId": "exothermic-releases-energy",
+      "hotspotId": "hs-exothermic-flame",
+      "definition": "A chemical reaction that releases energy to its surroundings.",
+      "function": "Warms its surroundings by giving off heat and sometimes light.",
+      "whereItIs": "The burning campfire in the model.",
+      "whyItMatters": "Exothermic reactions power fires, engines, warmers, and your body.",
+      "relatedConcept": "exothermic-energy-to-surroundings",
+      "quizId": "exothermic-q-definition"
+    },
+    {
+      "term": "Released energy",
+      "conceptId": "exothermic-energy-to-surroundings",
+      "hotspotId": "hs-exothermic-energy",
+      "definition": "The energy an exothermic reaction gives off, usually as heat and light.",
+      "function": "Warms the surroundings and powers everyday energy.",
+      "whereItIs": "The radiating waves in the model's energy-out layer.",
+      "whyItMatters": "Released energy is the visible, useful output of these reactions.",
+      "relatedConcept": "exothermic-releases-energy",
+      "quizId": "exothermic-q-form"
+    },
+    {
+      "term": "Energy difference",
+      "conceptId": "exothermic-releases-energy",
+      "hotspotId": "hs-exothermic-levels",
+      "definition": "The gap between the reactants' high energy and the products' lower energy.",
+      "function": "Supplies the energy that exothermic reactions release.",
+      "whereItIs": "The gap between the two energy bars in the model.",
+      "whyItMatters": "It explains WHY the reaction has energy to give out.",
+      "relatedConcept": "exothermic-energy-to-surroundings",
+      "quizId": "exothermic-q-why"
+    },
+    {
+      "term": "Hand warmer",
+      "conceptId": "exothermic-examples",
+      "definition": "A packet that releases heat through an exothermic reaction when cracked.",
+      "function": "A familiar everyday example of an exothermic reaction.",
+      "whereItIs": "The classic example referenced in the lesson.",
+      "whyItMatters": "Everyday examples make the abstract idea tangible.",
+      "relatedConcept": "exothermic-releases-energy",
+      "quizId": "exothermic-q-example"
+    }
+  ]
+}

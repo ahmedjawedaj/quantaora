@@ -1,0 +1,80 @@
+{
+  "componentId": "efficiency",
+  "questions": [
+    {
+      "id": "ef-q-definition",
+      "conceptId": "efficiency-useful-over-total",
+      "hotspotId": "hs-percent",
+      "prompt": "What does efficiency measure?",
+      "options": [
+        "How much of the input energy becomes useful output",
+        "How fast a machine runs",
+        "How loud a machine is",
+        "How big the fuel tank is"
+      ],
+      "correctIndex": 0,
+      "explanation": "Efficiency is the useful share of the input — everything not useful leaves as heat, sound, or drag.",
+      "misconception": "Some mistake it for speed or max power; it's a ratio of useful to total."
+    },
+    {
+      "id": "ef-q-formula",
+      "conceptId": "efficiency-useful-over-total",
+      "hotspotId": "hs-percent",
+      "prompt": "An engine takes 200 J in and outputs 60 J of useful work. What is its efficiency?",
+      "options": [
+        "30%",
+        "60%",
+        "3%",
+        "120%"
+      ],
+      "correctIndex": 0,
+      "explanation": "60 ÷ 200 = 0.3, and × 100 makes 30%.",
+      "misconception": "Leaving out the 100 (0.3) or dividing the wrong way (200 ÷ 60 ≈ 333%) are classic slips."
+    },
+    {
+      "id": "ef-q-below-100",
+      "conceptId": "efficiency-always-below-100",
+      "hotspotId": "hs-waste",
+      "prompt": "Why is the efficiency of a real machine always below 100%?",
+      "options": [
+        "Some input energy always escapes as heat, sound, and waste",
+        "Machines are made lazy on purpose",
+        "Energy gets heavier as it works",
+        "It hits exactly 100% when a machine is new"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every real transfer wastes something — usually heat — so not all input can be useful.",
+      "misconception": "Perfection is a myth in physics; friction and losses are always present."
+    },
+    {
+      "id": "ef-q-heat",
+      "conceptId": "efficiency-losses-to-heat",
+      "hotspotId": "hs-waste",
+      "prompt": "Where does the wasted energy of a bulb mostly go?",
+      "options": [
+        "Into heat that warms the bulb and room",
+        "Into nothing — it disappears",
+        "Into more light it never gave",
+        "Into the electric bill's shadows"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most 'wasted' energy becomes heat — which is why old bulbs glow hot and why conservation's total still balances.",
+      "misconception": "Repeating the disappearance myth ignores heat, the biggest single waste channel."
+    },
+    {
+      "id": "ef-q-raise",
+      "conceptId": "efficiency-useful-over-total",
+      "hotspotId": "hs-useful",
+      "prompt": "Which change would raise a machine's efficiency?",
+      "options": [
+        "Reducing friction and heat losses",
+        "Adding more moving parts",
+        "Letting the waste escape faster",
+        "Doubling the noise it makes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cut losses and the same input produces more useful output — efficiency climbs.",
+      "misconception": "Topping up input or extra hardware can raise waste, not the useful share."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "phloem",
+  "componentId": "phloem",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/phloem/phloem.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/phloem.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Whole stem slice",
+    "Phloem tube bundle",
+    "Food droplets",
+    "Leaf source",
+    "Root + seed sinks"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-phloem-tube",
+      "label": "Phloem tube",
+      "conceptId": "phloem-carries-food",
+      "position": [
+        -0.1,
+        0.25,
+        0.18
+      ],
+      "description": "A living tube of the phloem bundle that carries sugar food from the leaves to the rest of the plant.",
+      "positionHint": "A green-tinged vertical tube within the bundle, with golden sugar droplets moving down.",
+      "color": "#7FA874",
+      "function": "Carries food (sugar) from the leaves around the plant."
+    },
+    {
+      "id": "hs-leaf-source",
+      "label": "Leaf food source",
+      "conceptId": "food-from-leaves-around",
+      "position": [
+        0,
+        0.5,
+        0.15
+      ],
+      "description": "The leaf where food is made at the top and enters the phloem.",
+      "positionHint": "The leaf at the top of the slice where golden droplets appear first.",
+      "color": "#7FA874",
+      "function": "Produces the sugar food that phloem carries."
+    },
+    {
+      "id": "hs-root-sink",
+      "label": "Root sink",
+      "conceptId": "food-from-leaves-around",
+      "position": [
+        0,
+        -0.45,
+        0.2
+      ],
+      "description": "The root below that receives some of the food the leaves made.",
+      "positionHint": "The root located at the base where food droplets arrive.",
+      "color": "#D98A6A",
+      "function": "Uses and stores some of the leaves' food."
+    },
+    {
+      "id": "hs-seed-sink",
+      "label": "Seed sink",
+      "conceptId": "food-from-leaves-around",
+      "position": [
+        0.25,
+        -0.1,
+        0.15
+      ],
+      "description": "A seed that receives food for its own stored energy.",
+      "positionHint": "A round seed at the bottom branch where golden food dots gather.",
+      "color": "#D9A441",
+      "function": "Stores food inside the seed."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean stylized diorama - pale green phloem tubes with golden food dots, muted greens and creams, not cartoon, not cluttered, no glow. Strong color reserved for the hotspot dots and food dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Food droplets are simple spherical, not emissive.",
+  "assetBrief": "SUBJECT: a vertical slice of plant showing the phloem as a bundle of green-tinged tubes, with tiny golden sugar droplets moving downward from a leaf at the top, dividing to reach a root at the base and a seed at the side. Named nodes: StemSlice, PhloemBundle, LeafSource, RootSink, SeedSink, FoodDrops. Budget 10-14k.",
+  "visual": {
+    "shape": "vascular-tubes"
+  }
+}

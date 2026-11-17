@@ -1,0 +1,80 @@
+{
+  "componentId": "heart",
+  "questions": [
+    {
+      "id": "hrt-q-chambers",
+      "conceptId": "four-chambers",
+      "hotspotId": "hs-left-ventricle",
+      "prompt": "How many chambers does the human heart have?",
+      "options": [
+        "Four",
+        "Two",
+        "Six",
+        "Eight"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heart has four chambers: two atria on top that receive blood and two ventricles below that pump it out.",
+      "misconception": "A common guess is two (left/right), but each side splits into an atrium and a ventricle - four chambers total."
+    },
+    {
+      "id": "hrt-q-double",
+      "conceptId": "heart-double-pump",
+      "hotspotId": "hs-right-ventricle",
+      "prompt": "Why is the heart called a double pump?",
+      "options": [
+        "One side pumps to the lungs, the other to the body",
+        "It has two hearts",
+        "It pumps twice as fast at night",
+        "It pumps both blood and air"
+      ],
+      "correctIndex": 0,
+      "explanation": "The right side pumps blood to the lungs to collect oxygen, and the left side pumps the oxygen-rich blood around the body - two separate circuits.",
+      "misconception": "It's not two hearts - it's one heart with two jobs on two different circuits."
+    },
+    {
+      "id": "hrt-q-valve",
+      "conceptId": "heart-valves-one-way",
+      "hotspotId": "hs-valve",
+      "prompt": "What is the job of the heart's valves?",
+      "options": [
+        "Keep blood flowing in one direction",
+        "Make the blood warm",
+        "Add oxygen to blood",
+        "Store extra blood"
+      ],
+      "correctIndex": 0,
+      "explanation": "Valves are flaps that open and close so blood moves one way through the heart and does not flow backward.",
+      "misconception": "Valves don't warm or oxygenate blood - they are one-way doors that keep flow direction correct."
+    },
+    {
+      "id": "hrt-q-aorta",
+      "conceptId": "pumping-blood",
+      "hotspotId": "hs-aorta",
+      "prompt": "Which vessel carries oxygen-rich blood out to the whole body?",
+      "options": [
+        "The aorta",
+        "The vena cava",
+        "The trachea",
+        "The esophagus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The aorta is the body's biggest artery; it carries oxygen-rich blood out from the left ventricle to the whole body.",
+      "misconception": "The vena cava is the big vein bringing blood back to the heart, the opposite direction - don't mix the two."
+    },
+    {
+      "id": "hrt-q-muscle",
+      "conceptId": "pumping-blood",
+      "hotspotId": "hs-left-ventricle",
+      "prompt": "Why does the left ventricle have the thickest walls of all chambers?",
+      "options": [
+        "It must pump blood all the way around the body",
+        "It stores the most blood",
+        "It makes blood cells",
+        "It is bigger than the heart"
+      ],
+      "correctIndex": 0,
+      "explanation": "The left ventricle has to push blood through the whole body, so it needs the most muscle power - hence the thickest walls.",
+      "misconception": "Thickness is about the work needed, not storage - the left ventricle works hardest of all the chambers."
+    }
+  ]
+}

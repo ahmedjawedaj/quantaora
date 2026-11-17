@@ -1,0 +1,104 @@
+{
+  "id": "bones",
+  "componentId": "bones",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/bones.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Hard bone",
+    "Spongy bone",
+    "Marrow",
+    "Joint"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-bone-hard",
+      "label": "Hard outer bone",
+      "conceptId": "calcium-and-collagen",
+      "position": [
+        0.1,
+        0.3,
+        0.2
+      ],
+      "description": "The dense, hard outer layer of the bone.",
+      "color": "#D98A6A",
+      "function": "Gives the bone its strength.",
+      "positionHint": "The outer shell of the bone."
+    },
+    {
+      "id": "hs-bone-marrow",
+      "label": "Bone marrow",
+      "conceptId": "marrow-makes-blood",
+      "position": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "description": "The soft tissue inside bones that makes blood cells.",
+      "color": "#D9A441",
+      "function": "Makes red and white blood cells.",
+      "positionHint": "Inside the bone's hollow center."
+    },
+    {
+      "id": "hs-joint",
+      "label": "Joint",
+      "conceptId": "bones-support-protect",
+      "position": [
+        -0.35,
+        0.1,
+        0.2
+      ],
+      "description": "Where two bones meet so the body can bend and move.",
+      "color": "#6B85A8",
+      "function": "Allows movement between bones.",
+      "positionHint": "Between two bones."
+    },
+    {
+      "id": "hs-calcium",
+      "label": "Calcium minerals",
+      "conceptId": "calcium-and-collagen",
+      "position": [
+        0.3,
+        -0.1,
+        0.2
+      ],
+      "description": "The hard minerals that make bone stiff and strong.",
+      "color": "#B5846A",
+      "function": "Make bone hard and store calcium for the body.",
+      "positionHint": "Throughout the bone tissue."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a segment of a long bone (like the femur) as a stylized-specimen study, shown in a clean lengthwise cut. The dense hard outer wall, the spongy inner bone, and the marrow-filled center are all visible, with a joint knob at one end. Warm paper palette, ivory bone tones, muted, no glow. Named nodes: BoneCortex, SpongyBone, MarrowCavity, JointHead, Trabeculae. Budget 18-26k.",
+  "visual": {
+    "shape": "bone-joint"
+  }
+}

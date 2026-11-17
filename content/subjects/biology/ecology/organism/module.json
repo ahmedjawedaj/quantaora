@@ -1,0 +1,96 @@
+{
+  "id": "organism",
+  "subject": "biology",
+  "title": "Organism",
+  "summary": "An organism is any living thing - a plant, animal, fungus, or microbe - that can carry out the activities of life on its own. Explore what makes something alive and how a single organism fits into the natural world.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "organism-living-thing",
+    "made-of-cells",
+    "life-activities",
+    "organism-in-hierarchy"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Organism",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Organism"
+  },
+  "crossReferences": [
+    {
+      "label": "Population (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Population",
+      "note": "A group of the same kind of organism in one place is a population - the next level up."
+    },
+    {
+      "label": "Ecosystem (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Ecosystem",
+      "note": "Organisms live together with their surroundings, forming an ecosystem."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Organism",
+  "compareCandidate": {
+    "label": "Living vs. nonliving",
+    "description": "A rock or a car is nonliving: it does not grow, use energy, respond, or reproduce. A tree or a bacterium is living - it does all of these. Viruses are a tricky in-between case, since they need a host cell."
+  },
+  "parts": [
+    "Cells",
+    "Growth",
+    "Energy use",
+    "Response to surroundings",
+    "Reproduction"
+  ],
+  "processes": [
+    "Carrying out the activities of life",
+    "Growing and developing",
+    "Using energy"
+  ],
+  "plainLanguageExplanation": "An organism is any living thing: an oak tree, a dog, a mushroom, a bacterium. Every organism is made of cells and can carry out life activities - it grows, uses energy, responds to its surroundings, makes copies of itself (reproduces), and keeps its inside balanced. Organisms come in every size, from a single microscopic cell to a blue whale. Each organism is one living individual, and together individuals form populations, communities, and ecosystems.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "Any living thing that can carry out the activities of life"
+    },
+    {
+      "label": "Made of",
+      "value": "All organisms are made of cells (one or many)"
+    },
+    {
+      "label": "Activities",
+      "value": "Grows, uses energy, responds, reproduces, stays balanced"
+    },
+    {
+      "label": "Sizes",
+      "value": "From a single bacterium to a giant blue whale"
+    },
+    {
+      "label": "Level",
+      "value": "The first level in the ecological hierarchy: organism -> population -> community -> ecosystem"
+    }
+  ],
+  "whyItMatters": "Organisms are the living units of the natural world - every ecosystem is built from them. Understanding what counts as an organism (and what makes something alive) is the foundation of all ecology.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "A living thing",
+  "didYouKnow": "Your own body is an organism made of about 30 trillion cells working together.",
+  "conditions": [
+    "Growth",
+    "Reproduction",
+    "Life activities"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Organism",
+  "plain": "An organism is any living thing: an oak tree, a dog, a mushroom, a bacterium. Every organism is made of cells and can carry out life activities - it grows, uses energy, responds to its surroundings, makes copies of itself (reproduces), and keeps its inside balanced. Organisms come in every size, from a single microscopic cell to a blue whale. Each organism is one living individual, and together individuals form populations, communities, and ecosystems."
+}

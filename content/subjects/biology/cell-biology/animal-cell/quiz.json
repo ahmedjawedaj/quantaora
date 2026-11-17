@@ -1,0 +1,55 @@
+{
+  "componentId": "animal-cell",
+  "questions": [
+    {
+      "prompt": "Which organelle is mainly responsible for producing usable energy for the cell?",
+      "options": ["Nucleus", "Mitochondrion", "Golgi apparatus", "Lysosome"],
+      "correctIndex": 1,
+      "explanation": "The mitochondrion breaks down nutrients using oxygen to produce ATP, the cell's usable energy currency — that's why it's often called the cell's powerhouse.",
+      "misconception": "Many learners pick the nucleus because they know it's the 'control center' and assume anything important must happen there — but the nucleus stores and manages DNA instructions, it doesn't generate energy."
+    },
+    {
+      "prompt": "Where is a cell's DNA stored in an animal cell?",
+      "options": [
+        "Floating freely in the cytoplasm",
+        "Inside the nucleus",
+        "Inside the mitochondrion only",
+        "Inside the Golgi apparatus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Animal cells are eukaryotic, meaning their DNA is enclosed inside the nucleus, protected by its own membrane, separate from the rest of the cytoplasm.",
+      "misconception": "Some learners think DNA floats loose in the cytoplasm because that's how it works in simpler bacterial cells — but that's a key difference: eukaryotic cells like animal cells package their DNA inside a nucleus."
+    },
+    {
+      "prompt": "Which of these is present in a plant cell but NOT in a typical animal cell?",
+      "options": ["Cell membrane", "Ribosome", "Cell wall", "Cytoplasm"],
+      "correctIndex": 2,
+      "explanation": "Plant cells have a rigid cell wall outside the cell membrane for extra support and structure; animal cells don't have one, which is why their shape can be more flexible and varied.",
+      "misconception": "Learners sometimes confuse the cell wall with the cell membrane and think animal cells simply have a 'weaker membrane' — actually animal cells have a normal cell membrane, they just lack the separate rigid wall layer plant cells have outside it."
+    },
+    {
+      "prompt": "A ribosome has just finished building a protein. Which structures most directly help process and ship that protein next?",
+      "options": [
+        "Endoplasmic reticulum and Golgi apparatus",
+        "Nucleus and DNA",
+        "Lysosome and cytoskeleton",
+        "Cell membrane and cytoplasm"
+      ],
+      "correctIndex": 0,
+      "explanation": "After ribosomes build a protein, it typically moves through the endoplasmic reticulum for folding and processing, then to the Golgi apparatus for final packaging before being shipped where it's needed.",
+      "misconception": "Learners often guess the lysosome because they remember it's 'busy' in the cell, but the lysosome's job is breaking things down, not building and shipping new proteins — that mixes up the cell's recycling crew with its packaging department."
+    },
+    {
+      "prompt": "What is the main job of the cytoskeleton?",
+      "options": [
+        "Producing energy from nutrients",
+        "Storing the cell's genetic instructions",
+        "Giving the cell shape and helping it move materials internally",
+        "Breaking down waste and old cell parts"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cytoskeleton is a network of protein fibers that supports the cell's shape, anchors organelles in place, and helps transport materials and move the whole cell.",
+      "misconception": "Some learners assume 'skeleton' means it only provides rigid support like bones do, and miss that the cytoskeleton is also dynamic — it actively helps move organelles around and lets some cells crawl or change shape."
+    }
+  ]
+}

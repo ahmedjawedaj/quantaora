@@ -1,0 +1,46 @@
+{
+  "componentId": "distance",
+  "terms": [
+    {
+      "term": "Distance",
+      "conceptId": "distance-length-of-path",
+      "hotspotId": "hs-path-distance",
+      "definition": "The total length of the path an object actually travels.",
+      "function": "Counts every meter of real path — curves, detours, and right turns included.",
+      "whereItIs": "A scalar readout that grows with the hiker along the course.",
+      "whyItMatters": "It's the base number used in speed = distance ÷ time and the honest measure of how much ground was truly covered.",
+      "relatedConcept": "distance-always-positive",
+      "quizId": "distance-q-definition"
+    },
+    {
+      "term": "Scalar",
+      "conceptId": "distance-always-positive",
+      "hotspotId": "hs-path-distance",
+      "definition": "A quantity that has size but no direction.",
+      "whyItMatters": "Because distance is a scalar, it can never be negative and never decreases as motion continues.",
+      "whereItIs": "The counter that only climbs — no arrow is attached to it.",
+      "relatedConcept": "distance-length-of-path",
+      "quizId": "distance-q-scalar"
+    },
+    {
+      "term": "Displacement",
+      "conceptId": "distance-total-vs-direct",
+      "hotspotId": "hs-straight-line",
+      "definition": "The straight-line vector from a start point to a stop point.",
+      "whyItMatters": "It's the shortcut a crow would fly, usually far shorter than the full winding distance, and it can be zero after a round trip.",
+      "whereItIs": "The dashed straight arrow drawn beside the winding path.",
+      "relatedConcept": "displacement",
+      "quizId": "distance-q-displacement"
+    },
+    {
+      "term": "Path",
+      "conceptId": "distance-length-of-path",
+      "hotspotId": "hs-path-distance",
+      "definition": "The actual route an object takes — every bend and detour its meters are counted along.",
+      "whyItMatters": "Distance is the length of the path; different paths to the same place can give very different distances.",
+      "whereItIs": "The ribbon of course the hiker follow leaves.",
+      "relatedConcept": "distance-always-positive",
+      "quizId": "distance-q-definition"
+    }
+  ]
+}

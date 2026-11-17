@@ -1,0 +1,99 @@
+{
+  "id": "community",
+  "subject": "biology",
+  "title": "Community",
+  "summary": "A community is all the different populations of living things in one area - every plant, animal, fungus, and microbe interacting together. Explore how species share space and interact.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "all-species-interactions",
+    "community-living-only",
+    "species-compete-share",
+    "community-vs-ecosystem"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Community",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Community"
+  },
+  "crossReferences": [
+    {
+      "label": "Population (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Population",
+      "note": "A community is built from many populations of different species."
+    },
+    {
+      "label": "Ecosystem (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Ecosystem",
+      "note": "The community plus the nonliving surroundings (water, soil, sun) make an ecosystem."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Community",
+  "compareCandidate": {
+    "label": "Community vs. ecosystem",
+    "description": "A community is ONLY the living things of all species in an area. An ecosystem is the community PLUS the nonliving surroundings - water, soil, sunlight, and climate."
+  },
+  "parts": [
+    "All species present",
+    "Interactions between species",
+    "Competition and sharing",
+    "The living part of an ecosystem"
+  ],
+  "processes": [
+    "Species eating, competing, and helping each other",
+    "Sharing the same area",
+    "Forming the living part of an ecosystem"
+  ],
+  "plainLanguageExplanation": "A community is all the living things of all different species in one area, interacting together. A forest community includes every tree, bird, insect, mushroom, and microbe in the forest. Members of a community interact in many ways: some eat others, some compete for food or space, some help each other (like flowers and pollinators), and some live on or inside others. The community does not include the nonliving parts of the area - those belong to the ecosystem, which is the community plus its surroundings.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "All the different species' populations living together in one area"
+    },
+    {
+      "label": "Includes",
+      "value": "Plants, animals, fungi, and microbes - the living things only"
+    },
+    {
+      "label": "Interactions",
+      "value": "Species eat, compete, help, and live on each other"
+    },
+    {
+      "label": "Not included",
+      "value": "Nonliving things like rocks and water belong to the ecosystem"
+    },
+    {
+      "label": "Level",
+      "value": "Population -> community -> ecosystem"
+    },
+    {
+      "label": "Example",
+      "value": "A forest community = all its living species together"
+    }
+  ],
+  "whyItMatters": "Communities are the web of living interactions in any place. Understanding them explains food chains, competition, and how a change to one species can ripple through many others.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "All the living things together",
+  "didYouKnow": "A single oak tree can support a community of hundreds of other species - insects, birds, fungi, and mosses living on and around it.",
+  "conditions": [
+    "Species interactions",
+    "Competition",
+    "Symbiosis"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Community",
+  "plain": "A community is all the living things of all different species in one area, interacting together. A forest community includes every tree, bird, insect, mushroom, and microbe in the forest. Members of a community interact in many ways: some eat others, some compete for food or space, some help each other (like flowers and pollinators), and some live on or inside others. The community does not include the nonliving parts of the area - those belong to the ecosystem, which is the community plus its surroundings."
+}

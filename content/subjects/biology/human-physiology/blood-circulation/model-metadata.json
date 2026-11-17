@@ -1,0 +1,136 @@
+{
+  "id": "blood-circulation",
+  "componentId": "blood-circulation",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/models/heart.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/blood-circulation.png",
+  "defaultCamera": {
+    "position": [
+      1.46,
+      1.32,
+      2.09
+    ],
+    "target": [
+      0,
+      1.25,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      1.46,
+      1.32,
+      2.09
+    ],
+    "target": [
+      0,
+      1.25,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Body silhouette (translucent skin reference)",
+    "Skeletal reference (faint, low-opacity landmark only)",
+    "Heart",
+    "Arterial system (oxygen-rich, carries blood away from heart)",
+    "Venous system (oxygen-poor, returns blood to heart)",
+    "Capillary beds (fine exchange networks at extremities and organs)",
+    "Pulmonary circuit highlight (heart <-> lungs loop)",
+    "Systemic circuit highlight (heart <-> body loop)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-heart",
+      "label": "Heart",
+      "conceptId": "Heart pumps blood",
+      "position": [
+        -0.06,
+        1.34,
+        0.14
+      ],
+      "positionHint": "Center of chest, slightly left of body midline, at the model's mid-torso height — the anatomical seat of the heart between the lungs.",
+      "description": "The heart is a fist-sized muscular pump with four chambers. It beats continuously, pushing blood out through arteries and receiving returning blood through veins, driving both the pulmonary and systemic circuits.",
+      "color": "#E2665A",
+      "function": "Beats continuously, pushing blood out through arteries and receiving it back through veins."
+    },
+    {
+      "id": "hs-arteries",
+      "label": "Arteries",
+      "conceptId": "Arteries carry blood away from heart",
+      "position": [
+        0.02,
+        1.42,
+        0.1
+      ],
+      "positionHint": "On the aortic arch just above the heart, where the main trunk artery curves up and away before branching — the clearest single point where 'blood leaving the heart' reads visually.",
+      "description": "Arteries are thick, muscular, elastic vessels that carry oxygen-rich blood away from the heart under high pressure. They branch repeatedly into smaller arterioles as they travel toward tissues.",
+      "color": "#D9776A",
+      "function": "Carry oxygen-rich blood away from the heart under high pressure to the tissues."
+    },
+    {
+      "id": "hs-capillaries",
+      "label": "Capillaries",
+      "conceptId": "Capillaries exchange gases and nutrients",
+      "position": [
+        0.62,
+        0.82,
+        0.05
+      ],
+      "positionHint": "At a visible peripheral exchange bed — forearm/hand or an organ surface — where the artery and vein networks visibly dissolve into a fine mesh, distinct in scale from the trunk vessels.",
+      "description": "Capillaries are microscopic, single-cell-thick vessels that connect the smallest arteries to the smallest veins. Here, oxygen and nutrients pass into tissue and carbon dioxide and waste pass back into the blood.",
+      "color": "#DBAFA2",
+      "function": "Let oxygen, nutrients, carbon dioxide, and waste pass between blood and body cells."
+    },
+    {
+      "id": "hs-veins",
+      "label": "Veins",
+      "conceptId": "Veins return blood to heart",
+      "position": [
+        0.06,
+        1.4,
+        0.12
+      ],
+      "positionHint": "On the superior vena cava entering the right atrium, just above and right of the heart's midline — the mirror point to the aorta hotspot, showing blood arriving rather than leaving.",
+      "description": "Veins are thinner-walled, lower-pressure vessels that carry oxygen-poor blood back toward the heart. Many contain one-way valves that keep blood moving in a single direction against gravity.",
+      "color": "#7B87B0",
+      "function": "Carry oxygen-poor blood back toward the heart, often using one-way valves."
+    },
+    {
+      "id": "hs-pulmonary",
+      "label": "Pulmonary circuit",
+      "conceptId": "Pulmonary circuit",
+      "position": [
+        -0.16,
+        1.38,
+        0.08
+      ],
+      "positionHint": "Just lateral to the heart at lung height, positioned so the short heart-to-lung-to-heart loop is visible as a distinct closed path in the model's vessel geometry.",
+      "description": "The pulmonary circuit is the short loop between the heart and lungs. The right side of the heart sends oxygen-poor blood to the lungs to pick up oxygen and release carbon dioxide, then the refreshed blood returns to the heart's left side.",
+      "color": "#8B93B8",
+      "function": "Sends blood to the lungs to pick up oxygen and drop off carbon dioxide."
+    },
+    {
+      "id": "hs-systemic",
+      "label": "Systemic circuit",
+      "conceptId": "Systemic circuit",
+      "position": [
+        0,
+        0.95,
+        0.09
+      ],
+      "positionHint": "Lower on the model, along the descending aorta into the abdomen, where the long body-wide loop reads clearly as distinct from the short pulmonary loop near the lungs.",
+      "description": "The systemic circuit is the long loop between the heart and the rest of the body. The left side of the heart sends oxygen-rich blood out to every organ and tissue, and oxygen-poor blood returns through the veins to the heart's right side.",
+      "color": "#5C6B8A",
+      "function": "Sends oxygen-rich blood out to every organ and tissue in the body."
+    }
+  ],
+  "visualStyleNotes": "Match Anatomy Atelier's overall language: warm off-white studio background (#F7F1E8-ish), model floats above a soft radial pedestal shadow (no visible ground plane geometry), no rim-light glow, no bloom/gradient FX, no outlines. Lighting is a single soft key light plus gentle fill — clinical-but-warm, like a museum anatomical cast, not a game asset. The body silhouette layer is a pale, semi-translucent 'specimen' material (think frosted alabaster, ~15-25% opacity) so it reads as context, not the subject — it must never compete with the vessels. Vessels are the hero: arteries in a muted, desaturated coral-red (not neon/blood-horror red), veins in a muted slate/cobalt-blue, capillaries rendered as fine hair-thin mesh in a blended dusty rose that visually bridges artery-red and vein-blue. The heart itself sits at moderate saturation, slightly warmer than the arteries, so it reads as the focal organ without looking gory. Hotspot dots follow the reference exactly: small solid-color circles (~8-10px on screen) with a thin outer ring, colored to match the structure they mark (coral for heart/arteries, cobalt for veins, dusty-rose for capillaries, a neutral ink dot for the two circuit hotspots since they mark a path rather than a structure) — never neon, never pulsing/glowing. Auto-rotate is slow and constant (about 8-10s per revolution) so vessel branching reads clearly; provide a visible toggle to stop it. Cross-section is a single coronal (front-to-back) slice through the chest that peels away the anterior body silhouette and the front heart wall to reveal the four chambers and the septum, so a learner can see why the right (blue) and left (red) sides never mix — this is the single most important 'aha' the cross-section should deliver. Absolutely avoid: cartoon outlines, saturated cardio-red/blood-red palettes, throbbing/pulsing animation on the geometry itself (arrow-flow particle animation along vessels is fine and encouraged for the 'flow' teaching moment, but the mesh/material should stay static and calm), visible skeleton detail beyond faint landmark bones (ribs/spine silhouette only, no bone texture), text/labels baked into the model (labels are a UI layer, not geometry), and any gamified HUD-style overlays on the model itself.",
+  "materialNotes": "Naturalistic-but-tasteful PBR shading, matching the reference brain/heart renders rather than a flat-color illustration: physically-based materials with subtle soft specular sheen (roughness ~0.45-0.6, low but non-zero specular) so curved surfaces (heart wall, vessel trunks) show a gentle highlight roll-off — organic tissue sheen, not a plastic or matte-paint look. Add soft ambient occlusion in the crevices where vessels meet the body silhouette and where vessels branch, and light per-surface variation (subtle color/value drift across the heart and vessel trunks, not a flat single fill) so each mesh reads as an organic surface rather than a solid-color illustration cutout. The body-silhouette layer stays a quiet, near-white frosted-alabaster translucent material at 15-25% opacity — this layer should read as soft and slightly diffuse (a hint of subsurface softness is fine here specifically, since it's meant to look like frosted glass/alabaster, not tissue) so it never visually competes with the vessels. Arteries: muted desaturated coral-red family with gentle surface variation and taper-consistent shading (thicker trunks slightly deeper in value than thin branches). Veins: muted slate/cobalt-blue family, same treatment, walls read very slightly thinner/flatter than the matching artery to hint at lower pressure. Capillaries: fine dusty-rose mesh, kept slightly desaturated/lighter so a dense cluster doesn't read as a solid muddy blob. Heart: warmest and most saturated element in the palette but still matte-leaning, with the subtle sheen concentrated on the rounded chamber surfaces. No subsurface-scattering blood-gore shaders, no emissive glow anywhere, no hard glossy 'wet' highlights — the sheen should stay soft and diffuse throughout.",
+  "assetBrief": "DELIVERABLE: One GLB (glTF 2.0, Draco-compressed, <3.5MB target) named blood-circulation.glb, plus a matching thumbnail render (1024x1024, transparent or warm off-white bg) framed at the same 3/4 hero angle as defaultCamera (camera offset to positive-x, roughly 35 degrees off the figure's centerline, slightly above chest height, per cameraDefault.position [1.46, 1.32, 2.09] looking at target [0, 1.25, 0]).\n\nSUBJECT: A stylized, anatomically-plausible (not photoreal-gory) human upper body — head to mid-thigh — shown as a translucent specimen silhouette with the heart and its major vessel network as the fully-modeled hero geometry inside it. This is NOT the standalone heart-organ asset (that is a separate component); this asset's job is to show the heart in context, as the hub of a body-wide plumbing system, so a learner immediately understands 'one pump, two loops, whole body.'\n\nPROPORTIONS & SCALE: Build at real-world human scale (figure ~1.7m from crown to the mid-thigh crop, modeled in meters, apex at origin-relative coordinates so y=0 is roughly hip height and the figure extends up to ~y=1.7 at the crown). Chest/heart center sits around y=1.3-1.4. Keep proportions naturalistic and adult-generic (no specific age/gender signaling beyond generic torso build) — this reads as a scientific specimen, not a character.\n\nGEOMETRY BREAKDOWN (separate named mesh groups / nodes so the app can toggle them as layers):\n1. `body-silhouette` — smooth, low-detail translucent shell of head/neck/torso/upper-arms/upper-thighs. No facial features, no muscle definition, no navel/nipple detail — just enough form language (shoulders, collarbone line, ribcage curve) to anchor scale and orientation. This is a soft frosted/alabaster material, near-white, 15-25% opacity.\n2. `skeletal-reference` — extremely minimal ribcage and spine curve, faint and low-opacity (this exists only so cross-section makes anatomical sense; it is not a teaching focus and should almost disappear at default opacity).\n3. `heart` — the four-chambered heart, moderate size fidelity (roughly fist-sized relative to the body, ~10cm), modeled with visible chamber separation (septum) so the cross-section reveal works, plus the aortic arch, pulmonary artery/vein stubs, and vena cava stubs as the vessel roots.\n4. `arterial-system` — branching tube-mesh network in the muted coral-red, starting at the aortic arch and branching to: carotid arteries up the neck to the head, subclavian/brachial arteries down each arm, descending aorta down through the abdomen branching toward the (implied, below-crop) legs, and a coronary artery detail on the heart surface itself. Tubes should taper as they branch (thick trunk to thin periphery) — this taper is important, it's the visual grammar that teaches 'artery branching.'\n5. `venous-system` — mirrored branching network in muted cobalt-blue: jugular veins from the head, veins down the arms, and the inferior/superior vena cava trunks converging on the right atrium. Slightly thinner-walled/tube-radius than the matching artery to hint at lower pressure.\n6. `capillary-beds` — 3-4 small localized fine-mesh clusters (hand/palm, and one or two organ-adjacent beds e.g. near the lung surface or gut) rendered as a dense web of hair-thin tubes in dusty-rose, where an artery branch and vein branch visually converge/interweave. These should be dense enough to read as 'mesh' from the default camera distance but not muddy.\n7. `pulmonary-loop-path` and `systemic-loop-path` — these are not separate geometry so much as two vessel subsets (already covered by arterial/venous groups) that the app will highlight/isolate via material emphasis (e.g. dim everything else to 20% opacity, bring the relevant loop's vessels to full saturation) when their hotspot or layer toggle is active. Author the mesh so this subset split is clean: pulmonary = heart-to-lung-region vessels only; systemic = heart-to-body vessels only.\n\nMATERIALS: see materialNotes field above for the full shading direction — naturalistic-but-tasteful PBR with soft sheen, gentle ambient occlusion, and organic per-surface variation, in the desaturated coral/cobalt palette; matte-leaning but not flat, and not a glossy 'wet' look. This should read as a tactile anatomical specimen model, matching the reference's brain/heart render quality, not a flat-shaded illustration cutout and not a video-game organ.\n\nDENSITY & LEGIBILITY GUARDRAIL: Target roughly 60-90 total named vessel branch segments across the arterial and venous systems combined (trunk + 2-3 branch generations per limb/region), not an exhaustive medical-atlas vessel count — the goal is 'clearly a branching network' at a glance, not clinical completeness. At the default camera framing (defaultCamera above), the figure should occupy roughly the center 55-65% of the frame height, leaving genuine negative space of warm off-white studio background on all sides — no vessel geometry should touch or crowd the frame edge. From that default distance, the trunk vessels (aorta, vena cava, pulmonary vessels) and the heart must read as individually legible shapes, not a tangled knot; only the intentionally dense capillary-bed clusters (item 6 above) should read as 'mesh' rather than 'discrete tubes.' If a full-detail pass makes the default framing feel busy, thin the mid-generation branches first — never the trunk vessels or the heart, which must stay the clearest shapes in the composition.\n\nRIG/ANIMATION HOOK: No skeletal rig needed. Do include named empty/anchor nodes at each hotspot position listed above so the app can attach its own 2D hotspot dots in screen space (or use them as particle-emitter origins for an optional 'blood flow' directional-arrow animation the app layers on top — small chevron particles traveling along the vessel splines, artery direction outward, vein direction inward. That flow animation is app-layer, not baked into the GLB, but the vessels should be built as splines/curves internally so the app can sample points along them for particle paths).\n\nCAMERA/CROP: Author the model already cropped at mid-thigh (don't model legs below that) since the default camera never shows below that line — saves budget. Orient the figure facing the camera direction with a slight turn so the default 3/4 camera angle (see DELIVERABLE above) reads as an intentional hero angle rather than a straight-on mugshot; arms relaxed slightly away from torso (~15-20 degrees abduction) so arm vessels are visible and not self-occluded against the torso.\n\nREFERENCE MATCH: Match the material/lighting/composition language of assets/reference/anatomy-atelier/desktop-overview.png and desktop-interaction.png exactly — same warm off-white studio void, same soft ground-shadow pedestal (no visible floor geometry, the app renders that shadow), same restrained, un-gamified color confidence.\n\nDO NOT: use bright/saturated 'video game' blood red or neon blue; add glow/bloom/rim-light emissive materials; add a visible skeleton beyond faint landmark bones; model facial features or hands/feet detail; bake text or numeric labels into the mesh; add particle/flow animation into the GLB itself (that's an app-layer overlay); model the full body below mid-thigh; use a cartoon outline/toon shader; make the body-silhouette layer opaque or high-contrast (it must stay a quiet, translucent context layer, never competing with the vessel network for attention); render the vessel network as a flat-shaded illustration cutout (see materialNotes — this should be naturalistic PBR, not flat color fills).",
+  "visual": {
+    "shape": "blood-loop"
+  }
+}

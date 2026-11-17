@@ -1,0 +1,47 @@
+{
+  "componentId": "position",
+  "terms": [
+    {
+      "term": "Position",
+      "conceptId": "position-describe-location",
+      "hotspotId": "hs-position-value",
+      "definition": "Where an object is located, measured relative to a chosen reference point.",
+      "function": "Names a location using a reference point plus a direction and a distance.",
+      "whereItIs": "A point — on a line, a number, a coordinate pair; not a length a rally has no extent.",
+      "whyItMatters": "Every other motion quantity (distance, displacement, speed, velocity) is a way of describing how position changes.",
+      "relatedConcept": "position-reference-point",
+      "quizId": "position-q-definition"
+    },
+    {
+      "term": "Reference point",
+      "conceptId": "position-reference-point",
+      "hotspotId": "hs-reference-point",
+      "definition": "The fixed point that all measurements are compared against.",
+      "function": "Acts as the zero — move it and every position number changes, even though nothing moved.",
+      "whereItIs": "The 0 marker on the number line, the 'you are here' on a map, the origin of the grid.",
+      "whyItMatters": "A position number without a known reference point is meaningless.",
+      "relatedConcept": "position-describe-location",
+      "quizId": "position-q-reference-point"
+    },
+    {
+      "term": "Coordinate plane",
+      "conceptId": "position-coordinate-graph",
+      "hotspotId": "hs-grid",
+      "definition": "A grid where each point is pinned by a pair of numbers — one per axis.",
+      "whyItMatters": "Lets one phrase (like (3, 2)) name a unique spot, the backbone of maps and graphs.",
+      "whereItIs": "The 2D grid overlay on the mat, with the object's (x, z) reading.",
+      "relatedConcept": "position-direction",
+      "quizId": "position-q-coordinates"
+    },
+    {
+      "term": "Origin",
+      "conceptId": "position-reference-point",
+      "hotspotId": "hs-reference-point",
+      "definition": "The zero point a coordinate system measures from — the reference point at the center.",
+      "whyItMatters": "It is the reference everything else answers 'where?' against: move it and all position numbers shift.",
+      "whereItIs": "The 0 marker and the (0,0) corner of the grid.",
+      "relatedConcept": "position-describe-location",
+      "quizId": "position-q-reference-point"
+    }
+  ]
+}

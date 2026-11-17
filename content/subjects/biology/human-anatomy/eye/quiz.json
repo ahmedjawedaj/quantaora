@@ -1,0 +1,80 @@
+{
+  "componentId": "eye",
+  "questions": [
+    {
+      "id": "eye-q-path",
+      "conceptId": "cornea-pupil-iris",
+      "hotspotId": "hs-cornea",
+      "prompt": "In which order does light pass through the eye?",
+      "options": [
+        "Cornea, pupil, lens, retina",
+        "Lens, retina, cornea, pupil",
+        "Retina, lens, pupil, cornea",
+        "Pupil, retina, lens, cornea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Light enters through the cornea, passes the pupil, is focused by the lens, and lands on the retina.",
+      "misconception": "The order matters - light always enters at the front (cornea) and ends at the back (retina), not the reverse."
+    },
+    {
+      "id": "eye-q-iris",
+      "conceptId": "cornea-pupil-iris",
+      "hotspotId": "hs-iris",
+      "prompt": "What does the iris control?",
+      "options": [
+        "The size of the pupil, and how much light enters",
+        "The color of your blood",
+        "The shape of the retina",
+        "The length of the optic nerve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The colored iris is a muscle ring that opens and closes the pupil to control how much light enters.",
+      "misconception": "The iris is not about blood or nerve length - it is a light-regulating muscle around the pupil."
+    },
+    {
+      "id": "eye-q-retina",
+      "conceptId": "retina-light-cells",
+      "hotspotId": "hs-retina",
+      "prompt": "What happens at the retina?",
+      "options": [
+        "Light-sensing cells turn light into signals",
+        "The light is stored",
+        "The eye sees the color",
+        "Air is filtered"
+      ],
+      "correctIndex": 0,
+      "explanation": "The retina is lined with light-sensing cells that convert light into nerve signals.",
+      "misconception": "The retina does not store light or 'see' by itself - it converts light into signals for the brain."
+    },
+    {
+      "id": "eye-q-brain",
+      "conceptId": "optic-nerve-to-brain",
+      "hotspotId": "hs-optic",
+      "prompt": "Where does the image actually form?",
+      "options": [
+        "In the brain, from the signals the eye sends",
+        "On the cornea",
+        "In the pupil",
+        "Inside the eyelid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The eye sends signals along the optic nerve, and the brain builds the picture you see - sight happens in the brain.",
+      "misconception": "You don't 'see' with the eyeball alone - the retina sends signals and the brain turns them into an image."
+    },
+    {
+      "id": "eye-q-lens",
+      "conceptId": "lens-focuses-light",
+      "hotspotId": "hs-lens",
+      "prompt": "What does the lens do?",
+      "options": [
+        "Focuses light onto the retina",
+        "Lets all light in freely",
+        "Makes the eye see color only",
+        "Blocks all light"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flexible lens bends the incoming light so it focuses sharply on the retina.",
+      "misconception": "The lens isn't a simple on/off gate - it focuses light precisely so the image is sharp."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "dna",
+  "subject": "biology",
+  "title": "DNA",
+  "summary": "DNA (deoxyribonucleic acid) is the twisted-ladder molecule that carries the instructions for building and running almost every living cell. Two long strands wind around each other into a double helix, held together by strict A-T / C-G base pairing, with genes as the meaningful stretches of sequence along the way.",
+  "gradeMin": 4,
+  "gradeMax": 9,
+  "skillIds": [
+    "double-helix",
+    "base-pairs",
+    "backbone",
+    "genes",
+    "dna-location"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "Molecular Genetics",
+    "systemOrGroup": "Nucleic Acids & Genetic Material",
+    "component": "DNA",
+    "displayPath": "Biology > Genetics > Molecular Genetics > Nucleic Acids & Genetic Material > DNA"
+  },
+  "crossReferences": [
+    {
+      "label": "Nucleus (Cell Biology)",
+      "branch": "cell-biology",
+      "systemOrGroup": "Nucleus",
+      "note": "DNA is coiled up inside this organelle in almost every cell in the body (mature red blood cells are the exception). This component's 'Belongs to' step points back to Cell Biology's Nucleus for the container DNA physically lives in."
+    },
+    {
+      "label": "Chromosome (Genetics)",
+      "branch": "genetics",
+      "note": "DNA doesn't float loose inside the nucleus — it's coiled and packaged into chromosomes (humans have 23 pairs). Chromosome is a Genetics low-level item; not yet authored as its own component at time of writing."
+    },
+    {
+      "label": "Transcription / RNA (Genetics)",
+      "branch": "genetics",
+      "process": "Transcription",
+      "note": "A gene's DNA sequence is first copied into single-stranded messenger RNA before it's used to build a protein. This is the basis of this component's DNA vs RNA compare view; Transcription is a Genetics process, not yet authored as its own component at time of writing."
+    }
+  ],
+  "belongsTo": "Genetics > Molecular Genetics > Nucleic Acids & Genetic Material",
+  "compareCandidate": {
+    "label": "DNA vs. RNA",
+    "description": "RNA is DNA's single-stranded cousin. Learners naturally ask \"isn't RNA the same thing?\" so a DNA vs RNA compare view resolves the confusion directly: double helix vs single strand, deoxyribose vs ribose sugar, thymine vs uracil, and DNA staying in the nucleus vs RNA traveling out to help build proteins."
+  },
+  "parts": [
+    "Double helix — the overall twisted-ladder shape formed by two strands winding around a shared axis",
+    "Nucleotide base pairs (A-T, C-G) — the 'rungs' of the ladder, where adenine always bonds with thymine and cytosine always bonds with guanine",
+    "Sugar-phosphate backbone — the two outer rails, made of alternating sugar and phosphate molecules, that hold the base pairs in place and give each strand its direction",
+    "Genes encoded along the strand — specific stretches of the sequence that spell out instructions for building particular proteins or traits"
+  ],
+  "processes": [
+    "DNA replication — copying the whole molecule before a cell divides so each new cell gets a full instruction manual",
+    "Transcription — copying a gene's instructions from DNA into a single-stranded messenger (RNA)",
+    "Translation — using that RNA message to assemble a protein",
+    "Mutation — a change in the base sequence that can alter the instructions, sometimes harmlessly and sometimes not",
+    "Inheritance — passing DNA from parents to offspring, which is why traits run in families"
+  ],
+  "plainLanguageExplanation": "DNA is the instruction manual packed inside almost every cell in your body. Picture a super-long, twisted ladder — that twist is called a double helix. The two side rails of the ladder are the backbone, and each rung is made of two matching chemical letters holding hands: A always pairs with T, and C always pairs with G, like puzzle pieces that only fit one way. Read together in order, stretches of these letters spell out genes — instructions for things like eye color, how tall you might grow, or how your cells build proteins to keep you alive. Every cell carries a copy of this same instruction manual, coiled up tightly enough to fit inside a nucleus far too small to see.",
+  "keyFacts": [
+    { "label": "Full name", "value": "Deoxyribonucleic acid" },
+    { "label": "Shape", "value": "Double helix — two strands twisted around each other like a spiral staircase" },
+    { "label": "Base pairing rule", "value": "Adenine (A) always pairs with Thymine (T); Cytosine (C) always pairs with Guanine (G)" },
+    { "label": "Location in cell", "value": "Coiled up inside the nucleus of almost every cell in the body" },
+    { "label": "Backbone material", "value": "Alternating sugar (deoxyribose) and phosphate molecules form the two outer rails of the ladder" },
+    { "label": "What genes are", "value": "Specific stretches of DNA sequence that carry instructions for building a protein or trait" },
+    { "label": "Discovery of the structure", "value": "The double-helix model was published in 1953 by James Watson and Francis Crick, building on X-ray diffraction data from Rosalind Franklin and Maurice Wilkins" }
+  ],
+  "whyItMatters": "DNA is why you look like your parents but aren't identical to them, why identical twins share the same genetic instructions, and how doctors can diagnose genetic conditions or trace ancestry with a simple cheek swab. Understanding DNA's structure is the foundation for genetics, medicine, forensic science, and biotechnology — from DNA fingerprinting used in criminal investigations to CRISPR gene-editing technology being developed to treat diseases.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

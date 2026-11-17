@@ -1,0 +1,89 @@
+{
+  "id": "ratio",
+  "componentId": "ratio",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/fractions-and-ratios/ratio/ratio.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/fractions-and-ratios/ratio.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      3.7
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      3.7
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Bead groups",
+    "Scale control",
+    "Part-to-whole view"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-ratio-pair",
+      "label": "Ratio",
+      "conceptId": "ratio-compare-two",
+      "position": [
+        0,
+        0.8,
+        0.3
+      ],
+      "description": "The ratio label showing red : blue = 3 : 5 \u2014 the comparison of the two bead groups.",
+      "positionHint": "The floating label plate above the two bead groups.",
+      "color": "#D9A441",
+      "function": "Shows the comparison of two quantities."
+    },
+    {
+      "id": "hs-part-group",
+      "label": "Compared groups",
+      "conceptId": "ratio-part-part",
+      "position": [
+        0.55,
+        0.4,
+        0
+      ],
+      "description": "Each bead group is one side of the ratio \u2014 3 red beads and 5 blue beads.",
+      "positionHint": "The group of red beads and the group of blue beads on the tray.",
+      "color": "#D96B5A",
+      "function": "The two quantities being compared."
+    },
+    {
+      "id": "hs-whole-total",
+      "label": "Part to whole",
+      "conceptId": "ratio-part-part",
+      "position": [
+        -0.55,
+        0.1,
+        0.3
+      ],
+      "description": "In part-to-whole mode, the ratio reads red : total = 3 : 8.",
+      "positionHint": "The total-count label shown when the view is toggled.",
+      "color": "#7FA86A",
+      "function": "Shows a part compared against the entire group."
+    }
+  ],
+  "visualStyleNotes": "Fractions And Ratios, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. Two calm bead groups on a tray with a ratio label above and a scale control. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / coral / molecular-green from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Red beads: small warm coral spheres (roughness ~0.4). Blue beads: small soft grid-blue-grey spheres (roughness ~0.4). Tray: soft warm-grey dish (roughness ~0.7). Ratio label: warm paper plate with ink text. Scale control: soft grey rail with amber knob. No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a ratio as two bead groups \u2014 3 red beads vs 5 blue beads \u2014 with a scaling control that doubles both groups while the ratio stays 3:5, plus a part-of-whole toggle.\n\nGEOMETRY: Tray: shallow rounded dish (~3 wide). Left: 3 red beads in a row at x \u2248 \u22120.7. Right: 5 blue beads in a row at x \u2248 0.7. Ratio label: floating plate at y \u2248 0.65 reading 'red : blue = 3 : 5'. A Scale control (\u00d71, \u00d72, \u00d73) clones both groups proportionally. A View toggle switches between part-to-part ('red : blue = 6 : 10') and part-to-whole ('red : total = 6 : 16').\n\nLAYERS (toggleable): (1) bead groups; (2) ratio label; (3) total/scale overlays.\n\nCAMERA: head-on, slightly above, from +z frames both groups and label; calm. Budget 6-10k triangles. Named nodes: Tray, RedBeads, BlueBeads, RatioLabel, ScaleControl, ViewToggle, TotalLabel. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "ratio-beads"
+  }
+}

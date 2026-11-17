@@ -1,0 +1,103 @@
+{
+  "id": "supernova",
+  "subject": "space",
+  "title": "Supernova",
+  "summary": "The most violent explosion in an across-the-galaxy lifetime — the death of a massive star whose core collapses, rebounds, and blows off its envelope, outshining its whole galaxy for a few weeks and smelting the heavy elements that a planet like ours is made of.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "core-collapse-trigger",
+    "rebound-shock-wave",
+    "elements-forged-in-explosion",
+    "neutron-star-or-black-hole",
+    "visible-months-outburst"
+  ],
+  "type": "model",
+  "estimatedMinutes": 13,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Stars",
+    "unit": "Stellar Lifecycle",
+    "systemOrGroup": "Violent death",
+    "component": "Supernova",
+    "displayPath": "Space > Stars > Stellar Lifecycle > Violent death > Supernova"
+  },
+  "crossReferences": [
+    {
+      "label": "Neutron Star (Stars)",
+      "branch": "stars",
+      "component": "Neutron star",
+      "note": "The supernova's core collapse leaves the neutron star behind; the two are one event, seen one way from outside and one way from inside."
+    },
+    {
+      "label": "Black Hole (Stars)",
+      "branch": "stars",
+      "component": "Black hole",
+      "note": "The most massive collapses skip the neutron star stage entirely and leave a black hole instead."
+    },
+    {
+      "label": "White Dwarf (Stars)",
+      "branch": "stars",
+      "component": "White dwarf",
+      "note": "A second supernova recipe: a white dwarf pushed past the Chandrasekhar limit (often by stealing matter from a companion) detonates completely — the type Ia event."
+    }
+  ],
+  "belongsTo": "Stars > Stellar Lifecycle > Violent death",
+  "compareCandidate": {
+    "label": "Supernova vs. planetary nebula",
+    "description": "Two scenes of a star parting: the gentle shedding of a low-mass star that leaves a glowing nebula, and the violent explosion of a massive star. The comparison makes clear that which fate a star gets is decided entirely by its mass at birth."
+  },
+  "parts": [
+    "Iron core (the fuse)",
+    "Infalling outer layers",
+    "Rebound shock wave",
+    "Expanding debris shell (supernova remnant)",
+    "The new core remnant — neutron star or black hole"
+  ],
+  "processes": [
+    "Core collapse (collapse in a second)",
+    "Shock rebound and breakout",
+    "Heavy element synthesis in the blast",
+    "Brilliant weeks-long outburst"
+  ],
+  "plainLanguageExplanation": "A massive star (at least about eight solar masses) does not go quietly. Its core builds layers of fused elements like an onion, and at the very center it makes iron — the one element whose fusion takes energy instead of releasing it. With no energy left coming out of the iron core, nothing can prop it up, and gravity wins: the core collapses in roughly a second, falling inward at a quarter of the speed of light. The collapse overshoots — the core compresses to neutron-star density and bounces, sending a shock wave back outward at fantastic speed. That shock tears through the star's outer layers, blowing the whole envelope into space in an explosion that briefly outshines an entire galaxy. In those moments of extreme heat and speed, the blast fuses new elements — oxygen, silicon, gold, uranium — and hurls them into the interstellar medium from which future stars, planets, and people are later built. Astronomers see supernovae fairly often (several per century per galaxy), which is lucky: the heavy elements that make up your body were forged in stars that blew up long before the Sun existed.",
+  "keyFacts": [
+    {
+      "label": "The trigger",
+      "value": "An iron core that can no longer release energy — stellar fusion stops, and gravity instantly wins"
+    },
+    {
+      "label": "Speed",
+      "value": "Core collapse takes about one second; the shockwave races outward at a strong fraction of light speed"
+    },
+    {
+      "label": "Brightness",
+      "value": "For a few weeks, a single supernova outshines its whole galaxy (tens of billions of stars)"
+    },
+    {
+      "label": "The forge",
+      "value": "Blast heat and speed fuse heavy elements: gold, silver, uranium — the elements of your body"
+    },
+    {
+      "label": "The products",
+      "value": "Either a neutron star, a black hole, or — if the star collapses completely to nothing — nothing of the original core"
+    },
+    {
+      "label": "Frequency",
+      "value": "A few per century per galaxy — and the last naked-eye one in our galaxy exploded in 1604, seen by Kepler"
+    }
+  ],
+  "whyItMatters": "A supernova is the single most complete answer to two old questions: where the elements came from, and where the extremes of matter stop. Everything heavier than iron on Earth — in the nail in your floor, in the silver in your jewellery, in the calcium in your bones — was made in a supernova that exploded long before the Sun existed. They are also how astronomers find the most distant corners of the universe: type Ia supernovae burn with a standard brightness, so telescopes use them as candles to measure how the universe is expanding. Understanding the explosion turns the branch's whole ladder — neutron stars, black holes, nebulae — from a list of objects into one coherent story of matter under pressure.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Core-collapse supernova (Type II)",
+  "tagline": "A star's whole life, ending in one shock wave",
+  "didYouKnow": "The last naked-eye supernova in our galaxy exploded in 1604; it was seen by Kepler, who had no idea the same physics would one day be used to measure the acceleration of the universe itself.",
+  "compareCandidateId": "white-dwarf",
+  "compareReason": "The gentle neighbor: low-mass stars end in a soft nebula and a white dwarf; massive stars end in the explosion here. One mass table separates a whisper from a bang."
+}

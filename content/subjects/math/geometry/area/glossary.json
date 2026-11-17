@@ -1,0 +1,41 @@
+{
+  "componentId": "area",
+  "terms": [
+    {
+      "term": "Area",
+      "conceptId": "area-definition",
+      "hotspotId": "hs-area-grid",
+      "definition": "The amount of surface a shape covers.",
+      "function": "Measured by counting square units inside.",
+      "whereItIs": "The tiled rectangle surface.",
+      "whyItMatters": "Area is how we measure floors, fields, and paint."
+    },
+    {
+      "term": "Square unit",
+      "conceptId": "area-square-units",
+      "hotspotId": "hs-unit-square",
+      "definition": "One 1-by-1 tile used to count area.",
+      "function": "The building block of area measurement.",
+      "whereItIs": "A single outlined square on the grid.",
+      "whyItMatters": "Area numbers are counts of these squares."
+    },
+    {
+      "term": "Length × width",
+      "conceptId": "area-rectangle",
+      "hotspotId": "hs-rectangle-side",
+      "definition": "The formula for rectangle area — fast counting.",
+      "function": "4 × 3 = 12 squares without counting one by one.",
+      "whereItIs": "The edge tags and formula plate.",
+      "whyItMatters": "Formulas turn counting into multiplication."
+    },
+    {
+      "term": "Half rectangle",
+      "conceptId": "area-triangle",
+      "hotspotId": "hs-area-grid",
+      "definition": "A triangle inside a rectangle covers exactly half.",
+      "function": "Triangle area = ½ × base × height.",
+      "whereItIs": "The diagonal split demo.",
+      "whyItMatters": "The triangle formula follows from the rectangle."
+    }
+  ]
+}

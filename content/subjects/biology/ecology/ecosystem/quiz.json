@@ -1,0 +1,65 @@
+{
+  "componentId": "ecosystem",
+  "questions": [
+    {
+      "id": "eco-q-def",
+      "conceptId": "living-plus-nonliving",
+      "hotspotId": "hs-living",
+      "prompt": "What is an ecosystem?",
+      "options": [
+        "A community plus its nonliving surroundings",
+        "Only the living things",
+        "Only the rocks and water",
+        "A single species"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ecosystem includes the living community PLUS the nonliving surroundings (water, soil, sunlight, climate) in an area.",
+      "misconception": "Community = living only. The ecosystem adds the nonliving surroundings to that community."
+    },
+    {
+      "id": "eco-q-energy",
+      "conceptId": "energy-flows-through",
+      "hotspotId": "hs-energy",
+      "prompt": "How does energy typically move through an ecosystem?",
+      "options": [
+        "From the sun to plants to animals",
+        "From animals to the sun",
+        "It never moves",
+        "From soil to the sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy enters ecosystems as sunlight, is captured by plants, then passes to animals that eat them.",
+      "misconception": "Energy flows one direction (sun -> plants -> animals); it is matter, not energy, that cycles."
+    },
+    {
+      "id": "eco-q-recycle",
+      "conceptId": "matter-recycled",
+      "hotspotId": "hs-recycle",
+      "prompt": "How is matter (materials) recycled in an ecosystem?",
+      "options": [
+        "Decomposers return dead materials to the soil",
+        "It disappears forever",
+        "Rocks make new soil from nothing",
+        "Sunlight burns it"
+      ],
+      "correctIndex": 0,
+      "explanation": "Decomposers like fungi and bacteria break down dead organisms, returning nutrients to the soil for plants to reuse.",
+      "misconception": "Matter does not vanish - it is recycled back through the system by decomposers."
+    },
+    {
+      "id": "eco-q-size",
+      "conceptId": "ecosystem-size-range",
+      "hotspotId": "hs-living",
+      "prompt": "How big can an ecosystem be?",
+      "options": [
+        "From a puddle to a whole desert or forest",
+        "Only bigger than a city",
+        "Only the size of a house",
+        "Always exactly one acre"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ecosystems come in all sizes - a puddle, a rotting log, a pond, or a vast forest are all ecosystems.",
+      "misconception": "There is no minimum or fixed size - an ecosystem is defined by its living + nonliving whole."
+    }
+  ]
+}

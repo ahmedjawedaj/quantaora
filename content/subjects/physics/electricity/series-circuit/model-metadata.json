@@ -1,0 +1,134 @@
+{
+  "id": "series-circuit",
+  "componentId": "series-circuit",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/series-circuit/series-circuit.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/series-circuit.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.2,
+      4.6
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Single loop",
+    "Bulb chain (A, B, C)",
+    "Battery",
+    "Ammeter and volt labels"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-loop",
+      "label": "Single Loop",
+      "conceptId": "series-one-loop",
+      "position": [
+        -0.7,
+        0.3,
+        0
+      ],
+      "description": "The one and only path every component rides together.",
+      "colorHint": "A single cool-grey loop curving through all bulbs.",
+      "color": "#6B85A8",
+      "function": "Defines the series arrangement."
+    },
+    {
+      "id": "hs-bulb-a",
+      "label": "Bulb A",
+      "conceptId": "series-same-current-all",
+      "position": [
+        -0.9,
+        0.7,
+        0.1
+      ],
+      "description": "First link of the chain, carrying the same current as the rest.",
+      "colorHint": "Warm bulb on the loop's left.",
+      "color": "#D9A441",
+      "function": "Demo bulb A of the series chain."
+    },
+    {
+      "id": "hs-bulb-b",
+      "label": "Bulb B",
+      "conceptId": "series-volts-share",
+      "position": [
+        0,
+        0.9,
+        0.1
+      ],
+      "description": "Middle link; removing it opens the entire loop.",
+      "colorHint": "Warm bulb at the apex of the chain.",
+      "color": "#D9A441",
+      "function": "The test bulb one can pop."
+    },
+    {
+      "id": "hs-bulb-c",
+      "label": "Bulb C",
+      "conceptId": "series-one-break-stops-all",
+      "position": [
+        0.7,
+        0.3,
+        0.1
+      ],
+      "description": "Last link, equally dim as the others, sharing their fate.",
+      "colorHint": "Warm bulb on the loop's right.",
+      "color": "#D9A441",
+      "function": "Carries the identical shared current."
+    },
+    {
+      "id": "hs-battery",
+      "label": "Battery",
+      "conceptId": "series-volts-share",
+      "position": [
+        -0.2,
+        0.1,
+        0
+      ],
+      "description": "The source whose total volts split across the three bulbs.",
+      "colorHint": "Small blue battery at the loop's tail.",
+      "color": "#6B85A8",
+      "function": "Feeds the whole shared loop."
+    },
+    {
+      "id": "hs-meter",
+      "label": "Ammeter",
+      "conceptId": "series-same-current-all",
+      "position": [
+        1.3,
+        1.2,
+        0.1
+      ],
+      "description": "The gauge that reads the same amps wherever you probe the loop.",
+      "colorHint": "Round green instrument.",
+      "color": "#7FA86A",
+      "function": "Proves the identical current at every point."
+    },
+    {
+      "id": "hs-remove-a",
+      "label": "Remove / Replace Bulb B",
+      "conceptId": "series-one-break-stops-all",
+      "position": [
+        0,
+        1.6,
+        0.2
+      ],
+      "description": "The 'pop a bulb' test that takes the whole series dark.",
+      "colorHint": "A small unscrew chip above the middle bulb.",
+      "color": "#D96B5A",
+      "function": "Demonstrates the one-break-stops-all rule."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. A single loop of cool wire carrying three warm bulbs in a chain, one battery, a green ammeter.",
+  "materialNotes": "Metallic=0 for bulbs (warm rough glass) and loop wire grey-slick roughness 0.3; no bloom.",
+  "assetBrief": "SUBJECT: series circuit behavior on one shared loop.\n\nGEOMETRY: rectangular ribbon loop with bulbs at (-0.7,0.3,0.1),(0,0.9,0.1),(0.7,0.3,0.1); battery at loop tail; ammeter stand; a probe marker; an unscrew chip at the apex.\n\nINTERACTION: clicking any bulb flashes its ammeter value (all identical); the chip removes bulb B; removing it freezes and dims the others; putting it back restores all.\n\nNAMED NODES: SeriesLoop, BulbA, BulbB, BulbC, Cell, Ammeter, RemoveChip. 8-11k tris.",
+  "visual": {
+    "shape": "series-circuit"
+  }
+}

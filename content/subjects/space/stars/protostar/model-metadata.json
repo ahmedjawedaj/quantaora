@@ -1,0 +1,120 @@
+{
+  "id": "protostar",
+  "componentId": "protostar",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/stars/protostar.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/stars/protostar.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: generated at runtime from three.js primitives, not a GLB. `url` is a placeholder for the scene-builder module per project conventions. `thumbnailUrl` is a placeholder PNG. `defaultCamera`/`cameraDefault` and hotspot `position`s are estimates derived from the assetBrief — verify against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      2.4,
+      1.35,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      2.4,
+      1.35,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Central core (collapsing lump)",
+    "Accretion disk",
+    "Birth cloud envelope (infall)",
+    "Rotation axis overlay",
+    "Fusion-threshold readout"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-collapsing-core",
+      "label": "The collapsing core",
+      "conceptId": "protostar-glow-from-contraction",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "description": "The dense, glowing lump at the center. It has already gathered most of the mass of a future star, but its core has not reached the temperature needed for steady hydrogen fusion — it glows from gravitational contraction and from gas falling onto it.",
+      "positionHint": "Scene origin. A warm matte sphere (radius ~0.5), slightly brighter toward its center; when the cross-section clip is active, the interior reveals a faint temperature gradient from pale amber core to cool shell.",
+      "color": "#F2C98F",
+      "function": "Gathers mass and heats up as gravity squeezes it, on its way to fusion ignition."
+    },
+    {
+      "id": "hs-accretion-disk",
+      "label": "Accretion disk",
+      "conceptId": "disk-is-planet-nursery",
+      "position": [
+        1.05,
+        0.08,
+        -0.55
+      ],
+      "description": "The flat, spinning disk of gas and dust around the forming star. Dust grains here collide, stick, and grow — the raw material for planets.",
+      "positionHint": "A flattened disc around the core, outer radius ~2.2, tilted ~22° about X. Lit treatment: inner rim warm (#FFB469) fading to cool grey-blue (#7D89AD) at the outer edge, with soft radial striations. The hotspot sits on the inner-disc region, upper face.",
+      "color": "#D9A441",
+      "function": "Feeds material to the star and hosts the birth of planets."
+    },
+    {
+      "id": "hs-birth-cloud",
+      "label": "Birth cloud envelope",
+      "conceptId": "cloud-collapse-forms-proto-star",
+      "position": [
+        -1.35,
+        1.2,
+        0.7
+      ],
+      "description": "The surrounding cloud that gave birth to the system. Gas from here still falls inward onto the disk — the supply line that made the star in the first place.",
+      "positionHint": "A translucent pale-slate cloud shell (radius ~3.2, opacity ~0.22, rendered on both faces) surrounding the whole system, slightly denser along the paths of infall.",
+      "color": "#A8B3C9",
+      "function": "The original reservoir whose collapse started everything."
+    },
+    {
+      "id": "hs-rotation-axis",
+      "label": "Rotation axis",
+      "conceptId": "spin-flattens-into-disk",
+      "position": [
+        -0.15,
+        1.1,
+        0.15
+      ],
+      "description": "The dashed spine of the system. The star, the disk, and later any planets all share this one axis — the reason everything ends up in a single flat plane.",
+      "positionHint": "Thin dashed line passing vertically through the core, extending above and below the disk plane.",
+      "color": "#9FC6D9",
+      "function": "Sets the geometry — the axis the entire collapse flattened around."
+    },
+    {
+      "id": "hs-fusion-threshold",
+      "label": "Ignition threshold",
+      "conceptId": "ignition-when-fusion-starts",
+      "position": [
+        -0.25,
+        0.9,
+        -0.2
+      ],
+      "description": "The temperature line at roughly 10 million Kelvin: below it, the core cannot sustain hydrogen fusion; above it, fusion runs steadily and the star is born.",
+      "positionHint": "A slim readout plane floating above the disk near the axis: 'Fusion ON above ~10 million K' with a small rising temperature gauge beside it.",
+      "color": "#F0625E",
+      "function": "Marks the ignition line between protostar and true star."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, no floor grid, no glow, no bloom, no emissive materials, no cartoon outlines, soft radial ground-shadow beneath the disk. The scene reads as a contemplative museum exhibit on star formation: one bright matte lump at the center of a flat, softly striped disk, wrapped in a barely-there translucent cloud. The dashed axis is a hairline. All colors stay in the muted warm register; hotspot dots are the only saturated elements.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Core: matte warm white (roughness ~0.55). Disk: lit (non-emissive) mesh, roughness ~0.9, inner tint warm ochre fading to muted blue-grey; edge/height fades keep the disk edges soft. Birth cloud: translucent (opacity ~0.22, double-sided, pale slate) with no emissive. Axis: hairline cylinder, very low opacity. Readout plane: dark text sprite on a thin ivory panel. No emissive channels anywhere; the app runtime handles highlight-on-tap.",
+  "assetBrief": "SUBJECT: A protostar with its accretion disk and birth cloud — a single hero scene built entirely from primitives. Central core: sphere radius 0.5 at the origin, matte warm-white. Disk: disc geometry radius 2.2, thickness 0.18, tilted ~22° about the X axis; lit material with inner tint #FFB469 blending to #7D89AD at the rim, radial striations from a procedural noise texture; edgeFade [0.82, 0.96] and heightFade [0.28, 0.5] to dissolve mesh seams. Birth cloud: one translucent sphere shell radius 3.3 (opacity 0.2, soft slate tint) plus 3-4 wispy clump spheres at the cloud/disk boundary. Infall particles (birth-cloud layer): 80-140 small dark-grey spheres animating along curved paths from the shell down onto the disk. Axis: dashed cylinder through the core, visible y=-2.0 to +2.0, opacity 0.35. Ignition readout: small panel near the top of the axis. DEFAULT CAMERA [2.4, 1.35, 2.7] → target [0,0,0], disk at ~20° elevation, core centered large. Auto-rotate ~40s/revolution, paused while a hotspot is open. Grounding: soft radial ground-shadow under the disk. Group every part per the layers list. Cross-section: clip plane through the core in the XZ plane reveals the interior pale-amber kernel as a clean flat museum cutaway — never gory or torn.",
+  "visual": {
+    "shape": "protostar-core"
+  }
+}

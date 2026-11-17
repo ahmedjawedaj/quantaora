@@ -1,0 +1,105 @@
+{
+  "id": "leaf",
+  "componentId": "leaf",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/leaf/leaf.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/leaf.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Whole leaf",
+    "Cutaway interior",
+    "Veins (vascular bundles)",
+    "Surface - stomata",
+    "Sunlight / input markers"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-leaf-blade",
+      "label": "Leaf blade",
+      "conceptId": "leaf-makes-food",
+      "position": [
+        0,
+        0.2,
+        0.15
+      ],
+      "description": "The broad, flat green part of the leaf that is the main food-making surface.",
+      "positionHint": "The wide green body of the leaf.",
+      "color": "#7FA874",
+      "function": "Catches light and carry out photosynthesis."
+    },
+    {
+      "id": "hs-vein",
+      "label": "Vein",
+      "conceptId": "veins-carry-water-and-food",
+      "position": [
+        0.2,
+        0.3,
+        0.1
+      ],
+      "description": "A network of tiny tubes running through the leaf that bring water in and carry food out.",
+      "positionHint": "A branching line running across the leaf blade.",
+      "color": "#6B85A8",
+      "function": "Carries water in and food out."
+    },
+    {
+      "id": "hs-chlorophyll",
+      "label": "Chlorophyll",
+      "conceptId": "chlorophyll-captures-light",
+      "position": [
+        -0.1,
+        0.25,
+        0.18
+      ],
+      "description": "The green pigment inside the leaf cells that captures energy from sunlight.",
+      "positionHint": "A small green dot-cell highlighted inside the cut interior.",
+      "color": "#7FA874",
+      "function": "Captures and absorbs sunlight energy."
+    },
+    {
+      "id": "hs-stomata",
+      "label": "Stomata pore",
+      "conceptId": "leaf-photosynthesis",
+      "position": [
+        0,
+        0.1,
+        0.22
+      ],
+      "description": "A tiny pore on the leaf surface that lets carbon dioxide in and oxygen out during photosynthesis.",
+      "positionHint": "Small open pore dot on the leaf surface, surface layer toggled on.",
+      "color": "#D9A441",
+      "function": "Lets carbon dioxide in and oxygen out."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no vault, no floor grid, no scene props. A clean stylized diorama - a single broad green leaf, muted greens on cream paper, not cartoon, not cluttered, no glow. Strong saturated color reserved for the flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Semi-transparent interior is a special alpha, not emissive.",
+  "assetBrief": "SUBJECT: a single broad, flat green leaf on a short stalk, clean and stylized. A cutaway reveals the spongy interior with green chloroplasts and a branching network of veins. Small pore dots (stomata) on the surface. Muted green on warm cream. Named nodes: LeafBlade, Stalk, VascularVein, ChloroplastCell, StomataPores. Budget 10-14k.",
+  "visual": {
+    "shape": "leaf-veins"
+  }
+}

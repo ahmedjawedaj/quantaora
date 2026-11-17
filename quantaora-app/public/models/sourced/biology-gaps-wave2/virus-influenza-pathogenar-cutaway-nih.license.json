@@ -1,0 +1,38 @@
+{
+  "asset": "virus-influenza-pathogenar-cutaway-nih.glb",
+  "assetGroup": "Standalone influenza virion, half-cutaway style - single assembled mesh (not a physically-separable piece set, despite being built from originally-separate authoring components; the delivered GLB is one continuous mesh)",
+  "componentMapping": "biology > microbiology > Virus (low-level item) - ALTERNATE/companion candidate to virus-influenza-whole-nih.glb. Where that file shows the full exterior only, this file shows a half cutaway: intact spiky exterior (hemagglutinin/neuraminidase knobs) on one half, interior detail (nucleoprotein/RNA, polymerase) exposed on the other half. Matches the CLAUDE.md 3D-asset-quality-bar requirement for cross-section/cutaway support 'where applicable' (spec S13) better than any prior influenza candidate.",
+  "sourceUrl": "https://3d.nih.gov/entries/3DPX-013373",
+  "sourceEntryId": "3DPX-013373",
+  "underlyingStructureData": "Built for PathogenAR, an augmented-reality educational program from NIAID's Biovisualization Program. Depicts hemagglutinin (red/pink spikes) and neuraminidase (yellow spikes) on the envelope, with M1, M2, nucleoproteins, RNA, RNA polymerase, and other cytosolic proteins visible in the cutaway interior.",
+  "creator": "kbrowne (NIAID Biovisualization Program, NIH)",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC-BY 4.0",
+  "attributionRequired": true,
+  "attributionText": "\"Influenza Virion (PathogenAR)\" by kbrowne, NIAID Biovisualization Program, NIH 3D (3d.nih.gov, entry 3DPX-013373). Licensed CC-BY 4.0.",
+  "redistributionStatus": "Permitted under CC-BY 4.0 (commercial use and modification allowed with attribution) - confirmed via the entry page's own \"Licensing: CC-BY\" badge linking to https://creativecommons.org/licenses/by/4.0/.",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/17244/runs/2e7bbb59-6917-4533-b94e-a14afe44f578/output-files/385370",
+  "downloadedVariant": "Influenza_0_NIH3D.glb",
+  "fileSizeBytes": 5997144,
+  "sha256": "2fb62fa7544538e6d304901b0e690abfc8beffc9babf5b1772c67641eb2c54e8",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "declaredLengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 3,
+    "meshAttributes": "POSITION + COLOR_0 (real per-vertex color: teal membrane, pink/red hemagglutinin spikes, yellow neuraminidase clusters, tan/purple interior nucleoprotein detail; no NORMAL attribute present)",
+    "approxBoundingBox": {
+      "min": [-0.8956090211868286, -0.998878002166748, -0.8314499855041504],
+      "max": [0.847199022769928, 0.9778209924697876, 0.8939359784126282]
+    },
+    "approxDimensions": [1.7428, 1.9767, 1.7254],
+    "notes": "Well within the 15MB hero-asset budget (6.0MB). No NORMAL accessor, same computeVertexNormals() caveat as virus-influenza-whole-nih.glb. Single continuous mesh despite the entry's own description warning the source assets have 'floating pieces... not 3D printable' - that caveat applies to the separate authoring/Unity-import files (Influenza_Virion.glb input, FBX variant), not to this specific downloaded GLB output, which validated as one mesh/one node with no structural corruption. STATUS: render-review-pending - not self-declared PASS; needs a visual-acceptance pass before any route/registry integration, and a specific check that the cutaway plane reads clearly at the app's default camera framing (not just in NIH's own thumbnail angle)."
+  }
+}

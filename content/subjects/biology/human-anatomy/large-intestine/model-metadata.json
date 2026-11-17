@@ -1,0 +1,104 @@
+{
+  "id": "large-intestine",
+  "componentId": "large-intestine",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/human-anatomy/large-intestine/large-intestine.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/large-intestine.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Wide colon tube",
+    "Water absorption",
+    "Friendly bacteria",
+    "Rectum and waste"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-li-colon",
+      "label": "Colon",
+      "conceptId": "large-but-short",
+      "position": [
+        0.0,
+        0.15,
+        0.1
+      ],
+      "description": "The wide main tube of the large intestine.",
+      "color": "#D98A6A",
+      "function": "The wide tube that absorbs water and salts.",
+      "positionHint": "The whole main section."
+    },
+    {
+      "id": "hs-water",
+      "label": "Water absorption",
+      "conceptId": "absorbs-water-salts",
+      "position": [
+        0.25,
+        0.0,
+        0.2
+      ],
+      "description": "Where water is pulled back into the body.",
+      "color": "#6B85A8",
+      "function": "Pulls water and salts back into the blood.",
+      "positionHint": "Along the colon wall."
+    },
+    {
+      "id": "hs-bacteria",
+      "label": "Friendly bacteria",
+      "conceptId": "good-bacteria-colon",
+      "position": [
+        -0.25,
+        -0.05,
+        0.2
+      ],
+      "description": "Helpful bacteria living in the large intestine.",
+      "color": "#D9A441",
+      "function": "Help process leftover material and make some vitamins.",
+      "positionHint": "In the colon contents."
+    },
+    {
+      "id": "hs-waste",
+      "label": "Waste to rectum",
+      "conceptId": "forms-solid-waste",
+      "position": [
+        0.15,
+        -0.2,
+        0.2
+      ],
+      "description": "The solid waste being stored until it leaves the body.",
+      "color": "#B5846A",
+      "function": "The packed waste that leaves the body.",
+      "positionHint": "The far end of the colon."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: the large intestine as a stylized-specimen study - a wide, short tube arranged in a gentle frame-like curve around a cutaway showing its interior. A section is opened to show watery leftover material becoming more solid as water is drawn out (arrows), with small helpful bacteria dots among the contents. The rectum at the end holds the formed waste. Warm paper palette, muted, no glow. Named nodes: ColonAscending, ColonFrame, WaterOutArrows, BacteriaDots, RectumPouch, WasteMass. Budget 18-26k.",
+  "visual": {
+    "shape": "intestine-coils"
+  }
+}

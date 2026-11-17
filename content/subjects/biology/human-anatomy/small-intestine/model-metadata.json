@@ -1,0 +1,104 @@
+{
+  "id": "small-intestine",
+  "componentId": "small-intestine",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/models/intestine.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/small-intestine.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Coiled tube",
+    "Villi",
+    "Microvilli",
+    "Blood vessels"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-si-tube",
+      "label": "Coiled tube",
+      "conceptId": "finishes-digestion",
+      "position": [
+        0.0,
+        0.2,
+        0.1
+      ],
+      "description": "The long, coiled tube of the small intestine.",
+      "color": "#D98A6A",
+      "function": "The long tube where digestion finishes and nutrients are absorbed.",
+      "positionHint": "The coiled main body."
+    },
+    {
+      "id": "hs-villi",
+      "label": "Villi",
+      "conceptId": "villi-absorption",
+      "position": [
+        0.2,
+        0.05,
+        0.2
+      ],
+      "description": "Millions of tiny finger-like projections lining the inside.",
+      "color": "#D9A441",
+      "function": "Greatly increase the absorbing surface.",
+      "positionHint": "Lining the inner wall, shown in cutaway."
+    },
+    {
+      "id": "hs-blood",
+      "label": "Absorbing blood vessels",
+      "conceptId": "nutrient-absorption-blood",
+      "position": [
+        0.15,
+        -0.1,
+        0.25
+      ],
+      "description": "The tiny vessels inside each villus that collect absorbed nutrients.",
+      "color": "#6B85A8",
+      "function": "Carry absorbed nutrients away.",
+      "positionHint": "Inside each villus."
+    },
+    {
+      "id": "hs-muscle",
+      "label": "Muscle wall",
+      "conceptId": "finishes-digestion",
+      "position": [
+        -0.3,
+        0.15,
+        0.2
+      ],
+      "description": "The muscles that push food through in gentle waves.",
+      "color": "#B5846A",
+      "function": "Push food along the tube.",
+      "positionHint": "The outer wall."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a segment of the small intestine as a stylized-specimen study - a short length of coiled tube opened in cutaway to reveal the inner surface covered in dense finger-like villi. Each villus a delicate soft-paper protrusion with a faint inner vessel. The muscle wall visible in cross-section. Warm paper palette, muted peach/cream, no glow. Named nodes: IntestineSegment, VillusField, MicrovilliHint, MuscleWall, AbsorbingVessels. Budget 20-30k.",
+  "visual": {
+    "shape": "intestine-coils"
+  }
+}

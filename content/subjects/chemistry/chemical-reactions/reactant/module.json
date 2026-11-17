@@ -1,0 +1,109 @@
+{
+  "id": "reactant",
+  "subject": "chemistry",
+  "title": "Reactant",
+  "summary": "A reactant is a substance that starts a chemical reaction — the material at the left side of a chemical equation that gets transformed. Hydrogen and oxygen are the reactants that combine to make water.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "reactant-starts-reaction",
+    "reactant-left-of-equation",
+    "reactant-consumed"
+  ],
+  "type": "model",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Chemical Reactions",
+    "unit": "Reading Reactions",
+    "systemOrGroup": "The starting materials",
+    "component": "Reactant",
+    "displayPath": "Chemistry > Chemical Reactions > Reading Reactions > The starting materials > Reactant"
+  },
+  "crossReferences": [
+    {
+      "label": "Product (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Product",
+      "note": "The reactant is the starting material; the product is what the reaction creates. The two face each other across the arrow."
+    },
+    {
+      "label": "Balanced equation (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Balanced equation",
+      "note": "In a balanced equation the reactants are on the left and products on the right — balanced means the atoms are conserved."
+    },
+    {
+      "label": "Coefficient (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Coefficient",
+      "note": "The number in front of a reactant tells you how many units of it take part in the reaction."
+    },
+    {
+      "label": "Compound (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Compound",
+      "note": "Many reactants are compounds — substances built from different elements, ready to be rearranged."
+    }
+  ],
+  "belongsTo": "Chemical Reactions > Reading Reactions > The starting materials",
+  "compareCandidate": {
+    "label": "Reactant vs. product",
+    "description": "A reactant is a substance that goes INTO a reaction — consumed and transformed on the left of the arrow. A product is the new substance that comes OUT — created on the right. Ingredients versus the dish."
+  },
+  "parts": [
+    "Starts a chemical reaction",
+    "Sits on the left of the equation",
+    "Gets consumed and transformed"
+  ],
+  "processes": [
+    "Combining or breaking apart in a reaction",
+    "Being used up as the reaction proceeds",
+    "Reappearing as new substances — the products"
+  ],
+  "plainLanguageExplanation": "A reactant is a substance that takes part in a chemical reaction — it is the starting material, the ingredient. Picture making water: you start with hydrogen gas and oxygen gas. These two are the reactants. You put them together, a reaction happens, and they are transformed — you end with water. The reactants have been consumed, rearranged, and turned into something new. In a chemical equation, the reactants are always written on the LEFT side of the arrow: hydrogen + oxygen → water. The arrow means 'reacts to make.' Everything on the left is a reactant; everything on the right is a product. A key idea: reactants are not destroyed — they are rearranged. The same atoms that start on the left end up in the products, just connected differently. When you burn wood, oxygen is a reactant (along with the wood's carbon); when you cook food, the ingredients are the reactants; when you breathe, the glucose and oxygen in your cells are reactants. Every reaction starts with reactants and ends with products.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A substance that takes part in and starts a chemical reaction"
+    },
+    {
+      "label": "Position",
+      "value": "Written on the LEFT side of the equation arrow"
+    },
+    {
+      "label": "What happens",
+      "value": "Consumed and transformed into new substances"
+    },
+    {
+      "label": "Not destroyed",
+      "value": "Its atoms are rearranged, not lost — they show up in the products"
+    },
+    {
+      "label": "Example",
+      "value": "Hydrogen + oxygen are reactants; water is the product"
+    },
+    {
+      "label": "Everyday",
+      "value": "Fuel and oxygen (burning), ingredients (cooking), glucose and oxygen (breathing)"
+    }
+  ],
+  "whyItMatters": "Reactants are where every chemical change begins. Understanding what a reactant is — and how it is consumed and rearranged into products — is the first step to reading equations, predicting reactions, and understanding how matter transforms all around you.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Reactant",
+  "tagline": "The ingredients of a reaction",
+  "didYouKnow": "When you breathe out carbon dioxide, the reactants were glucose and oxygen inside your cells — and the carbon atoms in that breath were once part of your food.",
+  "conditions": [
+    "Every chemical reaction",
+    "Burning and cooking",
+    "Cellular respiration"
+  ],
+  "compareCandidateId": "product",
+  "compareReason": "Reactant and product are the two ends of every reaction — comparing ingredients with the dish they produce makes the whole reaction concept concrete."
+}

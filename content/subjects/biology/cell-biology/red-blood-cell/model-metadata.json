@@ -1,0 +1,119 @@
+{
+  "id": "red-blood-cell",
+  "componentId": "red-blood-cell",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "assetStrategy": {
+    "specDefaultBucket": "GLB/GLTF (spec §21 assigns 'cell' models to this bucket)",
+    "chosenApproach": "procedural-three",
+    "deviationRationale": "The red blood cell's biconcave disc is a clean lathe/revolve primitive built from a parametric profile curve (see assetBrief), not an organic sculpt — closer in kind to the 'molecule/planet-tier' primitives the spec reserves procedural Three.js for than to the sculpted anatomy GLBs it reserves the GLB/GLTF bucket for.",
+    "flaggedForConfirmation": true,
+    "integrationNote": "Because there is no static mesh export, 'url' below is null and the generation approach lives entirely in assetBrief as buildable geometry/material instructions, not export guidance. If this is reversed to match the spec default and sibling cell-biology components (e.g. neuron's neuron.glb), 'url' becomes a standard '/assets/models/biology/cell-biology/red-blood-cell/red-blood-cell.glb' path and assetBrief should be rewritten as sculpting/export guidance instead of procedural-geometry code guidance."
+  },
+  "url": null,
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/red-blood-cell.png",
+  "defaultCamera": {
+    "position": [
+      2.4,
+      1.5,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      2.4,
+      1.5,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Membrane (outer phospholipid surface, semi-translucent shell)",
+    "Cytoplasm / Hemoglobin Fill (interior volume, revealed through translucency and on cross-section)",
+    "Cross-Section Cutaway (half-cell showing the biconcave profile and confirming the absence of a nucleus)"
+  ],
+  "toolRail": [
+    "Rotate",
+    "Zoom",
+    "Isolate",
+    "Cross-section",
+    "Layers",
+    "Compare",
+    "Reset"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cell-membrane",
+      "label": "Cell Membrane",
+      "conceptId": "cell-membrane",
+      "position": [
+        1.05,
+        0.0,
+        0.55
+      ],
+      "color": "#5b7fb5",
+      "description": "The thin, flexible outer boundary of the cell, sitting at the rim where the disc is thickest and visible as the outer silhouette edge from any camera angle.",
+      "function": "A phospholipid bilayer studded with proteins that lets the cell bend and squeeze through capillaries narrower than its own resting diameter without breaking.",
+      "positionHint": "On the outer rim of the disc at the equator (the widest point, roughly the 3 o'clock position relative to the default camera), sitting directly on the surface silhouette so the dot reads against the off-white background."
+    },
+    {
+      "id": "hs-hemoglobin",
+      "label": "Hemoglobin",
+      "conceptId": "hemoglobin",
+      "position": [
+        0.35,
+        0.15,
+        0.85
+      ],
+      "color": "#d98a3d",
+      "description": "Fills the interior of the cell, most visible through the shallow, more translucent dimple on the front face, and fully revealed in cross-section as the solid crimson core.",
+      "function": "An iron-rich protein that binds oxygen in the lungs and releases it in body tissues — the cell's entire functional purpose and the source of blood's red color.",
+      "positionHint": "Centered on the front face, in the shallow dimple where the membrane is thinnest and most translucent, so the deeper crimson interior tone reads through the surface even before cross-section is engaged."
+    },
+    {
+      "id": "hs-biconcave-shape",
+      "label": "Biconcave Shape",
+      "conceptId": "biconcave-shape",
+      "position": [
+        0.95,
+        -0.05,
+        -0.55
+      ],
+      "color": "#8a6fa8",
+      "description": "The defining silhouette of the whole cell, most visible at the thin, pinched edge of the disc where the top and bottom dimples curve in toward the rim.",
+      "function": "Maximizes surface area relative to volume for faster gas exchange and lets the cell flex through vessels narrower than its resting width.",
+      "positionHint": "On the thin edge of the disc, at the point of tightest curvature where the top and bottom concave faces pinch in toward the rim — best seen from a slightly rotated three-quarter angle, roughly the 5 o'clock edge position."
+    },
+    {
+      "id": "hs-cytoplasm",
+      "label": "Cytoplasm",
+      "conceptId": "cytoplasm",
+      "position": [
+        -0.55,
+        0.18,
+        0.35
+      ],
+      "color": "#5f9e78",
+      "description": "The fluid layer just inside the membrane, on the upper surface opposite the Hemoglobin hotspot so the two dots never collide; distinguishable mainly in cross-section as a thin band before the denser hemoglobin core.",
+      "function": "Provides the fluid medium in which hemoglobin is suspended; in a mature red blood cell it occupies nearly the entire interior since the nucleus and major organelles have been expelled.",
+      "positionHint": "On the upper surface near the center, opposite the Hemoglobin hotspot so the two dots don't visually collide, marking the fluid interior as distinct from the hemoglobin molecules suspended within it."
+    }
+  ],
+  "visualStyleNotes": "Matches Anatomy Atelier's chrome and restraint level: warm off-white/cream backdrop (#F7F1E8-ish), the cell rendered large and centered (roughly 55-65% of viewport height), soft single-source studio lighting with gentle ambient fill and a faint soft-contact shadow beneath the cell — no rim glow, no bloom, no gradient halos. Material is matte-satin, not glossy plastic: subsurface-scattering-like translucency on the membrane (so hemoglobin color reads faintly through the dimples) but no specular hotspots or shininess (see materialNotes). Hotspot dots follow the reference's actual treatment, not a flattened simplification: a solid center dot with a soft radial glow halo, color-coded per hotspot rather than a single flat accent — Cell Membrane muted navy-blue (#5b7fb5), Hemoglobin muted orange (#d98a3d), Biconcave Shape muted purple (#8a6fa8), Cytoplasm muted leaf-green (#5f9e78), matching the reference's curated multi-hue dot family; dots sit flush on the surface and pulse very subtly if idle. Auto-rotate is slow and continuous (~1 full turn per 18-20s) with a toggle control matching the reference's bottom-right pill switch. Left-side tool rail (Rotate / Zoom / Isolate / Cross-section / Layers / Compare / Reset — 7 items, matching the reference's rail exactly and giving the White Blood Cell compare pairing a real entry point) and right-side info card follow the reference layout 1:1. Absolutely avoid: cartoon/gamey red blood cell tropes (googly eyes, cel-shading, thick black outlines), neon or saturated \"traffic-cone\" red, glossy toy-plastic shading, particle/glow effects for hemoglobin itself, or a cluttered scene with multiple cells — this is a single specimen study, not a bloodstream diorama.",
+  "materialNotes": "Membrane: physically-based material, base color a warm dusty rose (#D89090 - #C97C7C range), moderate roughness (~0.45, matte-satin, not glossy), opacity ~0.55-0.65 with a simple fake-SSS trick (fresnel-driven opacity falloff so the rim reads more solid/saturated and the flat dimple faces read more translucent, letting interior hemoglobin color bleed through). No clearcoat, no strong specular. Hemoglobin / interior fill: a deeper saturated crimson (#A83232 - #8E2A2A range), fully opaque, subtle grain/noise micro-texture at low amplitude to suggest molecular density without reading as \"particles\" or glitter. Cytoplasm (only distinguishable in cross-section, as the thin fluid layer immediately inside the membrane before the denser hemoglobin core): a slightly lighter, warmer red-orange (#C05A4A range) at very low contrast against the hemoglobin fill — this is a subtle distinction, not a hard boundary. Background: warm off-white/cream (#F7F1E8), matching Anatomy Atelier's canvas exactly. Soft floor shadow beneath the cell, no cast shadow on a visible ground plane. Lighting: single soft key light from upper-front-left (~45°), low-intensity ambient/fill from the opposite side, no colored lighting, no rim light.",
+  "assetBrief": "ASSET STRATEGY NOTE: This is a flagged deviation from spec §21's default asset-strategy bucket (which assigns 'cell' models to GLB/GLTF) — see the top-level 'assetStrategy' field for the rationale and the integration note for what changes if this is reversed to a GLB pipeline. Confirm before build.\n\nGEOMETRY & CONSTRUCTION (procedural, no sculpted mesh needed):\nBuild the cell as a lathe/revolve geometry from a 2D profile curve, not from primitive spheres/torii directly. Define the profile in the XY half-plane (X = radial distance from center axis, Y = height) using a biconcave-disc formula (the standard \"Evans & Fung\" / Cao parametric form works well):\n  y(x) = ± 0.5 * sqrt(1 - (x/R)^2) * (C0 + C1*(x/R)^2 + C2*(x/R)^4)\nwith R ≈ 1.0 (normalized radius, then scaled to fill ~55% of viewport height at default camera distance), and C0/C1/C2 tuned so the profile shows: overall disc diameter noticeably greater than its thickness (roughly 3.5-4:1 diameter-to-max-thickness ratio), a pinched waist at the rim (edge thickness thinner than the torus-like rim bulge just inside it), and a visible central dimple on both faces (dimple depth roughly 15-20% of the rim bulge thickness — visible but not a deep hole). Revolve this profile 360° around the Y axis with 48-64 radial segments and 32+ profile segments for a smooth, non-faceted surface (this is a \"molecule/planet-tier\" primitive-built object per the procedural-three criteria, not an organic sculpt — no need for anatomical mesh sculpting or a glb pipeline).\n\nCross-section: implement via a clip-plane/stencil approach (a plane through the Y axis, e.g. clipping at Z=0) that reveals: (1) the hollow interior filled with a uniform hemoglobin-red volume (no nucleus, no organelles — this absence is itself the teaching point vs. other specialized cells), and (2) the true biconcave profile silhouette in cross-section, which is the clearest possible view of \"Biconcave Shape.\"\n\nPROPORTIONS: Keep the cell recognizably disc-shaped from the front (a slightly-shaded circle, not obviously biconcave from straight-on) and let the biconcave dimple and thin rim only become obvious on rotation or in cross-section — this mirrors how real RBC micrographs read and gives the auto-rotate a genuine \"aha\" moment rather than showing everything at once from the default angle.\n\nREFERENCE MATCH: Follow assets/reference/anatomy-atelier/desktop-overview.png and desktop-interaction.png for chrome layout (left tool rail, right info card, bottom auto-rotate pill, serif \"specimen\" wordmark styling) and for the exact restraint level of the 3D object itself — calm, single-material, no glow, no gradient mesh, no gamified color-coding of substructures beyond the four hotspot dots (see visualStyleNotes for the dot treatment, which does use a curated multi-hue palette with soft glow, matching the reference — not a single flat accent as an earlier draft of this brief incorrectly specified).\n\nWHAT NOT TO DO: no nucleus (biologically incorrect — mature RBCs are anucleate, and this is a teaching point, not an oversight); no glossy toy-plastic or rubber-ball shading; no neon/saturated red; no visible polygon faceting (keep segment counts high enough for a smooth revolve); no multiple cells or bloodstream scene-setting; no glow/bloom/particle FX on hemoglobin; no cartoon eyes or anthropomorphizing; no busy internal organelle detail (a red blood cell's defining feature is precisely how empty/simple its interior is compared to other specialized cells in this unit).",
+  "visual": {
+    "shape": "red-cell-disc"
+  }
+}

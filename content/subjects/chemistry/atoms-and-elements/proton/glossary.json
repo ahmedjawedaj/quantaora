@@ -1,0 +1,48 @@
+{
+  "componentId": "proton",
+  "terms": [
+    {
+      "term": "Proton",
+      "conceptId": "proton-in-nucleus",
+      "hotspotId": "hs-proton-nucleus",
+      "definition": "A positively charged particle in the nucleus of an atom.",
+      "function": "Gives the atom its identity — its count defines the element.",
+      "whereItIs": "The red particles in the nucleus of the cutaway atom.",
+      "whyItMatters": "Protons are what make every element the element that it is.",
+      "relatedConcept": "proton-defines-element",
+      "quizId": "proton-q-location"
+    },
+    {
+      "term": "Positive charge",
+      "conceptId": "proton-positive-charge",
+      "hotspotId": "hs-proton-charge",
+      "definition": "The +1 electric charge carried by every proton.",
+      "function": "Gives the nucleus its positive charge and pulls the negative electrons toward it.",
+      "whereItIs": "On every proton in the model's nucleus.",
+      "whyItMatters": "Charge is what holds the atom together — positive protons pull negative electrons.",
+      "relatedConcept": "proton-in-nucleus",
+      "quizId": "proton-q-charge"
+    },
+    {
+      "term": "Element identity",
+      "conceptId": "proton-defines-element",
+      "hotspotId": "hs-proton-count",
+      "definition": "The element an atom belongs to, fixed by its proton count.",
+      "function": "Makes every element unique — no two elements share a proton count.",
+      "whereItIs": "The proton count highlighted in the model.",
+      "whyItMatters": "Element identity is the foundation of the whole periodic table.",
+      "relatedConcept": "proton-positive-charge",
+      "quizId": "proton-q-identity"
+    },
+    {
+      "term": "Atomic number",
+      "conceptId": "proton-defines-element",
+      "definition": "The number of protons in an atom — the element's number on the periodic table.",
+      "function": "Orders the periodic table and identifies each element.",
+      "whereItIs": "Shown as the counted protons on the model.",
+      "whyItMatters": "Atomic number is the first number on every periodic table box.",
+      "relatedConcept": "proton-in-nucleus",
+      "quizId": "proton-q-atomic-number"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "gene",
+  "componentId": "gene",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.3,
+      4.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.3,
+      4.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Context chromosome strand — dimmed, desaturated grey-beige double helix continuing off both the top and bottom edges of frame at ~30% opacity, unlabeled, no hotspots; signals that this gene is one short stretch within a much longer DNA molecule",
+    "Gene segment highlight — the named backbone ribbon pair, rendered at full opacity and a brighter warm ivory/bone tone than the context strand, spanning from the start of the promoter band through the end of the coding sequence band; this is the 'whole gene' silhouette",
+    "Promoter region band — a short stretch of base-pair rungs at the upstream (start) end of the gene segment, colored distinctly (muted amber/gold) from the rest of the highlighted segment",
+    "Coding sequence band — the longer stretch of base-pair rungs immediately following the promoter, colored distinctly (muted teal-blue), representing the bulk of the gene's length",
+    "Protein/trait output callout — a small stylized folded-ribbon shape floating just beyond the end of the coding sequence, connected to it by a thin curved leader line (matching the alveoli-inset callout convention), representing the one protein or trait this gene produces"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-segment-of-dna",
+      "label": "Segment of DNA",
+      "conceptId": "segment-of-dna",
+      "position": [
+        0.35,
+        0.0,
+        0.25
+      ],
+      "description": "A gene is a short, specific stretch of DNA sitting within a much longer strand — this highlighted region is one gene among thousands that make up a chromosome.",
+      "positionHint": "Front-center of the highlighted (bright ivory) band as a whole, roughly at its vertical midpoint, positioned to visually separate the highlighted gene segment from the dimmed context strand fading away above and below it"
+    },
+    {
+      "id": "hs-promoter-region",
+      "label": "Promoter region",
+      "conceptId": "promoter-region",
+      "position": [
+        0.32,
+        -0.78,
+        0.12
+      ],
+      "description": "A short 'start here' marker at the beginning of the gene. It's where the cell's copying machinery attaches before it starts reading the gene.",
+      "positionHint": "On the amber/gold promoter band at the lower (upstream/start) end of the highlighted segment, front-facing so it reads clearly against the bright ivory backbone behind it"
+    },
+    {
+      "id": "hs-coding-sequence",
+      "label": "Coding sequence",
+      "conceptId": "coding-sequence",
+      "position": [
+        0.3,
+        0.18,
+        0.22
+      ],
+      "description": "The main body of the gene — the stretch of base pairs that actually spells out the instructions for building a protein.",
+      "positionHint": "On the teal-blue coding band, roughly mid-height of the highlighted segment, above the promoter band and below the protein callout"
+    },
+    {
+      "id": "hs-produces-protein-or-trait",
+      "label": "Produces one protein or trait",
+      "conceptId": "produces-protein-or-trait",
+      "position": [
+        0.85,
+        1.05,
+        0.55
+      ],
+      "description": "Once read, this gene's instructions are used to build one specific protein, which in turn shapes one trait — like an enzyme that helps digest food.",
+      "positionHint": "On the small dusty-coral folded-ribbon protein shape floating just past the top end of the coding sequence, linked back to the helix by its thin leader line"
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier language, strictly: warm off-white/cream background (no pure white, no dark-mode default), the model centered and large in frame with generous negative space, calm premium sans-serif type for hotspot labels/cards, no playful kid-app fonts or comic outlines. This is a stylized diagrammatic gene locus, not molecularly accurate atomic DNA — no individual atoms, phosphate groups, or sugar rings; base pairs are simplified paired-rung shapes, favoring clarity of the four taught parts over chemical precision. Soft studio lighting: one warm key light plus soft fill, gentle contact shadow beneath the helix, no rim-light glow, no bloom, no emissive materials. Desaturated palette echoing the reference's anatomical register rather than a bright textbook-poster DNA graphic: pale warm grey-beige for the dimmed context strand (~#DCD3C4 at ~30% opacity), warm ivory/bone (~#EDE3D3) for the highlighted gene backbone, muted amber/gold (~#D9A85C) for the promoter band, muted teal-blue (~#5E8B8A) for the coding-sequence band, dusty coral (~#C97B63) for the protein/trait callout shape. Hotspot dots use one small fixed palette that is deliberately decoupled from the band color beneath them — never ivory-on-ivory, amber-on-amber, teal-on-teal, or coral-on-coral. All four dots share the same warm neutral fill (deep warm charcoal-brown, ~#4A3F35) so they read clearly against any of the four band hues, each ringed with a persistent thin off-white/cream outer stroke (~#F7F3EC) that is part of the default resting state, not a hover-only effect — matching the reference screenshots (see mobile-overview.png), where the cream ring stays visible around every dot at rest. On hover/focus, the ring brightens and thickens slightly for emphasis and opens a soft-shadowed rounded card; hover adds emphasis on top of the always-visible ring, it does not create the ring. Absolutely no glow/gradient-heavy shaders, no neon rim lighting, no particle effects, no cartoon bevels or toon outlines, no gamified badge/progress-bar chrome on the model itself.",
+  "assetBrief": "GOAL: A calm, diagrammatic 3D double-helix segment that teaches the four-part structure of a gene (a segment of DNA → its promoter region → its coding sequence → the one protein/trait it produces), matching Anatomy Atelier's visual register (assets/reference/anatomy-atelier/*.png) as closely as its single-organ reference set allows for a molecular subject. Build entirely from Three.js primitives/parametric geometry — no sculpted/authored mesh needed.\n\nVALIDATION CAVEAT: current references show organs, not molecules — before finalizing, sanity-check the helix's stylization level (rung thickness, twist rate, color saturation) against the live site's other molecule-type components if/when one exists, so \"gene\" doesn't read more literal or more cartoonish than its siblings.\n\nSCOPE OF GEOMETRY: Build a double helix using two THREE.TubeGeometry backbones swept along counter-rotating helical parametric curves (radius ~0.35 units, ~2.5 full turns across the visible highlighted segment, pitch consistent with a recognizable DNA twist — not stretched into a loose spring, not compressed into a solid cylinder). Populate base-pair \"rungs\" as short capsule/cylinder pairs bridging the two backbones at regular intervals (roughly 24-28 rungs across the highlighted gene segment). Extend the same helix geometry beyond both ends of the highlighted segment as the dimmed context strand (layer 1), fading via material opacity rather than geometry taper, running off both the top and bottom of frame to imply the chromosome continues. Divide the highlighted segment's rungs into two contiguous color groups along the helix axis: the first ~15-20% of rungs (nearest the \"start\" end) colored as the promoter band, the remaining ~80-85% colored as the coding-sequence band — do not use gradients between them, use a clean hard color transition so the two regions read as distinct named parts. At the far end of the coding-sequence band, place a small separate protein/trait callout object: a simple folded-ribbon shape (e.g. a Catmull-Rom tube swept into 2-3 soft loops, roughly 1/4 the length of the gene segment) floating just outside the helix, connected back to the last coding-sequence rung by a thin curved leader-line tube (same convention as the breathing component's alveoli-inset callout).\n\nANIMATION: Default state is static apart from the standard slow auto-rotate (full rotation ~24-30s, default ON since there's no single \"correct\" front for a twisting helix and rotation is what sells the 3D double-helix read). Optionally support a gentle \"reading sweep\" — a soft highlight/brightness pulse that travels once from the promoter band through the coding-sequence band to the protein callout when the Explain-it step is triggered — but this is a nice-to-have, not required for MVP; keep it subtle (brightness modulation only, no color shift, no particles).\n\nMATERIALS: Matte-satin PBR throughout (roughness ~0.5-0.6), no emissive channels anywhere. Context strand backbone: pale warm grey-beige, ~30% opacity. Gene-segment backbone: warm ivory/bone, full opacity, slightly higher roughness than the colored rungs so the rungs read as the \"information-bearing\" focal detail. Promoter rungs: muted amber/gold. Coding-sequence rungs: muted teal-blue. Protein/trait ribbon: dusty coral, slightly glossier (roughness ~0.4) than the helix so it reads as a distinct, more organic output object rather than more DNA. Leader line: thin, warm neutral grey, unobtrusive.\n\nCAMERA / STAGING: Default framing is a static three-quarter view of the full highlighted segment plus its protein callout (see cameraDefault), close enough that the promoter/coding color split and the callout are all legible without zooming, with the dimmed context strand visibly trailing off top and bottom. Auto-rotate defaults ON (see ANIMATION). Support the standard isolate control (fade the dimmed context strand to further emphasize just the highlighted gene + callout). Cross-section support: a toggle that swaps the wide segment view for a tight zoom on a single rung, pulled apart slightly to show the two interlocking base shapes side by side (kept abstract/puzzle-piece style, not literal nucleotide chemistry) — this teaches \"a rung is actually a paired connection\" without introducing base-letter chemistry the Gene component doesn't cover.\n\nHOTSPOTS: 4 dots exactly as specified in the hotspots array, anchored at the numeric `position` coordinates given per hotspot and styled per visualStyleNotes (small flat circle in a single fixed neutral fill, decoupled from the band color beneath it, with a persistent thin cream outer ring visible at rest — not hover-only — and a soft-shadowed rounded info card on hover/focus). Segment of DNA sits on the bright ivory backbone as a whole-segment marker; Promoter region and Coding sequence sit on their respective colored rung bands; Produces one protein or trait sits on the coral callout shape. Anchor all four to named nodes/empties at their given positions so the front-end can track them through the auto-rotate without manual re-placement.\n\nDO NOT: render individual atoms, phosphate backbones, or sugar rings (this is a diagrammatic teaching model, not a chemically accurate one); use bright saturated \"textbook poster\" DNA-graphic colors; add glow, bloom, emissive rim-light, or particle effects; gradient-blend the promoter/coding-sequence color boundary; taper or shrink the context strand geometrically (fade via opacity only); color a hotspot dot the same hue as the band it sits on; make the outer ring a hover-only effect; add gamified UI chrome (badges, XP bars, mascots) to the 3D scene itself.\n\nDELIVERABLE: A procedural Three.js scene graph (not a baked .glb) with named groups matching the layers list, hotspot anchor objects named to match each hotspot id (hs-segment-of-dna, hs-promoter-region, hs-coding-sequence, hs-produces-protein-or-trait) placed at their given position coordinates, an isolate-mode toggle, a cross-section toggle per above, and default auto-rotate enabled, so the front-end can mount it directly without further manual placement.",
+  "visual": {
+    "shape": "gene-segment"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "lysosome",
+  "componentId": "lysosome",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/lysosome/lysosome.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/lysosome.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Membrane sac",
+    "Enzymes",
+    "Waste material",
+    "Recycled pieces"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-sac",
+      "label": "Membrane sac",
+      "conceptId": "enzymes-in-sac",
+      "position": [
+        0.0,
+        0.1,
+        0.25
+      ],
+      "description": "The protective membrane wrapping that keeps the strong enzymes inside.",
+      "color": "#D98A6A",
+      "function": "Contains the powerful enzymes safely inside."
+    },
+    {
+      "id": "hs-enzymes",
+      "label": "Digestive enzymes",
+      "conceptId": "digests-waste",
+      "position": [
+        0.15,
+        0.05,
+        0.1
+      ],
+      "description": "The small enzymes inside the sac that break materials down.",
+      "color": "#D9A441",
+      "function": "Chemically break down waste and old parts."
+    },
+    {
+      "id": "hs-waste",
+      "label": "Waste entering",
+      "conceptId": "digests-waste",
+      "position": [
+        -0.4,
+        0.2,
+        0.2
+      ],
+      "description": "Worn-out parts or outside materials arriving to be digested.",
+      "color": "#6B85A8",
+      "function": "Brings in materials for the enzymes to digest."
+    },
+    {
+      "id": "hs-recycle",
+      "label": "Recycled pieces",
+      "conceptId": "recycles-parts",
+      "position": [
+        0.35,
+        -0.2,
+        0.2
+      ],
+      "description": "Small pieces leaving the lysosome to be reused by the cell.",
+      "color": "#B5846A",
+      "function": "Returns reusable pieces to the cell."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organelle floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality - museum-model cross-section caps, never gore. COLOR IS RESTRAINED: the organelle reads as a calm warm-paper specimen; each structural part is modeled in a muted near-neutral shade (warm taupe, pale vanilla, soft slate), never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Interior fluid (if any) is softly translucent but not glassy; cross-section cuts are clean flat museum caps. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a lysosome as a rounded membrane sac shown in clean cutaway so the contents are visible. Inside: many small enzyme shapes (tiny split shapes) floating in a subtly acidic-looking interior, plus a damaged organelle fragment being broken apart. At one side, small recycled pieces are shown leaving through a bud. Warm-paper palette, muted. Named nodes: LysosomeSac, EnzymeParticles, WasteFragment, RecycledPieces. Budget 8-12k.",
+  "visual": {
+    "shape": "lysosome-ball"
+  }
+}

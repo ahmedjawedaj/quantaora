@@ -1,0 +1,41 @@
+{
+  "componentId": "circle",
+  "terms": [
+    {
+      "term": "Circle",
+      "conceptId": "circle-definition",
+      "hotspotId": "hs-circle-rim",
+      "definition": "All points at the same distance from one center.",
+      "function": "The shape of wheels and orbits.",
+      "whereItIs": "The rim of the wheel.",
+      "whyItMatters": "Circles describe everything round and rolling."
+    },
+    {
+      "term": "Radius",
+      "conceptId": "circle-radius-diameter",
+      "hotspotId": "hs-radius",
+      "definition": "The segment from the center to the rim.",
+      "function": "Half the diameter.",
+      "whereItIs": "The center-to-rim stroke.",
+      "whyItMatters": "The radius is the one number that defines a circle's size."
+    },
+    {
+      "term": "Diameter",
+      "conceptId": "circle-radius-diameter",
+      "hotspotId": "hs-diameter",
+      "definition": "The segment across the circle through the center.",
+      "function": "Exactly two radii: d = 2r.",
+      "whereItIs": "The across-the-circle stroke.",
+      "whyItMatters": "Diameter is the usual way to measure wheels and pipes."
+    },
+    {
+      "term": "Circumference & pi",
+      "conceptId": "circle-pi",
+      "hotspotId": "hs-circle-rim",
+      "definition": "The distance around the rim, equal to π × diameter.",
+      "function": "π ≈ 3.14 is the same ratio for every circle.",
+      "whereItIs": "The unrolled tape length.",
+      "whyItMatters": "Pi ties the round rim to straight measurement."
+    }
+  ]
+}

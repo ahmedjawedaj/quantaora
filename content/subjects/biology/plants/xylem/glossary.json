@@ -1,0 +1,35 @@
+{
+  "componentId": "xylem",
+  "terms": [
+    {
+      "term": "Xylem",
+      "conceptId": "xylem-carries-water",
+      "hotspotId": "hs-tubelet",
+      "definition": "The plant tissue of long hollow tubes that carry water and minerals upward from the roots.",
+      "function": "Delivers water to the leaves and the whole plant.",
+      "whereItIs": "Running through the roots, stem, and into the leaves.",
+      "whyItMatters": "It is how the plant gets water from the ground to high-up leaves.",
+      "quizId": "xylem-q-what"
+    },
+    {
+      "term": "Xylem tube",
+      "conceptId": "xylem-organic-tubes",
+      "hotspotId": "hs-tubelet",
+      "definition": "One long hollow pipe that is part of the xylem bundle, joined end to end with others.",
+      "function": "Provides a continuous water pipe for the plant.",
+      "whereItIs": "As a bundle of tubes in the stem, roots, and leaves.",
+      "whyItMatters": "The tubes stack into the plant's long-distance water pipe.",
+      "quizId": "xylem-q-structure"
+    },
+    {
+      "term": "Water and minerals",
+      "conceptId": "xylem-from-root-to-leaf",
+      "hotspotId": "hs-rootentry",
+      "definition": "The water and dissolved mineral nutrients the roots absorb, carried up by xylem.",
+      "function": "Feed the leaves and the rest of the plant.",
+      "whereItIs": "Moving upward through the xylem tubes from the root.",
+      "whyItMatters": "They are needed to keep a plant alive and to make food.",
+      "quizId": "xylem-q-direction"
+    }
+  ]
+}

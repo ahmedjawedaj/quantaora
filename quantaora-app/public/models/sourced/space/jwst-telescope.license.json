@@ -1,0 +1,33 @@
+{
+  "sourceUrl": "https://github.com/nasa/NASA-3D-Resources/blob/master/3D%20Models/James%20Webb%20Space%20Telescope%20(A)/James%20Webb%20Space%20Telescope%20(A).glb",
+  "resourcePage": "https://github.com/nasa/NASA-3D-Resources",
+  "creator": "NASA",
+  "license": "Public domain (\"free and without copyright\") — NASA 3D Resources repository",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 4710016,
+  "sha256": "ea4a53f71f1e7477d8b90e30d1299b2cb33faea18acdcaf831dc9d3ebf1b7750",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 1882,
+    "meshCount": 1600,
+    "materialCount": 46,
+    "textureCount": 0,
+    "imageCount": 0,
+    "animationCount": 0,
+    "accessorCount": 6165,
+    "generator": "Khronos glTF Blender I/O v4.2.57",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      21.1976,
+      14.7734,
+      14.0385
+    ]
+  },
+  "notes": "1600 nodes / 46 materials — detailed engineering-style CAD model of the observatory structure (mirror segments, sunshield, instrument bus)."
+}

@@ -1,0 +1,90 @@
+{
+  "id": "normal-force",
+  "subject": "physics",
+  "title": "Normal Force",
+  "summary": "The normal force is the upward push from a surface that holds you up — the silent response that keeps a book from falling through a table and you from sinking into the floor. It always pushes perpendicular to the surface. Explore how the floor fights back against the load above it, and how tipping or tilting changes that push.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "normal-perpendicular-support",
+    "normal-balances-weight",
+    "normal-force-varies-with-contact",
+    "normal-left-in-accelerating-lifts"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Forces",
+    "systemOrGroup": "Normal force",
+    "component": "Normal Force",
+    "displayPath": "Physics > Mechanics > Forces > Normal force > Normal Force"
+  },
+  "crossReferences": [
+    {
+      "label": "Gravity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Gravity",
+      "note": "The normal force is usually the response that balances gravity pulling down onto a surface."
+    },
+    {
+      "label": "Weight (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Weight",
+      "note": "On level ground the normal force equals the weight — but not on ramps, in elevators, or in accelerating cars."
+    },
+    {
+      "label": "Friction (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Friction",
+      "note": "Press harder (bigger normal force) and friction grips more — the two support forces work as a team."
+    }
+  ],
+  "belongsTo": "Mechanics > Forces > Normal force",
+  "compareCandidate": {
+    "label": "Normal force vs. friction",
+    "description": "Both push at a surface, but the normal force pushes PERPENDICULAR to it (holding things up), while friction pushes ALONG it (resisting slide)."
+  },
+  "parts": [
+    "The object resting on a surface",
+    "The surface that pushes back",
+    "The normal force arrow (perpendicular)",
+    "The ramp or elevator tilt demo"
+  ],
+  "processes": [
+    "Building up a perpendicular support force",
+    "Balancing weight on level ground",
+    "Changing size with tilting or acceleration",
+    "Working as part of friction and contact forces"
+  ],
+  "plainLanguageExplanation": "The normal force is the push a surface gives back when something rests on it — the reason a book on a table doesn't just drop through. 'Normal' in geometry means perpendicular at a right angle, and that's exactly how this force points: straight out from the surface, at 90°. Lay the book on the floor and the floor pushes up with a force equal to the book's weight, keeping the two balanced. The sneaky part: the normal force doesn't always equal the weight. Push down on the book and it grows big to match the extra press; stand on a ramp and it shrinks because only part of your weight presses into the slope; ride a very fast lift upward and it surges, which is why your legs feel heavy at the start of the ride up. The model demonstrates each: a book on a table, a press button to add an extra push, and a ramp angle slider that shows the normal arrow shrink as the ground tilts.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The support force a surface pushes with, perpendicular to itself" },
+    { "label": "Direction", "value": "Always at 90° to the surface — never straight up unless flat" },
+    { "label": "Balances weight", "value": "On flat ground it matches the resting weight" },
+    { "label": "Changes with contact", "value": "Press harder or accelerate and the normal force changes" },
+    { "label": "Not weight itself", "value": "It equals weight only in the idle, flat, non-accelerating case" },
+    { "label": "Works with friction", "value": "Bigger normal force = bigger friction on the same surfaces" }
+  ],
+  "whyItMatters": "The normal force explains the ordinary miracle that things don't fall through floors. It's behind your weight feeling at elevators, why a ramp feels lighter, and why pressing on a table changes nothing you see with the book just rests. Engineers calculate it to keep trays, bridges, and crane loads stable, and athletes feel it in every push-up. Understanding it is also the key to forces on slopes — the ramp is where normal force and gravity first split into clean vectors.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Normal force",
+  "tagline": "The surface pushes back",
+  "didYouKnow": "The classic normal-force moment is a fast elevator: when it starts upward, the floor feels like it pushes harder into your feet — not because you grew heavier, but because the normal force is adding the extra push that accelerates you.",
+  "conditions": [
+    "Books resting on tables",
+    "Elevators accelerating",
+    "Walking up a ramp",
+    "Balancing on a tightrope",
+    "Hard floor to soft sand"
+  ],
+  "compareCandidateId": "friction",
+  "compareReason": "Two support forces at the same surface that point in different directions — perpendicular vs along — the floor-push and the grip are different jobs."
+}

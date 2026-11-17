@@ -1,0 +1,65 @@
+{
+  "componentId": "muscle-contraction",
+  "questions": [
+    {
+      "prompt": "During muscle contraction, what actually happens to the actin and myosin filaments themselves?",
+      "options": [
+        "They slide past each other, but neither filament changes length",
+        "Both filaments shrink to make the muscle shorter",
+        "Myosin filaments stretch longer to pull actin",
+        "Actin filaments dissolve and reform after contraction"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is the core idea of the sliding filament theory: the filaments overlap more, but each individual filament stays the same length. The muscle shortens because of increased overlap, not because the filaments shrink.",
+      "misconception": "A common misconception is that muscles work like a stretched rubber band shrinking, or that the filaments themselves get physically shorter — in reality nothing shrinks, filaments just slide over one another."
+    },
+    {
+      "prompt": "What role does calcium play in muscle contraction?",
+      "options": [
+        "It directly supplies the energy for myosin to pull",
+        "It exposes the binding sites on actin so myosin can attach",
+        "It is the signal sent from the brain down the nerve",
+        "It causes the muscle to relax and let go"
+      ],
+      "correctIndex": 1,
+      "explanation": "Calcium released inside the muscle cell moves a blocking protein out of the way on the actin filament, uncovering the spots where myosin heads can attach and start pulling.",
+      "misconception": "Students often confuse calcium's job with ATP's job. Calcium is the 'switch' that allows binding to happen; ATP is the separate energy source that powers the actual pulling motion and the release afterward."
+    },
+    {
+      "prompt": "What is a sarcomere?",
+      "options": [
+        "A single muscle cell that runs the full length of a muscle",
+        "The nerve ending that connects to a muscle fiber",
+        "The repeating unit of overlapping actin and myosin that shortens during contraction",
+        "The tendon that attaches muscle to bone"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sarcomere is the smallest functional, repeating contractile unit inside a muscle fiber. Thousands of sarcomeres shortening together in a row is what shortens the whole muscle fiber.",
+      "misconception": "A common mix-up is thinking the sarcomere is the whole muscle cell or the whole muscle. It's actually a microscopic repeating segment — one muscle fiber contains thousands of sarcomeres lined up end to end."
+    },
+    {
+      "prompt": "Why does a muscle relax and stop contracting?",
+      "options": [
+        "Myosin runs out of filaments to pull",
+        "Calcium is removed, so actin's binding sites are covered again and myosin releases",
+        "The nerve signal reverses direction and pushes the muscle back",
+        "Actin filaments actively push myosin away"
+      ],
+      "correctIndex": 1,
+      "explanation": "When the nerve signal stops, calcium is pumped back out of the area around the filaments. This re-covers actin's binding sites, so myosin can no longer attach, and the muscle relaxes back to its resting length.",
+      "misconception": "A common misconception is that muscles relax passively 'on their own' with no active process involved — relaxation actually requires active pumping of calcium away, which itself uses ATP."
+    },
+    {
+      "prompt": "What ultimately provides the energy myosin needs to pull on actin during contraction?",
+      "options": [
+        "Calcium ions",
+        "Acetylcholine from the nerve",
+        "ATP",
+        "Actin itself"
+      ],
+      "correctIndex": 2,
+      "explanation": "ATP binds to myosin heads and is broken down to power the pulling motion (power stroke) as well as to release the myosin head from actin so the cycle can repeat.",
+      "misconception": "Students sometimes think the nerve signal or calcium directly powers the pulling motion. Those trigger and enable contraction, but the actual mechanical energy for pulling comes specifically from ATP."
+    }
+  ]
+}

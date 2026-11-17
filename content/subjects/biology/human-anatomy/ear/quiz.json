@@ -1,0 +1,80 @@
+{
+  "componentId": "ear",
+  "questions": [
+    {
+      "id": "ear-q-parts",
+      "conceptId": "outer-ear-sound-waves",
+      "hotspotId": "hs-outer",
+      "prompt": "What are the three main parts of the ear?",
+      "options": [
+        "Outer, middle, and inner ear",
+        "Top, bottom, and middle",
+        "Front, back, and side",
+        "Cortex, medulla, and pelvis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ear is divided into the outer ear, middle ear, and inner ear, each doing part of the hearing job.",
+      "misconception": "The ear's three parts are named by depth (outer, middle, inner), not position or kidney-style names."
+    },
+    {
+      "id": "ear-q-eardrum",
+      "conceptId": "eardrum-middle-bones",
+      "hotspotId": "hs-eardrum",
+      "prompt": "What happens when sound waves hit the eardrum?",
+      "options": [
+        "It vibrates and passes the motion to tiny bones",
+        "It stores the sound",
+        "It turns into wax",
+        "It blocks the sound"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sound waves make the thin eardrum vibrate, and those vibrations are passed along by the middle-ear bones.",
+      "misconception": "The eardrum does not store or block sound - it converts air waves into a mechanical vibration."
+    },
+    {
+      "id": "ear-q-cochlea",
+      "conceptId": "cochlea-signals",
+      "hotspotId": "hs-cochlea",
+      "prompt": "Where are vibrations turned into nerve signals?",
+      "options": [
+        "In the cochlea",
+        "In the outer ear",
+        "In the ear canal",
+        "On the eardrum"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coiled cochlea in the inner ear turns the vibrations into nerve signals sent to the brain.",
+      "misconception": "The outer ear and eardrum just move the sound along - the actual signal-making happens in the cochlea."
+    },
+    {
+      "id": "ear-q-balance",
+      "conceptId": "balance-canals",
+      "hotspotId": "hs-balance",
+      "prompt": "Besides hearing, what else does the ear help with?",
+      "options": [
+        "Balance",
+        "Taste",
+        "Smell",
+        "Touch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The semicircular canals of the inner ear help you keep your balance.",
+      "misconception": "Taste, smell, and touch are handled by other senses - the ear uniquely adds balance to hearing."
+    },
+    {
+      "id": "ear-q-order",
+      "conceptId": "eardrum-middle-bones",
+      "hotspotId": "hs-bones",
+      "prompt": "In what order do vibrations travel in the middle ear?",
+      "options": [
+        "Eardrum, hammer, anvil, stirrup, then cochlea",
+        "Cochlea, stirrup, eardrum",
+        "Anvil, eardrum, hammer",
+        "Stirrup, eardrum, anvil"
+      ],
+      "correctIndex": 0,
+      "explanation": "The eardrum vibrates, then the three tiny bones - hammer, anvil, stirrup - pass the vibration to the cochlea.",
+      "misconception": "The three bones have a strict order (hammer, anvil, stirrup) - the chain always runs eardrum to cochlea."
+    }
+  ]
+}

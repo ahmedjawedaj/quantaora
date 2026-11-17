@@ -1,0 +1,42 @@
+{
+  "componentId": "red-giant",
+  "terms": [
+    {
+      "term": "Red giant",
+      "definition": "A large, cool, red star in the stage after core hydrogen runs out: a dead helium core, a hydrogen-burning shell, and an expanded envelope dozens of times the old radius.",
+      "conceptId": "shell-hydrogen-burning",
+      "hotspotId": "hs-burning-shell",
+      "function": "The second major chapter of a star's life."
+    },
+    {
+      "term": "Inert core",
+      "definition": "The center of a red giant: hydrogen exhausted, not yet hot enough to fuse helium — fusing nothing at all.",
+      "conceptId": "core-hydrogen-exhaustion",
+      "hotspotId": "hs-inert-core",
+      "whereItIs": "The very center of the giant",
+      "whyItMatters": "The absence of fusion here is what made the star expand."
+    },
+    {
+      "term": "Shell burning",
+      "definition": "Fusion that happens in a thin layer around the dead core rather than in the center — the red giant's continuing energy source.",
+      "conceptId": "shell-hydrogen-burning",
+      "hotspotId": "hs-burning-shell",
+      "function": "Keeps the star shining after its core runs dry."
+    },
+    {
+      "term": "Expanded envelope",
+      "definition": "The swollen outer gas of a red giant, spread over dozens of times the old radius and therefore cooler and redder.",
+      "conceptId": "stellar-expansion",
+      "hotspotId": "hs-expanded-envelope",
+      "whereItIs": "Everything outside the burning shell",
+      "whyItMatters": "Its size and thinness are why the surface is red, not white."
+    },
+    {
+      "term": "Surface cooling",
+      "definition": "The drop in a star's outer temperature when its gas spreads over a larger area — from roughly 5,800 K on the main sequence to about 3,000 K on a red giant.",
+      "conceptId": "surface-cooling-reddening",
+      "hotspotId": "hs-red-photosphere",
+      "function": "Turns the star's color from yellow-white to red."
+    }
+  ]
+}

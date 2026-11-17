@@ -1,0 +1,55 @@
+{
+  "subject": "math",
+  "name": "Math",
+  "hierarchy": "Subject > Branch > Unit > System/Group > Component > Structure/Variable/Rule > Micro-skill",
+  "mvpModule": {
+    "id": "function-studio",
+    "title": "Function Studio",
+    "branch": "algebra",
+    "skills": ["coordinate-plane", "slope", "intercept", "linear-function", "rate-of-change", "graph-interpretation"],
+    "interactions": ["Drag line", "Change equation", "Watch table update", "Match story to graph", "Predict intercept"]
+  },
+  "branches": [
+    {
+      "id": "number-and-arithmetic",
+      "name": "Number Sense And Arithmetic",
+      "detailed": true,
+      "note": "Combines spec branches: Number Sense, Arithmetic",
+      "lowLevelItems": ["Number line", "Place value", "Addition", "Subtraction", "Multiplication", "Division", "Factors", "Multiples", "Prime number", "Negative number"],
+      "interactiveComponents": ["Number-line manipulator", "Place-value blocks", "Array multiplication", "Balance model for equations"]
+    },
+    {
+      "id": "fractions-and-ratios",
+      "name": "Fractions And Ratios",
+      "detailed": true,
+      "lowLevelItems": ["Fraction", "Numerator", "Denominator", "Equivalent fraction", "Decimal", "Percent", "Ratio", "Proportion"],
+      "interactiveComponents": ["Fraction circles", "Fraction bars", "Ratio table", "Percent grid"]
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "detailed": true,
+      "lowLevelItems": ["Variable", "Expression", "Equation", "Term", "Coefficient", "Constant", "Like terms", "Inequality", "Slope", "Intercept"],
+      "interactiveComponents": ["Algebra balance scale", "Expression builder", "Solve-step checker", "Linear graph manipulator"]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "detailed": true,
+      "lowLevelItems": ["Point", "Line", "Ray", "Segment", "Angle", "Triangle", "Quadrilateral", "Circle", "Area", "Perimeter", "Volume"],
+      "interactiveComponents": ["Shape builder", "Angle dragger", "Area decomposition", "3D solids rotate"]
+    },
+    { "id": "measurement", "name": "Measurement", "detailed": false },
+    { "id": "graphs-and-functions", "name": "Graphs And Functions", "detailed": false },
+    {
+      "id": "data-and-statistics",
+      "name": "Data And Statistics",
+      "detailed": true,
+      "note": "Combines spec branches: Statistics, Probability",
+      "lowLevelItems": ["Data point", "Table", "Bar chart", "Line graph", "Mean", "Median", "Mode", "Range", "Outlier", "Probability"],
+      "interactiveComponents": ["Dataset builder", "Chart switcher", "Probability spinner", "Simulation trials"]
+    },
+    { "id": "trigonometry-foundations", "name": "Trigonometry Foundations", "detailed": false },
+    { "id": "calculus-foundations", "name": "Calculus Foundations", "detailed": false }
+  ]
+}

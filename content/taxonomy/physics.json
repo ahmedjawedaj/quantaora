@@ -1,0 +1,43 @@
+{
+  "subject": "physics",
+  "name": "Physics",
+  "hierarchy": "Subject > Branch > Unit > System/Group > Component > Structure/Variable/Rule > Micro-skill",
+  "mvpModule": {
+    "id": "motion-lab",
+    "title": "Motion Lab",
+    "branch": "mechanics",
+    "skills": ["position", "distance", "speed", "velocity", "acceleration", "force"],
+    "interactions": ["Drag a cart", "Change mass", "Change force", "Change friction", "Watch position/time and velocity/time graphs", "Predict what happens before pressing run"],
+    "note": "Spec section 33 recommends Physics Motion Lab as the first full vertical slice to build, ahead of other subjects."
+  },
+  "branches": [
+    {
+      "id": "mechanics",
+      "name": "Mechanics",
+      "detailed": true,
+      "lowLevelItems": ["Position", "Distance", "Displacement", "Speed", "Velocity", "Acceleration", "Force", "Mass", "Weight", "Gravity", "Friction", "Normal force", "Momentum"],
+      "interactiveComponents": ["Motion cart", "Force vector arrows", "Ramp simulation", "Projectile launcher", "Collision lab", "Graphs: position-time, velocity-time, acceleration-time"]
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "detailed": true,
+      "lowLevelItems": ["Kinetic energy", "Potential energy", "Work", "Power", "Conservation of energy", "Efficiency"],
+      "interactiveComponents": ["Skate-ramp energy lab", "Pendulum energy transfer", "Energy bar charts"]
+    },
+    { "id": "waves", "name": "Waves", "detailed": false },
+    { "id": "sound", "name": "Sound", "detailed": false },
+    { "id": "light-and-optics", "name": "Light And Optics", "detailed": false },
+    {
+      "id": "electricity",
+      "name": "Electricity",
+      "detailed": true,
+      "lowLevelItems": ["Charge", "Current", "Voltage", "Resistance", "Circuit", "Battery", "Bulb", "Switch", "Series circuit", "Parallel circuit"],
+      "interactiveComponents": ["Circuit builder", "Current-flow animation", "Ohm's law sliders", "Bulb brightness prediction"]
+    },
+    { "id": "magnetism", "name": "Magnetism", "detailed": false },
+    { "id": "fluids", "name": "Fluids", "detailed": false },
+    { "id": "heat-and-thermodynamics", "name": "Heat And Thermodynamics", "detailed": false },
+    { "id": "modern-physics-foundations", "name": "Modern Physics Foundations", "detailed": false }
+  ]
+}

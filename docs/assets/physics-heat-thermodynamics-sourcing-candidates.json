@@ -1,0 +1,88 @@
+{
+  "branchId": "heat-and-thermodynamics",
+  "subject": "physics",
+  "qualityGoal": "Replace authored heat-transfer apparatus diagrams with inspectable heater, thermometer, and lab heat-source objects.",
+  "sourcePolicy": {
+    "preferred": ["CC0 Public Domain", "Public domain"],
+    "allowedWithReview": ["CC Attribution"],
+    "rejectedForPaidProduct": ["CC Attribution-NonCommercial", "CC Attribution-NonCommercial-NoDerivs", "CC Attribution-NoDerivs", "CC BY-NC", "CC BY-SA", "CC BY-ND"]
+  },
+  "candidates": [
+    {
+      "id": "medical-gallery-thermometer",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-heat-temperature", "physics-heat-conduction", "physics-heat-phase-change"],
+      "assetName": "Thermometer",
+      "provider": "Sketchfab",
+      "creator": "Medical.Gallery Graphics",
+      "uid": "5ef4251b270c4997aca6931a094f9621",
+      "sourceUrl": "https://sketchfab.com/3d-models/thermometer-5ef4251b270c4997aca6931a094f9621",
+      "apiUrl": "https://api.sketchfab.com/v3/models/5ef4251b270c4997aca6931a094f9621",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 2996,
+      "fit": "Thermometer is the key real object for temperature, phase-change, and heat-transfer readings.",
+      "risk": "Attribution copy required; inspect scale and markings."
+    },
+    {
+      "id": "abdulmeyout-laboratory-hot-plate",
+      "status": "blocked-unoptimized",
+      "targetComponents": ["physics-heat-conduction", "physics-heat-convection", "physics-heat-phase-change"],
+      "assetName": "Laboratory Hot Plate",
+      "provider": "Sketchfab",
+      "creator": "abdulmeyout",
+      "uid": "f72c7ab3710b45f995b97aff9690db50",
+      "sourceUrl": "https://sketchfab.com/3d-models/laboratory-hot-plate-f72c7ab3710b45f995b97aff9690db50",
+      "apiUrl": "https://api.sketchfab.com/v3/models/f72c7ab3710b45f995b97aff9690db50",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 165916,
+      "fit": "Hot plate gives heat source and conduction/convection experiments a real apparatus anchor.",
+      "risk": "Very high face count; import only if optimization can reduce it substantially."
+    },
+    {
+      "id": "dreamsoft-bunsen-burner",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-heat-convection", "physics-heat-radiation"],
+      "assetName": "Bunsen Burner",
+      "provider": "Sketchfab",
+      "creator": "Dreamsoft Innovations Private Limited",
+      "uid": "5185e41b2beb48fa8f15ca3707f43e10",
+      "sourceUrl": "https://sketchfab.com/3d-models/bunsen-burner-5185e41b2beb48fa8f15ca3707f43e10",
+      "apiUrl": "https://api.sketchfab.com/v3/models/5185e41b2beb48fa8f15ca3707f43e10",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 2758,
+      "fit": "Bunsen burner is a low-poly heat-source prop for convection and radiation lessons.",
+      "risk": "Attribution copy required; add authored flame/heat rays rather than relying on static mesh."
+    },
+    {
+      "id": "lwando-bunsen-burner",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-heat-convection", "physics-heat-radiation"],
+      "assetName": "Bunsen Burner",
+      "provider": "Sketchfab",
+      "creator": "Lwando London Gomomo",
+      "uid": "7532be8f501d435194e3feec33a3addf",
+      "sourceUrl": "https://sketchfab.com/3d-models/bunsen-burner-7532be8f501d435194e3feec33a3addf",
+      "apiUrl": "https://api.sketchfab.com/v3/models/7532be8f501d435194e3feec33a3addf",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 3842,
+      "fit": "Second burner candidate gives a visual fallback if the Dreamsoft asset is not readable after import.",
+      "risk": "Attribution copy required; compare quality before wiring."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "assetfactory-laser-thermometer",
+      "assetName": "Laser Thermometer",
+      "provider": "Sketchfab",
+      "creator": "assetfactory",
+      "uid": "d521f35089cf4d90ac151fe7c9a45e07",
+      "sourceUrl": "https://sketchfab.com/3d-models/laser-thermometer-d521f35089cf4d90ac151fe7c9a45e07",
+      "license": "Free Standard",
+      "reason": "Marketplace license is not a clean Creative Commons license for this product pipeline."
+    }
+  ]
+}

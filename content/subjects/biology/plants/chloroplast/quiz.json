@@ -1,0 +1,65 @@
+{
+  "componentId": "chloroplast",
+  "questions": [
+    {
+      "id": "chloroplast-q-job",
+      "conceptId": "chlorophyll-captures-light",
+      "hotspotId": "hs-chlorophyll",
+      "prompt": "What is the main job of a chloroplast?",
+      "options": [
+        "Capture sunlight and make food (sugar) for the plant",
+        "Release energy from food like a tiny engine",
+        "Store water for the whole stem",
+        "Carry pollen between flowers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The chloroplast uses sunlight, water, and carbon dioxide to make sugar - the plant's food - and releases oxygen.",
+      "misconception": "The chloroplast makes food from light; it does not do the energy-burning job of the mitochondrion or any seed/carry roles."
+    },
+    {
+      "id": "chloroplast-q-green",
+      "conceptId": "chlorophyll-captures-light",
+      "hotspotId": "hs-chlorophyll",
+      "prompt": "Why is a chloroplast (and a leaf) green?",
+      "options": [
+        "Because it contains green chlorophyll that captures sunlight energy",
+        "Because it is made of metal paint",
+        "Because of the stored water",
+        "Because it never sees the sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "A chloroplast contains the green pigment chlorophyll, which captures and absorbs energy from sunlight - the reason plant cells are green.",
+      "misconception": "Greens is not paint, water, or lack of light. It comes from chlorophyll, the pigment that gathers the light the plant needs."
+    },
+    {
+      "id": "chloroplast-q-form",
+      "conceptId": "thylakoids-grana",
+      "hotspotId": "hs-stroma",
+      "prompt": "What do you find stacked inside a chloroplast?",
+      "options": [
+        "Stacks of flat discs called thylakoids (grana)",
+        "A heap of pebbles",
+        "Long thin needles",
+        "Nothing at all inside"
+      ],
+      "correctIndex": 0,
+      "explanation": "The interior has stacks of flat membrane discs, called thylakoids or grana, floating in a fluid called the stroma.",
+      "misconception": "The inside of a chloroplast is not empty or full of rocks - it is a set of stacked flat discs (granum) in fluid."
+    },
+    {
+      "id": "chloroplast-q-products",
+      "conceptId": "photosynthesis-in-plant",
+      "hotspotId": "hs-output",
+      "prompt": "What does a chloroplast make from sunlight, water, and CO2?",
+      "options": [
+        "Sugar (food) and oxygen",
+        "Only oxygen, nothing else",
+        "Only carbon dioxide",
+        "Sand and water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using sunlight plus water plus carbon dioxide, photosynthesis makes sugar (food) and releases oxygen.",
+      "misconception": "The chloroplast does not produce soil, sand, or just oxygen alone - it builds sugar food and releases oxygen together."
+    }
+  ]
+}

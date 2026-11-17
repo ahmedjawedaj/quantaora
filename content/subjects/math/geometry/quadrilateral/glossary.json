@@ -1,0 +1,41 @@
+{
+  "componentId": "quadrilateral",
+  "terms": [
+    {
+      "term": "Quadrilateral",
+      "conceptId": "quadrilateral-definition",
+      "hotspotId": "hs-quad-plate",
+      "definition": "A closed shape with four straight sides and four vertices.",
+      "function": "Any four-sided closed figure.",
+      "whereItIs": "The plate on the board.",
+      "whyItMatters": "Quadrilaterals are the shapes of rooms, doors, and screens."
+    },
+    {
+      "term": "Angle sum",
+      "conceptId": "quadrilateral-360",
+      "hotspotId": "hs-corner",
+      "definition": "The total of the four interior angles — always 360°.",
+      "function": "Comes from two triangles of 180° each.",
+      "whereItIs": "The total tag above the plate.",
+      "whyItMatters": "The angle sum lets you find missing angles instantly."
+    },
+    {
+      "term": "Family members",
+      "conceptId": "quadrilateral-family",
+      "hotspotId": "hs-quad-plate",
+      "definition": "Square, rectangle, rhombus, parallelogram, trapezoid.",
+      "function": "Each has special side and angle rules.",
+      "whereItIs": "The floating family cards.",
+      "whyItMatters": "Knowing the family lets you classify any four-sided shape."
+    },
+    {
+      "term": "Flex / brace",
+      "conceptId": "quadrilateral-flex",
+      "hotspotId": "hs-quad-plate",
+      "definition": "Quadrilaterals flex when pushed; a diagonal brace locks them.",
+      "function": "The diagonal creates two rigid triangles.",
+      "whereItIs": "The amber brace strip.",
+      "whyItMatters": "This is why gates and frames get diagonal braces."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "area",
+  "componentId": "area",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/area/area.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/area.png",
+  "defaultCamera": {
+    "position": [
+      0.5,
+      2.1,
+      3.4
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.5,
+      2.1,
+      3.4
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Rectangle tile grid",
+    "Unit squares",
+    "Dimensions",
+    "Formula plate"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-area-grid",
+      "label": "Area",
+      "conceptId": "area-definition",
+      "position": [
+        0.2,
+        0.6,
+        0.1
+      ],
+      "description": "The full tiled surface of the rectangle \u2014 12 unit squares here.",
+      "positionHint": "The grid filling the rectangle surface.",
+      "color": "#D9A441",
+      "function": "The total surface covered by square units."
+    },
+    {
+      "id": "hs-unit-square",
+      "label": "One square unit",
+      "conceptId": "area-square-units",
+      "position": [
+        -1.0,
+        0.25,
+        0.15
+      ],
+      "description": "A single tile \u2014 the unit of counting.",
+      "positionHint": "One outlined square on the grid.",
+      "color": "#7FA86A",
+      "function": "The counted unit of area."
+    },
+    {
+      "id": "hs-rectangle-side",
+      "label": "Length \u00d7 width",
+      "conceptId": "area-rectangle",
+      "position": [
+        1.1,
+        0.5,
+        0.15
+      ],
+      "description": "The two side lengths that multiply to give the area.",
+      "positionHint": "The dimension tags along the rectangle edges.",
+      "color": "#6B85A8",
+      "function": "The side lengths of the rectangle."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A flat rectangle on a board covered with an outlined grid of unit squares, dimension tags, and a live counter. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Board: warm paper panel (roughness ~0.5). Rectangle surface: warm paper with faint grid lines. Unit squares: subtle ink outlines over the surface. Dimension tags: small warm paper tags with ink numbers. Counter plate: warm paper with a live number. Formula plate: warm paper with ink 'length \u00d7 width'. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: area as the count of square units \u2014 a tiled rectangle whose sides are draggable; a live tile counter; count and triangle-half demos.\n\nGEOMETRY: A flat rectangle on a board, filled with a grid of outlined unit squares. Corner drag changes width and height; the grid re-lays out and the counter tag updates. 'Count' flashes each unit square in sequence as the total counts up. 'Triangle half' draws a diagonal, dims half the tiles, and shows the triangle area = 1/2 rectangle. Dimension tags along the edges show length and width.\n\nLAYERS (toggleable): (1) board; (2) rectangle surface; (3) unit-square grid; (4) counter + dimension tags.\n\nCAMERA: high three-quarter above the board, frames the full rectangle; labels legible. Budget 5-10k triangles. Named nodes: Board, RectangleSurface, UnitGrid, CounterTag, DimensionTags, TriangleSplit, CountAnimation. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "area-grid"
+  }
+}

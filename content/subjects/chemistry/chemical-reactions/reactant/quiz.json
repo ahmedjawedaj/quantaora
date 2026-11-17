@@ -1,0 +1,65 @@
+{
+  "componentId": "reactant",
+  "questions": [
+    {
+      "id": "reactant-q-definition",
+      "conceptId": "reactant-starts-reaction",
+      "hotspotId": "hs-reactant-materials",
+      "prompt": "What is a reactant?",
+      "options": [
+        "A substance that takes part in a chemical reaction — the starting material",
+        "The new substance a reaction creates",
+        "A type of element with no reactions",
+        "The arrow in an equation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A reactant is a starting material that takes part in and is consumed by a chemical reaction.",
+      "misconception": "The NEW substance is the product, not the reactant — the reactant is the material that goes INTO the reaction."
+    },
+    {
+      "id": "reactant-q-position",
+      "conceptId": "reactant-left-of-equation",
+      "hotspotId": "hs-reactant-combine",
+      "prompt": "Where are reactants written in a chemical equation?",
+      "options": [
+        "On the LEFT side of the arrow",
+        "On the RIGHT side of the arrow",
+        "Underneath the arrow",
+        "Above the products"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reactants are always written on the left of the arrow; products go on the right.",
+      "misconception": "The right side of the arrow belongs to the products — the left side is always the reactants."
+    },
+    {
+      "id": "reactant-q-consumed",
+      "conceptId": "reactant-consumed",
+      "hotspotId": "hs-reactant-consumed",
+      "prompt": "What happens to a reactant during a reaction?",
+      "options": [
+        "It is consumed — its atoms are rearranged into the products",
+        "It disappears completely and the atoms vanish",
+        "It stays exactly the same",
+        "It turns into energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reactants are used up, but their atoms are conserved — rearranged into the new substances on the right.",
+      "misconception": "Atoms are never destroyed in a chemical reaction — they are rearranged. The reactant's matter simply reappears, connected differently, in the products."
+    },
+    {
+      "id": "reactant-q-example",
+      "conceptId": "reactant-starts-reaction",
+      "hotspotId": "hs-reactant-materials",
+      "prompt": "In the reaction hydrogen + oxygen → water, which are the reactants?",
+      "options": [
+        "Hydrogen and oxygen",
+        "Water",
+        "Hydrogen only",
+        "Oxygen only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hydrogen and oxygen are on the left — they are the reactants that combine to make the product, water.",
+      "misconception": "Water is the product, on the right — the reactants are the starting materials hydrogen and oxygen, both needed."
+    }
+  ]
+}

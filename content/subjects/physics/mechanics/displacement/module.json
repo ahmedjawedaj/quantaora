@@ -1,0 +1,89 @@
+{
+  "id": "displacement",
+  "subject": "physics",
+  "title": "Displacement",
+  "summary": "Displacement is the straight-line change from where you started to where you ended — a vector with both size and direction. Walk 5 blocks out and 5 blocks home and your distance was 10 blocks but your displacement is zero. Explore how displacement of arrows give the 'net' result of a journey no matter how windy the path.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "displacement-change-in-position",
+    "displacement-vector",
+    "displacement-net-result",
+    "displacement-add-tip-to-tail"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Describing Motion",
+    "systemOrGroup": "Position and Displacement",
+    "component": "Displacement",
+    "displayPath": "Physics > Mechanics > Describing Motion > Position and Displacement > Displacement"
+  },
+  "crossReferences": [
+    {
+      "label": "Position (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Position",
+      "note": "Displacement is literally the change in position — the difference between two positions, not the path between them."
+    },
+    {
+      "label": "Distance (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Distance",
+      "note": "Distance counts every meter of path; displacement ignores the path and measures only the straight-line result."
+    },
+    {
+      "label": "Velocity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Velocity",
+      "note": "Velocity is displacement divided by time — the reason velocity always carries a direction, just like displacement."
+    }
+  ],
+  "belongsTo": "Mechanics > Describing Motion > Position and Displacement",
+  "compareCandidate": {
+    "label": "Displacement vs. distance",
+    "description": "Displacement is a vector with direction and can be zero while distance is a scalar that only grows — the classic 'walk a square and return' demonstration."
+  },
+  "parts": [
+    "The start (initial) position",
+    "The end (final) position",
+    "The displacement arrow connecting them",
+    "The path it ignores below the arrow"
+  ],
+  "processes": [
+    "Skipping from start position to final position",
+    "Adding steps tip-to-tail to find the single net arrow",
+    "Reading the magnitude and direction of the result",
+    "Comparing net displacement with path distance"
+  ],
+  "plainLanguageExplanation": "Displacement asks a simple question: how far is it from where you started to where you are now, as the crow flies — and which way? It ignores everything you did in between. If you ramp a skateboard 6 m forward and roll 6 m back, your distance is 12 m, but your displacement is 0 m: you're exactly where you began. If you walk 4 blocks north then 3 blocks east, displacement is one straight arrow from start to stop — about 5 blocks, tilted north-east — not the 7 total blocks walked. Displacement always comes with a direction (north, left, 30°), which makes it a vector. In this model you place arrows for each leg of a journey and the model tip-to-tail adds them into a single net arrow — the displacement. It's the 'net' that shows up in velocity and is the reason you can circle your whole room and have an displacement of zero the whole game.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The straight-line change from the initial position to the final position" },
+    { "label": "Vector", "value": "Has both a size (magnitude) and a direction, e.g. 5 m northeast" },
+    { "label": "Ignoring the path", "value": "Back roads and detours don't matter to displacement — only start and finish" },
+    { "label": "Can be zero", "value": "Return to your starting point and displacement is 0 m even if you walked 12 m" },
+    { "label": "Adding journeys", "value": "Match arrows tip-to-tail to combine displacement into a single net result" },
+    { "label": "Velocity partner", "value": "Velocity = displacement ÷ time, same direction as displacement" }
+  ],
+  "whyItMatters": "Displacement is the trick that separates 'how much happened' from 'how far it changed place.' Airline flight plans, satellite orbits, and ocean currents are all tracked as displacement, and sports like long jump record displacement rather than the jogging path. When we compute velocity or acceleration, we use displacement — because a boat that ends exactly where it started has, over the whole trip, zero net progress. Understanding the vector arrow also preps you for forces and momentum, which behave as arrows that can point every which way.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Displacement (kinematics)",
+  "tagline": "The mover's straight-line stamp",
+  "didYouKnow": "As a consequence of displacement being a vector: you can rack up hundreds of thousands of meters on a treadmill in a year — but if you stay in the same room, your displacement for the whole year is still 0 m.",
+  "conditions": [
+    "Airline flight distance vs. point-to-point",
+    "Long-jump records",
+    "Satellite tracking",
+    "Delivery route efficiency"
+  ],
+  "compareCandidateId": "distance",
+  "compareReason": "A vector with direction versus a growing scalar on the same grid is the fastest way to see why a journey's path length and its net result are different quantities."
+}

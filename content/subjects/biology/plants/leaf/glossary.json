@@ -1,0 +1,48 @@
+{
+  "componentId": "leaf",
+  "terms": [
+    {
+      "term": "Leaf",
+      "conceptId": "leaf-makes-food",
+      "hotspotId": "hs-leaf-blade",
+      "definition": "The broad, flat, green part of a plant that makes food by capturing sunlight.",
+      "function": "Carries out photosynthesis to make food for the plant.",
+      "whereItIs": "Growing from the stem out into the sunlight.",
+      "whyItMatters": "The leaf makes the food that feeds the plant and nearly all life.",
+      "relatedConcept": "leaf-photosynthesis",
+      "quizId": "leaf-q-job"
+    },
+    {
+      "term": "Photosynthesis",
+      "conceptId": "leaf-photosynthesis",
+      "hotspotId": "hs-chlorophyll",
+      "definition": "The process by which a plant uses sunlight, water, and carbon dioxide to make sugar and release oxygen.",
+      "function": "Makes the plant's food and releases oxygen into the air.",
+      "whereItIs": "Happens mainly in the green cells of the leaf.",
+      "whyItMatters": "It is how plants feed themselves and produces the oxygen we breathe.",
+      "relatedConcept": "leaf-makes-food",
+      "quizId": "leaf-q-photosynthesis"
+    },
+    {
+      "term": "Chlorophyll",
+      "conceptId": "chlorophyll-captures-light",
+      "hotspotId": "hs-chlorophyll",
+      "definition": "The green pigment in plant cells that captures energy from sunlight.",
+      "function": "Absorbs sunlight so the plant can make food.",
+      "whereItIs": "Inside chloroplasts, mostly in the leaf.",
+      "whyItMatters": "Without it the plant could not capture the light energy it needs to make food.",
+      "relatedConcept": "leaf-photosynthesis",
+      "quizId": "leaf-q-color"
+    },
+    {
+      "term": "Vein",
+      "conceptId": "veins-carry-water-and-food",
+      "hotspotId": "hs-vein",
+      "definition": "Tiny tubes running through a leaf that carry water in and food out.",
+      "function": "Deliver water and minerals in and move food out to the rest of the plant.",
+      "whereItIs": "A branching network across the whole leaf.",
+      "whyItMatters": "Veins connect the leaf to the plant's water and food transport system.",
+      "quizId": "leaf-q-veins"
+    }
+  ]
+}

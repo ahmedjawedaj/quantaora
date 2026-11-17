@@ -1,0 +1,101 @@
+{
+  "id": "large-intestine",
+  "subject": "biology",
+  "title": "Large Intestine",
+  "summary": "The large intestine is the final section of the digestive tract - a wide tube that absorbs water and salts from leftover food and packs the rest into solid waste. Explore how it finishes the job of processing what you eat.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "absorbs-water-salts",
+    "forms-solid-waste",
+    "good-bacteria-colon",
+    "large-but-short"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Digestive system",
+    "component": "Large Intestine",
+    "displayPath": "Biology > Human Anatomy > Digestive system > Large Intestine"
+  },
+  "crossReferences": [
+    {
+      "label": "Small Intestine (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Small intestine",
+      "note": "The large intestine receives whatever the small intestine did not absorb, mostly water and waste."
+    },
+    {
+      "label": "Microbiome (Microbiology)",
+      "branch": "microbiology",
+      "lowLevelItem": "Microbiome",
+      "note": "The friendly bacteria living in the large intestine are part of the body's microbiome."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Digestive system > Large Intestine",
+  "compareCandidate": {
+    "label": "Small vs. large intestine",
+    "description": "The small intestine is longer and absorbs nutrients. The large intestine is shorter, wider, and absorbs mainly water while packing waste."
+  },
+  "parts": [
+    "Colon",
+    "Rectum",
+    "Friendly bacteria",
+    "Waste material"
+  ],
+  "processes": [
+    "Absorbing water and salts",
+    "Forming solid waste",
+    "Hosting helpful bacteria",
+    "Storing waste in the rectum"
+  ],
+  "plainLanguageExplanation": "The large intestine is the last major part of the digestive system. It is wider than the small intestine but much shorter (about 1.5 meters). By the time food reaches it, most nutrients have been absorbed. The large intestine's main job is to absorb water and salts from the leftover mixture, making the waste more solid. Helpful bacteria live here too, helping process some materials and making some vitamins. The solid waste is stored in the last part (the rectum) until it leaves the body. So the large intestine is where the body salvages the last water and packs up what it cannot use.",
+  "keyFacts": [
+    {
+      "label": "Length vs. width",
+      "value": "Shorter than the small intestine (about 1.5 m) but much wider"
+    },
+    {
+      "label": "Main job",
+      "value": "Absorb water and salts from leftover food"
+    },
+    {
+      "label": "Waste",
+      "value": "Forms the leftover material into solid waste"
+    },
+    {
+      "label": "Bacteria",
+      "value": "Friendly bacteria live here and help process materials"
+    },
+    {
+      "label": "Storage",
+      "value": "The rectum stores waste until it leaves the body"
+    },
+    {
+      "label": "Final stop",
+      "value": "Last major section of the digestive tract"
+    }
+  ],
+  "whyItMatters": "The large intestine recovers water, keeps you hydrated, and packs the body's waste. Understanding it explains why you need fiber and water, and what 'good bacteria' in your gut actually do.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Large intestine (Intestinum crassum)",
+  "tagline": "The water saver and waste packer",
+  "didYouKnow": "About 1.5 liters of water pass into the large intestine each day - and most of it is absorbed back into the body.",
+  "conditions": [
+    "Constipation",
+    "Diarrhea",
+    "IBS"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Digestive system > Large Intestine",
+  "plain": "The large intestine is the last major part of the digestive system. It is wider than the small intestine but much shorter (about 1.5 meters). By the time food reaches it, most nutrients have been absorbed. The large intestine's main job is to absorb water and salts from the leftover mixture, making the waste more solid. Helpful bacteria live here too, helping process some materials and making some vitamins. The solid waste is stored in the last part (the rectum) until it leaves the body. So the large intestine is where the body salvages the last water and packs up what it cannot use."
+}

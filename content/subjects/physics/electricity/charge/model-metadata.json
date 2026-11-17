@@ -1,0 +1,92 @@
+{
+  "id": "charge",
+  "componentId": "charge",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/charge/charge.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/charge.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.2,
+      4.1
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Charge bench",
+    "Positive / negative balls",
+    "Force arrows",
+    "Discharge switch"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-ball-p",
+      "label": "Positive Ball",
+      "conceptId": "charge-two-kinds",
+      "position": [
+        -0.7,
+        0.7,
+        0
+      ],
+      "description": "The + ball carrying the positive charge protons would represent.",
+      "colorHint": "Warm amber sphere on a thin stem.",
+      "color": "#D96B5A",
+      "function": "Represents the kind of charge that pulls negatives."
+    },
+    {
+      "id": "hs-ball-n",
+      "label": "Negative Ball",
+      "conceptId": "charge-electron-movement",
+      "position": [
+        0.7,
+        0.7,
+        0
+      ],
+      "description": "The − ball rich in electrons — the mobile carriers.",
+      "colorHint": "Cool blue sphere on its stem.",
+      "color": "#6B85A8",
+      "function": "Represents the electron-loaded side that can move."
+    },
+    {
+      "id": "hs-arrows",
+      "label": "Force Arrows",
+      "conceptId": "charge-same-repel-opposite-attract",
+      "position": [
+        0,
+        1.0,
+        0.1
+      ],
+      "description": "The push/pull markers spanning the gap between the two balls.",
+      "colorHint": "A double arrow that points together or apart.",
+      "color": "#7FA86A",
+      "function": "Shows attraction or repulsion direction live."
+    },
+    {
+      "id": "hs-discharge",
+      "label": "Discharge Spark Path",
+      "conceptId": "charge-static-imbalance",
+      "position": [
+        0,
+        0.2,
+        0.3
+      ],
+      "description": "The spark rail that gives the charge a path to balance along.",
+      "colorHint": "A thin blue-amber rail across the bench.",
+      "color": "#D9A441",
+      "function": "Provides the route for the crowd of electrons to rebalance."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. Small laboratory bench with two charge balls on stems, arrows between, and a fine spark rail.",
+  "materialNotes": "Metallic=0, roughness ~0.5. Balls brightly saturated; sparks thin lines; no emissive bloom.",
+  "assetBrief": "SUBJECT: positive and negative electric charge attraction/repulsion.\n\nGEOMETRY: a bench (y=0.3) with ball stems at x=-0.7 and +0.7, amber + and blue − spheres of y=0.7; a force arrow between them; a discharge rail (0,0.2,0.3) crossing the bench.\n\nINTERACTION: sign buttons per ball; arrows aim toward (attract) or away (repel); the discharge switch runs a spark along the rail and zeroes the arrows.\n\nNAMED NODES: Bench, BallPos, BallNeg, ForceArrows, SparkRail, SignButtons. 6-8k tris.",
+  "visual": {
+    "shape": "charge-pair"
+  }
+}

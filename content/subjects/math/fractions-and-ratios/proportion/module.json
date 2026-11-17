@@ -1,0 +1,87 @@
+{
+  "id": "proportion",
+  "subject": "math",
+  "title": "Proportion",
+  "summary": "A proportion says two ratios are equal — 3:5 = 6:10. Explore how to scale ratios, solve for a missing value with cross products, and apply proportions to real recipes and scales.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "proportion-equal-ratios",
+    "proportion-solve-missing",
+    "proportion-cross-products",
+    "proportion-real-world"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Fractions And Ratios",
+    "unit": "Ratios and Proportions",
+    "systemOrGroup": "Proportions",
+    "component": "Proportion",
+    "displayPath": "Math > Fractions And Ratios > Ratios and Proportions > Proportions > Proportion"
+  },
+  "crossReferences": [
+    {
+      "label": "Ratio (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Ratio",
+      "note": "A proportion is the statement that two ratios are equal."
+    },
+    {
+      "label": "Equivalent fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Equivalent fraction",
+      "note": "Cross products are the same test used to check equivalent fractions."
+    },
+    {
+      "label": "Slope (Algebra)",
+      "branch": "algebra",
+      "lowLevelItem": "Slope",
+      "note": "A constant proportion appears as a straight line through the origin with a fixed slope."
+    }
+  ],
+  "belongsTo": "Fractions And Ratios > Ratios and Proportions > Proportions",
+  "compareCandidate": {
+    "label": "Proportion vs. ratio",
+    "description": "A ratio is one comparison (3:5). A proportion is the equality of two ratios (3:5 = 6:10). Proportions let you find a missing value by keeping the ratio constant."
+  },
+  "parts": [
+    "Two equal ratios",
+    "The missing value",
+    "Cross products"
+  ],
+  "processes": [
+    "Writing and verifying proportions",
+    "Solving for an unknown using cross products",
+    "Scaling real-world ratios proportionally"
+  ],
+  "plainLanguageExplanation": "A proportion is a statement that two ratios are equal. 3:5 = 6:10 says the mix of 3 to 5 is the same as 6 to 10 — just doubled. Proportions are the tool for scaling: if a recipe that feeds 4 needs 2 cups of flour, feeding 8 needs 4 cups — the ratio of people to flour stays the same. To solve a proportion with a missing value, use cross products: in a/b = c/d, multiply a × d and b × c — they must be equal. So in 3/5 = x/10, cross multiply 3 × 10 = 5 × x, giving 30 = 5x and x = 6. Proportions power unit conversion, map reading, and scaling recipes.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A statement that two ratios are equal" },
+    { "label": "Example", "value": "3:5 = 6:10 — the same ratio doubled" },
+    { "label": "Cross products", "value": "In a/b = c/d, a × d = b × c" },
+    { "label": "Solve", "value": "3/5 = x/10 → 30 = 5x → x = 6" },
+    { "label": "Scaling", "value": "Double a recipe by keeping every ratio constant" },
+    { "label": "Graph link", "value": "A constant proportion is a straight line through zero" }
+  ],
+  "whyItMatters": "Proportions solve real scaling problems — doubling recipes, converting units, reading maps, and comparing rates. They are also the foundation of direct variation and linear functions in algebra, so mastering them now pays off for years.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Proportion",
+  "tagline": "Equal ratios, scaled together",
+  "didYouKnow": "Photocopiers use proportions — 'enlarge 150%' scales every dimension of a drawing by the same ratio, which is exactly a proportion applied to a whole shape.",
+  "conditions": [
+    "Doubling recipes",
+    "Unit conversion",
+    "Reading map scales",
+    "Rates and speed"
+  ],
+  "compareCandidateId": "ratio",
+  "compareReason": "A proportion is just an equal-ratio statement — comparing the single ratio with its equality makes the jump to solving clear."
+}

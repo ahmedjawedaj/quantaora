@@ -1,0 +1,41 @@
+{
+  "componentId": "probability",
+  "terms": [
+    {
+      "term": "Probability",
+      "conceptId": "probability-definition",
+      "hotspotId": "hs-spinner",
+      "definition": "A number from 0 to 1 measuring how likely an event is.",
+      "function": "0 is impossible, 1 is certain, 0.5 is an even bet.",
+      "whereItIs": "The reading on the chance scale.",
+      "whyItMatters": "Probability is chance turned into a number you can use."
+    },
+    {
+      "term": "Equally likely",
+      "conceptId": "probability-compute",
+      "hotspotId": "hs-outcome-3",
+      "definition": "Scenarios where each outcome has the same chance.",
+      "function": "Four equal sectors make each outcome 1/4.",
+      "whereItIs": "The four equal sectors of the spinner.",
+      "whyItMatters": "Equal sectors make the math fraction clean."
+    },
+    {
+      "term": "Theoretical vs. experimental",
+      "conceptId": "probability-experiment",
+      "hotspotId": "hs-scale",
+      "definition": "The designed 1/4 vs. what trials actually produce.",
+      "function": "Many trials bring the experiment near the theory.",
+      "whereItIs": "The trial chart converging on the scale.",
+      "whyItMatters": "Experiments verify the numbers you calculate."
+    },
+    {
+      "term": "Impossible / certain",
+      "conceptId": "probability-definition",
+      "hotspotId": "hs-scale",
+      "definition": "The two ends of the chance scale — 0 and 1.",
+      "function": "Impossible = 0; certain = 1.",
+      "whereItIs": "The ends of the scale bar.",
+      "whyItMatters": "Knowing the bounds keeps two fractions from going astray."
+    }
+  ]
+}

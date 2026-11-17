@@ -1,0 +1,120 @@
+{
+  "id": "flower",
+  "componentId": "flower",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/flower/flower.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/flower.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Whole flower",
+    "Cross-section cutaway",
+    "Petals",
+    "Stamens + anthers",
+    "Pistil",
+    "Pollen-dust animation"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-petal",
+      "label": "Petal",
+      "conceptId": "petals-attract-pollinators",
+      "position": [
+        0.3,
+        0.3,
+        0.1
+      ],
+      "description": "The colored, often scented leaves that surround the flower and attract pollinators.",
+      "positionHint": "A broad colored petal on the outer ring.",
+      "color": "#D98A6A",
+      "function": "Attracts pollinators with color and scent."
+    },
+    {
+      "id": "hs-stamen",
+      "label": "Stamen",
+      "conceptId": "stamen-pollen",
+      "position": [
+        -0.2,
+        0.3,
+        0.15
+      ],
+      "description": "The male part of the flower that makes pollen.",
+      "positionHint": "A slender stalk ringed around the center, holding an anther.",
+      "color": "#D9A441",
+      "function": "The male part that makes pollen."
+    },
+    {
+      "id": "hs-anther",
+      "label": "Anther",
+      "conceptId": "stamen-pollen",
+      "position": [
+        -0.2,
+        0.45,
+        0.1
+      ],
+      "description": "The tip of the stamen that makes and holds the pollen powder.",
+      "positionHint": "Small rounded tip on top of the stamen.",
+      "color": "#7FA874",
+      "function": "Produces and holds the pollen."
+    },
+    {
+      "id": "hs-pistil",
+      "label": "Pistil",
+      "conceptId": "pistil-receives-pollen",
+      "position": [
+        0,
+        0.35,
+        0.18
+      ],
+      "description": "The female part of the flower at the center that receives the pollen.",
+      "positionHint": "The upright central column in the middle of the flower.",
+      "color": "#6B85A8",
+      "function": "Receives pollen and is where the seed forms."
+    },
+    {
+      "id": "hs-ovary",
+      "label": "Ovary (seed base)",
+      "conceptId": "flower-makes-seeds",
+      "position": [
+        0,
+        0.05,
+        0.15
+      ],
+      "description": "The base of the pistil that swells into a fruit holding seeds after fertilization.",
+      "positionHint": "The rounded base at the flower's center cut open.",
+      "color": "#B5846A",
+      "function": "Grows into a fruit holding seeds."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A clean floral cross-section diorama - the flower is only softly muted color with restrained petals; strong saturated color reserved for the flat hotspot dots and the speculative pollen-dust.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a single flower cut in cross-section standing clear, showing an outer ring of colored petals, a ring of slender stamens with anthers, a central upright pistil, and an ovary well at the center. Small pollen-dust dots travel from anther to pistil in the animation layer. Restrained warm palette on cream paper. Named nodes: Petal, StamenRing, Anther, Pistil, OvaryBase, PollenDots. Budget 12-16k.",
+  "visual": {
+    "shape": "flower-petals"
+  }
+}

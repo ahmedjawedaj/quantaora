@@ -1,0 +1,65 @@
+{
+  "componentId": "alkali-metal",
+  "questions": [
+    {
+      "id": "alkali-q-valence",
+      "conceptId": "alkali-metal-one-valence-electron",
+      "hotspotId": "hs-alkali-valence",
+      "prompt": "How many valence electrons does an alkali metal atom have?",
+      "options": [
+        "Exactly one",
+        "Eight",
+        "Seven",
+        "Three"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every alkali metal has exactly one valence electron — the single outer electron that drives the whole family's behavior.",
+      "misconception": "Seven is the halogens' valence count and eight is the noble gases' — the alkali metals are the one-electron family, which is precisely what makes them so eager to react."
+    },
+    {
+      "id": "alkali-q-reactivity",
+      "conceptId": "alkali-metal-reactive",
+      "hotspotId": "hs-alkali-reactivity",
+      "prompt": "Why do alkali metals react so violently, for example with water?",
+      "options": [
+        "They lose their one outer electron very easily and fast",
+        "They are extremely heavy",
+        "They have full outer shells to protect",
+        "They are always hot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Losing a single outer electron is easy and fast, leaving a stable full shell — so the reaction happens violently, releasing heat and gas.",
+      "misconception": "Weight and temperature have nothing to do with it — the speed comes from how easy it is to shed that one lonely valence electron."
+    },
+    {
+      "id": "alkali-q-ion",
+      "conceptId": "alkali-metal-one-valence-electron",
+      "hotspotId": "hs-alkali-valence",
+      "prompt": "When an alkali metal like sodium reacts, what does it become?",
+      "options": [
+        "A +1 ion (Na⁺) after losing one electron",
+        "A -1 ion after gaining an electron",
+        "A completely different element",
+        "A neutral gas molecule"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sodium loses its one valence electron and becomes a +1 cation, Na⁺ — with a full, stable shell left behind.",
+      "misconception": "Alkali metals give electrons away, they don't grab them — so they become positive +1 ions, the exact opposite of gaining a negative charge."
+    },
+    {
+      "id": "alkali-q-group",
+      "conceptId": "alkali-metal-group-1",
+      "hotspotId": "hs-alkali-column",
+      "prompt": "Which group of the periodic table are the alkali metals?",
+      "options": [
+        "Group 1, the first column",
+        "Group 18, the last column",
+        "Group 17, near the end",
+        "The middle transition metals"
+      ],
+      "correctIndex": 0,
+      "explanation": "The alkali metals occupy Group 1 — the first column at the far left of the periodic table.",
+      "misconception": "The far right (Group 18) holds the noble gases and Group 17 holds the halogens — the alkali metals specifically own that first left-hand column."
+    }
+  ]
+}

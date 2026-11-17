@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://quaternius.com/packs/ultimatecrops.html",
+  "sourceDownloadUrl": "https://drive.google.com/drive/folders/1uhbi-NWp7pwqOGtraBZurbphyxAvoABZ",
+  "packName": "Ultimate Crops Pack (Quaternius)",
+  "originalFilename": "Mushroom_3.glb",
+  "creator": "Quaternius (quaternius.com, @quaternius)",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attributionRequired": false,
+  "attributionNote": "Not legally required under CC0; project convention credits Quaternius in in-app/docs credits anyway, consistent with the existing quaternius-ultimate-nature import.",
+  "redistributionStatus": "Permitted without restriction under CC0. Redistributed here as a converted GLB derived from the original FBX asset (geometry + material colors only; no textures; no animation/skeleton -- stripped during conversion because assimp's glTF2 exporter failed to write skinned/animated meshes from this pack, static-mesh export via OBJ intermediate succeeded).",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 60688,
+  "sha256": "ea1496b43d2d9a7fe735e933cc2bdb703f74b270f59b16cb6ed37ca211285dad",
+  "validation": {
+    "glbMagicHeaderValid": true,
+    "glTFVersion": 2,
+    "totalLengthMatchesFileSize": true,
+    "scenes": 1,
+    "nodes": 2,
+    "meshes": 1,
+    "materials": 2,
+    "textures": 0,
+    "animations": 0,
+    "accessors": 6,
+    "boundingBoxMin": [
+      -0.12267333269119263,
+      -0.11083702743053436,
+      0
+    ],
+    "boundingBoxMax": [
+      0.11815746128559113,
+      0.11901631206274033,
+      0.2730218470096588
+    ],
+    "renderInspected": false,
+    "notes": "Validated via Node script parsing GLB binary header + JSON chunk only; not opened in a 3D viewer. Bounding box derived from the POSITION accessor min/max. Units are meters (glTF convention) as authored by Quaternius; unverified against real-world scale."
+  },
+  "note": "Mushroom growth stage 3 of 5."
+}

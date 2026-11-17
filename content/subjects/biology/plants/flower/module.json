@@ -1,0 +1,101 @@
+{
+  "id": "flower",
+  "subject": "biology",
+  "title": "Flower",
+  "summary": "A flower is the plant's reproduction center - the part that makes seeds. Explore the petals that attract pollinators, the male stamens that make pollen, and the female pistil that receives pollen so a seed can form.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "flower-makes-seeds",
+    "petals-attract-pollinators",
+    "stamen-pollen",
+    "pistil-receives-pollen",
+    "pollination-seed-making"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Reproduction",
+    "systemOrGroup": "Plant organs",
+    "component": "Flower",
+    "displayPath": "Biology > Plants > Plant Reproduction > Plant organs > Flower"
+  },
+  "crossReferences": [
+    {
+      "label": "Seed (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Seed",
+      "note": "After pollination and fertilization, the flower develops into a fruit that holds the seeds."
+    },
+    {
+      "label": "Pollination (Plants process)",
+      "branch": "plants",
+      "lowLevelItem": "Flower",
+      "note": "Pollination is the process that gets pollen from one flower to the pistil of another."
+    }
+  ],
+  "belongsTo": "Plants > Plant Reproduction > Plant organs",
+  "compareCandidate": {
+    "label": "Stamen vs. pistil",
+    "description": "The stamen is the male part - it makes and holds pollen. The pistil is the female part - it receives the pollen and is where the seed develops after fertilization."
+  },
+  "parts": [
+    "Petal",
+    "Stamen (male part)",
+    "Pistil (female part)",
+    "Anther (pollen maker)",
+    "Sepal",
+    "Seed / ovary"
+  ],
+  "processes": [
+    "Pollination - moving pollen to the pistil",
+    "Making seeds after fertilization",
+    "Attracting pollinators with color and scent"
+  ],
+  "plainLanguageExplanation": "A flower is the part of a plant that makes seeds. It has colorful petals that attract insects and birds, male parts called stamens that make a powder called pollen, and a female part called the pistil. Pollination is when pollen travels from one flower to the pistil of another flower. Once pollen lands on the pistil, fertilization can happen, and the flower's base swells into a fruit holding seeds. Each seed can grow into a new plant.",
+  "keyFacts": [
+    {
+      "label": "Job",
+      "value": "Make seeds so the plant can reproduce"
+    },
+    {
+      "label": "Petals",
+      "value": "Bright, colored leaves that attract pollinators"
+    },
+    {
+      "label": "Stamen",
+      "value": "Male part that makes pollen"
+    },
+    {
+      "label": "Pistil",
+      "value": "Female part that receives pollen; the seed forms here"
+    },
+    {
+      "label": "Pollination",
+      "value": "Pollen traveling from one flower to another's pistil"
+    },
+    {
+      "label": "After fertilization",
+      "value": "The flower base becomes a fruit holding seeds"
+    }
+  ],
+  "whyItMatters": "Flowers are how many plants make the seeds that grow into the next generation. Understanding flowers explains how fruits form, how bees and birds feed, and why many plants depend on pollinators.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Flos",
+  "tagline": "The plant's seed-making center",
+  "didYouKnow": "A flower's colors and scents are signals to pollinators like bees, guiding them to the nectar so they help move pollen between flowers.",
+  "conditions": [
+    "Pollination",
+    "Seed formation"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Reproduction > Plant organs > Flower"
+}

@@ -1,0 +1,65 @@
+{
+  "componentId": "habitat",
+  "questions": [
+    {
+      "id": "hab-q-def",
+      "conceptId": "natural-home",
+      "hotspotId": "hs-home",
+      "prompt": "What is a habitat?",
+      "options": [
+        "The natural home of a species",
+        "The role a species plays",
+        "Only the food a species eats",
+        "The color of an animal"
+      ],
+      "correctIndex": 0,
+      "explanation": "A habitat is the natural home of a species - the place where it lives and finds what it needs.",
+      "misconception": "The role a species plays is its niche, not its habitat - habitat is the home address."
+    },
+    {
+      "id": "hab-q-needs",
+      "conceptId": "food-water-shelter",
+      "hotspotId": "hs-food",
+      "prompt": "Which must a good habitat provide?",
+      "options": [
+        "Food, water, and shelter",
+        "Only shade",
+        "Only dry land",
+        "Only other animals"
+      ],
+      "correctIndex": 0,
+      "explanation": "A good habitat provides food, water, shelter, and space to raise young.",
+      "misconception": "One thing is not enough - a habitat must meet all a species' basic needs."
+    },
+    {
+      "id": "hab-q-change",
+      "conceptId": "habitat-change-loss",
+      "hotspotId": "hs-change",
+      "prompt": "What can happen if a habitat is destroyed?",
+      "options": [
+        "The species living there is threatened or lost",
+        "Nothing changes",
+        "The species grows larger",
+        "New species always appear instantly"
+      ],
+      "correctIndex": 0,
+      "explanation": "If a habitat is destroyed or changed, the species that lived there lose their home and can be threatened with decline or loss.",
+      "misconception": "Habitat loss is serious - losing a home can endanger the whole species that depended on it."
+    },
+    {
+      "id": "hab-q-address",
+      "conceptId": "species-habitat-fit",
+      "hotspotId": "hs-home",
+      "prompt": "Which species-habitat match is correct?",
+      "options": [
+        "A polar bear - frozen Arctic habitat",
+        "A camel - a deep pond",
+        "A fish - a hot desert",
+        "A worm - a high cliff"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each species is adapted to its own habitat - polar bears to cold ice, camels to hot deserts, fish to water.",
+      "misconception": "The fit matters: a species built for ice would not survive a desert, and a fish cannot live on a cliff."
+    }
+  ]
+}

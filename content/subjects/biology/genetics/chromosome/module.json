@@ -1,0 +1,84 @@
+{
+  "id": "chromosome",
+  "subject": "biology",
+  "title": "Chromosome",
+  "summary": "A chromosome is DNA wound tightly around proteins and coiled again and again until nearly two meters of genetic instructions fit inside a microscopic cell nucleus. Explore the classic X-shaped structure — two sister chromatids joined at a centromere, carrying genes arranged along their length — and see how it relates to the loosely spread chromatin the same DNA becomes between cell divisions.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "chromatid",
+    "centromere",
+    "tightly-coiled-dna",
+    "genes-arranged-along-length"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "Molecular Genetics",
+    "systemOrGroup": "Chromosome & DNA Packaging",
+    "component": "Chromosome",
+    "displayPath": "Biology > Genetics > Molecular Genetics > Chromosome & DNA Packaging > Chromosome"
+  },
+  "crossReferences": [
+    {
+      "label": "DNA (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "DNA",
+      "note": "A chromosome is the tightly coiled, compact packaging of the same DNA molecule listed separately as a Genetics branch item; this component's 'Tightly Coiled DNA' hotspot is exactly where the two connect."
+    },
+    {
+      "label": "Gene (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "Gene",
+      "note": "Genes are the individual instruction segments arranged along a chromosome's length, covered as their own Genetics branch item and shown on this model via the 'Genes Arranged Along Its Length' hotspot."
+    },
+    {
+      "label": "Animal Cell (Cell Biology)",
+      "branch": "cell-biology",
+      "component": "animal-cell",
+      "note": "The Animal Cell component's nucleus and DNA hotspots show where chromosomes physically live inside a cell; this component zooms in on the chromosome structure itself."
+    }
+  ],
+  "belongsTo": "Genetics > Molecular Genetics > Chromosome & DNA Packaging",
+  "belongsToHierarchy": {
+    "chain": ["Biology", "Genetics", "Chromosome", "Nucleus", "Cell"],
+    "displayPath": "Biology > Genetics > Chromosome > Nucleus > Cell",
+    "note": "Physical/conceptual containment chain, in the same format as the spec's own mitochondrion example (organelle -> cell -> tissue -> organism): a chromosome is the compact form of a cell's DNA, stored inside the nucleus, which sits inside the cell."
+  },
+  "compareCandidate": {
+    "label": "Chromosome vs. Chromatin",
+    "description": "The same DNA, packaged two different ways: chromatin is DNA loosely spread through the nucleus so genes can be read and used, while a chromosome is that same DNA coiled tightly into its compact X-shape — a form it only takes right before and during cell division."
+  },
+  "parts": [
+    "Chromatid",
+    "Centromere",
+    "Tightly coiled DNA",
+    "Genes arranged along its length"
+  ],
+  "processes": [
+    "Mitosis (cell division)",
+    "Meiosis (formation of egg and sperm cells)",
+    "DNA replication",
+    "Inheritance / heredity",
+    "Gene expression (reading genes to build proteins)"
+  ],
+  "plainLanguageExplanation": "A chromosome is a tightly wound bundle of DNA that stores an organism's genetic instructions. Think of DNA as an incredibly long instruction manual — if you stretched out all the DNA in just one human cell, it would measure about 2 meters. To fit inside a cell's tiny nucleus, that DNA gets wound around proteins and coiled up again and again, like thread wrapped tightly around a spool, then folded further until it becomes a compact structure: the chromosome. Right before a cell divides, chromosomes coil up so tightly they become visible under a microscope as the classic X-shaped structure most people picture. The rest of the time, that same DNA is unwound and spread loosely through the nucleus (called chromatin) so the cell can actually read and use the instructions written on it.",
+  "keyFacts": [
+    { "label": "Human chromosome count", "value": "A typical human body cell has 46 chromosomes, arranged in 23 pairs (one chromosome in each pair from each parent)." },
+    { "label": "Made of", "value": "DNA wound tightly around proteins called histones, then coiled further into a compact structure." },
+    { "label": "Sex cells are different", "value": "Human egg and sperm cells each carry only 23 chromosomes (half the usual number), so they combine to 46 at fertilization." },
+    { "label": "X-shape is temporary", "value": "The familiar X-shape only appears when a cell is preparing to divide; most of the time DNA is loosely spread out as chromatin, not coiled into that shape." },
+    { "label": "Genes live on chromosomes", "value": "A gene is one specific segment of instructions along a chromosome's DNA; a single chromosome carries many genes strung along its length." },
+    { "label": "Location", "value": "Chromosomes are found inside the nucleus of a cell (in humans and other eukaryotes)." }
+  ],
+  "whyItMatters": "Chromosomes are how every living thing passes on its genetic blueprint from one generation to the next — every trait a person inherits, from eye color to blood type, is written somewhere on their 46 chromosomes. When chromosomes don't copy or separate correctly during cell division, it can cause genetic conditions — for example, an extra copy of chromosome 21 causes Down syndrome. Doctors and scientists use a picture of a person's full chromosome set, called a karyotype, to spot these kinds of differences. Understanding chromosomes is also the foundation for understanding heredity, genetic testing, and fields like genetic counseling and biotechnology.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

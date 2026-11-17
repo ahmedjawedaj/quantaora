@@ -1,0 +1,99 @@
+{
+  "id": "population",
+  "subject": "biology",
+  "title": "Population",
+  "summary": "A population is a group of the same species living in the same area at the same time - like all the robins in a park. Explore how populations grow, shrink, and are counted.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "same-species-group",
+    "population-growth-shrink",
+    "population-limiting-factors",
+    "counting-populations"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Population",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Population"
+  },
+  "crossReferences": [
+    {
+      "label": "Organism (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Organism",
+      "note": "A population is made up of individual organisms of the same species."
+    },
+    {
+      "label": "Community (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Community",
+      "note": "Different populations living together in one area form a community."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Population",
+  "compareCandidate": {
+    "label": "Population vs. community",
+    "description": "A population is one species in an area. A community is all the different populations (all species) living together there."
+  },
+  "parts": [
+    "Same species",
+    "Same area",
+    "Growth and shrinkage",
+    "Limiting factors"
+  ],
+  "processes": [
+    "Growing when births outnumber deaths",
+    "Shrinking when deaths outnumber births",
+    "Being limited by resources"
+  ],
+  "plainLanguageExplanation": "A population is a group of organisms of the same species that live in the same place at the same time. All the dandelions in one field, all the squirrels in one forest - each is a population. Populations grow when births and new arrivals outnumber deaths and departures, and they shrink when the reverse happens. Population size can be limited by food, water, space, disease, and predators. Studying populations helps us understand how species are doing and what an area can support.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "A group of the same species in the same place at the same time"
+    },
+    {
+      "label": "Grows when",
+      "value": "Births and arrivals outnumber deaths and departures"
+    },
+    {
+      "label": "Shrinks when",
+      "value": "Deaths and departures outnumber births and arrivals"
+    },
+    {
+      "label": "Limits",
+      "value": "Food, water, space, disease, and predators limit size"
+    },
+    {
+      "label": "Level",
+      "value": "Population -> community -> ecosystem"
+    },
+    {
+      "label": "Example",
+      "value": "All the robins in a park are a robin population"
+    }
+  ],
+  "whyItMatters": "Populations are how we count life and track whether a species is doing well. Understanding populations explains why some animals boom and crash, why invasive species spread, and how scientists measure the health of the natural world.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "A group of one species",
+  "didYouKnow": "The human population recently passed 8 billion people - that's one population of one species covering the whole planet.",
+  "conditions": [
+    "Invasive species",
+    "Overpopulation",
+    "Population decline"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Population",
+  "plain": "A population is a group of organisms of the same species that live in the same place at the same time. All the dandelions in one field, all the squirrels in one forest - each is a population. Populations grow when births and new arrivals outnumber deaths and departures, and they shrink when the reverse happens. Population size can be limited by food, water, space, disease, and predators. Studying populations helps us understand how species are doing and what an area can support."
+}

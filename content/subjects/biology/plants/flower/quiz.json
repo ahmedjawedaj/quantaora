@@ -1,0 +1,65 @@
+{
+  "componentId": "flower",
+  "questions": [
+    {
+      "id": "flower-q-petal",
+      "conceptId": "petals-attract-pollinators",
+      "hotspotId": "hs-petal",
+      "prompt": "What is the main job of a flower's petals?",
+      "options": [
+        "To attract pollinators like bees with color and scent",
+        "To absorb sunlight and make food",
+        "To soak up water from the soil",
+        "To hold the plant in the ground"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brightly colored, scented petals are a signal to pollinators, guiding them to the flower so they carry pollen between flowers.",
+      "misconception": "Some learners think petals are just for looks or do the leaf's job of making food. Petals' real job is attracting pollinators."
+    },
+    {
+      "id": "flower-q-stamen",
+      "conceptId": "stamen-pollen",
+      "hotspotId": "hs-stamen",
+      "prompt": "What does the stamen make?",
+      "options": [
+        "A powder called pollen",
+        "The sugary nectar only",
+        "The seeds directly",
+        "The roots of the plant"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stamen is the male part of the flower. It makes and holds pollen, usually at the anther on its tip.",
+      "misconception": "Some think the stamen makes seeds or nectar. The stamen's job is to make pollen, which must reach the pistil for a seed to form."
+    },
+    {
+      "id": "flower-q-pistil",
+      "conceptId": "pistil-receives-pollen",
+      "hotspotId": "hs-pistil",
+      "prompt": "What is the job of the pistil?",
+      "options": [
+        "To receive the pollen so a seed can form",
+        "To make the pollen powder",
+        "To attract birds by color",
+        "To carry water up the stem"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pistil is the female part. Pollen lands on its top, fertilization happens, and seeds form in its base.",
+      "misconception": "Some learners confuse the pistil with the stamen. The stamen makes pollen; the pistil receives it and is where the seed forms."
+    },
+    {
+      "id": "flower-q-seed",
+      "conceptId": "flower-makes-seeds",
+      "hotspotId": "hs-ovary",
+      "prompt": "After pollination and fertilization, what does the flower's base become?",
+      "options": [
+        "A fruit that holds seeds",
+        "A new set of roots",
+        "A river of nectar",
+        "A taller stem"
+      ],
+      "correctIndex": 0,
+      "explanation": "After pollen reaches the pistil and fertilizes it, the flower's base (ovary) swells into a fruit that holds the new seeds.",
+      "misconception": "Some think the whole flower just falls off or becomes a leaf. Instead the flower's base turns into a fruit holding the seeds for the next generation."
+    }
+  ]
+}

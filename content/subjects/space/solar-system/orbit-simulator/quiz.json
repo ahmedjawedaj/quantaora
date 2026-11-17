@@ -1,0 +1,80 @@
+{
+  "componentId": "orbit-simulator",
+  "questions": [
+    {
+      "id": "orbitsim-q-why-stay",
+      "conceptId": "gravity-holds-planets-in-orbit",
+      "hotspotId": "hs-gravity-tug",
+      "prompt": "What keeps a planet orbiting the Sun instead of flying off into space?",
+      "options": [
+        "The Sun's light pushes the planet along",
+        "Gravity pulls it inward while its own forward motion carries it past, and the two balance into a loop",
+        "Invisible rails guide each planet",
+        "The planets are magnetically stuck to the Sun"
+      ],
+      "correctIndex": 1,
+      "explanation": "A planet keeps going forward on its own; the Sun's gravity constantly bends that motion inward. Together, forward motion and inward pull trace a closed loop — the orbit.",
+      "misconception": "It is natural to imagine an orbit as a rail or a magnetic stick, but neither exists: gravity keeps bending the planet's path inward, and the orbit is really an endless fall that keeps missing the Sun."
+    },
+    {
+      "id": "orbits-sim-q-fall-drag",
+      "conceptId": "farther-orbits-slower",
+      "hotspotId": "hs-jupiter-orbit",
+      "prompt": "Why does Neptune's orbit take so much longer than Mercury's?",
+      "options": [
+        "Neptune is heavier and therefore moves faster",
+        "Distance sets both the size of the path and the speed along it: Neptune's loop is many times wider and Neptune drifts along it more slowly",
+        "The Sun's gravity only reaches the inner planets",
+        "Neptune stops and restarts during its year"
+      ],
+      "correctIndex": 1,
+      "explanation": "Being farther out gives a planet two penalties at once: a much longer path to travel, and a slower speed along it. Together they stretch Neptune's year to about 165 Earth years against Mercury's 88 days.",
+      "misconception": "Some learners think only the longer path matters, or that the Sun 'pulls harder' on nearby planets. In fact extra distance both widens the loop and slows the drift — the two combine into the enormous year."
+    },
+    {
+      "id": "orbits-sim-q-shape",
+      "conceptId": "orbits-are-ellipses",
+      "hotspotId": "hs-earth-orbit",
+      "prompt": "What shape do planet orbits follow?",
+      "options": [
+        "Perfect circles with the Sun at the exact center",
+        "Ellipses with the Sun at one focus",
+        "Figure-eights looping around the Sun",
+        "Spirals that slowly wind outward"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each planet follows an ellipse — a slightly squashed circle — with the Sun at one of its two focus points, which is why a planet's distance from the Sun changes a little during its year.",
+      "misconception": "Most diagrams show perfect circles, but real orbits are ellipses. For planets the squash is tiny; for comets it is huge, and their stretched ellipses dive in close to the Sun then swing far out."
+    },
+    {
+      "id": "orbits-sim-q-belt",
+      "conceptId": "asteroid-belt-mars-jupiter",
+      "hotspotId": "hs-asteroid-belt",
+      "prompt": "Where is the asteroid belt?",
+      "options": [
+        "Between Mars and Jupiter",
+        "Between Earth and Mars",
+        "Beyond Neptune",
+        "Just inside Mercury's orbit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The asteroid belt orbits in the wide gap between Mars (1.5 AU) and Jupiter (5.2 AU) — the solar system's largest orbital gap — made of rocky leftovers that never joined to form a planet.",
+      "misconception": "The Kuiper Belt beyond Neptune holds icy worlds like Pluto; confusing the asteroid belt (rocky, Mars–Jupiter gap) with the Kuiper Belt (icy, beyond Neptune) is a common mix-up."
+    },
+    {
+      "id": "orbits-sim-q-cut-gravity",
+      "conceptId": "gravity-holds-orbits",
+      "hotspotId": "hs-sun-center",
+      "prompt": "If the Sun's gravity suddenly switched off, what would Earth do?",
+      "options": [
+        "Stop in place",
+        "Fly off in a straight line in whatever direction it was moving at that moment",
+        "Orbit faster",
+        "Spiral down into where the Sun used to be"
+      ],
+      "correctIndex": 1,
+      "explanation": "With no inward pull, nothing bends Earth's motion anymore — it would continue in a straight line along the direction it was heading when the force vanished.",
+      "misconception": "It feels right that 'gravity stops' should make a planet fall in — but falling in was never the planet's natural state. Straight-line motion is; gravity is what bends that straight line into a loop."
+    }
+  ]
+}

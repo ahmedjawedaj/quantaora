@@ -1,0 +1,57 @@
+{
+  "componentId": "plant-cell",
+  "questions": [
+    {
+      "id": "plant-cell-q1",
+      "prompt": "What structure gives a plant cell its rigid, boxy shape and helps it resist bursting?",
+      "options": [
+        "Cell wall",
+        "Cell membrane",
+        "Nucleus",
+        "Vacuole"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cell wall is a tough layer made of cellulose fibers that surrounds the cell membrane, giving the cell a fixed shape and letting it resist the internal pressure of water without bursting.",
+      "misconception": "Many learners think the cell membrane — which every cell, plant or animal, has — is the rigid part. But the cell membrane is thin and flexible; it's the cell wall, found only in plant cells (not animal cells), that provides the rigid, boxy shape."
+    },
+    {
+      "id": "plant-cell-q2",
+      "prompt": "Why do plant cells contain chloroplasts while animal cells do not?",
+      "options": [
+        "Chloroplasts capture sunlight to make food through photosynthesis, which plants need because they can't eat food the way animals do",
+        "Chloroplasts store water for the cell",
+        "Chloroplasts break down the cell's waste materials",
+        "Chloroplasts help the cell divide into two cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plants can't move around to find food, so they make their own using sunlight, water, and carbon dioxide in a process called photosynthesis, which happens inside chloroplasts. Animals get energy by eating food instead, so their cells never evolved chloroplasts.",
+      "misconception": "Some learners mix up chloroplasts with mitochondria because both deal with energy. But chloroplasts capture light energy and build food (photosynthesis), while mitochondria — present in both plant and animal cells — release energy from that food (cellular respiration)."
+    },
+    {
+      "id": "plant-cell-q3",
+      "prompt": "What is the main job of the large central vacuole in a plant cell?",
+      "options": [
+        "It stores water and other materials, and its water pressure pushes against the cell wall to help keep the plant firm and upright",
+        "It produces the cell's energy",
+        "It contains the cell's DNA",
+        "It builds the cell's proteins"
+      ],
+      "correctIndex": 0,
+      "explanation": "The central vacuole fills with water, creating internal pressure (turgor pressure) that pushes outward against the cell wall, similar to how air pressure keeps a balloon firm. This is a big reason a plant wilts when it doesn't get enough water — the vacuoles lose pressure.",
+      "misconception": "A common mistake is treating the vacuole as empty, inactive space, or confusing it with the nucleus. It's actually an active storage and pressure-support structure — the part that holds the cell's DNA and gives instructions is the nucleus, not the vacuole."
+    },
+    {
+      "id": "plant-cell-q4",
+      "prompt": "If you compared a plant cell and an animal cell side by side, which set of structures would appear ONLY in the plant cell?",
+      "options": [
+        "Cell wall, chloroplasts, and a large central vacuole",
+        "Nucleus, mitochondria, and ribosomes",
+        "Cell membrane and cytoplasm",
+        "Golgi apparatus and endoplasmic reticulum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nucleus, mitochondria, ribosomes, cell membrane, cytoplasm, Golgi apparatus, and endoplasmic reticulum all appear in both plant and animal cells. What sets a plant cell apart is its cell wall, its chloroplasts, and typically one large central vacuole (animal cells may have small vacuoles, but not one dominant one).",
+      "misconception": "Learners often assume mitochondria are plant-only because they're taught right alongside chloroplasts in the same lesson. In fact, mitochondria appear in almost all eukaryotic cells, plant and animal alike — it's specifically the wall, the chloroplasts, and the big central vacuole that make plant cells distinct."
+    }
+  ]
+}

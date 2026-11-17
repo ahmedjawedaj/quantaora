@@ -1,0 +1,38 @@
+{
+  "componentId": "lysosome",
+  "terms": [
+    {
+      "term": "Lysosome",
+      "conceptId": "digests-waste",
+      "hotspotId": "hs-sac",
+      "definition": "A membrane sac filled with enzymes that breaks down waste and old cell parts.",
+      "function": "Digests and recycles materials to keep the cell clean.",
+      "whereItIs": "Scattered in the cytoplasm, made from Golgi packages.",
+      "whyItMatters": "It is the cell's cleanup and recycling crew.",
+      "relatedConcept": "enzymes-in-sac",
+      "quizId": "lys-q-job"
+    },
+    {
+      "term": "Enzyme",
+      "conceptId": "enzymes-in-sac",
+      "hotspotId": "hs-enzymes",
+      "definition": "A protein that speeds up chemical reactions, like breaking down waste.",
+      "function": "Cuts large molecules into smaller pieces.",
+      "whereItIs": "Filling the inside of the lysosome.",
+      "whyItMatters": "They are the powerful tools that do the actual digesting.",
+      "relatedConcept": "digests-waste",
+      "quizId": "lys-q-enzyme"
+    },
+    {
+      "term": "Recycling",
+      "conceptId": "recycles-parts",
+      "hotspotId": "hs-recycle",
+      "definition": "Recovering the useful small pieces left after digestion.",
+      "function": "Returns reusable molecules to the cell.",
+      "whereItIs": "At the lysosome's exit side.",
+      "whyItMatters": "It lets the cell save and reuse its own materials.",
+      "relatedConcept": "digests-waste",
+      "quizId": "lys-q-recycle"
+    }
+  ]
+}

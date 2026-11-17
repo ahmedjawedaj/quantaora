@@ -1,0 +1,46 @@
+{
+  "componentId": "displacement",
+  "terms": [
+    {
+      "term": "Displacement",
+      "conceptId": "displacement-change-in-position",
+      "hotspotId": "hs-displacement-arrow",
+      "definition": "The straight-line change from an initial position to a final position.",
+      "function": "Reduces a whole journey to one net arrow that carries both a size and a direction.",
+      "whereItIs": "The orange arrow drawn between the start and target dots on the grid.",
+      "whyItMatters": "It's the quantity that velocity is built from, and it can be zero even after a long trip.",
+      "relatedConcept": "distance",
+      "quizId": "displacement-q-definition"
+    },
+    {
+      "term": "Vector",
+      "conceptId": "displacement-vector",
+      "hotspotId": "hs-displacement-arrow",
+      "definition": "A quantity with both a magnitude (size) and a direction.",
+      "whyItMatters": "Direction is part of the information — 2 m forward and 2 m backward are not the same vector.",
+      "whereItIs": "Every arrow in the model, drawn with a head to show its direction.",
+      "relatedConcept": "displacement-change-in-position",
+      "quizId": "displacement-q-vector"
+    },
+    {
+      "term": "Zero displacement",
+      "conceptId": "displacement-net-result",
+      "hotspotId": "hs-zero-test",
+      "definition": "The case where the final position equals the initial position, so the net arrow has no length.",
+      "whyItMatters": "It's the classic proof that distance and displacement are different ideas.",
+      "whereItIs": "Shown as a overlap badge when the target dot sits on the start dot.",
+      "relatedConcept": "displacement-vector",
+      "quizId": "displacement-q-zero"
+    },
+    {
+      "term": "Tip-to-tail",
+      "conceptId": "displacement-add-tip-to-tail",
+      "hotspotId": "hs-displacement-arrow",
+      "definition": "A way of adding vectors by placing the tail of each next arrow on the head of the previous one.",
+      "whyItMatters": "It turns many journey legs into a single net arrow the model can compare with a direct route.",
+      "whereItIs": "The ghosted leg arrows that tips line up on the grid before merging.",
+      "relatedConcept": "displacement-vector",
+      "quizId": "displacement-q-add"
+    }
+  ]
+}

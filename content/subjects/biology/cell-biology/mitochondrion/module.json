@@ -1,0 +1,35 @@
+{
+  "id": "mitochondrion",
+  "subject": "biology",
+  "title": "Mitochondrion",
+  "summary": "The mitochondrion is the powerhouse of the cell - a bean-shaped organelle that turns food molecules into a usable form of energy the cell can spend. Explore its folded inner membrane, where much of the energy conversion happens, and see how this organelle powers everything a cell does.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": ["cellular-respiration-energy","double-membrane-structure","inner-membrane-cristae","atp-energy"],
+  "type": "model",
+  "estimatedMinutes": 11,
+  "hierarchyPath": {"subject":"Biology","branch":"Cell Biology","unit":"Cell Structures","systemOrGroup":"Cell structures (organelles)","component":"Mitochondrion","displayPath":"Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Mitochondrion"},
+  "crossReferences": [
+    {"label":"Cytoplasm (Cell Biology)","branch":"cell-biology","lowLevelItem":"Cytoplasm","note":"The first steps of breaking down sugar happen in the cytoplasm; the mitochondrion finishes the job to produce the most energy."},
+    {"label":"Chloroplast (Cell Biology)","branch":"cell-biology","lowLevelItem":"Chloroplast","note":"In plant cells, chloroplasts capture sunlight to build sugar; mitochondria then release energy from that sugar - a great compare."}
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {"label":"Mitochondrion vs. chloroplast","description":"Mitochondria release energy by breaking down food in all eukaryotic cells. Chloroplasts, only in plants, capture sunlight to make food. One produces energy from food; the other makes food from light."},
+  "parts": ["Outer membrane","Inner membrane with folds (cristae)","Matrix (inner space)","Energy-converting machinery"],
+  "processes": ["Cellular respiration","Releasing usable energy from food","Producing ATP"],
+  "plainLanguageExplanation": "The mitochondrion is called the powerhouse of the cell because it turns food into the energy the cell can actually spend. A cell takes in small sugar molecules made of energy, and the mitochondrion breaks down the sugar using oxygen, releasing energy that the cell packages into a form called ATP. The mitochondria are wrapped in two membranes; the inner membrane is folded into many shelves called cristae, which make a huge surface so the cell's energy machinery can fit and work fast. A single cell can have hundreds, and muscle cells have lots, because they need the most energy.",
+  "keyFacts": [
+    {"label":"Nickname","value":"The powerhouse of the cell"},
+    {"label":"Main job","value":"Releases usable energy from food using cellular respiration"},
+    {"label":"Membrane","value":"Two membranes; the inner one folds into shelves called cristae"},
+    {"label":"Energy form","value":"Packs energy into a small rechargeable molecule called ATP"},
+    {"label":"Oxygen","value":"Needs oxygen to release energy efficiently - that's why we breathe"},
+    {"label":"Lots of them","value":"Cells with high energy needs, like muscle cells, are packed with mitochondria"}
+  ],
+  "whyItMatters": "Everything a cell does - move, make proteins, keep its balance - needs energy, and the mitochondrion is where that energy becomes usable. Understanding mitochondria explains why we breathe, why muscles can't work nonstop, why plants have both mitochondria and chloroplasts, and why a cell that can't make energy dies.",
+  "files": {"lesson":"lesson.md","quiz":"quiz.json","modelMetadata":"model-metadata.json","glossary":"glossary.json","standards":"standards.json"},
+  "scientificName": "Mitochondrion (plural: mitochondria)",
+  "tagline": "The powerhouse of the cell",
+  "didYouKnow": "A muscle cell can hold thousands of mitochondria because hard-working muscle needs a steady stream of energy.",
+  "conditions": ["Cellular respiration","ATP production","Energy release"]
+}

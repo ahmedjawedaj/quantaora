@@ -1,0 +1,65 @@
+{
+  "componentId": "period",
+  "questions": [
+    {
+      "id": "period-q-row",
+      "conceptId": "period-is-row",
+      "hotspotId": "hs-period-row",
+      "prompt": "What is a period on the periodic table?",
+      "options": [
+        "A horizontal row of elements",
+        "A vertical column of elements",
+        "A single element's card",
+        "A group of gases"
+      ],
+      "correctIndex": 0,
+      "explanation": "A period is a horizontal row. The rows run across the table, while the columns are the groups.",
+      "misconception": "Rows and columns are the classic swap — the vertical columns are groups, and the horizontal rows are periods."
+    },
+    {
+      "id": "period-q-shells",
+      "conceptId": "period-same-shell-count",
+      "hotspotId": "hs-period-shells",
+      "prompt": "What does the period number of an element tell you?",
+      "options": [
+        "How many electron shells its atoms have",
+        "How many protons it has",
+        "How many valence electrons it has",
+        "How reactive it is"
+      ],
+      "correctIndex": 0,
+      "explanation": "The period number equals the number of electron shells — elements in period 3 have three shells, and so on.",
+      "misconception": "Valence electron count is a group trait (column), not a period trait — the period counts shells, which change down each column."
+    },
+    {
+      "id": "period-q-sweep",
+      "conceptId": "period-metals-to-nonmetals",
+      "hotspotId": "hs-period-sweep",
+      "prompt": "As you move left to right across a period, what happens to the elements?",
+      "options": [
+        "They shift from metals to metalloids to nonmetals",
+        "They all become more reactive",
+        "They all become gases",
+        "Nothing changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Across a period, the elements graduate from the metals on the left, through the in-between metalloids, to the nonmetals on the right.",
+      "misconception": "Reactivity jumps around across a row (it is a group trait), and state of matter varies too — the reliable pattern across a period is metal to nonmetal."
+    },
+    {
+      "id": "period-q-unlike-groups",
+      "conceptId": "period-same-shell-count",
+      "hotspotId": "hs-period-row",
+      "prompt": "Why do elements in the same period NOT behave alike?",
+      "options": [
+        "They have different numbers of valence electrons",
+        "They are all in different rows",
+        "They have no shells",
+        "They are all the same element"
+      ],
+      "correctIndex": 0,
+      "explanation": "Across a period each element adds one more proton and electron, so the valence electron count changes every step — and behavior changes with it.",
+      "misconception": "Sharing a row might feel like sharing traits, but the period only shares shell count; valence electrons differ across the row, so behavior differs too."
+    }
+  ]
+}

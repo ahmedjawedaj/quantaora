@@ -1,0 +1,49 @@
+{
+  "componentId": "stomach",
+  "terms": [
+    {
+      "term": "Stomach",
+      "conceptId": "stomach-churns-food",
+      "hotspotId": "hs-stomach-bag",
+      "definition": "A J-shaped muscular bag that churns food and starts breaking it down.",
+      "function": "Mixes food with acid and enzymes.",
+      "whereItIs": "Upper abdomen, below the esophagus.",
+      "whyItMatters": "It is where digestion really begins.",
+      "relatedConcept": "chyme-to-intestine",
+      "quizId": "stm-q-job"
+    },
+    {
+      "term": "Gastric juice",
+      "conceptId": "acid-and-enzymes",
+      "hotspotId": "hs-acid",
+      "definition": "The acid and enzymes produced by the stomach lining.",
+      "function": "Breaks down food and kills germs.",
+      "whereItIs": "Inside the stomach.",
+      "whyItMatters": "It starts protein digestion and protects the body.",
+      "relatedConcept": "stomach-churns-food",
+      "quizId": "stm-q-acid"
+    },
+    {
+      "term": "Chyme",
+      "conceptId": "chyme-to-intestine",
+      "hotspotId": "hs-chyme",
+      "definition": "The soupy mixture of partly digested food.",
+      "function": "Moves from the stomach to the small intestine.",
+      "whereItIs": "In the stomach, then the small intestine.",
+      "whyItMatters": "It is the form food takes as digestion proceeds.",
+      "relatedConcept": "stomach-churns-food",
+      "quizId": "stm-q-chyme"
+    },
+    {
+      "term": "Mucus layer",
+      "conceptId": "protein-breakdown",
+      "hotspotId": "hs-mucus",
+      "definition": "The protective coating on the stomach wall.",
+      "function": "Protects the stomach from its own acid.",
+      "whereItIs": "Lining the inner stomach wall.",
+      "whyItMatters": "Without it the stomach would digest itself.",
+      "relatedConcept": "acid-and-enzymes",
+      "quizId": "stm-q-mucus"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "componentId": "bacteria",
+  "terms": [
+    {
+      "term": "Bacterium",
+      "conceptId": "bacteria-single-celled",
+      "hotspotId": "hs-cellwall",
+      "definition": "A tiny living organism made of a single cell, with no nucleus.",
+      "function": "A single living thing that can grow, feed, and reproduce.",
+      "whereItIs": "Almost everywhere - soil, water, air, and our bodies.",
+      "whyItMatters": "They are the most common life form and shape our health and the planet.",
+      "relatedConcept": "bacteria-cell-structure",
+      "quizId": "bacteria-q-what"
+    },
+    {
+      "term": "Binary fission",
+      "conceptId": "binary-fission-reproduction",
+      "hotspotId": "hs-divide",
+      "definition": "The way a bacterium reproduces by copying its DNA and splitting in two.",
+      "function": "Turns one cell into two identical cells.",
+      "whereItIs": "Inside each bacterium as it divides.",
+      "whyItMatters": "It is how bacteria multiply quickly.",
+      "relatedConcept": "bacteria-cell-structure",
+      "quizId": "bacteria-q-reproduce"
+    },
+    {
+      "term": "Cell wall",
+      "conceptId": "bacteria-cell-structure",
+      "hotspotId": "hs-cellwall",
+      "definition": "The firm outer layer of a bacterium that protects and shapes it.",
+      "function": "Supports and shields the cell.",
+      "whereItIs": "At the outer surface of the bacterium.",
+      "whyItMatters": "It is one reason bacteria are tough.",
+      "relatedConcept": "bacteria-single-celled",
+      "quizId": "bacteria-q-location"
+    },
+    {
+      "term": "Beneficial bacteria",
+      "conceptId": "useful-and-harmful-bacteria",
+      "hotspotId": "hs-divide",
+      "definition": "Bacteria that are helpful, such as those that help digest food or make yogurt.",
+      "function": "Help our bodies and make useful food products.",
+      "whereItIs": "In our gut, the soil, and foods like yogurt.",
+      "whyItMatters": "Most bacteria are harmless or beneficial, not disease-causing.",
+      "relatedConcept": "bacteria-single-celled",
+      "quizId": "bacteria-q-useful"
+    }
+  ]
+}

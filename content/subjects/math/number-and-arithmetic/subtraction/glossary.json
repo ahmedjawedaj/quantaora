@@ -1,0 +1,50 @@
+{
+  "componentId": "subtraction",
+  "terms": [
+    {
+      "term": "Minuend",
+      "conceptId": "subtraction-take-away",
+      "hotspotId": "hs-minuend",
+      "definition": "The starting amount in a subtraction problem, from which something is taken.",
+      "function": "In 8 − 3, the 8 is the minuend.",
+      "whereItIs": "The full row of 8 cubes on the mat.",
+      "whyItMatters": "Naming the parts of subtraction helps you read and set up problems correctly."
+    },
+    {
+      "term": "Subtrahend",
+      "conceptId": "subtraction-take-away",
+      "hotspotId": "hs-subtrahend",
+      "definition": "The amount being taken away or subtracted.",
+      "function": "In 8 − 3, the 3 is the subtrahend.",
+      "whereItIs": "The 3 cubes lifted into the removal tray.",
+      "whyItMatters": "It is the part that separates 'taking away' from 'what is left'."
+    },
+    {
+      "term": "Difference",
+      "conceptId": "subtraction-take-away",
+      "hotspotId": "hs-difference",
+      "definition": "The result of a subtraction — what is left, or how much more one amount is.",
+      "function": "In 8 − 3, the 5 is the difference.",
+      "whereItIs": "The 5 cubes remaining on the mat.",
+      "whyItMatters": "It answers both 'how many left?' and 'how many more?' questions."
+    },
+    {
+      "term": "Borrowing",
+      "conceptId": "subtraction-borrowing",
+      "hotspotId": "hs-left-jump",
+      "definition": "Regrouping one unit of a higher place into ten units of the next lower place during column subtraction.",
+      "function": "Lets you subtract when a top digit is smaller than the digit below it.",
+      "whereItIs": "The regrouping step in the column subtraction layer.",
+      "whyItMatters": "It is place value working in reverse and keeps column subtraction accurate."
+    },
+    {
+      "term": "Inverse operation",
+      "conceptId": "subtraction-inverse-add",
+      "hotspotId": "hs-difference",
+      "definition": "An operation that undoes another — subtraction undoes addition.",
+      "function": "Lets you check a subtraction by adding the difference and subtrahend back.",
+      "whereItIs": "The relationship shown between the cube groups and the number facts.",
+      "whyItMatters": "Understanding inverses builds fast, reliable number facts."
+    }
+  ]
+}

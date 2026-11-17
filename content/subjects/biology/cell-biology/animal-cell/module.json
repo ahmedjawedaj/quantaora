@@ -1,0 +1,22 @@
+{
+  "id": "animal-cell",
+  "subject": "biology",
+  "title": "Animal Cell",
+  "summary": "Explore the eukaryotic animal cell as a living factory: identify the membrane, cytoplasm, nucleus, and organelles, explain what each does, and compare an animal cell to a plant cell.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "cell-membrane",
+    "cytoplasm",
+    "nucleus",
+    "dna",
+    "mitochondrion",
+    "ribosome",
+    "endoplasmic-reticulum",
+    "golgi-apparatus",
+    "lysosome",
+    "cytoskeleton"
+  ],
+  "type": "model",
+  "estimatedMinutes": 20
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "leaf",
+  "questions": [
+    {
+      "id": "leaf-q-job",
+      "conceptId": "leaf-makes-food",
+      "hotspotId": "hs-leaf-blade",
+      "prompt": "What is the main job of a leaf?",
+      "options": [
+        "To make food for the plant by photosynthesis",
+        "To soak up water from the ground",
+        "To anchor the plant in the soil",
+        "To carry seeds and fruit"
+      ],
+      "correctIndex": 0,
+      "explanation": "A leaf is the plant's food factory: it catches sunlight and uses it to make sugar food through photosynthesis.",
+      "misconception": "Some learners think the leaf's job is to soak water or hold a plant in place, but those are jobs for the root. The leaf's main job is making food."
+    },
+    {
+      "id": "leaf-q-photosynthesis",
+      "conceptId": "leaf-photosynthesis",
+      "hotspotId": "hs-chlorophyll",
+      "prompt": "What does a leaf use to make food, and what does it release?",
+      "options": [
+        "Water, carbon dioxide, and sunlight; and releases oxygen",
+        "Only oxygen, and releases nothing",
+        "Only water, and releases sugar",
+        "Water and soil, and releases rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "A leaf combines sunlight energy, water, and carbon dioxide to make sugar, and it releases oxygen as a byproduct.",
+      "misconception": "Learners often think a plant makes food only from water or from soil. In fact it needs sunlight plus water plus carbon dioxide, and it gives off oxygen."
+    },
+    {
+      "id": "leaf-q-color",
+      "conceptId": "chlorophyll-captures-light",
+      "hotspotId": "hs-chlorophyll",
+      "prompt": "Why does a leaf look green?",
+      "options": [
+        "Because it contains a green pigment called chlorophyll",
+        "Because it is painted green",
+        "Because the soil turns it green",
+        "Because it makes oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leaves are green from chlorophyll, the pigment inside chloroplasts that captures sunlight for photosynthesis.",
+      "misconception": "Some think leaves are green just by luck or that green comes from oxygen or soil. The green color comes from chlorophyll, the light-capturing pigment."
+    },
+    {
+      "id": "leaf-q-wide",
+      "conceptId": "leaf-wide-surface",
+      "hotspotId": "hs-leaf-blade",
+      "prompt": "Why are most leaves flat and broad?",
+      "options": [
+        "A wide surface catches more sunlight",
+        "To look pretty to other plants",
+        "To hold pools of water",
+        "To fly away in the wind"
+      ],
+      "correctIndex": 0,
+      "explanation": "A broad, flat leaf catches the most sunlight, which lets the plant make the most food.",
+      "misconception": "Some learners think broad leaves are only for looks, catching rain, or flying away. Their real purpose is to catch as much light as possible for making food."
+    },
+    {
+      "id": "leaf-q-veins",
+      "conceptId": "veins-carry-water-and-food",
+      "hotspotId": "hs-vein",
+      "prompt": "What do the veins of a leaf do?",
+      "options": [
+        "Carry water in and food out",
+        "Make the leaf green",
+        "Make the leaf stiffer with wax",
+        "Store sunlight for winter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Veins are tiny tubes that bring water in from the stem and carry the sugar food made in the leaf out to the rest of the plant.",
+      "misconception": "Some picture veins only as a decorative pattern. In fact they are tiny tubes that move water in and food out."
+    }
+  ]
+}

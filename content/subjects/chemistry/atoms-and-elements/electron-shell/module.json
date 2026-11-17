@@ -1,0 +1,109 @@
+{
+  "id": "electron-shell",
+  "subject": "chemistry",
+  "title": "Electron Shell",
+  "summary": "An electron shell is a layer around the nucleus where electrons orbit — each shell is a specific distance from the core. The outermost shell's electrons are the ones that bond.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "shell-layer-around-nucleus",
+    "shell-holds-maximum",
+    "shell-outermost-bonds"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "Inside The Atom",
+    "systemOrGroup": "The atom's core",
+    "component": "Electron Shell",
+    "displayPath": "Chemistry > Atoms And Elements > Inside The Atom > The atom's core > Electron Shell"
+  },
+  "crossReferences": [
+    {
+      "label": "Electron (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron",
+      "note": "Electrons are the particles that live in the shells — the shells are simply the layers where electrons orbit."
+    },
+    {
+      "label": "Nucleus (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Nucleus",
+      "note": "The shells wrap around the nucleus — each shell sits at a fixed distance from the atom's core."
+    },
+    {
+      "label": "Valence electron (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Valence electron",
+      "note": "The electrons in the outermost shell are called valence electrons — the ones that do all the bonding."
+    },
+    {
+      "label": "Lewis structure (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Lewis structure",
+      "note": "A Lewis structure draws just the outermost shell's electrons as dots around the element symbol."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > Inside The Atom > The atom's core",
+  "compareCandidate": {
+    "label": "Electron shell vs. nucleus",
+    "description": "The nucleus is the tiny dense core; the shells are the huge layered space around it. The nucleus holds the mass; the shells hold the electrons that do chemistry."
+  },
+  "parts": [
+    "Layer of electron orbits",
+    "Fixed distance from nucleus",
+    "Outermost shell does the bonding"
+  ],
+  "processes": [
+    "Organizing electrons into layers",
+    "Filling inner shells before outer ones",
+    "Giving the atom its chemistry via the outer shell"
+  ],
+  "plainLanguageExplanation": "An electron shell is a layer of space around the nucleus where electrons orbit. Picture an atom as a tiny dense dot at the center with a few hollow onion-layers around it — each layer is a shell, and electrons live in them. The shell closest to the nucleus holds at most 2 electrons; the next holds at most 8; the next, more. Electrons fill the inner shells first, then the outer ones — the atom builds itself from the inside out. Why do shells matter so much? Because the OUTERMOST shell decides the atom's chemistry. The electrons on that outermost layer are the valence electrons — the ones that get shared, lost, or gained when atoms bond. An atom with a full outermost shell, like helium or neon, is happy and doesn't react. An atom with one lonely outer electron, like sodium, is desperate to get rid of it. The shells are the architecture of chemistry: everything an atom does depends on the layer at its edge.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A layer of space around the nucleus where electrons orbit"
+    },
+    {
+      "label": "Capacities",
+      "value": "First shell holds 2, second holds 8, and so on"
+    },
+    {
+      "label": "Filling order",
+      "value": "Inner shells fill before outer ones"
+    },
+    {
+      "label": "The key shell",
+      "value": "The outermost shell — its electrons decide the chemistry"
+    },
+    {
+      "label": "Full shell",
+      "value": "An atom with a full outer shell (noble gases) barely reacts"
+    },
+    {
+      "label": "Valence electrons",
+      "value": "The electrons on the outermost shell"
+    }
+  ],
+  "whyItMatters": "Electron shells explain the atom's behavior from the outside in. They are why noble gases are inert, why sodium is reactive, and why the periodic table arranges elements in rows and columns. Shells are the bridge between simple particle-counting and real chemical behavior.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Electron shell",
+  "tagline": "The layers where electrons live",
+  "didYouKnow": "Neon, the gas in glowing signs, has a full outer shell of 8 electrons — which is exactly why it never reacts with anything and just sits there glowing.",
+  "conditions": [
+    "Why elements react or don't",
+    "Valence electrons",
+    "Periodic table patterns"
+  ],
+  "compareCandidateId": "nucleus",
+  "compareReason": "The shells and the nucleus are the two halves of atomic structure — comparing the vast layered space with the dense core makes the atom's real anatomy unforgettable."
+}

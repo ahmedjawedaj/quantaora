@@ -1,0 +1,148 @@
+{
+  "id": "conservation-of-energy",
+  "componentId": "conservation-of-energy",
+  "subject": "physics",
+  "modelType": "simulation",
+  "url": "/assets/models/energy/conservation-of-energy/conservation-of-energy.glb",
+  "thumbnailUrl": "/assets/thumbnails/energy/conservation-of-energy.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.3,
+      4.8
+    ],
+    "target": [
+      0,
+      0.8,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Coaster track and loop",
+    "Red cart",
+    "Energy readout (stored / motion / heat / total)",
+    "Launch button"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-coaster",
+      "label": "Coaster Track",
+      "conceptId": "energy-changes-form",
+      "position": [
+        -0.5,
+        0.9,
+        0
+      ],
+      "description": "The hill-and-loop route where stored height becomes motion and back.",
+      "colorHint": "Warm metal rail climbing to a peak and looping.",
+      "color": "#8A93A6",
+      "function": "Carries the cart through every energy swap."
+    },
+    {
+      "id": "hs-cart",
+      "label": "Cart",
+      "conceptId": "energy-conserved-never-lost",
+      "position": [
+        0.9,
+        1.7,
+        0.1
+      ],
+      "description": "The rider carrying the energy around the loop — its form changes but its total never does.",
+      "colorHint": "Red seat riding the crest of the hill.",
+      "color": "#D96B5A",
+      "function": "Moves through the energy changes shown in the readout."
+    },
+    {
+      "id": "hs-bar",
+      "label": "Energy Readout",
+      "conceptId": "energy-changes-form",
+      "position": [
+        1.6,
+        1.1,
+        0
+      ],
+      "description": "The live stack of stored, motion, heat, and total bars at the track edge.",
+      "colorHint": "Stacked green/amber/grey bars on a pale panel.",
+      "color": "#7FA86A",
+      "function": "Shows the form split and the constant total."
+    },
+    {
+      "id": "hs-stored",
+      "label": "Stored (Height) Share",
+      "conceptId": "energy-changes-form",
+      "position": [
+        1.4,
+        1.4,
+        0.1
+      ],
+      "description": "The potential-energy slice — tall at the crest, drained on the dive.",
+      "colorHint": "Amber fill in the readout stack.",
+      "color": "#D9A441",
+      "function": "Marks the potential portion of the total."
+    },
+    {
+      "id": "hs-motion",
+      "label": "Motion Share",
+      "conceptId": "energy-changes-form",
+      "position": [
+        1.7,
+        1.3,
+        0.1
+      ],
+      "description": "The kinetic slice — climbs exactly as the stored share drains.",
+      "colorHint": "Green fill in the stack.",
+      "color": "#7FA86A",
+      "function": "Marks the kinetic portion of the total."
+    },
+    {
+      "id": "hs-heat",
+      "label": "Heat Share",
+      "conceptId": "energy-sank-to-heat",
+      "position": [
+        1.5,
+        0.7,
+        0.1
+      ],
+      "description": "The tiny heat slice from friction — small, but it never lets the total drop.",
+      "colorHint": "Warm grey fill low in the stack.",
+      "color": "#6B85A8",
+      "function": "Shows energy leaving motion for warmth."
+    },
+    {
+      "id": "hs-total",
+      "label": "Total Line",
+      "conceptId": "energy-conserved-never-lost",
+      "position": [
+        1.6,
+        1.9,
+        0.1
+      ],
+      "description": "The flat marker at the top of the stack — always the same height.",
+      "colorHint": "A thin black constant line over the panel.",
+      "color": "#3B4252",
+      "function": "Demarcates the conserved total."
+    },
+    {
+      "id": "hs-launch",
+      "label": "Launch Button",
+      "conceptId": "energy-changes-form",
+      "position": [
+        -1.5,
+        0.3,
+        0
+      ],
+      "description": "Tap to send the cart down the first hill and run the loop.",
+      "colorHint": "Round amber launch pedal on the ground.",
+      "color": "#D96B5A",
+      "function": "Starts the conservation demonstration."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette, pastel hillside. A warm grey loop of track with a red cart and a pale readout panel of stacked bars.",
+  "materialNotes": "Track metallic-roughness with metallic ~0.3; cart smooth red; readout panel pale with green/amber fills, no emissive.",
+  "assetBrief": "SUBJECT: conservation of energy on a roller-coaster loop.\n\nGEOMETRY: a hill climbing to y≈1.9 with a loop to the right; red cart; a readout panel (1.6,1.1,0) with stacked stored/motion/heat bars and a total line; launch button (-1.5,0.3,0).\n\nINTERACTION: launch runs the cart; each frame the stack recomputes from height and speed; heat accrues with distance; total stays the same.\n\nNAMED NODES: TrackLoop, Cart, PanelStored, PanelMotion, PanelHeat, PanelTotal, LaunchButton. 8-11k tris.",
+  "visual": {
+    "shape": "energy-cycle"
+  }
+}

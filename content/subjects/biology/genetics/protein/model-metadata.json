@@ -1,0 +1,118 @@
+{
+  "id": "protein",
+  "componentId": "protein",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/genetics/protein/protein.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/genetics/protein.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.15,
+      3.4
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Backbone ribbon (folded 3D structure)",
+    "Amino acid chain overlay (unfolded/beaded view, toggle-visible)",
+    "Active/functional site highlight (shape-to-function)",
+    "Gene-to-protein origin annotation (non-3D info layer, card only)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-amino-chain",
+      "label": "Amino Acid Chain",
+      "conceptId": "amino-acid-chain",
+      "position": [
+        -1.1,
+        -0.5,
+        0.35
+      ],
+      "positionHint": "Lower-left of the model, on a visibly beaded/segmented stretch of the ribbon near the N-terminus tail where individual bead-like residues are most distinguishable before the coil tightens into the folded core",
+      "description": "A chain of amino acids strung together in an order set by a gene — the raw material a protein folds itself from.",
+      "structureCard": {
+        "name": "Amino Acid Chain",
+        "plainLanguageDefinition": "A protein starts as a long chain of amino acids strung together like beads, in an order set by a gene.",
+        "function": "Serves as the raw, unfolded sequence of building blocks that folding will shape into the protein's working 3D form; there are 20 different kinds of amino acid 'beads,' and their order determines everything that happens next.",
+        "whereItIs": "The loose, unfolded tail near the model's N-terminus, where individual bead-like residues are visible before the chain folds into the compact core.",
+        "whyItMatters": "The exact sequence of amino acids is what folding, shape, and ultimately function are all built from — get the sequence wrong, and everything downstream can go wrong too.",
+        "relatedConcept": "gene"
+      }
+    },
+    {
+      "id": "hs-folded-shape",
+      "label": "Folded 3D Shape",
+      "conceptId": "folded-3d-shape",
+      "position": [
+        0,
+        0.15,
+        0
+      ],
+      "positionNote": "Numeric [x, y, z] to be filled in once protein.glb exists; positionHint below is the placement brief for the asset pipeline to convert into coordinates after the mesh is built.",
+      "positionHint": "Center mass of the model, on the densest folded core where helices and sheets pack together into the compact 3D globule",
+      "description": "The chain's compact, twisted-and-folded 3D structure, built automatically from how its amino acids attract and repel each other.",
+      "structureCard": {
+        "name": "Folded 3D Shape",
+        "plainLanguageDefinition": "The chain doesn't stay straight — it twists and folds into coils (alpha helices) and pleats (beta sheets), then packs into one specific compact 3D shape.",
+        "function": "Converts the 1D amino acid chain into a precise, stable 3D structure that can physically interact with other molecules.",
+        "whereItIs": "The dense folded core at the model's center, where helices and sheets pack together into the compact globule.",
+        "whyItMatters": "Folding happens automatically based on how amino acids attract and repel each other, and getting the fold right is the difference between a working protein and one that can't do its job.",
+        "relatedConcept": "ribosome"
+      }
+    },
+    {
+      "id": "hs-shape-function",
+      "label": "Function Determined by Shape",
+      "conceptId": "function-determined-by-shape",
+      "position": [
+        0.9,
+        -0.15,
+        0.5
+      ],
+      "positionNote": "Numeric [x, y, z] to be filled in once protein.glb exists; positionHint below is the placement brief for the asset pipeline to convert into coordinates after the mesh is built.",
+      "positionHint": "A distinct pocket, groove, or cleft on the model's surface — the binding site cavity where the folded shape creates a specific-fitting slot",
+      "description": "The specific-fitting pocket or surface the folded shape creates, which is what actually lets the protein do its job.",
+      "structureCard": {
+        "name": "Function Determined by Shape",
+        "plainLanguageDefinition": "The folded shape creates pockets and surfaces that fit specific molecules, like a lock fits a key.",
+        "function": "Gives the protein its specific job — an enzyme's pocket fits its target molecule, an antibody's arms fit a specific germ, and so on.",
+        "whereItIs": "A distinct pocket, groove, or cleft on the folded core's surface, where the shape creates a specific-fitting slot.",
+        "whyItMatters": "This is exactly why shape and function are inseparable for proteins — a protein with the wrong shape, even with all the right amino acids, can't do its job.",
+        "relatedConcept": "mutation"
+      }
+    },
+    {
+      "id": "hs-gene-origin",
+      "label": "Built from Gene Instructions",
+      "conceptId": "built-from-gene-instructions",
+      "position": [
+        -1.05,
+        -0.45,
+        -0.1
+      ],
+      "positionNote": "Numeric [x, y, z] to be filled in once protein.glb exists; positionHint below is the placement brief for the asset pipeline to convert into coordinates after the mesh is built.",
+      "positionHint": "Small flat-colored dot directly on the N-terminus tail geometry — the same uniform dot styling as the other three hotspots, positioned right at the start of the amino-acid-chain hotspot's beaded segment to visually link origin to chain",
+      "description": "The gene, a section of DNA, whose sequence specifies this protein's amino acid order.",
+      "structureCard": {
+        "name": "Built from Gene Instructions",
+        "plainLanguageDefinition": "Every protein is built by following instructions copied from a gene in DNA.",
+        "function": "Specifies the exact order of amino acids used to build this protein's chain, which then determines its fold and function.",
+        "whereItIs": "A dot on the chain's starting end (N-terminus), the same point where the amino acid chain begins.",
+        "whyItMatters": "A single change in the gene's instructions can change the amino acid sequence — and therefore the shape and function — of the protein it builds.",
+        "relatedConcept": "dna"
+      }
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar: warm off-white/cream studio background (no gradients, no vignette glow), single hero object centered and large, soft single-source studio lighting with gentle ambient fill and soft ground contact shadow (no rim-light glow, no bloom/emissive haze). Material must read as calm matte-satin plastic/ceramic, not glossy/wet, not neon. Restrained palette: the folded ribbon body in a muted warm neutral (sand/bone), with the alpha-helix coil segments and beta-sheet arrow segments distinguished by two quiet accent tones (e.g. dusty terracotta for helices, soft slate-blue for sheets) — never saturated rainbow 'PyMOL' coloring. Hotspot dots are small, flat-colored, consistent-size circles (match Anatomy Atelier's dot styling exactly) that open the same soft tactile rounded-card UI on click, positioned with light leader lines only if needed to avoid ambiguity on the compact fold. All four hotspots, including the gene-origin one, use this same uniform dot marker — no separate badge or icon anywhere on the model. No cartoon eyes/faces, no sci-fi glow trails, no cluttered background props — the protein floats alone on the seamless backdrop the way Anatomy Atelier's organs do.",
+  "assetBrief": "DELIVERABLE: A single glb-authored 3D model of a generic globular protein, built to Anatomy Atelier's clean-3D quality bar — not a scientifically exact crystal structure, but a clearly legible, stylized-but-credible representation that reads instantly as \"protein\" to a student and supports the four hotspots below.\n\nFORM / PROPORTIONS:\n- Overall silhouette: a compact, roughly ellipsoidal folded globule (~1.0 x 0.8 x 0.7 world units) — NOT a flat ribbon diagram and NOT a tangled noodle. Think \"a folded ball of ribbon,\" matching how Anatomy Atelier renders organs as clean solid forms rather than wireframe diagrams.\n- Backbone is a continuous tube/ribbon hybrid: render the secondary structure explicitly —\n  - 2-3 alpha helices as smooth, moderately-pitched coiled cylinders (like a stretched spring), each helix a clean continuous tube ~0.06 units diameter.\n  - 2-3 beta strands as flattened ribbon segments with a subtle arrowhead at one end, grouped into a twisted beta sheet of 2-3 parallel strands.\n  - Connecting loop regions as smoother, thinner tube segments (~0.04 units) with visible gentle curvature, no sharp kinks.\n- One clearly loose, unfolded tail segment (the N-terminus) should extend slightly away from the compact core — this is the anchor for the \"Amino Acid Chain\" hotspot. Along this loose tail only, render 6-10 small bead-like sphere bulges (~0.04 unit radius) spaced evenly along the tube, subtly implying discrete amino acid units without going full \"pop bead\" cartoon. The rest of the folded structure should NOT show individual beads — only smooth ribbon/tube, so the folded core reads as \"one solid shape,\" matching the shape-emphasis of the reference.\n- One visible surface pocket/cleft (a concave notch roughly 0.15-0.2 units across) on the folded core's surface, positioned where two secondary-structure elements pack against each other, to serve as the visual anchor for \"Function Determined by Shape.\" This should look like a natural gap in the folded form, not an artificial hole cut into it.\n\nMATERIALS / SHADING:\n- Matte-satin PBR material, roughness ~0.45-0.55, very low specular, no metalness, no subsurface-scattering glow.\n- Base ribbon/loop color: warm bone/sand (~#E4D9C6 equivalent).\n- Alpha helices: muted dusty terracotta accent (~#C08867 equivalent).\n- Beta strands: soft slate-blue accent (~#7C93A6 equivalent).\n- No gradient maps, no fresnel rim glow, no emissive channels anywhere.\n- Bead bulges on the loose tail: same base bone tone, very slightly lighter, to stay subordinate to the silhouette rather than competing with it.\n\nHOTSPOT MARKERS: all four hotspot anchors (amino acid chain, folded 3D shape, function-determined-by-shape, and gene-origin) are represented purely as the standard flat-colored circular dot UI layer described in visualStyleNotes — do not model any distinct badge, icon, or extra geometry for the gene-origin hotspot; it sits as the same uniform dot directly on the N-terminus tail mesh, right where the amino acid chain hotspot's beaded segment begins.\n\nLIGHTING (renderer/scene, not baked into GLB): single soft key light from front-upper-left at ~45°, low-intensity warm ambient fill, soft contact shadow under the model onto an implied ground plane — all matching Anatomy Atelier's studio look. Do not bake shadows or lighting into the GLB textures; keep it a clean lit-by-scene asset.\n\nSCALE / PIVOT: Model origin at the geometric center of the folded core (not at a corner or the tail tip), scaled so the whole model fits inside a ~2-unit bounding sphere for consistent default-camera framing across components.\n\nTOPOLOGY / TECH: Low-to-mid poly (target 15k-30k tris) with smooth-shaded normals on the tube/ribbon geometry — must hold up in both close zoomed hotspot inspection and small thumbnail/card preview. Single UV set, single material per accent group (three materials total: base, helix accent, sheet accent) so runtime hotspot-driven material highlighting (e.g. brightening the sheet accent when its hotspot is active) is feasible without a texture reauthor.\n\nDO NOT: do not use rainbow spectrum coloring (red-to-blue N-to-C gradient) common in scientific PyMOL/ChimeraX renders — that reads as clinical/textbook, not Atelier-warm. Do not add cartoon eyes, faces, or anthropomorphized features. Do not render individual atoms/spheres (no ball-and-stick or space-filling style) — this is a secondary-structure cartoon model only. Do not add glow, bloom, emissive highlights, or sci-fi energy-trail effects on any part. Do not clutter the scene with a DNA helix, ribosome, or other props in-frame — those concepts are handled by separate hotspot description text and possibly separate components, not by adding geometry here. Do not make the fold so tight/dense that the pocket cleft or the loose tail becomes hard to see at default camera framing — legibility of all four hotspot anchor regions at default zoom is a hard requirement. Do not model a separate badge/icon for the gene-origin hotspot — it must be the same uniform dot as the other three.\n\nCROSS-SECTION: not applicable for this component (folding is best shown via the loose-tail vs. folded-core contrast, not a literal cut-away) — omit cross-section tooling for this asset.",
+  "visual": {
+    "shape": "protein-chain"
+  }
+}

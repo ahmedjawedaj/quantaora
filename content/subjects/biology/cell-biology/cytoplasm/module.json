@@ -1,0 +1,45 @@
+{
+  "id": "cytoplasm",
+  "subject": "biology",
+  "title": "Cytoplasm",
+  "summary": "The cytoplasm is the jelly-like material that fills the cell and holds all the organelles. Explore its fluid (cytosol) and its network, see how it cushions and moves the organelles, and understand how chemical reactions and transport happen within it.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": ["cytosol-and-organelles","cytoplasmic-transport","site-of-reactions"],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Cytoplasm",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Cytoplasm"
+  },
+  "crossReferences": [
+    {"label": "Cell Membrane (Cell Biology)","branch":"cell-biology","lowLevelItem":"Cell membrane","note":"The cytoplasm is the material held inside the cell membrane - the membrane defines the container and the cytoplasm fills it."},
+    {"label": "Nucleus (Cell Biology)","branch":"cell-biology","lowLevelItem":"Nucleus","note":"The nucleus floats within the cytoplasm, and the cytoplasm carries the copies of instructions sent out from the nucleus."}
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Cytoplasm vs. cytosol",
+    "description": "Cytosol is just the fluid portion (water with dissolved molecules). Cytoplasm is the whole filling - the cytosol plus all the organelles suspended in it."
+  },
+  "parts": ["Cytosol (fluid)","Organelles suspended within","Transport pathway","Reaction site"],
+  "processes": ["Moving materials between organelles","Hosting many chemical reactions","Suspending and supporting the organelles"],
+  "plainLanguageExplanation": "If the cell is a factory, the cytoplasm is everything between the walls and the machines: a watery, jelly-like fluid called cytosol, with the organelles (the little machines) floating in it. The cytoplasm fills the space inside the cell membrane and outside the nucleus. It has three big jobs. It supports and holds the organelles in place, it lets materials move from one part of the cell to another (like a delivery network), and it hosts lots of chemical reactions that keep the cell alive. Because it is mostly water, the cytoplasm also lets the cell bend and change shape.",
+  "keyFacts": [
+    {"label":"Where it is","value":"Fills the cell between the cell membrane and the nucleus"},
+    {"label":"Made of","value":"Cytosol (mostly water plus dissolved salts and molecules) with organelles suspended in it"},
+    {"label":"Main jobs","value":"Support, transport of materials, and hosting chemical reactions"},
+    {"label":"Texture","value":"Jelly-like and slightly fluid, allowing the cell to change shape"},
+    {"label":"Not the nucleus","value":"The cytoplasm is everything in the cell except the nucleus"},
+    {"label":"Movement","value":"Cytoplasm can stream or flow, moving organelles and materials around"}
+  ],
+  "whyItMatters": "The cytoplasm is where much of a cell's actual chemistry happens and where all the organelles do their work. Without it, the organelles would have no place to sit, materials could not be delivered, and the cell could not keep its shape. It's the 'living space' of the cell that ties every other structure together.",
+  "files": {"lesson":"lesson.md","quiz":"quiz.json","modelMetadata":"model-metadata.json","glossary":"glossary.json","standards":"standards.json"},
+  "scientificName": "Cytoplasm / cytosol",
+  "tagline": "The living filling of the cell",
+  "didYouKnow": "In many cells the cytoplasm streams in a slow, organized flow, carrying materials from one side of the cell to the other.",
+  "conditions": ["Cellular transport","Metabolic reactions","Cell movement"]
+}

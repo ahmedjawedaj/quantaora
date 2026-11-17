@@ -1,0 +1,109 @@
+{
+  "id": "metal",
+  "subject": "chemistry",
+  "title": "Metal",
+  "summary": "A metal is an element that is shiny, malleable, and a great conductor of heat and electricity. Explore the classic metal properties, where metals sit on the periodic table, and why most elements are metals.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "metal-shiny-malleable-conductive",
+    "metal-occupies-left-and-middle",
+    "metal-forms-positive-ions"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "The great elemental families",
+    "component": "Metal",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > The great elemental families > Metal"
+  },
+  "crossReferences": [
+    {
+      "label": "Nonmetal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Nonmetal",
+      "note": "Metals and nonmetals sit on opposite sides of the table and have opposite properties — shiny and conductive versus dull and insulating."
+    },
+    {
+      "label": "Metalloid (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Metalloid",
+      "note": "Metalloids are the in-between elements along the staircase — partly metal-like, partly nonmetal-like."
+    },
+    {
+      "label": "Alkali metal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Alkali metal",
+      "note": "The alkali metals of Group 1 are the most reactive family of metals — soft, shiny, and quick to react."
+    },
+    {
+      "label": "Ionic bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Ionic bond",
+      "note": "Metals tend to lose electrons and become positive ions, which is how they join with nonmetals in ionic bonds."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > The great elemental families",
+  "compareCandidate": {
+    "label": "Metal vs. nonmetal",
+    "description": "Metals are shiny, malleable, and excellent conductors of heat and electricity. Nonmetals are dull, often brittle, and poor conductors. Metals sit on the left and middle of the table; nonmetals on the right."
+  },
+  "parts": [
+    "Shiny luster",
+    "Malleability and ductility",
+    "Heat and electricity conduction"
+  ],
+  "processes": [
+    "Conducting heat and electricity via free-moving electrons",
+    "Being hammered into sheets and drawn into wires",
+    "Losing electrons to form positive ions"
+  ],
+  "plainLanguageExplanation": "A metal is an element with a set of signature properties you can see and feel. Metals are shiny — think of polished gold or aluminum foil. They are malleable, meaning they can be hammered into thin sheets, and ductile, meaning they can be drawn into wires. Most importantly, metals are excellent conductors of heat and electricity — which is why your house's electrical wires and cooking pans are made of metal. These properties come from how metal atoms behave: their outer electrons are loose and free to wander between atoms, which lets electricity flow and heat travel easily. About 80% of the elements are metals. They fill the left side and the middle of the periodic table, from the alkali metals in Group 1 through the transition metals in the center, like iron, copper, and gold. In reactions, metals tend to give away their loose outer electrons, becoming positive ions — which is why metals like sodium and iron pair up with nonmetals to form ionic compounds.",
+  "keyFacts": [
+    {
+      "label": "Look",
+      "value": "Shiny — metals have a characteristic luster"
+    },
+    {
+      "label": "Shaping",
+      "value": "Malleable (hammered into sheets) and ductile (drawn into wires)"
+    },
+    {
+      "label": "Conduction",
+      "value": "Excellent conductors of heat and electricity"
+    },
+    {
+      "label": "Where they sit",
+      "value": "The left side and middle of the periodic table — about 80% of elements"
+    },
+    {
+      "label": "How it works",
+      "value": "Loose outer electrons wander between atoms, carrying heat and electricity"
+    },
+    {
+      "label": "Bonding",
+      "value": "Metals tend to lose electrons and become positive ions (cations)"
+    }
+  ],
+  "whyItMatters": "Metals built the modern world — the copper in your electronics, the steel in bridges, the aluminum in cans, the gold in jewelry. Their loose-electron structure is also a doorway into understanding how electricity flows, how ionic bonds form, and why so much of the periodic table shares a family resemblance.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Metal",
+  "tagline": "The shiny, conductive giants",
+  "didYouKnow": "The most common metal in Earth's crust isn't iron — it's aluminum, and it is everywhere from soda cans to airplane bodies.",
+  "conditions": [
+    "Electrical wiring",
+    "Ionic bonding",
+    "Alloys"
+  ],
+  "compareCandidateId": "nonmetal",
+  "compareReason": "Metals and nonmetals are opposites in look, feel, conduction, and position on the table — comparing them makes both families' defining traits unmistakable."
+}

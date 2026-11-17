@@ -1,0 +1,26 @@
+{
+  "componentId": "battery",
+  "standards": [
+    {
+      "standardId": "4-PS3-4",
+      "standard": "Energy Conversions",
+      "description": "Devices convert energy from one form to another; a battery converts chemical to electrical energy.",
+      "level": "primary",
+      "traceDetail": "Cutaway layers visibly convert chemical store into bulb glow."
+    },
+    {
+      "standardId": "PS3.B",
+      "standard": "Energy Transfer",
+      "description": "Electrical energy is produced and stored in chemical form by batteries.",
+      "level": "support",
+      "traceDetail": "The battery's chemistry storing and releasing energy drives the loop."
+    },
+    {
+      "standardId": "MS-PS2-3",
+      "standard": "Electric and Magnetic Forces",
+      "description": "Electric forces arise from charged objects; the battery's terminals set up the push that moves charge.",
+      "level": "support",
+      "traceDetail": "Terminal potential difference creates the driving electric push."
+    }
+  ]
+}

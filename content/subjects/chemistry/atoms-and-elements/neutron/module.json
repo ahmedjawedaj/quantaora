@@ -1,0 +1,109 @@
+{
+  "id": "neutron",
+  "subject": "chemistry",
+  "title": "Neutron",
+  "summary": "A neutron is a particle in the nucleus with no electric charge at all. It adds mass to the atom and is the particle whose count changes between isotopes of the same element.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "neutron-no-charge",
+    "neutron-in-nucleus",
+    "neutron-isotopes"
+  ],
+  "type": "model",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "Inside The Atom",
+    "systemOrGroup": "Subatomic particles",
+    "component": "Neutron",
+    "displayPath": "Chemistry > Atoms And Elements > Inside The Atom > Subatomic particles > Neutron"
+  },
+  "crossReferences": [
+    {
+      "label": "Proton (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Proton",
+      "note": "The neutron's partner in the nucleus — same neighborhood, same weight class, but the proton carries a charge while the neutron carries none."
+    },
+    {
+      "label": "Isotope (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Isotope",
+      "note": "Atoms of the same element with different neutron counts are isotopes — neutrons are the only particle whose count can vary without changing the element."
+    },
+    {
+      "label": "Nucleus (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Nucleus",
+      "note": "The neutron is one of the two particles packed into the nucleus, the dense core of the atom."
+    },
+    {
+      "label": "Atomic mass (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Atomic mass",
+      "note": "Neutrons add mass to the atom, which is why atomic mass is larger than the proton count alone."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > Inside The Atom > Subatomic particles",
+  "compareCandidate": {
+    "label": "Neutron vs. proton",
+    "description": "Both live in the nucleus and weigh about the same, but the proton carries a positive charge while the neutron carries no charge at all — the neutron is the quiet weight, the proton is the identity."
+  },
+  "parts": [
+    "No electric charge",
+    "Lives in the nucleus",
+    "Adds mass to the atom"
+  ],
+  "processes": [
+    "Adding mass without changing charge",
+    "Varying between isotopes of an element",
+    "Helping hold the nucleus together"
+  ],
+  "plainLanguageExplanation": "A neutron is the quiet particle of the atom. It lives in the nucleus right beside the proton, and it weighs about the same as a proton — but it carries no electric charge at all. Neutrons are neutral, hence the name. So what does a neutron do? First, it adds mass: because neutrons sit in the nucleus, they make the atom heavier without changing its charge. An atom with extra neutrons is heavier than one without, even though it is the same element. Second — and this is the famous job — the neutron count is the only count that can change without changing the element. Atoms of the same element with different numbers of neutrons are called isotopes. Carbon-12 has 6 neutrons; carbon-14 has 8. Same element, same protons, but different neutrons and different masses. Neutrons also help glue the nucleus together: the positive protons push each other apart, and the charge-free neutrons add a kind of extra grip that keeps the nucleus stable. Quiet, uncharged, but essential.",
+  "keyFacts": [
+    {
+      "label": "Charge",
+      "value": "None — the neutron is electrically neutral"
+    },
+    {
+      "label": "Location",
+      "value": "In the nucleus, beside the protons"
+    },
+    {
+      "label": "Weight",
+      "value": "About the same mass as a proton"
+    },
+    {
+      "label": "The key job",
+      "value": "Its count varies between isotopes without changing the element"
+    },
+    {
+      "label": "Stability",
+      "value": "Helps hold the nucleus together against proton repulsion"
+    },
+    {
+      "label": "Example",
+      "value": "Carbon-12 has 6 neutrons; carbon-14 has 8 — both are carbon"
+    }
+  ],
+  "whyItMatters": "Neutrons explain isotopes, atomic mass, and nuclear stability. They are why the same element can come in different weights — carbon-12 and carbon-14 — and why archaeologists use those differences to date ancient objects. The neutron is the silent partner that makes nuclear physics and isotope chemistry possible.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Neutron",
+  "tagline": "The silent weight of the nucleus",
+  "didYouKnow": "Carbon-14, the isotope used to date ancient bones, has two extra neutrons compared to ordinary carbon — and those extra neutrons are what make it slowly tick away like a clock.",
+  "conditions": [
+    "Isotopes",
+    "Atomic mass",
+    "Nuclear stability"
+  ],
+  "compareCandidateId": "proton",
+  "compareReason": "The neutron and proton are inseparable neighbors in the nucleus — comparing them makes the neutron's lack of charge, and the proton's defining charge, both unforgettable."
+}

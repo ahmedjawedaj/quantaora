@@ -1,0 +1,65 @@
+{
+  "componentId": "covalent-bond",
+  "questions": [
+    {
+      "id": "covalent-q-definition",
+      "conceptId": "covalent-shared-electrons",
+      "hotspotId": "hs-covalent-bond",
+      "prompt": "What is a covalent bond?",
+      "options": [
+        "A bond formed when atoms share a pair of electrons",
+        "A bond formed when electrons are transferred",
+        "A force that only works in liquids",
+        "A bond between a metal and a magnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A covalent bond is formed when two atoms share a pair of electrons — both pull on the same pair.",
+      "misconception": "Transferring electrons is the ionic bond's job — the covalent bond is specifically about SHARING a pair, which is a fundamentally different mechanism."
+    },
+    {
+      "id": "covalent-q-nonmetals",
+      "conceptId": "covalent-nonmetals-share",
+      "hotspotId": "hs-bond-atoms",
+      "prompt": "Between which kinds of elements do covalent bonds usually form?",
+      "options": [
+        "Two nonmetals",
+        "A metal and a nonmetal",
+        "Two metals",
+        "A metal and a gas only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Covalent bonds usually form between nonmetals, which both need electrons and therefore share them.",
+      "misconception": "Metal + nonmetal combinations typically form IONIC bonds (they transfer electrons), while two nonmetals — both needing electrons — naturally share instead."
+    },
+    {
+      "id": "covalent-q-molecule",
+      "conceptId": "covalent-builds-molecules",
+      "hotspotId": "hs-covalent-bond",
+      "prompt": "What do covalent bonds hold together?",
+      "options": [
+        "Molecules like H₂O, O₂, and CH₄",
+        "Salt crystals",
+        "Metal wires",
+        "Noble gas atoms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Covalent bonds hold the atoms of a molecule together — water, oxygen gas, methane, and most familiar substances.",
+      "misconception": "Salt crystals are built by ionic bonds, and metal wires hold together differently — molecules are specifically the product of covalent bonding."
+    },
+    {
+      "id": "covalent-q-why-holds",
+      "conceptId": "covalent-shared-electrons",
+      "hotspotId": "hs-shared-pair",
+      "prompt": "Why does sharing electrons hold two atoms together?",
+      "options": [
+        "Both nuclei pull on the shared pair, gluing the atoms together",
+        "The atoms glue themselves with static electricity",
+        "The shared electrons push the atoms apart",
+        "The atoms stop moving entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both nuclei are attracted to the shared electron pair, and that double pull acts like glue between the atoms.",
+      "misconception": "It's easy to think sharing would let atoms drift apart — but the shared pair is attracted to BOTH nuclei, which is exactly what locks the atoms together."
+    }
+  ]
+}

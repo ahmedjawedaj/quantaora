@@ -1,0 +1,101 @@
+{
+  "id": "liver",
+  "componentId": "liver",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/human-anatomy/liver/liver.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/liver.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Liver lobes",
+    "Bile ducts",
+    "Liver cell plates",
+    "Blood flow"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-lobes",
+      "label": "Liver lobes",
+      "conceptId": "liver-500-jobs",
+      "position": [
+        0.1,
+        0.2,
+        0.1
+      ],
+      "description": "The main sections of the liver.",
+      "color": "#D98A6A",
+      "function": "The large working mass of the liver.",
+      "positionHint": "Main body of the organ."
+    },
+    {
+      "id": "hs-bile",
+      "label": "Bile",
+      "conceptId": "bile-fat-digestion",
+      "position": [
+        0.35,
+        0.0,
+        0.2
+      ],
+      "description": "The liquid the liver makes to help digest fats.",
+      "color": "#D9A441",
+      "function": "Helps break down fats in the small intestine.",
+      "positionHint": "Produced in the liver, stored in the gallbladder."
+    },
+    {
+      "id": "hs-cells",
+      "label": "Liver cells (hepatocytes)",
+      "conceptId": "liver-500-jobs",
+      "position": [
+        -0.2,
+        -0.1,
+        0.2
+      ],
+      "description": "The special cells arranged in plates that do the liver's chemical work.",
+      "color": "#B5846A",
+      "function": "Process nutrients and clean the blood.",
+      "positionHint": "The working cells of the liver."
+    },
+    {
+      "id": "hs-filter",
+      "label": "Blood filtering",
+      "conceptId": "detox-and-filter",
+      "position": [
+        0.2,
+        -0.2,
+        0.15
+      ],
+      "description": "Where the liver cleans harmful substances from the blood.",
+      "color": "#6B85A8",
+      "function": "Removes wastes and harmful substances.",
+      "positionHint": "Across the liver tissue."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a human liver as a stylized-specimen study - a large, smooth, reddish-brown organ shaped like a wedge, shown with two lobes and a clean cutaway face revealing neat plates of liver cells with blood channels between. A small gallbladder sits beneath it in a muted tone. Warm paper palette, muted, no glow. Named nodes: LiverLobeRight, LiverLobeLeft, HepatocytePlates, BileDuct, Gallbladder, PortalFlow. Budget 18-26k."
+}

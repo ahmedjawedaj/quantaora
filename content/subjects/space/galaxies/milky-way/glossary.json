@@ -1,0 +1,44 @@
+{
+  "componentId": "milky-way",
+  "terms": [
+    {
+      "term": "Barred spiral galaxy",
+      "definition": "A disk galaxy with a straight bar of stars across its center and spiral arms winding from the bar's ends — the Milky Way's type.",
+      "conceptId": "barred-spiral-structure",
+      "hotspotId": "hs-central-bar",
+      "function": "The Milky Way's architectural class."
+    },
+    {
+      "term": "Light-year",
+      "definition": "The distance light travels in one year — about 9.5 trillion kilometers. Used to measure the galaxy's vast scale.",
+      "conceptId": "light-year-scale",
+      "hotspotId": "hs-sun-position",
+      "function": "The ruler of the universe.",
+      "whyItMatters": "The Milky Way is 100,000 of them wide."
+    },
+    {
+      "term": "Galactic disk",
+      "definition": "The flat, spinning plane of the galaxy containing most of its stars, gas, and dust — about 100,000 light-years across.",
+      "conceptId": "galactic-disk-and-halo",
+      "hotspotId": "hs-spiral-arm",
+      "whereItIs": "The visible whirlpool part of the galaxy",
+      "whyItMatters": "The Sun and most of the night sky's stars live inside it."
+    },
+    {
+      "term": "Galactic halo",
+      "definition": "A sparse, roughly spherical cloud of old globular clusters and faint stars surrounding the disk.",
+      "conceptId": "galactic-disk-and-halo",
+      "hotspotId": "hs-galactic-halo",
+      "whereItIs": "Wrapping the disk far above and below",
+      "whyItMatters": "Holds the galaxy's oldest objects."
+    },
+    {
+      "term": "Galactic year",
+      "definition": "The time the Sun takes to complete one orbit of the galaxy — about 230 million Earth-years.",
+      "conceptId": "galactic-rotation",
+      "hotspotId": "hs-sun-position",
+      "function": "The galaxy's natural clock.",
+      "whyItMatters": "The Sun has made only ~20 galactic orbits since it formed."
+    }
+  ]
+}

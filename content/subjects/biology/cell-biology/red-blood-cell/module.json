@@ -1,0 +1,133 @@
+{
+  "id": "red-blood-cell",
+  "name": "Red Blood Cell",
+  "scientificName": "Erythrocyte",
+  "subject": "biology",
+  "branch": "Cell Biology",
+  "system": "Specialized Cells",
+  "title": "Red Blood Cell",
+  "tagline": "The body's oxygen courier",
+  "summary": "A red blood cell (erythrocyte) is a nucleus-free, biconcave disc built for one job: carry oxygen from the lungs to every body tissue, then carry carbon dioxide back. Explore its membrane, hemoglobin, cytoplasm, and dimpled shape, explain why it has no nucleus, and compare it to a white blood cell to see how differently two cells sharing the same blood can be built.",
+  "gradeMin": 3,
+  "gradeMax": 8,
+  "skillIds": [
+    "cell-membrane",
+    "hemoglobin",
+    "biconcave-shape",
+    "cytoplasm",
+    "erythropoiesis",
+    "gas-exchange"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Specialized Cells",
+    "systemOrGroup": "Red blood cell (specialized cell)",
+    "component": "Red Blood Cell",
+    "displayPath": "Biology > Cell Biology > Specialized Cells > Red Blood Cell"
+  },
+  "crossReferences": [
+    {
+      "label": "Cardiovascular System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Cardiovascular system",
+      "note": "Red blood cells travel through the heart, arteries, capillaries, and veins covered in the Human Anatomy branch's Cardiovascular System unit — see the Heart component for the pump that drives their circulation."
+    },
+    {
+      "label": "Blood Circulation (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Blood circulation",
+      "note": "The oxygen-pickup, tissue-delivery, and carbon-dioxide-return cycle this component's lesson traces is expanded as its own full process in the Human Physiology branch."
+    }
+  ],
+  "belongsTo": "Cell Biology > Specialized Cells > Red blood cell (specialized cell)",
+  "belongsToPath": ["Specialized Cells", "Cell Biology", "Biology"],
+  "conditions": [
+    "Anemia",
+    "Iron-deficiency anemia",
+    "Sickle cell disease",
+    "Thalassemia",
+    "Polycythemia",
+    "Hemolytic anemia"
+  ],
+  "compareCandidate": {
+    "label": "Red blood cell vs. White blood cell",
+    "description": "White blood cells are the other major cell type circulating in the same bloodstream, but built for a completely different job: a red blood cell is an anucleate oxygen carrier packed with hemoglobin, while a white blood cell keeps its nucleus and organelles and specializes in fighting infection. Comparing them side by side makes clear that 'blood cell' isn't one job — it's several very different specialized cells sharing the same fluid highway."
+  },
+  "compareCandidateId": "white-blood-cell",
+  "compareReason": "White blood cells are the other major cell type circulating in the same bloodstream, but built for a completely different job: a red blood cell is an anucleate oxygen carrier packed with hemoglobin, while a white blood cell keeps its nucleus and organelles and specializes in fighting infection. Comparing them side by side makes clear that 'blood cell' isn't one job — it's several very different specialized cells sharing the same fluid highway.",
+  "parts": [
+    "Cell membrane",
+    "Hemoglobin",
+    "Biconcave shape",
+    "Cytoplasm"
+  ],
+  "processes": [
+    "Gas exchange in the lungs (oxygen loading)",
+    "Oxygen delivery and carbon dioxide pickup in body tissues",
+    "Erythropoiesis (red blood cell production in bone marrow)",
+    "Circulation through the cardiovascular system",
+    "Red blood cell recycling in the spleen and liver"
+  ],
+  "plainLanguageExplanation": "A red blood cell is a tiny, squishy delivery truck that rides through your blood vessels. Its one job is to carry oxygen from your lungs to every part of your body — your brain, your muscles, even your toes — and then carry back the carbon dioxide your cells don't need. It's shaped like a doughnut that never quite made the hole all the way through (scientists call this \"biconcave\"), which gives it extra surface area to soak up oxygen fast. Unlike most cells in your body, a mature red blood cell has no nucleus and almost no other internal parts — it's basically a flexible bag stuffed with an oxygen-grabbing protein called hemoglobin, which is also what makes blood look red. You have about 25 trillion of these cells in your body right now, and your bone marrow makes millions of new ones every single second to replace the ones that wear out.",
+  "keyFacts": [
+    { "label": "Main job", "value": "Carries oxygen from the lungs to body tissues and brings carbon dioxide back to the lungs" },
+    { "label": "Shape", "value": "Biconcave disc — flattened and dimpled on both sides, not a full sphere" },
+    { "label": "Lifespan", "value": "About 120 days before it wears out and is recycled by the spleen and liver" },
+    { "label": "No nucleus", "value": "Mature red blood cells push out their nucleus and most organelles before entering the bloodstream, leaving more room for hemoglobin" },
+    { "label": "Color source", "value": "Hemoglobin, the oxygen-carrying protein packed inside, turns bright red when it binds oxygen" },
+    { "label": "Where they're made", "value": "Produced continuously in the red bone marrow, especially in flat bones like the ribs, pelvis, and skull" },
+    { "label": "Size", "value": "About 7-8 micrometers across — small enough to squeeze single-file through the narrowest capillaries" }
+  ],
+  "whyItMatters": "Every thought you think, every muscle twitch, every breath — all of it runs on oxygen, and red blood cells are the only reason oxygen gets from your lungs to the rest of you. If your red blood cells stop working properly, like in anemia, your whole body feels it as tiredness, dizziness, and weakness, because your cells are quietly starving for oxygen. Understanding red blood cells also explains why blood transfusions and blood types matter, why athletes train at high altitude, and why a simple blood test can reveal so much about your health.",
+  "didYouKnow": "You have roughly 25 trillion red blood cells circulating in your body right now — and your bone marrow replaces millions of them every single second, since each one only lives about 120 days.",
+  "model": {
+    "type": "procedural-three",
+    "path": null,
+    "note": "This component uses generated Three.js geometry (a lathed biconcave-disc profile, see model-metadata.json's assetBrief) rather than a static GLB. Spec §21's asset-strategy bucket assigns 'cell' models to GLB/GLTF, so this is a flagged deviation, not a silent default — confirm before build. If reversed to a GLB pipeline to match that default and sibling components (e.g. neuron.glb), this field becomes a standard '/assets/models/biology/cell-biology/red-blood-cell/red-blood-cell.glb' path."
+  },
+  "lesson": {
+    "steps": [
+      {
+        "title": "See it",
+        "body": "Look at the red blood cell in 3D and slowly rotate it. Notice it isn't a perfect ball — both faces dip inward like a pinched pillow, a shape called biconcave."
+      },
+      {
+        "title": "Touch it",
+        "body": "Rotate, zoom, and send the cell through a narrow simulated capillary. Watch how the biconcave shape lets it bend and squeeze through without breaking."
+      },
+      {
+        "title": "Name it and explain it",
+        "body": "Tap each of the four hotspots — Cell Membrane, Biconcave Shape, Cytoplasm, and Hemoglobin — to name them and learn what each one does. Then open the cross-section to see how empty the interior really is: no nucleus, no major organelles, just cytoplasm and hemoglobin."
+      },
+      {
+        "title": "See where it belongs",
+        "body": "The red blood cell belongs to Biology > Cell Biology > Specialized Cells, made in the bone marrow and traveling through the cardiovascular system's arteries, capillaries, and veins as part of the blood."
+      },
+      {
+        "title": "Compare it",
+        "body": "Compare the red blood cell to a white blood cell. Both circulate in the same blood, but a red blood cell is a nucleus-free oxygen carrier while a white blood cell keeps its nucleus and specializes in fighting infection — same fluid, two very different jobs."
+      },
+      {
+        "title": "Use it in a task",
+        "body": "Trace one red blood cell's full round trip on the diagram — from the bone marrow, through the heart to the lungs to pick up oxygen, out to a body tissue to drop it off, and back to the heart."
+      },
+      {
+        "title": "Review it later",
+        "body": "Come back later and check: can you name where the red blood cell picks up oxygen and where it drops it off, and explain why its biconcave shape helps, without looking at the labels?"
+      }
+    ],
+    "predictionPrompt": "If a red blood cell were shaped like a perfect sphere instead of biconcave, would it carry more, less, or about the same amount of oxygen as the real biconcave shape — and why?",
+    "practiceItem": "Trace and describe a red blood cell's complete journey: bone marrow to heart, heart to lungs (oxygen pickup), lungs to heart, heart to a body tissue (oxygen drop-off, carbon dioxide pickup), and back to the heart.",
+    "checkpoint": "Can you correctly name where the red blood cell picks up oxygen and where it drops it off, and explain why the biconcave shape helps, without checking the labels?"
+  },
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

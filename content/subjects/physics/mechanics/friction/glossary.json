@@ -1,0 +1,46 @@
+{
+  "componentId": "friction",
+  "terms": [
+    {
+      "term": "Friction",
+      "conceptId": "friction-contact-force",
+      "hotspotId": "hs-friction-arrow",
+      "definition": "A contact force between two surfaces that resists them sliding past each other.",
+      "function": "Opposes the sliding motion and depends on surface roughness and pressing force.",
+      "whereItIs": "Between the book and the bench strip beneath it.",
+      "whyItMatters": "It gives us grip (walking, braking) and costs us energy (heat, wear).",
+      "relatedConcept": "normal-force",
+      "quizId": "friction-q-definition"
+    },
+    {
+      "term": "Opposition to motion",
+      "conceptId": "friction-opposes-motion",
+      "hotspotId": "hs-friction-arrow",
+      "definition": "The rule that friction always pushes back against the direction of motion.",
+      "whyItMatters": "It is why objects slow and stop on their own — friction pulls the other way.",
+      "whereItIs": "The arrow drawn opposite the book's travel.",
+      "relatedConcept": "friction-contact-force",
+      "quizId": "friction-q-direction"
+    },
+    {
+      "term": "Surface roughness",
+      "conceptId": "friction-depends-on-surfaces-and-press",
+      "hotspotId": "hs-surface-strips",
+      "definition": "How much a surface's texture grabs — rough grips, smooth slides.",
+      "whyItMatters": "Together with pressing force it sets the size of the friction, from sandpaper-high to ice-near-zero.",
+      "whereItIs": "The three tiles with different textures along the bench.",
+      "relatedConcept": "friction-contact-force",
+      "quizId": "friction-q-roughness"
+    },
+    {
+      "term": "Normal force",
+      "conceptId": "friction-depends-on-surfaces-and-press",
+      "hotspotId": "hs-press-load",
+      "definition": "The support force pushing back perpendicular to a surface.",
+      "whyItMatters": "Press harder and the normal force grows — and friction grows right along with it.",
+      "whereItIs": "Underpinning the load block test.",
+      "relatedConcept": "normal-force",
+      "quizId": "friction-q-press"
+    }
+  ]
+}

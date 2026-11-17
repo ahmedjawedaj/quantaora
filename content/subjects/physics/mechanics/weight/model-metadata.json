@@ -1,0 +1,132 @@
+{
+  "id": "weight",
+  "componentId": "weight",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/weight/weight.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/weight.png",
+  "defaultCamera": {
+    "position": [
+      0.2,
+      1.5,
+      4.0
+    ],
+    "target": [
+      0,
+      0.7,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.2,
+      1.5,
+      4.0
+    ],
+    "target": [
+      0,
+      0.7,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Spring scale stand",
+    "Hanging object",
+    "Newtons marks and needle",
+    "Location dial (Earth / Moon / space)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-weight-backpack",
+      "label": "Hanging Object",
+      "conceptId": "weight-gravitational-force",
+      "position": [
+        0,
+        0.35,
+        0
+      ],
+      "description": "The object whose weight you are measuring — its mass never changes, only the pull on it does.",
+      "positionHint": "A backpack hanging from the scale hook.",
+      "color": "#6B85A8",
+      "function": "Carries the mass whose gravitational pull the scale reads."
+    },
+    {
+      "id": "hs-spring-scale",
+      "label": "Spring Scale",
+      "conceptId": "weight-gravitational-force",
+      "position": [
+        0,
+        1.25,
+        0
+      ],
+      "description": "The scale stretches exactly in proportion to the force pulling the hook — a direct weight reading.",
+      "positionHint": "A stand with a coiled spring and hook, mounted near the center.",
+      "color": "#D9A441",
+      "function": "Measures the gravitational force as spring stretch."
+    },
+    {
+      "id": "hs-newton-mark",
+      "label": "Newton Marks",
+      "conceptId": "weight-gravitational-force",
+      "position": [
+        -0.35,
+        1.0,
+        0
+      ],
+      "description": "The plate of newton marks the needle points to — the weight readout in N.",
+      "positionHint": "Tick marks printed on a plate beside the spring.",
+      "color": "#6B85A8",
+      "function": "Calibrates spring stretch into newtons."
+    },
+    {
+      "id": "hs-weight-value",
+      "label": "Weight Readout",
+      "conceptId": "weight-equals-mg",
+      "position": [
+        0.4,
+        1.0,
+        0.3
+      ],
+      "description": "The live weight in newtons, equal to mass × g for the current location.",
+      "positionHint": "A floating badge showing N values that change with the dial.",
+      "color": "#D96B5A",
+      "function": "Displays weight = mass × g for the selected world."
+    },
+    {
+      "id": "hs-location-dial",
+      "label": "Location Dial",
+      "conceptId": "weight-changes-with-gravity",
+      "position": [
+        1.3,
+        0.5,
+        0
+      ],
+      "description": "Earth, Moon, and space icons — turning it changes g and the weight while the kg tag stays fixed.",
+      "positionHint": "A dial with three worlds on the front post.",
+      "color": "#7FA86A",
+      "function": "Changes gravitational field strength to show weight varying."
+    },
+    {
+      "id": "hs-kg-tag",
+      "label": "Mass Tag",
+      "conceptId": "weight-vs-mass",
+      "position": [
+        -0.6,
+        0.4,
+        -0.3
+      ],
+      "description": "A small tag on the object showing its constant mass in kg — the number gravity can't change.",
+      "positionHint": "A label sticker attached to the backpack.",
+      "color": "#7FA86A",
+      "function": "Reminds that mass is constant while weight varies."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background with soft vignette, no floor grid. A slim metal spring scale stand, a canvas backpack, and a dial with three world icons. Saturated color only on readout dot, dial, and tag. Neutral studio light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 (visualized metal look approximated with roughness ~0.35 and light value contrast). Stand: warm steel grey. Spring: chrome-like but matte. Backpack: canvas amber. Dial: paper with Earth/Moon/stars badge icons. Readout text runtime overlay.",
+  "assetBrief": "SUBJECT: weight as the gravitational force on a mass, read by a spring scale and varied by location.\n\nGEOMETRY: scale stand at center (0,1.25,0 top), a coiled spring, hook, and a hanging backpack (approx 0.5×0.7×0.25) centered at (0,0.35,0). Newton plate on the left of the stand, weight badge to the right, mass tag sticker on the pack, and a location dial on a front-left post.\n\nINTERACTION: the app stretches the spring; needle/s opening on the plate tracks the value W = m·g; the dial cycles Earth 9.8, Moon 1.6, Space 0 with a gentle spring animation and the display updating; the kg tag never changes.\n\nLAYERS: scale+pack; marks; weight badge; dial+tag.\n\nNAMED NODES: ScaleStand, SpringCoil, Hook, Backpack, NewtonPlate, Needle, WeightBadge, MassTag, LocationDial, BasePad. 6-10k tris.",
+  "visual": {
+    "shape": "weight-scale"
+  }
+}

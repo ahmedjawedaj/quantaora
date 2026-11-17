@@ -1,0 +1,104 @@
+{
+  "id": "speed",
+  "componentId": "speed",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/speed/speed.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/speed.png",
+  "defaultCamera": {
+    "position": [
+      0.4,
+      1.4,
+      4.0
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.4,
+      1.4,
+      4.0
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Race track and car",
+    "Motion sensor",
+    "Distance ticker",
+    "Distance-time graph screen"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-speed-car",
+      "label": "Car Speed",
+      "conceptId": "speed-distance-per-time",
+      "position": [
+        0.6,
+        0.35,
+        0
+      ],
+      "description": "The instant speed of the car in m/s, shown live while it rolls down the track.",
+      "positionHint": "Toggling readout above the moving car.",
+      "color": "#6B85A8",
+      "function": "Reads the instantaneous speed while the car is moving."
+    },
+    {
+      "id": "hs-speed-sensor",
+      "label": "Motion Sensor",
+      "conceptId": "speed-distance-per-time",
+      "position": [
+        -1.4,
+        0.9,
+        0
+      ],
+      "description": "The wall sensor that tracks distance with ultrasonic pings, feeding the graph.",
+      "positionHint": "Mount pod on the near wall with a small beam toward the track.",
+      "color": "#D9A441",
+      "function": "Measures distance over time to compute the car's speed."
+    },
+    {
+      "id": "hs-speed-graph",
+      "label": "Distance-Time Graph",
+      "conceptId": "speed-graph",
+      "position": [
+        0,
+        1.3,
+        0.4
+      ],
+      "description": "The live graph draws distance on the vertical axis and time on the horizontal; the slope is the speed.",
+      "positionHint": "A small screen hovering over the track showing a growing line.",
+      "color": "#D96B5A",
+      "function": "Displays distance over time with slope equal to speed."
+    },
+    {
+      "id": "hs-speed-ticker",
+      "label": "Distance Ticker",
+      "conceptId": "speed-average",
+      "position": [
+        -0.6,
+        0.7,
+        0.6
+      ],
+      "description": "The total meter counter used to compute average speed at the end of a run.",
+      "positionHint": "Digits plate at track edge counting accumulated meters.",
+      "color": "#7FA86A",
+      "function": "Totals the distance for average-speed and graph use."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar: warm off-white/paper background (#F7F3EC), soft vignette, no floor grid, no bulky props. A straight warm-grey track mat, small rounded car, wall-pod sensor, floating graph screen. Saturated color only on hotspot dots plus the speed readout; soft neutral studio light, no emissive, no bloom.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Track: warm paper-grey (roughness ~0.8), car body: warm amber-grey (roughness ~0.45), sensor pod warm-grey, graph screen white with dark ink graphs baked for the default gaze. Live readout numbers are an app runtime layer.",
+  "assetBrief": "SUBJECT: speed as distance-over-time on a straight course, procedural graph output.\n\nGEOMETRY: one straight track mat (length ~6 world units along +x) at y=0 with start notches. A small car (≈0.55×0.35×0.35) starting at x=-2.6. A motion-sensor pod hangs on the wall line at the -x end (xyz -1.4,0.9,0). A meter plate floats at the track edge and a graph screen (0,1.3,0.55) floats above with x=time (0-8s), y=distance (0-10m).\n\nINTERACTION: a 3-stick Speed slider (1,2,4 m/s); Run drives the car with numerically-integrating position-advance; Stop makes distance flat; Reset re-zeros.\n\nRUNTIME: the app drives the graph; the GLB stands static-friendly default framing.\n\nNAMED NODES: TrackMat, Car, SensorPod, MeterPlate, GraphScreen, GroundVignette. 5-9k triangles.",
+  "visual": {
+    "shape": "speed-meter"
+  }
+}

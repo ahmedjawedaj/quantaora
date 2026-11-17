@@ -1,0 +1,80 @@
+{
+  "componentId": "muscles",
+  "questions": [
+    {
+      "id": "mu-q-three",
+      "conceptId": "skeletal-smooth-cardiac",
+      "hotspotId": "hs-skeletal",
+      "prompt": "What are the three types of muscle?",
+      "options": [
+        "Skeletal, smooth, and cardiac",
+        "Red, white, and blue",
+        "Fast, medium, and slow",
+        "Top, middle, and bottom"
+      ],
+      "correctIndex": 0,
+      "explanation": "The body has three muscle types: skeletal (body movement), smooth (organs), and cardiac (heart).",
+      "misconception": "The three types are named by where they work, not by color or speed."
+    },
+    {
+      "id": "mu-q-contract",
+      "conceptId": "contract-pull-bones",
+      "hotspotId": "hs-pull",
+      "prompt": "How does a muscle make your body move?",
+      "options": [
+        "It contracts (shortens) and pulls on a bone",
+        "It fills with air",
+        "It pushes against the skin",
+        "It becomes liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "A muscle shortens (contracts), pulling on the bone it is attached to, which moves the joint.",
+      "misconception": "Muscles only pull, they never push - that is why they work in pairs."
+    },
+    {
+      "id": "mu-q-cardiac",
+      "conceptId": "skeletal-smooth-cardiac",
+      "hotspotId": "hs-cardiac",
+      "prompt": "Which muscle type is only in the heart and beats automatically?",
+      "options": [
+        "Cardiac muscle",
+        "Skeletal muscle",
+        "Smooth muscle",
+        "Hair muscle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cardiac muscle is found only in the heart, beats automatically, and never tires.",
+      "misconception": "Skeletal muscle is voluntary and smooth muscle is in organs - only the heart has cardiac muscle."
+    },
+    {
+      "id": "mu-q-pairs",
+      "conceptId": "muscle-pairs-movement",
+      "hotspotId": "hs-pull",
+      "prompt": "Why do muscles often work in pairs?",
+      "options": [
+        "One pulls one way and the other pulls back",
+        "Two are needed for looks",
+        "So they can both be idle",
+        "To share one bone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because muscles only pull, one muscle pulls the limb one way and its partner pulls it back - pairs make joints move both ways.",
+      "misconception": "Pairs are not about looks or sharing - they exist because muscles can only contract and pull."
+    },
+    {
+      "id": "mu-q-energy",
+      "conceptId": "muscles-need-energy",
+      "hotspotId": "hs-skeletal",
+      "prompt": "Why do you get tired and breathe faster during exercise?",
+      "options": [
+        "Working muscles use extra energy and oxygen",
+        "Your bones get heavier",
+        "Your skin falls off",
+        "Your ears get blocked"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hard-working muscles burn extra energy and need more oxygen, so you breathe faster to supply them.",
+      "misconception": "It's about energy supply to the muscles, not bones, skin, or ears."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "componentId": "seed",
+  "terms": [
+    {
+      "term": "Seed",
+      "conceptId": "seed-embryo-baby-plant",
+      "hotspotId": "hs-embryo",
+      "definition": "A protective package containing a baby plant (embryo) and its stored food, which can grow into a new plant.",
+      "function": "Can germinate and grow into a new plant.",
+      "whereItIs": "Made inside the flower's fruit.",
+      "whyItMatters": "Seeds are how flowering plants make the next generation and spread.",
+      "relatedConcept": "seed-coat-protects",
+      "quizId": "seed-q-contents"
+    },
+    {
+      "term": "Seed coat",
+      "conceptId": "seed-coat-protects",
+      "hotspotId": "hs-seat",
+      "definition": "The tough outer layer of a seed that protects the embryo and its food.",
+      "function": "Shields the embryo until the seed germinates.",
+      "whereItIs": "The outer shell of the seed.",
+      "whyItMatters": "It lets the seed survive until conditions are right to grow.",
+      "relatedConcept": "seed-embryo-baby-plant",
+      "quizId": "seed-q-coat"
+    },
+    {
+      "term": "Embryo",
+      "conceptId": "seed-embryo-baby-plant",
+      "hotspotId": "hs-embryo",
+      "definition": "The tiny baby plant that is inside a seed.",
+      "function": "It grows into the new plant at germination.",
+      "whereItIs": "Tucked inside the seed's stored food.",
+      "whyItMatters": "It is the living part of the seed that can start a new plant.",
+      "relatedConcept": "germination-sprouting",
+      "quizId": "seed-q-contents"
+    },
+    {
+      "term": "Germination",
+      "conceptId": "germination-sprouting",
+      "hotspotId": "hs-sprout",
+      "definition": "The process by which a seed begins to grow into a new plant after getting water, warmth, and air.",
+      "function": "Turns a resting seed into a growing seedling.",
+      "whereItIs": "Happens where the seed lands in a good spot.",
+      "whyItMatters": "It is what turns seeds into the plants all around us.",
+      "relatedConcept": "seed-embryo-baby-plant",
+      "quizId": "seed-q-germinate"
+    }
+  ]
+}

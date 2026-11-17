@@ -1,0 +1,100 @@
+{
+  "id": "small-intestine",
+  "subject": "biology",
+  "title": "Small Intestine",
+  "summary": "The small intestine is a long coiled tube where almost all nutrients from food are absorbed into the blood. Explore its finger-like villi and how they give the intestine an enormous inner surface.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "villi-absorption",
+    "enormous-surface-area",
+    "nutrient-absorption-blood",
+    "finishes-digestion"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Digestive system",
+    "component": "Small Intestine",
+    "displayPath": "Biology > Human Anatomy > Digestive system > Small Intestine"
+  },
+  "crossReferences": [
+    {
+      "label": "Large Intestine (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Large intestine",
+      "note": "Whatever the small intestine does not absorb moves on to the large intestine, which absorbs water."
+    },
+    {
+      "label": "Digestion (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Digestion",
+      "note": "Nutrient absorption in the small intestine is the payoff step of the digestion process."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Digestive system > Small Intestine",
+  "compareCandidate": {
+    "label": "Small vs. large intestine",
+    "description": "The small intestine is longer but narrower, and absorbs nutrients. The large intestine is shorter but wider, and absorbs mostly water."
+  },
+  "parts": [
+    "Villi",
+    "Microvilli",
+    "Absorbing blood vessels",
+    "Muscle wall"
+  ],
+  "processes": [
+    "Finishing the breakdown of food",
+    "Absorbing nutrients into the blood",
+    "Moving food onward with muscle waves"
+  ],
+  "plainLanguageExplanation": "The small intestine is a long, coiled tube (about 6 meters in an adult) where most digestion finishes and nearly all nutrients are absorbed. Its inner surface is not smooth - it is lined with millions of tiny finger-like projections called villi. Each villus is covered with even tinier microvilli and contains blood vessels and a lymph vessel. This gives the small intestine an enormous surface area, like a huge rug folded into a small space, so nutrients can be absorbed quickly. Food is pushed through by gentle muscle waves while the intestine finishes breaking down what the stomach started.",
+  "keyFacts": [
+    {
+      "label": "Length",
+      "value": "About 6 meters of coiled tube in an adult"
+    },
+    {
+      "label": "Job",
+      "value": "Finishes digestion and absorbs almost all nutrients"
+    },
+    {
+      "label": "Villi",
+      "value": "Millions of finger-like projections lining the inner surface"
+    },
+    {
+      "label": "Surface area",
+      "value": "Folded villi give an enormous absorption surface"
+    },
+    {
+      "label": "Blood flow",
+      "value": "Nutrients cross villi into the blood and lymph"
+    },
+    {
+      "label": "Name trick",
+      "value": "It is called 'small' for its width, not its length"
+    }
+  ],
+  "whyItMatters": "The small intestine is where your body actually gets the nutrients from your food. Understanding it explains why it is so long, how you absorb vitamins, and why a healthy inner surface matters.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Small intestine (Intestinum tenue)",
+  "tagline": "The body's nutrient absorber",
+  "didYouKnow": "If the small intestine's folded inner surface were spread flat, it would cover an area about the size of a tennis court.",
+  "conditions": [
+    "Celiac disease",
+    "Lactose intolerance",
+    "Food poisoning"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Digestive system > Small Intestine",
+  "plain": "The small intestine is a long, coiled tube (about 6 meters in an adult) where most digestion finishes and nearly all nutrients are absorbed. Its inner surface is not smooth - it is lined with millions of tiny finger-like projections called villi. Each villus is covered with even tinier microvilli and contains blood vessels and a lymph vessel. This gives the small intestine an enormous surface area, like a huge rug folded into a small space, so nutrients can be absorbed quickly. Food is pushed through by gentle muscle waves while the intestine finishes breaking down what the stomach started."
+}

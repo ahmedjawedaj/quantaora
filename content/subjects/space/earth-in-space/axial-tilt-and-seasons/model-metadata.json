@@ -1,0 +1,16 @@
+{
+  "componentId": "axial-tilt-and-seasons",
+  "modelType": "procedural-r3f",
+  "url": "src/components/explorer/EarthSpaceViewer.tsx",
+  "thumbnailUrl": "/assets/thumbnails/space/earth-in-space/axial-tilt-and-seasons.png",
+  "assetStatus": "Already implemented — a hand-built React Three Fiber scene (EarthSpaceViewer.tsx, mode=\"seasons\"), not a pending asset. Earth renders from the same real, already-cleared GLB used by the Solar System branch.",
+  "defaultCamera": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "cameraDefault": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": ["Sun (light source)", "Earth (visibly tilted axis)", "Orbit ring with position marker", "Season readout per hemisphere"],
+  "hotspots": [],
+  "visualStyleNotes": "Anatomy Atelier quality bar: warm off-white studio backdrop, no floor grid, no glow/bloom. Earth's axis is drawn tilted at the learner-set angle and stays pointed in a fixed world direction while the orbit-position slider moves Earth around the Sun, so the changing sunlit-hemisphere is read directly off real-time directional lighting.",
+  "materialNotes": "Earth uses its existing real GLB material set (metallic-roughness PBR); no emissive channels — the day/night split is real-time directional lighting from the Sun position, not a baked texture.",
+  "note": "Process-driven component: the 'Touch it' interaction is a live physics simulation (tilt-angle and orbit-position sliders, season presets) rather than tapping points on a single model, so this component intentionally carries no hotspots."
+}

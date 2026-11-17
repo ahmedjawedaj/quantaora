@@ -1,0 +1,65 @@
+{
+  "componentId": "isotope",
+  "questions": [
+    {
+      "id": "isotope-q-definition",
+      "conceptId": "isotope-same-element-diff-neutrons",
+      "hotspotId": "hs-isotope-pair",
+      "prompt": "What are isotopes?",
+      "options": [
+        "Atoms of the same element with different numbers of neutrons",
+        "Atoms of different elements that look alike",
+        "Atoms with different numbers of protons",
+        "Molecules with extra electrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isotopes are atoms of the SAME element (same protons) with different neutron counts.",
+      "misconception": "Different protons would make a different element entirely, and electrons are the domain of ions — isotopes are specifically the neutron count varying within one element."
+    },
+    {
+      "id": "isotope-q-protons",
+      "conceptId": "isotope-same-protons",
+      "hotspotId": "hs-isotope-protons",
+      "prompt": "What is the same in every isotope of an element?",
+      "options": [
+        "The number of protons",
+        "The number of neutrons",
+        "The total mass",
+        "The number of electrons and neutrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every isotope of an element has the same proton count — that is what keeps them all the same element.",
+      "misconception": "Neutrons and mass differ between isotopes — the proton count is the one thing that stays fixed, and it defines the element."
+    },
+    {
+      "id": "isotope-q-mass",
+      "conceptId": "isotope-different-mass",
+      "hotspotId": "hs-isotope-neutrons",
+      "prompt": "Carbon-12 has 6 neutrons and carbon-14 has 8. How do the two atoms differ?",
+      "options": [
+        "Carbon-14 is heavier — it has more neutrons",
+        "Carbon-14 has more protons",
+        "Carbon-14 has more electrons",
+        "Carbon-14 is a different element"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon-14 has two extra neutrons, so it is heavier — but it is still carbon because the protons are the same.",
+      "misconception": "The protons are identical (both are carbon!), and electrons are not what varies here — the extra neutrons are the whole difference, and they add mass."
+    },
+    {
+      "id": "isotope-q-uses",
+      "conceptId": "isotope-different-mass",
+      "hotspotId": "hs-isotope-neutrons",
+      "prompt": "Why do scientists care about isotopes like carbon-14?",
+      "options": [
+        "They can date ancient objects and treat disease with them",
+        "They are cheaper than other atoms",
+        "They are the only atoms that bond",
+        "They change into different elements easily"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radioactive isotopes like carbon-14 decay at known rates — used for dating, medicine, and nuclear power.",
+      "misconception": "Isotopes do not bond differently or transform easily — their value is that their weight differences and steady decay give scientists clocks and tools."
+    }
+  ]
+}

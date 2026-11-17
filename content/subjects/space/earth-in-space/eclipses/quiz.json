@@ -1,0 +1,75 @@
+{
+  "componentId": "eclipses",
+  "questions": [
+    {
+      "id": "eclipse-q-solar-cause",
+      "conceptId": "solar-eclipse-alignment",
+      "prompt": "What causes a solar eclipse?",
+      "options": [
+        "Earth passing between the Sun and the Moon",
+        "The Moon passing directly between the Sun and Earth",
+        "The Moon's phase changing to New Moon",
+        "Earth's shadow reaching the Moon"
+      ],
+      "correctIndex": 1,
+      "explanation": "A solar eclipse happens when the Moon moves directly between the Sun and Earth, briefly blocking sunlight from part of Earth's surface.",
+      "misconception": "\"Earth's shadow reaching the Moon\" describes a lunar eclipse — the two eclipse types are commonly swapped for each other."
+    },
+    {
+      "id": "eclipse-q-rarity",
+      "conceptId": "moon-orbital-tilt",
+      "prompt": "Why don't we get a solar and lunar eclipse every single month, even though the Moon lines up roughly like a New/Full Moon every month?",
+      "options": [
+        "The Moon is usually too far away",
+        "The Moon's orbit is tilted about 5.1°, so it usually passes above or below the exact alignment line",
+        "The Sun only shines directly at Earth a few times a year",
+        "Earth's rotation prevents eclipses most months"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Moon's orbit is tilted relative to Earth's orbit around the Sun. Most months the Moon crosses the Sun-Earth line a bit above or below it, missing the near-perfect alignment an eclipse needs.",
+      "misconception": "Distance is a natural first guess, but the Moon's distance barely changes month to month — the tilt of its orbital path is the real reason eclipses are rare."
+    },
+    {
+      "id": "eclipse-q-total-vs-partial",
+      "conceptId": "eclipse-rarity",
+      "prompt": "What is the difference between a total and a partial eclipse in this model?",
+      "options": [
+        "They are the same thing with different names",
+        "A total eclipse only happens for solar eclipses",
+        "A closer (smaller) alignment offset produces a stronger, more total eclipse",
+        "A partial eclipse is always a lunar eclipse"
+      ],
+      "correctIndex": 2,
+      "explanation": "The closer the alignment is to perfectly in-line (a small offset), the more completely the shadow lands on its target — a total eclipse. A looser alignment only produces a partial eclipse, or none at all.",
+      "misconception": "\"Total\" and \"partial\" sound like fixed categories tied to eclipse type, but both solar and lunar eclipses can be total or partial — it depends entirely on how precise the alignment is that particular time."
+    },
+    {
+      "id": "eclipse-q-lunar-cause",
+      "conceptId": "lunar-eclipse-alignment",
+      "prompt": "What causes a lunar eclipse?",
+      "options": [
+        "The Moon passing between the Sun and Earth",
+        "Earth passing directly between the Sun and the Moon, casting its shadow on the Moon",
+        "The Moon reaching its New Moon phase",
+        "Clouds blocking the Moon from view"
+      ],
+      "correctIndex": 1,
+      "explanation": "A lunar eclipse happens when Earth moves directly between the Sun and the Moon, so Earth's own shadow falls on the Moon's surface.",
+      "misconception": "It is easy to swap this with the solar eclipse alignment — the key is which body is in the middle: Moon in the middle means solar, Earth in the middle means lunar."
+    },
+    {
+      "id": "eclipse-q-viewing-safety",
+      "conceptId": "eclipse-rarity",
+      "prompt": "Which is safe to look at directly with just your eyes — a lunar eclipse or a solar eclipse?",
+      "options": [
+        "A lunar eclipse — it's just the Moon dimming in Earth's shadow, as safe to view as any normal Moon",
+        "A solar eclipse — it's always perfectly safe to stare at the Sun during one",
+        "Neither is ever safe to look at",
+        "Both need identical eye protection at every moment"
+      ],
+      "correctIndex": 0,
+      "explanation": "A lunar eclipse is safe to view with the naked eye, exactly like an ordinary Moon. A solar eclipse involves looking toward the Sun and needs certified solar filters at all times except the brief seconds of a total eclipse's totality.",
+      "misconception": "Because both events are called \"eclipses,\" it's easy to assume the same safety rules apply to both — but only solar eclipses involve looking anywhere near the Sun."
+    }
+  ]
+}

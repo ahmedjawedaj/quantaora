@@ -1,0 +1,95 @@
+{
+  "componentId": "immune-response",
+  "questions": [
+    {
+      "id": "ir-q-detection",
+      "conceptId": "pathogen-detected",
+      "hotspotId": "hs-pathogen-detected",
+      "prompt": "What happens first, right when a pathogen crosses into the body?",
+      "options": [
+        "Memory cells immediately destroy it",
+        "Sensor cells in the tissue notice it doesn't belong and send out an alarm signal",
+        "Antibodies are already waiting to attack it",
+        "The body raises its temperature before anything else happens"
+      ],
+      "correctIndex": 1,
+      "explanation": "The immune response always starts with detection: sensor cells in the tissue recognize the pathogen's antigen markers as foreign and release chemical alarm signals, which is what calls white blood cells into action next.",
+      "misconception": "Students often assume the strongest tools (antibodies, memory cells) are ready from the very start, but those take stages to build — detection has to happen first."
+    },
+    {
+      "id": "ir-q-white-blood-cells",
+      "conceptId": "white-blood-cells-respond",
+      "hotspotId": "hs-white-blood-cells-respond",
+      "prompt": "What do white blood cells do in the immune response?",
+      "options": [
+        "They only carry oxygen around the body",
+        "They detect and fight pathogens, including engulfing invaders and helping coordinate the rest of the response",
+        "They are only active when you have a fever",
+        "They build new skin cells to close wounds"
+      ],
+      "correctIndex": 1,
+      "explanation": "White blood cells (leukocytes) are the immune system's active defenders — some, like macrophages, engulf pathogens directly, while others, like B cells and T cells, produce antibodies or kill infected cells.",
+      "misconception": "Students often mix up white blood cells with red blood cells; red blood cells carry oxygen, while white blood cells are dedicated to defense and don't carry oxygen at all."
+    },
+    {
+      "id": "ir-q-antibody-function",
+      "conceptId": "antibody-production",
+      "hotspotId": "hs-antibody-production",
+      "prompt": "What is the job of an antibody?",
+      "options": [
+        "It directly eats the entire pathogen whole",
+        "It binds tightly to a specific antigen on a pathogen, marking it for destruction",
+        "It turns into a new white blood cell",
+        "It lowers your body temperature to fight infection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antibodies are shaped to match one specific antigen, like a key fitting a lock. Once attached, they tag the pathogen so other immune cells can destroy it — they don't destroy it by themselves.",
+      "misconception": "Students often confuse antibodies with white blood cells themselves; antibodies are proteins made by plasma cells (a type of white blood cell), not cells that act on their own."
+    },
+    {
+      "id": "ir-q-clearance",
+      "conceptId": "pathogen-destroyed",
+      "hotspotId": "hs-pathogen-destroyed",
+      "prompt": "Once a pathogen is tagged with antibodies, how does the body finish clearing it out?",
+      "options": [
+        "The tag makes the pathogen dissolve on its own",
+        "Phagocyte cells recognize the antibody tags and break the pathogen apart",
+        "The pathogen turns into a memory cell",
+        "Antibodies alone break the pathogen apart without help from other cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antibodies mark the pathogen but don't destroy it themselves — phagocyte cells recognize the antibody tags, engulf the marked pathogen, and break it apart, clearing the infection.",
+      "misconception": "A common assumption is that antibodies do the destroying by themselves; in reality, antibodies tag and phagocyte cells carry out the actual destruction."
+    },
+    {
+      "id": "ir-q-memory",
+      "conceptId": "immune-memory-formed",
+      "hotspotId": "hs-immune-memory-formed",
+      "prompt": "Why doesn't your body usually get chickenpox a second time after having it once?",
+      "options": [
+        "The virus disappears from the planet after one infection",
+        "Skin becomes permanently thicker and blocks the virus",
+        "Memory cells from the first infection recognize the virus and respond much faster the second time",
+        "White blood cells run out of pathogens to fight so they multiply forever"
+      ],
+      "correctIndex": 2,
+      "explanation": "After an infection, the immune system keeps memory B cells and T cells that recognize that exact pathogen. If it returns, these memory cells trigger a faster, stronger response — often stopping the infection before symptoms appear.",
+      "misconception": "A common misconception is that the pathogen is gone from the world or that skin/organs physically change to block it — immunity is about the immune system's memory, not a physical barrier upgrade."
+    },
+    {
+      "id": "ir-q-vaccines",
+      "conceptId": "immune-memory-formed",
+      "hotspotId": "hs-immune-memory-formed",
+      "prompt": "Why do vaccines help prevent disease?",
+      "options": [
+        "They physically block germs from entering the body like a shield",
+        "They kill all germs in the environment around you",
+        "They train the immune system to create memory cells for a pathogen without causing the full disease",
+        "They replace your white blood cells with stronger ones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vaccines expose the immune system to a harmless piece or weakened version of a pathogen's antigens. This triggers antibody production and memory cell formation, so the body is ready to respond quickly if it meets the real pathogen later.",
+      "misconception": "A frequent misunderstanding is that vaccines act as a physical barrier or that they contain the full, dangerous disease — most vaccines contain no live, dangerous pathogen at all, only enough of a signature to train memory cells."
+    }
+  ]
+}

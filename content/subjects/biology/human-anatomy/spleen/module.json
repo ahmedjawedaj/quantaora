@@ -1,0 +1,101 @@
+{
+  "id": "spleen",
+  "subject": "biology",
+  "title": "Spleen",
+  "summary": "The spleen is a fist-sized organ that filters blood, recycles old red blood cells, stores blood cells, and helps the immune system fight germs. Explore its filtering work and its role in immunity.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "filters-blood",
+    "recycles-red-cells",
+    "stores-blood-cells",
+    "immune-checkpoint"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Immune / lymphatic system",
+    "component": "Spleen",
+    "displayPath": "Biology > Human Anatomy > Immune / lymphatic system > Spleen"
+  },
+  "crossReferences": [
+    {
+      "label": "Immune Response (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Immune response",
+      "note": "The spleen's white blood cells take part in the immune response against germs in the blood."
+    },
+    {
+      "label": "Blood Vessels (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Blood vessels",
+      "note": "Blood flows through the spleen's filtering tissue, carried by its blood vessels."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Immune / lymphatic system > Spleen",
+  "compareCandidate": {
+    "label": "Spleen vs. kidney",
+    "description": "Both filter blood, but the kidney makes urine from wastes and controls water/salt balance, while the spleen recycles blood cells and fights germs - it makes no urine."
+  },
+  "parts": [
+    "Blood filter tissue",
+    "White blood cells",
+    "Red cell recycling",
+    "Storage spaces"
+  ],
+  "processes": [
+    "Filtering the blood",
+    "Recycling old red blood cells",
+    "Storing blood cells and platelets",
+    "Helping fight germs"
+  ],
+  "plainLanguageExplanation": "The spleen is a small organ about the size of a fist, tucked under the ribs on the left side. It acts like a blood filter and immune checkpoint. It filters the blood, recycling old or damaged red blood cells and salvaging useful parts like iron. It also stores blood cells and platelets for when the body needs them. And it helps the immune system: white blood cells in the spleen can spot and respond to germs in the blood. If the spleen is removed, other organs can take over most of its jobs, though the person needs extra protection from some infections.",
+  "keyFacts": [
+    {
+      "label": "Where",
+      "value": "Under the ribs on the left side, about fist-sized"
+    },
+    {
+      "label": "Filtering",
+      "value": "Filters the blood, catching old or damaged cells"
+    },
+    {
+      "label": "Recycling",
+      "value": "Breaks down old red blood cells and salvages iron"
+    },
+    {
+      "label": "Storage",
+      "value": "Stores blood cells and platelets for later"
+    },
+    {
+      "label": "Immunity",
+      "value": "Helps the immune system fight germs in the blood"
+    },
+    {
+      "label": "Backup",
+      "value": "Other organs can take over if it is removed"
+    }
+  ],
+  "whyItMatters": "The spleen keeps your blood clean and healthy and helps your immune system respond to germs. Understanding it shows how the body recycles its own materials and defends itself.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Spleen (Lien)",
+  "tagline": "The body's blood filter and immune checkpoint",
+  "didYouKnow": "The spleen recycles about one million old red blood cells every second, salvaging the iron to build new ones.",
+  "conditions": [
+    "Splenomegaly",
+    "Ruptured spleen",
+    "Infection risk after removal"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Immune / lymphatic system > Spleen",
+  "plain": "The spleen is a small organ about the size of a fist, tucked under the ribs on the left side. It acts like a blood filter and immune checkpoint. It filters the blood, recycling old or damaged red blood cells and salvaging useful parts like iron. It also stores blood cells and platelets for when the body needs them. And it helps the immune system: white blood cells in the spleen can spot and respond to germs in the blood. If the spleen is removed, other organs can take over most of its jobs, though the person needs extra protection from some infections."
+}

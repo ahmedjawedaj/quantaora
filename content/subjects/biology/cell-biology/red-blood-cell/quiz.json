@@ -1,0 +1,65 @@
+{
+  "componentId": "red-blood-cell",
+  "questions": [
+    {
+      "id": "rbc-q-function",
+      "conceptId": "hemoglobin",
+      "hotspotId": "hs-hemoglobin",
+      "prompt": "What is the main job of a red blood cell?",
+      "options": [
+        "Fighting off germs and infections",
+        "Carrying oxygen to the body and carbon dioxide away from it",
+        "Sending electrical signals around the body",
+        "Digesting food in the stomach"
+      ],
+      "correctIndex": 1,
+      "explanation": "Red blood cells are built specifically to transport gases: hemoglobin inside them grabs oxygen in the lungs and releases it in body tissues, then picks up carbon dioxide to carry back.",
+      "misconception": "Many learners confuse red blood cells with white blood cells, which are the ones that fight infection — red blood cells are dedicated purely to gas transport, not immune defense."
+    },
+    {
+      "id": "rbc-q-biconcave-shape",
+      "conceptId": "biconcave-shape",
+      "hotspotId": "hs-biconcave-shape",
+      "prompt": "Why is the biconcave (dimpled-on-both-sides) shape useful for a red blood cell?",
+      "options": [
+        "It makes the cell heavier so it sinks to where oxygen is needed",
+        "It increases surface area and flexibility, helping the cell absorb oxygen faster and squeeze through narrow vessels",
+        "It lets the cell divide more quickly than other cells",
+        "It protects the cell from sunlight damage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The biconcave shape gives the cell more surface area relative to its volume than a sphere would, speeding up oxygen exchange, and its flexible dimpled form lets it bend and fold to pass through capillaries narrower than the cell itself.",
+      "misconception": "A common guess is that the shape is about weight or sinking, but red blood cells travel suspended in blood plasma — shape here is about surface area and flexibility, not gravity."
+    },
+    {
+      "id": "rbc-q-no-nucleus",
+      "conceptId": "cytoplasm",
+      "hotspotId": "hs-cytoplasm",
+      "prompt": "What is missing from a mature human red blood cell that most other body cells have?",
+      "options": [
+        "A cell membrane",
+        "A nucleus",
+        "Cytoplasm",
+        "Hemoglobin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mature red blood cells push out their nucleus (and most other organelles) before entering the bloodstream, freeing up interior space that gets filled with more hemoglobin to carry more oxygen.",
+      "misconception": "Students sometimes assume every human cell must have a nucleus, but red blood cells are a notable exception once they mature — this is actually a specialized adaptation, not a defect."
+    },
+    {
+      "id": "rbc-q-hemoglobin-iron",
+      "conceptId": "hemoglobin",
+      "hotspotId": "hs-hemoglobin",
+      "prompt": "What gives hemoglobin its ability to carry oxygen, and where are new red blood cells made?",
+      "options": [
+        "Hemoglobin contains iron that binds oxygen; new red blood cells are made in the bone marrow",
+        "Hemoglobin contains calcium that binds oxygen; new red blood cells are made in the liver",
+        "Hemoglobin contains sugar that binds oxygen; new red blood cells are made in the lungs",
+        "Hemoglobin contains salt that binds oxygen; new red blood cells are made in the heart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hemoglobin's iron atoms are what actually bind and release oxygen molecules, and that iron-oxygen bond is also what makes oxygen-rich blood look bright red. New red blood cells are continuously produced in the red bone marrow, found inside bones like the ribs, pelvis, and skull.",
+      "misconception": "It's easy to mix up organs that process blood (like the liver and spleen, which recycle old red blood cells) with the organ that actually manufactures new ones (bone marrow) — production and recycling happen in different places."
+    }
+  ]
+}

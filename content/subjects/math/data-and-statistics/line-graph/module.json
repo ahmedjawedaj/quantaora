@@ -1,0 +1,86 @@
+{
+  "id": "line-graph",
+  "subject": "math",
+  "title": "Line Graph",
+  "summary": "A line graph connects data points with line segments to show change over time. Explore how dots become a trending line and how to spot the direction of change.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "line-graph-definition",
+    "line-graph-connect",
+    "line-graph-trend",
+    "line-graph-read"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Charts",
+    "systemOrGroup": "Representing data",
+    "component": "Line graph",
+    "displayPath": "Math > Data And Statistics > Charts > Representing data > Line graph"
+  },
+  "crossReferences": [
+    {
+      "label": "Data point (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Data point",
+      "note": "Each dot on a line graph is a data point."
+    },
+    {
+      "label": "Bar chart (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Bar chart",
+      "note": "Bar charts compare categories; line graphs track change over time."
+    },
+    {
+      "label": "Range (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Range",
+      "note": "The vertical spread of a line graph shows the range of the data."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Charts > Representing data",
+  "compareCandidate": {
+    "label": "Line graph vs. bar chart",
+    "description": "A line graph connects ordered points to reveal a trend; a bar chart compares separate categories by height."
+  },
+  "parts": [
+    "The dots (data points)",
+    "The connecting segments",
+    "The trend line"
+  ],
+  "processes": [
+    "Plotting points over time",
+    "Reading increases and decreases"
+  ],
+  "plainLanguageExplanation": "A line graph places one dot for each data point on a grid — time usually runs left to right — then connects the dots with straight segments. The connecting line makes change visible: going up means increasing, going down means decreasing, flat means staying the same. A line graph is perfect for anything measured over time: temperature each hour, height each year, savings each month. To read it, trace the line and watch its direction — the rises and dips tell the whole story.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Points connected to show change" },
+    { "label": "Time axis", "value": "Left to right" },
+    { "label": "Dots", "value": "One per data point" },
+    { "label": "Line", "value": "Connects dots into a path" },
+    { "label": "Read it", "value": "Up = increase, down = decrease" },
+    { "label": "Good for", "value": "Anything changing over time" }
+  ],
+  "whyItMatters": "Trends live in line graphs — the rise of temperatures, the crash of a stock, the growth of a plant. Being able to read a trend line is how you understand weather, finance, and science reporting.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Line graph",
+  "tagline": "See change over time",
+  "didYouKnow": "Line graphs for time series go back to at least the 10th century — medieval manuscripts graphed planetary movement; French astronomer Nicole Oresme drew a time graph of velocity in the 1300s.",
+  "conditions": [
+    "Weather trends",
+    "Growth charts",
+    "Stock prices",
+    "Speed changes"
+  ],
+  "compareCandidateId": "bar-chart",
+  "compareReason": "Students pick a chart without thinking about time — comparing the connected trend line with the category bars shows the right tool for the question."
+}

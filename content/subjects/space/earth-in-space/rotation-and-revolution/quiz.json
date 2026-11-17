@@ -1,0 +1,50 @@
+{
+  "componentId": "rotation-and-revolution",
+  "questions": [
+    {
+      "id": "rotrev-q-what-is-rotation",
+      "conceptId": "axial-rotation",
+      "prompt": "What is Earth's rotation?",
+      "options": ["Earth orbiting the Sun", "Earth spinning on its own axis", "The Moon orbiting Earth", "Earth's yearly path"],
+      "correctIndex": 1,
+      "explanation": "Rotation is Earth spinning in place around its own axis — one full spin takes about 24 hours and is what gives us day and night.",
+      "misconception": "\"Rotation\" and \"revolution\" get swapped constantly because both describe circular motion. Rotation is always the spin-in-place motion — think of a rotating fan blade."
+    },
+    {
+      "id": "rotrev-q-what-is-revolution",
+      "conceptId": "orbital-revolution",
+      "prompt": "What is Earth's revolution?",
+      "options": ["Earth spinning on its axis", "Earth orbiting the Sun once", "A single day passing", "The Moon's rotation"],
+      "correctIndex": 1,
+      "explanation": "Revolution is Earth travelling all the way around the Sun — one full lap takes about 365.25 days, which defines a year.",
+      "misconception": "Because \"revolution\" sounds dramatic, it's sometimes guessed as the faster motion. It's actually the much slower, much bigger one — a full year, not a full day."
+    },
+    {
+      "id": "rotrev-q-rotation-length",
+      "conceptId": "axial-rotation",
+      "prompt": "About how long does one Earth rotation take?",
+      "options": ["24 hours", "27 days", "365 days", "1 hour"],
+      "correctIndex": 0,
+      "explanation": "One rotation — one full spin on the axis — takes about 24 hours, which is exactly what defines a single day.",
+      "misconception": "27 days is the Moon's orbital period around Earth, not Earth's own spin — an easy mix-up since both involve Earth as a reference point."
+    },
+    {
+      "id": "rotrev-q-day-night-cause",
+      "conceptId": "day-night-cycle",
+      "prompt": "Which motion is responsible for day and night?",
+      "options": ["Revolution", "Rotation", "Both equally", "Neither — the Sun moves"],
+      "correctIndex": 1,
+      "explanation": "Rotation constantly turns a new part of Earth to face the Sun and turns the previous part away — that's what creates the day/night cycle every 24 hours.",
+      "misconception": "Revolution changes the season over a year, not the time of day — it happens far too slowly to explain something that repeats every 24 hours."
+    },
+    {
+      "id": "rotrev-q-spins-per-year",
+      "conceptId": "orbital-revolution",
+      "prompt": "Roughly how many times does Earth rotate during one full revolution around the Sun?",
+      "options": ["About 365 times", "About 12 times", "About 24 times", "Exactly once"],
+      "correctIndex": 0,
+      "explanation": "Earth spins about 365.25 times during the same stretch of time it takes to complete one lap around the Sun — that's exactly why a calendar year has about 365 days.",
+      "misconception": "The numbers 24 (hours in a day) and 365 (days in a year) can feel like unrelated facts to memorize, but they're really the same two motions — rotation and revolution — compared at different timescales."
+    }
+  ]
+}

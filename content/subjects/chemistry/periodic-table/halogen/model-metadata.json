@@ -1,0 +1,90 @@
+{
+  "id": "halogen",
+  "componentId": "halogen",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/halogen/halogen.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/halogen.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.85,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.85,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Halogen samples",
+    "Seven electrons",
+    "Electron grab",
+    "Group 17 on table"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-halogen-column",
+      "label": "Group 17",
+      "conceptId": "halogen-group-17",
+      "position": [
+        0,
+        -1.25,
+        0.2
+      ],
+      "description": "This glowing column is Group 17 — the halogens, the second-to-last column of the periodic table.",
+      "positionHint": "The highlighted second-to-last column of tiles below the samples.",
+      "color": "#D96B5A",
+      "function": "Shows where the halogens live on the periodic table."
+    },
+    {
+      "id": "hs-halogen-valence",
+      "label": "Seven valence electrons",
+      "conceptId": "halogen-seven-valence-electrons",
+      "position": [
+        0.95,
+        0.55,
+        0.1
+      ],
+      "description": "The small atom model shows a chlorine atom with seven outer electrons and one empty space — one electron short of a full shell.",
+      "positionHint": "The small atom model beside the samples, visible when the seven-electrons layer is on.",
+      "color": "#D9A441",
+      "function": "Shows the seven valence electrons and the one space a halogen wants to fill."
+    },
+    {
+      "id": "hs-halogen-ion",
+      "label": "Chloride ion (Cl⁻)",
+      "conceptId": "halogen-reactive-nonmetals",
+      "position": [
+        -0.9,
+        0.15,
+        0.1
+      ],
+      "description": "When chlorine grabs one extra electron, it becomes a -1 chloride ion with a full outer shell — shown here with its new electron highlighted.",
+      "positionHint": "The small ion model beside the samples, visible when the electron-grab layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows the -1 ion a halogen becomes after grabbing an electron."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. The halogen samples float centered above a table section, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: the chlorine cloud is a pale muted green, the bromine droplet a soft amber, the iodine crystal a muted violet — all desaturated, not neon. Strong saturated color is reserved entirely for the small flat hotspot dots (coral / amber / molecular green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Chlorine cloud: translucent pale green, alpha ~0.35, roughness ~0.5. Bromine droplet: soft amber, translucent (alpha ~0.8), roughness ~0.4. Iodine crystal: muted violet, matte, roughness ~0.6. Atom model: small teal electrons on translucent hairline rings. Table tiles: paper-white, roughness ~0.55. No emissive channels anywhere — any glow or pulse is handled by app runtime UI, not baked into the asset.",
+  "assetBrief": "SUBJECT: the halogens shown across their states — gas, liquid, solid — plus their seven-valence-electron secret, built to be read as 'the one-electron-short family that grabs electrons.' Four procedural layers, all clean primitives:\n\n1) MAIN: three samples floating at center — (a) a soft translucent pale-green cloud (several overlapping flattened spheres, alpha ~0.35) = chlorine gas, (b) a smooth amber droplet (slightly flattened sphere, alpha ~0.8) = bromine liquid, and (c) a small muted-violet crystal cluster (2-3 intergrown cubes) = iodine solid. All muted.\n\n2) SEVEN ELECTRONS (toggleable layer): a small atom model floats beside the samples — an inner translucent ring with 2 teal electrons and an outer ring with exactly 7 teal electrons, with one small empty notch marker where an 8th would sit.\n\n3) ELECTRON GRAB (toggleable layer): beside the atom model, a second small ion model appears — the same outer ring now holding a full 8 electrons with the newest one slightly brightened — the -1 chloride ion. A thin dashed arc connects the empty notch to the new electron (the app animates the grab).\n\n4) GROUP 17 ON TABLE (toggleable layer): below, a flat section of periodic table (paper-white tiles, ~9 x 5). The second-to-last column is given a faint muted warm-coral cast and slight raise — Group 17.\n\nCamera: framed so the samples are large and centered with the table slab below; auto-rotate default. Budget 8-12k triangles. Named nodes: ChlorineCloud, BromineDroplet, IodineCrystal, ShellAtom, InnerElectrons, ValenceElectrons_7, NotchMarker, ChlorideIon, GrabbedElectron, GrabArc, TableSlab, Group17Column. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "nonmetal-molecule"
+  }
+}

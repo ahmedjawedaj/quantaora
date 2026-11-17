@@ -1,0 +1,50 @@
+{
+  "componentId": "division",
+  "terms": [
+    {
+      "term": "Dividend",
+      "conceptId": "division-equal-sharing",
+      "hotspotId": "hs-dividend",
+      "definition": "The total number being divided or shared.",
+      "function": "In 12 ÷ 4 = 3, the 12 is the dividend.",
+      "whereItIs": "The pile of 12 cubes on the mat.",
+      "whyItMatters": "It is the amount you start with before any splitting."
+    },
+    {
+      "term": "Divisor",
+      "conceptId": "division-equal-sharing",
+      "hotspotId": "hs-divisor",
+      "definition": "The number you divide by — the size of the groups.",
+      "function": "In 12 ÷ 4 = 3, the 4 is the divisor.",
+      "whereItIs": "The 4 sharing bowls.",
+      "whyItMatters": "It determines how the dividend gets split up."
+    },
+    {
+      "term": "Quotient",
+      "conceptId": "division-equal-sharing",
+      "hotspotId": "hs-quotient",
+      "definition": "The result of a division — how many in each equal group.",
+      "function": "In 12 ÷ 4 = 3, the 3 is the quotient.",
+      "whereItIs": "The count plate over each filled bowl.",
+      "whyItMatters": "The quotient is the answer division problems ask for."
+    },
+    {
+      "term": "Repeated subtraction",
+      "conceptId": "division-repeated-subtraction",
+      "hotspotId": "hs-repeated-subtraction",
+      "definition": "Subtracting the same group size over and over until reaching zero.",
+      "function": "Models division — the number of subtractions is the quotient.",
+      "whereItIs": "The 12 → 8 → 4 → 0 track along the front of the mat.",
+      "whyItMatters": "It connects division to subtraction and makes the 'how many groups' idea visible."
+    },
+    {
+      "term": "Remainder",
+      "conceptId": "division-remainder",
+      "hotspotId": "hs-dividend",
+      "definition": "The amount left over when a total cannot be split evenly.",
+      "function": "In 14 ÷ 4 = 3 R 2, the leftover 2 is the remainder.",
+      "whereItIs": "Cubes that remain unshared after the bowls are filled evenly.",
+      "whyItMatters": "Remainders are normal and useful — they describe division that does not come out even."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "componentId": "nerve-signaling",
+  "questions": [
+    {
+      "id": "nerve-signaling-q-stimulus",
+      "conceptId": "stimulus-received",
+      "hotspotId": "hs-1",
+      "prompt": "What starts the nerve-signaling process at a neuron's dendrites?",
+      "options": [
+        "A stimulus — such as heat, touch, light, or a chemical signal — depolarizes the receiving membrane",
+        "The axon terminal releases neurotransmitters onto the dendrites",
+        "The effector tissue sends a signal backward into the dendrites",
+        "Myelin forms around the dendrites to begin the process"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dendrites of the presynaptic neuron detect an incoming stimulus and depolarize, which is the first step that kicks off the entire signaling chain.",
+      "misconception": "Learners sometimes assume the process starts inside the axon or at the synapse, missing that the dendrites are the true entry point where an outside trigger first becomes a nervous-system signal."
+    },
+    {
+      "id": "nerve-signaling-q-saltatory",
+      "conceptId": "electrical-impulse-travels-axon",
+      "hotspotId": "hs-2",
+      "prompt": "Why does an electrical impulse travel faster along a myelinated axon than an unmyelinated one?",
+      "options": [
+        "Myelin insulates the axon, letting the impulse jump between nodes of Ranvier instead of traveling continuously (saltatory conduction)",
+        "Myelin itself carries the electrical charge like a wire",
+        "Myelin removes the need for a stimulus to start the signal",
+        "Myelin permanently increases the diameter of the axon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Myelin sheath segments insulate the axon, so the impulse only has to regenerate at the exposed gaps — the nodes of Ranvier — letting it effectively jump ahead in a process called saltatory conduction, which is much faster than continuous conduction along a bare axon.",
+      "misconception": "A common mix-up is thinking myelin generates or carries the signal itself, when really its job is purely insulation — the electrical impulse and chemical release are handled by other parts of the neuron."
+    },
+    {
+      "id": "nerve-signaling-q-neurotransmitter",
+      "conceptId": "neurotransmitter-release-at-synapse",
+      "hotspotId": "hs-3",
+      "prompt": "What crosses the synapse to carry a nerve signal from one neuron to the next?",
+      "options": [
+        "Electricity jumps directly across the gap",
+        "A chemical messenger called a neurotransmitter",
+        "The axon physically touches the next neuron",
+        "Blood carries the signal across"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neurons are not physically connected, so the electrical impulse triggers the release of neurotransmitters, which drift across the synapse gap and bind to receptors on the next neuron, restarting the signal there.",
+      "misconception": "Many learners assume electricity can 'jump' the gap like a spark, since the impulse inside the neuron is electrical — but the synapse gap is fluid-filled and too wide for the electrical signal itself to cross, which is exactly why the chemical step exists."
+    },
+    {
+      "id": "nerve-signaling-q-receptor",
+      "conceptId": "signal-received-by-next-neuron",
+      "hotspotId": "hs-4",
+      "prompt": "How does the postsynaptic neuron know a signal has arrived at the synapse?",
+      "options": [
+        "Receptors on its dendrite bind the neurotransmitter that crossed the synaptic cleft, triggering a new electrical signal",
+        "It directly senses the electrical impulse still traveling in the presynaptic axon",
+        "Its own myelin sheath absorbs the neurotransmitter and forwards a signal automatically",
+        "It waits for the effector tissue to respond first"
+      ],
+      "correctIndex": 0,
+      "explanation": "Receptors on the postsynaptic neuron's dendrite/soma surface bind the specific neurotransmitter released across the cleft, and that binding restarts an electrical signal in the receiving cell.",
+      "misconception": "Some learners think the postsynaptic neuron detects the presynaptic neuron's electricity directly, skipping the fact that receptor binding — not direct electrical sensing — is what restarts the signal."
+    },
+    {
+      "id": "nerve-signaling-q-response",
+      "conceptId": "response-triggered",
+      "hotspotId": "hs-5",
+      "prompt": "What happens at the very end of the nerve-signaling pathway, once the signal reaches an effector?",
+      "options": [
+        "The effector tissue, such as a muscle or gland, produces a physical response like contraction or secretion",
+        "A brand-new stimulus is generated at the effector to restart the pathway",
+        "The effector sends the signal back to the original stimulus",
+        "The signal stops permanently and cannot be repeated"
+      ],
+      "correctIndex": 0,
+      "explanation": "The final step of nerve signaling is a physical response — the downstream effector tissue (muscle or gland) contracts or secretes based on the signal it received.",
+      "misconception": "Learners sometimes think the 'signal' itself is the end goal, forgetting that nerve signaling exists to produce a physical response in the body — the effector step is where that payoff happens."
+    },
+    {
+      "id": "nerve-signaling-q-sequence",
+      "conceptId": "stimulus-received",
+      "hotspotId": "hs-1",
+      "prompt": "What is the correct order of the nerve-signaling process?",
+      "options": [
+        "Response triggered, stimulus received, impulse travels axon, neurotransmitter release, signal received",
+        "Stimulus received, impulse travels axon, neurotransmitter release at synapse, signal received by next neuron, response triggered",
+        "Neurotransmitter release, stimulus received, response triggered, impulse travels axon, signal received",
+        "Impulse travels axon, response triggered, stimulus received, signal received, neurotransmitter release"
+      ],
+      "correctIndex": 1,
+      "explanation": "The signal always starts with a stimulus, becomes an electrical impulse down the axon, converts to a chemical signal at the synapse, is picked up by the next neuron, and finally triggers a response.",
+      "misconception": "Learners sometimes place 'response triggered' too early, forgetting that a response can only happen after the signal has been passed all the way through the chain of neurons to a muscle or gland."
+    },
+    {
+      "id": "nerve-signaling-q-refractory",
+      "conceptId": "electrical-impulse-travels-axon",
+      "hotspotId": "hs-2",
+      "prompt": "Why can't a neuron fire again the instant after it just fired?",
+      "options": [
+        "It runs out of neurotransmitters permanently",
+        "It needs a brief refractory period to reset before firing again",
+        "The axon physically breaks and must regrow",
+        "It has to wait for the myelin sheath to regenerate"
+      ],
+      "correctIndex": 1,
+      "explanation": "After firing, a neuron goes through a short refractory period where it resets its electrical balance before it's ready to fire again — this happens in milliseconds, not by regrowing or running out of material.",
+      "misconception": "Some learners think a neuron gets physically damaged or depleted each time it fires and needs to regrow or refill from scratch, but the refractory period is a fast, reversible reset, not a repair process."
+    }
+  ]
+}

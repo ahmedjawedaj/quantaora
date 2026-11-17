@@ -1,0 +1,41 @@
+{
+  "componentId": "bar-chart",
+  "terms": [
+    {
+      "term": "Bar chart",
+      "conceptId": "bar-chart-definition",
+      "hotspotId": "hs-bar-tallest",
+      "definition": "A chart showing data as bars whose heights equal their values.",
+      "function": "Compares categories at a glance.",
+      "whereItIs": "The chart plate with its bars.",
+      "whyItMatters": "The most common chart for comparing groups."
+    },
+    {
+      "term": "Category axis",
+      "conceptId": "bar-chart-axes",
+      "hotspotId": "hs-category-axis",
+      "definition": "The bottom axis naming the groups compared.",
+      "function": "Places one bar under each category.",
+      "whereItIs": "Red, Blue, Green along the bottom.",
+      "whyItMatters": "Tells you what each bar stands for."
+    },
+    {
+      "term": "Value axis",
+      "conceptId": "bar-chart-read",
+      "hotspotId": "hs-value-axis",
+      "definition": "The side axis measuring the counts.",
+      "function": "Provides the scale for reading bar heights.",
+      "whereItIs": "The numbered vertical axis.",
+      "whyItMatters": "The value axis turns heights into numbers."
+    },
+    {
+      "term": "Compare",
+      "conceptId": "bar-chart-compare",
+      "hotspotId": "hs-bar-tallest",
+      "definition": "Judge which category is larger by comparing heights.",
+      "function": "Tallest bar = biggest category.",
+      "whereItIs": "Visible by scanning the bar tops.",
+      "whyItMatters": "Bar charts make ranking instant."
+    }
+  ]
+}

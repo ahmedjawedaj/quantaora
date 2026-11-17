@@ -1,0 +1,16 @@
+{
+  "id": "lysozyme-enzyme",
+  "pdbId": "1LYZ",
+  "title": "Hen egg-white lysozyme enzyme backbone",
+  "sourceName": "RCSB PDB 1LYZ",
+  "sourceUrl": "https://www.rcsb.org/structure/1LYZ",
+  "coordinateUrl": "https://files.rcsb.org/download/1LYZ.pdb",
+  "license": "RCSB PDB data files are distributed under CC0 1.0 Universal",
+  "licenseStatus": "CLEAR",
+  "qualityTier": "support",
+  "targetComponents": [
+    "biology-biochemistry-enzyme",
+    "chem-biolink-enzyme-substrate"
+  ],
+  "generatedBy": "scripts/assets/build-rcsb-biochemistry-glbs.mjs"
+}

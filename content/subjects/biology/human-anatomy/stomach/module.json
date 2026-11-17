@@ -1,0 +1,101 @@
+{
+  "id": "stomach",
+  "subject": "biology",
+  "title": "Stomach",
+  "summary": "The stomach is a stretchy muscular bag that churns food and mixes it with acid and enzymes to start breaking it down. Explore its layers and how it turns a meal into a soupy mixture.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "stomach-churns-food",
+    "acid-and-enzymes",
+    "protein-breakdown",
+    "chyme-to-intestine"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Digestive system",
+    "component": "Stomach",
+    "displayPath": "Biology > Human Anatomy > Digestive system > Stomach"
+  },
+  "crossReferences": [
+    {
+      "label": "Small Intestine (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Small intestine",
+      "note": "The soupy chyme leaves the stomach and enters the small intestine, where most nutrients are absorbed."
+    },
+    {
+      "label": "Digestion (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Digestion",
+      "note": "The stomach is a key stop on the digestion process - churning, mixing, and starting to break down food."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Digestive system > Stomach",
+  "compareCandidate": {
+    "label": "Stomach vs. intestine",
+    "description": "The stomach is a churning mixer that starts breaking down food with acid. The small intestine is a long tube where most nutrients get absorbed into the blood."
+  },
+  "parts": [
+    "Muscle wall",
+    "Gastric juices (acid + enzymes)",
+    "Mucus lining",
+    "Chyme"
+  ],
+  "processes": [
+    "Churning and mixing food",
+    "Starting protein breakdown with acid and enzymes",
+    "Killing germs in food",
+    "Passing chyme to the small intestine"
+  ],
+  "plainLanguageExplanation": "The stomach is a J-shaped muscular bag at the top of the abdomen. When food arrives from the esophagus, the stomach stretches and churns it with strong muscles, mixing it with gastric juices - acid and enzymes that start breaking down the food, especially proteins. The acid also kills many germs that come in with food. After a few hours, the food has become a soupy mixture called chyme, which moves into the small intestine. The stomach has a thick lining with special cells that make the acid and enzymes, and a layer of mucus protects the stomach wall from digesting itself.",
+  "keyFacts": [
+    {
+      "label": "Shape",
+      "value": "A J-shaped muscular bag at the top of the abdomen"
+    },
+    {
+      "label": "Job",
+      "value": "Churns food and mixes it with acid and enzymes"
+    },
+    {
+      "label": "Gastric juices",
+      "value": "Acid and enzymes that start breaking down food, especially protein"
+    },
+    {
+      "label": "Germ killer",
+      "value": "Stomach acid kills many germs that arrive with food"
+    },
+    {
+      "label": "Product",
+      "value": "Turns food into chyme, a soupy mixture, for the small intestine"
+    },
+    {
+      "label": "Protection",
+      "value": "A mucus layer protects the stomach wall from its own acid"
+    }
+  ],
+  "whyItMatters": "The stomach is where digestion really kicks in - it starts breaking down proteins and killing germs. Understanding it explains heartburn, why you feel full after a meal, and how digestion begins.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Stomach (Gaster)",
+  "tagline": "The body's churning food mixer",
+  "didYouKnow": "The stomach can stretch to hold about 1-1.5 liters of food and drink, then shrink back down when it is empty.",
+  "conditions": [
+    "Heartburn (reflux)",
+    "Ulcer",
+    "Indigestion"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Digestive system > Stomach",
+  "plain": "The stomach is a J-shaped muscular bag at the top of the abdomen. When food arrives from the esophagus, the stomach stretches and churns it with strong muscles, mixing it with gastric juices - acid and enzymes that start breaking down the food, especially proteins. The acid also kills many germs that come in with food. After a few hours, the food has become a soupy mixture called chyme, which moves into the small intestine. The stomach has a thick lining with special cells that make the acid and enzymes, and a layer of mucus protects the stomach wall from digesting itself."
+}

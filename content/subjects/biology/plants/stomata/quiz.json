@@ -1,0 +1,65 @@
+{
+  "componentId": "stomata",
+  "questions": [
+    {
+      "id": "stomata-q-what",
+      "conceptId": "stomata-tiny-pores",
+      "hotspotId": "hs-stoma",
+      "prompt": "What are stomata?",
+      "options": [
+        "Tiny pores on a leaf surface that open and close",
+        "Large roots growing underground",
+        "Brightly colored flower petals",
+        "The hard part inside a seed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stomata are small pores, or openings, on the surface of leaves and stems that can open and close.",
+      "misconception": "Stomata are not roots, petals, or seed parts; they are tiny adjustable pores on the leaf surface used for gas exchange."
+    },
+    {
+      "id": "stomata-q-gas",
+      "conceptId": "carbon-dioxide-in-oxygen-out",
+      "hotspotId": "hs-gas",
+      "prompt": "What happens at an open stoma?",
+      "options": [
+        "Carbon dioxide comes in and oxygen goes out",
+        "Oxygen always comes in first",
+        "Nitrogen gas gets stored",
+        "No gas ever moves through it"
+      ],
+      "correctIndex": 0,
+      "explanation": "Through an open stoma, a plant takes in carbon dioxide to power photosynthesis and releases oxygen that it makes.",
+      "misconception": "Some learners reverse this thinking it works like animal lungs. But plants take carbon dioxide in and give oxygen out through stomata."
+    },
+    {
+      "id": "stomata-q-guardcells",
+      "conceptId": "guard-cells-open-close",
+      "hotspotId": "hs-guardcells",
+      "prompt": "What controls whether a stoma is open or closed?",
+      "options": [
+        "Two guard cells that build apart, or meet together",
+        "The flower petals decide",
+        "The soil decides by itself",
+        "The seed coat does it"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each stoma is framed by two guard cells. They swell and bend apart to open the pore, and relax to bring them together and close it.",
+      "misconception": "It is not a root, petal, or seed that controls this - it is the two guard cells beside each pore that swell and bend."
+    },
+    {
+      "id": "stomata-q-water",
+      "conceptId": "stomata-save-water",
+      "hotspotId": "hs-stoma",
+      "prompt": "Why might a plant close its stomata on a hot, dry day?",
+      "options": [
+        "To save water by stopping it from escaping",
+        "To let in more heat",
+        "To make extra oxygen",
+        "To attract more pollinators"
+      ],
+      "correctIndex": 0,
+      "explanation": "When open, the pores lose water. On a hot, dry day the plant closes its stomata to stop losing too much water.",
+      "misconception": "Closing is not for letting in heat, making oxygen, or pollinators. It is a water-saving move even though it means taking in less carbon dioxide."
+    }
+  ]
+}

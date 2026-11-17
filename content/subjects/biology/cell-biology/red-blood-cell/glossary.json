@@ -1,0 +1,75 @@
+{
+  "componentId": "red-blood-cell",
+  "terms": [
+    {
+      "term": "Red Blood Cell",
+      "conceptId": "red-blood-cell",
+      "definition": "A specialized, nucleus-free blood cell shaped like a biconcave disc, built to carry oxygen through the bloodstream.",
+      "function": "Transports oxygen from the lungs to body tissues and carries carbon dioxide back to the lungs.",
+      "whereItIs": "Circulating throughout the cardiovascular system — heart, arteries, capillaries, and veins.",
+      "whyItMatters": "Every cell in the body depends on the oxygen red blood cells deliver; without them, tissues would quickly starve for oxygen.",
+      "relatedConcept": "hemoglobin"
+    },
+    {
+      "term": "Cell membrane",
+      "conceptId": "cell-membrane",
+      "hotspotId": "hs-cell-membrane",
+      "definition": "The thin, flexible outer wall of the red blood cell that holds everything in while letting the cell bend and squeeze through tiny vessels.",
+      "function": "Forms a phospholipid bilayer boundary studded with proteins, allowing the cell to flex without breaking as it passes through capillaries narrower than its own resting diameter.",
+      "whereItIs": "The outer rim of the disc, visible as the cell's surface silhouette from every angle.",
+      "whyItMatters": "Its flexibility is what lets a red blood cell survive millions of tight squeezes through capillaries over its 120-day lifespan.",
+      "relatedConcept": "biconcave-shape"
+    },
+    {
+      "term": "Hemoglobin",
+      "conceptId": "hemoglobin",
+      "hotspotId": "hs-hemoglobin",
+      "definition": "The iron-containing protein packed inside a red blood cell that grabs onto oxygen molecules and lets go of them where the body needs oxygen most.",
+      "function": "Binds oxygen in the lungs and releases it in body tissues; its iron-oxygen bond is also what makes oxygen-rich blood appear bright red.",
+      "whereItIs": "Fills the interior of the cell, most visible through the shallow, more translucent front dimple and fully revealed in cross-section.",
+      "whyItMatters": "Hemoglobin is the entire reason a red blood cell exists — without it, the cell couldn't carry oxygen at all.",
+      "relatedConcept": "gas-exchange",
+      "quizId": "rbc-q-hemoglobin-iron"
+    },
+    {
+      "term": "Biconcave",
+      "conceptId": "biconcave-shape",
+      "hotspotId": "hs-biconcave-shape",
+      "definition": "A shape that curves inward on both flat sides, like a doughnut that didn't quite punch all the way through — it gives red blood cells more surface area and flexibility.",
+      "function": "Maximizes surface area relative to volume for faster gas exchange and lets the cell flex through vessels narrower than its resting width.",
+      "whereItIs": "The defining silhouette of the whole cell, most visible at the thin, pinched edge of the disc.",
+      "whyItMatters": "Without this shape, a red blood cell would carry less oxygen per cell and would be far more likely to rupture squeezing through capillaries.",
+      "relatedConcept": "cell-membrane",
+      "quizId": "rbc-q-biconcave-shape"
+    },
+    {
+      "term": "Cytoplasm",
+      "conceptId": "cytoplasm",
+      "hotspotId": "hs-cytoplasm",
+      "definition": "The jelly-like fluid inside the cell where hemoglobin floats, filling the space since most other internal parts have been removed.",
+      "function": "Provides the fluid medium hemoglobin is suspended in; in a mature red blood cell it occupies nearly the entire interior since the nucleus and major organelles have been expelled.",
+      "whereItIs": "The interior volume just inside the membrane, distinguishable from the denser hemoglobin core mainly in cross-section.",
+      "whyItMatters": "That the cytoplasm and hemoglobin make up almost the whole interior — with no nucleus taking up space — is precisely what lets the cell carry so much oxygen.",
+      "relatedConcept": "hemoglobin",
+      "quizId": "rbc-q-no-nucleus"
+    },
+    {
+      "term": "Capillary",
+      "conceptId": "capillary",
+      "definition": "The smallest blood vessel in the body, often just barely wider than a single red blood cell, where oxygen actually gets delivered to tissue.",
+      "function": "Provides the thin-walled exchange site where oxygen diffuses out of red blood cells into surrounding tissue and carbon dioxide diffuses in.",
+      "whereItIs": "The finest branches of the cardiovascular system, connecting the smallest arteries to the smallest veins.",
+      "whyItMatters": "Capillaries are the only place gas exchange with tissue actually happens — everything about a red blood cell's flexible, biconcave shape exists to help it pass through vessels this narrow.",
+      "relatedConcept": "biconcave-shape"
+    },
+    {
+      "term": "Bone marrow",
+      "conceptId": "bone-marrow",
+      "definition": "The soft tissue inside certain bones where new red blood cells are manufactured around the clock.",
+      "function": "Produces new red blood cells continuously through a process called erythropoiesis, replacing the ones that wear out after about 120 days.",
+      "whereItIs": "Inside flat bones such as the ribs, pelvis, and skull.",
+      "whyItMatters": "Because red blood cells only last about 120 days, the body depends on a constant supply of new ones from bone marrow just to keep up with normal wear.",
+      "relatedConcept": "red-blood-cell"
+    }
+  ]
+}

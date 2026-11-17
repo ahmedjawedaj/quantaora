@@ -1,0 +1,60 @@
+{
+  "componentId": "orbit-simulator",
+  "terms": [
+    {
+      "term": "Orbit",
+      "conceptId": "orbits-are-ellipses",
+      "hotspotId": "hs-earth-orbit",
+      "definition": "The closed, repeating path a planet follows around the Sun — a slightly squashed ellipse with the Sun at one focus.",
+      "function": "Shows how forward motion and inward gravity balance into a loop that repeats with no pushing effort.",
+      "whereItIs": "The thin rings drawn around the Sun in the model.",
+      "whyItMatters": "Orbits are the pattern behind every year, every moon phase, and every satellite.",
+      "relatedConcept": "gravity-holds-orbits",
+      "quizId": "orbitsim-q-why-stay"
+    },
+    {
+      "term": "Gravity",
+      "conceptId": "gravity-holds-orbits",
+      "hotspotId": "hs-gravity-tug",
+      "definition": "The pull that every mass exerts on every other mass; the Sun's gravity is the pull steering each planet's path.",
+      "function": "Pulls planets toward the Sun at every moment, bending their straight forward motion into a curve.",
+      "whereItIs": "Shown as the golden tug arrows in the overlay layer.",
+      "whyItMatters": "Nothing in the solar system travels on straight paths while gravity is at work — gravity is the reason everything loops.",
+      "relatedConcept": "orbits-are-ellipses",
+      "quizId": "orbits-sim-q-why-stay"
+    },
+    {
+      "term": "Ellipse",
+      "conceptId": "orbits-are-ellipses",
+      "hotspotId": "hs-earth-orbit",
+      "definition": "A closed curve shaped like a slightly squashed circle, with two focus points inside; planets orbit with the Sun at one focus.",
+      "function": "Explains why a planet's distance to the Sun changes smoothly during its year instead of staying constant.",
+      "whereItIs": "The shape of every ring in the simulator (exaggerated slightly for Earth's ring).",
+      "whyItMatters": "Comets' wildly stretched ellipses show how this same shape — not orbit size — is the rule for everything orbiting the Sun.",
+      "relatedConcept": "gravity-holds-orbits",
+      "quizId": "orbits-sim-q-shape"
+    },
+    {
+      "term": "Asteroid belt",
+      "conceptId": "asteroid-belt-mars-jupiter",
+      "hotspotId": "hs-asteroid-belt",
+      "definition": "A ring of millions of small rocky bodies orbiting the Sun between Mars and Jupiter.",
+      "function": "Marks the boundary between the inner rocky planets and the outer giant planets.",
+      "whereItIs": "The scattered ring of small spheres between Mars's ring and Jupiter's ring in the model.",
+      "whyItMatters": "It is the leftover building material from the solar system's formation, and it sits in the largest gap between the planets.",
+      "relatedConcept": "farther-orbits-slower",
+      "quizId": "orbits-sim-q-belt"
+    },
+    {
+      "term": "Orbital period (year)",
+      "conceptId": "farther-orbits-slower",
+      "hotspotId": "hs-jupiter-orbit",
+      "definition": "The time a body takes to complete one full orbit around the Sun — one year on that body.",
+      "function": "Explains why planet cards list different year lengths: the farther out, the wider the loop and the slower the drift, so the period grows.",
+      "whereItIs": "The clock readout near each ring while the simulator runs.",
+      "whyItMatters": "The orbital period is the very definition of a planet's year, and it encodes how far that world really is from the Sun.",
+      "relatedConcept": "orbits-are-ellipses",
+      "quizId": "orbits-sim-q-fall-drag"
+    }
+  ]
+}

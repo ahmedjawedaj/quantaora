@@ -1,0 +1,46 @@
+{
+  "componentId": "conservation-of-energy",
+  "terms": [
+    {
+      "term": "Conservation of energy",
+      "conceptId": "energy-conserved-never-lost",
+      "hotspotId": "hs-total",
+      "definition": "The law that energy is never created or destroyed, only changed in form.",
+      "function": "Keeps the total constant while forms swap.",
+      "whereItIs": "The flat total line above the readout stack.",
+      "whyItMatters": "Physics' master ledger — every energy question is 'which form, where did it go?'",
+      "relatedConcept": "efficiency",
+      "quizId": "co-q-law"
+    },
+    {
+      "term": "Energy forms",
+      "conceptId": "energy-changes-form",
+      "hotspotId": "hs-bar",
+      "definition": "The shapes energy takes: kinetic, potential, thermal, light, sound, chemical.",
+      "whyItMatters": "The same joule can live in a moving cart, a warm rail, or a raised block.",
+      "whereItIs": "The three live bars of the readout.",
+      "relatedConcept": "kinetic-energy",
+      "quizId": "co-q-forms"
+    },
+    {
+      "term": "Heat from friction",
+      "conceptId": "energy-sank-to-heat",
+      "hotspotId": "hs-heat",
+      "definition": "The thermal share energy slides into when motion rubs against a surface.",
+      "whyItMatters": "It is the most common 'missing' energy — conservation says it never vanished, it warmed something.",
+      "whereItIs": "The small warm-grey slice of the stack.",
+      "relatedConcept": "energy-conserved-never-lost",
+      "quizId": "co-q-brake"
+    },
+    {
+      "term": "Closed system",
+      "conceptId": "closed-systems",
+      "hotspotId": "hs-total",
+      "definition": "A system where no energy enters or leaves — the total is constant.",
+      "whyItMatters": "The frame in which the law holds exactly and tracking forms is simplest.",
+      "whereItIs": "The coaster rig considered alone on the model.",
+      "relatedConcept": "energy-conserved-never-lost",
+      "quizId": "co-q-closed"
+    }
+  ]
+}

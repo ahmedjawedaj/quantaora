@@ -1,0 +1,94 @@
+{
+  "componentId": "digestion",
+  "questions": [
+    {
+      "id": "digestion-q-mouth",
+      "conceptId": "mouth-mechanical-and-chemical-breakdown",
+      "hotspotId": "hs-mouth",
+      "prompt": "What happens to food in the mouth during digestion?",
+      "options": [
+        "Teeth and tongue break it apart mechanically while saliva starts breaking down starches chemically",
+        "Acid and pepsin turn it into a semi-liquid mixture called chyme",
+        "Villi absorb its nutrients directly into the bloodstream",
+        "Water is reabsorbed to make it more solid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mouth handles two kinds of breakdown at once: teeth and tongue mechanically break food into smaller pieces, and saliva's enzyme (amylase) begins chemically breaking down starches — together forming a soft mass called a bolus.",
+      "misconception": "Learners sometimes think chewing is 'just mechanical' with no chemistry involved, missing that saliva already starts chemical digestion before food even reaches the stomach."
+    },
+    {
+      "id": "digestion-q-stomach",
+      "conceptId": "stomach-acid-breakdown",
+      "hotspotId": "hs-stomach",
+      "prompt": "Why is stomach acid useful during digestion?",
+      "options": [
+        "It gives food its taste",
+        "It kills most swallowed bacteria and helps break down proteins",
+        "It absorbs nutrients directly into the blood",
+        "It replaces the need for chewing entirely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stomach acid (hydrochloric acid) creates a very low pH environment that kills most bacteria that come in with food and activates enzymes that begin breaking proteins apart chemically.",
+      "misconception": "Some learners think stomach acid's main job is absorption, similar to the small intestine, but the stomach is a breakdown and defense station — actual nutrient absorption happens later, mainly in the small intestine."
+    },
+    {
+      "id": "digestion-q-small-intestine",
+      "conceptId": "small-intestine-nutrient-absorption",
+      "hotspotId": "hs-small-intestine",
+      "prompt": "Which part of the digestive system absorbs the most nutrients into the bloodstream?",
+      "options": [
+        "The stomach, because that's where acid breaks food down",
+        "The small intestine, because its villi create a huge surface area",
+        "The large intestine, because it processes food last",
+        "The mouth, because chewing releases nutrients directly"
+      ],
+      "correctIndex": 1,
+      "explanation": "The small intestine is lined with millions of tiny villi that massively increase its inner surface area, giving nutrients far more contact points to pass into the bloodstream. The stomach mainly breaks food down chemically and mechanically but isn't built for large-scale absorption.",
+      "misconception": "Many learners assume the stomach does the 'main job' of digestion because it's the most talked-about organ and uses acid, but the stomach's role is breakdown, not absorption — absorption is a separate, later step that happens further down the tract in the small intestine."
+    },
+    {
+      "id": "digestion-q-large-intestine",
+      "conceptId": "large-intestine-water-absorption",
+      "hotspotId": "hs-large-intestine",
+      "prompt": "What is the main job of the large intestine?",
+      "options": [
+        "Absorbing most of the body's nutrients",
+        "Producing stomach acid",
+        "Absorbing water and remaining salts from leftover material",
+        "Chewing and mechanically breaking down food"
+      ],
+      "correctIndex": 2,
+      "explanation": "By the time material reaches the large intestine, most nutrients have already been absorbed in the small intestine. The large intestine's main job is reclaiming water (and some salts) from what's left, turning it from a liquid slurry into more solid waste.",
+      "misconception": "A common mix-up is thinking the large intestine absorbs nutrients because it's 'still absorbing something' — but what it absorbs is mostly water, not nutrients, which is a different function from the small intestine's job."
+    },
+    {
+      "id": "digestion-q-waste",
+      "conceptId": "waste-elimination",
+      "hotspotId": "hs-waste-elimination",
+      "prompt": "What is the final step of digestion, at the rectum and anal canal?",
+      "options": [
+        "Storing compacted waste and releasing it from the body as stool",
+        "Absorbing the last remaining nutrients from food",
+        "Producing digestive enzymes for the small intestine",
+        "Breaking down proteins with acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rectum stores compacted waste until the anal sphincter releases it from the body as stool — the final step after nutrients and water have already been absorbed earlier in the tract.",
+      "misconception": "Some learners think digestion 'finishes' at the large intestine, forgetting that waste still needs to be stored and actively released, which is its own distinct step with its own job."
+    },
+    {
+      "id": "digestion-q-peristalsis",
+      "conceptId": "peristalsis",
+      "prompt": "Peristalsis refers to which of the following?",
+      "options": [
+        "The chemical breakdown of fats by enzymes",
+        "The wave-like muscle squeezes that push food through the digestive tract",
+        "The absorption of water in the large intestine",
+        "The folds (villi) that increase surface area in the small intestine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Peristalsis is the rhythmic, wave-like contraction of muscles lining the digestive tract that pushes food forward, from the esophagus all the way through the intestines — it's why food keeps moving even when you lie down.",
+      "misconception": "Because peristalsis sounds technical, learners sometimes guess it's a chemical process (like an enzyme or acid) rather than a physical, muscular one — but peristalsis is purely mechanical movement, not a chemical reaction."
+    }
+  ]
+}

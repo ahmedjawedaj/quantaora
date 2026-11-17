@@ -1,0 +1,95 @@
+{
+  "id": "producer",
+  "subject": "biology",
+  "title": "Producer",
+  "summary": "A producer is a living thing that makes its own food - most often by using sunlight through photosynthesis. Explore how plants and other producers capture energy and feed the whole ecosystem.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "makes-own-food",
+    "photosynthesis-sunlight",
+    "base-of-food-chain",
+    "producers-feed-ecosystems"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Producer",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Producer"
+  },
+  "crossReferences": [
+    {
+      "label": "Consumer (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Consumer",
+      "note": "Consumers cannot make their own food - they eat producers or other consumers."
+    },
+    {
+      "label": "Decomposer (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Decomposer",
+      "note": "When a producer dies, decomposers break it down and recycle its nutrients."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Producer",
+  "compareCandidate": {
+    "label": "Producer vs. consumer",
+    "description": "A producer makes its own food from sunlight and simple ingredients. A consumer cannot - it must eat other living things to get energy."
+  },
+  "parts": [
+    "Leaf",
+    "Stem",
+    "Root",
+    "Food-making parts"
+  ],
+  "processes": [
+    "Makes food from sunlight",
+    "Uses photosynthesis",
+    "Feeds everything else"
+  ],
+  "plainLanguageExplanation": "A producer makes its own food. The most common producers are green plants, which use sunlight, water, and carbon dioxide to make their own food (sugar) through photosynthesis. Algae, phytoplankton, and some bacteria are also producers. Because producers create food from sunlight and simple ingredients, they are the first link in every food chain - everything else ultimately depends on them for energy. Without producers, there would be no food for anything else.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "Makes its own food, usually with sunlight"
+    },
+    {
+      "label": "How",
+      "value": "Photosynthesis: sunlight + water + carbon dioxide -> food"
+    },
+    {
+      "label": "Examples",
+      "value": "Plants, algae, phytoplankton, some bacteria"
+    },
+    {
+      "label": "Place in chain",
+      "value": "The first link in every food chain"
+    },
+    {
+      "label": "Why they matter",
+      "value": "They turn sunlight into energy everything else can use"
+    }
+  ],
+  "whyItMatters": "Producers are the foundation of all life - they capture sunlight and turn it into food. Understanding producers explains why food chains start with plants and why every animal depends on them.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "Makes its own food",
+  "didYouKnow": "The grass you see everywhere is a producer - and about 8,000 blades of grass can be packed into one square meter of lawn.",
+  "conditions": [
+    "Clear-cutting forests",
+    "Pollution killing phytoplankton",
+    "Paving over farmland"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Producer",
+  "plain": "A producer makes its own food. The most common producers are green plants, which use sunlight, water, and carbon dioxide to make their own food (sugar) through photosynthesis. Algae, phytoplankton, and some bacteria are also producers. Because producers create food from sunlight and simple ingredients, they are the first link in every food chain - everything else ultimately depends on them for energy. Without producers, there would be no food for anything else."
+}

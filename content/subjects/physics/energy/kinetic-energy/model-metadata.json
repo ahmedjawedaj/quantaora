@@ -1,0 +1,118 @@
+{
+  "id": "kinetic-energy",
+  "componentId": "kinetic-energy",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/energy/kinetic-energy/kinetic-energy.glb",
+  "thumbnailUrl": "/assets/thumbnails/energy/kinetic-energy.png",
+  "defaultCamera": {
+    "position": [
+      0.2,
+      1.4,
+      4.3
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.2,
+      1.4,
+      4.3
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Ramp and track",
+    "Cart",
+    "Energy bar and readout",
+    "Speed and mass sliders"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cart",
+      "label": "Cart",
+      "conceptId": "kinetic-energy-of-motion",
+      "position": [
+        0.8,
+        0.3,
+        0
+      ],
+      "description": "The object whose motion carries kinetic energy — roll it and the bar fills.",
+      "colorHint": "Amber cart gliding on the track.",
+      "color": "#D9A441",
+      "function": "Carries the motion whose kinetic energy is measured."
+    },
+    {
+      "id": "hs-track",
+      "label": "Ramp & Track",
+      "conceptId": "kinetic-energy-of-motion",
+      "position": [
+        -0.8,
+        0.4,
+        0
+      ],
+      "description": "The ramp that releases the cart from height and the flat run where it glides with kinetic energy.",
+      "colorHint": "Warm wooden ramp sloping to the flat ribbon.",
+      "color": "#6B85A8",
+      "function": "Converts height into speed while the cart travels."
+    },
+    {
+      "id": "hs-energy-bar",
+      "label": "Energy Bar",
+      "conceptId": "kinetic-energy-ke-formula",
+      "position": [
+        1.2,
+        0.9,
+        0
+      ],
+      "description": "The joule readout climbing with the cart's motion — the visible kinetic energy.",
+      "colorHint": "A vertical energy meter at the track edge.",
+      "color": "#7FA86A",
+      "function": "Displays the kinetic energy value in joules."
+    },
+    {
+      "id": "hs-speed-slider",
+      "label": "Speed Slider",
+      "conceptId": "kinetic-energy-squared-speed",
+      "position": [
+        -1.3,
+        0.6,
+        0.2
+      ],
+      "description": "Changes the cart's speed — the squared term that makes the bar jump four times when doubled.",
+      "colorHint": "A green track slider on a pedestal.",
+      "color": "#7FA86A",
+      "function": "Sets the speed input of the KE formula."
+    },
+    {
+      "id": "hs-mass-slider",
+      "label": "Mass Slider",
+      "conceptId": "kinetic-energy-mass-dependence",
+      "position": [
+        -1.3,
+        0.35,
+        0.2
+      ],
+      "description": "Sets the cart's mass in kg — a linear effect, doubling it doubles the energy.",
+      "colorHint": "A smaller amber slider below the speed one.",
+      "color": "#D96B5A",
+      "function": "Sets the mass input of the KE formula."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette. A wooden ramp leading to a flat track, an amber cart, a green energy bar, and two slider pedestals. Saturated color only on the bar and dots. Soft neutral light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness, metallic=0. Ramp/track warm wood (roughness ~0.55). Cart amber smooth (0.4). Bar green translucent-light side (no emissive; luminance through texture only). Sliders warm-grey with colored knobs.",
+  "assetBrief": "SUBJECT: kinetic energy building on a ramp-track, with squared-speed and mass effects.\n\nGEOMETRY: a ramp (left, rising to y≈1.1) flowing into a flat track to +x; amber cart at the ramp top start; a slim vertical energy bar (1.2,0.9,0) and two slider pedestals (-1.3,0.6,0.2) & (-1.3,0.35,0.2).\n\nINTERACTION: sliders set mass (1-8 kg) and speed (1-4 m/s); the bar fills to KE = ½mv² instantly; Release sends the cart down the ramp animating potential→kinetic.\n\nLAYERS: ramp+track; cart; bar; sliders.\n\nNAMED NODES: Ramp, TrackRibbon, Cart, EnergyBar, SpeedSlider, MassSlider, ValueBadge. 6-9k tris.",
+  "visual": {
+    "shape": "kinetic-roller"
+  }
+}

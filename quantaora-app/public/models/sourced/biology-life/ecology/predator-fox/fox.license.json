@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+  "sourceDownloadUrl": "https://drive.google.com/drive/folders/1uJ3N5HfB7jKTseJUNQr3N4YaN0UuEtHk",
+  "packName": "Ultimate Animated Animal Pack (Quaternius)",
+  "originalFilename": "Fox.glb",
+  "creator": "Quaternius (quaternius.com, @quaternius)",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attributionRequired": false,
+  "attributionNote": "Not legally required under CC0; project convention credits Quaternius in in-app/docs credits anyway, consistent with the existing quaternius-ultimate-nature import.",
+  "redistributionStatus": "Permitted without restriction under CC0. Redistributed here as a converted GLB derived from the original glTF 2.0 (embedded base64 buffer, no external textures) asset (geometry + material colors only; no textures; no animation/skeleton -- stripped during conversion because assimp's glTF2 exporter failed to write skinned/animated meshes from this pack, static-mesh export via OBJ intermediate succeeded).",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 118828,
+  "sha256": "0c3f1daba6d56c01596adf1f345a6fa03c0b8c6d49895987ebdbc67e20c5d07b",
+  "validation": {
+    "glbMagicHeaderValid": true,
+    "glTFVersion": 2,
+    "totalLengthMatchesFileSize": true,
+    "scenes": 1,
+    "nodes": 6,
+    "meshes": 5,
+    "materials": 7,
+    "textures": 0,
+    "animations": 0,
+    "accessors": 15,
+    "boundingBoxMin": [
+      -0.5308331251144409,
+      2.2250738585072014e-308,
+      -2.5634167194366455
+    ],
+    "boundingBoxMax": [
+      0.5308331251144409,
+      2.5661540031433105,
+      2.6424849033355713
+    ],
+    "renderInspected": false,
+    "notes": "Validated via Node script parsing GLB binary header + JSON chunk only; not opened in a 3D viewer. Bounding box derived from the POSITION accessor min/max. Units are meters (glTF convention) as authored by Quaternius; unverified against real-world scale."
+  },
+  "note": "Carnivore predator organism for food-web components."
+}

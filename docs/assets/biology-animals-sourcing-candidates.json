@@ -1,0 +1,104 @@
+{
+  "branchId": "animals",
+  "subject": "biology",
+  "qualityGoal": "Replace authored concept-only animal GLBs with recognizable, inspectable, public-domain animal specimens.",
+  "sourcePolicy": {
+    "preferred": ["CC0 Public Domain", "Public domain"],
+    "allowedWithReview": ["CC BY"],
+    "rejectedForPaidProduct": ["CC Attribution-NonCommercial-ShareAlike", "CC BY-NC", "CC BY-NC-SA", "CC BY-NC-ND"]
+  },
+  "candidates": [
+    {
+      "id": "smithsonian-diodon-hystrix",
+      "status": "ready-for-authenticated-download",
+      "targetComponents": ["biology-animals-vertebrate", "biology-animals-habitat-adaptation"],
+      "assetName": "Diodon hystrix",
+      "provider": "Sketchfab",
+      "creator": "The Smithsonian Institution",
+      "uid": "6fc8b7bf018845ab84e56ea6ea0c0e94",
+      "sourceUrl": "https://sketchfab.com/3d-models/diodon-hystrix-6fc8b7bf018845ab84e56ea6ea0c0e94",
+      "apiUrl": "https://api.sketchfab.com/v3/models/6fc8b7bf018845ab84e56ea6ea0c0e94",
+      "license": "CC0 Public Domain",
+      "licenseRequirements": "Credit is not mandatory. Commercial use is allowed.",
+      "faceCount": 100000,
+      "fit": "Fish skeleton/specimen gives a concrete vertebrate example and habitat adaptation discussion anchor.",
+      "risk": "Download endpoint requires authenticated Sketchfab API token; verify final extracted geometry and size before registry import."
+    },
+    {
+      "id": "smithsonian-geochelone-carbonaria",
+      "status": "ready-for-authenticated-download",
+      "targetComponents": ["biology-animals-vertebrate", "biology-animals-habitat-adaptation"],
+      "assetName": "Geochelone carbonaria",
+      "provider": "Sketchfab",
+      "creator": "The Smithsonian Institution",
+      "uid": "0bc47e68d77243efa50a22b881970626",
+      "sourceUrl": "https://sketchfab.com/3d-models/geochelone-carbonaria-0bc47e68d77243efa50a22b881970626",
+      "apiUrl": "https://api.sketchfab.com/v3/models/0bc47e68d77243efa50a22b881970626",
+      "license": "CC0 Public Domain",
+      "licenseRequirements": "Credit is not mandatory. Commercial use is allowed.",
+      "faceCount": 99992,
+      "fit": "Tortoise shell/skeleton is a strong child-readable support, protection, and adaptation example.",
+      "risk": "Download endpoint requires authenticated Sketchfab API token; inspect shell scale and mobile framing after import."
+    },
+    {
+      "id": "smithsonian-nothrotheriops-shastensis",
+      "status": "ready-for-authenticated-download",
+      "targetComponents": ["biology-animals-vertebrate", "biology-animals-life-cycle"],
+      "assetName": "Nothrotheriops Shastensis",
+      "provider": "Sketchfab",
+      "creator": "The Smithsonian Institution",
+      "uid": "b6731b0a4265430da5c130114be88623",
+      "sourceUrl": "https://sketchfab.com/3d-models/nothrotheriops-shastensis-b6731b0a4265430da5c130114be88623",
+      "apiUrl": "https://api.sketchfab.com/v3/models/b6731b0a4265430da5c130114be88623",
+      "license": "CC0 Public Domain",
+      "licenseRequirements": "Credit is not mandatory. Commercial use is allowed.",
+      "faceCount": 150000,
+      "fit": "Ground sloth fossil supports body plan, fossil evidence, and extinct-animal comparison.",
+      "risk": "High face count; optimize before shipping on mobile."
+    },
+    {
+      "id": "smithsonian-triceratops-horridus",
+      "status": "ready-for-authenticated-download",
+      "targetComponents": ["biology-animals-vertebrate", "biology-animals-habitat-adaptation"],
+      "assetName": "Triceratops Horridus Marsh",
+      "provider": "Sketchfab",
+      "creator": "The Smithsonian Institution",
+      "uid": "e9c507f179ed4455aac3b208c9e6c973",
+      "sourceUrl": "https://sketchfab.com/3d-models/triceratops-horridus-marsh-e9c507f179ed4455aac3b208c9e6c973",
+      "apiUrl": "https://api.sketchfab.com/v3/models/e9c507f179ed4455aac3b208c9e6c973",
+      "license": "CC0 Public Domain",
+      "licenseRequirements": "Credit is not mandatory. Commercial use is allowed.",
+      "faceCount": 149998,
+      "fit": "Dinosaur fossil is visually compelling and supports vertebrate/skeleton/adaptation conversations.",
+      "risk": "High face count and large fossil shape; requires framing and optimization pass."
+    },
+    {
+      "id": "smithsonian-mammuthus-primigenius",
+      "status": "ready-for-authenticated-download",
+      "targetComponents": ["biology-animals-vertebrate", "biology-animals-life-cycle"],
+      "assetName": "Mammuthus primigenius (Blumbach)",
+      "provider": "Sketchfab",
+      "creator": "The Smithsonian Institution",
+      "uid": "229976b3db4646b39c44e57a7e3d8744",
+      "sourceUrl": "https://sketchfab.com/3d-models/mammuthus-primigenius-blumbach-229976b3db4646b39c44e57a7e3d8744",
+      "apiUrl": "https://api.sketchfab.com/v3/models/229976b3db4646b39c44e57a7e3d8744",
+      "license": "CC0 Public Domain",
+      "licenseRequirements": "Credit is not mandatory. Commercial use is allowed.",
+      "faceCount": 149999,
+      "fit": "Mammoth fossil is a recognizable extinct vertebrate for comparing body plan, size, and fossil evidence.",
+      "risk": "High face count; optimize and check camera fit."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "nhm-blue-whale-skeleton",
+      "assetName": "Blue whale skeleton",
+      "provider": "Sketchfab",
+      "creator": "NHM_Imaging",
+      "uid": "8502dbef80ed4aa688c13c90cb14de73",
+      "sourceUrl": "https://sketchfab.com/3d-models/blue-whale-skeleton-8502dbef80ed4aa688c13c90cb14de73",
+      "license": "CC Attribution-NonCommercial-ShareAlike",
+      "reason": "Non-commercial license; reject for paid or future commercial product."
+    }
+  ]
+}

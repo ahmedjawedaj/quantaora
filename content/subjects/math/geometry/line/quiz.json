@@ -1,0 +1,80 @@
+{
+  "componentId": "line",
+  "questions": [
+    {
+      "id": "line-def",
+      "conceptId": "line-definition",
+      "hotspotId": "hs-line-path",
+      "prompt": "What is a line?",
+      "options": [
+        "A straight path going on forever in both directions",
+        "A straight path with two endpoints",
+        "A dot with a name",
+        "A path with one arrowhead"
+      ],
+      "correctIndex": 0,
+      "explanation": "A line is a straight path extending forever in both directions with no endpoints.",
+      "misconception": "The path with two endpoints is a segment, and the one with a single arrowhead is a ray — a line has arrowheads at both ends."
+    },
+    {
+      "id": "line-infinite",
+      "conceptId": "line-infinite",
+      "hotspotId": "hs-arrowhead",
+      "prompt": "What do the arrowheads on a line show?",
+      "options": [
+        "The line keeps going forever",
+        "The line is very fast",
+        "The line ends right there",
+        "The line is straight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arrowheads mean the path continues endlessly in that direction.",
+      "misconception": "Arrowheads are about the line never ending, not speed or straightness — a straight mark without arrowheads could be a segment."
+    },
+    {
+      "id": "line-naming",
+      "conceptId": "line-naming",
+      "hotspotId": "hs-point-on-line",
+      "prompt": "A line passes through points A and B. How can you name it?",
+      "options": [
+        "Line AB",
+        "Segment AB",
+        "Ray AB",
+        "Angle AB"
+      ],
+      "correctIndex": 0,
+      "explanation": "A line is named by two points on it — line AB.",
+      "misconception": "Segment AB has endpoints, ray AB has one endpoint, and angles use three points — a line just takes two points on it."
+    },
+    {
+      "id": "line-family",
+      "conceptId": "line-family",
+      "hotspotId": "hs-line-path",
+      "prompt": "What do you get if you stop a line at one end?",
+      "options": [
+        "A ray",
+        "A segment",
+        "A point",
+        "An angle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stopping a line at one end leaves a ray — one endpoint, one arrowhead.",
+      "misconception": "Stopping BOTH ends makes a segment; stopping just one end makes a ray, and the line itself has no ends to stop."
+    },
+    {
+      "id": "line-thickness",
+      "conceptId": "line-definition",
+      "hotspotId": "hs-line-path",
+      "prompt": "Does a line have thickness?",
+      "options": [
+        "No — it is perfectly thin",
+        "Yes — one pencil-width",
+        "Yes — one point-width",
+        "Only if drawn thick"
+      ],
+      "correctIndex": 0,
+      "explanation": "A line has no thickness at all — the drawn stroke is only its symbol.",
+      "misconception": "The visible stroke has width for us to see it, but the true line is infinitely thin — width is not part of the definition."
+    }
+  ]
+}

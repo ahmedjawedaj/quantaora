@@ -1,0 +1,49 @@
+{
+  "subject": "chemistry",
+  "name": "Chemistry",
+  "hierarchy": "Subject > Branch > Unit > System/Group > Component > Structure/Variable/Rule > Micro-skill",
+  "mvpModule": {
+    "id": "molecule-builder",
+    "title": "Molecule Builder",
+    "branch": "molecules-and-bonding",
+    "skills": ["atom", "element", "molecule", "bond", "valence-basics", "conservation-of-atoms"],
+    "interactions": ["Build water, oxygen, carbon dioxide, methane", "Rotate molecule", "Highlight bonds", "Count atoms", "Balance simple reactions"]
+  },
+  "branches": [
+    {
+      "id": "atoms-and-elements",
+      "name": "Atoms And Elements",
+      "detailed": true,
+      "lowLevelItems": ["Proton", "Neutron", "Electron", "Nucleus", "Electron shell", "Atom", "Element", "Isotope", "Ion"],
+      "interactiveComponents": ["Build-an-atom", "Electron shell explorer", "Isotope compare", "Charge/ion simulator"]
+    },
+    {
+      "id": "periodic-table",
+      "name": "Periodic Table",
+      "detailed": true,
+      "lowLevelItems": ["Atomic number", "Atomic mass", "Group", "Period", "Metal", "Nonmetal", "Metalloid", "Noble gas", "Alkali metal", "Halogen"],
+      "interactiveComponents": ["Periodic trend heatmaps", "Element cards", "Group compare"]
+    },
+    {
+      "id": "molecules-and-bonding",
+      "name": "Molecules And Bonding",
+      "detailed": true,
+      "lowLevelItems": ["Covalent bond", "Ionic bond", "Molecule", "Compound", "Valence electron", "Lewis structure"],
+      "starterMolecules": ["Water", "Oxygen", "Carbon dioxide", "Methane", "Sodium chloride", "Glucose"],
+      "interactiveComponents": ["Molecule builder", "3D molecule rotate", "Bond highlighting", "Atom counting"]
+    },
+    {
+      "id": "chemical-reactions",
+      "name": "Chemical Reactions",
+      "detailed": true,
+      "lowLevelItems": ["Reactant", "Product", "Coefficient", "Conservation of mass", "Balanced equation", "Exothermic", "Endothermic"],
+      "interactiveComponents": ["Balance equation", "Reaction particle animation", "Energy diagram"]
+    },
+    { "id": "states-of-matter", "name": "States Of Matter", "detailed": false },
+    { "id": "acids-and-bases", "name": "Acids And Bases", "detailed": false },
+    { "id": "solutions", "name": "Solutions", "detailed": false },
+    { "id": "stoichiometry-foundations", "name": "Stoichiometry Foundations", "detailed": false },
+    { "id": "organic-chemistry-foundations", "name": "Organic Chemistry Foundations", "detailed": false },
+    { "id": "biochemistry-links", "name": "Biochemistry Links", "detailed": false }
+  ]
+}

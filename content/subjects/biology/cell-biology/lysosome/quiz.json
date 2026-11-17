@@ -1,0 +1,65 @@
+{
+  "componentId": "lysosome",
+  "questions": [
+    {
+      "id": "lys-q-job",
+      "conceptId": "digests-waste",
+      "hotspotId": "hs-enzymes",
+      "prompt": "What is the main job of the lysosome?",
+      "options": [
+        "To break down waste and old cell parts",
+        "To build proteins",
+        "To store the DNA",
+        "To make energy from sunlight"
+      ],
+      "correctIndex": 0,
+      "explanation": "The lysosome uses its enzymes to digest waste, worn-out parts, and even invaders, keeping the cell clean.",
+      "misconception": "Building protein is the ribosome, energy is the mitochondrion - breaking down waste is the lysosome's specialty."
+    },
+    {
+      "id": "lys-q-enzyme",
+      "conceptId": "enzymes-in-sac",
+      "hotspotId": "hs-sac",
+      "prompt": "Why is it important that digestive enzymes are sealed inside a sac?",
+      "options": [
+        "So the strong enzymes do not damage the rest of the cell",
+        "So they can reach the nucleus",
+        "So the cell can see them",
+        "So they can leave the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The enzymes are powerful enough to break down material, so the sac's membrane keeps them contained and away from the rest of the cell.",
+      "misconception": "The sac is not for storage or travel - it is for safety, keeping dangerous digesters contained."
+    },
+    {
+      "id": "lys-q-recycle",
+      "conceptId": "recycles-parts",
+      "hotspotId": "hs-recycle",
+      "prompt": "What can happen to the pieces after a lysosome breaks something down?",
+      "options": [
+        "They can be recycled and reused by the cell",
+        "They turn into DNA",
+        "They are always destroyed forever",
+        "They become new organelles instantly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Many broken-down pieces are small molecules the cell can use again, which is why lysosomes are recycling centers.",
+      "misconception": "Not everything is wasted - much of what the lysosome digests is reusable building material."
+    },
+    {
+      "id": "lys-q-vacuole",
+      "conceptId": "enzymes-in-sac",
+      "hotspotId": "hs-sac",
+      "prompt": "How does a lysosome differ from a vacuole?",
+      "options": [
+        "The lysosome digests waste; the vacuole mainly stores water and materials",
+        "The lysosome stores water; the vacuole digests waste",
+        "They are exactly the same",
+        "The vacuole makes proteins"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both are membrane sacs, but lysosomes are enzyme-filled digesters while vacuoles mainly hold water, salts, and other materials.",
+      "misconception": "The two sacs look similar but do different jobs - storage vs. digestion."
+    }
+  ]
+}

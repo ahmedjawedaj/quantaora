@@ -1,0 +1,98 @@
+{
+  "id": "lysosome",
+  "subject": "biology",
+  "title": "Lysosome",
+  "summary": "The lysosome is the cell's cleanup and recycling sac - a membrane bubble filled with strong enzymes that break down waste, worn-out parts, and even invaders. Explore how it keeps the cell tidy and safe.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "digests-waste",
+    "recycles-parts",
+    "enzymes-in-sac"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Lysosome",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Lysosome"
+  },
+  "crossReferences": [
+    {
+      "label": "Golgi apparatus (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Golgi apparatus",
+      "note": "The Golgi packages the enzymes that become lysosomes, so the cleanup sacs start life in the shipping center."
+    },
+    {
+      "label": "Vacuole (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Vacuole",
+      "note": "Like the lysosome, the vacuole is a membrane sac, but it mainly stores water and materials rather than digesting waste."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Lysosome vs. vacuole",
+    "description": "Both are membrane sacs, but the lysosome is filled with digestive enzymes that break things down, while the vacuole mainly stores water, salts, and materials. Plant cells rely on one large vacuole for storage."
+  },
+  "parts": [
+    "Membrane sac",
+    "Digestive enzymes",
+    "Waste and old parts inside",
+    "Recycled pieces leaving"
+  ],
+  "processes": [
+    "Digesting waste and worn-out parts",
+    "Recycling materials for reuse",
+    "Defending against invaders"
+  ],
+  "plainLanguageExplanation": "The lysosome is a small sac full of powerful enzymes that digest things. Its job is to break down waste, old or damaged cell parts, and materials taken in from outside - even germs. It can also recycle the pieces, so the cell can use them again. The enzymes inside work best in the lysosome's special acidic environment, and the sac's membrane keeps these powerful digesters safely contained so they do not harm the rest of the cell. Think of the lysosome as the cell's recycling and cleanup crew.",
+  "keyFacts": [
+    {
+      "label": "Nickname",
+      "value": "The cell's cleanup and recycling sac"
+    },
+    {
+      "label": "Main job",
+      "value": "Breaks down waste, old parts, and invaders with enzymes"
+    },
+    {
+      "label": "Contents",
+      "value": "Powerful digestive enzymes sealed in a membrane sac"
+    },
+    {
+      "label": "Recycling",
+      "value": "Pieces it breaks down can be reused by the cell"
+    },
+    {
+      "label": "Found in",
+      "value": "Animal cells have many; plant cells usually have fewer and larger ones"
+    },
+    {
+      "label": "Safety",
+      "value": "The sac's membrane keeps the strong enzymes from harming the cell"
+    }
+  ],
+  "whyItMatters": "Lysosomes keep the cell clean and recycle its materials. Without them, waste and broken parts would pile up, and the cell could not safely break down the things it takes in. Their work protects the cell's health.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Lysosome",
+  "tagline": "The cell's cleanup crew",
+  "didYouKnow": "A single lysosome can digest and recycle a whole damaged organelle, breaking it into pieces the cell can use again.",
+  "conditions": [
+    "Cellular digestion",
+    "Autophagy (recycling old parts)"
+  ],
+  "branch": "cell-biology",
+  "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Lysosome",
+  "plain": "The lysosome is a small sac full of powerful enzymes that digest things. Its job is to break down waste, old or damaged cell parts, and materials taken in from outside - even germs. It can also recycle the pieces, so the cell can use them again. The enzymes inside work best in the lysosome's special acidic environment, and the sac's membrane keeps these powerful digesters safely contained so they do not harm the rest of the cell. Think of the lysosome as the cell's recycling and cleanup crew."
+}

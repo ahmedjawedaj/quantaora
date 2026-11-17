@@ -1,0 +1,67 @@
+{
+  "componentId": "animal-cell",
+  "terms": [
+    {
+      "term": "Cell",
+      "definition": "The smallest unit of life that can carry out all the basic functions needed to stay alive."
+    },
+    {
+      "term": "Eukaryotic cell",
+      "definition": "A cell that keeps its DNA inside a nucleus wrapped in its own membrane, and has other membrane-bound organelles."
+    },
+    {
+      "term": "Cell membrane",
+      "definition": "The thin, flexible outer boundary that controls what enters and leaves the cell.",
+      "conceptId": "cell-membrane"
+    },
+    {
+      "term": "Cytoplasm",
+      "definition": "The jelly-like fluid inside the cell membrane that holds and supports all the organelles.",
+      "conceptId": "cytoplasm"
+    },
+    {
+      "term": "Nucleus",
+      "definition": "The organelle that stores the cell's DNA and directs the cell's activities, like a control center.",
+      "conceptId": "nucleus"
+    },
+    {
+      "term": "DNA",
+      "definition": "The molecule that carries the coded instructions for building and running the cell, organized into genes.",
+      "conceptId": "dna"
+    },
+    {
+      "term": "Mitochondrion",
+      "definition": "An organelle that breaks down nutrients to produce usable energy (ATP) for the cell; often called the 'powerhouse.'",
+      "conceptId": "mitochondrion"
+    },
+    {
+      "term": "Ribosome",
+      "definition": "A tiny structure, free-floating or attached to the endoplasmic reticulum, that builds proteins by reading genetic instructions.",
+      "conceptId": "ribosome"
+    },
+    {
+      "term": "Endoplasmic reticulum",
+      "definition": "A network of folded membranes that helps build, fold, and transport proteins and lipids through the cell.",
+      "conceptId": "endoplasmic-reticulum"
+    },
+    {
+      "term": "Golgi apparatus",
+      "definition": "A stack of flattened sacs that packages, modifies, and ships proteins to their final destination.",
+      "conceptId": "golgi-apparatus"
+    },
+    {
+      "term": "Lysosome",
+      "definition": "A sac filled with enzymes that breaks down waste, worn-out parts, and unwanted material inside the cell.",
+      "conceptId": "lysosome"
+    },
+    {
+      "term": "Cytoskeleton",
+      "definition": "A network of protein fibers that gives the cell its shape, holds organelles in place, and helps the cell move or divide.",
+      "conceptId": "cytoskeleton"
+    },
+    {
+      "term": "Organelle",
+      "definition": "A specialized structure inside a cell that performs a specific job, similar to how organs work in a body."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "oxygen.glb",
+  "component": "molecules-and-bonding / starterMolecules / Oxygen (O2)",
+  "pipeline": "rcsb-sdf",
+  "sourceUrl": "https://files.rcsb.org/ligands/view/OXY_ideal.sdf",
+  "sourceDescription": "RCSB PDB Chemical Component Dictionary, ligand ID OXY, ideal (computed) 3D coordinates.",
+  "creatorOwner": "wwPDB / RCSB PDB (coordinate data). GLB authored by Quantaora build script (public/models/sourced/chemistry-structure/build-molecules.mjs) using three.js + GLTFExporter, the same technique already used for public/models/chemistry/atoms-and-elements/atom.glb.",
+  "creator": "wwPDB / RCSB PDB (coordinate data). GLB authored by Quantaora build script (public/models/sourced/chemistry-structure/build-molecules.mjs) using three.js + GLTFExporter, the same technique already used for public/models/chemistry/atoms-and-elements/atom.glb.",
+  "license": "CC0 1.0 (RCSB PDB structure/component data is public domain / CC0)",
+  "attributionRequired": false,
+  "attributionText": "Not required. Recommended credit: \"Molecular geometry data: RCSB PDB (rcsb.org), CC0.\"",
+  "redistributionStatus": "Redistributable — CC0 source data, no restriction. GLB itself is a Quantaora-authored derivative (ball-and-stick render), not a redistribution of a third-party GLB file.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 82156,
+  "sha256": "1f9eb44d4713f4d62abdaa4fbd7adfd984b4476e4b1ce873ea3cbdf9fe51d769",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 4,
+    "meshCount": 4,
+    "materialCount": 3,
+    "textureCount": 0,
+    "imageCount": 0,
+    "animationCount": 0,
+    "accessorCount": 16,
+    "generator": "THREE.GLTFExporter r185",
+    "gltfVersion": "2.0"
+  },
+  "approxWorldBoundingBoxUnits": [
+    0.76,
+    0.76,
+    1.311
+  ],
+  "boundingBoxNote": "Computed via THREE.Box3.setFromObject on the authored scene graph (world-space, post-transform) at build time, not from raw accessor min/max (which reflect local unit-geometry space for TRS-transformed nodes)."
+}

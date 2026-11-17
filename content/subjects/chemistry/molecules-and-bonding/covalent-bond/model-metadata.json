@@ -1,0 +1,89 @@
+{
+  "id": "covalent-bond",
+  "componentId": "covalent-bond",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/molecules-and-bonding/covalent-bond/covalent-bond.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/molecules-and-bonding/covalent-bond.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      2.8
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      2.8
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Water molecule",
+    "Shared pair",
+    "Double bond (O₂)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-covalent-bond",
+      "label": "Covalent bond",
+      "conceptId": "covalent-shared-electrons",
+      "position": [
+        0.5,
+        -0.35,
+        0
+      ],
+      "description": "This band between the atoms is a covalent bond — a shared pair of electrons that both nuclei pull on, gluing the atoms together.",
+      "positionHint": "The soft band between the oxygen and one hydrogen atom.",
+      "color": "#D9A441",
+      "function": "Shows the shared-electron bond between two atoms."
+    },
+    {
+      "id": "hs-shared-pair",
+      "label": "Shared electron pair",
+      "conceptId": "covalent-shared-electrons",
+      "position": [
+        0.35,
+        -0.2,
+        0.15
+      ],
+      "description": "The two small dots between the atoms are the shared pair of electrons — owned by both atoms at once.",
+      "positionHint": "Two small teal dots in the middle of the bond, visible when the shared-pair layer is on.",
+      "color": "#6B85A8",
+      "function": "Shows the pair of electrons the two atoms share."
+    },
+    {
+      "id": "hs-bond-atoms",
+      "label": "The atoms being joined",
+      "conceptId": "covalent-nonmetals-share",
+      "position": [
+        -0.55,
+        -0.35,
+        0
+      ],
+      "description": "The pale sphere is hydrogen and the red sphere is oxygen — two nonmetals sharing electrons. Neither could steal from the other, so they share.",
+      "positionHint": "The hydrogen (pale) and oxygen (red) spheres of the water molecule.",
+      "color": "#7FA86A",
+      "function": "Shows the two nonmetal atoms joined by the covalent bond."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. The water molecule floats centered, large in frame, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Ball-stick style following the app's CPK convention: hydrogen is warm off-white, oxygen is a muted warm red — desaturated a step from the app's data colors so the scene stays calm. Strong saturated color is reserved for the small flat hotspot dots and the shared-pair dots (slate / amber accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Hydrogen spheres: warm off-white matte, roughness ~0.5. Oxygen sphere: muted warm red, roughness ~0.45. Bonds: thin graphite rods between atoms (roughness ~0.55). Shared-pair dots: small teal spheres. No emissive channels anywhere — any glow or pulse is handled by app runtime UI, not baked into the asset.",
+  "assetBrief": "SUBJECT: a water molecule built as a ball-stick model, focused on its covalent bonds, built to be read as 'sharing electrons is what holds a molecule together.' Three procedural layers, all clean primitives:\n\n1) MAIN: a ball-stick water molecule — one oxygen sphere (radius ~0.4, muted warm red) at the origin, two hydrogen spheres (radius ~0.26, warm off-white) at ~104.5° positions with bond rods (thin cylinders, graphite, radius ~0.05) connecting each hydrogen to the oxygen. Standard CPK ball-stick.\n\n2) SHARED PAIR (toggleable layer): in the middle of one O–H bond, two small teal electron dots (radius ~0.05) appear side by side — the shared pair. A faint hairline arc links each dot to its nucleus to suggest both atoms pulling.\n\n3) DOUBLE BOND (toggleable layer): the water molecule fades and is replaced by an oxygen molecule (O₂) — two muted-red spheres with TWO parallel bond rods between them (the double bond). Two shared-pair dot pairs sit between the rods.\n\nCamera: framed so the molecule is large and centered with negative space; auto-rotate default. Budget 5-9k triangles. Named nodes: Oxygen, Hydrogen_01, Hydrogen_02, BondRod_01-02, SharedPairDots, O2_Molecule, O2_BondRod_01-02, O2_SharedPairs. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "covalent-share"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "componentId": "black-hole",
+  "questions": [
+    {
+      "id": "bh-q-black",
+      "conceptId": "escape-velocity-light",
+      "hotspotId": "hs-event-horizon",
+      "prompt": "Why is a black hole black?",
+      "options": [
+        "It is covered in dark dust that absorbs light",
+        "Inside the event horizon, escape requires moving faster than light — so no light can ever get out",
+        "It is simply in a dark part of the galaxy",
+        "It is a shadow cast by another star"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light travels at the fastest speed there is, but escape from inside the horizon would need to go even faster. No light returns, so the region looks black.",
+      "misconception": "'Black' naturally reads as 'an object that absorbs light, like a black shirt' — but the black here is a missing ability to leave, not a color of the surface."
+    },
+    {
+      "id": "bh-q-horizon",
+      "conceptId": "event-horizon-boundary",
+      "hotspotId": "hs-event-horizon",
+      "prompt": "What exactly is the event horizon?",
+      "options": [
+        "The solid surface of the black hole",
+        "The spherical boundary where escape speed reaches light speed — the point of no return",
+        "The edge of the galaxy around the hole",
+        "A ring of fire made of burning gas"
+      ],
+      "correctIndex": 1,
+      "explanation": "It is a boundary in space, not a surface: inside it, nothing — matter, light, signals — can ever cross back out. It only appears as a sphere because gravity acts that way in all directions.",
+      "misconception": "We picture a hard ball in space, but the horizon is a geometric threshold — like the point past which you cannot climb back up a hill with a bicycle, drawn in the sky around a collapsed core."
+    },
+    {
+      "id": "bh-q-see",
+      "conceptId": "gravity-bends-light",
+      "hotspotId": "hs-photon-ring",
+      "prompt": "In a real photo of a black hole, what are you actually seeing?",
+      "options": [
+        "The black hole itself, glowing faintly",
+        "Its shadow against the glowing accretion disk, with the light behind it lensed into rings and arcs",
+        "The singularity through a window",
+        "A mirror of the galaxy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hole emits nothing, so the image is the shadow it casts on the hot infalling gas, plus the gravity-lensed light of stars behind it — bent into the famous ring.",
+      "misconception": "The famous photo looks like a ring of fire around a dark dot, so 'that is the hole glowing' is the easy reading — but the ring is light from outside, warped by the hole's gravity."
+    },
+    {
+      "id": "bh-q-birth",
+      "conceptId": "stellar-black-hole-formation",
+      "hotspotId": "hs-singularity",
+      "prompt": "How does a stellar black hole form?",
+      "options": [
+        "A star explodes and everything in it becomes a hole instantly",
+        "The heaviest star cores collapse past the neutron-star limit (~3 solar masses) and nothing can stop it",
+        "Galaxies swallow their own centers",
+        "Old planets merge underground"
+      ],
+      "correctIndex": 1,
+      "explanation": "When a collapsing core exceeds roughly three solar masses, even neutron degeneracy pressure fails, and the collapse has no brake — it proceeds all the way to the singularity.",
+      "misconception": "'Explosion' sounds like the origin, but the hole is the opposite of an explosion's debris: it is the un-stopped contraction of the leftover core after the supernova."
+    },
+    {
+      "id": "bh-q-sun",
+      "conceptId": "stellar-black-hole-formation",
+      "hotspotId": "hs-singularity",
+      "prompt": "Could our Sun ever become a black hole?",
+      "options": [
+        "Yes, in about 5 billion years",
+        "No — the Sun is far too light; it will end as a white dwarf",
+        "Yes, if a black hole visits our solar system",
+        "No, because the Sun is too heavy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Forming a black hole needs a collapsing core of at least ~3 solar masses. The Sun carries only one, so its future ends as a white dwarf, not a hole.",
+      "misconception": "Black holes feel like a normal star's future because they're famous — but the Sun's mass is far below the threshold, a point this component's mass dial makes immediate."
+    },
+    {
+      "id": "bh-q-tidal",
+      "conceptId": "tidal-forces-spaghettification",
+      "hotspotId": "hs-accretion-disk",
+      "prompt": "What happens to an object falling toward a black hole?",
+      "options": [
+        "It freezes instantly",
+        "Tidal forces stretch it into a long thin strand — 'spaghettification'",
+        "It bounces back like a rubber ball",
+        "It catches fire and burns away"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gravity pulls harder on the near side of the object than the far side; the stretch difference is so extreme near a horizon that an astronaut is drawn out into a thread.",
+      "misconception": "Falling into the hole's gravity sounds like 'falling into a funnel' — but the real effect is a stretching, not a sliding: the two ends of your body get pulled apart at different strengths."
+    }
+  ]
+}

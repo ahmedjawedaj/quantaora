@@ -1,0 +1,38 @@
+{
+  "componentId": "organism",
+  "terms": [
+    {
+      "term": "Organism",
+      "conceptId": "organism-living-thing",
+      "hotspotId": "hs-cells",
+      "definition": "Any living thing, made of cells, that carries out the activities of life.",
+      "function": "The basic living unit of ecology.",
+      "whereItIs": "Anywhere life exists.",
+      "whyItMatters": "All ecosystems are built from organisms.",
+      "relatedConcept": "made-of-cells",
+      "quizId": "org-q-def"
+    },
+    {
+      "term": "Cell",
+      "conceptId": "made-of-cells",
+      "hotspotId": "hs-cells",
+      "definition": "The smallest unit of life that organisms are built from.",
+      "function": "Carries out the basic activities of life.",
+      "whereItIs": "Inside every organism.",
+      "whyItMatters": "Cells are the building blocks of all life.",
+      "relatedConcept": "organism-living-thing",
+      "quizId": "org-q-cells"
+    },
+    {
+      "term": "Life activities",
+      "conceptId": "life-activities",
+      "hotspotId": "hs-grow",
+      "definition": "The things living things do: grow, use energy, respond, and reproduce.",
+      "function": "Define what counts as alive.",
+      "whereItIs": "Shown by every living thing.",
+      "whyItMatters": "They separate living from nonliving.",
+      "relatedConcept": "organism-living-thing",
+      "quizId": "org-q-activity"
+    }
+  ]
+}

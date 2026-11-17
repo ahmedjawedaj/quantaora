@@ -1,0 +1,120 @@
+{
+  "id": "work",
+  "componentId": "work",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/energy/work/work.glb",
+  "thumbnailUrl": "/assets/thumbnails/energy/work.png",
+  "defaultCamera": {
+    "position": [
+      0.2,
+      1.1,
+      4.1
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Track and distance marks",
+    "Cart with push handle",
+    "Work counter",
+    "Energy readout"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cart",
+      "label": "Cart",
+      "conceptId": "work-transfers-energy",
+      "position": [
+        0.9,
+        0.4,
+        0
+      ],
+      "description": "The cart that receives the work as kinetic energy as it slides.",
+      "colorHint": "Warm amber cart on the track.",
+      "color": "#D9A441",
+      "function": "Carries the kinetic energy the work becomes."
+    },
+    {
+      "id": "hs-track",
+      "label": "Track with Marks",
+      "conceptId": "work-requires-motion",
+      "position": [
+        -0.7,
+        0.3,
+        0
+      ],
+      "description": "The ruled straight track — distance is one of the two ingredients, and motion is mandatory for work.",
+      "colorHint": "Cool grey run with white tick marks.",
+      "color": "#6B85A8",
+      "function": "Provides the distance while the cart moves."
+    },
+    {
+      "id": "hs-push-handle",
+      "label": "Push Handle",
+      "conceptId": "work-force-times-distance",
+      "position": [
+        1.4,
+        0.6,
+        0.2
+      ],
+      "description": "The force control — set the push strength that slides the cart.",
+      "colorHint": "An upright lever extending from the cart.",
+      "color": "#D96B5A",
+      "function": "Applies the force that multiplies into work."
+    },
+    {
+      "id": "hs-counter",
+      "label": "Work Counter",
+      "conceptId": "work-force-times-distance",
+      "position": [
+        -1.2,
+        1.1,
+        0.1
+      ],
+      "description": "Shows work in joules as force × distance builds it step by step.",
+      "colorHint": "A tall clean gauge at the track edge.",
+      "color": "#7FA86A",
+      "function": "Displays the work value accumulated."
+    },
+    {
+      "id": "hs-distance-mark",
+      "label": "Distance Marks",
+      "conceptId": "work-force-times-distance",
+      "position": [
+        -0.2,
+        0.2,
+        0
+      ],
+      "description": "The metre ruler ticks that multiply with force to give joules.",
+      "colorHint": "White ticks along the track rail.",
+      "color": "#6B85A8",
+      "function": "Marks the distance term of work."
+    },
+    {
+      "id": "hs-energy",
+      "label": "Cart Kinetic-Energy Badge",
+      "conceptId": "work-transfers-energy",
+      "position": [
+        0.9,
+        1.0,
+        0.1
+      ],
+      "description": "The glow readout matching the work counter — same joules, now in motion form.",
+      "colorHint": "Soft green badge floating above the cart.",
+      "color": "#7FA86A",
+      "function": "Matches the work as kinetic energy."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette, a ruled cool-grey track, warm amber cart and handle, and a green work gauge.",
+  "materialNotes": "Roughness ~0.5, metallic 0; a slim green badge with slight luminance only through texture, no bloom.",
+  "assetBrief": "SUBJECT: work = force × distance on a cart track.\n\nGEOMETRY: a straight ruled track with metre marks along +x; a cart with a push handle; a work counter; a kinetic-energy badge above the cart position.\n\nINTERACTION: pressing the handle shoves the cart a set distance; every push adds force × distance to the counter and the badge rises by the same joules.\n\nNAMED NODES: Track, Cart, PushHandle, WorkCounter, DistMarks, EnergyBadge. 7-9k tris.",
+  "visual": {
+    "shape": "work-box"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "assetName": "chemistry-lab-bench.glb",
+  "sourceAsset": "Chemistry Set",
+  "sourceUrl": "https://polyhaven.com/a/chemistry_set",
+  "downloadUrls": [
+    "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/chemistry_set/chemistry_set_1k.gltf",
+    "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/chemistry_set/chemistry_set.bin",
+    "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_diff_1k.jpg",
+    "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_nor_gl_1k.jpg",
+    "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_arm_1k.jpg"
+  ],
+  "creator": "Jiri Ptacek",
+  "owner": "Poly Haven",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://polyhaven.com/license",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (CC0). Project convention: credit 'Chemistry Set by Jiri Ptacek / Poly Haven (CC0)' in the in-app asset credits list.",
+  "redistributionStatus": "Freely redistributable, modification and commercial use permitted, no restriction.",
+  "dateSourced": "2026-08-18",
+  "originalFormat": "glTF 1k (separate .gltf + .bin + 3 JPG textures, Poly Haven export)",
+  "processingNote": "Repacked from separate glTF+bin+textures into a single-file .glb with quantaora-app/public/models/sourced/chemistry-reactions/gltf-to-glb.mjs (in-house packer, no geometry/material changes, images embedded as buffer views).",
+  "fileSizeBytes": 3726556,
+  "sha256": "278ce3248a6e4b864221b41463f5ba3494520df0cf1088bca52aae46211364be",
+  "validation": {
+    "magicHeaderOk": true,
+    "glbVersion": 2,
+    "declaredLengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 50,
+    "meshCount": 50,
+    "materialCount": 2,
+    "textureCount": 6,
+    "imageCount": 4,
+    "animationCount": 0,
+    "accessorCount": 202,
+    "approxDimensionsMeters": [
+      0.2788,
+      0.429,
+      0.1578
+    ],
+    "note": "Bounding box derived from POSITION accessor min/max across all 50 nodes combined (whole scene), not per-object."
+  },
+  "sceneContents": {
+    "description": "Single lab-bench diorama scene from Poly Haven's donated 'Chemistry Set' asset. 50 distinctly named nodes/meshes covering multiple apparatus components in one coherent scene, not a single generic prop reused across unrelated branches.",
+    "namedNodes": [
+      "chemistry_set_beaker_large",
+      "chemistry_set_beaker_med",
+      "chemistry_set_beaker_small",
+      "chemistry_set_test_tube_a",
+      "chemistry_set_test_tube_b",
+      "chemistry_set_test_tube_content_a..f",
+      "chemistry_set_clamp",
+      "chemistry_set_clamp_stand",
+      "chemistry_set_clamp_tool",
+      "chemistry_set_bottle_dark_a..e (+lids/corks/dropper)",
+      "chemistry_set_bottle_clear_a..e (+lids/corks/dropper)",
+      "chemistry_set_bottle_content_a..f",
+      "chemistry_set_bottle_label_a..g",
+      "chemistry_set_bunsen_burner",
+      "chemistry_set_test_tube_stand_a",
+      "chemistry_set_test_tube_stand_b"
+    ]
+  },
+  "mappedComponents": [
+    "chemical-reactions / reaction apparatus (beaker, in 3 sizes)",
+    "chemical-reactions / reaction apparatus (test tube + test tube stand)",
+    "chemical-reactions / reaction apparatus (retort/clamp stand)",
+    "chemical-reactions / reaction apparatus (bunsen burner, secondary to dedicated bunsen-burner.glb)",
+    "chemical-reactions / reagent bottles (dropper/cork/lid variants) for solutions and acids-and-bases follow-up branches"
+  ]
+}

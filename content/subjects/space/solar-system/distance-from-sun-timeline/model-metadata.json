@@ -1,0 +1,148 @@
+{
+  "id": "distance-from-sun-timeline",
+  "componentId": "distance-from-sun-timeline",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/solar-system/distance-from-sun-timeline.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/solar-system/distance-from-sun-timeline.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: generated at runtime from three.js primitives, not a GLB. `url` is a placeholder for the scene-builder module per project conventions. `thumbnailUrl` is a placeholder PNG. `defaultCamera`/`cameraDefault` and hotspot `position`s are estimates derived from the assetBrief — verify against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0.6,
+      1.3,
+      3.1
+    ],
+    "target": [
+      2.2,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.6,
+      1.3,
+      3.1
+    ],
+    "target": [
+      2.2,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Sun start post",
+    "Planet stop spheres (Mercury–Neptune)",
+    "AU ruler (0–30)",
+    "Asteroid belt boundary band",
+    "Light-time counter path"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-sun-start",
+      "label": "The starting sun",
+      "conceptId": "sun-at-origin",
+      "position": [
+        0,
+        0.35,
+        0
+      ],
+      "description": "The origin of the walk — distance 0 AU. Every other stop on the road measures its distance from here.",
+      "positionHint": "Left end of the road, a medium warm cream sphere (radius ~0.4) standing at the 0 AU mark with a small '0 AU' post label.",
+      "color": "#E8A33D",
+      "function": "Anchors the zero end of the ruler."
+    },
+    {
+      "id": "hs-mercury-mark",
+      "label": "Mercury (0.39 AU)",
+      "conceptId": "planets-in-order-from-sun",
+      "position": [
+        1.0,
+        0.12,
+        0
+      ],
+      "description": "The first stop — the innermost planet, less than half the road to Earth's mark.",
+      "positionHint": "First marker on the road, small grey-ochre sphere on a low post, positioned at 0.39 AU on the ruler.",
+      "color": "#C09A6E",
+      "function": "Shows the closest planet's stop."
+    },
+    {
+      "id": "hs-earth-mark",
+      "label": "Earth (1 AU)",
+      "conceptId": "planets-in-order-from-sun",
+      "position": [
+        2.55,
+        0.11,
+        0
+      ],
+      "description": "Earth's stop at the 1 AU mark — the ruler's key anchor.",
+      "positionHint": "Dusty blue-green sphere on a low post just past the green 1 AU tick, with a short extra label '1 AU'.",
+      "color": "#7FA88A",
+      "function": "Marks the standard-of-measure stop."
+    },
+    {
+      "id": "hs-asteroid-belt-mark",
+      "label": "The boundary belt",
+      "conceptId": "mars-to-jupiter-gap",
+      "position": [
+        7.5,
+        0.08,
+        0
+      ],
+      "description": "The asteroid belt zone between Mars and Jupiter — the moment the road turns empty. A scatter of tiny rocky spheres marks the boundary.",
+      "positionHint": "At the road's wide mid-span, a loose crowd of ~200 tiny grey-brown spheres spread over 1.5 units of road, straddling 2.2–5.2 AU zone start.",
+      "color": "#C08B5C",
+      "function": "Marks the divide between the inner and outer solar system."
+    },
+    {
+      "id": "hs-jupiter-mark",
+      "label": "Jupiter (5.2 AU)",
+      "conceptId": "planets-in-order-from-sun",
+      "position": [
+        13.3,
+        0.28,
+        0
+      ],
+      "description": "The first giant you meet after the belt walls — at 5.2 AU, more than double the whole inner walk.",
+      "positionHint": "Cream-and-tan banded sphere on a mid-height post at the far side of the belt band.",
+      "color": "#D9A441",
+      "function": "Shows how the road expands after the belt."
+    },
+    {
+      "id": "hs-neptune-mark",
+      "label": "Neptune (30 AU)",
+      "conceptId": "neptune-farthest-planet",
+      "position": [
+        29.4,
+        0.25,
+        0
+      ],
+      "description": "The final stop at 30 AU — nearly past the ruler. The light counter has taken over 4 hours to arrive here from the Sun.",
+      "positionHint": "Far right end, soft slate-blue sphere on the last post, with the ruler's final tick 30 AU beneath it.",
+      "color": "#6B85A8",
+      "function": "Shows the far limit of the planetary road."
+    },
+    {
+      "id": "hs-au-ruler",
+      "label": "The AU ruler",
+      "conceptId": "au-distances-mapped-timeline",
+      "position": [
+        12.0,
+        0.55,
+        0
+      ],
+      "description": "One continuous ruler from 0 to 30 AU running the entire road, with tick marks at every whole AU.",
+      "positionHint": "A thin amber band floating just above the road, level and continuous from sun to Neptune.",
+      "color": "#A6B0C4",
+      "function": "Makes every stop's distance measurable at a glance and carries the light-time counter tick → min conversion."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, no floor grid, no glow, no bloom, no emissive materials, no cartoon outlines. The road is a long warm ivory low wall (like a museum timeline display) running along X from x=0 to x=30, with eight planet spheres on short posts at distance-appropriate heights. The AU ruler is a thin amber-grey line floating just above the road, carrying small tick planes. The light-time counter is a small readout panel that travels along the ruler, showing minutes flown since the Sun. The asteroid belt appears as hundreds of tiny neutral stone spheres clustered across the belt zone. Planet colors are the branch's muted set; everything reads diagrammatic, not cartoonish.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, roughness ~0.6-0.7 matte throughout. Road: warm ivory with faint fill-line detail. Posts: warm grey slim cylinders. Planet spheres: baked mottling/banding, no image textures. Belt stones: small low-poly rock spheres in warm grey-browns. Ruler: thin flat amber-grey strip with dark tick marks. Counter: dark text sprite on ivory panel. No emissive channels.",
+  "assetBrief": "SUBJECT: A linear distance timeline along X: 0 AU at x=0 to 30 AU at x=30. Distance scale: 1 AU = 1.0 scene unit exactly, so the road is 30 units long. Sun post at x=0 (radius 0.4, on a 0.15-tall base). Planet posts at their true relative X: Mercury 0.39, Venus 0.72, Earth 1.0, Mars 1.52, Jupiter 5.2, Saturn 9.58, Uranus 19.2, Neptune 30.0. Sphere display radii are consistent with the size component (Earth 0.24, Mercury 0.09 … Jupiter 2.64) but capped at 0.9 scene units to keep the road readable, each on a low post (height ∝ radius so taller worlds don't hog the ruler). The AU ruler: thin strip at y=0.75 above the road, ticks every 1 AU, numbered 0 … 30, with the 1 AU tick marked 'home'. Asteroid belt band: hundreds of small grey spheres scattered over the road between x=2.1 and 5.1 (the zone where the visual belt lives in this projection). Light-time counter: a small panel that can be 'played' — it advances along the road at light speed (about 0.3 AU per second at max zoom out) showing 'Sun light has reached Mars — 12 min 40 s' style messages, and stops at each planet with the time spent reaching it (Mercury 3.2 min, Venus 6 min, Earth 8.3 min, Mars 12.6 min, Jupiter 43.3 min, Saturn 79 min, Uranus 160 min, Neptune 250 min — approximate rounded numbers, presented as approximate). Default camera starts near the inner road [0.6, 1.3, 3.1] → [2.2, 0.1, 0]; dragging/scroll camera moves along the road; a 'tour' button animates the camera from x=0 to x=30 and back. Grounding: radial ground-shadow beneath the whole road strip, plus the ivory road band itself is the primary grounding. Named groups per layers list.",
+  "visual": {
+    "shape": "sun-timeline"
+  }
+}

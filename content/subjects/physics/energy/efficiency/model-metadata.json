@@ -1,0 +1,106 @@
+{
+  "id": "efficiency",
+  "componentId": "efficiency",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/energy/efficiency/efficiency.glb",
+  "thumbnailUrl": "/assets/thumbnails/energy/efficiency.png",
+  "defaultCamera": {
+    "position": [
+      0.3,
+      1.1,
+      4.0
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Engine block",
+    "Fuel input slider",
+    "Useful-output and waste-heat bars",
+    "Efficiency percent badge"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-engine",
+      "label": "Engine",
+      "conceptId": "efficiency-useful-over-total",
+      "position": [
+        -0.6,
+        0.5,
+        0
+      ],
+      "description": "The machine that burns input energy and splits it into useful work and waste heat.",
+      "colorHint": "Compact warm-grey engine block.",
+      "color": "#8A93A6",
+      "function": "Performs the energy conversion whose ratio is efficiency."
+    },
+    {
+      "id": "hs-fuel",
+      "label": "Fuel Slider",
+      "conceptId": "efficiency-useful-over-total",
+      "position": [
+        -1.3,
+        0.7,
+        0.2
+      ],
+      "description": "Sets the total input energy; the two output bars split it.",
+      "colorHint": "A warm red slider at the left.",
+      "color": "#D96B5A",
+      "function": "Fixes the denominator of the efficiency formula."
+    },
+    {
+      "id": "hs-useful",
+      "label": "Useful-Output Bar",
+      "conceptId": "efficiency-useful-over-total",
+      "position": [
+        1.2,
+        1.3,
+        0.1
+      ],
+      "description": "The green bar for the useful work that actually came out.",
+      "colorHint": "Tall green bar on the output panel.",
+      "color": "#7FA86A",
+      "function": "Marks the numerator of the efficiency formula."
+    },
+    {
+      "id": "hs-waste",
+      "label": "Waste-Heat Bar",
+      "conceptId": "efficiency-losses-to-heat",
+      "position": [
+        1.2,
+        0.6,
+        0.1
+      ],
+      "description": "The grey bar for input that escaped as heat, sound, or drag.",
+      "colorHint": "Short grey bar under the green one.",
+      "color": "#6B85A8",
+      "function": "Shows the loss that keeps efficiency below 100%."
+    },
+    {
+      "id": "hs-percent",
+      "label": "Efficiency Badge",
+      "conceptId": "efficiency-percentage",
+      "position": [
+        1.2,
+        1.9,
+        0.1
+      ],
+      "description": "The percent readout = useful ÷ total × 100, always under 100.",
+      "colorHint": "A pale circular badge with a big number.",
+      "color": "#3B4252",
+      "function": "Displays the efficiency percentage."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. A compact engine with a red fuel slider, a green/grey output bar panel, and a circular percent badge.",
+  "materialNotes": "Metallic=0, roughness ~0.5. Bars bright green/grey fill on pale panel, no emissive or bloom.",
+  "assetBrief": "SUBJECT: efficiency = useful output ÷ total input.\n\nGEOMETRY: engine block; a fuel slider; two output bars (green useful 1.2,1.3,0.1; grey waste 1.2,0.6,0.1); a percent badge (1.2,1.9,0.1).\n\nINTERACTION: the fuel slider sets input energy; the useful bar = ~30% of input by default, heat bar = the rest; percent badge recomputes. A friction knob toggles losses lower, raising efficiency.\n\nNAMED NODES: Engine, FuelSlider, UsefulBar, WasteBar, PercentBadge, FrictionKnob. 6-9k tris.",
+  "visual": {
+    "shape": "efficiency-bars"
+  }
+}

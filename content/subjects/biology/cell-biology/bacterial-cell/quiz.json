@@ -1,0 +1,57 @@
+{
+  "componentId": "bacterial-cell",
+  "questions": [
+    {
+      "id": "bacterial-cell-q1",
+      "prompt": "What is the main structural difference between a bacterial cell and one of your own cells?",
+      "options": [
+        "Bacterial cells have no nucleus, so their DNA floats freely in the cytoplasm instead of being enclosed in a membrane",
+        "Bacterial cells are always physically bigger than human cells",
+        "Bacterial cells don't contain any DNA at all",
+        "Bacterial cells cannot move or respond to their surroundings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bacteria are prokaryotes: their DNA sits loose in a region called the nucleoid rather than inside a membrane-bound nucleus, which is the defining difference from human (eukaryotic) cells. The wrong options are common mix-ups: bacteria are actually far smaller than human cells (not bigger), lacking a nucleus does NOT mean lacking DNA — the DNA is just unenclosed, and many bacteria move perfectly well using a flagellum.",
+      "misconception": "Learners often assume 'no nucleus' means 'no DNA at all,' or assume that simpler cell structure means smaller size relates to less capability — when in fact bacteria are smaller, not bigger, and still fully functional living organisms."
+    },
+    {
+      "id": "bacterial-cell-q2",
+      "prompt": "What is the main job of a bacterium's cell wall?",
+      "options": [
+        "To give the cell a fixed shape and protect it from bursting",
+        "To produce energy for the cell",
+        "To store the bacterium's genetic material",
+        "To help the bacterium swim through liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rigid, peptidoglycan-based cell wall surrounds most bacteria and gives them their shape while protecting them from bursting under internal pressure. It's easy to confuse with the cell membrane (which controls what enters and exits) or the flagellum (which handles movement) — but the wall's job is structural support and protection, not transport or motion.",
+      "misconception": "A common mix-up is treating 'cell wall' and 'cell membrane' as the same structure with the same job — the membrane controls what passes in and out, while the wall is a separate, tougher outer layer built mainly for shape and protection."
+    },
+    {
+      "id": "bacterial-cell-q3",
+      "prompt": "Why do doctors care about the difference between bacterial ribosomes and human ribosomes when prescribing certain antibiotics?",
+      "options": [
+        "Bacterial ribosomes (70S) are structurally different from human ribosomes (80S), so some antibiotics can target only the bacterial version",
+        "Bacteria don't actually have ribosomes, so those antibiotics attack the cell wall instead",
+        "Ribosomes control how fast a bacterium swims, which is what the antibiotic slows down",
+        "Ribosomes only exist in bacteria that are already causing disease"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bacterial ribosomes (70S) are built differently from the ribosomes found in human cells (80S). Some antibiotics are designed to bind only to the bacterial version, stopping the bacteria's protein-building without harming the patient's own cells. Bacteria absolutely have ribosomes — they need them to build proteins just like every living cell — and ribosomes have nothing to do with movement, which is the flagellum's job.",
+      "misconception": "Because bacteria are described as 'simple,' learners sometimes assume they lack complex machinery like ribosomes altogether, when in fact every living cell, bacterial or human, depends on ribosomes to build proteins — the difference is in the ribosome's structure, not its presence."
+    },
+    {
+      "id": "bacterial-cell-q4",
+      "prompt": "How does a bacterial cell most commonly reproduce?",
+      "options": [
+        "Through binary fission, where one cell copies its DNA and splits into two identical cells",
+        "Through sexual reproduction that requires two separate parent bacteria",
+        "By growing a miniature new cell inside itself like a seed, then releasing it",
+        "By merging with another bacterial cell to form one larger cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bacteria reproduce asexually through binary fission: a single cell duplicates its circular DNA and divides into two genetically identical daughter cells. Because most reproduction we're familiar with (animals, many plants) involves two parents, it's a common assumption that bacteria must work the same way — but a single bacterial cell needs no partner to reproduce.",
+      "misconception": "Learners often generalize from familiar sexual reproduction (which needs two parents) and assume all living things reproduce that way, overlooking that many single-celled organisms like bacteria reproduce asexually and rapidly on their own."
+    }
+  ]
+}

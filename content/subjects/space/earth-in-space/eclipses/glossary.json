@@ -1,0 +1,10 @@
+{
+  "componentId": "eclipses",
+  "terms": [
+    { "term": "Solar eclipse", "conceptId": "solar-eclipse-alignment", "definition": "The Moon passing directly between the Sun and Earth, briefly blocking sunlight from part of Earth's surface." },
+    { "term": "Lunar eclipse", "conceptId": "lunar-eclipse-alignment", "definition": "Earth passing directly between the Sun and the Moon, casting Earth's shadow onto the Moon." },
+    { "term": "Orbital node", "conceptId": "moon-orbital-tilt", "definition": "The point where the Moon's tilted orbital path crosses Earth's orbital plane; eclipses can only happen when the Moon is near a node at New or Full Moon." },
+    { "term": "Total eclipse", "conceptId": "eclipse-rarity", "definition": "An eclipse where the alignment is close to perfect, so the shadow lands squarely on its target." },
+    { "term": "Partial eclipse", "conceptId": "eclipse-rarity", "definition": "An eclipse where the alignment is close but not exact, so only part of the shadow reaches its target." }
+  ]
+}

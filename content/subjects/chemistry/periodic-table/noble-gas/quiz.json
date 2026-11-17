@@ -1,0 +1,65 @@
+{
+  "componentId": "noble-gas",
+  "questions": [
+    {
+      "id": "noble-gas-q-shell",
+      "conceptId": "noble-gas-full-shell",
+      "hotspotId": "hs-noble-gas-full-shell",
+      "prompt": "What is special about the outer shell of a noble gas atom?",
+      "options": [
+        "It is completely full",
+        "It is completely empty",
+        "It holds exactly one electron",
+        "It is missing one electron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Noble gases have completely full outer shells — 2 electrons for helium and 8 for the others — which is the most stable arrangement an atom can have.",
+      "misconception": "It's the alkali metals that have a single lonely electron in their outer shell — the noble gases are the ones with the full set, which is why they are so calm."
+    },
+    {
+      "id": "noble-gas-q-reactivity",
+      "conceptId": "noble-gas-unreactive",
+      "hotspotId": "hs-noble-gas-column",
+      "prompt": "How reactive are the noble gases?",
+      "options": [
+        "Almost completely unreactive",
+        "The most reactive family of all",
+        "Reactive only when heated",
+        "They react with everything"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because their outer shells are already full, noble gases have no reason to gain, lose, or share electrons — so they almost never react.",
+      "misconception": "It's natural to think every gas is reactive, but the noble gases are the opposite extreme — their full shells mean there is simply nothing to react with."
+    },
+    {
+      "id": "noble-gas-q-column",
+      "conceptId": "noble-gas-group-18",
+      "hotspotId": "hs-noble-gas-column",
+      "prompt": "Which group of the periodic table are the noble gases?",
+      "options": [
+        "Group 18, the last column",
+        "Group 1, the first column",
+        "Group 17, near the end",
+        "The middle transition metals"
+      ],
+      "correctIndex": 0,
+      "explanation": "The noble gases fill Group 18 — the final column of the periodic table, at the far right.",
+      "misconception": "Group 1 is the alkali metals and Group 17 is the halogens — the noble gases specifically occupy that last, far-right column."
+    },
+    {
+      "id": "noble-gas-q-use",
+      "conceptId": "noble-gas-unreactive",
+      "hotspotId": "hs-noble-gas-gases",
+      "prompt": "Why is argon used to fill some lightbulbs?",
+      "options": [
+        "Because it is unreactive and won't damage the bulb",
+        "Because it makes the bulb brighter",
+        "Because it is the cheapest liquid",
+        "Because it burns to create light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Argon's calm, unreactive nature means it won't react with the hot filament inside the bulb, so the bulb lasts longer.",
+      "misconception": "The noble gases don't burn or glow by themselves (neon glows only when electricity passes through it) — their value inside a bulb is simply that they do nothing and react with nothing."
+    }
+  ]
+}

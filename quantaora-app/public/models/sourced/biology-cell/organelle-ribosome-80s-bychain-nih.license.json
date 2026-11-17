@@ -1,0 +1,30 @@
+{
+  "asset": "organelle-ribosome-80s-bychain-nih.glb",
+  "componentMapping": "biology > cell-biology > Ribosome (low-level item - currently no distinct model; animal-cell-authored.glb does not include a separate ribosome mesh)",
+  "sourceUrl": "https://3d.nih.gov/entries/3DPX-011099",
+  "sourceEntryId": "3DPX-011099",
+  "underlyingStructureData": "PDB/cryo-EM structure 4V6X (human 80S ribosome)",
+  "creator": "National Institute of Allergy and Infectious Diseases (NIAID), generated via NIH 3D workflows",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC-BY 4.0",
+  "attributionRequired": true,
+  "attributionText": "\"Human 80S Ribosome\", NIAID / NIH 3D (3d.nih.gov, entry 3DPX-011099), derived from structure 4V6X. Licensed CC-BY 4.0.",
+  "redistributionStatus": "Permitted under CC-BY 4.0 (commercial use and modification allowed with attribution).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/13888/runs/57f19235-07ee-4b07-adbb-03f84114ebf5/output-files/310487",
+  "downloadedVariant": "4v6x_0-surf-bychain-print_NIH3D.glb (colored by protein/RNA chain)",
+  "fileSizeBytes": 93129968,
+  "sha256": "fb42841bf2767a3eb7251c5a3fe7f47f1c0a2a462a5bc5f5ca59c52866217240",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 3,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 4,
+    "notes": "DO NOT SHIP AS-IS. 93MB, ~6x over the 15MB hero-asset target - this is a full-atomic-detail cryo-EM surface mesh (single color-by-chain print-oriented mesh), not decimated for real-time rendering. A non-bychain single-color variant (310727) was also probed and is still 84MB, so the size is inherent to the source resolution, not the color variant. Needs an aggressive decimation/retopology pass (Blender decimate or Draco-compressed low-poly re-export) before this can be a mobile-safe Ribosome hero asset. Kept on disk as the only correctly-licensed high-fidelity source found; treat as a raw-material asset for a follow-up processing wave, not a ship-ready asset. Not render-inspected visually in this pass."
+  }
+}

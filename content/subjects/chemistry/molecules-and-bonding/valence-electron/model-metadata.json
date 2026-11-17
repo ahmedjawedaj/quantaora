@@ -1,0 +1,89 @@
+{
+  "id": "valence-electron",
+  "componentId": "valence-electron",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/molecules-and-bonding/valence-electron/valence-electron.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/molecules-and-bonding/valence-electron.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Sodium with shells",
+    "Bonding transfer",
+    "Shell count"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-valence-shell",
+      "label": "Valence shell",
+      "conceptId": "valence-outermost-shell",
+      "position": [
+        0.5,
+        -0.55,
+        0
+      ],
+      "description": "The outer ring is the valence shell — the outermost layer of the atom. The electrons living on it are the valence electrons.",
+      "positionHint": "The outermost ring of the sodium atom, larger and brighter than the inner ring.",
+      "color": "#D9A441",
+      "function": "Marks the outermost shell that holds the valence electrons."
+    },
+    {
+      "id": "hs-valence-electron",
+      "label": "Valence electron",
+      "conceptId": "valence-decides-bonding",
+      "position": [
+        1.15,
+        -0.05,
+        0
+      ],
+      "description": "This single electron on the outer ring is sodium's valence electron. It is the one that gets given away when sodium bonds with chlorine.",
+      "positionHint": "The single larger electron dot sitting on the outer ring.",
+      "color": "#7FA86A",
+      "function": "Shows the outer-shell electron that does the bonding."
+    },
+    {
+      "id": "hs-inner-shell",
+      "label": "Inner electrons",
+      "conceptId": "valence-outermost-shell",
+      "position": [
+        0.25,
+        0.15,
+        0
+      ],
+      "description": "The smaller electron dots on the inner ring are inner electrons. They stay buried in the atom and are not involved in bonding.",
+      "positionHint": "The smaller, dimmer electron dots on the inner ring.",
+      "color": "#6B85A8",
+      "function": "Shows the inner electrons that do not bond."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A sodium atom floats centered, large in frame, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Sodium is a soft muted violet sphere with two translucent hairline shell rings; inner electrons are small dim dots, the valence electron is larger and brighter. Strong saturated color is reserved for the small flat hotspot dots and the valence electron (molecular-green / amber / slate accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Sodium sphere: soft muted violet matte, roughness ~0.5. Shell rings: thin translucent hairline circles (alpha ~0.2). Inner electrons: small dim teal dots, roughness ~0.5. Valence electron: slightly larger, brighter teal dot with a subtle spec, roughness ~0.4. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a sodium atom showing its valence electron, built to be read as 'the outermost electron is the one that bonds.' Three procedural layers, all clean primitives:\n\n1) MAIN: a ball model of a sodium atom — soft muted violet nucleus sphere (radius ~0.5), two translucent hairline shell rings at radii ~0.85 and ~1.35. Inner ring carries EIGHT small dim teal electron dots (radius ~0.05); outer ring carries ONE larger brighter teal electron dot (radius ~0.09) at the top.\n\n2) BONDING TRANSFER (toggleable layer): a soft muted green chlorine atom (radius ~0.45) appears to the right, its shell ring with SEVEN dots and one empty spot. The sodium valence electron animates along a curved dashed path over to chlorine's empty spot (app-driven), and a + appears over sodium / − over chlorine (app-drawn UI glyphs).\n\n3) SHELL COUNT (toggleable layer): inner electrons dim to near-invisible while the valence electron stays bright, emphasizing that only the outer one matters for bonding.\n\nCamera: framed so the sodium atom is large and centered; auto-rotate default. Budget 6-10k triangles. Named nodes: SodiumNucleus, ShellRing_Inner, ShellRing_Outer, InnerElectrons_08, ValenceElectron_01, ChlorineAtom, ChlorineShell, ChlorineElectrons_07, TransferPath, TransferDot. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "valence-outer"
+  }
+}

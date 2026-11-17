@@ -1,0 +1,89 @@
+{
+  "id": "switch",
+  "subject": "physics",
+  "title": "Switch",
+  "summary": "A switch is a gate in the circuit that opens or closes the path for current — one click turns the loop from flowing to frozen. Flip the rocker in this model and watch the bulb and ammeter answer instantly: the switch's only job is to decide whether current has a road.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "switch-opens-closes-loop",
+    "switch-instantly-stops-current",
+    "switch-too-much-current-safety",
+    "switch-only-path-decider"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Components",
+    "systemOrGroup": "Components in a Circuit",
+    "component": "Switch",
+    "displayPath": "Physics > Electricity > Components > Components in a Circuit > Switch"
+  },
+  "crossReferences": [
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "The switch is the gate; current is what it lets through or stops."
+    },
+    {
+      "label": "Bulb (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Light bulb",
+      "note": "The classic load whose on/off the switch commands."
+    },
+    {
+      "label": "Series & parallel (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Series & parallel circuits",
+      "note": "A switch in series stops its whole branch; a switch in parallel can bypass a load."
+    }
+  ],
+  "belongsTo": "Electricity > Components > Components in a Circuit",
+  "compareCandidate": {
+    "label": "Open vs. closed switch",
+    "description": "Flip it open and the whole loop freezes; flip it closed and everything flows — the circuit's single on/off lever."
+  },
+  "parts": [
+    "The switch base",
+    "The rocker or lever",
+    "The two contact posts",
+    "The wires in and out"
+  ],
+  "processes": [
+    "Closing the contacts to complete the loop",
+    "Opening the contacts to break it",
+    "Watching current respond instantly",
+    "Using the switch as the circuit's master gate"
+  ],
+  "plainLanguageExplanation": "A switch is the circuit's doorman: a simple gap in the wire that you can close with a metal bridge or open again. Closed, the loop is complete and current flows; open, the gap blocks it and current stops dead — instantly. That's the entire job: no current control, no dimming, just on or off. Two ideas make switches matter. First, speed: a switch stops or starts the whole loop in an instant, which is why your light responds the instant you flick it. Second, safety: a switch that's too small for the current it carries gets hot — that's why fuse boxes and breaker switches are rated, and why the switch on your model dims when a big ammeter surges. In the model a lever switch sits on a loop with a bulb; flip it and you're the doorman, deciding whether the current road is open. Every wall switch, torch button, keyboard key, and power breaker is the same humble gate.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A device that opens or closes a circuit path" },
+    { "label": "Closed = flows", "value": "Contacts touching, loop complete, current runs" },
+    { "label": "Open = stops", "value": "A gap blocks current everywhere in that series loop" },
+    { "label": "Instant", "value": "No ramp-up; it is on or off at once" },
+    { "label": "Rated for current", "value": "Too many amps can overheat a switch" }
+  ],
+  "whyItMatters": "Switches are the most common electrical device on Earth: every wall plate, remote, and circuit breaker is one. Knowing that a switch is just a controllable gap explains how the loop rule works, why breakers cut dangerous current, and how every 'button' you press performs the same trick of opening and closing a road.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Switch (open/closed circuit control)",
+  "tagline": "The gate of the circuit",
+  "didYouKnow": "The first domestic switches were push-buttons screwed into gas-lamp fittings; modern wall switches quietly handle the same idea. A standard wall switch is rated around 10-15 A — more than a kettle pulls, but far less than a stalled motor, which is why the breaker upstairs exists.",
+  "conditions": [
+    "Wall light switches",
+    "Torch and phone power buttons",
+    "Remote-control buttons",
+    "Circuit breakers in the fuse box",
+    "Keyboard keys under every keycap"
+  ],
+  "compareCandidateId": "bulb",
+  "compareReason": "Switch and bulb are the gate and the window of the same loop: the switch decides, the bulb shows whether current came."
+}

@@ -1,0 +1,41 @@
+{
+  "componentId": "median",
+  "terms": [
+    {
+      "term": "Median",
+      "conceptId": "median-definition",
+      "hotspotId": "hs-median-block",
+      "definition": "The middle value of a dataset after sorting.",
+      "function": "Splits the sorted list in half.",
+      "whereItIs": "The glowing middle block.",
+      "whyItMatters": "The median is the trusty summary for skewed data."
+    },
+    {
+      "term": "Sort",
+      "conceptId": "median-sort",
+      "hotspotId": "hs-sorted-track",
+      "definition": "The step of ordering data from lowest to highest.",
+      "function": "Makes the middle position findable.",
+      "whereItIs": "The ordered blocks on the track.",
+      "whyItMatters": "Without sorting, 'middle' has no meaning."
+    },
+    {
+      "term": "Even count",
+      "conceptId": "median-even",
+      "hotspotId": "hs-middle",
+      "definition": "With an even number of values, average the two middle items.",
+      "function": "(5 + 8) ÷ 2 = 6.5 for four values.",
+      "whereItIs": "The two highlighted middle blocks.",
+      "whyItMatters": "Even counts need a between-middle value."
+    },
+    {
+      "term": "Outlier resistant",
+      "conceptId": "median-outlier",
+      "hotspotId": "hs-median-block",
+      "definition": "The median barely moves when an extreme value joins the data.",
+      "function": "Only position matters, not the outlier's size.",
+      "whereItIs": "Visible when a giant block joins at the end.",
+      "whyItMatters": "Resistance to outliers is the median's superpower."
+    }
+  ]
+}

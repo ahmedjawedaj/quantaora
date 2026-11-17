@@ -1,0 +1,89 @@
+{
+  "id": "metalloid",
+  "componentId": "metalloid",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/metalloid/metalloid.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/metalloid.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.8,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.8,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Silicon wafer",
+    "Staircase",
+    "Conductor meter"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-metalloid-silicon",
+      "label": "Silicon wafer",
+      "conceptId": "metalloid-between-metal-nonmetal",
+      "position": [
+        0,
+        0.3,
+        0
+      ],
+      "description": "A silicon wafer — the famous metalloid. It has a soft metallic shine, but it is not a full metal: it is the semiconductor at the heart of computer chips.",
+      "positionHint": "The round, softly gleaming wafer at the center of the scene.",
+      "color": "#7FA86A",
+      "function": "Shows silicon, the metalloid that powers electronics."
+    },
+    {
+      "id": "hs-metalloid-staircase",
+      "label": "The metalloid staircase",
+      "conceptId": "metalloid-sits-on-staircase",
+      "position": [
+        0,
+        -1.3,
+        0.2
+      ],
+      "description": "The glowing diagonal tiles on the table are the metalloids — a zigzag staircase dividing the metal region from the nonmetal region.",
+      "positionHint": "The diagonal line of highlighted tiles across the table section below the wafer.",
+      "color": "#D9A441",
+      "function": "Shows the staircase position of the metalloid family."
+    },
+    {
+      "id": "hs-metalloid-semi",
+      "label": "Semiconductor meter",
+      "conceptId": "metalloid-semiconductor",
+      "position": [
+        1.1,
+        0.3,
+        0.15
+      ],
+      "description": "This meter shows where the metalloid sits on conductivity: a metal pins to the top, a nonmetal sits near the bottom, and the metalloid rests at half — the 'semi' conductor.",
+      "positionHint": "The small vertical meter beside the wafer, visible when the conductor-meter layer is on.",
+      "color": "#6B85A8",
+      "function": "Shows the metalloid's in-between, switchable conductivity."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. The silicon wafer floats centered above a table section, lit with soft neutral studio light — the wafer carries a gentle soft-specular gleam (a muted metallic read, NOT bright chrome), but no glow, no bloom, no emissive. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: the wafer is a muted blue-grey with a soft metallic sheen, the staircase tiles carry a faint warm cast, the table tiles are paper-white. Strong saturated color is reserved entirely for the small flat hotspot dots (molecular green / amber / slate accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR. Wafer: metallic ~0.4 (between the true-metal ingot at 1 and the paper tiles at 0 — the 'semi' metallic read is the whole point), roughness ~0.3, muted blue-grey. Table tiles: paper-white, metallic 0, roughness ~0.55. Conductor meter: matte graphite frame, rough ~0.6. No emissive channels anywhere — any highlight or pulse is handled by app runtime UI, not baked into the asset.",
+  "assetBrief": "SUBJECT: a silicon wafer with its table position and in-between conductivity, built to be read as 'the switchable in-between family that powers electronics.' Three procedural layers, all clean primitives:\n\n1) MAIN: one flat round wafer (cylinder radius ~0.75, height ~0.06) at the center, muted blue-grey with a soft metallic sheen (metallic ~0.4) — gleaming but clearly not chrome. A small flat notch at one edge (like a real wafer). This is the star of the scene.\n\n2) STAIRCASE (toggleable layer): below the wafer, a flat section of periodic table (paper-white tiles, ~9 x 5). A diagonal zigzag of tiles (metalloid positions — e.g. 3rd row, then one right/down, one right/down...) glows with a faint warm cast and slight raise, tracing the staircase between the metal and nonmetal regions.\n\n3) CONDUCTOR METER (toggleable layer): a small vertical meter (thin rounded bar, matte graphite) beside the wafer. Three markers: a full fill labeled by icon as metal, a half fill where a small sliding indicator rests — the metalloid — and a near-empty fill as nonmetal. Icons are simple shapes (a circle, a half-circle, a sliver) rather than text.\n\nCamera: framed so the wafer is large and centered with the table slab below; auto-rotate default. Budget 6-10k triangles. Named nodes: SiliconWafer, Notch, TableSlab, StaircaseTiles, ConductorMeter, MeterIndicator. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "metalloid-split"
+  }
+}

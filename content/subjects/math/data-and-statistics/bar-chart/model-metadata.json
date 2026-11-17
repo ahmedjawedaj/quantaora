@@ -1,0 +1,90 @@
+{
+  "id": "bar-chart",
+  "componentId": "bar-chart",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/bar-chart/bar-chart.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/bar-chart.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Chart plate",
+    "Category axis",
+    "Value axis",
+    "Bars"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-bar-tallest",
+      "label": "Bar",
+      "conceptId": "bar-chart-definition",
+      "position": [
+        0.7,
+        0.75,
+        0.15
+      ],
+      "description": "A bar standing above its category \u2014 height = value.",
+      "positionHint": "The tallest of the three bars.",
+      "color": "#D9A441",
+      "function": "Shows each category's count by height."
+    },
+    {
+      "id": "hs-category-axis",
+      "label": "Category axis",
+      "conceptId": "bar-chart-axes",
+      "position": [
+        -0.9,
+        0.05,
+        0.1
+      ],
+      "description": "The bottom axis naming the groups being compared.",
+      "pointHint": "The labels along the horizontal axis.",
+      "color": "#7FA86A",
+      "function": "The groups under each bar."
+    },
+    {
+      "id": "hs-value-axis",
+      "label": "Value axis",
+      "conceptId": "bar-chart-read",
+      "position": [
+        -0.6,
+        0.85,
+        0.15
+      ],
+      "description": "The side axis measuring how high each bar reaches.",
+      "positionHint": "The numbered vertical axis.",
+      "color": "#6B85A8",
+      "function": "The scale for reading bar heights."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A standing chart plate with three colored bars, a category axis, a numbered value axis, and a compare guide. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / left-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Chart plate: warm paper panel (roughness ~0.5). Bars: colored warm paper blocks (red/blue/green desaturated) with slight bevel. Axes: thin warm-ink strips with tick labels. Compare lines: thin dashed warm-ink strips from bar tops to the axis. Drag handles: small warm paper nubs on bar tops. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: bar charts as height comparisons \u2014 a standing chart plate with three colored bars, an animated grow, draggable bar tops, read dashed lines, and a category/value axis pair.\n\nGEOMETRY: A standing chart plate. A horizontal bottom axis with three category labels (Red, Blue, Green); a vertical side axis numbered 0-8. Three block bars rise above their labels. 'Grow' animates each bar up from the axis. Dragging a handle on a bar top resizes it and updates its value tag. 'Compare' draws dashed guide lines from each bar top to the value axis to read all values.\n\nLAYERS (toggleable): (1) chart plate; (2) category axis; (3) value axis + ticks; (4) bars + handles + guide lines.\n\nCAMERA: three-quarter from front-left, slightly above, frames the full chart; labels legible. Budget 6-10k triangles. Named nodes: ChartPlate, CategoryAxis, ValueAxis, Bars, ValueTags, GuideLines, GrowAnim. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "bar-chart-3bars"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "sperm-cell",
+  "componentId": "sperm-cell",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/sperm-cell/sperm-cell.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/sperm-cell.png",
+  "defaultCamera": {
+    "position": [
+      5.5,
+      3,
+      7
+    ],
+    "target": [
+      -3.2,
+      -0.2,
+      0.6
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      5.5,
+      3,
+      7
+    ],
+    "target": [
+      -3.2,
+      -0.2,
+      0.6
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Full cell (plasma membrane, opaque)",
+    "Head interior (nucleus + acrosome cap)",
+    "Midpiece interior (mitochondrial sheath)",
+    "Tail core (axoneme / 9+2 microtubule bundle)"
+  ],
+  "hotspots": [
+    {
+      "id": "hotspot-head",
+      "label": "Head",
+      "position": [
+        3.3,
+        0.05,
+        0.18
+      ],
+      "conceptId": "sperm-cell-head",
+      "definition": "The flattened, paddle-shaped end of the sperm cell that holds its tightly packed nucleus and the enzyme-filled acrosome cap.",
+      "function": "Carries the cell's genetic payload (DNA) and the acrosome's enzymes needed to break through the egg's outer coat at fertilization.",
+      "whereItIs": "The foremost, leading end of the cell — the widest, flattest part of the whole structure, out in front of the midpiece and tail.",
+      "whyItMatters": "Everything else about the sperm cell exists to get this one part safely to the egg — without the head's DNA payload and acrosome, fertilization can't happen.",
+      "relatedConcept": {
+        "label": "Egg Cell (Ovum)",
+        "conceptId": "egg-cell"
+      },
+      "positionHint": "Foremost/leading end of the model (local +X apex of the ovoid), roughly one-third down from the very tip so the marker sits on the flattened face rather than the silhouette edge."
+    },
+    {
+      "id": "hotspot-midpiece",
+      "label": "Midpiece",
+      "position": [
+        2.6,
+        -0.05,
+        0.05
+      ],
+      "conceptId": "sperm-cell-midpiece",
+      "definition": "A short, thicker neck packed with a spiral sheath of mitochondria — the cell's power plant.",
+      "function": "Generates the ATP energy that drives the tail's whipping motion.",
+      "whereItIs": "The narrow 'waist' of the cell, immediately behind the head, at the visible thickness step-down where the head narrows into the tail.",
+      "whyItMatters": "Placing the energy-producing mitochondria right next to the tail keeps the fuel supply as close as possible to where it's actually used, minimizing how far that energy has to travel before it powers movement.",
+      "relatedConcept": {
+        "label": "Mitochondrion",
+        "conceptId": "mitochondrion"
+      },
+      "positionHint": "Short cylindrical collar immediately behind (local -X of) the head, at the visible thickness step-down where the head's width narrows into the tail's."
+    },
+    {
+      "id": "hotspot-tail",
+      "label": "Tail (flagellum)",
+      "position": [
+        0.5,
+        -0.35,
+        0.55
+      ],
+      "conceptId": "sperm-cell-tail",
+      "definition": "The long, whip-like flagellum that makes up most of the sperm cell's length, built around a bundle of microtubules in the classic 9+2 arrangement.",
+      "function": "Lashes side to side and rotates, using the energy supplied by the midpiece, to propel the sperm cell forward through fluid.",
+      "whereItIs": "Trailing behind the midpiece — the long, tapering curved section that makes up the majority of the cell's overall length.",
+      "whyItMatters": "Without the tail's motion, the head could still carry DNA and enzymes but would have no way to actually reach the egg — movement is what turns the cargo into a delivery.",
+      "relatedConcept": {
+        "label": "Cytoskeleton",
+        "conceptId": "cytoskeleton"
+      },
+      "positionHint": "Roughly the first third of the long tapering curve trailing behind the midpiece, placed on the outer/convex side of the gentle S-bend so it doesn't sit flush against the silhouette."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier language applied to a single free-floating specimen (closest existing analog in the reference set: an isolated organic structure shown at large scale against warm off-white, not a full-body composite). Warm off-white/paper background (#F7F3EC-ish), no environment reflections or studio glow. Matte-satin PBR shading with soft two-point lighting (large soft key + gentle fill), soft contact shadow under the cell, no rim-light glow, no bloom/emissive. Cross-section cut caps should show a clean matte interior fill in a slightly warmer/darker tone than the exterior, not an x-ray or wireframe look. Hotspot dots: small flat-colored circles (coral or leaf-green per biology palette) with a thin off-white ring, no pulsing glow — consistent with Anatomy Atelier's calm static dot + card-on-click pattern. Auto-rotate should be slow (about one full turn per 18-22 seconds) since the model's main story is a long curved silhouette that only reads correctly in 3D.",
+  "assetBrief": "SUBJECT: Human sperm cell (spermatozoon), for the Biology > Cell Biology > Specialized Cells library. Single free-floating specimen, not part of a fertilization scene — no egg cell, no other sperm, no fluid/background geometry.\n\nPROPORTIONS AND FORM (three fused parts along one continuous silhouette):\n1. Head — flattened, paddle/teardrop-shaped ovoid (NOT a sphere). Roughly 0.9 units long x 0.55 units wide x 0.35 units thick in local model space (real-world analog: ~4-5 x 2.5-3.5 x 1.5 micrometers, flattened front-to-back). The leading tip should read as slightly pointed/tapered (the acrosome cap's shape) rather than perfectly round like an egg; the trailing base is flatter where the neck attaches. Keep the front and back faces visibly different in curvature (one gently convex, one flatter) so a cross-section reads correctly.\n2. Midpiece (neck/collar) — short, distinctly thinner than the head, cylindrical, ~1.1-1.3 units long, tapering radius from ~0.16 to ~0.10. This is the visible \"waist\" of the model — the geometry must step down clearly from the head's width so the eye registers three separate zones even before hotspots are clicked. Optionally add very fine helical surface grooves (subtle, low-poly-safe normal detail, not a literal coiled mitochondria mesh) to hint at the mitochondrial sheath without needing a separate visible organelle mesh.\n3. Tail (flagellum) — long, continuously tapering whip from ~0.10 radius down to a near-hairline ~0.02 radius at the tip. Do NOT model it as a straight rod. Lay it out as a single gentle, open S-curve (2-3 shallow undulations, amplitude decreasing toward the tip like a real damped whip) so the overall model bounding box stays roughly 7-7.5 units long by 1.5-1.7 units in the other two axes, instead of an unusable 10:1 straight needle. This curve is a deliberate staging choice for framing — the true biological length ratio (tail roughly 8-10x the head+midpiece) should still read clearly, just folded into a compact S rather than a straight line.\n\nTOPOLOGY: One continuous, watertight mesh (or a small rigged set of head / midpiece / tail sub-meshes sharing a seamless join) so isolate-by-layer and cross-section cuts don't reveal gaps. Tail needs enough radial segments (8-10) even at its thinnest to avoid faceting when the camera zooms in on a hotspot. Keep the whole model low-to-mid poly (this is a stylized teaching aid, not a scientific-accuracy scan) — target well under 15k triangles.\n\nMATERIAL AND PALETTE: Matte-satin, slightly translucent-looking plasma membrane in a warm off-white/pale coral tone (biology accent family: coral, leaf green, warm paper — see spec section 12); avoid pure white or clinical blue-white. Head slightly denser/more opaque-looking than the tail to suggest the packed nucleus inside. No glossy/wet \"biology textbook\" shader, no neon or saturated colors, no emissive highlights, no visible seams or hard material breaks between head/midpiece/tail — one continuous material with maybe a very subtle tonal shift at the midpiece to sell the \"different zone\" without looking like separate parts glued together.\n\nCROSS-SECTION SUPPORT: Provide clean-cappable geometry at three natural cut planes — a transverse cut through the head (showing the dense nucleus filling most of the head with the thin acrosome cap layered over its leading portion), a transverse cut through the midpiece (showing the mitochondrial sheath as a ring/spiral around a central core), and a transverse cut through the tail (showing the axoneme's microtubule bundle as a small central ring of dots — the classic \"9+2\" pattern — inside the outer membrane). These caps only need to look correct in cross-section mode, not be separately modeled organelles visible in the default view.\n\nCAMERA AND FRAMING: Default camera targets roughly the centroid of the head-to-tail-tip curve, not the head alone — the goal is to read the whole specimen (all three zones) in the first frame, matching Anatomy Atelier's \"large centered object\" rule, while the S-curve staging keeps it from being an unreadable sliver.\n\nREFERENCE MATCH: Use assets/reference/anatomy-atelier/*.png (and https://anatomy-livid.vercel.app/) as the shading/lighting/background bar — same warm off-white backdrop, same restrained matte materials, same small flat hotspot dots opening a card on click, same absence of gamified color-coding or floating labels in the 3D view itself.\n\nDO NOT: model it as a straight needle-thin rod (unusable for camera framing and hotspot placement); use a spherical or egg-shaped head (real sperm heads are flattened/paddle-shaped, not round); add glow, bloom, emissive trails, or \"swimming motion\" particle effects to the static model (motion/animation, if ever added, is a separate simulation concern, not this static asset); use bright saturated \"biology diagram\" colors (hot pink, neon green) or a wet/glossy shader; add any second cell, fluid medium, or scene dressing — this asset is the specimen alone on a transparent/off-white background for compositing into the viewer.\n\nNOTE ON HOTSPOT POSITIONS: the numeric `position` values on each hotspot above are placeholder model-space estimates consistent with the proportions and camera framing described in this brief (head leading at positive local X, midpiece stepping down immediately behind it, tail's first third trailing further behind on the convex side of the S-curve). Once the GLB is authored, re-verify and snap these coordinates to the actual mesh surface.",
+  "visual": {
+    "shape": "sperm-cell"
+  }
+}

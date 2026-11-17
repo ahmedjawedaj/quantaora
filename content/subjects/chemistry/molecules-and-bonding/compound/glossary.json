@@ -1,0 +1,47 @@
+{
+  "componentId": "compound",
+  "terms": [
+    {
+      "term": "Compound",
+      "conceptId": "compound-different-elements",
+      "hotspotId": "hs-compound-examples",
+      "definition": "A pure substance made of two or more different elements chemically bonded together.",
+      "function": "Forms a new substance whose properties belong to no single element.",
+      "whereItIs": "The water, carbon dioxide, and salt in the model.",
+      "whyItMatters": "Compounds are water, salt, sugar, and nearly everything you can name.",
+      "relatedConcept": "compound-new-identity",
+      "quizId": "compound-q-definition"
+    },
+    {
+      "term": "Chemical bond",
+      "conceptId": "compound-different-elements",
+      "hotspotId": "hs-compound-elements",
+      "definition": "The force that holds a compound's different elements together.",
+      "function": "Turns separate elements into one new substance with a fixed ratio.",
+      "whereItIs": "The bonds inside water and CO₂, and the lattice of salt.",
+      "whyItMatters": "The bond is what makes a compound a compound, not a mixture.",
+      "relatedConcept": "compound-new-identity",
+      "quizId": "compound-q-vs-mixture"
+    },
+    {
+      "term": "New identity",
+      "conceptId": "compound-new-identity",
+      "hotspotId": "hs-compound-new-identity",
+      "definition": "The new properties a compound has that its elements do not share.",
+      "function": "Explains why salt is safe even though its elements are dangerous.",
+      "whereItIs": "Shown on the identity card in the model.",
+      "whyItMatters": "New identity is the most surprising and important fact about compounds.",
+      "relatedConcept": "compound-different-elements",
+      "quizId": "compound-q-new-identity"
+    },
+    {
+      "term": "Fixed ratio",
+      "conceptId": "compound-different-elements",
+      "definition": "The exact, unchanging proportion of elements in a compound.",
+      "function": "Makes each compound a unique substance — water is always 2H to 1O.",
+      "whereItIs": "Every compound in the model has its own fixed recipe.",
+      "whyItMatters": "Fixed ratios are what make compounds identifiable and predictable.",
+      "relatedConcept": "compound-new-identity"
+    }
+  ]
+}

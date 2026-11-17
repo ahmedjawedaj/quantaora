@@ -1,0 +1,50 @@
+{
+  "componentId": "percent",
+  "terms": [
+    {
+      "term": "Percent",
+      "conceptId": "percent-out-of-100",
+      "hotspotId": "hs-grid-percent",
+      "definition": "A ratio or fraction expressed out of a hundred, written with a % sign.",
+      "function": "35% means 35 out of every 100.",
+      "whereItIs": "The number label beside the percent grid.",
+      "whyItMatters": "The out-of-100 scale makes different amounts easy to compare."
+    },
+    {
+      "term": "Percent grid",
+      "conceptId": "percent-grid-visual",
+      "hotspotId": "hs-grid-percent",
+      "definition": "A 10-by-10 grid of 100 squares where each square is one percent.",
+      "function": "Lights 25 squares to show 25%.",
+      "whereItIs": "The square grid in the scene.",
+      "whyItMatters": "It makes percent a visible quantity rather than a code."
+    },
+    {
+      "term": "Fraction",
+      "conceptId": "percent-fraction-decimal",
+      "hotspotId": "hs-fraction-card",
+      "definition": "A percent written as a fraction with denominator 100.",
+      "function": "25% = 25/100, which simplifies to 1/4.",
+      "whereItIs": "The fraction card beside the grid.",
+      "whyItMatters": "It shows that percent is really just a fraction."
+    },
+    {
+      "term": "Decimal",
+      "conceptId": "percent-fraction-decimal",
+      "hotspotId": "hs-decimal-card",
+      "definition": "A percent written as a decimal, dividing by 100.",
+      "function": "25% = 0.25.",
+      "whereItIs": "The decimal card beside the grid.",
+      "whyItMatters": "Decimals let you compute 'percent of' amounts by multiplying."
+    },
+    {
+      "term": "100%",
+      "conceptId": "percent-out-of-100",
+      "hotspotId": "hs-grid-percent",
+      "definition": "The whole — all 100 out of every 100.",
+      "function": "Represents the entire amount being described.",
+      "whereItIs": "When the whole grid lights up.",
+      "whyItMatters": "It is the reference point that defines all other percents."
+    }
+  ]
+}

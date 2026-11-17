@@ -1,0 +1,38 @@
+{
+  "componentId": "producer",
+  "terms": [
+    {
+      "term": "Producer",
+      "conceptId": "makes-own-food",
+      "hotspotId": "hs-leaf",
+      "definition": "A living thing that makes its own food, usually with sunlight.",
+      "function": "Turns sunlight into food for the ecosystem.",
+      "whereItIs": "Plants, algae, phytoplankton.",
+      "whyItMatters": "All food chains start with producers.",
+      "relatedConcept": "photosynthesis-sunlight",
+      "quizId": "pro-q-def"
+    },
+    {
+      "term": "Photosynthesis",
+      "conceptId": "photosynthesis-sunlight",
+      "hotspotId": "hs-leaf",
+      "definition": "The process of making food from sunlight, water, and carbon dioxide.",
+      "function": "Creates the sugar that feeds the ecosystem.",
+      "whereItIs": "In the leaves of green plants.",
+      "whyItMatters": "It is how the ecosystem captures the sun's energy.",
+      "relatedConcept": "makes-own-food",
+      "quizId": "pro-q-how"
+    },
+    {
+      "term": "Food chain",
+      "conceptId": "base-of-food-chain",
+      "hotspotId": "hs-base",
+      "definition": "The order in which energy passes from producer to consumer.",
+      "function": "Shows who eats whom.",
+      "whereItIs": "Through every ecosystem.",
+      "whyItMatters": "It maps how energy moves through life.",
+      "relatedConcept": "makes-own-food",
+      "quizId": "pro-q-chain"
+    }
+  ]
+}

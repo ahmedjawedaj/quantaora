@@ -1,0 +1,35 @@
+{
+  "id": "dna",
+  "subject": "biology",
+  "title": "DNA",
+  "summary": "DNA (deoxyribonucleic acid) is the molecule that carries the instructions an organism needs to build and run itself. Explore the double-helix shape, the four base letters that store the code, and how this long molecule is packed inside a cell's nucleus.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": ["double-helix","base-pairing","genetic-code-storage"],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {"subject":"Biology","branch":"Cell Biology","unit":"Cell Structures","systemOrGroup":"Cell structures (organelles)","component":"DNA","displayPath":"Biology > Cell Biology > Cell Structures > Cell structures (organelles) > DNA"},
+  "crossReferences": [
+    {"label":"Nucleus (Cell Biology)","branch":"cell-biology","lowLevelItem":"Nucleus","note":"Most of a eukaryotic cell's DNA is stored and protected inside the nucleus, which this component covers separately."},
+    {"label":"Mitochondrion (Cell Biology)","branch":"cell-biology","lowLevelItem":"Mitochondrion","note":"A tiny amount of DNA also lives inside mitochondria, separate from the nucleus."}
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {"label":"DNA in nucleus vs. DNA in mitochondrion","description":"Most DNA is in the nucleus, but mitochondria carry a small amount of their own DNA to help make their own proteins."},
+  "parts": ["Double helix","Sugar-phosphate backbone","Base pairs (A-T, G-C)","Gene-forming segments"],
+  "processes": ["Storing and copying genetic instructions","Replication","Guiding protein building"],
+  "plainLanguageExplanation": "DNA is the instruction manual of the living cell. It looks like a twisted ladder - a shape called a double helix. The two rails of the ladder are a sugar-and-phosphate backbone, and the rungs are pairs of chemical letters (A pairs with T, and G pairs with C) arranged in a sequence. That sequence is what stores the code, the same way letters of an alphabet store words and sentences. When the cell divides, the DNA is copied so the new cell gets the whole instruction set. Most DNA sits in the nucleus, kept safe, and it directs what the cell builds.",
+  "keyFacts": [
+    {"label":"Full name","value":"Deoxyribonucleic acid"},
+    {"label":"Shape","value":"A double-stranded, twisted ladder called a double helix"},
+    {"label":"Stores","value":"The instructions (genetic code) that build and run an organism"},
+    {"label":"Base pairs","value":"Four bases pair up: A with T, and G with C"},
+    {"label":"Where most sits","value":"In the nucleus of each cell (and a little in mitochondria)"},
+    {"label":"Copying","value":"Replication makes an exact copy at cell division"}
+  ],
+  "whyItMatters": "DNA is why every living thing passes traits from one generation to the next and carries the full plan for building itself. Understanding this molecule unlocks genetics, heredity, and medicine - it's the code behind what makes living things work.",
+  "files": {"lesson":"lesson.md","quiz":"quiz.json","modelMetadata":"model-metadata.json","glossary":"glossary.json","standards":"standards.json"},
+  "scientificName": "Deoxyribonucleic acid",
+  "tagline": "The code of life",
+  "didYouKnow": "If you stretched out the DNA in a single human cell, it would be about two meters long - all packed into a nucleus too small to see.",
+  "conditions": ["Heredity","Transcription","Replication"]
+}

@@ -1,0 +1,16 @@
+{
+  "componentId": "moon-phases",
+  "modelType": "procedural-r3f",
+  "url": "src/components/explorer/EarthSpaceViewer.tsx",
+  "thumbnailUrl": "/assets/thumbnails/space/earth-in-space/moon-phases.png",
+  "assetStatus": "Already implemented — a hand-built React Three Fiber scene (EarthSpaceViewer.tsx, mode=\"phases\"), not a pending asset. Earth and the Moon render from the same real, already-cleared GLBs used elsewhere in Space (see src/data/moons.ts's moon entry and modelRegistry.ts for provenance/license).",
+  "defaultCamera": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "cameraDefault": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": ["Sun (light source)", "Earth", "Moon on its orbit ring", "Eight-phase wheel readout"],
+  "hotspots": [],
+  "visualStyleNotes": "Anatomy Atelier quality bar: warm off-white studio backdrop, no floor grid, no glow/bloom. The Moon orbits Earth at the learner-set angle; its lit crescent/gibbous shape is real-time directional lighting from the Sun's fixed position, matched live against the eight-phase wheel readout in the side panel.",
+  "materialNotes": "Earth and Moon use their existing real GLB material sets (metallic-roughness PBR); no emissive channels — the lit fraction is real-time directional lighting, not a texture swap between phase images.",
+  "note": "Process-driven component: the 'Touch it' interaction is a live physics simulation (a moon-angle slider plus phase-wheel presets) rather than tapping points on a single model, so this component intentionally carries no hotspots."
+}

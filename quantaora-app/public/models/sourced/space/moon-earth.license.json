@@ -1,0 +1,33 @@
+{
+  "sourceUrl": "https://svs.gsfc.nasa.gov/vis/a010000/a014900/a014959/moon_small.glb",
+  "resourcePage": "https://svs.gsfc.nasa.gov/14959/",
+  "creator": "NASA Goddard Space Flight Center (Dan Gallagher; data: Ernie Wright); data source Lunar Reconnaissance Orbiter (LRO)",
+  "license": "Public domain (U.S. Government work, NASA Scientific Visualization Studio)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 13799876,
+  "sha256": "12d3b0bb7fe214903f51447d1bc61710f442e92a11c703fcaca6d4e7ff8e67d4",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "imageCount": 1,
+    "animationCount": 0,
+    "accessorCount": 4,
+    "generator": "Khronos glTF Blender I/O v5.0.21",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      2.5437,
+      2.5437,
+      2.5437
+    ]
+  },
+  "notes": "Real LRO-derived topography (height-map displaced mesh), not a bare textured sphere. 'Small' color+height variant chosen to stay near the 15MB hero-asset budget."
+}

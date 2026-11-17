@@ -1,0 +1,89 @@
+{
+  "id": "position",
+  "subject": "physics",
+  "title": "Position",
+  "summary": "Position describes where an object is in space relative to a reference point — like a dog 5 meters to the right of a tree, or a rocket at (3, 2) on a grid. Explore how choosing a different reference point or a different direction changes what \"here\" means, and how position is the starting block for describing all motion.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "position-reference-point",
+    "position-describe-location",
+    "position-direction",
+    "position-coordinate-graph"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Describing Motion",
+    "systemOrGroup": "Position and Displacement",
+    "component": "Position",
+    "displayPath": "Physics > Mechanics > Describing Motion > Position and Displacement > Position"
+  },
+  "crossReferences": [
+    {
+      "label": "Distance (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Distance",
+      "note": "Position tells you where something is; distance then tells you how much ground is covered as it moves away from there."
+    },
+    {
+      "label": "Displacement (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Displacement",
+      "note": "Displacement is simply the change in position — a single straight-line vector from the starting position to the ending position."
+    },
+    {
+      "label": "Speed (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Speed",
+      "note": "Describing how fast position changes over time leads directly into speed and velocity, the next building blocks of motion."
+    }
+  ],
+  "belongsTo": "Mechanics > Describing Motion > Position and Displacement",
+  "compareCandidate": {
+    "label": "Position vs. distance",
+    "description": "Position is a location — \"the dog is 4 m LEFT of the gate\" — while distance is length moved. Position always needs a reference point and a direction; distance is just a size with no direction at all."
+  },
+  "parts": [
+    "The object whose spot you are locating",
+    "The reference point you measure from",
+    "The direction from the reference point (left/right, north/south)",
+    "The number line or grid that groups distances to positions"
+  ],
+  "processes": [
+    "Choosing a reference point to measure from",
+    "Describing a location with a distance and a direction",
+    "Reading a pair of coordinates on a grid",
+    "Comparing how position changes when the reference point moves"
+  ],
+  "plainLanguageExplanation": "Position just answers the question \"where is it?\" — but there's a catch: you can only answer it compared to something else. \"My house is at 24\" by itself is meaningless; \"my house is 24 steps from the fountain, to the east\" is a real answer. The thing you measure from is the reference point. In this model you'll place a child on a long line and read off where it sits: how many steps to the right of the mailbox, or 3 squares over and 2 squares up on a grid. Move the reference point and the same child gets a new number — but it hasn't actually moved — which shows that position is always measured relative to something. Position is the single most important place to start in mechanics, because everything else (distance, displacement, speed, velocity) is just a fancier way of talking about how position changes.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Where an object is located, measured relative to a chosen reference point" },
+    { "label": "Reference point", "value": "The fixed spot you measure from — if it changes, the position numbers change too" },
+    { "label": "Always relative", "value": "A position statement needs a direction and a distance (\"5 m left of the flag\"), not just a number" },
+    { "label": "Coordinates", "value": "On a grid, position is a pair like (3, 2) — one number for each axis" },
+    { "label": "Sign tells side", "value": "A negative number (+x or -x) usually means a position on the opposite side of the reference point" },
+    { "label": "Foundation for motion", "value": "Change in position over time is how we define speed and velocity later" }
+  ],
+  "whyItMatters": "Position is the very idea the ball starts from 0. GPS gives your position, a map shows a city's position, and a sport score tells position in a race. In physics, nearly everything else in mechanics is a measure of how position changes — if you cannot describe position clearly, you cannot describe motion. Understanding reference points also explains real-world arguments like \"the train seems still but the platform is racing\" — it depends on what you chose as the reference point.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Position (kinematics)",
+  "tagline": "Where is it? Compared to what?",
+  "didYouKnow": "The word 'position' shares its root with 'place' and 'put' — it's literally about where something is put. GPS satellites work the same way: your position is read off by measuring how far you are (in signals) from several reference satellites.",
+  "conditions": [
+    "Locations on a map or grid",
+    "GPS navigation",
+    "Sports positions",
+    "Coordinates in games"
+  ],
+  "compareCandidateId": "distance",
+  "compareReason": "Position is a point measured from something; distance is an amount of movement. Seeing both on the same number line is the fastest way to untangle them."
+}

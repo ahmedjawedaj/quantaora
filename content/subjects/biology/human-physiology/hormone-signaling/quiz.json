@@ -1,0 +1,94 @@
+{
+  "componentId": "hormone-signaling",
+  "questions": [
+    {
+      "id": "hormone-signaling-q-gland",
+      "conceptId": "gland-releases-hormone",
+      "hotspotId": "hs-gland-release",
+      "prompt": "An endocrine gland is triggered to send a chemical message to the rest of the body. What does it do?",
+      "options": [
+        "Sends an electrical impulse down a nerve fiber",
+        "Releases a hormone into the bloodstream",
+        "Directly touches the target cell to pass the message",
+        "Absorbs the target cell's receptor into itself"
+      ],
+      "correctIndex": 1,
+      "explanation": "A gland is a hormone-producing organ. When triggered, it releases its hormone directly into nearby blood vessels, letting the bloodstream carry the chemical message throughout the body rather than sending it along a single wire-like path.",
+      "misconception": "Because both the nervous and endocrine systems send 'messages,' students sometimes assume every body signal travels along a nerve fiber. A gland has no nerve-fiber output for its hormone — it releases the hormone straight into the blood."
+    },
+    {
+      "id": "hormone-signaling-q-bloodstream",
+      "conceptId": "hormone-travels-in-bloodstream",
+      "hotspotId": "hs-bloodstream",
+      "prompt": "A hormone released by the pancreas needs to reach muscle cells all over the body. How does it get there?",
+      "options": [
+        "Through nerve cells relaying an electrical signal",
+        "By traveling through the bloodstream",
+        "By diffusing directly through the air inside the body",
+        "Through muscle contractions pushing it along"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hormones are chemical messengers released into the blood. The heart continuously pumps blood everywhere, so a hormone made in one place, like the pancreas, can reach target cells anywhere in the body.",
+      "misconception": "It's easy to mix up hormone signaling with nerve signaling. Nerves do send fast electrical impulses along fixed cell fibers, but hormones take the slower, whole-body route through blood vessels instead of a dedicated wire-like pathway."
+    },
+    {
+      "id": "hormone-signaling-q-receptor",
+      "conceptId": "target-cell-receptor-binds-hormone",
+      "hotspotId": "hs-receptor-bind",
+      "prompt": "Why doesn't a hormone affect every single cell it passes on its trip through the bloodstream?",
+      "options": [
+        "Hormones only flow to nearby cells, not far ones",
+        "Only cells with a matching receptor can respond to that hormone",
+        "Hormones dissolve before reaching most cells",
+        "Hormones only work while still inside the blood vessel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only cells that carry a receptor shaped to match the hormone can bind it and respond, like a lock that only opens for one specific key. Cells without that matching receptor let the hormone pass by with no effect.",
+      "misconception": "A common assumption is that traveling everywhere in the blood means affecting everything it touches. In reality, a hormone can flow right past a cell that simply doesn't have the matching receptor, so nothing happens there."
+    },
+    {
+      "id": "hormone-signaling-q-response",
+      "conceptId": "cell-response-triggered",
+      "hotspotId": "hs-cell-response",
+      "prompt": "A hormone has just bound to the receptor on a target cell's surface. What happens next?",
+      "options": [
+        "Nothing more — binding alone is the entire response",
+        "The receptor triggers a chain of changes inside the cell, altering what the cell does",
+        "The target cell immediately releases its own hormone back into the bloodstream",
+        "The hormone is instantly destroyed and the cell returns to its resting state"
+      ],
+      "correctIndex": 1,
+      "explanation": "Binding is the trigger, not the finish line. Once a hormone binds its matching receptor, that sets off a chain of changes inside the cell — for example switching a gene on or speeding up an existing process — which is the actual response the hormone was 'asking for.'",
+      "misconception": "Learners often treat receptor binding as the endpoint of the story, missing that the real payoff — the cell doing something differently — happens after binding, inside the cell."
+    },
+    {
+      "id": "hormone-signaling-q-feedback",
+      "conceptId": "feedback-regulation",
+      "hotspotId": "hs-feedback",
+      "prompt": "After eating a meal, insulin helps lower your blood sugar. Once blood sugar returns to a healthy level, what typically happens next?",
+      "options": [
+        "The pancreas keeps releasing insulin at the same steady rate forever",
+        "Feedback signals tell the pancreas to slow down or stop releasing insulin",
+        "The bloodstream stops carrying any hormones for the rest of the day",
+        "The target cells destroy the pancreas gland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most hormone pathways use negative feedback: once the response, like lowered blood sugar, reaches a healthy level, a signal loops back to the gland so it reduces hormone release. This keeps the body balanced instead of overcorrecting.",
+      "misconception": "Students often picture glands as releasing hormones at a constant, unchanging rate. Actually, feedback loops are constantly adjusting hormone release up or down based on what the body currently needs."
+    },
+    {
+      "id": "hormone-signaling-q-compare",
+      "conceptId": "hormone-signaling",
+      "prompt": "Which statement best compares hormone signaling to nerve signaling?",
+      "options": [
+        "Hormone signals are electrical while nerve signals are chemical",
+        "Hormone signals are typically slower to start but longer-lasting; nerve signals are typically fast but brief",
+        "They are exactly the same process, just using different organs",
+        "Hormone signals only affect bones while nerve signals only affect muscles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nerve signals are fast electrical impulses that trigger quick, short-lived responses, like yanking your hand off a hot stove. Hormone signals travel through the blood, so they take longer to arrive, but their effects, like growth or changes in metabolism, often last much longer.",
+      "misconception": "It's tempting to think faster is simply 'better,' or that the two systems do the same job. The body actually relies on nerves for split-second reactions and hormones for slower, sustained regulation — the two systems work together rather than compete."
+    }
+  ]
+}

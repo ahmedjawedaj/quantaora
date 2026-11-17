@@ -1,0 +1,100 @@
+{
+  "id": "ribosome",
+  "componentId": "ribosome",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/ribosome/ribosome.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/ribosome.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Small subunit",
+    "Large subunit",
+    "Message strand",
+    "Amino acids arriving"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-small-subunit",
+      "label": "Small subunit",
+      "conceptId": "protein-building",
+      "position": [
+        0.2,
+        -0.05,
+        0.1
+      ],
+      "description": "The lower half of the ribosome that holds the message in place while it is read.",
+      "color": "#6B85A8",
+      "function": "Grips the message so the code can be read."
+    },
+    {
+      "id": "hs-large-subunit",
+      "label": "Large subunit",
+      "conceptId": "amino-acid-linking",
+      "position": [
+        0.15,
+        0.25,
+        0.1
+      ],
+      "description": "The upper half that links amino acids together as they arrive.",
+      "color": "#D98A6A",
+      "function": "Links the amino acids into a growing protein chain."
+    },
+    {
+      "id": "hs-read",
+      "label": "Message-reading site",
+      "conceptId": "reads-instructions",
+      "position": [
+        0.3,
+        0.15,
+        0.25
+      ],
+      "description": "The channel where the message passes through and is read, one codon at a time.",
+      "color": "#B5846A",
+      "function": "Reads the coded message to decide which amino acid comes next."
+    },
+    {
+      "id": "hs-join",
+      "label": "Amino-acid joining site",
+      "conceptId": "amino-acid-linking",
+      "position": [
+        -0.25,
+        0.15,
+        0.2
+      ],
+      "description": "The slot where each new amino acid is added to the growing chain.",
+      "color": "#D9A441",
+      "function": "Adds each amino acid to build the protein."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organelle floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality - museum-model cross-section caps, never gore. COLOR IS RESTRAINED: the organelle reads as a calm warm-paper specimen; each structural part is modeled in a muted near-neutral shade (warm taupe, pale vanilla, soft slate), never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Interior fluid (if any) is softly translucent but not glassy; cross-section cuts are clean flat museum caps. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a single ribosome as a study model - two rounded subunits (a smaller one, a larger one) nestled together to form the classic ribosome silhouette, shown in a clean cutaway so the message channel is visible. Between them, a short ribbon represents a messenger code strand threading through the read-site channel, with a few small muted spheres (amino acids) stacked on the joining site. Warm-paper materials, muted accents, no glow. Named nodes: SmallSubunit, LargeSubunit, MessageStrand, AminoAcidStack. Budget 8-12k.",
+  "visual": {
+    "shape": "ribosome-granules"
+  }
+}

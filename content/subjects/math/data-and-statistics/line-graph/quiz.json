@@ -1,0 +1,80 @@
+{
+  "componentId": "line-graph",
+  "questions": [
+    {
+      "id": "line-def",
+      "conceptId": "line-graph-definition",
+      "hotspotId": "hs-line-trend",
+      "prompt": "What makes a graph a LINE graph?",
+      "options": [
+        "Points connected by line segments",
+        "Bars rising from an axis",
+        "Rows and columns",
+        "A single dot"
+      ],
+      "correctIndex": 0,
+      "explanation": "A line graph connects its data points with line segments.",
+      "misconception": "Bars make a bar chart and a single dot is a data point — the connecting line is the signature of a line graph."
+    },
+    {
+      "id": "line-connect",
+      "conceptId": "line-graph-connect",
+      "hotspotId": "hs-dot",
+      "prompt": "What does each DOT on a line graph represent?",
+      "options": [
+        "One data point",
+        "The average of the data",
+        "A category bar",
+        "The highest value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each dot is one measured data point at a specific time.",
+      "misconception": "Dots are individual observations, not averages or bars — the line then connects them into a trend."
+    },
+    {
+      "id": "line-trend",
+      "conceptId": "line-graph-trend",
+      "hotspotId": "hs-line-trend",
+      "prompt": "If the line on a graph goes DOWN from left to right, the values are...",
+      "options": [
+        "Decreasing",
+        "Increasing",
+        "Staying flat",
+        "Disappearing"
+      ],
+      "correctIndex": 0,
+      "explanation": "A downward line means later values are lower — decreasing.",
+      "misconception": "Left-to-right motion follows time, and lower dots on the right mean smaller values — decreasing."
+    },
+    {
+      "id": "line-read",
+      "conceptId": "line-graph-read",
+      "hotspotId": "hs-dot",
+      "prompt": "On a line graph of temperature by hour, the time is shown...",
+      "options": [
+        "Along the horizontal axis",
+        "Along the vertical axis",
+        "Inside the dots",
+        "Nowhere"
+      ],
+      "correctIndex": 0,
+      "explanation": "Time runs along the horizontal axis from left to right.",
+      "misconception": "The vertical axis holds the measured values (temperature); time is the horizontal sequence."
+    },
+    {
+      "id": "line-vs-bar",
+      "conceptId": "line-graph-trend",
+      "hotspotId": "hs-time-axis",
+      "prompt": "When is a line graph better than a bar chart?",
+      "options": [
+        "When you want to show a trend over time",
+        "When comparing single categories",
+        "When listing raw numbers",
+        "When showing a picture"
+      ],
+      "correctIndex": 0,
+      "explanation": "The connecting line reveals trends and direction of change — exactly what time data needs.",
+      "misconception": "Comparing distinct categories is the bar chart's strength; the line exists to reveal the trend."
+    }
+  ]
+}

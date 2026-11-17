@@ -1,0 +1,105 @@
+{
+  "id": "dna",
+  "componentId": "dna",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/models/biology/genetics/dna-b-form-double-helix-nih.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/dna.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.3,
+      2.6
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.3,
+      2.6
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Double helix",
+    "Base pairs",
+    "Pairing rule",
+    "Gene segment"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-helix",
+      "label": "Double helix",
+      "conceptId": "double-helix",
+      "position": [
+        0,
+        0.25,
+        0.1
+      ],
+      "description": "The twisted, ladder shape of two DNA strands wound together.",
+      "positionHint": "The whole strand running vertically in the frame.",
+      "color": "#D98A6A",
+      "function": "Shape that lets the molecule be stored compact and copied exactly."
+    },
+    {
+      "id": "hs-backbone",
+      "label": "Sugar-phosphate backbone",
+      "conceptId": "genetic-code-storage",
+      "position": [
+        0.35,
+        0.3,
+        0.1
+      ],
+      "description": "The two rails of the ladder, made of alternating sugar and phosphate.",
+      "positionHint": "Left rail of the double helix, running top to bottom.",
+      "color": "#B5846A",
+      "function": "Forms the strong outer rails of the DNA ladder."
+    },
+    {
+      "id": "hs-base-pair",
+      "label": "Base pair (a rung)",
+      "conceptId": "base-pairing",
+      "position": [
+        0.1,
+        0.05,
+        0.15
+      ],
+      "description": "Two base letters snapped together like a rung between the rails.",
+      "positionHint": "The mid-height rung connecting the two rails.",
+      "color": "#6B85A8",
+      "function": "Holds the two strands together using the A-T and G-C pairing rule."
+    },
+    {
+      "id": "hs-gene",
+      "label": "Gene segment",
+      "conceptId": "genetic-code-storage",
+      "position": [
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "description": "A stretch of the DNA that holds one instruction or gene.",
+      "positionHint": "A short highlighted stretch along the helix.",
+      "color": "#7fa88a",
+      "function": "A specific run of base letters that codes for an instruction."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white/paper background, soft vignette, no floor grid. The helix runs vertical and large in frame. Rails in a muted warm taupe, the base rungs in paired soft hues (A a warm rose, T a soft amber, G a muted green, C a soft blue) but all low saturation - gentle and calm, not a bright infographic. Reserved hotspot dots for emphasis.",
+  "materialNotes": "Metallic-roughness PBR metallic=0. Rails matte ~0.5, base rungs slightly glossier. No emissive.",
+  "assetBrief": "SUBJECT: an upright DNA double helix from a stretch of ~6-7 base pairs shown clearly twisted. Two smooth sinusoidal strand (the two backbones) winding, with tenor rounded rung pieces connecting them (the paired bases). Provide a 'pairing' layer where two letters snap together with a subtle click, an 'unroll' view where the helix flattens into two complementary strands, and a 'gene' highlight a subset of rungs. All colors muted, no glow. Named nodes: RailA, RailB, BasePair_rung01..., GeneSegment_highlight. Budget 10-16k.",
+  "referenceMatch": "Matches the warm off-white centered object style of the reference screenshots.",
+  "visual": {
+    "shape": "dna-helix"
+  }
+}

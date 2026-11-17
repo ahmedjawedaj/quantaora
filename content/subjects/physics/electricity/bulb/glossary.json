@@ -1,0 +1,46 @@
+{
+  "componentId": "bulb",
+  "terms": [
+    {
+      "term": "Filament",
+      "conceptId": "bulb-filament-glows",
+      "hotspotId": "hs-filament",
+      "definition": "The thin coiled wire inside the bulb that heats up and glows.",
+      "function": "Turns current's energy into brilliant heat and light.",
+      "whereItIs": "The bright coil at the globe's center.",
+      "whyItMatters": "It is the bulb's heart — resistance turned into a light show.",
+      "relatedConcept": "resistance",
+      "quizId": "bu-q-filament"
+    },
+    {
+      "term": "Current to light",
+      "conceptId": "bulb-current-turns-to-light",
+      "hotspotId": "hs-filament",
+      "definition": "The conversion where passing current heats the filament until it glows.",
+      "whyItMatters": "The basis of most lamps, from torch bulbs to headlights.",
+      "whereItIs": "The filament brightening as the switch closes.",
+      "relatedConcept": "current",
+      "quizId": "bu-q-resistance"
+    },
+    {
+      "term": "Closed loop",
+      "conceptId": "bulb-loop-connection",
+      "hotspotId": "hs-base",
+      "definition": "The unbroken circuit from battery, through the bulb, and back — required for any glow.",
+      "whyItMatters": "It's the on/off secret behind switches and the safety of breakers.",
+      "whereItIs": "The highlighted path through base and filament.",
+      "relatedConcept": "current",
+      "quizId": "bu-q-loop"
+    },
+    {
+      "term": "Heat waste",
+      "conceptId": "bulb-heat-waste",
+      "hotspotId": "hs-globe",
+      "definition": "The large share of a bulb's energy that leaves as heat rather than light.",
+      "whyItMatters": "It's why modern LEDs beat old bulbs and why bulbs feel warm.",
+      "whereItIs": "The warm glow of the glass while lit.",
+      "relatedConcept": "efficiency",
+      "quizId": "bu-q-heat"
+    }
+  ]
+}

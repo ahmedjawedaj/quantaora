@@ -1,0 +1,104 @@
+{
+  "id": "subtraction",
+  "componentId": "subtraction",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/subtraction/subtraction.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/subtraction.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.5,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.5,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Cube group",
+    "Removal tray",
+    "Number line jump",
+    "Compare view"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-minuend",
+      "label": "Minuend",
+      "conceptId": "subtraction-take-away",
+      "position": [
+        -0.8,
+        0.45,
+        0
+      ],
+      "description": "The minuend is the starting amount \u2014 the 8 cubes you subtract from.",
+      "positionHint": "The full row of 8 cubes on the left side of the mat.",
+      "color": "#6B85A8",
+      "function": "The starting number in a subtraction problem."
+    },
+    {
+      "id": "hs-subtrahend",
+      "label": "Subtrahend",
+      "conceptId": "subtraction-take-away",
+      "position": [
+        -0.25,
+        0.45,
+        0.25
+      ],
+      "description": "The subtrahend is the amount taken away \u2014 the 3 cubes pulled into the removal tray.",
+      "positionHint": "The 3 cubes lifted off the mat and set into the small removal tray below.",
+      "color": "#D96B5A",
+      "function": "The number subtracted from the minuend."
+    },
+    {
+      "id": "hs-difference",
+      "label": "Difference",
+      "conceptId": "subtraction-take-away",
+      "position": [
+        0.7,
+        0.45,
+        0
+      ],
+      "description": "The difference is what is left \u2014 the 5 cubes remaining on the mat.",
+      "positionHint": "The 5 cubes that stay after the removal.",
+      "color": "#7FA86A",
+      "function": "The result of the subtraction."
+    },
+    {
+      "id": "hs-left-jump",
+      "label": "Jump left",
+      "conceptId": "subtraction-compare",
+      "position": [
+        0.3,
+        0.7,
+        0.35
+      ],
+      "description": "Subtraction on a number line is a jump to the left \u2014 from 8 back to 5.",
+      "positionHint": "The leftward arrow along the number line at the front of the mat.",
+      "color": "#D9A441",
+      "function": "Shows subtraction as moving left by the subtrahend."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A calm mat holds a row of 8 cubes; 3 cubes lift into a removal tray and the rest stay, with a number line along the front edge. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (grid-blue / coral / molecular-green / amber from the Math palette). Clean, specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Remaining cubes: warm off-white (roughness ~0.5). Removed cubes: faint coral cast (roughness ~0.5) so the subtrahend reads as removed. Mat: soft warm-grey (roughness ~0.85). Number line: thin ink-grey with warm paper label plates; left jump arrow amber (roughness ~0.45). No emissive channels anywhere \u2014 interaction highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: subtraction as 'take away' \u2014 a row of 8 cubes where a selected 3 lift into a removal tray leaving 5, plus a number line with a leftward jump arrow, plus a toggleable compare view.\n\nGEOMETRY: Mat (thin rounded slab, ~4 wide). Minuend row: 8 unit cubes along x \u2248 \u22121.6..1.6 at z \u2248 0. Removal tray: small recessed slab near x \u2248 0.6, z \u2248 \u22120.5. Number line along front (y \u2248 \u22120.15, z \u2248 0.9) with ticks 1..10 and a leftward jump arrow. Compare view: a second row of 5 cubes at z \u2248 0.6 that line up with the first 5, leaving the last 3 highlighted as 'more'.\n\nLAYERS (toggleable): (1) full row / removal state; (2) number line + left jump arrow; (3) compare view with second row.\n\nCAMERA: head-on from +z fits mat, tray, and number line; labels legible. Budget 6-10k triangles. Named nodes: MinuendRow, SubtrahendRemoved, DifferenceRow, RemovalTray, NumberLine, LeftJumpArrow, CompareRow, ExtraHighlight. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "subtract-remove"
+  }
+}

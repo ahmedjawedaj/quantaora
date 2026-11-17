@@ -1,0 +1,80 @@
+{
+  "componentId": "multiples",
+  "questions": [
+    {
+      "id": "multiples-3",
+      "conceptId": "multiples-times-table",
+      "hotspotId": "hs-multiple-example",
+      "prompt": "Which list shows the first five multiples of 3?",
+      "options": [
+        "3, 6, 9, 12, 15",
+        "3, 6, 9, 12, 18",
+        "1, 3, 9, 27, 81",
+        "3, 6, 12, 24, 48"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiples of 3 add 3 each step: 3, 6, 9, 12, 15.",
+      "misconception": "Doubling (3, 6, 12, 24) is not the multiples pattern — multiples add the base number, they do not double it."
+    },
+    {
+      "id": "multiples-7",
+      "conceptId": "multiples-times-table",
+      "hotspotId": "hs-times-table",
+      "prompt": "What is the 5th multiple of 7?",
+      "options": [
+        "35",
+        "28",
+        "12",
+        "42"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 5th multiple is 7 × 5 = 35.",
+      "misconception": "The 5th multiple is 7 × 5 = 35, not 7 × 4 = 28 (the 4th multiple) or 7 × 6 = 42 (the 6th)."
+    },
+    {
+      "id": "multiples-infinite",
+      "conceptId": "multiples-infinite",
+      "hotspotId": "hs-multiple-example",
+      "prompt": "How many multiples does the number 4 have?",
+      "options": [
+        "Infinitely many",
+        "Exactly ten",
+        "Exactly four",
+        "Just one"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because there are infinitely many whole numbers to multiply by, every number has infinitely many multiples.",
+      "misconception": "Multiples are not limited to ten or to the number itself — 4 × 1, 4 × 2, 4 × 3... goes on forever."
+    },
+    {
+      "id": "multiples-common",
+      "conceptId": "multiples-vs-factors",
+      "hotspotId": "hs-common-multiple",
+      "prompt": "Which number is a common multiple of 4 and 6?",
+      "options": [
+        "12",
+        "8",
+        "6",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "12 appears on both lists (4, 8, 12... and 6, 12, 18...), so it is a common multiple.",
+      "misconception": "8 is only on 4's list and 6 is only on 6's list — a common multiple must be on BOTH lists, and 12 is the first one."
+    },
+    {
+      "id": "multiples-vs-factor",
+      "conceptId": "multiples-vs-factors",
+      "hotspotId": "hs-times-table",
+      "prompt": "Which statement is correct?",
+      "options": [
+        "18 is a multiple of 6, and 6 is a factor of 18",
+        "18 is a factor of 6, and 6 is a multiple of 18",
+        "18 is not related to 6",
+        "6 and 18 are both primes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because 6 × 3 = 18, 18 is a multiple of 6 AND 6 is a factor of 18.",
+      "misconception": "The labels do not swap independently — the larger number that gets multiplied into is the multiple; the smaller number that multiplies is the factor."
+    }
+  ]
+}

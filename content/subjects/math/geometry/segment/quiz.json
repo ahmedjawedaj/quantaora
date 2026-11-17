@@ -1,0 +1,80 @@
+{
+  "componentId": "segment",
+  "questions": [
+    {
+      "id": "segment-def",
+      "conceptId": "segment-definition",
+      "hotspotId": "hs-segment-stroke",
+      "prompt": "What is a segment?",
+      "options": [
+        "Part of a line between two endpoints",
+        "A path extending forever both ways",
+        "A path with one endpoint",
+        "A curved path"
+      ],
+      "correctIndex": 0,
+      "explanation": "A segment is the straight piece of a line that stops at two endpoints.",
+      "misconception": "The endless paths are lines, and one-end paths are rays — a segment has exactly two endpoints and stops."
+    },
+    {
+      "id": "segment-length",
+      "conceptId": "segment-length",
+      "hotspotId": "hs-segment-stroke",
+      "prompt": "Why can you measure a segment but not a line?",
+      "options": [
+        "A segment has two endpoints to measure between",
+        "A segment is thicker",
+        "Lines are always hidden",
+        "Segments are longer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because a segment stops at both ends, it has a definite length; a line never stops.",
+      "misconception": "Measurability comes from the endpoints stopping the path — thickness and length of drawing do not matter."
+    },
+    {
+      "id": "segment-naming",
+      "conceptId": "segment-naming",
+      "hotspotId": "hs-endpoint-a",
+      "prompt": "A segment has endpoints at points A and B. How is it named?",
+      "options": [
+        "Segment AB",
+        "Line AB",
+        "Ray AB",
+        "Angle AB"
+      ],
+      "correctIndex": 0,
+      "explanation": "Name a segment by its two endpoints: segment AB.",
+      "misconception": "Line and ray have different arrowhead rules — a segment uses just its two endpoint names, in either order."
+    },
+    {
+      "id": "segment-side",
+      "conceptId": "segment-side",
+      "hotspotId": "hs-endpoint-b",
+      "prompt": "What kind of figure has sides made of segments?",
+      "options": [
+        "A triangle",
+        "A single point",
+        "A line",
+        "A ray"
+      ],
+      "correctIndex": 0,
+      "explanation": "Polygons like triangles and rectangles have sides that are segments.",
+      "misconception": "Points, lines, and rays are not closed shapes — a polygon needs a closed chain of segment sides."
+    },
+    {
+      "id": "segment-drawing",
+      "conceptId": "segment-definition",
+      "hotspotId": "hs-endpoint-b",
+      "prompt": "How do you DRAW a segment (unlike a line)?",
+      "options": [
+        "Solid dots at both ends, no arrowheads",
+        "Arrowheads at both ends",
+        "A dot at one end and an arrowhead at the other",
+        "Two arrowheads and no dots"
+      ],
+      "correctIndex": 0,
+      "explanation": "Segments use two solid endpoint dots and no arrowheads.",
+      "misconception": "Arrowheads mean 'keeps going' — a segment's solid dots mean 'stops here'."
+    }
+  ]
+}

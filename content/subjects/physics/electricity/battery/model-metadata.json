@@ -1,0 +1,120 @@
+{
+  "id": "battery",
+  "componentId": "battery",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/battery/battery.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/battery.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.1,
+      4.3
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Battery case",
+    "Chemical layers (cutaway)",
+    "Terminals + and −",
+    "Bulb and switch"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-case",
+      "label": "Battery Case",
+      "conceptId": "battery-volts-and-stamina",
+      "position": [
+        0.3,
+        0.6,
+        0
+      ],
+      "description": "The jacket that holds the chemical layers safely inside.",
+      "colorHint": "Smooth warm-ochre metal cylinder.",
+      "color": "#C9A44C",
+      "function": "Holds and protects the internal layers."
+    },
+    {
+      "id": "hs-layers",
+      "label": "Chemical Layers",
+      "conceptId": "battery-chemical-energy",
+      "position": [
+        0,
+        0.7,
+        0.1
+      ],
+      "description": "The stacked reactants whose reaction stores and releases the energy.",
+      "colorHint": "Cutaway showing pale amber and grey strata.",
+      "color": "#D9A441",
+      "function": "Store the chemical energy that becomes the push."
+    },
+    {
+      "id": "hs-neg",
+      "label": "− Terminal",
+      "conceptId": "battery-+--terminals",
+      "position": [
+        0,
+        0.15,
+        0
+      ],
+      "description": "The flat end where electrons pile up, ready to leave.",
+      "colorHint": "A dark circular cap marked −.",
+      "color": "#3B4252",
+      "function": "Releases electrons into the loop."
+    },
+    {
+      "id": "hs-pos",
+      "label": "+ Terminal",
+      "conceptId": "battery-+--terminals",
+      "position": [
+        0,
+        1.15,
+        0
+      ],
+      "description": "The nipple end that pulls electrons back — the two ends' difference is the volts.",
+      "colorHint": "A bright amber nub marked +.",
+      "color": "#D96B5A",
+      "function": "Accepts electrons returning through the loop."
+    },
+    {
+      "id": "hs-circuit",
+      "label": "Circuit Switch",
+      "conceptId": "battery-drives-the-loop",
+      "position": [
+        1.2,
+        0.5,
+        0.3
+      ],
+      "description": "Closes the loop so the battery's push can drive current to the bulb.",
+      "colorHint": "Small amber lever on the wire run.",
+      "color": "#D9A441",
+      "function": "Connects the battery to the bulb."
+    },
+    {
+      "id": "hs-usage",
+      "label": "Usage Knob",
+      "conceptId": "battery-drives-the-loop",
+      "position": [
+        0.4,
+        0.9,
+        0.3
+      ],
+      "description": "Simulates draining the cell; the layers shrink and the bulb dims.",
+      "colorHint": "A round dial labeled with a draining arrow.",
+      "color": "#7FA86A",
+      "function": "Demonstrates the cell being used up."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. A standing cutaway cell showing pale strata, brass jacket, amber + nub, dark − cap, and a small bulb beside it.",
+  "materialNotes": "Cutaway faces: matte textured layers (roughness ~0.7); jacket metallic-roughness with metallic ~0.5, roughness 0.4; terminals smooth.",
+  "assetBrief": "SUBJECT: battery anatomy and its two ratings; visible drain.\n\nGEOMETRY: a vertical cell (h≈1.0) with cutaway window showing layers; terminals +/−; a bulb + switch on a short loop; a usage dial.\n\nINTERACTION: the switch closes the loop and lights the bulb; the usage knob lowers layer thickness and dims the glow; a mAh/voltage label updates.\n\nNAMED NODES: Case, Layers, NegCap, PosNub, LoopSwitch, UsageDial. 7-10k tris.",
+  "visual": {
+    "shape": "battery-cell"
+  }
+}

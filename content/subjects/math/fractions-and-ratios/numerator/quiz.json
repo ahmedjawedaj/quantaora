@@ -1,0 +1,80 @@
+{
+  "componentId": "numerator",
+  "questions": [
+    {
+      "id": "numerator-position",
+      "conceptId": "numerator-top-of-fraction",
+      "hotspotId": "hs-numerator-label",
+      "prompt": "In the fraction 3/4, which number is the numerator?",
+      "options": [
+        "3",
+        "4",
+        "Both",
+        "Neither"
+      ],
+      "correctIndex": 0,
+      "explanation": "The numerator is the top number — the 3.",
+      "misconception": "The bottom number (4) is the denominator; mixing them up scrambles every fraction you read."
+    },
+    {
+      "id": "numerator-meaning",
+      "conceptId": "numerator-counts-parts",
+      "hotspotId": "hs-filled-segments",
+      "prompt": "What does the numerator 5 mean in the fraction 5/8?",
+      "options": [
+        "You have 5 of the 8 equal parts",
+        "There are 5 equal parts in total",
+        "You have 8 of the 5 parts",
+        "There are 5 whole items"
+      ],
+      "correctIndex": 0,
+      "explanation": "The numerator counts the parts you have — 5 out of the 8 equal parts.",
+      "misconception": "The 8 (denominator) is the total number of equal parts; the numerator 5 is the number you have of them."
+    },
+    {
+      "id": "numerator-grow",
+      "conceptId": "numerator-changes-amount",
+      "hotspotId": "hs-filled-segments",
+      "prompt": "Which fraction is LARGER?",
+      "options": [
+        "5/6",
+        "3/6",
+        "2/6",
+        "1/6"
+      ],
+      "correctIndex": 0,
+      "explanation": "With the same denominator (6), a larger numerator means a larger amount — 5/6 is the biggest.",
+      "misconception": "When denominators match, comparing is easy — only the numerators matter, and 5 wins over 3, 2, and 1."
+    },
+    {
+      "id": "numerator-whole",
+      "conceptId": "numerator-read-write",
+      "hotspotId": "hs-filled-segments",
+      "prompt": "At what numerator does 8ths become a whole?",
+      "options": [
+        "8 (8/8 = 1 whole)",
+        "4 (4/8 = 1 whole)",
+        "1 (1/8 = 1 whole)",
+        "Never"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the numerator equals the denominator, all the parts are present — 8/8 is one whole.",
+      "misconception": "The whole is reached when numerator = denominator, so 8/8 = 1; numerators below 8 name less than a whole."
+    },
+    {
+      "id": "numerator-read",
+      "conceptId": "numerator-read-write",
+      "hotspotId": "hs-numerator-label",
+      "prompt": "How do you read the fraction 2/3?",
+      "options": [
+        "Two thirds",
+        "Three halves",
+        "Two whole parts",
+        "Two of five"
+      ],
+      "correctIndex": 0,
+      "explanation": "Read the numerator first, then the denominator as a unit: 2/3 is 'two thirds'.",
+      "misconception": "'Two thirds' is the reading — saying 'three halves' swaps the parts and is a different fraction (3/2)."
+    }
+  ]
+}

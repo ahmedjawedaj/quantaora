@@ -1,0 +1,80 @@
+{
+  "componentId": "normal-force",
+  "questions": [
+    {
+      "id": "normal-q-definition",
+      "conceptId": "normal-perpendicular-support",
+      "hotspotId": "hs-normal-arrow",
+      "prompt": "What is the normal force?",
+      "options": [
+        "The support force a surface pushes back with, perpendicular to itself",
+        "The pull of gravity toward the center",
+        "The friction that stops motion",
+        "The bounce in a ball"
+      ],
+      "correctIndex": 0,
+      "explanation": "The normal force is the upturned support a surface provides — perpendicular (at 90°) to the surface.",
+      "misconception": "It commonly gets reduced to 'the weight' or to friction; it's the perpendicular push from the surface itself."
+    },
+    {
+      "id": "normal-q-direction",
+      "conceptId": "normal-perpendicular-support",
+      "hotspotId": "hs-normal-arrow",
+      "prompt": "A book sits flat on a table. Which direction does the table's normal force point?",
+      "options": [
+        "Straight up, perpendicular to the tabletop",
+        "Straight down",
+        "Along the table to the left",
+        "Anywhere it chooses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normal means perpendicular — the push comes straight out of the tabletop, i.e. upward in this flat case.",
+      "misconception": "Some think the surface pushes along itself or downward; the defining quirk is the 90° angle, never along the surface."
+    },
+    {
+      "id": "normal-q-balance",
+      "conceptId": "normal-balances-weight",
+      "hotspotId": "hs-weight-arrow",
+      "prompt": "On flat ground, why doesn't a resting book fall through the table?",
+      "options": [
+        "The normal force pushes up with a force equal to the book's weight",
+        "The table secretly glues it in place",
+        "Air keeps the book suspended",
+        "The book is too wide to fall"
+      ],
+      "correctIndex": 0,
+      "explanation": "The surface pushes upward with a normal force matching the downward weight — the two cancel, so the book stays put.",
+      "misconception": "It's easy to read the table as just 'solid stuff'; the physics is the perpendicular support force exactly matching the weight."
+    },
+    {
+      "id": "normal-q-ramp",
+      "conceptId": "normal-force-varies-with-contact",
+      "hotspotId": "hs-ramp-tilt",
+      "prompt": "A ball rests on a ramp tilted 30°. Compared with flat ground, the normal force is...",
+      "options": [
+        "Smaller, because only part of the weight presses into the slope",
+        "Bigger, because ramps push harder",
+        "Exactly the same as on flat",
+        "Zero, ramps have no normal force"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a tilted surface, part of the weight acts along the slope, so the perpendicular support needed (and given) is smaller.",
+      "misconception": "A fixed 'equals weight always' rule gets broken by the ramp — the equal value happens only on flat ground."
+    },
+    {
+      "id": "normal-q-elevator",
+      "conceptId": "normal-left-in-accelerating-lifts",
+      "hotspotId": "hs-normal-arrow",
+      "prompt": "An elevator starts accelerating upward. The floor's normal force on you becomes...",
+      "options": [
+        "Stronger — it must accelerate you upward too",
+        "Weaker — you feel lighter",
+        "Zero the whole time",
+        "Exactly equal forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "To accelerate you upward, the floor must supply an extra upward push via the normal force — that extra push is what you feel pressing against your feet.",
+      "misconception": "The classic feeling is 'heavier' — but the mass doesn't change; it's the normal force spiking upward to accelerate you."
+    }
+  ]
+}

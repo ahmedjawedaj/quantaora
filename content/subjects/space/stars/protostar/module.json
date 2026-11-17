@@ -1,0 +1,104 @@
+{
+  "id": "protostar",
+  "subject": "space",
+  "title": "Protostar",
+  "summary": "A star is not switched on — it is assembled. A protostar is a star caught in the act of being born: a dense lump of gas and dust deep inside a cold cloud, squeezing itself under gravity, spinning up, and glowing from the heat of its own contraction. Fusion has not started yet.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "protostar-glow-from-contraction",
+    "cloud-collapse-forms-proto-star",
+    "spin-flattens-into-disk",
+    "disk-is-planet-nursery",
+    "ignition-when-fusion-starts"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Stars",
+    "unit": "Stellar Lifecycle",
+    "systemOrGroup": "Star formation",
+    "component": "Protostar",
+    "displayPath": "Space > Stars > Stellar Lifecycle > Star formation > Protostar"
+  },
+  "crossReferences": [
+    {
+      "label": "Main Sequence Star (Stars)",
+      "branch": "stars",
+      "component": "Main-sequence star",
+      "note": "The protostar is the 'before' and the main-sequence star is the 'after' — ignition is the dividing line between the two, and comparing them shows what fusion changes."
+    },
+    {
+      "label": "Nebula (Galaxies)",
+      "branch": "galaxies",
+      "component": "Nebula",
+      "note": "Protostars form inside the same clouds of gas and dust covered as nebulae in the Galaxies branch — a star's birth cloud and a nebula are the same object seen from different distances."
+    },
+    {
+      "label": "Solar System Scale (Solar System)",
+      "branch": "solar-system",
+      "component": "Solar system scale",
+      "note": "The planet-forming disk around a protostar is the same kind of structure that produced our own solar system's planets 4.6 billion years ago."
+    }
+  ],
+  "belongsTo": "Stars > Stellar Lifecycle > Star formation",
+  "compareCandidate": {
+    "label": "Protostar vs. main-sequence star",
+    "description": "A protostar is a star before fusion: glowing from gravitational contraction and gas falling onto it, still wrapped in its birth disk, and still gathering mass. A main-sequence star is the same object after ignition: core fusion running, disk gone, output steady. Comparing the two makes 'ignition' the visible dividing line of a star's life."
+  },
+  "parts": [
+    "Collapsing core of gas",
+    "Flattened accretion disk",
+    "Surrounding birth cloud",
+    "Contraction-driven glow",
+    "Rotation axis"
+  ],
+  "processes": [
+    "Gravitational collapse of a dense cloud",
+    "Conservation of angular momentum and disk formation",
+    "Gravitational contraction producing heat",
+    "Accretion of infalling gas onto the core",
+    "The climb toward hydrogen fusion ignition"
+  ],
+  "plainLanguageExplanation": "Stars form inside enormous, cold clouds of gas and dust. Here and there, a patch of cloud is dense enough that its own gravity wins over everything else, and it starts to collapse slowly inward. As the patch shrinks it also spins — a tiny bit of spin in the original cloud speeds up as the cloud tightens, exactly like a figure skater pulling in their arms — and the spinning material flattens into a disk around the center. That dense, glowing lump at the disk's center is the protostar. It is not powered by fusion: its core is not yet hot enough to fuse hydrogen. Its light mostly comes from two places — gravitational contraction (the squeeze of its own weight heating the gas) and gas still slamming onto its surface from the disk. Over millions of years it shrinks and heats until the core crosses about 10 million degrees, hydrogen fusion switches on, and the protostar becomes a true star. Meanwhile, the leftover disk is where planets are built — which is why a picture of a protostar is roughly a picture of how our own solar system began.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "A very young star still gathering mass, not yet fusing hydrogen in its core"
+    },
+    {
+      "label": "Energy source",
+      "value": "Gravitational contraction plus gas falling onto the surface — not fusion"
+    },
+    {
+      "label": "The disk",
+      "value": "The spinning collapse flattens leftover material into a disk, which is where planets will form"
+    },
+    {
+      "label": "Age",
+      "value": "Typically only a few million years old compared with the Sun's 4.6 billion"
+    },
+    {
+      "label": "Ignition threshold",
+      "value": "Hydrogen fusion switches on when the core reaches roughly 10 million K"
+    },
+    {
+      "label": "Where they form",
+      "value": "Inside cold, dense clouds of gas and dust — the same clouds we see as nebulae"
+    }
+  ],
+  "whyItMatters": "Protostars answer one of the most basic questions in science: where do stars come from? Every star in the sky, including the Sun, went through exactly this stage. Understanding protostars also explains why planets orbit in a flat plane (they inherit the rotation of the birth disk), why some clouds give birth to thousands of stars, and why telescopes like ALMA and JWST spend so much time photographing young star systems. The story of a protostar is the first chapter of every star's — and every planet's — life.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Pre-Main-Sequence Stellar Contraction",
+  "tagline": "A star caught being born",
+  "didYouKnow": "The Sun spent roughly 10 million years in its protostar stage — an eyeblink compared with its 4.6-billion-year life — and while it was still forming, its disk was already building the planets that would orbit it.",
+  "compareCandidateId": "main-sequence-star",
+  "compareReason": "A few million years apart, the same object: the protostar is the 'before' — still gathering mass, glowing from gravity; the main-sequence star is the 'after' — core fusing, disk gone. The comparison makes ignition the dividing line."
+}

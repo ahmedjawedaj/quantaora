@@ -1,0 +1,33 @@
+{
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/s/Saturn_1_120536.glb",
+  "resourcePage": "https://science.nasa.gov/resource/saturn-3d-model/",
+  "creator": "NASA Visualization Technology Applications and Development (VTAD)",
+  "license": "Public domain (U.S. Government work, science.nasa.gov / NASA media usage guidelines)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 5476584,
+  "sha256": "8dbfde533b13e938408d8aded1d1ce48a084806233f67775371d83013dba7d38",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 3,
+    "meshCount": 3,
+    "materialCount": 2,
+    "textureCount": 2,
+    "imageCount": 2,
+    "animationCount": 0,
+    "accessorCount": 12,
+    "generator": "Khronos Blender glTF 2.0 I/O",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      2330.901,
+      902.038,
+      2330.9008
+    ]
+  },
+  "notes": "3 meshes / 2 materials confirmed by validator — includes ring geometry separate from the planet body, not a bare sphere."
+}

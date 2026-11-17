@@ -1,0 +1,80 @@
+{
+  "componentId": "resistance",
+  "questions": [
+    {
+      "id": "re-q-definition",
+      "conceptId": "resistance-opposes-current",
+      "hotspotId": "hs-block",
+      "prompt": "What does resistance do to electric current?",
+      "options": [
+        "It slows and limits the flow",
+        "It speeds the flow up",
+        "It reverses the flow",
+        "It stores the flow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is the drag that opposes the moving charge, limiting how much current flows.",
+      "misconception": "The direction is often flipped; resistance holds back, it never accelerates flow."
+    },
+    {
+      "id": "re-q-unit",
+      "conceptId": "resistance-unit-ohm",
+      "hotspotId": "hs-ohm",
+      "prompt": "In what unit is resistance measured?",
+      "options": [
+        "Ohms (Ω)",
+        "Volts (V)",
+        "Amperes (A)",
+        "Watts (W)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resistance is measured in ohms (Ω); volts are the push, amps the flow.",
+      "misconception": "Ohm/volt/amp are the trio most often scrambled on labels and meters."
+    },
+    {
+      "id": "re-q-ohm-law",
+      "conceptId": "resistance-opposes-current",
+      "hotspotId": "hs-ammeter",
+      "prompt": "With the same voltage, doubling the resistance does what to the current?",
+      "options": [
+        "It halves the current",
+        "It doubles the current",
+        "The current stays the same",
+        "The current zeroes immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "current = voltage ÷ resistance; double the denominator and current halves.",
+      "misconception": "Some think resistance and current both rise together; they oppose each other."
+    },
+    {
+      "id": "re-q-material",
+      "conceptId": "resistance-material-and-length",
+      "hotspotId": "hs-material",
+      "prompt": "Which material offers almost no resistance to current?",
+      "options": [
+        "A metal like copper",
+        "Rubber",
+        "Air",
+        "Brittle wood"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metals like copper have tiny resistance; rubber and wood block current (insulators).",
+      "misconception": "Treating all materials equal; material is one of the two big deciding knobs of resistance."
+    },
+    {
+      "id": "re-q-geometry",
+      "conceptId": "resistance-thin-long-high",
+      "hotspotId": "hs-rail",
+      "prompt": "Compare two copper wires of the same material. Which has HIGHER resistance?",
+      "options": [
+        "The longer, thinner wire",
+        "The shorter, thicker wire",
+        "They are equal",
+        "The shorter thinner wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Long thin paths fight the current most; short fat paths flow freely.",
+      "misconception": "The shape of the road matters as much as the material — both decide ohms."
+    }
+  ]
+}

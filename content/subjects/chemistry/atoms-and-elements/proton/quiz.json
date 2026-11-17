@@ -1,0 +1,65 @@
+{
+  "componentId": "proton",
+  "questions": [
+    {
+      "id": "proton-q-charge",
+      "conceptId": "proton-positive-charge",
+      "hotspotId": "hs-proton-charge",
+      "prompt": "What charge does a proton carry?",
+      "options": [
+        "Positive (+1)",
+        "Negative (-1)",
+        "No charge at all",
+        "Either positive or negative depending on the element"
+      ],
+      "correctIndex": 0,
+      "explanation": "A proton always carries a +1 positive charge — it is the particle that gives the nucleus its positive charge.",
+      "misconception": "The negative charge belongs to electrons, not protons — and protons are never neutral; every proton is always +1."
+    },
+    {
+      "id": "proton-q-identity",
+      "conceptId": "proton-defines-element",
+      "hotspotId": "hs-proton-count",
+      "prompt": "What decides which element an atom is?",
+      "options": [
+        "The number of protons",
+        "The number of electrons",
+        "The number of neutrons",
+        "The atom's total mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "The proton count defines the element — 6 protons is carbon, 79 is gold. Nothing else decides an element's identity.",
+      "misconception": "Electron counts can change (that makes ions), neutron counts can change (that makes isotopes), but the proton count is fixed and is the element's true identity."
+    },
+    {
+      "id": "proton-q-location",
+      "conceptId": "proton-in-nucleus",
+      "hotspotId": "hs-proton-nucleus",
+      "prompt": "Where do protons live in an atom?",
+      "options": [
+        "In the nucleus, the dense core",
+        "Orbiting far outside the atom",
+        "Spread evenly through the electron cloud",
+        "Between the electron shells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protons (along with neutrons) are packed into the nucleus — the tiny, dense core at the atom's center.",
+      "misconception": "Orbiting particles are electrons; protons are always packed in the nucleus at the very center, never in the outer cloud."
+    },
+    {
+      "id": "proton-q-atomic-number",
+      "conceptId": "proton-defines-element",
+      "hotspotId": "hs-proton-count",
+      "prompt": "What is the atomic number on the periodic table?",
+      "options": [
+        "The number of protons in an atom",
+        "The number of neutrons in an atom",
+        "The atom's total weight",
+        "The year the element was discovered"
+      ],
+      "correctIndex": 0,
+      "explanation": "The atomic number is simply the proton count — it is the element's identity number on the periodic table.",
+      "misconception": "The atomic number is not weight, neutrons, or a discovery date — it is exactly the proton count, which is why it goes up by one for each element in order."
+    }
+  ]
+}

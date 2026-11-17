@@ -1,0 +1,101 @@
+{
+  "id": "leaf",
+  "subject": "biology",
+  "title": "Leaf",
+  "summary": "The leaf is the plant's food factory. It uses chlorophyll to capture sunlight and carry out photosynthesis, turning water and carbon dioxide into sugar and oxygen. Explore the broad green blade and its network of veins.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "leaf-makes-food",
+    "chlorophyll-captures-light",
+    "leaf-wide-surface",
+    "veins-carry-water-and-food",
+    "leaf-photosynthesis"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Structure",
+    "systemOrGroup": "Plant organs",
+    "component": "Leaf",
+    "displayPath": "Biology > Plants > Plant Structure > Plant organs > Leaf"
+  },
+  "crossReferences": [
+    {
+      "label": "Chloroplast (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Chloroplast",
+      "note": "The green chloroplasts inside leaf cells are what actually capture sunlight and carry out photosynthesis."
+    },
+    {
+      "label": "Stomata (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Stomata",
+      "note": "Tiny pores on the leaf surface called stomata let carbon dioxide in and oxygen out during photosynthesis."
+    },
+    {
+      "label": "Stem (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Stem",
+      "note": "Water delivered up through the stem reaches the leaf's veins."
+    }
+  ],
+  "belongsTo": "Plants > Plant Structure > Plant organs",
+  "compareCandidate": {
+    "label": "Leaf vs. root",
+    "description": "The leaf is a flat green food-making factory that catches sunlight and makes sugar. The root is a slim underground structure that anchors the plant and soaks up water and minerals."
+  },
+  "parts": [
+    "Leaf blade",
+    "Stem stalk (petiole)",
+    "Veins (vascular bundles)",
+    "Chlorophyll"
+  ],
+  "processes": [
+    "Photosynthesis: making sugar from light, water, and CO2",
+    "Releasing oxygen",
+    "Carrying water in and food out through veins"
+  ],
+  "plainLanguageExplanation": "A leaf is it the plant's food-making factory. It is green because of chlorophyll, a pigment that captures energy from sunlight. In the process called photosynthesis, the leaf combines that captured sunlight with water and carbon dioxide gas from the air to make sugar (food) and oxygen. The leaf is flat and broad to catch as much sunlight as possible. Its veins carry water in and carry sugar out to the rest of the plant.",
+  "keyFacts": [
+    {
+      "label": "Main job",
+      "value": "Make food for the plant by photosynthesis"
+    },
+    {
+      "label": "Green color",
+      "value": "From chlorophyll, the pigment that captures sunlight"
+    },
+    {
+      "label": "Photosynthesis",
+      "value": "Sunlight + water + CO2 makes sugar and oxygen"
+    },
+    {
+      "label": "Shape",
+      "value": "Broad and flat to catch the most sunlight"
+    },
+    {
+      "label": "Veins",
+      "value": "Tiny tubes that carry water in and food out"
+    }
+  ],
+  "whyItMatters": "Leaves are where nearly all the world's food is first made. Learn how a leaf uses light to make sugar, and you understand how plants grow and how almost every animal (including us) gets its food energy.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Folium",
+  "tagline": "The plant's food factory",
+  "didYouKnow": "Leaves are usually broad so they can capture the most sunlight, which is why many plants spread their leaves flat and wide.",
+  "conditions": [
+    "Photosynthesis",
+    "Chlorophyll"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Structure > Plant organs > Leaf"
+}

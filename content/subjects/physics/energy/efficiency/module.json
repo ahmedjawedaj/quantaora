@@ -1,0 +1,89 @@
+{
+  "id": "efficiency",
+  "subject": "physics",
+  "title": "Efficiency",
+  "summary": "Efficiency measures how much of the energy you put in comes out as useful output — the rest escapes as heat, sound, and waste. Efficiency = useful output ÷ total input, shown as a percent. In this model an engine burns energy and a bar splits the useful work from the lost heat, so you can see the useful share of every joule.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "efficiency-useful-over-total",
+    "efficiency-percentage",
+    "efficiency-always-below-100",
+    "efficiency-losses-to-heat"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Energy",
+    "unit": "Energy Conservation",
+    "systemOrGroup": "Energy Conservation and Efficiency",
+    "component": "Efficiency",
+    "displayPath": "Physics > Energy > Energy Conservation > Energy Conservation and Efficiency > Efficiency"
+  },
+  "crossReferences": [
+    {
+      "label": "Conservation of energy (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Conservation of energy",
+      "note": "The 'lost' energy efficiency counts is never gone — conservation just moved it to heat."
+    },
+    {
+      "label": "Work (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Work",
+      "note": "Useful output is usually measured in work done or energy delivered."
+    },
+    {
+      "label": "Power (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Power",
+      "note": "Efficient machines deliver the most useful power for the least input power."
+    }
+  ],
+  "belongsTo": "Energy > Energy Conservation > Energy Conservation and Efficiency",
+  "compareCandidate": {
+    "label": "Efficiency vs. conservation",
+    "description": "Conservation says the energy total never changes; efficiency asks how much of it actually did the useful job rather than wasting as heat."
+  },
+  "parts": [
+    "The little engine",
+    "The fuel input slider",
+    "The useful-output bar",
+    "The waste heat bar"
+  ],
+  "processes": [
+    "Burning input energy",
+    "Splitting useful output from heat loss",
+    "Computing efficiency = useful ÷ input",
+    "Raising efficiency by cutting losses"
+  ],
+  "plainLanguageExplanation": "Efficiency tells you how much of the energy you feed a machine actually does the useful job, and how much is just lost as heat, sound, or drag. The recipe: efficiency (%) = (useful output ÷ total input) × 100. Nothing is perfect: a light bulb turning electricity into light wastes most of it as heat (LEDs maybe 90% of the useful share, old bulbs only ~5%), a car engine ~25%. In this model a little engine takes fuel energy in and spits two bars out — a green 'useful work' bar and a grey 'waste heat' bar. Slide the input up and watch the bars split: the useful bar grows, the heat bar grows more, and the percent at the top settles far below 100 — because some input always leaks as heat, just like the coaster rails warming. Efficiency is the report card of machines, and the lever we pull to use less fuel for the same work.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The share of input energy that does useful work" },
+    { "label": "Formula", "value": "Efficiency % = (useful output ÷ total input) × 100" },
+    { "label": "Under 100%", "value": "No machine is perfect — losses always exist" },
+    { "label": "The leak", "value": "Wasted input usually escapes as heat" },
+    { "label": "The upgrade path", "value": "Cut friction and the useful share climbs" }
+  ],
+  "whyItMatters": "Efficiency decides fuel bills, battery life, and the planet's footprint: a car at 25% burns four times the fuel its wheels actually use. Every LED vs. bulb choice, every electric-motor upgrade, every insulated home is an efficiency trade. Understand the percent and you understand how engineers squeeze more useful output from the same joules — the quiet superpower of modern devices.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Energy conversion efficiency",
+  "tagline": "The useful share of energy",
+  "didYouKnow": "A classic incandescent bulb turns roughly 95% of its electricity into heat and only 5% into light; an LED flips the ratio. If every American bulb were an LED, the country would save billions of watts — efficiency is the cheapest energy source we have.",
+  "conditions": [
+    "LEDs vs. incandescent bulbs",
+    "Car engines burning fuel",
+    "Electric motors and generators",
+    "Solar panels and chargers",
+    "Stoves and kettles"
+  ],
+  "compareCandidateId": "conservation-of-energy",
+  "compareReason": "Conservation keeps the total fixed; efficiency measures the useful slice — together they explain why 'wasted' energy isn't lost but downgraded."
+}

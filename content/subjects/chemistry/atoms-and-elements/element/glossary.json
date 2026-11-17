@@ -1,0 +1,49 @@
+{
+  "componentId": "element",
+  "terms": [
+    {
+      "term": "Element",
+      "conceptId": "element-one-kind-of-atom",
+      "hotspotId": "hs-element-samples",
+      "definition": "A pure substance made of only one kind of atom.",
+      "function": "The raw ingredient that combines to form compounds and molecules.",
+      "whereItIs": "The gold, carbon, oxygen, and helium samples in the model.",
+      "whyItMatters": "About 90 natural elements build everything in the universe.",
+      "relatedConcept": "element-pure-substance",
+      "quizId": "element-q-definition"
+    },
+    {
+      "term": "Proton count",
+      "conceptId": "element-one-kind-of-atom",
+      "hotspotId": "hs-element-atoms",
+      "definition": "The number of protons in an atom, which defines its element.",
+      "function": "Uniquely identifies every element — 6 protons is carbon, 79 is gold.",
+      "whereItIs": "Identical across all the atoms in each element sample.",
+      "whyItMatters": "The proton count is the identity card of every element.",
+      "relatedConcept": "element-one-kind-of-atom",
+      "quizId": "element-q-protons"
+    },
+    {
+      "term": "Pure substance",
+      "conceptId": "element-pure-substance",
+      "hotspotId": "hs-element-samples",
+      "definition": "A material made of one uniform kind of particle, with fixed properties.",
+      "function": "Distinguishes elements (one atom type) from mixtures (many types mixed).",
+      "whereItIs": "Every sample in the model is a pure substance.",
+      "whyItMatters": "Purity is what makes an element recognizable and predictable.",
+      "relatedConcept": "element-one-kind-of-atom",
+      "quizId": "element-q-combine"
+    },
+    {
+      "term": "Compound",
+      "conceptId": "element-pure-substance",
+      "hotspotId": "hs-element-combine",
+      "definition": "A pure substance made of different elements chemically bonded.",
+      "function": "What elements become when they bond — water from hydrogen and oxygen.",
+      "whereItIs": "The water molecule formed in the combine layer.",
+      "whyItMatters": "Compounds are how elements build the world's substances.",
+      "relatedConcept": "element-one-kind-of-atom",
+      "quizId": "element-q-combine"
+    }
+  ]
+}

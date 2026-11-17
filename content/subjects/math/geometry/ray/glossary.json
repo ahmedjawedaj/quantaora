@@ -1,0 +1,41 @@
+{
+  "componentId": "ray",
+  "terms": [
+    {
+      "term": "Ray",
+      "conceptId": "ray-definition",
+      "hotspotId": "hs-ray-path",
+      "definition": "A straight path with one endpoint extending forever in one direction.",
+      "function": "Models beams of light and one-way paths.",
+      "whereItIs": "The stroke from dot to arrowhead.",
+      "whyItMatters": "Rays are the arms of every angle."
+    },
+    {
+      "term": "Endpoint",
+      "conceptId": "ray-naming",
+      "hotspotId": "hs-endpoint",
+      "definition": "The starting point of a ray, named first.",
+      "function": "Ray AB starts at endpoint A.",
+      "whereItIs": "The solid dot at the start.",
+      "whyItMatters": "The endpoint gives the ray its identity."
+    },
+    {
+      "term": "Arrowhead",
+      "conceptId": "ray-one-direction",
+      "hotspotId": "hs-arrowhead",
+      "definition": "The mark at a ray's open end showing it never stops.",
+      "function": "Signals the direction of travel.",
+      "whereItIs": "The arrow triangle at the open end.",
+      "whyItMatters": "One arrowhead is what separates a ray from a segment."
+    },
+    {
+      "term": "Vertex",
+      "conceptId": "ray-angle",
+      "hotspotId": "hs-endpoint",
+      "definition": "The shared endpoint where two rays form an angle.",
+      "function": "The corner point of an angle.",
+      "whereItIs": "Point A where both rays meet.",
+      "whyItMatters": "The vertex is the center around which angles are measured."
+    }
+  ]
+}

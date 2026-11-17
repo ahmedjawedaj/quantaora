@@ -1,0 +1,104 @@
+{
+  "id": "stem",
+  "subject": "biology",
+  "title": "Stem",
+  "summary": "The stem is the plant's elevator and support - it grows upward toward the light, holds the leaves and flowers, and carries water, minerals, and food between the roots and the leaves. Explore its inner tube system.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "stem-supports-plant",
+    "stem-carries-water-up",
+    "stem-carries-food-down",
+    "nodes-and-buds",
+    "stem-grows-toward-light"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Structure",
+    "systemOrGroup": "Plant organs",
+    "component": "Stem",
+    "displayPath": "Biology > Plants > Plant Structure > Plant organs > Stem"
+  },
+  "crossReferences": [
+    {
+      "label": "Root (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Root",
+      "note": "Water enters through the root and travels up the stem to the leaves."
+    },
+    {
+      "label": "Xylem and Phloem (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Xylem",
+      "note": "The stem's inner tissue is made of xylem (water up) and phloem (food down), covered separately in this branch."
+    },
+    {
+      "label": "Leaf (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Leaf",
+      "note": "Food made in the leaves travels down through the stem and can be stored."
+    }
+  ],
+  "belongsTo": "Plants > Plant Structure > Plant organs",
+  "compareCandidate": {
+    "label": "Stem vs. root",
+    "description": "The stem grows upward toward the light, supports leaves and flowers, and carries water up and food down. The root grows downward into the soil to anchor the plant and absorb water."
+  },
+  "parts": [
+    "Plant base / platform",
+    "Node",
+    "Xylem tubes (water up)",
+    "Phloem tubes (food down)",
+    "Attached leaf",
+    "Attached flower"
+  ],
+  "processes": [
+    "Carrying water up from the roots (xylem)",
+    "Carrying food down from the leaves (phloem)",
+    "Supporting leaves and flowers",
+    "Growing toward light"
+  ],
+  "plainLanguageExplanation": "A leaf is the main food-making factory of a plant. It uses the green pigment chlorophyll to capture sunlight and start the process called photosynthesis: sunlight + water + carbon dioxide (a gas in the air) becomes sugar (food) and oxygen. Leaves often look flat and broad because a wide surface catches the most sunlight. The network of veins on a leaf carries water in and carries the sugar out to the rest of the plant.",
+  "keyFacts": [
+    {
+      "label": "Main job",
+      "value": "Support the plant and carry water up and food down"
+    },
+    {
+      "label": "Growth direction",
+      "value": "Up toward the light (phototropism)"
+    },
+    {
+      "label": "Two tissues",
+      "value": "Xylem carries water up; phloem carries food"
+    },
+    {
+      "label": "Support",
+      "value": "Holds up leaves, flowers, and fruits"
+    },
+    {
+      "label": "Platform",
+      "value": "Leaves and flowers attach to the stem at nodes"
+    }
+  ],
+  "whyItMatters": "The stem ties the whole plant together. Learn the stem and you understand how a plant connects its underground water supply to its sun-catching leaves, and how food made in leaves reaches the rest of the plant.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Caulis",
+  "tagline": "The plant's elevator and backbone",
+  "didYouKnow": "The stems of some plants, like bamboo, can grow very tall and hollow, yet they are strong enough to support their own weight.",
+  "conditions": [
+    "Support",
+    "Water transport"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Structure > Plant organs > Stem"
+}

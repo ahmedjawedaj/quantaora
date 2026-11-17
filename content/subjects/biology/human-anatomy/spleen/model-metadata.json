@@ -1,0 +1,104 @@
+{
+  "id": "spleen",
+  "componentId": "spleen",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/spleen.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Spleen body",
+    "Filtering tissue",
+    "Immune cells",
+    "Storage spaces"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-spleen-body",
+      "label": "Spleen",
+      "conceptId": "filters-blood",
+      "position": [
+        0.0,
+        0.1,
+        0.1
+      ],
+      "description": "The fist-sized organ that filters blood.",
+      "color": "#D98A6A",
+      "function": "Filters blood and checks for germs.",
+      "positionHint": "The whole organ."
+    },
+    {
+      "id": "hs-filter-tissue",
+      "label": "Filtering tissue",
+      "conceptId": "filters-blood",
+      "position": [
+        0.25,
+        0.0,
+        0.2
+      ],
+      "description": "The tissue that catches old and damaged blood cells.",
+      "color": "#6B85A8",
+      "function": "Catches and recycles old red blood cells.",
+      "positionHint": "Inside the organ."
+    },
+    {
+      "id": "hs-immune",
+      "label": "Immune checkpoint",
+      "conceptId": "immune-checkpoint",
+      "position": [
+        -0.25,
+        0.05,
+        0.2
+      ],
+      "description": "Where white blood cells spot and fight germs in the blood.",
+      "color": "#D9A441",
+      "function": "White cells respond to germs passing by.",
+      "positionHint": "Scattered through the spleen."
+    },
+    {
+      "id": "hs-store",
+      "label": "Storage",
+      "conceptId": "stores-blood-cells",
+      "position": [
+        0.2,
+        -0.2,
+        0.15
+      ],
+      "description": "Spaces where the spleen stores blood cells for later.",
+      "color": "#B5846A",
+      "function": "Stores cells and platelets for emergencies.",
+      "positionHint": "Inside the organ."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a spleen as a stylized-specimen study - a fist-sized rounded organ, opened in clean cutaway showing spongy filtering tissue, recycled red cell pieces, clusters of immune cells, and storage spaces. A large blood vessel enters and leaves. Warm paper palette (soft purple-red muted), no glow. Named nodes: SpleenSurface, FilterTissue, RecycledCells, ImmuneCellClusters, StorageSpaces, SplenicArtery, SplenicVein. Budget 18-26k.",
+  "visual": {
+    "shape": "immune-shield"
+  }
+}

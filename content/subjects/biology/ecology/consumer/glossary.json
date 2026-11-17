@@ -1,0 +1,49 @@
+{
+  "componentId": "consumer",
+  "terms": [
+    {
+      "term": "Consumer",
+      "conceptId": "eats-other-living-things",
+      "hotspotId": "hs-omn",
+      "definition": "A living thing that eats other living things for energy.",
+      "function": "Moves energy up the food chain.",
+      "whereItIs": "Every animal that does not make its own food.",
+      "whyItMatters": "Consumers connect plants to the rest of life.",
+      "relatedConcept": "herbivore-carnivore-omnivore",
+      "quizId": "con-q-def"
+    },
+    {
+      "term": "Herbivore",
+      "conceptId": "herbivore-carnivore-omnivore",
+      "hotspotId": "hs-herb",
+      "definition": "A consumer that eats only plants.",
+      "function": "Turns plant energy into animal energy.",
+      "whereItIs": "Rabbits, deer, cows, grasshoppers.",
+      "whyItMatters": "They are the first animals in many food chains.",
+      "relatedConcept": "eats-other-living-things",
+      "quizId": "con-q-herb"
+    },
+    {
+      "term": "Carnivore",
+      "conceptId": "herbivore-carnivore-omnivore",
+      "hotspotId": "hs-carn",
+      "definition": "A consumer that eats only other animals.",
+      "function": "Controls herbivore populations.",
+      "whereItIs": "Lions, eagles, sharks, owls.",
+      "whyItMatters": "They keep food chains in balance.",
+      "relatedConcept": "eats-other-living-things",
+      "quizId": "con-q-carn"
+    },
+    {
+      "term": "Omnivore",
+      "conceptId": "herbivore-carnivore-omnivore",
+      "hotspotId": "hs-omn",
+      "definition": "A consumer that eats both plants and animals.",
+      "function": "Takes energy from producers and consumers.",
+      "whereItIs": "Bears, pigs, crows, people.",
+      "whyItMatters": "Flexible eaters that adapt to many habitats.",
+      "relatedConcept": "eats-other-living-things",
+      "quizId": "con-q-def"
+    }
+  ]
+}

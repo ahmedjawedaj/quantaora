@@ -1,0 +1,89 @@
+{
+  "id": "negative-number",
+  "componentId": "negative-number",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/negative-number/negative-number.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/negative-number.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.9
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.9
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Number line \u22125..5",
+    "Thermometer marker",
+    "Addition arrow"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-negative-side",
+      "label": "Negative numbers",
+      "conceptId": "negative-below-zero",
+      "position": [
+        -1.2,
+        0.4,
+        0
+      ],
+      "description": "Negative numbers sit left of zero \u2014 \u22125, \u22124, \u22123... and represent amounts below zero.",
+      "positionHint": "The left half of the number line, frost-tinted, labeled \u22121 through \u22125.",
+      "color": "#6B85A8",
+      "function": "Represents amounts below zero."
+    },
+    {
+      "id": "hs-zero",
+      "label": "Zero boundary",
+      "conceptId": "negative-order-compare",
+      "position": [
+        0,
+        0.4,
+        0
+      ],
+      "description": "Zero is the dividing point \u2014 positives lie right, negatives left, and any negative is less than zero.",
+      "positionHint": "The central, taller mark on the line.",
+      "color": "#D9A441",
+      "function": "Separates positive from negative numbers."
+    },
+    {
+      "id": "hs-add-negative",
+      "label": "Adding a negative",
+      "conceptId": "negative-add-subtract",
+      "position": [
+        -0.4,
+        0.8,
+        0.3
+      ],
+      "description": "Adding a negative moves LEFT along the line \u2014 from \u22123, adding \u22122 lands on \u22125.",
+      "positionHint": "The leftward arrow with a '\u22122' label stepping along the line.",
+      "color": "#D96B5A",
+      "function": "Shows how adding a negative moves the value left."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A number line from \u22125 to 5 with a frost-tinted negative half, a thermometer-style marker, and a stepping arrow. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (grid-blue / amber / coral from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Number line: ink-grey cylinder with warm paper number plates (roughness ~0.5). Negative half: faint cool blue-grey tint on the left tile plates. Thermometer marker: thin glass-look tube (clear matte, roughness ~0.15) with a mercury-like amber column that fills up or down to the marker. Addition arrow: warm coral arrow. No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: negative numbers on a number line with a thermometer marker and left/right stepping arrows.\n\nGEOMETRY: Number line: thin cylinder along x (length ~3.3) with tick marks and number plates \u22125..5. Zero mark taller. Negative half tiles (left side) get a faint cool tint. Thermometer marker: a tall thin tube at the marker position whose mercury column moves with the value (below zero reads into the frost zone). Step arrows: an amber 'left by n' arrow for adding negatives and a coral 'right by n' arrow for subtracting negatives.\n\nLAYERS (toggleable): (1) line + plates; (2) thermometer marker; (3) stepping arrows + result plate.\n\nCAMERA: head-on from +z frames the full \u22125..5 line with the thermometer above; labels legible. Budget 5-9k triangles. Named nodes: NumberLine, Ticks, NumberPlates, Thermometer_Tube, Mercury_Column, StepArrowLeft, StepArrowRight, ResultPlate. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "neg-line-thermo"
+  }
+}

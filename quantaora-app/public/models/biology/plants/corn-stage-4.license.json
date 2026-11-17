@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://quaternius.com/packs/ultimatecrops.html",
+  "sourceDownloadUrl": "https://drive.google.com/drive/folders/1uhbi-NWp7pwqOGtraBZurbphyxAvoABZ",
+  "packName": "Ultimate Crops Pack (Quaternius)",
+  "originalFilename": "Corn_4.glb",
+  "creator": "Quaternius (quaternius.com, @quaternius)",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attributionRequired": false,
+  "attributionNote": "Not legally required under CC0; project convention credits Quaternius in in-app/docs credits anyway, consistent with the existing quaternius-ultimate-nature import.",
+  "redistributionStatus": "Permitted without restriction under CC0. Redistributed here as a converted GLB derived from the original FBX asset (geometry + material colors only; no textures; no animation/skeleton -- stripped during conversion because assimp's glTF2 exporter failed to write skinned/animated meshes from this pack, static-mesh export via OBJ intermediate succeeded).",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 63780,
+  "sha256": "c1b5af9c67a6af7d4eeed54c3822dc60b574db076f24e509083c22e601310567",
+  "validation": {
+    "glbMagicHeaderValid": true,
+    "glTFVersion": 2,
+    "totalLengthMatchesFileSize": true,
+    "scenes": 1,
+    "nodes": 2,
+    "meshes": 1,
+    "materials": 3,
+    "textures": 0,
+    "animations": 0,
+    "accessors": 9,
+    "boundingBoxMin": [
+      -0.1250537484884262,
+      -0.10224807262420654,
+      2.2250738585072014e-308
+    ],
+    "boundingBoxMax": [
+      0.16730941832065582,
+      0.11825010180473328,
+      1.249863862991333
+    ],
+    "renderInspected": false,
+    "notes": "Validated via Node script parsing GLB binary header + JSON chunk only; not opened in a 3D viewer. Bounding box derived from the POSITION accessor min/max. Units are meters (glTF convention) as authored by Quaternius; unverified against real-world scale."
+  },
+  "note": "Growth stage 4 of 5 (near-mature)."
+}

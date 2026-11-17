@@ -1,0 +1,65 @@
+{
+  "componentId": "exothermic",
+  "questions": [
+    {
+      "id": "exothermic-q-definition",
+      "conceptId": "exothermic-releases-energy",
+      "hotspotId": "hs-exothermic-flame",
+      "prompt": "What is an exothermic reaction?",
+      "options": [
+        "A reaction that releases energy to its surroundings",
+        "A reaction that absorbs energy from its surroundings",
+        "A reaction with no energy change",
+        "A reaction that only happens in space"
+      ],
+      "correctIndex": 0,
+      "explanation": "An exothermic reaction releases energy — exo (out) + therm (heat), so energy flows outward.",
+      "misconception": "Absorbing energy is the endothermic reaction's job — the exothermic reaction is specifically the one that RELEASES energy outward."
+    },
+    {
+      "id": "exothermic-q-form",
+      "conceptId": "exothermic-energy-to-surroundings",
+      "hotspotId": "hs-exothermic-energy",
+      "prompt": "In what form does an exothermic reaction usually release its energy?",
+      "options": [
+        "Heat, and sometimes light",
+        "Only sound",
+        "Only electricity",
+        "It stores energy instead"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exothermic reactions release energy mainly as heat, and sometimes as light — like a flame's glow.",
+      "misconception": "The classic exothermic output is heat and light (think fire) — not sound, electricity, or stored energy."
+    },
+    {
+      "id": "exothermic-q-why",
+      "conceptId": "exothermic-releases-energy",
+      "hotspotId": "hs-exothermic-levels",
+      "prompt": "Why does an exothermic reaction release energy?",
+      "options": [
+        "The reactants hold more energy than the products — the extra is released",
+        "The products hold more energy than the reactants",
+        "Energy is created out of nowhere",
+        "The reaction loses atoms"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an exothermic reaction the reactants start with more energy; when they form lower-energy products, the difference escapes outward.",
+      "misconception": "Energy is never created and atoms are never lost — the release happens because the products are lower-energy, not because anything new appears."
+    },
+    {
+      "id": "exothermic-q-example",
+      "conceptId": "exothermic-examples",
+      "hotspotId": "hs-exothermic-flame",
+      "prompt": "Which of these is an exothermic reaction?",
+      "options": [
+        "A hand warmer heating up when cracked",
+        "A cold pack feeling cold",
+        "An ice cube melting",
+        "A plant absorbing sunlight"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hand warmer releasing heat is a classic exothermic reaction — it gives energy out, warming your hands.",
+      "misconception": "Cold packs, melting ice, and absorbing sunlight all take energy IN — those are the endothermic pattern. The hand warmer gives energy OUT."
+    }
+  ]
+}

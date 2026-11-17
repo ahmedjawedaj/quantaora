@@ -1,0 +1,106 @@
+{
+  "id": "fungus",
+  "subject": "biology",
+  "title": "Fungus",
+  "summary": "A fungus is a living organism - like a mushroom, mold, or yeast - that is neither plant nor animal. Explore the cells, the thread-like hyphae and mycelium, and the spores fungi use to reproduce.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "fungus-own-kingdom",
+    "hyphae-mycelium",
+    "fungus-spores-reproduce",
+    "fungus-decomposer",
+    "yeast-single-cell"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Microbiology",
+    "unit": "Microbes",
+    "systemOrGroup": "Microbial types",
+    "component": "Fungus",
+    "displayPath": "Biology > Microbiology > Microbes > Microbial types > Fungus"
+  },
+  "crossReferences": [
+    {
+      "label": "Bacteria (Microbiology)",
+      "branch": "microbiology",
+      "lowLevelItem": "Bacteria",
+      "note": "Fungi and bacteria are both microbes, but fungi have a cell type and structure of their own; bacteria are prokaryotes, fungi have true cells."
+    },
+    {
+      "label": "Microbiome (Microbiology)",
+      "branch": "microbiology",
+      "lowLevelItem": "Fungus",
+      "note": "Some fungi live on our skin and in the gut alongside bacteria as part of the microbiome."
+    },
+    {
+      "label": "Photosynthesis (Plants)",
+      "branch": "plants",
+      "process": "Photosynthesis",
+      "note": "Fungi do not photosynthesize - they get food by breaking down dead material, unlike plants which make their own."
+    }
+  ],
+  "belongsTo": "Microbiology > Microbes > Microbial types",
+  "compareCandidate": {
+    "label": "Fungus vs. plant",
+    "description": "Fungi look a bit like plants but are not. Plants catch sunlight and make food by photosynthesis. Fungi do not photosynthesize; instead they absorb broken-down food from what they grow on."
+  },
+  "parts": [
+    "Fruiting body (mushroom)",
+    "Hyphae (threads)",
+    "Mycelium network",
+    "Spores",
+    "Yeast (single cell)"
+  ],
+  "processes": [
+    "Reproducing with spores",
+    "Absorbing food as a decomposer",
+    "Using enzymes to break down dead material"
+  ],
+  "plainLanguageExplanation": "A fungus (plural fungi) is a living thing such as a mushroom, mold, or yeast. It is a whole group - its own kingdom - and all fungi have true cells with a nucleus. Most fungi get food by releasing enzymes that break down material around them, then absorbing the nutrients; this is why they are great decomposers. A mushroom you see on the ground is only the fruiting part; the main body of the fungus is a network of thin threads (hyphae) called mycelium hidden in the soil or wood. Fungi reproduce with spores, which are tiny and can spread to grow new mycelium. Yeast is a tiny single-celled fungus that makes bread rise.",
+  "keyFacts": [
+    {
+      "label": "Kingdom",
+      "value": "Its own kingdom, Fungi - neither plant nor animal"
+    },
+    {
+      "label": "Cell type",
+      "value": "True cells with a nucleus (eukaryotic), different from bacteria"
+    },
+    {
+      "label": "Main body",
+      "value": "Thread-like hyphae forming a mass called mycelium, hidden in soil/wood"
+    },
+    {
+      "label": "Food",
+      "value": "Absorb digested food as decomposers - no photosynthesis"
+    },
+    {
+      "label": "Reproduction",
+      "value": "Makes tiny spores to spread a new fungus"
+    },
+    {
+      "label": "Examples",
+      "value": "Mushrooms, mold, and yeast"
+    }
+  ],
+  "whyItMatters": "Fungi are everywhere as both helpers and decomposers. They break down dead material to keep nutrients cycling (so new food for plants), they make bread, cheese, and wine (yeast), we eat mushrooms, and understanding fungi also explains mold and some illnesses.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Fungi (kingdom)",
+  "tagline": "The thread network decomposer of nature",
+  "didYouKnow": "What you see above ground as a mushroom is just the spore-producing fruit; the real fungus body is a huge sheet of thread-like mycelium below it.",
+  "conditions": [
+    "Spore reproduction",
+    "Decomposition"
+  ],
+  "branch": "microbiology",
+  "displayPath": "Biology > Microbiology > Microbes > Microbial types > Fungus"
+}

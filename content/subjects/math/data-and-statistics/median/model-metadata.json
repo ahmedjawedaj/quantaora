@@ -1,0 +1,90 @@
+{
+  "id": "median",
+  "componentId": "median",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/median/median.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/median.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Messy row",
+    "Sorted track",
+    "Blocks",
+    "Median marker"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-median-block",
+      "label": "Median",
+      "conceptId": "median-definition",
+      "position": [
+        0.1,
+        0.6,
+        0.15
+      ],
+      "description": "The middle block of the sorted row \u2014 here 3.",
+      "positionHint": "The highlighted middle block on the track.",
+      "color": "#D9A441",
+      "function": "The middle value of the data."
+    },
+    {
+      "id": "hs-sorted-track",
+      "label": "Sorted track",
+      "conceptId": "median-sort",
+      "position": [
+        -0.9,
+        0.45,
+        0.1
+      ],
+      "description": "The rail where blocks line up low to high before the middle is found.",
+      "positionHint": "The horizontal rail holding the blocks in order.",
+      "color": "#7FA86A",
+      "function": "The ordered list."
+    },
+    {
+      "id": "hs-middle",
+      "label": "Low to high",
+      "conceptId": "median-even",
+      "position": [
+        0.9,
+        0.2,
+        0.1
+      ],
+      "description": "The direction of the sort \u2014 the median lives halfway along it.",
+      "positionHint": "The low-to-high marker at the end of the track.",
+      "color": "#6B85A8",
+      "function": "Indicates the sorting direction."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A shelf of value blocks, a sorted track where sorting slides them into order, and a glowing median marker. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Blocks: numbered warm paper cubes (roughness ~0.5). Shelf: warm paper panel. Sorted track: soft warm-grey rail. Median marker: a small amber glow-cue plate under the middle block. Even-count pairing: two blocks light together. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the median as the middle of sorted data \u2014 five unbalanced blocks sort onto a rail; the middle block glows; 'add block' switches to even-count averaging; dragging a block very high leaves the median unmoved.\n\nGEOMETRY: A shelf with a messy row of five numbered blocks (3, 7, 1, 5, 2) plus an empty sorted track. 'Sort' slides blocks into low-to-high order on the track; the middle block glows as the median. 'Add block' inserts a sixth block \u2014 the two middle blocks highlight and a small slider averages them. Dragging the largest block to a huge number animates it growing at the far end while the median marker stays fixed.\n\nLAYERS (toggleable): (1) shelf; (2) messy row; (3) sorted track; (4) median marker + pairing.\n\nCAMERA: three-quarter from front-left, slightly above, frames shelf and track; labels legible. Budget 5-9k triangles. Named nodes: Shelf, MessyRow, SortedTrack, Blocks, MedianMarker, AddBlockBtn, PairHighlight. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "median-sorted-bars"
+  }
+}

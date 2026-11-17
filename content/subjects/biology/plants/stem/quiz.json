@@ -1,0 +1,65 @@
+{
+  "componentId": "stem",
+  "questions": [
+    {
+      "id": "stem-q-xylem",
+      "conceptId": "stem-carries-water-up",
+      "hotspotId": "hs-xylem",
+      "prompt": "In the stem, which tissue carries water upward from the roots?",
+      "options": [
+        "Xylem",
+        "Phloem",
+        "The leaf",
+        "The flower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Xylem tubes in the stem carry water and minerals upward from the roots to the leaves.",
+      "misconception": "Some learners think water flows down, but water always travels upward from the root to the leaves where it is used to make food."
+    },
+    {
+      "id": "stem-q-phloem",
+      "conceptId": "stem-carries-food-down",
+      "hotspotId": "hs-phloem",
+      "prompt": "Which tissue in the stem carries the food (sugar) made in the leaves down to the rest of the plant?",
+      "options": [
+        "Phloem",
+        "Xylem",
+        "The root",
+        "The node"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phloem tubes carry the food that leaves make down to the rest of the plant, where it is used or stored.",
+      "misconception": "Learners often think the same tubes carry both, or that food moves upward. Food made in leaves travels downward in separate phloem tubes."
+    },
+    {
+      "id": "stem-q-support",
+      "conceptId": "stem-supports-plant",
+      "hotspotId": "hs-leaf",
+      "prompt": "What is one important job of the stem?",
+      "options": [
+        "To support the leaves and flowers up high",
+        "To make food by photosynthesis",
+        "To absorb water from the air",
+        "To make seeds by itself"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stem holds the leaves and flowers up high so they catch sunlight and can be reached, and it connects the roots and leaves.",
+      "misconception": "Some learners think the stem itself makes food, but it does not - it carries and supports; the leaves make the food."
+    },
+    {
+      "id": "stem-q-node",
+      "conceptId": "nodes-and-buds",
+      "hotspotId": "hs-node",
+      "prompt": "Where do leaves and flowers attach to a stem?",
+      "options": [
+        "At the nodes along the stem",
+        "Only at the very top tip",
+        "Deep inside the root",
+        "They never attach to the stem"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leaves, branches, and flowers attach at points along the stem called nodes.",
+      "misconception": "Some think parts grow only at the very ends of the stem, but they attach at the nodes along its length."
+    }
+  ]
+}

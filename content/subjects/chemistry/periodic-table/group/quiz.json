@@ -1,0 +1,65 @@
+{
+  "componentId": "group",
+  "questions": [
+    {
+      "id": "group-q-column",
+      "conceptId": "group-is-column",
+      "hotspotId": "hs-group-column",
+      "prompt": "What is a group on the periodic table?",
+      "options": [
+        "A vertical column of elements",
+        "A horizontal row of elements",
+        "A diagonal line of elements",
+        "A single element's card"
+      ],
+      "correctIndex": 0,
+      "explanation": "A group is a vertical column — elements stacked one above another share the same group and similar behavior.",
+      "misconception": "Rows and columns are easy to swap — the horizontal rows are called periods, and the vertical columns are the groups."
+    },
+    {
+      "id": "group-q-valence",
+      "conceptId": "group-shares-valence-electrons",
+      "hotspotId": "hs-group-valence",
+      "prompt": "What do all the elements in one group share?",
+      "options": [
+        "The same number of valence electrons",
+        "The same atomic mass",
+        "The same number of shells",
+        "The same state of matter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Elements in a group share the same number of valence electrons — the electrons in the outermost shell — which is what makes them behave alike.",
+      "misconception": "Shell count (which changes down a column) and atomic mass are shared by rows or not at all — the shared trait within a column is valence electrons."
+    },
+    {
+      "id": "group-q-behavior",
+      "conceptId": "group-elements-behave-alike",
+      "hotspotId": "hs-group-column",
+      "prompt": "Why are elements in the same group chemically similar?",
+      "options": [
+        "Same valence electrons means similar bonding and reactivity",
+        "They have the same color",
+        "They all have the same mass",
+        "They are all solids"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because valence electrons control how atoms bond and react, sharing that count means sharing similar chemical behavior.",
+      "misconception": "Physical looks and state of matter vary within a group — it is the electron arrangement, not appearance, that drives the chemical similarity."
+    },
+    {
+      "id": "group-q-18",
+      "conceptId": "group-elements-behave-alike",
+      "hotspotId": "hs-group-column",
+      "prompt": "Group 18 is the noble gases. What do they all share?",
+      "options": [
+        "Full outer shells, making them very unreactive",
+        "One valence electron, making them very reactive",
+        "A bright color",
+        "The ability to burn easily"
+      ],
+      "correctIndex": 0,
+      "explanation": "Noble gases all have full outer shells, so they have no need to gain, lose, or share electrons — which makes them famously unreactive.",
+      "misconception": "It's the alkali metals (Group 1) with one valence electron that are famously reactive — full shells, not empty ones, are what make the noble gases so stable."
+    }
+  ]
+}

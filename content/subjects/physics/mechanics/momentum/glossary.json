@@ -1,0 +1,46 @@
+{
+  "componentId": "momentum",
+  "terms": [
+    {
+      "term": "Momentum",
+      "conceptId": "momentum-mass-times-velocity",
+      "hotspotId": "hs-p-value",
+      "definition": "The motion an object carries, computed as mass × velocity.",
+      "function": "Banks how hard an object is to stop and in which direction its motion is headed.",
+      "whereItIs": "Read on each cart's badge as kg·m/s.",
+      "whyItMatters": "It is conserved in collisions and explains crashes, rockets, and every moving disaster.",
+      "relatedConcept": "velocity",
+      "quizId": "momentum-q-formula"
+    },
+    {
+      "term": "Vector momentum",
+      "conceptId": "momentum-vector",
+      "hotspotId": "hs-velocity-arrow",
+      "definition": "Momentum treated with its direction — pointing the way the object moves.",
+      "whyItMatters": "Left-momentum and right-momentum cancel like vectors, which is the whole trick behind conservation.",
+      "whereItIs": "On the arrows above each cart.",
+      "relatedConcept": "momentum-mass-times-velocity",
+      "quizId": "momentum-q-vector"
+    },
+    {
+      "term": "Conservation of momentum",
+      "conceptId": "momentum-conservation",
+      "hotspotId": "hs-momentum-bar",
+      "definition": "The rule that total momentum stays the same before and after an interaction.",
+      "whyItMatters": "Nothing creates or destroys momentum — the carts only swap it, which the banner proves.",
+      "whereItIs": "The floating-rect total that never changes.",
+      "relatedConcept": "momentum-vector",
+      "quizId": "momentum-q-conservation"
+    },
+    {
+      "term": "Impulse",
+      "conceptId": "momentum-impulse",
+      "hotspotId": "hs-cart-a",
+      "definition": "A force applied over time (F × Δt) — the thing that changes momentum.",
+      "whyItMatters": "Longer crash time means smaller force for the same stop — that's why crumple zones save lives.",
+      "where": "The collision contact connecting the two carts.",
+      "relatedConcept": "momentum-conservation",
+      "quizId": "momentum-q-impulse"
+    }
+  ]
+}

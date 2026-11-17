@@ -1,0 +1,65 @@
+{
+  "componentId": "ion",
+  "questions": [
+    {
+      "id": "ion-q-definition",
+      "conceptId": "ion-charged-atom",
+      "hotspotId": "hs-ion-pair",
+      "prompt": "What is an ion?",
+      "options": [
+        "An atom that has gained or lost electrons, so it carries a charge",
+        "An atom with a different number of neutrons",
+        "A molecule with an extra atom",
+        "A neutral atom exactly like any other"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ion is an atom that has gained or lost electrons, so it carries an electric charge.",
+      "misconception": "A different neutron count is an ISOTOPE, not an ion — the ion is specifically about electrons changing, which creates a charge."
+    },
+    {
+      "id": "ion-q-positive",
+      "conceptId": "ion-gain-or-lose-electrons",
+      "hotspotId": "hs-ion-loses",
+      "prompt": "Sodium loses one electron and becomes Na⁺. Why is Na⁺ positive?",
+      "options": [
+        "It now has more protons than electrons",
+        "It now has more electrons than protons",
+        "It lost a proton",
+        "It gained a neutron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Losing an electron leaves more protons than electrons, so the atom carries a net positive charge.",
+      "misconception": "Protons are never lost in ion formation, and more electrons would make it negative — losing electrons is exactly what makes a cation positive."
+    },
+    {
+      "id": "ion-q-negative",
+      "conceptId": "ion-gain-or-lose-electrons",
+      "hotspotId": "hs-ion-gains",
+      "prompt": "Chlorine gains one electron and becomes Cl⁻. Why is Cl⁻ negative?",
+      "options": [
+        "It now has more electrons than protons",
+        "It now has more protons than electrons",
+        "It gained a proton",
+        "It lost a neutron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gaining an electron leaves more electrons than protons, so the atom carries a net negative charge.",
+      "misconception": "Gaining protons is impossible in normal chemistry — the charge comes purely from the extra electron, which makes the atom negative."
+    },
+    {
+      "id": "ion-q-builds",
+      "conceptId": "ion-positive-negative",
+      "hotspotId": "hs-ion-pair",
+      "prompt": "What happens when a positive ion and a negative ion meet?",
+      "options": [
+        "They attract and bond — building compounds like salt",
+        "They push each other away",
+        "They become neutral atoms again",
+        "They combine into a new element"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opposite charges attract — Na⁺ and Cl⁻ lock together in an ionic bond, building table salt.",
+      "misconception": "Opposite charges attract (they never repel), and the ions do not revert or fuse into new elements — they hold together as a charged compound."
+    }
+  ]
+}

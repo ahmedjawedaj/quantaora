@@ -1,0 +1,46 @@
+{
+  "componentId": "resistance",
+  "terms": [
+    {
+      "term": "Resistance",
+      "conceptId": "resistance-opposes-current",
+      "hotspotId": "hs-block",
+      "definition": "How strongly a material opposes the flow of current.",
+      "function": "The drag the current pushes through, on every road it travels.",
+      "whereItIs": "The sliding resistor block.",
+      "whyItMatters": "It is the dimmer switch of every circuit.",
+      "relatedConcept": "current",
+      "quizId": "re-q-definition"
+    },
+    {
+      "term": "Ohm (Ω)",
+      "conceptId": "resistance-unit-ohm",
+      "hotspotId": "hs-ohm",
+      "definition": "The unit of resistance.",
+      "whyItMatters": "Resistor bands, wire charts, and appliance data all speak in ohms.",
+      "whereItIs": "The Ω readout panel.",
+      "relatedConcept": "resistance-opposes-current",
+      "quizId": "re-q-unit"
+    },
+    {
+      "term": "Current = voltage ÷ resistance",
+      "conceptId": "resistance-opposes-current",
+      "hotspotId": "hs-ammeter",
+      "definition": "Ohm's-law relation linking push, drag, and flow.",
+      "whyItMatters": "One line explains brighter dimmer, heating, and fuse behavior.",
+      "whereItIs": "The ammeter's needle reacting to the block.",
+      "relatedConcept": "voltage",
+      "quizId": "re-q-ohm-law"
+    },
+    {
+      "term": "Length and thinness",
+      "conceptId": "resistance-thin-long-high",
+      "hotspotId": "hs-rail",
+      "definition": "The geometric knobs of resistance: longer and thinner paths fight more.",
+      "whyItMatters": "Why bulb filaments are long and coils, why house wires are thick.",
+      "whereItIs": "The sliding block and rail.",
+      "relatedConcept": "resistance-material-and-length",
+      "quizId": "re-q-geometry"
+    }
+  ]
+}

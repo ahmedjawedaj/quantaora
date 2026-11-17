@@ -1,0 +1,102 @@
+{
+  "id": "planet-rotation-day-length",
+  "subject": "space",
+  "title": "Planet Rotation and Day Length",
+  "summary": "One 'day' on a planet is one full spin of that planet. Set the dial and watch five worlds rotate side by side — Earth at 24 hours, Mars a near-twin at 24.6, Jupiter racing at 9.9, Mercury crawling through 176 days, and Venus spinning backward. Spin speed has nothing to do with size.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "day-is-one-rotation",
+    "jupiter-spins-fastest",
+    "venus-spins-backward",
+    "mercury-day-longer-than-year",
+    "spin-speed-independent-of-size"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Solar System",
+    "unit": "Sun and Planets",
+    "systemOrGroup": "Planets (rotation and day length)",
+    "component": "Planet Rotation and Day Length",
+    "displayPath": "Space > Solar System > Sun and Planets > Planets (rotation and day length) > Planet Rotation and Day Length"
+  },
+  "crossReferences": [
+    {
+      "label": "Planet Cards (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet cards",
+      "note": "The day-length row on every planet card is the number this component makes visible as spinning spheres."
+    },
+    {
+      "label": "Rotation (Earth in Space)",
+      "branch": "earth-in-space",
+      "component": "Rotation",
+      "note": "This component spins every planet; the Earth in Space branch's Rotation component zooms into Earth's own spin and what it does to day and night on the ground."
+    },
+    {
+      "label": "Axis (Earth in Space)",
+      "branch": "earth-in-space",
+      "component": "Axis",
+      "note": "Every spinning sphere rotates around an invisible axis — the Earth in Space component shows that axis and what it points at."
+    }
+  ],
+  "belongsTo": "Solar System > Sun and Planets > Planets (rotation and day length)",
+  "compareCandidate": {
+    "label": "Jupiter vs. Venus rotation",
+    "description": "Jupiter, the largest planet, spins the fastest — one day in under 10 hours. Venus, similar in size to Earth, spins the slowest of any planet and backwards — one day lasting about 117 Earth days. Comparing the two shows that a planet's spin is independent of its size."
+  },
+  "parts": [
+    "Five rotating planet spheres (Mercury, Venus, Earth, Mars, Jupiter)",
+    "Spin dial + day-length readout per planet",
+    "Surface marker to count rotations",
+    "Venn polarity indicator"
+  ],
+  "processes": [
+    "Rotation of a solid (planet) around its axis",
+    "Mapping rotation rate to day length",
+    "Retrograde rotation (Venus and Uranus)",
+    "Why day length and year length are separate concepts"
+  ],
+  "plainLanguageExplanation": "Spin a basketball and the pattern on its surface moves past a fixed point; spin a planet and the same thing happens — one complete turn is one 'day' on that world. Earth makes one turn every 24 hours, so our day is exactly that. Other planets spin at totally different rates, and spin rate has no connection to size or distance. Jupiter is the biggest planet and yet rotates faster than any — a day under 9.9 hours. Saturn is nearly as fast at 10.7 hours. Mars spins almost exactly like Earth: 24.6 hours. Mercury rotates so slowly that one of its days lasts about 176 Earth days — longer than its entire year! And Venus is the strangest: it spins so slowly, one day about 117 Earth days — and it spins the opposite way from most planets (retrograde), so its sun rises in the west. This model places five spinning spheres side by side with a daily counter underneath each; switch any one to fast-forward and watch the others' markers crawl.",
+  "keyFacts": [
+    {
+      "label": "A day defined",
+      "value": "One full rotation of the planet around its axis — one turn of the planet"
+    },
+    {
+      "label": "Fastest spinner",
+      "value": "Jupiter: one day in about 9.9 hours — the biggest planet spins the fastest"
+    },
+    {
+      "label": "Mars, Earth's twin",
+      "value": "Mars: 24.6 hours — nearly identical to Earth's 24 hours"
+    },
+    {
+      "label": "Slowest and oddest",
+      "value": "Venus: ~117 Earth days per rotation, and spinning backwards (retrograde)"
+    },
+    {
+      "label": "Mercury's strange record",
+      "value": "Mercury's ~176-Earth-day day is longer than its 88-day year"
+    },
+    {
+      "label": "Size vs. spin",
+      "value": "Spin speed has nothing to do with size — the largest planet spins fastest, a smaller sibling slowest"
+    }
+  ],
+  "whyItMatters": "Everywhere a spacecraft lands (and every planet where humans may someday visit), 'what a day feels like' is set by rotation. Mars's comfortable 24.6-hour day is one reason it is the favorite target for future bases. Day length also decides weather, temperature swings (Mercury swings by hundreds of degrees almost every week-long night), and how long solar panels work. And the Venus/Mercury records show that a straightforward-looking concept — a day — can still surprise: one planet's day is longer than its own year, and another spins backwards.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Planetary Rotation Periods",
+  "tagline": "Same idea, wildly different clocks",
+  "didYouKnow": "Venus's sun rises in the west and sets in the east — the opposite of Earth — because the whole planet spins backwards.",
+  "compareCandidateId": "planet-size-comparison",
+  "compareReason": "Put Jupiter next to Mercury and even thought Jupiter is about 30 × bigger, its day is about 18 × shorter — rotation and size are simply unrelated."
+}

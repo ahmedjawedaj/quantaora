@@ -1,0 +1,58 @@
+{
+  "componentId": "nucleus",
+  "terms": [
+    {
+      "term": "Nucleus",
+      "conceptId": "dna-storage-control-center",
+      "hotspotId": "hs-nucleoplasm",
+      "definition": "The control center of the cell — a membrane-bound organelle that stores the DNA and directs cell activity.",
+      "function": "Protects the DNA and decides which instructions are used to keep the cell running.",
+      "whereItIs": "Usually near the center of eukaryotic cells.",
+      "whyItMatters": "Without it, the cell would have no organized plan for dividing, growing, or making proteins.",
+      "relatedConcept": "nuclear-envelope",
+      "quizId": "nuc-q-control-center"
+    },
+    {
+      "term": "Nuclear envelope",
+      "conceptId": "nuclear-envelope",
+      "hotspotId": "hs-nuclear-envelope",
+      "definition": "A double membrane that wraps the nucleus and separates it from the cytoplasm.",
+      "function": "Controls what enters and leaves through its pores.",
+      "whereItIs": "Around the entire nucleus as its outer boundary.",
+      "whyItMatters": "It keeps the genetic material protected and organized.",
+      "relatedConcept": "nuclear-pores-controlled-transport",
+      "quizId": "nuc-q-envelope"
+    },
+    {
+      "term": "Nuclear pore",
+      "conceptId": "nuclear-pores-controlled-transport",
+      "hotspotId": "hs-nuclear-pore",
+      "definition": "An opening in the nuclear envelope that lets molecules move between nucleus and cytoplasm.",
+      "function": "Selective passage of RNA and proteins.",
+      "whereItIs": "Scattered across the nuclear envelope surface.",
+      "whyItMatters": "It lets the nucleus send instructions out while keeping the DNA safe.",
+      "relatedConcept": "nuclear-envelope",
+      "quizId": "nuc-q-pores"
+    },
+    {
+      "term": "Nucleolus",
+      "conceptId": "nucleolus",
+      "hotspotId": "hs-nucleolus",
+      "definition": "A dense region inside the nucleus that assembles the parts used to make ribosomes.",
+      "function": "Produces the RNA components of ribosomes.",
+      "whereItIs": "Floating within the nucleus, usually one or a few dark spots.",
+      "whyItMatters": "It links the nucleus to protein production in the cell.",
+      "relatedConcept": "dna-storage-control-center",
+      "quizId": "nuc-q-nucleolus"
+    },
+    {
+      "term": "Prokaryote",
+      "conceptId": "nuclear-envelope",
+      "definition": "A cell without a membrane-bound nucleus, like a bacterium; its DNA floats freely in the cytoplasm.",
+      "function": "Serves as the simplest organisms that read DNA directly in the cytoplasm.",
+      "whereItIs": "Bacteria and archaea.",
+      "whyItMatters": "It distinguishes bacteria from all eukaryotic cells.",
+      "relatedConcept": "dna-storage-control-center"
+    }
+  ]
+}

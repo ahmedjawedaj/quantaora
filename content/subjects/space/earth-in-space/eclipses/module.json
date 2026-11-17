@@ -1,0 +1,46 @@
+{
+  "id": "eclipses",
+  "subject": "space",
+  "title": "Eclipses",
+  "name": "Eclipses",
+  "scientificName": "Solar & lunar eclipse alignment",
+  "branch": "Earth In Space",
+  "system": "Sun · Earth · Moon — a near-perfect straight line",
+  "model": "",
+  "tagline": "Same three objects as moon phases — but this time, almost perfectly in a line",
+  "summary": "A solar eclipse happens when the Moon passes directly between the Sun and Earth, briefly blocking sunlight from a small part of Earth. A lunar eclipse happens when Earth passes directly between the Sun and Moon, casting Earth's shadow onto the Moon. Both need a near-perfect straight-line alignment, which is why eclipses are rare even though the Moon lines up roughly like this every single month — it's almost always just a little too high or too low.",
+  "gradeMin": 4,
+  "gradeMax": 7,
+  "skillIds": ["solar-eclipse-alignment", "lunar-eclipse-alignment", "moon-orbital-tilt", "eclipse-rarity"],
+  "type": "simulation",
+  "estimatedMinutes": 11,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Earth In Space",
+    "unit": "Earth's Motion & Cycles",
+    "systemOrGroup": "Sun · Earth · Moon — a near-perfect straight line",
+    "component": "Eclipses",
+    "displayPath": "Space > Earth In Space > Earth's Motion & Cycles > Sun · Earth · Moon — a near-perfect straight line > Eclipses"
+  },
+  "belongsTo": ["Earth In Space", "Space"],
+  "keyFacts": [
+    { "label": "Solar eclipse alignment", "value": "Sun → Moon → Earth, in a line" },
+    { "label": "Lunar eclipse alignment", "value": "Sun → Earth → Moon, in a line" },
+    { "label": "Moon's orbital tilt", "value": "5.1° relative to Earth's orbit around the Sun — the reason most months miss" },
+    { "label": "Why eclipses are rare", "value": "The Moon usually passes above or below the Sun-Earth line, not through it" },
+    { "label": "Total vs. partial", "value": "A closer alignment gives a total eclipse; a looser one gives only a partial eclipse" },
+    { "label": "Solar eclipses on Earth", "value": "Visible only from a small path on Earth at a time — never everywhere at once" }
+  ],
+  "whyItMatters": "This is the clearest possible demonstration of why a 5.1° tilt matters: switch it off and this simulation would produce an eclipse every single month, which is not what actually happens. Real astronomy is full of small angles like this one quietly deciding whether a dramatic event happens or not.",
+  "didYouKnow": "By pure coincidence, the Sun is about 400 times wider than the Moon and also about 400 times farther away — which is why the Moon can almost exactly cover the Sun's disc during a total solar eclipse, something that isn't true for any other planet-moon pair we know of.",
+  "conditions": ["Near-perfect Sun-Earth-Moon alignment required", "The Moon's 5.1° orbital tilt makes most months miss", "Alignment quality determines total vs. partial vs. no eclipse"],
+  "compareCandidateId": "moon-phases",
+  "compareReason": "Both use exactly the same three-body geometry (Sun, Earth, Moon) — the only difference is how precise the alignment is. Comparing them directly is the fastest way to stop confusing 'New Moon' with 'solar eclipse.'",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

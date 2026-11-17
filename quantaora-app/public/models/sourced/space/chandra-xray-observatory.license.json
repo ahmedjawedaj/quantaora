@@ -1,0 +1,32 @@
+{
+  "sourceUrl": "https://github.com/nasa/NASA-3D-Resources/blob/master/3D%20Models/Chandra%20X-ray%20Observatory/Chandra%20X-ray%20Observatory.glb",
+  "resourcePage": "https://github.com/nasa/NASA-3D-Resources",
+  "creator": "NASA",
+  "license": "Public domain (\"free and without copyright\") — NASA 3D Resources repository",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 998500,
+  "sha256": "9383f44fc4c6eba73c40b0c2cfe33c08c90f1fb5230274bfdaa98e0c9f116a34",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 6,
+    "meshCount": 6,
+    "materialCount": 5,
+    "textureCount": 4,
+    "imageCount": 6,
+    "animationCount": 0,
+    "accessorCount": 23,
+    "generator": "Khronos glTF Blender I/O v4.2.57",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      470.191,
+      10.8409,
+      767.992
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "producer",
+  "componentId": "producer",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/ecology/producer/producer.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/ecology/producer.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Sunlight capture",
+    "Food-making",
+    "Water uptake",
+    "Food-chain base"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-leaf",
+      "label": "Sunlight capture",
+      "conceptId": "makes-own-food",
+      "position": [
+        0.2,
+        0.3,
+        0.1
+      ],
+      "description": "Leaves catch sunlight to make food.",
+      "color": "#D98A6A",
+      "function": "Where photosynthesis happens.",
+      "positionHint": "The green leaves."
+    },
+    {
+      "id": "hs-food",
+      "label": "Makes food",
+      "conceptId": "photosynthesis-sunlight",
+      "position": [
+        0.0,
+        0.05,
+        0.2
+      ],
+      "description": "Sugar made from sunlight, water, and carbon dioxide.",
+      "color": "#D9A441",
+      "function": "The food that powers everything else.",
+      "positionHint": "A sugar-dot forming."
+    },
+    {
+      "id": "hs-root",
+      "label": "Takes in water",
+      "conceptId": "photosynthesis-sunlight",
+      "position": [
+        -0.25,
+        -0.2,
+        0.15
+      ],
+      "description": "Roots pull water up from the soil.",
+      "color": "#6B85A8",
+      "function": "One of the ingredients for food-making.",
+      "positionHint": "Water drops at the roots."
+    },
+    {
+      "id": "hs-base",
+      "label": "Base of the chain",
+      "conceptId": "base-of-food-chain",
+      "position": [
+        0.0,
+        -0.3,
+        0.05
+      ],
+      "description": "Producers are the first link every food chain starts from.",
+      "color": "#7FA874",
+      "function": "Where all food chains begin.",
+      "positionHint": "A chain link symbol at the base."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The scene reads as a calm stylized diorama - simplified, clean shapes with a restrained warm-paper and muted-green palette, not cartoon, not cluttered. COLOR IS RESTRAINED: each subject is a muted near-paper shade; strong saturated color is reserved entirely for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a stylized diorama of a single green plant in clean soil, shown with clear informational marks: a golden arrow from a small sun down to the leaves (sunlight capture), a sugar-dot forming in the leaf (food-making), water drops rising at the roots, and a chain-link symbol at the base showing it is the start of the food chain. Warm off-white background, muted greens and paper tones, no glow. Named nodes: Plant, Sun, Leaf, SugarDot, WaterDrops, Soil, ChainLink. Budget 8-12k."
+}

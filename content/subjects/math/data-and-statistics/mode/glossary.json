@@ -1,0 +1,41 @@
+{
+  "componentId": "mode",
+  "terms": [
+    {
+      "term": "Mode",
+      "conceptId": "mode-definition",
+      "hotspotId": "hs-mode-chip",
+      "definition": "The value that appears most often in a dataset.",
+      "function": "The 'most popular' summary.",
+      "whereItIs": "The tallest chip column.",
+      "whyItMatters": "The mode answers the popularity question no other stat can."
+    },
+    {
+      "term": "Count",
+      "conceptId": "mode-find",
+      "hotspotId": "hs-counter",
+      "definition": "How many times a value appears — the data the mode uses.",
+      "function": "Decides which value wins.",
+      "whereItIs": "Each column's counter plate.",
+      "whyItMatters": "The mode needs no arithmetic, only counting."
+    },
+    {
+      "term": "Bimodal",
+      "conceptId": "mode-ties",
+      "hotspotId": "hs-tie-chip",
+      "definition": "A dataset with two values tied for most frequent.",
+      "function": "Both top values are modes.",
+      "whereItIs": "The two tied columns both glowing.",
+      "whyItMatters": "Real data often has two favorites."
+    },
+    {
+      "term": "No mode",
+      "conceptId": "mode-categorical",
+      "hotspotId": "hs-mode-chip",
+      "definition": "No winner when every value appears equally often.",
+      "function": "All counts match, so the mode disappears.",
+      "whereItIs": "The reset state with equal columns.",
+      "whyItMatters": "Knowing 'there is no mode' prevents a wrong answer."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "protostar",
+  "questions": [
+    {
+      "id": "proto-q-power",
+      "conceptId": "protostar-glow-from-contraction",
+      "hotspotId": "hs-collapsing-core",
+      "prompt": "What is powering the glow of a protostar?",
+      "options": [
+        "Hydrogen fusion in its core",
+        "Gravitational contraction and gas falling onto its surface",
+        "Burning the dust in its disk like fuel",
+        "Reflected light from nearby stars"
+      ],
+      "correctIndex": 1,
+      "explanation": "A protostar's core has not reached fusion temperature yet. Its light comes from gravitational contraction — gravity squeezing the gas and heating it — plus the energy released as material from the disk crashes onto its surface.",
+      "misconception": "It glows like a star, so it is natural to assume fusion is running — but 'glowing' and 'fusing' are different things. Anything squeezed hard enough glows, and gravity alone can do the squeezing."
+    },
+    {
+      "id": "proto-q-disk",
+      "conceptId": "spin-flattens-into-disk",
+      "hotspotId": "hs-accretion-disk",
+      "prompt": "Why does the collapsing cloud around a young star flatten into a disk instead of staying a sphere?",
+      "options": [
+        "The star's magnetism flattens it",
+        "The collapsing cloud was spinning, and spin flattens a collapse",
+        "Sunlight pressure pushes the gas into a plane",
+        "Disks are just the shape gravity chooses for every gas"
+      ],
+      "correctIndex": 1,
+      "explanation": "The original cloud had a tiny amount of spin. As it collapsed, that spin sped up (like an ice skater pulling in their arms), and material could fall inward far more easily along the spin axis than perpendicular to it — so everything settled into a flat spinning plane.",
+      "misconception": "Magnetism gets blamed for a lot in space, but here the cause is ordinary rotation — the same effect that flattens spinning pizza dough into a disk."
+    },
+    {
+      "id": "proto-q-planets",
+      "conceptId": "disk-is-planet-nursery",
+      "hotspotId": "hs-accretion-disk",
+      "prompt": "What is the material in the disk around a protostar most likely to become?",
+      "options": [
+        "A second star",
+        "Planets",
+        "A black hole",
+        "Nothing — it evaporates away completely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dust grains in the disk collide, stick, and grow — dust to pebbles to planetesimals to planets, over millions of years. Disks like this are where planetary systems are built.",
+      "misconception": "Planets often feel like visitors 'captured' from somewhere else — but almost always they are built in place, from the same cloud that made the star."
+    },
+    {
+      "id": "proto-q-ignition",
+      "conceptId": "ignition-when-fusion-starts",
+      "hotspotId": "hs-collapsing-core",
+      "prompt": "What turns a protostar into a main-sequence star?",
+      "options": [
+        "Its core reaching roughly 10 million K, when hydrogen fusion switches on",
+        "Growing large enough to be seen from Earth",
+        "The disk around it disappearing",
+        "Being discovered by astronomers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The protostar shrinks and heats for millions of years. When its core crosses roughly 10 million K, hydrogen nuclei slam together hard enough to fuse steadily, and fusion takes over as the dominant energy source — the star is 'born.'",
+      "misconception": "Ignition is easy to picture as a sudden 'switch flip' caused by size — but it is a temperature threshold deep in the core, reached through gravitational contraction."
+    },
+    {
+      "id": "proto-q-age",
+      "conceptId": "cloud-collapse-forms-proto-star",
+      "hotspotId": "hs-birth-cloud",
+      "prompt": "About how old is a typical protostar compared with the Sun?",
+      "options": [
+        "About the same age",
+        "Only a few million years old — roughly a thousand times younger",
+        "About ten times older",
+        "It's the Sun itself"
+      ],
+      "correctIndex": 1,
+      "explanation": "Protostars are typically only a few million years old. The Sun, at about 4.6 billion years, is thousands of times older — which is why the Sun is long past this stage.",
+      "misconception": "A million years sounds enormous to human ears, so 'newborn' feels wrong — but on stellar timescales a few million years is infancy, compared with the Sun's billions."
+    }
+  ]
+}

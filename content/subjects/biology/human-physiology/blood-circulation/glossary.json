@@ -1,0 +1,92 @@
+{
+  "componentId": "blood-circulation",
+  "terms": [
+    {
+      "term": "Heart",
+      "conceptId": "Heart pumps blood",
+      "hotspotId": "hs-heart",
+      "definition": "A muscular pump about the size of your fist that squeezes to push blood through your body.",
+      "function": "Beats continuously, pushing blood out through arteries and receiving returning blood through veins, driving both the pulmonary and systemic circuits.",
+      "whereItIs": "Center of the chest, slightly left of the body's midline, between the lungs.",
+      "whyItMatters": "It's the engine of the entire circulation process — without its continuous pumping, no blood would move and no cell would get oxygen or nutrients.",
+      "relatedConcept": "Arteries carry blood away from heart",
+      "quizId": "blood-circulation-q-heart-chambers"
+    },
+    {
+      "term": "Artery",
+      "conceptId": "Arteries carry blood away from heart",
+      "hotspotId": "hs-arteries",
+      "definition": "A blood vessel that carries blood away from the heart, usually carrying oxygen-rich blood.",
+      "function": "Carries blood away from the heart under high pressure through thick, muscular, elastic walls, branching into smaller arterioles as it nears tissues.",
+      "whereItIs": "Starting at the aortic arch just above the heart and branching outward through the neck, arms, abdomen, and legs.",
+      "whyItMatters": "Arteries are the high-pressure delivery lines of the body — their direction (away from the heart), not their oxygen content, is what defines them.",
+      "relatedConcept": "Veins return blood to heart",
+      "quizId": "blood-circulation-q-arteries-veins"
+    },
+    {
+      "term": "Vein",
+      "conceptId": "Veins return blood to heart",
+      "hotspotId": "hs-veins",
+      "definition": "A blood vessel that carries blood back toward the heart, usually carrying oxygen-poor blood.",
+      "function": "Carries blood back toward the heart at lower pressure through thinner walls; many contain one-way valves that keep blood moving in a single direction against gravity.",
+      "whereItIs": "Converging on the superior and inferior vena cava, which empty into the heart's right atrium.",
+      "whyItMatters": "Veins complete the loop — without them, blood delivered by the arteries would have no way back to the heart to be sent out again.",
+      "relatedConcept": "Arteries carry blood away from heart",
+      "quizId": "blood-circulation-q-arteries-veins"
+    },
+    {
+      "term": "Capillary",
+      "conceptId": "Capillaries exchange gases and nutrients",
+      "hotspotId": "hs-capillaries",
+      "definition": "A tiny, thin-walled blood vessel where oxygen, nutrients, and waste move between blood and body cells.",
+      "function": "Connects the smallest arteries to the smallest veins; walls are thin enough (often one cell thick) that gases and nutrients pass directly through them into and out of tissue.",
+      "whereItIs": "Fine mesh networks at the body's periphery and inside organs, where artery and vein branches visibly dissolve into a web of hair-thin vessels.",
+      "whyItMatters": "Capillaries are the actual delivery point of the whole circulatory system — every other vessel exists just to get blood to and from these exchange sites.",
+      "relatedConcept": "Arteries carry blood away from heart",
+      "quizId": "blood-circulation-q-capillaries"
+    },
+    {
+      "term": "Pulmonary circuit",
+      "conceptId": "Pulmonary circuit",
+      "hotspotId": "hs-pulmonary",
+      "definition": "The short loop of blood flow between the heart and the lungs, where blood picks up oxygen and drops off carbon dioxide.",
+      "function": "The right side of the heart sends oxygen-poor blood to the lungs to pick up oxygen and release carbon dioxide, then the refreshed blood returns to the heart's left side.",
+      "whereItIs": "Just lateral to the heart, at lung height — a short, direct loop compared to the systemic circuit.",
+      "whyItMatters": "This is the one exception to the artery/vein oxygen rule: the pulmonary artery carries oxygen-poor blood toward the lungs, and the pulmonary vein carries oxygen-rich blood back to the heart — the reverse of every other artery and vein in the body.",
+      "relatedConcept": "Systemic circuit",
+      "quizId": "blood-circulation-q-pulmonary"
+    },
+    {
+      "term": "Systemic circuit",
+      "conceptId": "Systemic circuit",
+      "hotspotId": "hs-systemic",
+      "definition": "The long loop of blood flow between the heart and the rest of the body, delivering oxygen and picking up waste.",
+      "function": "The left side of the heart sends oxygen-rich blood out to every organ and tissue, and oxygen-poor blood returns through the veins to the heart's right side.",
+      "whereItIs": "Runs the length of the body — from the descending aorta through the abdomen and out to the limbs and organs.",
+      "whyItMatters": "This is the loop that actually delivers oxygen and nutrients to every living cell in the body, making it the reason circulation exists at all.",
+      "relatedConcept": "Pulmonary circuit"
+    },
+    {
+      "term": "Atrium",
+      "conceptId": "Heart pumps blood",
+      "hotspotId": "hs-heart",
+      "definition": "One of the two upper chambers of the heart that receive incoming blood.",
+      "function": "Collects blood arriving from the veins (right atrium from the body, left atrium from the lungs) and passes it down into the matching ventricle.",
+      "whereItIs": "The top two chambers of the heart, above the ventricles.",
+      "whyItMatters": "Atria are why the heart can receive blood continuously while it's also pumping blood out — the two jobs happen in different chambers at the same time.",
+      "relatedConcept": "Ventricle",
+      "quizId": "blood-circulation-q-heart-chambers"
+    },
+    {
+      "term": "Ventricle",
+      "conceptId": "Heart pumps blood",
+      "hotspotId": "hs-heart",
+      "definition": "One of the two lower chambers of the heart that pump blood out to the lungs or body.",
+      "function": "Contracts forcefully to push blood out through an artery — the right ventricle to the lungs via the pulmonary artery, the left ventricle to the body via the aorta.",
+      "whereItIs": "The bottom two chambers of the heart, below the atria.",
+      "whyItMatters": "The ventricles generate the pressure that actually drives blood all the way around both circuits — the left ventricle in particular has the thickest, strongest muscle wall of any heart chamber because it pumps blood to the entire body.",
+      "relatedConcept": "Atrium",
+      "quizId": "blood-circulation-q-heart-chambers"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "immune-response",
+  "componentId": "immune-response",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "assetStrategy": {
+    "specDefaultBucket": "Not explicitly assigned by spec §21 (the default bucket list covers physics/math/space procedural, and anatomy/cell/molecule/apparatus GLB — a five-stage physiological process diorama fits neither cleanly)",
+    "chosenApproach": "procedural-three",
+    "deviationRationale": "Immune Response is a five-stage narrative process, not a single organ or cell to sculpt — it reads as one continuous diorama of primitive-built actors (spheres, capsules, tori) staged along a platform, which is closer in construction kind to the procedural molecule/planet-tier primitives the spec reserves Three.js procedural generation for than to a sculpted-anatomy GLB export.",
+    "flaggedForConfirmation": true,
+    "integrationNote": "Because there is no static mesh export, 'url' below is null and all geometry/material/staging guidance lives in assetBrief. If this is later standardized to a GLB pipeline to match organ-tier sibling components, 'url' becomes a standard '/assets/models/biology/human-physiology/immune-response/immune-response.glb' path and assetBrief should be rewritten as sculpting/export guidance instead of procedural-geometry code guidance."
+  },
+  "url": "/models/biology/authored/physiology-immune-response-defense.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/immune-response.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.15,
+      2.6
+    ],
+    "target": [
+      0,
+      0.25,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.15,
+      2.6
+    ],
+    "target": [
+      0,
+      0.25,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Base platform and connecting path (shallow domed platform, five sunk plinths, etched guide groove threading through all five)",
+    "Pathogen actors (stage 1 whole pathogen at the tissue barrier, stage 4 fragmented pathogen being cleared)",
+    "White blood cell actors (stage 2 responder cells in transit, stage 4 phagocyte mid-engulf)",
+    "Antibody actors (stage 3 antibody proteins forming around the plasma cell)",
+    "Memory cell actor (stage 5 resting memory cell with its faint standby halo)",
+    "Hotspot markers (per-stage accent-colored dots and connector lines)",
+    "Labels (stage name label cards)"
+  ],
+  "toolRail": [
+    "Rotate",
+    "Zoom",
+    "Stage Focus",
+    "Layers",
+    "Compare",
+    "Reset"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-pathogen-detected",
+      "label": "Pathogen detected",
+      "conceptId": "pathogen-detected",
+      "position": [
+        -0.72,
+        0.16,
+        0.15
+      ],
+      "color": "#C97B63",
+      "description": "A pathogen has just crossed the tissue barrier at the far-left plinth, and a nearby sensor cell is turned toward it, marking the exact instant it's noticed.",
+      "function": "Represents sensor cells recognizing a pathogen's surface markers as foreign and releasing the alarm signal that starts the whole immune response.",
+      "positionHint": "Stage 1 platform, far left of the arc, at the height of the small pathogen figure where it meets the tissue-barrier ridge"
+    },
+    {
+      "id": "hs-white-blood-cells-respond",
+      "label": "White blood cells respond",
+      "conceptId": "white-blood-cells-respond",
+      "position": [
+        -0.36,
+        0.18,
+        0.05
+      ],
+      "color": "#8FA98C",
+      "description": "Several white blood cells are shown converging along the connecting groove at the second plinth, sizes varying slightly to suggest motion toward the alarm.",
+      "function": "Represents white blood cells traveling toward the alarm signal — some engulfing invaders directly, others coordinating the rest of the response.",
+      "positionHint": "Stage 2 platform, left-of-center on the arc, above the cluster of rounded white-blood-cell figures converging along the connecting path"
+    },
+    {
+      "id": "hs-antibody-production",
+      "label": "Antibody production",
+      "conceptId": "antibody-production",
+      "position": [
+        0,
+        0.22,
+        0
+      ],
+      "color": "#D9A441",
+      "description": "A plasma cell sits at the center plinth with several small antibody proteins floating at staggered heights just above it, each shaped to match the pathogen.",
+      "function": "Represents a plasma cell mass-producing antibodies custom-shaped to bind one specific pathogen, tagging it for destruction.",
+      "positionHint": "Stage 3 platform, center of the arc, at the plasma-cell figure with small antibody icons orbiting just above it"
+    },
+    {
+      "id": "hs-pathogen-destroyed",
+      "label": "Pathogen destroyed",
+      "conceptId": "pathogen-destroyed",
+      "position": [
+        0.36,
+        0.2,
+        0.05
+      ],
+      "color": "#DBAFA2",
+      "description": "The fourth plinth shows the same pathogen from stage 1, now split into separated fragments, partially overlapped by a larger phagocyte cell mid-engulf.",
+      "function": "Represents antibody-tagged pathogens being recognized and broken apart by phagocyte cells, clearing the infection from the body.",
+      "positionHint": "Stage 4 platform, right-of-center on the arc, at the fragmented pathogen pieces being absorbed by a larger phagocyte figure"
+    },
+    {
+      "id": "hs-immune-memory-formed",
+      "label": "Immune memory formed",
+      "conceptId": "immune-memory-formed",
+      "position": [
+        0.72,
+        0.17,
+        0.15
+      ],
+      "color": "#8B93B8",
+      "description": "A single resting memory cell sits at the far-right plinth, encircled by a faint, static standby halo, with no motion cues and no other actors nearby.",
+      "function": "Represents memory cells that remain in the body long after the infection clears, ready to trigger a much faster response if the same pathogen ever returns.",
+      "positionHint": "Stage 5 platform, far right of the arc, at the resting memory-cell figure with its faint standby halo"
+    }
+  ],
+  "visualStyleNotes": "Treat this as a single continuous diorama, not five separate objects: a shallow, gently curved platform (radius ~1.2m) reads left-to-right as a timeline, with five raised circular \"stage\" plinths set into it at even 36° arc intervals, joined by a thin engraved/etched guide groove (not a glowing line, achieved via base-color darkening not emission) that visually threads through all five stages so the eye follows the story in order. Each plinth hosts one or two actors (pathogen, white blood cell, plasma cell, phagocyte, memory cell) built at a fidelity level matching this app's organ-tier sibling components, not a lower tier: every actor uses noise-perturbed, organic-surface geometry (low-frequency displacement noise on a base capsule/ellipsoid mesh to create subtle membrane undulation and asymmetry) rather than literal primitive-clip-art construction (no bare sphere-plus-cones, no visibly-blended capsule unions with hard seams) — the goal is a calm, slightly-imperfect organic surface like a hand-finished maquette, matching Anatomy Atelier's sculptural restraint. Because there's a left-to-right reading order, auto-rotate defaults off (unlike a free-standing organ) so the narrative isn't scrambled; a manual orbit/rotate control is still available, and a \"Stage Focus\" affordance (dim other plinths to ~40% brightness/desaturation, ease camera toward the selected plinth) stands in for cross-section since there's no anatomical interior to slice. Hotspot dots and label cards follow the existing Anatomy Atelier pattern exactly: small flat-colored dot in that stage's accent hue, thin connector line, soft rounded card with the stage name and one sentence, no drop shadows or glow. Actor bodies themselves stay in a restrained, near-naturalistic warm-neutral family (see materialNotes) — the saturated coral/sage/gold/lavender per-stage hues are reserved for hotspot dots, the standby halo ring, and small accent details only, never the full body of an actor, so the diorama reads as one cohesive sculptural cast rather than a color-coded infographic. Lit with the same soft warm 3-point studio setup used elsewhere in the app, on the same warm off-white ground as all other components so this component drops into the existing viewer without a style seam.",
+  "materialNotes": "All actors share one restrained, near-naturalistic tonal family — warm neutrals and muted flesh-adjacent tones varying in value and warmth rather than hue, so the cast reads as one cohesive sculptural material family: pathogen body a muted warm terracotta-neutral (#C2A28E), white blood cells a warm greige (#CBC3B4), plasma cell a slightly lighter warm neutral (#D6CCBC) with a faint darker internal nucleus sphere (#B8AC98), phagocyte a deeper warm greige (#B3A895), memory cell a warm neutral with a cool undertone (#BFB6AE). Saturated stage hues (coral #C97B63, sage #8FA98C, gold #D9A441, desaturated coral #DBAFA2, lavender #8B93B8) appear only as hotspot dots, the antibody proteins' small accent tint, and the memory-cell standby halo ring — never as an actor's primary body color. All materials matte/clay PBR: roughness ~0.55-0.7, near-zero metalness, no subsurface scattering, no emissive channels anywhere (the halo and groove are base-color value shifts, not emission). Base platform and plinths use the same warm off-white family as the rest of the app (#EDE7DB base, #F7F3EC ambient environment/background). Three-point soft studio lighting matching sibling components: warm key from upper-front-left, cool fill from the right, soft rim from behind-above; soft, short-falloff contact shadows under each actor and plinth; no hard specular highlights, no rim glow, no bloom.",
+  "assetBrief": "CONCEPT: \"Immune Response\" is a five-stage process, not a single organ, so build it as one continuous procedural diorama read left-to-right like a shallow timeline, built from noise-displaced primitives (spheres, capsules, tori, simple lathed/extruded shapes with organic surface perturbation) — no anatomical mesh sculpting needed, but every actor should read at the same sculptural fidelity as this app's organ models, not as flat clip-art construction.\n\nLAYOUT & SCALE: A single shallow disc/platform, ~1.6m wide x ~0.9m deep, radius of curvature ~1.2m, gently domed (max rise ~0.06m) in warm neutral clay (#EDE7DB). Sunk into it, at even 36° intervals along the arc, are five circular plinths (~0.22m diameter, ~0.03m raised) for the five stages, connected by a shallow etched groove ~4mm wide in a muted graphite tone (#4A453D at ~25% opacity via material darkening, not transparency) that runs through all five plinth centers so the sequence is legible at a glance. Overall model bounding box roughly 1.8m (W) x 0.5m (H) x 1.0m (D), origin centered at stage 3 (Antibody production), ground plane at y=0. Hotspot marker positions along the arc (also recorded numerically in the 'hotspots' array above): stage 1 at roughly (-0.72, 0.16, 0.15), stage 2 at (-0.36, 0.18, 0.05), stage 3 at (0, 0.22, 0), stage 4 at (0.36, 0.20, 0.05), stage 5 at (0.72, 0.17, 0.15) — the small positive z-push on the outer stages reflects the platform's gentle curvature receding slightly from the stage-3 origin.\n\nSTAGE ACTORS (all built from noise-perturbed, organic-surface primitives, ~0.10-0.16m tall, consistent scale across stages so they read as the same recurring \"cast,\" each finished to the same sculptural fidelity as sibling organ models — subtle asymmetry and surface undulation, not clean geometric clip-art):\n1. Pathogen detected: one bespoke pathogen figure — an asymmetric, elongated blob (a noise-displaced ellipsoid, not a sphere) with 3-4 soft, irregular, unevenly-sized protrusions blended smoothly into the body (no repeating radial spike pattern, no icosphere-with-cones construction — the silhouette should look like a one-off organic form, not a stock \"virus icon\"), base color a muted warm terracotta-neutral (#C2A28E) with a small coral accent (#C97B63) at one or two protrusion tips only; positioned at a low ridge on the plinth representing the tissue barrier, with one small sensor-cell capsule shape nearby, slightly turned toward it.\n2. White blood cells respond: three to four soft ameboid white-blood-cell forms — noise-displaced capsule/ellipsoid shapes with gentle asymmetric lobing (smooth blended-union bulges with no visible seams) in warm greige (#CBC3B4), arranged mid-transit along the connecting groove, sizes varying slightly (0.08-0.12m) to suggest motion toward stage 1.\n3. Antibody production: one larger plasma-cell form (~0.14m rounded, noise-displaced teardrop, warm-neutral #D6CCBC) with a visible lighter internal nucleus sphere (#B8AC98); 4-6 small antibody proteins (~0.025m each) organically modeled as a softly-blended, slightly-asymmetric branching form (three tapered, rounded lobes merged with smooth union/metaball blending rather than a literal three-cylinder Y icon) in a warm-neutral base with a small gold accent (#D9A441) at the tips, floating or orbiting just above the cell at staggered heights.\n4. Pathogen destroyed: the same bespoke pathogen figure from stage 1, split into 2-3 fragments (protrusions flattened/separated, pieces slightly apart) in a desaturated neutral with a faint coral undertone (#DBAFA2 accent only, base still warm-neutral #C2A28E lightened), partially overlapped by one larger phagocyte capsule shape (deeper warm greige #B3A895, ~0.14m) shown mid-engulf.\n5. Immune memory formed: one memory-cell capsule form (warm neutral with cool undertone, #BFB6AE) resting (no motion cues), encircled by a very faint thin torus \"standby halo\" ~0.18m diameter in lavender accent (#8B93B8) at low opacity — no pulsing, no glow shader, just a static faint ring.\n\nMATERIALS & LIGHTING: All actors matte/clay PBR — roughness ~0.55-0.7, near-zero metalness, no subsurface scattering, no emissive channels anywhere (the \"halo\" and \"groove\" are achieved with base-color value shifts, not emission). See materialNotes for the full restrained near-naturalistic palette — saturated per-stage hues are accent-only, never an actor's primary body color. Base platform and plinths use the same warm off-white family as the rest of the app (#EDE7DB base, #F7F3EC ambient environment/background). Three-point soft studio lighting matching sibling components: warm key from upper-front-left, cool fill from the right, soft rim from behind-above; soft, short-falloff contact shadows under each actor and plinth; no hard specular highlights, no rim glow, no bloom.\n\nCAMERA & INTERACTION: Default camera at approximately position (0, 1.15, 2.6) looking at target (0, 0.25, 0), framing all five plinths in one shot with the arc reading left-to-right, slightly elevated three-quarter angle (not top-down, not dead-on side). Auto-rotate OFF by default (this is a directional narrative, not a free-standing object to admire from all sides) but user-toggleable orbit remains available. No cross-section — instead support a \"Stage Focus\" interaction: selecting a hotspot dims the other four plinths (~40% desaturation/brightness reduction, no actor removed) and eases the camera toward the selected plinth; deselecting restores the full overview. Hotspot dots sit just above each plinth's primary actor, flat-colored small spheres (~1.2cm) matching that stage's accent hue, with a thin straight connector line to a rounded label card — identical visual language to the existing hotspot/card system, no new UI pattern.\n\nDO NOT: do not give any cell or pathogen a face, eyes, or cartoon expression; do not use glow, bloom, emissive materials, or neon/saturated colors on actor bodies (saturated hues are accent-only, per materialNotes); do not depict blood, gore, wounds, or realistic biological texture — this stays abstract and diagrammatic; do not clutter the platform with extra environment props (no background scenery, no ground texture beyond the flat clay finish); do not use a generic stock 'spiky ball' virus icon for the pathogen — it must read as a bespoke, asymmetric, soft-edged form unique to this app, with spikes/protrusions (where present) blunt and irregular, never a repeating radial spike pattern; do not build the antibody as a literal three-cylinder Y shape — it must be an organically blended, slightly-asymmetric form consistent with the rest of the cast's construction quality; do not construct any actor as visibly-seamed primitive unions (bare sphere+cones, hard-edged capsule joins) — all actors need noise-perturbed organic surfaces at the same fidelity tier as sibling organ models; do not make the pathogen frightening or spiky-sharp — protrusions must read as soft/blunt/friendly, appropriate for a kids' STEM app; do not animate anything continuously/loopingly by default (subtle idle bob is acceptable but must be very slow and low-amplitude, off entirely for the pathogen-destroyed and memory-formed stages so those read as \"resolved\" states); do not deviate from the shared warm off-white palette used by other Anatomy-Atelier-tier components in this app — this model must sit in the viewer without a visible style seam next to organ models like the heart or brain.",
+  "visual": {
+    "shape": "immune-shield"
+  }
+}

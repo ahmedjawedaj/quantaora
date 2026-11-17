@@ -1,0 +1,65 @@
+{
+  "componentId": "predator",
+  "questions": [
+    {
+      "id": "pred-q-def",
+      "conceptId": "hunts-and-eats",
+      "hotspotId": "hs-hunt",
+      "prompt": "What is a predator?",
+      "options": [
+        "An animal that hunts and eats other animals",
+        "An animal that eats only plants",
+        "A living thing that makes its own food",
+        "A decomposer"
+      ],
+      "correctIndex": 0,
+      "explanation": "A predator hunts, catches, and eats other animals - it gets its energy from prey.",
+      "misconception": "Predators eat animals they catch; plant-eaters are herbivores, not predators."
+    },
+    {
+      "id": "pred-q-example",
+      "conceptId": "hunts-and-eats",
+      "hotspotId": "hs-hunt",
+      "prompt": "Which of these is a predator?",
+      "options": [
+        "A wolf",
+        "A rabbit",
+        "A deer",
+        "A caterpillar"
+      ],
+      "correctIndex": 0,
+      "explanation": "A wolf hunts and eats other animals, making it a predator.",
+      "misconception": "Rabbits and deer eat plants - they are prey for predators, not predators themselves."
+    },
+    {
+      "id": "pred-q-adapt",
+      "conceptId": "hunting-adaptations",
+      "hotspotId": "hs-speed",
+      "prompt": "Which helps a predator catch its food?",
+      "options": [
+        "Speed and sharp claws",
+        "A thick shell",
+        "Camouflage only",
+        "Slow movement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed, sharp senses, claws, and teeth all help predators catch prey.",
+      "misconception": "Predators are built to hunt - speed and weaponry beat slow, armored bodies for catching food."
+    },
+    {
+      "id": "pred-q-balance",
+      "conceptId": "keeps-prey-in-check",
+      "hotspotId": "hs-check",
+      "prompt": "Why do predators matter to an ecosystem?",
+      "options": [
+        "They keep prey populations from growing too large",
+        "They make the plants grow",
+        "They clean the water",
+        "They scare away all other animals"
+      ],
+      "correctIndex": 0,
+      "explanation": "By eating prey, predators keep prey numbers in balance so they do not overuse resources.",
+      "misconception": "Predators control population sizes - removing them lets prey boom and damage their own food supply."
+    }
+  ]
+}

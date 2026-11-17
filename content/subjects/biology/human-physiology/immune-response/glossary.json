@@ -1,0 +1,159 @@
+{
+  "componentId": "immune-response",
+  "terms": [
+    {
+      "term": "Immune response",
+      "conceptId": "immune-response",
+      "definition": "The whole sequence of events your body's security system runs through to detect, fight off, and remember a germ.",
+      "function": "Protects the body from pathogens by detecting them, destroying them, and keeping a record so future encounters are handled faster.",
+      "whereItIs": "Runs throughout the bloodstream and tissues, coordinated by white blood cells traveling wherever they're needed.",
+      "whyItMatters": "It's the reason you fight off most infections without ever feeling seriously sick, and the reason vaccines and lifelong immunity work at all.",
+      "relatedConcept": "white-blood-cells-respond"
+    },
+    {
+      "term": "Pathogen detected",
+      "conceptId": "pathogen-detected",
+      "hotspotId": "hs-pathogen-detected",
+      "definition": "The very first moment a germ crosses into the body and gets noticed by sensor cells stationed in the tissue.",
+      "function": "Sensor cells recognize the antigen markers on the pathogen's surface as foreign and release chemical alarm signals that call the rest of the immune system into action.",
+      "whereItIs": "Stage 1 of the diorama, at the tissue-barrier ridge on the far-left plinth, where the pathogen figure meets the sensor cell.",
+      "whyItMatters": "Nothing else in the immune response can happen until a pathogen is actually detected — a faster, more accurate detection means a faster, milder illness.",
+      "relatedConcept": "white-blood-cells-respond",
+      "quizId": "ir-q-detection"
+    },
+    {
+      "term": "White blood cells respond",
+      "conceptId": "white-blood-cells-respond",
+      "hotspotId": "hs-white-blood-cells-respond",
+      "definition": "The stage where white blood cells travel toward the alarm signal — some eating germs directly, others directing the rest of the response.",
+      "function": "White blood cells (leukocytes) either engulf and digest the pathogen themselves or coordinate other immune cells, acting as the body's fast-arriving first soldiers.",
+      "whereItIs": "Stage 2 of the diorama, on the connecting groove between the detection and antibody-production plinths, where several white-blood-cell figures converge.",
+      "whyItMatters": "This general-purpose response can start acting within minutes, buying the body time while the slower, more precise antibody response is being built.",
+      "relatedConcept": "antibody-production",
+      "quizId": "ir-q-white-blood-cells"
+    },
+    {
+      "term": "Antibody production",
+      "conceptId": "antibody-production",
+      "hotspotId": "hs-antibody-production",
+      "definition": "The stage where special white blood cells called plasma cells learn a pathogen's exact shape and mass-produce antibodies to match it.",
+      "function": "Plasma cells manufacture Y-shaped proteins called antibodies that bind tightly to one specific antigen, tagging that pathogen so it can be found and destroyed.",
+      "whereItIs": "Stage 3 of the diorama, at the center plinth, where small antibody proteins float just above the plasma-cell figure.",
+      "whyItMatters": "Antibodies are what make the immune response so precise — instead of attacking anything and everything, the body builds a custom-shaped weapon for this exact pathogen.",
+      "relatedConcept": "pathogen-destroyed",
+      "quizId": "ir-q-antibody-function"
+    },
+    {
+      "term": "Pathogen destroyed",
+      "conceptId": "pathogen-destroyed",
+      "hotspotId": "hs-pathogen-destroyed",
+      "definition": "The stage where antibody-tagged pathogens are recognized and broken apart by phagocyte cells, clearing the infection.",
+      "function": "Phagocyte cells recognize the antibody tags and engulf the marked pathogen, breaking it into pieces and removing it from the body.",
+      "whereItIs": "Stage 4 of the diorama, right-of-center, where the fragmented pathogen pieces are shown being absorbed by a larger phagocyte figure.",
+      "whyItMatters": "This is the moment the infection is actually cleared — everything before it (detection, response, antibody production) exists to make this destruction possible.",
+      "relatedConcept": "antibody-production",
+      "quizId": "ir-q-clearance"
+    },
+    {
+      "term": "Immune memory formed",
+      "conceptId": "immune-memory-formed",
+      "hotspotId": "hs-immune-memory-formed",
+      "definition": "The stage where a few of the cells that fought this pathogen become memory cells and stay in the body long-term.",
+      "function": "Memory cells keep a lasting record of the pathogen's shape, letting the body recognize and respond to it much faster if it ever returns — often before symptoms even start.",
+      "whereItIs": "Stage 5 of the diorama, at the far-right plinth, where the resting memory-cell figure sits inside a faint standby halo.",
+      "whyItMatters": "Immune memory is why you usually don't get sick from the same germ twice, and it's the exact mechanism vaccines use to protect you.",
+      "relatedConcept": "pathogen-detected",
+      "quizId": "ir-q-memory"
+    },
+    {
+      "term": "Innate immunity",
+      "conceptId": "innate-immunity",
+      "definition": "The body's fast, general-purpose defense — things like skin, mucus, and general white blood cells that fight any germ the same way, not just one specific kind.",
+      "function": "Acts within minutes to hours, providing an immediate barrier and first response before the body has time to build a pathogen-specific weapon.",
+      "whereItIs": "Present everywhere from birth — the skin, mucous membranes, and general-purpose white blood cells like macrophages, active at stage 2 (White blood cells respond).",
+      "whyItMatters": "Without this fast-acting first layer, even minor infections would have days to spread before any targeted defense arrived.",
+      "relatedConcept": "adaptive-immunity"
+    },
+    {
+      "term": "Adaptive immunity",
+      "conceptId": "adaptive-immunity",
+      "definition": "The body's slower-to-start but highly targeted defense that learns one pathogen's exact shape and builds custom antibodies to match it.",
+      "function": "Takes days to fully activate the first time, but produces antibodies and memory cells precisely matched to one pathogen, giving much stronger and longer-lasting protection.",
+      "whereItIs": "Driven by B cells and T cells, active at stages 3 through 5 (antibody production, pathogen destruction, and memory formation).",
+      "whyItMatters": "Adaptive immunity is what makes the body's second encounter with a germ so much faster and milder than the first — and it's the whole reason vaccines work.",
+      "relatedConcept": "immune-memory-formed"
+    },
+    {
+      "term": "Pathogen",
+      "conceptId": "pathogen",
+      "definition": "A germ — such as a virus, bacterium, or fungus — that can cause disease.",
+      "function": "Invades the body and, left unchecked, damages cells or disrupts normal function, which is what the immune response exists to prevent.",
+      "whereItIs": "Can enter through the skin, airways, or digestive tract; shown crossing the tissue barrier at stage 1 of the diorama.",
+      "whyItMatters": "Every stage of the immune response exists because pathogens are constantly trying to get past the body's defenses.",
+      "relatedConcept": "pathogen-detected"
+    },
+    {
+      "term": "White blood cell (leukocyte)",
+      "conceptId": "white-blood-cell",
+      "definition": "A blood cell whose job is to find and destroy pathogens — the immune system's soldiers.",
+      "function": "Includes several types with different jobs: some engulf pathogens directly, others produce antibodies, and others kill infected cells.",
+      "whereItIs": "Circulates through blood and tissue, shown converging toward the alarm signal at stage 2 of the diorama.",
+      "whyItMatters": "White blood cells are the active, moving part of the immune system — without them, detecting a pathogen wouldn't be enough to actually stop it.",
+      "relatedConcept": "white-blood-cells-respond"
+    },
+    {
+      "term": "Antigen",
+      "conceptId": "antigen",
+      "definition": "A unique marker on the surface of a pathogen that the immune system uses to recognize it as foreign.",
+      "function": "Acts like a fingerprint — sensor cells detect it at stage 1, and antibodies are custom-built at stage 3 to bind to it specifically.",
+      "whereItIs": "On the outer surface of the pathogen itself.",
+      "whyItMatters": "Without a distinct antigen to recognize, the immune system couldn't tell a harmful pathogen apart from the body's own healthy cells.",
+      "relatedConcept": "antibody"
+    },
+    {
+      "term": "Antibody",
+      "conceptId": "antibody",
+      "definition": "A Y-shaped protein made by plasma cells that binds tightly to one specific antigen, marking the pathogen for destruction.",
+      "function": "Locks onto a pathogen's antigen like a key fitting one specific lock, tagging it so phagocyte cells can find and destroy it.",
+      "whereItIs": "Produced by plasma cells at stage 3 of the diorama, then circulates to find and tag matching pathogens.",
+      "whyItMatters": "Antibodies are what make the adaptive immune response so precise — a targeted weapon built for one exact invader.",
+      "relatedConcept": "antibody-production"
+    },
+    {
+      "term": "B cell",
+      "conceptId": "b-cell",
+      "definition": "A type of white blood cell that turns into a plasma cell and produces antibodies.",
+      "function": "Once activated by recognizing a matching antigen, a B cell multiplies and becomes a plasma cell factory, churning out antibodies for that pathogen.",
+      "whereItIs": "Circulates in blood and lymph tissue; becomes active at stage 3 (antibody production).",
+      "whyItMatters": "B cells are the source of every antibody in the body — without them, the adaptive immune response couldn't happen at all.",
+      "relatedConcept": "antibody-production"
+    },
+    {
+      "term": "T cell",
+      "conceptId": "t-cell",
+      "definition": "A type of white blood cell that directly kills infected cells or helps coordinate the rest of the immune response.",
+      "function": "Some T cells destroy cells that are already infected with a pathogen; others act as coordinators, signaling B cells and other immune cells into action.",
+      "whereItIs": "Circulates in blood and lymph tissue, working alongside B cells throughout the response.",
+      "whyItMatters": "T cells add a second line of adaptive defense beyond antibodies — one that can find and remove cells a pathogen has already gotten inside of.",
+      "relatedConcept": "b-cell"
+    },
+    {
+      "term": "Memory cell",
+      "conceptId": "memory-cell",
+      "definition": "A long-lived B or T cell left behind after an infection that \"remembers\" a pathogen, enabling a much faster response if it returns.",
+      "function": "Stays in the body for years after the infection clears, ready to trigger rapid antibody production the instant it detects the same antigen again.",
+      "whereItIs": "Circulates quietly in blood and lymph tissue; shown resting at stage 5 of the diorama inside its faint standby halo.",
+      "whyItMatters": "Memory cells are the reason a second infection with the same germ is usually milder or doesn't happen at all — and the entire mechanism vaccines rely on.",
+      "relatedConcept": "immune-memory-formed"
+    },
+    {
+      "term": "Inflammation",
+      "conceptId": "inflammation",
+      "definition": "The redness, heat, and swelling caused by increased blood flow and immune cells rushing to a site of infection or injury.",
+      "function": "Widens blood vessels and increases their permeability so white blood cells can reach the site of infection faster.",
+      "whereItIs": "Around any site of infection or injury, most familiar as the redness and puffiness around a cut.",
+      "whyItMatters": "Inflammation looks uncomfortable, but it's the immune system actively working, not just a side effect — it's part of what stage 2 (white blood cells respond) looks like from the outside.",
+      "relatedConcept": "white-blood-cells-respond"
+    }
+  ]
+}

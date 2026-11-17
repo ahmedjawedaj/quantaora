@@ -1,0 +1,80 @@
+{
+  "componentId": "kinetic-energy",
+  "questions": [
+    {
+      "id": "ke-q-definition",
+      "conceptId": "kinetic-energy-of-motion",
+      "hotspotId": "hs-energy-bar",
+      "prompt": "What is kinetic energy?",
+      "options": [
+        "The energy an object has because it is moving",
+        "The energy stored in a stretched spring",
+        "The heat inside a warm room",
+        "The light used up by a screen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kinetic energy is energy of motion — anything with mass that moves carries it.",
+      "misconception": "Stored energy (springs, heights) is potential energy, the frequent mix-up with kinetic."
+    },
+    {
+      "id": "ke-q-formula",
+      "conceptId": "kinetic-energy-ke-formula",
+      "hotspotId": "hs-energy-bar",
+      "prompt": "A 3 kg ball rolls at 2 m/s. What is its kinetic energy?",
+      "options": [
+        "6 J",
+        "3 J",
+        "12 J",
+        "24 J"
+      ],
+      "correctIndex": 0,
+      "explanation": "KE = ½ × 3 × 2² = ½ × 3 × 4 = 6 J.",
+      "misconception": "Skipping the ½ or the square gives 12 or 24 J; the half times the mass times speed squared is the recipe."
+    },
+    {
+      "id": "ke-q-squared",
+      "conceptId": "kinetic-energy-squared-speed",
+      "hotspotId": "hs-speed-slider",
+      "prompt": "A car doubles its speed. What happens to its kinetic energy?",
+      "options": [
+        "It becomes four times bigger",
+        "It doubles",
+        "It stays the same",
+        "It becomes slightly bigger"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is squared in KE, so 2× the speed → 2² = 4× the energy.",
+      "misconception": "The 'double in = double out' intuition is the key trap; the square makes it four-fold."
+    },
+    {
+      "id": "ke-q-mass",
+      "conceptId": "kinetic-energy-mass-dependence",
+      "hotspotId": "hs-mass-slider",
+      "prompt": "Two carts move at the same speed. Cart X is twice as massive. What ratio do their kinetic energies have?",
+      "options": [
+        "2 : 1 (X has double)",
+        "4 : 1",
+        "1 : 1",
+        "8 : 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass appears once (not squared), so doubling mass doubles kinetic energy.",
+      "misconception": "Some carry the squaring habit over to mass — mass is only first power in the formula."
+    },
+    {
+      "id": "ke-q-unit",
+      "conceptId": "kinetic-energy-ke-formula",
+      "hotspotId": "hs-energy-bar",
+      "prompt": "In what unit is kinetic energy measured?",
+      "options": [
+        "Joule (J)",
+        "Newton (N)",
+        "Watt (W)",
+        "Second (s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energy is measured in joules; newtons measure force, watts measure power.",
+      "misconception": "N (force) and W (power) get tangled with energy; the joule is the energy unit."
+    }
+  ]
+}

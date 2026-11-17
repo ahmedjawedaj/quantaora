@@ -1,0 +1,41 @@
+{
+  "componentId": "data-point",
+  "terms": [
+    {
+      "term": "Data point",
+      "conceptId": "data-point-definition",
+      "hotspotId": "hs-point-cube",
+      "definition": "One single piece of information — one observation.",
+      "function": "The smallest unit of a dataset.",
+      "whereItIs": "One labeled cube.",
+      "whyItMatters": "Every chart and statistic starts from points."
+    },
+    {
+      "term": "Label and value",
+      "conceptId": "data-point-collect",
+      "hotspotId": "hs-value-tag",
+      "definition": "The identity and measurement of a data point.",
+      "function": "'Ali' is the label; '150 cm' is the value.",
+      "whereItIs": "The tag beside each cube.",
+      "whyItMatters": "Labels keep points distinguishable and values are what you analyze."
+    },
+    {
+      "term": "Dataset",
+      "conceptId": "data-point-dataset",
+      "hotspotId": "hs-dataset-row",
+      "definition": "A collection of data points about one topic.",
+      "function": "The raw material for every chart and statistic.",
+      "whereItIs": "The full row of cubes.",
+      "whyItMatters": "Datasets let you find patterns across many points."
+    },
+    {
+      "term": "Outlier",
+      "conceptId": "data-point-trace",
+      "hotspotId": "hs-dataset-row",
+      "definition": "A data point far from the rest of the dataset.",
+      "function": "Still counts as a point, but strongly affects summaries.",
+      "whereItIs": "A lifted cube sitting far from the others.",
+      "whyItMatters": "Outliers can strongly affect the mean."
+    }
+  ]
+}

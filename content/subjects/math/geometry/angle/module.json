@@ -1,0 +1,86 @@
+{
+  "id": "angle",
+  "subject": "math",
+  "title": "Angle",
+  "summary": "An angle is formed where two rays share an endpoint — the amount of turn between them. Explore degrees, right/acute/obtuse angles, and how angles are measured.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "angle-definition",
+    "angle-degrees",
+    "angle-types",
+    "angle-measure"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Angles",
+    "systemOrGroup": "Angle basics",
+    "component": "Angle",
+    "displayPath": "Math > Geometry > Angles > Angle basics > Angle"
+  },
+  "crossReferences": [
+    {
+      "label": "Ray (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Ray",
+      "note": "An angle's two sides are rays sharing an endpoint."
+    },
+    {
+      "label": "Point (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Point",
+      "note": "The vertex of an angle is a point."
+    },
+    {
+      "label": "Triangle (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Triangle",
+      "note": "Triangles are built from three angles that add to 180°."
+    }
+  ],
+  "belongsTo": "Geometry > Angles > Angle basics",
+  "compareCandidate": {
+    "label": "Angle vs. triangle",
+    "description": "An angle is two rays sharing an endpoint — an open turn; a triangle closes three segments into a shape that contains three angles."
+  },
+  "parts": [
+    "The vertex",
+    "The two rays (sides)",
+    "The amount of turn"
+  ],
+  "processes": [
+    "Measuring an angle in degrees",
+    "Naming angle types"
+  ],
+  "plainLanguageExplanation": "An angle is the amount of turn between two rays that share a start point called the vertex. We measure angles in degrees: a full turn around a point is 360°, so a quarter turn is a right angle of 90°, half a turn is a straight angle of 180°, and a full circle back is 360°. Angles smaller than 90° are acute; larger than 90° but smaller than 180° are obtuse. A protractor measures angles by lining its center at the vertex and reading where the rays point.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Two rays sharing an endpoint" },
+    { "label": "The turn", "value": "Measured in degrees" },
+    { "label": "Full turn", "value": "360°" },
+    { "label": "Right angle", "value": "90° — a quarter turn" },
+    { "label": "Acute", "value": "Less than 90°" },
+    { "label": "Obtuse", "value": "Between 90° and 180°" }
+  ],
+  "whyItMatters": "Angles measure turning — the corner of a room, the slope of a ramp, the hands of a clock. They are the hidden numbers inside every shape and the key to navigation and building.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Angle",
+  "tagline": "The amount of turn",
+  "didYouKnow": "The word 'degree' for angles comes from the idea of dividing a circle — the Babylonians chose 360 for a full circle, likely because it matches the roughly 360 days in their year.",
+  "conditions": [
+    "Measuring turns",
+    "Naming shapes",
+    "Clock reading",
+    "Building with protractors"
+  ],
+  "compareCandidateId": "triangle",
+  "compareReason": "Students confuse the open two-ray angle with the closed three-side triangle — comparing turn vs. enclosed shape makes it clear."
+}

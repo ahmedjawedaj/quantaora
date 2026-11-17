@@ -1,0 +1,6 @@
+{
+  "componentId": "muscle-cell",
+  "status": "pending-sourcing",
+  "note": "No curriculum standards pack has been sourced for this component yet. This file establishes the mapping shape (framework, code, description, alignedTo) so a future authoring pass can populate entries (e.g. NGSS MS-LS1-1, MS-LS1-3) without a schema change. Leave `standards` empty until a curriculum pack is sourced and verified.",
+  "standards": []
+}

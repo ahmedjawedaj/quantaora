@@ -1,0 +1,46 @@
+{
+  "componentId": "force",
+  "terms": [
+    {
+      "term": "Force",
+      "conceptId": "force-push-pull",
+      "hotspotId": "hs-force-arrows",
+      "definition": "A push or a pull acting on an object.",
+      "function": "Can change an object's motion — start it, stop it, speed it up, or turn it.",
+      "whereItIs": "Drawn as arrows touching the box.",
+      "whyItMatters": "It is the single most common idea in physics, behind every machine and every movement.",
+      "relatedConcept": "force-net-force",
+      "quizId": "force-q-definition"
+    },
+    {
+      "term": "Newton (N)",
+      "conceptId": "force-newton-unit",
+      "hotspotId": "hs-force-scale",
+      "definition": "The SI unit of force.",
+      "whyItMatters": "One newton accelerates a 1 kg mass at 1 m/s²; it gives every force a measurable size.",
+      "whereItIs": "Read on the scale plate beside the box.",
+      "relatedConcept": "force-push-pull",
+      "quizId": "force-q-unit"
+    },
+    {
+      "term": "Force vector",
+      "conceptId": "force-vector",
+      "hotspotId": "hs-force-arrows",
+      "definition": "A force drawn as an arrow, length showing strength and heading showing direction.",
+      "whyItMatters": "The arrow is what lets opposite forces cancel and same-direction forces add.",
+      "whereItIs": "Every arrow in the scene, from the box surfaces.",
+      "relatedConcept": "force-net-force",
+      "quizId": "force-q-vector"
+    },
+    {
+      "term": "Net force",
+      "conceptId": "force-net-force",
+      "hotspotId": "hs-net-force",
+      "definition": "The single leftover force after you add up (with direction) all forces on an object.",
+      "whyItMatters": "Only a non-zero net force changes motion; zero net force means no acceleration.",
+      "whereItIs": "The floating arrow above the box that appears during Go.",
+      "relatedConcept": "force-vector",
+      "quizId": "force-q-net"
+    }
+  ]
+}

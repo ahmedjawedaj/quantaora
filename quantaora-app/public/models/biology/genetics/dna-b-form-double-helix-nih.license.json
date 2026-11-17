@@ -1,0 +1,39 @@
+{
+  "asset": "dna-b-form-double-helix-nih.glb",
+  "componentMapping": "biology > genetics > DNA (also supports cell-biology's DNA low-level item)",
+  "sourceUrl": "https://3d.nih.gov/entries/14287",
+  "sourceEntryId": "3DPX-014287",
+  "underlyingStructureData": "RCSB PDB 1BNA (B-DNA dodecamer), CC0 crystallographic data",
+  "creator": "NIH 3D user \"mariu.mihasan\"",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC-BY 4.0",
+  "attributionRequired": true,
+  "attributionText": "\"B-DNA dodecamer as balls and sticks\" by mariu.mihasan, NIH 3D (3d.nih.gov, entry 3DPX-014287), derived from RCSB PDB 1BNA. Licensed CC-BY 4.0.",
+  "redistributionStatus": "Permitted under CC-BY 4.0 (commercial use and modification allowed with attribution).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/18662/runs/ab328de0-9ddf-4304-a317-8eb74014080b/output-files/406172",
+  "fileSizeBytes": 6787720,
+  "sha256": "63f4d7c50da50498780e60a1e1b25822224c95d0ac05e6458f336b5d0992c3fb",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 2,
+    "sampleBoundsMin": [
+      -21.096633911132812,
+      -14.058989524841309,
+      3.835957613773644e-7
+    ],
+    "sampleBoundsMax": [
+      21.096637725830078,
+      14.058990478515625,
+      22.83735466003418
+    ],
+    "notes": "Vertex-colored balls-and-sticks mesh, no textures. Not render-inspected visually in this pass, only structurally validated."
+  }
+}

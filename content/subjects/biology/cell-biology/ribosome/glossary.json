@@ -1,0 +1,38 @@
+{
+  "componentId": "ribosome",
+  "terms": [
+    {
+      "term": "Ribosome",
+      "conceptId": "protein-building",
+      "hotspotId": "hs-large-subunit",
+      "definition": "The organelle that builds proteins by reading instructions and linking amino acids.",
+      "function": "Reads the coded message and assembles the protein chain.",
+      "whereItIs": "Floating in the cytoplasm or clamped onto the rough ER.",
+      "whyItMatters": "It is the machine that turns genetic instructions into working proteins.",
+      "relatedConcept": "amino-acid-linking",
+      "quizId": "rib-q-job"
+    },
+    {
+      "term": "Amino acid",
+      "conceptId": "amino-acid-linking",
+      "hotspotId": "hs-join",
+      "definition": "A small building-block molecule; proteins are chains of amino acids.",
+      "function": "The parts the ribosome links together to build a protein.",
+      "whereItIs": "Arriving at the ribosome from the cytoplasm.",
+      "whyItMatters": "The order of amino acids decides what each protein does.",
+      "relatedConcept": "protein-building",
+      "quizId": "rib-q-amino"
+    },
+    {
+      "term": "Messenger (mRNA)",
+      "conceptId": "reads-instructions",
+      "hotspotId": "hs-read",
+      "definition": "A copy of a DNA instruction that carries the code out to the ribosome.",
+      "function": "Delivers the protein recipe to the building machine.",
+      "whereItIs": "Made in the nucleus, travels to the ribosome.",
+      "whyItMatters": "It lets instructions leave the nucleus without losing the master copy.",
+      "relatedConcept": "protein-building",
+      "quizId": "rib-q-any"
+    }
+  ]
+}

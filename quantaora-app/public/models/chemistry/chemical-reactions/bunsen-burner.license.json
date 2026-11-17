@@ -1,0 +1,47 @@
+{
+  "assetName": "bunsen-burner.glb",
+  "sourceAsset": "Bunsen Burner",
+  "sourceUrl": "https://polyhaven.com/a/bunsen_burner",
+  "downloadUrls": [
+    "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bunsen_burner/bunsen_burner_1k.gltf",
+    "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/bunsen_burner/bunsen_burner.bin",
+    "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_diff_1k.jpg",
+    "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_nor_gl_1k.jpg",
+    "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_arm_1k.jpg"
+  ],
+  "creator": "BKS",
+  "owner": "Poly Haven",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://polyhaven.com/license",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (CC0). Project convention: credit 'Bunsen Burner by BKS / Poly Haven (CC0)' in the in-app asset credits list.",
+  "redistributionStatus": "Freely redistributable, modification and commercial use permitted, no restriction.",
+  "dateSourced": "2026-08-18",
+  "originalFormat": "glTF 1k (separate .gltf + .bin + 3 JPG textures, Poly Haven export)",
+  "processingNote": "Repacked from separate glTF+bin+textures into a single-file .glb with quantaora-app/public/models/sourced/chemistry-reactions/gltf-to-glb.mjs (in-house packer, no geometry/material changes, images embedded as buffer views).",
+  "fileSizeBytes": 2131920,
+  "sha256": "6984beb0f86eec05d1c901896871e79f5015949c6dc0fccca0ad496b00668639",
+  "validation": {
+    "magicHeaderOk": true,
+    "glbVersion": 2,
+    "declaredLengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 2,
+    "materialCount": 1,
+    "textureCount": 3,
+    "imageCount": 3,
+    "animationCount": 0,
+    "accessorCount": 8,
+    "approxDimensionsMeters": [
+      0.1389,
+      0.1731,
+      0.1389
+    ],
+    "note": "Real-world scale burner, ~14cm base diameter x ~17cm tall. Matches Poly Haven published dimensions (138.9mm x 138.9mm x 173.1mm)."
+  },
+  "mappedComponents": [
+    "chemical-reactions / reaction apparatus (dedicated hero Bunsen burner asset — higher poly/detail than the burner bundled inside chemistry-lab-bench.glb; use this one where the burner is the focal hotspot object)"
+  ],
+  "duplicateNote": "A lower-detail Bunsen burner mesh ('chemistry_set_bunsen_burner') also exists inside chemistry-lab-bench.glb as part of that bundled diorama scene. Both are legitimate: this file is the standalone hero prop, the bundled one is scene dressing. Flagged for the quality-pipeline agent's duplicate-detection pass so it is not treated as an accidental double-import of the same intended hero asset."
+}

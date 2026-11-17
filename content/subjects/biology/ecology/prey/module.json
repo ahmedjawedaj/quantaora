@@ -1,0 +1,95 @@
+{
+  "id": "prey",
+  "subject": "biology",
+  "title": "Prey",
+  "summary": "Prey is an animal that is hunted and eaten by a predator. Explore how prey use speed, camouflage, and groups to stay safe, and why the predator-prey race shapes both sides.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "hunted-by-predators",
+    "prey-defenses",
+    "camouflage-speed-groups",
+    "predator-prey-race"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Prey",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Prey"
+  },
+  "crossReferences": [
+    {
+      "label": "Predator (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Predator",
+      "note": "Prey are the animals predators hunt - the two sides of the same race."
+    },
+    {
+      "label": "Consumer (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Consumer",
+      "note": "Prey are usually consumers too - most eat plants or smaller animals."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Prey",
+  "compareCandidate": {
+    "label": "Prey vs. predator",
+    "description": "Prey is hunted and eaten; the predator does the hunting. Many animals are both - a mouse is prey to an owl but a predator to an insect."
+  },
+  "parts": [
+    "Speed",
+    "Camouflage",
+    "Groups",
+    "Hiding places"
+  ],
+  "processes": [
+    "Escaping predators",
+    "Using camouflage",
+    "Living in groups"
+  ],
+  "plainLanguageExplanation": "Prey is any animal that predators hunt and eat. Rabbits, mice, deer, and fish are common prey. To survive, prey have their own adaptations: many are fast, some blend into their surroundings with camouflage, some hide in burrows, and many live in groups so there are more eyes watching for danger. Prey and predators are locked in a constant race - as predators get faster, prey get faster too, and this balance keeps both populations healthy. A healthy ecosystem needs both prey and predators.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "An animal that is hunted and eaten by a predator"
+    },
+    {
+      "label": "Examples",
+      "value": "Rabbits, mice, deer, fish"
+    },
+    {
+      "label": "Defenses",
+      "value": "Speed, camouflage, hiding, living in groups"
+    },
+    {
+      "label": "The race",
+      "value": "Predators get faster, so prey get faster too"
+    },
+    {
+      "label": "Balance",
+      "value": "Ecosystems need both prey and predators to stay healthy"
+    }
+  ],
+  "whyItMatters": "Prey are half of the predator-prey race that shapes every ecosystem - their defenses keep them alive, and their numbers keep predators fed. Understanding them shows why prey adaptations are just as important as predator hunting skills.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "Hunted and eaten by predators",
+  "didYouKnow": "A rabbit's eyes sit on the sides of its head, giving it almost a full 360 degrees of vision - perfect for spotting a predator coming from any direction.",
+  "conditions": [
+    "Habitat loss",
+    "Overhunting of prey",
+    "Invasive predators"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Prey",
+  "plain": "Prey is any animal that predators hunt and eat. Rabbits, mice, deer, and fish are common prey. To survive, prey have their own adaptations: many are fast, some blend into their surroundings with camouflage, some hide in burrows, and many live in groups so there are more eyes watching for danger. Prey and predators are locked in a constant race - as predators get faster, prey get faster too, and this balance keeps both populations healthy. A healthy ecosystem needs both prey and predators."
+}

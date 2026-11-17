@@ -1,0 +1,46 @@
+{
+  "componentId": "flower",
+  "terms": [
+    {
+      "term": "Flower",
+      "conceptId": "flower-makes-seeds",
+      "hotspotId": "hs-pistil",
+      "definition": "The part of a plant that makes seeds, with petals and the stamen and pistil reproductive parts.",
+      "function": "Produces the seeds of the next plant generation.",
+      "whereItIs": "Growing on the stem, held up toward the light.",
+      "whyItMatters": "Flowers are how many plants make the seeds that grow into new plants.",
+      "relatedConcept": "stamen-pollen",
+      "quizId": "flower-q-seed"
+    },
+    {
+      "term": "Petal",
+      "conceptId": "petals-attract-pollinators",
+      "hotspotId": "hs-petal",
+      "definition": "The colored, often scented leaves around the flower that attract pollinators.",
+      "function": "Guides bees and birds to the flower so they can move pollen.",
+      "whereItIs": "The outer ring of a flower.",
+      "whyItMatters": "They let the flower recruit helpers to deliver pollen between flowers.",
+      "quizId": "flower-q-petal"
+    },
+    {
+      "term": "Stamen",
+      "conceptId": "stamen-pollen",
+      "hotspotId": "hs-stamen",
+      "definition": "The male part of a flower that makes pollen at its tip.",
+      "function": "Produces and holds the pollen that plants need to make seeds.",
+      "whereItIs": "A ring of slender stalks around the center of the flower.",
+      "whyItMatters": "It makes the pollen that must reach a pistil for a seed to form.",
+      "quizId": "flower-q-stamen"
+    },
+    {
+      "term": "Pistil",
+      "conceptId": "pistil-receives-pollen",
+      "hotspotId": "hs-pistil",
+      "definition": "The female part of a flower that receives pollen and is where a seed forms.",
+      "function": "Takes in the pollen and grows a seed in its base.",
+      "whereItIs": "The upright column at the center of the flower.",
+      "whyItMatters": "It is what must receive pollen for the flower to become a fruit with seeds.",
+      "quizId": "flower-q-pistil"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "componentId": "predator",
+  "terms": [
+    {
+      "term": "Predator",
+      "conceptId": "hunts-and-eats",
+      "hotspotId": "hs-hunt",
+      "definition": "An animal that hunts, catches, and eats other animals.",
+      "function": "Feeds by hunting.",
+      "whereItIs": "Lions, wolves, eagles, dragonflies.",
+      "whyItMatters": "They are the top hunters of the food chain.",
+      "relatedConcept": "hunting-adaptations",
+      "quizId": "pred-q-def"
+    },
+    {
+      "term": "Adaptation",
+      "conceptId": "hunting-adaptations",
+      "hotspotId": "hs-senses",
+      "definition": "A body feature or behavior that helps an animal survive.",
+      "function": "Gives predators an edge in hunting.",
+      "whereItIs": "Speed, sharp senses, claws, camouflage.",
+      "whyItMatters": "Better adaptations mean more successful hunting.",
+      "relatedConcept": "hunts-and-eats",
+      "quizId": "pred-q-adapt"
+    },
+    {
+      "term": "Predator-prey balance",
+      "conceptId": "keeps-prey-in-check",
+      "hotspotId": "hs-check",
+      "definition": "The way predators and prey keep each other's numbers in check.",
+      "function": "Keeps the ecosystem stable.",
+      "whereItIs": "In every ecosystem with hunting.",
+      "whyItMatters": "It stops any one species from taking over.",
+      "relatedConcept": "hunts-and-eats",
+      "quizId": "pred-q-balance"
+    }
+  ]
+}

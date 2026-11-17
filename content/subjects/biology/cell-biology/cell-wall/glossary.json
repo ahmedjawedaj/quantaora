@@ -1,0 +1,47 @@
+{
+  "componentId": "cell-wall",
+  "terms": [
+    {
+      "term": "Cell wall",
+      "conceptId": "cellulose-rigid-shell",
+      "hotspotId": "hs-wall-shell",
+      "definition": "The rigid outer layer of plant, fungal, and many bacterial cells that supports and protects the cell.",
+      "function": "Gives the cell its fixed shape and protects it.",
+      "whereItIs": "Outside the cell membrane.",
+      "whyItMatters": "It lets plants stand tall and keeps plant cells strong.",
+      "relatedConcept": "support-and-shape",
+      "quizId": "cw-q-material"
+    },
+    {
+      "term": "Cellulose",
+      "conceptId": "cellulose-rigid-shell",
+      "hotspotId": "hs-wall-shell",
+      "definition": "The tough carbohydrate that forms the plant cell wall.",
+      "function": "Provides the wall's strength.",
+      "whereItIs": "Woven through the plant cell wall.",
+      "whyItMatters": "Cellulose is what makes wood strong.",
+      "relatedConcept": "support-and-shape"
+    },
+    {
+      "term": "Pore (in cell wall)",
+      "conceptId": "cellulose-rigid-shell",
+      "hotspotId": "hs-pore",
+      "definition": "A small opening in the cell wall that lets water and materials pass through.",
+      "function": "Allows water and dissolved molecules to reach the membrane.",
+      "whereItIs": "Scattered across the cell wall.",
+      "whyItMatters": "The wall supports but does not block the cell's traffic.",
+      "relatedConcept": "works-with-membrane"
+    },
+    {
+      "term": "Turgor",
+      "conceptId": "support-and-shape",
+      "hotspotId": "hs-shape",
+      "definition": "The outward pressure of the water-filled vacuole pressing against the cell wall.",
+      "function": "Keeps plant cells firm.",
+      "whereItIs": "Inside plant cells, between vacuole and wall.",
+      "whyItMatters": "Together with the wall it is why plants stay upright.",
+      "relatedConcept": "cellulose-rigid-shell",
+      "quizId": "cw-q-job"
+    }
+  ]
+}

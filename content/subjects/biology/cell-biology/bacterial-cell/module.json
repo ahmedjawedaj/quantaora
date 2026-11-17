@@ -1,0 +1,20 @@
+{
+  "id": "bacterial-cell",
+  "subject": "biology",
+  "title": "Bacterial Cell",
+  "summary": "Explore a rod-shaped bacterium \u2014 a complete single-celled organism with no nucleus \u2014 to see how DNA, ribosomes, and cytoplasm share one open compartment, and compare that prokaryote design to the eukaryotic Animal Cell and Plant Cell components in the same branch.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "cell-membrane",
+    "cytoplasm",
+    "dna-nucleoid",
+    "ribosome",
+    "cell-wall",
+    "flagellum",
+    "prokaryote-vs-eukaryote"
+  ],
+  "type": "model",
+  "estimatedMinutes": 15,
+  "belongsTo": "Biology > Cell Biology > Cell-Type Groupings > Bacterial Cell"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "stomach",
+  "componentId": "stomach",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/stomach.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Muscle wall",
+    "Gastric juices",
+    "Mucus lining",
+    "Exit to intestine"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-stomach-bag",
+      "label": "Stomach bag",
+      "conceptId": "stomach-churns-food",
+      "position": [
+        0.0,
+        0.2,
+        0.1
+      ],
+      "description": "The stretchy muscular bag that holds and churns food.",
+      "color": "#D98A6A",
+      "function": "Holds food and churns it with muscle power.",
+      "positionHint": "The whole J-shaped organ."
+    },
+    {
+      "id": "hs-acid",
+      "label": "Gastric acid and enzymes",
+      "conceptId": "acid-and-enzymes",
+      "position": [
+        0.3,
+        0.05,
+        0.15
+      ],
+      "description": "The acidic juice and digestive enzymes that start breaking food down.",
+      "color": "#D9A441",
+      "function": "Start breaking down food and kill germs.",
+      "positionHint": "Inside the stomach."
+    },
+    {
+      "id": "hs-mucus",
+      "label": "Mucus lining",
+      "conceptId": "protein-breakdown",
+      "position": [
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "description": "The protective layer that shields the stomach wall from its own acid.",
+      "color": "#B5846A",
+      "function": "Protects the stomach from its own acid.",
+      "positionHint": "The inner surface of the wall."
+    },
+    {
+      "id": "hs-chyme",
+      "label": "Chyme leaving",
+      "conceptId": "chyme-to-intestine",
+      "position": [
+        -0.1,
+        -0.2,
+        0.25
+      ],
+      "description": "The soupy mixture leaving the stomach for the small intestine.",
+      "color": "#6B85A8",
+      "function": "The partially digested mixture that moves on.",
+      "positionHint": "Exit of the stomach."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a human stomach as a stylized-specimen study - a J-shaped muscular bag shown in a clean frontal cut so the inside is visible. The muscular wall in warm paper-red, a clear inner mucus lining, a pool of gastric juice (acid) at the lower region, and partially digested food pieces shown becoming a smooth soupy mixture at the exit. The exit (pylorus) opens toward a short section of intestine. Warm paper palette, muted, no glow. Named nodes: StomachWall, MucusLining, AcidPool, FoodPieces, ChymePool, PylorusExit. Budget 20-28k.",
+  "visual": {
+    "shape": "stomach-pouch"
+  }
+}

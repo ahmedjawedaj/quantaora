@@ -1,0 +1,80 @@
+{
+  "componentId": "breathing",
+  "questions": [
+    {
+      "id": "breathing-q-diaphragm",
+      "conceptId": "diaphragm-contraction",
+      "hotspotId": "hs-diaphragm",
+      "prompt": "What is the main job of the diaphragm during breathing?",
+      "options": [
+        "It contracts and flattens to enlarge the space inside the chest, driving air in",
+        "It filters dust and germs out of the air before it reaches the lungs",
+        "It stores extra oxygen for when you hold your breath",
+        "It pumps blood to the lungs so gas exchange can happen"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diaphragm is the main muscle of breathing. When it contracts and flattens, it enlarges the chest cavity, which pulls air in; when it relaxes and domes back up, it shrinks the cavity and helps push air out.",
+      "misconception": "Many learners think the lungs 'suck' air in on their own like a straw, or confuse the diaphragm's job with filtering (that's the nose and airways) or pumping blood (that's the heart) — the diaphragm's real job is purely to change chest volume and pressure."
+    },
+    {
+      "id": "breathing-q-lung-expansion",
+      "conceptId": "lung-expansion",
+      "hotspotId": "hs-lung-expansion",
+      "prompt": "Why do the lungs expand when you inhale?",
+      "options": [
+        "They are elastic, passive tissue that expands to fill the extra space created when the chest cavity enlarges",
+        "They have their own muscles that actively pull them outward",
+        "They shrink first, then bounce back to a larger size",
+        "They generate suction that pulls the diaphragm downward"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lungs have no muscles of their own — they're elastic, sponge-like tissue that simply follows the extra space the diaphragm and rib cage create around them.",
+      "misconception": "Learners often assume the lungs actively expand themselves, like a balloon being blown up from the inside, rather than being passively stretched because the surrounding cavity enlarges first."
+    },
+    {
+      "id": "breathing-q-inhale",
+      "conceptId": "inhale",
+      "hotspotId": "hs-inhale",
+      "prompt": "Which of these correctly orders the path air takes as you inhale?",
+      "options": [
+        "Nose/mouth → trachea → bronchi → alveoli",
+        "Nose/mouth → alveoli → trachea → bronchi",
+        "Trachea → nose/mouth → alveoli → bronchi",
+        "Bronchi → trachea → nose/mouth → alveoli"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inhaled air enters through the nose or mouth, travels down the trachea (windpipe), splits into the bronchi, and keeps branching into smaller airways until it reaches the alveoli at the very end.",
+      "misconception": "Some learners picture air reaching the alveoli directly, skipping over how many branching airway divisions — trachea, then bronchi, then smaller and smaller tubes — it actually passes through first."
+    },
+    {
+      "id": "breathing-q-gas-exchange",
+      "conceptId": "gas-exchange-alveoli",
+      "hotspotId": "hs-gas-exchange",
+      "prompt": "At the alveoli, which way do oxygen and carbon dioxide move?",
+      "options": [
+        "Oxygen moves from the air into the blood, and carbon dioxide moves from the blood into the air",
+        "Oxygen moves from the blood into the air, and carbon dioxide moves from the air into the blood",
+        "Both oxygen and carbon dioxide move from the air into the blood",
+        "Neither gas actually crosses the alveoli wall — only air pressure changes there"
+      ],
+      "correctIndex": 0,
+      "explanation": "At the alveoli, oxygen diffuses from the air (where there's more of it) into the blood (where there's less), while carbon dioxide diffuses the opposite way, from the blood into the air, so it can be exhaled.",
+      "misconception": "Students sometimes reverse the two directions, or assume both gases travel the same way since both are described as being 'exchanged' — but they move in opposite directions across the same thin wall."
+    },
+    {
+      "id": "breathing-q-exhale",
+      "conceptId": "exhale",
+      "hotspotId": "hs-exhale",
+      "prompt": "What triggers exhaling, right after a breath in?",
+      "options": [
+        "The diaphragm relaxes and domes back up, shrinking the chest cavity so the elastic lungs recoil and push air out",
+        "The alveoli actively squeeze air back up the airway",
+        "The trachea contracts to force air out",
+        "New oxygen entering the blood pushes the old air out"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exhaling is largely a passive recoil: the diaphragm relaxes and rises, the chest cavity shrinks, and the elastic lungs spring back to a smaller size, pushing carbon-dioxide-rich air back up the airway and out.",
+      "misconception": "Learners sometimes assume exhaling needs its own active 'push' muscle inside the lungs, rather than being mostly the diaphragm relaxing and the lungs' own elastic recoil doing the work."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "kidneys",
+  "questions": [
+    {
+      "id": "kid-q-job",
+      "conceptId": "kidney-cleans-blood",
+      "hotspotId": "hs-kidney-shape",
+      "prompt": "What is the main job of the kidneys?",
+      "options": [
+        "Filter waste from the blood and make urine",
+        "Pump blood around the body",
+        "Digest food",
+        "Make the heart beat"
+      ],
+      "correctIndex": 0,
+      "explanation": "The kidneys filter the blood, removing wastes and extra water to make urine, and return cleaned blood to the body.",
+      "misconception": "Pumping blood is the heart, digesting food is the gut - filtering blood is the kidneys' job."
+    },
+    {
+      "id": "kid-q-nephron",
+      "conceptId": "nephrons-filter-blood",
+      "hotspotId": "hs-nephron",
+      "prompt": "What tiny structures inside the kidney actually do the filtering?",
+      "options": [
+        "Nephrons",
+        "Alveoli",
+        "Villi",
+        "Neurons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each kidney contains about a million tiny filtering units called nephrons that filter the blood.",
+      "misconception": "Alveoli are in the lungs, villi in the intestine, neurons in the brain - the kidney's filters are nephrons."
+    },
+    {
+      "id": "kid-q-urine",
+      "conceptId": "waste-to-urine",
+      "hotspotId": "hs-urine",
+      "prompt": "After the kidneys make urine, where does it go?",
+      "options": [
+        "To the bladder to be stored",
+        "Back into the lungs",
+        "Into the stomach",
+        "To the brain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Urine travels from the kidneys down tubes (ureters) to the bladder, where it is stored until released.",
+      "misconception": "Urine is stored in the bladder, not sent to the lungs, stomach, or brain."
+    },
+    {
+      "id": "kid-q-balance",
+      "conceptId": "water-salt-balance",
+      "hotspotId": "hs-clean",
+      "prompt": "Besides removing waste, what do the kidneys help balance?",
+      "options": [
+        "Water and salts in the body",
+        "The color of the hair",
+        "The length of bones",
+        "The taste of food"
+      ],
+      "correctIndex": 0,
+      "explanation": "The kidneys adjust how much water and salt your body keeps, helping keep internal conditions balanced.",
+      "misconception": "The kidneys manage the body's internal fluid balance, not things like hair color or bone length."
+    },
+    {
+      "id": "kid-q-water",
+      "conceptId": "water-salt-balance",
+      "hotspotId": "hs-nephron",
+      "prompt": "What happens to most of the water the kidneys filter?",
+      "options": [
+        "It is reabsorbed back into the blood",
+        "It is always peed out",
+        "It turns into sweat only",
+        "It stays in the kidney"
+      ],
+      "correctIndex": 0,
+      "explanation": "The kidneys filter a huge amount of fluid but reabsorb almost all the useful water back into the blood, peeing out only what's extra.",
+      "misconception": "Only about 1-2 liters a day becomes urine - almost all the filtered water is cleverly recycled."
+    }
+  ]
+}

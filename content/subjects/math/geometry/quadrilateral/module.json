@@ -1,0 +1,86 @@
+{
+  "id": "quadrilateral",
+  "subject": "math",
+  "title": "Quadrilateral",
+  "summary": "A quadrilateral is any closed shape with four straight sides and four angles adding to 360°. Explore the family: squares, rectangles, rhombuses, trapezoids, and parallelograms.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "quadrilateral-definition",
+    "quadrilateral-360",
+    "quadrilateral-family",
+    "quadrilateral-flex"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Shapes",
+    "systemOrGroup": "Polygons",
+    "component": "Quadrilateral",
+    "displayPath": "Math > Geometry > Shapes > Polygons > Quadrilateral"
+  },
+  "crossReferences": [
+    {
+      "label": "Triangle (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Triangle",
+      "note": "A quadrilateral splits into two triangles along a diagonal — that is why its angles sum to 360°."
+    },
+    {
+      "label": "Perimeter (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Perimeter",
+      "note": "The perimeter of a quadrilateral is the sum of its four sides."
+    },
+    {
+      "label": "Area (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Area",
+      "note": "Rectangle area (length × width) is the base formula for area."
+    }
+  ],
+  "belongsTo": "Geometry > Shapes > Polygons",
+  "compareCandidate": {
+    "label": "Square vs. rhombus",
+    "description": "Both have four equal sides, but a square's corners are all right angles while a rhombus can lean — the angles decide."
+  },
+  "parts": [
+    "Four sides",
+    "Four vertices",
+    "Four angles"
+  ],
+  "processes": [
+    "Sorting the quadrilateral family",
+    "Showing angles sum to 360°"
+  ],
+  "plainLanguageExplanation": "A quadrilateral is any closed shape with four straight sides and four vertices. Its four interior angles always add up to 360°. The family has famous members: a square (four equal sides, four right angles), a rectangle (opposite sides equal, four right angles), a rhombus (four equal sides, leaning angles), a parallelogram (two pairs of parallel sides), and a trapezoid (at least one pair of parallel sides). Unlike a triangle, a quadrilateral is not rigid — a square frame can flex into a rhombus when pushed, which is why gates are braced with a diagonal.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Closed shape with 4 straight sides" },
+    { "label": "Angles", "value": "Sum to 360°" },
+    { "label": "Square", "value": "4 equal sides, 4 right angles" },
+    { "label": "Rectangle", "value": "Opposite sides equal, right angles" },
+    { "label": "Rhombus", "value": "4 equal sides, leaning" },
+    { "label": "Not rigid", "value": "A square frame flexes into a rhombus" }
+  ],
+  "whyItMatters": "Quadrilaterals are the shapes of doors, windows, screens, and rooms — the everyday polygons. Knowing their family and the 360° rule lets you measure and build everything rectangular in the real world.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Quadrilateral",
+  "tagline": "The four-sided family",
+  "didYouKnow": "'Quadrilateral' comes from Latin — 'quad' (four) and 'latus' (side). That is why a four-sided figure is a 'quad' in so many words: quad bike, quadruple, quadrilateral.",
+  "conditions": [
+    "Sorting shapes",
+    "Building rooms",
+    "Finding perimeter",
+    "Tile layouts"
+  ],
+  "compareCandidateId": "triangle",
+  "compareReason": "Students think all closed shapes are rigid — comparing the flexing quadrilateral with the rigid triangle shows why triangles are used to brace."
+}

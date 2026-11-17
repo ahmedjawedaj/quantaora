@@ -1,0 +1,52 @@
+{
+  "componentId": "mitochondrion",
+  "terms": [
+    {
+      "term": "Mitochondrion",
+      "conceptId": "cellular-respiration-energy",
+      "hotspotId": "hs-energy",
+      "definition": "The powerhouse organelle that releases usable energy from food.",
+      "function": "Breaks down food with oxygen to release energy in usable form.",
+      "where": "In the cytoplasm of almost all eukaryotic cells.",
+      "why": "Powers everything the cell does.",
+      "relatedConcept": "atp-energy",
+      "quizId": "mt-q-powerhouse"
+    },
+    {
+      "term": "Cellular respiration",
+      "conceptId": "cellular-respiration-energy",
+      "hotspotId": "hs-energy",
+      "definition": "The process of breaking down food with oxygen to release energy.",
+      "function": "Supplies the cell with usable, spendable energy.",
+      "where": "Mainly in the mitochondrion.",
+      "why": "It is how the body extracts energy from food.",
+      "relatedConcept": "atp-energy",
+      "whereItIs": "Mainly inside the mitochondrion.",
+      "whyItMatters": "It is how the body turns food into energy."
+    },
+    {
+      "term": "Cristae",
+      "conceptId": "inner-membrane-cristae",
+      "hotspotId": "hs-cristae",
+      "definition": "The folds of the inner membrane of the mitochondrion.",
+      "function": "Greatly increase the surface area of the inner membrane.",
+      "where": "Inside the mitochondrion.",
+      "why": "More folds means more energy can be made faster.",
+      "relatedConcept": "double-membrane-structure",
+      "quizId": "mt-q-cristae",
+      "whyItMatters": "More surface area means the cell can make energy faster."
+    },
+    {
+      "term": "ATP",
+      "conceptId": "atp-energy",
+      "hotspotId": "hs-energy",
+      "definition": "Adenosine triphosphate - the 'energy coin' the cell spends to power its work.",
+      "function": "Carries usable energy to where the cell needs it.",
+      "where": "Produced in the mitochondrion, spent around the cell.",
+      "why": "It is the cell's universal energy currency.",
+      "relatedConcept": "cellular-respiration-energy",
+      "quizId": "mt-q-atp",
+      "whereItIs": "Made in the mitochondrion, used all around the cell."
+    }
+  ]
+}

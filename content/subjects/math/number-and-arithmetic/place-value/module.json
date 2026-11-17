@@ -1,0 +1,87 @@
+{
+  "id": "place-value",
+  "subject": "math",
+  "title": "Place Value",
+  "summary": "Place value is the idea that the position of a digit in a number tells you its worth — the 5 in 573 means 500, but in 35 it means 5. Explore how hundreds, tens, and ones stack like blocks and why each position is worth ten times the one to its right.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "place-value-position-meaning",
+    "place-value-ten-times",
+    "place-value-regrouping",
+    "place-value-read-write"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Understanding Numbers",
+    "systemOrGroup": "Base-ten place value",
+    "component": "Place Value",
+    "displayPath": "Math > Number Sense And Arithmetic > Understanding Numbers > Base-ten place value > Place Value"
+  },
+  "crossReferences": [
+    {
+      "label": "Number line (Number Sense)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Number line",
+      "note": "place value explains why the marks on a number line stand for the values they do — each digit position carries a place."
+    },
+    {
+      "label": "Addition (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Addition",
+      "note": "Regrouping (carrying) in addition is place value in action — ten ones become one ten."
+    },
+    {
+      "label": "Multiplication (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Multiplication",
+      "note": "The powers-of-ten structure behind place value scales multiplication and makes units, tens, and hundreds line up."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Understanding Numbers > Base-ten place value",
+  "compareCandidate": {
+    "label": "Place value vs. counting count-ups",
+    "description": "Place value encodes a number by (digit × place), so 35 is 3 tens and 5 ones. Counting just lists tally marks one by one with no positional meaning. Place value is why we can write huge numbers in only a few digits."
+  },
+  "parts": [
+    "Hundreds, tens, and ones positions",
+    "Base-ten block representations",
+    "Digit charts of each number"
+  ],
+  "processes": [
+    "Reading and writing numbers by place",
+    "Regrouping ten ones into one ten",
+    "Comparing magnitude by place"
+  ],
+  "plainLanguageExplanation": "Place value means the value of a digit depends on where it sits in a number. Write 573 and read it as 5 hundreds + 7 tens + 3 ones. The 5 is worth 500 because it is in the hundreds place; a 5 could be just 5 if it sat in the ones place. This works because our number system is base ten — moving one position to the left multiplies a digit's value by ten, moving right divides by ten. Think of each number as a stack: tens are bundles of ten ones, hundreds are bundles of ten tens. When a column reaches ten it becomes a carry into the next place. Place value is the engine that lets a few symbols write any sized number.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A digit's value = its digit × its place (ones, tens, hundreds)" },
+    { "label": "Base ten", "value": "Each place is 10× the place to its right" },
+    { "label": "Example", "value": "In 573: 5 hundreds, 7 tens, 3 ones = 500 + 70 + 3" },
+    { "label": "Regroup", "value": "Ten ones make one ten, ten tens make one hundred" },
+    { "label": "More places", "value": "Thousands, ten-thousands, hundred-thousands continue the pattern" },
+    { "label": "Worth", "value": "Position changes worth: 3 in 35 is 3, 3 in 350 is 30" }
+  ],
+  "whyItMatters": "Place value is the doorway to all arithmetic. It lets us add by columns, borrow when subtracting, line up multiplication, understand big numbers, and later read decimals. Without identical place-shifts across the digits, standard paper-and-pencil math would not work, so this concept underpins many future skills.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Base-ten place value",
+  "tagline": "A digit's position tells its worth",
+  "didYouKnow": "Our place-value system is so efficient that with just ten digits you can write the number of sand grains on every beach — the position does all the heavy lifting.",
+  "conditions": [
+    "Reading large numbers",
+    "Column addition",
+    "Regrouping",
+    "Rounding"
+  ],
+  "compareCandidateId": "number-line",
+  "compareReason": "Place value decodes the digits hidden inside each number that a number line displays as a single point — together they show a number is both a position and a digit code."
+}

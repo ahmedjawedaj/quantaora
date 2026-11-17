@@ -1,0 +1,88 @@
+{
+  "branchId": "fluids",
+  "subject": "physics",
+  "qualityGoal": "Replace authored tank/tube diagrams with real lab glassware and fluid apparatus props for pressure, buoyancy, density, and flow experiments.",
+  "sourcePolicy": {
+    "preferred": ["CC0 Public Domain", "Public domain"],
+    "allowedWithReview": ["CC Attribution"],
+    "rejectedForPaidProduct": ["CC Attribution-NonCommercial", "CC Attribution-NonCommercial-NoDerivs", "CC BY-NC", "CC BY-NC-SA", "CC BY-SA", "CC BY-ND"]
+  },
+  "candidates": [
+    {
+      "id": "its2bat-beaker",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-fluids-pressure", "physics-fluids-density", "physics-fluids-buoyancy"],
+      "assetName": "Beaker",
+      "provider": "Sketchfab",
+      "creator": "its2bat",
+      "uid": "1f9d315d27f54aa98f337cd3a49d7dbc",
+      "sourceUrl": "https://sketchfab.com/3d-models/beaker-1f9d315d27f54aa98f337cd3a49d7dbc",
+      "apiUrl": "https://api.sketchfab.com/v3/models/1f9d315d27f54aa98f337cd3a49d7dbc",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 23486,
+      "fit": "Beaker gives pressure, density, and buoyancy a familiar lab container.",
+      "risk": "Attribution copy required; transparent material needs visual QA."
+    },
+    {
+      "id": "cesar-seidel-graduated-cylinders",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-fluids-pressure", "physics-fluids-density"],
+      "assetName": "Graduated Cylinders",
+      "provider": "Sketchfab",
+      "creator": "cesar.seidel",
+      "uid": "e0a1a66e2d104e4fb5b410ea84cd6b6f",
+      "sourceUrl": "https://sketchfab.com/3d-models/graduated-cylinders-e0a1a66e2d104e4fb5b410ea84cd6b6f",
+      "apiUrl": "https://api.sketchfab.com/v3/models/e0a1a66e2d104e4fb5b410ea84cd6b6f",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 3552,
+      "fit": "Graduation marks make volume and density readings more concrete.",
+      "risk": "Attribution copy required; verify scale markings are readable after optimization."
+    },
+    {
+      "id": "thelegokid4455-lab-glassware",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-fluids-pressure", "physics-fluids-flow-viscosity"],
+      "assetName": "Lab Glassware",
+      "provider": "Sketchfab",
+      "creator": "thelegokid4455",
+      "uid": "18910c5df5134de784ed6811407e2a05",
+      "sourceUrl": "https://sketchfab.com/3d-models/lab-glassware-18910c5df5134de784ed6811407e2a05",
+      "apiUrl": "https://api.sketchfab.com/v3/models/18910c5df5134de784ed6811407e2a05",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 2278,
+      "fit": "Multiple glassware pieces can support a richer fluid lab bench without heavy geometry.",
+      "risk": "Attribution copy required; choose only readable props after import."
+    },
+    {
+      "id": "itschemistry2-graduated-cylinder",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-fluids-density", "physics-fluids-buoyancy"],
+      "assetName": "Graduated cylinder",
+      "provider": "Sketchfab",
+      "creator": "itschemistry2",
+      "uid": "e80739446d4c46d4a9c637c025694fec",
+      "sourceUrl": "https://sketchfab.com/3d-models/graduated-cylinder-e80739446d4c46d4a9c637c025694fec",
+      "apiUrl": "https://api.sketchfab.com/v3/models/e80739446d4c46d4a9c637c025694fec",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 21756,
+      "fit": "Single cylinder is useful for focused density and displacement activities.",
+      "risk": "Attribution copy required; compare against lower-poly cylinder set before wiring."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "storiel-bronze-age-beaker",
+      "assetName": "Bicer Oes Efydd / Bronze Age beaker",
+      "provider": "Sketchfab",
+      "creator": "Storiel",
+      "uid": "666a3bb70b104aeab23ecb0210de98db",
+      "sourceUrl": "https://sketchfab.com/3d-models/bicer-oes-efydd-bronze-age-beaker-666a3bb70b104aeab23ecb0210de98db",
+      "license": "CC Attribution-NonCommercial",
+      "reason": "Non-commercial license and archaeology object, not a lab fluid apparatus."
+    }
+  ]
+}

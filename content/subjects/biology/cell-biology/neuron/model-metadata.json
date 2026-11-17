@@ -1,0 +1,144 @@
+{
+  "id": "neuron",
+  "componentId": "neuron",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/neuron/neuron.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/neuron.png",
+  "defaultCamera": {
+    "position": [
+      4.5,
+      2.8,
+      5.5
+    ],
+    "target": [
+      0.8,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      4.5,
+      2.8,
+      5.5
+    ],
+    "target": [
+      0.8,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Membrane & Cytoplasm",
+    "Nucleus & Organelles",
+    "Myelin Sheath",
+    "Axon Terminals & Synapse"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-soma",
+      "label": "Cell Body (Soma)",
+      "conceptId": "cell-body-soma",
+      "position": [
+        0,
+        0,
+        0.4
+      ],
+      "description": "The neuron's control center — houses the nucleus and organelles, and integrates incoming signals from the dendrites before passing them down the axon.",
+      "positionHint": "Front-facing surface of the large central bulb, roughly at model origin [0, 0, 0.4] — the hub the dendritic tree and axon both attach to."
+    },
+    {
+      "id": "hs-nucleus",
+      "label": "Nucleus",
+      "conceptId": "nucleus",
+      "position": [
+        -0.05,
+        0.15,
+        0.45
+      ],
+      "description": "Holds the neuron's DNA and directs protein production; visible only when the soma is cross-sectioned or shown semi-transparent.",
+      "positionHint": "Slightly upper-front region inside the soma [-0.05, 0.15, 0.45], offset from the soma hotspot so the two dots never overlap; opens the cross-section cutaway on click."
+    },
+    {
+      "id": "hs-mitochondrion",
+      "label": "Mitochondrion",
+      "conceptId": "mitochondrion",
+      "position": [
+        -0.35,
+        -0.15,
+        0.35
+      ],
+      "description": "Small bean-shaped organelle that produces the ATP energy the neuron needs to fire and maintain its ion gradients.",
+      "positionHint": "Small surface bump near the base of the soma close to the axon hillock [-0.35, -0.15, 0.35]; one representative organelle rendered slightly larger than true scale for legibility."
+    },
+    {
+      "id": "hs-dendrites",
+      "label": "Dendrites",
+      "conceptId": "dendrites",
+      "position": [
+        -1.9,
+        1.0,
+        0.1
+      ],
+      "description": "Branching, tapering extensions that receive chemical signals from neighboring neurons and carry them toward the cell body.",
+      "positionHint": "Outer tip of the branching tree extending left and upward from the soma [-1.9, 1.0, 0.1]."
+    },
+    {
+      "id": "hs-axon",
+      "label": "Axon",
+      "conceptId": "axon",
+      "position": [
+        0.5,
+        -0.2,
+        0
+      ],
+      "description": "The single long fiber that carries the neuron's electrical signal (action potential) away from the cell body toward the terminals.",
+      "positionHint": "Mid-shaft point on the unmyelinated stretch of the axon just past the axon hillock [0.5, -0.2, 0] — within the unmyelinated zone (roughly x: 0.35 to 0.65, the first ~15% of the axon shaft that runs from x: 0.3 to 3.2)."
+    },
+    {
+      "id": "hs-myelin-sheath",
+      "label": "Myelin Sheath",
+      "conceptId": "myelin-sheath",
+      "position": [
+        2.1,
+        -0.3,
+        0
+      ],
+      "description": "Fatty insulating segments wrapped around the axon that speed up signal transmission; gaps between segments are the nodes of Ranvier.",
+      "positionHint": "One of the sausage-link capsule segments further along the axon shaft [2.1, -0.3, 0], with a visible gap (node of Ranvier) on either side."
+    },
+    {
+      "id": "hs-axon-terminals",
+      "label": "Axon Terminals",
+      "conceptId": "axon-terminals",
+      "position": [
+        3.4,
+        0.15,
+        0.2
+      ],
+      "description": "The branching endings at the far tip of the axon where the electrical signal is converted into a chemical one to cross to the next cell.",
+      "positionHint": "Branching cluster of small bulbous endings at the far right of the model [3.4, 0.15, 0.2]."
+    },
+    {
+      "id": "hs-synapse",
+      "label": "Synapse",
+      "conceptId": "synapse",
+      "position": [
+        3.7,
+        -0.2,
+        0.3
+      ],
+      "description": "The junction — and tiny gap — between an axon terminal and the next neuron's dendrite, where neurotransmitters carry the signal across.",
+      "positionHint": "The synaptic bouton facing a small neighboring dendrite-spine stub, offset in depth to show the cleft [3.7, -0.2, 0.3]."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier language throughout: warm off-white studio background (#F7F3EC-ish), soft single key light + gentle fill (no rim-light glow, no bloom/emissive), low-poly-realistic (not photoreal, not cartoon) stylized organic surfaces with smooth continuous topology — no faceted low-poly look, no toon outlines. Silhouette reads instantly as \"neuron\" even before rotation: bulbous soma with a spreading branching crown on one side and one long tapering fiber with visible periodic myelin segmentation and a small terminal spray on the other. Colors are muted and naturalistic, desaturated versions of Quantaora's Biology palette (coral, leaf green, warm paper) rather than saturated textbook-diagram primaries — this is a specimen model, not an infographic. Hotspot dots are small, flat, single warm-coral accent circles with a thin off-white ring. This is an intentional simplification, not a claim of parity with the reference's small curated multi-hue dot palette (muted orange/maroon/navy/purple-family rings) — a single accent hue keeps 8 hotspots on one model legible and avoids the \"rainbow diagram\" clutter the spec explicitly rules out; revisit per-hotspot hue variation only if user testing shows the single-hue dots are hard to distinguish against the model surface. No glow, no particle/signal animation baked into the model itself (any action-potential animation is a separate simulation layer, not part of this static asset), no facial features or googly-eye anthropomorphizing, no exaggerated toon proportions.",
+  "materialNotes": "Matte-leaning but not flat-matte: physically-based shading with a subtle soft specular sheen (roughness ~0.45-0.65, low but non-zero specular) consistent with the reference's tactile, faintly organic tissue sheen — the reference is not fully matte, so a small highlight roll-off on curved surfaces (soma, dendrite roots) is expected and desirable. Avoid hard glossy \"wet\" highlights or hotspot-like specular hotspots; the sheen should read as soft tissue, not plastic or rubber. Soma/dendrites/axon share a family of warm, muted flesh-coral tones (desaturated coral, not neon pink) — dendrites slightly lighter/more translucent-looking than the soma to suggest fine structure. Nucleus: a deeper, muted maroon-coral, clearly a distinct internal density from the surrounding cytoplasm. Mitochondria: small muted leaf-green-tinted accent, just enough color shift to be identifiable as a distinct organelle without looking neon or \"infographic-colored.\" Myelin sheath: warm ivory/cream tone, visibly lighter than the bare axon shaft color showing at the nodes of Ranvier gaps — this contrast is the primary visual cue that \"this part is different.\" Axon shaft (unmyelinated sections, terminals): a slightly more tan/muted-beige tone than the soma, subtle gradation acceptable. No subsurface-scattering theatrics, no emissive/glow anywhere on the mesh.",
+  "assetBrief": "SUBJECT: Neuron (multipolar motor/interneuron archetype — the generic teaching form, not a specific cell subtype), Cell Biology > Specialized Cells, Biology.\n\nOVERALL FORM & PROPORTIONS (model space, roughly 6.3 units wide x 2 units tall bounding box, origin at soma center):\n- Soma (cell body): rounded, slightly irregular polygonal blob (not a perfect sphere — organic, teardrop-ish), ~1.0 unit diameter, centered near [0,0,0]. This is the visual anchor and should read as the largest single mass.\n- Dendrites: a branching tree emerging from the soma's upper-left, 3-4 orders of forking, tapering from ~0.15 unit thickness at the root to fine tips, spreading into a ~1.6 unit-wide crown occupying roughly x: -2.2 to -0.4, y: -0.2 to 1.3. Branches should taper smoothly (spline-lofted, not uniform tubes) and have slightly irregular, organic bend — avoid symmetric/mirrored branches, avoid perfectly straight segments.\n- Axon hillock: a short, gently narrowing cone where the axon exits the soma on the opposite (right) side, transitioning into the axon shaft.\n- Axon shaft: a single long tapering tube, unmyelinated for the first ~15% of its length (axon hillock zone, hotspot lives here, roughly x: 0.3 to 0.75), then myelinated for the remaining length, running roughly x: 0.3 to 3.2, staying near y: -0.3 to 0, mild gentle curve (not ruler-straight) for organic feel.\n- Myelin sheath: 5-7 discrete capsule (\"sausage link\") segments wrapped around the axon at regular intervals, each segment ~0.35 unit long with a visible narrow gap (~0.06 unit, the node of Ranvier) between segments — segments should read as a slightly thicker, smoother, lighter-toned wrap distinct from the bare axon color at the gaps.\n- Axon terminals: at the far end (~x: 3.2 to 3.9), the axon forks 3-5 times into thinner branches ending in small bulbous knobs (terminal boutons), spreading modestly in y and z for visual interest.\n- Synapse: one terminal bouton is posed near (but not touching) a small stub of a neighboring dendrite spine (a minimal secondary mesh, just enough to convey \"another cell\"), with a visible ~0.05 unit gap between them — this gap is the synaptic cleft and should be readable at the default camera framing without needing extreme zoom.\n- Internal structures (nucleus, mitochondrion): modeled as real internal geometry (not just texture), positioned inside the soma so a cross-section/cutaway (planar clip or soma-transparency toggle) reveals a smooth rounded nucleus (~0.35 unit diameter, slightly denser/darker matte tone) slightly upper-center, and one or two small bean-shaped mitochondria (~0.08-0.12 unit, subtle simplified cristae ridging suggested by 3-4 shallow grooves, not a full realistic membrane fold count) nested near the axon hillock base.\n\nMATERIAL & SHADING DIRECTION: see materialNotes field above — subtle soft specular tissue sheen is expected, not fully matte.\n\nTOPOLOGY & TECHNICAL:\n- Clean quad-dominant topology, subdivision-friendly, suitable for smooth shading with no visible faceting at the default camera distance.\n- Target a mid-poly budget appropriate for real-time web rendering (roughly 15-30k triangles total across soma + dendrites + axon + myelin + terminals + internal organelles) — favor smooth silhouettes over fine surface detail.\n- Deliver as a single glb with named node hierarchy matching the hotspot conceptIds (e.g. nodes/mesh groups named `soma`, `nucleus`, `mitochondrion`, `dendrites`, `axon`, `myelin-sheath`, `axon-terminals`, `synapse-spine`) so hotspot-to-mesh mapping and the isolate/layer-toggle interactions (spec §13) can target each part directly without manual re-rigging.\n- Myelin segments should be separate mesh instances (not one fused tube) so the layer toggle can hide/show \"Myelin Sheath\" as a group independently of the bare axon.\n- Provide the nucleus and mitochondria as separate closed meshes fully enclosed within the soma volume (not just baked into a texture) so a real geometric cross-section/clip-plane can slice through the soma and reveal them per spec §13's cross-section requirement.\n- Scale/units: treat 1 unit ≈ notional \"cell scale,\" not literal micrometers — biological true-to-scale ratios (axons can be enormously long relative to soma) are compressed here for legibility; do not attempt real-world proportions.\n\nCAMERA & PRESENTATION:\n- Default camera frames the whole elongated form on a slight diagonal (roughly a 3/4 view from front-upper-right), with the soma+dendrite crown on the left third and the axon trailing off to the right, terminals not clipped at the frame edge.\n- Auto-rotate is on by default at a slow, calm speed (per Anatomy Atelier's ambient feel) — rotation should orbit around the model's Y axis through the target point, not spin the whole scene erratically.\n- Background: warm off-white studio seamless, no visible ground plane or shadow-catcher hard edge — soft contact shadow only.\n\nDO NOT:\n- Do not add a face, eyes, or any anthropomorphic features to the soma.\n- Do not animate an electrical pulse/glow traveling down the axon as part of this static model asset — that belongs to a separate simulation layer, not the ModelAsset itself.\n- Do not use saturated primary \"textbook diagram\" colors (bright red nucleus, bright yellow myelin, etc.) — keep the muted, naturalistic Anatomy Atelier palette.\n- Do not make dendrites perfectly symmetric mirror-copies of each other — vary branch angles and lengths for an organic, non-templated look.\n- Do not add glow, bloom, rim lighting, or particle effects anywhere on the mesh or materials.\n- Do not render nodes of Ranvier as sharp hard-edged rings — keep the transition between myelin segment and bare axon soft and rounded, matching the reference's soft-tactile-card, non-technical-diagram feel.\n- Do not exceed the mid-poly budget with unnecessary fine surface detail (membrane ruffling, visible ribosomes, etc.) that won't read at typical viewer zoom levels.",
+  "visual": {
+    "shape": "nerve-impulse"
+  }
+}

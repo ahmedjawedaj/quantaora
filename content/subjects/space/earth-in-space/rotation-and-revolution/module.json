@@ -1,0 +1,46 @@
+{
+  "id": "rotation-and-revolution",
+  "subject": "space",
+  "title": "Rotation & Revolution",
+  "name": "Rotation & Revolution",
+  "scientificName": "Axial rotation vs. orbital revolution",
+  "branch": "Earth In Space",
+  "system": "Earth · two motions at once",
+  "model": "",
+  "tagline": "Two completely different motions, happening at the same time",
+  "summary": "Earth is always doing two things at once: spinning on its own axis (rotation), and gliding along its path around the Sun (revolution). They're easy to mix up because they're both called \"Earth's motion\" — but one takes about 24 hours and the other takes about 365 days, and you can change how fast either one happens without touching the other at all.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": ["axial-rotation", "orbital-revolution", "day-night-cycle", "equator-and-hemispheres"],
+  "type": "simulation",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Earth In Space",
+    "unit": "Earth's Motion & Cycles",
+    "systemOrGroup": "Earth · two motions at once",
+    "component": "Rotation & Revolution",
+    "displayPath": "Space > Earth In Space > Earth's Motion & Cycles > Earth · two motions at once > Rotation & Revolution"
+  },
+  "belongsTo": ["Earth In Space", "Space"],
+  "keyFacts": [
+    { "label": "Rotation period", "value": "~24 hours — one full spin on its axis" },
+    { "label": "Revolution period", "value": "~365.25 days — one full lap around the Sun" },
+    { "label": "Axis", "value": "An imaginary line through the North and South Poles that Earth spins around" },
+    { "label": "Orbit", "value": "Earth's roughly circular path around the Sun" },
+    { "label": "Equator", "value": "The imaginary line circling Earth exactly halfway between the poles" },
+    { "label": "Hemisphere", "value": "Half of Earth — Northern, Southern, Eastern, or Western" }
+  ],
+  "whyItMatters": "Rotation is why every place on Earth gets a day and a night. Revolution is why a full year takes as long as it does. Confusing the two is one of the most common mix-ups in astronomy — and the fastest way to un-confuse them is to watch both happen at once, at speeds you control independently.",
+  "didYouKnow": "The equator is moving faster than a commercial jet — about 1,670 km/h — just from Earth's rotation, even though it never feels like we're moving at all.",
+  "conditions": ["Earth spins on a fixed axis", "Earth simultaneously orbits the Sun", "Both motions run continuously and independently"],
+  "compareCandidateId": "axial-tilt-and-seasons",
+  "compareReason": "Rotation and revolution are the two raw motions; tilt is what turns revolution into seasons. Seeing plain revolution first (no tilt effect highlighted) makes it obvious what tilt actually adds.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "median",
+  "subject": "math",
+  "title": "Median",
+  "summary": "The median is the middle value of a sorted dataset — splitting it in half. Explore how to find the middle, handle even counts, and why the median resists outliers.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "median-definition",
+    "median-sort",
+    "median-even",
+    "median-outlier"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Statistics",
+    "systemOrGroup": "Summarizing data",
+    "component": "Median",
+    "displayPath": "Math > Data And Statistics > Statistics > Summarizing data > Median"
+  },
+  "crossReferences": [
+    {
+      "label": "Mean (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Mean",
+      "note": "The median and mean are two different summaries — often close, different when outliers exist."
+    },
+    {
+      "label": "Outlier (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Outlier",
+      "note": "The median ignores an extreme point's size, only its position."
+    },
+    {
+      "label": "Data point (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Data point",
+      "note": "The median splits the sorted list of data points in half."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Statistics > Summarizing data",
+  "compareCandidate": {
+    "label": "Median vs. mean",
+    "description": "The median is the middle of the sorted list (position-based); the mean is the fair share (value-based). An outlier moves the mean but barely touches the median."
+  },
+  "parts": [
+    "The sorted list",
+    "The middle position",
+    "The middle value"
+  ],
+  "processes": [
+    "Sorting data from low to high",
+    "Finding the middle for odd and even counts"
+  ],
+  "plainLanguageExplanation": "The median is the middle value of a dataset after you sort it from lowest to highest. Sort 3, 1, 2 into 1, 2, 3 and the middle is 2. With an odd count there is one middle point. With an even count, take the two middle values and find their mean — for 1, 2, 4, 5 the two middles are 2 and 4, so the median is (2+4)÷2 = 3. Because the median only cares about position, one giant outlier barely moves it — that makes it the trusty summary for incomes, house prices, and times.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The middle value of sorted data" },
+    { "label": "First step", "value": "Sort low to high" },
+    { "label": "Odd count", "value": "The middle item" },
+    { "label": "Even count", "value": "Average the two middle items" },
+    { "label": "Example", "value": "1, 2, 4, 5 → median (2+4)÷2 = 3" },
+    { "label": "Outlier-proof", "value": "Position, not value, decides it" }
+  ],
+  "whyItMatters": "News reports about 'typical' incomes and median home prices use the median because one billionaire or mansion does not distort it. Understanding the median lets you read those headlines honestly.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Median",
+  "tagline": "The middle value",
+  "didYouKnow": "The word 'median' comes from Latin 'medianus' — 'the middle one'. Same root as 'medium' and 'median strip' on a highway, which also runs down the middle.",
+  "conditions": [
+    "Income reports",
+    "House prices",
+    "Test score reporting",
+    "Skewed data"
+  ],
+  "compareCandidateId": "mean",
+  "compareReason": "Students treat the average as always fair — comparing the position-based median with the value-based mean shows when to trust which one."
+}

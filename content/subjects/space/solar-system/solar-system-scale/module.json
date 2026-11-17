@@ -1,0 +1,103 @@
+{
+  "id": "solar-system-scale",
+  "subject": "space",
+  "title": "Solar System Scale",
+  "summary": "The solar system is overwhelmingly a story of empty space. The Sun is about 109 times wider than Earth, the planets are tiny specks by comparison, and the gaps between them are enormous — the average Earth–Sun distance, one astronomical unit, is about 150 million km. Explore a scale-mode model that toggles between size-only and true-distance views to see why most textbook diagrams quietly compress the distances.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "sun-dominates-in-size",
+    "au-distance-unit",
+    "planets-are-tiny-specks",
+    "distance-gaps-are-huge",
+    "light-travel-time-across-solar-system"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Solar System",
+    "unit": "Sun and Planets",
+    "systemOrGroup": "Solar system (scale model)",
+    "component": "Solar System Scale",
+    "displayPath": "Space > Solar System > Sun and Planets > Solar system (scale model) > Solar System Scale"
+  },
+  "crossReferences": [
+    {
+      "label": "Planet Size Comparison (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet size comparison",
+      "note": "Scale mode in this component shows size-to-scale planets in a line; the Planet Size Comparison component lets you line the planets and the Sun up side by side and directly compare radii."
+    },
+    {
+      "label": "Distance From Sun Timeline (Solar System)",
+      "branch": "solar-system",
+      "component": "Distance from Sun timeline",
+      "note": "The astronomical unit and the spacing between orbits introduced here are worked through in detail in the Distance From Sun Timeline component, which walks the planets out from the Sun one at a time."
+    },
+    {
+      "label": "Orbit Simulator (Solar System)",
+      "branch": "solar-system",
+      "component": "Orbit simulator",
+      "note": "True distances only make sense when objects move along them — the Orbit Simulator component animates the planets along these same vast distances and shows how spacing changes each planet's year."
+    }
+  ],
+  "belongsTo": "Solar System > Sun and Planets > Solar system (scale model)",
+  "compareCandidate": {
+    "label": "To-scale model vs. textbook diagram",
+    "description": "A true-to-scale model shows planets as tiny specks scattered across enormous empty space, with the Sun as a giant at one end. Most textbook diagrams instead draw planets large enough to label and squeeze the orbits together — useful for naming, but deeply misleading about how much space there really is."
+  },
+  "parts": [
+    "The Sun (109 × Earth)",
+    "Inner planets (tiny rocky worlds)",
+    "Outer planets (huge but far away)",
+    "The distance gap between Mars and Jupiter",
+    "The AU scale bar and light-travel times"
+  ],
+  "processes": [
+    "Comparing sizes with relative radius",
+    "Measuring solar system distances in astronomical units",
+    "Light travel time as a way to feel the distances",
+    "Why diagrams must choose between showing size and showing distance"
+  ],
+  "plainLanguageExplanation": "If you drew the solar system on a piece of paper with the planets all visible, you'd be drawing a lie — not on purpose, but because real distances are so huge that the planets would be invisible dots. The Sun is about 109 times wider than Earth. The distance from the Sun to Earth is about 150 million km, and scientists use that distance as a ruler called the astronomical unit (AU). Mercury is about 0.4 AU from the Sun, Jupiter about 5 AU, and Neptune about 30 AU. If you shrank the whole solar system so the Sun was the size of a basketball, Earth would be a peppercorn about 30 m away and Neptune would be a marble nearly a kilometre out. Sunlight takes about 8 minutes to reach Earth and roughly 4–5 hours to reach Neptune. This component's model toggles between two views: a size-only view that lines up the planets like a family photo, and a true-distance view that keeps the sizes honest and pushes the planets far apart — so you can feel the emptiness for yourself.",
+  "keyFacts": [
+    {
+      "label": "Sun vs. Earth",
+      "value": "The Sun's radius is about 109 times Earth's — more than a million Earths could fit inside its volume"
+    },
+    {
+      "label": "Astronomical unit (AU)",
+      "value": "The average Sun–Earth distance, about 150 million km — the standard ruler for solar system distances"
+    },
+    {
+      "label": "Planet distances",
+      "value": "Mercury ~0.4 AU, Earth 1 AU, Jupiter ~5 AU, Neptune ~30 AU"
+    },
+    {
+      "label": "Light travel time",
+      "value": "Sunlight takes about 8 minutes to reach Earth and roughly 4–5 hours to reach Neptune"
+    },
+    {
+      "label": "What most diagrams hide",
+      "value": "At true scale, planets are specks separated by huge empty gaps; diagrams must compress distances to stay readable"
+    },
+    {
+      "label": "Scale toggle",
+      "value": "The model switches between a size-only lineup and a true-distance view so the emptiness becomes visible"
+    }
+  ],
+  "whyItMatters": "Almost every picture of the solar system you've ever seen is a compromise, and understanding that compromise is a real scientific skill: reasoning about scale. Space missions, satellite launches, and even the design of the Voyager probes all depend on engineers holding true distances in their heads. When you learn that the planets are tiny specks in a vast emptiness, questions that seem mysterious — why it takes months to reach Mars, why the outer planets are so cold, why Pluto was demoted to dwarf planet — start answering themselves. Scale is the first big idea that makes the rest of space science click.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Relative Scale of the Solar System",
+  "tagline": "A vast emptiness dotted with specks",
+  "didYouKnow": "If the Sun were the size of a basketball, the nearest star system, Alpha Centauri, would be another basketball about 7,000 km away — farther than a flight from London to Los Angeles.",
+  "compareCandidateId": "planet-size-comparison",
+  "compareReason": "Scale mode lines the planets up by distance with honest sizes; the Planet Size Comparison component lines them up by size alone — together they separate the two confusions (how big, how far) that diagrams usually blur."
+}

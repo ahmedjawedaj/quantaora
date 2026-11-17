@@ -1,0 +1,109 @@
+{
+  "id": "root",
+  "subject": "biology",
+  "title": "Root",
+  "summary": "A root is the part of a plant that grows downward into the soil, anchoring the plant and soaking up water and minerals. Explore the root tip, root hairs, and the tissues that carry water upward into the stem.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "root-anchors-plant",
+    "root-hairs-absorb-water",
+    "root-absorbs-minerals",
+    "root-cap-protects",
+    "root-axial-conductivity"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Structure",
+    "systemOrGroup": "Plant organs",
+    "component": "Root",
+    "displayPath": "Biology > Plants > Plant Structure > Plant organs > Root"
+  },
+  "crossReferences": [
+    {
+      "label": "Stem (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Stem",
+      "note": "Water and minerals taken up by root hairs travel up through the stem to the leaves."
+    },
+    {
+      "label": "Xylem (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Xylem",
+      "note": "The root's inner conducting tissue is xylem, which carries water upward."
+    },
+    {
+      "label": "Chloroplast (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Chloroplast",
+      "note": "Roots mostly live in dark soil, so they contain few or no chloroplasts and do not photosynthesize; leaves do that work."
+    }
+  ],
+  "belongsTo": "Plants > Plant Structure > Plant organs",
+  "compareCandidate": {
+    "label": "Roots vs. stems",
+    "description": "Roots grow downward into the soil to anchor the plant and absorb water and minerals. Stems grow upward toward the light, support the leaves and flowers, and carry water and food between roots and leaves."
+  },
+  "parts": [
+    "Root tip",
+    "Root cap",
+    "Root hairs",
+    "Xylem water tubes",
+    "Food storage",
+    "Anchor"
+  ],
+  "processes": [
+    "Absorbing water and minerals from the soil",
+    "Anchoring the plant in the ground",
+    "Transporting water up to the stem",
+    "Storing food"
+  ],
+  "plainLanguageExplanation": "A root is the part of a plant that grows down into the soil. It does three big jobs: it anchors the plant so it doesn't blow away or get pulled out, it soaks up water and minerals from the soil, and it sometimes stores food. The very tip of the root has a protective cap that pushes through the soil. Just behind the tip, tiny finger-like hairs called root hairs grow out and greatly increase the surface area, which lets the root absorb a lot of water. From the root, that water is carried up into the stem and then to the leaves.",
+  "keyFacts": [
+    {
+      "label": "Direction",
+      "value": "Roots grow downward into the soil (gravitropism)"
+    },
+    {
+      "label": "Main jobs",
+      "value": "Anchor the plant, absorb water and minerals, store food"
+    },
+    {
+      "label": "Absorption surface",
+      "value": "Root hairs - millions of tiny extensions that boost surface area"
+    },
+    {
+      "label": "Root cap",
+      "value": "A protective covering at the very tip that shields it while pushing through soil"
+    },
+    {
+      "label": "No chloroplasts",
+      "value": "Roots live in dark soil so they do not photosynthesize; leaves do that"
+    },
+    {
+      "label": "Food storage",
+      "value": "Many roots store sugar and starch (like carrots and potatoes)"
+    }
+  ],
+  "whyItMatters": "Roots are the underground engine of every plant. Without them plants could not stand, could not get water, and could not survive. Understanding roots explains why plants can survive storms, why watering matters, and how crops store food underground in things like carrots.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Radix",
+  "tagline": "The plant's underground anchor and drinking straw",
+  "didYouKnow": "One large plant may have millions of root hairs, giving it a huge surface area to soak up water from the soil.",
+  "conditions": [
+    "Water uptake",
+    "Mineral uptake",
+    "Anchoring"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Structure > Plant organs > Root"
+}

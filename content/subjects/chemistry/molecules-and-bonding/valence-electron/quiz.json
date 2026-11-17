@@ -1,0 +1,65 @@
+{
+  "componentId": "valence-electron",
+  "questions": [
+    {
+      "id": "valence-q-definition",
+      "conceptId": "valence-outermost-shell",
+      "hotspotId": "hs-valence-shell",
+      "prompt": "What is a valence electron?",
+      "options": [
+        "An electron in the outermost shell of an atom",
+        "An electron in the nucleus",
+        "An electron in the inner shells only",
+        "A proton, just called differently"
+      ],
+      "correctIndex": 0,
+      "explanation": "A valence electron is specifically an electron in the outermost shell — the outer layer of the atom.",
+      "misconception": "Electrons in the inner shells are NOT valence electrons, and protons are not electrons at all — valence electrons are only the ones in the outermost shell."
+    },
+    {
+      "id": "valence-q-role",
+      "conceptId": "valence-decides-bonding",
+      "hotspotId": "hs-valence-electron",
+      "prompt": "What role do valence electrons play in chemical bonding?",
+      "options": [
+        "They are the electrons shared or transferred when atoms bond",
+        "They hold the nucleus together",
+        "They add weight to the atom",
+        "They have no role at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Valence electrons are the ones involved in bonding — shared in covalent bonds, transferred in ionic bonds.",
+      "misconception": "The nucleus is held by nuclear forces, not electrons, and inner electrons add bulk but do not bond — the bonding action belongs to the valence electrons."
+    },
+    {
+      "id": "valence-q-bond-count",
+      "conceptId": "valence-decides-bonding",
+      "hotspotId": "hs-valence-shell",
+      "prompt": "What does the number of valence electrons decide?",
+      "options": [
+        "How many bonds an atom can form and how reactive it is",
+        "How heavy the atom is",
+        "What color the element is",
+        "The atom's temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The count of valence electrons sets how many bonds an atom can form and drives its reactivity.",
+      "misconception": "Mass comes from the nucleus, and color and temperature are unrelated — the valence electron count is what controls bonding behavior."
+    },
+    {
+      "id": "valence-q-group",
+      "conceptId": "valence-shell-count",
+      "hotspotId": "hs-valence-shell",
+      "prompt": "Why do elements in the same column of the periodic table behave alike?",
+      "options": [
+        "They have the same number of valence electrons",
+        "They weigh the same",
+        "They are all the same temperature",
+        "They were discovered in the same year"
+      ],
+      "correctIndex": 0,
+      "explanation": "Elements in the same column (group) share the same number of valence electrons, and valence electrons drive bonding behavior.",
+      "misconception": "Elements in a column have different masses, but their bonding behavior matches because their OUTER electron count is identical."
+    }
+  ]
+}

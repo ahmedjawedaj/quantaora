@@ -1,0 +1,90 @@
+{
+  "id": "prime-number",
+  "componentId": "prime-number",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/prime-number/prime-number.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/prime-number.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.9,
+      4.2
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.9,
+      4.2
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Number grid (sieve)",
+    "Prime marking",
+    "Multiple strike-through",
+    "Factor chain"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-prime-tile",
+      "label": "Prime tile",
+      "conceptId": "prime-exactly-two-factors",
+      "position": [
+        -0.7,
+        0.6,
+        0
+      ],
+      "description": "A prime tile \u2014 a number with exactly two factors, 1 and itself, like 7.",
+      "positionHint": "An amber-glowing tile in the sieve grid that survived the sift.",
+      "color": "#D9A441",
+      "function": "Marks numbers that are prime."
+    },
+    {
+      "id": "hs-composite-tile",
+      "label": "Composite tile",
+      "conceptId": "prime-vs-composite",
+      "position": [
+        0.7,
+        0.6,
+        0
+      ],
+      "description": "A composite tile has more than two factors \u2014 like 12, which divides by 1, 2, 3, 4, 6, and 12.",
+      "positionHint": "A muted tile in the grid that got struck out by the sieve.",
+      "color": "#6B85A8",
+      "function": "Marks numbers with more than two factors."
+    },
+    {
+      "id": "hs-factor-chain",
+      "label": "Factor chain",
+      "conceptId": "prime-building-blocks",
+      "position": [
+        0,
+        -0.4,
+        0.35
+      ],
+      "description": "The factor chain shows a composite breaking into primes \u2014 60 \u2192 2 \u00d7 2 \u00d7 3 \u00d7 5.",
+      "positionHint": "The row of connected prime tiles below the selected number.",
+      "color": "#7FA86A",
+      "function": "Shows the unique prime factorization of a number."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean grid of number tiles 2\u201350 with a sift control and a factor-chain plate. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / grid-blue / molecular-green from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Tiles: warm paper white flat plates with ink numbers (roughness ~0.5). Sifted prime tiles get a faint amber cast. Strike-through: thin ink-grey rods laid over struck tiles. Factor chain: small connected prime tiles with warm amber edges. Mat: soft warm-grey. No emissive channels anywhere \u2014 highlight/glow handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the Sieve of Eratosthenes as a tap-driven sift \u2014 a 5\u00d710 grid of number tiles 2\u201350 with strike-through rods and a factor-chain panel.\n\nGEOMETRY: Grid of 50 flat number tiles arranged 5 rows \u00d7 10 columns (spacing ~0.28), centered near origin, slight upward tilt for readability. A Sift button stub at the front. Strike-through rods overlay multiples as the learner steps the sieve (2, then 3, then 5, then 7). A Factor-Chain plate at the front shows the prime factorization of whichever composite tile is tapped, rendered as connected small prime tiles.\n\nLAYERS (toggleable): (1) number grid; (2) sifted marks; (3) factor chain plate.\n\nCAMERA: head-on from +z slightly high fits the whole grid; calm, minimal chrome. Budget 8-14k triangles. Named nodes: SieveGrid, NumberTile_Each, StrikeRods, SiftButton, FactorChainPlate, PrimeGlows, CompositeMutes. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "sieve-grid"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "componentId": "nonmetal",
+  "questions": [
+    {
+      "id": "nonmetal-q-properties",
+      "conceptId": "nonmetal-dull-brittle-poor-conductor",
+      "hotspotId": "hs-nonmetal-samples",
+      "prompt": "Which set of properties describes a typical nonmetal?",
+      "options": [
+        "Dull, brittle or gaseous, and a poor conductor",
+        "Shiny, malleable, and conductive",
+        "Bright and always liquid",
+        "Stronger than any metal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nonmetals are dull, often brittle (or gaseous), and poor conductors of heat and electricity.",
+      "misconception": "The shiny, malleable, conductive set belongs to metals — nonmetals are their opposites, and mixing the two sets is a very common mistake."
+    },
+    {
+      "id": "nonmetal-q-state",
+      "conceptId": "nonmetal-gases-and-brittle-solids",
+      "hotspotId": "hs-nonmetal-samples",
+      "prompt": "At room temperature, many nonmetals exist as —",
+      "options": [
+        "Gases, like oxygen and nitrogen",
+        "Liquid metals",
+        "Hard, shiny crystals",
+        "Only as plasma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Many nonmetals are gases at room temperature (O₂, N₂, the noble gases), while others are brittle solids like sulfur and carbon.",
+      "misconception": "Shiny crystals and liquid metals are metal-like traits; the nonmetal family is home to most of the room-temperature gases."
+    },
+    {
+      "id": "nonmetal-q-region",
+      "conceptId": "nonmetal-occupies-right",
+      "hotspotId": "hs-nonmetal-region",
+      "prompt": "Where do nonmetals sit on the periodic table?",
+      "options": [
+        "In the upper right",
+        "In the bottom left",
+        "In the center only",
+        "Everywhere evenly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nonmetals occupy the upper right of the periodic table, while metals fill the left and middle.",
+      "misconception": "It's tempting to think the two families are mixed evenly, but the table has a clear split — nonmetals cluster in the upper right corner."
+    },
+    {
+      "id": "nonmetal-q-bonding",
+      "conceptId": "nonmetal-gases-and-brittle-solids",
+      "hotspotId": "hs-nonmetal-samples",
+      "prompt": "How do nonmetals like oxygen and carbon form molecules together?",
+      "options": [
+        "By sharing electrons in covalent bonds",
+        "By trading electrons like metals do",
+        "By merging their nuclei",
+        "They cannot form molecules at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nonmetals bond with each other by sharing electrons — covalent bonds — which builds molecules like O₂, CO₂, and water.",
+      "misconception": "Electron sharing versus transferring is a core difference: metals tend to transfer (ionic), while nonmetals sharing with each other (covalent) builds molecules."
+    }
+  ]
+}

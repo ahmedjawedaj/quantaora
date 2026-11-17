@@ -1,0 +1,48 @@
+{
+  "componentId": "pancreas",
+  "terms": [
+    {
+      "term": "Pancreas",
+      "conceptId": "dual-role-gland",
+      "hotspotId": "hs-pan-gland",
+      "definition": "The gland behind the stomach that makes digestive enzymes and blood-sugar hormones.",
+      "function": "Helps digest food and control blood sugar.",
+      "whereItIs": "Behind the stomach.",
+      "whyItMatters": "It connects digestion and blood-sugar balance.",
+      "relatedConcept": "insulin-blood-sugar",
+      "quizId": "pan-q-jobs"
+    },
+    {
+      "term": "Pancreatic juice",
+      "conceptId": "pancreatic-enzymes-digestion",
+      "hotspotId": "hs-enzyme",
+      "definition": "The enzyme-rich liquid the pancreas sends to the small intestine.",
+      "function": "Breaks down proteins, fats, and carbs.",
+      "whereItIs": "Made in the pancreas, used in the small intestine.",
+      "whyItMatters": "It finishes the chemical breakdown of food.",
+      "relatedConcept": "dual-role-gland",
+      "quizId": "pan-q-enzymes"
+    },
+    {
+      "term": "Insulin",
+      "conceptId": "insulin-blood-sugar",
+      "hotspotId": "hs-insulin",
+      "definition": "A hormone from the pancreas that controls blood sugar.",
+      "function": "Signals cells to take sugar from the blood.",
+      "whereItIs": "Made in the pancreas, travels in the blood.",
+      "whyItMatters": "It keeps blood sugar steady and fuels cells.",
+      "relatedConcept": "hormones-into-blood",
+      "quizId": "pan-q-insulin"
+    },
+    {
+      "term": "Hormone",
+      "conceptId": "hormones-into-blood",
+      "hotspotId": "hs-blood",
+      "definition": "A chemical messenger made by a gland and carried in the blood.",
+      "function": "Signals cells in another part of the body.",
+      "whereItIs": "Released into the blood from glands.",
+      "whyItMatters": "Hormones like insulin coordinate body functions.",
+      "relatedConcept": "insulin-blood-sugar"
+    }
+  ]
+}

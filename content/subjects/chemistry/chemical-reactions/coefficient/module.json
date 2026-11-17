@@ -1,0 +1,109 @@
+{
+  "id": "coefficient",
+  "subject": "chemistry",
+  "title": "Coefficient",
+  "summary": "A coefficient is the number written in front of a chemical formula that tells how many units of that substance take part in a reaction. It is the key to balancing equations.",
+  "gradeMin": 8,
+  "gradeMax": 10,
+  "skillIds": [
+    "coefficient-counts-units",
+    "coefficient-front-of-formula",
+    "coefficient-balances-equations"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Chemical Reactions",
+    "unit": "Reading Reactions",
+    "systemOrGroup": "The quantities",
+    "component": "Coefficient",
+    "displayPath": "Chemistry > Chemical Reactions > Reading Reactions > The quantities > Coefficient"
+  },
+  "crossReferences": [
+    {
+      "label": "Balanced equation (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Balanced equation",
+      "note": "Balancing an equation means choosing the coefficients so every atom on the left matches the right."
+    },
+    {
+      "label": "Conservation of mass (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Conservation of mass",
+      "note": "Coefficients enforce conservation of mass — correct coefficients mean equal atoms on both sides."
+    },
+    {
+      "label": "Reactant (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Reactant",
+      "note": "Every reactant in an equation has a coefficient (even an invisible 1) saying how many units react."
+    },
+    {
+      "label": "Molecule (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Molecule",
+      "note": "A coefficient counts whole molecules or formula units — it multiplies every atom in the formula."
+    }
+  ],
+  "belongsTo": "Chemical Reactions > Reading Reactions > The quantities",
+  "compareCandidate": {
+    "label": "Coefficient vs. subscript",
+    "description": "A coefficient is the big number in FRONT of a formula — it counts how many whole units. A subscript is the small number INSIDE a formula — it counts atoms within one unit. 2H₂O means two water molecules; the 2 subscript means two hydrogens in each."
+  },
+  "parts": [
+    "A number in front of a formula",
+    "Counts whole units of a substance",
+    "The key to balancing"
+  ],
+  "processes": [
+    "Multiplying every atom in the formula it fronts",
+    "Making the atom count equal on both sides",
+    "Giving reactions the correct proportions"
+  ],
+  "plainLanguageExplanation": "A coefficient is the number written in front of a chemical formula, and it tells you how many of that unit take part in a reaction. Look at 2H₂O. The big 2 in front is the coefficient — it means two whole water molecules. It multiplies everything in the formula: two water molecules means 4 hydrogens total and 2 oxygens. This is different from the small subscript — the 2 in H₂O — which counts atoms INSIDE one molecule. Big number in front counts units; small number inside counts atoms per unit. Coefficients are the heart of balancing equations. Consider the reaction H₂ + O₂ → H₂O. Left side: 2 hydrogens and 2 oxygens. Right side: 2 hydrogens but only 1 oxygen. Unbalanced! We need coefficients: 2H₂ + O₂ → 2H₂O. Now both sides have 4 hydrogens and 2 oxygens — balanced. Choosing the right coefficients is balancing — it ensures every atom is conserved and obeys the law of conservation of mass.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "The number written in front of a chemical formula"
+    },
+    {
+      "label": "What it counts",
+      "value": "Whole units of a substance — 2H₂O means two water molecules"
+    },
+    {
+      "label": "It multiplies",
+      "value": "Every atom in the formula — 2H₂O = 4 H + 2 O"
+    },
+    {
+      "label": "vs. subscript",
+      "value": "Coefficient counts units (front); subscript counts atoms (inside)"
+    },
+    {
+      "label": "Its job",
+      "value": "Balancing equations so atoms match on both sides"
+    },
+    {
+      "label": "Invisible 1",
+      "value": "A formula with no number means a coefficient of 1"
+    }
+  ],
+  "whyItMatters": "Coefficients turn a chemical sentence into a precise recipe. They are how chemists balance equations, predict exactly how much of each substance reacts and forms, and obey conservation of mass. Without coefficients, chemistry could not count — and counting atoms is what makes chemistry a science.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Coefficient",
+  "tagline": "The multiplier in front of the formula",
+  "didYouKnow": "The chemical formulas for cellular respiration are a balancing act: one glucose and six oxygens in, six carbons and six waters out — the coefficients tell the whole story.",
+  "conditions": [
+    "Balancing equations",
+    "Conservation of mass",
+    "Predicting reaction amounts"
+  ],
+  "compareCandidateId": "balanced-equation",
+  "compareReason": "Coefficients are the tool and a balanced equation is the goal — comparing them shows exactly what balancing an equation accomplishes."
+}

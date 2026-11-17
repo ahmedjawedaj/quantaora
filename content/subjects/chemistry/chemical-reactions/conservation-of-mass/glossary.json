@@ -1,0 +1,38 @@
+{
+  "componentId": "conservation-of-mass",
+  "terms": [
+    {
+      "term": "Conservation of mass",
+      "conceptId": "mass-conserved-in-reactions",
+      "hotspotId": "hs-mass-scales",
+      "definition": "The law that matter is never created or destroyed in a chemical reaction.",
+      "function": "Guarantees products weigh exactly what the reactants weighed.",
+      "whereItIs": "The two level scales in the model.",
+      "whyItMatters": "It is the bedrock law behind all of chemistry's counting.",
+      "relatedConcept": "same-mass-in-out",
+      "quizId": "mass-q-law"
+    },
+    {
+      "term": "Atom rearrangement",
+      "conceptId": "atoms-rearranged-not-created",
+      "hotspotId": "hs-mass-rearrange",
+      "definition": "The reshuffling of atoms into new substances during a reaction.",
+      "function": "Explains how matter changes form without being lost.",
+      "whereItIs": "The reactant atoms gliding into the products in the model.",
+      "whyItMatters": "Rearrangement is the real story behind every reaction.",
+      "relatedConcept": "mass-conserved-in-reactions",
+      "quizId": "mass-q-ash"
+    },
+    {
+      "term": "Equal mass",
+      "conceptId": "same-mass-in-out",
+      "hotspotId": "hs-mass-count",
+      "definition": "The exact match between product mass and reactant mass.",
+      "function": "Follows from the same atoms being present on both sides.",
+      "whereItIs": "The matching tallies on both scales.",
+      "whyItMatters": "Equal mass is what makes reactions predictable.",
+      "relatedConcept": "atoms-rearranged-not-created",
+      "quizId": "mass-q-equal"
+    }
+  ]
+}

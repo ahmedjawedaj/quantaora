@@ -1,0 +1,6 @@
+review-screenshots/
+tmpdl/
+.playwright-mcp/
+.claude/
+dist/
+*.png

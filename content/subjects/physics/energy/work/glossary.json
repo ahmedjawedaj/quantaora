@@ -1,0 +1,46 @@
+{
+  "componentId": "work",
+  "terms": [
+    {
+      "term": "Work (physics)",
+      "conceptId": "work-force-times-distance",
+      "hotspotId": "hs-counter",
+      "definition": "The energy transferred by a force that moves an object.",
+      "function": "Its pushes translate into joule additions on the cart's energy.",
+      "whereItIs": "The counter beside the track.",
+      "whyItMatters": "It's the standard meter for energy flowing into machines, legs, and carts.",
+      "relatedConcept": "kinetic-energy",
+      "quizId": "work-q-definition"
+    },
+    {
+      "term": "Work = force × distance",
+      "conceptId": "work-force-times-distance",
+      "hotspotId": "hs-counter",
+      "definition": "The formula that multiplies the pushing force by the distance moved.",
+      "whyItMatters": "It quantifies every horizontal push, lift, and machine transfer in joules.",
+      "whereItIs": "The counter as the marks fill up.",
+      "relatedConcept": "work-measured-in-joules",
+      "quizId": "work-q-formula"
+    },
+    {
+      "term": "Zero motion = zero work",
+      "conceptId": "work-requires-motion",
+      "hotspotId": "hs-track",
+      "definition": "If the object never moves, no energy transfers and the work is zero.",
+      "whyItMatters": "It separates real pushes from tiring holds — the 'no move, no work' rule.",
+      "whereItIs": "The track edge with the cart parked.",
+      "relatedConcept": "work-force-times-distance",
+      "quizId": "work-q-motion"
+    },
+    {
+      "term": "Joule (J)",
+      "conceptId": "work-measured-in-joules",
+      "hotspotId": "hs-counter",
+      "definition": "The SI unit of work and energy.",
+      "whyItMatters": "Work, kinetic energy, and heat all get counted on this node.",
+      "whereItIs": "The counter readout unit.",
+      "relatedConcept": "work-force-times-distance",
+      "quizId": "work-q-unit"
+    }
+  ]
+}

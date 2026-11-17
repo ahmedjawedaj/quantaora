@@ -1,0 +1,38 @@
+{
+  "componentId": "muscle-cell",
+  "terms": [
+    {
+      "term": "Sarcolemma",
+      "definition": "The cell membrane of a muscle cell — it wraps the whole cell and carries the electrical signal that tells the cell to contract.",
+      "conceptId": "sarcolemma-cell-membrane"
+    },
+    {
+      "term": "Multiple nuclei",
+      "definition": "Skeletal muscle fibers are multinucleated — instead of the single central nucleus most cells have, they contain many oval nuclei flattened against the inside of the membrane along the cell's length, an adaptation that helps one very large cell keep up with its workload.",
+      "conceptId": "multiple-nuclei"
+    },
+    {
+      "term": "Myofibril",
+      "definition": "A thread-like strand inside a muscle cell, built from repeating units of actin and myosin filaments; a single muscle cell contains many myofibrils bundled together.",
+      "conceptId": "myofibrils"
+    },
+    {
+      "term": "Sarcoplasmic reticulum",
+      "definition": "A network of internal tubes and sacs inside a muscle cell that stores calcium and releases it in a burst to trigger contraction.",
+      "conceptId": "sarcoplasmic-reticulum"
+    },
+    {
+      "term": "Mitochondria",
+      "definition": "Organelles that produce ATP (usable energy); muscle cells contain unusually large numbers of them to fuel constant contraction.",
+      "conceptId": "mitochondria"
+    },
+    {
+      "term": "Actin and myosin",
+      "definition": "The two proteins that make up the sliding filaments inside a myofibril; myosin 'walks' along actin to shorten the cell."
+    },
+    {
+      "term": "Contraction",
+      "definition": "The shortening of a muscle cell caused by filaments sliding past each other, which pulls on whatever the muscle is attached to."
+    }
+  ]
+}

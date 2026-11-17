@@ -1,0 +1,54 @@
+name: 3D asset contribution
+description: Propose or contribute a model, texture, animation, or scientific dataset.
+title: "[Asset]: "
+labels: [3d-assets, triage]
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Target lab and component
+      placeholder: Biology / Animals / Vertebrate body plan
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Original source URL
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator or institution
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: Exact license and license URL
+      placeholder: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Redistribution and attribution evidence
+      description: Quote or link the terms that permit redistribution in this repository.
+    validations:
+      required: true
+  - type: textarea
+    id: quality
+    attributes:
+      label: Quality and learning value
+      description: Describe scale, polycount, textures, animation, file size, scientific accuracy, and the learning objective it supports.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I verified the original source and license for this exact file.
+          required: true
+        - label: The asset does not contain trademarks, personal data, or restricted content not covered by the license.
+          required: true

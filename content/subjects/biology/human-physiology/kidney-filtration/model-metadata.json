@@ -1,0 +1,119 @@
+{
+  "id": "kidney-filtration",
+  "componentId": "kidney-filtration",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/models/kidneys.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/kidney-filtration.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "positionNote": "Hotspot 'position' values below are provisional coordinates estimated from the assetBrief's stated proportions (whole-organ bounding box roughly width:height:depth 1:2:0.75 centered at the origin, hilum on the -x medial face, nephron inset exploded beyond the +x lateral edge and connected by a leader line). Recalibrate every position against the actual GLB mesh's local space once the asset is authored, before shipping to the app — positionHint remains the authoritative human-readable description until then.",
+  "layers": [
+    "Whole Organ — renal capsule, cortex surface, hilum with renal artery/vein/ureter stubs",
+    "Cross-Section — cortex, medulla with renal pyramids, calyces, renal pelvis exposed via wedge cutaway",
+    "Nephron Detail Inset — enlarged exploded-view single nephron (Bowman's capsule, glomerulus, proximal tubule, loop of Henle, distal tubule, collecting duct) leader-lined off the cortex",
+    "Blood Flow Animation Overlay — directional path/particles: renal artery → afferent arteriole → glomerulus → efferent arteriole → renal vein",
+    "Filtrate/Urine Flow Animation Overlay — directional path/particles: Bowman's capsule → tubule segments → collecting duct → renal pelvis → ureter"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-blood-enters-kidney",
+      "label": "Blood Enters Kidney",
+      "conceptId": "blood-enters-kidney",
+      "position": [
+        -0.55,
+        0.2,
+        0.1
+      ],
+      "positionHint": "At the hilum (concave medial notch of the kidney), on the renal artery stub where it enters the organ body, facing the default camera angle",
+      "description": "Oxygen- and waste-carrying blood arrives from the renal artery at the hilum and branches inward toward each nephron's glomerulus for filtering.",
+      "color": "#D98072",
+      "function": "Delivers blood into the kidney under pressure, driving filtration in the nephrons."
+    },
+    {
+      "id": "hs-nephron-filters-waste",
+      "label": "Nephron Filters Waste",
+      "conceptId": "nephron-filters-waste",
+      "position": [
+        1.5,
+        0.5,
+        0.3
+      ],
+      "positionHint": "On the exploded nephron inset, at the glomerulus/Bowman's capsule cluster (the small tangled-capillary ball cupped by the capsule)",
+      "description": "Blood pressure forces water, salts, and small waste molecules out of the glomerulus's capillaries into Bowman's capsule, starting filtration — blood cells and large proteins stay behind in the blood.",
+      "color": "#C97B63",
+      "function": "Forces water, salts, and waste out of the blood into Bowman's capsule."
+    },
+    {
+      "id": "hs-reabsorption",
+      "label": "Reabsorption of Needed Substances",
+      "conceptId": "reabsorption-of-needed-substances",
+      "position": [
+        1.75,
+        0.15,
+        0.3
+      ],
+      "positionHint": "Along the proximal convoluted tubule and loop of Henle segment of the nephron inset, between Bowman's capsule and the distal tubule",
+      "description": "As filtrate travels down the tubule, useful water, glucose, amino acids, and salts are reabsorbed back into surrounding capillaries, leaving mostly waste and excess water behind.",
+      "color": "#E3B48A",
+      "function": "Pulls useful water, glucose, and salts back into the blood from the filtered fluid."
+    },
+    {
+      "id": "hs-urine-formation",
+      "label": "Urine Formation",
+      "conceptId": "urine-formation",
+      "position": [
+        -0.1,
+        -0.15,
+        0.05
+      ],
+      "positionHint": "At the collecting duct / renal pelvis region inside the cross-section wedge, where multiple pyramid tips (calyces) funnel inward",
+      "description": "The remaining filtrate — water plus wastes like urea — becomes concentrated urine as it passes through the collecting ducts into the renal pelvis.",
+      "color": "#E8D5B7",
+      "function": "Concentrates the remaining filtrate into urine as it passes through the collecting ducts."
+    },
+    {
+      "id": "hs-waste-exits-ureter",
+      "label": "Waste Exits via Ureter",
+      "conceptId": "waste-exits-via-ureter",
+      "position": [
+        -0.45,
+        -0.9,
+        0.05
+      ],
+      "positionHint": "On the ureter tube where it narrows and exits the hilum, angled downward and slightly toward camera from the renal pelvis",
+      "description": "Urine drains from the renal pelvis through the ureter, carrying dissolved waste out of the kidney toward the bladder for storage and eventual elimination.",
+      "color": "#C9A46E",
+      "function": "Carries finished urine out of the kidney toward the bladder for storage."
+    }
+  ],
+  "visualStyleNotes": "Match Anatomy Atelier exactly (see assets/reference/anatomy-atelier/desktop-overview.png and desktop-interaction.png): warm off-white/cream stage background (#F5F0E8 range, never pure white or black), model centered and large, soft diffuse elliptical contact shadow beneath, no floor grid or environment reflections. Hotspots render as a small solid-color center dot (~8-10px) inside a soft translucent halo ring (~20-24px), color echoing the structure it marks, with a thin cream inner ring for contrast against organ surfaces — no pulsing glow, no lens-flare, no bright animated ping. Surface shading is matte/soft-PBR with a subtle waxy subsurface-scattering feel (like the reference heart/brain), gentle ambient occlusion in folds and creases, zero glossy/wet specular highlights, zero cel-shading outlines, zero neon or gradient glow effects (explicitly ruled out by spec §12). Overall read must stay calm, editorial, and premium — a clean anatomical illustration brought into 3D, not a game asset or medical-textbook clip-art render.",
+  "assetBrief": "SUBJECT: A stylized-but-anatomically-credible human kidney, built as a dual-scale composition: (1) a whole external kidney with a cutaway cross-section wedge, and (2) a single nephron rendered at exploded/enlarged scale just outside the kidney's silhouette (connected by a thin leader line from the cortex), since real nephrons are microscopic and cannot be shown at true scale on the organ mesh. This mirrors Anatomy Atelier's isolate/cross-section pattern for revealing internal structures too small or too deep to hotspot directly on the organ surface.\n\nPROPORTIONS: Classic bean shape, convex lateral border and concave medial border (the hilum). Width:height:depth roughly 1:2:0.75. Renal capsule is smooth all around except at the hilum notch, where the renal artery, renal vein, and ureter emerge as three distinct stubby tubes of differing thickness (artery thinnest/roundest, vein slightly flatter, ureter narrowest and longest, tapering downward out of frame). The cross-section wedge (roughly a 60-90° pie-slice cut from the medial face) exposes: outer granular cortex band, inner striated medulla containing 8-12 cone-shaped renal pyramids with tips (papillae) pointing inward, cup-like minor calyces cradling each papilla, merging into major calyces and the funnel-shaped renal pelvis that narrows into the ureter. The nephron inset shows, in order: Bowman's capsule (cup) wrapping a coiled glomerulus tuft, a coiled proximal convoluted tubule, a long hairpin loop of Henle, a coiled distal convoluted tubule looping back near the capsule, and a straight collecting duct running off toward an implied renal pelvis.\n\nMATERIAL/SHADING: Soft matte PBR, low specular, mild fake-subsurface warmth (like skin/organ tissue under gallery lighting) — same family of shader as the reference heart and brain. No wet/glossy highlights, no toon outlines. Ambient occlusion should be gentle in the pyramid striations and tubule coils, not harsh. Topology must be clean and manifold enough that the cross-section cut renders a solid capped interior face (matching material, no visible holes or z-fighting) when the cross-section layer is toggled on. Mid-poly budget (roughly 30-60k triangles total across whole-organ + inset) — smooth and believable, not low-poly/faceted, not hyper-detailed medical-scan realism either.\n\nPALETTE (desaturated, warm, Anatomy-Atelier-muted — never textbook-saturated or primary-color clip-art):\n- Capsule/cortex exterior: dusty terracotta/rose (~#C97B63, desaturated)\n- Medulla pyramids: deeper muted maroon-brown with subtle striping\n- Renal artery: muted coral-red (~#D98072) — not pure/bright red\n- Renal vein: dusty mauve-blue (~#8B7BA8) — not pure/bright blue\n- Ureter and renal pelvis: warm pale tan/cream (~#E8D5B7)\n- Glomerulus/capillary tuft: slightly more saturated coral than the artery, to read as the focal filtering point\n- Tubule segments (PCT, loop of Henle, DCT, collecting duct): soft peach/blush base tone, subtly differentiated per segment (proximal warmer tan, loop of Henle pale gray-lavender, distal tan, collecting duct deeper tan) so segments are distinguishable without harsh textbook color-coding\n\nHOTSPOT/UI INTEGRATION: 5 hotspots as specified (blood-enters-kidney, nephron-filters-waste, reabsorption-of-needed-substances, urine-formation, waste-exits-via-ureter) — two sit on the whole-organ/cross-section mesh (blood entry at the hilum artery stub; urine formation at the calyces/renal pelvis), one sits on the ureter stub (waste exits), and two sit on the exploded nephron inset (filtration at the glomerulus, reabsorption along the tubule). Provide clean, isolable named sub-meshes/node names for each so the app can drive hotspot anchors and the optional blood-flow/urine-flow animation overlays (simple path or particle-along-curve animations, toggled independently, not auto-playing by default).\n\nWHAT NOT TO DO: no glossy/wet \"video game organ\" shader; no saturated cartoon-red blood or neon-blue veins; no cel-shaded outlines; no floating glowing sci-fi particles or lens flares; no low-poly faceted look; no permanent on-canvas text labels (labels appear only in the side card on hotspot click, per the reference pattern); no white or black background baked into the asset — background/lighting is handled by the app's warm off-white stage; no hard-edged drop shadows — contact shadow must stay soft and diffuse; do not scale the nephron inset to true microscopic proportions relative to the kidney (it must be legibly enlarged, connected by a leader line, exactly as textbook exploded-view diagrams do it) — do not attempt to render it at literal in-situ scale, it would be invisible.",
+  "visual": {
+    "shape": "kidney-filter"
+  }
+}

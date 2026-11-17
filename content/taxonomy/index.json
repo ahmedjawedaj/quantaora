@@ -1,0 +1,37 @@
+{
+  "source": "docs/quantaora-product-tech-spec.md, section 6",
+  "hierarchy": "Subject > Branch > Unit > System/Group > Component > Structure/Variable/Rule > Micro-skill",
+  "objectTypes": ["Entity", "Part", "System", "Process", "Rule", "Variable", "Relationship", "Skill"],
+  "mvpSubjects": ["physics", "chemistry", "math", "biology", "space"],
+  "files": {
+    "physics": "physics.json",
+    "chemistry": "chemistry.json",
+    "math": "math.json",
+    "biology": "biology.json",
+    "space": "space.json"
+  },
+  "componentLearningFlow": [
+    "See it",
+    "Touch it",
+    "Name it",
+    "Explain what it does",
+    "See where it belongs",
+    "Compare it",
+    "Use it in a task",
+    "Review it later"
+  ],
+  "componentContract": [
+    "Visual model, diagram, simulation, or manipulative",
+    "Plain-language explanation",
+    "Key facts",
+    "Vocabulary",
+    "Where it belongs hierarchy",
+    "Why it matters note",
+    "Interactive task",
+    "Short quiz/checkpoint",
+    "Related items",
+    "Notebook save",
+    "Mastery record"
+  ],
+  "status": "`detailed: true` branches have low-level items transcribed from the spec and are ready for content-agent authoring. `detailed: false` branches are named only in the spec and need SME-sourced breakdowns before an agent can safely author facts for them."
+}

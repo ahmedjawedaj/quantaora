@@ -1,0 +1,98 @@
+{
+  "id": "cell-wall",
+  "subject": "biology",
+  "title": "Cell Wall",
+  "summary": "The cell wall is the sturdy outer shell of plant cells (and of fungi and many bacteria) - a rigid layer outside the cell membrane that gives the cell support, protection, and shape. Explore how it works with the membrane and vacuole to keep a plant standing.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "cellulose-rigid-shell",
+    "support-and-shape",
+    "works-with-membrane"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Cell Wall",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Cell Wall"
+  },
+  "crossReferences": [
+    {
+      "label": "Cell membrane (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Cell membrane",
+      "note": "The cell wall sits outside the membrane; the membrane still controls entry and exit while the wall gives support."
+    },
+    {
+      "label": "Vacuole (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Vacuole",
+      "note": "The water-filled vacuole presses against the wall; together wall and vacuole keep the plant cell firm."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Cell wall vs. cell membrane",
+    "description": "The cell wall is a thick, rigid, non-living shell that gives support and shape - only in plants, fungi, and many bacteria. The membrane is a thin, flexible, living layer in ALL cells that controls what enters and leaves."
+  },
+  "parts": [
+    "Cellulose fibers",
+    "Pores",
+    "Cell wall + membrane partnership",
+    "Support shell"
+  ],
+  "processes": [
+    "Supporting and protecting the cell",
+    "Giving the cell a fixed rectangular shape",
+    "Working with the vacuole to keep plants firm"
+  ],
+  "plainLanguageExplanation": "The cell wall is a thick, rigid layer that wraps around the outside of plant cells, just beyond the cell membrane. It is mostly made of a tough carbohydrate called cellulose. Its job is to support and protect the cell and give it its fixed shape, like a strong brick wall around a room. The wall is porous, so water and dissolved materials can still pass through, and the membrane inside keeps controlling what enters the cell. Plants, fungi, and many bacteria have cell walls; animal cells do not.",
+  "keyFacts": [
+    {
+      "label": "Where it is",
+      "value": "The rigid outer layer of plant cells, outside the cell membrane"
+    },
+    {
+      "label": "Made of",
+      "value": "Mostly cellulose, a tough carbohydrate"
+    },
+    {
+      "label": "Main jobs",
+      "value": "Support, protection, and giving the cell a fixed shape"
+    },
+    {
+      "label": "Porosity",
+      "value": "Pores let water and materials pass through to the membrane"
+    },
+    {
+      "label": "Who has it",
+      "value": "Plants, fungi, and many bacteria - not animal cells"
+    },
+    {
+      "label": "Works with",
+      "value": "The full central vacuole presses on the wall to hold the cell firm"
+    }
+  ],
+  "whyItMatters": "The cell wall is what lets plants stand tall and survive tough conditions - it supports every plant cell and protects it. Understanding it explains why plants are firm, why wood is strong, and why plant cells are shaped differently from animal cells.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Cell wall",
+  "tagline": "The sturdy shell of the plant cell",
+  "didYouKnow": "Wood is basically thousands of empty plant cell walls - the strong carbohydrate cellulose is what makes trees so hard.",
+  "conditions": [
+    "Turgor and support",
+    "Cellulose"
+  ],
+  "branch": "cell-biology",
+  "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Cell Wall",
+  "plain": "The cell wall is a thick, rigid layer that wraps around the outside of plant cells, just beyond the cell membrane. It is mostly made of a tough carbohydrate called cellulose. Its job is to support and protect the cell and give it its fixed shape, like a strong brick wall around a room. The wall is porous, so water and dissolved materials can still pass through, and the membrane inside keeps controlling what enters the cell. Plants, fungi, and many bacteria have cell walls; animal cells do not."
+}

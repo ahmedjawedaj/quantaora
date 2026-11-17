@@ -1,0 +1,95 @@
+{
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/stars/black-hole.scene.ts",
+  "thumbnailUrl": "src/features/model-viewer/thumbnails/space/stars/black-hole.png",
+  "cameraDefault": {
+    "position": [
+      5.5,
+      3.4,
+      7.5
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    {
+      "id": "shadow",
+      "label": "Black-hole shadow",
+      "explanation": "The dark region against the bright gas — not the hole itself, but the boundary from which no light returns: the silhouette of the event horizon."
+    },
+    {
+      "id": "accretion-disk",
+      "label": "Accretion disk",
+      "explanation": "Gas spiraling in, heated by compression until it glows — orange on the inside, fading to pale blue-white far out."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-singularity",
+      "label": "Singularity — the collapsed core",
+      "conceptId": "stellar-black-hole-formation",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "description": "Where the collapsing core's matter has been crushed to a point of essentially infinite density — hidden forever behind the horizon."
+    },
+    {
+      "id": "hs-event-horizon",
+      "label": "Event horizon — the no-return boundary",
+      "conceptId": "event-horizon-boundary",
+      "position": [
+        0.9,
+        0,
+        0.6
+      ],
+      "description": "The sphere where escape needs light speed: inside, nothing can ever come out. It looks like a shadow in the light of the disk."
+    },
+    {
+      "id": "hs-accretion-disk",
+      "label": "Accretion disk — the doomed whirl",
+      "conceptId": "accretion-disk-fall",
+      "position": [
+        1.7,
+        0.25,
+        1.1
+      ],
+      "description": "Gas spiraling inward and heating as it falls — the glow you actually see, wrapping the shadow like a horizontal whirlpool."
+    },
+    {
+      "id": "hs-photon-ring",
+      "label": "Photon ring — bent light",
+      "conceptId": "gravity-bends-light",
+      "position": [
+        1.3,
+        0.75,
+        0.9
+      ],
+      "description": "Light from behind the hole bent around it into a thin, bright ring — the famous 'ring of fire' in the first black-hole photo."
+    },
+    {
+      "id": "hs-tidal-stretch",
+      "label": "Tidal stretch (spaghettification)",
+      "conceptId": "tidal-forces-spaghettification",
+      "position": [
+        2.6,
+        0.4,
+        1.8
+      ],
+      "description": "A small probe stretched into a thread as it falls — near-side gravity pulling harder than far-side, drawn as a thin smear of light."
+    }
+  ],
+  "visualStyleNotes": "Clean scientific-illustration look (Anatomy Atelier): black shadow disk centered, bright tilted accretion ring in warm orange fading to pale blue, photon ring as a hair-thin bright circle, faint lensed star field behind arcs slightly. Nothing grotesque; the spaghettification is a stylized thin light streak, not gore.",
+  "materialNotes": "Disk: additive glow material with radial falloff, tilt ~15°. Shadow: pure black sphere with no light response. Photon ring: thin emissive ring. Background: subtle star points that curve near the hole to show lensing.",
+  "assetBrief": "Procedural Three.js scene: black sphere (shadow), tilted glowing disk, thin photon ring, background star field with subtle lensing arcs. Auto-rotate on; hotspots at listed positions. All other conventions match the stars set.",
+  "componentId": "black-hole",
+  "visual": {
+    "shape": "black-hole-disc"
+  }
+}

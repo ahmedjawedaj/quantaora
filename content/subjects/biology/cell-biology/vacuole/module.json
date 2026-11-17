@@ -1,0 +1,94 @@
+{
+  "id": "vacuole",
+  "subject": "biology",
+  "title": "Vacuole",
+  "summary": "The vacuole is the cell's storage sac - a membrane bubble that holds water, salts, and materials. In plant cells a large central vacuole stores water and helps hold the plant's shape; animal cells have smaller vacuoles that also help move things.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "vacuole-storage",
+    "central-vacuole-water-support",
+    "small-vacuoles-transport"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Vacuole",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Vacuole"
+  },
+  "crossReferences": [
+    {
+      "label": "Lysosome (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Lysosome",
+      "note": "Both are membrane sacs, but the lysosome digests waste while the vacuole stores materials - storage vs. cleanup."
+    },
+    {
+      "label": "Cell wall (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Cell wall",
+      "note": "In plant cells the full vacuole presses against the cell wall, and together they give the plant cell its firm shape."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Vacuole in plants vs. animals",
+    "description": "Plant cells usually have one huge central vacuole that stores water and supports the plant's shape. Animal cells have many smaller vacuoles used more for moving and storing materials."
+  },
+  "parts": [
+    "Membrane sac",
+    "Stored water and salts",
+    "Nutrients and pigments",
+    "Central vacuole (plant)"
+  ],
+  "processes": [
+    "Storing water and materials",
+    "Holding plant cell shape by water pressure",
+    "Moving materials in animal cells"
+  ],
+  "plainLanguageExplanation": "A vacuole is a membrane sac that stores materials. In plant cells there is usually one large central vacuole, mostly filled with water and dissolved substances, that acts like a water tank. When it is full of water, it presses against the cell wall and helps the plant stand tall; when it is empty, the plant wilts. The vacuole can also store nutrients, pigments, and waste. Animal cells have several smaller vacuoles that help store and move materials. So the vacuole is the cell's storage space and, in plants, its water support system.",
+  "keyFacts": [
+    {
+      "label": "Nickname",
+      "value": "The cell's storage tank"
+    },
+    {
+      "label": "Job",
+      "value": "Stores water, salts, nutrients, pigments, and some waste"
+    },
+    {
+      "label": "Plant cells",
+      "value": "One large central vacuole holds water and helps the plant stand upright"
+    },
+    {
+      "label": "Animal cells",
+      "value": "Several smaller vacuoles store and move materials"
+    },
+    {
+      "label": "Wilt test",
+      "value": "A plant cell with a full vacuole is firm; with an empty one it wilts"
+    }
+  ],
+  "whyItMatters": "The vacuole is how a cell stores what it needs and, in plants, how a whole plant stands up. Understanding it explains why a plant droops when thirsty and stands tall after watering, and why storage matters to every cell.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Vacuole",
+  "tagline": "The cell's storage tank",
+  "didYouKnow": "The central vacuole of a plant cell can take up most of the cell's volume - sometimes over half of its whole space.",
+  "conditions": [
+    "Osmosis and water storage",
+    "Cell turgor (firmness)"
+  ],
+  "branch": "cell-biology",
+  "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Vacuole",
+  "plain": "A vacuole is a membrane sac that stores materials. In plant cells there is usually one large central vacuole, mostly filled with water and dissolved substances, that acts like a water tank. When it is full of water, it presses against the cell wall and helps the plant stand tall; when it is empty, the plant wilts. The vacuole can also store nutrients, pigments, and waste. Animal cells have several smaller vacuoles that help store and move materials. So the vacuole is the cell's storage space and, in plants, its water support system."
+}

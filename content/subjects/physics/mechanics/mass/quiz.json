@@ -1,0 +1,80 @@
+{
+  "componentId": "mass",
+  "questions": [
+    {
+      "id": "mass-q-definition",
+      "conceptId": "mass-amount-of-matter",
+      "hotspotId": "hs-rock-pile",
+      "prompt": "What does mass measure?",
+      "options": [
+        "How much matter an object is made of",
+        "How much space an object takes up",
+        "How hot an object is",
+        "How fast an object is moving"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is the amount of matter in an object — the real 'stuff', measured in kilograms.",
+      "misconception": "Volume (space taken up) is measured in liters, weight is gravity's pull — mass is neither of those."
+    },
+    {
+      "id": "mass-q-constant",
+      "conceptId": "mass-independent-of-location",
+      "hotspotId": "hs-kg-readout",
+      "prompt": "A 10 kg bowling ball travels to the Moon where gravity is weaker. What is its mass there?",
+      "options": [
+        "Still 10 kg",
+        "About 1.7 kg",
+        "0 kg",
+        "About 60 kg"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is a property of the object itself. Changing gravity or location never changes how much matter an object holds.",
+      "misconception": "The 1/6 (≈1.7 kg) answer confuses mass with weight, which DOES change on the Moon."
+    },
+    {
+      "id": "mass-q-unit",
+      "conceptId": "mass-kilogram",
+      "hotspotId": "hs-kg-set",
+      "prompt": "Which unit is used to measure mass?",
+      "options": [
+        "Kilogram (kg)",
+        "Newton (N)",
+        "Meter (m)",
+        "Second (s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is measured in kilograms; newton measures the force we call weight.",
+      "misconception": "The newton-newton mix-up is the most frequent: newtons are for force, kilograms are for mass."
+    },
+    {
+      "id": "mass-q-balance",
+      "conceptId": "mass-amount-of-matter",
+      "hotspotId": "hs-balance-beam",
+      "prompt": "How does a balance scale tell you that two objects have equal mass?",
+      "options": [
+        "The beam stays level when both sides hold the same amount of matter",
+        "The scale gets louder and louder",
+        "The beam tips toward the new object",
+        "It measures how fast the object falls"
+      ],
+      "correctIndex": 0,
+      "explanation": "A balance compares: if both pans are level, the amounts of matter on either side are equal.",
+      "misconception": "A spring scale measures the pull (weight); a balance measures the equal amount of matter — they answer different questions."
+    },
+    {
+      "id": "mass-q-vs-weight",
+      "conceptId": "mass-vs-weight",
+      "hotspotId": "hs-kg-readout",
+      "prompt": "Which statement correctly separates mass and weight?",
+      "options": [
+        "Mass is the matter (kg) and weight is the pull of gravity on it (N)",
+        "Mass changes with location, weight stays fixed",
+        "Mass is measured on a spring scale, weight on a balance",
+        "Both always shrink in space"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass measures the matter itself (kg), unchanged by place; weight is the gravitational force on that mass (N), which changes with gravity.",
+      "misconception": "The swap (mass changing, weight constant) is the classic flip — gravity changes weight but leaves mass untouched."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "planet-rotation-day-length",
+  "questions": [
+    {
+      "id": "prdl-q-def-day",
+      "conceptId": "day-is-one-rotation",
+      "hotspotId": "hs-earth-spin",
+      "prompt": "What is a 'day' on a planet?",
+      "options": [
+        "One full rotation of the planet around its own axis",
+        "One full orbit around the Sun",
+        "Twelve hours",
+        "Sunrise to sunset only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A day is one complete spin of the planet around its axis. Earth spins once every 24 hours, so our day is 24 hours.",
+      "misconception": "'Day' and 'year' get swapped often: a year is one orbit of the Sun, a day is one spin of the planet — two completely different motions."
+    },
+    {
+      "id": "prdl-q-fastest",
+      "conceptId": "jupiter-spins-fastest",
+      "hotspotId": "hs-jupiter-spin",
+      "prompt": "Which planet has the shortest day of all?",
+      "options": [
+        "Mercury",
+        "Earth",
+        "Jupiter",
+        "Neptune"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jupiter spins faster than any other planet — one rotation takes only about 9.9 hours, so its day is the shortest.",
+      "misconception": "It feels natural for the biggest planet to spin slowly, but Jupiter is actually the solar system's fastest spinner."
+    },
+    {
+      "id": "prdl-q-venus",
+      "conceptId": "venus-spins-backward",
+      "hotspotId": "hs-retrograde-marker",
+      "prompt": "What is unusual about the way Venus rotates?",
+      "options": [
+        "It spins backwards compared with most planets (retrograde)",
+        "It doesn't rotate at all",
+        "It rotates faster than Earth",
+        "Its rotation axis lies exactly on its orbit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Venus spins in the opposite direction from Earth and most other planets, so on Venus the Sun rises in the west and sets in the east.",
+      "misconception": "Since Venus is sometimes called Earth's twin (similar size), it is easy to assume its spin is like Earth's — but its direction is actually reversed."
+    },
+    {
+      "id": "prdl-q-mars",
+      "conceptId": "spin-speed-independent-of-size",
+      "hotspotId": "hs-mars-spin",
+      "prompt": "How does a Mars day compare with an Earth day?",
+      "options": [
+        "Much shorter",
+        "Almost the same — about 24.6 hours",
+        "Twice as long",
+        "Mars has no day at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mars rotates nearly as fast as Earth — one Mars day is about 24.6 hours, just under 40 minutes longer than ours.",
+      "misconception": "Since Mars's year is about twice Earth's, it feels like its day should also be longer — but day length is about spin, and Mars's spin is nearly identical to Earth's."
+    },
+    {
+      "id": "prdl-q-mercury",
+      "conceptId": "mercury-day-longer-than-year",
+      "hotspotId": "hs-mercury-spin",
+      "prompt": "What is strange about Mercury's day compared with its year?",
+      "options": [
+        "Its day is longer than its year",
+        "Its day is exactly equal to its year",
+        "Its day is one week long",
+        "There is no day on Mercury"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mercury rotates very slowly — one of its days lasts about 176 Earth days, while its year is only 88 Earth days. Its day is twice its year.",
+      "misconception": "A day shorter than a year seems so universal (it's true on Earth) that it feels like a universal rule — Mercury breaks it, which is exactly why its day/night cycle is so extreme."
+    }
+  ]
+}

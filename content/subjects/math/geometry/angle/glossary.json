@@ -1,0 +1,41 @@
+{
+  "componentId": "angle",
+  "terms": [
+    {
+      "term": "Angle",
+      "conceptId": "angle-definition",
+      "hotspotId": "hs-angle-arc",
+      "definition": "The amount of turn between two rays sharing a vertex.",
+      "function": "Measures how open or closed a turn is.",
+      "whereItIs": "The arc between the rays.",
+      "whyItMatters": "Angles measure the turns inside every shape."
+    },
+    {
+      "term": "Vertex",
+      "conceptId": "angle-definition",
+      "hotspotId": "hs-vertex",
+      "definition": "The shared endpoint where the two rays meet.",
+      "function": "The corner point of the angle.",
+      "whereItIs": "The solid dot where the rays join.",
+      "whyItMatters": "The vertex is the pivot of the whole turn."
+    },
+    {
+      "term": "Degree",
+      "conceptId": "angle-degrees",
+      "hotspotId": "hs-ray-side",
+      "definition": "The unit for measuring a turn — 360° makes a full circle.",
+      "function": "A right angle is 90°, a straight angle is 180°.",
+      "whereItIs": "The number on the angle label.",
+      "whyItMatters": "Degrees turn open or closed into a number."
+    },
+    {
+      "term": "Acute / Obtuse / Right",
+      "conceptId": "angle-types",
+      "hotspotId": "hs-angle-arc",
+      "definition": "Names for angles by size: acute < 90°, right = 90°, obtuse > 90°.",
+      "function": "Sort angles into families at a glance.",
+      "whereItIs": "The category shown on the label.",
+      "whyItMatters": "Type names let you describe shapes instantly."
+    }
+  ]
+}

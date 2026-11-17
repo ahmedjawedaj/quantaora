@@ -1,0 +1,144 @@
+{
+  "id": "planet-rotation-day-length",
+  "componentId": "planet-rotation-day-length",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/solar-system/planet-rotation-day-length.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/solar-system/planet-rotation-day-length.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: generated at runtime from three.js primitives, not a GLB. `url` is a placeholder for the scene-builder module per project conventions. `thumbnailUrl` is a placeholder PNG. `defaultCamera`/`cameraDefault` and hotspot `position`s are estimates derived from the assetBrief — verify against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.2,
+      4.8
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.2,
+      4.8
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Planet spheres (Mercury, Venus, Earth, Mars, Jupiter)",
+    "Rotation axes overlay",
+    "Spin pointer dots",
+    "Day counters",
+    "Retrograde indicator (Venus)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-mercury-spin",
+      "label": "Mercury's slow spin",
+      "conceptId": "mercury-day-longer-than-year",
+      "position": [
+        -2.5,
+        0.1,
+        0
+      ],
+      "description": "Mercury rotates so slowly that one day lasts about 176 Earth days — longer than its 88-day year.",
+      "positionHint": "Leftmost sphere in the row. Smallest of the five (radius ~0.24), muted grey-ochre with crater mottling, its pointer dot barely creeping.",
+      "color": "#C09A6E",
+      "function": "Demonstrates the slowest spinner of the row."
+    },
+    {
+      "id": "hs-venus-spin",
+      "label": "Venus's backward spin",
+      "conceptId": "venus-spins-backward",
+      "position": [
+        -1.3,
+        0.1,
+        0
+      ],
+      "description": "Venus rotates in the opposite direction to most planets (retrograde) — on Venus the Sun rises in the west — and one day lasts about 117 Earth days.",
+      "positionHint": "Second sphere from the left (radius ~0.4), warm cream surface. A small retrograde arrow label shows its reversed spin relative to the other four.",
+      "color": "#D9A441",
+      "function": "Shows retrograde rotation and the longest day measured by the row's counter."
+    },
+    {
+      "id": "hs-earth-spin",
+      "label": "Earth's 24-hour day",
+      "conceptId": "day-is-one-rotation",
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "description": "Earth rotates once every 24 hours. The pointer dot on its surface makes one complete circle and the day counter ticks 24:00.",
+      "positionHint": "Center sphere (radius ~0.42), dusty blue-green mottling. The reference spinner whose counter anchors the lesson.",
+      "color": "#7FA88A",
+      "function": "The reference rotation — every other planet's day is compared to this one."
+    },
+    {
+      "id": "hs-mars-spin",
+      "label": "Mars's near-twin spin",
+      "conceptId": "spin-speed-independence-of-size",
+      "position": [
+        1.2,
+        0.1,
+        0
+      ],
+      "description": "Mars rotates almost as fast as Earth — about 24.6 hours per day — despite being more than half Earth's size.",
+      "positionHint": "Fourth sphere in the row, muted rust mottling. Its counter nearly matches Earth's.",
+      "color": "#C08B5C"
+    },
+    {
+      "id": "hs-jupiter-spin",
+      "label": "Jupiter's lightning spin",
+      "conceptId": "jupiter-spins-fastest",
+      "position": [
+        2.6,
+        0.1,
+        0
+      ],
+      "description": "The biggest planet spins the fastest — one rotation in about 9.9 hours. Its day counter races past two Earth days every 24 hours.",
+      "positionHint": "Rightmost sphere in the row (radius ~0.62), cream-and-tan banded. Its counter ticks the fastest of all five.",
+      "color": "#D9A441"
+    },
+    {
+      "id": "hs-retrograde-marker",
+      "label": "Retrograde marker",
+      "conceptId": "venus-spins-backward",
+      "position": [
+        -1.3,
+        0.65,
+        0
+      ],
+      "description": "A small direction arrow showing that Venus's rotation runs the opposite way from the other four planets.",
+      "positionHint": "Floating above the Venus sphere, a half-ring arrow pointing the reverse direction from the Mars/Earth/Jupiter arrows.",
+      "color": "#6B85A8"
+    },
+    {
+      "id": "hs-rotation-axis",
+      "label": "Rotation axis",
+      "conceptId": "day-is-one-rotation",
+      "position": [
+        0,
+        0.9,
+        0
+      ],
+      "description": "The invisible rod each sphere spins around — the axis of rotation. Every planet rotates around its own axis.",
+      "positionHint": "Floating near Earth's top pole with a short dashed line down through the sphere's center.",
+      "color": "#A6B0C4"
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, no floor grid, no glow, no bloom, no emissive materials, no cartoon outlines. Five planet spheres float in a row on a soft radial ground-shadow. Each sphere carries one small warm-grey pointer-dot on its surface and a slim floating day counter beneath (text panel). Spin motion is real-time at accelerated scale per planet, synchronized to Earth's 24h mark. The axis overlay and Venus retrograde arrow are thin, matte, low-key line geometry in branch colors, appearing via layer toggle. The pointer dots and hotspot dots are the only saturated accents.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, roughness ~0.55-0.65 matte spheres with baked mottling/banding (no image textures). Pointer dots: small flat warm-amber discs stuck just proud of the surface. Axes: thin muted-grey line segments. Counters: dark text sprites. No emissive channels; the app handles any state highlight.",
+  "assetBrief": "SUBJECT: A rotation row of five spheres along X: Mercury (-2.5, radius 0.24), Venus (-1.3, 0.4), Earth (0, 0.42), Mars (1.3, 0.3), Jupiter (2.6, 0.62). Each sphere spins about a shared visual Y-axis at its real relative rate, all locked to a master clock: Earth completes exactly one rotation per 24 virtual hours; Jupiter ~9.9h (fastest), Venus ~117 days (slowest, counterclockwise when viewed from above — opposite to the others), Mercury ~176 days, Mars 24.6h. A spin-up control multiplies the clock by up to 60× so slow spinners become observable; a day counter floats under each sphere (format HH:MM), pausing at each full day for learners who want to count. A small orange pointer-dot rides each surface so the rotation is visible. The retrograde indicator layer adds a half-arrow over Venus when enabled. The axis layer adds short dashed axis segments through each sphere center. Camera: full row framing [0, 1.2, 4.8] → target [0, 0.2, 0], planets evenly spaced, counters legible. Grounding: radial shadow beneath the row. Named groups per layers list.",
+  "visual": {
+    "shape": "rotation-spin"
+  }
+}

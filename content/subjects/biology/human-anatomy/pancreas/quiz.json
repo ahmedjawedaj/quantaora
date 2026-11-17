@@ -1,0 +1,65 @@
+{
+  "componentId": "pancreas",
+  "questions": [
+    {
+      "id": "pan-q-jobs",
+      "conceptId": "dual-role-gland",
+      "hotspotId": "hs-pan-gland",
+      "prompt": "What are the two main jobs of the pancreas?",
+      "options": [
+        "Make digestive enzymes and control blood sugar",
+        "Pump blood and filter air",
+        "Store urine and make bile",
+        "Make bones and digest food"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pancreas makes digestive enzymes that break down food AND makes hormones like insulin that control blood sugar.",
+      "misconception": "Pumping blood is the heart and bile is made by the liver - the pancreas is the enzyme + hormone gland."
+    },
+    {
+      "id": "pan-q-enzymes",
+      "conceptId": "pancreatic-enzymes-digestion",
+      "hotspotId": "hs-enzyme",
+      "prompt": "Where do the pancreas's digestive enzymes go to work?",
+      "options": [
+        "To the small intestine",
+        "To the lungs",
+        "To the brain",
+        "To the skin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The pancreas sends its digestive enzymes through a duct to the small intestine, where they break down food.",
+      "misconception": "Enzymes don't work in the lungs or brain - they travel to the small intestine, the digestion stage."
+    },
+    {
+      "id": "pan-q-insulin",
+      "conceptId": "insulin-blood-sugar",
+      "hotspotId": "hs-insulin",
+      "prompt": "What does insulin do?",
+      "options": [
+        "Signals cells to take sugar from the blood",
+        "Adds oxygen to the blood",
+        "Makes bones stronger",
+        "Helps you see"
+      ],
+      "correctIndex": 0,
+      "explanation": "Insulin tells cells to take in sugar from the blood, which lowers blood sugar and gives cells fuel.",
+      "misconception": "Insulin is about sugar management, not oxygen or bones - it is the key that lets cells use glucose."
+    },
+    {
+      "id": "pan-q-diabetes",
+      "conceptId": "insulin-blood-sugar",
+      "hotspotId": "hs-insulin",
+      "prompt": "In diabetes, what goes wrong related to the pancreas?",
+      "options": [
+        "The body can't control blood sugar well (insulin problem)",
+        "The heart pumps too fast",
+        "The lungs fill with water",
+        "The bones break"
+      ],
+      "correctIndex": 0,
+      "explanation": "In diabetes, the pancreas does not make enough insulin or the body does not respond to it, so blood sugar is not controlled well.",
+      "misconception": "Diabetes is specifically a blood-sugar control problem tied to the pancreas and insulin, not heart, lung, or bone issues."
+    }
+  ]
+}

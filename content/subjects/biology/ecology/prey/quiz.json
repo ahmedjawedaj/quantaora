@@ -1,0 +1,65 @@
+{
+  "componentId": "prey",
+  "questions": [
+    {
+      "id": "prey-q-def",
+      "conceptId": "hunted-by-predators",
+      "hotspotId": "hs-hunted",
+      "prompt": "What is prey?",
+      "options": [
+        "An animal that is hunted and eaten by a predator",
+        "An animal that hunts others",
+        "A plant that makes its own food",
+        "A nonliving object"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prey are the animals that predators hunt, catch, and eat.",
+      "misconception": "Prey are on the hunted side of the race; the hunter is the predator."
+    },
+    {
+      "id": "prey-q-example",
+      "conceptId": "hunted-by-predators",
+      "hotspotId": "hs-hunted",
+      "prompt": "Which of these is prey in a food chain?",
+      "options": [
+        "A mouse",
+        "A wolf",
+        "A lion",
+        "An eagle"
+      ],
+      "correctIndex": 0,
+      "explanation": "A mouse is eaten by owls, foxes, and hawks - making it prey in many food chains.",
+      "misconception": "Mice are prey to larger hunters; wolves, lions, and eagles are predators."
+    },
+    {
+      "id": "prey-q-defense",
+      "conceptId": "prey-defenses",
+      "hotspotId": "hs-speed",
+      "prompt": "Which is a defense prey use to survive?",
+      "options": [
+        "Speed and camouflage",
+        "Loud hunting calls",
+        "Sharp hunting claws",
+        "Bright flashing lights"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prey survive with speed, camouflage, hiding, and living in groups - not by hunting.",
+      "misconception": "Prey use escape and hiding, while hunting tools belong to predators."
+    },
+    {
+      "id": "prey-q-both",
+      "conceptId": "predator-prey-race",
+      "hotspotId": "hs-group",
+      "prompt": "Can an animal be both predator and prey?",
+      "options": [
+        "Yes - a mouse eats insects but is eaten by owls",
+        "No - animals are one or the other",
+        "Only in zoos",
+        "Only underwater"
+      ],
+      "correctIndex": 0,
+      "explanation": "Many animals are both - they hunt smaller animals and are hunted by larger ones.",
+      "misconception": "Predator and prey are roles, not fixed labels - most animals play both in different food chains."
+    }
+  ]
+}

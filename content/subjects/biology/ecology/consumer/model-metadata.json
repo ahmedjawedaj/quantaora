@@ -1,0 +1,100 @@
+{
+  "id": "consumer",
+  "componentId": "consumer",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/ecology/consumer/consumer.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/ecology/consumer.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Herbivore",
+    "Carnivore",
+    "Omnivore",
+    "Connection to producers"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-herb",
+      "label": "Herbivore",
+      "conceptId": "herbivore-carnivore-omnivore",
+      "position": [
+        0.3,
+        0.15,
+        0.1
+      ],
+      "description": "Eats only plants.",
+      "color": "#7FA874",
+      "function": "Turns plant energy into animal energy."
+    },
+    {
+      "id": "hs-carn",
+      "label": "Carnivore",
+      "conceptId": "herbivore-carnivore-omnivore",
+      "position": [
+        -0.3,
+        0.2,
+        0.15
+      ],
+      "description": "Eats only other animals.",
+      "color": "#D98A6A",
+      "function": "Hunts other consumers for energy."
+    },
+    {
+      "id": "hs-omn",
+      "label": "Omnivore",
+      "conceptId": "herbivore-carnivore-omnivore",
+      "position": [
+        0.0,
+        0.05,
+        0.2
+      ],
+      "description": "Eats both plants and animals.",
+      "color": "#D9A441",
+      "function": "Takes energy from producers and consumers both."
+    },
+    {
+      "id": "hs-dep",
+      "label": "Depends on producers",
+      "conceptId": "depends-on-producers",
+      "position": [
+        0.0,
+        -0.25,
+        0.1
+      ],
+      "description": "Every consumer's energy comes from plants eventually.",
+      "color": "#6B85A8",
+      "function": "Shows the energy connection back to producers."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The scene reads as a calm stylized diorama - simplified, clean shapes with a restrained warm-paper and muted-green palette, not cartoon, not cluttered. COLOR IS RESTRAINED: each subject is a muted near-paper shade; strong saturated color is reserved entirely for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a stylized diorama of a food chain with a producer (a small plant) at the bottom and three consumers above it: a rabbit (herbivore), a fox (carnivore), and a bear (omnivore), with a clear energy arrow connecting them upward. Warm off-white background, muted greens and paper tones, no glow. Named nodes: Plant, Rabbit, Fox, Bear, EnergyArrow. Budget 12-16k.",
+  "visual": {
+    "shape": "consumer-animal"
+  }
+}

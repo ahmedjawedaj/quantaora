@@ -1,0 +1,89 @@
+{
+  "id": "denominator",
+  "componentId": "denominator",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/fractions-and-ratios/denominator/denominator.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/fractions-and-ratios/denominator.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Fraction bars",
+    "Cut slider",
+    "Filled single parts"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-denominator-bars",
+      "label": "Fraction bars",
+      "conceptId": "denominator-counts-equal-parts",
+      "position": [
+        -0.7,
+        0.6,
+        0
+      ],
+      "description": "Three identical-length bars cut into different numbers of equal parts \u2014 2, 4, and 8.",
+      "positionHint": "The three horizontal bars side by side, cut into increasingly many segments.",
+      "color": "#6B85A8",
+      "function": "Show how dividing a whole into more parts shrinks each piece."
+    },
+    {
+      "id": "hs-part-size",
+      "label": "Part size",
+      "conceptId": "denominator-part-size",
+      "position": [
+        0.7,
+        0.6,
+        0
+      ],
+      "description": "One filled part in each bar shows the part size \u2014 it shrinks as the denominator grows.",
+      "positionHint": "The single lit segment in each bar.",
+      "color": "#D9A441",
+      "function": "Compares the size of a single part across different denominators."
+    },
+    {
+      "id": "hs-denominator-plate",
+      "label": "Denominator plate",
+      "conceptId": "denominator-bottom-of-fraction",
+      "position": [
+        0,
+        -0.35,
+        0.3
+      ],
+      "description": "The bottom-number plate (denominator) that updates as the number of cuts changes.",
+      "positionHint": "The plate below the active bar showing its denominator.",
+      "color": "#7FA86A",
+      "function": "Shows the denominator value changing with the cut count."
+    }
+  ],
+  "visualStyleNotes": "Fractions And Ratios, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. Three clean identical fraction bars in a vertical stack, each cut into a different number of equal segments, with one filled part each. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (grid-blue / amber / molecular-green from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Fraction bars: warm paper white with thin ink-grey seams (roughness ~0.5). Filled single parts: warm amber (roughness ~0.45). Cut slider: soft warm-grey rail with amber knob. Denominator plate: warm paper with ink text. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: how the denominator controls part size \u2014 three identical fraction bars cut into 2, 4, and 8 equal parts, each highlighting one part.\n\nGEOMETRY: Three stacked horizontal bars (length ~2.0, width ~0.28, vertical spacing ~0.45) at origin. From top to bottom the bars split into 2, 4, and 8 equal segments (thin seams). A cut slider on the middle bar can change its segment count (2,3,4,5,6,8) to show part size shrinking. One segment in each bar is filled (warm amber) to compare single-part sizes. Denominator plate at the front shows the changing denominator number.\n\nLAYERS (toggleable): (1) bars + seams; (2) filled single parts; (3) denominator plate.\n\nCAMERA: head-on from +z frames the three bars and the plate; labels legible. Budget 6-11k triangles. Named nodes: Bar2, Bar4, Bar8, Seams, FilledParts, CutSlider_Knob, DenominatorPlate. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "fraction-bars"
+  }
+}

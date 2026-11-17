@@ -1,0 +1,106 @@
+{
+  "id": "nucleus",
+  "componentId": "nucleus",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/cell-biology/nucleus/nucleus.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/nucleus.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Cytoplasm (context)",
+    "Nuclear envelope",
+    "Chromatin + DNA",
+    "Nucleolus",
+    "Nuclear pores"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-nuclear-envelope",
+      "label": "Nuclear envelope",
+      "conceptId": "nuclear-envelope",
+      "position": [
+        0.55,
+        0.2,
+        0.25
+      ],
+      "description": "A double membrane that wraps the nucleus and separates its contents from the cytoplasm. It is studded with pores.",
+      "positionHint": "The rounded outer rim of the nucleus, at the upper right edge.",
+      "color": "#D98B6A",
+      "function": "Separates the nucleus from the cytoplasm while controlling what passes through its pores."
+    },
+    {
+      "id": "hs-nuclear-pore",
+      "label": "Nuclear pore",
+      "conceptId": "nuclear-pores-controlled-transport",
+      "position": [
+        0.18,
+        0.42,
+        0.5
+      ],
+      "description": "An opening in the nuclear envelope that acts like a controlled door, letting messages and materials through.",
+      "positionHint": "On the front face of the envelope, below the nucleolus toward the viewer.",
+      "color": "#B5846A",
+      "function": "Controls the movement of RNA copies and building materials between nucleus and cytoplasm."
+    },
+    {
+      "id": "hs-nucleolus",
+      "label": "Nucleolus",
+      "conceptId": "nucleolus",
+      "position": [
+        0.12,
+        0.22,
+        0.1
+      ],
+      "description": "A dense, darker sphere inside the nucleus that assembles the parts used to build ribosomes.",
+      "positionHint": "Interior center, slightly low, shown via a clipped half of the nucleus.",
+      "color": "#D9A441",
+      "function": "Assembles the RNA components that become part of ribosomes."
+    },
+    {
+      "id": "hs-nucleoplasm",
+      "label": "Nucleoplasm",
+      "conceptId": "dna-storage-control-center",
+      "position": [
+        0.05,
+        0.1,
+        -0.15
+      ],
+      "description": "The fluid filling the nucleus, along with the scattered chromatin (DNA + proteins).",
+      "positionHint": "Spread across the interior volume of the nucleus.",
+      "color": "#7fa88a",
+      "function": "Provides the medium in which the DNA (chromatin) sits and the nucleolus floats."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The nucleus floats large and centered, lit with soft neutral studio light, no bloom or emissive anywhere. Restrained color: the nucleus is a calm warm-paper sphere, the envelope slightly deeper warm-taupe than the nucleoplasm, the nucleolus faint amber, the DNA/chromatin threads a softened muted rust. Strong saturated color reserved only for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, roughness ~0.5-0.65 matte. The envelope may have a subtle translucent fresnel (alpha ~0.85) so interior structures read, but keep it soft and semi-opaque - not glassy. No emissive anywhere.",
+  "assetBrief": "SUBJECT: The nucleus of a eukaryotic cell as a self-contained study model (the cytoplasm is a faint transparent hint only, not the focus). Build a rounded nucleus {~1.6 units across) shown one half removed (clean flat cross-section cap, museum-model style, no gore) to reveal the interior. Inside: an outer double nuclear envelope (two nested shells, the inner shell slightly inset), wave-like strands of chromatin (DNA) curving through the interior, and one dense nucleolus sphere off-center. Scatter a few visible pore rings across the envelope surface. Materials follow the parallel background/paper and muted warm-tau palette; the chromatin is a pale desaturated grey, the nucleolus soft amber, all near-neutral. Do not use saturated 'legend' colors on the mesh; keep them for hotspot dots only. No glow, no emissive, no floor. Named nodes: OuterEnvelope, InnerEnvelope, ChromatinThreads, NucleolusMesh, Pore_Ring01 etc., CytoplasmContext (optional transparent shell). Budget 8-15k triangles. camera framing leaves generous negative space; auto-rotate slow and on by default.",
+  "referenceMatch": "Match the render, lighting and composition of assets/reference/anatomy-atelier/desktop-overview.png - object floats alone on a warm off-white radial-vignette ground, no props, generous negative space for the hotspot-card UI.",
+  "visual": {
+    "shape": "nucleus-orb"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "componentId": "ecosystem",
+  "terms": [
+    {
+      "term": "Ecosystem",
+      "conceptId": "living-plus-nonliving",
+      "hotspotId": "hs-living",
+      "definition": "A community of living things plus their nonliving surroundings, interacting as a system.",
+      "function": "Organizes life with its environment.",
+      "whereItIs": "Any area, from a puddle to a forest.",
+      "whyItMatters": "It is the full system in which life operates.",
+      "relatedConcept": "energy-flows-through",
+      "quizId": "eco-q-def"
+    },
+    {
+      "term": "Energy flow",
+      "conceptId": "energy-flows-through",
+      "hotspotId": "hs-energy",
+      "definition": "The one-way passage of energy from sun to plants to animals.",
+      "function": "Powers all life in the ecosystem.",
+      "whereItIs": "Through food chains.",
+      "whyItMatters": "Without new energy from the sun, ecosystems would run down.",
+      "relatedConcept": "living-plus-nonliving",
+      "quizId": "eco-q-energy"
+    },
+    {
+      "term": "Matter recycling",
+      "conceptId": "matter-recycled",
+      "hotspotId": "hs-recycle",
+      "definition": "The reuse of materials as decomposers break down dead matter.",
+      "function": "Returns nutrients to the soil for reuse.",
+      "whereItIs": "Throughout the ecosystem.",
+      "whyItMatters": "It keeps nutrients available again and again.",
+      "relatedConcept": "energy-flows-through",
+      "quizId": "eco-q-recycle"
+    },
+    {
+      "term": "Decomposer",
+      "conceptId": "matter-recycled",
+      "hotspotId": "hs-recycle",
+      "definition": "A living thing that breaks down dead material.",
+      "function": "Recycles nutrients back to the soil.",
+      "whereItIs": "Fungi, bacteria, and some worms.",
+      "whyItMatters": "They are the ecosystem's recyclers.",
+      "relatedConcept": "living-plus-nonliving"
+    }
+  ]
+}

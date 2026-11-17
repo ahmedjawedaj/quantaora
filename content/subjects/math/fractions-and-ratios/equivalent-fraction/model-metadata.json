@@ -1,0 +1,89 @@
+{
+  "id": "equivalent-fraction",
+  "componentId": "equivalent-fraction",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/fractions-and-ratios/equivalent-fraction/equivalent-fraction.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/fractions-and-ratios/equivalent-fraction.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.8
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.8
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Two fraction circles",
+    "Scale slider",
+    "Simplify control"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-equivalence",
+      "label": "Equivalent pair",
+      "conceptId": "equiv-fraction-same-amount",
+      "position": [
+        0,
+        0.7,
+        0
+      ],
+      "description": "Two circles shaded with different slices but the same total amount \u2014 1/2 and 2/4.",
+      "positionHint": "The two fraction circles side by side with matching shaded areas.",
+      "color": "#D9A441",
+      "function": "Shows two fractions naming the same amount."
+    },
+    {
+      "id": "hs-scale-rule",
+      "label": "Scale rule",
+      "conceptId": "equiv-fraction-multiply-both",
+      "position": [
+        -0.6,
+        0.2,
+        0.3
+      ],
+      "description": "Multiplying both the numerator and denominator by the same number builds an equal fraction.",
+      "positionHint": "The \u00d7n control attached to the left circle.",
+      "color": "#7FA86A",
+      "function": "Generates equivalent fractions by scaling both numbers."
+    },
+    {
+      "id": "hs-simplify",
+      "label": "Simplify",
+      "conceptId": "equiv-fraction-simplify",
+      "position": [
+        0.6,
+        0.2,
+        0.3
+      ],
+      "description": "Dividing both numbers by a common factor reduces the fraction to simplest form.",
+      "positionHint": "The simplify control attached to the right circle.",
+      "color": "#6B85A8",
+      "function": "Reduces a fraction by dividing out a common factor."
+    }
+  ],
+  "visualStyleNotes": "Fractions And Ratios, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. Two clean fraction circles on a mat with matching shaded slices, plus scale and simplify controls. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Fraction circles: warm paper white discs (roughness ~0.5) with ink-grey seams. Filled slices: warm amber (roughness ~0.45). Fraction labels under each. Sliders: soft warm-grey rails with amber knobs. Mat: soft warm-grey. No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: equivalent fractions as two circles with matching shaded amounts that restyle as the scale/simplify controls act.\n\nGEOMETRY: Two fraction circles (radius ~0.8) side by side at x \u2248 \u22120.9 and +0.9, y \u2248 0.25. Left: 1/2 with 1 slice filled. Right: 2/4 with 2 slices filled. Both share the same shaded fraction of the disc. A Scale slider (top) multiplies both circles' parts (\u00d72, \u00d73...) redrawing seams while preserving shaded area. A Simplify control reduces a 6/8 third circle to 3/4 by dividing both by 2.\n\nLAYERS (toggleable): (1) fraction circles; (2) scale/simplify controls; (3) fraction labels.\n\nCAMERA: head-on, slightly above, from +z fits both circles; labels legible. Budget 6-11k triangles. Named nodes: Circle_Left, Circle_Right, Slice_Seams, FilledParts, ScaleSlider_Knob, SimplifyButton, FractionLabels. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "equiv-two-circles"
+  }
+}

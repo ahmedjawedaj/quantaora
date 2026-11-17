@@ -1,0 +1,80 @@
+{
+  "componentId": "median",
+  "questions": [
+    {
+      "id": "median-def",
+      "conceptId": "median-definition",
+      "hotspotId": "hs-median-block",
+      "prompt": "What is the median of a dataset?",
+      "options": [
+        "The middle value after sorting",
+        "The total divided by the count",
+        "The most frequent value",
+        "The largest value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sort the data, then take the middle value — the median.",
+      "misconception": "Total ÷ count is the mean, and the most frequent is the mode — the median is the middle after sorting."
+    },
+    {
+      "id": "median-sort",
+      "conceptId": "median-sort",
+      "hotspotId": "hs-sorted-track",
+      "prompt": "What is the first step to find a median?",
+      "options": [
+        "Sort the data from low to high",
+        "Add all the numbers",
+        "Count the data twice",
+        "Find the biggest value"
+      ],
+      "correctIndex": 0,
+      "explanation": "You must order the data before the middle makes sense.",
+      "misconception": "The mean adds; the median orders — without sorting, 'middle' is meaningless."
+    },
+    {
+      "id": "median-odd",
+      "conceptId": "median-definition",
+      "hotspotId": "hs-median-block",
+      "prompt": "The median of 1, 3, 9, 12, 20 is...",
+      "options": [
+        "9",
+        "3",
+        "12",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sorted already: 1, 3, 9, 12, 20 — the middle (3rd) value is 9.",
+      "misconception": "The median is the middle position, not the middle value of the range — 9 is the 3rd item, not 10."
+    },
+    {
+      "id": "median-even",
+      "conceptId": "median-even",
+      "hotspotId": "hs-sorted-track",
+      "prompt": "The median of 2, 5, 8, 11 is...",
+      "options": [
+        "6.5",
+        "5",
+        "8",
+        "13"
+      ],
+      "correctIndex": 0,
+      "explanation": "Even count — average the two middle values: (5 + 8) ÷ 2 = 6.5.",
+      "misconception": "There is no single middle item with 4 values, so you average the two middle ones instead of picking either."
+    },
+    {
+      "id": "median-outlier",
+      "conceptId": "median-outlier",
+      "hotspotId": "hs-median-block",
+      "prompt": "Why does a giant outlier barely affect the median?",
+      "options": [
+        "The median depends on position, not the outlier's size",
+        "The median ignores sorted data",
+        "Outliers never exist",
+        "The median adds all values first"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only the middle position matters — a huge value just sits at the far end.",
+      "misconception": "The mean adds every value, so it feels outliers — the median counts only positions."
+    }
+  ]
+}

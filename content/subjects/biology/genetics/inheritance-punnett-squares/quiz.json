@@ -1,0 +1,64 @@
+{
+  "componentId": "inheritance-punnett-squares",
+  "questions": [
+    {
+      "id": "inheritance-punnett-squares-q-prediction-not-guarantee",
+      "conceptId": "punnett-square-grid",
+      "hotspotId": "hs-punnett-square-grid",
+      "prompt": "What does a Punnett square actually predict?",
+      "options": [
+        "The exact traits every single offspring will have, guaranteed",
+        "The probability of different genotype and phenotype combinations offspring could have",
+        "Which parent's genes are stronger overall",
+        "The exact number of offspring a pair will produce"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Punnett square lays out probabilities based on how alleles can combine — it tells you the odds (like 3:1) across many offspring, not a certainty for any one individual.",
+      "misconception": "Students often think a 3:1 ratio means 'the first 3 offspring will show the trait and the 4th won't,' or that the square guarantees each offspring's traits — when really each offspring is an independent random combination, just like flipping a coin doesn't guarantee exactly 1 heads out of every 2 flips."
+    },
+    {
+      "id": "inheritance-punnett-squares-q-heterozygous-phenotype",
+      "conceptId": "phenotype",
+      "prompt": "In pea plants, R (round seeds) is dominant and r (wrinkled seeds) is recessive. What phenotype does a plant with genotype Rr have?",
+      "options": [
+        "Round",
+        "Wrinkled",
+        "A blend of round and wrinkled",
+        "It won't produce seeds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because R is dominant, one copy of R is enough to produce the round phenotype, even though the plant still carries a hidden r allele it could pass on.",
+      "misconception": "A common misconception is that heterozygous traits automatically blend together (like mixing paint), but in classic dominant/recessive inheritance the dominant allele fully masks the recessive one — there's no in-between look."
+    },
+    {
+      "id": "inheritance-punnett-squares-q-monohybrid-ratio",
+      "conceptId": "predicted-phenotype-ratios",
+      "hotspotId": "hs-predicted-phenotype-ratios",
+      "prompt": "If you cross two heterozygous pea plants (Rr x Rr), what phenotype ratio should the Punnett square predict?",
+      "options": [
+        "1 round : 1 wrinkled",
+        "3 round : 1 wrinkled",
+        "All offspring round",
+        "All offspring wrinkled"
+      ],
+      "correctIndex": 1,
+      "explanation": "The genotype ratio is 1 RR : 2 Rr : 1 rr, but since both RR and Rr look round (R is dominant), that combines to a 3 round : 1 wrinkled phenotype ratio.",
+      "misconception": "Students frequently mix up the genotype ratio (1:2:1) with the phenotype ratio, forgetting that Rr individuals show the dominant round phenotype even though their genotype is different from RR."
+    },
+    {
+      "id": "inheritance-punnett-squares-q-random-allele-passing",
+      "conceptId": "parent-alleles-combine",
+      "hotspotId": "hs-parent-alleles-combine",
+      "prompt": "What determines which allele a parent passes on to an offspring for a given gene?",
+      "options": [
+        "The parent consciously chooses which trait to pass on",
+        "Each parent randomly passes just one of their two alleles during reproduction",
+        "Only the mother's alleles get passed on",
+        "Both of a parent's alleles are always passed on together"
+      ],
+      "correctIndex": 1,
+      "explanation": "During the formation of sex cells, a parent's allele pairs separate so that only one allele per gene ends up in each egg or sperm; which one gets passed is random. This is exactly why a Punnett square lists each parent's two alleles just once across the top and side.",
+      "misconception": "A common misconception is that offspring receive both of a parent's alleles, or that inheritance is somehow directed — missing that allele pairs randomly separate before fertilization, which is what makes the four boxes of a Punnett square equally likely outcomes."
+    }
+  ]
+}

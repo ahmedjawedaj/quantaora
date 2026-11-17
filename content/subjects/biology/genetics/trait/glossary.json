@@ -1,0 +1,94 @@
+{
+  "componentId": "trait",
+  "terms": [
+    {
+      "term": "Trait",
+      "conceptId": "trait",
+      "definition": "An observable characteristic of an organism, such as flower color, height, or leaf size, produced by its genes, its environment, or both.",
+      "function": "Traits are the visible or measurable outcomes that let us study how genes and environment shape a living thing.",
+      "whereItIs": "Every organism has many traits at once — this component uses one pea plant's flower color, leaf size, and seed pod to show four of the underlying concepts.",
+      "whyItMatters": "Understanding traits explains why offspring resemble parents, how inherited conditions are predicted, and how breeders and researchers improve crops and livestock.",
+      "relatedConcept": "genotype"
+    },
+    {
+      "term": "Genotype",
+      "conceptId": "genotype",
+      "hotspotId": "hotspot-genotype",
+      "definition": "The specific pair of alleles an organism carries for a trait, whether or not both alleles are visible in its phenotype.",
+      "function": "Genotype stores the full genetic instruction for a trait — both the allele that gets expressed and the one that may be silently carried and passed on.",
+      "whereItIs": "On a chromosome inside the nucleus of every cell; on this model, revealed as the two-bead allele capsule inside the stem when the Cross-section layer is active.",
+      "whyItMatters": "Genotype is why two organisms with the same phenotype (like PP and Pp purple pea plants) can still produce very different offspring — the hidden allele matters even when it isn't visible.",
+      "relatedConcept": "phenotype",
+      "quizId": "trait-q-genotype-phenotype"
+    },
+    {
+      "term": "Phenotype",
+      "conceptId": "phenotype",
+      "hotspotId": "hotspot-phenotype",
+      "definition": "The observable trait that actually results from a genotype, sometimes further shaped by the environment.",
+      "function": "Phenotype is the physical, measurable expression of a genotype — the thing you can actually see, touch, or measure.",
+      "whereItIs": "On this model, the plant's purple flower at the top of the stem.",
+      "whyItMatters": "Phenotype is what natural selection, breeders, and doctors can actually observe — genotype has to be inferred from it, from breeding results, or from direct genetic testing.",
+      "relatedConcept": "genotype",
+      "quizId": "trait-q-dominant-recessive"
+    },
+    {
+      "term": "Inherited trait",
+      "conceptId": "inherited-trait",
+      "hotspotId": "hotspot-inherited-trait",
+      "definition": "A trait passed from parent to offspring through alleles carried in reproductive cells or, in plants, seeds — distinct from simply being genetic or visible in one organism.",
+      "function": "Inherited trait names the act of transmission itself: a parent's alleles being copied forward into the next generation, not just the alleles an organism currently holds (genotype) or how they currently show up (phenotype).",
+      "whereItIs": "On this model, the seed pod hanging from the stem — its seeds carry copies of this plant's alleles into the next generation.",
+      "whyItMatters": "Distinguishing 'inherited' from 'genetic in this organism' matters because not everything genetic gets passed on in a simple way, and not everything passed on is obviously genetic at first glance — inheritance is specifically about the parent-to-offspring transfer.",
+      "relatedConcept": "genotype",
+      "quizId": "trait-q-inherited-trait"
+    },
+    {
+      "term": "Environmental influence",
+      "conceptId": "environmental-influence",
+      "hotspotId": "hotspot-environment",
+      "definition": "A non-genetic factor — such as light, water, temperature, or nutrients — that can change how strongly a genetically coded trait is expressed, without changing the underlying genotype.",
+      "function": "Environmental influence explains why organisms with identical genotypes can still end up looking or growing differently, depending on the conditions they experience.",
+      "whereItIs": "On this model, the visible size difference between the fuller leaves on the sun-facing side of the stem and the smaller leaves on the shaded side — both grown from the exact same genotype.",
+      "whyItMatters": "Environmental influence is why identical twins can look slightly different, why the same crop variety yields differently on different farms, and why genotype alone can't always predict the final phenotype.",
+      "relatedConcept": "phenotype",
+      "quizId": "trait-q-environmental-influence"
+    },
+    {
+      "term": "Gene",
+      "conceptId": "gene",
+      "definition": "A segment of DNA that contains the instructions for a specific trait.",
+      "function": "Genes are the units of hereditary information — the instructions that, combined with environment, produce an organism's traits.",
+      "whereItIs": "Located at a specific position along a chromosome inside the cell nucleus.",
+      "whyItMatters": "Every allele, and therefore every genotype, is a version of a gene — genes are the underlying molecular basis every concept in this component builds on.",
+      "relatedConcept": "allele"
+    },
+    {
+      "term": "Allele",
+      "conceptId": "allele",
+      "definition": "One version of a gene; organisms usually inherit two alleles for each gene, one from each parent.",
+      "function": "Alleles are the specific variants that combine to form a genotype — for pea flower color, P and p are the two alleles of the same gene.",
+      "whereItIs": "Paired at the same position on matching chromosomes; on this model, the two beads inside the genotype capsule.",
+      "whyItMatters": "Which two alleles an organism carries, and whether they're the same or different, determines its genotype and therefore constrains its possible phenotype.",
+      "relatedConcept": "genotype"
+    },
+    {
+      "term": "Dominant allele",
+      "conceptId": "dominant-allele",
+      "definition": "A version of a gene whose trait shows up in the phenotype even when only one copy is present.",
+      "function": "A dominant allele masks a paired recessive allele's trait, so a heterozygous organism (one dominant, one recessive allele) shows the dominant phenotype.",
+      "whereItIs": "On this model, the P allele for purple flower color — present in both PP and Pp genotypes, both of which produce a purple phenotype.",
+      "whyItMatters": "Dominant alleles are why an organism's visible phenotype can hide a recessive allele it's still capable of passing on to offspring.",
+      "relatedConcept": "recessive-allele"
+    },
+    {
+      "term": "Recessive allele",
+      "conceptId": "recessive-allele",
+      "definition": "A version of a gene whose trait only shows up in the phenotype when two copies are present, with no dominant allele masking it.",
+      "function": "A recessive allele's trait is hidden whenever a dominant allele is paired with it, and only becomes visible in a homozygous recessive genotype.",
+      "whereItIs": "On this model, the p allele for white flower color — only produces a white phenotype in the pp genotype.",
+      "whyItMatters": "Recessive alleles explain why traits can seem to 'skip a generation': they're carried silently by parents whose own phenotype shows the dominant trait instead.",
+      "relatedConcept": "dominant-allele"
+    }
+  ]
+}

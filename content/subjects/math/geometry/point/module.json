@@ -1,0 +1,86 @@
+{
+  "id": "point",
+  "subject": "math",
+  "title": "Point",
+  "summary": "A point marks an exact location with no size — one spot on a plane. Explore how points are named, plotted, and used as the building blocks of every shape.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "point-definition",
+    "point-naming",
+    "point-plot",
+    "point-building-block"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 6,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Building blocks",
+    "systemOrGroup": "Basic elements",
+    "component": "Point",
+    "displayPath": "Math > Geometry > Building blocks > Basic elements > Point"
+  },
+  "crossReferences": [
+    {
+      "label": "Line (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Line",
+      "note": "A line is a straight path of points extending forever."
+    },
+    {
+      "label": "Segment (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Segment",
+      "note": "A segment is the part of a line between two endpoints."
+    },
+    {
+      "label": "Angle (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Angle",
+      "note": "An angle is formed where two rays share a common endpoint (vertex)."
+    }
+  ],
+  "belongsTo": "Geometry > Building blocks > Basic elements",
+  "compareCandidate": {
+    "label": "Point vs. dot",
+    "description": "A dot is a visible mark that HELPS show a point; the point itself is the exact location with no size at all."
+  },
+  "parts": [
+    "The exact location",
+    "The name label",
+    "Its position on a plane"
+  ],
+  "processes": [
+    "Naming a point",
+    "Plotting a point on a grid"
+  ],
+  "plainLanguageExplanation": "A point marks one exact location in space. It has no length, no width, no height — no size at all. You draw a tiny dot to represent it, and you name it with a capital letter, like point A or point P. On a grid, every point has a position — you can plot point A at row 3, column 5. Points are the smallest building blocks of geometry: a line is a path of points, a segment joins two points, and an angle is two rays sharing a point called the vertex.",
+  "keyFacts": [
+    { "label": "Definition", "value": "An exact location with no size" },
+    { "label": "Symbol", "value": "A tiny dot, labeled with a capital letter" },
+    { "label": "Example", "value": "Point A" },
+    { "label": "Position", "value": "Every point sits at one spot on a plane" },
+    { "label": "Building block", "value": "Segments, lines, and angles are built from points" },
+    { "label": "No size", "value": "No length, width, or thickness" }
+  ],
+  "whyItMatters": "Every map pin, every city coordinate, every corner of a triangle is a point. Understanding that a point is a location — not a thing with size — is the foundation for all of geometry.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Point",
+  "tagline": "One exact spot",
+  "didYouKnow": "A dot you draw is always too big to be a real point — a true point has zero size, which is why it can exist in infinitely many places but you can never actually touch one.",
+  "conditions": [
+    "Naming shapes",
+    "Plotting on grids",
+    "Reading maps",
+    "Finding vertices"
+  ],
+  "compareCandidateId": "line",
+  "compareReason": "Students think of points as little dots with size — comparing a point with a line shows size versus pure location."
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "cytoplasm",
+  "questions": [
+    {
+      "id": "cy-q-what-is",
+      "conceptId": "cytosol-and-organelles",
+      "hotspotId": "hs-fill",
+      "prompt": "What is the cytoplasm?",
+      "options": [
+        "The jelly-like filling of the cell that holds the organelles",
+        "The rigid wall outside the cell",
+        "The fluid inside the nucleus only",
+        "The DNA of the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cytoplasm is the material between the cell membrane and the nucleus: a jelly-like fluid (cytosol) with all the organelles suspended in it.",
+      "misconception": "Some students think the cytoplasm is just 'water' with no structure, but it is a carefully organized fluid that supports organelles, moves materials, and hosts reactions."
+    },
+    {
+      "id": "cy-q-cytosol",
+      "conceptId": "cytosol-and-organelles",
+      "hotspotId": "hs-cytosol",
+      "prompt": "Which statement correctly separates cytoplasm and cytosol?",
+      "options": [
+        "Cytosol is the fluid part; cytoplasm is the fluid plus the organelles",
+        "Cytosol includes the nucleus; cytoplasm does not",
+        "They are exactly the same thing",
+        "Cytoplasm is only in plant cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cytosol is the water-based fluid. Cytoplasm is the whole interior workspace: cytosol plus the organelles floating in it.",
+      "misconception": "These terms sound alike, but the cytosol is only the fluid, while the cytoplasm is the full filling including the organelles."
+    },
+    {
+      "id": "cy-q-transport",
+      "conceptId": "cytoplasmic-transport",
+      "hotspotId": "hs-transport",
+      "prompt": "How does the cytoplasm help materials get around the cell?",
+      "options": [
+        "It provides the fluid path through which materials and organelles move",
+        "It burns materials to produce energy",
+        "It blocks everything from moving",
+        "It stores all the genetic instructions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cytoplasm is the route across the cell. Materials delivered through the membrane travel through it, and its flowing movement (streaming) carries things from one region to another.",
+      "misconception": "People think movement across a cell happens only at the membrane. The membrane is the gate, but the cytoplasm is the delivery network inside the gate."
+    },
+    {
+      "id": "cy-q-reactions",
+      "conceptId": "site-of-reactions",
+      "hotspotId": "hs-cytosol",
+      "prompt": "Why is the cytoplasm important for chemical reactions in the cell?",
+      "options": [
+        "Many of the cell's reactions happen in it",
+        "It stores the cell's energy as fat",
+        "It is the only place DNA is found",
+        "It makes the cell wall"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cytosol is filled with dissolved molecules and is the site of many reactions, like the first steps of breaking down sugars for energy.",
+      "misconception": "Students often think all cell chemistry happens inside organelles. A great deal happens in the cytosol itself, in the fluid between organelles."
+    },
+    {
+      "id": "cy-q-shape",
+      "conceptId": "site-of-reactions",
+      "hotspotId": "hs-fill",
+      "prompt": "Why does the cytoplasm help the cell change shape?",
+      "options": [
+        "It is mostly fluid, so the cell can bend and move",
+        "It is rigid like bone",
+        "It is made of metal fibers",
+        "It is frozen solid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the cytoplasm is mostly water, it flows. That fluidity lets cells bend, move, and stream their contents around.",
+      "misconception": "Cells are often drawn as stiff boxes, which makes the cytoplasm seem solid. In reality it is a flowing fluid that lets the cell be flexible."
+    }
+  ]
+}

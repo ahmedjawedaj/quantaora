@@ -1,0 +1,80 @@
+{
+  "componentId": "prime-number",
+  "questions": [
+    {
+      "id": "prime-7",
+      "conceptId": "prime-exactly-two-factors",
+      "hotspotId": "hs-prime-tile",
+      "prompt": "Which of these numbers is prime?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "7 has only two factors, 1 and 7, so it is prime.",
+      "misconception": "8, 9, and 12 all have extra factors (8: 2 and 4; 9: 3; 12: 2, 3, 4, 6), making them composite."
+    },
+    {
+      "id": "prime-odd-even",
+      "conceptId": "prime-detection",
+      "hotspotId": "hs-prime-tile",
+      "prompt": "Which statement is true?",
+      "options": [
+        "2 is the only even prime number",
+        "No even number is ever prime",
+        "All odd numbers are prime",
+        "21 is prime"
+      ],
+      "correctIndex": 0,
+      "explanation": "2 is even and has only the factors 1 and 2, so it is the one and only even prime.",
+      "misconception": "Odd numbers are not automatically prime — 9 and 21 are odd but composite (9 = 3×3, 21 = 3×7)."
+    },
+    {
+      "id": "prime-factorization-60",
+      "conceptId": "prime-building-blocks",
+      "hotspotId": "hs-factor-chain",
+      "prompt": "What is the prime factorization of 60?",
+      "options": [
+        "2 × 2 × 3 × 5",
+        "2 × 3 × 5",
+        "3 × 4 × 5",
+        "2 × 2 × 15"
+      ],
+      "correctIndex": 0,
+      "explanation": "60 = 2 × 30 = 2 × 2 × 15 = 2 × 2 × 3 × 5, and all the factors are prime.",
+      "misconception": "A prime factorization must end with ALL prime factors — 3 × 4 × 5 has a 4 (composite), and options that stop early are incomplete."
+    },
+    {
+      "id": "prime-not-1",
+      "conceptId": "prime-exactly-two-factors",
+      "hotspotId": "hs-prime-tile",
+      "prompt": "Why is the number 1 not prime?",
+      "options": [
+        "It has only one factor, but primes need exactly two",
+        "It is too small to count",
+        "It is negative",
+        "It is composite"
+      ],
+      "correctIndex": 0,
+      "explanation": "1 has only one factor (1 itself), but a prime must have exactly two factors. So 1 is neither prime nor composite.",
+      "misconception": "1 is not 'too small' — it fails the definition because it lacks the required second, distinct factor."
+    },
+    {
+      "id": "prime-unique",
+      "conceptId": "prime-building-blocks",
+      "hotspotId": "hs-factor-chain",
+      "prompt": "Why is a number like 45 expressed uniquely as primes?",
+      "options": [
+        "45 = 3 × 3 × 5 is the ONLY way using primes",
+        "There are many different prime factorizations",
+        "45 cannot be factored",
+        "45 is already prime"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fundamental theorem of arithmetic says every number has exactly one prime factorization — 45 is always 3×3×5.",
+      "misconception": "Factorization might look switchable in order (5×3×3), but as a set of primes the factorization is unique — every path leads to the same primes."
+    }
+  ]
+}

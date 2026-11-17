@@ -1,0 +1,49 @@
+{
+  "componentId": "planet-rotation-day-length",
+  "terms": [
+    {
+      "term": "Rotation",
+      "conceptId": "day-is-one-rotation",
+      "hotspotId": "hs-earth-spin",
+      "definition": "A circle dance of a planet around the imaginary line through the middle of it, called its axis — one full turn is one day.",
+      "function": "Sets the length of a planet's day: a slow spinner gets a long day, a fast spinner a short one.",
+      "whereItIs": "The spinning motion of each sphere in the row as it turns around its axis.",
+      "whyItMatters": "Every planet rotates, and the rate of rotation tells you how long its day is — no exceptions.",
+      "relatedConcept": "spin-speed-independence-of-size",
+      "quizId": "prdl-q-def-day"
+    },
+    {
+      "term": "Day",
+      "conceptId": "day-is-one-rotation",
+      "hotspotId": "hs-earth-spin",
+      "definition": "The time a planet takes to spin once completely around its axis.",
+      "function": "Ticks the counter beneath each sphere: Earth 24.0 hours, Mars 24.6, Jupiter 9.9, Mercury ~176 days, Venus ~117 days.",
+      "whereItIs": "The floating counter beneath each planet sphere.",
+      "whyItMatters": "The same 'one day' concept returns wildly different numbers across the solar system.",
+      "relatedConcept": "jupiter-spins-fastest",
+      "quizId": "prdl-q-fastest"
+    },
+    {
+      "term": "Retrograde rotation",
+      "conceptId": "venus-spins-backward",
+      "hotspotId": "hs-retrograde-marker",
+      "definition": "Spinning in the opposite direction from most planets — Venus (and Uranus, tilted far over) does this.",
+      "function": "Reverses the planet's apparent direction of sunrise: on Venus the Sun rises in the west.",
+      "whereItIs": "The backward-pointing arrow above Venus's sphere.",
+      "whyItMatters": "Highlights that spin direction is not a universal rule; the direct sense of day/night can flip.",
+      "relatedConcept": "day-is-one-rotation",
+      "quizId": "prdl-q-venus"
+    },
+    {
+      "term": "Axis",
+      "conceptId": "day-is-one-rotation",
+      "hotspotId": "hs-rotation-axis",
+      "definition": "The invisible line through a planet around which it spins.",
+      "function": "Defines the poles (north and south) of rotation and the spin plane.",
+      "whereItIs": "The dashed segment passing through the center of each sphere in the axis overlay.",
+      "whyItMatters": "The axis of spinning is the fixed-line reference for every day-length measurement.",
+      "relatedConcept": "day-is-one-rotation",
+      "quizId": "prdl-q-def-day"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "transcription-translation",
+  "subject": "biology",
+  "title": "Transcription And Translation",
+  "summary": "Transcription and translation are the two-step process that turns a gene's instructions into an actual protein. Follow a single gene's journey — copied off DNA inside the nucleus as mRNA, carried out into the cytoplasm, and read by a ribosome three letters at a time to build a chain of amino acids — to see how the central dogma of molecular biology (DNA to mRNA to protein) actually works.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "dna-transcribed-into-mrna",
+    "mrna-leaves-nucleus",
+    "ribosome-reads-mrna",
+    "amino-acids-assembled-into-protein"
+  ],
+  "type": "model",
+  "estimatedMinutes": 15,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "Molecular Genetics",
+    "systemOrGroup": "Gene Expression (process)",
+    "component": "Transcription And Translation",
+    "displayPath": "Biology > Genetics > Molecular Genetics > Gene Expression (process) > Transcription And Translation"
+  },
+  "crossReferences": [
+    {
+      "label": "DNA (Genetics)",
+      "branch": "genetics",
+      "component": "DNA",
+      "note": "The double helix inside the nucleus that RNA polymerase reads during transcription is the same DNA structure covered as its own low-level item elsewhere in this branch."
+    },
+    {
+      "label": "DNA Replication (Genetics)",
+      "branch": "genetics",
+      "process": "DNA replication",
+      "note": "DNA replication copies an entire DNA molecule before a cell divides; transcription, covered here, copies only one gene at a time into a disposable mRNA working copy. The two processes both 'read' DNA but serve very different purposes and are easy to confuse."
+    },
+    {
+      "label": "Mutation (Genetics)",
+      "branch": "genetics",
+      "component": "Mutation",
+      "note": "An error in the DNA sequence that transcription reads (a mutation) can change the mRNA copy and, in turn, the protein this process builds — connecting this component directly to how mutations produce real biological effects."
+    },
+    {
+      "label": "Animal Cell (Cell Biology)",
+      "branch": "cell-biology",
+      "component": "Animal Cell",
+      "note": "The nucleus and ribosomes shown acting in this component's scene are the same organelles mapped as static structures inside the Cell Biology branch's Animal Cell component."
+    }
+  ],
+  "belongsTo": "Genetics > Molecular Genetics > Gene Expression (process)",
+  "compareCandidate": {
+    "label": "mRNA vs. DNA",
+    "type": "Molecule vs molecule",
+    "description": "mRNA is single-stranded, temporary, and uses the base uracil (U) instead of thymine (T); DNA is double-stranded, permanent, and never leaves the nucleus. Comparing the two molecules side by side makes clear why the cell bothers transcribing a disposable working copy instead of using the original DNA directly."
+  },
+  "parts": [
+    "DNA transcribed into mRNA",
+    "mRNA leaves the nucleus",
+    "Ribosome reads the mRNA",
+    "Amino acids assembled into protein"
+  ],
+  "processes": [
+    "Transcription (DNA to mRNA, inside the nucleus)",
+    "mRNA export through a nuclear pore",
+    "Translation (mRNA to protein, at a ribosome)",
+    "Protein folding after synthesis"
+  ],
+  "plainLanguageExplanation": "Think of your DNA as a giant recipe book kept locked in a library (the nucleus) — too precious to ever leave. When a cell needs to build something, like a protein, it doesn't send the whole book out. Instead, a molecular \"photocopier\" called RNA polymerase copies just the one recipe it needs onto a disposable slip of paper called mRNA (messenger RNA). That's transcription. The mRNA slip then slides out of the nucleus into the busy cytoplasm, where it's picked up by a ribosome — the cell's kitchen. The ribosome reads the recipe three letters at a time (each three-letter chunk is called a codon), and for every codon it calls in the matching ingredient: an amino acid, delivered by a helper molecule called tRNA. As the ribosome moves along the mRNA, it links amino acid after amino acid into a growing chain. That chain folds up into a protein — the finished dish. That whole two-step journey, DNA to mRNA to protein, is how every protein in your body gets made.",
+  "keyFacts": [
+    {
+      "label": "Two-stage process",
+      "value": "Transcription (DNA to mRNA, happens in the nucleus) followed by translation (mRNA to protein, happens at a ribosome in the cytoplasm)."
+    },
+    {
+      "label": "Copying enzyme",
+      "value": "RNA polymerase reads one strand of DNA and builds a matching mRNA strand out of RNA building blocks."
+    },
+    {
+      "label": "mRNA vs DNA",
+      "value": "mRNA is single-stranded, uses the base uracil (U) instead of thymine (T), and is a temporary working copy — DNA itself never leaves the nucleus."
+    },
+    {
+      "label": "Codon",
+      "value": "A group of 3 mRNA letters (bases) that specifies one amino acid; the ribosome reads mRNA one codon at a time."
+    },
+    {
+      "label": "Start and stop signals",
+      "value": "The codon AUG marks the start of a protein; three special codons (UAA, UAG, UGA) signal the ribosome to stop."
+    },
+    {
+      "label": "tRNA's job",
+      "value": "Transfer RNA (tRNA) molecules ferry the correct amino acid to the ribosome to match each codon being read."
+    },
+    {
+      "label": "Building blocks",
+      "value": "Human proteins are built from a set of 20 standard amino acids, strung together in an order set entirely by the mRNA sequence."
+    }
+  ],
+  "whyItMatters": "Every protein in your body — the hemoglobin carrying oxygen in your blood, the keratin in your hair, the enzymes digesting your lunch, the antibodies fighting off a cold — was built by exactly this process. When something goes wrong in transcription or translation, or when the underlying DNA instructions contain an error (a mutation), the resulting protein can be faulty, which is how many genetic conditions arise. This process is also the basis of real, everyday technology: mRNA vaccines work by delivering a synthetic mRNA instruction straight to your cells' ribosomes, so your own protein-making machinery builds a harmless viral protein that trains your immune system. Understanding transcription and translation is understanding how the instructions in your DNA actually become the physical you.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

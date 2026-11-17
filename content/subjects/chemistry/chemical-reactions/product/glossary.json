@@ -1,0 +1,38 @@
+{
+  "componentId": "product",
+  "terms": [
+    {
+      "term": "Product",
+      "conceptId": "product-created-by-reaction",
+      "hotspotId": "hs-product-made",
+      "definition": "A new substance created by a chemical reaction.",
+      "function": "Shows up on the right of the equation as the reaction's outcome.",
+      "whereItIs": "The water molecule on the right of the equation.",
+      "whyItMatters": "Products are the results of every chemical change.",
+      "relatedConcept": "product-new-substance",
+      "quizId": "product-q-definition"
+    },
+    {
+      "term": "Chemical equation",
+      "conceptId": "product-right-of-equation",
+      "hotspotId": "hs-product-form",
+      "definition": "A shorthand description of a reaction with products on the right.",
+      "function": "Shows what is produced at a glance.",
+      "whereItIs": "The whole scene in the model.",
+      "whyItMatters": "Equations are how chemists read and share reactions.",
+      "relatedConcept": "product-created-by-reaction",
+      "quizId": "product-q-position"
+    },
+    {
+      "term": "Conservation of mass",
+      "conceptId": "product-new-substance",
+      "hotspotId": "hs-product-atoms",
+      "definition": "The rule that the mass of products equals the mass of reactants.",
+      "function": "Guarantees atoms are neither created nor destroyed.",
+      "whereItIs": "Reflected by the product's atoms matching the reactants' atoms.",
+      "whyItMatters": "Conservation of mass is a fundamental law of chemistry.",
+      "relatedConcept": "product-created-by-reaction",
+      "quizId": "product-q-atoms"
+    }
+  ]
+}

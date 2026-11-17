@@ -1,0 +1,65 @@
+{
+  "componentId": "transcription-translation",
+  "questions": [
+    {
+      "id": "transcription-translation-q-rna-polymerase",
+      "conceptId": "dna-transcribed-into-mrna",
+      "hotspotId": "hs-dna-transcribed",
+      "prompt": "Which molecule actually reads the DNA and builds the mRNA copy during transcription?",
+      "options": [
+        "An enzyme called RNA polymerase",
+        "The ribosome",
+        "A tRNA molecule",
+        "The cell membrane"
+      ],
+      "correctIndex": 0,
+      "explanation": "RNA polymerase is the enzyme that unwinds a short stretch of DNA inside the nucleus, reads one strand as a template, and links RNA bases together to build the matching mRNA strand — that copying step is transcription.",
+      "misconception": "It's easy to think the ribosome does the copying too, since it's the more famous 'protein-making' machine — but the ribosome only appears later, during translation, and never touches the DNA at all."
+    },
+    {
+      "id": "transcription-translation-q-translation-location",
+      "conceptId": "ribosome-reads-mrna",
+      "hotspotId": "hs-ribosome-reads",
+      "prompt": "Where does translation (building the protein from mRNA) actually happen?",
+      "options": [
+        "Inside the nucleus, right where the DNA is",
+        "Inside the mRNA molecule itself",
+        "At a ribosome, out in the cytoplasm",
+        "In the cell wall"
+      ],
+      "correctIndex": 2,
+      "explanation": "After mRNA is copied and leaves the nucleus, it travels to a ribosome in the cytoplasm, where translation — reading codons and assembling amino acids — takes place.",
+      "misconception": "Because DNA and the nucleus feel like 'genetics central,' many learners assume the whole process, including protein-building, happens there — but transcription and translation are split between two different locations on purpose."
+    },
+    {
+      "id": "transcription-translation-q-codon",
+      "conceptId": "ribosome-reads-mrna",
+      "hotspotId": "hs-ribosome-reads",
+      "prompt": "What does a single codon (a 3-letter group on mRNA) code for?",
+      "options": [
+        "An entire protein",
+        "One amino acid",
+        "One chromosome",
+        "One whole gene"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each 3-base codon specifies exactly one amino acid (or a start/stop signal); it takes a whole series of codons, read in order, to build one complete protein.",
+      "misconception": "It's easy to think a codon — a single 3-letter chunk — must code for something as big as a whole protein, especially since codons get introduced right alongside 'this is how proteins get built.' But a full protein is assembled from a whole series of codons read one after another, each one specifying just a single amino acid — one codon is a fraction of the total instructions, not the whole recipe."
+    },
+    {
+      "id": "transcription-translation-q-why-mrna-copy",
+      "conceptId": "mrna-leaves-nucleus",
+      "hotspotId": "hs-mrna-exits",
+      "prompt": "Why does the cell bother making a disposable mRNA copy instead of sending the ribosome straight to the DNA in the nucleus?",
+      "options": [
+        "DNA is physically too large to fit through the ribosome",
+        "Ribosomes are only able to enter the nucleus at certain times of day",
+        "mRNA is a stronger, more permanent molecule than DNA",
+        "DNA needs to stay protected inside the nucleus, and mRNA acts as a safe, temporary working copy"
+      ],
+      "correctIndex": 3,
+      "explanation": "Keeping the master DNA copy locked safely in the nucleus and sending out disposable mRNA copies protects the cell's permanent genetic instructions from damage while still allowing proteins to be built as needed.",
+      "misconception": "Some learners guess it's about size or scheduling, but the real reason is protection: risking the one master DNA copy on every single protein-building trip would be far too dangerous for the cell. It's also the opposite of option 3 — mRNA is actually the less permanent, more disposable molecule of the two."
+    }
+  ]
+}

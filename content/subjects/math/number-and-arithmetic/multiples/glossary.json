@@ -1,0 +1,50 @@
+{
+  "componentId": "multiples",
+  "terms": [
+    {
+      "term": "Multiple",
+      "conceptId": "multiples-times-table",
+      "hotspotId": "hs-multiple-example",
+      "definition": "The result of multiplying a number by a whole number.",
+      "function": "3 × 1 = 3, 3 × 2 = 6, so 3, 6, 9, 12 are multiples of 3.",
+      "whereItIs": "The number tiles the marker lands on.",
+      "whyItMatters": "Multiples are the times-table answers and the numbers in skip counting."
+    },
+    {
+      "term": "Skip counting",
+      "conceptId": "multiples-skip-count",
+      "hotspotId": "hs-multiple-example",
+      "definition": "Counting by equal steps instead of by ones.",
+      "function": "Counting 3, 6, 9, 12... skips by threes and recites multiples of 3.",
+      "whereItIs": "The marker hopping between number tiles on the track.",
+      "whyItMatters": "It builds multiplication fluency and number patterns."
+    },
+    {
+      "term": "Common multiple",
+      "conceptId": "multiples-vs-factors",
+      "hotspotId": "hs-common-multiple",
+      "definition": "A number that is a multiple of two (or more) different numbers.",
+      "function": "12 is a common multiple of 3 and 4 because it appears on both lists.",
+      "whereItIs": "The glowing tile where two multiples lists overlap.",
+      "whyItMatters": "Common multiples become common denominators when adding fractions."
+    },
+    {
+      "term": "Infinite multiples",
+      "conceptId": "multiples-infinite",
+      "hotspotId": "hs-multiple-example",
+      "definition": "The fact that every number's multiples list never ends.",
+      "function": "Whole numbers go on forever, so multiples do too.",
+      "whereItIs": "The track extending beyond the visible edge of the model.",
+      "whyItMatters": "Knowing the list is endless stops the 'did I list all?' worry — you never can."
+    },
+    {
+      "term": "Factor-multiple relationship",
+      "conceptId": "multiples-vs-factors",
+      "hotspotId": "hs-times-table",
+      "definition": "The same relationship seen from both sides: a multiple is made by factors.",
+      "function": "12 is a multiple of 3 because 3 × 4 = 12; therefore 3 and 4 are factors of 12.",
+      "whereItIs": "The pair of facts in the times-table strip.",
+      "whyItMatters": "Connecting factors and multiples doubles the number facts you know for free."
+    }
+  ]
+}

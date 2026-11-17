@@ -1,0 +1,41 @@
+{
+  "componentId": "outlier",
+  "terms": [
+    {
+      "term": "Outlier",
+      "conceptId": "outlier-definition",
+      "hotspotId": "hs-outlier-dot",
+      "definition": "A data point sitting far from the rest of the dataset.",
+      "function": "Still a data point — but a dramatic one.",
+      "whereItIs": "The isolated dot with the question mark.",
+      "whyItMatters": "Outliers can bend summaries and reveal real events."
+    },
+    {
+      "term": "Cluster",
+      "conceptId": "outlier-spot",
+      "hotspotId": "hs-cluster",
+      "definition": "The tight bunch of ordinary values most points sit in.",
+      "function": "The reference group that makes the outlier stand out.",
+      "whereItIs": "The packed middle group of dots.",
+      "whyItMatters": "Where values live; the outlier is defined against this."
+    },
+    {
+      "term": "Distance gap",
+      "conceptId": "outlier-spot",
+      "hotspotId": "hs-distance-gap",
+      "definition": "The empty space separating the outlier from the cluster.",
+      "function": "This gap is what makes it an outlier.",
+      "whereItIs": "The space between cluster and lone dot.",
+      "whyItMatters": "The gap is measurable, not a feeling."
+    },
+    {
+      "term": "Effect on summaries",
+      "conceptId": "outlier-effect",
+      "hotspotId": "hs-outlier-dot",
+      "definition": "The different way the outlier moves the mean, range, and median.",
+      "function": "Pulls the mean and range; leaves the median.",
+      "whereItIs": "The three summary plates.",
+      "whyItMatters": "Knowing the effects keeps you from misreading a dataset."
+    }
+  ]
+}

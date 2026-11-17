@@ -1,0 +1,104 @@
+{
+  "id": "ear",
+  "subject": "biology",
+  "title": "Ear",
+  "summary": "The ear is the organ of hearing and balance - it gathers sound waves, turns them into signals, and carries them to the brain. Explore the three parts of the ear and the path of a sound.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "outer-ear-sound-waves",
+    "eardrum-middle-bones",
+    "cochlea-signals",
+    "balance-canals"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Sensory systems",
+    "component": "Ear",
+    "displayPath": "Biology > Human Anatomy > Sensory systems > Ear"
+  },
+  "crossReferences": [
+    {
+      "label": "Brain (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Brain",
+      "note": "The brain turns the ear's signals into the sounds you recognize."
+    },
+    {
+      "label": "Nerve Signaling (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Nerve signaling",
+      "note": "The cochlea sends its signal along the auditory nerve using the nerve-signaling process."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Sensory systems > Ear",
+  "compareCandidate": {
+    "label": "Ear vs. microphone",
+    "description": "Both turn vibrations into electrical signals. But the ear is biological: it focuses sound, protects itself, senses balance too, and its signal is processed by the brain into the rich experience of hearing."
+  },
+  "parts": [
+    "Outer ear and canal",
+    "Eardrum",
+    "Hammer, anvil, stirrup",
+    "Cochlea",
+    "Auditory nerve",
+    "Balance canals"
+  ],
+  "processes": [
+    "Gathering sound waves",
+    "Passing vibrations through the middle ear",
+    "Turning vibrations into signals in the cochlea",
+    "Keeping balance"
+  ],
+  "plainLanguageExplanation": "The ear has three main parts. The outer ear (the visible part plus the ear canal) funnels sound waves toward the eardrum. The middle ear has three tiny bones (hammer, anvil, stirrup) that pass the vibrations on and make them stronger. The inner ear contains the coiled cochlea, which turns the vibrations into nerve signals, and the semicircular canals, which help with balance. The signals from the cochlea travel along the auditory nerve to the brain, which turns them into the sounds you recognize. So hearing is a chain: sound waves, vibrations, signals, brain.",
+  "keyFacts": [
+    {
+      "label": "Parts",
+      "value": "Outer ear, middle ear, and inner ear"
+    },
+    {
+      "label": "Sound path",
+      "value": "Waves -> eardrum -> tiny bones -> cochlea -> nerve -> brain"
+    },
+    {
+      "label": "Tiny bones",
+      "value": "Hammer, anvil, and stirrup pass vibrations on"
+    },
+    {
+      "label": "Cochlea",
+      "value": "The coiled part that turns vibrations into signals"
+    },
+    {
+      "label": "Balance",
+      "value": "The semicircular canals help keep balance"
+    },
+    {
+      "label": "Biggest sense",
+      "value": "Hearing is one of your main senses"
+    }
+  ],
+  "whyItMatters": "The ear lets you hear sounds and keep your balance. Understanding it explains how loud noises can damage hearing, why your ears pop, and how a tiny chain of bones passes vibrations from the air to your brain.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Ear (Auris)",
+  "tagline": "The organ of hearing and balance",
+  "didYouKnow": "Your eardrum is only about 0.1 mm thick, yet it can be set vibrating by a sound and pass those vibrations to three of the body's tiniest bones.",
+  "conditions": [
+    "Ear infection",
+    "Hearing loss",
+    "Tinnitus",
+    "Ringing ears"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Sensory systems > Ear",
+  "plain": "The ear has three main parts. The outer ear (the visible part plus the ear canal) funnels sound waves toward the eardrum. The middle ear has three tiny bones (hammer, anvil, stirrup) that pass the vibrations on and make them stronger. The inner ear contains the coiled cochlea, which turns the vibrations into nerve signals, and the semicircular canals, which help with balance. The signals from the cochlea travel along the auditory nerve to the brain, which turns them into the sounds you recognize. So hearing is a chain: sound waves, vibrations, signals, brain."
+}

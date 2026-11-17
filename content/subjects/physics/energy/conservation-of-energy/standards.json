@@ -1,0 +1,26 @@
+{
+  "componentId": "conservation-of-energy",
+  "standards": [
+    {
+      "standardId": "PS3.B",
+      "standard": "Conservation of Energy and Energy Transfer",
+      "description": "Energy is present whenever there are moving objects, sound, light, or heat; when objects collide or move, energy can be transferred from one object to another.",
+      "level": "primary",
+      "traceDetail": "Coaster simulation shows the same energy trading between height, motion, and heat."
+    },
+    {
+      "standardId": "MS-PS3-5",
+      "standard": "Conservation of Energy in Systems",
+      "description": "Construct, use, and present arguments to support the claim that when the kinetic energy of an object changes, energy is transferred to or from the object.",
+      "level": "primary",
+      "traceDetail": "The readout demonstrates kinetic-to-potential and motion-to-heat transfers without a total changing."
+    },
+    {
+      "standardId": "HS-PS3-2",
+      "standard": "Microscopic Energy Transfer",
+      "description": "Develop and use models to illustrate that energy at the macroscopic scale is accounted for by energy at the particle scale and the fundamental interactions between particles.",
+      "level": "support",
+      "traceDetail": "Friction's heat share is introduced as the destination of 'lost' motion energy."
+    }
+  ]
+}

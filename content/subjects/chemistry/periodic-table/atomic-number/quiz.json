@@ -1,0 +1,65 @@
+{
+  "componentId": "atomic-number",
+  "questions": [
+    {
+      "id": "atomic-number-q-count",
+      "conceptId": "atomic-number-counts-protons",
+      "hotspotId": "hs-atomic-number",
+      "prompt": "What does the atomic number of an element count?",
+      "options": [
+        "The number of protons in its atoms",
+        "The number of shells around its atoms",
+        "The number of neutrons in its heaviest atom",
+        "The element's age in years"
+      ],
+      "correctIndex": 0,
+      "explanation": "The atomic number is the number of protons in an atom's nucleus — the count that defines the element.",
+      "misconception": "Shells and neutrons are real atom features, but neither is what the atomic number counts — it is specifically the proton count."
+    },
+    {
+      "id": "atomic-number-q-identity",
+      "conceptId": "atomic-number-identifies-element",
+      "hotspotId": "hs-table-position",
+      "prompt": "An element has atomic number 26. Which element is it?",
+      "options": [
+        "Iron",
+        "Oxygen",
+        "Helium",
+        "Silver"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atomic number 26 is iron. Every element has a unique atomic number, so the number alone is enough to identify it.",
+      "misconception": "It's easy to guess a famous or common element, but the atomic number is a precise identity — 26 is iron, while oxygen is 8 and helium is 2."
+    },
+    {
+      "id": "atomic-number-q-order",
+      "conceptId": "atomic-number-orders-table",
+      "hotspotId": "hs-table-position",
+      "prompt": "How is the periodic table ordered from left to right?",
+      "options": [
+        "By increasing atomic number",
+        "Alphabetically by name",
+        "By density",
+        "In random order"
+      ],
+      "correctIndex": 0,
+      "explanation": "Elements are arranged left to right in order of increasing atomic number, starting with hydrogen at 1.",
+      "misconception": "Alphabetical order would scatter related elements, but the table is ordered by proton count, which groups elements by their properties."
+    },
+    {
+      "id": "atomic-number-q-fixed",
+      "conceptId": "atomic-number-identifies-element",
+      "hotspotId": "hs-proton-count",
+      "prompt": "During a chemical reaction, can an element's atomic number change?",
+      "options": [
+        "No — protons stay put, so the element keeps its identity",
+        "Yes — reactions always change the atomic number",
+        "Only if it gets very hot",
+        "Yes, but only for gases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chemical reactions only move electrons. Protons stay in the nucleus, so the atomic number — and the element's identity — never changes.",
+      "misconception": "Atoms can gain or lose electrons (becoming ions) in reactions, but protons never move during chemistry, so the atomic number is fixed."
+    }
+  ]
+}

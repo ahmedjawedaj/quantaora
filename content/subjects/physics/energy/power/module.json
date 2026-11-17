@@ -1,0 +1,98 @@
+{
+  "id": "power",
+  "subject": "physics",
+  "title": "Power",
+  "summary": "Power is the rate of doing work — how fast energy gets transferred. Work = force × distance, power = work ÷ time, measured in watts. Lift the box on this belt in one breath or over a slow crank: same joules, but the fast lift soars power. Light bulbs, engines, sprinters — speed of work, every one of them.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "power-work-over-time",
+    "power-watts",
+    "power-same-work-faster-rate",
+    "power-more-work-same-time"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Energy",
+    "unit": "Work and Power",
+    "systemOrGroup": "Work and Power",
+    "component": "Power",
+    "displayPath": "Physics > Energy > Work and Power > Work and Power > Power"
+  },
+  "crossReferences": [
+    {
+      "label": "Work (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Work",
+      "note": "Power divides the work by the time; without work there is no power to measure."
+    },
+    {
+      "label": "Kinetic energy (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Kinetic energy",
+      "note": "Fast work pumping kinetic energy into a speeding object shows power in action."
+    }
+  ],
+  "belongsTo": "Energy > Work and Power > Work and Power",
+  "compareCandidate": {
+    "label": "Power vs. work",
+    "description": "Work is the total energy transferred; power is how quickly that transfer happens (work ÷ time). Rising the same stairs fast burns the same work at more power."
+  },
+  "parts": [
+    "The lift belt and box",
+    "The time knob",
+    "The watt meter",
+    "The work total"
+  ],
+  "processes": [
+    "Lifting the box against gravity",
+    "Comparing the same work in different times",
+    "Reading watts = joules per second",
+    "Tracking high-power and low-power runs"
+  ],
+  "plainLanguageExplanation": "Power is the speed of doing work — how many joules an engine, muscle, or bulb transfers each second. Its recipe: power = work ÷ time, measured in watts (joules per second). A sprinter and a plodder can both move a 600 J load: the sprinter in one second puts on 600 W; the plodder in three seconds only 200 W. Same work, different rates — that difference is 'power'. The model is a little lift: a box goes up a belt at a speed you choose. Slow turn, the watt meter stays low; flip to fast, the same joules race by and the watts spike. This is why skilled machines, engine displacement, our electric bill's kilowatt-hours and light bulbs all talk in watts — power is the tempo of energy. Turn up the speed, watch the watts run.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "The rate at which work is done — energy per second"
+    },
+    {
+      "label": "Formula",
+      "value": "Power = work ÷ time"
+    },
+    {
+      "label": "Unit",
+      "value": "Watt (W) = one joule per second"
+    },
+    {
+      "label": "Faster wins",
+      "value": "Same work in less time → more power"
+    },
+    {
+      "label": "Bigger loads",
+      "value": "Same time, more work → more power too"
+    }
+  ],
+  "whyItMatters": "Power is how the world compares engines and athletes: a car's horse-keeping, a sprinter's burst, LED vs. incandescent bulbs, a kettle's boil time. When batteries claim watt-hours and chargers claim watts, they divide by time so you know how fast energy is delivered. Every second sprint, every lightning fast machine, every 'how much can you do in this time' is power made visible.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Power",
+  "tagline": "How fast energy is transferred",
+  "didYouKnow": "A flashlight uses about 1-3 W; a toaster about 1,500 W. If a boy and a machine both do 3,600 J of work but the boy takes 1 min and the machine 6 s, the boy runs at 60 W and the machine at 600 W — ten times the burst in a tenth of the time.",
+  "conditions": [
+    "Light bulbs and room-fan wattage",
+    "Climbing a stair slowly vs. sprinting",
+    "Car-engine horsepower",
+    "Kettles and combustion engines",
+    "Charging phones at different rates"
+  ],
+  "compareCandidateId": "work",
+  "compareReason": "Power divides the same work by the time it took; the belt rarely shows equal lifted joules each with different watt spikes."
+}

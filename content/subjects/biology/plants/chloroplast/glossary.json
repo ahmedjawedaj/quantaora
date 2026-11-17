@@ -1,0 +1,55 @@
+{
+  "componentId": "chloroplast",
+  "terms": [
+    {
+      "term": "Chloroplast",
+      "conceptId": "chloroplast-green-food-maker",
+      "hotspotId": "hs-grana",
+      "definition": "The green organelle inside plant cells that captures sunlight to make food.",
+      "function": "Carries out photosynthesis to make sugar for the plant.",
+      "whereItIs": "Inside the green cells of leaves and other plant parts.",
+      "whyItMatters": "It turns sunlight into the food that feeds the plant and nearly all life.",
+      "quizId": "chloroplast-q-job"
+    },
+    {
+      "term": "Chlorophyll",
+      "conceptId": "chlorophyll-captures-light",
+      "hotspotId": "hs-chlorophyll",
+      "definition": "The green pigment in the chloroplast that captures energy from sunlight.",
+      "function": "Absorbs sunlight to power photosynthesis.",
+      "whereItIs": "Coating the thylakoid discs of the chloroplast.",
+      "whyItMatters": "It is what makes plants green and lets them capture the light they need.",
+      "quizId": "chloroplast-q-green"
+    },
+    {
+      "term": "Thylakoid / Granum",
+      "conceptId": "thylakoids-grana",
+      "hotspotId": "hs-grana",
+      "definition": "The flat, green discs inside a chloroplast, stacked into groups called grana.",
+      "function": "Catch the sunlight and begin making the food.",
+      "whereItIs": "Stacked inside the chloroplast's stroma fluid.",
+      "whyItMatters": "They are where the light part of photosynthesis happens.",
+      "quizId": "chloroplast-q-form"
+    },
+    {
+      "term": "Stroma",
+      "conceptId": "thylakoids-grana",
+      "hotspotId": "hs-stroma",
+      "definition": "The fluid space inside a chloroplast around the stacks of discs.",
+      "function": "Holds the grana and helps build the food.",
+      "whereItIs": "Inside the chloroplast, filling around the grana.",
+      "whyItMatters": "The stroma is where the sugar-making steps are completed.",
+      "quizId": "chloroplast-q-form"
+    },
+    {
+      "term": "Photosynthesis",
+      "conceptId": "photosynthesis-in-plant",
+      "hotspotId": "hs-output",
+      "definition": "The process in chloroplasts that uses sunlight, water, and carbon dioxide to make sugar and oxygen.",
+      "function": "Makes food for the plant and releases oxygen.",
+      "whereItIs": "In the chloroplasts of plant cells.",
+      "whyItMatters": "It is the source of food and oxygen for most life on Earth.",
+      "quizId": "chloroplast-q-products"
+    }
+  ]
+}

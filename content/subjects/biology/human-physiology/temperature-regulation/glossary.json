@@ -1,0 +1,67 @@
+{
+  "componentId": "temperature-regulation",
+  "terms": [
+    {
+      "term": "Homeostasis",
+      "conceptId": "homeostasis-maintained",
+      "hotspotId": "hs-homeostasis",
+      "definition": "The body's process of keeping internal conditions (like temperature) stable and balanced, even when the outside environment changes.",
+      "function": "Coordinates sensing and response systems across the body so that once a corrective response brings a condition back to its set point, the signal stops and balance is restored.",
+      "whereItIs": "Not a single structure — an ongoing, body-wide balancing act coordinated by the nervous and endocrine systems.",
+      "whyItMatters": "Homeostasis is why your body can keep working properly across a huge range of outside conditions, from a freezing morning to a sweaty afternoon run.",
+      "relatedConcept": "hypothalamus-senses-temperature",
+      "quizId": "temp-reg-q-homeostasis"
+    },
+    {
+      "term": "Hypothalamus",
+      "conceptId": "hypothalamus-senses-temperature",
+      "hotspotId": "hs-hypothalamus",
+      "definition": "A small structure at the base of the brain that senses body temperature and sends signals to trigger cooling or warming responses.",
+      "function": "Constantly compares blood temperature and nerve signals from the skin against the body's set point (about 37°C / 98.6°F) and fires off the matching cooling or warming response.",
+      "whereItIs": "Deep in the brain, near its base — exposed on a mid-skull cross-section of the head.",
+      "whyItMatters": "It's the body's thermostat — without it constantly checking and adjusting, temperature would simply drift with the outside environment.",
+      "relatedConcept": "sweating-vasodilation-cooling",
+      "quizId": "temp-reg-q-hypothalamus"
+    },
+    {
+      "term": "Vasodilation",
+      "conceptId": "sweating-vasodilation-cooling",
+      "hotspotId": "hs-cooling-response",
+      "definition": "The widening of blood vessels near the skin's surface, which lets more warm blood flow close to the skin so heat can escape into the air.",
+      "function": "Increases blood flow near the skin surface so heat can radiate and convect away from the body faster, working alongside sweating to cool the body down.",
+      "whereItIs": "In the small blood vessels just under the skin, most visible where skin flushes red during exercise or heat.",
+      "whyItMatters": "It's one half of the body's cooling response — without it, heat would stay trapped closer to the body's core.",
+      "relatedConcept": "hypothalamus-senses-temperature",
+      "quizId": "temp-reg-q-vasodilation"
+    },
+    {
+      "term": "Vasoconstriction",
+      "conceptId": "shivering-vasoconstriction-warming",
+      "hotspotId": "hs-warming-response",
+      "definition": "The narrowing of blood vessels near the skin's surface, which reduces blood flow there and helps keep body heat locked in the core.",
+      "function": "Redirects warm blood away from the skin surface and deeper into the body's core, reducing how much heat is lost to cold surroundings.",
+      "whereItIs": "In the small blood vessels just under the skin, most noticeable as pale skin in cold weather.",
+      "whyItMatters": "It's one half of the body's warming response, working alongside shivering to protect core temperature when it's cold.",
+      "relatedConcept": "hypothalamus-senses-temperature",
+      "quizId": "temp-reg-q-shivering"
+    },
+    {
+      "term": "Negative feedback loop",
+      "conceptId": "negative-feedback-loop",
+      "definition": "A control system where a change triggers a response that pushes things back toward the original, steady state — like a thermostat turning off the heater once a room reaches the target temperature.",
+      "function": "Keeps a condition like body temperature within a narrow, safe range by continuously sensing deviation and triggering a corrective response that cancels it out.",
+      "whereItIs": "Not a physical structure — a pattern of cause and effect running through the nervous system, blood vessels, sweat glands, and muscles together.",
+      "whyItMatters": "It's the underlying mechanism that makes temperature regulation (and many other body processes) self-correcting instead of spiraling out of control.",
+      "relatedConcept": "homeostasis-maintained"
+    },
+    {
+      "term": "Thermoregulation",
+      "conceptId": "thermoregulation",
+      "definition": "The overall process of controlling and maintaining a stable internal body temperature.",
+      "function": "Combines sensing (by the hypothalamus) with cooling responses (sweating, vasodilation) and warming responses (shivering, vasoconstriction) to hold core temperature near its set point.",
+      "whereItIs": "A whole-body process coordinated by the hypothalamus, carried out by the skin, blood vessels, sweat glands, and muscles.",
+      "whyItMatters": "It's the umbrella term for everything this component covers — the reason your body can stay safe in both a heat wave and a snowstorm.",
+      "relatedConcept": "hypothalamus-senses-temperature"
+    }
+  ]
+}

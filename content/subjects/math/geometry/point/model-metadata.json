@@ -1,0 +1,90 @@
+{
+  "id": "point",
+  "componentId": "point",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/point/point.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/point.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Plane board",
+    "Point dot",
+    "Name label",
+    "Grid overlay"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-point-a",
+      "label": "Point A",
+      "conceptId": "point-definition",
+      "position": [
+        -0.15,
+        0.35,
+        0.1
+      ],
+      "description": "The exact location marked by the dot \u2014 position on the plane with no size.",
+      "positionHint": "The lettered dot near the board's center.",
+      "color": "#D9A441",
+      "function": "An exact location."
+    },
+    {
+      "id": "hs-dot",
+      "label": "The dot",
+      "conceptId": "point-naming",
+      "position": [
+        0.15,
+        0.35,
+        0.2
+      ],
+      "description": "The visible mark that represents the point in the drawing.",
+      "positionHint": "The tiny sphere on the board.",
+      "color": "#7FA86A",
+      "function": "The symbol showing where the point is."
+    },
+    {
+      "id": "hs-plane",
+      "label": "The plane",
+      "conceptId": "point-plot",
+      "position": [
+        -0.6,
+        0.05,
+        0.15
+      ],
+      "description": "The flat surface the point sits on \u2014 where positions are measured.",
+      "positionHint": "The flat board under the dot.",
+      "color": "#6B85A8",
+      "function": "The surface holding all points."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A tilted flat board with one labeled dot and a subtle grid overlay option. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Board: warm paper panel (roughness ~0.5). Point dot: small warm-ink sphere (roughness ~0.4). Name label: thin warm paper tag with ink letter. Grid overlay: faint warm-grey ruled lines at low opacity. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: points as exact locations \u2014 a tilted board carries a single dot labeled A; tapping adds more lettered points; a grid overlay enables plotting by row and column.\n\nGEOMETRY: A gently tilted rectangular board as the plane. One small dot sits near center with a floating label 'A'. Tapping the board adds points B, C, D with labels. Points are draggable. A 'grid' toggle overlays faint ruled lines and a 'plot' mode lets the learner drop a point at a chosen row/column. A magnifier ring can zoom over a dot to show it has no thickness.\n\nLAYERS (toggleable): (1) board; (2) point dots; (3) name labels; (4) grid overlay.\n\nCAMERA: three-quarter from above-front, frames the whole board; labels legible. Budget 4-8k triangles. Named nodes: PlaneBoard, Dot_A, Dot_B, Dot_C, Dot_D, Labels, GridOverlay, Magnifier. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "point-on-plane"
+  }
+}

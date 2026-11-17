@@ -1,0 +1,38 @@
+{
+  "componentId": "spleen",
+  "terms": [
+    {
+      "term": "Spleen",
+      "conceptId": "filters-blood",
+      "hotspotId": "hs-spleen-body",
+      "definition": "The fist-sized organ that filters blood and helps the immune system.",
+      "function": "Recycles blood cells, stores cells, and fights germs.",
+      "whereItIs": "Under the ribs on the left side.",
+      "whyItMatters": "It keeps the blood healthy and defends the body.",
+      "relatedConcept": "immune-checkpoint",
+      "quizId": "spl-q-filter"
+    },
+    {
+      "term": "Red blood cell recycling",
+      "conceptId": "recycles-red-cells",
+      "hotspotId": "hs-filter-tissue",
+      "definition": "The spleen's breaking down of old red blood cells.",
+      "function": "Salvages iron and other parts for reuse.",
+      "whereItIs": "In the spleen's filtering tissue.",
+      "whyItMatters": "It lets the body rebuild its blood supply.",
+      "relatedConcept": "filters-blood",
+      "quizId": "spl-q-recycle"
+    },
+    {
+      "term": "Immune checkpoint",
+      "conceptId": "immune-checkpoint",
+      "hotspotId": "hs-immune",
+      "definition": "The spleen's role in spotting and responding to germs in the blood.",
+      "function": "White blood cells there fight germs.",
+      "whereItIs": "Throughout the spleen.",
+      "whyItMatters": "It adds a layer of defense against infection.",
+      "relatedConcept": "filters-blood",
+      "quizId": "spl-q-immune"
+    }
+  ]
+}

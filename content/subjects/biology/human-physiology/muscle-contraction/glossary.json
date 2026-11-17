@@ -1,0 +1,38 @@
+{
+  "componentId": "muscle-contraction",
+  "terms": [
+    {
+      "term": "Sarcomere",
+      "definition": "The smallest repeating unit of a muscle fiber that actually shortens; thousands of sarcomeres in a row make up a myofibril."
+    },
+    {
+      "term": "Actin",
+      "definition": "The thin filament in a muscle cell that myosin grabs onto and pulls during contraction.",
+      "conceptId": "actin-myosin-filament-sliding"
+    },
+    {
+      "term": "Myosin",
+      "definition": "The thick filament with tiny arm-like heads that latch onto actin and pull it inward, using energy from ATP.",
+      "conceptId": "actin-myosin-filament-sliding"
+    },
+    {
+      "term": "Calcium (Ca2+)",
+      "definition": "A charged particle released inside the muscle cell that uncovers the spots on actin where myosin can attach, switching contraction on.",
+      "conceptId": "calcium-release"
+    },
+    {
+      "term": "ATP",
+      "definition": "The cell's energy molecule; myosin uses it to power each pulling motion and to release its grip afterward."
+    },
+    {
+      "term": "Neuromuscular junction",
+      "definition": "The point where a nerve cell meets a muscle fiber and passes along the signal to contract.",
+      "conceptId": "nerve-signal-arrives"
+    },
+    {
+      "term": "Cross-bridge cycling",
+      "definition": "The repeated attach-pull-release motion of myosin heads gripping actin, over and over, during a contraction.",
+      "conceptId": "actin-myosin-filament-sliding"
+    }
+  ]
+}

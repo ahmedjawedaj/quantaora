@@ -1,0 +1,65 @@
+{
+  "componentId": "population",
+  "questions": [
+    {
+      "id": "pop-q-def",
+      "conceptId": "same-species-group",
+      "hotspotId": "hs-pop-group",
+      "prompt": "What is a population in ecology?",
+      "options": [
+        "A group of the same species in one area",
+        "Any group of mixed species",
+        "A single organism",
+        "The whole planet"
+      ],
+      "correctIndex": 0,
+      "explanation": "A population is a group of organisms of the SAME species living in the same place at the same time.",
+      "misconception": "Mixed species together form a community, not a population - populations are one species."
+    },
+    {
+      "id": "pop-q-grow",
+      "conceptId": "population-growth-shrink",
+      "hotspotId": "hs-grow",
+      "prompt": "When does a population grow?",
+      "options": [
+        "When births and arrivals outnumber deaths and departures",
+        "When nobody reproduces",
+        "When all members leave",
+        "When food runs out"
+      ],
+      "correctIndex": 0,
+      "explanation": "A population grows when more members are added (births, arrivals) than are lost (deaths, departures).",
+      "misconception": "Growth is about the balance of gains and losses, not just one event."
+    },
+    {
+      "id": "pop-q-limit",
+      "conceptId": "population-limiting-factors",
+      "hotspotId": "hs-limit",
+      "prompt": "Which can limit how large a population grows?",
+      "options": [
+        "Food, water, space, and disease",
+        "The color of the animals",
+        "The shape of the leaves",
+        "The season name"
+      ],
+      "correctIndex": 0,
+      "explanation": "Food, water, space, disease, and predators all act as limits on population size.",
+      "misconception": "Limits are about real resources and threats, not appearance or labels."
+    },
+    {
+      "id": "pop-q-level",
+      "conceptId": "population-growth-shrink",
+      "hotspotId": "hs-pop-group",
+      "prompt": "Which comes just above population in the ecological hierarchy?",
+      "options": [
+        "Community",
+        "Organism",
+        "Cell",
+        "Organ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The order is organism -> population -> community -> ecosystem. Different populations together form a community.",
+      "misconception": "Communities sit above populations; organism is the level below."
+    }
+  ]
+}

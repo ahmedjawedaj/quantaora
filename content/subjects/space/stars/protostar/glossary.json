@@ -1,0 +1,60 @@
+{
+  "componentId": "protostar",
+  "terms": [
+    {
+      "term": "Protostar",
+      "conceptId": "protostar-glow-from-contraction",
+      "hotspotId": "hs-collapsing-core",
+      "definition": "A very young star still gathering mass, glowing from gravitational contraction rather than fusion.",
+      "function": "Squeezes and heats up over millions of years until its core is ready to ignite fusion.",
+      "whereItIs": "The bright center of the model, inside its disk.",
+      "whyItMatters": "Every star in the sky — including the Sun — began as a protostar.",
+      "relatedConcept": "ignition-when-fusion-starts",
+      "quizId": "proto-q-power"
+    },
+    {
+      "term": "Gravitational contraction",
+      "conceptId": "protostar-glow-from-contraction",
+      "hotspotId": "hs-collapsing-core",
+      "definition": "The process of a gas cloud shrinking under its own gravity, heating up as it shrinks.",
+      "function": "Powers the protostar's early glow — the squeeze of gravity, not fusion, produces the first light.",
+      "whereItIs": "Happening inside the core of the model.",
+      "whyItMatters": "Contraction slowly raises the core temperature all the way up to the ignition threshold.",
+      "relatedConcept": "cloud-collapse-forms-proto-star",
+      "quizId": "proto-q-power"
+    },
+    {
+      "term": "Accretion disk",
+      "conceptId": "disk-is-planet-nursery",
+      "hotspotId": "hs-accretion-disk",
+      "definition": "The flat, spinning disk of gas and dust gathered around a young star.",
+      "function": "Feeds material onto the star and simultaneously supplies the raw material from which planets form.",
+      "whereItIs": "The flat disc around the central lump in the model.",
+      "whyItMatters": "Disks exactly like this one built our own solar system — planets grow inside them.",
+      "relatedConcept": "spin-flattens-into-disk",
+      "quizId": "proto-q-disk"
+    },
+    {
+      "term": "Conservation of angular momentum",
+      "conceptId": "spin-flattens-into-disk",
+      "hotspotId": "hs-rotation-axis",
+      "definition": "The rule that a spinning object spins faster as it shrinks — the same effect that makes a figure skater speed up when pulling in their arms.",
+      "function": "Explains both the speeding up of the collapse and why the collapse flattens into a disk.",
+      "whereItIs": "The physics behind the whole shape of the model.",
+      "whyItMatters": "It is why all the planets end up orbiting in the same flat plane.",
+      "relatedConcept": "disk-is-planet-nursery",
+      "quizId": "proto-q-disk"
+    },
+    {
+      "term": "Fusion ignition",
+      "conceptId": "ignition-when-fusion-starts",
+      "hotspotId": "hs-fusion-threshold",
+      "definition": "The moment the core's temperature crosses roughly 10 million Kelvin and hydrogen fusion starts sustaining itself.",
+      "function": "Turns a protostar into a main-sequence star.",
+      "whereItIs": "The readout plane floating above the core in the model.",
+      "whyItMatters": "Ignition is the real 'birth moment' of a star — everything before it is preparation.",
+      "relatedConcept": "protostar-glow-from-contraction",
+      "quizId": "proto-q-ignition"
+    }
+  ]
+}

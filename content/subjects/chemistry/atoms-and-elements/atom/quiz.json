@@ -1,0 +1,65 @@
+{
+  "componentId": "atom",
+  "questions": [
+    {
+      "id": "atom-q-definition",
+      "conceptId": "atom-smallest-particle",
+      "hotspotId": "hs-atom-structure",
+      "prompt": "What is an atom?",
+      "options": [
+        "The smallest particle of an element that is still that element",
+        "Any piece of a molecule",
+        "A large clump of bonded elements",
+        "A type of energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "An atom is the smallest particle of an element that still behaves like that element — split it further and you lose the element.",
+      "misconception": "Molecules are made of atoms (not the other way around), and atoms are matter, not energy — the atom is the smallest particle that keeps its element's identity."
+    },
+    {
+      "id": "atom-q-contents",
+      "conceptId": "atom-nucleus-and-electrons",
+      "hotspotId": "hs-atom-nucleus",
+      "prompt": "What is inside an atom?",
+      "options": [
+        "A nucleus of protons and neutrons, with electrons in shells around it",
+        "Only protons and electrons, no neutrons",
+        "Many molecules packed together",
+        "A solid marble of uniform material"
+      ],
+      "correctIndex": 0,
+      "explanation": "An atom has a nucleus (protons + neutrons) at its center and electrons orbiting in shells around it.",
+      "misconception": "An atom is NOT a solid ball — it has a dense nucleus with protons and neutrons, and electrons orbiting far outside in shells."
+    },
+    {
+      "id": "atom-q-empty",
+      "conceptId": "atom-nucleus-and-electrons",
+      "hotspotId": "hs-atom-electron-cloud",
+      "prompt": "An atom is mostly what?",
+      "options": [
+        "Empty space",
+        "Solid metal",
+        "Tightly packed electrons",
+        "Liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atoms are mostly empty space — the nucleus is tiny and the electrons are tiny, with vast emptiness between them.",
+      "misconception": "Atoms feel solid only because huge numbers of them are packed together — inside each one, the nucleus and electrons leave mostly empty space."
+    },
+    {
+      "id": "atom-q-builds",
+      "conceptId": "atom-building-blocks",
+      "hotspotId": "hs-atom-structure",
+      "prompt": "What do atoms build when they bond together?",
+      "options": [
+        "Molecules",
+        "Electrons",
+        "Nuclei",
+        "Protons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atoms bond together to build molecules — like two hydrogens and one oxygen bonding into a water molecule.",
+      "misconception": "Electrons, nuclei, and protons are parts of the atom, not things atoms build — atoms BUILD molecules when they bond."
+    }
+  ]
+}

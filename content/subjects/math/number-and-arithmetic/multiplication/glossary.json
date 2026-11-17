@@ -1,0 +1,50 @@
+{
+  "componentId": "multiplication",
+  "terms": [
+    {
+      "term": "Factor",
+      "conceptId": "multiplication-equal-groups",
+      "hotspotId": "hs-factors",
+      "definition": "One of the numbers multiplied together in a multiplication problem.",
+      "function": "States the number of groups and the size of each group.",
+      "whereItIs": "The 3 (rows) and 4 (columns) labels on the array.",
+      "whyItMatters": "Factors are the inputs of multiplication and the building blocks of the product."
+    },
+    {
+      "term": "Product",
+      "conceptId": "multiplication-commutative",
+      "hotspotId": "hs-product",
+      "definition": "The result of multiplying factors together.",
+      "function": "Answers 'how many in all?' when groups are equal.",
+      "whereItIs": "The plate showing 12 beneath the array.",
+      "whyItMatters": "The product is what multiplication problems are solved to find."
+    },
+    {
+      "term": "Array",
+      "conceptId": "multiplication-array",
+      "hotspotId": "hs-array",
+      "definition": "An arrangement of objects in rows and columns that shows a multiplication.",
+      "function": "Turns factor × factor = product into a visual grid.",
+      "whereItIs": "The 3-by-4 grid of dots in the model.",
+      "whyItMatters": "Arrays connect multiplication to area and make commutative properties easy to see."
+    },
+    {
+      "term": "Repeated addition",
+      "conceptId": "multiplication-repeated-addition",
+      "hotspotId": "hs-array",
+      "definition": "Adding the same number many times, which multiplication summarizes.",
+      "function": "4 × 3 is the shorthand for 3 + 3 + 3 + 3.",
+      "whereItIs": "Shown by the group-lighting layer that adds a row at a time.",
+      "whyItMatters": "It is the bridge from addition to multiplication."
+    },
+    {
+      "term": "Commutative property",
+      "conceptId": "multiplication-commutative",
+      "hotspotId": "hs-product",
+      "definition": "The property that changing the order of factors does not change the product.",
+      "function": "3 × 4 and 4 × 3 both equal 12.",
+      "whereItIs": "Demonstrated when the array rotates 90 degrees without changing the total.",
+      "whyItMatters": "It lets you choose the easier order when memorizing or solving multiplication."
+    }
+  ]
+}

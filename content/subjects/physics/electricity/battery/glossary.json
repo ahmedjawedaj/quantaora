@@ -1,0 +1,46 @@
+{
+  "componentId": "battery",
+  "terms": [
+    {
+      "term": "Battery",
+      "conceptId": "battery-chemical-energy",
+      "hotspotId": "hs-layers",
+      "definition": "A portable store of chemical energy that turns into electrical push.",
+      "function": "Supplies the push that drives current whenever a loop closes.",
+      "whereItIs": "The cutaway cell in the model.",
+      "whyItMatters": "It's how the world takes power on the move.",
+      "relatedConcept": "voltage",
+      "quizId": "ba-q-energy"
+    },
+    {
+      "term": "Terminals (+ and −)",
+      "conceptId": "battery-+--terminals",
+      "hotspotId": "hs-neg",
+      "definition": "The two battery ends whose energy difference is the voltage.",
+      "whyItMatters": "Every battery contact and holder reads these marks.",
+      "whereItIs": "The + nub and − cap.",
+      "relatedConcept": "battery-drives-the-loop",
+      "quizId": "ba-q-terminals"
+    },
+    {
+      "term": "Cell stacking",
+      "conceptId": "battery-volts-and-stamina",
+      "hotspotId": "hs-pos",
+      "definition": "Cells placed in series add their voltages to reach the pack rating.",
+      "whyItMatters": "It's how 9 V blocks and car packs reach their volts.",
+      "whereItIs": "The layered stack inside the case.",
+      "relatedConcept": "voltage",
+      "quizId": "ba-q-cells"
+    },
+    {
+      "term": "Draining / capacity",
+      "conceptId": "battery-drives-the-loop",
+      "hotspotId": "hs-usage",
+      "definition": "The slow spending of the chemical layers as the cell delivers current.",
+      "whyItMatters": "Capacity in mAh is the stamina number beside the volts.",
+      "whereItIs": "The layers shrinking under the usage dial.",
+      "relatedConcept": "battery-chemical-energy",
+      "quizId": "ba-q-drain"
+    }
+  ]
+}

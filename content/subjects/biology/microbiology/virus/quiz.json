@@ -1,0 +1,65 @@
+{
+  "componentId": "virus",
+  "questions": [
+    {
+      "id": "virus-q-notcell",
+      "conceptId": "virus-not-a-cell",
+      "hotspotId": "hs-coat",
+      "prompt": "How is a virus different from a living cell like a bacterium?",
+      "options": [
+        "It is not a cell - it holds genetic material and needs a host",
+        "It is a giant animal cell  ",
+        "It can photosynthesize like a plant",
+        "It has a nucleus and many organelles"
+      ],
+      "correctIndex": 0,
+      "explanation": "A virus is not a cell; it is just a package of genetic material in a coat that must take over a living cell to copy itself.",
+      "misconception": "The most common mix-up is picturing a virus as a tiny living cell. It is far simpler - no nucleus, no organelles - and it cannot reproduce on its own."
+    },
+    {
+      "id": "virus-q-structure",
+      "conceptId": "virus-genetic-material-coat",
+      "hotspotId": "hs-genetic",
+      "prompt": "What is a virus made of?",
+      "options": [
+        "Genetic material (DNA or RNA) wrapped in a protein coat",
+        "A shell made of solid stone",
+        "Only water with no parts",
+        "A heart and lungs"
+      ],
+      "correctIndex": 0,
+      "explanation": "A virus is built of its genetic material (either DNA or RNA) held inside a protein coat, sometimes with spikes on the outside.",
+      "misconception": "A virus has no organs or watery skin - it is basically trucking its genetic info in a protein coat until it finds a host."
+    },
+    {
+      "id": "virus-q-reproduce",
+      "conceptId": "virus-cannot-reproduce-alone",
+      "hotspotId": "hs-host",
+      "prompt": "Why can't a virus reproduce on its own?",
+      "options": [
+        "It has no machinery of its own and must use a host cell",
+        "It is too lazy to grow",
+        "It needs sunlight to divide",
+        "It can only reproduce in a laboratory"
+      ],
+      "correctIndex": 0,
+      "explanation": "A virus lacks the machinery to copy itself. It must enter a living host cell and use the cell's machinery to make new viruses.",
+      "misconception": "The idea that a virus just splits or divides in air is wrong. It has no working parts of its own, so a host cell is required."
+    },
+    {
+      "id": "virus-q-infection",
+      "conceptId": "virus-invades-host-cell",
+      "hotspotId": "hs-host",
+      "prompt": "What happens when a virus enters a body cell?",
+      "options": [
+        "The cell's machinery is used to make many new virus copies",
+        "The cell quietly reads nothing at all",
+        "The cell becomes a leaf",
+        "The virus simply sits still forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a virus invades a host cell, it forces the cell's machinery to build many new virus particles, which then infect more cells.",
+      "misconception": "A virus doesn't just 'sit' in a cell. It commandeers the cell's own machinery to build copies, which is what makes an infection spread."
+    }
+  ]
+}

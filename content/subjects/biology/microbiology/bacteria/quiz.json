@@ -1,0 +1,65 @@
+{
+  "componentId": "bacteria",
+  "questions": [
+    {
+      "id": "bacteria-q-what",
+      "conceptId": "bacteria-single-celled",
+      "hotspotId": "hs-cellwall",
+      "prompt": "What is a bacterium?",
+      "options": [
+        "A tiny living thing made of a single cell",
+        "A type of animal with lungs",
+        "A large multi-celled plant",
+        "A kind of rock or crystal"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bacterium is a tiny, single-celled living organism - a whole living thing in one cell, without a nucleus.",
+      "misconception": "It's easy to think bacteria are miniature animals or plants, but they are their own kind of tiny single-celled organism."
+    },
+    {
+      "id": "bacteria-q-reproduce",
+      "conceptId": "binary-fission-reproduction",
+      "hotspotId": "hs-divide",
+      "prompt": "How does a bacterium reproduce?",
+      "options": [
+        "It copies its DNA and splits in two (binary fission)",
+        "It grows flowers and seeds",
+        "It needs a host cell to copy itself",
+        "It never reproduces"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bacterium reproduces by binary fission - it copies its DNA and splits down the middle into two identical cells.",
+      "misconception": "Reproduction that needs a host is how viruses work, not bacteria. Bacteria split in two on their own."
+    },
+    {
+      "id": "bacteria-q-location",
+      "conceptId": "bacteria-everywhere",
+      "hotspotId": "hs-cellwall",
+      "prompt": "Where can bacteria be found?",
+      "options": [
+        "In soil, water, air, and in our bodies",
+        "Only deep underground",
+        "Only inside hospitals",
+        "Nowhere on Earth except labs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bacteria live in almost every environment - soil, water, air, on our skin, and in our guts.",
+      "misconception": "Bacteria are not rare or only found in labs/hospitals; they are the most widespread organisms on Earth."
+    },
+    {
+      "id": "bacteria-q-useful",
+      "conceptId": "useful-and-harmful-bacteria",
+      "hotspotId": "hs-divide",
+      "prompt": "Which statement about bacteria is TRUE?",
+      "options": [
+        "Many bacteria are helpful, like those that digest our food or make yogurt",
+        "All bacteria cause disease",
+        "Bacteria can never survive outside a host",
+        "Bacteria are too big to live in soil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most bacteria are harmless, and many are helpful - they help digestion, make yogurt, and recycle nutrients - while only a small fraction cause disease.",
+      "misconception": "The idea that 'all bacteria are germs that make you sick' is the most common over-simplification; most are actually harmless or beneficial."
+    }
+  ]
+}

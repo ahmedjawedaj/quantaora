@@ -1,0 +1,118 @@
+{
+  "id": "organism",
+  "componentId": "organism",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/ecology/organism/organism.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/ecology/organism.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Single organism",
+    "Cells inside",
+    "Growth",
+    "Energy flow"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cells",
+      "label": "Made of cells",
+      "conceptId": "made-of-cells",
+      "position": [
+        0.0,
+        0.3,
+        0.2
+      ],
+      "description": "All organisms are built from one or many cells.",
+      "color": "#D98A6A",
+      "function": "The basic building block of every organism.",
+      "positionHint": "The organism shown in outline with cells inside."
+    },
+    {
+      "id": "hs-grow",
+      "label": "Growth",
+      "conceptId": "life-activities",
+      "position": [
+        0.3,
+        0.1,
+        0.15
+      ],
+      "description": "Organisms grow and develop.",
+      "color": "#D9A441",
+      "function": "Organisms increase in size and mature.",
+      "positionHint": "Represented by a growing arrow."
+    },
+    {
+      "id": "hs-energy",
+      "label": "Uses energy",
+      "conceptId": "life-activities",
+      "position": [
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "description": "Organisms take in and use energy.",
+      "color": "#6B85A8",
+      "function": "Powers all life activities.",
+      "positionHint": "Represented by an energy dot entering."
+    },
+    {
+      "id": "hs-reproduce",
+      "label": "Reproduction",
+      "conceptId": "life-activities",
+      "position": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "description": "Organisms make new copies of themselves.",
+      "color": "#B5846A",
+      "function": "Keeps the species going.",
+      "positionHint": "Two copies shown emerging."
+    },
+    {
+      "id": "hs-respond",
+      "label": "Responds",
+      "conceptId": "life-activities",
+      "position": [
+        -0.1,
+        0.3,
+        0.15
+      ],
+      "description": "Organisms sense and respond to their surroundings.",
+      "color": "#7FA874",
+      "function": "Allows quick reactions to changes.",
+      "positionHint": "A signal line reaching the organism."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The scene reads as a calm stylized diorama - simplified, clean shapes with a restrained warm-paper and muted-green palette, not cartoon, not cluttered. COLOR IS RESTRAINED: each subject is a muted near-paper shade; strong saturated color is reserved entirely for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a stylized diorama showing a single organism (a small green plant) as the focus, in a clean schematic scene. The plant is shown partly transparent with a hint of cell shapes inside; around it, gentle informational marks: a growing arrow, an energy dot entering, a response signal, and two small new plants sprouting (reproduction). Warm off-white background, muted greens, no glow. Named nodes: OrganismPlant, CellShapes, GrowthArrow, EnergyDot, ResponseSignal, SproutCopies. Budget 8-12k.",
+  "visual": {
+    "shape": "organism-island"
+  }
+}

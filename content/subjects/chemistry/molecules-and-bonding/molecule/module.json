@@ -1,0 +1,109 @@
+{
+  "id": "molecule",
+  "subject": "chemistry",
+  "title": "Molecule",
+  "summary": "A molecule is two or more atoms held together by covalent bonds — the smallest unit of a substance that still keeps its identity. Explore how atoms team up to build molecules like water, oxygen, and methane.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "molecule-two-plus-atoms",
+    "molecule-covalent-bonds",
+    "molecule-smallest-unit"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Molecules And Bonding",
+    "unit": "What Bonds Build",
+    "systemOrGroup": "Covalently bonded atoms",
+    "component": "Molecule",
+    "displayPath": "Chemistry > Molecules And Bonding > What Bonds Build > Covalently bonded atoms > Molecule"
+  },
+  "crossReferences": [
+    {
+      "label": "Covalent bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Covalent bond",
+      "note": "A molecule is what covalent bonds build — two or more atoms held together by shared electron pairs."
+    },
+    {
+      "label": "Compound (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Compound",
+      "note": "When a molecule's atoms are different elements, the molecule is also a compound — like H₂O. Same-element molecules like O₂ are not compounds."
+    },
+    {
+      "label": "Atom (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Atom",
+      "note": "Molecules are built from atoms — the same atoms that make up everything around you, now bonded into teams."
+    },
+    {
+      "label": "Ionic bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Ionic bond",
+      "note": "Ionic bonds build lattice crystals, not molecules — molecules are specifically the product of covalent bonding."
+    }
+  ],
+  "belongsTo": "Molecules And Bonding > What Bonds Build > Covalently bonded atoms",
+  "compareCandidate": {
+    "label": "Molecule vs. compound",
+    "description": "A molecule is any two or more atoms bonded covalently — they can be the same element (O₂) or different (H₂O). A compound is a substance made of different elements bonded together. Every compound is made of molecules or ions; not every molecule is a compound."
+  },
+  "parts": [
+    "Two or more atoms",
+    "Held by covalent bonds",
+    "The smallest unit of a substance"
+  ],
+  "processes": [
+    "Joining atoms with covalent bonds",
+    "Acting as the smallest particle that keeps a substance's identity",
+    "Forming everything from air to proteins"
+  ],
+  "plainLanguageExplanation": "A molecule is simply a team of atoms joined by covalent bonds. Think of the air you breathe: the oxygen is not single atoms — it is pairs of oxygen atoms holding hands, O₂, each pair one molecule. Water is a slightly bigger team — two hydrogen atoms and one oxygen atom, H₂O, one molecule. The most important idea about molecules is that they are the smallest unit of a substance that still acts like that substance. Break a water molecule apart and you no longer have water — you have separate hydrogen and oxygen atoms. Molecules can be tiny, like O₂ with just two atoms, or enormous, like the DNA molecules inside your cells with millions of atoms. What makes something a molecule is simple: two or more atoms, joined by covalent bonds, acting as one unit. When those atoms are from different elements, the molecule is also a compound; when they are all the same element, like O₂, it is just that element in molecular form.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "Two or more atoms held together by covalent bonds"
+    },
+    {
+      "label": "Smallest unit",
+      "value": "The smallest particle of a substance that keeps its identity"
+    },
+    {
+      "label": "Made of",
+      "value": "Atoms — often from different elements"
+    },
+    {
+      "label": "Sizes",
+      "value": "From O₂ (2 atoms) to DNA (millions of atoms)"
+    },
+    {
+      "label": "Examples",
+      "value": "H₂O (water), O₂ (oxygen), CO₂ (carbon dioxide), CH₄ (methane)"
+    },
+    {
+      "label": "vs. compound",
+      "value": "Same-element molecules (O₂) are not compounds; mixed-element molecules (H₂O) are"
+    }
+  ],
+  "whyItMatters": "Molecules are the smallest pieces of almost everything you can touch, drink, and breathe. Water, air, food, medicines, and the DNA inside you are all built from molecules. Knowing what a molecule is — and how its atoms team up — is the foundation for understanding compounds, chemical reactions, and how matter changes.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Molecule",
+  "tagline": "Atoms that team up",
+  "didYouKnow": "A single drop of water holds roughly a billion trillion (10²¹) water molecules — every one of them exactly two hydrogens and one oxygen.",
+  "conditions": [
+    "The air you breathe",
+    "The water you drink",
+    "Food, medicines, and DNA"
+  ],
+  "compareCandidateId": "compound",
+  "compareReason": "The line between a molecule and a compound trips up every student — comparing O₂ with H₂O shows precisely where the two ideas split."
+}

@@ -1,0 +1,50 @@
+{
+  "componentId": "fraction",
+  "terms": [
+    {
+      "term": "Fraction",
+      "conceptId": "fraction-part-of-whole",
+      "hotspotId": "hs-fraction-pizza",
+      "definition": "A number that describes part of a whole or part of a group.",
+      "function": "3/4 says three of four equal parts.",
+      "whereItIs": "The pizza divided into equal slices with some taken.",
+      "whyItMatters": "Fractions are the primary way math handles partial amounts."
+    },
+    {
+      "term": "Numerator",
+      "conceptId": "fraction-part-of-whole",
+      "hotspotId": "hs-numerator",
+      "definition": "The top number in a fraction, counting how many parts you have.",
+      "function": "In 3/4, the 3 counts the slices you take.",
+      "whereItIs": "The '3' badge above the fraction bar.",
+      "whyItMatters": "It tells how much of the whole is being described."
+    },
+    {
+      "term": "Denominator",
+      "conceptId": "fraction-definition",
+      "hotspotId": "hs-denominator",
+      "definition": "The bottom number in a fraction, counting the equal parts the whole is split into.",
+      "function": "In 3/4, the 4 tells you the whole has 4 equal slices.",
+      "whereItIs": "The '4' badge below the fraction bar.",
+      "whyItMatters": "It sets the size of each part — larger denominators mean smaller pieces."
+    },
+    {
+      "term": "Equal parts",
+      "conceptId": "fraction-equal-parts",
+      "hotspotId": "hs-denominator",
+      "definition": "Pieces of a whole that are all the same size.",
+      "function": "Every slice of the pizza is the same size so 1/4 means the same amount as any other 1/4.",
+      "whereItIs": "The equal slices cut into the pizza.",
+      "whyItMatters": "Without equal parts, a fraction would not name a fixed amount."
+    },
+    {
+      "term": "Part of a group",
+      "conceptId": "fraction-part-of-group",
+      "hotspotId": "hs-fraction-pizza",
+      "definition": "A fraction of a set — how many items out of the total.",
+      "function": "3/8 of 8 marbles means 3 marbles.",
+      "whereItIs": "Shown when the fraction counts items rather than slices.",
+      "whyItMatters": "Fractions describe both split eggs and shared groups."
+    }
+  ]
+}

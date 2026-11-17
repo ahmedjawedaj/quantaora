@@ -1,0 +1,38 @@
+{
+  "componentId": "vacuole",
+  "terms": [
+    {
+      "term": "Vacuole",
+      "conceptId": "vacuole-storage",
+      "hotspotId": "hs-vac-sac",
+      "definition": "A membrane sac that stores water, salts, nutrients, pigments, and some waste.",
+      "function": "Provides storage and, in plants, water pressure for support.",
+      "whereItIs": "In the cytoplasm of both plant and animal cells.",
+      "whyItMatters": "Storage is how a cell keeps its supplies ready.",
+      "relatedConcept": "central-vacuole-water-support",
+      "quizId": "vac-q-job"
+    },
+    {
+      "term": "Central vacuole",
+      "conceptId": "central-vacuole-water-support",
+      "hotspotId": "hs-central",
+      "definition": "The large vacuole in most plant cells that stores water and presses outward.",
+      "function": "Stores water and creates the firmness (turgor) that keeps plants upright.",
+      "whereItIs": "Filling most of a typical plant cell.",
+      "whyItMatters": "It is why a well-watered plant stands tall and a dry one wilts.",
+      "relatedConcept": "vacuole-storage",
+      "quizId": "vac-q-central"
+    },
+    {
+      "term": "Turgor pressure",
+      "conceptId": "central-vacuole-water-support",
+      "hotspotId": "hs-water",
+      "definition": "The outward push of water inside a plant cell against its wall.",
+      "function": "Keeps plant cells firm and plants standing upright.",
+      "whereItIs": "Created by the water-filled vacuole pressing on the cell wall.",
+      "whyItMatters": "It is the force that gives plants their stiff, leafy shape.",
+      "relatedConcept": "central-vacuole-water-support",
+      "quizId": "vac-q-wilt"
+    }
+  ]
+}

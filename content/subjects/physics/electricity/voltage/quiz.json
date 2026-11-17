@@ -1,0 +1,80 @@
+{
+  "componentId": "voltage",
+  "questions": [
+    {
+      "id": "vo-q-definition",
+      "conceptId": "voltage-the-push",
+      "hotspotId": "hs-voltmeter",
+      "prompt": "What does voltage do in a circuit?",
+      "options": [
+        "It pushes the current around the loop",
+        "It measures how fast the wire heats",
+        "It stores the light",
+        "It stops the current"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voltage is the electrical pressure that drives the current through the circuit.",
+      "misconception": "Some think voltage IS the current; voltage is the push, current is the flow."
+    },
+    {
+      "id": "vo-q-unit",
+      "conceptId": "voltage-unit-volt",
+      "hotspotId": "hs-voltmeter",
+      "prompt": "In what unit is voltage measured?",
+      "options": [
+        "Volts (V)",
+        "Amperes (A)",
+        "Ohms (Ω)",
+        "Watts (W)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voltage is measured in volts; amps are current, ohms are resistance, watts are power.",
+      "misconception": "Volt/amp/ohm/watt labels are easy to swap on batteries and chargers."
+    },
+    {
+      "id": "vo-q-add-cell",
+      "conceptId": "voltage-dictates-current",
+      "hotspotId": "hs-add-cell",
+      "prompt": "You add another 1.5 V cell to the same circuit loop. What happens to the current?",
+      "options": [
+        "More current flows",
+        "Less current flows",
+        "The current stays the same",
+        "The current reverses"
+      ],
+      "correctIndex": 0,
+      "explanation": "More voltage, same resistance, means more push and therefore more current — a brighter bulb.",
+      "misconception": "Assuming the loop takes what it needs; the push, not the bulb, decides the flow."
+    },
+    {
+      "id": "vo-q-stack",
+      "conceptId": "voltage-pumps-charge",
+      "hotspotId": "hs-cells",
+      "prompt": "Two 1.5 V cells stacked in series give what voltage?",
+      "options": [
+        "3 V",
+        "1.5 V",
+        "0.75 V",
+        "2.25 V"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cells in series add their pushes: 1.5 + 1.5 = 3 V.",
+      "misconception": "Some average the cells or keep one value; series cells add directly."
+    },
+    {
+      "id": "vo-q-across",
+      "conceptId": "voltage-unit-volt",
+      "hotspotId": "hs-voltmeter",
+      "prompt": "Where does the voltmeter connect in this model?",
+      "options": [
+        "Across the battery's two ends",
+        "Inside the bulb filament",
+        "Along the wire length",
+        "Nowhere — it floats"
+      ],
+      "correctIndex": 0,
+      "explanation": "A voltmeter reads the potential difference by connecting across the component.",
+      "misconception": "Reading 'across' is sometimes confused with 'in series'; the voltmeter taps both ends."
+    }
+  ]
+}

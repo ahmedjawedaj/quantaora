@@ -1,0 +1,65 @@
+{
+  "componentId": "gene",
+  "questions": [
+    {
+      "id": "gene-q-segment",
+      "conceptId": "segment-of-dna",
+      "hotspotId": "hs-segment-of-dna",
+      "prompt": "What is a gene, in simple terms?",
+      "options": [
+        "A segment of DNA that contains the instructions to make one protein or trait",
+        "An entire chromosome packed with all of an organism's DNA",
+        "A protein that carries oxygen through the bloodstream",
+        "The nucleus of a cell where DNA is stored"
+      ],
+      "correctIndex": 0,
+      "explanation": "A gene is a specific, defined stretch of DNA — not a whole chromosome or the whole cell — that codes for one protein or trait.",
+      "misconception": "Many learners confuse 'gene' with 'chromosome' or 'DNA' in general, treating them as interchangeable, when a gene is actually just one small functional piece within a chromosome's much longer DNA molecule."
+    },
+    {
+      "id": "gene-q-promoter",
+      "conceptId": "promoter-region",
+      "hotspotId": "hs-promoter-region",
+      "prompt": "What does the promoter region of a gene do?",
+      "options": [
+        "It stores a backup copy of the gene in case of damage",
+        "It is the finished protein the gene produces",
+        "It acts like an 'on switch' that tells the cell where to start reading the gene",
+        "It connects one chromosome to another"
+      ],
+      "correctIndex": 2,
+      "explanation": "The promoter region sits just before the coding sequence and signals the cell's copying machinery where to begin reading the gene's instructions.",
+      "misconception": "Learners often assume every part of a gene directly codes for the protein, missing that some regions, like the promoter, exist to control whether and when the gene gets read at all."
+    },
+    {
+      "id": "gene-q-coding",
+      "conceptId": "coding-sequence",
+      "hotspotId": "hs-coding-sequence",
+      "prompt": "What is the coding sequence of a gene?",
+      "options": [
+        "The stretch of DNA that spells out, letter by letter, the instructions for building a protein",
+        "The short marker that tells the cell where to start reading the gene",
+        "The finished protein a gene produces",
+        "The full chromosome the gene sits on"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coding sequence is the main body of the gene, immediately following the promoter — it's the part that actually spells out the instructions for assembling a protein.",
+      "misconception": "Some learners think the promoter itself carries the protein-building instructions, when the promoter is only a start signal — the actual instructions live in the coding sequence that follows it."
+    },
+    {
+      "id": "gene-q-protein",
+      "conceptId": "produces-protein-or-trait",
+      "hotspotId": "hs-produces-protein-or-trait",
+      "prompt": "What does a gene's coding sequence ultimately produce?",
+      "options": [
+        "One specific protein, which can go on to influence one trait",
+        "An exact copy of the entire chromosome",
+        "A new promoter region for a neighboring gene",
+        "ATP energy for the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Once read, a gene's coding sequence is used to build one specific protein, and that protein can go on to shape one particular trait, like an enzyme that helps digest food.",
+      "misconception": "Learners sometimes think a gene produces a trait directly, skipping the protein step — in reality, a gene's instructions are used to build a protein first, and it's that protein's action that produces the observable trait."
+    }
+  ]
+}

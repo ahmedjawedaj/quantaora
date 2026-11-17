@@ -1,0 +1,103 @@
+{
+  "id": "position",
+  "componentId": "position",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/position/position.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/position.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.9,
+      4.2
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.9,
+      4.2
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Number line with 0 marker",
+    "Object on the line",
+    "Direction arrow from 0 to object",
+    "2D grid overlay"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-position-value",
+      "label": "Position Value",
+      "conceptId": "position-describe-location",
+      "position": [
+        0.6,
+        0.45,
+        0
+      ],
+      "description": "The object's position measured from the reference point — a distance and a direction, such as +6 m.",
+      "positionHint": "Above the object's spot on the number line, tracking it as the slider moves.",
+      "color": "#6B85A8",
+      "function": "Reads and labels the object's location relative to the reference point."
+    },
+    {
+      "id": "hs-reference-point",
+      "label": "Reference Point",
+      "conceptId": "position-reference-point",
+      "position": [
+        0,
+        0.4,
+        0
+      ],
+      "description": "The fixed 0-marker everything is measured from. Sliding it relabels every position on the line.",
+      "colorHint": "Clear bright-amber marker post at the 0 coordinate.",
+      "color": "#D9A441",
+      "function": "Sets the origin all position readings are measured from."
+    },
+    {
+      "id": "hs-direction",
+      "label": "Direction Arrow",
+      "conceptId": "position-direction",
+      "position": [
+        0.3,
+        0.5,
+        0
+      ],
+      "description": "The arrow from the reference point toward the object shows which side its position is on.",
+      "colorHint": "Head-painted pointer running from 0 to the object, tinted coral.",
+      "color": "#D96B5A",
+      "function": "Shows positive/negative side so a distance becomes a unique location."
+    },
+    {
+      "id": "hs-grid",
+      "label": "Coordinate Grid",
+      "conceptId": "position-coordinate-graph",
+      "position": [
+        0,
+        0.7,
+        0.35
+      ],
+      "description": "Switch the line to a 2D grid and read positions as pairs like (3, 2) — one number per axis.",
+      "color": "#7FA86A",
+      "function": "Labels positions with a coordinate pair on two axes."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar for math/physics: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props beyond the mat. A long warm-wooden mat runs left-to-right sight, an amber 0 marker stands at the origin, and a bright coral arrow stretches from 0 toward the object. Strong saturated color is reserved for hotspot dots (amber ∕ coral ∕ blue) plus the arrow tint. Soft neutral studio light, no emissives, no bloom.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Mat warm-wooden (roughness ~0.6), number marks are ink-grey floats above the mat, object a simple picket child figure (roughness ~0.85, smooth topology), arrow a thin prism with coral accent. Slider rails soft warm-grey with amber knobs. No emissive material anywhere; readout text lives in the app runtime layer.",
+  "assetBrief": "SUBJECT: the concept of position as a reference-based location, modeled on a sliding-0 number line — decidedly procedural, symmetric-commutative reading (the same relative reading +6/−6 from either marker implies symmetric arrows).\n\nGEOMETRY: a long linear mat (length ~8 units along +x/−x) on the floor at y=0. A 0-position marker is a thin amber post at x=0 on the mat. An object (child or token) sits on the mat at a draggable x in [-5, 5]. An arrow ribbon from the 0 post to the object shows direction and magnitude. A mode layer swaps the line for a flat square (2D) grid in the xz-plane beneath, with an (x, z) readout pair.\n\nINTERACTION: the Object Slider drags the child along the line; the Reference Slider moves the amber 0 post and all position readings recompute relative to it. The Direction/Grid layer toggles the coordinate overlay.\n\nNAMED NODES: NumberLineMat, ZeroPost, ObjectBody, DirectionArrow, GridPlane, ReadoutBadge (app layer). Budget 6–10k triangles, smooth continuous topology, no toon outline.",
+  "visual": {
+    "shape": "position-axis"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "componentId": "power",
+  "terms": [
+    {
+      "term": "Power",
+      "conceptId": "power-work-over-time",
+      "hotspotId": "hs-watt",
+      "definition": "The rate at which work is done — energy transferred each second.",
+      "function": "Speed of energy, from sprint bursts to load gauges.",
+      "whereItIs": "The watt meter on the lift rig.",
+      "whyItMatters": "Every engine, bulb, and athlete is rated by share power",
+      "relatedConcept": "work",
+      "quizId": "pow-q-definition"
+    },
+    {
+      "term": "Power = work ÷ time",
+      "conceptId": "power-work-over-time",
+      "hotspotId": "hs-watt",
+      "definition": "The formula that divides total work by the time taken.",
+      "whyItMatters": "One formula lets you compare a sprinter and a plodder doing identical jobs.",
+      "whereItIs": "The dial readout while the belt moves.",
+      "relatedConcept": "power-watts",
+      "quizId": "pow-q-formula"
+    },
+    {
+      "term": "Watt (W)",
+      "conceptId": "power-watts",
+      "hotspotId": "hs-watt",
+      "definition": "The SI unit of power: one joule per second.",
+      "whyItMatters": "Sticker wattages, battery charging rates, and kilowatt-hours all use it.",
+      "whereItIs": "The watt meter unit.",
+      "relatedConcept": "power-work-over-time",
+      "quizId": "pow-q-watt"
+    },
+    {
+      "term": "Faster = more powerful",
+      "conceptId": "power-same-work-faster-rate",
+      "hotspotId": "hs-speed-knob",
+      "definition": "The same work finished in less time stands at a higher power",
+      "whyItMatters": "Explains sprinters out-blasting hikers and turbo kettles over slow-boilers.",
+      "whereItIs": "The speed knob and its spike in the watt readout.",
+      "relatedConcept": "power-work-over-time",
+      "quizId": "pow-q-faster"
+    }
+  ]
+}

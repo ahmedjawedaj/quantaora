@@ -1,0 +1,99 @@
+{
+  "id": "allele",
+  "componentId": "allele",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/genetics/allele/allele.procedural.ts",
+  "thumbnailUrl": "/assets/thumbnails/biology/genetics/allele.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.4,
+      5.6
+    ],
+    "target": [
+      0,
+      0.6,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.4,
+      5.6
+    ],
+    "target": [
+      0,
+      0.6,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Chromosome A (rod + centromere pinch)",
+    "Chromosome B (rod + centromere pinch)",
+    "Locus marker ring (shared position on both rods)",
+    "Allele token — Dominant (bold terracotta capsule)",
+    "Allele token — Recessive (muted sand capsule, outlined)",
+    "Pairing bracket / connector (links the two tokens, relabels itself Homozygous vs Heterozygous)",
+    "Base plinth + soft contact shadow"
+  ],
+  "hotspots": [
+    {
+      "id": "dominant-allele",
+      "label": "Dominant Allele",
+      "conceptId": "dominant-allele",
+      "position": [
+        -0.9,
+        1.5,
+        0.16
+      ],
+      "positionHint": "On chromosome A (left/front rod), at the locus marker ring roughly two-thirds up the rod — the bold, saturated terracotta capsule token seated in the ring.",
+      "description": "The allele copy that is expressed in the phenotype whenever it is present. Rendered as the visually 'stronger' token — larger radius, fully saturated matte terracotta, sits slightly proud of the locus ring — versus the recessive token's muted, outlined treatment. Selecting this hotspot highlights the dot on chromosome A's locus ring and dims chromosome B to ~0.35 opacity; the side info panel updates to explain that the dominant allele's trait is expressed, and the connector label reads 'Dominant expressed.'"
+    },
+    {
+      "id": "recessive-allele",
+      "label": "Recessive Allele",
+      "conceptId": "recessive-allele",
+      "position": [
+        0.9,
+        1.5,
+        0.16
+      ],
+      "positionHint": "On chromosome B (right/back rod), at the matching locus height directly opposite the dominant token — a smaller, lighter sand-colored capsule with a visible outline, seated in its own locus ring.",
+      "description": "The allele copy that is masked in the phenotype when paired with a dominant allele, and only expressed when paired with an identical recessive copy. Rendered smaller and desaturated (soft sand fill, thin darker outline, no fill-shadow) to read as 'recessive' without resorting to color-coding tricks like transparency or glow. Selecting this hotspot highlights the dot on chromosome B's locus ring and dims chromosome A to ~0.35 opacity; the side info panel updates to explain the masking relationship, and the connector label reads 'Recessive masked' in the default heterozygous state."
+    },
+    {
+      "id": "homozygous-pairing",
+      "label": "Homozygous Pairing",
+      "conceptId": "homozygous-pairing",
+      "position": [
+        0,
+        1.1,
+        0.3
+      ],
+      "positionHint": "On the pairing bracket/connector arc beneath both loci, visible when the model is toggled to its homozygous compare state (both tokens rendered as the same allele — either two dominant or two recessive capsules at matching loci).",
+      "description": "The state where both chromosome copies carry the identical allele at this locus (AA or aa). Selecting this hotspot swaps both locus tokens to matching color/size (either both bold-terracotta or both muted-sand) over a 200-300ms material/scale tween, and the side info panel relabels to 'Homozygous — same allele on both copies.' Used to contrast directly against the default heterozygous view; no in-viewport floating text is used, the explanation lives in the side panel only."
+    },
+    {
+      "id": "heterozygous-pairing",
+      "label": "Heterozygous Pairing",
+      "conceptId": "heterozygous-pairing",
+      "position": [
+        0,
+        1.1,
+        0.3
+      ],
+      "positionHint": "On the pairing bracket/connector arc beneath both loci in the model's default state, where one dominant (terracotta) and one recessive (sand) token sit opposite each other.",
+      "description": "The state where the two chromosome copies carry different alleles at this locus (Aa) — one dominant, one recessive. This is the model's default/idle state since it best demonstrates both allele types at once. Selecting this hotspot (or returning from the homozygous compare state) restores the two-different-tokens layout via the same 200-300ms tween, and the side info panel relabels to 'Heterozygous — different alleles on each copy.'"
+    }
+  ],
+  "visualStyleNotes": "Symbolic/diagrammatic biology model, not literal anatomy — same restrained, tactile 3D language as Anatomy Atelier (warm off-white studio backdrop #F7F3EC-ish, soft single-key + fill lighting, gentle contact shadow, no rim glow, no bloom/particles). Two chromosome rods stand side by side like a matched pair on display, not tangled or X-crossed — keep it legible and calm rather than textbook-cluttered. Matte clay-like shading (roughly a Lambert/Standard material with high roughness, zero metalness) throughout; every surface reads as solid and touchable, never glossy or glassy. Palette stays inside the reference's warm-neutral + one or two muted accent family: chromosome bodies in a warm bone/greige, dominant allele token in a single confident muted terracotta/rust, recessive allele token in a pale desaturated sand with a thin outline (not transparency, not a lighter tint of the same terracotta — a genuinely different low-saturation hue so red-green colorblind users can still distinguish by value/shape, not hue alone). Locus rings are thin toroids in a neutral charcoal-on-bone, low contrast until hotspot-selected, at which point the selected ring/token gets a slight scale-pop and a thin selection outline (no glow halo). Token size difference (dominant slightly larger) doubles as a non-color-dependent cue for dominance. Hotspot selection never floats 3D text/label cards over the model itself — matching the reference's actual pattern of a small dot/ring highlight on the model plus the explanatory text appearing in an adjacent side info panel, not in the viewport. Absolutely avoid: neon/gradient glows, sci-fi DNA-helix ribbon textures, cartoon googly-eyed chromosome mascots, saturated primary red/green/blue allele balls, particle sparkle effects, in-viewport floating billboard text, or busy Punnett-square overlays baked into the geometry — those belong in the 2D lesson/quiz layer, not the 3D object.",
+  "materialNotes": "Chromosome rods: MeshStandardMaterial, warm bone/greige (~#DDD3C4), roughness 0.85, metalness 0. Locus rings: MeshStandardMaterial, warm charcoal (~#4A433C), roughness 0.6, metalness 0, no emissive. Dominant allele token: MeshStandardMaterial, muted terracotta (~#B5563B), roughness 0.5, metalness 0. Recessive allele token: MeshStandardMaterial, pale sand (~#E8DCC6) with a thin darker outline via a slightly scaled backface-culled shell in charcoal, roughness 0.7. Pairing bracket: same charcoal as locus rings, thinner and lower-contrast (roughness 0.7, slightly desaturated) so it recedes behind the tokens. Plinth: warm off-white (~#F7F3EC) matching the studio backdrop, roughness 0.9. Lighting: single soft key light from upper-front-left (~45°), gentle fill from front-right, no colored lights, no rim/glow, ambient/hemisphere fill so undersides aren't pure black; ground contact shadow via a soft shadow blob or ContactShadows helper, not a hard raytraced shadow.",
+  "assetBrief": "BUILD METHOD: Procedural three.js scene assembled from primitives — no sculpted/authored mesh needed, and none should be commissioned. This keeps the asset lightweight, easy to re-skin per subject's color system, and trivial to animate between homozygous/heterozygous states by swapping materials rather than swapping meshes.\n\nGEOMETRY\n- Chromosome rod (x2, \"Chromosome A\" and \"Chromosome B\"): a vertical capsule ~2.4 units tall, 0.34 unit diameter, built from a CapsuleGeometry (or a cylinder with hemisphere caps) with a gentle radial pinch at 55% height (scale the radius down ~30% over a short vertical span using a lathe or a two-segment capsule) to read as a centromere without adding chromatid-arm complexity. Chromosome A positioned at x = -0.9, Chromosome B mirrored at x = +0.9, both centered on the plinth, y-base at 0.\n- Locus marker ring (x2, one per rod, must be at matching world-height on both rods): a thin TorusGeometry (outer radius ~0.22, tube ~0.03) wrapped horizontally around each rod at 68% height (just above the centromere pinch), oriented so its face is visible from the default camera angle.\n- Allele tokens (x2 minimum, dominant + recessive, plus a spare pair of each color pre-built for state-swapping): capsule or rounded-box primitives ~0.26 x 0.16 x 0.16, seated centered inside each locus ring, protruding slightly outward toward camera (~0.05 unit offset) so they read as \"plugged into\" the locus rather than embedded flush.\n- Pairing bracket/connector: a thin curved tube (TubeGeometry along a shallow arc, radius ~0.02) spanning beneath both locus rings from rod A to rod B, with a small anchor point at its midpoint-bottom that the UI layer (not the 3D scene) uses to position the pairing-state label in the side panel — no text geometry or billboard sprite is part of the 3D asset itself.\n- Plinth: a low radial dome/hill rather than a flat disc — a shallow LatheGeometry or displaced CircleGeometry with a soft rounded falloff from a ~0.12 unit peak at center down to a feathered edge at radius ~1.6, matte bone material, no hard edge — for closer visual parity with the reference's soft-mound display bases. Chromosomes rise from the dome's peak area.\n\nPROPORTIONS & SCALE\nOverall model footprint fits inside a 2.2 x 3.0 x 2.2 unit bounding box so default camera framing at position [0, 1.4, 5.6] targeting [0, 0.6, 0] shows the full pair with generous margin (matching Anatomy Atelier's large-centered-object-with-breathing-room compositions).\n\nMATERIALS: see materialNotes field above.\n\nLIGHTING & ENV: see materialNotes field above.\n\nSTATE / INTERACTION BEHAVIOR\nDefault load state = Heterozygous Pairing: chromosome A shows dominant token, chromosome B shows recessive token, side panel reads \"Heterozygous.\" Selecting the \"Homozygous Pairing\" hotspot swaps chromosome B's token material/geometry to match chromosome A's (both dominant) as the illustrative default homozygous case, relabels the side panel to \"Homozygous,\" and this transition should be a quick (200-300ms) material/scale tween, not an instant snap or a fade-through-black. Selecting \"Dominant Allele\" or \"Recessive Allele\" hotspots isolates that single rod (dim the other rod's opacity to ~0.35, keep both loci visible) and updates the side info panel with that token's explanation — the model never floats a 3D label/card in the viewport itself; all explanatory text lives in the adjacent 2D side panel, matching the reference's dot-highlight-plus-panel pattern. No literal cross-section is meaningful for this component (there's no internal cavity to reveal) — treat compare-between-states as the model's primary interactive mode instead of cross-sectioning.\n\nWHAT NOT TO DO\nDo not model a full double-helix DNA ribbon (that belongs to the DNA/Gene component, not Allele — this component's job is to show the pairing relationship, not molecular structure). Do not use bright stock-photo red/green for dominant/recessive (colorblind-unsafe and clashes with the reference's muted palette). Do not add cartoon eyes, mouths, or mascot styling to the chromosomes. Do not use transparency/glass materials on the tokens. Do not crowd the scene with a Punnett square, arrows, or on-model text baked into geometry — labels and explanations are 2D side-panel UI triggered by hotspot selection, never floating 3D text or billboard sprites in the viewport. Do not make the pinch/centromere so pronounced that the rods read as dumbbells — it should be a subtle taper, not a bowtie. Do not build the plinth as a flat, hard-edged disc — use the soft radial dome described above.",
+  "visual": {
+    "shape": "allele-pair"
+  }
+}

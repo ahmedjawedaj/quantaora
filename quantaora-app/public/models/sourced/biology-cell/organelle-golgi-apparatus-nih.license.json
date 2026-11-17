@@ -1,0 +1,30 @@
+{
+  "asset": "organelle-golgi-apparatus-nih.glb",
+  "componentMapping": "biology > cell-biology > Golgi apparatus (low-level item - currently no distinct model; animal-cell-authored.glb does not include a Golgi mesh)",
+  "sourceUrl": "https://3d.nih.gov/entries/3DPX-000003",
+  "sourceEntryId": "3DPX-000003",
+  "underlyingStructureData": "Cryo-electron-tomography reconstruction (data collected by Rachid Sougrat)",
+  "creator": "NIH 3D user \"swanjere\"",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC0 1.0 (Public Domain Dedication)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Recommended credit: \"Golgi Apparatus from EM Tomography\", NIH 3D (3d.nih.gov, entry 3DPX-000003), by swanjere, from cryo-ET data by Rachid Sougrat. CC0 1.0.",
+  "redistributionStatus": "Unrestricted (CC0 public domain dedication).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/10/runs/6bb9bd56-eeed-4049-b154-3061c8510f4a/output-files/614",
+  "downloadedVariant": "FinalGolgi4Print_NIH3D.glb",
+  "fileSizeBytes": 28135284,
+  "sha256": "19975ebfcf2f3d1a0ad02447cd078d40f6d1407e8d5e4112555ee8ea602bc9e4",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 3,
+    "notes": "Exceeds the 15MB hero-asset guideline (28.1MB) - EM-tomography-derived membrane mesh at print resolution. Recommend a decimation pass before shipping; geometry itself (real reconstructed Golgi stack shape, not a generic torus stand-in) is high pedagogical value and worth the processing investment. Not render-inspected visually in this pass."
+  }
+}

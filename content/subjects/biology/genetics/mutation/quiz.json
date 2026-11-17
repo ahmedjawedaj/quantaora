@@ -1,0 +1,53 @@
+{
+  "componentId": "mutation",
+  "questions": [
+    {
+      "prompt": "A single DNA letter is swapped for a different letter, but the protein that gets built is exactly the same as before. What kind of mutation is this?",
+      "options": [
+        "A silent substitution mutation",
+        "A frameshift mutation",
+        "A deletion mutation",
+        "This can't happen — any DNA change always changes the protein"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a silent substitution: because multiple different codons (three-letter DNA groups) can code for the exact same amino acid, swapping one letter sometimes changes the codon's spelling without changing which amino acid it produces, so the final protein is unaffected.",
+      "misconception": "Many learners assume every DNA change must change the protein — this ignores that the genetic code is redundant (several codons map to the same amino acid), which is exactly what makes silent mutations possible."
+    },
+    {
+      "prompt": "A gene has one extra DNA letter inserted near its beginning (not a multiple of three letters added). What's the most likely effect on the protein?",
+      "options": [
+        "Almost the entire protein after that point gets scrambled, because it causes a frameshift",
+        "Only the one amino acid closest to the insertion changes",
+        "Nothing changes, since insertions are always silent",
+        "The protein becomes exactly one amino acid longer and otherwise identical"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the cell reads DNA in fixed three-letter codons, adding one extra letter shifts every codon boundary after the insertion point, causing a frameshift — the whole reading frame is thrown off, so essentially all downstream amino acids get misread.",
+      "misconception": "Learners often reason 'one letter changed, so only one thing should change' — that logic works for substitutions (which really do only affect one codon) but not for insertions/deletions, which shift the reading frame for everything downstream."
+    },
+    {
+      "prompt": "A mutation happens in a skin cell during someone's lifetime (a somatic mutation). Will it be passed on to their children?",
+      "options": [
+        "No, because it's only in a body cell, not in sperm or egg cells",
+        "Yes, all mutations are automatically inherited",
+        "Only if the person has children after age 40",
+        "Yes, but only if it's a deletion mutation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only mutations in germline cells (sperm or egg) can be passed to offspring, because those are the cells that contribute DNA to the next generation. A mutation in an ordinary body cell like a skin cell stays confined to that individual.",
+      "misconception": "A common misconception is that any mutation anywhere in the body is heritable — this confuses somatic mutations (affecting only the individual) with germline mutations (passed to offspring), which is actually the key distinction for inheritance."
+    },
+    {
+      "prompt": "Why can't mutations be described simply as 'bad for the organism'?",
+      "options": [
+        "Because mutations can be harmful, neutral, or occasionally beneficial, and beneficial ones drive adaptation over generations",
+        "Because mutations never actually change anything about an organism",
+        "Because only insertions are harmful — substitutions and deletions are always safe",
+        "Because DNA repair always fixes every mutation before it matters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mutations exist on a spectrum of effect — most are neutral, some are harmful, and occasionally one is beneficial, giving an organism an edge that natural selection can favor over generations. This variability is exactly why mutation is the raw material for evolution.",
+      "misconception": "Because textbooks often introduce mutations alongside genetic diseases, learners frequently assume 'mutation' is a synonym for 'harmful' or 'disease-causing,' missing that mutation is really a neutral term for any DNA change, whatever its effect turns out to be."
+    }
+  ]
+}

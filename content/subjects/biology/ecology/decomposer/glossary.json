@@ -1,0 +1,38 @@
+{
+  "componentId": "decomposer",
+  "terms": [
+    {
+      "term": "Decomposer",
+      "conceptId": "breaks-down-dead",
+      "hotspotId": "hs-dead",
+      "definition": "A living thing that breaks down dead plants and animals.",
+      "function": "Recycles materials back to the soil.",
+      "whereItIs": "Fungi, bacteria, earthworms.",
+      "whyItMatters": "They are the ecosystem's recyclers.",
+      "relatedConcept": "recycles-nutrients",
+      "quizId": "dec-q-def"
+    },
+    {
+      "term": "Nutrient recycling",
+      "conceptId": "recycles-nutrients",
+      "hotspotId": "hs-recycle",
+      "definition": "The return of materials from dead matter to the soil for reuse.",
+      "function": "Keeps the soil rich for producers.",
+      "whereItIs": "In every ecosystem.",
+      "whyItMatters": "It keeps life's materials in circulation.",
+      "relatedConcept": "breaks-down-dead",
+      "quizId": "dec-q-nutrient"
+    },
+    {
+      "term": "Fungus",
+      "conceptId": "fungi-bacteria-worms",
+      "hotspotId": "hs-fungus",
+      "definition": "A decomposer that breaks down dead wood and leaves.",
+      "function": "Recycles dead plant material.",
+      "whereItIs": "Mushrooms and molds on forest floors.",
+      "whyItMatters": "They digest what no other organism can.",
+      "relatedConcept": "breaks-down-dead",
+      "quizId": "dec-q-kinds"
+    }
+  ]
+}

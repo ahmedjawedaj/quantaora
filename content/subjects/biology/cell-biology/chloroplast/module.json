@@ -1,0 +1,98 @@
+{
+  "id": "chloroplast",
+  "subject": "biology",
+  "title": "Chloroplast",
+  "summary": "The chloroplast is the solar panel of the plant cell - a green organelle that captures sunlight and uses it to turn carbon dioxide and water into sugar. Explore its stacked internal disks and the process of photosynthesis.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "chlorophyll-captures-light",
+    "thylakoids-grana",
+    "photosynthesis-sugar-making"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Chloroplast",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Chloroplast"
+  },
+  "crossReferences": [
+    {
+      "label": "Mitochondrion (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Mitochondrion",
+      "note": "The chloroplast makes sugar using light; the mitochondrion later releases energy from that sugar. Together they power the plant cell."
+    },
+    {
+      "label": "Plant Cell (Cell Biology)",
+      "branch": "cell-biology",
+      "grouping": "Plant cell",
+      "note": "Chloroplasts are one of the structures that make plant cells special, along with the cell wall and large central vacuole."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Chloroplast vs. mitochondrion",
+    "description": "Chloroplasts capture sunlight to make sugar (food) - only in plants. Mitochondria release energy from food - in all eukaryotic cells. One builds food, the other spends it."
+  },
+  "parts": [
+    "Outer membrane",
+    "Thylakoid stacks (grana)",
+    "Stroma (fluid space)",
+    "Chlorophyll"
+  ],
+  "processes": [
+    "Photosynthesis: making sugar from light, water, and CO2",
+    "Releasing oxygen",
+    "Storing the sugar plants need"
+  ],
+  "plainLanguageExplanation": "The chloroplast is the organelle where plants make their own food. It is green because it contains a pigment called chlorophyll that captures energy from sunlight. Inside, chloroplasts have stacks of flat discs called thylakoids (grana), and the space around them is the stroma. Using sunlight, water, and carbon dioxide, the chloroplast performs photosynthesis: it makes sugar (glucose) and releases oxygen. That sugar is food for the plant (and ultimately for almost all life).",
+  "keyFacts": [
+    {
+      "label": "Nickname",
+      "value": "The solar panel of the plant cell"
+    },
+    {
+      "label": "Green color",
+      "value": "From chlorophyll, the pigment that captures sunlight"
+    },
+    {
+      "label": "Main job",
+      "value": "Photosynthesis: turns sunlight + water + CO2 into sugar and oxygen"
+    },
+    {
+      "label": "Internal disks",
+      "value": "Stacks of flat discs called thylakoids (grana)"
+    },
+    {
+      "label": "Only in plants",
+      "value": "Found in plant cells and some algae - not in animal cells"
+    },
+    {
+      "label": "Oxygen",
+      "value": "Photosynthesis releases oxygen as a byproduct"
+    }
+  ],
+  "whyItMatters": "Chloroplasts are where plants make food from sunlight, and that food feeds almost every living thing on Earth. They also produce the oxygen we breathe. Understanding chloroplasts explains how plants grow and why life depends on photosynthesis.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Chloroplast",
+  "tagline": "The solar panel of the plant",
+  "didYouKnow": "Every day, plants use chloroplasts to turn sunlight into chemical food - the process that eventually powers almost all life on Earth.",
+  "conditions": [
+    "Photosynthesis",
+    "Chlorophyll"
+  ],
+  "branch": "cell-biology",
+  "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Chloroplast",
+  "plain": "The chloroplast is the organelle where plants make their own food. It is green because it contains a pigment called chlorophyll that captures energy from sunlight. Inside, chloroplasts have stacks of flat discs called thylakoids (grana), and the space around them is the stroma. Using sunlight, water, and carbon dioxide, the chloroplast performs photosynthesis: it makes sugar (glucose) and releases oxygen. That sugar is food for the plant (and ultimately for almost all life)."
+}

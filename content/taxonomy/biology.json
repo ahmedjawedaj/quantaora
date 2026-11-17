@@ -1,0 +1,108 @@
+{
+  "subject": "biology",
+  "name": "Biology",
+  "hierarchy": "Subject > Branch > Unit > System/Group > Component > Structure/Variable/Rule > Micro-skill",
+  "mvpModule": {
+    "id": "cell-explorer",
+    "title": "Cell Explorer",
+    "branch": "cell-biology",
+    "skills": ["cell-membrane", "nucleus", "mitochondrion", "cytoplasm", "ribosome", "plant-vs-animal-cell"],
+    "interactions": ["3D cell", "hotspots", "isolate organelles", "compare plant and animal cells", "label drag task"]
+  },
+  "branches": [
+    {
+      "id": "cell-biology",
+      "name": "Cell Biology",
+      "detailed": true,
+      "lowLevelItems": ["Cell membrane", "Cytoplasm", "Nucleus", "DNA", "Mitochondrion", "Ribosome", "Endoplasmic reticulum", "Golgi apparatus", "Lysosome", "Vacuole", "Chloroplast", "Cell wall", "Cytoskeleton"],
+      "groupings": ["Animal cell", "Plant cell", "Bacterial cell", "Neuron (specialized cell)", "Red blood cell (specialized cell)", "Muscle cell (specialized cell)", "Sperm cell (specialized cell)", "Egg cell (specialized cell)"],
+      "interactiveComponents": ["3D cell explorer", "Organelle isolate mode", "Plant vs animal compare", "Drag-label organelles", "Energy flow animation", "Protein production animation"]
+    },
+    {
+      "id": "human-anatomy",
+      "name": "Human Anatomy",
+      "detailed": true,
+      "systems": ["Skeletal system", "Muscular system", "Nervous system", "Cardiovascular system", "Respiratory system", "Digestive system", "Urinary system", "Endocrine system", "Reproductive system", "Immune/lymphatic system", "Integumentary system", "Sensory systems"],
+      "lowLevelItems": ["Heart", "Brain", "Lungs", "Liver", "Kidneys", "Stomach", "Small intestine", "Large intestine", "Pancreas", "Spleen", "Skin", "Eye", "Ear", "Bones", "Muscles", "Blood vessels"],
+      "components": {
+        "heart": {
+          "id": "heart",
+          "name": "Heart",
+          "system": "Cardiovascular system",
+          "parts": ["Aorta", "Vena cava", "Right atrium", "Left atrium", "Right ventricle", "Left ventricle", "Pulmonary artery", "Pulmonary vein", "Mitral valve", "Tricuspid valve", "Coronary arteries"]
+        },
+        "brain": {
+          "id": "brain",
+          "name": "Brain",
+          "system": "Nervous system",
+          "parts": ["Frontal lobe", "Parietal lobe", "Temporal lobe", "Occipital lobe", "Cerebellum", "Brainstem", "Hippocampus", "Amygdala", "Spinal cord"]
+        }
+      },
+      "interactiveComponents": ["Body system map", "Organ 3D viewer", "Hotspot structure cards", "Blood-flow animation", "Air-flow animation", "Digestion timeline", "Nerve signal animation", "Compare organ systems"]
+    },
+    {
+      "id": "human-physiology",
+      "name": "Human Physiology",
+      "detailed": true,
+      "processes": ["Breathing", "Blood circulation", "Digestion", "Filtration by kidneys", "Muscle contraction", "Nerve signaling", "Hormone signaling", "Immune response", "Temperature regulation"],
+      "interactiveComponents": ["Flow animations", "Cause/effect sliders", "\"What happens if...\" prediction prompts", "System feedback loops"]
+    },
+    {
+      "id": "genetics",
+      "name": "Genetics",
+      "detailed": true,
+      "lowLevelItems": ["DNA", "Gene", "Chromosome", "Allele", "Trait", "Protein", "Mutation"],
+      "processes": ["DNA replication", "Transcription", "Translation", "Inheritance", "Punnett squares"],
+      "interactiveComponents": ["DNA pairing manipulative", "Build-a-protein sequence", "Trait inheritance simulator", "Mutation impact cards"]
+    },
+    {
+      "id": "evolution",
+      "name": "Evolution",
+      "detailed": false
+    },
+    {
+      "id": "ecology",
+      "name": "Ecology",
+      "detailed": true,
+      "lowLevelItems": ["Organism", "Population", "Community", "Ecosystem", "Habitat", "Niche", "Producer", "Consumer", "Decomposer", "Predator", "Prey"],
+      "processes": ["Food chain", "Food web", "Energy pyramid", "Population growth", "Carrying capacity", "Symbiosis", "Carbon cycle", "Water cycle"],
+      "interactiveComponents": ["Food-web builder", "Population slider simulation", "Ecosystem balance sandbox", "Biome explorer"]
+    },
+    {
+      "id": "plants",
+      "name": "Plants",
+      "detailed": true,
+      "lowLevelItems": ["Root", "Stem", "Leaf", "Flower", "Seed", "Stomata", "Xylem", "Phloem", "Chloroplast"],
+      "processes": ["Photosynthesis", "Pollination", "Germination", "Transpiration"],
+      "interactiveComponents": ["Plant cross-section", "Photosynthesis variable lab", "Pollination timeline"]
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "detailed": false
+    },
+    {
+      "id": "microbiology",
+      "name": "Microbiology",
+      "detailed": true,
+      "lowLevelItems": ["Bacteria", "Virus", "Fungus", "Protozoa", "Microbiome"],
+      "processes": ["Infection", "Immune response", "Antibiotic resistance", "Fermentation"],
+      "interactiveComponents": ["Microscope mode", "Bacteria growth simulation", "Virus lifecycle animation"]
+    },
+    {
+      "id": "health-and-disease",
+      "name": "Health And Disease",
+      "detailed": false
+    },
+    {
+      "id": "neuroscience",
+      "name": "Neuroscience",
+      "detailed": false
+    },
+    {
+      "id": "biochemistry-foundations",
+      "name": "Biochemistry Foundations",
+      "detailed": false
+    }
+  ]
+}

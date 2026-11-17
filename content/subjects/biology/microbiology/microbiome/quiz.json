@@ -1,0 +1,65 @@
+{
+  "componentId": "microbiome",
+  "questions": [
+    {
+      "id": "microbiome-q-what",
+      "conceptId": "microbiome-community",
+      "hotspotId": "hs-gut",
+      "prompt": "What is the microbiome?",
+      "options": [
+        "The community of trillions of microbes living in and on your body",
+        "A type of vitamin",
+        "One single bacterium",
+        "A mineral you eat"
+      ],
+      "correctIndex": 0,
+      "explanation": "The microbiome is the whole community of trillions of microbes - mostly bacteria - that live in and on your body.",
+      "misconception": "Some think the microbiome is a single germ or a vitamin, but it is a whole population of microbes living on and in you."
+    },
+    {
+      "id": "microbiome-q-main",
+      "conceptId": "microbiome-trillions",
+      "hotspotId": "hs-bacteria",
+      "prompt": "What do most of the microbiome members live?",
+      "options": [
+        "In the gut (intestines), and on the skin",
+        "Only in the teeth",
+        "Only deep in the soil",
+        "Nowhere in the body"
+      ],
+      "correctIndex": 0,
+      "explanation": "The biggest microbial community lives in the gut, with more on the skin and mouth - a world of microbes on and in you.",
+      "misconception": "People often think the microbiome lives only in one odd place; actually most resides in the gut and on the skin."
+    },
+    {
+      "id": "microbiome-q-how",
+      "conceptId": "microbiome-helpful-jobs",
+      "hotspotId": "hs-jobs",
+      "prompt": "Which is a helpful job your microbiome does?",
+      "options": [
+        "Helps digest food and makes some vitamins",
+        "Makes it impossible to eat",
+        "Rots all your food",
+        "Turns your skin blue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Your helpful gut microbes aid digestion, make some vitamins, train the immune system, and crowd out harmful germs.",
+      "misconception": "The idea that microbes such as the microbiome are all harmful is wrong - these are mostly helpful partners in body function."
+    },
+    {
+      "id": "microbiome-q-balance",
+      "conceptId": "microbiome-balance-health",
+      "hotspotId": "hs-balance",
+      "prompt": "How can the microbiome be harmed?",
+      "options": [
+        "By antibiotics killing many of the microbes and an unbalanced diet",
+        "By eating more fiber and vegetables",
+        "By drinking water",
+        "It can never be harmed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Strong antibiotics can kill many good microbes and an unbalanced diet can stress them, breaking the balance, while eating fiber helps the gut.",
+      "misconception": "A healthy microbiome actually benefits from fiber, vegetables, and careful antibiotic use; endless antibiotic overuse is what can harm its balance."
+    }
+  ]
+}

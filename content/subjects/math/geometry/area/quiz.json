@@ -1,0 +1,80 @@
+{
+  "componentId": "area",
+  "questions": [
+    {
+      "id": "area-def",
+      "conceptId": "area-definition",
+      "hotspotId": "hs-area-grid",
+      "prompt": "What does area measure?",
+      "options": [
+        "The surface a shape covers",
+        "The distance around a shape",
+        "The width of a shape",
+        "The height of a shape"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area is the amount of surface inside a shape.",
+      "misconception": "Distance around is perimeter, and width or height alone are single dimensions — area is the full surface covered."
+    },
+    {
+      "id": "area-units",
+      "conceptId": "area-square-units",
+      "hotspotId": "hs-unit-square",
+      "prompt": "Area is measured in...",
+      "options": [
+        "Square units",
+        "Units",
+        "Degrees",
+        "Pounds"
+      ],
+      "correctIndex": 0,
+      "explanation": "We count how many unit squares fill the shape — hence square units.",
+      "misconception": "Plain 'units' are for length and degrees are for angles — area always uses square units because it covers a two-dimensional surface."
+    },
+    {
+      "id": "area-rectangle",
+      "conceptId": "area-rectangle",
+      "hotspotId": "hs-rectangle-side",
+      "prompt": "What is the area of a rectangle 5 units long and 3 units wide?",
+      "options": [
+        "15 square units",
+        "8 square units",
+        "16 square units",
+        "5 square units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area = length × width = 5 × 3 = 15 square units.",
+      "misconception": "Adding gives the perimeter (5 + 3 + 5 + 3 = 16) — area multiplies the two side lengths."
+    },
+    {
+      "id": "area-triangle",
+      "conceptId": "area-triangle",
+      "hotspotId": "hs-area-grid",
+      "prompt": "A triangle inside a 6 by 4 rectangle covers how much area?",
+      "options": [
+        "12 square units",
+        "24 square units",
+        "6 square units",
+        "20 square units"
+      ],
+      "correctIndex": 0,
+      "explanation": "A triangle is half its rectangle: ½ × 6 × 4 = 12 square units.",
+      "misconception": "The rectangle is 6 × 4 = 24 — the triangle takes only half of it, so its area is 12, not the full rectangle."
+    },
+    {
+      "id": "area-vs-perimeter",
+      "conceptId": "area-definition",
+      "hotspotId": "hs-rectangle-side",
+      "prompt": "Two rectangles have the same perimeter but different areas. Why?",
+      "options": [
+        "Perimeter measures around, area measures inside — they are separate",
+        "Area is always half of perimeter",
+        "Perimeter uses multiplication, area uses addition",
+        "This cannot happen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perimeter is the outline length; area is the interior surface — the same outline can wrap different amounts of surface.",
+      "misconception": "The two measurements are independent — a stretched rectangle keeps its outline total while shrinking its interior."
+    }
+  ]
+}

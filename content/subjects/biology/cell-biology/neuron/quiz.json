@@ -1,0 +1,125 @@
+{
+  "componentId": "neuron",
+  "questions": [
+    {
+      "id": "neuron-q-soma",
+      "conceptId": "cell-body-soma",
+      "hotspotId": "hs-soma",
+      "prompt": "What is the main role of the cell body (soma) in a neuron?",
+      "options": [
+        "It acts as the control center, integrating incoming signals and housing the nucleus and organelles",
+        "It insulates the axon so signals travel faster",
+        "It is the only part of the neuron that contains DNA",
+        "It releases neurotransmitters directly into the bloodstream"
+      ],
+      "correctIndex": 0,
+      "explanation": "The soma is the neuron's hub — it holds the nucleus and organelles that keep the cell alive, and it integrates the signals arriving from all the dendrites before a decision to fire travels down the axon.",
+      "misconception": "Students sometimes think the soma is just a passive 'blob' in the middle with no active job, when it's actually where incoming signals are combined and where the cell's core life-support happens."
+    },
+    {
+      "id": "neuron-q-dendrites",
+      "conceptId": "dendrites",
+      "hotspotId": "hs-dendrites",
+      "prompt": "What is the main job of the dendrites on a neuron?",
+      "options": [
+        "Receiving signals from other neurons",
+        "Producing energy for the cell",
+        "Releasing neurotransmitters into the synapse",
+        "Speeding up signals with a fatty coating"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dendrites are the branching 'antennae' of the neuron — they receive incoming signals from other neurons and pass them toward the cell body.",
+      "misconception": "Students often mix up dendrites and axon terminals because both look like branches; the key difference is direction — dendrites receive, axon terminals send."
+    },
+    {
+      "id": "neuron-q-axon",
+      "conceptId": "axon",
+      "hotspotId": "hs-axon",
+      "prompt": "What does the axon do once a neuron decides to send a signal?",
+      "options": [
+        "It carries the electrical signal away from the cell body toward the axon terminals",
+        "It receives the incoming signal from neighboring neurons",
+        "It produces the ATP energy the neuron needs to fire",
+        "It stores the neuron's DNA until the signal is sent"
+      ],
+      "correctIndex": 0,
+      "explanation": "The axon is the single long fiber that carries the neuron's electrical signal (action potential) away from the cell body, all the way to the axon terminals at the far end.",
+      "misconception": "Some learners think signals travel both directions along the axon equally; in a healthy neuron the axon carries the signal in one direction — away from the cell body."
+    },
+    {
+      "id": "neuron-q-myelin",
+      "conceptId": "myelin-sheath",
+      "hotspotId": "hs-myelin-sheath",
+      "prompt": "What does the myelin sheath do for a neuron's axon?",
+      "options": [
+        "It insulates the axon and speeds up signal travel",
+        "It stores the cell's DNA",
+        "It produces the cell's energy",
+        "It connects two neurons directly together with no gap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Myelin is a fatty insulating layer wrapped around many axons; it lets electrical signals jump quickly along the axon instead of leaking away, so the message travels much faster.",
+      "misconception": "A common misconception is that myelin itself carries the signal, like a wire's core — really, myelin just insulates the axon, similar to the plastic coating on an electrical wire, while the axon underneath still carries the actual signal."
+    },
+    {
+      "id": "neuron-q-axon-terminals",
+      "conceptId": "axon-terminals",
+      "hotspotId": "hs-axon-terminals",
+      "prompt": "What happens at the axon terminals, at the very end of the axon?",
+      "options": [
+        "The electrical signal triggers the release of chemical messengers toward the next cell",
+        "The signal is received from a neighboring neuron's dendrites",
+        "The cell's DNA is copied and passed to the next cell",
+        "ATP energy is produced to power the whole neuron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Axon terminals are the branching endings where the neuron's electrical signal is converted into a chemical signal, ready to cross the synapse to the next cell.",
+      "misconception": "Learners sometimes picture the axon terminal as just the 'end of the wire' with nothing happening there, missing that this is where the electrical-to-chemical handoff actually occurs."
+    },
+    {
+      "id": "neuron-q-synapse",
+      "conceptId": "synapse",
+      "hotspotId": "hs-synapse",
+      "prompt": "How does a signal usually get from one neuron to the next across a synapse?",
+      "options": [
+        "Chemical messengers called neurotransmitters cross the gap",
+        "The two neurons' membranes fuse together permanently",
+        "Electricity arcs directly across empty space like a spark",
+        "The nucleus of one neuron moves into the other"
+      ],
+      "correctIndex": 0,
+      "explanation": "At most synapses, the neurons don't actually touch. The signal triggers the release of neurotransmitters from the axon terminal, and these chemical messengers cross the gap and bind to the next neuron's dendrites, continuing the signal.",
+      "misconception": "Many learners assume the electrical signal simply jumps across the gap like a spark, since the signal inside the neuron is electrical — but the synapse gap requires a chemical handoff, not a direct electrical one."
+    },
+    {
+      "id": "neuron-q-nucleus",
+      "conceptId": "nucleus",
+      "hotspotId": "hs-nucleus",
+      "prompt": "What is the nucleus doing inside a neuron's cell body?",
+      "options": [
+        "Holding the cell's DNA and directing protein production",
+        "Generating the electrical signal that travels down the axon",
+        "Producing the ATP energy the neuron uses to fire",
+        "Releasing neurotransmitters into the synapse"
+      ],
+      "correctIndex": 0,
+      "explanation": "Just like in most other cells, the neuron's nucleus holds its DNA and directs which proteins the cell builds — it's the instruction center, not the part that generates or carries the electrical signal.",
+      "misconception": "Because the nucleus is sometimes drawn as the 'center' of activity, students can assume it generates the electrical signal itself — but signal generation happens through ion channels along the membrane, not inside the nucleus."
+    },
+    {
+      "id": "neuron-q-mitochondrion",
+      "conceptId": "mitochondrion",
+      "hotspotId": "hs-mitochondrion",
+      "prompt": "Why does a neuron need mitochondria?",
+      "options": [
+        "To produce the ATP energy the neuron needs to fire and maintain its ion gradients",
+        "To store the neuron's DNA for later use",
+        "To release neurotransmitters directly into the synapse",
+        "To form the fatty myelin sheath around the axon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mitochondria are the neuron's power plants — they produce the ATP energy the cell needs to fire signals and to keep pumping ions in and out to reset for the next signal.",
+      "misconception": "Some learners assume energy for firing comes from the electrical signal itself, not realizing that maintaining the ion gradients that make firing possible actually costs a steady supply of ATP from the mitochondria."
+    }
+  ]
+}

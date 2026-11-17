@@ -1,0 +1,90 @@
+{
+  "id": "friction",
+  "subject": "physics",
+  "title": "Friction",
+  "summary": "Friction is the force that pushes back when two surfaces rub together — the grip that lets you walk, the heat under sledding brakes, and the reason things sliding on ice keep going. Explore how rough and smooth surfaces, and how hard you press, change the size of this contact force.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "friction-contact-force",
+    "friction-opposes-motion",
+    "friction-depends-on-surfaces-and-press",
+    "friction-useful-and-wasteful"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Forces",
+    "systemOrGroup": "Friction",
+    "component": "Friction",
+    "displayPath": "Physics > Mechanics > Forces > Friction > Friction"
+  },
+  "crossReferences": [
+    {
+      "label": "Force (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Force",
+      "note": "Friction is a force between surfaces, measured in newtons, that typically opposes the direction of motion."
+    },
+    {
+      "label": "Normal force (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Normal force",
+      "note": "Pressing harder increases the normal force between surfaces, and friction grows with it."
+    },
+    {
+      "label": "Gravity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Gravity",
+      "note": "Gravity loads objects onto surfaces; more load means more friction trying to stop them."
+    }
+  ],
+  "belongsTo": "Mechanics > Forces > Friction",
+  "compareCandidate": {
+    "label": "Friction vs. gravity",
+    "description": "Friction acts only between touching surfaces and usually opposes motion; gravity acts through empty space and always pulls masses together. Roll a ball: gravity pulls it down, friction stops it rolling."
+  },
+  "parts": [
+    "The sliding object (a book or shoe)",
+    "The surface it slides on (sandpaper, wood, ice)",
+    "The friction arrow opposite the motion",
+    "The force gauge"
+  ],
+  "processes": [
+    "Rubbing surfaces and measuring the resisting force",
+    "Opposing the direction of motion or attempted motion",
+    "Seeing roughness and pressing force change the friction",
+    "Using friction for grip and paying the cost in heat"
+  ],
+  "plainLanguageExplanation": "Friction is the force that resists sliding whenever two surfaces touch. Run your hand across a table and you feel it — the force pushing back against your motion. Its size depends on two things: how rough the two surfaces are (sandpaper grabs a lot, ice grabs almost none) and how hard the surfaces press together (a heavy, squashed-on box grips more than a light one). Friction always points opposite the direction of motion, or opposite where you're trying to slide something. It's famously double-sided: friction is what lets you walk (your shoes grip the floor) and what stops a car (brakes press pads against wheels), but it also grinds energy away as heat — that's why rubbing your hands warms them, and why machine parts wear out. In the model you slide a book across three surfaces and watch the force gauge; switch to a rubber shoe on wood to feel the useful grip.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A contact force that resists sliding between two surfaces" },
+    { "label": "Direction", "value": "Opposite to the motion (or attempted motion)" },
+    { "label": "Depends on", "value": "Surface roughness and how hard the surfaces are pressed together" },
+    { "label": "Useful side", "value": "Walking, braking, gripping — friction makes traction" },
+    { "label": "Wasteful side", "value": "Generates heat and wears things out" },
+    { "label": "Sliding and rolling", "value": "Rolling friction is usually much smaller than sliding friction" }
+  ],
+  "whyItMatters": "Friction is at work in every step, grip, and brake — and in every wasteful squeak. Engineers tune it: tires need grip, engines need low friction oil, and skates need almost none. Understanding friction explains why ice is slippery, why sanding makes joints fit, why your hands warm when rubbed, and why space is the only place where a pushed object keeps going forever. It's the most experienced force in daily life and the reason the real world rarely matches the 'no friction' ideal in physics problems.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Friction",
+  "tagline": "The grip that resists sliding",
+  "didYouKnow": "Friction turns motion into heat — the same effect that warms your hands when you rub them is why re-entry capsules glow, why brake discs get hot, and why meteorites blaze across the night sky.",
+  "conditions": [
+    "Shoes gripping the floor",
+    "Car brakes",
+    "Sledding on snow",
+    "Rubbing hands for warmth",
+    "Matchsticks striking"
+  ],
+  "compareCandidateId": "gravity",
+  "compareReason": "One force needs touch, the other works through space — sliding a book over sandpaper versus ice shows friction's surface dependence while gravity stays unchanged."
+}

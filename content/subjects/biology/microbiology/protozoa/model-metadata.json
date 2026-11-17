@@ -1,0 +1,121 @@
+{
+  "id": "protozoa",
+  "result": "protozoa",
+  "componentId": "protozoa",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/microbiology/protozoa/protozoa.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/microbiology/protozoa.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.4
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.4
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Pond drop scene",
+    "Amoeba",
+    "Flagellate protozoan",
+    "Ciliate protozoan",
+    "Movement layer",
+    "Feeding layer"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-amoeba",
+      "label": "Amoeba",
+      "conceptId": "protozoa-single-celled",
+      "position": [
+        -0.3,
+        0.1,
+        0.25
+      ],
+      "description": "A protozoa single cell with an irregular shape that moves by false feet pseudopods.",
+      "positionHint": "The irregular jelly-like blob cell in the scene.",
+      "color": "#D98A6A",
+      "function": "Moves and captures food with pseudopods."
+    },
+    {
+      "id": "hs-flagellum",
+      "label": "Flagellum",
+      "conceptId": "protozoa-move",
+      "position": [
+        0.3,
+        0.3,
+        0.2
+      ],
+      "description": "A long whip-like tail that a protozoan uses to swim.",
+      "positionHint": "The single long tail on the flagellate protozoan.",
+      "color": "#D9A441",
+      "function": "Whips to move the cell."
+    },
+    {
+      "id": "hs-cilia",
+      "label": "Cilia",
+      "conceptId": "protozoa-move",
+      "position": [
+        0.15,
+        0.2,
+        0.2
+      ],
+      "description": "Tiny hair-like structures that help a protozoan swim and gather food.",
+      "positionHint": "A fringe of fine hairs covering the ciliate cell.",
+      "color": "#6B85A8",
+      "function": "Beat together to move the cell."
+    },
+    {
+      "id": "hs-nucleus",
+      "label": "Nucleus",
+      "conceptId": "protozoa-nucleus",
+      "position": [
+        0,
+        0.15,
+        0.25
+      ],
+      "description": "The true nucleus that holds the genetic material, distinguishing protozoa from bacteria.",
+      "positionHint": "The rounded darker spot inside the amoeba.",
+      "color": "#7FA874",
+      "function": "Holds the cell's genetic material."
+    },
+    {
+      "id": "hs-food",
+      "label": "Food vacuole",
+      "conceptId": "protozoa-eat",
+      "position": [
+        -0.15,
+        0.05,
+        0.22
+      ],
+      "description": "The little sac inside the cell where engulfed food is captured.",
+      "positionHint": "A small rounded speck inside the amoeba.",
+      "color": "#B5846A",
+      "function": "A small sac that holds the food the cell engulfed."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A clean stylized pond-diagram with a calm, transparent droplet. Muted warm aquatic tones, not glow-heavy, not cluttered. Strong saturated color reserved for the flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.55-0.63, the droplet reads as clean translucent water; no emissive.",
+  "assetBrief": "SUBJECT: a drop of pond water scene holding three stylized single-celled protozoa - an amoeba with a nucleus and a food vacuole, a flagellate with one flagellum tail, and a ciliate covered in cilia. Layers animate movement and a small food being engulfed. Muted pond-drop scene on warm cream. Named nodes: Amoeba, Flagellum, CiliaHairs, Nucleus, FoodVacuole, PondDrop. Budget 12-16k.",
+  "visual": {
+    "shape": "amoeba-blob"
+  }
+}

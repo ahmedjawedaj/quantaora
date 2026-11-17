@@ -1,0 +1,105 @@
+{
+  "id": "mitochondrion",
+  "componentId": "mitochondrion",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/mitochondrion/mitochondrion.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/mitochondrion.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.3,
+      2.6
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.3,
+      2.6
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Outer membrane",
+    "Inner membrane folds (cristae)",
+    "Matrix",
+    "Energy flow"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-outer-membrane",
+      "label": "Outer membrane",
+      "conceptId": "double-membrane-structure",
+      "position": [
+        0.5,
+        0.1,
+        0.2
+      ],
+      "description": "The smooth outer wrapping of the mitochondrion.",
+      "positionHint": "The outer edge of the bean shape.",
+      "color": "#D98A6A",
+      "function": "Forms the smooth outer boundary of the mitochondrion."
+    },
+    {
+      "id": "hs-cristae",
+      "label": "Cristae (inner folds)",
+      "conceptId": "inner-membrane-cristae",
+      "position": [
+        0.2,
+        0.25,
+        0.1
+      ],
+      "description": "The inner membrane folded into shelves that make lots of surface area.",
+      "positionHint": "Folded shelves visible in the cutaway interior.",
+      "color": "#6B85A8",
+      "function": "Large surface for the energy-making machinery."
+    },
+    {
+      "id": "hs-matrix",
+      "label": "Matrix",
+      "conceptId": "cellular-respiration-energy",
+      "position": [
+        0.15,
+        -0.1,
+        0.1
+      ],
+      "description": "The fluid space inside the inner membrane where much of respiration happens.",
+      "positionHint": "Interior gel of the cutaway.",
+      "color": "#7fa88a",
+      "function": "Holds fluid and enzymes that help break down fuel."
+    },
+    {
+      "id": "hs-energy",
+      "label": "Energy production (ATP)",
+      "conceptId": "atp-energy",
+      "position": [
+        0.05,
+        0.05,
+        0.15
+      ],
+      "description": "The region where usable energy (ATP) is generated across the inner folds.",
+      "positionHint": "Along the cristae in the interior.",
+      "color": "#D9A441",
+      "function": "Produces the ATP energy the cell can spend."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white/paper background, soft vignette, no floor grid. The mitochondrion is a large, calm specimen centered in a cutaway, clean museum-model chop so the interior shows. Outer membrane a warm neutral taupe, cristae soft folded shelves in muted blue-grey, matrix a pale interior. No glow, no emissive; reserved color for hotspots.",
+  "materialNotes": "Metallic-roughness PBR metallic=0, matte ~0.5,. The cristae slightly glossier. Cutaway cap clean flat. camera default.",
+  "assetBrief": "SUBJECT: a single mitochondrion as a bean shape displayed in a cutaway so the double membrane and cristae are visible. Two membranes: an outer smooth one, and an inner one folded into many stacked shelves (cristae) across the interior. Between is the matrix. Add tiny amber energy dots regrouping at the cristae in the energy-flow layer (muted, no glow). Muted warm neutral palette. Named nodes: OuterMembrane, InnerMembrane_Cristae, Matrix, EnergyFlowDots. Budget 12-18k.",
+  "referenceMatch": "Warm off-white centered object, auto-rotate, no props - matches reference overview.",
+  "visual": {
+    "shape": "mitochondrion-bean"
+  }
+}

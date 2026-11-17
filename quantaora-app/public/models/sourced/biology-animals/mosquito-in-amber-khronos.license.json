@@ -1,0 +1,33 @@
+{
+  "asset": "mosquito-in-amber-khronos.glb",
+  "component": "Animals > Vertebrate and Invertebrate / invertebrate specimen",
+  "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/MosquitoInAmber",
+  "downloadUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/MosquitoInAmber/glTF-Binary/MosquitoInAmber.glb",
+  "provider": "Khronos glTF Sample Assets",
+  "creator": "Loic Norgeot and Geoffrey Marchal for Sketchfab",
+  "license": "CC-BY 4.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+  "attributionRequired": true,
+  "attributionText": "\"Real-time Refraction Demo: Mosquito in Amber\" by Sketchfab; model by Loic Norgeot and mosquito scan by Geoffrey Marchal. Licensed CC-BY 4.0.",
+  "redistributionStatus": "Redistributable with attribution under CC-BY 4.0.",
+  "dateSourced": "2026-09-08",
+  "fileSizeBytes": 24229904,
+  "sha256": "1c0b49000650e8a8c00d69bc8d64e46d33527871a47d74e4f2278887325cc35f",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 10,
+    "meshCount": 3,
+    "materialCount": 3,
+    "textureCount": 5,
+    "imageCount": 5,
+    "embeddedImages": 5,
+    "externalUriImages": 0,
+    "animationCount": 0,
+    "hasBinChunk": true,
+    "approxDimensions": [1.9995, 1.9995, 1.9995]
+  },
+  "notes": "Real insect specimen in amber used as the Animals branch invertebrate anchor. This is attribution-required but acceptable for the free explorer/prototype path; keep attribution visible in credits and keep it reviewable before any future paid launch."
+}

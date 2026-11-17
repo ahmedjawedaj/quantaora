@@ -1,0 +1,90 @@
+{
+  "id": "multiples",
+  "componentId": "multiples",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/multiples/multiples.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/multiples.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.5,
+      3.9
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.5,
+      3.9
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Skip-counting track",
+    "Times-table strip",
+    "Base number slider",
+    "Common multiple highlight"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-multiple-example",
+      "label": "Multiple",
+      "conceptId": "multiples-times-table",
+      "position": [
+        0.6,
+        0.6,
+        0
+      ],
+      "description": "Each multiple is the base number times a whole number \u2014 3, 6, 9, 12 are multiples of 3.",
+      "positionHint": "The numbers the marker lands on along the track.",
+      "color": "#7FA86A",
+      "function": "The products of a base number and the whole numbers."
+    },
+    {
+      "id": "hs-times-table",
+      "label": "Times-table strip",
+      "conceptId": "multiples-times-table",
+      "position": [
+        0,
+        -0.3,
+        0.35
+      ],
+      "description": "The multiplication facts that generate the multiples \u2014 3 \u00d7 1 = 3, 3 \u00d7 2 = 6, 3 \u00d7 3 = 9.",
+      "positionHint": "The flat strip below the track showing each 3 \u00d7 n fact.",
+      "color": "#6B85A8",
+      "function": "Shows the multiplication that produces each multiple."
+    },
+    {
+      "id": "hs-common-multiple",
+      "label": "Common multiple",
+      "conceptId": "multiples-vs-factors",
+      "position": [
+        -0.6,
+        0.7,
+        0.3
+      ],
+      "description": "A common multiple appears on two different lists \u2014 12 is on both 3's list and 4's list.",
+      "positionHint": "The highlighted plate that glows when a number belongs to both active lists.",
+      "color": "#D9A441",
+      "function": "Highlights numbers shared by two multiples lists."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A long skip-counting track with a hopping marker, a times-table strip beneath, and a base-number slider. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (molecular-green / grid-blue / amber from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Track: ink-grey strip with warm paper number tiles (roughness ~0.5). Marker: warm amber sphere/arrow (roughness ~0.4). Times-table strip: warm paper with ink text. Slider: soft warm-grey rail with amber knob. Common-multiple highlight: app-driven glow plate on a number tile. No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: multiples as skip counting and times-table results \u2014 a track of number tiles with a hopping marker and a base-number slider.\n\nGEOMETRY: Track: a long low strip (length ~3.6) with number tiles (3, 6, 9, 12, 15, 18, 21, 24) as small flat plates. Marker: an amber arrow that hops tile-to-tile as the learner steps it. Times-table strip: a narrower plate beneath with '3 \u00d7 1 = 3'...'3 \u00d7 8 = 24' rows. Slider: a small rail at the front that changes the base number (e.g. to 4 or 5) and rebuilds the tiles by skip counting. A Common-Multiple layer adds a second ghost list and glows any shared number (e.g. 12 for bases 3 and 4).\n\nLAYERS (toggleable): (1) base track; (2) times-table strip; (3) second list + common-multiple highlight.\n\nCAMERA: head-on from +z frames the track and strip; labels legible. Budget 5-9k triangles. Named nodes: Track, NumberTiles, Marker, TimesTableStrip, Slider_Knob, GhostList, CommonGlow. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "multiples-track"
+  }
+}

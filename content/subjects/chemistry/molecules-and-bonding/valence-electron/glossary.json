@@ -1,0 +1,48 @@
+{
+  "componentId": "valence-electron",
+  "terms": [
+    {
+      "term": "Valence electron",
+      "conceptId": "valence-outermost-shell",
+      "hotspotId": "hs-valence-electron",
+      "definition": "An electron in the outermost shell of an atom.",
+      "function": "The electron shared or transferred when atoms bond.",
+      "whereItIs": "The single bright dot on sodium's outer ring in the model.",
+      "whyItMatters": "Valence electrons control how atoms bond and how reactive they are.",
+      "relatedConcept": "valence-decides-bonding",
+      "quizId": "valence-q-definition"
+    },
+    {
+      "term": "Valence shell",
+      "conceptId": "valence-outermost-shell",
+      "hotspotId": "hs-valence-shell",
+      "definition": "The outermost electron shell of an atom.",
+      "function": "Holds the valence electrons — the layer where bonding happens.",
+      "whereItIs": "The outer ring of the sodium atom.",
+      "whyItMatters": "It is the shell that interacts with other atoms.",
+      "relatedConcept": "valence-outermost-shell",
+      "quizId": "valence-q-bond-count"
+    },
+    {
+      "term": "Inner electron",
+      "conceptId": "valence-outermost-shell",
+      "hotspotId": "hs-inner-shell",
+      "definition": "An electron in a shell closer to the nucleus than the valence shell.",
+      "function": "Fills the inner shells but does not participate in bonding.",
+      "whereItIs": "The small dim dots on sodium's inner ring.",
+      "whyItMatters": "Contrasting them with valence electrons clarifies which electrons actually bond.",
+      "relatedConcept": "valence-decides-bonding",
+      "quizId": "valence-q-role"
+    },
+    {
+      "term": "Group",
+      "conceptId": "valence-shell-count",
+      "definition": "A column of the periodic table whose elements share the same number of valence electrons.",
+      "function": "Explains why elements in a column behave alike.",
+      "whereItIs": "Sodium's column (group 1) — every element in it has one valence electron.",
+      "whyItMatters": "The group-valence link is the heart of periodic table patterns.",
+      "relatedConcept": "valence-outermost-shell",
+      "quizId": "valence-q-group"
+    }
+  ]
+}

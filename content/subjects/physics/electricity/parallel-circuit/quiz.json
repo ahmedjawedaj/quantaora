@@ -1,0 +1,80 @@
+{
+  "componentId": "parallel-circuit",
+  "questions": [
+    {
+      "id": "p-q1",
+      "conceptId": "parallel-multiple-branches",
+      "hotspotId": "hs-branch-a",
+      "prompt": "What is a parallel circuit?",
+      "options": [
+        "Components each on their own separate branch",
+        "All components on one single loop",
+        "Two batteries with no wires",
+        "One bulb with two filaments"
+      ],
+      "correctIndex": 0,
+      "explanation": "In parallel, each component rides its own branch between shared rails.",
+      "misconception": "Beads-on-one-string is the series layout, not parallel."
+    },
+    {
+      "id": "p-q2",
+      "conceptId": "parallel-same-voltage-each",
+      "hotspotId": "hs-battery",
+      "prompt": "A 3 V battery feeds three equal bulbs in parallel. About how many volts does each branch bulb see?",
+      "options": [
+        "About 3 V each",
+        "About 1 V each",
+        "About 9 V each",
+        "Not enough information"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every branch connects straight across the battery, so each sees the full 3 V.",
+      "misconception": "Splitting the volts is what series does — parallel shares the source, not the voltage."
+    },
+    {
+      "id": "p-q3",
+      "conceptId": "parallel-independent-branches",
+      "hotspotId": "hs-remove-a",
+      "prompt": "You unscrew one bulb from a parallel circuit. The other bulbs...",
+      "options": [
+        "Stay lit at full brightness",
+        "Go dark at once",
+        "Get dimmer",
+        "Flash then die"
+      ],
+      "correctIndex": 0,
+      "explanation": "Independent branches mean the other lamps keep their own complete paths.",
+      "misconception": "That one-break-stops-all behavior is the signature of series circuits."
+    },
+    {
+      "id": "p-q4",
+      "conceptId": "parallel-current-splits-at-junction",
+      "hotspotId": "hs-junction-a",
+      "prompt": "Compared with the current on any single branch, the total current leaving the battery is...",
+      "options": [
+        "The sum of all the branch currents",
+        "Exactly the same as one branch",
+        "Smaller than the smallest branch",
+        "Zero once branches split"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current splits at the junction and recombines; the total equals the sum of parts.",
+      "misconception": "Current does not 'spend' at the first load — the junction just re-distributes it."
+    },
+    {
+      "id": "p-q5",
+      "conceptId": "parallel-multiple-branches",
+      "hotspotId": "hs-top-rail",
+      "prompt": "Why do homes wire lights in parallel instead of series?",
+"options": [
+        "So one bulb failing doesn't black out every room",
+        "So the wire is brighter",
+        "So the voltage is lower",
+        "So homes use less copper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Independent branches keep every other light working when any one fails.",
+      "misconception": "Series would doom the whole house to a single filament — that's why it's rejected."
+    }
+  ]
+}

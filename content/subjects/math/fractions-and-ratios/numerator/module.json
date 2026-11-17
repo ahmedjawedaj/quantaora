@@ -1,0 +1,87 @@
+{
+  "id": "numerator",
+  "subject": "math",
+  "title": "Numerator",
+  "summary": "The numerator is the top number of a fraction. It counts how many equal parts you have — in 3/4, the numerator 3 says you have three of the four parts. Explore how the numerator changes the amount the fraction names.",
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "skillIds": [
+    "numerator-counts-parts",
+    "numerator-top-of-fraction",
+    "numerator-changes-amount",
+    "numerator-read-write"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Fractions And Ratios",
+    "unit": "Fraction Basics",
+    "systemOrGroup": "Fractions",
+    "component": "Numerator",
+    "displayPath": "Math > Fractions And Ratios > Fraction Basics > Fractions > Numerator"
+  },
+  "crossReferences": [
+    {
+      "label": "Fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Fraction",
+      "note": "The numerator is half of every fraction — the top number."
+    },
+    {
+      "label": "Denominator (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Denominator",
+      "note": "The numerator only makes sense against the denominator — it counts parts OF the denominator's total."
+    },
+    {
+      "label": "Equivalent fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Equivalent fraction",
+      "note": "Changing both numerator and denominator together can keep the amount the same — 1/2 = 2/4."
+    }
+  ],
+  "belongsTo": "Fractions And Ratios > Fraction Basics > Fractions",
+  "compareCandidate": {
+    "label": "Numerator vs. denominator",
+    "description": "The numerator counts the parts you HAVE (top). The denominator counts the equal parts in the WHOLE (bottom). One says 'how many parts', the other says 'parts of what size'."
+  },
+  "parts": [
+    "The top number of a fraction",
+    "Counting the parts you have",
+    "Raising the numerator enlarges the amount"
+  ],
+  "processes": [
+    "Counting selected parts",
+    "Reading fractions top-first",
+    "Relating numerator to whole"
+  ],
+  "plainLanguageExplanation": "In a fraction, the top number is the numerator. It counts how many equal parts you have or are talking about. In 3/4, the numerator 3 means 'three parts out of the four that make the whole'. The bigger the numerator, the more of the whole you have — 5/4 has more than 3/4 (it is even more than one whole). You read the numerator first: 3/4 is 'three fourths'. Without a denominator, the numerator is just a plain counting number — the denominator tells what the parts are.",
+  "keyFacts": [
+    { "label": "Position", "value": "The top number of a fraction" },
+    { "label": "Meaning", "value": "Counts the equal parts you have" },
+    { "label": "Example", "value": "In 3/4, the numerator 3 means three of four parts" },
+    { "label": "Reading", "value": "Read top first — 3/4 is 'three fourths'" },
+    { "label": "Growth", "value": "A larger numerator means a larger amount (5/4 > 3/4)" },
+    { "label": "With denominator", "value": "Alone it is a plain count; the denominator names the parts" }
+  ],
+  "whyItMatters": "The numerator is where the 'how much' of a fraction lives. Adding, comparing, and understanding fractions all start by reading and using the numerator correctly — it is the part that tells you the size of the share you get.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Numerator",
+  "tagline": "The top number that counts parts",
+  "didYouKnow": "The word 'numerator' comes from the Latin 'numerare', meaning 'to count' — the numerator is literally the number that counts parts.",
+  "conditions": [
+    "Comparing fractions",
+    "Adding fractions",
+    "Reading recipes",
+    "Understanding shares"
+  ],
+  "compareCandidateId": "denominator",
+  "compareReason": "The two halves of a fraction answer different questions — comparing the top counter with the bottom sizer is the fastest way to make both stick."
+}

@@ -1,0 +1,49 @@
+{
+  "componentId": "noble-gas",
+  "terms": [
+    {
+      "term": "Noble gas",
+      "conceptId": "noble-gas-full-shell",
+      "hotspotId": "hs-noble-gas-column",
+      "definition": "An element in Group 18 with a completely full outer shell, making it almost completely unreactive.",
+      "function": "Stays stable and unreactive because its full shell leaves no need to bond.",
+      "whereItIs": "Group 18 — the far-right column of the periodic table.",
+      "whyItMatters": "The noble gases define the 'stability target' that drives all of bonding chemistry.",
+      "relatedConcept": "noble-gas-group-18",
+      "quizId": "noble-gas-q-shell"
+    },
+    {
+      "term": "Full outer shell",
+      "conceptId": "noble-gas-full-shell",
+      "hotspotId": "hs-noble-gas-full-shell",
+      "definition": "An outermost electron shell that holds its complete capacity of electrons (2 for the first shell, 8 for the next).",
+      "function": "Creates the most stable, lowest-energy arrangement an atom can have.",
+      "whereItIs": "The fully filled ring in the shell-view atom model.",
+      "whyItMatters": "Other atoms bond specifically to reach this noble-gas-like full-shell state.",
+      "relatedConcept": "noble-gas-unreactive",
+      "quizId": "noble-gas-q-reactivity"
+    },
+    {
+      "term": "Unreactive (inert)",
+      "conceptId": "noble-gas-unreactive",
+      "hotspotId": "hs-noble-gas-gases",
+      "definition": "A description of substances that almost never take part in chemical reactions.",
+      "function": "Noble gases are unreactive because they have nothing to gain by bonding.",
+      "whereItIs": "The reason helium balloons and argon bulbs stay safe and unchanged.",
+      "whyItMatters": "Unreactivity is what makes noble gases useful in bulbs, balloons, and dive tanks.",
+      "relatedConcept": "noble-gas-full-shell",
+      "quizId": "noble-gas-q-use"
+    },
+    {
+      "term": "Group 18",
+      "conceptId": "noble-gas-group-18",
+      "hotspotId": "hs-noble-gas-column",
+      "definition": "The last column of the periodic table, home to helium, neon, argon, krypton, xenon, and radon.",
+      "function": "Organizes the full-shell family together at the far right of the table.",
+      "whereItIs": "The glowing last column in the model's table section.",
+      "whyItMatters": "Every element in this column shares the noble, unreactive personality.",
+      "relatedConcept": "noble-gas-unreactive",
+      "quizId": "noble-gas-q-column"
+    }
+  ]
+}

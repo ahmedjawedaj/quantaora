@@ -1,0 +1,101 @@
+{
+  "id": "skin",
+  "componentId": "skin",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/human-anatomy/skin/skin.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/skin.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Epidermis",
+    "Dermis",
+    "Sweat and oil glands",
+    "Sensory nerves"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-epidermis",
+      "label": "Epidermis",
+      "conceptId": "epidermis-dermis-layers",
+      "position": [
+        0.0,
+        0.35,
+        0.2
+      ],
+      "description": "The thin protective outer layer of the skin.",
+      "color": "#D98A6A",
+      "function": "Protects and constantly replaces its outer cells.",
+      "positionHint": "The outer surface."
+    },
+    {
+      "id": "hs-dermis",
+      "label": "Dermis",
+      "conceptId": "epidermis-dermis-layers",
+      "position": [
+        0.0,
+        0.1,
+        0.2
+      ],
+      "description": "The thick inner layer with blood vessels, nerves, and glands.",
+      "color": "#D9A441",
+      "function": "Contains the nerves, vessels, and glands.",
+      "positionHint": "Beneath the epidermis."
+    },
+    {
+      "id": "hs-sweat",
+      "label": "Sweat glands",
+      "conceptId": "temperature-control-sweating",
+      "position": [
+        0.35,
+        0.0,
+        0.15
+      ],
+      "description": "The glands that release sweat to cool the body.",
+      "color": "#6B85A8",
+      "function": "Cool the body as sweat evaporates.",
+      "positionHint": "In the dermis."
+    },
+    {
+      "id": "hs-sense",
+      "label": "Sensory nerves",
+      "conceptId": "protection-and-sensation",
+      "position": [
+        -0.35,
+        0.1,
+        0.2
+      ],
+      "description": "Nerves that sense touch, pressure, heat, and cold.",
+      "color": "#B5846A",
+      "function": "Carry touch and temperature signals to the brain.",
+      "positionHint": "Reaching into the dermis."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a section of skin as a stylized-specimen study - a clean vertical slice showing the thin outer epidermis, the thick dermis with blood vessels, sensory nerve endings, a sweat gland coiling to the surface, an oil gland, and a hair root, over the deeper hypodermis. Warm paper palette, muted, no glow, no gore. Named nodes: Epidermis, Dermis, Hypodermis, SweatGland, OilGland, HairRoot, SensoryNerve, BloodVessel. Budget 18-26k."
+}

@@ -1,0 +1,139 @@
+{
+  "id": "hormone-signaling",
+  "componentId": "hormone-signaling",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "assetStrategy": {
+    "specDefaultBucket": "GLB/GLTF (spec §21 assigns biology anatomical/cellular models to this bucket by default)",
+    "chosenApproach": "procedural-three",
+    "deviationRationale": "This is a schematic process-pathway diagram — gland, bloodstream, target cell, and feedback loop laid out as a left-to-right narrative arc — not a sculpted anatomical specimen. It is built entirely from primitives and lightly blended/lofted forms (spheres, a tube-along-curve, an asymmetric receptor protrusion), which fits procedural-three's primitive-built-object criteria (the same criteria that justify red-blood-cell/model-metadata.json's deviation) far better than a sculpted GLB pipeline suited to organic anatomy like neuron.glb.",
+    "flaggedForConfirmation": true,
+    "integrationNote": "Because there is no static mesh export, `url` below points to a scene-builder source module (following muscle-contraction's precedent for procedural-three components in this branch) rather than a binary asset path, and the generation approach lives in `assetBrief` as buildable Three.js scene-graph instructions. If this is reversed to match the spec default, `url` becomes a standard `/assets/models/biology/human-physiology/hormone-signaling/hormone-signaling.glb` path and `assetBrief` should be rewritten as sculpting/export guidance instead of procedural-geometry code guidance."
+  },
+  "url": "/models/biology/authored/bio-p1-hormone-signaling.glb",
+  "assetStatus": "Not yet built. This is a procedural-three model: it is generated entirely from three.js primitives at runtime by a scene-builder module, not loaded from a GLB file, so there is no binary asset to place under public/assets/models/. `url` is a placeholder pointing to where that scene-builder module should live, following this project's source-code conventions, and must resolve to the real implemented module once built. `thumbnailUrl` is a placeholder PNG path following the standard asset-folder convention (spec section 21) and must be generated (a rendered screenshot of the default framing) once the scene exists. `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated numeric values derived from the assetBrief's described scene layout — a starting point for the dev implementing the scene-builder, not measurements of an existing scene — and should be verified and adjusted against the actual running scene before shipping.",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/hormone-signaling.png",
+  "defaultCamera": {
+    "position": [
+      0.9,
+      2,
+      6
+    ],
+    "target": [
+      0.3,
+      0.9,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.9,
+      2,
+      6
+    ],
+    "target": [
+      0.3,
+      0.9,
+      0
+    ]
+  },
+  "cameraFramingNote": "Tightened from an earlier full-width framing draft ([0.5, 3.2, 8.5], target [0.3, 1.1, -0.1]) so the gland + bloodstream + target-cell trio (roughly x=-3.6 to x=+4.0, the story's main throughline) reads as the large, dominant, centered subject at default load, per spec §12's 'large central object, minimal chrome,' rather than showing all five parts evenly across a wide, mostly-empty volume. The feedback arc, which peaks up and behind the main action at (0, 2.6, -0.8), sits near the top edge of this closer frame and is deliberately de-emphasized at rest — read as 'the regulation story continues above,' not weighted equally against the gland/vessel/cell. Tapping the hs-feedback hotspot, or the 'play sequence' animation reaching its feedback stage, eases the camera up and back toward the arc so it is never permanently cropped, only de-emphasized until its moment in the story.",
+  "autoRotateDefault": false,
+  "crossSectionAvailable": true,
+  "crossSectionNote": "Cross-section applies to the Target Cell only: a clip-plane/half-geometry cutaway of the cell body exposes the receptor's inner face and the internal nucleus/response marker, so a learner can see the receptor-binds → signal-travels-inward → response-at-nucleus chain in one view. The gland and bloodstream vessel do not have cross-section variants — cutting them away would not reveal anything pedagogically useful.",
+  "layers": [
+    "Gland",
+    "Bloodstream",
+    "Hormone Molecules",
+    "Target Cell",
+    "Feedback Loop"
+  ],
+  "toolRail": [
+    "Rotate",
+    "Zoom",
+    "Isolate",
+    "Cross-section",
+    "Layers",
+    "Compare",
+    "Play Sequence",
+    "Reset"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-gland-release",
+      "label": "Gland releases hormone",
+      "conceptId": "gland-releases-hormone",
+      "position": [
+        -3.2,
+        1,
+        0.3
+      ],
+      "description": "An endocrine gland detects a signal and releases a hormone into the bloodstream. Watch the small ring at the base of the gland pulse each time it releases.",
+      "function": "Endocrine cells synthesize and store a specific hormone, then release it into nearby blood vessels in response to an internal trigger — a nerve signal, a change in blood chemistry, or another hormone.",
+      "positionHint": "Front face of the small pulsing ring at the base of the gland shape, far left of the scene.",
+      "color": "#E2665A"
+    },
+    {
+      "id": "hs-bloodstream",
+      "label": "Hormone travels in bloodstream",
+      "conceptId": "hormone-travels-in-bloodstream",
+      "position": [
+        -0.4,
+        0.85,
+        0.18
+      ],
+      "description": "The hormone travels through the bloodstream, like a chemical message riding the blood, until it reaches cells that can respond to it.",
+      "function": "The circulatory system carries the hormone molecule from the gland to every part of the body, exposing it to far more cells than the few that will actually respond.",
+      "positionHint": "Midpoint along the curved vessel tube connecting the gland to the target cell, where the traveling hormone particles pass by.",
+      "color": "#F0B8A5"
+    },
+    {
+      "id": "hs-receptor-bind",
+      "label": "Target cell receptor binds hormone",
+      "conceptId": "target-cell-receptor-binds-hormone",
+      "position": [
+        2.35,
+        0.75,
+        0.25
+      ],
+      "description": "Only cells with a matching receptor respond — the hormone binds to the receptor on the target cell's surface like a key fitting a lock.",
+      "function": "The receptor protein's shape matches only its specific hormone; binding triggers a shape change in the receptor that starts a signal cascade inside the cell.",
+      "positionHint": "Tip of the small receptor protrusion on the target cell's membrane, facing the incoming vessel.",
+      "color": "#4C7A57"
+    },
+    {
+      "id": "hs-cell-response",
+      "label": "Cell response triggered",
+      "conceptId": "cell-response-triggered",
+      "position": [
+        3.15,
+        0.65,
+        0.05
+      ],
+      "description": "Binding sets off a chain of changes inside the cell, changing what the cell does — for example switching a gene on or speeding up a process.",
+      "function": "The bound receptor activates internal signaling molecules that alter the cell's behavior, such as turning specific genes on or off, or speeding up an existing process.",
+      "positionHint": "Interior marker near the center of the target cell, visible clearly when the cross-section cutaway is active.",
+      "color": "#D9A441"
+    },
+    {
+      "id": "hs-feedback",
+      "label": "Feedback regulation",
+      "conceptId": "feedback-regulation",
+      "position": [
+        0,
+        2.6,
+        -0.8
+      ],
+      "description": "The body senses the response and adjusts hormone release up or down to keep levels balanced — this is negative feedback, the body's way of self-correcting.",
+      "function": "A sensor — often the gland itself, or a controlling structure like the pituitary gland — detects the resulting change and signals the gland to increase or decrease further hormone release, keeping the response within a healthy range.",
+      "positionHint": "Along the thin dashed arc that loops from the target cell back over the scene to the gland, near the arc's peak.",
+      "color": "#6B655A"
+    }
+  ],
+  "visualStyleNotes": "Reads as a clean editorial process diagram in the Anatomy Atelier register: warm off-white environment (~#F5EFE3), large centered composition per the tightened default framing (see cameraFramingNote), minimal chrome, soft matte materials, and — unlike an earlier draft of this brief — no ink-stroke outlines anywhere in the scene. The reference uses zero silhouette linework on any asset, so the target cell reads as a pure smooth-shaded volume with a soft ambient-occlusion/contact-shadow pass doing the work a silhouette stroke would otherwise do, keeping this component in-register with every other model in the app rather than introducing a one-off line-art convention. Biology subject palette (coral gland, leaf-green hormone/receptor, warm paper cell body, graphite feedback line) carries the subject identity called for in spec §12. Because this component visualizes a process rather than a single anatomical structure, the scene is arranged as a directional left-to-right story (gland → bloodstream → target cell, with the feedback arc looping above) rather than a symmetric hero object — hence auto-rotate defaults off and the camera sits at a slightly offset three-quarter angle rather than dead-center front, consistent with Anatomy Atelier's slightly-off-axis default framings. To avoid reading as generic stacked-primitive CAD parts, both the gland and the target cell use asymmetric metaball-style blending between their component spheres/capsules rather than clean boolean unions — see assetBrief for the specific blend/asymmetry treatment — giving the scene the sculptural specificity of an authored illustration rather than a primitives-as-flowchart diagram. Layer toggles let a learner isolate just \"Gland,\" just \"Bloodstream,\" etc. for step-by-step teaching per the Component-Level Learning Flow (See it → Touch it → Name it...).",
+  "materialNotes": "Gland: matte coral (~#E2665A), MeshStandardMaterial, roughness ~0.6, near-zero metalness, built from 2-3 asymmetrically overlapping smooth spheres/capsules blended (metaball-style or a light boolean-smooth union) rather than kept as visibly separate primitives, plus a very subtle low-frequency surface noise/displacement (amplitude small enough to stay matte and calm, not bumpy) so the silhouette reads as organically sculpted rather than templated. Bloodstream tube: soft warm blush/terracotta translucent (~#F0B8A5, opacity ~0.85), a single smooth TubeGeometry along a CatmullRomCurve3, no outline. Hormone molecule particles: matte leaf green (~#4C7A57), simple small spheres, deliberately plainer than the gland/cell so they read as \"traveling units\" not focal objects. Target cell body: warm paper/cream (~#F3ECDD), MeshStandardMaterial, roughness ~0.55, built with the same asymmetric-blend + subtle surface-variation treatment as the gland (not a perfect sphere) — no outline stroke of any kind; silhouette definition comes entirely from lighting, a soft rim-free specular roll-off, and the ground-projected soft contact shadow beneath it. Receptor: leaf green (~#4C7A57), same family as hormone particles so the \"matching key\" reads visually; modeled as a lofted, subtly asymmetric organic protrusion (see assetBrief) rather than a bare cylinder-plus-cone callout. Feedback arc: thin ink/graphite stroke (~#3A362E), dashed line geometry — this is the one deliberate linework element in the scene, reserved for the arc specifically because it represents an abstract signal path rather than physical tissue, so it reads as diagram notation rather than a silhouette-outline convention applied to solid objects. Lighting: soft three-point studio setup — one warm key light, a cool-neutral fill, soft hemisphere ambient tuned to the warm off-white environment, and a soft ground-projected contact shadow under each group. No rim-light glow, no bloom post-processing, no fresnel edge-glow shaders anywhere in the scene.",
+  "assetBrief": "ASSET STRATEGY NOTE: This is a flagged deviation from spec §21's default asset-strategy bucket (which assigns biology models to GLB/GLTF) — see the top-level `assetStrategy` field for the rationale and the `integrationNote` for what changes if this is reversed to a GLB pipeline. Confirm before build.\n\nSCENE CONCEPT\nThis is a schematic \"process pathway\" model, not a rendered organ — it visualizes the concept of hormone signaling as a left-to-right narrative arc in 3D space: Gland (source) → Bloodstream (transport) → Target Cell (destination, with receptor + response) → Feedback Loop (regulation, arcing back to the gland). Build it as a self-contained Three.js scene graph (procedural-three), NOT an imported GLB — every element is a primitive or lightly-modified/blended primitive, and every top-level group must be named to exactly match the `layers` list so the app's layer-toggle UI can show/hide each independently.\n\nSCENE LAYOUT & SCALE (arbitrary scene units, ~1 unit ≈ 12cm, total bounding box ~7.5w × 3.5h × 2d)\n- Gland group at (-3.2, 1.6, 0): a rounded, asymmetric blob built from 2-3 overlapping smooth spheres/capsules (radius ~0.7-0.9, high segment count 48/32 for clean curvature) blended together with a smooth (metaball-style or boolean-smooth) union rather than left as visibly distinct lobes, plus a very subtle low-frequency surface-noise pass so no two views of the gland look like a perfect stacked-primitive diagram — this is a hero centered object at close framing, not a thumbnail, and needs that sculptural specificity. Keep it anatomically generic/stylized (not a specific labeled organ like \"thyroid\") since the component teaches the general endocrine concept. A small ring/torus at its base pulses subtly (scale 0.9-1.1 loop) to indicate hormone release.\n- Bloodstream group: a single smooth tube (TubeGeometry along a CatmullRomCurve3) running from the base of the gland (-3.0, 1.1, 0.2) down and across to the target cell's left edge (2.1, 0.6, 0.15), radius ~0.12, slightly translucent (opacity ~0.85). Do not render a full circulatory system — one clean vessel segment only.\n- Hormone Molecules group: 5-6 small instanced spheres (radius 0.12) that travel along the bloodstream curve on a ~4s loop (t=0 spawn at gland end, t=1 arrive at cell membrane and fade/flash briefly, then respawn). Stagger their start times evenly so motion always reads as continuous flow, not a single ball.\n- Target Cell group at (3.2, 0.6, 0): one large soft form (radius ~1.1, 48 segments) for the cell body, built with the same asymmetric-blend + subtle surface-variation treatment as the gland rather than a perfect sphere, so it reads as sculpted rather than primitive. No silhouette outline or rim stroke of any kind — see materialNotes; edge definition comes from lighting and the ground contact shadow only. The receptor protein is a lightly sculpted, subtly asymmetric lofted form (a blended taper from a wider base to a rounded docking tip, built from a lofted profile curve or 2-3 blended capsule segments rather than a literal cylinder-plus-cone callout), ~0.25 long, protruding from the membrane at the point facing the incoming vessel (approx local position pointing toward (2.35, 0.75, 0.25)). One small internal marker sphere near the cell center represents the nucleus/response site.\n- Feedback Loop group: a thin dashed tube/curve arcing from the target cell's top back over the scene to the gland, peaking around (0, 2.6, -0.8) so it reads as a distinct upper arc that doesn't visually collide with the main bloodstream path below it. At rest (default camera), this arc sits near the top edge of the tightened default frame and is deliberately de-emphasized — see cameraFramingNote — becoming fully prominent when the camera eases toward it on hs-feedback tap or during the feedback stage of the play-sequence animation. Small arrowhead cone at the gland end. On the same animation loop, after the cell response pulse fires, 1-2 small indicator particles travel this arc back to the gland, and the gland's release-ring animation visibly shrinks/dampens for one cycle — this is the concrete visual for negative feedback regulation.\n\nMATERIALS & PALETTE: see visualStyleNotes and materialNotes fields above for the full color/material spec (biology subject identity: coral, leaf green, warm paper, per spec §12) — notably, no ink-outline or silhouette-stroke convention anywhere except the feedback arc's own dashed diagram line, and both the gland and target cell use asymmetric blended-primitive construction plus subtle surface variation rather than clean stacked spheres, so the scene reads as an authored illustration rather than a generic primitives-as-flowchart diagram.\n\nCROSS-SECTION\nCross-section applies to the Target Cell only: a clip-plane or half-geometry cutaway of the cell body that exposes the receptor's inner face and the internal nucleus/response marker, so a learner can see the \"receptor binds → signal travels inward → response at nucleus\" chain in one view. Gland and bloodstream do not need cross-section variants.\n\nANIMATION / INTERACTION NOTES\n- Default state is static/settled (matches autoRotateDefault: false — this is a directional left-to-right story, not a single object to admire from all sides, so unlike a solo-organ model, ambient auto-rotate would scramble the narrative order). The learner-triggered \"play sequence\" (hormone travels → binds → cell responds → feedback dampens release) is the primary interaction, replayable on demand, ~4s per loop.\n- Hotspots stay fixed to their local group's world position even while that group animates (e.g., the receptor-bind hotspot tracks the receptor tip, not a static world coordinate).\n- Default camera is the tightened gland+bloodstream+cell framing described in cameraFramingNote; the feedback arc becomes the visual focus only when its hotspot is tapped or its stage plays, not by default.\n\nWHAT NOT TO DO\n- No photorealistic organ textures, no blood-red vascular rendering, no gore or medical-illustration realism — this stays in Anatomy Atelier's clean-stylized register.\n- No glow/bloom shaders, no neon emissive materials, no particle-explosion effects on binding/release — feedback and binding are communicated through subtle scale/color-shift pulses only, per spec §12 (\"avoid excessive glow/gradient effects\").\n- No ink-outline or silhouette-stroke convention on the gland, bloodstream, or target cell — the reference uses zero outline/linework on solid objects; the feedback arc's dashed line is diagram notation for an abstract signal path, not a precedent for outlining tissue.\n- No literal cylinder-plus-cone \"CAD part\" callout for the receptor — it must read as a lightly sculpted, subtly asymmetric organic form, matching the gland and cell's blended-primitive treatment.\n- No cartoon faces/eyes on the gland or cell, no gamified reward sparkles.\n- No baked-in text labels on the geometry — all naming/definitions are delivered through the hotspot structure cards, not scene text.\n- Do not render a full circulatory system, multiple glands, or multiple target cells — one gland, one vessel segment, one target cell, one feedback arc, matching the five listed parts exactly.\n- Do not default to auto-rotate — the pathway reads left-to-right and rotating it removes that legibility.\n- Do not frame the default camera as an even, full-width wide shot showing all five parts equally — see cameraFramingNote; the gland/bloodstream/cell trio must dominate the default frame as a single hero grouping.",
+  "visual": {
+    "shape": "hormone-messenger"
+  }
+}

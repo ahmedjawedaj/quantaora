@@ -1,0 +1,94 @@
+{
+  "id": "golgi-apparatus",
+  "subject": "biology",
+  "title": "Golgi Apparatus",
+  "summary": "The Golgi apparatus is the cell's sorting and shipping center - a stack of flattened membrane pouches that finishes, sorts, and packages proteins and lipids, then sends them off in bubbles to where they are needed.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "golgi-sorts-ships",
+    "receives-from-er",
+    "packages-and-labels"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Golgi Apparatus",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Golgi Apparatus"
+  },
+  "crossReferences": [
+    {
+      "label": "Endoplasmic reticulum (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Endoplasmic reticulum",
+      "note": "The Golgi receives the products the ER builds and finishes; together they form the cell's production and shipping line."
+    },
+    {
+      "label": "Lysosome (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Lysosome",
+      "note": "The Golgi also packages enzymes that become lysosomes, the cell's cleanup sacs."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "ER vs. Golgi",
+    "description": "The ER is the workshop where proteins and fats are built. The Golgi is the sorting and shipping center that finishes, labels, and dispatches them."
+  },
+  "parts": [
+    "Stacked membrane pouches (cisternae)",
+    "Arriving transport bubbles",
+    "Departing packaged bubbles",
+    "Sorting and labeling regions"
+  ],
+  "processes": [
+    "Receiving proteins and lipids from the ER",
+    "Sorting, labeling, and packaging",
+    "Shipping products to destinations"
+  ],
+  "plainLanguageExplanation": "The Golgi apparatus looks like a stack of flattened pancakes or a delivery depot. It receives proteins and lipids from the ER in transport bubbles, then sorts and packages them for their next destination. It may tag them with labels that say where they belong, or wrap them in new membrane bubbles. Some products are shipped out of the cell entirely. In this way the Golgi is the cell's mailroom: receiving, finishing, addressing, and dispatching.",
+  "keyFacts": [
+    {
+      "label": "Nickname",
+      "value": "The cell's sorting and shipping center"
+    },
+    {
+      "label": "Shape",
+      "value": "A stack of flattened membrane pouches (cisternae)"
+    },
+    {
+      "label": "Receives",
+      "value": "Proteins and lipids from the ER in transport bubbles"
+    },
+    {
+      "label": "Does",
+      "value": "Finishes, sorts, labels, and packages products"
+    },
+    {
+      "label": "Ships",
+      "value": "Sends products out in bubbles to other organelles or out of the cell"
+    }
+  ],
+  "whyItMatters": "The Golgi decides where everything the cell makes should go. Without it, proteins and fats would pile up unsorted and the cell could not deliver its products to the right places.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Golgi apparatus",
+  "tagline": "The cell's mailroom",
+  "didYouKnow": "Every minute, thousands of tiny bubbles arrive at the Golgi and leave from it, like a very busy loading dock.",
+  "conditions": [
+    "Protein packaging",
+    "Cell secretion"
+  ],
+  "branch": "cell-biology",
+  "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Golgi Apparatus",
+  "plain": "The Golgi apparatus looks like a stack of flattened pancakes or a delivery depot. It receives proteins and lipids from the ER in transport bubbles, then sorts and packages them for their next destination. It may tag them with labels that say where they belong, or wrap them in new membrane bubbles. Some products are shipped out of the cell entirely. In this way the Golgi is the cell's mailroom: receiving, finishing, addressing, and dispatching."
+}

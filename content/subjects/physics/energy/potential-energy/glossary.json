@@ -1,0 +1,46 @@
+{
+  "componentId": "potential-energy",
+  "terms": [
+    {
+      "term": "Potential energy",
+      "conceptId": "potential-energy-of-height",
+      "hotspotId": "hs-block",
+      "definition": "Stored energy an object has because of its position or shape.",
+      "function": "Holds energy patiently; converts it into motion when released.",
+      "whereItIs": "The block resting on the shelf.",
+      "whyItMatters": "The world's stored power — dams, drawn bows, stretched rubber bands all bank on it.",
+      "relatedConcept": "kinetic-energy",
+      "quizId": "pe-q-definition"
+    },
+    {
+      "term": "PE = mgh",
+      "conceptId": "potential-energy-pe-formula",
+      "hotspotId": "hs-meter",
+      "definition": "The height formula: potential energy = mass × gravity × height.",
+      "whyItMatters": "It makes stored energy measurable and explains why height and mass both fill the store.",
+      "whereItIs": "The meter readout while the shelf sits.",
+      "relatedConcept": "potential-energy-of-height",
+      "quizId": "pe-q-formula"
+    },
+    {
+      "term": "Height above floor",
+      "conceptId": "potential-energy-height-dependence",
+      "hotspotId": "hs-height-guide",
+      "definition": "The vertical distance whose size packs energy into the block.",
+      "whyItMatters": "Doubling height doubles the stored energy — the measure dam engineers bank on.",
+      "whereItIs": "The scale guide behind the shelf.",
+      "relatedConcept": "potential-energy-pe-formula",
+      "quizId": "pe-q-height"
+    },
+    {
+      "term": "Energy release",
+      "conceptId": "potential-energy-releases-into-motion",
+      "hotspotId": "hs-release-button",
+      "definition": "The conversion of stored energy into kinetic (or heat) energy.",
+      "whyItMatters": "Power delivery — a falling block, a dropping hammer, a rolling coaster is this moment in action.",
+      "whereItIs": "The instant the block falls after the release button taps.",
+      "relatedConcept": "kinetic-energy",
+      "quizId": "pe-q-release"
+    }
+  ]
+}

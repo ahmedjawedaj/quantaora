@@ -1,0 +1,3772 @@
+{
+  "generatedAt": "2026-08-17T19:55:15.132Z",
+  "root": "/Users/ahmedjawed/Documents/Kids Learning app/quantaora-app/public/models",
+  "errorCount": 19,
+  "warnCount": 60,
+  "duplicateGroups": [
+    {
+      "hash": "122cdd7b61346dde01b72b023e24364e077d83978b25c6fd1707cf1592e272b2",
+      "files": [
+        "biology/ecology/ecosystem.glb",
+        "nature/quaternius-ultimate-nature/CommonTree_Autumn_1.glb"
+      ]
+    },
+    {
+      "hash": "d6b976d39175c3348738cb0aa1ac69f87b54788a5c2a1534bc719dc1095ab77f",
+      "files": [
+        "biology/ecology/producer.glb",
+        "nature/quaternius-ultimate-nature/CommonTree_1.glb"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "relPath": "biology/ecology/ecosystem.glb",
+      "fileSizeBytes": 176108,
+      "sha256": "122cdd7b61346dde01b72b023e24364e077d83978b25c6fd1707cf1592e272b2",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.9178823828697205,
+          -1.5987976789474487,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.9712318181991577,
+          1.1743383407592773,
+          2.438101291656494
+        ],
+        "size": [
+          1.8891142010688782,
+          2.773136019706726,
+          2.4805617220699787
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "biology/ecology/producer.glb",
+      "fileSizeBytes": 176100,
+      "sha256": "d6b976d39175c3348738cb0aa1ac69f87b54788a5c2a1534bc719dc1095ab77f",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.9178823828697205,
+          -1.5987976789474487,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.9712318181991577,
+          1.1743383407592773,
+          2.438101291656494
+        ],
+        "size": [
+          1.8891142010688782,
+          2.773136019706726,
+          2.4805617220699787
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "brain.glb",
+      "fileSizeBytes": 2570592,
+      "sha256": "2cd5e7178f1e5de707bb97c2c06f6c34fb5aaad28132445c0afcb4f0fd67c811",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 7
+      },
+      "bbox": {
+        "min": [
+          -32767,
+          -30103,
+          -26999
+        ],
+        "max": [
+          32767,
+          30103,
+          26999
+        ],
+        "size": [
+          65534,
+          60206,
+          53998
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        },
+        {
+          "index": 1,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        },
+        {
+          "index": 2,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        }
+      ],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "cells/animal-cell-authored.glb",
+      "fileSizeBytes": 1234652,
+      "sha256": "2a7a015a2086d85d466c7e71ab0d4a7be8ebb32d204be4a24334ed59bdff5946",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 36,
+        "meshes": 35,
+        "materials": 11,
+        "textures": 0,
+        "images": 0,
+        "animations": 1,
+        "accessors": 148,
+        "buffers": 1,
+        "bufferViews": 148
+      },
+      "bbox": {
+        "min": [
+          -1.0800000429153442,
+          -1.0800000429153442,
+          -1.0800000429153442
+        ],
+        "max": [
+          1.0800000429153442,
+          1.0800000429153442,
+          1.0800000429153442
+        ],
+        "size": [
+          2.1600000858306885,
+          2.1600000858306885,
+          2.1600000858306885
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "cells/bacteria-wall-nih.glb",
+      "fileSizeBytes": 482424,
+      "sha256": "8c25bccaf828353ced1849483f9701266b43ae6f51899f6f6a3c45bfc7bede57",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 0,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 2,
+        "buffers": 1,
+        "bufferViews": 2
+      },
+      "bbox": {
+        "min": [
+          -1070.117431640625,
+          -264.53350830078125,
+          -399.19854736328125
+        ],
+        "max": [
+          1173.300048828125,
+          1383.1815185546875,
+          736.0726928710938
+        ],
+        "size": [
+          2243.41748046875,
+          1647.7150268554688,
+          1135.271240234375
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "cells/neuron-authored.glb",
+      "fileSizeBytes": 756072,
+      "sha256": "fde2dacef77c0dd20c5670d20239d271254abc31be191fa73be1bdb926085f79",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 29,
+        "meshes": 28,
+        "materials": 10,
+        "textures": 0,
+        "images": 0,
+        "animations": 1,
+        "accessors": 116,
+        "buffers": 1,
+        "bufferViews": 116
+      },
+      "bbox": {
+        "min": [
+          -0.7601062655448914,
+          -1.182745099067688,
+          -0.2800000011920929
+        ],
+        "max": [
+          0.8033425211906433,
+          1.1378291845321655,
+          0.2800000011920929
+        ],
+        "size": [
+          1.5634487867355347,
+          2.3205742835998535,
+          0.5600000023841858
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "chemistry/atoms-and-elements/atom.glb",
+      "fileSizeBytes": 1376596,
+      "sha256": "960e0f841dc2d83cda9729d21719e14aa7cada3ea004a084a6c8fd01d0da3340",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 24,
+        "meshes": 24,
+        "materials": 6,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 96,
+        "buffers": 1,
+        "bufferViews": 96
+      },
+      "bbox": {
+        "min": [
+          -1.850000023841858,
+          -1.850000023841858,
+          -1.850000023841858
+        ],
+        "max": [
+          1.850000023841858,
+          1.850000023841858,
+          1.850000023841858
+        ],
+        "size": [
+          3.700000047683716,
+          3.700000047683716,
+          3.700000047683716
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "eyeball.glb",
+      "fileSizeBytes": 2203616,
+      "sha256": "584337a2efc7d3c03d7326ca930217c4f7e5eca0a32a8cec141c7388ecc8a1c7",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 7
+      },
+      "bbox": {
+        "min": [
+          -32767,
+          -26923,
+          -28539
+        ],
+        "max": [
+          32767,
+          26923,
+          28539
+        ],
+        "size": [
+          65534,
+          53846,
+          57078
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        },
+        {
+          "index": 1,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        },
+        {
+          "index": 2,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        }
+      ],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "heart.glb",
+      "fileSizeBytes": 3321148,
+      "sha256": "ef48b43442dbbe2819d6035f8bbf1391d2c3fefbe842863c9c7c1a22cc6cd748",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 7
+      },
+      "bbox": {
+        "min": [
+          -19942,
+          -32767,
+          -19538
+        ],
+        "max": [
+          19942,
+          32767,
+          19538
+        ],
+        "size": [
+          39884,
+          65534,
+          39076
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        },
+        {
+          "index": 1,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        },
+        {
+          "index": 2,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        }
+      ],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "intestine.glb",
+      "fileSizeBytes": 1980780,
+      "sha256": "d4423ba0c8f08ac7652396e2530482f874e4964a9c3f1b71440f0493048bea26",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 1,
+        "images": 1,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 5
+      },
+      "bbox": {
+        "min": [
+          -29035,
+          -32767,
+          -13989
+        ],
+        "max": [
+          29035,
+          32767,
+          13989
+        ],
+        "size": [
+          58070,
+          65534,
+          27978
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        }
+      ],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "kidneys.glb",
+      "fileSizeBytes": 2190764,
+      "sha256": "e3e0a58372d794d68b181d1d453ff4362da972667c28711e153c5f34064cf165",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 7
+      },
+      "bbox": {
+        "min": [
+          -32767,
+          -24086,
+          -12441
+        ],
+        "max": [
+          32767,
+          24086,
+          12441
+        ],
+        "size": [
+          65534,
+          48172,
+          24882
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        },
+        {
+          "index": 1,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        },
+        {
+          "index": 2,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        }
+      ],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "liver.glb",
+      "fileSizeBytes": 2660384,
+      "sha256": "e4f11a9c0762eb9dc4309dcd0d5c3e3958ccacab915267da4e7775894b674990",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 1,
+        "images": 1,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 5
+      },
+      "bbox": {
+        "min": [
+          -32547,
+          -32767,
+          -16790
+        ],
+        "max": [
+          32547,
+          32767,
+          16790
+        ],
+        "size": [
+          65094,
+          65534,
+          33580
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 2048,
+          "height": 2048,
+          "format": "webp (lossy)"
+        }
+      ],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "lungs.glb",
+      "fileSizeBytes": 4455976,
+      "sha256": "81617c9fc2f2b7bf1e7d874b89614c89b09f2f68318e64997c68c948cfa9abdc",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 7
+      },
+      "bbox": {
+        "min": [
+          -30199,
+          -32767,
+          -20514
+        ],
+        "max": [
+          30199,
+          32767,
+          20514
+        ],
+        "size": [
+          60398,
+          65534,
+          41028
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        },
+        {
+          "index": 1,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        },
+        {
+          "index": 2,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        }
+      ],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "Texture #0 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        },
+        {
+          "level": "warn",
+          "message": "Texture #1 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        },
+        {
+          "level": "warn",
+          "message": "Texture #2 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_1.glb",
+      "fileSizeBytes": 108512,
+      "sha256": "3de23935678c2562a73099753a48d194cc4bf28ccad32a9334089e0a77d0d2c5",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.8227963447570801,
+          -0.569269061088562,
+          -0.006081616505980492
+        ],
+        "max": [
+          0.8790640234947205,
+          1.9104607105255127,
+          3.567718267440796
+        ],
+        "size": [
+          1.7018603682518005,
+          2.4797297716140747,
+          3.5737998839467764
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_2.glb",
+      "fileSizeBytes": 99900,
+      "sha256": "b56cf9d45dff8f8838b8f4aa546b6a663c5682eb8070bae2433edba3b69e2032",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.7313240766525269,
+          -1.2349350452423096,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.7376178503036499,
+          0.4577917158603668,
+          3.988313674926758
+        ],
+        "size": [
+          1.4689419269561768,
+          1.6927267611026764,
+          4.030774105340242
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_3.glb",
+      "fileSizeBytes": 109948,
+      "sha256": "813de523abb8213c905c83e6631a1a8748d7624305617122a34323b2f6d98a06",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.7607650756835938,
+          -0.6420614719390869,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.8140110969543457,
+          1.1283049583435059,
+          4.021173000335693
+        ],
+        "size": [
+          1.5747761726379395,
+          1.7703664302825928,
+          4.093200616538525
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_4.glb",
+      "fileSizeBytes": 146180,
+      "sha256": "80d30b274985b01abff9a40b04a22fa6949f0a350460b71da4935b605f928eb2",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.806090772151947,
+          -1.3178585767745972,
+          -0.006081199739128351
+        ],
+        "max": [
+          0.34691566228866577,
+          1.9693970680236816,
+          3.5524203777313232
+        ],
+        "size": [
+          1.1530064344406128,
+          3.287255644798279,
+          3.5585015774704516
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_5.glb",
+      "fileSizeBytes": 110672,
+      "sha256": "af77f38e9693c644b6782ea31f7f1c783c0c429cca16a2c08b7ee2ac973a1316",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.5276897549629211,
+          -0.7188213467597961,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.6595577001571655,
+          1.214640736579895,
+          4.9371490478515625
+        ],
+        "size": [
+          1.1872474551200867,
+          1.9334620833396912,
+          5.009176664054394
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Autumn_1.glb",
+      "fileSizeBytes": 108528,
+      "sha256": "f16c80e88b90215e9314ed9867ef33eb955ab8c2668b9e56f46fdf392e4d914e",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.946597158908844,
+          -0.569269061088562,
+          -0.028188860043883324
+        ],
+        "max": [
+          0.7552632093429565,
+          1.9104607105255127,
+          3.5456109046936035
+        ],
+        "size": [
+          1.7018603682518005,
+          2.4797297716140747,
+          3.573799764737487
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Autumn_2.glb",
+      "fileSizeBytes": 99896,
+      "sha256": "40648096ebc3f6793995f78d047982fe2a1e5ac296a21825e417f565ab9cf4d6",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.7313240766525269,
+          -1.2349350452423096,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.7376178503036499,
+          0.4577917158603668,
+          3.988313674926758
+        ],
+        "size": [
+          1.4689419269561768,
+          1.6927267611026764,
+          4.030774105340242
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Autumn_3.glb",
+      "fileSizeBytes": 109960,
+      "sha256": "90fd41a7472db8abe27353bb2ce4954adbdcc31c26367e2bf2abe77b20e3e3fe",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.7607650756835938,
+          -0.6420614719390869,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.8140110969543457,
+          1.1283049583435059,
+          4.021173000335693
+        ],
+        "size": [
+          1.5747761726379395,
+          1.7703664302825928,
+          4.093200616538525
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Autumn_4.glb",
+      "fileSizeBytes": 146188,
+      "sha256": "a1d37f64646a2d789a7bbe353dc6d6f9abb5dc32bdc29c55f1a8207ff0ab806d",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.6963819265365601,
+          -1.3178585767745972,
+          -0.006081199739128351
+        ],
+        "max": [
+          0.45662447810173035,
+          1.9693970680236816,
+          3.5524203777313232
+        ],
+        "size": [
+          1.1530064046382904,
+          3.287255644798279,
+          3.5585015774704516
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Autumn_5.glb",
+      "fileSizeBytes": 110680,
+      "sha256": "4e068236697a13eb0ad03f8d6aae07d7fb5751fb1cb4d90fa671958f7676d802",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 4,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 12,
+        "buffers": 1,
+        "bufferViews": 12
+      },
+      "bbox": {
+        "min": [
+          -0.5276897549629211,
+          -0.7188213467597961,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.6595577001571655,
+          1.214640736579895,
+          4.9371490478515625
+        ],
+        "size": [
+          1.1872474551200867,
+          1.9334620833396912,
+          5.009176664054394
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_1.glb",
+      "fileSizeBytes": 52924,
+      "sha256": "c28d7b7c525f3e104d451441e76339d9e673bad7cd19dcc0f918021e818b8918",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.1800292730331421,
+          -0.1052868515253067,
+          -0.006081581115722656
+        ],
+        "max": [
+          0.3005760908126831,
+          1.5209238529205322,
+          2.241863489151001
+        ],
+        "size": [
+          0.4806053638458252,
+          1.626210704445839,
+          2.2479450702667236
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_2.glb",
+      "fileSizeBytes": 82356,
+      "sha256": "e2dbd7f1cbcbeb77a1d37853230a869c1c76f6a0ff2ba588b8324af93c18fc11",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.38454580307006836,
+          -0.7694703340530396,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.3039851486682892,
+          0.11159828305244446,
+          2.5908420085906982
+        ],
+        "size": [
+          0.6885309517383575,
+          0.881068617105484,
+          2.633302439004183
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_3.glb",
+      "fileSizeBytes": 84740,
+      "sha256": "28feb36b55de36a1a3e85105bb85487e559d1ae7631de6559c1feeb4eb2a2a46",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.26000165939331055,
+          -0.2012043446302414,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.4626297056674957,
+          0.6083704829216003,
+          3.1091907024383545
+        ],
+        "size": [
+          0.7226313650608063,
+          0.8095748275518417,
+          3.1812183186411858
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_4.glb",
+      "fileSizeBytes": 97924,
+      "sha256": "c423d6c7b89b35284eff019a79cb61d93a183d2f4afcd5c89692638e1c4e0a26",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.21908554434776306,
+          -0.9407399296760559,
+          -0.006081199739128351
+        ],
+        "max": [
+          0.2801498770713806,
+          1.6560509204864502,
+          2.6863443851470947
+        ],
+        "size": [
+          0.4992354214191437,
+          2.596790850162506,
+          2.692425584886223
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_5.glb",
+      "fileSizeBytes": 77780,
+      "sha256": "9100c2d4bfa21874396249494514660c1532b01073aa6538d726f66f062ce4f0",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.2826823592185974,
+          -0.31227031350135803,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.28894829750061035,
+          0.7405366897583008,
+          4.295872211456299
+        ],
+        "size": [
+          0.5716306567192078,
+          1.0528070032596588,
+          4.36789982765913
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_Snow_1.glb",
+      "fileSizeBytes": 57372,
+      "sha256": "d8409c8ea9fffaa63da920e31f827c2db01f5dfb7b29bcac71e151ec0c12cde4",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -0.1800292730331421,
+          -0.1052868515253067,
+          -0.006081581115722656
+        ],
+        "max": [
+          0.3005760908126831,
+          1.5209238529205322,
+          2.241863489151001
+        ],
+        "size": [
+          0.4806053638458252,
+          1.626210704445839,
+          2.2479450702667236
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_Snow_2.glb",
+      "fileSizeBytes": 90768,
+      "sha256": "81968c034fbf91da6b729ed2835fb8e3ad924bab5b6c236944bff5ff066d4014",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -0.38454580307006836,
+          -0.7694703340530396,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.3039851486682892,
+          0.11159828305244446,
+          2.5908420085906982
+        ],
+        "size": [
+          0.6885309517383575,
+          0.881068617105484,
+          2.633302439004183
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_Snow_3.glb",
+      "fileSizeBytes": 90388,
+      "sha256": "f358fce0891f7c6bfafe8a9f49f708703ff6b8bbca1b3d0379728085ec9a5ba1",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -0.26000165939331055,
+          -0.2012043446302414,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.4626297056674957,
+          0.6083704829216003,
+          3.1091907024383545
+        ],
+        "size": [
+          0.7226313650608063,
+          0.8095748275518417,
+          3.1812183186411858
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_Snow_4.glb",
+      "fileSizeBytes": 107892,
+      "sha256": "e8d66c794976f4b6ea4a2929b8ff43d2b825af614d2edbf920f8d1b73ce2ac66",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -0.21908554434776306,
+          -0.9407399296760559,
+          -0.006081199739128351
+        ],
+        "max": [
+          0.2801498770713806,
+          1.6560509204864502,
+          2.6863443851470947
+        ],
+        "size": [
+          0.4992354214191437,
+          2.596790850162506,
+          2.692425584886223
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Dead_Snow_5.glb",
+      "fileSizeBytes": 81576,
+      "sha256": "c2b61505b0b7505f8d8f370df44b1dd91f9b2a83c4d7916a48fe88b48a12f079",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -0.2826823592185974,
+          -0.31227031350135803,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.28894829750061035,
+          0.7405366897583008,
+          4.295872211456299
+        ],
+        "size": [
+          0.5716306567192078,
+          1.0528070032596588,
+          4.36789982765913
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Snow_1.glb",
+      "fileSizeBytes": 115608,
+      "sha256": "80065238bb5b1426b336002bc2363d1ff48a65f47cc459b4b21ee88ddefc407a",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 5,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 15,
+        "buffers": 1,
+        "bufferViews": 15
+      },
+      "bbox": {
+        "min": [
+          -0.8227963447570801,
+          -0.569269061088562,
+          -0.006081616505980492
+        ],
+        "max": [
+          0.8790640234947205,
+          1.9104607105255127,
+          3.582878828048706
+        ],
+        "size": [
+          1.7018603682518005,
+          2.4797297716140747,
+          3.5889604445546865
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Snow_2.glb",
+      "fileSizeBytes": 103620,
+      "sha256": "922574c1a70b60aac484e7980c9694fe3d2ae78d88d951d9c09769f82180f88f",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 5,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 15,
+        "buffers": 1,
+        "bufferViews": 15
+      },
+      "bbox": {
+        "min": [
+          -0.7313240766525269,
+          -1.2349350452423096,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.7376178503036499,
+          0.4577917158603668,
+          4.052143096923828
+        ],
+        "size": [
+          1.4689419269561768,
+          1.6927267611026764,
+          4.094603527337313
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Snow_3.glb",
+      "fileSizeBytes": 115124,
+      "sha256": "d616fa578d8b1872e815ae09caf89275e1e10409daf99fd77bfc8f789f0b249b",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 5,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 15,
+        "buffers": 1,
+        "bufferViews": 15
+      },
+      "bbox": {
+        "min": [
+          -0.7607650756835938,
+          -0.6420614719390869,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.8140110969543457,
+          1.1283049583435059,
+          4.080838203430176
+        ],
+        "size": [
+          1.5747761726379395,
+          1.7703664302825928,
+          4.152865819633007
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Snow_4.glb",
+      "fileSizeBytes": 155668,
+      "sha256": "b2aad0c297a0637b949220d27c841954553859e9eefe4244eb5a08f21e228fd7",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 5,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 15,
+        "buffers": 1,
+        "bufferViews": 15
+      },
+      "bbox": {
+        "min": [
+          -0.6963819265365601,
+          -1.3178585767745972,
+          -0.006081199739128351
+        ],
+        "max": [
+          0.45662447810173035,
+          1.9693970680236816,
+          3.592494010925293
+        ],
+        "size": [
+          1.1530064046382904,
+          3.287255644798279,
+          3.5985752106644213
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BirchTree_Snow_5.glb",
+      "fileSizeBytes": 116084,
+      "sha256": "dce9bb983e4a88ca2ea530690aeb1d585d4a7f46ea3f3a239f3e43885628b019",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 5,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 15,
+        "buffers": 1,
+        "bufferViews": 15
+      },
+      "bbox": {
+        "min": [
+          -0.5276897549629211,
+          -0.7188213467597961,
+          -0.07202761620283127
+        ],
+        "max": [
+          0.6595577001571655,
+          1.214640736579895,
+          4.990268230438232
+        ],
+        "size": [
+          1.1872474551200867,
+          1.9334620833396912,
+          5.062295846641064
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BushBerries_1.glb",
+      "fileSizeBytes": 56332,
+      "sha256": "c20dd955d4b2df367d39ce4caca7697acc53b394986c3fd569e6d1429097a100",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.7234333753585815,
+          -0.8610817790031433,
+          -0.03212456777691841
+        ],
+        "max": [
+          0.6689516305923462,
+          0.8578065037727356,
+          1.2438719272613525
+        ],
+        "size": [
+          1.3923850059509277,
+          1.718888282775879,
+          1.275996495038271
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/BushBerries_2.glb",
+      "fileSizeBytes": 50568,
+      "sha256": "af3d621a104c6376805fd092e8f3efcaa64d608910de07b599a919a38fe9881f",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.6693665981292725,
+          -0.6672405004501343,
+          -0.05808180570602417
+        ],
+        "max": [
+          0.6693665981292725,
+          0.6672405004501343,
+          1.071714162826538
+        ],
+        "size": [
+          1.338733196258545,
+          1.3344810009002686,
+          1.1297959685325623
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Bush_1.glb",
+      "fileSizeBytes": 23556,
+      "sha256": "a4195682e787b280020ce64e0db6822b0e2890164a0aecdef0a48f52b78aae81",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 3
+      },
+      "bbox": {
+        "min": [
+          -0.6642143130302429,
+          -0.8450130820274353,
+          -0.036264657974243164
+        ],
+        "max": [
+          0.6642143130302429,
+          0.8450132012367249,
+          1.2054829597473145
+        ],
+        "size": [
+          1.3284286260604858,
+          1.6900262832641602,
+          1.2417476177215576
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Bush_2.glb",
+      "fileSizeBytes": 17796,
+      "sha256": "069130267285bb51b8c4e1da7967623ebdea74712b309a2c45720ae90d04a768",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 3
+      },
+      "bbox": {
+        "min": [
+          -0.6730039715766907,
+          -0.6639466881752014,
+          -0.08168095350265503
+        ],
+        "max": [
+          0.6730039715766907,
+          0.6639466881752014,
+          1.0288825035095215
+        ],
+        "size": [
+          1.3460079431533813,
+          1.3278933763504028,
+          1.1105634570121765
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Bush_Snow_1.glb",
+      "fileSizeBytes": 30400,
+      "sha256": "8ba6d2e1cc723f640266add13a3c6fded21f7eb98f47459316ab88f1ad0070a4",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.7061473727226257,
+          -0.8776026368141174,
+          -0.061925530433654785
+        ],
+        "max": [
+          0.6855289936065674,
+          0.8983019590377808,
+          1.2221627235412598
+        ],
+        "size": [
+          1.3916763663291931,
+          1.7759045958518982,
+          1.2840882539749146
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Bush_Snow_2.glb",
+      "fileSizeBytes": 23196,
+      "sha256": "33dbafe0cca19ed7372cf8c42bedf80ca3f99da7a3e56c8a648b7a8e9b98b9c7",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.6888763308525085,
+          -0.6795473098754883,
+          -0.06907212734222412
+        ],
+        "max": [
+          0.6730039715766907,
+          0.6784746050834656,
+          1.0890297889709473
+        ],
+        "size": [
+          1.3618803024291992,
+          1.3580219149589539,
+          1.1581019163131714
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CactusFlower_1.glb",
+      "fileSizeBytes": 128456,
+      "sha256": "c547c6e5f7950d29fbdd5410877155e596368f0ad15c8d0883d35283abf484ee",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 3
+      },
+      "bbox": {
+        "min": [
+          -0.44092607498168945,
+          -0.4341491162776947,
+          -0.18838106095790863
+        ],
+        "max": [
+          0.44092607498168945,
+          0.4341491162776947,
+          0.17294669151306152
+        ],
+        "size": [
+          0.8818521499633789,
+          0.8682982325553894,
+          0.36132775247097015
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CactusFlowers_2.glb",
+      "fileSizeBytes": 93252,
+      "sha256": "cc1abe90699e25803e137328fbc5af1e92ba01d18ea84e94cc9fd8ade60fdb24",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.2786322236061096,
+          -0.6317573189735413,
+          -0.010726936161518097
+        ],
+        "max": [
+          0.4867335855960846,
+          0.6515174508094788,
+          1.9282573461532593
+        ],
+        "size": [
+          0.7653658092021942,
+          1.28327476978302,
+          1.9389842823147774
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CactusFlowers_3.glb",
+      "fileSizeBytes": 75008,
+      "sha256": "496ccae54c3416308516f43dc24b5641dd4a12309f1313707a1ee1fc1cdbfe92",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.24218906462192535,
+          -0.5886825919151306,
+          -0.010726936161518097
+        ],
+        "max": [
+          0.2351958155632019,
+          0.528719425201416,
+          1.6583833694458008
+        ],
+        "size": [
+          0.47738488018512726,
+          1.1174020171165466,
+          1.6691103056073189
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CactusFlowers_4.glb",
+      "fileSizeBytes": 100740,
+      "sha256": "b4cbacefe53af25ac5ddba60f4462f646bec287db13efa1493a922c01e6c4a39",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.04413999989628792,
+          -0.5634755492210388,
+          -0.017712146043777466
+        ],
+        "max": [
+          0.06583135575056076,
+          0.4084753394126892,
+          1.3667749166488647
+        ],
+        "size": [
+          0.10997135564684868,
+          0.971950888633728,
+          1.3844870626926422
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CactusFlowers_5.glb",
+      "fileSizeBytes": 50820,
+      "sha256": "474fec6d045774e6abfee686814e7731963f71387fb876ad2b80048932620d8b",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.05136929452419281,
+          -0.13694721460342407,
+          -0.008290112018585205
+        ],
+        "max": [
+          0.060292959213256836,
+          0.5970324873924255,
+          0.9299409985542297
+        ],
+        "size": [
+          0.11166225373744965,
+          0.7339797019958496,
+          0.9382311105728149
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Cactus_1.glb",
+      "fileSizeBytes": 32920,
+      "sha256": "a69e077c3e75b3aaa9c579f70d75eeda415de14a5cef03d9d9514ba569662fbc",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.26718881726264954,
+          -0.28136226534843445,
+          -0.01072701532393694
+        ],
+        "max": [
+          0.2824961543083191,
+          0.2815515100955963,
+          0.9969027638435364
+        ],
+        "size": [
+          0.5496849715709686,
+          0.5629137754440308,
+          1.0076297791674733
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Cactus_2.glb",
+      "fileSizeBytes": 44924,
+      "sha256": "e4f596a91fb258b8ae0ea3b0de0f4720f683ec0006a68ac707752ea3b694c866",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 3
+      },
+      "bbox": {
+        "min": [
+          -0.21343477070331573,
+          -0.4971880316734314,
+          -0.010726936161518097
+        ],
+        "max": [
+          0.4867335855960846,
+          0.5534803867340088,
+          1.6868846416473389
+        ],
+        "size": [
+          0.7001683562994003,
+          1.0506684184074402,
+          1.697611577808857
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Cactus_3.glb",
+      "fileSizeBytes": 26680,
+      "sha256": "e37e4f87d841c740da75c0d1cbeb7870d3cab67b0bc2738ab0fe7df1e13db0ad",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 3
+      },
+      "bbox": {
+        "min": [
+          -0.17092068493366241,
+          -0.5218619704246521,
+          -0.010726936161518097
+        ],
+        "max": [
+          0.1709206998348236,
+          0.48035770654678345,
+          1.3999028205871582
+        ],
+        "size": [
+          0.341841384768486,
+          1.0022196769714355,
+          1.4106297567486763
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Cactus_4.glb",
+      "fileSizeBytes": 70848,
+      "sha256": "73f2eff4a3e3ea5e9b4381370e94f5501ec8cb344698fa1245c3e75f709afa1c",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 3
+      },
+      "bbox": {
+        "min": [
+          -0.04413999989628792,
+          -0.5555473566055298,
+          -0.02211911976337433
+        ],
+        "max": [
+          0.06583135575056076,
+          0.36347028613090515,
+          1.3488188982009888
+        ],
+        "size": [
+          0.10997135564684868,
+          0.9190176427364349,
+          1.370938017964363
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/Cactus_5.glb",
+      "fileSizeBytes": 35324,
+      "sha256": "8384425442d64d3d862e386b10528c4fb1cece10585516c5f70c05afd2facd5f",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 3
+      },
+      "bbox": {
+        "min": [
+          -0.04449184611439705,
+          -0.1301763951778412,
+          -0.01530386507511139
+        ],
+        "max": [
+          0.06708130985498428,
+          0.5502026677131653,
+          0.8659185171127319
+        ],
+        "size": [
+          0.11157315596938133,
+          0.6803790628910065,
+          0.8812223821878433
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_1.glb",
+      "fileSizeBytes": 176100,
+      "sha256": "d6b976d39175c3348738cb0aa1ac69f87b54788a5c2a1534bc719dc1095ab77f",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.9178823828697205,
+          -1.5987976789474487,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.9712318181991577,
+          1.1743383407592773,
+          2.438101291656494
+        ],
+        "size": [
+          1.8891142010688782,
+          2.773136019706726,
+          2.4805617220699787
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_2.glb",
+      "fileSizeBytes": 179940,
+      "sha256": "3f34b9f2c2e6a0bde448e7fe7d79aec189fdc0762a9ab465058c556568e78483",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.8198280930519104,
+          -1.6037081480026245,
+          -0.05404417961835861
+        ],
+        "max": [
+          0.8433607816696167,
+          0.9372044801712036,
+          3.068746328353882
+        ],
+        "size": [
+          1.663188874721527,
+          2.540912628173828,
+          3.1227905079722404
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_3.glb",
+      "fileSizeBytes": 98940,
+      "sha256": "654f2f540dcaff192090c804de723899456a924eb29a01dc0ba5559372314a6e",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -0.7043890953063965,
+          -0.7697545289993286,
+          -0.07202762365341187
+        ],
+        "max": [
+          0.5706475973129272,
+          0.7918685078620911,
+          3.3843424320220947
+        ],
+        "size": [
+          1.2750366926193237,
+          1.5616230368614197,
+          3.4563700556755066
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_4.glb",
+      "fileSizeBytes": 85020,
+      "sha256": "ae6cfa8d474772097ba5885edcf9a9516bbe450d9b5d5c3e430f7f0ba3d249d9",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -1.1021510362625122,
+          -0.682347297668457,
+          -0.10985685884952545
+        ],
+        "max": [
+          0.4764954149723053,
+          1.1183501482009888,
+          2.674581527709961
+        ],
+        "size": [
+          1.5786464512348175,
+          1.8006974458694458,
+          2.7844383865594864
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_5.glb",
+      "fileSizeBytes": 112972,
+      "sha256": "8808491a942f0197cf5a17a8ce0cde20cb5cd24e10fab4e622657a553cbbe659",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.8152385950088501,
+          -1.410258173942566,
+          -0.04511639475822449
+        ],
+        "max": [
+          0.47544729709625244,
+          0.8360259532928467,
+          2.4808406829833984
+        ],
+        "size": [
+          1.2906858921051025,
+          2.2462841272354126,
+          2.525957077741623
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_Autumn_1.glb",
+      "fileSizeBytes": 176108,
+      "sha256": "122cdd7b61346dde01b72b023e24364e077d83978b25c6fd1707cf1592e272b2",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 2,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 6,
+        "buffers": 1,
+        "bufferViews": 6
+      },
+      "bbox": {
+        "min": [
+          -0.9178823828697205,
+          -1.5987976789474487,
+          -0.04246043041348457
+        ],
+        "max": [
+          0.9712318181991577,
+          1.1743383407592773,
+          2.438101291656494
+        ],
+        "size": [
+          1.8891142010688782,
+          2.773136019706726,
+          2.4805617220699787
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_Autumn_2.glb",
+      "fileSizeBytes": 181040,
+      "sha256": "14cddb685fede31f2e6039abb4f39aac02a636af2a06c3a3ce8d6c85c3b4995f",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -0.8198280930519104,
+          -1.6037081480026245,
+          -0.05404417961835861
+        ],
+        "max": [
+          0.8433607816696167,
+          0.9372044801712036,
+          3.068746328353882
+        ],
+        "size": [
+          1.663188874721527,
+          2.540912628173828,
+          3.1227905079722404
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_Autumn_3.glb",
+      "fileSizeBytes": 98948,
+      "sha256": "51bd6b29e8303f533564a26cd5d1643793642dadb7502f522af84e698fdf77c4",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -0.7043890953063965,
+          -0.7697545289993286,
+          -0.07202762365341187
+        ],
+        "max": [
+          0.5706475973129272,
+          0.7918685078620911,
+          3.3843424320220947
+        ],
+        "size": [
+          1.2750366926193237,
+          1.5616230368614197,
+          3.4563700556755066
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "nature/quaternius-ultimate-nature/CommonTree_Autumn_4.glb",
+      "fileSizeBytes": 85028,
+      "sha256": "a7e9f23b153eea76e31d668a18b5d1a0327213205c3ece891db02b6eaf80c8eb",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 1,
+        "materials": 3,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 9,
+        "buffers": 1,
+        "bufferViews": 9
+      },
+      "bbox": {
+        "min": [
+          -1.1021510362625122,
+          -0.682347297668457,
+          -0.10985685884952545
+        ],
+        "max": [
+          0.4764954149723053,
+          1.1183501482009888,
+          2.674581527709961
+        ],
+        "size": [
+          1.5786464512348175,
+          1.8006974458694458,
+          2.7844383865594864
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "No matching row found in docs/ASSET-LICENSES.md (pre-existing asset, exempt from sidecar requirement, but should still be registered)."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": false,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "pancreas.glb",
+      "fileSizeBytes": 4848556,
+      "sha256": "e5213bf8ed66e8ed4eb2a9d1c7a6922fb926eac85de8c5979e780ca1abcaf1c3",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 7
+      },
+      "bbox": {
+        "min": [
+          -32767,
+          -17458,
+          -12081
+        ],
+        "max": [
+          32767,
+          17458,
+          12081
+        ],
+        "size": [
+          65534,
+          34916,
+          24162
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        },
+        {
+          "index": 1,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        },
+        {
+          "index": 2,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        }
+      ],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "Texture #0 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        },
+        {
+          "level": "warn",
+          "message": "Texture #1 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        },
+        {
+          "level": "warn",
+          "message": "Texture #2 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "skin.glb",
+      "fileSizeBytes": 5789160,
+      "sha256": "8183ffe3527b3f071c41c55e41ffaf673df8d02a1405e95e644ac5d89cd6f5f9",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 2,
+        "bufferViews": 7
+      },
+      "bbox": {
+        "min": [
+          -32767,
+          -25879,
+          -28515
+        ],
+        "max": [
+          32767,
+          25879,
+          28515
+        ],
+        "size": [
+          65534,
+          51758,
+          57030
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        },
+        {
+          "index": 1,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        },
+        {
+          "index": 2,
+          "width": 4096,
+          "height": 4096,
+          "format": "jpeg"
+        }
+      ],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "Texture #0 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        },
+        {
+          "level": "warn",
+          "message": "Texture #1 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        },
+        {
+          "level": "warn",
+          "message": "Texture #2 is 4096x4096px (format jpeg), exceeds the 2048px budget."
+        }
+      ],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "sourced/biology-cell/bacteria-ecoli-whole-cell-nih.glb",
+      "fileSizeBytes": 263,
+      "sha256": "9d1189a04da649b3ff195d7092bf98b8c4c88d64e71e588b9c789ab285ae99c0",
+      "parseValid": false,
+      "counts": null,
+      "bbox": null,
+      "textures": [],
+      "findings": [
+        {
+          "level": "error",
+          "message": "Invalid/unparsable GLB: Bad magic: expected 0x46546c67 (\"glTF\"), got 0x6d783f3c."
+        },
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: bacteria-ecoli-whole-cell-nih.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: bacteria-ecoli-whole-cell-nih.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/biology-cell/dna-b-form-double-helix-nih.glb",
+      "fileSizeBytes": 263,
+      "sha256": "c8e16e4e94e371fc80bbeddf66774d408ef6f2edb19747996a6c35291a8e97ad",
+      "parseValid": false,
+      "counts": null,
+      "bbox": null,
+      "textures": [],
+      "findings": [
+        {
+          "level": "error",
+          "message": "Invalid/unparsable GLB: Bad magic: expected 0x46546c67 (\"glTF\"), got 0x6d783f3c."
+        },
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: dna-b-form-double-helix-nih.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: dna-b-form-double-helix-nih.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/biology-cell/nucleosome-dna-packaging-nih.glb",
+      "fileSizeBytes": 243,
+      "sha256": "bcd0f488ca8e4bc81f90bd557d3547c4ec089d1363ca4eee5eecae1291f7d34c",
+      "parseValid": false,
+      "counts": null,
+      "bbox": null,
+      "textures": [],
+      "findings": [
+        {
+          "level": "error",
+          "message": "Invalid/unparsable GLB: Bad magic: expected 0x46546c67 (\"glTF\"), got 0x6d783f3c."
+        },
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: nucleosome-dna-packaging-nih.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: nucleosome-dna-packaging-nih.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/biology-cell/virus-bacteriophage-t4-capsid-bychain-nih.glb",
+      "fileSizeBytes": 243,
+      "sha256": "2641fd4f9c56956c6f6b64fa032e94da14d54b79702c6fa37c02d8535fcc58ba",
+      "parseValid": false,
+      "counts": null,
+      "bbox": null,
+      "textures": [],
+      "findings": [
+        {
+          "level": "error",
+          "message": "Invalid/unparsable GLB: Bad magic: expected 0x46546c67 (\"glTF\"), got 0x6d783f3c."
+        },
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: virus-bacteriophage-t4-capsid-bychain-nih.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: virus-bacteriophage-t4-capsid-bychain-nih.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/biology-cell/virus-influenza-capsid-rna-nih.glb",
+      "fileSizeBytes": 263,
+      "sha256": "3e9bd9fc63ce7bb9373396bcbff169624c6620e0f20601bedbfe540e4c32b824",
+      "parseValid": false,
+      "counts": null,
+      "bbox": null,
+      "textures": [],
+      "findings": [
+        {
+          "level": "error",
+          "message": "Invalid/unparsable GLB: Bad magic: expected 0x46546c67 (\"glTF\"), got 0x6d783f3c."
+        },
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: virus-influenza-capsid-rna-nih.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: virus-influenza-capsid-rna-nih.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/biology-cell/virus-influenza-envelope-a-nih.glb",
+      "fileSizeBytes": 243,
+      "sha256": "e6e8041892ff13e01226d7080e989631cfc3274c79178ae291ff19d061d74237",
+      "parseValid": false,
+      "counts": null,
+      "bbox": null,
+      "textures": [],
+      "findings": [
+        {
+          "level": "error",
+          "message": "Invalid/unparsable GLB: Bad magic: expected 0x46546c67 (\"glTF\"), got 0x6d783f3c."
+        },
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: virus-influenza-envelope-a-nih.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: virus-influenza-envelope-a-nih.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/biology-cell/virus-influenza-envelope-b-nih.glb",
+      "fileSizeBytes": 243,
+      "sha256": "55282a319d27bfd65e9d5782e692e41dbc5a9f67d733f2ef91e2d55a54e88ef3",
+      "parseValid": false,
+      "counts": null,
+      "bbox": null,
+      "textures": [],
+      "findings": [
+        {
+          "level": "error",
+          "message": "Invalid/unparsable GLB: Bad magic: expected 0x46546c67 (\"glTF\"), got 0x6d783f3c."
+        },
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: virus-influenza-envelope-b-nih.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: virus-influenza-envelope-b-nih.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/biology-cell/virus-polio-capsid-nih.glb",
+      "fileSizeBytes": 263,
+      "sha256": "3eff3729a4cd9c2480794cc5da82c0628f9415c61318201e1a2549f2665895eb",
+      "parseValid": false,
+      "counts": null,
+      "bbox": null,
+      "textures": [],
+      "findings": [
+        {
+          "level": "error",
+          "message": "Invalid/unparsable GLB: Bad magic: expected 0x46546c67 (\"glTF\"), got 0x6d783f3c."
+        },
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: virus-polio-capsid-nih.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: virus-polio-capsid-nih.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/chemistry-reactions/bunsen-burner.glb",
+      "fileSizeBytes": 2131920,
+      "sha256": "6984beb0f86eec05d1c901896871e79f5015949c6dc0fccca0ad496b00668639",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 2,
+        "meshes": 2,
+        "materials": 1,
+        "textures": 3,
+        "images": 3,
+        "animations": 0,
+        "accessors": 8,
+        "buffers": 1,
+        "bufferViews": 11
+      },
+      "bbox": {
+        "min": [
+          -0.06944694370031357,
+          0,
+          -0.06944694370031357
+        ],
+        "max": [
+          0.06944694370031357,
+          0.1731255203485489,
+          0.06944694370031357
+        ],
+        "size": [
+          0.13889388740062714,
+          0.1731255203485489,
+          0.13889388740062714
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 1024,
+          "height": 1024,
+          "format": "jpeg"
+        },
+        {
+          "index": 1,
+          "width": 1024,
+          "height": 1024,
+          "format": "jpeg"
+        },
+        {
+          "index": 2,
+          "width": 1024,
+          "height": 1024,
+          "format": "jpeg"
+        }
+      ],
+      "findings": [
+        {
+          "level": "error",
+          "message": "sourced/** asset is missing its provenance sidecar: bunsen-burner.license.json"
+        }
+      ],
+      "sidecar": {
+        "present": false,
+        "findings": [
+          {
+            "level": "error",
+            "message": "sourced/** asset is missing its provenance sidecar: bunsen-burner.license.json"
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "sourced/chemistry-reactions/chemistry-lab-bench.glb",
+      "fileSizeBytes": 3726556,
+      "sha256": "278ce3248a6e4b864221b41463f5ba3494520df0cf1088bca52aae46211364be",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 50,
+        "meshes": 50,
+        "materials": 2,
+        "textures": 6,
+        "images": 4,
+        "animations": 0,
+        "accessors": 202,
+        "buffers": 1,
+        "bufferViews": 206
+      },
+      "bbox": {
+        "min": [
+          -0.13938000798225403,
+          -0.00902028102427721,
+          -0.07891057431697845
+        ],
+        "max": [
+          0.13938000798225403,
+          0.41999322175979614,
+          0.0788842961192131
+        ],
+        "size": [
+          0.27876001596450806,
+          0.42901350278407335,
+          0.15779487043619156
+        ],
+        "incomplete": false
+      },
+      "textures": [
+        {
+          "index": 0,
+          "width": 1024,
+          "height": 1024,
+          "format": "jpeg"
+        },
+        {
+          "index": 1,
+          "width": 1024,
+          "height": 1024,
+          "format": "jpeg"
+        },
+        {
+          "index": 2,
+          "width": 1024,
+          "height": 1024,
+          "format": "jpeg"
+        },
+        {
+          "index": 3,
+          "width": 1024,
+          "height": 1024,
+          "format": "jpeg"
+        }
+      ],
+      "findings": [
+        {
+          "level": "warn",
+          "message": "attributionRequired should be boolean, got object."
+        }
+      ],
+      "sidecar": {
+        "present": true,
+        "findings": [
+          {
+            "level": "warn",
+            "message": "attributionRequired should be boolean, got object."
+          }
+        ]
+      }
+    },
+    {
+      "relPath": "space/bp-tauri.glb",
+      "fileSizeBytes": 4620884,
+      "sha256": "368ec13556fad8f13584724bb4345b73b04fff7349aa597aaeca1b05e51902df",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 3,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 1
+      },
+      "bbox": {
+        "min": [
+          -4.730385780334473,
+          -4.948299884796143,
+          -3.8677101135253906
+        ],
+        "max": [
+          4.729222774505615,
+          4.948299884796143,
+          3.868303060531616
+        ],
+        "size": [
+          9.459608554840088,
+          9.896599769592285,
+          7.736013174057007
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "space/cassiopeia-a-supernova.glb",
+      "fileSizeBytes": 8502472,
+      "sha256": "a3a4230c1adbdbb68d051b42bf0027a0688c022a6492c35a64c86f11028e827c",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 3,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 4,
+        "buffers": 1,
+        "bufferViews": 1
+      },
+      "bbox": {
+        "min": [
+          -8.052419662475586,
+          -4.689529895782471,
+          -7.256249904632568
+        ],
+        "max": [
+          8.056090354919434,
+          8.1041898727417,
+          3.3804099559783936
+        ],
+        "size": [
+          16.10851001739502,
+          12.79371976852417,
+          10.636659860610962
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "space/crab-nebula.glb",
+      "fileSizeBytes": 2209524,
+      "sha256": "d9ea6d7f218917414b2c9a54020bd867bcdbfa8d5f95f890290e26a126f15e07",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 1
+      },
+      "bbox": {
+        "min": [
+          -100.8204574584961,
+          -105.44784545898438,
+          -101.44509887695312
+        ],
+        "max": [
+          69.7900619506836,
+          72.4352798461914,
+          88.79298400878906
+        ],
+        "size": [
+          170.6105194091797,
+          177.88312530517578,
+          190.2380828857422
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "space/cygnus-loop-supernova.glb",
+      "fileSizeBytes": 2888172,
+      "sha256": "9a8ad57446daa970ed8b2b269f2953662dff46910e9b85d7273014d7d16a2a5b",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 3,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 1
+      },
+      "bbox": {
+        "min": [
+          -12.921027183532715,
+          -12.788278579711914,
+          -5.9398579597473145
+        ],
+        "max": [
+          12.921019554138184,
+          12.788278579711914,
+          8.049684524536133
+        ],
+        "size": [
+          25.8420467376709,
+          25.576557159423828,
+          13.989542484283447
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    },
+    {
+      "relPath": "space/g292-supernova-remnant.glb",
+      "fileSizeBytes": 1200552,
+      "sha256": "20973fcaa3bd36cbaa8cfc4f347f31bb97b56513ffd686d7b53bd1508a4af2da",
+      "parseValid": true,
+      "counts": {
+        "scenes": 1,
+        "nodes": 3,
+        "meshes": 1,
+        "materials": 1,
+        "textures": 0,
+        "images": 0,
+        "animations": 0,
+        "accessors": 3,
+        "buffers": 1,
+        "bufferViews": 1
+      },
+      "bbox": {
+        "min": [
+          -0.2970390021800995,
+          -0.33841100335121155,
+          -0.4289110004901886
+        ],
+        "max": [
+          0.40884900093078613,
+          0.41534900665283203,
+          0.35729900002479553
+        ],
+        "size": [
+          0.7058880031108856,
+          0.7537600100040436,
+          0.7862100005149841
+        ],
+        "incomplete": false
+      },
+      "textures": [],
+      "findings": [],
+      "licenseRegister": {
+        "hasRow": true,
+        "checked": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "componentId": "animal-cell",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "content/subjects/biology/cell-biology/animal-cell/assets/animal-cell.glb",
+  "thumbnailUrl": "content/subjects/biology/cell-biology/animal-cell/assets/animal-cell-thumb.png",
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      5.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "materialBudget": {
+    "maxMaterials": 5,
+    "materialsUsed": 3,
+    "strategy": "Vertex-color tinting on a shared clay shader family instead of one material per organelle, so the 7+ organelle tints described in visualStyleNotes stay within the ≤4-5 material / draw-call-friendly budget.",
+    "materials": [
+      {
+        "id": "ClayOpaqueTinted",
+        "description": "Shared matte-clay PBR material (roughness 0.55-0.7, metalness 0, no emissive) for fully opaque organelles. Per-submesh color comes from vertex color, not separate material instances, so one material serves the nucleus core, DNA, mitochondria, ribosomes, Golgi apparatus, lysosomes, and cytoskeleton.",
+        "usedBy": [
+          "NuclearEnvelope-core",
+          "DNA",
+          "Mitochondria",
+          "Ribosomes",
+          "GolgiApparatus",
+          "Lysosomes",
+          "Cytoskeleton"
+        ],
+        "tintMapping": {
+          "NuclearEnvelope-core": "warm coral (dominant landmark tint)",
+          "DNA": "warm coral, slightly darker value than nucleus core",
+          "Mitochondria": "leaf-green",
+          "Ribosomes": "dark coral / graphite",
+          "GolgiApparatus": "coral-green transitional blend",
+          "Lysosomes": "solid warm-coral",
+          "Cytoskeleton": "pale graphite, low saturation"
+        }
+      },
+      {
+        "id": "ClayTranslucentTinted",
+        "description": "Shared alpha-blended matte-frosted material (roughness ~0.6, no glass IOR/transmission) for translucent membrane-family meshes. Opacity and tint both driven by vertex color/alpha so membrane, cytoplasm, ER, and the nuclear envelope's outer shell share one material instance.",
+        "usedBy": [
+          "CellMembrane",
+          "Cytoplasm",
+          "NuclearEnvelope-outer-shell",
+          "EndoplasmicReticulum"
+        ],
+        "tintMapping": {
+          "CellMembrane": "warm cream / pale-coral, vertex alpha ~0.35-0.45",
+          "Cytoplasm": "warm paper/cream neutral, vertex alpha ~0.15-0.2 (lowest-detail, near-invisible fill)",
+          "NuclearEnvelope-outer-shell": "warm coral, vertex alpha ~0.7",
+          "EndoplasmicReticulum": "pale leaf-green, vertex alpha ~0.5"
+        }
+      },
+      {
+        "id": "HotspotAnchorMarker",
+        "description": "Non-rendering placeholder material for the HotspotAnchors empty-node group (empties have no visible geometry; reserved as a material slot only if engineering needs a debug-visualization mesh during development).",
+        "usedBy": [
+          "HotspotAnchors (debug only, hidden in production)"
+        ],
+        "tintMapping": {}
+      }
+    ]
+  },
+  "layers": [
+    {
+      "id": "cell-membrane",
+      "label": "Cell membrane (outer shell)",
+      "submesh": "CellMembrane",
+      "defaultVisible": true
+    },
+    {
+      "id": "cytoplasm",
+      "label": "Cytoplasm (translucent fill medium)",
+      "submesh": "Cytoplasm",
+      "defaultVisible": true
+    },
+    {
+      "id": "nucleus",
+      "label": "Nucleus + nuclear envelope",
+      "submesh": "NuclearEnvelope+Nucleus",
+      "defaultVisible": true
+    },
+    {
+      "id": "dna",
+      "label": "DNA (chromatin, nested inside nucleus)",
+      "submesh": "DNA",
+      "defaultVisible": false,
+      "visibilityNote": "Occluded by the nucleus at default opacity; only meaningfully visible via cross-section or nucleus isolate mode, so it starts off to avoid a confusing hidden hotspot."
+    },
+    {
+      "id": "mitochondria",
+      "label": "Mitochondria",
+      "submesh": "Mitochondria",
+      "defaultVisible": true
+    },
+    {
+      "id": "ribosomes",
+      "label": "Ribosomes",
+      "submesh": "Ribosomes",
+      "defaultVisible": true
+    },
+    {
+      "id": "endoplasmic-reticulum",
+      "label": "Endoplasmic reticulum",
+      "submesh": "EndoplasmicReticulum",
+      "defaultVisible": true
+    },
+    {
+      "id": "golgi-apparatus",
+      "label": "Golgi apparatus",
+      "submesh": "GolgiApparatus",
+      "defaultVisible": true
+    },
+    {
+      "id": "lysosomes",
+      "label": "Lysosomes",
+      "submesh": "Lysosomes",
+      "defaultVisible": true
+    },
+    {
+      "id": "cytoskeleton",
+      "label": "Cytoskeleton (filament network)",
+      "submesh": "Cytoskeleton",
+      "defaultVisible": false,
+      "visibilityNote": "Reference-matched default-off: the filament network is the layer most likely to visually clutter the first-view composition, matching Anatomy Atelier's uncluttered specimen framing. Toggle on from the layer panel."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cell-membrane",
+      "label": "Cell membrane",
+      "conceptId": "cell-membrane",
+      "position": [
+        0.55,
+        0.05,
+        0.45
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "on the outer translucent boundary surface, front-right quadrant, roughly equatorial height so it reads clearly against the off-white background without overlapping interior organelles",
+      "description": "The flexible, semi-permeable outer boundary of the cell; controls what enters and exits.",
+      "structureCard": {
+        "whereItIs": "The outermost translucent surface wrapping the whole cell — the boundary between the cell and everything outside it.",
+        "whyItMatters": "It controls exactly what enters and leaves the cell, so the cell can take in nutrients and push out waste without losing its shape or contents.",
+        "relatedConcept": "cytoplasm"
+      }
+    },
+    {
+      "id": "hs-cytoplasm",
+      "label": "Cytoplasm",
+      "conceptId": "cytoplasm",
+      "position": [
+        0.15,
+        -0.25,
+        0.5
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "in open translucent gel space between the membrane and nucleus, lower-front region, away from any organelle mesh so the dot floats visibly in the 'empty' fill area",
+      "description": "The jelly-like fluid filling the cell that suspends and supports all organelles.",
+      "structureCard": {
+        "whereItIs": "Fills all the open space inside the cell membrane, surrounding and cushioning every organelle.",
+        "whyItMatters": "It suspends the organelles in place and lets nutrients, proteins, and signals move around the cell.",
+        "relatedConcept": "cell-membrane"
+      }
+    },
+    {
+      "id": "hs-nucleus",
+      "label": "Nucleus",
+      "conceptId": "nucleus",
+      "position": [
+        0.1,
+        0.3,
+        0.25
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "center of the cell, slightly upper-center, on the surface of the large spherical nuclear envelope — the dominant central mass",
+      "description": "The control center of the cell; a membrane-bound sphere that houses the DNA.",
+      "structureCard": {
+        "whereItIs": "The large, dominant sphere near the center of the cell, slightly toward the upper-front.",
+        "whyItMatters": "It stores the cell's DNA and directs almost everything the cell does, from building proteins to dividing.",
+        "relatedConcept": "dna"
+      }
+    },
+    {
+      "id": "hs-dna",
+      "label": "DNA",
+      "conceptId": "dna",
+      "position": [
+        0.05,
+        0.08,
+        0.05
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "inside the nucleus interior, visible only once nucleus is isolated or the cross-section is active, on the coiled chromatin strand cluster near the nucleus core",
+      "description": "The coiled genetic material inside the nucleus that carries instructions for the cell.",
+      "structureCard": {
+        "whereItIs": "Coiled up inside the nucleus — only visible once you isolate the nucleus or activate the cross-section view.",
+        "whyItMatters": "It carries the coded instructions (genes) that tell the cell which proteins to build and how to function.",
+        "relatedConcept": "nucleus"
+      }
+    },
+    {
+      "id": "hs-mitochondrion",
+      "label": "Mitochondrion",
+      "conceptId": "mitochondrion",
+      "position": [
+        0.45,
+        -0.2,
+        0.3
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "mid-distance from center, lower-right area, on one representative bean-shaped mitochondrion among a small cluster of 3-4 duplicated instances",
+      "description": "A bean-shaped, double-membraned organelle that produces the cell's usable energy (ATP).",
+      "structureCard": {
+        "whereItIs": "One of 3-4 bean-shaped organelles scattered mid-distance between the nucleus and the membrane, lower-right of center.",
+        "whyItMatters": "It converts nutrients and oxygen into ATP, the energy currency the cell uses to power everything it does.",
+        "relatedConcept": "cytoplasm"
+      }
+    },
+    {
+      "id": "hs-ribosome",
+      "label": "Ribosome",
+      "conceptId": "ribosome",
+      "position": [
+        -0.35,
+        0.25,
+        0.2
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "small dot cluster near the rough ER surface, mid-upper-left, on one of the small bead-like ribosome instances studding the ER membrane",
+      "description": "Tiny granule-like structures that assemble proteins, either free-floating or attached to the ER.",
+      "structureCard": {
+        "whereItIs": "Tiny bead-like specks, some studding the endoplasmic reticulum surface, others floating freely in the cytoplasm.",
+        "whyItMatters": "It reads genetic instructions and assembles amino acids into proteins — the cell's protein-building machine.",
+        "relatedConcept": "endoplasmic-reticulum"
+      }
+    },
+    {
+      "id": "hs-endoplasmic-reticulum",
+      "label": "Endoplasmic reticulum",
+      "conceptId": "endoplasmic-reticulum",
+      "position": [
+        -0.45,
+        0.3,
+        0.1
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "the folded, ribbon-like membrane network extending from the nuclear envelope, upper-left quadrant, on a clearly readable fold of the sheet geometry",
+      "description": "A folded membrane network connected to the nucleus that builds proteins and lipids and transports them through the cell.",
+      "structureCard": {
+        "whereItIs": "A folded, ribbon-like membrane network extending outward from the nuclear envelope, upper-left of the cell.",
+        "whyItMatters": "It builds, folds, and processes proteins and lipids fresh off the ribosomes before they move on to the Golgi apparatus.",
+        "relatedConcept": "golgi-apparatus"
+      }
+    },
+    {
+      "id": "hs-golgi-apparatus",
+      "label": "Golgi apparatus",
+      "conceptId": "golgi-apparatus",
+      "position": [
+        -0.4,
+        0.05,
+        0.15
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "the stacked, curved pancake-like membrane structure positioned near the ER, mid-left, on the outermost stacked disc",
+      "description": "A stack of flattened membranes that packages and ships proteins and lipids to their destinations.",
+      "structureCard": {
+        "whereItIs": "A stack of curved, flattened discs positioned near the endoplasmic reticulum, mid-left of the cell.",
+        "whyItMatters": "It packages, labels, and ships finished proteins and lipids to wherever the cell needs them.",
+        "relatedConcept": "endoplasmic-reticulum"
+      }
+    },
+    {
+      "id": "hs-lysosome",
+      "label": "Lysosome",
+      "conceptId": "lysosome",
+      "position": [
+        -0.4,
+        -0.3,
+        0.2
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "small spherical vesicle near the lower-left periphery, distinct from mitochondria in size (smaller) and color, sitting in open cytoplasm",
+      "description": "A small membrane-bound sac containing enzymes that break down waste and worn-out cell parts.",
+      "structureCard": {
+        "whereItIs": "A small sphere sitting in open cytoplasm near the lower-left edge of the cell, noticeably smaller than a mitochondrion.",
+        "whyItMatters": "It holds enzymes that break down waste, worn-out organelle parts, and unwanted material so the cell stays clean.",
+        "relatedConcept": "cytoplasm"
+      }
+    },
+    {
+      "id": "hs-cytoskeleton",
+      "label": "Cytoskeleton",
+      "conceptId": "cytoskeleton",
+      "position": [
+        0.3,
+        -0.35,
+        0.5
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "on a visible thin filament strand near the cell periphery, front-lower region, where the fiber network is least occluded by organelles",
+      "description": "A network of thin protein filaments that gives the cell its shape and supports internal movement.",
+      "structureCard": {
+        "whereItIs": "A network of thin filament strands running from near the nucleus out toward the membrane, most visible near the front-lower periphery once toggled on.",
+        "whyItMatters": "It gives the cell its shape, anchors organelles in place, and helps move materials — and sometimes the whole cell — around.",
+        "relatedConcept": "cell-membrane"
+      }
+    }
+  ],
+  "hotspotAnchorNodeGroup": "HotspotAnchors",
+  "hotspotPositionReconciliationNote": "All hotspot `position` values above are pre-production estimates authored from positionHint descriptions against the ~1.0-radius bounding sphere, for early UI wiring only. They must be reconciled against the actual `HotspotAnchors` empty-node world-positions once animal-cell.glb is exported, and this field replaced with final coordinates at that time.",
+  "visualStyleNotes": "Match Anatomy Atelier exactly: the cell renders as a large, centered, softly-lit 3D object floating against a warm off-white (#FAF6F0-ish) background with almost no chrome — no ground plane, no visible grid, no drop-shadow platform, just ambient occlusion contact shadow directly under the mesh. Biology subject palette applies: coral and leaf-green as the two dominant organelle-family accent hues, set against warm paper/cream neutrals for membrane and cytoplasm — NOT a rainbow diagram-style organelle coloring. Shading is matte/soft-clay with gentle three-point studio lighting (soft key + fill + subtle rim), no glossy plastic highlights, no glow, no gradient halos, no particle/glow effects on hotspots. Hotspot dots are small, flat-colored, solid-fill circles (colored per the biology accent palette, coral or leaf-green, consistent across the app) with a thin off-white ring stroke for contrast against any background organelle color — never pulsing, never glowing. Silhouette should read instantly as \"a cell\" from the default camera: membrane translucent enough to hint at interior structure but not so glassy it looks like an aquarium — think frosted, matte translucency, opacity ~0.35-0.45, not glass-clear and not glossy. Nucleus is the visually dominant interior mass (largest single organelle, warm coral-tinted). Organelles are simplified, smoothed, low-poly-adjacent \"toy-model\" biology shapes (soft capsule mitochondria, ribbon-fold ER, stacked-disc Golgi, small spheres for ribosomes/lysosomes) rendered with the same matte clay shading family as the membrane — cohesive material language across all sub-meshes, not photoreal, not cartoon-bright, not textured with cel-shading outlines. Absolutely avoid: neon/saturated colors, glow/bloom, gamey particle effects, cluttered dense organelle counts (keep counts sparse — e.g. 3-4 mitochondria, not 20), harsh specular plastic look, visible wireframe/grid floor, sci-fi HUD styling.",
+  "assetBrief": "DELIVERABLE: One GLB (glTF 2.0 binary), animal-cell.glb, real-time-ready for Three.js/react-three-fiber, target ≤3-4 MB, ≤60k triangles total across all sub-meshes, single draw-call-friendly material atlas where feasible (max 4-5 materials — see materialBudget above for how the intended 7+ organelle tints are achieved within that budget via vertex-color tinting on 2-3 shared shaders).\n\nSCALE & PROPORTIONS: Build the whole cell inside a 2m-diameter bounding sphere (radius 1.0 in scene units) so default camera framing at position [0, 0.4, 5.2] target [0, 0, 0] fills ~65-70% of the viewport height. Overall silhouette: a gently irregular, rounded blob (not a perfect sphere — real animal cells have soft asymmetric bulges) roughly 1.0 x 0.85 x 0.9 in XYZ to avoid a \"beach ball\" look.\n\nREQUIRED SUB-MESHES (each its own named node/mesh so hotspots, isolate-mode, and cross-section can target them independently):\n1. `CellMembrane` — outer bounding shell, soft irregular rounded form, double-sided shading OK, matte-frosted translucent material (opacity 0.35-0.45, roughness ~0.6, no glass IOR tricks), warm cream/pale-coral tint. Uses `ClayTranslucentTinted`.\n2. `Cytoplasm` — a very subtle inner-volume shell or particulate hint (can be a faint secondary transparent shell just inside the membrane, or omitted as a visible mesh and represented only conceptually — cytoplasm hotspot can anchor to empty interior space between membrane and organelles). Keep this the lowest-detail mesh in the set. Uses `ClayTranslucentTinted`.\n3. `NuclearEnvelope` + `Nucleus` — large central sphere (~0.35 radius), slightly off-center toward upper-front, double-membrane hint via a thin outer shell (`ClayTranslucentTinted`) + solid inner core (`ClayOpaqueTinted`), warm coral tint, more opaque than cytoplasm (~0.7 opacity) so it reads as the dominant landmark.\n4. `DNA` (chromatin) — a small coiled/tangled strand cluster mesh nested fully inside the nucleus interior, only visible via cross-section or isolate mode (default-off layer); simplified toroidal/spiral geometry, not literal double-helix detail at this scale. Uses `ClayOpaqueTinted`.\n5. `Mitochondria` — 3 to 4 instanced bean/capsule-shaped meshes (~0.12-0.18 length each) with a subtle inner-fold suggestion (can be a simple ridged bump map or a nested smaller inner capsule, not literal cristae geometry), leaf-green tint, scattered mid-radius, not touching each other or the membrane. Uses `ClayOpaqueTinted`.\n6. `Ribosomes` — 6-10 tiny sphere instances (~0.02-0.03 radius), half free-floating in cytoplasm, half clustered along the rough-ER mesh surface, small dark-coral or graphite dots. Uses `ClayOpaqueTinted`.\n7. `EndoplasmicReticulum` — a folded ribbon/sheet mesh extending from the nuclear envelope outward, asymmetric organic folds (3-5 visible folds), pale leaf-green translucent membrane material matching the cytoplasm family. Uses `ClayTranslucentTinted`.\n8. `GolgiApparatus` — 4-6 stacked, gently curved flattened discs (pancake stack), positioned near the ER, warm coral-green transitional tint, curvature suggesting directional \"shipping\" flow. Uses `ClayOpaqueTinted`.\n9. `Lysosomes` — 2-3 small spheres (~0.05-0.07 radius), distinctly smaller than mitochondria, solid warm-coral fill, scattered in open cytoplasm away from the nucleus. Uses `ClayOpaqueTinted`.\n10. `Cytoskeleton` — a sparse network of thin cylindrical filament strands (6-10 strands, ~0.01 radius) radiating from near the nucleus toward the membrane, very subtle graphite/pale tint, low opacity so it doesn't visually compete with organelles — this layer defaults to hidden (see `layers` above) and is toggled on by the learner. Uses `ClayOpaqueTinted`.\n\nMATERIALS: See `materialBudget` above — 2 rendering materials (`ClayOpaqueTinted`, `ClayTranslucentTinted`) plus 1 non-rendering debug/anchor slot, all within the 4-5 material budget, with per-submesh color/opacity driven by vertex color and vertex alpha rather than separate material instances. Base roughness 0.55-0.7, no metalness, soft rim-light-friendly normal shading, no emissive, no glossy clearcoat. Translucent meshes (membrane, ER, nuclear envelope outer shell, cytoplasm) use alpha-blended opacity via vertex alpha (not physically-based glass transmission) so they read as frosted matte plastic, never \"aquarium glass.\"\n\nRIGGING FOR INTERACTIVITY: Each sub-mesh must be a separately named glTF node so the app can (a) toggle layer visibility per the `layers` defaults above, (b) isolate a single structure by hiding/fading siblings, (c) apply a cross-section clip plane through the whole hierarchy without breaking individual organelle meshes, (d) drive hotspot anchor points from named node world-positions rather than hardcoded coordinates. Include a `HotspotAnchors` empty-node group (10 empty transform nodes, one per hotspot id above) positioned per the positionHints so hotspot dots can bind to them without re-authoring positions in code later — these exported world-positions are the source of truth that will replace the `estimated-pending-glb-export` values in this file's `hotspots[].position`.\n\nCROSS-SECTION: Model must be cleanly clippable along a single world-space plane through the cell's local Y-axis (a horizontal \"equatorial\" cut) without leaving visible open shells — either cap the membrane/nucleus with an inner solid backface or ensure the app's clip-plane material auto-caps (confirm with engineering which approach the renderer supports before finalizing membrane mesh topology; default assumption is app-side clip-plane capping, so membrane mesh does not need a separate \"cutaway\" variant).\n\nREFERENCE MATCH: Study assets/reference/anatomy-atelier/desktop-overview.png, mobile-overview.png, and desktop-interaction.png (and the live site https://anatomy-livid.vercel.app/) for the exact material/lighting/hotspot-dot language before modeling — the target is that same calm, matte, warm-lit, uncluttered \"specimen on a museum plinth\" feel, just applied to a cell instead of an organ.\n\nDO NOT: use bright saturated cartoon colors (no primary red/blue/yellow organelle coding), do not add facial features or googly eyes or any anthropomorphism, do not add glow/bloom/particle effects, do not texture-paint labels directly onto the mesh (labels are a UI overlay, not baked geometry), do not model more than 3-4 mitochondria or an overcrowded organelle count, do not make the membrane fully transparent/glass-clear, do not add a ground plane, pedestal, or background props to the GLB — the model must be a clean isolated object with no environment geometry.",
+  "visual": {
+    "shape": "cell-sphere"
+  }
+}

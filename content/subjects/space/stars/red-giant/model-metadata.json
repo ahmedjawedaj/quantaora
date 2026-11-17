@@ -1,0 +1,105 @@
+{
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/stars/red-giant.scene.ts",
+  "thumbnailUrl": "src/features/model-viewer/thumbnails/space/stars/red-giant.png",
+  "cameraDefault": {
+    "position": [
+      8,
+      2.5,
+      9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    {
+      "id": "envelope",
+      "label": "Expanded envelope",
+      "explanation": "The swollen, spread-thin outer gas that makes the giant so huge — and, being spread so thin, cooler than the old photosphere."
+    },
+    {
+      "id": "burning-shell",
+      "label": "Hydrogen-burning shell",
+      "explanation": "A thin rind just outside the inert core where the last hydrogen left burns — the furnace that keeps the star shining in this stage."
+    },
+    {
+      "id": "inert-core",
+      "label": "Inert helium core",
+      "explanation": "The dead, contracting center — out of hydrogen, not yet hot enough for helium fusion, propped up only by electron pressure."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-inert-core",
+      "label": "Inert helium core",
+      "conceptId": "core-hydrogen-exhaustion",
+      "position": [
+        0,
+        0,
+        0.2
+      ],
+      "description": "The dead center. Hydrogen exhausted; nothing fuses here yet — this is what triggered the whole expansion.",
+      "positionHint": "Center of the star"
+    },
+    {
+      "id": "hs-burning-shell",
+      "label": "Hydrogen-burning shell",
+      "conceptId": "shell-hydrogen-burning",
+      "position": [
+        0.35,
+        0,
+        0.5
+      ],
+      "description": "A thin blazing rind wrapped around the inert core, burning the last hydrogen as a shell.",
+      "positionHint": "Roughly a quarter of the way out from the core"
+    },
+    {
+      "id": "hs-expanded-envelope",
+      "label": "Expanded envelope",
+      "conceptId": "stellar-expansion",
+      "position": [
+        2.6,
+        1.4,
+        0.6
+      ],
+      "description": "The spread of gas that ballooned the star to dozens of times its old radius; thin, cool, and red.",
+      "positionHint": "Broad outer region of the giant"
+    },
+    {
+      "id": "hs-red-photosphere",
+      "label": "Red photosphere (surface)",
+      "conceptId": "surface-cooling-reddening",
+      "position": [
+        3.4,
+        0.2,
+        1.2
+      ],
+      "description": "The visible surface, down to about 3,000 K — the redness that names the giant.",
+      "positionHint": "Rim of the visible disk"
+    },
+    {
+      "id": "hs-size-comparison",
+      "label": "Size comparison — old star inside",
+      "conceptId": "stellar-expansion",
+      "position": [
+        4.6,
+        0.2,
+        1.6
+      ],
+      "description": "A small yellow-white sphere drawn to the same scale as the star's old main-sequence size, floating beside the giant for scale drama.",
+      "positionHint": "At the side of the model, faintly glowing"
+    }
+  ],
+  "visualStyleNotes": "Huge soft red-orange sphere with a barely-visible inner ember, matched Anatomy Atelier drift gain: clean shape, gentle gradients, no glare. A small yellow-white main-sequence ball sits beside it for scale. Cross-section toggle reveals the bright shell ring around a dull dark core.",
+  "materialNotes": "Envelope: translucent red-orange, faint surface speckle. Burning shell: emissive pale gold ring. Inert core: matte dark umber. Use the crossSectionAvailable flag to demonstrate the shell ring in step 2 (Touch it).",
+  "assetBrief": "Procedural Three.js scene: giant sphere (radius ~3.2 units), small companion sphere (~0.35), shell ring emissive, inert core matte. Cross-section plane deletes one side to show shell. Hotspot bead radius ~0.18, picking consistent with the rest of the stars set.",
+  "componentId": "red-giant",
+  "visual": {
+    "shape": "red-giant"
+  }
+}

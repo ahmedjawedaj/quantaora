@@ -1,0 +1,80 @@
+{
+  "componentId": "addition",
+  "questions": [
+    {
+      "id": "addition-sum-3-4",
+      "conceptId": "addition-combining-groups",
+      "hotspotId": "hs-sum",
+      "prompt": "What is the sum of 3 + 4?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Combining 3 and 4 gives a total of 7.",
+      "misconception": "Adding one extra by accident (thinking 3 + 4 = 8) is common; count the group: 3 and 4 together make exactly 7."
+    },
+    {
+      "id": "addition-count-on",
+      "conceptId": "addition-count-on",
+      "hotspotId": "hs-count-on",
+      "prompt": "To add 5 + 3 using counting on, you start at 5 and count forward how many more steps?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Count on means begin at the first addend (5) and count forward the value of the second addend (3 steps), landing on 8.",
+      "misconception": "Some count from 1 instead of from the first addend — counting on should start at 5, not at 1, so the jump is only 3 steps."
+    },
+    {
+      "id": "addition-regroup",
+      "conceptId": "addition-columns-regroup",
+      "hotspotId": "hs-count-on",
+      "prompt": "When adding 27 + 38 in columns, the ones column (7 + 8) sums to 15. What do you do with the 15?",
+      "options": [
+        "Write 5 in the ones column and carry 1 ten to the tens column",
+        "Write 15 in the ones column",
+        "Ignore the 15",
+        "Carry 15 to the hundreds"
+      ],
+      "correctIndex": 0,
+      "explanation": "15 is 1 ten and 5 ones: put 5 in the ones place and regroup the ten into the tens column, then 2 + 3 + 1 = 6 tens → 65.",
+      "misconception": "Writing all of 15 in the ones column forgets that 10 ones make a ten — the carry is what keeps the place values straight."
+    },
+    {
+      "id": "addition-inverse",
+      "conceptId": "addition-properties",
+      "hotspotId": "hs-sum",
+      "prompt": "Which operation 'undoes' an addition like 6 + 4 = 10?",
+      "options": [
+        "Subtraction",
+        "Multiplication",
+        "Division",
+        "Rounding"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtraction is the inverse of addition — 10 − 4 gets back to the 6 you started with.",
+      "misconception": "Multiplication is not the undo-operation for addition; only subtracting the other addend returns the original number."
+    },
+    {
+      "id": "addition-commutative",
+      "conceptId": "addition-properties",
+      "hotspotId": "hs-addends",
+      "prompt": "Which statement is true about addition order?",
+      "options": [
+        "3 + 4 equals 4 + 3",
+        "3 + 4 is less than 4 + 3",
+        "3 + 4 is greater than 4 + 3",
+        "Adding in reverse is impossible"
+      ],
+      "correctIndex": 0,
+      "explanation": "Addition is commutative — the same two addends give the same sum in either order.",
+      "misconception": "Commutativity is specific to addition (and multiplication); reversing the order of the same addends never changes the total."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "charge",
+  "subject": "physics",
+  "title": "Electric Charge",
+  "summary": "Electric charge is the property behind all electricity — positive and negative particles that attract and repel. Rub a balloon on your hair and electrons hop over: the balloon goes negative, your hair positive, and their pull bends paper and strands. In this model two charges on stands show attraction, repulsion, and the push that starts every electron flow.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "charge-two-kinds",
+    "charge-same-repel-opposite-attract",
+    "charge-electron-movement",
+    "charge-static-imbalance"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Electric Charge",
+    "systemOrGroup": "Charge and Current",
+    "component": "Electric Charge",
+    "displayPath": "Physics > Electricity > Electric Charge > Charge and Current > Electric Charge"
+  },
+  "crossReferences": [
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "Moving charge is current — the flow starts when unbalanced charges get a path."
+    },
+    {
+      "label": "Electrons (Chemistry-adjacent)",
+      "branch": "electricity",
+      "lowLevelItem": "Static charge",
+      "note": "Electrons are the negative charge carriers that rub onto and off objects."
+    }
+  ],
+  "belongsTo": "Electricity > Electric Charge > Charge and Current",
+  "compareCandidate": {
+    "label": "Positive vs. negative charge",
+    "description": "Two kinds of charge: unlike ones attract, like repel. The balloon goes negative and the hair positive shows the pair in action."
+  },
+  "parts": [
+    "The balloon",
+    "The charge bench",
+    "The plume of charges",
+    "The force arrows"
+  ],
+  "processes": [
+    "Rubbing to build charge",
+    "Attracting paper shreds",
+    "Repelling like charges",
+    "Giving charge a path to move"
+  ],
+  "plainLanguageExplanation": "Electric charge is the reason every atom is stuck together and every light turns on. Matter has two kinds of charge — positive (in protons) and negative (in electrons). The golden rule: unlike charges attract, like charges repel. Rub a balloon on your hair: electrons hop to the balloon, leaving the hair starved of them — so the balloon is negative and your hair slightly positive, and they pull on each other (and anything with balanced charge feels a weaker tug that can bend paper or move hair). Charge isn't created: rubbing just shuffles electrons from one object to another. In this model, a bench carries two charge balls; you load signs, watch arrow pairs flip between repel and attract, and slide a knob to discharge — giving the charges a path so a spark (charge moving) flows. Static cling, lightning, and every wire's flow rest on this single idea: an imbalance of electrons, eager to balance.",
+  "keyFacts": [
+    {
+      "label": "Two kinds",
+      "value": "Positive (protons) and negative (electrons)"
+    },
+    {
+      "label": "Golden rule",
+      "value": "Unlike attract; like charges repel"
+    },
+    {
+      "label": "Least is movable",
+      "value": "Electrons move; protons mostly sit"
+    },
+    {
+      "label": "Rub to build",
+      "value": "Friction shoves electrons between objects"
+    },
+    {
+      "label": "Unit",
+      "value": "Coulomb (C)"
+    }
+  ],
+  "whyItMatters": "Charge is the root of all electricity and of lightning, static cling, and every circuit. Understanding attraction and repulsion explains why electrons flow in wires, why photocopiers image with charge, and why thunderstorms build. Every bulb lit and motor turning in the other models begins with charges that can decide to move.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Electric charge",
+  "tagline": "The attraction behind electricity",
+  "didYouKnow": "Lightning is charge rebalancing at full speed: billions of electrons leap between cloud and ground in a few milliseconds. One bolt can carry a charge measured in tens of coulombs — enough, if you could bottle it, to run about a day's home energy.",
+  "conditions": [
+    "Balloons sticking to walls",
+    "Statically-charged hair standing up",
+    "Lightning in storms",
+    "Photocopiers and laser printers",
+    "Socks clinging from the dryer"
+  ],
+  "compareCandidateId": "current",
+  "compareReason": "Charge is the imbalance; current is its movement. The bench holds two balls still to see the force — flip a switch and the charge marching makes all current visible."
+}

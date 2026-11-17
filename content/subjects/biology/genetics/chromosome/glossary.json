@@ -1,0 +1,53 @@
+{
+  "componentId": "chromosome",
+  "terms": [
+    {
+      "term": "Chromosome",
+      "definition": "A tightly coiled strand of DNA and protein that carries an organism's genetic instructions."
+    },
+    {
+      "term": "Chromatid",
+      "definition": "One of two identical copies that make up a duplicated chromosome, joined to its twin at the centromere.",
+      "conceptId": "chromatid"
+    },
+    {
+      "term": "Centromere",
+      "definition": "The pinched, narrow region where two sister chromatids are held together.",
+      "conceptId": "centromere"
+    },
+    {
+      "term": "Tightly Coiled DNA",
+      "definition": "DNA wound repeatedly around histone proteins and folded further so that nearly two meters of DNA per cell fits inside a microscopic nucleus; this coiling is what gives a chromosome its compact shape.",
+      "conceptId": "tightly-coiled-dna"
+    },
+    {
+      "term": "Genes Arranged Along Its Length",
+      "definition": "The pattern of individual genes sitting at fixed positions strung along a chromosome's DNA, similar to houses spaced along a street, each carrying instructions for a particular trait or protein.",
+      "conceptId": "genes-arranged-along-length"
+    },
+    {
+      "term": "Gene",
+      "definition": "A specific segment of DNA on a chromosome that contains instructions for one trait or function."
+    },
+    {
+      "term": "Chromatin",
+      "definition": "The loosely spread-out form of DNA and protein found in the nucleus when a cell is not dividing."
+    },
+    {
+      "term": "Histone",
+      "definition": "A protein that DNA wraps around, helping it coil up tightly to fit inside the nucleus."
+    },
+    {
+      "term": "Nucleus",
+      "definition": "The compartment inside a cell where chromosomes are stored."
+    },
+    {
+      "term": "Spindle fiber",
+      "definition": "A protein fiber that attaches to a chromosome's centromere and pulls sister chromatids apart during cell division."
+    },
+    {
+      "term": "Allele",
+      "definition": "One version of a gene; different alleles at the same spot on a chromosome can produce different versions of a trait."
+    }
+  ]
+}

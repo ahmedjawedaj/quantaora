@@ -1,0 +1,86 @@
+{
+  "id": "mean",
+  "subject": "math",
+  "title": "Mean",
+  "summary": "The mean (average) is the total of all data points divided by how many there are. Explore the 'fair share' idea behind the mean and how to compute it.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "mean-definition",
+    "mean-share",
+    "mean-compute",
+    "mean-outlier"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Statistics",
+    "systemOrGroup": "Summarizing data",
+    "component": "Mean",
+    "displayPath": "Math > Data And Statistics > Statistics > Summarizing data > Mean"
+  },
+  "crossReferences": [
+    {
+      "label": "Data point (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Data point",
+      "note": "The mean is computed from the individual data points."
+    },
+    {
+      "label": "Median (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Median",
+      "note": "The median is the middle value — often close to the mean but not the same."
+    },
+    {
+      "label": "Outlier (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Outlier",
+      "note": "One very large or small point pulls the mean strongly."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Statistics > Summarizing data",
+  "compareCandidate": {
+    "label": "Mean vs. median",
+    "description": "The mean is the fair-share value computed from all points; the median is simply the middle point. An outlier can pull them far apart."
+  },
+  "parts": [
+    "The total",
+    "The count",
+    "The fair share"
+  ],
+  "processes": [
+    "Adding all data points",
+    "Dividing by the count"
+  ],
+  "plainLanguageExplanation": "The mean is the average — the value you get when you share all the data evenly. Add up every data point, then divide by how many points there are. If four friends collect 2, 4, 6, and 8 shells, the total is 20, and sharing evenly gives each friend 20 ÷ 4 = 5 shells. The mean is '5'. Because the mean uses every point, one huge or tiny value (an outlier) can pull the mean up or down a lot — that is why you sometimes prefer the median.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Total ÷ count — the average" },
+    { "label": "Also called", "value": "Average or arithmetic mean" },
+    { "label": "Example", "value": "(2 + 4 + 6 + 8) ÷ 4 = 5" },
+    { "label": "Think", "value": "Sharing all values evenly" },
+    { "label": "Formula", "value": "Sum of points ÷ number of points" },
+    { "label": "Caution", "value": "Outliers can pull the mean strongly" }
+  ],
+  "whyItMatters": "The mean is the world's most-used number — batting averages, test scores, temperatures, and salaries all lean on it. Knowing what it means (and when it lies) helps you read every headline that cites an 'average'.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Mean",
+  "tagline": "The fair share",
+  "didYouKnow": "The word 'average' once meant the fee a ship owner paid to spread out damage to a cargo — the 'fair share' idea has been baked into averages for hundreds of years.",
+  "conditions": [
+    "Test averages",
+    "Batting stats",
+    "Weather summaries",
+    "Budget comparisons"
+  ],
+  "compareCandidateId": "median",
+  "compareReason": "Students think average and middle are the same — comparing the fair-share mean with the middle-point median shows the difference."
+}

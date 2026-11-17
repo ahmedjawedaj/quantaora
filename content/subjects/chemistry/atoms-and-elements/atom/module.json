@@ -1,0 +1,115 @@
+{
+  "id": "atom",
+  "subject": "chemistry",
+  "title": "Atom",
+  "summary": "An atom is the smallest particle of an element that still acts like that element — a nucleus of protons and neutrons surrounded by shells of electrons. Everything is built from atoms.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "atom-smallest-particle",
+    "atom-nucleus-and-electrons",
+    "atom-building-blocks"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "The Atom",
+    "systemOrGroup": "The smallest piece of matter",
+    "component": "Atom",
+    "displayPath": "Chemistry > Atoms And Elements > The Atom > The smallest piece of matter > Atom"
+  },
+  "crossReferences": [
+    {
+      "label": "Proton (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Proton",
+      "note": "Protons are packed in the atom's nucleus — their count defines which element the atom is."
+    },
+    {
+      "label": "Nucleus (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Nucleus",
+      "note": "The nucleus is the atom's dense core, holding the protons and neutrons and nearly all its mass."
+    },
+    {
+      "label": "Electron shell (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron shell",
+      "note": "The electrons orbit the atom in shells — layers around the nucleus."
+    },
+    {
+      "label": "Element (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Element",
+      "note": "An element is a substance made of just one kind of atom — atoms are the particles that elements are built from."
+    },
+    {
+      "label": "Molecule (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Molecule",
+      "note": "When atoms bond together, they build molecules — atoms are the bricks of molecules."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > The Atom > The smallest piece of matter",
+  "compareCandidate": {
+    "label": "Atom vs. element",
+    "description": "An atom is the smallest particle of a substance that is still that substance — a single, indivisible-in-chemistry unit. An element is a large quantity of identical atoms — a pure substance made of only one kind of atom. One atom is one brick; the element is the whole wall."
+  },
+  "parts": [
+    "Tiny dense nucleus",
+    "Shells of orbiting electrons",
+    "Mostly empty space"
+  ],
+  "processes": [
+    "Being the smallest unit that keeps an element's identity",
+    "Building molecules, compounds, and everything else",
+    "Sitting as the foundation of all matter"
+  ],
+  "plainLanguageExplanation": "An atom is the smallest particle of an element that is still that element. Everything around you — the air, the water, your body, your phone — is built from atoms, the tiny bricks of matter. Inside an atom there are three kinds of particles: protons (positive) and neutrons (neutral), packed together in the nucleus at the center, and electrons (negative), orbiting far outside in shells. Here is the surprising part: atoms are mostly empty space. If an atom were a stadium, the nucleus would be a marble at the center spot and the electrons would be tiny specks circling in the upper seats — with empty air between. Yet those empty atoms, stacked together, make up everything solid in the universe. There are about 90 naturally occurring kinds of atoms — the elements — and every combination of them builds every substance that exists. Atoms are the alphabet of the universe: a few dozen letters, endless words.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "The smallest particle of an element that is still that element"
+    },
+    {
+      "label": "Inside it",
+      "value": "Protons and neutrons in the nucleus; electrons in shells"
+    },
+    {
+      "label": "Mostly empty",
+      "value": "The nucleus is tiny — atoms are mostly empty space"
+    },
+    {
+      "label": "Number of kinds",
+      "value": "About 90 natural elements, endlessly combined"
+    },
+    {
+      "label": "Size",
+      "value": "A million atoms across fits in a dot of a printed 'i'"
+    },
+    {
+      "label": "They build",
+      "value": "Molecules, compounds, and every substance that exists"
+    }
+  ],
+  "whyItMatters": "Atoms are the fundamental building blocks of all matter. Understanding the atom — its nucleus, its electron shells, and its mostly-empty structure — is the foundation of every idea in chemistry: elements, molecules, bonds, and reactions. Everything begins with the atom.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Atom",
+  "tagline": "The tiny brick of everything",
+  "didYouKnow": "A single drop of water contains about 1.6 sextillion (1.6 × 10²¹) atoms — far more than all the grains of sand on every beach on Earth.",
+  "conditions": [
+    "All matter",
+    "Chemistry foundations",
+    "The periodic table"
+  ],
+  "compareCandidateId": "element",
+  "compareReason": "The atom-element relationship (one particle versus the whole substance) is the foundation of all matter — comparing them shows how a single brick builds an entire wall."
+}

@@ -1,0 +1,90 @@
+{
+  "id": "outlier",
+  "componentId": "outlier",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/outlier/outlier.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/outlier.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Dot plot",
+    "Cluster",
+    "Outlier dot",
+    "Summary plates"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-outlier-dot",
+      "label": "Outlier",
+      "conceptId": "outlier-definition",
+      "position": [
+        0.95,
+        0.55,
+        0.15
+      ],
+      "description": "The lone dot far from the cluster \u2014 flagged with a question mark.",
+      "positionHint": "The isolated dot with the flag.",
+      "color": "#D9A441",
+      "function": "The unusually distant data point."
+    },
+    {
+      "id": "hs-cluster",
+      "label": "Cluster",
+      "conceptId": "outlier-spot",
+      "position": [
+        -0.5,
+        0.5,
+        0.1
+      ],
+      "description": "The tight bunch of ordinary data points.",
+      "positionHint": "The packed group of dots in the middle.",
+      "color": "#7FA86A",
+      "function": "The main body of the data."
+    },
+    {
+      "id": "hs-distance-gap",
+      "label": "The gap",
+      "conceptId": "outlier-spot",
+      "position": [
+        0.3,
+        0.35,
+        0.05
+      ],
+      "description": "The empty space that separates the outlier from the cluster.",
+      "positionHint": "The space between the cluster and the lone dot.",
+      "color": "#6B85A8",
+      "function": "The distance that defines the outlier."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A dot plot with a tight cluster and one isolated dot, with summary plates that appear on demand. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / slate-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Dot plot board: warm paper panel (roughness ~0.5). Dots: small warm-ink spheres; cluster dots slightly smaller, outlier dot one size larger with a small question-mark flag. Summary plates: three flat warm paper plates (mean, range, median) popping up on demand. Magnifier: thin warm-grey ring when inspecting. Distance tag: small warm paper tag updating with position. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the outlier and its effects \u2014 a dot plot with a tight cluster and one far dot; dragging the outlier changes a distance tag; 'show effects' lights up mean/range/median plates to show how summaries respond; 'inspect' magnifies the point to ask real-event vs typo.\n\nGEOMETRY: A dot plot board with a cluster of dots in the middle and a single dot far off to the right, wearing a small question-mark flag. Dragging the lone dot moves it and a distance tag reads the gap. 'Show effects' reveals three plates: the mean slides toward the outlier, the range arrow stretches to the far dot, and the median line stays in the cluster. 'Inspect' brings a magnifier ring over the outlier and its label falls out for the learner to judge.\n\nLAYERS (toggleable): (1) board; (2) cluster dots; (3) outlier dot + distance tag; (4) summary plates + magnifier.\n\nCAMERA: three-quarter from front-left, above, frames the plot; labels legible. Budget 5-9k triangles. Named nodes: DotPlot, ClusterDots, OutlierDot, DistanceTag, MeanPlate, MedianDot, RangeArrow, Magnifier. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "outlier-lonely-dot"
+  }
+}

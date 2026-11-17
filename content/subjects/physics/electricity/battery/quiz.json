@@ -1,0 +1,80 @@
+{
+  "componentId": "battery",
+  "questions": [
+    {
+      "id": "ba-q-energy",
+      "conceptId": "battery-chemical-energy",
+      "hotspotId": "hs-layers",
+      "prompt": "What kind of energy is stored inside a battery?",
+      "options": [
+        "Chemical energy",
+        "Light energy",
+        "Sound energy",
+        "Kinetic energy of its shaking"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inside the cell, chemicals hold energy; the reaction turns it into electrical push when the circuit closes.",
+      "misconception": "Batteries feel 'electric' but their stored form is chemical, converted at work time."
+    },
+    {
+      "id": "ba-q-terminals",
+      "conceptId": "battery-+--terminals",
+      "hotspotId": "hs-neg",
+      "prompt": "The two ends of a battery are called its...",
+      "options": [
+        "Terminals, marked + and −",
+        "Wires, marked L and R",
+        "Plates, marked N and S",
+        "Poles, marked E and W"
+      ],
+      "correctIndex": 0,
+      "explanation": "A battery has two terminals, + and −; their energy-level difference is the voltage.",
+      "misconception": "Compass directions and generic names are wrong; + and − are the only true labels."
+    },
+    {
+      "id": "ba-q-cells",
+      "conceptId": "battery-volts-and-stamina",
+      "hotspotId": "hs-layers",
+      "prompt": "A 9 V battery is made of 1.5 V cells. How many are inside?",
+      "options": [
+        "6",
+        "2",
+        "9",
+        "15"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cells in series add: 9 ÷ 1.5 = 6 cells.",
+      "misconception": "The pack's total volts can trick you into '9 cells'; it is 6 × 1.5 V."
+    },
+    {
+      "id": "ba-q-drain",
+      "conceptId": "battery-drives-the-loop",
+      "hotspotId": "hs-usage",
+      "prompt": "While the battery powers the bulb, its chemical layers...",
+      "options": [
+        "Shrink as the energy is used",
+        "Stay exactly the same",
+        "Grow bigger each second",
+        "Turn into glass"
+      ],
+      "correctIndex": 0,
+      "explanation": "The reaction spends the chemicals, so the layers shrink and the push fades over time.",
+      "misconception": "Batteries don't lose a substance: they lose spent reactants, which is what 'drained' means."
+    },
+    {
+      "id": "ba-q-numbers",
+      "conceptId": "battery-volts-and-stamina",
+      "hotspotId": "hs-case",
+      "prompt": "Which pair of numbers describes a battery?",
+      "options": [
+        "Voltage and capacity (mAh)",
+        "Length and width",
+        "Brightness and dimness",
+        "Mass and color code"
+      ],
+      "correctIndex": 0,
+      "explanation": "Volts (push) and capacity in mAh (stamina) are the two ratings that matter.",
+      "misconception": "Physical size is not the rating; a small cell can push the same volts as a big one."
+    }
+  ]
+}

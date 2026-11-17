@@ -1,0 +1,104 @@
+{
+  "id": "community",
+  "componentId": "community",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/ecology/community/community.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/ecology/community.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Multiple species",
+    "Eating arrows",
+    "Competition",
+    "Mutual help"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-species",
+      "label": "Many species",
+      "conceptId": "all-species-interactions",
+      "position": [
+        0.0,
+        0.2,
+        0.15
+      ],
+      "description": "Different kinds of organisms together in one area.",
+      "color": "#D98A6A",
+      "function": "The many species sharing one area.",
+      "positionHint": "Different shapes grouped together."
+    },
+    {
+      "id": "hs-eat",
+      "label": "Eating interaction",
+      "conceptId": "all-species-interactions",
+      "position": [
+        0.35,
+        0.05,
+        0.15
+      ],
+      "description": "One species feeding on another.",
+      "color": "#D9A441",
+      "function": "Energy passing from one species to another.",
+      "positionHint": "An arrow between two organisms."
+    },
+    {
+      "id": "hs-compete",
+      "label": "Competition",
+      "conceptId": "species-compete-share",
+      "position": [
+        -0.35,
+        0.05,
+        0.2
+      ],
+      "description": "Two species competing for the same food or space.",
+      "color": "#6B85A8",
+      "function": "Species that need the same things compete.",
+      "positionHint": "Two organisms reaching for one resource."
+    },
+    {
+      "id": "hs-help",
+      "label": "Mutual help",
+      "conceptId": "all-species-interactions",
+      "position": [
+        0.15,
+        -0.2,
+        0.2
+      ],
+      "description": "Species helping each other, like flowers and pollinators.",
+      "color": "#7FA874",
+      "function": "Partnerships that help both sides.",
+      "positionHint": "A flower and a pollinator."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The scene reads as a calm stylized diorama - simplified, clean shapes with a restrained warm-paper and muted-green palette, not cartoon, not cluttered. COLOR IS RESTRAINED: each subject is a muted near-paper shade; strong saturated color is reserved entirely for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a stylized diorama of a community - several different kinds of organisms (a tree, a small bird, an insect, a mushroom, a patch of grass) sharing one area. Between them, gentle arrows: a feeding arrow, a competition pair reaching for one food dot, and a flower-pollinator pair. Warm off-white background, muted, no glow. Named nodes: Tree, Bird, Insect, Mushroom, GrassPatch, FeedArrow, CompetitionPair, PollinatorPair. Budget 10-14k.",
+  "visual": {
+    "shape": "community-grid"
+  }
+}

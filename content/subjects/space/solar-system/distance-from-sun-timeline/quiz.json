@@ -1,0 +1,80 @@
+{
+  "componentId": "distance-from-sun-timeline",
+  "questions": [
+    {
+      "id": "dtimeline-q-order",
+      "conceptId": "planets-in-order-from-sun",
+      "hotspotId": "hs-earth-mark",
+      "prompt": "Which is the correct order of the planets, starting from the Sun?",
+      "options": [
+        "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "Venus, Mercury, Earth, Mars, Jupiter, Saturn, Neptune, Uranus",
+        "Earth, Mars, Mercury, Venus, Jupiter, Saturn, Uranus, Neptune",
+        "Mercury, Venus, Mars, Earth, Jupiter, Neptune, Saturn, Uranus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The order from the Sun is Mercury, Venus, Earth, Mars, then the asteroid belt, then Jupiter, Saturn, Uranus, Neptune — the same order the timeline road follows.",
+      "misconception": "A mnemonic like 'My Very Educated Mother…' helps, but many learners swap neighboring planets — walking the road in order is the reliable way to fix it."
+    },
+    {
+      "id": "dtimeline-q-nearest",
+      "conceptId": "mercury-nearest-planet",
+      "hotspotId": "hs-mercury-mark",
+      "prompt": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Earth",
+        "Mars"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mercury orbits at just 0.39 AU — the fastest and closest orbit of any planet.",
+      "misconception": "Venus is the brightest planet in our sky, so it gets credit for being closest — but Mercury wins the shortest-distance prize."
+    },
+    {
+      "id": "d3-q-belt-gap",
+      "conceptId": "mars-jupiter-gap",
+      "hotspotId": "hs-asteroid-belt-mark",
+      "prompt": "What sits between the orbit of Mars and the orbit of Jupiter?",
+      "options": [
+        "The Kuiper Belt",
+        "The asteroid belt",
+        "A ring of comets",
+        "Nothing — the planets are neighbors"
+      ],
+      "correctIndex": 1,
+      "explanation": "The asteroid belt — millions of Rocky leftovers — orbits in the gap between Mars at 1.52 AU and Jupiter at 5.2 AU.",
+      "misconception": "The Kuiper Belt (icy worlds beyond Neptune) is a common mix-up — the asteroid belt is rocky, closer in, and much more crowded-looking."
+    },
+    {
+      "id": "dt4-q-farthest",
+      "conceptId": "neptune-farthest-planet",
+      "hotspotId": "hs-neptune-mark",
+      "prompt": "Which planet stands at the far end of the timeline?",
+      "options": [
+        "Pluto",
+        "Uranus",
+        "Neptune",
+        "Saturn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Neptune, at about 30 AU, is the most distant of the eight planets. Pluto is farther, but it is a dwarf planet in the Kuiper Belt, not a planet.",
+      "misconception": "'Pluto is farthest' is the classic answer, but Pluto was reclassified as a dwarf planet — Neptune is the last planet on the road."
+    },
+    {
+      "id": "dt5-q-light",
+      "conceptId": "light-time-along-timeline",
+      "hotspotId": "hs-earth-mark",
+      "prompt": "Sunlight takes about 8 minutes to reach Earth (1 AU). About how long does it take to reach Neptune at 30 AU?",
+      "options": [
+        "About 8 minutes",
+        "About 4 hours",
+        "About 30 seconds",
+        "It never gets there"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light travel time scales with distance: roughly 8 minutes per AU means about 4 to 5 hours to reach Neptune's orbit.",
+      "misconception": "Closer of 'light is fast, so everything is instant' — but even light spends hours crossing the outer solar system, which shows how vast 30 AU truly is."
+    }
+  ]
+}

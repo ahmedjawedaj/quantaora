@@ -1,0 +1,41 @@
+{
+  "componentId": "denominator",
+  "terms": [
+    {
+      "term": "Denominator",
+      "conceptId": "denominator-counts-equal-parts",
+      "hotspotId": "hs-denominator-plate",
+      "definition": "The bottom number in a fraction, counting the equal parts the whole is split into.",
+      "function": "In 3/4 the denominator 4 says the whole has 4 equal parts.",
+      "whereItIs": "The changing number plate below the active bar.",
+      "whyItMatters": "It sizes every piece of the fraction."
+    },
+    {
+      "term": "Part size",
+      "conceptId": "denominator-part-size",
+      "hotspotId": "hs-part-size",
+      "definition": "The amount each equal part represents.",
+      "function": "More parts mean each part is smaller — 1/8 is smaller than 1/2.",
+      "whereItIs": "The single filled segment in each bar.",
+      "whyItMatters": "Part size is the real meaning behind the denominator."
+    },
+    {
+      "term": "Equal parts",
+      "conceptId": "denominator-counts-equal-parts",
+      "hotspotId": "hs-denominator-bars",
+      "definition": "Segments of the whole that are all the same size.",
+      "function": "The denominator counts how many of these equal segments exist.",
+      "whereItIs": "The even segments cut into each bar.",
+      "whyItMatters": "Equal cutting is what makes denominators honest."
+    },
+    {
+      "term": "Common denominator",
+      "conceptId": "denominator-compare",
+      "hotspotId": "hs-denominator-plate",
+      "definition": "A shared denominator used to add, subtract, or compare fractions.",
+      "function": "1/2 and 1/3 both become sixths (3/6 and 2/6) to be added.",
+      "whereItIs": "The matching part size needed across two bars.",
+      "whyItMatters": "Only same-sized parts can be counted together."
+    }
+  ]
+}

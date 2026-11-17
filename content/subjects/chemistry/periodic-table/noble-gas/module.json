@@ -1,0 +1,110 @@
+{
+  "id": "noble-gas",
+  "subject": "chemistry",
+  "title": "Noble Gas",
+  "summary": "The noble gases are Group 18's famously unreactive family — helium, neon, argon, and friends. Explore why their full outer shells make them so stable, and where these gases show up in your everyday world.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "noble-gas-full-shell",
+    "noble-gas-unreactive",
+    "noble-gas-group-18"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "Famous groups",
+    "component": "Noble Gas",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > Famous groups > Noble Gas"
+  },
+  "crossReferences": [
+    {
+      "label": "Group (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Group",
+      "note": "The noble gases are Group 18 — the last column of the periodic table."
+    },
+    {
+      "label": "Electron shell (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron shell",
+      "note": "Every noble gas has a completely full outer shell — the key to its perfect stability."
+    },
+    {
+      "label": "Alkali metal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Alkali metal",
+      "note": "Across the table, the reactive alkali metals (Group 1) and the calm noble gases (Group 18) are opposites — empty shells versus full shells."
+    },
+    {
+      "label": "Valence electron (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Valence electron",
+      "note": "Noble gases have a full set of valence electrons (8, or 2 for helium), so they have no reason to share or trade electrons."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > Famous groups",
+  "compareCandidate": {
+    "label": "Noble gas vs. alkali metal",
+    "description": "Noble gases have full outer shells and almost never react. Alkali metals have just one outer electron and react explosively. The two families sit at opposite ends of the table and at opposite ends of reactivity."
+  },
+  "parts": [
+    "Full outer shell",
+    "Very unreactive",
+    "Gases at room temperature"
+  ],
+  "processes": [
+    "Staying unreactive thanks to a full outer shell",
+    "Glowing in signs and lights",
+    "Filling balloons and lightbulbs"
+  ],
+  "plainLanguageExplanation": "The noble gases are the calmest family in the periodic table. They live in the last column, Group 18, and include helium, neon, argon, krypton, and xenon. Their superpower is their electron arrangement: every noble gas has a completely full outer shell of electrons. Helium has 2 in its only shell, and the others have 8 — the full set. Because a full outer shell is the most stable arrangement an atom can have, noble gas atoms have no reason to gain, lose, or share electrons. So they almost never react with anything — they are famously inert. That is why they are called 'noble,' like a noble who stays above the common fray. Their calm shows up all around you: helium fills party balloons and stays unreactive up in the sky, neon glows in restaurant signs, and argon fills lightbulbs to keep them from reacting inside. Because they stay as single atoms, they are gases at room temperature, colorless and odorless.",
+  "keyFacts": [
+    {
+      "label": "Where they live",
+      "value": "Group 18 — the last column of the periodic table"
+    },
+    {
+      "label": "Members",
+      "value": "Helium, neon, argon, krypton, xenon, radon"
+    },
+    {
+      "label": "Key to stability",
+      "value": "A completely full outer shell — 2 for helium, 8 for the rest"
+    },
+    {
+      "label": "Behavior",
+      "value": "Almost never react — they are the most unreactive family"
+    },
+    {
+      "label": "State",
+      "value": "Colorless, odorless gases at room temperature"
+    },
+    {
+      "label": "Everyday uses",
+      "value": "Helium in balloons, neon in signs, argon in lightbulbs"
+    }
+  ],
+  "whyItMatters": "The noble gases are the proof that a full outer shell equals stability — the very idea that drives all of bonding chemistry. They also give a perfect reference point: when you learn why other atoms bond (to reach a 'noble gas configuration'), you are literally using the noble gases as the target. And they light up your world, from balloons to signs.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Noble gas (Group 18)",
+  "tagline": "The calm, full-shell family",
+  "didYouKnow": "The 'goal' that drives most atoms to bond is reaching a noble gas configuration — other atoms gain, lose, or share electrons specifically to copy the noble gases' full outer shell.",
+  "conditions": [
+    "Balloons and blimps",
+    "Neon signs",
+    "Lightbulbs",
+    "Scuba diving (helium mixes)"
+  ],
+  "compareCandidateId": "alkali-metal",
+  "compareReason": "Full-shell calm versus single-outer-electron frenzy — the noble gases and alkali metals are the two opposite poles of reactivity at either end of the table."
+}

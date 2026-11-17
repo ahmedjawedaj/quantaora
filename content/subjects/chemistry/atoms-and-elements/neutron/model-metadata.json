@@ -1,0 +1,89 @@
+{
+  "id": "neutron",
+  "componentId": "neutron",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/atoms-and-elements/neutron/neutron.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/atoms-and-elements/neutron.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Nucleus cutaway",
+    "Mass compare",
+    "Isotopes"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-neutron-nucleus",
+      "label": "Neutrons in the nucleus",
+      "conceptId": "neutron-in-nucleus",
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "description": "The gray particles packed in the dense core are the neutrons — the silent partners of the protons in the nucleus.",
+      "positionHint": "The cluster of gray spheres at the center of the cutaway.",
+      "color": "#6B85A8",
+      "function": "Shows the neutrons packed in the atom's nucleus."
+    },
+    {
+      "id": "hs-neutron-neutral",
+      "label": "Zero charge",
+      "conceptId": "neutron-no-charge",
+      "position": [
+        0.8,
+        0.3,
+        0
+      ],
+      "description": "Unlike the protons, the neutrons carry no charge marker — they are electrically neutral, adding mass but no charge.",
+      "positionHint": "The gray neutrons standing apart from the charged protons.",
+      "color": "#D9A441",
+      "function": "Shows that the neutron has no electric charge."
+    },
+    {
+      "id": "hs-neutron-isotopes",
+      "label": "Isotope pair",
+      "conceptId": "neutron-isotopes",
+      "position": [
+        0,
+        -0.75,
+        0
+      ],
+      "description": "Two carbon atoms side by side: one with 6 neutrons, one with 8. Same protons, same element — different neutron counts make isotopes.",
+      "positionHint": "The two atom pairs below, visible when the isotope layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows how neutron count varies between isotopes."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A cutaway nucleus floats centered, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Nucleus: soft muted gray neutrons and soft red protons bundled together, one quadrant cut away; a faint translucent warm-white electron-cloud shell surrounds it. Strong saturated color is reserved for the small flat hotspot dots and the isotope highlight (slate / amber / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Neutrons: soft muted gray spheres, roughness ~0.4. Protons: soft muted red spheres, roughness ~0.4. Electron cloud: large translucent warm-white shell, alpha ~0.12. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a nucleus cutaway focused on the neutron, built to be read as 'the charge-free particle that adds mass and makes isotopes.' Three procedural layers, all clean primitives:\n\n1) MAIN: a cutaway nucleus cluster at center — ~6 soft muted gray neutron spheres (radius ~0.22) and ~6 soft muted red proton spheres (radius ~0.22) packed together with one quadrant cut away; a faint translucent warm-white electron-cloud shell (radius ~1.5, alpha ~0.12) surrounds it with a gap.\n\n2) MASS COMPARE (toggleable layer): a small translucent teal electron dot appears far out at the cloud edge (radius ~0.06) — the app renders a balance or scale hint contrasting the heavy nucleus with the nearly weightless electron.\n\n3) ISOTOPES (toggleable layer): two small carbon atom icons appear side by side below — each a tiny nucleus (6 red protons) with one showing 6 gray neutrons and the other 8 (app highlights the differing neutrons in amber).\n\nCamera: framed so the nucleus is clearly visible within the cloud; auto-rotate default. Budget 6-10k triangles. Named nodes: NucleusCluster, Neutrons_06, Protons_06, ElectronCloud, CutawayPlane, MassElectron, Isotope_12, Isotope_14, IsotopeNeutronsExtra. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "isotope-variants"
+  }
+}

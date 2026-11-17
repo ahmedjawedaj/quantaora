@@ -1,0 +1,16 @@
+{
+  "componentId": "tides",
+  "modelType": "procedural-r3f",
+  "url": "src/components/explorer/EarthSpaceViewer.tsx",
+  "thumbnailUrl": "/assets/thumbnails/space/earth-in-space/tides.png",
+  "assetStatus": "Already implemented — a hand-built React Three Fiber scene (EarthSpaceViewer.tsx, mode=\"tides\"), not a pending asset. Earth and the Moon render from the same real, already-cleared GLBs used elsewhere in Space.",
+  "defaultCamera": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "cameraDefault": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": ["Earth (spinning, with two tidal bulges)", "Moon (fixed bulge axis)", "Spin marker tracking high/low tide", "Spring/neap toggle readout"],
+  "hotspots": [],
+  "visualStyleNotes": "Anatomy Atelier quality bar: warm off-white studio backdrop, no floor grid, no glow/bloom. Earth spins at the learner-set speed with a marker point that reads its current tide state (high/low/rising/falling) as it passes through the two fixed bulge axes; the spring/neap toggle changes bulge strength in the readout.",
+  "materialNotes": "Earth and Moon use their existing real GLB material sets (metallic-roughness PBR); no emissive channels — tide state is read from the spin-angle marker and the side-panel readout, not a rendered water-bulge mesh.",
+  "note": "Process-driven component: the 'Touch it' interaction is a live physics simulation (spin-speed slider, spring/neap toggle) rather than tapping points on a single model, so this component intentionally carries no hotspots."
+}

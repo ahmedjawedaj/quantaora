@@ -1,0 +1,33 @@
+{
+  "asset": "nucleosome-dna-packaging-nih-optimized.glb",
+  "derivedFrom": "nucleosome-dna-packaging-nih.glb",
+  "componentMapping": "biology > genetics > Chromosome / DNA packaging (bonus asset - shows how DNA coils around histone proteins, supports Chromosome low-level item)",
+  "sourceUrl": "https://3d.nih.gov/entries/3dpx-002662",
+  "sourceEntryId": "3DPX-002662",
+  "underlyingStructureData": "RCSB PDB 3AFA (human nucleosome), CC0 crystallographic data",
+  "creator": "NIH 3D user \"yyszk\"",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC0 1.0 (Public Domain Dedication)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Recommended credit: \"Human nucleosome structure\", NIH 3D (3d.nih.gov, entry 3DPX-002662), derived from RCSB PDB 3AFA. CC0 1.0.",
+  "redistributionStatus": "Unrestricted (CC0 public domain dedication).",
+  "dateSourced": "2026-08-18",
+  "processingNote": "Asset Recovery Wave 3 (2026-08-18): light mesh-decimation derivative produced from the original CONDITIONAL-for-size source via gltf-transform (weld + simplify, meshoptimizer backend, ratio=0.5, error=0.005) -- a gentler pass than the polio/ribosome derivatives since the source was only marginally over budget. All 5 meshes preserved; POSITION/NORMAL/COLOR_0 attributes preserved. No color remap attempted (the source's rainbow chain coloring style-fit concern is out of scope for this technical pass). No license or attribution facts changed. Original file preserved unmodified alongside this derivative.",
+  "fileSizeBytes": 7883328,
+  "sha256": "f9751a9db24e1e262701c8a11c4bae8230b28c265a34c23fef1316360ea0a114",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "meshCount": 5,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "sampleBoundsMin": [-50.39228, -31.92359, -51.82331],
+    "sampleBoundsMax": [50.39837, 31.92854, 51.81833],
+    "fileSizeBeforeBytes": 16536576,
+    "fileSizeAfterBytes": 7883328,
+    "boundingBoxUnchanged": true,
+    "notes": "Bounding box unchanged from source within float rounding (largest delta ~0.005 on one axis). ~2.1x file-size reduction, from 15.77MB (marginally over the 15MB guideline) to 7.88MB. Rainbow chain-coloring style-fit concern from the source review is unaddressed (out of scope, cosmetic not technical)."
+  }
+}

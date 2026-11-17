@@ -1,0 +1,65 @@
+{
+  "componentId": "community",
+  "questions": [
+    {
+      "id": "com-q-def",
+      "conceptId": "community-living-only",
+      "hotspotId": "hs-species",
+      "prompt": "What is a community in ecology?",
+      "options": [
+        "All the different species living together in an area",
+        "Only one species in an area",
+        "Only the nonliving things",
+        "A single organism"
+      ],
+      "correctIndex": 0,
+      "explanation": "A community is all the populations of all different species living together in one area.",
+      "misconception": "One species is a population, not a community - a community includes many species together."
+    },
+    {
+      "id": "com-q-interact",
+      "conceptId": "all-species-interactions",
+      "hotspotId": "hs-eat",
+      "prompt": "Which is an interaction between community members?",
+      "options": [
+        "One species eating another",
+        "Rocks rolling",
+        "Rain falling",
+        "Sun warming"
+      ],
+      "correctIndex": 0,
+      "explanation": "Community members interact by eating, competing, and helping each other.",
+      "misconception": "Rocks, rain, and sun are nonliving parts of the ecosystem, not community interactions."
+    },
+    {
+      "id": "com-q-nonliving",
+      "conceptId": "community-vs-ecosystem",
+      "hotspotId": "hs-species",
+      "prompt": "Are nonliving things like rocks and water part of a community?",
+      "options": [
+        "No - those are part of the ecosystem, not the community",
+        "Yes, always",
+        "Only rocks",
+        "Only if very large"
+      ],
+      "correctIndex": 0,
+      "explanation": "A community is only the living things. Nonliving surroundings like rocks, water, and soil are part of the larger ecosystem.",
+      "misconception": "Community = living only; ecosystem = living + nonliving. That distinction is the key."
+    },
+    {
+      "id": "com-q-build",
+      "conceptId": "all-species-interactions",
+      "hotspotId": "hs-help",
+      "prompt": "What is a community made of?",
+      "options": [
+        "Many populations of different species",
+        "Just one big family",
+        "Only plants",
+        "Only animals"
+      ],
+      "correctIndex": 0,
+      "explanation": "A community is built from many populations - all the different species present in the area.",
+      "misconception": "Communities include plants, animals, fungi, and microbes - all species, not just one group."
+    }
+  ]
+}

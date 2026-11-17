@@ -1,0 +1,65 @@
+{
+  "componentId": "phloem",
+  "questions": [
+    {
+      "id": "phloem-q-what",
+      "conceptId": "phloem-carries-food",
+      "hotspotId": "hs-phloem-tube",
+      "prompt": "What does the phloem carry through a plant?",
+      "options": [
+        "Food (sugar) made in the leaves",
+        "Only water and minerals up",
+        "Oxygen gas down",
+        "Seeds and pollen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phloem carries the food (sugar) that the leaves make through photosynthesis to the rest of the plant.",
+      "misconception": "Phloem is not the water-pipe or a seed part - it is the food tissue that moves the sugar made in leaves to other parts."
+    },
+    {
+      "id": "phloem-q-direction",
+      "conceptId": "food-from-leaves-around",
+      "hotspotId": "hs-leaf-source",
+      "prompt": "Where does the food in the phloem start, and where does it go?",
+      "options": [
+        "It starts in the leaves and goes out to the whole plant",
+        "It starts in the roots and goes to the leaves",
+        "It goes only to the sun",
+        "It never moves at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sugar food is made in the leaves and carried by the phloem to roots, fruits, seeds, and growing shoots all over the plant.",
+      "misconception": "Phloem food does not start in the roots and then rise - it is made in the leaves and delivered outward to where the plant needs it."
+    },
+    {
+      "id": "phloem-q-cells",
+      "conceptId": "phloem-living-tubes",
+      "hotspotId": "hs-phloem-tube",
+      "prompt": "What is unusual about phloem tubes compared to water pipes?",
+      "options": [
+        "They are made of living cells that help move the food",
+        "They are made of hard rock",
+        "They are completely empty",
+        "They are always red"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phloem is made of living cells that actively help move the sugar, unlike xylem which is more like simple pipes.",
+      "misconception": "Unlike a plain pipe or a rock tube, a phloem tube is a living structure that works to push the food along."
+    },
+    {
+      "id": "phloem-q-uses",
+      "conceptId": "food-and-living-cells",
+      "hotspotId": "hs-seed-sink",
+      "prompt": "Which parts of a plant receive the food delivered by the phloem?",
+      "options": [
+        "Roots, seeds, fruits, and growing shoots",
+        "Only the top leaf",
+        "Only the petals",
+        "No other part receives food"
+      ],
+      "correctIndex": 0,
+      "explanation": "The phloem delivers food to roots, seeds, fruits, and growing shoots so every living part of the plant stays fed.",
+      "misconception": "The phloem does not just feed one leaf; it shares the leaves' food with the roots, seeds, and fruits across the plant."
+    }
+  ]
+}

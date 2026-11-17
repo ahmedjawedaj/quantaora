@@ -1,0 +1,47 @@
+{
+  "componentId": "stem",
+  "terms": [
+    {
+      "term": "Stem",
+      "conceptId": "stem-supports-plant",
+      "hotspotId": "hs-node",
+      "definition": "The part of a plant that grows upward and supports the leaves and flowers, carrying water and food among them.",
+      "function": "Supports the plant and carries water up and food down.",
+      "whereItIs": "Rising from the roots up to the leaves and flowers.",
+      "whyItMatters": "The stem holds everything up and connects the underground root to the sun-catching leaves.",
+      "relatedConcept": "stem-carries-water-up",
+      "quizId": "stem-q-support"
+    },
+    {
+      "term": "Node",
+      "conceptId": "nodes-and-buds",
+      "hotspotId": "hs-node",
+      "definition": "A point along the stem where a leaf, branch, or flower attaches.",
+      "function": "Provides the attachment points for a plant's side parts.",
+      "whereItIs": "At points along the length of the stem.",
+      "whyItMatters": "It is where leaves and flowers grow from the stem.",
+      "relatedConcept": "stem-carries-water-up"
+    },
+    {
+      "term": "Xylem",
+      "conceptId": "stem-carries-water-up",
+      "hotspotId": "hs-xylem",
+      "definition": "Tubes in the stem that carry water and minerals upward from the roots.",
+      "function": "Transports water up to the leaves.",
+      "whereItIs": "In the inner core of the stem tubes.",
+      "whyItMatters": "It is the water highway of the plant.",
+      "relatedConcept": "stem-carries-food-down",
+      "quizId": "stem-q-xylem"
+    },
+    {
+      "term": "Phloem",
+      "conceptId": "stem-carries-food-down",
+      "hotspotId": "hs-phloem",
+      "definition": "Tubes in the stem that carry the food made in the leaves down to the rest of the plant.",
+      "function": "Transports sugar food from the leaves to the rest of the plant.",
+      "whereItIs": "In the outer ring of the stem tubes.",
+      "whyItMatters": "It shares the plant's food with all its parts and storage.",
+      "quizId": "stem-q-phloem"
+    }
+  ]
+}

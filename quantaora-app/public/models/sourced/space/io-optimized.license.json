@@ -1,0 +1,25 @@
+{
+  "asset": "io-optimized.glb",
+  "derivedFrom": "io.glb",
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/i/Io_1_3643.glb",
+  "resourcePage": "https://science.nasa.gov/resource/io-3d-model",
+  "creator": "NASA Visualization Technology Applications and Development (VTAD)",
+  "license": "Public domain (U.S. Government work, science.nasa.gov / NASA media usage guidelines)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "processingNote": "Asset Optimization Wave 2 (2026-08-18): texture-downscale-only derivative. The embedded baseColorTexture (4096x2048 px) exceeded the project's 2048px-longest-edge texture budget, so it was downscaled to 2048x1024 px (max 2048 on the longest edge, aspect ratio preserved, never upscaled) using `gltf-transform resize --width 2048 --height 2048` (Lanczos3 filtering, `@gltf-transform/cli` 4.4.2). This is a pure texture operation — mesh geometry, UVs, vertex count, triangle count, node/scene structure, and material assignment are byte-for-byte identical to the source (verified via `gltf-transform inspect`: vertex and triangle counts match exactly, only the image bytes and reported texture resolution changed). No license or attribution facts changed from the original — this derivative carries forward the exact same provenance as io.glb, listed above. Original file preserved unmodified alongside this derivative; nothing was deleted or overwritten. STATUS: visual-review-pending — this agent is not authorized to self-approve visual quality after downscaling; a human/dedicated visual reviewer must confirm the reduced texture still reads correctly at expected hotspot-zoom levels before this derivative is wired into any route or registry.",
+  "fileSizeBytes": 6001304,
+  "sha256": "a8173d7f9851742ab85236c0f6012ddde03380881e5291d18e510146773369cc",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "geometryUnchanged": true,
+    "textureDimensionsBefore": "4096x2048",
+    "textureDimensionsAfter": "2048x1024",
+    "fileSizeBeforeBytes": 17479700,
+    "fileSizeAfterBytes": 6001304,
+    "visualReviewStatus": "visual-review-pending"
+  }
+}

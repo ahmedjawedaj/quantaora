@@ -1,0 +1,65 @@
+{
+  "componentId": "product",
+  "questions": [
+    {
+      "id": "product-q-definition",
+      "conceptId": "product-created-by-reaction",
+      "hotspotId": "hs-product-made",
+      "prompt": "What is a product in a chemical reaction?",
+      "options": [
+        "A new substance created by the reaction",
+        "The starting material before the reaction",
+        "The energy the reaction gives off",
+        "The arrow in the equation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A product is a new substance that the reaction creates from the reactants.",
+      "misconception": "The starting material is the reactant, and energy is not a product in this sense — the product is the new substance formed on the right."
+    },
+    {
+      "id": "product-q-position",
+      "conceptId": "product-right-of-equation",
+      "hotspotId": "hs-product-form",
+      "prompt": "Where are products written in a chemical equation?",
+      "options": [
+        "On the RIGHT side of the arrow",
+        "On the LEFT side of the arrow",
+        "In the middle of the arrow",
+        "Before the reactants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Products are always written on the right of the arrow; reactants are on the left.",
+      "misconception": "The left side belongs to reactants — the right side is where the products appear."
+    },
+    {
+      "id": "product-q-atoms",
+      "conceptId": "product-new-substance",
+      "hotspotId": "hs-product-atoms",
+      "prompt": "Where do a product's atoms come from?",
+      "options": [
+        "Exactly from the reactants — they are rearranged, not new",
+        "From the air around the reaction",
+        "They are created fresh during the reaction",
+        "From the energy of the reaction"
+      ],
+      "correctIndex": 0,
+      "explanation": "A product's atoms are exactly the reactant atoms, reconnected — nothing is created or destroyed.",
+      "misconception": "Atoms are never created or destroyed in a chemical reaction — the product simply rearranges the atoms the reactants already had."
+    },
+    {
+      "id": "product-q-mass",
+      "conceptId": "product-new-substance",
+      "hotspotId": "hs-product-made",
+      "prompt": "How does the mass of the products compare to the mass of the reactants?",
+      "options": [
+        "They are equal — atoms are conserved",
+        "Products are always lighter",
+        "Products are always heavier",
+        "There is no relationship"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the product atoms are exactly the reactant atoms, the total mass never changes — conservation of mass.",
+      "misconception": "Products never lose or gain atoms, so they can never weigh more or less — the mass is always equal on both sides."
+    }
+  ]
+}

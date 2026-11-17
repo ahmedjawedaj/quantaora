@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://quaternius.com/packs/ultimatecrops.html",
+  "sourceDownloadUrl": "https://drive.google.com/drive/folders/1uhbi-NWp7pwqOGtraBZurbphyxAvoABZ",
+  "packName": "Ultimate Crops Pack (Quaternius)",
+  "originalFilename": "Flower_3.glb",
+  "creator": "Quaternius (quaternius.com, @quaternius)",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attributionRequired": false,
+  "attributionNote": "Not legally required under CC0; project convention credits Quaternius in in-app/docs credits anyway, consistent with the existing quaternius-ultimate-nature import.",
+  "redistributionStatus": "Permitted without restriction under CC0. Redistributed here as a converted GLB derived from the original FBX asset (geometry + material colors only; no textures; no animation/skeleton -- stripped during conversion because assimp's glTF2 exporter failed to write skinned/animated meshes from this pack, static-mesh export via OBJ intermediate succeeded).",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 11172,
+  "sha256": "ca45b9f8e9281982fe4a79d1d84574d191c7b02304b27e2899b654d118fce20e",
+  "validation": {
+    "glbMagicHeaderValid": true,
+    "glTFVersion": 2,
+    "totalLengthMatchesFileSize": true,
+    "scenes": 1,
+    "nodes": 2,
+    "meshes": 1,
+    "materials": 2,
+    "textures": 0,
+    "animations": 0,
+    "accessors": 6,
+    "boundingBoxMin": [
+      -0.10006465762853622,
+      -0.09777169674634933,
+      2.2250738585072014e-308
+    ],
+    "boundingBoxMax": [
+      0.09408112615346909,
+      0.10146939754486084,
+      0.5068341493606567
+    ],
+    "renderInspected": false,
+    "notes": "Validated via Node script parsing GLB binary header + JSON chunk only; not opened in a 3D viewer. Bounding box derived from the POSITION accessor min/max. Units are meters (glTF convention) as authored by Quaternius; unverified against real-world scale."
+  },
+  "note": "Flower growth stage 3 of 4."
+}

@@ -1,0 +1,86 @@
+{
+  "id": "bar-chart",
+  "subject": "math",
+  "title": "Bar Chart",
+  "summary": "A bar chart shows data as bars whose height shows the count. Explore how bars compare categories at a glance and how the tallest bar tells the story.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "bar-chart-definition",
+    "bar-chart-axes",
+    "bar-chart-read",
+    "bar-chart-compare"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Charts",
+    "systemOrGroup": "Representing data",
+    "component": "Bar chart",
+    "displayPath": "Math > Data And Statistics > Charts > Representing data > Bar chart"
+  },
+  "crossReferences": [
+    {
+      "label": "Table (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Table",
+      "note": "Bar charts usually show the numbers found in a table."
+    },
+    {
+      "label": "Data point (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Data point",
+      "note": "Each bar's height summarizes many data points in a category."
+    },
+    {
+      "label": "Line graph (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Line graph",
+      "note": "Line graphs track changes; bar charts compare categories."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Charts > Representing data",
+  "compareCandidate": {
+    "label": "Bar chart vs. line graph",
+    "description": "Bar charts compare separate categories by height; line graphs connect points to show change over time."
+  },
+  "parts": [
+    "The category axis",
+    "The value axis",
+    "The bars"
+  ],
+  "processes": [
+    "Reading a bar's value",
+    "Comparing categories quickly"
+  ],
+  "plainLanguageExplanation": "A bar chart shows data as bars standing on a category axis (the bottom) and reaching up to a value on the value axis (the side). One bar per category, and the bar's height shows how many — votes, students, dollars, anything counted. To read a bar, run a line from its top to the value axis. The tallest bar shows the biggest category; the shortest shows the smallest. Bar charts make comparing categories a glance instead of a brain-twist.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Data shown as bars by height" },
+    { "label": "Category axis", "value": "Bottom — the groups being compared" },
+    { "label": "Value axis", "value": "Side — the counts or amounts" },
+    { "label": "Read it", "value": "Bar top to the value axis" },
+    { "label": "Compare", "value": "Tallest bar = biggest category" },
+    { "label": "Good for", "value": "Comparing categories at a glance" }
+  ],
+  "whyItMatters": "Bar charts are the most common chart in the world — election results, budget breakdowns, and survey answers are almost always shown as bars. Reading one is a core life skill.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Bar chart",
+  "tagline": "Heights that compare at a glance",
+  "didYouKnow": "Bar charts are one of the oldest chart types — Niclaus of Cusa drew a bar-like chart back in 1440; a full modern bar chart appeared in William Playfair's 1786 atlas, more than two centuries ago.",
+  "conditions": [
+    "Election results",
+    "Survey answers",
+    "Sports points",
+    "Sales by month"
+  ],
+  "compareCandidateId": "line-graph",
+  "compareReason": "Students reach for the same chart for every purpose — comparing category bars with trend lines shows when each chart is the right tool."
+}

@@ -1,0 +1,134 @@
+{
+  "id": "orbit-simulator",
+  "componentId": "orbit-simulator",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/solar-system/orbit-simulator.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/solar-system/orbit-simulator.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: generated at runtime from three.js primitives by a scene-builder module, not a GLB. `url` is a placeholder pointing to where that scene-builder module should live following this project's conventions. `thumbnailUrl` is a placeholder PNG following the standard asset-folder convention (spec section 21). `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated values derived from the assetBrief — a starting point for the dev implementing the scene-builder, verified against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0,
+      3.4,
+      8.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      3.4,
+      8.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Sun (gravitational anchor)",
+    "Orbit rings (Mercury–Neptune)",
+    "Running planet markers + trails",
+    "Asteroid belt ring",
+    "Gravity-tug arrows overlay"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-sun-center",
+      "label": "The Sun",
+      "conceptId": "sun-is-gravitational-center",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "description": "The gravitational anchor at the center of every orbit. Its mass is what bends every planet's path into a loop.",
+      "positionHint": "Scene origin. A large matte cream sphere with soft granulation; the orbit rings pass around it so every ring's focus sits slightly off-center relative to it.",
+      "color": "#E8A33D",
+      "function": "Anchors the simulator — every orbit, every year, is defined relative to it."
+    },
+    {
+      "id": "hs-earth-orbit",
+      "label": "Earth's orbit",
+      "conceptId": "orbits-are-ellipses",
+      "position": [
+        0,
+        0,
+        3.1
+      ],
+      "description": "Earth's near-circular ellipse at 1 AU. A running marker travels the ring, trailing a short faint trace; one lap takes one year.",
+      "positionHint": "The ring at radius ~3.1 scene units, slightly tilted (eccentricity exaggerated only a little for legibility). The hotspot anchors where the Earth marker sits at default load.",
+      "color": "#6B85A8",
+      "function": "Represents Earth's yearly loop, the reference orbit for the whole model."
+    },
+    {
+      "id": "hs-mercury-orbit",
+      "label": "Mercury's orbit",
+      "conceptId": "farther-orbits-slower",
+      "position": [
+        0,
+        0,
+        1.2
+      ],
+      "description": "The smallest, fastest loop: 88-day year.",
+      "positionHint": "Innermost ring, radius ~1.2 scene units. The marker dashes around it noticeably faster than Earth's.",
+      "color": "#A6B0C4",
+      "function": "Demonstrates the inner orbit."
+    },
+    {
+      "id": "hs-jupiter-orbit",
+      "label": "Jupiter's orbit",
+      "conceptId": "farther-orbits-slower",
+      "position": [
+        0,
+        0.4,
+        5.9
+      ],
+      "description": "Wide outer orbit at about 5.2 AU (radius ~5.9 scene units) — a single lap takes about 12 years.",
+      "positionHint": "Outer ring just beyond the asteroid belt ring. The belt sits snugly between its radius and Mars's.",
+      "color": "#C9B46E",
+      "function": "Shows the leap in year length."
+    },
+    {
+      "id": "hs-asteroid-belt",
+      "label": "Asteroid belt",
+      "conceptId": "asteroid-belt-mars-jupiter",
+      "position": [
+        0,
+        -0.4,
+        4.3
+      ],
+      "description": "A scattered ring of small rocky bodies orbiting between Mars and Jupiter — a leftover building block of planet making.",
+      "positionHint": "Ring of ~800 small grey-brown spheres between Earth's and Jupiter's rings, radius ~4.3 scene units, spread in three fuzzy sub-bands, tilted differently so it reads as a band not a line.",
+      "color": "#C08B5C",
+      "function": "Marks the region between Mars and Jupiter where the two families of planets split."
+    },
+    {
+      "id": "hs-gravity-tug",
+      "label": "Gravity tug",
+      "conceptId": "gravity-holds-orbits",
+      "position": [
+        -2.0,
+        1.4,
+        1.4
+      ],
+      "description": "A toggleable overlay of small arrows pulling each planet marker toward the Sun — the inward pulling force that bends straight motion into an orbit.",
+      "positionHint": "Floating arrow cluster above Earth's orbit. When toggled on, each marker carries a short thin arrow pointing at the Sun.",
+      "color": "#7FA88A",
+      "function": "Visualizes the inward pull that turns 'going straight' into 'going around.'"
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, no floor grid, no glow, no bloom, no emissive materials (the Sun's surface is a matte cream sphere with baked granulation — no radial glow shader), no cartoon outlines. Read as a top-down plan view of the solar system floating over a soft radial ground-shadow: the Sun at scene origin, eight thin orbit rings expanding outward as flat torus lines (warm grey), running markers as the branch's muted planet colors. Trails behind the markers are short, faint, fading ribbon segments (simple darkening of the marker color, not glowing), and the gravity-tug overlay is golden thin arrows that only appear when that layer is on. Hotspot dots are the only saturated color in the scene.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, roughness ~0.6 for the Sun and markers, ring torii roughness ~0.7 matte ivory lines of a few px thickness (flat-shaded thin torus, not extruded). Markers are plain spheres with baked mottling/banding. No emissive channels — any highlight-on-tap feedback is handled by the app's runtime shader/UI. The gravity-tug arrows are thin flat arrow meshes in a warm amber, at low opacity except the selected one.",
+  "assetBrief": "SUBJECT: A top-down orbit simulator laid out on the scene's local XZ plane with the world Y pointing 'up toward the viewer's eye' — the camera looks down at ~25° elevation so the plane reads as a diagram, not a flat texture. Sun sphere radius 0.5 at origin. Orbit rings: thin torus rings, radii matching a distance-proportional map: Mercury 1.2, Venus 1.7, Earth 2.2, Mars 2.9, asteroid belt 3.9–4.4, Jupiter 5.9, Saturn 8.2, Uranus 11.4, Neptune 14.3 scene units — compressed logarithmically from true AU so the outer planets stay in frame (the Scale component teaches the honest spacing; this component teaches the motion). Asteroid belt: ~600 small grey-brown sphere instances spread across three sub-bands between 3.9 and 4.4 units. Orbit eccentricity: represent only Earth (e~0.017) helpfully — exaggerate to ~0.08 so the 'squashed ellipse, Sun not centered' point is visible but not cartoon exaggeration; all other rings are drawn circular for legibility at this zoom. Behavior: each planet is an independent marker that advances along its ring at (logged) relative speeds matching real orbital periods at an accelerated time scale, pausing/resuming per the Run/Speed controls; optional pause on marker to let the learner hold one planet. The gravity-tug layer adds thin amber arrows from each marker pointing at the Sun's center, animated with a subtle 0.2-0.3 amplitude breathing so the 'constant pull' reads. Time-compression scale bar at scene bottom (dynamic). Default camera position [0, 3.4, 8.2] target [0,0,0] — about 30deg elevation, all eight rings contained. Auto mode rotates the camera slowly (~60s/rev), paused while any marker is 'grabbed'. Grounding: radial ground-shadow under the Sun. Named groups per layers list.",
+  "visual": {
+    "shape": "orbit-loop"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "lungs",
+  "subject": "biology",
+  "title": "Lungs",
+  "summary": "The lungs are the body's air-exchange organs - soft spongy sacs that bring in oxygen and let out carbon dioxide. Explore the branching airways and the tiny air sacs where gas exchange happens.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "alveoli-gas-exchange",
+    "bronchial-tree",
+    "breathing-airflow",
+    "oxygen-carbon-dioxide"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Respiratory system",
+    "component": "Lungs",
+    "displayPath": "Biology > Human Anatomy > Respiratory system > Lungs"
+  },
+  "crossReferences": [
+    {
+      "label": "Breathing (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Breathing",
+      "note": "The mechanics of breathing in and out - how the diaphragm and ribcage move air - is the breathing process."
+    },
+    {
+      "label": "Heart (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Heart",
+      "note": "The right side of the heart pumps blood through the lungs, where it picks up oxygen in the alveoli."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Respiratory system > Lungs",
+  "compareCandidate": {
+    "label": "Lungs vs. gills",
+    "description": "Lungs are internal air sacs that take oxygen from the air; fish gills are feathery structures that take oxygen dissolved in water. Both perform gas exchange, but in very different environments."
+  },
+  "parts": [
+    "Windpipe (trachea)",
+    "Bronchi",
+    "Bronchioles",
+    "Alveoli",
+    "Lung lobes",
+    "Pleura membrane"
+  ],
+  "processes": [
+    "Breathing air in and out",
+    "Exchanging oxygen and carbon dioxide in the alveoli",
+    "Moving oxygen into the blood"
+  ],
+  "plainLanguageExplanation": "The lungs are two soft, spongy organs inside the chest. When you breathe in, air travels down your windpipe and divides into branching tubes (bronchi and bronchioles) that end in millions of tiny clusters of air sacs called alveoli. The alveoli are wrapped in a network of tiny blood vessels, and it is here that oxygen crosses into the blood and carbon dioxide crosses out to be breathed away. The lungs are covered by a smooth membrane and are protected by the ribcage. The right lung has three lobes and the left lung has two, because the heart sits on the left side.",
+  "keyFacts": [
+    {
+      "label": "Job",
+      "value": "Bring oxygen into the blood and remove carbon dioxide"
+    },
+    {
+      "label": "Airways",
+      "value": "Windpipe divides into bronchi and bronchioles"
+    },
+    {
+      "label": "Air sacs",
+      "value": "Millions of tiny alveoli where gas exchange happens"
+    },
+    {
+      "label": "Lobes",
+      "value": "Right lung 3 lobes, left lung 2 (room for the heart)"
+    },
+    {
+      "label": "Spongy",
+      "value": "Soft, spongy tissue covered by a smooth membrane"
+    },
+    {
+      "label": "Protection",
+      "value": "Protected by the ribcage"
+    }
+  ],
+  "whyItMatters": "The lungs keep every cell in your body supplied with oxygen and clear it of carbon dioxide. Understanding them explains why you breathe faster during exercise, why smoking is harmful, and how the respiratory system works.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Lungs (Pulmones)",
+  "tagline": "The body's air exchangers",
+  "didYouKnow": "Your lungs together contain around 480 million alveoli - if spread out flat they would cover an area about the size of a tennis court.",
+  "conditions": [
+    "Asthma",
+    "Pneumonia",
+    "Bronchitis"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Respiratory system > Lungs",
+  "plain": "The lungs are two soft, spongy organs inside the chest. When you breathe in, air travels down your windpipe and divides into branching tubes (bronchi and bronchioles) that end in millions of tiny clusters of air sacs called alveoli. The alveoli are wrapped in a network of tiny blood vessels, and it is here that oxygen crosses into the blood and carbon dioxide crosses out to be breathed away. The lungs are covered by a smooth membrane and are protected by the ribcage. The right lung has three lobes and the left lung has two, because the heart sits on the left side."
+}

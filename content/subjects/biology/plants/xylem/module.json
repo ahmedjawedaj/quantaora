@@ -1,0 +1,100 @@
+{
+  "id": "xylem",
+  "subject": "biology",
+  "title": "Xylem",
+  "summary": "Xylem is the plant tissue that carries water and minerals upward from the roots to the leaves. Explore its tube-in-tube structure and how it moves life-giving water through the whole plant.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "xylem-carries-water",
+    "xylem-from-root-to-leaf",
+    "xylem-organic-tubes",
+    "water-and-minerals"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Transport",
+    "systemOrGroup": "Plant transport tissues",
+    "component": "Xylem",
+    "displayPath": "Biology > Plants > Plant Transport > Plant transport tissues > Xylem"
+  },
+  "crossReferences": [
+    {
+      "label": "Phloem (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Phloem",
+      "note": "Xylem carries water up; phloem carries food down. They work as two opposite transport systems in the plant."
+    },
+    {
+      "label": "Root (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Root",
+      "note": "Water and minerals enter the plant through the root, then travel up the xylem."
+    },
+    {
+      "label": "Leaf (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Leaf",
+      "note": "The xylem brings water right up to the leaves, where it is used to make food."
+    }
+  ],
+  "belongsTo": "Plants > Plant Transport > Plant transport tissues",
+  "compareCandidate": {
+    "label": "Xylem vs. phloem",
+    "description": "Xylem carries water and minerals upward, from root to leaf. Phloem carries food (sugar) from the leaves to the rest of the plant. They carry different materials in different directions."
+  },
+  "parts": [
+    "Water-stream tubes",
+    "Vessel element (tube segment)",
+    "Root entry (soil water)",
+    "Leaf exit"
+  ],
+  "processes": [
+    "Moving water and minerals upward",
+    "Supplying the leaves with water for photosynthesis",
+    "Water carrying up from root hairs to leaves"
+  ],
+  "plainLanguageExplanation": "Xylem is a transport tube that runs all the way through a plant, from the roots up the stem to the leaves. Its job is to carry water and dissolved minerals upward. It is made of a tissue of hollow tubes lined up end to end. Water enters the root in the root hairs the soil, then travels up the xylem and finally reaches the leaves, where it is used in photosynthesis. As water moves up some of it is also lost from the leaves.",
+  "keyFacts": [
+    {
+      "label": "Direction",
+      "value": "Carries water and minerals upward, root to leaf"
+    },
+    {
+      "label": "Material carried",
+      "value": "Water and dissolved minerals from the soil"
+    },
+    {
+      "label": "Structure",
+      "value": "A tissue of joined tubes running the length of the plant"
+    },
+    {
+      "label": "Starts",
+      "value": "In the roots where water is absorbed"
+    },
+    {
+      "label": "Ends",
+      "value": "In the leaves, where water is used up and lost"
+    }
+  ],
+  "whyItMatters": "Every plant needs water, and xylem is the pipe that delivers it from the soil all the way to the leaves. Understanding xylem explains how water travels through a plant and how a tree keeps all its leaves watered high above the ground.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Xylem",
+  "tagline": "The plant's one-way water highway",
+  "didYouKnow": "Some xylem tubes run the full height of a tall tree, carrying water from deep in the ground up to the highest leaves.",
+  "conditions": [
+    "Water transport",
+    "Transpiration"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Transport > Plant transport tissues > Xylem"
+}

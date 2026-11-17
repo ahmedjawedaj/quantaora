@@ -1,0 +1,80 @@
+{
+  "componentId": "planet-size-comparison",
+  "questions": [
+    {
+      "id": "psize-q-largest",
+      "conceptId": "jupiter-largest-planet",
+      "hotspotId": "hs-jupiter",
+      "prompt": "Which is the largest planet in the solar system?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Uranus",
+        "Earth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jupiter is the largest planet — its radius is about 11 times Earth's, and it holds more mass than all the other planets combined.",
+      "misconception": "Saturn looks enormous because of its rings, which makes it easy to overestimate its size — but Jupiter's sphere is clearly the largest."
+    },
+    {
+      "id": "psize-q-1300",
+      "conceptId": "volume-grows-with-cube",
+      "hotspotId": "hs-volume-note",
+      "prompt": "Jupiter's radius is about 11 times Earth's. Roughly how many Earths could fit inside Jupiter by volume?",
+      "options": [
+        "About 11",
+        "About 130",
+        "About 1,300",
+        "About 11,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Volume grows with the cube of the radius: 11 × 11 × 11 = 1,331, so about 1,300 Earths fit inside Jupiter's volume.",
+      "misconception": "It is tempting to just multiply by 11 — but spheres are three-dimensional, and volume scales with the radius cubed, which is why the number jumps so much."
+    },
+    {
+      "id": "psize-q-smallest",
+      "conceptId": "mercury-smallest-planet",
+      "hotspotId": "hs-mercury",
+      "prompt": "Which is the smallest of the eight planets?",
+      "options": [
+        "Mars",
+        "Mercury",
+        "Venus",
+        "Pluto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mercury is the smallest planet — radius about 0.38 times Earth's. Pluto is smaller still, but it is a dwarf planet, not one of the eight planets.",
+      "misconception": "Pluto is often remembered as 'the small one,' and Mars is remembered as 'the little red planet' — but among the eight official planets, Mercury holds the record for smallest."
+    },
+    {
+      "id": "psize-q-sun",
+      "conceptId": "sun-dwarfs-all-planets",
+      "hotspotId": "hs-sun",
+      "prompt": "How does the Sun's radius compare with Earth's?",
+      "options": [
+        "About 2 times bigger",
+        "About 109 times bigger",
+        "About 10 times bigger",
+        "About the same size"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sun's radius is about 109 times Earth's — more than a million Earths would fit inside its volume.",
+      "misconception": "Posters that show the Sun a few times bigger than the planets for readability make it easy to forget that the Sun swallows over a million Earths."
+    },
+    {
+      "id": "psize-q-venus-twin",
+      "conceptId": "size-comparison-at-one-scale",
+      "hotspotId": "hs-earth",
+      "prompt": "Which planet is closest to Earth in size?",
+      "options": [
+        "Mars",
+        "Mercury",
+        "Venus",
+        "Neptune"
+      ],
+      "correctIndex": 2,
+      "explanation": "Venus's radius is about 0.95 times Earth's — nearly identical — which is why Venus is often called Earth's twin by size.",
+      "misconception": "Mars gets remembered as 'Earth-like' because of its history and missions, but its radius is only about half of Earth's; Venus is the true size twin."
+    }
+  ]
+}

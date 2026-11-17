@@ -1,0 +1,89 @@
+{
+  "id": "percent",
+  "componentId": "percent",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/fractions-and-ratios/percent/percent.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/fractions-and-ratios/percent.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.8
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.8
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Percent grid",
+    "Fill slider",
+    "Fraction and decimal cards"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-grid-percent",
+      "label": "Percent grid",
+      "conceptId": "percent-out-of-100",
+      "position": [
+        -0.8,
+        0.4,
+        0
+      ],
+      "description": "A 10-by-10 grid where each square is one percent \u2014 25 lit squares are 25%.",
+      "positionHint": "The square grid of 100 small squares with some lit amber.",
+      "color": "#D9A441",
+      "function": "Shows percent as squares out of a hundred."
+    },
+    {
+      "id": "hs-fraction-card",
+      "label": "Fraction card",
+      "conceptId": "percent-fraction-decimal",
+      "position": [
+        0.7,
+        0.55,
+        0.3
+      ],
+      "description": "The same amount written as a fraction \u2014 25/100.",
+      "positionHint": "The floating card showing the fraction form.",
+      "color": "#7FA86A",
+      "function": "Shows the percent as a fraction over 100."
+    },
+    {
+      "id": "hs-decimal-card",
+      "label": "Decimal card",
+      "conceptId": "percent-fraction-decimal",
+      "position": [
+        0.7,
+        0.1,
+        0.3
+      ],
+      "description": "The same amount written as a decimal \u2014 0.25.",
+      "positionHint": "The floating card showing the decimal form.",
+      "color": "#6B85A8",
+      "function": "Shows the percent as a decimal."
+    }
+  ],
+  "visualStyleNotes": "Fractions And Ratios, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean 10\u00d710 percent grid beside two cards (fraction and decimal) and a fill slider. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Grid squares: warm paper white (roughness ~0.5); lit squares: warm amber (roughness ~0.45). Cards: warm paper plates with ink text (fraction card shows n/100, decimal card shows 0.n). Fill slider: soft warm-grey rail with amber knob. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: percent as a 10\u00d710 grid where each square is one percent, with live fraction and decimal cards.\n\nGEOMETRY: Percent grid: 100 small squares in 10 rows \u00d7 10 columns (spacing ~0.1) at x \u2248 \u22120.9, y \u2248 0.25. Fill slider at the front lights 0..100 squares; the percent label updates. Two floating cards at x \u2248 0.7 show the same amount as a fraction (25/100) and decimal (0.25). A single-square tap highlights that one square = 1%.\n\nLAYERS (toggleable): (1) grid + lit squares; (2) fraction card; (3) decimal card.\n\nCAMERA: head-on, slightly above, from +z frames grid and cards; labels legible. Budget 7-12k triangles. Named nodes: GridSquares, LitSquares, FillSlider_Knob, FractionCard, DecimalCard, PercentLabel. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "percent-grid-100"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "ray",
+  "subject": "math",
+  "title": "Ray",
+  "summary": "A ray has one endpoint and extends forever in one direction — like a laser beam. Explore how rays are named, how they differ from lines and segments, and how two rays make an angle.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "ray-definition",
+    "ray-naming",
+    "ray-one-direction",
+    "ray-angle"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 6,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Building blocks",
+    "systemOrGroup": "Basic elements",
+    "component": "Ray",
+    "displayPath": "Math > Geometry > Building blocks > Basic elements > Ray"
+  },
+  "crossReferences": [
+    {
+      "label": "Line (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Line",
+      "note": "A ray is part of a line — cut the line at one point and keep going one way."
+    },
+    {
+      "label": "Segment (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Segment",
+      "note": "A segment stops at both ends; a ray stops at only one."
+    },
+    {
+      "label": "Angle (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Angle",
+      "note": "Two rays sharing an endpoint form an angle."
+    }
+  ],
+  "belongsTo": "Geometry > Building blocks > Basic elements",
+  "compareCandidate": {
+    "label": "Ray vs. line",
+    "description": "A line extends forever in BOTH directions; a ray has one endpoint and extends forever in only ONE direction."
+  },
+  "parts": [
+    "The endpoint",
+    "The arrowhead",
+    "The infinite direction"
+  ],
+  "processes": [
+    "Naming a ray endpoint first",
+    "Making an angle with two rays"
+  ],
+  "plainLanguageExplanation": "A ray is a straight path with one endpoint and one infinite direction. Start at the endpoint, go straight, and never stop — like a flashlight beam. You draw a ray with a dot at the endpoint and an arrowhead at the other end. To name it, the endpoint comes FIRST: ray AB starts at A and passes through B. Two rays that share their endpoint make an angle — the shared endpoint is called the vertex.",
+  "keyFacts": [
+    { "label": "Definition", "value": "One endpoint, extends forever one way" },
+    { "label": "Drawn as", "value": "A dot at the start + one arrowhead" },
+    { "label": "Naming", "value": "Ray AB — endpoint A first" },
+    { "label": "Like", "value": "A flashlight or laser beam" },
+    { "label": "Two rays", "value": "Sharing an endpoint form an angle" },
+    { "label": "Endpoint", "value": "Also called the vertex in an angle" }
+  ],
+  "whyItMatters": "Rays model real one-way motion — sunlight, laser pointers, and light beams. They are also the arms of every angle, so understanding rays unlocks angle geometry.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Ray",
+  "tagline": "One way, forever",
+  "didYouKnow": "Sunlight reaching Earth is modeled as rays from the sun — that is why light drawings use arrowheads, showing the light keeps traveling in one direction.",
+  "conditions": [
+    "Naming rays",
+    "Drawing angles",
+    "Modeling light",
+    "Understanding one-way paths"
+  ],
+  "compareCandidateId": "line",
+  "compareReason": "Students mix up rays and lines — comparing shows the single endpoint and single direction that define a ray."
+}

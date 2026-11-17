@@ -1,0 +1,191 @@
+{
+  "id": "plant-cell",
+  "subject": "biology",
+  "url": "/assets/models/biology/cell-biology/plant-cell.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/plant-cell.png",
+  "modelType": "glb-authored",
+  "defaultCamera": {
+    "position": [
+      3.1,
+      2,
+      3.8
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    {
+      "id": "cell-wall-layer",
+      "name": "Cell wall",
+      "description": "Outer rigid boundary"
+    },
+    {
+      "id": "membrane-cytoplasm-layer",
+      "name": "Cell membrane & cytoplasm",
+      "description": "Transport layer + organelle bed"
+    },
+    {
+      "id": "nucleus-core-layer",
+      "name": "Nucleus & genetic core",
+      "description": "Innermost layer"
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cell-wall",
+      "label": "Cell wall",
+      "conceptId": "cell-wall",
+      "position": [
+        0.55,
+        0.05,
+        0.48
+      ],
+      "positionHint": "outer surface, front-right face — thick pale layer visible at the model's outermost silhouette",
+      "description": "The rigid outer layer outside the membrane that gives the plant cell its boxy shape and structural support."
+    },
+    {
+      "id": "hs-cell-membrane",
+      "label": "Cell membrane",
+      "conceptId": "cell-membrane",
+      "position": [
+        0.5,
+        0.03,
+        0.42
+      ],
+      "positionHint": "thin layer just inside the cell wall, front face, visible as a seam when wall layer is toggled off",
+      "description": "The thin flexible boundary just inside the wall that controls what moves into and out of the cell."
+    },
+    {
+      "id": "hs-cytoplasm",
+      "label": "Cytoplasm",
+      "conceptId": "cytoplasm",
+      "position": [
+        0.2,
+        -0.25,
+        0.5
+      ],
+      "positionHint": "open gel-fill region between the vacuole and the membrane, lower-front interior where organelles are visibly suspended",
+      "description": "The jelly-like fluid filling the cell that holds all the organelles in place."
+    },
+    {
+      "id": "hs-nucleus",
+      "label": "Nucleus",
+      "conceptId": "nucleus",
+      "position": [
+        0.1,
+        0.3,
+        0.25
+      ],
+      "positionHint": "large rounded body pressed toward the upper-left interior, offset from center by the vacuole",
+      "description": "The dense control center of the cell, holding the DNA and directing the cell's activities."
+    },
+    {
+      "id": "hs-dna",
+      "label": "DNA",
+      "conceptId": "dna",
+      "position": [
+        0.05,
+        0.08,
+        0.05
+      ],
+      "positionHint": "nested just inside the nucleus, visible when the nucleus is isolated or the cutaway view is active",
+      "description": "The coiled genetic instructions stored inside the nucleus that guide everything the cell builds and does."
+    },
+    {
+      "id": "hs-mitochondrion",
+      "label": "Mitochondrion",
+      "conceptId": "mitochondrion",
+      "position": [
+        0.45,
+        -0.2,
+        0.3
+      ],
+      "positionHint": "small bean-shaped body in the cytoplasm, mid-right, near the membrane",
+      "description": "A bean-shaped organelle that breaks down sugar to release usable energy for the cell."
+    },
+    {
+      "id": "hs-ribosome",
+      "label": "Ribosome",
+      "conceptId": "ribosome",
+      "position": [
+        -0.35,
+        0.25,
+        0.2
+      ],
+      "positionHint": "tiny dot studding the rough ER surface and scattered free in the cytoplasm near it",
+      "description": "A tiny particle that reads genetic instructions to build proteins, often dotted along the ER."
+    },
+    {
+      "id": "hs-er",
+      "label": "Endoplasmic reticulum",
+      "conceptId": "endoplasmic-reticulum",
+      "position": [
+        -0.45,
+        0.3,
+        0.1
+      ],
+      "positionHint": "folded ribbon-like network extending from the nucleus outward into the cytoplasm, upper-mid interior",
+      "description": "A folded network of membranes connected to the nucleus that builds and transports proteins and lipids."
+    },
+    {
+      "id": "hs-golgi",
+      "label": "Golgi apparatus",
+      "conceptId": "golgi-apparatus",
+      "position": [
+        -0.4,
+        0.05,
+        0.15
+      ],
+      "positionHint": "stack of flattened discs near the ER, mid-front interior, slightly below and outward from the ER ribbon",
+      "description": "A stack of flattened sacs that packages and ships proteins to where the cell needs them."
+    },
+    {
+      "id": "hs-vacuole",
+      "label": "Vacuole",
+      "conceptId": "vacuole",
+      "position": [
+        -0.1,
+        -0.05,
+        -0.1
+      ],
+      "positionHint": "single large translucent sphere dominating the cell's central-to-lower interior, visible through the cutaway",
+      "description": "A large fluid-filled sac that stores water and nutrients and keeps the cell firm."
+    },
+    {
+      "id": "hs-chloroplast",
+      "label": "Chloroplast",
+      "conceptId": "chloroplast",
+      "position": [
+        -0.45,
+        -0.28,
+        0.28
+      ],
+      "positionHint": "lens-shaped green bodies clustered just inside the membrane around the cell's perimeter, most visible along the top edge",
+      "description": "A green, lens-shaped organelle that captures sunlight to make food for the cell through photosynthesis."
+    },
+    {
+      "id": "hs-cytoskeleton",
+      "label": "Cytoskeleton",
+      "conceptId": "cytoskeleton",
+      "position": [
+        0.3,
+        -0.35,
+        0.5
+      ],
+      "positionHint": "thin fiber strands running through the cytoplasm, visible as a faint lattice near the membrane edge, lower-left",
+      "description": "A network of thin internal fibers that gives the cell its shape and helps things move within it."
+    }
+  ],
+  "visualStyleNotes": "Match Anatomy Atelier exactly: the model sits alone against a warm off-white canvas with no ground plane, no environment props, no background geometry — negative space does the work. Lighting is a soft three-point studio rig (large diffuse key from upper-front-left, gentle fill from the right, subtle rim to separate the cell's edge from the background) — even, shadowless-feeling, no hard specular hotspots, no rim glow. Materials are matte-to-satin PBR (roughness ~0.55-0.75, minimal metalness ~0), not glossy toy plastic and not textbook-diagram flat color. The vacuole and cell membrane get a very subtle soft translucency/SSS tint (not glassy, not glowing) so they read as \"living tissue\" rather than solid plastic. Palette is desaturated and warm per spec's Biology identity (coral, leaf green, warm paper) rather than saturated primary-color textbook biology charts: cell wall in a pale warm tan/oat, membrane a slightly deeper warm beige, cytoplasm a barely-tinted warm cream, nucleus in dusty coral-rose, chloroplasts in muted sage-leaf green (not neon green), mitochondria in soft terracotta, vacuole in pale desaturated seafoam with faint translucency, ER/Golgi in warm dusty lavender-grey, ribosomes in small warm ochre dots, cytoskeleton fibers in a thin neutral warm grey. Hotspot dots follow Anatomy Atelier's language exactly: small solid-color circular markers (~8-10px at default zoom) that sit flush on or just above the surface they label, with a faint soft-shadow disc beneath for lift, no pulsing animation, no glow ring — a light scale-up and a static outer ring on hover/focus is the only affordance. Typography and card chrome are out of scope for this asset spec but the model must leave generous empty margin on all sides at default framing so hotspot cards can dock beside it without crowding.",
+  "assetBrief": "DELIVERABLE: a single glTF 2.0 binary (.glb) authored plant cell model, Y-up, real-world meters scale, root pivot at the geometric center of the cell (0,0,0), overall bounding box roughly 2.0m (X) x 1.6m (Y) x 2.0m (Z) so it reads as a slightly flattened rounded cuboid -- NOT round like an animal cell. Export via Blender (or equivalent) with Draco compression enabled, texture set baked to a shared 2K atlas (BaseColor + Roughness combined ORM channel, no Metalness map needed since metalness stays 0), triangle budget ~15k-25k tris total (this is a hero showcase asset viewed close-up, not a background prop, but must stay performant on mid-range mobile per spec section 27 performance requirements).\n\nSHAPE LANGUAGE: overall silhouette is a rounded rectangular box (soft-filleted edges, corner radius ~8% of edge length) -- the single biggest visual differentiator from the animal-cell asset in this same content set, which should read as an irregular rounded blob. Do not round the plant cell into a sphere or blob; the boxy-but-soft silhouette IS the plant-cell identity cue at a glance.\n\nSTRUCTURE AND PROPORTIONS (outer to inner):\n1. Cell wall -- outermost shell, uniform thickness ~4% of the cell's cross-section radius, forming the crisp boxy silhouette. Slightly matte, subtly fibrous normal-map detail (very low amplitude -- hint of texture, not corrugated).\n2. Cell membrane -- a thin shell directly inside the wall, only distinguishable when the wall layer is toggled off or in cutaway; give it a barely-different tone and a faint translucency so students visually understand it's a separate, thinner boundary.\n3. Cytoplasm -- fills all interior space not occupied by other organelles; model as the implicit \"background\" material of the interior cavity, very pale warm cream, matte, so organelles read clearly against it.\n4. Vacuole -- the dominant interior feature: one large, rounded (not perfectly spherical -- a soft organic teardrop-ish blob works well) translucent sac occupying roughly 55-65% of the interior volume, positioned centrally-to-lower, pushing everything else toward the periphery. This asymmetry (vacuole crowding the nucleus off-center) is biologically important and must be visually obvious in the cutaway.\n5. Nucleus -- a single rounded body (~12-15% of interior volume), displaced off-center toward one corner/edge because of the vacuole, with a subtly mottled or faintly nested-sphere surface hinting at chromatin without literal chromosome geometry. DNA is represented as a small coiled/thread-like insert visible only when the nucleus is isolated or the cutaway is active -- do not sculpt visible double-helix geometry at this scale; a soft coiled-ribbon abstraction reads better and matches the non-literal, diagram-adjacent style of the reference.\n6. Chloroplasts -- 6-10 small lens/disc-shaped bodies (flattened ellipsoids, not spheres) scattered just inside the membrane around the periphery, denser near faces that would face \"light\" in a real cell (top and one side) -- this placement is itself a teachable visual cue.\n7. Mitochondria -- 4-6 small bean/capsule-shaped bodies scattered through the cytoplasm, distinct from chloroplasts by shape (elongated capsule vs. flattened lens) and color (terracotta vs. sage).\n8. Endoplasmic reticulum -- a folded ribbon/sheet mesh extending from the nucleus surface outward a short distance into the cytoplasm, read as a continuous membrane fold, not a solid blob.\n9. Golgi apparatus -- 4-6 stacked, slightly curved flattened discs near the ER, small enough to be a secondary detail, not competing with the vacuole/nucleus for visual dominance.\n10. Ribosomes -- represented as small dot-cluster instances (low-poly spheres, GPU-instanced or a decal texture) scattered along the rough-ER surface and lightly free-floating in cytoplasm -- implied density is more important than individually sculpted geometry.\n11. Cytoskeleton -- a sparse network of very thin cylindrical fiber strands running from the membrane inward a short distance, kept subtle (thin radius, low contrast tone) so it reads as supporting detail, not clutter.\n\nRIG / PIPELINE REQUIREMENTS: every organelle above must be its own named mesh/node (e.g. organelle_nucleus, organelle_vacuole, organelle_chloroplast_01...08) so the content pipeline can bind hotspot anchors, drive the isolate-mode visibility toggle, and drive the three named layers (wall / membrane+cytoplasm / nucleus core) independently. Include empty anchor nodes at each hotspot's exact surface point, named to match the conceptId values in this spec (cell-wall, cell-membrane, cytoplasm, nucleus, dna, mitochondrion, ribosome, endoplasmic-reticulum, golgi-apparatus, vacuole, chloroplast, cytoskeleton) so the runtime hotspot layer can project them without manual re-authoring. Author a straight planar or wedge cutaway (cross-section) cut roughly through the model's front-right quadrant so the vacuole, nucleus, and ER/Golgi cluster are all visible simultaneously in the default cutaway state -- this is required per spec section 13 cross-section support and is the primary way this model teaches internal structure.\n\nWHAT NOT TO DO: no cartoon faces, eyes, or anthropomorphized organelles; no bright saturated primary-color textbook-diagram palette (red/blue/yellow cell diagrams) -- everything stays in the desaturated warm Anatomy Atelier register; no glossy/plastic toy-shader look, no bloom/glow/emissive rim lighting; no floating baked-in text labels or arrows on the geometry itself (labels are a UI-layer concern, hotspots handle it); no spherical/blob silhouette (that's the animal-cell asset, not this one); no literal double-helix DNA geometry at this scale; no lysosome (plant cells in this taxonomy don't include one -- don't add organelles outside the given part list); no background environment, ground shadow catcher, or scene props -- the cell floats alone on transparent/off-white with only its own soft contact shadow if the runtime renderer adds one.",
+  "productionStatus": "spec-authored-not-yet-modeled",
+  "componentId": "plant-cell",
+  "visual": {
+    "shape": "cell-wall-box"
+  }
+}

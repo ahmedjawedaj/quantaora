@@ -1,0 +1,87 @@
+{
+  "id": "mutation",
+  "subject": "biology",
+  "branch": "genetics",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "name": "Mutation",
+  "scientificName": "Mutation (DNA sequence change)",
+  "title": "Mutation",
+  "summary": "A mutation is a change in the spelling of a DNA sequence — a substitution, insertion, or deletion of one or more nucleotide letters (A, T, C, G). Explore the three basic types, the frameshift effect, why most mutations are harmless, and how mutations are the raw material of all biological diversity.",
+  "hierarchy": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "DNA & Genes",
+    "systemOrGroup": "Gene Expression",
+    "component": "Mutation",
+    "parentPath": "Biology > Genetics > DNA & Genes > Mutation"
+  },
+  "plainLanguageExplanation": "A mutation is a change in the \"spelling\" of a DNA sequence — the long code made of four letters (A, T, C, G) that tells your cells how to build proteins. Think of a gene like a recipe written in a very precise language. Every time a cell copies its DNA before dividing, it's retyping that recipe from scratch, letter by letter. Almost every letter gets copied perfectly, but every so often a letter gets swapped, an extra letter gets typed in, or a letter gets left out entirely. That typo is a mutation. All your genes together — the whole cookbook — add up to billions of letters, but any single gene's recipe is usually only a few thousand letters long, so one typo lands in one recipe at a time. Most mutations are harmless because they land somewhere that doesn't change the recipe's meaning, or the cell's proofreading machinery catches and fixes them. But sometimes a mutation changes a single word in the recipe just enough to change the protein it builds — and that can change how a cell, or a whole living thing, works. Mutations aren't automatically \"bad.\" They're also the raw material of all biological diversity: without mutations across billions of years, there would be no new traits for evolution to work with, and no differences between one living thing and another.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A permanent change in a DNA sequence — a substitution, insertion, or deletion of one or more nucleotide letters (A, T, C, G)."
+    },
+    {
+      "label": "When it happens",
+      "value": "Most often during DNA replication, when the copying machinery makes a rare error; can also be caused by mutagens such as UV light, certain chemicals, and radiation."
+    },
+    {
+      "label": "Three basic types",
+      "value": "Substitution (one letter swapped for another), insertion (extra letter(s) added), deletion (letter(s) removed)."
+    },
+    {
+      "label": "Frameshift effect",
+      "value": "Because the genetic code is read in three-letter chunks (codons), an insertion or deletion that isn't a multiple of three shifts every codon after it, usually scrambling the rest of the protein."
+    },
+    {
+      "label": "Silent vs. impactful",
+      "value": "Some substitutions don't change the amino acid produced at all (silent mutations) because several codons can code for the same amino acid; others change one amino acid (missense) or create a premature stop signal (nonsense)."
+    },
+    {
+      "label": "Cells fight back",
+      "value": "Cells have DNA repair proteins that constantly proofread and fix copying errors, catching the vast majority of mutations before they ever matter."
+    },
+    {
+      "label": "Not always harmful",
+      "value": "A mutation can be harmful, neutral, or occasionally beneficial depending on where it lands and what it changes — beneficial mutations are the basis of adaptation over generations."
+    },
+    {
+      "label": "Heritability depends on location",
+      "value": "A mutation in a body (somatic) cell affects only that individual and is not passed on; a mutation in a sperm or egg (germline) cell can be inherited by offspring."
+    }
+  ],
+  "whyItMatters": "Mutations are the reason living things aren't all identical copies of each other — and the reason life on Earth could ever change and adapt in the first place. Every genetic difference that makes you unique, every new trait that helped an ancestor species survive a changing environment, and every strain of antibiotic-resistant bacteria all trace back to mutations. On the flip side, mutations are also behind many genetic diseases and are a key step in how some cancers develop, which is why understanding them matters for medicine, agriculture (breeding hardier crops), and forensics (DNA differences are what make DNA fingerprinting possible). Learning how a tiny one-letter typo in DNA can ripple all the way up to change an entire organism is one of the clearest windows into how life's code actually works.",
+  "parts": [
+    "Substitution mutation",
+    "Insertion mutation",
+    "Deletion mutation",
+    "Effect on protein function"
+  ],
+  "processes": [
+    "DNA replication",
+    "DNA repair",
+    "Transcription",
+    "Translation",
+    "Natural selection",
+    "Inheritance"
+  ],
+  "belongsTo": [
+    "DNA replication",
+    "DNA repair"
+  ],
+  "belongsToNote": "Mutation is defined relative to DNA replication: it is what a replication error looks like when the cell's proofreading and repair machinery does not catch and correct it before the next cell division.",
+  "compareCandidate": {
+    "label": "Mutation vs. DNA Replication",
+    "description": "Accurate copying (DNA Replication) vs. the copying \"typo\" that produces a mutation when repair machinery misses it."
+  },
+  "lesson": {
+    "predictionPrompt": "Here are two edits to the same gene: (1) one DNA letter is swapped for another, (2) one extra DNA letter is inserted. Before you see what happens to the protein, predict — which edit is more likely to scramble the rest of the protein, and why?",
+    "practiceItem": "You're given the DNA sequence for a short gene. Apply a substitution, an insertion, and a deletion to three separate copies of it, then use the codon-reading tool to translate each mutated copy into amino acids. For each of the three results, decide: is this a silent, missense, nonsense, or frameshift mutation? Finish by explaining in one sentence why the insertion and deletion behave differently from the substitution.",
+    "checkpoint": "Learner can classify a new, unseen DNA change as substitution/insertion/deletion, correctly predict whether it causes a frameshift, and place mutation in its process chain (replication → [repair misses it] → mutation), before advancing to the next component."
+  },
+  "quizRef": "quiz.json",
+  "modelMetadataRef": "model-metadata.json",
+  "glossaryRef": "glossary.json",
+  "standardsRef": "standards.json"
+}

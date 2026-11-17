@@ -1,0 +1,94 @@
+{
+  "id": "endoplasmic-reticulum",
+  "subject": "biology",
+  "title": "Endoplasmic Reticulum",
+  "summary": "The endoplasmic reticulum (ER) is the cell's internal highway and workshop - a folded membrane network that carries materials and helps build lipids and proteins. Explore its two faces, the rough ER studded with ribosomes and the smooth ER that makes and moves fats.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "rough-er-proteins",
+    "smooth-er-lipids",
+    "membrane-network-transport"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Endoplasmic Reticulum",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Endoplasmic Reticulum"
+  },
+  "crossReferences": [
+    {
+      "label": "Ribosome (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Ribosome",
+      "note": "Ribosomes clamp onto the rough ER to pass their fresh proteins into the cell's shipping system."
+    },
+    {
+      "label": "Golgi apparatus (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Golgi apparatus",
+      "note": "The ER sends its finished proteins and lipids to the Golgi, which sorts and ships them further."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Rough ER vs. smooth ER",
+    "description": "Rough ER is dotted with ribosomes and builds proteins; smooth ER has none and makes fats and processes molecules. Both are one connected network but with different jobs."
+  },
+  "parts": [
+    "Rough ER (with ribosomes)",
+    "Smooth ER (without ribosomes)",
+    "Transport bubbles (vesicles)",
+    "Internal network of membranes"
+  ],
+  "processes": [
+    "Building and folding proteins (rough ER)",
+    "Making lipids (smooth ER)",
+    "Moving materials around the cell"
+  ],
+  "plainLanguageExplanation": "The endoplasmic reticulum is a long, folded network of membranes that spreads through the cytoplasm like a maze of roads. It has two parts with two jobs. The rough ER is dotted with ribosomes, so it is where many proteins are built and folded, then packed into bubbles to ship. The smooth ER has no ribosomes; it makes lipids (fats) and helps process and move many molecules. Together they are the cell's workshop and delivery system, moving materials to other organelles and toward the Golgi for shipping out.",
+  "keyFacts": [
+    {
+      "label": "Nickname",
+      "value": "The cell's highway and workshop"
+    },
+    {
+      "label": "Shape",
+      "value": "A folded network of membranes through the cytoplasm"
+    },
+    {
+      "label": "Rough ER",
+      "value": "Covered in ribosomes; builds and folds proteins"
+    },
+    {
+      "label": "Smooth ER",
+      "value": "No ribosomes; makes lipids and processes molecules"
+    },
+    {
+      "label": "Shipping",
+      "value": "Buds off transport bubbles that carry materials to other parts"
+    }
+  ],
+  "whyItMatters": "The ER is how a cell builds, finishes, and moves its products. Without it, newly made proteins would go nowhere and fats could not be made - the cell's whole production line would stall.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Endoplasmic reticulum",
+  "tagline": "The cell's highway and workshop",
+  "didYouKnow": "The ER is so folded that in a single liver cell its membranes can be several meters long in total.",
+  "conditions": [
+    "Protein transport",
+    "Lipid synthesis"
+  ],
+  "branch": "cell-biology",
+  "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Endoplasmic Reticulum",
+  "plain": "The endoplasmic reticulum is a long, folded network of membranes that spreads through the cytoplasm like a maze of roads. It has two parts with two jobs. The rough ER is dotted with ribosomes, so it is where many proteins are built and folded, then packed into bubbles to ship. The smooth ER has no ribosomes; it makes lipids (fats) and helps process and move many molecules. Together they are the cell's workshop and delivery system, moving materials to other organelles and toward the Golgi for shipping out."
+}

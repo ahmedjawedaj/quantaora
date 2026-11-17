@@ -1,0 +1,46 @@
+{
+  "id": "tides",
+  "subject": "space",
+  "title": "Tides",
+  "name": "Tides",
+  "scientificName": "Lunar tidal bulges",
+  "branch": "Earth In Space",
+  "system": "Earth · pulled by the Moon (and Sun)",
+  "model": "",
+  "tagline": "Two tidal bulges, always — which is why most coastlines get two high tides a day",
+  "summary": "The Moon's gravity pulls hardest on the ocean water closest to it, creating a bulge on that side of Earth. A second bulge forms on the exact opposite side too, because that far water is pulled the least (left behind, in a sense) while Earth itself is pulled toward the Moon in between. As Earth spins through both bulges roughly every 24 hours, most coastlines pass through two high tides and two low tides a day.",
+  "gradeMin": 4,
+  "gradeMax": 7,
+  "skillIds": ["tidal-bulges", "spring-and-neap-tides", "tide-cycle", "differential-gravity"],
+  "type": "simulation",
+  "estimatedMinutes": 11,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Earth In Space",
+    "unit": "Earth's Motion & Cycles",
+    "systemOrGroup": "Earth · pulled by the Moon (and Sun)",
+    "component": "Tides",
+    "displayPath": "Space > Earth In Space > Earth's Motion & Cycles > Earth · pulled by the Moon (and Sun) > Tides"
+  },
+  "belongsTo": ["Earth In Space", "Space"],
+  "keyFacts": [
+    { "label": "Number of tidal bulges", "value": "2 — one facing the Moon, one directly opposite" },
+    { "label": "Typical tide cycle", "value": "About 2 high tides and 2 low tides every ~24 hours 50 minutes" },
+    { "label": "Spring tide", "value": "Sun and Moon aligned (New or Full Moon) — their pulls add up, giving extra-high and extra-low tides" },
+    { "label": "Neap tide", "value": "Sun and Moon at right angles (quarter moons) — their pulls partly cancel, giving milder tides" },
+    { "label": "Main cause", "value": "The Moon's gravity — much closer than the Sun, so it dominates despite the Sun being far more massive" },
+    { "label": "\"Spring\" tide name", "value": "Refers to the tide \"springing up\" higher, not the season" }
+  ],
+  "whyItMatters": "Tides are one of the most everyday, visible pieces of evidence that gravity from something 384,000 km away is constantly acting on Earth right now — coastal life, shipping schedules, and tide-pool ecosystems are all built around this rhythm.",
+  "didYouKnow": "The far-side tidal bulge — the one facing away from the Moon — confuses almost everyone at first, since it feels like the Moon should only pull water toward itself, not push water away on the opposite side.",
+  "conditions": ["Two tidal bulges exist on Earth at all times", "Earth's spin carries coastlines through both roughly every 24 hours 50 minutes", "The Sun's gravity strengthens or weakens the effect depending on alignment"],
+  "compareCandidateId": "axial-tilt-and-seasons",
+  "compareReason": "Both are real, everyday consequences of a body constantly pulling on Earth — tilt (from Earth's own fixed lean) drives the year-long seasonal cycle, while the Moon's gravity drives the twice-a-day tidal cycle. Comparing their very different timescales shows how many independent rhythms Earth actually runs on at once.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

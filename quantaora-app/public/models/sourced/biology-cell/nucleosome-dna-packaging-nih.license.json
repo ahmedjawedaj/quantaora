@@ -1,0 +1,40 @@
+{
+  "asset": "nucleosome-dna-packaging-nih.glb",
+  "componentMapping": "biology > genetics > Chromosome / DNA packaging (bonus asset - shows how DNA coils around histone proteins, supports Chromosome low-level item)",
+  "sourceUrl": "https://3d.nih.gov/entries/3dpx-002662",
+  "sourceEntryId": "3DPX-002662",
+  "underlyingStructureData": "RCSB PDB 3AFA (human nucleosome), CC0 crystallographic data",
+  "creator": "NIH 3D user \"yyszk\"",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC0 1.0 (Public Domain Dedication)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Recommended credit: \"Human nucleosome structure\", NIH 3D (3d.nih.gov, entry 3DPX-002662), derived from RCSB PDB 3AFA. CC0 1.0.",
+  "redistributionStatus": "Unrestricted (CC0 public domain dedication).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/3858/runs/414d964f-0e9a-4f41-a830-ac3bb0848901/output-files/83498",
+  "downloadedVariant": "3AFA-ribbon-rainbow-vis_NIH3D.glb",
+  "fileSizeBytes": 16536576,
+  "sha256": "86847aa2c330b6dcb47aeaa5b51be6d294ea7bcfc4aa6027dad4ecd8f6e8cfd8",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 8,
+    "meshCount": 5,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 20,
+    "sampleBoundsMin": [
+      -56.85606384277344,
+      -37.68168258666992,
+      8.718659400939941
+    ],
+    "sampleBoundsMax": [
+      16.40399742126465,
+      8.957788467407227,
+      89.08334350585938
+    ],
+    "notes": "Exceeds the 15MB hero-asset guideline (16.5MB); ribbon protein/DNA structure at high resolution. Recommend decimation/Draco compression before shipping. Not render-inspected visually in this pass."
+  }
+}

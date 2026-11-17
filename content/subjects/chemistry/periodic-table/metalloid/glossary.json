@@ -1,0 +1,49 @@
+{
+  "componentId": "metalloid",
+  "terms": [
+    {
+      "term": "Metalloid",
+      "conceptId": "metalloid-between-metal-nonmetal",
+      "hotspotId": "hs-metalloid-silicon",
+      "definition": "An element with properties between those of metals and nonmetals.",
+      "function": "Fills the in-between zone of the periodic table and behaves part-way between the two great families.",
+      "whereItIs": "Along the diagonal staircase of the periodic table.",
+      "whyItMatters": "Metalloids like silicon are the foundation of modern electronics.",
+      "relatedConcept": "metalloid-sits-on-staircase",
+      "quizId": "metalloid-q-definition"
+    },
+    {
+      "term": "Staircase",
+      "conceptId": "metalloid-sits-on-staircase",
+      "hotspotId": "hs-metalloid-staircase",
+      "definition": "The zigzag diagonal line on the periodic table that separates the metals from the nonmetals.",
+      "function": "Marks where the metalloids sit — the elements that border both families.",
+      "whereItIs": "The glowing diagonal of tiles across the table section in the model.",
+      "whyItMatters": "The staircase is the table's physical dividing line, and the metalloids live right on it.",
+      "relatedConcept": "metalloid-between-metal-nonmetal",
+      "quizId": "metalloid-q-staircase"
+    },
+    {
+      "term": "Semiconductor",
+      "conceptId": "metalloid-semiconductor",
+      "hotspotId": "hs-metalloid-semi",
+      "definition": "A material that conducts electricity part-way — better than an insulator, worse than a metal — and can be switched.",
+      "function": "Lets electronic devices control electric current precisely, which is how chips compute.",
+      "whereItIs": "The half-filled meter beside the wafer in the model.",
+      "whyItMatters": "Semiconduction is why metalloids like silicon power phones, computers, and solar cells.",
+      "relatedConcept": "metalloid-between-metal-nonmetal",
+      "quizId": "metalloid-q-semiconductor"
+    },
+    {
+      "term": "Silicon",
+      "conceptId": "metalloid-semiconductor",
+      "hotspotId": "hs-metalloid-silicon",
+      "definition": "The most famous metalloid, sitting on the staircase at Group 14; the raw material of computer chips.",
+      "function": "Acts as the semiconductor inside virtually all modern electronic devices.",
+      "whereItIs": "The round wafer at the center of the model.",
+      "whyItMatters": "Silicon's switchable conduction built the digital age.",
+      "relatedConcept": "metalloid-sits-on-staircase",
+      "quizId": "metalloid-q-silicon"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "componentId": "egg-cell",
+  "questions": [
+    {
+      "prompt": "Why is the egg cell the largest cell in the human body?",
+      "options": [
+        "It needs to be large so it can swim faster than a sperm cell",
+        "Large cells always contain more chromosomes than small cells",
+        "It stores nutrients in its cytoplasm to feed the earliest stages of a new embryo",
+        "It grows larger every time it divides, like a muscle cell"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct — the egg cell's size mostly comes from its nutrient-rich cytoplasm, which supplies food and building blocks for the first days of embryonic development before the embryo can get nutrients any other way.",
+      "misconception": "It's a common mix-up to assume bigger means 'more DNA' or 'built for speed' — but the egg cell doesn't move on its own at all (it's carried by cilia), and chromosome count (23) is the same regardless of a cell's size."
+    },
+    {
+      "prompt": "What does the zona pellucida do?",
+      "options": [
+        "It is the part of the egg that contains the DNA",
+        "It forms a protective coating around the egg that normally allows only one sperm cell to fertilize it",
+        "It helps the egg cell move through the fallopian tube on its own",
+        "It produces energy for the egg cell, like a mitochondrion does"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct — the zona pellucida is the tough outer coating surrounding the egg cell. It helps sperm bind and triggers changes after one sperm gets through, which normally blocks additional sperm from entering.",
+      "misconception": "Students often confuse the zona pellucida with the nucleus (where DNA actually is) or assume it's involved in movement or energy production — those are separate jobs handled by other structures, not the zona pellucida."
+    },
+    {
+      "prompt": "How many chromosomes does a human egg cell's nucleus contain?",
+      "options": [
+        "46, the same full set found in most other body cells",
+        "0, because the egg cell has no nucleus at all",
+        "69, three times the normal amount to support the embryo",
+        "23, which is half the usual number so it can combine with a sperm cell's 23 to make a full set"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct — an egg cell has 23 chromosomes, exactly half the usual 46. When it combines with a sperm cell's 23 chromosomes during fertilization, the new cell has a complete set of 46.",
+      "misconception": "It's easy to assume every cell has the same full chromosome count (46) since most body cells do — but egg and sperm cells are special exceptions, each carrying only half, precisely so fertilization restores the full set instead of doubling it."
+    },
+    {
+      "prompt": "What happens during fertilization?",
+      "options": [
+        "A sperm cell's DNA combines with an egg cell's DNA to start a new organism",
+        "The egg cell divides itself in half to create two identical eggs",
+        "The zona pellucida dissolves and the egg cell disappears",
+        "The egg cell releases its cytoplasm into the ovary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct — fertilization happens when a sperm cell successfully gets through the zona pellucida and its DNA joins with the egg cell's DNA, creating a new cell with a complete set of chromosomes that can begin developing into an embryo.",
+      "misconception": "Some learners picture fertilization as the egg 'splitting' or 'vanishing' — but the egg cell doesn't divide itself or disappear; it merges with the sperm cell's genetic material to form one new, combined cell."
+    }
+  ]
+}

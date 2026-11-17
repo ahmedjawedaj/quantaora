@@ -1,0 +1,80 @@
+{
+  "componentId": "displacement",
+  "questions": [
+    {
+      "id": "displacement-q-definition",
+      "conceptId": "displacement-change-in-position",
+      "hotspotId": "hs-displacement-arrow",
+      "prompt": "What is displacement in physics?",
+      "options": [
+        "The straight-line change from its initial position to its final position",
+        "The total length of the path traveled",
+        "The speed of an object",
+        "The average of all the distances along a trip"
+      ],
+      "correctIndex": 0,
+      "explanation": "Displacement is the net change in position — one straight vector from the initial spot to the final spot.",
+      "misconception": "Learners often equate displacement with total path length; the path is distance, displacement ignores it."
+    },
+    {
+      "id": "displacement-q-vector",
+      "conceptId": "displacement-vector",
+      "hotspotId": "hs-displacement-arrow",
+      "prompt": "A student walks 6 m forward then 4 m back from the start. What is the displacement?",
+      "options": [
+        "2 m in the forward direction",
+        "10 m backward",
+        "2 m backward",
+        "4 m forward"
+      ],
+      "correctIndex": 0,
+      "explanation": "Net change: 6 m forward, minus the 4 m returned = 2 m still forward. Direction matters because displacement is a vector.",
+      "misconception": "A common error is averaging the two legs (5 or 4 m) instead of subtracting — displacement is a net difference, not an average."
+    },
+    {
+      "id": "displacement-q-zero",
+      "conceptId": "displacement-net-result",
+      "hotspotId": "hs-zero-test",
+      "prompt": "A runner goes around a 200 m circular track and returns exactly to the starting line. What is the displacement at the finish?",
+      "options": [
+        "0 m",
+        "200 m",
+        "100 m",
+        "400 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the start and final position are the same point, displacement is zero regardless of the 200 m of distance traveled.",
+      "misconception": "Students pick the track length 200 m — that's distance. Displacement asks 'where did I end compared with where I started' and the answer is nowhere new."
+    },
+    {
+      "id": "displacement-q-add",
+      "conceptId": "displacement-add-tip-to-tail",
+      "hotspotId": "hs-displacement-arrow",
+      "prompt": "Two legs: 3 m east then 4 m east. What is the net displacement?",
+      "options": [
+        "7 m east",
+        "1 m east",
+        "3 m from the grid edge",
+        "7 m west"
+      ],
+      "correctIndex": 0,
+      "explanation": "Same direction legs add together: 3 + 4 = 7 m east. Tip-to-tail keeps them pointing the same way.",
+      "misconception": "Some reverse one arrow mentally and get 1 m; reversed signs cancel only when directions oppose each other."
+    },
+    {
+      "id": "displacement-q-velocity",
+      "conceptId": "displacement-vector",
+      "hotspotId": "hs-displacement-arrow",
+      "prompt": "Velocity uses displacement instead of distance. What is the main reason?",
+      "options": [
+        "Velocity is a vector and needs a direction, just like displacement",
+        "Distance is never measured in meters",
+        "Displacement is always a bigger number",
+        "Velocity has no units"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity is displacement per unit time, so it inherits the direction of the displacement — that's why velocity, not speed, is a vector.",
+      "misconception": "Factoids about speed being directionless get inverted here: speed is the scalar that uses distance; velocity is the vector that uses displacement."
+    }
+  ]
+}

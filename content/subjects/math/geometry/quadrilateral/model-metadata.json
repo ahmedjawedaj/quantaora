@@ -1,0 +1,90 @@
+{
+  "id": "quadrilateral",
+  "componentId": "quadrilateral",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/quadrilateral/quadrilateral.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/quadrilateral.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Board",
+    "Quadrilateral plate",
+    "Corner vertices",
+    "Family cards"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-quad-plate",
+      "label": "Quadrilateral",
+      "conceptId": "quadrilateral-definition",
+      "position": [
+        0,
+        0.5,
+        0.15
+      ],
+      "description": "The closed four-sided shape flexing on the board.",
+      "positionHint": "The square plate.",
+      "color": "#D9A441",
+      "function": "The four-sided closed shape."
+    },
+    {
+      "id": "hs-side",
+      "label": "Side",
+      "conceptId": "quadrilateral-definition",
+      "position": [
+        0.8,
+        0.05,
+        0.1
+      ],
+      "description": "One of the four straight sides of the quadrilateral.",
+      "positionHint": "The bottom edge of the plate.",
+      "color": "#7FA86A",
+      "function": "A straight edge of the shape."
+    },
+    {
+      "id": "hs-corner",
+      "label": "Vertex",
+      "conceptId": "quadrilateral-360",
+      "position": [
+        -0.7,
+        0.75,
+        0.2
+      ],
+      "description": "One of the four corners holding an interior angle tag.",
+      "positionHint": "The top-left corner dot.",
+      "color": "#6B85A8",
+      "function": "A corner of the quadrilateral."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A flat quadrilater plate on a board with draggable corner dots, live angle tags, a bracing diagonal option, and a ring of family preset cards. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Quadrilateral plate: warm paper surface (roughness ~0.5). Sides: thin warm-ink strips. Corner dots: small solid warm-ink spheres with tags. Angle arcs: thin curved warm-ink strips with degree tags. Family cards: small warm paper chips floating around the board with ink labels. Diagonal brace: thin amber strip that snaps corner-to-corner. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the quadrilateral family and its flexibility \u2014 a plate morphs between square, rectangle, rhombus, parallelogram, and trapezoid; a push test shows flexing, and a diagonal brace stiffens it into two triangles.\n\nGEOMETRY: A flat square plate on a board with four draggable corner dots A, B, C, D. Angle arc tags at each corner stay displayed, and a total tag always reads 360\u00b0. Around the plate, floating family cards \u2014 Square, Rectangle, Rhombus, Parallelogram, Trapezoid \u2014 morph the plate when tapped. A 'brace it' button adds a diagonal amber strip between opposite corners, locking the plate (it becomes two triangles). A push test sways the unbraced plate.\n\nLAYERS (toggleable): (1) board; (2) quadrilateral plate; (3) corner dots + angle tags; (4) family cards + brace diagonal.\n\nCAMERA: three-quarter from front-left, slightly above, frames plate and cards; labels legible. Budget 7-12k triangles. Named nodes: Board, QuadPlate, CornerDots, AngleTags, TotalTag, FamilyCards, DiagonalBrace. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "quad-prism"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "surface-feature-hotspots",
+  "questions": [
+    {
+      "id": "sfeat-q-red-spot",
+      "conceptId": "great-red-spot-is-a-storm",
+      "hotspotId": "hs-great-red-spot",
+      "prompt": "What is the Great Red Spot on Jupiter?",
+      "options": [
+        "A giant crater",
+        "A storm wider than Earth that has raged for at least 190 years",
+        "A volcano erupting through the clouds",
+        "A shadow cast by one of Jupiter's moons"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Great Red Spot is a persistent storm — a swirling system of gas wider than Earth that has been observed continuously for at least 190 years.",
+      "misconception": "Its name and its still appearance in photos make it easy to mistake for a solid feature like a crater or a mountain — it's moving, churning weather."
+    },
+    {
+      "id": "sfeat-q-olympus",
+      "conceptId": "olympus-mons-tallest-volcano",
+      "hotspotId": "hs-olympus-mons",
+      "prompt": "What is Olympus Mons on Mars?",
+      "options": [
+        "The largest canyon in the solar system",
+        "The tallest volcano in the solar system, about 22 km high",
+        "A dried-up ocean floor",
+        "A crater from an asteroid impact"
+      ],
+      "correctIndex": 1,
+      "explanation": "Olympus Mons is a shield volcano about 22 km tall — nearly three times Mount Everest's height — built up over billions of years of lava flows.",
+      "misconception": "Volcanoes and canyons get mixed up because both are dramatic Mars features — Valles Marineris is the canyon; Olympus Mons is the volcano."
+    },
+    {
+      "id": "sfeat-q-valles",
+      "conceptId": "valles-marineris-canyon-system",
+      "hotspotId": "hs-valles-marineris",
+      "prompt": "About how long is Valles Marineris on Mars?",
+      "options": [
+        "About 1 km",
+        "About 4,000 km — roughly the width of the United States",
+        "About 100,000 km",
+        "About the length of the Grand Canyon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Valles Marineris stretches over 4,000 km across Mars — about as wide as the whole United States — with depths several times the Grand Canyon's.",
+      "misconception": "Comparing it to the Grand Canyon makes it sound modest — Valles Marineris is a canyon system on continental scale, more than ten times longer."
+    },
+    {
+      "id": "sfeat-q-rings",
+      "conceptId": "saturn-rings-ice-and-rock",
+      "hotspotId": "hs-saturn-rings",
+      "prompt": "What are Saturn's rings really made of?",
+      "options": [
+        "A solid sheet of ice",
+        "Countless separate chunks of ice and rock, from dust grains to house-sized boulders",
+        "Frozen methane clouds",
+        "Dust from Saturn's atmosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Saturn's rings are made of enormous numbers of individual pieces of ice and rock, each orbiting Saturn separately — the ring 'sheets' are really crowds of orbiting particles.",
+      "misconception": "Photos make the rings look like solid discs, so it is easy to imagine them as continuous sheets — but each chunk is its own small moon in orbit."
+    },
+    {
+      "id": "sfeat-q-maria",
+      "conceptId": "moon-maria-lava-plains",
+      "hotspotId": "hs-moon-maria",
+      "prompt": "What are the dark patches (maria) on the Moon?",
+      "options": [
+        "Oceans of water",
+        "Ancient plains of solidified lava",
+        "Shadows of Earth",
+        "Areas covered in dark dust only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The maria (Latin for 'seas') are vast plains of ancient basalt lava that flooded impact basins billions of years ago, then cooled and solidified.",
+      "misconception": "Early astronomers really did think they were seas of water — that's where the name comes from — but they are solid volcanic rock, bone-dry."
+    }
+  ]
+}

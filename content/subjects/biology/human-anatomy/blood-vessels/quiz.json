@@ -1,0 +1,80 @@
+{
+  "componentId": "blood-vessels",
+  "questions": [
+    {
+      "id": "bv-q-three",
+      "conceptId": "arteries-carry-away",
+      "hotspotId": "hs-artery",
+      "prompt": "What are the three types of blood vessels?",
+      "options": [
+        "Arteries, veins, and capillaries",
+        "Tubes, pipes, and hoses",
+        "Large, medium, and small",
+        "Red, blue, and clear"
+      ],
+      "correctIndex": 0,
+      "explanation": "The three blood vessel types are arteries (away from heart), veins (back to heart), and capillaries (exchange).",
+      "misconception": "The types are named by their job in circulation, not by size or color."
+    },
+    {
+      "id": "bv-q-artery",
+      "conceptId": "arteries-carry-away",
+      "hotspotId": "hs-artery",
+      "prompt": "What do arteries do?",
+      "options": [
+        "Carry blood away from the heart",
+        "Carry blood back to the heart",
+        "Make blood cells",
+        "Store oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arteries carry blood away from the heart, and their thick walls handle the high pressure of the heart's pumping.",
+      "misconception": "Arteries go OUT from the heart; veins come BACK to it - a classic mix-up."
+    },
+    {
+      "id": "bv-q-vein",
+      "conceptId": "veins-carry-back",
+      "hotspotId": "hs-vein",
+      "prompt": "Why do veins have one-way valves?",
+      "options": [
+        "To stop blood flowing backward toward the heart's return route",
+        "To make blood red",
+        "To add oxygen",
+        "To slow the heart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blood returning to the heart in veins is under low pressure, so one-way valves stop it from sliding backward.",
+      "misconception": "Valves are not about color or oxygen - they are anti-backflow doors for low-pressure return flow."
+    },
+    {
+      "id": "bv-q-capillary",
+      "conceptId": "capillaries-exchange",
+      "hotspotId": "hs-capillary",
+      "prompt": "Where do materials like oxygen actually pass from the blood to cells?",
+      "options": [
+        "In the capillaries",
+        "In the heart",
+        "In the aorta",
+        "In the lungs only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capillaries are so thin that oxygen, nutrients, and waste can pass through their walls to and from the cells.",
+      "misconception": "Exchange happens in the tiny capillaries, not the big vessels or the heart itself."
+    },
+    {
+      "id": "bv-q-pulse",
+      "conceptId": "arteries-carry-away",
+      "hotspotId": "hs-artery",
+      "prompt": "What do you feel when you check your pulse?",
+      "options": [
+        "The push of blood through an artery from each heartbeat",
+        "Air moving in a vein",
+        "Muscle stretching",
+        "Bone clicking"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each heartbeat pushes a wave of blood through the arteries - that wave is the pulse you feel at your wrist.",
+      "misconception": "The pulse is the blood pressure wave in arteries, not air, muscles, or bone."
+    }
+  ]
+}

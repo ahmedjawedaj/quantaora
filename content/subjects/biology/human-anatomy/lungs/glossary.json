@@ -1,0 +1,58 @@
+{
+  "componentId": "lungs",
+  "terms": [
+    {
+      "term": "Lungs",
+      "conceptId": "oxygen-carbon-dioxide",
+      "hotspotId": "hs-alveoli",
+      "definition": "The spongy organs where the body takes in oxygen and lets out carbon dioxide.",
+      "function": "Exchange gases with the blood.",
+      "whereItIs": "Inside the chest, protected by the ribcage.",
+      "whyItMatters": "They keep every cell supplied with oxygen.",
+      "relatedConcept": "alveoli-gas-exchange",
+      "quizId": "lng-q-job"
+    },
+    {
+      "term": "Alveoli",
+      "conceptId": "alveoli-gas-exchange",
+      "hotspotId": "hs-alveoli",
+      "definition": "Tiny air sacs at the end of the airways where gas exchange happens.",
+      "function": "Thin walls let oxygen and carbon dioxide cross.",
+      "whereItIs": "At the ends of the bronchioles.",
+      "whyItMatters": "They are where the actual oxygen pickup happens.",
+      "relatedConcept": "bronchial-tree",
+      "quizId": "lng-q-alveoli"
+    },
+    {
+      "term": "Bronchi",
+      "conceptId": "bronchial-tree",
+      "hotspotId": "hs-bronchi",
+      "definition": "The two main branches of the windpipe leading into the lungs.",
+      "function": "Carry air into each lung.",
+      "whereItIs": "Top of each lung.",
+      "whyItMatters": "They are the entrance roads for air.",
+      "relatedConcept": "alveoli-gas-exchange",
+      "quizId": "lng-q-bronchi"
+    },
+    {
+      "term": "Bronchioles",
+      "conceptId": "bronchial-tree",
+      "hotspotId": "hs-bronchiole",
+      "definition": "The small branching tubes that carry air to the alveoli.",
+      "function": "Route air deeper into the lung.",
+      "whereItIs": "Spreading through the lung tissue.",
+      "whyItMatters": "They deliver air to the exchange sacs.",
+      "relatedConcept": "alveoli-gas-exchange"
+    },
+    {
+      "term": "Pleura",
+      "conceptId": "breathing-airflow",
+      "hotspotId": "hs-pleura",
+      "definition": "The smooth membrane covering the lungs.",
+      "function": "Lets the lungs glide smoothly as they breathe.",
+      "whereItIs": "Around the outside of each lung.",
+      "whyItMatters": "It keeps breathing friction-free.",
+      "relatedConcept": "bronchial-tree"
+    }
+  ]
+}

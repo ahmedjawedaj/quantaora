@@ -1,0 +1,78 @@
+{
+  "id": "protein",
+  "subject": "biology",
+  "title": "Protein",
+  "summary": "A protein is a working molecule your cells build by stringing amino acids together in an order set by a gene, then folding that chain into one precise 3D shape. Explore the raw amino acid chain, watch it fold into its working structure, see how that shape creates the pocket that lets it do its job, and trace it back to the gene instructions that built it.",
+  "gradeMin": 5,
+  "gradeMax": 9,
+  "skillIds": [
+    "amino-acid-chain",
+    "folded-3d-shape",
+    "function-determined-by-shape",
+    "built-from-gene-instructions"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "Gene Expression",
+    "systemOrGroup": "Protein (gene product)",
+    "component": "Protein",
+    "displayPath": "Biology > Genetics > Gene Expression > Protein (gene product) > Protein"
+  },
+  "crossReferences": [
+    {
+      "label": "Gene (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "Gene",
+      "note": "A gene is the section of DNA whose sequence specifies this protein's amino acid order — this component's 'Belongs to' step traces the protein back up to its originating gene."
+    },
+    {
+      "label": "Protein Production Animation (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Ribosome",
+      "note": "The ribosome is the cell structure that reads a gene's copied instructions and links amino acids together to build this component's chain, animated separately in Cell Biology."
+    },
+    {
+      "label": "Mutation (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "Mutation",
+      "note": "A change in a gene's DNA sequence can change the amino acid chain built here, and therefore the folded shape and function this component covers — explored directly in the Mutation component."
+    }
+  ],
+  "belongsTo": "Genetics > Gene Expression > Protein (gene product)",
+  "compareCandidate": {
+    "label": "Protein vs. DNA",
+    "description": "DNA stores the instructions, kept stable and copied inside the cell; a protein is the folded, active molecule built by reading those instructions and doing the actual physical work. Comparing them highlights the difference between a stable instruction manual and the working molecule it produces."
+  },
+  "parts": [
+    "Amino Acid Chain",
+    "Folded 3D Shape",
+    "Function Determined by Shape",
+    "Built from Gene Instructions"
+  ],
+  "processes": [
+    "Transcription",
+    "Translation",
+    "DNA replication",
+    "Protein folding",
+    "Mutation"
+  ],
+  "plainLanguageExplanation": "A protein is a tiny working machine built by your cells out of a chain of building blocks called amino acids. Imagine a long string of pop-together beads that folds itself up into a very specific 3D shape — like origami that folds itself. That folded shape is what lets the protein DO something: some proteins are tiny scissors that cut molecules apart, some are shuttle buses that carry oxygen through your blood, some are message carriers, and some are the bricks and beams that build your muscles and hair. Your genes (sections of DNA) are the instruction manuals that tell your cells exactly which amino acids to string together, and in what order, to build each specific protein.",
+  "keyFacts": [
+    { "label": "Building blocks", "value": "Proteins are made of amino acids linked in a chain; there are 20 different amino acids that living cells commonly use." },
+    { "label": "Shape decides function", "value": "A protein only works correctly once its chain folds into its precise 3D shape — the shape is what lets it grab, cut, carry, or build things." },
+    { "label": "Made from gene instructions", "value": "The order of amino acids in a protein is spelled out by the sequence of a gene, a section of DNA, through the processes of transcription and translation." },
+    { "label": "Huge variety, huge jobs", "value": "The human body makes tens of thousands of different proteins, doing jobs like digesting food (enzymes), fighting germs (antibodies), carrying oxygen (hemoglobin), and building structures (keratin, collagen)." },
+    { "label": "Where they're built", "value": "Proteins are assembled inside cells by structures called ribosomes, following instructions copied from DNA." }
+  ],
+  "whyItMatters": "Proteins are why your body actually works, not just what it's made of. Every time you digest a sandwich, heal a scrape, fight off a cold, or flex a muscle, proteins are doing the physical labor. Even a single tiny change in a protein's shape — from one mutated gene — can cause a disease, which is why scientists who design new medicines spend enormous effort figuring out exactly how proteins are shaped.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

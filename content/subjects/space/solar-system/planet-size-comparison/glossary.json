@@ -1,0 +1,60 @@
+{
+  "componentId": "planet-size-comparison",
+  "terms": [
+    {
+      "term": "Radius",
+      "conceptId": "size-comparison-at-one-scale",
+      "hotspotId": "hs-earth",
+      "definition": "Half the diameter of a sphere — from the center to the surface. The standard way astronomers compare planet sizes.",
+      "function": "Lets every planet be described with one number in Earth-multiples: Mercury 0.38 ×, Earth 1 ×, Jupiter 11 ×.",
+      "whereItIs": "The measurement behind every label on the shelf.",
+      "whyItMatters": "Radius is the cleanest single number for comparing how big a world is.",
+      "relatedConcept": "volume-grows-with-cube",
+      "quizId": "psize-q-largest"
+    },
+    {
+      "term": "Volume",
+      "conceptId": "volume-grows-with-cube",
+      "hotspotId": "hs-volume-note",
+      "definition": "How much space a sphere takes up; for a sphere it grows with the cube of the radius.",
+      "function": "Explains why Jupiter — only 11 × Earth's radius — holds more than 1,300 Earths of volume.",
+      "whereItIs": "Visualized by the fill toggle dropping Earth-sized spheres into Jupiter.",
+      "whyItMatters": "The cube jump (11 → 1,331) is why 'only 11 times wider' still means 'over a thousand times more material.'",
+      "relatedConcept": "size-comparison-at-one-scale",
+      "quizId": "psize-q-1300"
+    },
+    {
+      "term": "Gas giant",
+      "conceptId": "jupiter-largest-planet",
+      "hotspotId": "hs-jupiter",
+      "definition": "A giant planet made mostly of hydrogen and helium with no solid surface near its clouds — Jupiter and Saturn.",
+      "function": "Explains why the two biggest spheres on the shelf are also the two without solid surfaces.",
+      "whereItIs": "The Jupiter and Saturn spheres on the shelf.",
+      "whyItMatters": "The largest planets are the gas giants — size and composition are linked in the solar system.",
+      "relatedConcept": "mercury-smallest-planet",
+      "quizId": "psize-q-largest"
+    },
+    {
+      "term": "Dwarf planet",
+      "conceptId": "mercury-smallest-planet",
+      "hotspotId": "hs-mercury",
+      "definition": "A round world orbiting the Sun that has not cleared its neighborhood — Pluto, Ceres, Eris, Haumea, Makemake.",
+      "function": "Distinguishes Pluto-sized worlds from the eight planets on the shelf.",
+      "whereItIs": "Not on the shelf — mentioned because learners expect Pluto there.",
+      "whyItMatters": "Pluto is smaller than the Moon, so it would sit below Mercury's label; that is why it is not one of the eight planets.",
+      "relatedConcept": "size-comparison-at-one-scale",
+      "quizId": "psize-q-smallest"
+    },
+    {
+      "term": "The Sun",
+      "conceptId": "sun-dwarfs-all-planets",
+      "hotspotId": "hs-sun",
+      "definition": "The star at the solar system's center — radius about 109 × Earth's, more than a million Earths by volume.",
+      "function": "Completes the size ladder behind the shelf.",
+      "whereItIs": "The large warm sphere floating behind the shelf.",
+      "whyItMatters": "The Sun holds 99.8% of the solar system's mass; its size is the scale everything else must be measured against.",
+      "relatedConcept": "size-comparison-at-one-scale",
+      "quizId": "psize-q-sun"
+    }
+  ]
+}

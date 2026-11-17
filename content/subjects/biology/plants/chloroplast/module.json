@@ -1,0 +1,105 @@
+{
+  "id": "chloroplast",
+  "subject": "biology",
+  "title": "Chloroplast",
+  "summary": "A chloroplast is the green food-making organelle inside plant cells. It captures energy from sunlight and uses it with water and carbon dioxide to make sugar - powering the plant through photosynthesis. Explore its internal discs and green pigment.",
+  "gradeMin": 3,
+  "gradeMax": 8,
+  "skillIds": [
+    "chlorophyll-captures-light",
+    "thylakoids-grana",
+    "photosynthesis-in-plant",
+    "chloroplast-green-food-maker",
+    "oxygen-released"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Function",
+    "systemOrGroup": "Organelles inside plant cells",
+    "component": "Chloroplast",
+    "displayPath": "Biology > Plants > Plant Function > Organelles inside plant cells > Chloroplast"
+  },
+  "crossReferences": [
+    {
+      "label": "Chloroplast (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Chloroplast",
+      "note": "The same organelle is covered in the Cell Biology branch as one of the plant cell's special organelles; this Plants entry focuses on its role, place in photosynthesis for life."
+    },
+    {
+      "label": "Leaf (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Leaf",
+      "note": "Chloroplasts are packed inside the fine cells of the leaf, where most photosynthesis happens."
+    },
+    {
+      "label": "Stomata (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Stomata",
+      "note": "Stomata doorways let carbon dioxide in for the chloroplast to use and let oxygen out."
+    }
+  ],
+  "belongsTo": "Plants > Plant Function > Organelles inside plant cells",
+  "compareCandidate": {
+    "label": "Chloroplast vs. mitochondrion",
+    "description": "Chloroplasts capture sunlight to make sugar (food), a job only plants and algae do. Mitochondria release energy from food, a job done in all eukaryotic cells. One builds food, the other spends it."
+  },
+  "parts": [
+    "Outer membrane",
+    "Thylakoid stacks (grana)",
+    "Stroma (fluid)",
+    "Chlorophyll (green pigment)"
+  ],
+  "processes": [
+    "Photosynthesis: making sugar from light, water, and CO2",
+    "Releasing oxygen",
+    "Using plants as the plant's food maker"
+  ],
+  "plainLanguageExplanation": "The chloroplast is the place where a plant makes its own food. It is green because of a pigment called chlorophyll inside it that captures sunlight energy. Inside, chloroplasts contain stacks of flat discs called thylakoids, and a fluid space around them called the stroma. Using sunlight, water, and carbon dioxide, the chloroplast makes sugar (the plant's food) and releases oxygen. Because it captures and uses light, the chloroplast is the organelle at the center of a leaf and of the whole plant's nutrition.",
+  "keyFacts": [
+    {
+      "label": "Where",
+      "value": "Inside the green cells of leaves; an organelle of the plant cell"
+    },
+    {
+      "label": "Green",
+      "value": "From chlorophyll, the pigment that captures sunlight"
+    },
+    {
+      "label": "Main job",
+      "value": "Make sugar by photosynthesis"
+    },
+    {
+      "label": "Formula",
+      "value": "Sunlight + water + CO2 -> sugar + oxygen"
+    },
+    {
+      "label": "Internal discs",
+      "value": "Stacks of flat thylakoid discs (grana)"
+    },
+    {
+      "label": "Only in plants",
+      "value": "In plant cells and some algae, not animals"
+    }
+  ],
+  "whyItMatters": "Chloroplasts are the microscopic powerhouses where plants turn sunlight into food - food that feeds almost every living thing on Earth, and that produces the oxygen we breathe. They are why a green leaf is the kitchen of a plant.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Chloroplast",
+  "tagline": "The green food factory inside cells",
+  "didYouKnow": "A single leaf cell can contain many chloroplasts, and there can be hundreds of thousands in a leaf, all using sunlight to make sugar.",
+  "conditions": [
+    "Photosynthesis",
+    "Chlorophyll"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Function > Organelles inside plant cells > Chloroplast"
+}

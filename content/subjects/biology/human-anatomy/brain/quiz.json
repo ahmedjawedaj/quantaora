@@ -1,0 +1,80 @@
+{
+  "componentId": "brain",
+  "questions": [
+    {
+      "id": "brn-q-cerebrum",
+      "conceptId": "cerebrum-thinking",
+      "hotspotId": "hs-cerebrum",
+      "prompt": "What does the cerebrum mainly handle?",
+      "options": [
+        "Thinking, sensing, and voluntary movement",
+        "Breathing and heartbeat",
+        "Balance only",
+        "Digesting food"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cerebrum is the large outer brain that does thinking, processes senses, and directs movements you choose to make.",
+      "misconception": "Breathing and heartbeat are run automatically by the brainstem, not the cerebrum - different regions, different jobs."
+    },
+    {
+      "id": "brn-q-cerebellum",
+      "conceptId": "cerebellum-balance",
+      "hotspotId": "hs-cerebellum",
+      "prompt": "Which brain region helps you keep your balance and move smoothly?",
+      "options": [
+        "The cerebellum",
+        "The cerebrum",
+        "The brainstem",
+        "The amygdala"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cerebellum, at the back of the brain, coordinates balance and smooth, coordinated movement.",
+      "misconception": "The cerebrum starts a movement you choose, but the cerebellum fine-tunes the balance and smoothness."
+    },
+    {
+      "id": "brn-q-brainstem",
+      "conceptId": "brainstem-automatic",
+      "hotspotId": "hs-brainstem",
+      "prompt": "Which part keeps your heart beating and breathing going without you thinking about it?",
+      "options": [
+        "The brainstem",
+        "The cerebrum",
+        "The hippocampus",
+        "The eyes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The brainstem connects the brain to the spinal cord and runs automatic life functions like breathing and heartbeat.",
+      "misconception": "These automatic jobs don't need the thinking brain - they are run by the brainstem on autopilot."
+    },
+    {
+      "id": "brn-q-memory",
+      "conceptId": "memory-emotion-regions",
+      "hotspotId": "hs-hippocampus",
+      "prompt": "Which structure helps the brain form new memories?",
+      "options": [
+        "The hippocampus",
+        "The cerebellum",
+        "The brainstem",
+        "The skull"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hippocampus, deep inside the brain, helps form new memories and find old ones.",
+      "misconception": "Balance is the cerebellum's job, not memory - the deep hippocampus is the memory center."
+    },
+    {
+      "id": "brn-q-neurons",
+      "conceptId": "cerebrum-thinking",
+      "hotspotId": "hs-cerebrum",
+      "prompt": "What are the brain's signaling cells called?",
+      "options": [
+        "Neurons",
+        "Red blood cells",
+        "Platelets",
+        "Muscle fibers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The brain is made of billions of neurons - nerve cells that send and receive electrical signals.",
+      "misconception": "The brain is not made of muscle or blood cells - neurons are its specialized signaling cells."
+    }
+  ]
+}

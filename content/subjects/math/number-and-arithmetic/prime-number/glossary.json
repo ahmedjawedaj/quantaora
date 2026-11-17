@@ -1,0 +1,50 @@
+{
+  "componentId": "prime-number",
+  "terms": [
+    {
+      "term": "Prime number",
+      "conceptId": "prime-exactly-two-factors",
+      "hotspotId": "hs-prime-tile",
+      "definition": "A whole number greater than 1 that has exactly two factors: 1 and itself.",
+      "function": "7 is prime because only 1 and 7 divide it evenly.",
+      "whereItIs": "The amber tiles in the sieve grid.",
+      "whyItMatters": "Primes are the unique building blocks of all whole numbers."
+    },
+    {
+      "term": "Composite number",
+      "conceptId": "prime-vs-composite",
+      "hotspotId": "hs-composite-tile",
+      "definition": "A whole number greater than 1 that has more than two factors.",
+      "function": "12 is composite because 1, 2, 3, 4, 6, and 12 divide it.",
+      "whereItIs": "The struck-out tiles in the sieve grid.",
+      "whyItMatters": "Composite numbers can be broken into smaller factors, unlike primes."
+    },
+    {
+      "term": "Sieve of Eratosthenes",
+      "conceptId": "prime-detection",
+      "hotspotId": "hs-prime-tile",
+      "definition": "A method of finding primes by repeatedly striking out the multiples of each prime found.",
+      "function": "Leaves only primes standing after the sift.",
+      "whereItIs": "The interactive sift run on the number grid.",
+      "whyItMatters": "It is an efficient, visual way to list all primes up to a limit."
+    },
+    {
+      "term": "Prime factorization",
+      "conceptId": "prime-building-blocks",
+      "hotspotId": "hs-factor-chain",
+      "definition": "Writing a number as a product of prime factors.",
+      "function": "60 is written as 2 × 2 × 3 × 5 — a unique set of primes.",
+      "whereItIs": "The factor chain shown beneath a selected tile.",
+      "whyItMatters": "Every number's factorization is unique, which is why primes underpin fractions and codes."
+    },
+    {
+      "term": "Factor",
+      "conceptId": "prime-exactly-two-factors",
+      "hotspotId": "hs-composite-tile",
+      "definition": "A number that divides another number evenly.",
+      "function": "Primes have exactly two factors; composites have more.",
+      "whereItIs": "Counted per tile by the app's factor test.",
+      "whyItMatters": "Counting factors is the test that sorts primes from composites."
+    }
+  ]
+}

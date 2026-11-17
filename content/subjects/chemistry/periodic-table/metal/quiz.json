@@ -1,0 +1,65 @@
+{
+  "componentId": "metal",
+  "questions": [
+    {
+      "id": "metal-q-properties",
+      "conceptId": "metal-shiny-malleable-conductive",
+      "hotspotId": "hs-metal-sample",
+      "prompt": "Which set of properties describes a typical metal?",
+      "options": [
+        "Shiny, malleable, and a good conductor of heat and electricity",
+        "Dull, brittle, and a poor conductor",
+        "Colorless, odorless, and a gas at room temperature",
+        "Soft and always liquid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metals are shiny (luster), malleable (hammered into sheets), and excellent conductors of heat and electricity.",
+      "misconception": "The dull, brittle, poor-conductor set belongs to nonmetals — the two families are opposites, and mixing their traits is a very common mix-up."
+    },
+    {
+      "id": "metal-q-conduction",
+      "conceptId": "metal-shiny-malleable-conductive",
+      "hotspotId": "hs-metal-conductivity",
+      "prompt": "Why do metals conduct electricity so well?",
+      "options": [
+        "Their loose outer electrons can move freely through the metal",
+        "They are heavier than other elements",
+        "They store electricity inside their atoms",
+        "They are always hot"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metal atoms release loose outer electrons that wander freely between atoms, and that moving charge IS the electric current.",
+      "misconception": "Weight and temperature have nothing to do with conduction — it is the free-moving electrons that let current flow, which is why nonmetals, with tightly held electrons, do not conduct."
+    },
+    {
+      "id": "metal-q-region",
+      "conceptId": "metal-occupies-left-and-middle",
+      "hotspotId": "hs-metal-region",
+      "prompt": "Where do metals sit on the periodic table?",
+      "options": [
+        "On the left side and in the middle",
+        "Only in the last column",
+        "Scattered randomly",
+        "Only on the right side"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metals fill the left side and the middle of the table — about 80% of all elements are metals.",
+      "misconception": "The right side of the table is where nonmetals live; the majority family — metals — owns the left and center."
+    },
+    {
+      "id": "metal-q-ion",
+      "conceptId": "metal-forms-positive-ions",
+      "hotspotId": "hs-metal-sample",
+      "prompt": "In reactions, what do metal atoms tend to do with their outer electrons?",
+      "options": [
+        "Lose them and become positive ions",
+        "Gain extra electrons and become negative ions",
+        "Keep them locked forever",
+        "Share them equally with every atom"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metals tend to lose their loose outer electrons and become positive ions (cations) — which is how they bond with negative nonmetal ions.",
+      "misconception": "It's nonmetals that tend to gain electrons; metals do the opposite — giving theirs away — which is exactly why the two families pair up so well in ionic bonds."
+    }
+  ]
+}

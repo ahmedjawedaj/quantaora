@@ -1,0 +1,120 @@
+{
+  "id": "root",
+  "componentId": "root",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/root/root.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/root.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Soil pulled back",
+    "Whole root system",
+    "Root tip + root cap",
+    "Root hairs",
+    "Xylem tubes (inner)",
+    "Food storage"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-root",
+      "label": "Root system",
+      "conceptId": "root-anchors-plant",
+      "position": [
+        0,
+        -0.1,
+        0.15
+      ],
+      "description": "The branching network of roots that grows downward into the soil, anchoring the plant and absorbing water and minerals.",
+      "positionHint": "The full root mass in the center of the scene, soil parted away.",
+      "color": "#D98A6A",
+      "function": "Anchors the plant and absorbs water and minerals."
+    },
+    {
+      "id": "hs-root-cap",
+      "label": "Root cap",
+      "conceptId": "root-cap-protects",
+      "position": [
+        0,
+        -0.7,
+        0.1
+      ],
+      "description": "A protective covering at the very tip of the root that shields the growing tip as it pushes through soil.",
+      "positionHint": "Small rounded cap at the lowest point of the root tip.",
+      "color": "#D9A441",
+      "function": "Protects the growing tip as it pushes through soil."
+    },
+    {
+      "id": "hs-root-hair",
+      "label": "Root hairs",
+      "conceptId": "root-hairs-absorb-water",
+      "position": [
+        0.25,
+        -0.4,
+        0.15
+      ],
+      "description": "Tiny finger-like extensions just behind the root tip that greatly increase the surface area for absorbing water.",
+      "positionHint": "Fine short hairs clustering just behind the tip of the main root.",
+      "color": "#7FA874",
+      "function": "Boost surface area so the root can soak up more water."
+    },
+    {
+      "id": "hs-xylem",
+      "label": "Xylem tubes",
+      "conceptId": "root-axial-conductivity",
+      "position": [
+        0,
+        -0.2,
+        0.12
+      ],
+      "description": "The inner water-conducting tubes that carry water upward, from the root into the stem.",
+      "positionHint": "Core of the root visible with the outer tissue layer toggled off.",
+      "color": "#6B85A8",
+      "function": "Carries water upward from the root into the stem."
+    },
+    {
+      "id": "hs-store",
+      "label": "Food storage",
+      "conceptId": "root-anchors-plant",
+      "position": [
+        0.15,
+        0,
+        0.2
+      ],
+      "description": "Many roots store extra sugar and starch as a food reserve, like carrots and potatoes.",
+      "positionHint": "Thickened swell on the root with a storage layer cloud toggled on.",
+      "color": "#B5846A",
+      "function": "Stores sugar and starch as a food reserve."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. A clean stylized diorama - muted warm soil browns and calm greens, not cartoon, not cluttered, no glow. Strong saturated color reserved for the flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: an underground root system diorama with the soil parted away to reveal the full root mass. A central taper root with side branches, a protective root cap at the tip, fine root hairs behind the tip, an inner xylem tube revealed by an open scaffold, and a few thickened storage swellings. Warm tonal petals, muted greens and cream-browns. Named nodes: RootSystem, RootTip, RootCap, RootHairs, XylemInner, StorageSwell. Budget 10-14k.",
+  "visual": {
+    "shape": "root-system"
+  }
+}

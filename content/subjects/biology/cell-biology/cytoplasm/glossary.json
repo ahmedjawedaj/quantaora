@@ -1,0 +1,8 @@
+{
+  "componentId": "cytoplasm",
+  "terms": [
+    {"term":"Cytoplasm","conceptId":"cytosol-and-organelles","hotspotId":"hs-fill","definition":"The jelly-like material inside the cell membrane that holds the organelles.","function":"Supports organelles, hosts reactions, and provides the path for transport.","whereItIs":"Everything between the cell membrane and the nucleus.","whyItMatters":"It is the workspace in which all the cell's organelles do their jobs.","relatedConcept":"cytoplasmic-transport","quizId":"cy-q-what-is"},
+    {"term":"Cytosol","conceptId":"cytosol-and-organelles","hotspotId":"hs-cytosol","definition":"The fluid part of the cytoplasm, mostly water with dissolved molecules.","function":"Provides the medium in which reactions happen and materials dissolve.","whereItIs":"Filling the spaces between the organelles.","whyItMatters":"It is the solvent in which the cell's chemistry takes place.","relatedConcept":"site-of-reactions","quizId":"cy-q-cytosol"},
+    {"term":"Cytoplasmic streaming","conceptId":"cytoplasmic-transport","hotspotId":"hs-transport","definition":"The flowing movement of the cytoplasm that carries materials around the cell.","function":"Moves organelles and materials from one region to another.","whereItIs":"Throughout the cytoplasm.","whyItMatters":"It is how the cell distributes materials without a plumbing system.","relatedConcept":"cytosol-and-organelles","quizId":"cy-q-transport"}
+  ]
+}

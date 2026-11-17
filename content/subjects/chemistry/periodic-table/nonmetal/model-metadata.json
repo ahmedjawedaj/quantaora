@@ -1,0 +1,104 @@
+{
+  "id": "nonmetal",
+  "componentId": "nonmetal",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/nonmetal/nonmetal.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/nonmetal.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.8,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.8,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Nonmetal samples",
+    "Brittle test",
+    "Table region",
+    "Gas state"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-nonmetal-samples",
+      "label": "Nonmetal samples",
+      "conceptId": "nonmetal-dull-brittle-poor-conductor",
+      "position": [
+        0,
+        0.3,
+        0
+      ],
+      "description": "A set of nonmetal samples: a matte lump of sulfur, a dark block of carbon, and a small cloud of oxygen gas. All dull, none shiny.",
+      "positionHint": "The cluster of samples at the center of the scene.",
+      "color": "#7FA86A",
+      "function": "Shows real nonmetal samples with their dull, matte look."
+    },
+    {
+      "id": "hs-nonmetal-brittle",
+      "label": "Brittleness",
+      "conceptId": "nonmetal-dull-brittle-poor-conductor",
+      "position": [
+        0.95,
+        0.15,
+        0.1
+      ],
+      "description": "When struck, this sulfur lump shatters into fragments rather than bending like a metal — brittle is the nonmetal way to break.",
+      "positionHint": "The sulfur lump on the right, where the mallet lands when the brittle-test layer is on.",
+      "color": "#D9A441",
+      "function": "Shows that nonmetal solids shatter instead of bending."
+    },
+    {
+      "id": "hs-nonmetal-gas",
+      "label": "Gas state",
+      "conceptId": "nonmetal-gases-and-brittle-solids",
+      "position": [
+        -0.9,
+        0.75,
+        0.15
+      ],
+      "description": "The drifting cloud is oxygen gas — many nonmetals exist as gases at room temperature.",
+      "positionHint": "The small soft cloud above the samples, drifting when the gas-state layer is on.",
+      "color": "#6B85A8",
+      "function": "Shows that many nonmetals are gases at room temperature."
+    },
+    {
+      "id": "hs-nonmetal-region",
+      "label": "Nonmetal region",
+      "conceptId": "nonmetal-occupies-right",
+      "position": [
+        0,
+        -1.3,
+        0.2
+      ],
+      "description": "The highlighted zone on the periodic table is where nonmetals live — the upper right, a smaller family than the metals.",
+      "positionHint": "The highlighted zone in the upper-right corner of the table section below the samples.",
+      "color": "#D96B5A",
+      "function": "Shows where nonmetals sit on the periodic table."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. The nonmetal samples float centered above a table section, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: the sulfur lump is a soft muted mustard, the carbon block a matte graphite, the oxygen cloud a barely-there translucent pale blue-grey. Strong saturated color is reserved entirely for the small flat hotspot dots (molecular green / amber / slate / coral accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Sulfur lump: matte muted mustard, roughness ~0.7. Carbon block: matte graphite, roughness ~0.6. Oxygen cloud: translucent pale blue-grey, alpha ~0.25, roughness ~0.5. Table tiles: paper-white, roughness ~0.55. No emissive channels anywhere — any highlight or animation is handled by app runtime UI, not baked into the asset.",
+  "assetBrief": "SUBJECT: a set of nonmetal samples with their behavior, built to be read as 'the dull, brittle, gas-prone opposites of the metals.' Four procedural layers, all clean primitives:\n\n1) MAIN: a small cluster of samples at the center — (a) a lumpy matte mustard sulfur chunk (~0.8 across, softened blob), (b) a dark matte graphite block (~0.7 cube, chamfered), and (c) a soft translucent pale-blue-grey cloud (several overlapping flattened spheres, alpha ~0.25) representing oxygen gas, hovering above. No shine anywhere.\n\n2) BRITTLE TEST (toggleable layer): a small matte-graphite mallet swings down onto the sulfur lump (the app animates the strike); the lump briefly splits into 3-4 fragments that separate gently. Sulfur, mallet, and fragments all matte.\n\n3) TABLE REGION (toggleable layer): below the samples, a flat section of periodic table (paper-white tiles, ~9 x 5). The upper-right cluster of tiles (last 3 columns, top 2 rows) gets a faint muted cool cast and slight raise — the nonmetal region, separated from the metal region by a thin stair-step boundary line.\n\n4) GAS STATE (toggleable layer): the oxygen cloud expands slightly and drifts in a slow gentle loop (the app animates the drift).\n\nCamera: framed so the sample cluster is large and centered with the table slab below; auto-rotate default. Budget 8-12k triangles. Named nodes: SulfurLump, GraphiteBlock, OxygenCloud, Mallet, Fragments_01-04, TableSlab, NonmetalRegion, StepBoundary. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "nonmetal-molecule"
+  }
+}

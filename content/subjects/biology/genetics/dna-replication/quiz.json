@@ -1,0 +1,65 @@
+{
+  "componentId": "dna-replication",
+  "questions": [
+    {
+      "prompt": "What is the very first thing that has to happen for DNA replication to start?",
+      "options": [
+        "A brand-new DNA molecule appears from nothing",
+        "The cell membrane splits in half",
+        "The DNA double helix unwinds and the two strands separate",
+        "Two DNA molecules combine into one"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct — helicase unwinds the double helix and separates the two strands so each can be used as a template. Without this first unzipping step, there's no exposed strand for the copying machinery to read.",
+      "misconception": "A common misconception is that DNA replication starts by building a new strand out of nowhere — but you can't copy a pattern you haven't exposed yet. The original strands must separate first so their sequence is readable, just like you'd need to open a folded letter before you could copy the words inside it."
+    },
+    {
+      "prompt": "If one strand of DNA reads A-T-C-G, what will its new complementary (matching) strand read?",
+      "options": [
+        "A-T-C-G (identical)",
+        "T-A-G-C",
+        "G-C-A-T",
+        "C-G-T-A"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct — base-pairing rules mean A always pairs with T and C always pairs with G, so reading across from A-T-C-G gives T-A-G-C.",
+      "misconception": "A common misconception is that the new strand should be an identical copy (A-T-C-G) rather than a complementary match. But DNA strands don't copy themselves letter-for-letter onto the new strand — each base pairs with its specific partner (A with T, C with G), producing a matching, not identical, sequence."
+    },
+    {
+      "prompt": "After one full round of DNA replication, what do the two resulting DNA molecules contain?",
+      "options": [
+        "Both are made entirely of new material with no original strand",
+        "Both are made entirely of the original two strands, unchanged",
+        "One molecule is fully old and the other is fully new",
+        "Each has one original (old) strand and one brand-new strand"
+      ],
+      "correctIndex": 3,
+      "explanation": "Correct — this is called semi-conservative replication. Each new DNA molecule 'conserves' one original strand and pairs it with one newly built strand, so every copy is a 50/50 mix of old and new.",
+      "misconception": "A common misconception is thinking replication works like a photocopier that makes an entirely fresh duplicate while the original stays untouched (like a photo you scan and print). Real DNA replication is semi-conservative: the original double helix is taken apart and each old strand becomes half of a new molecule — there's no unchanged 'original' left over."
+    },
+    {
+      "prompt": "Why does it matter that DNA replication is accurate, with built-in proofreading?",
+      "options": [
+        "Copying errors (mutations) can change how a cell or organism functions",
+        "Accuracy only matters for very large animals, not small cells",
+        "DNA replication doesn't actually need to be accurate to work",
+        "Proofreading is only needed if the cell is sick"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct — DNA carries the instructions for building proteins and running the cell, so an uncorrected copying mistake (mutation) can change those instructions, which is why cells proofread and repair errors during replication.",
+      "misconception": "A common misconception is that small copying mistakes don't matter because DNA is 'just information.' In reality, DNA's exact sequence determines how proteins are built, so an error can alter or break a protein's function — this is part of why cells invest energy in proofreading machinery rather than copying carelessly."
+    },
+    {
+      "prompt": "Put the four replication stages in the correct top-to-bottom order as they appear in the 3D model: (A) New complementary strands built, (B) Two identical DNA copies formed, (C) Helix unwinds, (D) Strands separate.",
+      "options": [
+        "D, C, B, A",
+        "A, C, D, B",
+        "C, D, A, B",
+        "C, B, D, A"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct — the model reads top to bottom as: Helix unwinds (C) → Strands separate (D) → New complementary strands built (A) → Two identical DNA copies formed (B). Each stage has to finish before the next one can begin.",
+      "misconception": "A common misconception is assuming the strands separate before helicase unwinds anything, or that new strands appear before the template strands are fully exposed. The order matters because each stage depends physically on the one before it: nothing can be copied until it's unwound and exposed first."
+    }
+  ]
+}

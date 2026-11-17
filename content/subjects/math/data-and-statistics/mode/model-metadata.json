@@ -1,0 +1,90 @@
+{
+  "id": "mode",
+  "componentId": "mode",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/mode/mode.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/mode.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Tally board",
+    "Chip columns",
+    "Counters",
+    "Mode winner"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-mode-chip",
+      "label": "Mode",
+      "conceptId": "mode-definition",
+      "position": [
+        0.0,
+        0.65,
+        0.15
+      ],
+      "description": "The value with the most appearances \u2014 the tallest column.",
+      "positionHint": "The tallest chip column.",
+      "color": "#D9A441",
+      "function": "The most frequent value."
+    },
+    {
+      "id": "hs-counter",
+      "label": "Count",
+      "conceptId": "mode-find",
+      "position": [
+        0.55,
+        0.4,
+        0.2
+      ],
+      "description": "The number of times a value appears \u2014 this decides the mode.",
+      "positionHint": "The counter atop each column.",
+      "color": "#7FA86A",
+      "function": "How often a value occurs."
+    },
+    {
+      "id": "hs-tie-chip",
+      "label": "Tie",
+      "conceptId": "mode-ties",
+      "position": [
+        -0.6,
+        0.55,
+        0.2
+      ],
+      "description": "Two columns tied at the top \u2014 two modes.",
+      "positionHint": "A pair of equal columns.",
+      "color": "#6B85A8",
+      "function": "Shows when modes tie."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A tidy tally board with color chip columns rising from a base, each with a counter chip and the tallest column highlighted. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Tally board: warm paper panel (roughness ~0.5). Chips: small warm paper tiles in desaturated colors (Blue, Red, Green) stacked into columns. Counter chips: small warm paper tiles with ink tallies on each column. Mode winner: amber glow-cue plate under the tallest column. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the mode as the most frequent value \u2014 a board of color chip columns with a counter per color; tapping adds chips; a tie preset shows bimodal; a reset equalizes and shows 'no mode'.\n\nGEOMETRY: A tidy board with three color columns (Blue, Red, Green) of stacked chips. Each column has a small counter plate showing its count. Tapping a color adds a chip and ticks the counter; the tallest column glows under an amber marker as the mode. 'Tie' preset adds chips so two columns reach equal tops \u2014 both glow as bimodal. 'Reset' sets equal chips on every column with no winner.\n\nLAYERS (toggleable): (1) board; (2) color columns; (3) counters; (4) mode marker.\n\nCAMERA: three-quarter from front, slightly above, frames the board; labels legible. Budget 5-9k triangles. Named nodes: Board, ColumnBlue, ColumnRed, ColumnGreen, CounterPlates, ModeMarker, TieCue, ResetBtn. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "mode-stacked-bar"
+  }
+}

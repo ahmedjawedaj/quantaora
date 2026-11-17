@@ -1,0 +1,90 @@
+{
+  "id": "kinetic-energy",
+  "subject": "physics",
+  "title": "Kinetic Energy",
+  "summary": "Kinetic energy is the energy of motion — every moving object carries it, from a rolling skateboard to a flying football. It grows with speed (doubling speed gives FOUR times the energy) and with mass. Explore energy = ½ × mass × speed² on a ramp and track how fast motion turns energy into speed.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "kinetic-energy-of-motion",
+    "kinetic-energy-ke-formula",
+    "kinetic-energy-squared-speed",
+    "kinetic-energy-mass-dependence"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Energy",
+    "unit": "Energy Forms",
+    "systemOrGroup": "Kinetic and Potential Energy",
+    "component": "Kinetic Energy",
+    "displayPath": "Physics > Energy > Energy Forms > Kinetic and Potential Energy > Kinetic Energy"
+  },
+  "crossReferences": [
+    {
+      "label": "Potential energy (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Potential energy",
+      "note": "Kinetic energy is the motion half of stored-up energy — a rolling ball's kinetic energy came from the height's potential energy at the top of the ramp."
+    },
+    {
+      "label": "Speed (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Speed",
+      "note": "Speed is one of the two knobs of kinetic energy — and because it's squared in the formula, speed matters most."
+    },
+    {
+      "label": "Work (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Work",
+      "note": "Work is what pumps energy into motion — do work on a cart and its kinetic energy grows by that amount."
+    }
+  ],
+  "belongsTo": "Energy > Energy Forms > Kinetic and Potential Energy",
+  "compareCandidate": {
+    "label": "Kinetic vs. potential energy",
+    "description": "Kinetic energy is energy of motion (a moving ball); potential energy is stored energy of position (a ball held high). A pendulum swings back and forth between the two."
+  },
+  "parts": [
+    "The gliding cart on a track",
+    "The speedometer and mass sliders",
+    "The energy bar that fills with motion",
+    "The ramp that converts stored energy"
+  ],
+  "processes": [
+    "Building kinetic energy along a glide",
+    "Computing KE = ½mv²",
+    "Seeing speed's square explode the energy",
+    "Converting potential energy on a ramp into kinetic energy"
+  ],
+  "plainLanguageExplanation": "Kinetic energy is the energy a moving thing carries — the energy of motion itself. Anything with mass that moves has some: a rolling ball has a little, a speeding truck has a lot. The amount is given by KE = ½ × mass × speed², measured in joules. Two kinks in that formula are famous. First, speed is squared, meaning doubling the speed doesn't double the energy — it quadruples it (2² = 4). A car at 120 km/h has four times the crash energy of the same car at 60 km/h! Second, mass counts too, but only once. The model hands you a cart on a track with a speed slider: bump the speed and watch the energy bar balloon with the square, while the mass slider scales it more gently. This is the energy behind brakes, crashes, sports, and every bump — the reason faster things hurt far more than they seem.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The energy an object has because it is moving" },
+    { "label": "Formula", "value": "KE = ½ × mass × speed²" },
+    { "label": "Unit", "value": "Joule (J)" },
+    { "label": "Speed is squared", "value": "Double the speed → four times the kinetic energy" },
+    { "label": "Mass counts once", "value": "Double the mass → double the energy" },
+    { "label": "Stored partners", "value": "Slowing down turns kinetic energy back into potential or heat" }
+  ],
+  "whyItMatters": "Kinetic energy is the hammer behind every crash, brake, and fast ball — that's why speed limits exist and why crumple zones must absorb energy safely. Athletes, engineers, and cyclists all reckon with it: wind turbines gather kinetic energy from air, roller coasters spend it, and drivers feel it in the braking distance table. Understanding KE explains why doubling a vehicle's speed quadruples the danger and why light things at speed still hit hard.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Kinetic energy",
+  "tagline": "Energy of motion",
+  "didYouKnow": "A 100 kg cyclist pedaling at 40 km/h has roughly 6,200 J of kinetic energy. If a train at the same speed weighed 600,000 times more, its energy would be 600,000 times bigger — a clear reason trains need enormous stopping distances.",
+  "conditions": [
+    "Car braking distances",
+    "Sports balls and impact force",
+    "Wind turbines gathering energy",
+    "Roller coasters",
+    "Waterfalls and waves"
+  ],
+  "compareCandidateId": "potential-energy",
+  "compareReason": "Motion energy vs. stored energy swinging between a cart rolling and a cart perched high shows the two sides of the energy coin."
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "potential-energy",
+  "questions": [
+    {
+      "id": "pe-q-definition",
+      "conceptId": "potential-energy-of-height",
+      "hotspotId": "hs-block",
+      "prompt": "What is potential energy?",
+      "options": [
+        "Energy that is stored up and waiting",
+        "Energy a moving object already has",
+        "Heat leaking from a machine",
+        "Sound produced by a jinking plank"
+      ],
+      "correctIndex": 0,
+      "explanation": "Potential energy is stored — it waits until it can act, unlike the kinetic energy a moving object carries.",
+      "misconception": "Groups motion energy (kinetic) with stored energy; position, not motion, is what stores it."
+    },
+    {
+      "id": "pe-q-formula",
+      "conceptId": "potential-energy-pe-formula",
+      "hotspotId": "hs-meter",
+      "prompt": "A 4 kg block sits on a 5 m shelf (g = 10 N/kg). What is its gravitational potential energy?",
+      "options": [
+        "200 J",
+        "20 J",
+        "2 J",
+        "400 J"
+      ],
+      "correctIndex": 0,
+      "explanation": "PE = mgh = 4 × 10 × 5 = 200 J.",
+      "misconception": "Leaving out g (4 × 5 = 20) or squaring wrongly (400) are common slips; mass × g × height is the full recipe."
+    },
+    {
+      "id": "pe-q-height",
+      "conceptId": "potential-energy-height-dependence",
+      "hotspotId": "hs-height-guide",
+      "prompt": "You double the height of a shelf holding a box. What happens to its potential energy?",
+      "options": [
+        "It doubles",
+        "It quadruples",
+        "It stays the same",
+        "It halves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Height appears once in PE = mgh, so double the height → double the stored energy.",
+      "misconception": "The squared-habit from kinetic energy slips in; potential energy is linear in height."
+    },
+    {
+      "id": "pe-q-release",
+      "conceptId": "potential-energy-releases-into-motion",
+      "hotspotId": "hs-release-button",
+      "prompt": "When the block is released from the shelf, where does its potential energy go?",
+      "options": [
+        "It turns into kinetic energy of the falling block",
+        "It disappears forever",
+        "It turns into light",
+        "It stays stored inside the same height"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stored energy converts to kinetic energy as the block accelerates — energy changes form, never vanishes.",
+      "misconception": "Treating loss as destruction; energy is conserved and simply shifts into motion."
+    },
+    {
+      "id": "pe-q-unit",
+      "conceptId": "potential-energy-pe-formula",
+      "hotspotId": "hs-meter",
+      "prompt": "In what unit do we measure potential energy?",
+      "options": [
+        "Joule (J)",
+        "Newton (N)",
+        "Meter (m)",
+        "Kilogram (kg)"
+      ],
+      "correctIndex": 0,
+      "explanation": "All energy is measured in joules; newtons measure force, meters measure length.",
+      "misconception": "Mixing the energy unit with force (N) or the height unit (m) is a classic slip."
+    }
+  ]
+}

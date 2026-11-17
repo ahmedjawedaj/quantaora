@@ -1,0 +1,102 @@
+{
+  "id": "gravity-comparison",
+  "subject": "space",
+  "title": "Gravity Comparison",
+  "summary": "Stand on a scale and your weight changes — but your mass never does. This model lines up six platforms — the Moon, Mars, Earth, Saturn, Jupiter, and the Sun — each with its own surface gravity, and shows exactly how much a person would weigh on each. The surprise: Saturn pulls almost as hard as Earth even though it's nine times wider.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "mass-never-changes",
+    "weight-depends-on-gravity",
+    "jupiter-gravity-strongest",
+    "moon-gravity-one-sixth",
+    "saturn-gravity-surprise"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Solar System",
+    "unit": "Sun and Planets",
+    "systemOrGroup": "Planets (gravitational comparison)",
+    "component": "Gravity Comparison",
+    "displayPath": "Space > Solar System > Sun and Planets > Planets (gravitational comparison) > Gravity Comparison"
+  },
+  "crossReferences": [
+    {
+      "label": "Planet Cards (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet cards",
+      "note": "The gravity row on every planet card (0.38 ×, 1 ×, 2.5 × …) is exactly what this component turns into a hands-on scale."
+    },
+    {
+      "label": "Orbit Simulator (Solar System)",
+      "branch": "solar-system",
+      "component": "Orbit simulator",
+      "note": "The same gravity that holds planets in orbit is what presses down on you at each world's surface — this component measures the pull that the simulator visualizes as arrows."
+    },
+    {
+      "label": "Equator (Earth in Space)",
+      "branch": "earth-in-space",
+      "component": "Equator",
+      "note": "Earth's own gravity is the reference (1 g) for every platform here — the same world the Equator component measures the shape of."
+    }
+  ],
+  "belongsTo": "Solar System > Sun and Planets > Planets (gravitational comparison)",
+  "compareCandidate": {
+    "label": "Saturn vs. Earth gravity",
+    "description": "Saturn is about nine times wider than Earth and far more massive, yet standing on its cloud tops you would weigh almost exactly what you weigh at home — about 1.07 × Earth. Its vast size spreads that mass over a much larger surface, and it is far less dense than Earth, so the pull at its cloud surface ends up nearly the same."
+  },
+  "parts": [
+    "Six gravity platforms (Moon, Mars, Earth, Saturn, Jupiter, Sun)",
+    "An astronaut figure whose weight readout changes per platform",
+    "Mass vs. weight toggle",
+    "Per-platform gravity labels in g"
+  ],
+  "processes": [
+    "Weight as mass times gravity",
+    "How a planet's mass and radius set its surface gravity",
+    "Why mass is the same everywhere in the universe",
+    "Reading gravity as multiples of Earth's"
+  ],
+  "plainLanguageExplanation": "Mass and weight are not the same thing. Your mass is the amount of 'stuff' in your body — it does not change no matter where you go. Your weight is how hard gravity pulls on that mass. Step on a scale at home and Earth's gravity pulls you down with a force we call 1 g. On the Moon, gravity is only about one sixth as strong, so the same person with the same mass weighs about one sixth as much — you could jump six times as high. On Mars you'd weigh 0.38 of your Earth weight, on Jupiter about 2.5 times (Jupiter is the most massive planet by far), and on the Sun — if you could stand there — about 28 times. Saturn is the surprise: it's enormous, but its density is so low and its surface so far from its center that you'd weigh almost the same as on Earth. This model puts a little astronaut figure on each platform, and a scale beside the figure shows the weight change instantly. Flip the mass/weight toggle and watch the mass number never budge.",
+  "keyFacts": [
+    {
+      "label": "Mass vs. weight",
+      "value": "Mass is the amount of matter in your body and never changes; weight is gravity's pull on that mass and changes with location"
+    },
+    {
+      "label": "Reference: Earth",
+      "value": "Earth's surface gravity is 1 g — every other platform is measured against it"
+    },
+    {
+      "label": "Jupiter",
+      "value": "2.5 × Earth — the strongest gravity of the planets; you'd weigh 2.5 times as much"
+    },
+    {
+      "label": "Moon and Mars",
+      "value": "Moon ~0.17 × Earth (about one sixth); Mars 0.38 × Earth"
+    },
+    {
+      "label": "Saturn surprise",
+      "value": "Saturn's surface gravity is about 1.07 × Earth — almost the same, despite being nine times wider"
+    },
+    {
+      "label": "The Sun",
+      "value": "About 28 × Earth at its surface — but you could never stand there"
+    }
+  ],
+  "whyItMatters": "Gravity decides how spacecraft land, how high astronauts can jump, and which worlds humans could ever live on. Understanding mass vs. weight also fixes a real everyday confusion — your weight number on Earth is meaningless on Mars, but your mass is the same everywhere. Every NASA landing (the Apollo moonwalks, the Mars rovers) and every future astronaut mission is an exercise in gravity comparison. And Saturn's surprising number teaches a deep lesson: big doesn't automatically mean strong gravity.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Surface Gravity Comparison",
+  "tagline": "Same you, different weight",
+  "didYouKnow": "Apollo astronauts on the Moon weighed only about one sixth of their Earth weight — which is why they could hop along with such big, bouncy strides despite wearing suits that would have felt crushing at home.",
+  "compareCandidateId": "orbit-simulator",
+  "compareReason": "The Orbit Simulator shows gravity steering planets along their paths; this component shows that same force pressing down on a person — the pull made measurable."
+}

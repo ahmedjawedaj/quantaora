@@ -1,0 +1,46 @@
+{
+  "componentId": "charge",
+  "terms": [
+    {
+      "term": "Electric charge",
+      "conceptId": "charge-two-kinds",
+      "hotspotId": "hs-ball-p",
+      "definition": "The property of matter that makes particles attract or repel electrically.",
+      "function": "The spark behind force, current, and static cling.",
+      "whereItIs": "The two balls on the bench.",
+      "whyItMatters": "Without charge there is no electricity at all.",
+      "relatedConcept": "current",
+      "quizId": "ch-q-kinds"
+    },
+    {
+      "term": "Like repel, opposite attract",
+      "conceptId": "charge-same-repel-opposite-attract",
+      "hotspotId": "hs-arrows",
+      "definition": "The rule that same-sign charges push apart and opposite signs pull together.",
+      "whyItMatters": "It predicts every force between charged objects, from balloons to lightning.",
+      "whereItIs": "The force arrows between the balls.",
+      "relatedConcept": "charge-two-kinds",
+      "quizId": "ch-q-attract"
+    },
+    {
+      "term": "Movement of electrons",
+      "conceptId": "charge-electron-movement",
+      "hotspotId": "hs-ball-n",
+      "definition": "The way negative electrons shift between objects (rubbing, wires, sparks).",
+      "whyItMatters": "It explains how rubbing makes static and how current flows at all.",
+      "whereItIs": "The electron-rich negative ball.",
+      "relatedConcept": "current",
+      "quizId": "ch-q-move"
+    },
+    {
+      "term": "Static charge",
+      "conceptId": "charge-static-imbalance",
+      "hotspotId": "hs-discharge",
+      "definition": "The build-up of unbalanced charge on an object, waiting to rebalance.",
+      "whyItMatters": "It's the energy behind shock, cling, and zaps — and the tension the spark relieves.",
+      "whereItIs": "The bench before the spark rail fires.",
+      "relatedConcept": "charge-same-repel-opposite-attract",
+      "quizId": "ch-q-flow"
+    }
+  ]
+}

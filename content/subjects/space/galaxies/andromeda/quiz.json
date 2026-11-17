@@ -1,0 +1,80 @@
+{
+  "componentId": "andromeda",
+  "questions": [
+    {
+      "id": "and-q-identity",
+      "conceptId": "nearest-big-galaxy",
+      "hotspotId": "hs-central-bulge",
+      "prompt": "What is Andromeda?",
+      "options": [
+        "A nearby star cluster inside the Milky Way",
+        "The nearest big galaxy outside the Milky Way",
+        "A nebula where new stars form",
+        "A comet seen every 100 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Andromeda (M31) is the nearest big galaxy to our own — a spiral about 2.5 million light-years away.",
+      "misconception": "It looks like a faint smudge, so it is easy to mistake it for a cloud or cluster — it is actually a whole galaxy of about a trillion stars."
+    },
+    {
+      "id": "and-q-shape",
+      "conceptId": "classic-spiral-arm",
+      "hotspotId": "hs-spiral-arm",
+      "prompt": "Compared with the Milky Way, Andromeda's shape is...",
+      "options": [
+        "a smooth classic spiral with no bar",
+        "an irregular cloud of stars",
+        "a round ball of older stars",
+        "a ring with a hole in the middle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Andromeda is a classic, smooth spiral — no central bar — while the Milky Way is a barred spiral.",
+      "misconception": "Because most photos are taken at an angle, the spiral arms can be hard to spot and the galaxy can look more like an ellipse."
+    },
+    {
+      "id": "and-q-size",
+      "conceptId": "trillion-star-scale",
+      "hotspotId": "hs-central-bulge",
+      "prompt": "About how many stars are in Andromeda?",
+      "options": [
+        "About one million",
+        "About one billion",
+        "About one trillion",
+        "About one hundred"
+      ],
+      "correctIndex": 2,
+      "explanation": "Andromeda holds about a trillion stars — up to twice as many as the Milky Way.",
+      "misconception": "Numbers in astronomy are so large that 'trillion' sounds made up — but a galaxy is an island of a trillion stars or more."
+    },
+    {
+      "id": "and-q-companions",
+      "conceptId": "satellite-galaxy",
+      "hotspotId": "hs-satellite-galaxies",
+      "prompt": "What are M32 and M110?",
+      "options": [
+        "Two small galaxies orbiting Andromeda",
+        "Two planets of Andromeda",
+        "Two stars inside Andromeda's core",
+        "Two comets in the Local Group"
+      ],
+      "correctIndex": 0,
+      "explanation": "M32 and M110 are small satellite galaxies that orbit Andromeda, the way moons orbit a planet.",
+      "misconception": "Anything seen near a bright galaxy could be mistaken for foreground stars — these are genuinely separate little galaxies."
+    },
+    {
+      "id": "and-q-future",
+      "conceptId": "galaxy-merger-path",
+      "hotspotId": "hs-collision-course",
+      "prompt": "What will happen when the Milky Way and Andromeda meet?",
+      "options": [
+        "They will merge into one larger galaxy in about four billion years",
+        "Every star in both galaxies will collide and explode",
+        "They will bounce apart and stay separate forever",
+        "The smaller will be swallowed instantly next year"
+      ],
+      "correctIndex": 0,
+      "explanation": "In roughly four billion years the two galaxies will merge into one larger galaxy — a collision of crowds where stars rarely touch.",
+      "misconception": "'Galaxies colliding' sounds like star explosions, but space inside galaxies is so empty that stars pass without touching."
+    }
+  ]
+}

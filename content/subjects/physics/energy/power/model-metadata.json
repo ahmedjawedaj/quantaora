@@ -1,0 +1,106 @@
+{
+  "id": "power",
+  "componentId": "power",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/energy/power/power.glb",
+  "thumbnailUrl": "/assets/thumbnails/energy/power.png",
+  "defaultCamera": {
+    "position": [
+      0.4,
+      1.2,
+      4.0
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Lift belt and box",
+    "Speed knob",
+    "Watt meter",
+    "Work total"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-box",
+      "label": "Box",
+      "conceptId": "power-work-over-time",
+      "position": [
+        0.5,
+        1.3,
+        0.1
+      ],
+      "description": "The 300 J load the belt raises when you choose how fast to work.",
+      "colorHint": "Warm amber crate riding the lift.",
+      "color": "#D9A441",
+      "function": "Carries the work whose speed becomes power."
+    },
+    {
+      "id": "hs-belt",
+      "label": "Lift Belt",
+      "conceptId": "power-work-over-time",
+      "position": [
+        -0.4,
+        1.0,
+        0
+      ],
+      "description": "Raises the box the same 1 m height, at whatever tempo you set.",
+      "colorHint": "Cool blue-grey moving vertical belt.",
+      "color": "#6B85A8",
+      "function": "Performs the lifting work in time."
+    },
+    {
+      "id": "hs-speed-knob",
+      "label": "Speed Knob",
+      "conceptId": "power-same-work-faster-rate",
+      "position": [
+        -1.1,
+        0.7,
+        0.3
+      ],
+      "description": "Turns SLOW or FAST; quick runs raise the watt readout while the work stays equal.",
+      "colorHint": "A rounded green knob on a pedestal.",
+      "color": "#7FA86A",
+      "function": "Selects the time that divides the work."
+    },
+    {
+      "id": "hs-watt",
+      "label": "Watt Meter",
+      "conceptId": "power-watts",
+      "position": [
+        1.2,
+        1.2,
+        0.1
+      ],
+      "description": "Green gauge in watts; the power = work ÷ time result, rising as speed rises.",
+      "colorHint": "A round green energy dial.",
+      "color": "#7FA86A",
+      "function": "Shows the power output in watts."
+    },
+    {
+      "id": "hs-work-total",
+      "label": "Work Total",
+      "conceptId": "power-work-over-time",
+      "position": [
+        -1.2,
+        1.1,
+        0
+      ],
+      "description": "The fixed work counter — it reads the same joules across slow and fast lifts.",
+      "colorHint": "A slim warm display under the watt dial.",
+      "color": "#D9A441",
+      "function": "Keeps the work denominator of the power formula visible."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette. An open-air lifting rig, warm amber crate, blue-grey belt, green watt dial.",
+  "materialNotes": "Metallic=0, roughness ~0.5. Belt slightly textured, crate warm amber. No emissive; the dial has a pale green face.",
+  "assetBrief": "SUBJECT: power = work ÷ time on a lift belt.\n\nGEOMETRY: vertical belt frame with a 1 kg crate; a speed knob; a watt meter; a work total.\n\nINTERACTION: the knob sets lift speed; each cycle lifts the same 300 J load and the watt dial recomputes work ÷ time; work total stays 300 J.\n\nNAMED NODES: Box, Belt, SpeedKnob, WattMeter, WorkTotal. 7-9k tris.",
+  "visual": {
+    "shape": "power-bulb"
+  }
+}

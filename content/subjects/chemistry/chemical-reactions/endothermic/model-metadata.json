@@ -1,0 +1,89 @@
+{
+  "id": "endothermic",
+  "componentId": "endothermic",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/chemical-reactions/endothermic/endothermic.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/chemical-reactions/endothermic.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Cold pack + leaf",
+    "Energy in",
+    "Energy levels"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-endothermic-pack",
+      "label": "Absorbing reaction",
+      "conceptId": "endothermic-absorbs-energy",
+      "position": [
+        -0.55,
+        0.25,
+        0
+      ],
+      "description": "The cracked cold pack is an endothermic reaction — it absorbs heat so eagerly that the pack turns freezing cold.",
+      "positionHint": "The cold pack on the left with energy arrows flowing in.",
+      "color": "#6B85A8",
+      "function": "Shows a reaction absorbing energy from its surroundings."
+    },
+    {
+      "id": "hs-endothermic-energy",
+      "label": "Energy flowing in",
+      "conceptId": "endothermic-cools-surroundings",
+      "position": [
+        0.85,
+        0.55,
+        0
+      ],
+      "description": "When the energy-in layer is on, waves flow from the surroundings INTO the reactions — heat being pulled out, cooling the area.",
+      "positionHint": "The arrows and waves converging on the pack and leaf.",
+      "color": "#D9A441",
+      "function": "Shows energy being drawn into the reaction."
+    },
+    {
+      "id": "hs-endothermic-levels",
+      "label": "Energy rise",
+      "conceptId": "endothermic-absorbs-energy",
+      "position": [
+        0,
+        -0.85,
+        0
+      ],
+      "description": "The energy-levels layer shows the reactants' energy low and the products' high — the gap is the energy the reaction pulls in.",
+      "positionHint": "The short and tall energy bars with the gap between them.",
+      "color": "#7FA86A",
+      "function": "Shows the energy rise from reactants to products."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A cracked cold pack and a small leaf float side by side, lit with soft neutral studio light — no bloom, no emissive in the asset (any glow is app-runtime). Clean stylized product-render look, specimen-quality not cartoon. Cold pack: soft pale-blue rounded rectangle with a soft amber accent; leaf: soft muted green simple leaf shape; frost dots: small pale-blue dots. Strong saturated color is reserved for the small flat hotspot dots (slate / amber / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Cold pack: soft pale-blue matte, roughness ~0.55, with a soft amber accent strip. Leaf: soft muted green, roughness ~0.5. Frost dots: small pale-blue, alpha ~0.6. No emissive channels anywhere — the energy-in waves are app runtime effects, not baked in.",
+  "assetBrief": "SUBJECT: a cold pack and a leaf as endothermic reactions, built to be read as 'the reaction absorbs energy from its surroundings.' Three procedural layers, all clean primitives:\n\n1) MAIN: two endothermic subjects side by side (spacing ~1.4): LEFT a cracked cold pack — a soft pale-blue rounded rectangular pouch (app-rendered crack seam) with small pale-blue frost dots appearing on it; RIGHT a small soft muted green leaf shape on a short stem. Reactant/product glyphs hover faintly (app-rendered).\n\n2) ENERGY IN (toggleable layer): soft arrow shapes and wave arcs flow from the surrounding space INTO the pack and leaf (app-rendered), converging on them — the absorbed heat made visible; the frost dots on the pack brighten as it cools.\n\n3) ENERGY LEVELS (toggleable layer): two simple energy bars float beside the scene (app-rendered) — a SHORT cool-gray bar labeled 'reactants' and a TALL warm-orange bar labeled 'products,' with a soft band between showing the energy pulled in.\n\nCamera: framed so both subjects fit with negative space; auto-rotate default. Budget 5-9k triangles. Named nodes: ColdPack, FrostDots, LeafShape, LeafStem, Glyphs, EnergyInArrows, EnergyInWaves, ReactantBar, ProductBar, AbsorbedBand. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "endothermic-in"
+  }
+}

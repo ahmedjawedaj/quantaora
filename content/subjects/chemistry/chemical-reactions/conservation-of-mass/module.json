@@ -1,0 +1,109 @@
+{
+  "id": "conservation-of-mass",
+  "subject": "chemistry",
+  "title": "Conservation Of Mass",
+  "summary": "The law of conservation of mass says matter is never created or destroyed in a chemical reaction — the same atoms are simply rearranged. Mass in equals mass out.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "mass-conserved-in-reactions",
+    "atoms-rearranged-not-created",
+    "same-mass-in-out"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Chemical Reactions",
+    "unit": "Reading Reactions",
+    "systemOrGroup": "The quantities",
+    "component": "Conservation Of Mass",
+    "displayPath": "Chemistry > Chemical Reactions > Reading Reactions > The quantities > Conservation Of Mass"
+  },
+  "crossReferences": [
+    {
+      "label": "Balanced equation (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Balanced equation",
+      "note": "A balanced equation is the written form of conservation of mass — the atoms on both sides are equal."
+    },
+    {
+      "label": "Coefficient (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Coefficient",
+      "note": "Coefficients are the numbers you choose so the equation obeys conservation of mass."
+    },
+    {
+      "label": "Reactant (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Reactant",
+      "note": "The mass of the reactants is what gets conserved — it reappears, rearranged, in the products."
+    },
+    {
+      "label": "Product (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Product",
+      "note": "Products carry exactly the atoms the reactants provided — same matter, new form."
+    }
+  ],
+  "belongsTo": "Chemical Reactions > Reading Reactions > The quantities",
+  "compareCandidate": {
+    "label": "Conservation of mass vs. balancing",
+    "description": "Conservation of mass is the LAW — matter is never created or destroyed. Balancing an equation is the SKILL — choosing coefficients so the written equation matches the law. The law is the truth; balancing is how we write it correctly."
+  },
+  "parts": [
+    "Matter is never created or destroyed",
+    "Atoms are rearranged in reactions",
+    "Mass in equals mass out"
+  ],
+  "processes": [
+    "Rearranging atoms into new substances",
+    "Keeping every atom accounted for",
+    "Guaranteeing equal mass on both sides"
+  ],
+  "plainLanguageExplanation": "The law of conservation of mass is one of the great rules of nature: in any chemical reaction, matter is never created and never destroyed. It only changes form. Imagine you burn a piece of wood. The wood turns to ash and smoke, and it seems like matter disappeared — but it did not. The carbon, hydrogen, and oxygen atoms in the wood and the air simply rearranged into new substances: ash, smoke, and gases. If you could weigh every product of the fire — the ash, the smoke, the gases — together they would weigh exactly as much as the wood plus the oxygen that fed the fire. Every atom present at the start is present at the end. This is why chemical equations must be balanced: the same number of each kind of atom must appear on both sides. The atoms are the conservation. A chemical reaction is not a magic trick that makes matter vanish — it is a reshuffling of the same atoms into new combinations. Mass in equals mass out, always.",
+  "keyFacts": [
+    {
+      "label": "The law",
+      "value": "Matter is never created or destroyed in a chemical reaction"
+    },
+    {
+      "label": "What happens",
+      "value": "Atoms are rearranged into new substances"
+    },
+    {
+      "label": "Mass in = mass out",
+      "value": "Products weigh exactly as much as reactants"
+    },
+    {
+      "label": "Burning example",
+      "value": "Wood + oxygen → ash + smoke + gases — same atoms, new forms"
+    },
+    {
+      "label": "Why balancing works",
+      "value": "Balanced equations match the law — equal atoms on both sides"
+    },
+    {
+      "label": "No magic",
+      "value": "Reactions reshuffle atoms; they do not make or lose them"
+    }
+  ],
+  "whyItMatters": "Conservation of mass is the bedrock law that makes all chemistry trustworthy. It lets chemists balance equations, predict exactly how much product a reaction will yield, and understand that matter transforms — but never vanishes. It explains everything from burning fires to breathing to rusting metal.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Law of conservation of mass",
+  "tagline": "Matter changes form, never vanishes",
+  "didYouKnow": "When you burn a log, the total weight of the fire's products is GREATER than the log's weight — because oxygen from the air joined the reaction. The log was never the whole story.",
+  "conditions": [
+    "Every chemical reaction",
+    "Burning and rusting",
+    "Balancing equations"
+  ],
+  "compareCandidateId": "balanced-equation",
+  "compareReason": "Conservation of mass is the law and balancing is the skill that obeys it — comparing them shows why equations must match reality."
+}

@@ -1,0 +1,96 @@
+{
+  "id": "andromeda",
+  "subject": "space",
+  "title": "Andromeda",
+  "summary": "The nearest big galaxy to our own — a classic, smooth spiral spanning twice the Moon's width in our sky, 2.5 million light-years away, and headed our way: in four billion years the Milky Way and Andromeda will begin merging into one.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "closest-large-galaxy",
+    "bigger-than-milky-way",
+    "collision-course",
+    "visible-naked-eye",
+    "local-group-member"
+  ],
+  "type": "model",
+  "estimatedMinutes": 13,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Galaxies",
+    "unit": "Our Galaxy",
+    "systemOrGroup": "Neighbor galaxies",
+    "component": "Andromeda",
+    "displayPath": "Space > Galaxies > Our Galaxy > Neighbor galaxies > Andromeda"
+  },
+  "crossReferences": [
+    {
+      "label": "Milky Way (Galaxies)",
+      "branch": "galaxies",
+      "component": "The Milky Way",
+      "note": "Our home galaxy, Andromeda's partner in the Local Group and future merger partner."
+    },
+    {
+      "label": "Spiral Galaxy (Galaxies)",
+      "branch": "galaxies",
+      "component": "Spiral galaxy",
+      "note": "Andromeda is the closest big example of a classic spiral galaxy — the template that component describes."
+    }
+  ],
+  "belongsTo": "Galaxies > Our Galaxy > Neighbor galaxies",
+  "compareCandidate": {
+    "label": "Andromeda vs. Milky Way",
+    "description": "Two giants of the Local Group: Andromeda is bigger and smoother, the Milky Way smaller with a bar and dustier arms. In about four billion years they merge into one — the best argument for studying a galaxy you cannot live in."
+  },
+  "parts": [
+    "Big classic spiral disk",
+    "Central bulge (brighter than ours)",
+    "Faint satellite galaxies (M32, M110)",
+    "The merger path with the Milky Way"
+  ],
+  "processes": [
+    "Local Group binding",
+    "The two galaxies' mutual fall",
+    "Merger and eventual fusion (~6 billion years)",
+    "The glance-off 'grand encounter' sequence ~4 billion years from now"
+  ],
+  "plainLanguageExplanation": "Andromeda, also cataloged M31, is the nearest big galaxy outside the Milky Way. It is about 2.5 million light-years away — a distance so comfortable that its light left around the time the first tools were being made in Africa. Despite that distance, it is the farthest thing you can see with the naked eye on a dark night: it looks like a faint oval patch in the constellation Andromeda (the galaxy's name comes from the mythic princess), and with binoculars it turns into a glowing spindle. It is a classic, smooth spiral — no central bar — with about a trillion stars, up to twice the Milky Way's star count, and a bright bulge and a nucleus hosting a supermassive black hole of over 100 million solar masses. And it is coming toward us. The two galaxies — whole galaxies, a hundred thousand light-years across — are falling together at about 110 kilometers per second, and in roughly four billion years they will merge into a single, larger, mostly elliptical galaxy (nicknamed 'Milkomeda'). But this is a merge of two crowds, almost no star collision: the interleaving space there is so gloriously empty that the stars will pass without touching.",
+  "keyFacts": [
+    {
+      "label": "Distance",
+      "value": "About 2.5 million light-years — the nearest big galaxy to the Milky Way"
+    },
+    {
+      "label": "Stars",
+      "value": "Roughly a trillion, several times the Milky Way's count"
+    },
+    {
+      "label": "Seen by eye",
+      "value": "The farthest thing visible to the naked eye — a faint oval in the constellation Andromeda"
+    },
+    {
+      "label": "Shape",
+      "value": "Classic spiral with a bright bulge — no bar, unlike the Milky Way"
+    },
+    {
+      "label": "Merger",
+      "value": "Collides with the Milky Way in ~4 billion years; the result is sometimes nicknamed 'Milkomeda'"
+    },
+    {
+      "label": "The heart",
+      "value": "Supermassive black hole of roughly 100 million solar masses at its center"
+    }
+  ],
+  "whyItMatters": "Andromeda is the Milky Way's nearest reference object: it shows what our galaxy looks like from outside, because someone could photograph it far better than we can photograph ourselves. Its being visible without a telescope is also the finest live proof that the universe is full of galaxies — what looks like a smudge in the sky is really a trillion suns, and tens of thousands of similar smudges own the deep sky. And the known meeting in four billion years is astronomy's best current 'future,' making the sky feel real, moving, and interactive rather than static — a model of what galactic life actually is.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Messier 31 (M31), Sb-type spiral, nearest large galaxy",
+  "tagline": "The galaxy that's coming our way",
+  "didYouKnow": "Andromeda's light takes 2.5 million years to reach you — so when you look at it, you are seeing the galaxy as it was before the first humans became a word, and what you see as a pale smudge holds more stars than every grain of sand on Earth.",
+  "compareCandidateId": "milky-way",
+  "compareReason": "Two inhabitants of the same group, different ceilings: bigger vs. bar, classic vs. dusty — the merger pair makes the comparison actually future-plotted."
+}

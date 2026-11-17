@@ -1,0 +1,86 @@
+{
+  "id": "range",
+  "subject": "math",
+  "title": "Range",
+  "summary": "The range measures the spread of a dataset — the largest value minus the smallest. Explore how to find it and what it tells you about how spread out the data is.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "range-definition",
+    "range-compute",
+    "range-spread",
+    "range-comparison"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Statistics",
+    "systemOrGroup": "Summarizing data",
+    "component": "Range",
+    "displayPath": "Math > Data And Statistics > Statistics > Summarizing data > Range"
+  },
+  "crossReferences": [
+    {
+      "label": "Outlier (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Outlier",
+      "note": "A single extreme value stretches the range dramatically."
+    },
+    {
+      "label": "Median (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Median",
+      "note": "The range measures spread; the median measures the center."
+    },
+    {
+      "label": "Line graph (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Line graph",
+      "note": "The vertical spread of a line graph is the range of the data."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Statistics > Summarizing data",
+  "compareCandidate": {
+    "label": "Range vs. mean",
+    "description": "The mean names a typical value; the range tells how spread out the values are. Two datasets can share a mean but have very different ranges."
+  },
+  "parts": [
+    "The largest value",
+    "The smallest value",
+    "The gap between"
+  ],
+  "processes": [
+    "Finding largest minus smallest",
+    "Comparing spreads of two datasets"
+  ],
+  "plainLanguageExplanation": "The range is how spread out a dataset is — the largest value minus the smallest value. For scores 55, 70, 82, 90, the range is 90 − 55 = 35. A small range means the data is bunched together; a large range means it is spread wide. It is a quick, one-number description of spread — but because it only uses two numbers, one far-out outlier can stretch a big range and hide how tight the middle really is.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Largest value minus smallest value" },
+    { "label": "Example", "value": "55, 70, 82, 90 → range 90 − 55 = 35" },
+    { "label": "Meaning", "value": "How spread out the data is" },
+    { "label": "Small", "value": "Bunched together" },
+    { "label": "Large", "value": "Widely spread" },
+    { "label": "Caution", "value": "An outlier stretches it fast" }
+  ],
+  "whyItMatters": "The range tells you at a glance whether numbers are close together or far apart — from test scores to weather highs. It is the simplest of the spread measures and the natural companion to the mean.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Range",
+  "tagline": "From smallest to largest",
+  "didYouKnow": "The range is the 'box that holds all the data' — the full gap covered by the values. Weather forecasters use daily high and low to give you the range of the day.",
+  "conditions": [
+    "Test-score spread",
+    "Weather highs and lows",
+    "Price ranges",
+    "Comparing groups"
+  ],
+  "compareCandidateId": "mean",
+  "compareReason": "Students see 'average' and 'spread' as the same idea — comparing the central mean with the spread range makes the two jobs of statistics clear."
+}

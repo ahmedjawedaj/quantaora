@@ -1,0 +1,89 @@
+{
+  "id": "multiplication",
+  "componentId": "multiplication",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/multiplication/multiplication.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/multiplication.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      3.8
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      3.8
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Dot array",
+    "Repeated addition steps",
+    "Rotated array"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-factors",
+      "label": "Factors",
+      "conceptId": "multiplication-equal-groups",
+      "position": [
+        -0.9,
+        0.8,
+        0
+      ],
+      "description": "The factors are the two numbers multiplied \u2014 3 rows and 4 dots per row.",
+      "positionHint": "The row-count label (3) along the left edge and the column-count label (4) along the top of the array.",
+      "color": "#D9A441",
+      "function": "The numbers multiplied together in a multiplication problem."
+    },
+    {
+      "id": "hs-array",
+      "label": "Array",
+      "conceptId": "multiplication-array",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "description": "An array shows multiplication as a grid of rows and columns \u2014 3 rows \u00d7 4 columns of dots.",
+      "positionHint": "The rectangular grid of 12 dots in the center of the mat.",
+      "color": "#7FA86A",
+      "function": "The visual grid that models factor \u00d7 factor = product."
+    },
+    {
+      "id": "hs-product",
+      "label": "Product",
+      "conceptId": "multiplication-commutative",
+      "position": [
+        0.9,
+        -0.3,
+        0.4
+      ],
+      "description": "The product is the total number of dots \u2014 12 \u2014 no matter whether you read it as 3 \u00d7 4 or 4 \u00d7 3.",
+      "positionHint": "The flat label plate below the array showing the product 12.",
+      "color": "#6B85A8",
+      "function": "The result of multiplying the factors."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean rectangular dot array (3 rows \u00d7 4 columns) sits on a calm mat with small row/column count labels and a product plate below. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Array dots: small warm off-white spheres (roughness ~0.45) with subtle violet undercast so rows read. Mat: soft warm-grey (roughness ~0.85). Labels: flat warm paper plates with ink text. Row/column count stubs: ink-grey. Product plate: warm amber with ink text (roughness ~0.5). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: multiplication as a 3\u00d74 dot array with group-stepping and a flip that shows commutativity.\n\nGEOMETRY: Mat (thin rounded slab ~3.6 wide). Array: 12 unit spheres arranged in 3 rows \u00d7 4 columns, centered near x\u22480, z\u22480, y\u22480.25, dot spacing ~0.3. Row label (3) on the left edge; column label (4) on the top. Product plate with '12' beneath the mat (y \u2248 \u22120.2). A Grouping layer lights one row at a time (4, then 8, then 12) to show repeated addition. A Rotate action spins the whole array 90\u00b0 around the y-axis so it becomes 4 rows \u00d7 3 columns \u2014 same 12 dots.\n\nLAYERS (toggleable): (1) dot array / group lighting; (2) row/column labels; (3) product plate.\n\nCAMERA: head-on from +z with slight downward tilt shows rows, labels, and product plate; calm, minimal chrome. Budget 5-10k triangles. Named nodes: Mat, Dots (12), RowLabel, ColumnLabel, ProductPlate, GroupLayerLights, RotatedGroup. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "mult-dot-array"
+  }
+}

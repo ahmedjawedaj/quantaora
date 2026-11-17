@@ -1,0 +1,91 @@
+{
+  "id": "xylem",
+  "componentId": "xylem",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/xylem/xylem.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/xylem.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Whole stem slice",
+    "Xylem tube bundle",
+    "Single tube track",
+    "Root entry",
+    "Water droplets rising"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-tubelet",
+      "label": "Xylem tube",
+      "conceptId": "xylem-carries-water",
+      "position": [
+        0.05,
+        0.25,
+        0.18
+      ],
+      "description": "A single long hollow tube of the xylem bundle that carries water and minerals upward.",
+      "positionHint": "One slender vertical tube within the bundle, highlighted with blue droplets inside.",
+      "color": "#6B85A8",
+      "function": "Carries water and minerals upward through the plant."
+    },
+    {
+      "id": "hs-rootentry",
+      "label": "Root entry",
+      "conceptId": "xylem-from-root-to-leaf",
+      "position": [
+        0,
+        -0.3,
+        0.2
+      ],
+      "description": "The point at the root where water from the soil enters the xylem tubes.",
+      "positionHint": "The base of the stem slice where droplets enter from below.",
+      "color": "#7FA874",
+      "function": "Where soil water first enters the xylem."
+    },
+    {
+      "id": "hs-leafend",
+      "label": "Leaf end",
+      "conceptId": "xylem-from-root-to-leaf",
+      "position": [
+        0,
+        0.5,
+        0.18
+      ],
+      "description": "The end of the xylem route where the water reaches the leaves to be used.",
+      "positionHint": "The top opening of the tube where droplets reach the leaf portal.",
+      "color": "#7FA874",
+      "function": "Delivers water to the leaves for photosynthesis."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean stylized diorama - a vertical stem slice with a bundle of pale blue-tinged tubes, muted greens and creams, no glow. Strong color reserved for the hotspot dots and water droplets.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Water droplets are simple transparent spheres, not emissive.",
+  "assetBrief": "SUBJECT: a vertical slice of plant stem standing tall, with a bundle of long hollow xylem tubes running from bottom to top. Blue water droplets rise up a single tube from a root entry at the base to a leaf portal at the top. Named nodes: StemSlice, XylemBundle, SingleTube, RootEntry, LeafPortal, WaterDrops. Budget 10-14k.",
+  "visual": {
+    "shape": "vascular-tubes"
+  }
+}

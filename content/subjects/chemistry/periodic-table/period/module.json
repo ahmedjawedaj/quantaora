@@ -1,0 +1,109 @@
+{
+  "id": "period",
+  "subject": "chemistry",
+  "title": "Period",
+  "summary": "A period is a horizontal row of the periodic table. The elements in a row all have the same number of electron shells, and moving across a period shows how elements shift from metals to nonmetals. Explore how rows organize the table.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "period-is-row",
+    "period-same-shell-count",
+    "period-metals-to-nonmetals"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "How the table is arranged",
+    "component": "Period",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > How the table is arranged > Period"
+  },
+  "crossReferences": [
+    {
+      "label": "Group (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Group",
+      "note": "Groups are the columns, periods are the rows. Columns share valence electrons; rows share shell count."
+    },
+    {
+      "label": "Electron shell (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron shell",
+      "note": "Every element in a period has the same number of electron shells — that number is the period number."
+    },
+    {
+      "label": "Metal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Metal",
+      "note": "Moving left to right across a period, the elements shift from metals through metalloids to nonmetals."
+    },
+    {
+      "label": "Nonmetal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Nonmetal",
+      "note": "The right side of each period holds the nonmetals, which behave very differently from the metals on the left."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > How the table is arranged",
+  "compareCandidate": {
+    "label": "Period vs. group",
+    "description": "A period is a horizontal row — elements side by side that share the same number of shells and slide from metals to nonmetals. A group is a vertical column — elements stacked that share valence electrons and behavior."
+  },
+  "parts": [
+    "Horizontal row",
+    "Shared shell count",
+    "Metal-to-nonmetal shift"
+  ],
+  "processes": [
+    "Counting shells from the period number",
+    "Stepping across from metals to nonmetals",
+    "Linking row position to atom size"
+  ],
+  "plainLanguageExplanation": "A period is a horizontal row of the periodic table. The table is laid out in rows and columns, and the rows are the periods. The period number tells you how many electron shells the elements in that row have: elements in period 1 have one shell, period 2 elements have two shells, and so on. That is why hydrogen and helium, the two elements with just one shell, sit in the very first row. As you move left to right across a period, something interesting happens: the elements gradually change character. The left side of a row holds the metals — shiny, conductive, reactive elements like sodium and magnesium. The middle holds the metalloids, which are in between. And the right side of the row holds the nonmetals — like oxygen and fluorine — which are poor conductors and behave quite differently. So a period is not just a row: it is a complete journey across the personality of the elements, from metal to nonmetal.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A horizontal row of the periodic table"
+    },
+    {
+      "label": "Shells",
+      "value": "The period number equals the number of electron shells in its elements"
+    },
+    {
+      "label": "Row 1",
+      "value": "Hydrogen and helium — the elements with a single shell"
+    },
+    {
+      "label": "Left to right",
+      "value": "Elements shift from metals to metalloids to nonmetals across a period"
+    },
+    {
+      "label": "Count",
+      "value": "There are 7 periods (rows) in the main body of the periodic table"
+    },
+    {
+      "label": "Not behavior",
+      "value": "Unlike groups, elements in a period do NOT share valence-electron counts or similar behavior"
+    }
+  ],
+  "whyItMatters": "The period tells you how many shells an atom has and lets you trace the great metal-to-nonmetal shift across the table. Reading periods along with groups lets you locate any element and predict its basic character — whether it behaves as a metal, a metalloid, or a nonmetal — straight from its position on the table.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Period (periodic table row)",
+  "tagline": "The table's rows of shell counts",
+  "didYouKnow": "Every element in period 3 — from sodium to argon — has exactly three electron shells, even though their personalities range from explosive metal to sleepy gas.",
+  "conditions": [
+    "Shell counting",
+    "Metal/nonmetal classification",
+    "Periodic table navigation"
+  ],
+  "compareCandidateId": "group",
+  "compareReason": "Rows and columns are the two axes of the periodic table — comparing a period with a group makes clear that rows count shells while columns share behavior."
+}

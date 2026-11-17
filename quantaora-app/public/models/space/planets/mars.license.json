@@ -1,0 +1,32 @@
+{
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/gltf_files/24881_Mars_1_6792.glb",
+  "resourcePage": "https://science.nasa.gov/resource/planet-mars-3d-model/",
+  "creator": "NASA/JPL-Caltech",
+  "license": "Public domain (U.S. Government work, science.nasa.gov / NASA media usage guidelines)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 4032148,
+  "sha256": "0d27fc65fe3e6a5847cf0cd3a5c951538afdd49bd0513607d8a70e8ab1d8d7ac",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 1,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 2,
+    "imageCount": 2,
+    "animationCount": 0,
+    "accessorCount": 4,
+    "generator": "Khronos Blender glTF 2.0 I/O",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      1000.0001,
+      994.1111,
+      1000.0001
+    ]
+  }
+}

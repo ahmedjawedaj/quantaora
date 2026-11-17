@@ -1,0 +1,87 @@
+{
+  "id": "denominator",
+  "subject": "math",
+  "title": "Denominator",
+  "summary": "The denominator is the bottom number of a fraction. It tells how many equal parts the whole is split into — in 3/4, the denominator 4 means the whole is divided into 4 equal parts. The bigger the denominator, the smaller each part.",
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "skillIds": [
+    "denominator-counts-equal-parts",
+    "denominator-part-size",
+    "denominator-bottom-of-fraction",
+    "denominator-compare"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Fractions And Ratios",
+    "unit": "Fraction Basics",
+    "systemOrGroup": "Fractions",
+    "component": "Denominator",
+    "displayPath": "Math > Fractions And Ratios > Fraction Basics > Fractions > Denominator"
+  },
+  "crossReferences": [
+    {
+      "label": "Fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Fraction",
+      "note": "The denominator is the bottom half of every fraction — the number of equal parts."
+    },
+    {
+      "label": "Numerator (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Numerator",
+      "note": "The numerator counts parts of what the denominator defines."
+    },
+    {
+      "label": "Equivalent fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Equivalent fraction",
+      "note": "Multiplying the denominator (and numerator) by the same number gives an equal fraction."
+    }
+  ],
+  "belongsTo": "Fractions And Ratios > Fraction Basics > Fractions",
+  "compareCandidate": {
+    "label": "Denominator vs. numerator",
+    "description": "The denominator names the part size (how many equal parts the whole is cut into). The numerator counts how many of those parts you have."
+  },
+  "parts": [
+    "The bottom number of a fraction",
+    "Counting the equal parts of the whole",
+    "Part size shrinking as denominator grows"
+  ],
+  "processes": [
+    "Splitting a whole into equal parts",
+    "Comparing part sizes by denominator",
+    "Reading denominators"
+  ],
+  "plainLanguageExplanation": "The denominator is the bottom number of a fraction. It tells you how many equal parts the whole is divided into. In 3/4, the denominator 4 means the pizza is cut into 4 equal slices; the numerator 3 says you take three of them. A bigger denominator means MORE cuts, so each part is SMALLER — a sixth (1/6) is smaller than a half (1/2). So when two fractions have the same numerator, the one with the larger denominator is smaller: 1/3 < 1/2. The denominator literally 'denominates' or names the parts — it says what kind of pieces you are counting.",
+  "keyFacts": [
+    { "label": "Position", "value": "The bottom number of a fraction" },
+    { "label": "Meaning", "value": "How many equal parts the whole is split into" },
+    { "label": "Example", "value": "In 3/4, the denominator 4 means the whole is in 4 equal parts" },
+    { "label": "Part size", "value": "Bigger denominator = smaller parts (1/6 < 1/2)" },
+    { "label": "Compare", "value": "Same numerator: larger denominator is the smaller fraction" },
+    { "label": "Naming", "value": "Denominator names the parts: fourths, sixths, tenths" }
+  ],
+  "whyItMatters": "The denominator decides the size of every piece in a fraction. Understanding it correctly prevents the classic mistake of thinking 1/5 is bigger than 1/3, and it is essential for comparing, adding, and simplifying fractions.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Denominator",
+  "tagline": "The bottom number that sizes the parts",
+  "didYouKnow": "The word 'denominator' comes from the Latin 'denominare', meaning 'to name' — the denominator names the parts, telling you they are fourths, sixths, or tenths.",
+  "conditions": [
+    "Comparing fractions",
+    "Adding and subtracting fractions",
+    "Simplifying fractions",
+    "Reading measurement units"
+  ],
+  "compareCandidateId": "numerator",
+  "compareReason": "Numerator and denominator answer opposite questions — one counts parts, the other sizes them — so comparing the pair makes each clear."
+}

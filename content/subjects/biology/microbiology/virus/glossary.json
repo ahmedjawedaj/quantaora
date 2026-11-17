@@ -1,0 +1,45 @@
+{
+  "componentId": "virus",
+  "terms": [
+    {
+      "term": "Virus",
+      "conceptId": "virus-not-a-cell",
+      "hotspotId": "hs-coat",
+      "definition": "A tiny infectious agent of genetic material in a protein coat - not a living cell.",
+      "function": "Infects host cells to make more copies of itself.",
+      "whereItIs": "In water, air, and in bodies, waiting to meet a host cell.",
+      "whyItMatters": "It causes many illnesses and is important to vaccines and infection.",
+      "quizId": "virus-q-notcell"
+    },
+    {
+      "term": "Protein coat",
+      "conceptId": "virus-genetic-material-coat",
+      "hotspotId": "hs-coat",
+      "definition": "The outer protein shell of a virus that holds supplies its genetic material.",
+      "function": "Protects the genes and helps the virus to get into a cell.",
+      "whereItIs": "The outer covering of the virus particle.",
+      "whyItMatters": "It is the structure that makes a virus a package, not a cell.",
+      "quizId": "virus-q-structure"
+    },
+    {
+      "term": "Host cell",
+      "conceptId": "virus-invades-host-cell",
+      "hotspotId": "hs-host",
+      "definition": "A living cell that a virus invades to use its machinery to reproduce.",
+      "function": "Provides the parts the virus lacks to make its copies.",
+      "whereItIs": "Any living cell the virus targets.",
+      "whyItMatters": "The host is required to reproduce - a virus cannot copy itself by itself.",
+      "quizId": "virus-q-reproduce"
+    },
+    {
+      "term": "Viral infection",
+      "conceptId": "virus-invades-host-cell",
+      "hotspotId": "hs-host",
+      "definition": "The process in which a virus enters cells and forces them to make many new viruses.",
+      "function": "Virus spreads from cell to cell in the body.",
+      "whereItIs": "In the cells that the virus targets.",
+      "whyItMatters": "It is how a virus illness spreads through a whole body.",
+      "quizId": "virus-q-infection"
+    }
+  ]
+}

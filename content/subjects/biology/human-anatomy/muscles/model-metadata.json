@@ -1,0 +1,104 @@
+{
+  "id": "muscles",
+  "componentId": "muscles",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/muscles.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "Muscle pulling a bone"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-skeletal",
+      "label": "Skeletal muscle",
+      "conceptId": "skeletal-smooth-cardiac",
+      "position": [
+        0.0,
+        0.3,
+        0.15
+      ],
+      "description": "The striated muscle that moves your body on command.",
+      "color": "#D98A6A",
+      "function": "Moves the body when you decide to move.",
+      "positionHint": "Attached to bones."
+    },
+    {
+      "id": "hs-smooth",
+      "label": "Smooth muscle",
+      "conceptId": "skeletal-smooth-cardiac",
+      "position": [
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "description": "The automatic muscle lining organs like the stomach.",
+      "color": "#D9A441",
+      "function": "Works automatically in organs.",
+      "positionHint": "In organ walls."
+    },
+    {
+      "id": "hs-cardiac",
+      "label": "Cardiac muscle",
+      "conceptId": "skeletal-smooth-cardiac",
+      "position": [
+        0.3,
+        0.1,
+        0.2
+      ],
+      "description": "The heart muscle that beats without tiring.",
+      "color": "#6B85A8",
+      "function": "Pumps the heart automatically.",
+      "positionHint": "Only in the heart."
+    },
+    {
+      "id": "hs-pull",
+      "label": "Muscle pulling a bone",
+      "conceptId": "contract-pull-bones",
+      "position": [
+        0.0,
+        -0.1,
+        0.2
+      ],
+      "description": "A muscle shortening to pull a bone and move a joint.",
+      "color": "#B5846A",
+      "function": "Pulls on the bone to move it.",
+      "positionHint": "At a joint with a tendon."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a stylized study combining the three muscle types. Center: a skeletal muscle shown as a clean striated (banded) bundle attached by a tendon to a bone at a joint, mid-contraction, with a subtle shortening arrow. Side insets: a small section of smooth muscle (organ wall band) and a small section of cardiac muscle (branched, banded). Warm paper palette, muted flesh/taupe tones, no glow. Named nodes: SkeletalMuscle, Tendon, BoneSegment, SmoothMuscleBand, CardiacMuscleBand, ContractionArrows. Budget 20-28k.",
+  "visual": {
+    "shape": "muscle-fiber"
+  }
+}

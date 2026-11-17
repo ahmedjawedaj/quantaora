@@ -1,0 +1,90 @@
+{
+  "id": "mean",
+  "componentId": "mean",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/mean/mean.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/mean.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Sharing table",
+    "Bins",
+    "Mean line",
+    "Total plate"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-mean-line",
+      "label": "Mean",
+      "conceptId": "mean-definition",
+      "position": [
+        0.1,
+        0.55,
+        0.1
+      ],
+      "description": "The level line across the bins \u2014 the fair-share height, here 5.",
+      "positionHint": "The dashed line crossing all four bins.",
+      "color": "#D9A441",
+      "function": "The average value."
+    },
+    {
+      "id": "hs-bin",
+      "label": "Bin",
+      "conceptId": "mean-share",
+      "position": [
+        -0.8,
+        0.35,
+        0.15
+      ],
+      "description": "One container holding a data point's shells.",
+      "positionHint": "A single bin on the table.",
+      "color": "#7FA86A",
+      "function": "Holds one data point."
+    },
+    {
+      "id": "hs-total-plate",
+      "label": "Total and count",
+      "conceptId": "mean-compute",
+      "position": [
+        0.9,
+        0.25,
+        0.15
+      ],
+      "description": "The plate reading Total 20, Count 4 \u2014 the two numbers the mean is made from.",
+      "positionHint": "The plate at the front of the table.",
+      "color": "#6B85A8",
+      "function": "Shows total and count."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A sharing table with four bins of shells at unequal heights, a dashed mean line, and a total/count plate. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Table: warm paper surface (roughness ~0.5). Bins: warm paper bins (roughness ~0.4). Shells: small warm-tone tokens stacked in each bin. Mean line: dashed thin amber strip. Total plate: warm paper plate with ink 'Total 20, Count 4, Mean 5'. Share animation: tokens glide between bins. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the mean as fair share \u2014 four bins holding shells (2, 4, 6, 8); 'share' slides shells until every bin hits the same height; adding a bin re-shares; sum count light reads total \u00f7 count.\n\nGEOMETRY: A sharing table with four clear bins in a row, holding shell tokens stacked at heights 2, 4, 6, 8. A dashed mean line crosses the entire row at the average height. 'Share' animates tokens sliding from tall piles to short ones until all bins match the mean line. Buttons add or remove a bin; bins re-share. 'Sum' glows each bin's count and reads '2 + 4 + 6 + 8 = 20'; the total/count plate gives mean = 20 \u00f7 4 = 5.\n\nLAYERS (toggleable): (1) table; (2) bins + shells; (3) mean line; (4) total plate + sum highlight.\n\nCAMERA: three-quarter from front-left, slightly above, frames the table; labels legible. Budget 5-10k triangles. Named nodes: Table, Bins, ShellTokens, MeanLine, TotalPlate, ShareAnim, CountPanel. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "mean-balance"
+  }
+}

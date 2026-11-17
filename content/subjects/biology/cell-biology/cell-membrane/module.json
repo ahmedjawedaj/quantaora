@@ -1,0 +1,69 @@
+{
+  "id": "cell-membrane",
+  "subject": "biology",
+  "title": "Cell Membrane",
+  "summary": "The cell membrane is the flexible outer boundary of every cell — a thin double layer that decides what enters and what leaves. Explore its structure of lipids and proteins and its selective semi-permeable action, then see why everything a cell takes in or releases must cross this controlled barrier.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "phospholipid-bilayer",
+    "selective-permeability",
+    "membrane-transport",
+    "flexible-boundary"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Cell Membrane",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Cell Membrane"
+  },
+  "crossReferences": [
+    {
+      "label": "Plant Cell (Cell Biology)",
+      "branch": "cell-biology",
+      "grouping": "Plant cell & cell wall",
+      "note": "Plant cells have both a cell membrane and, outside it, a rigid cell wall. These two layers partner: the membrane manages what goes in and out while the wall protects shape."
+    },
+    {
+      "label": "Cytoplasm (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Cytoplasm",
+      "note": "The membrane wraps the cytoplasm and keeps its internal conditions separate from the outside world."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Cell membrane vs. cell wall",
+    "description": "The cell membrane is a thin, flexible, living layer present in ALL cells that controls what enters and exits. The cell wall is a thick, rigid, non-living coating found outside the membrane only in plants, fungi, and some bacteria, which gives the cell support and shape."
+  },
+  "parts": [
+    "Phospholipid bilayer (double lipid layer)",
+    "Embedded proteins",
+    "Selective gate control",
+    "Flexible outer boundary"
+  ],
+  "processes": [
+    "Selective — semi-permeable — transport of water and small molecules",
+    "Diffusion and osmosis across the bilayer",
+    "Carrying signals and recognizing other cells through membrane proteins"
+  ],
+  "plainLanguageExplanation": "The cell membrane is the skin of the cell — a very thin, flexible wrapping that holds the cell together and separates its insides from the outside world. It is built from a double layer of oily molecules (lipids), called a bilayer, with many proteins floating within it, and it acts as a selective security gate. Not everything passes through equally: small, simple molecules like water and oxygen slip through easily, nutrients the cell needs are let in through special proteins, and waste or harmful things are kept out or moved out. This pick-and-choose control is called selective permeability, and because the membrane let some things through but not others, it is the reason a cell can keep a stable, healthy inside even when the outside changes.",
+  "keyFacts": [
+    {"label":"Where it is","value":"The thin outer boundary of every cell, separating the cytoplasm from the outside"},
+    {"label":"Made of","value":"A double layer of phospholipids with proteins and other molecules embedded in it"},
+    {"label":"Main job","value":"Controls what enters and leaves: a selective, semi-permeable barrier"},
+    {"label":"Flexibility","value":"It is flexible and can bend and move, allowing cells to change shape"},
+    {"label":"In all cells","value":"Every cell has a membrane - even bacteria (in addition to a wall in plant cells)"},
+    {"label":"Selective part","value":"Small molecules like water pass through freely; larger or charged ones need protein doors"}
+  ],
+  "whyItMatters": "The cell membrane is what makes a cell a cell — a separate, living unit with control over its own internal conditions. Keeping the right ingredients inside and the wrong ones out is the very definition of being alive at the cellular level. Understanding it unlocks big things you rely on: how cells get nutrients, how cells communicate, how medicines deliver their effects, and how a single cell can keep a stable 'inside' no matter what happens 'outside.'",
+  "files": {"lesson":"lesson.md","quiz":"quiz.json","modelMetadata":"model-metadata.json","glossary":"glossary.json","standards":"standards.json"},
+  "scientificName": "Plasma membrane",
+  "tagline": "The selective gateway of the cell",
+  "didYouKnow": "Your body is made of trillions of cells, each wrapped in its own membrane that decides, second by second, which molecules are allowed through the gate.",
+  "conditions": ["Osmosis","Diffusion","Membrane transport"]
+}

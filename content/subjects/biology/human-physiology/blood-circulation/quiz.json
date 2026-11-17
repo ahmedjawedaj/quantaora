@@ -1,0 +1,65 @@
+{
+  "componentId": "blood-circulation",
+  "questions": [
+    {
+      "id": "blood-circulation-q-capillaries",
+      "conceptId": "Capillaries exchange gases and nutrients",
+      "hotspotId": "hs-capillaries",
+      "prompt": "What is the main job of the capillaries?",
+      "options": [
+        "Pumping blood with strong muscle contractions",
+        "Exchanging oxygen, nutrients, and waste between blood and body cells",
+        "Storing extra blood for emergencies",
+        "Carrying blood away from the heart at high pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct! Capillaries have walls so thin (often just one cell thick) that oxygen, nutrients, and waste can pass directly through them into and out of body cells — that's their whole purpose.",
+      "misconception": "It's easy to mix up capillaries with arteries or veins because all three are 'blood vessels.' But arteries and veins are built for fast transport with thicker, muscular walls, while capillaries are built for exchange with walls thin enough for molecules to pass through."
+    },
+    {
+      "id": "blood-circulation-q-arteries-veins",
+      "conceptId": "Arteries carry blood away from heart",
+      "hotspotId": "hs-arteries",
+      "prompt": "Which statement correctly describes the difference between arteries and veins?",
+      "options": [
+        "Arteries always carry oxygen-rich blood, veins always carry oxygen-poor blood",
+        "Arteries carry blood away from the heart, veins carry blood back to the heart",
+        "Arteries are found only in the lungs, veins are found only in the body",
+        "Arteries and veins are the same vessel, just named differently in different organs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct! The defining difference is direction relative to the heart: arteries carry blood away from the heart, and veins carry blood back toward it. This is true in both the pulmonary and systemic circuits.",
+      "misconception": "A common mix-up is defining arteries and veins by oxygen content ('arteries = oxygen-rich') instead of direction. That pattern holds in the systemic circuit, but it flips in the pulmonary circuit — the pulmonary artery actually carries oxygen-poor blood toward the lungs, and the pulmonary vein carries oxygen-rich blood back to the heart. Direction, not oxygen content, is what always defines an artery vs. a vein."
+    },
+    {
+      "id": "blood-circulation-q-pulmonary",
+      "conceptId": "Pulmonary circuit",
+      "hotspotId": "hs-pulmonary",
+      "prompt": "Why does blood need to travel through the pulmonary circuit at all?",
+      "options": [
+        "To pick up fresh oxygen from the lungs and release carbon dioxide",
+        "To get pumped harder before reaching the brain",
+        "To filter out waste products before returning to the heart",
+        "To warm the blood up before it goes to the body"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct! The pulmonary circuit is the short loop between the heart and lungs, where blood drops off carbon dioxide and loads up on fresh oxygen before heading out to the rest of the body through the systemic circuit.",
+      "misconception": "Students sometimes think all the body's important exchange (oxygen, waste, filtering) happens in one place. In reality, different circuits and organs handle different jobs: the pulmonary circuit handles gas exchange with the lungs specifically, while waste filtering is a separate job handled by the kidneys."
+    },
+    {
+      "id": "blood-circulation-q-heart-chambers",
+      "conceptId": "Heart pumps blood",
+      "hotspotId": "hs-heart",
+      "prompt": "How many chambers does the human heart have, and what are the two types called?",
+      "options": [
+        "Two chambers, both called ventricles",
+        "Three chambers: two atria and one ventricle",
+        "Four chambers: two atria and two ventricles",
+        "Four chambers, all called atria"
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct! The heart has four chambers: two atria on top that receive incoming blood, and two ventricles on the bottom that pump blood back out — one side handles the pulmonary circuit, the other handles the systemic circuit.",
+      "misconception": "It's easy to assume the heart is just one big pump with a single chamber, since it feels like 'one beat.' Actually each heartbeat is the coordinated squeeze of four separate chambers working together, which is why the heart can run two different circuits (to the lungs and to the body) at once."
+    }
+  ]
+}

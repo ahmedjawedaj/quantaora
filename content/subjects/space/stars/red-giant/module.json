@@ -1,0 +1,102 @@
+{
+  "id": "red-giant",
+  "subject": "space",
+  "title": "Red Giant",
+  "summary": "The swollen, cooling finale of a star that has run out of core hydrogen. The Sun's core fuses helium around a dead hydrogen shell and the star expands tens of times its old size — cooler, redder, and much closer to the end of its life.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "core-hydrogen-exhaustion",
+    "shell-hydrogen-burning",
+    "stellar-expansion",
+    "surface-cooling-reddening",
+    "sun-red-giant-future"
+  ],
+  "type": "model",
+  "estimatedMinutes": 13,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Stars",
+    "unit": "Stellar Lifecycle",
+    "systemOrGroup": "Post-main sequence",
+    "component": "Red Giant",
+    "displayPath": "Space > Stars > Stellar Lifecycle > Post-main sequence > Red Giant"
+  },
+  "crossReferences": [
+    {
+      "label": "Main Sequence Star (Stars)",
+      "branch": "stars",
+      "component": "Main Sequence Star",
+      "note": "The red giant is the same star after its core hydrogen runs out: the balance of hydrostatic equilibrium breaks, and the star swells while its surface cools."
+    },
+    {
+      "label": "White Dwarf (Stars)",
+      "branch": "stars",
+      "component": "White dwarf",
+      "note": "What remains after the red giant flings its outer layers away — the exposed, cooling core of the former giant."
+    },
+    {
+      "label": "Sun (Solar System)",
+      "branch": "solar-system",
+      "component": "The Sun",
+      "note": "Today's Sun is a main-sequence star; in roughly five billion years it becomes a red giant, swelling past the orbits of Mercury and Venus."
+    }
+  ],
+  "belongsTo": "Stars > Stellar Lifecycle > Post-main sequence",
+  "compareCandidate": {
+    "label": "Red giant vs. main sequence",
+    "description": "The same kind of star, two stages apart — the identical fuel budget, just spent differently. In the main sequence the core runs on hydrogen; in the red giant the core runs dry, shell fusion takes over and the whole envelope expands and cools. Comparing them makes a star's outside appearance a direct report on what its core is doing."
+  },
+  "parts": [
+    "Inert helium core (not fusing)",
+    "Hydrogen-burning shell",
+    "Expanded outer envelope",
+    "Red, cooler photosphere"
+  ],
+  "processes": [
+    "Core hydrogen exhaustion",
+    "Shell hydrogen burning",
+    "Runaway envelope expansion",
+    "Surface cooling and reddening"
+  ],
+  "plainLanguageExplanation": "A red giant is the same star as the earlier main-sequence star — no new fuel arrives from anywhere. What changes is that the core runs out of hydrogen. With no fusion in the center, nothing holds the enormous weight of the star up anymore, so the core contracts and heats up until a thin shell just outside it starts fusing the hydrogen that remains there. That shell fusion pours energy into the envelope, and — crucially — also pushes it outward, so the star swells into a red-amber balloon dozens of times its old diameter. Expanding gas cools as it spreads, which is why the surface drops to about three thousand kelvin and glows red instead of yellow-white. For the Sun this story has a date: about five billion years from now it becomes a red giant large enough that Mercury and Venus are swallowed, and Earth is a charred rock even if not physically engulfed. When the shell fusion finally exhausts its fuel as well, the star's chapter closes with its outer layers drifting off — and the bare core left behind as a white dwarf.",
+  "keyFacts": [
+    {
+      "label": "Why the swell",
+      "value": "Core runs out of hydrogen, so a shell around it starts fusing — and the extra output puffs the envelope outward"
+    },
+    {
+      "label": "Size change",
+      "value": "Radius grows from ~1 to ~30+ times the old (Sun-like) size"
+    },
+    {
+      "label": "Surface temperature",
+      "value": "Drops to about 3,000 K — hence the red color"
+    },
+    {
+      "label": "Sun's fate",
+      "value": "Sun becomes a red giant in about 5 billion years; Mercury and Venus orbit inside its final radius"
+    },
+    {
+      "label": "The core meanwhile",
+      "value": "Contracts and heats to over 100 million K for the next stage (helium fusion)"
+    },
+    {
+      "label": "Lesson at a glance",
+      "value": "Expanded radius plus red color = public report that the core's hydrogen fuel is gone"
+    }
+  ],
+  "whyItMatters": "Red giants are where the lightest common story of a star visibly moves forward: appearance — size and color — is the direct public report of a star's internal state. They are also where the Sun's own future is written, and where the seeds of every heavy element begin, as the shell-flush will eventually drift away and form enrichment for the next generation of stars. Recognizing a red giant from its color and radius is the diagnostic in the Hertzsprung–Russell diagram that separates infant stars, steady stars, and aging giants at a glance.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Post-main-sequence shell-hydrogen burning",
+  "tagline": "The bloated, cooling endgame of a star",
+  "didYouKnow": "Betelgeuse — the shoulder star of Orion — is so huge and its outer layers so thin that astronomers still argue about its exact diameter, with two very different sprawling sizes quoted in the literature.",
+  "compareCandidateId": "main-sequence-star",
+  "compareReason": "The same star, minutes apart on its own clock: steady yellow-white on the main sequence, then bloated and red once the core hydrogen is gone. Nothing is added — the envelope simply swells as the core empties."
+}

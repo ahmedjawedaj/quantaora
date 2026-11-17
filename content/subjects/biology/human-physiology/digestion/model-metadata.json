@@ -1,0 +1,105 @@
+{
+  "id": "digestion",
+  "componentId": "digestion",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/models/intestine.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/digestion.png",
+  "defaultCamera": {
+    "position": [
+      0.95,
+      0.15,
+      2.15
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "digestive-tract",
+    "body-outline-ghost",
+    "cross-section-plane",
+    "labels"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-mouth",
+      "label": "Mouth",
+      "conceptId": "mouth-mechanical-and-chemical-breakdown",
+      "position": [
+        0,
+        0.58,
+        0.1
+      ],
+      "description": "Teeth and tongue mechanically break food into smaller pieces while saliva (containing the enzyme amylase) begins chemical breakdown of starches, forming a soft mass called a bolus.",
+      "positionHint": "Top of model at the pharynx stub, x=0.0, y=+0.58, z=+0.10 — front-facing, slightly above the esophagus entry.",
+      "color": "#B8AFA0",
+      "function": "Mechanically breaks food apart while saliva begins chemical breakdown of starches."
+    },
+    {
+      "id": "hs-stomach",
+      "label": "Stomach",
+      "conceptId": "stomach-acid-breakdown",
+      "position": [
+        -0.14,
+        0.14,
+        0.08
+      ],
+      "description": "The J-shaped stomach churns food and bathes it in hydrochloric acid and the enzyme pepsin, breaking proteins down into a semi-liquid mixture called chyme.",
+      "positionHint": "Upper-left quadrant of the tract mass, x=-0.14, y=+0.14, z=+0.08 — on the widest curve of the stomach body, visible from the default front camera.",
+      "color": "#D9A46B",
+      "function": "Churns food in acid and enzymes, turning it into a semi-liquid mixture called chyme."
+    },
+    {
+      "id": "hs-small-intestine",
+      "label": "Small Intestine",
+      "conceptId": "small-intestine-nutrient-absorption",
+      "position": [
+        0.02,
+        -0.06,
+        0.1
+      ],
+      "description": "A long coiled tube (~6-7m folded compactly) where bile, pancreatic enzymes, and villi-lined walls complete digestion and absorb nutrients into the bloodstream.",
+      "positionHint": "Center of the coiled mass filling the lower-mid abdomen, x=+0.02, y=-0.06, z=+0.10 — front-most coil loop, unobstructed by the large intestine frame.",
+      "color": "#E0B98A",
+      "function": "Finishes digestion and absorbs nutrients into the bloodstream through villi-lined walls."
+    },
+    {
+      "id": "hs-large-intestine",
+      "label": "Large Intestine",
+      "conceptId": "large-intestine-water-absorption",
+      "position": [
+        0.2,
+        -0.02,
+        0.06
+      ],
+      "description": "Frames the small intestine (ascending, transverse, descending colon) and absorbs water and remaining salts, compacting leftover material into solid waste.",
+      "positionHint": "Right ascending colon segment, x=+0.20, y=-0.02, z=+0.06 — the vertical tube on the right edge of the frame, clearly separated in outline from the small intestine coils.",
+      "color": "#B8664A",
+      "function": "Reclaims water and salts from leftover material, compacting it into solid waste."
+    },
+    {
+      "id": "hs-waste-elimination",
+      "label": "Waste Elimination",
+      "conceptId": "waste-elimination",
+      "position": [
+        0,
+        -0.56,
+        0.08
+      ],
+      "description": "The rectum stores compacted waste until the anal sphincter releases it from the body as stool, completing the digestive process.",
+      "positionHint": "Bottom terminus of the tract, x=0.0, y=-0.56, z=+0.08 — short stub below the sigmoid colon curve, lowest point of the model.",
+      "color": "#A89C8A",
+      "function": "Stores compacted waste until the anal sphincter releases it from the body."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier language, applied with the spec's biology palette (coral, leaf green, warm paper) instead of Atelier's neutral tones: warm off-white/paper studio background, no environment reflections or HDRI glare, soft single key light + gentle fill (no rim glow, no bloom/emissive). The digestive tract itself reads as a clean matte specimen — not photoreal, not textured-skin-realistic, not gamey/cartoon. Segment color-coding is restrained: stomach and small intestine in a warm coral-tan, large intestine in a slightly deeper terracotta so its frame reads distinct from the small-intestine coils at a glance, mouth/esophagus and rectum stubs in a muted neutral to de-emphasize them as connective plumbing rather than focal organs. Hotspot dots are small, flat-colored leaf-green circles with a thin white ring, consistent with Atelier's dot-opens-card pattern — no pulsing halos or particle glow. The optional body-outline-ghost layer is a near-invisible (8-12% opacity) line-art torso silhouette for orientation only, toggled off by default so the tract reads as the isolated hero object per Atelier's \"large centered object, minimal chrome\" rule.",
+  "assetBrief": "DELIVERABLE: one glb-authored model, \"digestion-tract.glb\", representing the human gastrointestinal tract as an isolated anatomical specimen (not a full body), matching the Anatomy Atelier quality bar (assets/reference/anatomy-atelier/*.png, https://anatomy-livid.vercel.app/).\n\nSCOPE OF GEOMETRY: model the tract from the pharynx down to the anal canal, positioned in its natural in-body curvature (not stretched out flat), so the coiled small intestine, the framing large intestine, and the stomach's curve read as an anatomically legible whole silhouette when viewed from the front. Segments to build, each as a separately-tagged mesh/node so hotspots and isolate/layer toggles can target them individually:\n1. Pharynx/esophagus stub (short, top of model, mostly a connective lead-in — low detail is fine, it's not a hotspot focus on its own beyond the mouth hotspot sitting at its top).\n2. Stomach — J-curve, moderate surface undulation suggesting rugae (internal folds) visible only when cross-section is active; smooth exterior otherwise.\n3. Small intestine — a compact coiled tube mass filling the lower-central abdominal space, coil loops legible as loops (not a fused blob) but simplified/stylized, not medically hyper-detailed.\n4. Large intestine — a tube that visibly frames the small intestine coil on three sides (ascending right, transverse top, descending left, with a sigmoid curve into the rectum), noticeably thicker in diameter than the small intestine per real anatomy, and rendered as a distinct color/segment so its \"frame\" shape is instantly readable.\n5. Rectum/anal canal stub — short terminus at the bottom.\n\nPROPORTIONS: overall model bounding box roughly 0.5m wide x 1.25m tall x 0.3m deep at life-scale (fits a seated/standing adult torso region), origin (0,0,0) at the visual center of the small intestine coil mass (mid-abdomen level) so the default camera target of [0,0,0] frames the full tract with roughly even headroom above the mouth stub and footroom below the rectum stub.\n\nMATERIALS/SHADING: matte, non-metallic PBR materials with soft, slightly toon-adjacent shading (subtle single-direction gradient shading is fine, no hard cel outlines). No glossy/wet-look specular, no subsurface-scattering glow, no emissive materials anywhere. Palette per the biology subject identity: warm coral-tan for stomach and small intestine, deeper muted terracotta for the large intestine, desaturated warm gray for the esophagus/rectum connective stubs. Keep saturation and contrast low enough that the model feels like a calm scientific illustration, not a medical-realism render or a cartoon character.\n\nCROSS-SECTION SUPPORT: build the stomach and small/large intestine meshes with enough internal geometry (or a paired \"interior\" mesh variant) that a sagittal cross-section plane can cut through them and reveal simplified internal structure — stomach rugae folds and a hollow lumen for the stomach; a hollow tube with faint villi-suggestive inner texture for the small intestine. This need not be biologically exhaustive, just enough to make \"what's inside\" legible when the cross-section toggle is active, matching spec section 13's cross-section requirement.\n\nLAYERS TO AUTHOR AS TOGGLABLE NODE GROUPS: \"digestive-tract\" (all five segments, default on), \"body-outline-ghost\" (a minimal low-poly or line-art torso silhouette for spatial context, default off, ~10% opacity when on), \"cross-section-plane\" (the cutaway geometry/clip group, default off), \"labels\" (billboard hotspot dot anchors, default on).\n\nHOTSPOT PLACEMENT: five hotspots exactly at the positions given in the hotspots array of this spec, one per pipeline stage (mouth, stomach, small intestine, large intestine, waste elimination) — each dot sits directly on the exterior surface of its segment, front-facing so it's visible without rotating away from the default camera.\n\nCAMERA/PRESENTATION: default camera at [0.95, 0.15, 2.15] looking at [0, 0, 0], a gentle three-quarter front view (not dead-on, not top-down) so the stomach curve, intestinal coiling, and large-intestine frame are all simultaneously legible — this mirrors how Atelier frames its organ models with clear silhouette read from the first frame. Auto-rotate should be on by default at a slow, calm speed (roughly one full rotation per 25-30 seconds) so the tract's 3D shape reads without requiring the learner to touch anything, consistent with the reference's passive-idle behavior.\n\nDO NOT: do not add blood/fluid effects, particle animations, glossy wet shaders, cartoon eyes/faces, exaggerated cel outlines, neon/glow hotspot halos, background gradients or vignettes, or any full-body skin/musculature — this is an isolated organ-system specimen model, not a full anatomical figure and not a stylized mascot. Do not fuse the small and large intestine into a single indistinguishable mass — their color and thickness contrast must stay readable at the default camera distance.",
+  "visual": {
+    "shape": "digestion-track"
+  }
+}

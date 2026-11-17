@@ -1,0 +1,105 @@
+{
+  "id": "cytoplasm",
+  "componentId": "cytoplasm",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/cell-biology/cytoplasm/cytoplasm.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/cytoplasm.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.3,
+      2.3
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.3,
+      2.3
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Cytosol fluid",
+    "Organelles suspended",
+    "Streaming/transport dots",
+    "Cell boundary"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cytosol",
+      "label": "Cytosol",
+      "conceptId": "cytosol-and-organelles",
+      "position": [
+        0,
+        0,
+        0.4
+      ],
+      "description": "The fluid part of the cytoplasm - mostly water with dissolved molecules.",
+      "positionHint": "Across the translucent interior of the model.",
+      "color": "#7fa88a",
+      "function": "The watery fluid in which everything in a cell is suspended."
+    },
+    {
+      "id": "hs-organelles",
+      "label": "Organelles in the cytoplasm",
+      "conceptId": "cytosol-and-organelles",
+      "position": [
+        0.4,
+        -0.2,
+        0.25
+      ],
+      "description": "Small structures like the mitochondria and ribosomes float in the cytoplasm.",
+      "positionHint": "Several small blobs spread in the filling.",
+      "color": "#B5846A",
+      "function": "The organelles are supported and held in place by the cytoplasm."
+    },
+    {
+      "id": "hs-transport",
+      "label": "Cytoplasmic transport",
+      "conceptId": "cytoplasmic-transport",
+      "position": [
+        0.3,
+        0.15,
+        0.1
+      ],
+      "description": "The streaming movement that carries materials from one part of the cell to another.",
+      "positionHint": "A line of small dots drifting across the filling.",
+      "color": "#6B85A8",
+      "function": "Delivers materials between the membrane and organelles through the fluid."
+    },
+    {
+      "id": "hs-fill",
+      "label": "Cytoplasm fill",
+      "conceptId": "site-of-reactions",
+      "position": [
+        -0.35,
+        0.25,
+        0.15
+      ],
+      "description": "The whole workspace between the cell membrane and nucleus, holding all organelles.",
+      "positionHint": "The entire volume inside the translucent cell boundary.",
+      "color": "#7fa88a",
+      "function": "Hosts reactions and supports the organelles that do the cell's work."
+    }
+  ],
+  "visualStyleNotes": "Same warm off-white/paper background (#F7F3EC), soft vignette, no floor grid, no props. The cell is a translucent rounded blob, its interior gel shown as a soft cloud (very low opacity). Each organelle is a simple, low-saturation shape in the Biology palette. A few soft streaming dots in muted blue accent drift through. Strong color reserved for hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, the cytoplasmic gel is translucent (alpha ~0.1-0.15), organelles opaque matte. No emissive.",
+  "assetBrief": "SUBJECT: a translucent eukaryotic cell interior study. A rounded translucent cell membrane envelope. Inside, fill the volume with a near-invisible soft gel (low-opacity paper-colored cloud). Scatter a nucleus (large), a mitochondrion, a few ribosomes, an endoplasmic reticulum and a Golgi, all muted and low saturation. A thin trail of ~12 small pale-blue dots circles across the inside to indicate streaming transport. Named nodes: CytoplasmGel, NucleusMesh, MitochondrionMesh, Ribosome_Small01-04, ERMesh, GolgiMesh, StreamingTrail. The streaming trail may be a simple curved line of dots the runtime animates. Budget 8-12k. Camera framing leaves negative space.",
+  "referenceMatch": "Object floats alone centered, slow auto-rotate, on warm off-white ground, no props.",
+  "visual": {
+    "shape": "cell-sphere"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "componentId": "element",
+  "questions": [
+    {
+      "id": "element-q-definition",
+      "conceptId": "element-one-kind-of-atom",
+      "hotspotId": "hs-element-samples",
+      "prompt": "What is an element?",
+      "options": [
+        "A pure substance made of only one kind of atom",
+        "A substance made of two bonded elements",
+        "Any mixture of materials",
+        "A type of molecule"
+      ],
+      "correctIndex": 0,
+      "explanation": "An element is a pure substance made entirely of one kind of atom — gold is all gold atoms.",
+      "misconception": "A substance of two bonded elements is a compound, a mixture is not a pure substance, and molecules are built FROM elements — an element is specifically one kind of atom only."
+    },
+    {
+      "id": "element-q-protons",
+      "conceptId": "element-one-kind-of-atom",
+      "hotspotId": "hs-element-atoms",
+      "prompt": "What defines which element an atom is?",
+      "options": [
+        "Its number of protons",
+        "Its color",
+        "Its size in real life",
+        "Where it was found"
+      ],
+      "correctIndex": 0,
+      "explanation": "An atom's proton count defines its element — 6 protons is always carbon, 79 is always gold.",
+      "misconception": "Color, size, and discovery location have nothing to do with identity — the proton count is the element's sole definition."
+    },
+    {
+      "id": "element-q-count",
+      "conceptId": "element-about-90-natural",
+      "hotspotId": "hs-element-samples",
+      "prompt": "About how many elements occur naturally on Earth?",
+      "options": [
+        "About 90",
+        "About 12",
+        "Exactly 1000",
+        "About 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "About 90 elements occur naturally, and a few more exist only in laboratories.",
+      "misconception": "There are far more than a handful — about 90 natural elements combine in countless ways to make everything."
+    },
+    {
+      "id": "element-q-combine",
+      "conceptId": "element-pure-substance",
+      "hotspotId": "hs-element-combine",
+      "prompt": "What happens when elements bond together?",
+      "options": [
+        "They form a compound — a new substance",
+        "They become more elements",
+        "They disappear",
+        "They stop being matter"
+      ],
+      "correctIndex": 0,
+      "explanation": "When different elements chemically bond, they form a compound — a new substance, like hydrogen and oxygen becoming water.",
+      "misconception": "Bonding creates a NEW substance (a compound), not more elements — and matter is never destroyed or made."
+    }
+  ]
+}

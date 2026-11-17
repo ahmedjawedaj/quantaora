@@ -1,0 +1,60 @@
+{
+  "componentId": "axial-tilt-and-seasons",
+  "questions": [
+    {
+      "id": "tilt-q-cause",
+      "conceptId": "seasons-cause",
+      "prompt": "What actually causes Earth to have seasons?",
+      "options": [
+        "Earth moving closer to and farther from the Sun",
+        "Earth's axis staying tilted in the same direction as it orbits the Sun",
+        "The Moon blocking sunlight for part of the year",
+        "Earth's rotation speeding up and slowing down"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earth's 23.5° axial tilt stays pointed the same direction all year, so different points in the orbit put different hemispheres closer to facing the Sun directly. That changing angle — not changing distance — is what drives seasons.",
+      "misconception": "Earth's distance from the Sun barely changes across the year, and in the Northern Hemisphere the closest approach actually happens in January — the middle of winter. Distance is a tempting but wrong explanation."
+    },
+    {
+      "id": "tilt-q-opposite-hemispheres",
+      "conceptId": "seasons-cause",
+      "prompt": "During the Northern Hemisphere's summer, what season is the Southern Hemisphere having?",
+      "options": ["Summer too", "Winter", "Spring", "The same as the North, just later"],
+      "correctIndex": 1,
+      "explanation": "Because the two hemispheres lean opposite ways relative to the Sun at any given moment, they always have opposite seasons — Northern summer is always Southern winter.",
+      "misconception": "It's easy to assume the whole planet shares one season, but the tilt affects the North and South oppositely at the exact same time."
+    },
+    {
+      "id": "tilt-q-zero-tilt",
+      "conceptId": "axial-tilt",
+      "prompt": "What would happen to seasons if Earth had zero axial tilt?",
+      "options": ["Seasons would be more extreme", "Seasons would disappear almost entirely", "Only the equator would have seasons", "Nothing would change"],
+      "correctIndex": 1,
+      "explanation": "With no tilt, no hemisphere would ever lean toward or away from the Sun — every day would look roughly like an equinox everywhere, and seasons would essentially vanish.",
+      "misconception": "Tilt is easy to overlook since it never seems to \"do\" anything by itself — but it is the entire cause of the yearly light-and-temperature cycle we call seasons."
+    },
+    {
+      "id": "tilt-q-equinox",
+      "conceptId": "solstice-and-equinox",
+      "prompt": "At the equinoxes, what is true almost everywhere on Earth?",
+      "options": ["It is always summer", "Day and night are close to equal length", "One hemisphere gets no sunlight at all", "Earth's rotation temporarily stops"],
+      "correctIndex": 1,
+      "explanation": "At an equinox, neither hemisphere leans toward the Sun, so the sunlit half of Earth splits almost evenly between day and night everywhere — hence the name \"equinox,\" meaning \"equal night.\"",
+      "misconception": "Solstices (the tilt at its most extreme) are often confused with equinoxes (the tilt at its most neutral) — they are opposite points in the yearly cycle."
+    },
+    {
+      "id": "tilt-q-solstice-name",
+      "conceptId": "solstice-and-equinox",
+      "prompt": "What is the June solstice?",
+      "options": [
+        "The day the Northern Hemisphere leans most toward the Sun, giving it the longest day of the year",
+        "The single day each year with no sunlight anywhere",
+        "The moment Earth is closest to the Sun",
+        "Another name for the March equinox"
+      ],
+      "correctIndex": 0,
+      "explanation": "The June solstice is the point in Earth's orbit where the Northern Hemisphere's lean toward the Sun is at its maximum, giving the North its longest day and the South its shortest.",
+      "misconception": "Solstices are sometimes assumed to be about Earth's distance from the Sun (like a close-approach event), but they're purely about tilt angle — Earth's Sun distance barely changes at all around a solstice."
+    }
+  ]
+}

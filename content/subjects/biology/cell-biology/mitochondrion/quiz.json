@@ -1,0 +1,55 @@
+{
+  "componentId": "mitochondrion",
+  "questions": [
+    {
+      "id": "mt-q-powerhouse",
+      "conceptId": "cellular-respiration-energy",
+      "hotspotId": "hs-energy",
+      "prompt": "Why is the mitochondrion called the powerhouse of the cell?",
+      "options": ["It turns food into usable energy for the cell","It stores the cell's DNA","It controls cell division","It holds the cell's water"],
+      "correctIndex": 0,
+      "explanation": "The mitochondrion breaks down food molecules using oxygen and releases the energy as usable ATP, which powers the cell's work.",
+      "misconception": "Storage of instructions is the nucleus's job; making energy from food is specifically the mitochondrion's role."
+    },
+    {
+      "id": "mt-q-cristae",
+      "conceptId": "inner-membrane-cristae",
+      "hotspotId": "hs-cristae",
+      "prompt": "Why does the inner membrane of the mitochondrion have folds (cristae)?",
+      "options": ["To create more surface area for making energy","To store water for the cell","To keep the cell warm","To trap oxygen bubbles"],
+      "correctIndex": 0,
+      "explanation": "The folds give the inner membrane a much larger surface area, so many of the cell's energy machines can fit and produce ATP quickly.",
+      "misconception": "Folds are not for storage or warmth - they are about surface area, the same trick used to fit more work into a small space."
+    },
+    {
+      "id": "mt-q-atp",
+      "conceptId": "atp-energy",
+      "hotspotId": "hs-energy",
+      "prompt": "What is ATP?",
+      "options": ["The usable energy molecule the cell spends","The protein that makes up muscles","A type of fat","A kind of sugar molecule"],
+      "correctIndex": 0,
+      "explanation": "ATP (adenosine triphosphate) is the small molecule the cell stores energy in and then spends to power its activities.",
+      "misconception": "ATP is not food or muscle - it is the 'energy coin' that carries energy from where it is made to where it is used."
+    },
+    {
+      "id": "mt-q-oxygen",
+      "conceptId": "cellular-respiration-energy",
+      "hotspotId": "hs-energy",
+      "prompt": "Why does the body need to breathe oxygen?",
+      "options": ["Mitochondria need oxygen to release energy from food efficiently","Oxygen is only for taste","Oxygen makes bones","Oxygen cools the body"],
+      "correctIndex": 0,
+      "explanation": "Cells release the most energy from food when they have oxygen; the oxygen is used in cellular respiration inside the mitochondria.",
+      "misconception": "We don't breathe to cool down or to feed bones. The deep reason is energy - oxygen helps mitochondria release energy efficiently."
+    },
+    {
+      "id": "mt-q-muscle",
+      "conceptId": "double-membrane-structure",
+      "hotspotId": "hs-outer-membrane",
+      "prompt": "Which type of cell would you expect to contain the most mitochondria?",
+      "options": ["A hard-working muscle cell","A sleeping skin cell","A bone cell at rest","A hair cell"],
+      "correctIndex": 0,
+      "explanation": "Cells that work hardest need the most energy, so muscle cells pack in many mitochondria, sometimes thousands.",
+      "misconception": "Mitochondria are not spread evenly - high-energy cells (muscle, brain) are packed with them, low-energy cells have fewer."
+    }
+  ]
+}

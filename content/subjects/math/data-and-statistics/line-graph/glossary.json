@@ -1,0 +1,41 @@
+{
+  "componentId": "line-graph",
+  "terms": [
+    {
+      "term": "Line graph",
+      "conceptId": "line-graph-definition",
+      "hotspotId": "hs-line-trend",
+      "definition": "A chart connecting data points with lines to show change over time.",
+      "function": "Makes trends visible at a glance.",
+      "whereItIs": "The connected path on the chart plate.",
+      "whyItMatters": "Line graphs are how we watch things change."
+    },
+    {
+      "term": "Data point dot",
+      "conceptId": "line-graph-read",
+      "hotspotId": "hs-dot",
+      "definition": "One measured value plotted at a specific time.",
+      "function": "The building block the line connects.",
+      "whereItIs": "Each round dot on the path.",
+      "whyItMatters": "Every line is built from these individual points."
+    },
+    {
+      "term": "Trend",
+      "conceptId": "line-graph-trend",
+      "hotspotId": "hs-line-trend",
+      "definition": "The overall direction of change shown by the line.",
+      "function": "Up = rising, down = falling, flat = steady.",
+      "whereItIs": "The slope of the path across time.",
+      "whyItMatters": "Reading the trend is the whole point of the graph."
+    },
+    {
+      "term": "Time axis",
+      "conceptId": "line-graph-connect",
+      "hotspotId": "hs-time-axis",
+      "definition": "The horizontal axis carrying time from left to right.",
+      "function": "Orders the data points in sequence.",
+      "whereItIs": "The tick-labeled bottom axis.",
+      "whyItMatters": "Left-to-right order is what makes a line graph a story."
+    }
+  ]
+}

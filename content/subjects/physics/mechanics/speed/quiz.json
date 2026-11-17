@@ -1,0 +1,80 @@
+{
+  "componentId": "speed",
+  "questions": [
+    {
+      "id": "speed-q-formula",
+      "conceptId": "speed-distance-per-time",
+      "hotspotId": "hs-speed-car",
+      "prompt": "A car travels 100 m in 20 s. What is its speed?",
+      "options": [
+        "5 m/s",
+        "2000 m/s",
+        "0.2 m/s",
+        "20 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed = distance ÷ time = 100 m ÷ 20 s = 5 m/s.",
+      "misconception": "A loud option is 2000 m/s (multiplying instead of dividing); division — distance over time — is the correct relation."
+    },
+    {
+      "id": "speed-q-scalar",
+      "conceptId": "speed-distance-per-time",
+      "hotspotId": "hs-speed-car",
+      "prompt": "Which statement is true about speed?",
+      "options": [
+        "It has a size but no direction",
+        "It always includes a compass direction",
+        "It can be negative when going backwards",
+        "It only applies to cars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Speed is a scalar — size (like 30 km/h) with no direction attached, so it doesn't care which way you face.",
+      "misconception": "Speed swallowing direction is the hallmark of velocity, not speed. Negative speeds are a fiction — direction belongs to vectors."
+    },
+    {
+      "id": "speed-q-average",
+      "conceptId": "speed-average",
+      "hotspotId": "hs-speed-car",
+      "prompt": "A cyclist covers 45 km in 1.5 h, stopping for lunch along the way. What is the average speed?",
+      "options": [
+        "30 km/h",
+        "45 km/h",
+        "15 km/h",
+        "67.5 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Average speed = total distance ÷ total time = 45 km ÷ 1.5 h = 30 km/h, even though the rider surves faster between stops.",
+      "misconception": "Choosing 45 km/h ignores the time; choosing 67.5 multiplies. Average speed is the straight ratio of total distance to total time."
+    },
+    {
+      "id": "speed-q-graph",
+      "conceptId": "speed-graph",
+      "hotspotId": "hs-speed-graph",
+      "prompt": "On a distance-time graph the line is flat (horizontal). What does that tell about the object?",
+      "options": [
+        "It is at rest — distance is not changing",
+        "It is moving very fast",
+        "It is speeding up",
+        "It has moved backward"
+      ],
+      "correctIndex": 0,
+      "explanation": "A flat line means no distance gained over time — speed is zero, the object is stopped.",
+      "misconception": "New learners sometimes read a flat line as 'big speed'; slope and steepness carry the speed, while flat means no climb."
+    },
+    {
+      "id": "speed-q-steep",
+      "conceptId": "speed-instant",
+      "hotspotId": "hs-speed-graph",
+      "prompt": "Two runners start together. Runner A's distance-time line is much steeper than Runner B's. Who is faster?",
+      "options": [
+        "Runner A — steeper slope means more distance per second",
+        "Runner B — flatter slope means more distance",
+        "They are the same speed",
+        "There isn't enough information"
+      ],
+      "correctIndex": 0,
+      "explanation": "A steeper distance-time slope means a larger distance gained in the same time, so Runner A is faster.",
+      "misconception": "A flatness = slowness mix-up is common; steeper slope always means bigger speed on a distance-time graph."
+    }
+  ]
+}

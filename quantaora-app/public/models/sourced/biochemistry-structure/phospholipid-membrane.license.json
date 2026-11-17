@@ -1,0 +1,15 @@
+{
+  "id": "phospholipid-membrane",
+  "ligandId": "PEF",
+  "title": "Dipalmitoyl phosphatidylethanolamine",
+  "sourceName": "RCSB PDB Chemical Component Dictionary - PEF",
+  "sourceUrl": "https://files.rcsb.org/ligands/view/PEF_ideal.sdf",
+  "license": "RCSB PDB Chemical Component Dictionary data files are distributed under CC0 1.0 Universal",
+  "licenseStatus": "CLEAR",
+  "qualityTier": "support",
+  "targetComponents": [
+    "biology-biochemistry-lipid",
+    "chem-biolink-lipid-membrane"
+  ],
+  "generatedBy": "scripts/assets/build-rcsb-biochemistry-glbs.mjs"
+}

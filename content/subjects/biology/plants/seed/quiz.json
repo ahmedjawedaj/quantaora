@@ -1,0 +1,65 @@
+{
+  "componentId": "seed",
+  "questions": [
+    {
+      "id": "seed-q-contents",
+      "conceptId": "seed-embryo-baby-plant",
+      "hotspotId": "hs-embryo",
+      "prompt": "What is the embryo inside a seed?",
+      "options": [
+        "The tiny baby plant that can grow into a new plant",
+        "A store of green food only",
+        "The outer hard shell",
+        "A flower that has already bloomed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The embryo is the actual baby plant tucked inside the seed, ready to grow when the conditions are right.",
+      "misconception": "Some learners think the seed shell or the stored food is the plant. The embryo is the live baby plant; the rest protects and feeds it."
+    },
+    {
+      "id": "seed-q-coat",
+      "conceptId": "seed-coat-protects",
+      "hotspotId": "hs-seat",
+      "prompt": "What does the seed coat do?",
+      "options": [
+        "Protects the baby plant inside",
+        "Makes photosynthesis",
+        "Absorbs all the pollen",
+        "Holds the flower's nectar"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tough seed coat protects the embryo and stored food from damage while the seed waits for the right moment to germinate.",
+      "misconception": "The seed coat is not for eating or flowering - it is a protective outer layer around the embryo and food."
+    },
+    {
+      "id": "seed-q-food",
+      "conceptId": "seed-food-stored",
+      "hotspotId": "hs-food",
+      "prompt": "Why does a seed contain stored food?",
+      "options": [
+        "To give the new seedling its first energy before it has leaves",
+        "To feed the birds laundry",
+        "To make the seed turn blue",
+        "To attract the rain"
+      ],
+      "correctIndex": 0,
+      "explanation": "The stored food feeds the germinating seedling until it grows its first leaves and can make its own food by photosynthesis.",
+      "misconception": "The food isn't for people or birds; it is a reserve that powers the young plant before it can photosynthesize."
+    },
+    {
+      "id": "seed-q-germinate",
+      "conceptId": "germination-sprouting",
+      "hotspotId": "hs-sprout",
+      "prompt": "What does a seed need so it can germinate?",
+      "options": [
+        "Water, warmth, and air",
+        "Only sunlight and cold",
+        "Only darkness and ice",
+        "No conditions - it always grows"
+      ],
+      "correctIndex": 0,
+      "explanation": "A seed germinates when it gets the right water, warmth, and air, so the embryo can start to grow into a new plant.",
+      "misconception": "Some learners think a seed just needs sunlight to start. Actually it must first take in water and have warmth and air to germinate."
+    }
+  ]
+}

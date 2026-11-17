@@ -1,0 +1,26 @@
+{
+  "componentId": "power",
+  "standards": [
+    {
+      "standardId": "PS3.C",
+      "standard": "Relationship Between Energy and Forces",
+      "description": "The power of a machine is the rate of transferring energy; more power does the same work faster.",
+      "level": "primary",
+      "traceDetail": "Speed knob changes watts while work total stays fixed."
+    },
+    {
+      "standardId": "HS-PS3-1",
+      "standard": "Energy and Work",
+      "description": "The rate of work, or power, is how fast a system transfers energy — measured in joules per second (watts).",
+      "level": "primary",
+      "traceDetail": "Watt meter equals work counter divided by the lift time."
+    },
+    {
+      "standardId": "MATH-6-RP.A",
+      "standard": "Understand Raster Concepts",
+      "description": "Understand the concept of a ratio and unit rate and use rate language in the context of a ratio.",
+      "level": "support",
+      "traceDetail": "Joules-per-second rate reasoning; comparisons of two rates."
+    }
+  ]
+}

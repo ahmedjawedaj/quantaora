@@ -1,0 +1,103 @@
+{
+  "id": "number-line",
+  "componentId": "number-line",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/number-line/number-line.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/number-line.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.1,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.1,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Number line with ticks",
+    "Number labels",
+    "Jump arrow and marker"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-zero-reference",
+      "label": "Zero reference",
+      "conceptId": "number-line-compare-size",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "description": "Zero is the reference point at the center of the line, where positive numbers on the right meet negative numbers on the left.",
+      "positionHint": "The center tick on the line, larger and labeled 0.",
+      "color": "#7FA86A",
+      "function": "Zero is the reference point separating positive and negative number regions."
+    },
+    {
+      "id": "hs-positive-side",
+      "label": "Positive numbers",
+      "conceptId": "number-line-order-numbers",
+      "position": [
+        1.2,
+        0,
+        0
+      ],
+      "description": "Positive numbers live right of zero and get larger the further right you go.",
+      "positionHint": "The half of the line to the right of 0, labeled 1 through 5.",
+      "color": "#D96B5A",
+      "function": "Numbers to the right of zero, increasing in value."
+    },
+    {
+      "id": "hs-negative-side",
+      "label": "Negative numbers",
+      "conceptId": "number-line-compare-size",
+      "position": [
+        -1.2,
+        0,
+        0
+      ],
+      "description": "Negative numbers live left of zero and get smaller the further left you go.",
+      "positionHint": "The half of the line to the left of 0, labeled \u22121 through \u22125.",
+      "color": "#D9A441",
+      "function": "Numbers left of zero, representing amounts below zero."
+    },
+    {
+      "id": "hs-minus-spacing",
+      "label": "Equal tick spacing",
+      "conceptId": "number-line-spacing-equal",
+      "position": [
+        0.4,
+        0.35,
+        0.1
+      ],
+      "description": "Every tick is the same distance apart, which is what lets the line measure true jumps and distances.",
+      "positionHint": "A short length marker spanning two consecutive ticks above the right half of the line.",
+      "color": "#6B85A8",
+      "function": "Equal gaps make the line a true measuring ruler for number steps."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. A single clean horizontal number line floats centered and large in frame. Soft neutral studio light, no rim-light glow, no bloom, no emissive. The line is a thin matte cylinder with short perpendicular tick posts and small number labels rendered as flat plates. Strong saturated color reserved for the small flat hotspot dots (ink / violet / grid-blue accents from the Math palette). Specimen-quality clean-3D, not cartoon, not gamey. Slow auto-rotation is subtle (the model is a thin line so rotation stays gentle).",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K texture-less material set. Line body: warm neutral off-white matte (roughness ~0.55). Tick marks: soft ink-grey (roughness ~0.5). Jump marker arrow: warm amber with a faint satin sheen (roughness ~0.4). Number label plates: warm paper white with ink-grey glyph text. No emissive channels anywhere \u2014 any highlight or glow on interaction is handled by app runtime UI, not baked in.",
+  "assetBrief": "SUBJECT: a single procedural horizontal number line built to read as 'a movable ruler for numbers.' Clean primitives, no downloaded mesh.\n\nGEOMETRY: a thin center cylinder along the x-axis (length ~3.3, radius ~0.02) centered at origin. Perpendicular tick marks are small upright boxes spaced evenly at x = \u22122.5..2.5 at 0.5 steps (so 11 marks for \u22125..5). The zero mark is slightly taller/brighter to read as a reference. Number labels (\u22125 through 5) are thin flat plates facing the camera just above each tick. A small spherical marker + short arrow stub hangs on the jump control so the app can slide it to any tick.\n\nLAYERS (toggleable): (1) Numeric labels on/off; (2) jump arrow + marker overlay; (3) equal-spacing gauge (a short double-arrow spanning two ticks).\n\nCAMERA: default framing head-on (from the +z axis) so the whole \u22125..5 span fits with margin; auto-rotate wiggle is very slow so labels stay legible. Budget 4-8k triangles. Named nodes: Line_Body, Ticks, Label_Plates, Jump_Marker, Jump_Arrow, SpacingGauge, Zero_Tick, PositiveHalf, NegativeHalf. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "number-line-rail"
+  }
+}

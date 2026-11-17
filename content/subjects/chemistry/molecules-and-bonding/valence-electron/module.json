@@ -1,0 +1,109 @@
+{
+  "id": "valence-electron",
+  "subject": "chemistry",
+  "title": "Valence Electron",
+  "summary": "A valence electron is an electron in an atom's outermost shell — the electron that decides how an atom bonds. Explore why the outer-shell electrons are the most important ones in chemistry.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "valence-outermost-shell",
+    "valence-decides-bonding",
+    "valence-shell-count"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Molecules And Bonding",
+    "unit": "Electrons That Bond",
+    "systemOrGroup": "The outer-shell electrons",
+    "component": "Valence Electron",
+    "displayPath": "Chemistry > Molecules And Bonding > Electrons That Bond > The outer-shell electrons > Valence Electron"
+  },
+  "crossReferences": [
+    {
+      "label": "Covalent bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Covalent bond",
+      "note": "The electrons shared in a covalent bond are valence electrons — the outer electrons are the ones that get shared."
+    },
+    {
+      "label": "Ionic bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Ionic bond",
+      "note": "The electrons transferred in an ionic bond are also valence electrons — a metal gives its outer electrons away."
+    },
+    {
+      "label": "Group (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Group",
+      "note": "Elements in the same column of the periodic table share the same number of valence electrons — which is why they behave alike."
+    },
+    {
+      "label": "Lewis structure (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Lewis structure",
+      "note": "A Lewis structure is a drawing of the valence electrons — dots placed around an element's symbol, one per valence electron."
+    }
+  ],
+  "belongsTo": "Molecules And Bonding > Electrons That Bond > The outer-shell electrons",
+  "compareCandidate": {
+    "label": "Valence vs. inner electrons",
+    "description": "Valence electrons live in the outermost shell and do all the bonding work — they get shared or transferred. Inner electrons stay buried in closer shells and are not involved in bonding at all."
+  },
+  "parts": [
+    "Electrons in the outermost shell",
+    "Decide how atoms bond",
+    "Count matches the periodic table group"
+  ],
+  "processes": [
+    "Being shared in covalent bonds",
+    "Being transferred in ionic bonds",
+    "Setting how many bonds an atom can form"
+  ],
+  "plainLanguageExplanation": "A valence electron is an electron that lives in the outermost shell of an atom. Think of an atom as a nesting of shells — layers — around its nucleus, like the layers of an onion. The electrons in the OUTERMOST layer are the valence electrons, and they are the ones that matter for chemistry. Here is why: when atoms react, it is always the outermost electrons that do the work. In a covalent bond, atoms share valence electrons. In an ionic bond, atoms transfer valence electrons. The electrons in the inner shells just stay put — they are not part of the action. How many valence electrons an atom has decides everything about its behavior: how many bonds it can form, whether it gives electrons away or grabs them, and how reactive it is. Sodium, with one valence electron, is eager to give it up; chlorine, with seven, is eager to grab one more. And here is the pattern: every element in the same column of the periodic table has the same number of valence electrons — which is exactly why they behave alike.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "An electron in the outermost shell of an atom"
+    },
+    {
+      "label": "The key role",
+      "value": "These are the electrons shared or transferred in every bond"
+    },
+    {
+      "label": "What they decide",
+      "value": "How many bonds an atom forms and how reactive it is"
+    },
+    {
+      "label": "Inner electrons",
+      "value": "Buried in closer shells — not involved in bonding"
+    },
+    {
+      "label": "The pattern",
+      "value": "Same column of the periodic table = same number of valence electrons"
+    },
+    {
+      "label": "Examples",
+      "value": "Sodium has 1, chlorine has 7, carbon has 4"
+    }
+  ],
+  "whyItMatters": "Valence electrons are the single most important idea for understanding chemical bonding. They explain why the periodic table is arranged the way it is, why elements in a column behave alike, and why some atoms form one bond while others form four. Master the valence electron and you can predict how atoms will combine.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Valence electron",
+  "tagline": "The electrons that bond",
+  "didYouKnow": "Noble gases like helium and neon have full outer shells of valence electrons — which is why they almost never bond with anything at all.",
+  "conditions": [
+    "Every chemical bond",
+    "Reactivity of elements",
+    "Periodic table patterns"
+  ],
+  "compareCandidateId": "lewis-structure",
+  "compareReason": "A Lewis structure is literally a drawing of valence electrons — comparing the atom's shells with its dot diagram shows how the same idea appears in two forms."
+}

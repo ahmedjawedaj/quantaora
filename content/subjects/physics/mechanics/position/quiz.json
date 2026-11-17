@@ -1,0 +1,80 @@
+{
+  "componentId": "position",
+  "questions": [
+    {
+      "id": "position-q-definition",
+      "conceptId": "position-describe-location",
+      "hotspotId": "hs-position-value",
+      "prompt": "What does \"position\" mean in physics?",
+      "options": [
+        "Where an object is located compared to a reference point",
+        "How fast an object is moving",
+        "How heavy an object is",
+        "How much matter an object has"
+      ],
+      "correctIndex": 0,
+      "explanation": "Position is a location — a point. To be useful it must be given relative to a reference point, plus a distance and a direction (\"6 m right of the tree\").",
+      "misconception": "Some think position means how fast something moves; speed is about that, not the location itself."
+    },
+    {
+      "id": "position-q-reference-point",
+      "conceptId": "position-reference-point",
+      "hotspotId": "hs-reference-point",
+      "prompt": "The reference point is the object sitting at 0 — but the object's true location never changed. What happens to the position number when you slide the reference point 5 m the other way?",
+      "options": [
+        "It changes, because position is always measured from the reference point",
+        "It stays the same, because the object didn't move",
+        "It becomes zero",
+        "It can't be found anymore"
+      ],
+      "correctIndex": 0,
+      "explanation": "Position numbers are always measured from the reference point (0). If you move the 0-marker, every position is re-measured from the new spot, so the numbers change even though the object didn't actually move.",
+      "misconception": "Learners often assume position is an absolute fact like weight. It's relative — the number is meaningless without naming the 0 you measure from."
+    },
+    {
+      "id": "position-q-direction",
+      "conceptId": "position-direction",
+      "hotspotId": "hs-direction",
+      "prompt": "Why does a good description of position usually include a direction, like \"left\" or \"north\"?",
+      "options": [
+        "Because a position word like \"6 m\" could name two opposite spots on the line",
+        "Because direction tells you how fast to go",
+        "Because direction replaces the need for a reference point",
+        "Because you always give two numbers anyway"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without a direction, \"6 m\" is ambiguous — there is a spot 6 m left and a spot 6 m right. Direction plus distance from a reference point names one unique location.",
+      "misconception": "Some learners feel a distance like 6 m is enough by itself. It isn't: distance is a size, position needs a direction to be a real location."
+    },
+    {
+      "id": "position-q-coordinates",
+      "conceptId": "position-coordinate-graph",
+      "hotspotId": "hs-grid",
+      "prompt": "A point is drawn on a 2D grid at (3, 2). What does the pair of numbers mean?",
+      "options": [
+        "3 units across on one axis and 2 units up on the other",
+        "3 seconds and 2 meters",
+        "3 kilograms and 2 meters",
+        "The average of 3 and 2"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a coordinate pair, each number gives a distance along one axis (just like properties on a map): over 3, up 2.",
+      "misconception": "Learners sometimes read (3,2) as a combined value (like a sum) — but each number is independent, one per axis."
+    },
+    {
+      "id": "position-q-relative",
+      "conceptId": "position-reference-point",
+      "hotspotId": "hs-reference-point",
+      "prompt": "Which statement is a valid description of a position?",
+      "options": [
+        "The ball is 5 m to the left of the cone",
+        "The ball is fast",
+        "The ball is heavy and red",
+        "The ball is 5 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "A valid position includes a reference point, a direction (left), and a distance (5 m) — \"5 m to the left of the cone\" is complete.",
+      "misconception": "The trap is \"the ball is 5 m\" with no direction or reference — a size, not a location."
+    }
+  ]
+}

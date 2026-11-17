@@ -1,0 +1,88 @@
+{
+  "branchId": "biochemistry-foundations",
+  "subject": "biology",
+  "qualityGoal": "Replace authored molecular diagrams with real molecular structures or high-quality molecule props while preserving interactive cause/effect logic.",
+  "sourcePolicy": {
+    "preferred": ["CC0 Public Domain", "Public domain", "RCSB/PDB-derived open structure with explicit attribution"],
+    "allowedWithReview": ["CC Attribution"],
+    "rejectedForPaidProduct": ["CC Attribution-NonCommercial", "CC Attribution-NonCommercial-ShareAlike", "CC BY-NC", "CC BY-NC-SA", "CC BY-SA", "CC BY-ND"]
+  },
+  "candidates": [
+    {
+      "id": "mc-triose-phosphate-isomerase-1tim",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["biology-biochemistry-protein", "biology-biochemistry-enzyme"],
+      "assetName": "1TIM: STRUCTURE OF TRIOSE PHOSPHATE ISOMERASE",
+      "provider": "Sketchfab",
+      "creator": "MC",
+      "uid": "6bd31f23c0a84b29ae351d9b7fc0b4ca",
+      "sourceUrl": "https://sketchfab.com/3d-models/1tim-structure-of-triose-phosphate-isomerase-6bd31f23c0a84b29ae351d9b7fc0b4ca",
+      "apiUrl": "https://api.sketchfab.com/v3/models/6bd31f23c0a84b29ae351d9b7fc0b4ca",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 105820,
+      "fit": "Real enzyme structure can replace generic protein/enzyme props after optimization and child-readable recolor.",
+      "risk": "High face count and attribution required; optimize and add labels before hero use."
+    },
+    {
+      "id": "pun1shr-atp-molecule",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["biology-biochemistry-atp-cellular-energy"],
+      "assetName": "ATP molecule",
+      "provider": "Sketchfab",
+      "creator": "Pun1shR",
+      "uid": "bfeb9a75934142868cfb0a2b5d432afe",
+      "sourceUrl": "https://sketchfab.com/3d-models/atp-molecule-bfeb9a75934142868cfb0a2b5d432afe",
+      "apiUrl": "https://api.sketchfab.com/v3/models/bfeb9a75934142868cfb0a2b5d432afe",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 51910,
+      "fit": "ATP molecule gives cellular energy a real inspectable structure instead of an abstract battery symbol.",
+      "risk": "Attribution copy required; check bond labels and scale."
+    },
+    {
+      "id": "sabrango-lipid-membrane",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["biology-biochemistry-lipid"],
+      "assetName": "Lipid membrane",
+      "provider": "Sketchfab",
+      "creator": "SabRango",
+      "uid": "4b4f7eaa48b3410394312161c2a5481a",
+      "sourceUrl": "https://sketchfab.com/3d-models/lipid-membrane-4b4f7eaa48b3410394312161c2a5481a",
+      "apiUrl": "https://api.sketchfab.com/v3/models/4b4f7eaa48b3410394312161c2a5481a",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 124448,
+      "fit": "Membrane geometry can make lipid bilayer heads/tails and barrier behavior visible.",
+      "risk": "High face count and attribution required; optimize and verify clarity."
+    },
+    {
+      "id": "sduce-spike-protein",
+      "status": "blocked-unoptimized",
+      "targetComponents": ["biology-biochemistry-protein", "biology-biochemistry-enzyme"],
+      "assetName": "SARS-CoV-2 Spike Protein Molecular Structure",
+      "provider": "Sketchfab",
+      "creator": "S.Duce",
+      "uid": "ae84946650bc4f1794b08c64fef0d14e",
+      "sourceUrl": "https://sketchfab.com/3d-models/sars-cov-2-spike-protein-molecular-structure-ae84946650bc4f1794b08c64fef0d14e",
+      "apiUrl": "https://api.sketchfab.com/v3/models/ae84946650bc4f1794b08c64fef0d14e",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 1438896,
+      "fit": "Recognizable real protein structure, but too heavy for direct web use.",
+      "risk": "Do not wire without major optimization; likely too heavy for mobile."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "science-museum-myoglobin",
+      "assetName": "Model of the myoglobin molecule",
+      "provider": "Sketchfab",
+      "creator": "Science Museum Group",
+      "uid": "65d39316a9d24340834e4923bed470c1",
+      "sourceUrl": "https://sketchfab.com/3d-models/model-of-the-myoglobin-molecule-65d39316a9d24340834e4923bed470c1",
+      "license": "CC Attribution-NonCommercial",
+      "reason": "Non-commercial license; reject for paid or future commercial product."
+    }
+  ]
+}

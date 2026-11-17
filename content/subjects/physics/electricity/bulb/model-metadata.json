@@ -1,0 +1,120 @@
+{
+  "id": "bulb",
+  "componentId": "bulb",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/bulb/bulb.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/bulb.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.2,
+      3.8
+    ],
+    "target": [
+      0,
+      0.6,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Glass globe",
+    "Filament and supports",
+    "Base and contacts",
+    "Switch and battery"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-globe",
+      "label": "Glass Globe",
+      "conceptId": "bulb-loop-connection",
+      "position": [
+        0,
+        1.6,
+        0
+      ],
+      "description": "The transparent shell that lets the filament's light shine out.",
+      "colorHint": "Clear crystal-like sphere over the filament.",
+      "color": "#D9E4EF",
+      "function": "Protects and transmits the light."
+    },
+    {
+      "id": "hs-filament",
+      "label": "Filament",
+      "conceptId": "bulb-filament-glows",
+      "position": [
+        0,
+        1.0,
+        0
+      ],
+      "description": "The coiled thin wire that turns current into white heat and light.",
+      "colorHint": "Tiny bright-coil inside the globe.",
+      "color": "#F2C063",
+      "function": "Glows when current passes."
+    },
+    {
+      "id": "hs-support",
+      "label": "Support Wires",
+      "conceptId": "bulb-filament-glows",
+      "position": [
+        -0.25,
+        1.3,
+        0
+      ],
+      "description": "The slim posts that hold the filament in place.",
+      "colorHint": "Two fine pale wires from base to coil.",
+      "color": "#8A93A6",
+      "function": "Anchor the filament inside the globe."
+    },
+    {
+      "id": "hs-base",
+      "label": "Screw Base",
+      "conceptId": "bulb-loop-connection",
+      "position": [
+        0,
+        0.4,
+        0
+      ],
+      "description": "The metal ring and tip that complete the circuit contact.",
+      "colorHint": "Brass-ridged cap at the bulb's bottom.",
+      "color": "#C9A44C",
+      "function": "Closes the current path through the bulb."
+    },
+    {
+      "id": "hs-switch",
+      "label": "Switch",
+      "conceptId": "bulb-loop-connection",
+      "position": [
+        1.1,
+        0.5,
+        0.3
+      ],
+      "description": "The lever that opens or closes the loop and with it the glow.",
+      "colorHint": "Small amber rocker on the wire run.",
+      "color": "#D9A441",
+      "function": "Decides whether current reaches the filament."
+    },
+    {
+      "id": "hs-current-path",
+      "label": "Current Path",
+      "conceptId": "bulb-loop-connection",
+      "position": [
+        0.5,
+        0.2,
+        0
+      ],
+      "description": "The highlighted route current takes: battery to base, through the filament, and back.",
+      "colorHint": "A softly glowing blue trace over the wires.",
+      "color": "#6B85A8",
+      "function": "Shows the complete loop at a glance."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. A cross-section clear bulb standing on a small base, switch and battery beside it, filament at center.",
+  "materialNotes": "Globe: roughness ~0.1, metallic 0 (clear). Filament: rough tiny coil, no bloom but glow intensity tied to current. Base brass rough metallic ~0.5.",
+  "assetBrief": "SUBJECT: anatomy of the filament bulb and the closed-loop requirement.\n\nGEOMETRY: a glass globe (r≈0.5, y≈1.6) with a coiled filament at (0,1.0,0), support wires, screw base (0,0.4,0); a switch and battery off to the right; a traceable current path.\n\nINTERACTION: the switch closes/opens the loop; filament goes grey→white with ammeter; a path highlight draws the full loop.\n\nNAMED NODES: Globe, Filament, SupportL, SupportR, Base, Switch, PathGlow. 7-10k tris.",
+  "visual": {
+    "shape": "bulb-filament"
+  }
+}

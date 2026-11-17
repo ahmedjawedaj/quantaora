@@ -1,0 +1,104 @@
+{
+  "id": "current",
+  "subject": "physics",
+  "title": "Electric Current",
+  "summary": "Electric current is the flow of electric charge through a wire — billions of electrons walking past each second, measured in amps. In this model a glowing wire carries a streaming tennis-ball-belt of electrons between a battery and a bulb; slow down, speed up, and watch the ammeter and brightness move together.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "current-charge-in-motion",
+    "current-unit-amp",
+    "current-flow-needs-a-loop",
+    "current-brighter-with-more-flow"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Electric Current",
+    "systemOrGroup": "Charge and Current",
+    "component": "Electric Current",
+    "displayPath": "Physics > Electricity > Electric Current > Charge and Current > Electric Current"
+  },
+  "crossReferences": [
+    {
+      "label": "Charge (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Electric charge",
+      "note": "Current is nothing but charge that has started moving — the bench balls finally on the march."
+    },
+    {
+      "label": "Voltage (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Voltage",
+      "note": "The battery's push that drives the flow is the voltage."
+    },
+    {
+      "label": "Resistance (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Resistance",
+      "note": "Resistance is what holds the flow back — a thinner wire means fewer amps for the same volts."
+    }
+  ],
+  "belongsTo": "Electricity > Electric Current > Charge and Current",
+  "compareCandidate": {
+    "label": "More current vs. less current",
+    "description": "The same wire running slow at 0.2 A or fast at 2 A — ammeter, brightness, and dot speed all agree."
+  },
+  "parts": [
+    "The wire loop",
+    "The electron stream",
+    "The ammeter",
+    "The battery"
+  ],
+  "processes": [
+    "Electrons marching through the wire",
+    "Measuring the flow in amps",
+    "Watching the bulb glow brighter with flow",
+    "Trading battery push for speed"
+  ],
+  "plainLanguageExplanation": "Electric current is the flow of charge down a wire — trillions of electrons shuffling together, like water through a pipe. We measure it in amperes (A): one amp is a coulomb of charge passing a point each second. Water analogies make it simple: the electron stream is the water, the wire is the pipe, and the battery is the pump. In this model a transparent wire shows the electron flow as a stream of dots, and a slider tunes the flow — high ammeter, fast stream, bright bulb. Key truths: current happens only when the loop is complete (a broken wire stops the flow), and the whole loop shares the same current — fewer electrons at any point would mean fewer everywhere. Amps are the how-much-moves number you'll see on charger labels, fuse ratings, and power strips; the bigger the amps, the brighter the bulb and the thicker the dose of electrons to the device.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "The flow of electric charge through a path"
+    },
+    {
+      "label": "Unit",
+      "value": "Ampere (A); 1 A = 1 C of charge per second"
+    },
+    {
+      "label": "Needs a loop",
+      "value": "Break the wire or the switch and flow stops"
+    },
+    {
+      "label": "Same everywhere",
+      "value": "Current is equal in every point of a series loop"
+    },
+    {
+      "label": "Power pair",
+      "value": "More current at a given voltage → brighter bulb"
+    }
+  ],
+  "whyItMatters": "Current is the volume knob of electricity: how much charge the 'pipe' delivers decides heat, light, and power in every wire. Appliances name their current draw on the label; fuses and breakers exist to cut off dangerous current; battery ratings are built on amps. 'Amps' is the practical face of electricity everyone touches.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Electric current",
+  "tagline": "Electric charge on the go",
+  "didYouKnow": "A single gram of copper wire contains more free electrons than there are seconds in the history of the universe — currents are trillions upon trillions of charges marching together. Yet electrons drift at just centimeters per hour; the push passes nearly at light speed.",
+  "conditions": [
+    "Phone charger ratings (amps)",
+    "Fuses and circuit breakers",
+    "Bulb brightness in a loop",
+    "Body zaps and grounding",
+    "Electric cars charging the wire"
+  ],
+  "compareCandidateId": "voltage",
+  "compareReason": "Current is how much charge flows; voltage is how hard it is pushed. The dot rail keeps the same pipe but its reservoir height changes the flow — two knobs, one loop."
+}

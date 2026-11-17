@@ -1,0 +1,89 @@
+{
+  "id": "conservation-of-mass",
+  "componentId": "conservation-of-mass",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/chemical-reactions/conservation-of-mass/conservation-of-mass.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/chemical-reactions/conservation-of-mass.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Balanced scales",
+    "Atom count",
+    "Rearrange"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-mass-scales",
+      "label": "Balanced scales",
+      "conceptId": "mass-conserved-in-reactions",
+      "position": [
+        0,
+        0.4,
+        0
+      ],
+      "description": "The two scales are level — the reactants on one side weigh exactly what the products on the other side weigh. Mass is conserved.",
+      "positionHint": "The two balanced scale arms with molecules on each.",
+      "color": "#D9A441",
+      "function": "Shows that product mass equals reactant mass."
+    },
+    {
+      "id": "hs-mass-count",
+      "label": "Equal atom counts",
+      "conceptId": "same-mass-in-out",
+      "position": [
+        -0.9,
+        0.6,
+        0
+      ],
+      "description": "When the count layer is on, every atom splits out and is tallied — the same number of each kind on both sides.",
+      "positionHint": "The split-out atoms with running tallies on each scale.",
+      "color": "#7FA86A",
+      "function": "Shows the atom counts matching on both sides."
+    },
+    {
+      "id": "hs-mass-rearrange",
+      "label": "Atoms rearranged",
+      "conceptId": "atoms-rearranged-not-created",
+      "position": [
+        0.9,
+        0.6,
+        0
+      ],
+      "description": "The rearrange layer shows the reactant atoms breaking apart and reassembling as products — same atoms, brand-new connections.",
+      "positionHint": "The reactant atoms gliding over to form the products.",
+      "color": "#D96B5A",
+      "function": "Shows atoms being rearranged, not created."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. Two balanced scales float side by side with molecule groups on each, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Scales: soft warm-gray fixtures; molecules: ball-stick in CPK colors (hydrogen warm off-white, oxygen muted red, carbon soft graphite). Strong saturated color is reserved for the small flat hotspot dots (amber / molecular-green / coral accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Scale fixtures: soft warm-gray matte, roughness ~0.55. Molecule spheres: CPK colors, roughness ~0.45-0.5. Bond rods: thin graphite cylinders. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: two balanced scales weighing reactants and products, built to be read as 'mass in equals mass out.' Three procedural layers, all clean primitives:\n\n1) MAIN: two identical scale fixtures (soft warm-gray, simple base + arm) side by side (spacing ~1.7). LEFT scale pan holds reactant molecules — one O₂ (two muted-red spheres) and one C (soft graphite sphere), a small pile representing the reactants. RIGHT scale pan holds product molecules — one CO₂ ball-stick (graphite center, two muted-red oxygens, double rods). Both arms are level.\n\n2) ATOM COUNT (toggleable layer): each side's molecules split into individual atoms and arrange in a neat row on its pan; the app renders small running tallies that end equal on both sides (C:1 O:2).\n\n3) REARRANGE (toggleable layer): the atoms from the left pan float across and reassemble into the CO₂ on the right pan (app animates the glide), the scales staying level throughout.\n\nCamera: framed so both scales fit with negative space; auto-rotate default. Budget 7-11k triangles. Named nodes: Scale_Left, Scale_Right, Pan_Reactants, Pan_Products, Reactant_O2, Reactant_C, Product_CO2, AtomRows, RearrangeTrails, TallyGlow. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "mass-conserve"
+  }
+}

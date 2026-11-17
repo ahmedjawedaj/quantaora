@@ -1,0 +1,49 @@
+{
+  "componentId": "atomic-number",
+  "terms": [
+    {
+      "term": "Atomic number",
+      "conceptId": "atomic-number-counts-protons",
+      "hotspotId": "hs-atomic-number",
+      "definition": "The number of protons in an element's atoms; the number that identifies the element.",
+      "function": "Names the element, places it on the periodic table, and (in a neutral atom) equals the electron count.",
+      "whereItIs": "Printed at the top of each element's card on the periodic table.",
+      "whyItMatters": "It is the single number that defines what an element is.",
+      "relatedConcept": "atomic-number-identifies-element",
+      "quizId": "atomic-number-q-count"
+    },
+    {
+      "term": "Proton",
+      "conceptId": "atomic-number-counts-protons",
+      "hotspotId": "hs-proton-count",
+      "definition": "The positively charged particle in the nucleus that the atomic number counts.",
+      "function": "Gives the nucleus its charge and its identity — the proton count IS the atomic number.",
+      "whereItIs": "Inside the nucleus cluster beside the card, shown as the coral spheres.",
+      "whyItMatters": "Every atomic number is literally a count of protons.",
+      "relatedConcept": "atomic-number-identifies-element",
+      "quizId": "atomic-number-q-fixed"
+    },
+    {
+      "term": "Element",
+      "conceptId": "atomic-number-identifies-element",
+      "hotspotId": "hs-table-position",
+      "definition": "A pure substance made of atoms that all share the same atomic number.",
+      "function": "Gives matter its identity — each element owns its unique atomic number.",
+      "whereItIs": "Each box on the periodic table is one element.",
+      "whyItMatters": "The atomic number is how elements are told apart.",
+      "relatedConcept": "atomic-number-orders-table",
+      "quizId": "atomic-number-q-identity"
+    },
+    {
+      "term": "Periodic table",
+      "conceptId": "atomic-number-orders-table",
+      "hotspotId": "hs-table-position",
+      "definition": "A chart that lists all known elements, ordered by increasing atomic number.",
+      "function": "Organizes elements so that similar ones line up together in columns and rows.",
+      "whereItIs": "The slab of tiles shown below the card in the model.",
+      "whyItMatters": "It is the master map of chemistry, built on the atomic number.",
+      "relatedConcept": "atomic-number-identifies-element",
+      "quizId": "atomic-number-q-order"
+    }
+  ]
+}

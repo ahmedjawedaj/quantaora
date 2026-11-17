@@ -1,0 +1,120 @@
+{
+  "id": "planet-size-comparison",
+  "componentId": "planet-size-comparison",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/solar-system/planet-size-comparison.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/solar-system/planet-size-comparison.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: generated at runtime from three.js primitives, not a GLB. `url` is a placeholder for the scene-builder module per project conventions. `thumbnailUrl` is a placeholder PNG. `defaultCamera`/`cameraDefault` and hotspot `position`s are estimates derived from the assetBrief — verify against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.1,
+      6.4
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.1,
+      6.4
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Planet shelf (eight spheres, one scale)",
+    "Sun sphere (same scale, behind)",
+    "Radius labels (× Earth)",
+    "Earth reference marker",
+    "Volume fill toggle (Earths inside Jupiter)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-mercury",
+      "label": "Mercury (0.38 × Earth)",
+      "conceptId": "mercury-smallest-planet",
+      "position": [
+        -2.75,
+        0.16,
+        0.2
+      ],
+      "description": "The smallest planet — radius about 0.38 times Earth's. The tiny sphere at the shelf's left end.",
+      "positionHint": "Leftmost sphere on the shelf, radius ~0.09 scene units, muted grey-ochre with crater mottling.",
+      "color": "#C09A6E",
+      "function": "Shows the smallest planet in the lineup."
+    },
+    {
+      "id": "hs-earth",
+      "label": "Earth (1 ×)",
+      "conceptId": "size-comparison-at-one-scale",
+      "position": [
+        -0.85,
+        0.22,
+        0.2
+      ],
+      "description": "The reference sphere — radius 1 ×, about 6,371 km. Every other label on the shelf is a multiple of this sphere.",
+      "positionHint": "Center-left of the shelf (radius ~0.24), dusty blue-green mottling, with a small amber reference tag beneath.",
+      "color": "#7FA88A",
+      "function": "Anchors every size label on the shelf."
+    },
+    {
+      "id": "hs-jupiter",
+      "label": "Jupiter (11 ×)",
+      "conceptId": "jupiter-largest-planet",
+      "position": [
+        2.35,
+        0.62,
+        0.15
+      ],
+      "description": "The largest planet — radius about 11 × Earth's. Its volume holds over 1,300 Earths.",
+      "positionHint": "Rightmost sphere on the shelf (radius ~2.6 × Earth's display radius), cream-and-tan banded.",
+      "color": "#D9A441",
+      "function": "Demonstrates the largest planet and hosts the volume-fill visualization."
+    },
+    {
+      "id": "hs-sun",
+      "label": "The Sun (109 ×)",
+      "conceptId": "sun-dwarfs-all-planets",
+      "position": [
+        0,
+        1.3,
+        -1.6
+      ],
+      "description": "The Sun at the same scale, behind the shelf — 109 × Earth's radius. Even Jupiter looks small next to it.",
+      "positionHint": "Large warm cream sphere (radius ~4.5) floating behind and above the shelf center, partially occluded by the shelf at default angle so the size contrast reads on rotation.",
+      "color": "#E8A33D",
+      "function": "Completes the size ladder with the Sun."
+    },
+    {
+      "id": "hs-volume-note",
+      "label": "Volume note card",
+      "conceptId": "volume-grows-with-cube",
+      "position": [
+        2.0,
+        1.5,
+        0.3
+      ],
+      "description": "A floating card: 'Radius × 11 means volume × 1,331 — Jupiter holds over 1,300 Earths.'",
+      "positionHint": "Floating above the Jupiter end of the shelf, readable from the default camera.",
+      "color": "#6B85A8",
+      "function": "Explains the radius-to-volume cube jump."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, no floor grid, no glow, no bloom, no emissive materials, no cartoon outlines. A long low shelf (warm ivory slab) holds the eight planet spheres standing on it in size order, Mercury left to Jupiter right, each with a slim label plane underneath giving its × Earth radius. The Sun floats behind the shelf at the same scale, warm cream, reading as a much larger sibling rather than a glowing ball. The volume-fill toggle animates hundreds of tiny Earth-colored spheres cascading into Jupiter's volume. Planet colors are the branch's muted set; the amber reference tag, the filling Earth-spheres, and the hotspot dots are the only saturated accents. Auto-rotate is slow and pauses when the volume toggle is filling.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, roughness ~0.55-0.65 matte spheres with baked mottling/banding, no image textures. Shelf: warm ivory matte (roughness 0.7). Labels: dark warm-grey text sprites. Volume-fill spheres: small instances of the Earth color at low opacity in the middle of the fill. No emissive channels.",
+  "assetBrief": "SUBJECT: A size-comparison shelf along X at y=0.1. Planet display radii in scene units (Earth = 0.24): Mercury 0.09 at x=-2.75, Mars 0.13 at -1.85, Venus 0.23 at -1.35, Earth 0.24 at -0.85, Neptune 0.94 at 0.6, Uranus 0.96 at 1.15, Saturn 2.18 at 1.85 (with ring discs slightly larger), Jupiter 2.64 at 2.55. Shelf slab: 7.0 wide, 0.06 thick, 1.1 deep, warm ivory. Label planes (slim, y≈-0.05) under each sphere: 'Mercury 0.38×', 'Mars 0.53×', 'Venus 0.95×', 'Earth 1×', 'Neptune 3.9×', 'Uranus 4.0×', 'Saturn 9.1×', 'Jupiter 11×'. Sun sphere radius 4.5 at (0, 1.6, -2.0), behind and above the shelf so it reads clearly on rotation; label 'Sun 109×'. Earth reference: small amber ring on the ground beneath Earth's sphere. Volume-fill toggle: when on, animate ~1,000 small Earth-blue spheres filling Jupiter's sphere over ~4s, with a counter '0…1,331 Earths' beside the hs-volume-note card. Default camera [0, 1.1, 6.4] → target [0, 0.3, 0]; slow auto-rotate (~30s/rev) pausing during the fill animation. Grounding: radial ground-shadow beneath the shelf. Named groups per layers list.",
+  "visual": {
+    "shape": "planet-size-bars"
+  }
+}

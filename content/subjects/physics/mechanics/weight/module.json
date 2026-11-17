@@ -1,0 +1,89 @@
+{
+  "id": "weight",
+  "subject": "physics",
+  "title": "Weight",
+  "summary": "Weight is the force of gravity pulling on an object's mass — measured in newtons, and it changes depending on where you are. Your 45 kg body has the same mass everywhere, but weighs about 441 N on Earth, only 73 N on the Moon, and nothing at all while floating free. Explore how a spring scale reads this force on different worlds.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "weight-gravitational-force",
+    "weight-equals-mg",
+    "weight-changes-with-gravity",
+    "weight-vs-mass"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Forces",
+    "systemOrGroup": "Mass and Weight",
+    "component": "Weight",
+    "displayPath": "Physics > Mechanics > Forces > Mass and Weight > Weight"
+  },
+  "crossReferences": [
+    {
+      "label": "Mass (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Mass",
+      "note": "Weight is the force gravity applies to a mass; the same mass is pulled harder where gravity is stronger."
+    },
+    {
+      "label": "Gravity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Gravity",
+      "note": "Weight = mass × gravitational field strength (g), so gravity is what turns a fixed mass into a changeable weight."
+    },
+    {
+      "label": "Force (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Force",
+      "note": "Weight is a force, measured in newtons like every other push or pull."
+    }
+  ],
+  "belongsTo": "Mechanics > Forces > Mass and Weight",
+  "compareCandidate": {
+    "label": "Weight vs. mass",
+    "description": "Weight is a force (N) that depends on gravity; mass is matter (kg) that does not. An astronaut's mass never changes, but their weight does from planet to planet."
+  },
+  "parts": [
+    "The object hanging from the spring scale",
+    "The spring scale (measures the pull in N)",
+    "The mass value plaque in kg",
+    "The location dial (Earth, Moon, space)"
+  ],
+  "processes": [
+    "Measuring the gravitational pull on an object in newtons",
+    "Computing weight = mass × g for different worlds",
+    "Watching weight fall to 1/6 on the Moon",
+    "Separating the force of weight from the fixed mass"
+  ],
+  "plainLanguageExplanation": "Weight is a force: the gravity pull acting on an object's mass. Because it's a force, weight has units of newtons and, like all forces, can change. The famous formula is weight = mass × g, where g is the strength of gravity in that place — about 9.8 m/s² on Earth, 1.6 on the Moon. So a 5 kg rock: 5 × 9.8 = 49 N on Earth, but 5 × 1.6 = 8 N on the Moon. The rock is still 5 kg of matter — its mass never changed — what changed is the force pulling on it. In the model you hang objects from a spring scale, which stretches exactly in proportion to the pull; read the newton mark, then spin the location dial and watch the needle fall (or float to zero in space). Weight is what your body feels, why 'weight loss' happens on a space station, and why you can jump six times as high on the Moon.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The gravitational force acting on an object's mass" },
+    { "label": "Unit", "value": "Newtons (N) — it's a force, not a kilogram" },
+    { "label": "Formula", "value": "Weight = mass × gravitational field strength (W = mg)" },
+    { "label": "Earth's g", "value": "About 9.8 m/s², so a 10 kg object weighs ≈ 98 N" },
+    { "label": "On the Moon", "value": "g ≈ 1.6, so the same object weighs about 1/6 as much" },
+    { "label": "Not mass", "value": "Mass stays the same everywhere; weight depends on where you are" }
+  ],
+  "whyItMatters": "Weight is the force you actually feel every moment — your scale at the doctor's, the heaviness of a backpack, the strain on a bridge's cables. Engineers design for weight (a force that changes with place) and for mass (which stays fixed), and getting the pair straight is the difference between a safe bridge and a sagging one. Weight also explains everyday wonders: why astronauts float, why your ears pop in a fast elevator, and why Moon-jumping is effortless.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Weight",
+  "tagline": "Gravity's pull on your mass",
+  "didYouKnow": "Because weight is a force and mass is not, a bathroom scale on the Moon would still say '5 kg' if it were actually measuring force and converting — but on a space station, your weight reads zero while your mass remains perfectly normal. You don't lose mass in orbit, you lose weight.",
+  "conditions": [
+    "Bathroom scales",
+    "Moon landing jumps",
+    "Elevator feelings",
+    "Bridge and crane engineering"
+  ],
+  "compareCandidateId": "mass",
+  "compareReason": "The spring-scale needle that falls on the Moon while the kg plaque stays fixed is the cleanest picture of weight (force, changes) versus mass (matter, constant)."
+}

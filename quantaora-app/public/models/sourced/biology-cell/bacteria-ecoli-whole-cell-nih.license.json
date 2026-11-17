@@ -1,0 +1,38 @@
+{
+  "asset": "bacteria-ecoli-whole-cell-nih.glb",
+  "componentMapping": "biology > cell-biology > Bacterial cell (grouping) / biology > microbiology > Bacteria (low-level item)",
+  "sourceUrl": "https://3d.nih.gov/entries/3DPX-017609",
+  "sourceEntryId": "3DPX-017609",
+  "creator": "NIH 3D user \"akhasawneh\"",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC0 1.0 (Public Domain Dedication)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Recommended credit: \"E Coli Simple Model\", NIH 3D (3d.nih.gov, entry 3DPX-017609), by akhasawneh. CC0 1.0.",
+  "redistributionStatus": "Unrestricted (CC0 public domain dedication).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/23942/runs/334682f3-cdc4-403b-abb0-b14228a81eb8/output-files/528639",
+  "fileSizeBytes": 108600,
+  "sha256": "9f46484e62b32730554365abb411a5772a6a2d8df30e2d0514b222660f8d91b6",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 2,
+    "sampleBoundsMin": [
+      -5,
+      7.500814914703369,
+      -2.5
+    ],
+    "sampleBoundsMax": [
+      4.996740341186523,
+      17.49918556213379,
+      12.5
+    ],
+    "notes": "Simple stylised rod-shaped bacterium mesh, no interior organelle/nucleoid/flagellum detail (label as 'basic silhouette' quality, not hero-detail). No textures. Not render-inspected visually in this pass."
+  }
+}

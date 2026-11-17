@@ -1,0 +1,108 @@
+{
+  "id": "trait",
+  "componentId": "trait",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "assetStrategy": {
+    "specDefaultBucket": "GLB/GLTF (spec §21 assigns biology anatomical/cellular models to this bucket by default)",
+    "chosenApproach": "procedural-three",
+    "deviationRationale": "The pea plant here is a simplified, iconographic botanical form — a tapered/bent stem, two small leaflet clusters, a lathed flower, a capsule pod, and a lathed soil mound — built entirely from primitives and light spline/lathe modifiers, not a sculpted organism requiring anatomical fidelity. This is the same primitive-built-object criteria that justifies red-blood-cell/model-metadata.json's and hormone-signaling/model-metadata.json's deviations in this codebase, applied here to a botanical rather than cellular or process subject.",
+    "flaggedForConfirmation": true,
+    "integrationNote": "Because there is no static mesh export, `url` below points to a scene-builder source module (following hormone-signaling's and muscle-contraction's precedent for procedural-three components) rather than a binary asset path, and the generation approach lives in `assetBrief` as buildable Three.js scene-graph instructions. If this is reversed to match the spec default, `url` becomes a standard `/assets/models/biology/genetics/trait/trait.glb` path and `assetBrief` should be rewritten as sculpting/export guidance instead of procedural-geometry code guidance."
+  },
+  "url": "src/features/model-viewer/scenes/biology/genetics/trait.scene.ts",
+  "assetStatus": "Not yet built. This is a procedural-three model: it is generated entirely from three.js primitives and lathe/spline modifiers at runtime by a scene-builder module, not loaded from a GLB file, so there is no binary asset to place under public/assets/models/. `url` is a placeholder pointing to where that scene-builder module should live, following this project's source-code conventions. `thumbnailUrl` is a placeholder PNG path following the standard asset-folder convention (spec §21) and must be generated (a rendered screenshot of the default framing) once the scene exists. `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated numeric values derived from the assetBrief's described scene layout — a starting point for the dev implementing the scene-builder, not measurements of an existing scene — and should be verified and adjusted against the actual running scene before shipping.",
+  "thumbnailUrl": "/assets/thumbnails/biology/genetics/trait.png",
+  "defaultCamera": {
+    "position": [
+      1.9,
+      1.5,
+      2.5
+    ],
+    "target": [
+      0,
+      0.62,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      1.9,
+      1.5,
+      2.5
+    ],
+    "target": [
+      0,
+      0.62,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "crossSectionNote": "Cross-section applies to the stem only: a clean single vertical bisection through the stem's long axis (not the whole plant) reveals the internal genotype capsule embedded in the stem core. Leaves, flower, pod, and soil mound are unaffected and remain solid in both layers.",
+  "layers": [
+    "Whole plant (default)",
+    "Cross-section — genotype view"
+  ],
+  "layersNote": "An earlier draft of this brief included a third 'Environment overlay' layer that toggled a separate floating sun+water-droplet icon cluster on and off. That treatment has been removed (see hotspot-environment and the WHAT NOT TO DO section below) because it broke the specimen-in-void composition rule — the scene now bakes environmental influence directly into the plant's own leaf geometry (a permanent sun-side/shade-side leaf-size asymmetry), so it is visible in both layers with no separate toggle needed.",
+  "hotspots": [
+    {
+      "id": "hotspot-genotype",
+      "label": "Genotype",
+      "conceptId": "genotype",
+      "position": [
+        0.02,
+        0.55,
+        0.08
+      ],
+      "description": "The two-allele pair this plant carries for flower color — Pp, where P (dominant, purple) and p (recessive, white) are shown here as two touching but visually distinct beads. Because P masks p, this Pp plant looks identical to a PP plant from the outside.",
+      "function": "Stores the plant's full genetic instruction for flower color, including the recessive p allele that isn't visible in the phenotype but can still be passed to seeds.",
+      "positionHint": "Inside the stem, roughly mid-height (~55% up), only visible/reached when the Cross-section layer is toggled — sits on the translucent allele capsule embedded in the stem core, offset slightly toward the viewer (+z) so it isn't hidden behind the cut face."
+    },
+    {
+      "id": "hotspot-phenotype",
+      "label": "Phenotype",
+      "conceptId": "phenotype",
+      "position": [
+        0.05,
+        1.05,
+        0.15
+      ],
+      "description": "The trait you can actually see: this plant's purple flower color, produced by its Pp genotype. This is the single most eye-catching part of the model by design — the visible 'answer' the hidden genotype produces.",
+      "function": "Displays the observable, measurable result of the genotype — the only one of the four concepts a learner (or a plant breeder) can assess without opening the plant up.",
+      "positionHint": "On the flower at the top of the plant (~100% height), front-facing petal cluster — the most visually prominent, outward-facing point on the model, catching the primary key light."
+    },
+    {
+      "id": "hotspot-inherited-trait",
+      "label": "Inherited Trait",
+      "conceptId": "inherited-trait",
+      "position": [
+        0.2,
+        0.65,
+        0.05
+      ],
+      "description": "This seed pod's seeds carry copies of the plant's alleles — including the hidden p allele — forward into the next generation. This is what makes flower color specifically an inherited trait: not just genetic in this plant, but actually transmitted to offspring.",
+      "function": "Carries the plant's alleles into its offspring, making it the physical structure where 'genotype' becomes 'the next generation's genotype.'",
+      "positionHint": "On the seed pod hanging from the stem at roughly 65% height, offset to the side — the part of the plant that carries seeds forward to the next generation."
+    },
+    {
+      "id": "hotspot-environment",
+      "label": "Environmental Influence",
+      "conceptId": "environmental-influence",
+      "position": [
+        -0.16,
+        0.4,
+        -0.06
+      ],
+      "description": "Every leaf on this plant shares the exact same genotype, but the leaves on the sun-facing side of the stem grew fuller while this shaded-side cluster stayed smaller. Sunlight — not a different allele — is why these leaves look different from their sun-side counterparts.",
+      "function": "Demonstrates that outside conditions (here, light exposure) can change how strongly a genetically identical trait is expressed, without altering the underlying genotype at all.",
+      "positionHint": "On the smaller, sparser leaflet cluster on the shaded (-x, -z) side of the stem at roughly 40% height, directly comparable to the fuller leaflet cluster on the opposite (+x) sun-facing side at the same height — the size difference between the two clusters is the visual evidence, baked into the plant's own geometry rather than a separate floating icon."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier language, applied to a botanical (not anatomical) subject: warm off-white/cream scene background (#F7F1E8-ish), soft radial vignette floor shadow, no environment reflections or bloom. Single hero object centered and large in frame, floating just above a minimal soft-shadowed ground disc (matches the pale plinth/shadow disc under the heart/brain in reference screenshots). Matte, slightly clay-like PBR materials — low specular, no gloss, no emissive glow anywhere. Muted, desaturated botanical palette (sage green stem/leaves, dusty mauve-purple flower, warm tan pod and soil) rather than saturated 'cartoon plant' greens. Hotspots are small solid-colored ring-dots (one accent hue per hotspot — terracotta for Genotype, blue for Phenotype, purple for Inherited Trait, ochre for Environmental Influence), pulsing gently only on hover, opening a right-side info card on click — never a floating 3D label or gamey glow beacon. Cross-section is a clean vertical bisection of the stem only, revealing a smooth translucent internal capsule — the same restrained 'sliced anatomy' treatment as the reference brain cross-section, not an exploded-parts or X-ray effect. The scene stays a pure specimen-in-void composition throughout: this supersedes an earlier draft that added a floating sun+water-droplet icon cluster for Environmental Influence, which introduced a second, disconnected object into the frame and broke that rule — Environmental Influence is now shown entirely through a built-in asymmetry in the plant's own leaf geometry (see hotspot-environment and assetBrief). No particle effects, no cartoon outlines, no drop shadows on UI elements beyond the reference's soft-card style.",
+  "materialNotes": "All matte/low-roughness-but-not-glossy PBR (roughness ~0.6-0.8, near-zero metalness), flat ambient-occlusion-baked look, single soft key light from upper-front-left plus a dim fill — same restrained studio lighting as the Anatomy Atelier heart/brain screenshots. Soil mound and pod: warm tan-brown family (~#C9A876), matte, subtle procedural bump. Stem and leaves: sage green family (~#7C9070), leaves one shade lighter than the stem. Sun-side leaflets: full saturation of the leaf-green tone, slightly larger scale. Shade-side leaflets: a slightly desaturated, cooler-shifted version of the same leaf-green (not a different hue — this must read as 'the same plant, different light,' not 'a different, unhealthy plant'), smaller scale, per the environmental-influence geometry described in assetBrief. Flower: dusty mauve-purple (~#9C7FA0) with a paler throat. Genotype capsule (cross-section only): a small translucent frosted-glass-like ellipsoid embedded in the stem core, containing two small solid beads that are purely color/material-differentiated — one a deeper sage-terracotta tone (the P allele), one a pale cream tone (the p allele) — touching but visually distinct. No letters, numerals, or baked-in text of any kind appear on the beads or anywhere else on the mesh; the P/p labeling lives only in the hotspot-genotype description and the app's info-card UI. No emissive, no bloom, no rim-light glow, no particle/sparkle FX anywhere.",
+  "assetBrief": "ASSET STRATEGY NOTE: This is a flagged deviation from spec §21's default asset-strategy bucket (which assigns biology models to GLB/GLTF) — see the top-level `assetStrategy` field for the rationale and the `integrationNote` for what changes if this is reversed to a GLB pipeline. Confirm before build.\n\nSUBJECT: A single stylized pea plant (Pisum sativum), chosen because it's the classic Mendelian-genetics organism and lets one coherent object carry all four Trait concepts without a diagram or split-screen. Purple flower color (P, dominant) vs. white (p, recessive) is the running example threaded through this model, the lesson, and the quiz.\n\nWHY PROCEDURAL: The plant is a simplified, iconographic botanical form (a bent stem, a handful of leaflets, one flower, one pod), well within reach of primitives (cylinders, lathed/flattened-sphere petals, capsule pod, cone/torus soil mound) plus a light bend/taper modifier on the stem. Build it in Three.js as a small parametric rig, not a hand-modeled mesh.\n\nOVERALL COMPOSITION & SCALE (world units, plant base at origin, soil surface at y=0):\n- Soil mound: a low, wide flattened hemisphere/cone, ~0.9 units diameter, ~0.12 units tall, centered at origin. Warm tan-brown, matte, subtle procedural bump — not photoreal dirt, just a soft rounded plinth like the reference's shadow-disc ground.\n- Stem: single tapered cylinder, base radius ~0.035, tip radius ~0.02, running from y=0.05 to y=1.0, with a gentle 8-12° S-curve bend (2-3 chained spline segments) so it doesn't read as a rigid pole. Sage green, matte.\n- Leaves — sun-side cluster (fuller): 2-3 compound-leaflet clusters (each leaflet a flattened, slightly domed ellipse ~0.13x0.065 units) attached at 2 stem nodes between y=0.3 and y=0.75 on the +x/+z side of the stem, angled to catch the primary key light. Sage green, one shade lighter than stem, full scale.\n- Leaves — shade-side cluster (smaller): 2-3 compound-leaflet clusters at the same two node heights, on the -x/-z side of the stem, scaled down roughly 30-40% smaller than their sun-side counterparts and given the slightly desaturated/cooler leaf tone described in materialNotes. This size and tone asymmetry IS the Environmental Influence concept, baked directly into the base geometry (present in both layers, no toggle) — see hotspot-environment. Both clusters share the identical underlying leaflet mesh/rig (same 'genotype'), only scale and material tone differ (the 'environment').\n- Flower: at the stem tip (~y=1.0-1.1), a small pea-flower cluster — 4-5 flattened, curved petal shapes (lathe or simple bent-plane geometry) in dusty mauve-purple with a paler throat, ~0.18 units across. This is the PHENOTYPE hotspot location — make it the single most eye-catching element in the default view (front-facing, catches primary key light).\n- Seed pod: a smooth elongated capsule (~0.22 long x 0.05 wide), slightly curved, hanging from a short stalk off the stem at roughly y=0.65, offset ~0.2 units to one side. Warm tan-green, matte, faint longitudinal seam line. This is the INHERITED TRAIT hotspot location.\n- Genotype capsule (cross-section only): a small translucent frosted-glass-like ellipsoid (~0.08 long), embedded inside the stem core at ~y=0.55, containing two small solid beads representing the allele pair, distinguished by material/color ONLY (a deeper sage-terracotta bead for P, a pale cream bead for p) — no letters, numerals, or text baked into the geometry anywhere; the P/p labeling belongs only in the hotspot description and info-card UI. Hidden inside the solid stem in the default whole-plant view; revealed only when the stem is bisected via the Cross-section layer toggle (a clean single vertical cut through the stem only, plant otherwise unchanged, matching the reference's restrained cross-section treatment — not an exploded view).\n\nMATERIALS & LIGHTING: All matte/low-roughness-but-not-glossy PBR (roughness ~0.6-0.8, no metalness), flat ambient-occlusion-baked look, single soft key light from upper-front-left plus a dim fill — same restrained studio lighting as the Anatomy Atelier heart/brain screenshots. No emissive, no bloom, no rim-light glow, no particle/sparkle FX anywhere.\n\nPALETTE: Warm off-white scene background (~#F7F1E8), sage greens (stem/leaves, #7C9070 family), dusty mauve-purple flower (#9C7FA0 family), warm tan pod/soil (#C9A876 family). Avoid saturated 'kids' cartoon' primary greens/purples — keep everything desaturated and premium, consistent with the reference's muted organ-specimen tones.\n\nCAMERA & INTERACTION: Default camera at roughly a 3/4 elevated angle (position ~[1.9, 1.5, 2.5], target ~[0, 0.62, 0]), framing the plant from soil to just above the flower with the flower, pod, and both leaf clusters visible without occlusion. Auto-rotate on by default, slow (~4-6s per revolution), pausable on drag/hover. Orbit controls: drag to rotate, scroll to zoom, similar min/max zoom bounds to the reference (don't allow zooming inside the model or losing the plant off-frame).\n\nLAYERS: (1) 'Whole plant' — default, everything solid, genotype capsule hidden inside stem, sun-side/shade-side leaf asymmetry always visible. (2) 'Cross-section — genotype view' — stem is cut along a single vertical plane through its long axis, revealing the internal allele capsule; rest of plant unchanged.\n\nHOTSPOTS: Small solid-ring dot markers (matching reference exactly — a filled colored center dot with a thin lighter ring), one distinct accent color per hotspot (terracotta for Genotype, blue for Phenotype, purple for Inherited Trait, ochre for Environmental Influence — reusing the same four accent hues visible on the reference brain screenshot's dots). Gentle scale-pulse on hover only, no idle animation. Clicking opens the existing right-panel structure-card UI — the 3D asset itself only needs to expose hotspot anchor transforms, not any card UI.\n\nWHAT NOT TO DO:\n- Do not build this as a diagram, poster, or flat card — it must be a real orbit-able 3D object matching the 'large centered 3D object' bar.\n- Do not add cartoon outlines, toon shading, glow/bloom, particle sparkles, or a gamified 'leveling up' visual metaphor.\n- Do not make the genotype capsule visible in the default whole-plant view — it's a cross-section-only reveal.\n- Do not bake any letters, numerals, or text (e.g. 'P' / 'p' / 'B' / 'b') into the genotype capsule's beads or anywhere else on the mesh — allele identity is communicated through color/material contrast only, with labeling delivered entirely by the hotspot description and info-card UI.\n- Do not model a second/third plant or a parent-offspring diagram to represent 'Inherited Trait' — keep everything on the single hero plant object; the seed pod alone carries that concept.\n- Do not add a separate floating icon cluster (sun disc, water droplet, or similar) for Environmental Influence — an earlier draft did this and it broke the specimen-in-void composition rule; the sun-side/shade-side leaf-size asymmetry baked into the plant's own geometry is the only treatment for this concept.\n- Do not use saturated cartoon-green foliage or glossy/plastic-looking petals — everything stays matte and desaturated per the palette above.",
+  "visual": {
+    "shape": "trait-cards"
+  }
+}

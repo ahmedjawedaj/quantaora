@@ -1,0 +1,80 @@
+{
+  "componentId": "lungs",
+  "questions": [
+    {
+      "id": "lng-q-job",
+      "conceptId": "oxygen-carbon-dioxide",
+      "hotspotId": "hs-alveoli",
+      "prompt": "What is the main job of the lungs?",
+      "options": [
+        "Bring oxygen into the blood and remove carbon dioxide",
+        "Pump blood around the body",
+        "Digest food",
+        "Store urine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The lungs exchange gases: oxygen enters the blood and carbon dioxide leaves it to be breathed out.",
+      "misconception": "Pumping blood is the heart's job - the lungs specialize in gas exchange, not pumping."
+    },
+    {
+      "id": "lng-q-alveoli",
+      "conceptId": "alveoli-gas-exchange",
+      "hotspotId": "hs-alveoli",
+      "prompt": "Where does oxygen enter the blood in the lungs?",
+      "options": [
+        "In the tiny alveoli",
+        "In the windpipe",
+        "In the nose",
+        "In the ribs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oxygen crosses into the blood across the thin walls of the tiny air sacs, the alveoli.",
+      "misconception": "The windpipe and nose just move air - the actual transfer to blood happens at the deep alveoli."
+    },
+    {
+      "id": "lng-q-bronchi",
+      "conceptId": "bronchial-tree",
+      "hotspotId": "hs-bronchi",
+      "prompt": "What are the two main branches that carry air into each lung called?",
+      "options": [
+        "Bronchi",
+        "Alveoli",
+        "Pleura",
+        "Capillaries"
+      ],
+      "correctIndex": 0,
+      "explanation": "The windpipe splits into two bronchi, one per lung, which then branch into smaller bronchioles.",
+      "misconception": "The alveoli are the air sacs at the very end, not the main entrance branches - the bronchi are the doorways."
+    },
+    {
+      "id": "lng-q-why-breathe",
+      "conceptId": "oxygen-carbon-dioxide",
+      "hotspotId": "hs-alveoli",
+      "prompt": "Why do you breathe faster during exercise?",
+      "options": [
+        "Your muscles use more oxygen and make more carbon dioxide",
+        "Your lungs fill with water",
+        "Your nose gets blocked",
+        "Your heart stops working"
+      ],
+      "correctIndex": 0,
+      "explanation": "Working muscles need extra oxygen and produce extra carbon dioxide, so your breathing (and heart) speed up to keep up.",
+      "misconception": "It's not about water or blockage - it's the muscles demanding more oxygen and releasing more CO2."
+    },
+    {
+      "id": "lng-q-left",
+      "conceptId": "breathing-airflow",
+      "hotspotId": "hs-pleura",
+      "prompt": "Why does the left lung have only two lobes while the right has three?",
+      "options": [
+        "It makes room for the heart",
+        "It is broken",
+        "It is older",
+        "It is weaker"
+      ],
+      "correctIndex": 0,
+      "explanation": "The heart sits on the left side of the chest, so the left lung gives up a lobe to make room for it.",
+      "misconception": "The lobes are not about age or weakness - the space is simply needed for the heart."
+    }
+  ]
+}

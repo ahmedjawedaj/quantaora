@@ -1,0 +1,49 @@
+{
+  "componentId": "cell-membrane",
+  "terms": [
+    {
+      "term": "Cell membrane",
+      "conceptId": "flexible-boundary",
+      "hotspotId": "hs-boundary",
+      "definition": "The thin, flexible outer boundary that surrounds every cell and separates its insides from the outside.",
+      "function": "Controls what enters and leaves the cell.",
+      "whereItIs": "Wrapping each and every cell.",
+      "whyItMatters": "It is what makes a cell a distinct, living unit in control of its internal conditions.",
+      "relatedConcept": "selective-permeability",
+      "quizId": "cm-q-all-cells"
+    },
+    {
+      "term": "Phospholipid bilayer",
+      "conceptId": "phospholipid-bilayer",
+      "hotspotId": "hs-bilayer",
+      "definition": "The double layer of phospholipid molecules that forms the main structure of the membrane.",
+      "function": "Provides a flexible barrier that small, simple molecules can slip through.",
+      "whereItIs": "The body of the membrane itself.",
+      "whyItMatters": "Its oily interior resists water crossing, which is the basis of selective movement.",
+      "relatedConcept": "flexible-boundary",
+      "quizId": "cm-q-bilayer"
+    },
+    {
+      "term": "Selective permeability",
+      "conceptId": "selective-permeability",
+      "hotspotId": "hs-selective-gate",
+      "definition": "The property of letting some substances through while blocking others.",
+      "function": "Allows the cell to pick and choose what crosses its border.",
+      "whereItIs": "In the membrane's structure and its protein doors.",
+      "whyItMatters": "It lets the cell keep its inside stable and safe from outside changes.",
+      "relatedConcept": "membrane-transport",
+      "quizId": "cm-q-selective"
+    },
+    {
+      "term": "Membrane transport",
+      "conceptId": "membrane-transport",
+      "hotspotId": "hs-protein",
+      "definition": "The ways molecules move across the cell membrane, from free movement to protein doors.",
+      "function": "Moves nutrients in, waste out, and helps the cell communicate.",
+      "whereItIs": "Occurs at the membrane surface and its proteins.",
+      "whyItMatters": "Feeding and cleaning the cell depends on transport across the membrane.",
+      "relatedConcept": "selective-permeability",
+      "quizId": "cm-q-water"
+    }
+  ]
+}

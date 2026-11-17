@@ -1,0 +1,106 @@
+{
+  "id": "potential-energy",
+  "componentId": "potential-energy",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/energy/potential-energy/potential-energy.glb",
+  "thumbnailUrl": "/assets/thumbnails/energy/potential-energy.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.4,
+      4.2
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Floor and shelf",
+    "Wooden block",
+    "Stored-energy meter",
+    "Height guide and release button"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-block",
+      "label": "Block",
+      "conceptId": "potential-energy-of-height",
+      "position": [
+        0,
+        1.4,
+        0.2
+      ],
+      "description": "The object whose height stores gravitational potential energy.",
+      "colorHint": "Warm wooden block resting on the shelf.",
+      "color": "#D9A441",
+      "function": "Holds stored energy decided by its height and mass."
+    },
+    {
+      "id": "hs-shelf",
+      "label": "Shelf",
+      "conceptId": "potential-energy-of-height",
+      "position": [
+        -0.6,
+        1.6,
+        0
+      ],
+      "description": "The support whose height you lift — raising it stores more energy in the block.",
+      "colorHint": "A light tower shelf arm at the left.",
+      "color": "#8A93A6",
+      "function": "Sets the height input of potential energy."
+    },
+    {
+      "id": "hs-meter",
+      "label": "Stored-Energy Meter",
+      "conceptId": "potential-energy-pe-formula",
+      "position": [
+        1.2,
+        1.5,
+        0
+      ],
+      "description": "The joule readout that climbs as the shelf lifts — PE = mgh in numbers.",
+      "colorHint": "A vertical gauge beside the shelf.",
+      "color": "#7FA86A",
+      "function": "Displays potential energy in joules."
+    },
+    {
+      "id": "hs-height-guide",
+      "label": "Height Guide",
+      "conceptId": "potential-energy-height-dependence",
+      "position": [
+        0.5,
+        0.5,
+        0
+      ],
+      "description": "The vertical scale measuring the block's height above the floor.",
+      "colorHint": "A slim ruler behind the tower.",
+      "color": "#7FA86A",
+      "function": "Shows the height term feeding the formula."
+    },
+    {
+      "id": "hs-release-button",
+      "label": "Release Button",
+      "conceptId": "potential-energy-releases-into-motion",
+      "position": [
+        -0.3,
+        0.4,
+        1.4
+      ],
+      "description": "Tap to drop the block and watch stored potential energy cash out into falling motion.",
+      "colorHint": "Ring-like amber button in the floor corner.",
+      "color": "#D96B5A",
+      "function": "Starts the fall and the energy conversion."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette. A pastel floor and a two-post shelf tower, a warm wooden block, a green stored-energy meter, and a height guide. Saturated color only on the block and meter needle.",
+  "materialNotes": "Roughness ~0.55 warm wood for block and posts; meter face pale with a green needle. No emissive, no bloom.",
+  "assetBrief": "SUBJECT: gravitational potential energy banking on height.\n\nGEOMETRY: a floor plane; a two-post shelf tower (posts x=-0.6/+0.6) with a height guide behind; a wooden block (0,1.4,0) resting on the shelf; a green meter (1.2,1.5,0) and a round release button (-0.3,0.4,1.4).\n\nINTERACTION: drag the shelf up/down (height) → meter = m×g×h; release lowers the shelf, animating the block's fall as meter drains.\n\nNAMED NODES: Floor, PostL, PostR, Shelf, Block, HeightGuide, PE_Meter, ReleaseButton. 7-9k tris.",
+  "visual": {
+    "shape": "potential-lift"
+  }
+}

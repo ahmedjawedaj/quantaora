@@ -1,0 +1,57 @@
+{
+  "componentId": "solar-system-scale",
+  "terms": [
+    {
+      "term": "Astronomical unit (AU)",
+      "conceptId": "au-distance-unit",
+      "hotspotId": "hs-au-scale",
+      "definition": "The average distance from Earth to the Sun, about 150 million km, used as a measuring stick for distances inside the solar system.",
+      "function": "Lets astronomers compare planet distances with small numbers — Mercury at 0.4 AU, Neptune at 30 AU — instead of millions of kilometres.",
+      "whereItIs": "Shown as the floating scale bar above the planet line in the model.",
+      "whyItMatters": "It is the standard 'ruler' of the solar system; every orbit in this branch is measured against it.",
+      "relatedConcept": "distance-gaps-are-huge",
+      "quizId": "ss-scale-q-au"
+    },
+    {
+      "term": "Scale model",
+      "conceptId": "scale-model-concept",
+      "hotspotId": "hs-distance-gap",
+      "definition": "A model where sizes and distances are reduced by the same factor, so the proportions stay true.",
+      "function": "Reveals the real proportions of the solar system that ordinary diagrams hide.",
+      "whereItIs": "The true-distance mode of the model is a scale model; the size-only mode is not.",
+      "whyItMatters": "Only a true scale model shows how tiny the planets are and how vast the gaps between them are.",
+      "relatedConcept": "au-distance-unit"
+    },
+    {
+      "term": "Light travel time",
+      "conceptId": "light-travel-time-across-solar-system",
+      "hotspotId": "hs-au-scale",
+      "definition": "How long light takes to cross a given distance; light covers about 300,000 km every second.",
+      "function": "Turns huge distances into times you can compare — 8 minutes to Earth, hours to the outer planets.",
+      "whereItIs": "Displayed on the AU scale bar readout in the model.",
+      "whyItMatters": "It is a way to 'feel' distances: the Sun's light you see now left it 8 minutes ago.",
+      "relatedConcept": "au-distance-unit",
+      "quizId": "ss-scale-q-light-time"
+    },
+    {
+      "term": "Inner planets",
+      "conceptId": "planets-are-tiny-specks",
+      "hotspotId": "hs-earth-speck",
+      "definition": "The four planets nearest the Sun — Mercury, Venus, Earth, and Mars — all small, rocky worlds.",
+      "function": "Together they occupy the inner region of the solar system, within about 1.5 AU of the Sun.",
+      "whereItIs": "The compact cluster of small spheres between the Sun and the great gap in the model.",
+      "whyItMatters": "They are the rocky planets — including our own — and they all fit inside the gap before Jupiter.",
+      "relatedConcept": "distance-gaps-are-huge"
+    },
+    {
+      "term": "Outer planets",
+      "conceptId": "outer-planets-giant",
+      "hotspotId": "hs-outer-planets",
+      "definition": "The four planets beyond the asteroid belt — Jupiter, Saturn, Uranus, and Neptune — giant, mostly gaseous worlds.",
+      "function": "Their sheer size dominates any planet lineup, yet in true-distance mode they recede into the far distance.",
+      "whereItIs": "The distant group of large spheres at the far end of the planet line.",
+      "whyItMatters": "They are the giants of the solar system, and their distance from the Sun drives the enormous gap in the model.",
+      "relatedConcept": "distance-gaps-are-huge"
+    }
+  ]
+}

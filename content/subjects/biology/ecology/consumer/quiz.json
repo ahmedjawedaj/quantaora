@@ -1,0 +1,65 @@
+{
+  "componentId": "consumer",
+  "questions": [
+    {
+      "id": "con-q-def",
+      "conceptId": "eats-other-living-things",
+      "hotspotId": "hs-omn",
+      "prompt": "What is a consumer?",
+      "options": [
+        "A living thing that eats other living things",
+        "A living thing that makes its own food",
+        "A nonliving thing",
+        "Only a plant"
+      ],
+      "correctIndex": 0,
+      "explanation": "A consumer cannot make its own food, so it must eat other living things to get energy.",
+      "misconception": "Consumers eat for energy; producers make their own food instead."
+    },
+    {
+      "id": "con-q-herb",
+      "conceptId": "herbivore-carnivore-omnivore",
+      "hotspotId": "hs-herb",
+      "prompt": "What does a herbivore eat?",
+      "options": [
+        "Only plants",
+        "Only other animals",
+        "Rocks",
+        "Nothing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Herbivores like rabbits, deer, and cows eat only plants.",
+      "misconception": "Herbivore means plant-eater; animal-eaters are carnivores."
+    },
+    {
+      "id": "con-q-carn",
+      "conceptId": "herbivore-carnivore-omnivore",
+      "hotspotId": "hs-carn",
+      "prompt": "Which animal is a carnivore?",
+      "options": [
+        "A lion",
+        "A rabbit",
+        "A cow",
+        "A caterpillar"
+      ],
+      "correctIndex": 0,
+      "explanation": "A lion hunts and eats other animals, making it a carnivore.",
+      "misconception": "Carnivores eat meat; plant-eaters are herbivores."
+    },
+    {
+      "id": "con-q-dep",
+      "conceptId": "depends-on-producers",
+      "hotspotId": "hs-dep",
+      "prompt": "Where does a consumer's energy come from in the end?",
+      "options": [
+        "From producers (plants)",
+        "From the soil itself",
+        "From the air directly",
+        "From rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plants capture the sun's energy first, and every consumer gets that energy by eating plants (or animals that ate plants).",
+      "misconception": "Even meat-eaters depend on plants, because their prey ate plants."
+    }
+  ]
+}

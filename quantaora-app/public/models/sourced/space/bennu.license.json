@@ -1,0 +1,33 @@
+{
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/b/Bennu_1_1.glb",
+  "resourcePage": "https://science.nasa.gov/resource/bennu-3d-model/",
+  "creator": "NASA Visualization Technology Applications and Development (VTAD)",
+  "license": "Public domain (U.S. Government work, science.nasa.gov / NASA media usage guidelines)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 859980,
+  "sha256": "b7740b53a77ff538082d26e7079510ef7810fc3de9a5ff0fa316b393d2cf700e",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 1,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "imageCount": 1,
+    "animationCount": 0,
+    "accessorCount": 4,
+    "generator": "Khronos Blender glTF 2.0 I/O",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      565.037,
+      508.225,
+      535.123
+    ]
+  },
+  "notes": "Same real-world body as 'BP Tauri'-adjacent NASA-3D-Resources '1999 RQ36 asteroid.glb' (provisional designation for Bennu) already catalogued on GitHub — different render, same object. Chose this VTAD version for stylistic consistency with the other planet/moon downloads in this batch; the GitHub version was not also downloaded to avoid a literal duplicate."
+}

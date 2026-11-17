@@ -1,0 +1,106 @@
+{
+  "id": "stem",
+  "componentId": "stem",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/stem/stem.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/stem.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.6,
+      3.0
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.6,
+      3.0
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Whole stem",
+    "Outer tissue cut away",
+    "Xylem (water up)",
+    "Phloem (food down)",
+    "Nodes",
+    "Cutaway inner tube ring"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-xylem",
+      "label": "Xylem (water tube)",
+      "conceptId": "stem-carries-water-up",
+      "position": [
+        0.12,
+        0.35,
+        0.15
+      ],
+      "description": "The inner water-conducting tubes of the stem that carry water upward from the roots to the leaves.",
+      "positionHint": "The inner ring of tubes in the cut cross-section, closer to the center.",
+      "color": "#6B85A8",
+      "function": "Carries water upward from the roots to the leaves."
+    },
+    {
+      "id": "hs-phloem",
+      "label": "Phloem (food tube)",
+      "conceptId": "stem-carries-food-down",
+      "position": [
+        -0.12,
+        0.35,
+        0.12
+      ],
+      "description": "The outer tubes that carry the food made in the leaves down to the rest of the plant.",
+      "positionHint": "The outer ring of tubes in the same cut cross-section, just outside the xylem.",
+      "color": "#7FA874",
+      "function": "Carries food (sugar) down from the leaves to the rest of the plant."
+    },
+    {
+      "id": "hs-node",
+      "label": "Node",
+      "conceptId": "nodes-and-buds",
+      "position": [
+        0.3,
+        0.4,
+        0.1
+      ],
+      "description": "The point along the stem where a leaf, branch, or flower attaches.",
+      "positionHint": "A slight bump on the stem where a leaf stalk attaches.",
+      "color": "#D9A441",
+      "function": "The attachment point for leaves, branches, and flowers."
+    },
+    {
+      "id": "hs-leaf",
+      "label": "Attached leaf",
+      "conceptId": "stem-supports-plant",
+      "position": [
+        0.4,
+        0.55,
+        0.15
+      ],
+      "description": "The stem holds the leaves up so they reach the sunlight.",
+      "positionHint": "The leaf at the top of the stem on the branch.",
+      "color": "#D98A6A",
+      "function": "Supported by the stem up near the light."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. A clean stylized diorama - muted warm greens and cream tones, not cartoon, not cluttered, no glow. Strong color reserved for the hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a single slender stem rising from a small plant base, with leaves and a flower branching at nodes, and one cut-open section showing a hollow tube ring: an inner xylem ring and an outer phloem ring in slightly different tones. Target the cross-section so students can trace a tube upward and upward and downward. Named nodes: StemBase, XylemRing, PhloemRing, LeafAttach, FlowerTip. Budget 10-14k.",
+  "visual": {
+    "shape": "stem-nodes"
+  }
+}

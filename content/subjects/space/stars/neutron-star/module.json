@@ -1,0 +1,102 @@
+{
+  "id": "neutron-star",
+  "subject": "space",
+  "title": "Neutron Star",
+  "summary": "A city-sized remnant denser than an atomic nucleus. When a very massive star explodes as a supernova, gravity crushes its core until protons and electrons merge into neutrons — a sphere about 20 kilometers across holding roughly two solar masses, spinning like a lighthouse beam.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "supernova-remnant-core",
+    "neutron-degeneracy-pressure",
+    "pulsar-beacon-effect",
+    "density-city-scale",
+    "crust-to-core-structure"
+  ],
+  "type": "model",
+  "estimatedMinutes": 13,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Stars",
+    "unit": "Stellar Lifecycle",
+    "systemOrGroup": "Stellar remnants",
+    "component": "Neutron Star",
+    "displayPath": "Space > Stars > Stellar Lifecycle > Stellar remnants > Neutron Star"
+  },
+  "crossReferences": [
+    {
+      "label": "White Dwarf (Stars)",
+      "branch": "stars",
+      "component": "White dwarf",
+      "note": "The lighter cousin: 1.4 solar masses or less stays as a white dwarf. A neutron star is what a heavier core becomes when even electron pressure fails."
+    },
+    {
+      "label": "Supernova (Stars)",
+      "branch": "stars",
+      "component": "Supernova",
+      "note": "The birthplace. The neutron star is the leftover core of a supernova; the explosion itself is the next component in this branch."
+    },
+    {
+      "label": "Black Hole (Stars)",
+      "branch": "stars",
+      "component": "Black hole",
+      "note": "Heavier still — roughly 2.5 to 3 solar masses collapsed past the neutron-star stage becomes a black hole instead."
+    }
+  ],
+  "belongsTo": "Stars > Stellar Lifecycle > Stellar remnants",
+  "compareCandidate": {
+    "label": "Neutron star vs. white dwarf",
+    "description": "Two remnants, two densities: electron refusal in a Sun-sized ball versus neutron matter in a city-sized ball — the same kind of dead-core story told at a whole different scale of violence."
+  },
+  "parts": [
+    "Solid crust of iron-richest lattice",
+    "Superfluid core of neutrons",
+    "Beams from the magnetic poles (pulsar)",
+    "The supernova debris cloud around it"
+  ],
+  "processes": [
+    "Core collapse during supernova",
+    "Electron capture — turning protons and electrons into neutrons",
+    "Neutron degeneracy pressure support",
+    "Pulsar beaming with a lighthouse-like rotation"
+  ],
+  "plainLanguageExplanation": "Imagine the most extreme object that can exist, built from the most stripped-down matter: a neutron star is what stays behind when a star of at least eight solar masses explodes. During the supernova, the core is squeezed so hard that protons and electrons are literally crushed together and merge into neutrons. What remains is a ball about twenty kilometers across — smaller than many city centers — that carries roughly twice the Sun's mass. That makes it denser than anything in normal physics: a sugar cube of neutron star would weigh about a billion tonnes, the weight of a mountain pressed into a thumbnail. The crust is a solid lattice of iron-peaked atomic nuclei; beneath it flows a liquid of neutrons with almost no viscosity, called a superfluid. Because the collapsing core spins faster as it shrinks (like a skater pulling in her arms), the most famous neutron stars spin tens of times per second and fling a beam of radio light out along the magnetic poles — when the beam sweeps over Earth like a lighthouse, we call the star a pulsar, ticking with clock-like precision. And there is one more step beyond: when the collapsing mass exceeds roughly two to three solar masses, even neutron pressure gives way and the remnant becomes a black hole.",
+  "keyFacts": [
+    {
+      "label": "Size",
+      "value": "About 20 km across — the size of a small city"
+    },
+    {
+      "label": "Density",
+      "value": "A teaspoon weighs about a billion tonnes"
+    },
+    {
+      "label": "What is inside",
+      "value": "Neutron matter: a nucleus's particles with the atomic structure stripped away"
+    },
+    {
+      "label": "Support",
+      "value": "Neutron degeneracy pressure — and forces between neutrons"
+    },
+    {
+      "label": "Pulsars",
+      "value": "Beams sweep Earth once per rotation, so often 10–30 times per second — the ticking lighthouses of the galaxy"
+    },
+    {
+      "label": "The ceiling",
+      "value": "Above roughly 2.5–3 solar masses a black hole forms — the neutron star is the last dense remnant before that"
+    }
+  ],
+  "whyItMatters": "Neutron stars are the best demonstration that stars are not just big gas balls — matter can be forced into states nothing on Earth reproduces. Their regular pulsing gives astronomy its best probe: by timing pulsar ticks, scientists detect ripples in spacetime across the galaxy and measure collisions of neutron-star pairs. Those collisions are the factories where gold and other heavy elements are forged, and the physics of the crust and core extends the story that began with white dwarfs. Understanding the neutron star means understanding the farthest pressure matter can survive — the stepping stone before even this dense ball is out-powered by gravity.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Neutron-degenerate stellar remnant (pulsar source)",
+  "tagline": "A city of pure neutron matter",
+  "didYouKnow": "The neutron star spotted in 1054 (creating the Crab Nebula) is invisible to the naked eye but the nebula it lights up can be seen in even a small telescope — and its pulses were only discovered in 1967 because their rapid, steady ticking looked too perfect to be natural at the time.",
+  "compareCandidateId": "white-dwarf",
+  "compareReason": "Two leftovers from the same laundry: one in electron clothes, one in neutron clothes. Comparing density, size, and birth theater makes the Chandrasekhar threshold from the white dwarf component click into place."
+}

@@ -1,0 +1,41 @@
+{
+  "componentId": "point",
+  "terms": [
+    {
+      "term": "Point",
+      "conceptId": "point-definition",
+      "hotspotId": "hs-point-a",
+      "definition": "An exact location with no size at all.",
+      "function": "Marks one spot on a plane.",
+      "whereItIs": "The lettered dot on the board.",
+      "whyItMatters": "Points are the foundation of every geometric shape."
+    },
+    {
+      "term": "Dot",
+      "conceptId": "point-naming",
+      "hotspotId": "hs-dot",
+      "definition": "The visible mark used to represent a point.",
+      "function": "Shows where the point is located.",
+      "whereItIs": "The tiny sphere on the board.",
+      "whyItMatters": "A real point is too small to see — the dot is its symbol."
+    },
+    {
+      "term": "Plane",
+      "conceptId": "point-plot",
+      "hotspotId": "hs-plane",
+      "definition": "A flat surface extending forever, holding all points.",
+      "function": "Provides the space where positions are measured.",
+      "whereItIs": "The flat board under the dot.",
+      "whyItMatters": "Positions only make sense on a surface."
+    },
+    {
+      "term": "Vertex",
+      "conceptId": "point-building-block",
+      "hotspotId": "hs-point-a",
+      "definition": "The point where two rays meet to form an angle.",
+      "function": "The corner point shared by an angle's rays.",
+      "whereItIs": "Where the rays meet in later lessons.",
+      "whyItMatters": "Vertices are the points that name shapes."
+    }
+  ]
+}

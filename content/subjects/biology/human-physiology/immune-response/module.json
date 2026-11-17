@@ -1,0 +1,131 @@
+{
+  "id": "immune-response",
+  "name": "Immune Response",
+  "scientificName": "Immune response",
+  "subject": "biology",
+  "branch": "Human Physiology",
+  "system": "Body Processes",
+  "title": "Immune Response",
+  "tagline": "Your body's security team in action",
+  "summary": "The immune response is the five-stage process your body runs every time a germ gets in: a pathogen is detected, white blood cells respond, antibodies are custom-built, the pathogen is destroyed, and a memory of it is kept for next time. Explore each stage on a single continuous diorama, name the cells and proteins involved, explain why the body needs both a fast general response and a slower precise one, and see why this is the exact mechanism vaccines rely on.",
+  "gradeMin": 3,
+  "gradeMax": 8,
+  "skillIds": [
+    "pathogen-detected",
+    "white-blood-cells-respond",
+    "antibody-production",
+    "pathogen-destroyed",
+    "immune-memory-formed"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Body Processes",
+    "systemOrGroup": "Immune response (process)",
+    "component": "Immune Response",
+    "displayPath": "Biology > Human Physiology > Body Processes > Immune Response"
+  },
+  "crossReferences": [
+    {
+      "label": "Immune/Lymphatic System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Immune/lymphatic system",
+      "note": "The immune response's white blood cells, antibodies, and memory cells are produced and stored by the organs and tissues of the Immune/Lymphatic System, covered in the Human Anatomy branch."
+    },
+    {
+      "label": "Pathogens and Infection (Microbiology)",
+      "branch": "microbiology",
+      "process": "Infection",
+      "note": "The Pathogen detected and Pathogen destroyed stages of this component connect directly to how bacteria, viruses, and fungi infect and are studied in the Microbiology branch."
+    }
+  ],
+  "belongsTo": "Human Physiology > Body Processes > Immune response (process)",
+  "belongsToPath": ["Body Processes", "Human Physiology", "Biology"],
+  "conditions": [
+    "Common cold",
+    "Chickenpox and shingles",
+    "Autoimmune disease",
+    "Immunodeficiency",
+    "Allergic reaction",
+    "Vaccination"
+  ],
+  "compareCandidate": {
+    "label": "Immune response vs. Allergic reaction",
+    "description": "An allergic reaction uses the exact same machinery as a normal immune response — white blood cells, antibodies — but misfires against a harmless target like pollen or peanuts instead of a real pathogen. Comparing them side by side shows students what happens when the same finely-tuned system overreacts to the wrong target."
+  },
+  "compareCandidateId": "allergic-reaction",
+  "compareReason": "An allergic reaction uses the exact same machinery as a normal immune response — white blood cells, antibodies — but misfires against a harmless target like pollen or peanuts instead of a real pathogen. Comparing them side by side shows students what happens when the same finely-tuned system overreacts to the wrong target.",
+  "parts": [
+    "Pathogen detected",
+    "White blood cells respond",
+    "Antibody production",
+    "Pathogen destroyed",
+    "Immune memory formed"
+  ],
+  "processes": [
+    "Inflammation",
+    "Fever response",
+    "Vaccination and immunization",
+    "Allergic reaction",
+    "Wound healing"
+  ],
+  "plainLanguageExplanation": "Your body is like a castle with its own security team. The immune response is what happens when that security team catches an invader — a germ like a virus or bacterium — and fights it off. First, special guard cells notice something that doesn't belong. They sound the alarm and call in white blood cells, which are your body's soldiers. Some soldiers eat the germs directly. Others build custom weapons called antibodies, shaped to lock onto that one exact germ like a key fits one lock. Once the antibodies are ready, they tag the germs so they can be destroyed and cleared out. And here's the clever part: after the battle, your body keeps a \"wanted poster\" of that germ in special memory cells. If the same germ ever shows up again, your body recognizes it instantly and wipes it out before you even feel sick.",
+  "keyFacts": [
+    { "label": "Two main lines of defense", "value": "Innate immunity acts fast but generically (skin, mucus, general white blood cells); adaptive immunity is slower to start but targets one specific pathogen with antibodies." },
+    { "label": "Key soldier cells", "value": "White blood cells (leukocytes) include macrophages, which engulf and digest pathogens, and lymphocytes (B cells and T cells), which drive the targeted attack." },
+    { "label": "Antibodies are Y-shaped proteins", "value": "B cells produce antibodies shaped to bind one specific pathogen marker (antigen), tagging it for destruction or blocking it from infecting cells." },
+    { "label": "Memory is the reason vaccines work", "value": "Memory B cells and T cells persist for years after an infection (or a vaccine), letting the body respond faster and stronger the second time a pathogen appears." },
+    { "label": "Fever and inflammation are weapons, not just symptoms", "value": "Swelling, redness, and warmth around an injury, and a raised body temperature during illness, are the immune system actively working, not just side effects." }
+  ],
+  "whyItMatters": "Every single day your body faces off against germs from the air you breathe, the food you eat, and the surfaces you touch — and most of the time you never even notice, because the immune response wins before you get sick. Understanding it explains why you get a fever when you're ill (your body is fighting), why a cut gets red and puffy (immune cells rushing in), why you usually don't catch chickenpox twice, and why vaccines work at all — they teach your memory cells to recognize a threat without you ever having to get sick from the real thing first.",
+  "didYouKnow": "The five stages you see in the diorama usually finish inside about a week for a brand-new pathogen — but if the same pathogen ever comes back, memory cells can skip straight to antibody production, often clearing it before you feel a single symptom.",
+  "model": {
+    "type": "procedural-three",
+    "path": null,
+    "note": "This component uses generated Three.js geometry (a five-stage narrative diorama built from noise-perturbed primitives, see model-metadata.json's assetBrief) rather than a static GLB. Spec §21 does not explicitly assign a process-diorama component to either the procedural or GLB bucket, so this is a flagged deviation, not a silent default — confirm before build. See model-metadata.json's assetStrategy field for the full rationale."
+  },
+  "lesson": {
+    "steps": [
+      {
+        "title": "See it",
+        "body": "Look at the full diorama in 3D: a shallow curved platform with five plinths reading left to right, joined by a thin etched path. Notice this is one continuous story, not five separate objects — the same small cast of cells and a pathogen moves through all five stages."
+      },
+      {
+        "title": "Touch it",
+        "body": "Orbit around the diorama and use Stage Focus on the leftmost plinth to see the pathogen crossing the tissue barrier up close. Zoom in on the sensor cell turning toward it — this is the very first moment the body notices an invader."
+      },
+      {
+        "title": "Name it and explain it",
+        "body": "Tap each hotspot in order: Pathogen detected, White blood cells respond, Antibody production, Pathogen destroyed, Immune memory formed. Name each stage and its cast — pathogen, white blood cells, plasma cell, antibodies, phagocyte, memory cell. Then compare stage 2 and stage 3 side by side: why does 'white blood cells respond' (eating germs directly) happen faster than 'antibody production' (building a custom-shaped weapon)? A general response can start in minutes because it doesn't need to learn the pathogen's exact shape first; a targeted antibody response takes longer to build but hits far more precisely once it's ready."
+      },
+      {
+        "title": "See where it belongs",
+        "body": "The immune response belongs to Biology > Human Physiology > Body Processes, run by the white blood cells and antibodies of the Immune/Lymphatic System (covered in the Human Anatomy branch), reacting to the pathogens studied in the Microbiology branch."
+      },
+      {
+        "title": "Compare it",
+        "body": "Compare the immune response to an allergic reaction. Both use the exact same tools — white blood cells and antibodies — but an allergic reaction misfires against something harmless, like pollen or peanuts, instead of a real pathogen. Comparing them shows what happens when the same finely-tuned system attacks the wrong target."
+      },
+      {
+        "title": "Use it in a task",
+        "body": "Drag the five stages — Pathogen detected, White blood cells respond, Antibody production, Pathogen destroyed, Immune memory formed — into the correct order, then check your sequence against the diorama."
+      },
+      {
+        "title": "Review it later",
+        "body": "Come back later and check: can you explain, in your own words, why getting sick with the same germ twice is usually milder or doesn't happen at all?"
+      }
+    ],
+    "predictionPrompt": "You've seen a memory cell stay behind after the battle, resting quietly inside a faint standby halo. This isn't shown on the diorama, so predict it yourself: if the exact same pathogen invades your body again next month, will your second immune response be slower, about the same speed, or much faster than the first time — and why?",
+    "practiceItem": "Drag the five immune response stages into the correct order (Pathogen detected -> White blood cells respond -> Antibody production -> Pathogen destroyed -> Immune memory formed), then check your sequence against the model.",
+    "checkpoint": "Checkpoint: Can you explain, in your own words, why getting sick with the same germ twice is usually milder or doesn't happen at all?"
+  },
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "main-sequence-star",
+  "subject": "space",
+  "title": "Main Sequence Star",
+  "summary": "The long, steady middle of a star's life. A main-sequence star fuses hydrogen into helium in its core and holds itself in near-perfect balance: gravity pulling every layer inward, pressure from fusion energy pushing back out. Our Sun is one — now, and for roughly 5 billion more years.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "hydrostatic-equilibrium-balance",
+    "hydrogen-fusion-in-core",
+    "color-tracks-temperature",
+    "mass-sets-lifetime",
+    "sun-halfway-through"
+  ],
+  "type": "model",
+  "estimatedMinutes": 13,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Stars",
+    "unit": "Stellar Lifecycle",
+    "systemOrGroup": "Main sequence",
+    "component": "Main Sequence Star",
+    "displayPath": "Space > Stars > Stellar Lifecycle > Main sequence > Main Sequence Star"
+  },
+  "crossReferences": [
+    {
+      "label": "Protostar (Stars)",
+      "branch": "stars",
+      "component": "Protostar",
+      "note": "The main-sequence star is what a protostar becomes the moment fusion ignites — the disk is gone and the core finally produces its own steady energy."
+    },
+    {
+      "label": "Red Giant (Stars)",
+      "branch": "stars",
+      "component": "Red giant",
+      "note": "When a star's core hydrogen runs out, the balance that held it steady breaks and the star swells into the red giant stage — this component's full story is the 'after'."
+    },
+    {
+      "label": "Sun (Solar System)",
+      "subject": "space",
+      "branch": "solar-system",
+      "component": "The Sun",
+      "note": "The Sun is this component's real example: a G-type main-sequence star, 5,772 K at its surface, about halfway through its 10-billion-year main-sequence lifetime."
+    }
+  ],
+  "belongsTo": "Stars > Stellar Lifecycle > Main sequence",
+  "compareCandidate": {
+    "label": "Main sequence vs. red giant",
+    "description": "These are the same kind of star before and after its core hydrogen runs out. Nothing is added and nothing arrives from outside — the core simply stops fusing hydrogen, and the star responds by swelling to tens of times its old size while its surface cools. The comparison makes a star's appearance a direct report on what its core is doing."
+  },
+  "parts": [
+    "Core (fusion furnace)",
+    "Radiative zone (energy crawls out)",
+    "Convective zone (hot gas rises)",
+    "Photosphere (visible surface)",
+    "Hydrostatic balance"
+  ],
+  "processes": [
+    "Hydrogen fusion (proton–proton chain)",
+    "Hydrostatic equilibrium",
+    "Energy transport: radiation then convection",
+    "Blackbody color as a thermometer",
+    "Mass–lifetime trade-off"
+  ],
+  "plainLanguageExplanation": "A main-sequence star is a permanent tug of war. Gravity is always trying to crush the star inward, and fusion in the core constantly generates heat, which creates outward pressure that resists it. When the two match, the star holds a steady size for billions of years — that balance is called hydrostatic equilibrium. The fusion itself is simple to state: at roughly 15 million degrees in the core, hydrogen nuclei slam into each other hard enough to merge into helium, releasing energy — the same reaction that powers the Sun. Strangely, that energy takes a very long road out: a photon made at the core may take tens of thousands of years to cross the star step by step, before the final eight minutes of flight to Earth. Stars come in different colors for a reason: color is a thermometer. A cool star (~3,000 K) looks red, a Sun-like star (~5,800 K) yellow-white, a hot star (>10,000 K) blue-white. And mass decides the clock: the more massive stars burn fuel at such furious rates that they die in millions of years, while small red dwarfs can burn for hundreds of billions. Our Sun sits in a golden spot: about 4.6 billion years old, with roughly the same again ahead of it.",
+  "keyFacts": [
+    {
+      "label": "Balance",
+      "value": "Gravity pulling inward is balanced by fusion pressure pushing outward — hydrostatic equilibrium"
+    },
+    {
+      "label": "Fuel and product",
+      "value": "Core fuses hydrogen into helium at roughly 15 million K"
+    },
+    {
+      "label": "Color reads temperature",
+      "value": "Red ~3,000 K, Sun-yellow ~5,800 K, blue-white above 10,000 K"
+    },
+    {
+      "label": "Sun's clock",
+      "value": "Total main-sequence life ~10 billion years; about 4.6 billion used"
+    },
+    {
+      "label": "Mass vs. lifetime",
+      "value": "Bigger stars burn far faster and die younger; small red stars last hundreds of billions of years"
+    },
+    {
+      "label": "The steady majority",
+      "value": "Stars spend roughly 90% of their lives on the main sequence — it is the default state of a star"
+    }
+  ],
+  "whyItMatters": "The main sequence is where stars spend almost all of their lives, and it is the only place stable enough for planets to sit in habitable orbits for billions of years. Understanding the balance and the color–temperature link takes you from reciting facts to actually reading a star: look at its color and you know its temperature; look at its mass and you know how much longer it has. Every Hertzsprung–Russell diagram, every planet-hunting announcement, and every question about life's long-term future on Earth depends on knowing that stars are not just points of light but clockwork in balance.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Core Hydrogen Burning (Hertzsprung–Russell main sequence)",
+  "tagline": "The long, steady middle of a star's life",
+  "didYouKnow": "Above the Sun's surface the light is white. Why does it look yellow from Earth? Because our sky scatters the blue light away, so the yellow is what's left; in space the Sun appears white.",
+  "compareCandidateId": "red-giant",
+  "compareReason": "The same star, minutes apart on its own clock: the steady yellow main sequence before, the bloated red-cooling giant after. Nothing is added — the core simply runs out of hydrogen, and the star's whole appearance follows."
+}

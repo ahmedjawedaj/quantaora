@@ -1,0 +1,38 @@
+{
+  "componentId": "population",
+  "terms": [
+    {
+      "term": "Population",
+      "conceptId": "same-species-group",
+      "hotspotId": "hs-pop-group",
+      "definition": "A group of the same species living in the same area at the same time.",
+      "function": "The level of ecology for counting one species.",
+      "whereItIs": "In a shared habitat area.",
+      "whyItMatters": "Populations are how we track species health.",
+      "relatedConcept": "population-growth-shrink",
+      "quizId": "pop-q-def"
+    },
+    {
+      "term": "Population growth",
+      "conceptId": "population-growth-shrink",
+      "hotspotId": "hs-grow",
+      "definition": "The increase in population size when gains outnumber losses.",
+      "function": "Changes population numbers over time.",
+      "whereItIs": "Happening in any population.",
+      "whyItMatters": "Growth or decline tells us how a species is doing.",
+      "relatedConcept": "population-limiting-factors",
+      "quizId": "pop-q-grow"
+    },
+    {
+      "term": "Limiting factor",
+      "conceptId": "population-limiting-factors",
+      "hotspotId": "hs-limit",
+      "definition": "A resource or threat that caps population size.",
+      "function": "Stops a population from growing without end.",
+      "whereItIs": "Food, water, space, disease, predators.",
+      "whyItMatters": "They keep populations in balance with their environment.",
+      "relatedConcept": "population-growth-shrink",
+      "quizId": "pop-q-limit"
+    }
+  ]
+}

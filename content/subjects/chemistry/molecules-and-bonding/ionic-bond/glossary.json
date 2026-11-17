@@ -1,0 +1,48 @@
+{
+  "componentId": "ionic-bond",
+  "terms": [
+    {
+      "term": "Ionic bond",
+      "conceptId": "ionic-transfers-electrons",
+      "hotspotId": "hs-ions-attract",
+      "definition": "A chemical bond formed when electrons are transferred and the resulting oppositely charged ions attract.",
+      "function": "Builds ionic compounds like salts by locking positive and negative ions together.",
+      "whereItIs": "The attraction between Na⁺ and Cl⁻ in the model.",
+      "whyItMatters": "Ionic bonds build table salt and the minerals of the Earth.",
+      "relatedConcept": "ionic-builds-salts",
+      "quizId": "ionic-q-attraction"
+    },
+    {
+      "term": "Electron transfer",
+      "conceptId": "ionic-transfers-electrons",
+      "hotspotId": "hs-ionic-transfer",
+      "definition": "The complete movement of an electron from one atom to another.",
+      "function": "Turns the giver positive and the taker negative, setting up the attraction.",
+      "whereItIs": "The traveling dot along the path between the two atoms.",
+      "whyItMatters": "Transferring, not sharing, is what makes the bond ionic.",
+      "relatedConcept": "ionic-metal-gives-nonmetal-takes",
+      "quizId": "ionic-q-definition"
+    },
+    {
+      "term": "Ion",
+      "conceptId": "ionic-transfers-electrons",
+      "definition": "An atom that has lost or gained electrons and therefore carries a charge.",
+      "function": "The charged particles that an ionic bond locks together.",
+      "whereItIs": "Na⁺ and Cl⁻ — the two atoms after the transfer.",
+      "whyItMatters": "Ions are the building blocks of ionic compounds.",
+      "relatedConcept": "ionic-builds-salts",
+      "quizId": "ionic-q-who-gives"
+    },
+    {
+      "term": "Crystal lattice",
+      "conceptId": "ionic-builds-salts",
+      "hotspotId": "hs-ionic-lattice",
+      "definition": "A repeating 3D grid of alternating positive and negative ions.",
+      "function": "The structure that holds an ionic compound like salt together as a solid.",
+      "whereItIs": "The cube of alternating violet and green cells in the model.",
+      "whyItMatters": "The lattice structure is why salt forms crystals and melts at high temperature.",
+      "relatedConcept": "ionic-transfers-electrons",
+      "quizId": "ionic-q-lattice"
+    }
+  ]
+}

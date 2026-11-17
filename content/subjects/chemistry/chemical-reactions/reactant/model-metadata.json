@@ -1,0 +1,89 @@
+{
+  "id": "reactant",
+  "componentId": "reactant",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/chemical-reactions/reactant/reactant.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/chemical-reactions/reactant.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Equation scene",
+    "Combine",
+    "Arrow"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-reactant-materials",
+      "label": "The reactants",
+      "conceptId": "reactant-starts-reaction",
+      "position": [
+        -0.95,
+        0.35,
+        0
+      ],
+      "description": "The hydrogen molecules (two pale spheres each) and oxygen molecule (two red spheres) on the left are the reactants — the starting materials of the reaction.",
+      "positionHint": "The molecule group on the left side of the equation.",
+      "color": "#D9A441",
+      "function": "Shows the starting materials of the reaction."
+    },
+    {
+      "id": "hs-reactant-combine",
+      "label": "Reacting together",
+      "conceptId": "reactant-starts-reaction",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "description": "When the combine layer is on, the reactants approach and react — their atoms break apart and reconnect as water.",
+      "positionHint": "The central region where the molecules meet when the layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows the reactants coming together to react."
+    },
+    {
+      "id": "hs-reactant-consumed",
+      "label": "Consumed and transformed",
+      "conceptId": "reactant-consumed",
+      "position": [
+        0.85,
+        0.55,
+        0
+      ],
+      "description": "As the reaction runs, the reactant atoms are consumed — not destroyed — and reappear rearranged as the water product on the right.",
+      "positionHint": "The atoms flowing from the left molecules into the water product.",
+      "color": "#D96B5A",
+      "function": "Shows reactants being consumed into products."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A miniature chemical equation floats centered — reactants on the left, an arrow, a product on the right — lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Ball-stick molecules in CPK colors: hydrogen warm off-white, oxygen muted red. Strong saturated color is reserved for the small flat hotspot dots (amber / molecular-green / coral accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Hydrogen spheres: warm off-white, roughness ~0.5. Oxygen spheres: muted red, roughness ~0.45. Bond rods: thin graphite cylinders. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a chemical equation for making water, built to be read as 'left side = reactants, right side = products.' Three procedural layers, all clean primitives:\n\n1) MAIN: a flat equation scene — LEFT: two hydrogen molecules (H₂, pairs of warm off-white spheres radius ~0.2 with a thin graphite rod) and one oxygen molecule (O₂, pair of muted red spheres radius ~0.28 with a double rod); CENTER: a flat arrow tile (app-rendered arrow glyph, no mesh text); RIGHT: one water molecule (H₂O, one muted red + two warm off-white, 104.5° bend).\n\n2) COMBINE (toggleable layer): the hydrogen and oxygen molecules glide toward the center (app animates), their bonds break, and the atoms reassemble into water molecules at the right — the reaction visible as a dance of atoms.\n\n3) ARROW (toggleable layer): the central arrow tile brightens and gains a soft glow, emphasizing 'reacts to make' — the divider between reactants and products.\n\nCamera: framed so all three zones (left, center, right) fit with negative space; auto-rotate default. Budget 6-10k triangles. Named nodes: Reactant_H2_01-02, Reactant_O2, Product_H2O, EquationArrow, AtomTrails. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "reactant-vial"
+  }
+}

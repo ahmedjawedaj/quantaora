@@ -1,0 +1,80 @@
+{
+  "componentId": "data-point",
+  "questions": [
+    {
+      "id": "data-point-def",
+      "conceptId": "data-point-definition",
+      "hotspotId": "hs-point-cube",
+      "prompt": "What is a data point?",
+      "options": [
+        "One single piece of information",
+        "The average of many numbers",
+        "A type of graph",
+        "A bar on a chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "A data point is one observation — one piece of information.",
+      "misconception": "The average is a statistic computed from many points; a data point is just one raw piece of data."
+    },
+    {
+      "id": "data-point-value",
+      "conceptId": "data-point-collect",
+      "hotspotId": "hs-value-tag",
+      "prompt": "What two things does a data point usually have?",
+      "options": [
+        "A label and a value",
+        "A color and a shape",
+        "A size and a weight",
+        "A name only"
+      ],
+      "correctIndex": 0,
+      "explanation": "A data point typically pairs a label ('Ali') with a value ('150 cm').",
+      "misconception": "The essential parts are the identity (label) and the measurement (value) — appearance is just how we draw a point."
+    },
+    {
+      "id": "data-point-dataset",
+      "conceptId": "data-point-dataset",
+      "hotspotId": "hs-dataset-row",
+      "prompt": "Many data points together form a...",
+      "options": [
+        "Dataset",
+        "Single point",
+        "Mean",
+        "Degree"
+      ],
+      "correctIndex": 0,
+      "explanation": "Collecting many data points creates a dataset.",
+      "misconception": "A single point is just one observation — a collection of many points is a dataset, which charts and statistics summarize."
+    },
+    {
+      "id": "data-point-chart",
+      "conceptId": "data-point-trace",
+      "hotspotId": "hs-point-cube",
+      "prompt": "How does a data point appear when placed on a line graph?",
+      "options": [
+        "As a dot with a height matching its value",
+        "As a whole bar",
+        "As a new axis",
+        "As a legend label"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a line graph each data point becomes one dot placed by its value.",
+      "misconception": "Bars group whole categories, axes frame the chart, and legends explain symbols — a single point is just a dot."
+    },
+    {
+      "id": "data-point-outlier",
+      "conceptId": "data-point-trace",
+      "hotspotId": "hs-dataset-row",
+      "prompt": "A measurement that is far away from the others in a dataset is every data point too, but is called an...",
+      "options": [
+        "Outlier",
+        "Inlier",
+        "Median",
+        "Axis"
+      ],
+      "correctIndex": 0,
+      "explanation": "A point far from the rest is an outlier — but still one data point.",
+      "misconception": "The special name for an unusually distant point is outlier; it is not a median or an axis, and it still counts as a point."
+    }
+  ]
+}

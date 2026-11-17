@@ -1,0 +1,101 @@
+{
+  "id": "stomata",
+  "subject": "biology",
+  "title": "Stomata",
+  "summary": "Stomata are tiny pores (openings) on the surface of leaves and stems that plants use to breathe. They open to let carbon dioxide in for photosynthesis and close to save water. Explore how guard cells control these gates.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "stomata-tiny-pores",
+    "carbon-dioxide-in-oxygen-out",
+    "guard-cells-open-close",
+    "stomata-save-water",
+    "transpiration"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Plants",
+    "unit": "Plant Function",
+    "systemOrGroup": "Plant surface structures",
+    "component": "Stomata",
+    "displayPath": "Biology > Plants > Plant Function > Plant surface structures > Stomata"
+  },
+  "crossReferences": [
+    {
+      "label": "Leaf (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Leaf",
+      "note": "The stomata are mostly found on the surface of the leaf, where photosynthesis happens."
+    },
+    {
+      "label": "Photosynthesis (Plants process)",
+      "branch": "plants",
+      "lowLevelItem": "Stomata",
+      "note": "Stomata let carbon dioxide enter the leaf for photosynthesis and let oxygen out."
+    },
+    {
+      "label": "Xylem (Plants)",
+      "branch": "plants",
+      "lowLevelItem": "Xylem",
+      "note": "Water lost through stomata (transpiration) is replaced by water brought up through the xylem."
+    }
+  ],
+  "belongsTo": "Plants > Plant Function > Plant surface structures",
+  "compareCandidate": {
+    "label": "Stomata open vs. closed",
+    "description": "Open stomata let carbon dioxide in and oxygen out, but also let water escape. Closed stomata save water but keep carbon dioxide out. The plant balances these by opening when there is light and closing when it is dry."
+  },
+  "parts": [
+    "Stoma pore",
+    "Guard cells",
+    "Leaf surface",
+    "Small (paired) opening"
+  ],
+  "processes": [
+    "Gas exchange - carbon dioxide in, oxygen out",
+    "Controlling water loss (transpiration)",
+    "Opening and closing by guard cells"
+  ],
+  "plainLanguageExplanation": "A stoma (plural stomata) is a tiny pore, or opening, on the surface of a leaf. Each stoma is controlled by two guard cells that swell up and bend to open it, or relax to close it. While open, the leaf can take in carbon dioxide for photosynthesis and let out the oxygen it makes. But opening also lets water escape as steam. So plants open their stomata mainly when there is light to photosynthesize in the daytime, and close them at night or when they must save water - like on a hot, dry day.",
+  "keyFacts": [
+    {
+      "label": "Stoma",
+      "value": "Tiny pore on the leaf or stem that opens and closes"
+    },
+    {
+      "label": "Guard cells",
+      "value": "Two cells that swell to open the stoma and shrink to close it"
+    },
+    {
+      "label": "Gas exchange",
+      "value": "Carbon dioxide in for photosynthesis; oxygen out"
+    },
+    {
+      "label": "Water loss",
+      "value": "Open stomata let water escape (transpiration)"
+    },
+    {
+      "label": "Timing",
+      "value": "Mostly open in daylight, close when dry to save water"
+    }
+  ],
+  "whyItMatters": "Stomata are the plant's gates for the two most important gases for life: carbon dioxide it needs to make food, and oxygen it gives as a byproduct. They also control how much water a plant loses, so they're a plant's balance key for breathing and conserving water.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Stomata",
+  "tagline": "The plant's tiny adjustable air gates",
+  "didYouKnow": "A single small leaf can have millions of stomata, each one a tiny door controlled by two cells.",
+  "conditions": [
+    "Gas exchange",
+    "Transpiration"
+  ],
+  "branch": "plants",
+  "displayPath": "Biology > Plants > Plant Function > Plant surface structures > Stomata"
+}

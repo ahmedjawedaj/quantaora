@@ -1,0 +1,116 @@
+{
+  "id": "brain",
+  "componentId": "brain",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/human-anatomy/brain/brain.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/brain.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Skull and meninges",
+    "Cerebrum (lobes)",
+    "Cerebellum",
+    "Brainstem",
+    "Deep memory/emotion centers"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cerebrum",
+      "label": "Cerebrum",
+      "conceptId": "cerebrum-thinking",
+      "position": [
+        0.0,
+        0.3,
+        0.1
+      ],
+      "description": "The large wrinkled outer brain that thinks, senses, and directs movement.",
+      "color": "#D98A6A",
+      "function": "Handles thinking, sensing, and voluntary movement.",
+      "positionHint": "Top and sides of the brain."
+    },
+    {
+      "id": "hs-cerebellum",
+      "label": "Cerebellum",
+      "conceptId": "cerebellum-balance",
+      "position": [
+        0.25,
+        -0.05,
+        0.15
+      ],
+      "description": "The smaller rounded region at the back that coordinates balance and smooth movement.",
+      "color": "#D9A441",
+      "function": "Coordinates balance and smooth movement.",
+      "positionHint": "Base at the back."
+    },
+    {
+      "id": "hs-brainstem",
+      "label": "Brainstem",
+      "conceptId": "brainstem-automatic",
+      "position": [
+        0.0,
+        -0.3,
+        0.2
+      ],
+      "description": "The stalk connecting brain to spinal cord that runs automatic life jobs.",
+      "color": "#6B85A8",
+      "function": "Runs breathing, heartbeat, and other automatic jobs.",
+      "positionHint": "Underneath, connecting to the spinal cord."
+    },
+    {
+      "id": "hs-hippocampus",
+      "label": "Hippocampus",
+      "conceptId": "memory-emotion-regions",
+      "position": [
+        -0.2,
+        -0.1,
+        0.2
+      ],
+      "description": "A deep structure that helps form and find memories.",
+      "color": "#B5846A",
+      "function": "Helps form new memories.",
+      "positionHint": "Deep inside, curled under the cerebrum."
+    },
+    {
+      "id": "hs-amygdala",
+      "label": "Amygdala",
+      "conceptId": "memory-emotion-regions",
+      "position": [
+        -0.3,
+        -0.2,
+        0.15
+      ],
+      "description": "A small almond-shaped center involved in emotions.",
+      "color": "#B5846A",
+      "function": "Involved in emotions like fear and excitement.",
+      "positionHint": "Deep inside, near the hippocampus."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a human brain as a stylized-specimen study, shown in a clean sagittal cross-section so the internal regions (cerebrum with folded surface, cerebellum, brainstem, and the deep hippocampus and amygdala) are visible. The cut face is a flat museum cap. Cerebrum folded surface soft paper-pink, cerebellum slightly smaller ridged, brainstem pale, deep centers shown in muted amber. Anatomy Atelier bar: warm off-white, no glow, no gore, no saturated color. Named nodes: CerebrumSurface, CerebrumCut, CerebellumMesh, BrainstemMesh, HippocampusMesh, AmygdalaMesh. Budget 20-30k."
+}

@@ -1,0 +1,89 @@
+{
+  "id": "gravity",
+  "subject": "physics",
+  "title": "Gravity",
+  "summary": "Gravity is the force that pulls every mass toward every other mass — the reason an apple falls, the Moon stays in orbit, and your feet stay on the floor. Its strength on Earth is about 9.8 m/s². Explore how heavier and lighter objects fall together, why planets pull differently, and how gravity keeps the whole solar system in its dance.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "gravity-force-between-masses",
+    "gravity-gravitational-field",
+    "gravity-fall-same-acceleration",
+    "gravity-weight-origin"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Forces",
+    "systemOrGroup": "Gravity",
+    "component": "Gravity",
+    "displayPath": "Physics > Mechanics > Forces > Gravity > Gravity"
+  },
+  "crossReferences": [
+    {
+      "label": "Weight (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Weight",
+      "note": "Weight is simply gravity's pull on a mass — the two are cause and effect."
+    },
+    {
+      "label": "Mass (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Mass",
+      "note": "Gravity pulls on mass; bigger mass gets a bigger pull but also resists more, which is why all things fall together."
+    },
+    {
+      "label": "Acceleration (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Acceleration",
+      "note": "Gravity is what gives falling objects their constant acceleration of about 9.8 m/s² on Earth."
+    }
+  ],
+  "belongsTo": "Mechanics > Forces > Gravity",
+  "compareCandidate": {
+    "label": "Gravity vs. friction",
+    "description": "Both are forces that show up constantly, but gravity pulls masses toward each other while friction acts between surfaces and usually opposes motion — different causes, different directions."
+  },
+  "parts": [
+    "A planet or Earth body",
+    "Falling objects (heavy and light)",
+    "The orbit path of the Moon or a satellite",
+    "The gravitational field arrows"
+  ],
+  "processes": [
+    "Pulling all objects toward the center of a planet",
+    "Making heavy and light objects fall with the same acceleration",
+    "Holding satellites and moons in orbit",
+    "Giving mass its weight through W = mg"
+  ],
+  "plainLanguageExplanation": "Gravity is the force that pulls any two masses toward each other. Big masses (like Earth) pull nearby masses down, and the result is the weight we feel and the falling we see. The surprising part is that gravity accelerates every object the same way: a bowling ball and a feather would hit the ground at the same moment if the air were removed, because a heavier ball needs a bigger force, but its bigger mass resists in equal measure — the two cancel. Earth's gravitational field has a strength of about 9.8 m/s²; that number times your mass is exactly your weight. Gravity doesn't just pull things down — it reaches across space and keeps the Moon circling Earth and planets circling the Sun. The model shows it three ways: objects falling in a vacuum tube (heavy and light, together), field arrows pointing to the planet's center, and a satellite swinging around the planet in a stable orbit.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A force that pulls masses toward one another" },
+    { "label": "Direction", "value": "Toward the center of the larger mass — down on Earth" },
+    { "label": "Earth's field", "value": "About 9.8 m/s² (often rounded to 10)" },
+    { "label": "Falling", "value": "In a vacuum, all objects fall with the same acceleration regardless of mass" },
+    { "label": "Creates weight", "value": "Weight = mass × g — gravity is why things have weight at all" },
+    { "label": "Keeps orbits", "value": "Gravity is the inward force that keeps moons and planets circling" }
+  ],
+  "whyItMatters": "Gravity shapes everything about living on Earth — why we stay grounded, why things fall, why the day lasts 24 hours, why tides rise. It governs space travel (rockets must beat gravity to orbit) and the entire solar system. Understanding gravity also unlocks why astronauts 'float' (they're falling around Earth, not free of gravity) and explains everyday objects like a dropped pencil. It's the first long-range force kids meet, and the key to weight, orbits, and Newton's law of universal gravitation.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Gravity (gravitational force)",
+  "tagline": "The pull that holds it all together",
+  "didYouKnow": "Astronauts in the ISS aren't in zero gravity — they're in free fall around Earth, falling sideways so fast that they keep missing the ground. That's why they float: gravity still pulls them with almost full strength.",
+  "conditions": [
+    "Apples falling from trees",
+    "Satellites and the Moon orbiting",
+    "Ocean tides",
+    "Bouncing a ball"
+  ],
+  "compareCandidateId": "friction",
+  "compareReason": "Gravity pulls through empty space while friction needs two touching surfaces — comparing the two on the same ramp explains why objects slide on ice but stick to carpets."
+}

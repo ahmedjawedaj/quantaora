@@ -1,0 +1,148 @@
+{
+  "id": "resistance",
+  "componentId": "resistance",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/resistance/resistance.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/resistance.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.1,
+      4.5
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Slide rail and resistor block",
+    "Ammeter and bulb",
+    "Ohm readout",
+    "Material switch"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-block",
+      "label": "Resistor Block",
+      "conceptId": "resistance-opposes-current",
+      "position": [
+        0.5,
+        0.4,
+        0
+      ],
+      "description": "The sliding block whose position changes how much current path the charge must cross.",
+      "colorHint": "A ridged dark-grey block riding the rail.",
+      "color": "#6B85A8",
+      "function": "Sets the resistance of the path."
+    },
+    {
+      "id": "hs-rail",
+      "label": "Slide Rail",
+      "conceptId": "resistance-thin-long-high",
+      "position": [
+        -0.3,
+        0.3,
+        0
+      ],
+      "description": "The long track; the farther the block, the longer the path current must travel.",
+      "colorHint": "Long metallic rail spanning the base.",
+      "color": "#8A93A6",
+      "function": "Provides the length knob of resistance."
+    },
+    {
+      "id": "hs-lengthen",
+      "label": "Lengthen",
+      "conceptId": "resistance-thin-long-high",
+      "position": [
+        -1.2,
+        0.8,
+        0.3
+      ],
+      "description": "Slides the block away, lengthening the path and raising ohms.",
+      "colorHint": "A small right-pointing arrow chip.",
+      "color": "#D9A441",
+      "function": "Increases resistance by adding path length."
+    },
+    {
+      "id": "hs-shorten",
+      "label": "Shorten",
+      "conceptId": "resistance-thin-long-high",
+      "position": [
+        -1.2,
+        0.3,
+        0.3
+      ],
+      "description": "Slides the block back, shortening the path and dropping ohms.",
+      "colorHint": "A small left-pointing arrow chip.",
+      "color": "#7FA86A",
+      "function": "Decreases resistance by trimming path length."
+    },
+    {
+      "id": "hs-ammeter",
+      "label": "Ammeter",
+      "conceptId": "resistance-opposes-current",
+      "position": [
+        1.5,
+        1.0,
+        0.1
+      ],
+      "description": "The current gauge — sags as resistance climbs, surges as it falls.",
+      "colorHint": "Round green instrument.",
+      "color": "#7FA86A",
+      "function": "Reads the current after the drag."
+    },
+    {
+      "id": "hs-bulb",
+      "label": "Bulb",
+      "conceptId": "resistance-opposes-current",
+      "position": [
+        1.6,
+        0.5,
+        0.1
+      ],
+      "description": "The bulb that dims as the block lengthens the path.",
+      "colorHint": "Small warm lamp at the end of the line.",
+      "color": "#D9A441",
+      "function": "Displays the current's effect on brightness."
+    },
+    {
+      "id": "hs-ohm",
+      "label": "Ohm Readout",
+      "conceptId": "resistance-unit-ohm",
+      "position": [
+        -1.6,
+        0.9,
+        0.1
+      ],
+      "description": "The numeric resistance display in ohms.",
+      "colorHint": "Pale panel reading Ω.",
+      "color": "#8A93A6",
+      "function": "Shows the resistance value."
+    },
+    {
+      "id": "hs-material",
+      "label": "Material Switch",
+      "conceptId": "resistance-material-and-length",
+      "position": [
+        0.2,
+        0.9,
+        0.3
+      ],
+      "description": "Flips the block between copper (flows easily) and nichrome (resists hard).",
+      "colorHint": "A copper/nickel two-way toggle.",
+      "color": "#D96B5A",
+      "function": "Changes the block's material and its resistance."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. A long metallic rail, a dark resistor block, green ammeter, warm bulb, and a material toggle.",
+  "materialNotes": "Metallic=0 for parts except rail metallic ~0.6, roughness 0.3. Block dark matte; bulb warm-glass; no bloom.",
+  "assetBrief": "SUBJECT: resistance as current-path length and material.\n\nGEOMETRY: a horizontal slide rail from x=-1.5..1.5; resistor block slides; bulb at the far end; ammeter; ohm panel; material toggle.\n\nINTERACTION: lengthen/shorten chips move the block; ohms rise with path length; material switch toggles copper (low) vs nichrome (high); ammeter and bulb follow current = V ÷ R.\n\nNAMED NODES: Rail, Block, LengthenChip, ShortenChip, Ammeter, Bulb, OhmPanel, MaterialToggle. 8-11k tris.",
+  "visual": {
+    "shape": "resistor-coil"
+  }
+}

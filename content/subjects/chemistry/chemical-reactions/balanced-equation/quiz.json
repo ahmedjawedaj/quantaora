@@ -1,0 +1,65 @@
+{
+  "componentId": "balanced-equation",
+  "questions": [
+    {
+      "id": "balanced-q-definition",
+      "conceptId": "balanced-equal-atoms",
+      "hotspotId": "hs-balanced-pair",
+      "prompt": "What makes a chemical equation balanced?",
+      "options": [
+        "Equal numbers of each atom on both sides",
+        "Equal total length of both sides",
+        "The same color of symbols on both sides",
+        "More products than reactants"
+      ],
+      "correctIndex": 0,
+      "explanation": "A balanced equation has the same number of each kind of atom on the left and the right.",
+      "misconception": "Balancing is about atom counts, never appearances — the two sides must have identical numbers of each element's atoms."
+    },
+    {
+      "id": "balanced-q-why",
+      "conceptId": "balanced-conservation-of-mass",
+      "hotspotId": "hs-balanced-count",
+      "prompt": "Why must equations be balanced?",
+      "options": [
+        "Because reactions obey conservation of mass — atoms cannot appear or vanish",
+        "To make the equation prettier",
+        "Because chemists prefer long formulas",
+        "It is just a grading rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atoms are never created or destroyed, so a correct equation must show the same atoms on both sides.",
+      "misconception": "Balancing is not cosmetic — an unbalanced equation literally describes an impossible event where atoms appear or disappear."
+    },
+    {
+      "id": "balanced-q-tool",
+      "conceptId": "balanced-choosing-coefficients",
+      "hotspotId": "hs-balanced-coefficient",
+      "prompt": "What do you change to balance an equation?",
+      "options": [
+        "The coefficients — the numbers in front of formulas",
+        "The subscripts — the small numbers inside formulas",
+        "The element symbols themselves",
+        "The arrow direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Balancing is done by adjusting the coefficients, which count whole units without changing the substances.",
+      "misconception": "Changing a subscript would change the substance itself (H₂O to H₂O₂), and changing symbols changes the elements — only coefficients adjust counts safely."
+    },
+    {
+      "id": "balanced-q-example",
+      "conceptId": "balanced-equal-atoms",
+      "hotspotId": "hs-balanced-pair",
+      "prompt": "In the balanced equation 2H₂ + O₂ → 2H₂O, how many hydrogen atoms are on each side?",
+      "options": [
+        "4 on both sides",
+        "2 on the left, 4 on the right",
+        "4 on the left, 2 on the right",
+        "1 on both sides"
+      ],
+      "correctIndex": 0,
+      "explanation": "The coefficient 2 in front of H₂ gives 4 hydrogens, and 2H₂O also gives 4 hydrogens — matched.",
+      "misconception": "The coefficient 2 multiplies the whole H₂ (so 2×2 = 4) and the 2 in 2H₂O gives 2×2 = 4 — both sides have 4."
+    }
+  ]
+}

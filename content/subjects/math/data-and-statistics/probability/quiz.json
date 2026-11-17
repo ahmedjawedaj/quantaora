@@ -1,0 +1,80 @@
+{
+  "componentId": "probability",
+  "questions": [
+    {
+      "id": "prob-scale",
+      "conceptId": "probability-definition",
+      "hotspotId": "hs-spinner",
+      "prompt": "A probability can be any number between...",
+      "options": [
+        "0 and 1",
+        "1 and 100",
+        "−1 and 1",
+        "0 and 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "Probability is from 0 (impossible) to 1 (certain).",
+      "misconception": "Percent form runs 0% to 100%, which maps to 0 to 1 — negative or extra-large chances are not possible."
+    },
+    {
+      "id": "prob-compute",
+      "conceptId": "probability-compute",
+      "hotspotId": "hs-spinner",
+      "prompt": "On a 4-sided spinner, what is the probability of landing on 3?",
+      "options": [
+        "1/4",
+        "1/3",
+        "3/4",
+        "1/2"
+      ],
+      "correctIndex": 0,
+      "explanation": "One good sector out of four equal sectors: 1 ÷ 4 = 1/4.",
+      "misconception": "It is the event's ways over the total ways — 1 wants out of 4, not 3 or 2."
+    },
+    {
+      "id": "prob-certain",
+      "conceptId": "probability-definition",
+      "hotspotId": "hs-scale",
+      "prompt": "What is the probability of an IMPOSSIBLE event?",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "100"
+      ],
+      "correctIndex": 0,
+      "explanation": "Impossible events happen with probability 0.",
+      "misconception": "1 is certainty, 0.5 is an even bet — impossible is placed all the way at 0."
+    },
+    {
+      "id": "prob-experiment",
+      "conceptId": "probability-experiment",
+      "hotspotId": "hs-spinner",
+      "prompt": "You spin a fair 4-sided spinner 400 times. About how many 3s do you expect?",
+      "options": [
+        "About 100",
+        "Exactly 400",
+        "About 40",
+        "Exactly 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each spin has a 1/4 chance: 400 × 1/4 = about 100 on average.",
+      "misconception": "It is about 100, not exactly — chance wanders a little, but 1/4 of 400 is the best prediction."
+    },
+    {
+      "id": "prob-theoretical",
+      "conceptId": "probability-compute",
+      "hotspotId": "hs-scale",
+      "prompt": "With very many trials, experimental probability...",
+      "options": [
+        "Settles near the theoretical probability",
+        "Grows forever",
+        "Shrinks to zero",
+        "Ignores the scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "The averages of many trials pull toward the calculated theoretical value.",
+      "misconception": "The experiment wobbles at low trials but converges near the true chance as trials increase — it never grows or shrinks arbitrarily."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "componentId": "axial-tilt-and-seasons",
+  "terms": [
+    { "term": "Axial tilt", "conceptId": "axial-tilt", "definition": "The 23.5° lean of Earth's axis away from vertical, relative to its orbital plane; the entire cause of seasons." },
+    { "term": "Solstice", "conceptId": "solstice-and-equinox", "definition": "The point in Earth's orbit where a hemisphere's lean toward or away from the Sun is at its maximum, giving the longest or shortest day of the year." },
+    { "term": "Equinox", "conceptId": "solstice-and-equinox", "definition": "The point in Earth's orbit where neither hemisphere leans toward the Sun, giving close to equal day and night everywhere." },
+    { "term": "Subsolar latitude", "conceptId": "seasons-cause", "definition": "The latitude directly under the Sun at solar noon; it swings between +23.5° and -23.5° across the year as Earth orbits." },
+    { "term": "Daylight hours", "conceptId": "daylight-hours", "definition": "How many hours of sunlight a given latitude receives on a given day, which grows or shrinks with the season." }
+  ]
+}

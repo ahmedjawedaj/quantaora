@@ -1,0 +1,80 @@
+{
+  "componentId": "conservation-of-energy",
+  "questions": [
+    {
+      "id": "co-q-law",
+      "conceptId": "energy-conserved-never-lost",
+      "hotspotId": "hs-total",
+      "prompt": "What does the law of conservation of energy say?",
+      "options": [
+        "Energy is never created or destroyed — it only changes form",
+        "Energy disappears when objects slow down",
+        "Machines can make energy from nothing",
+        "Energy always runs out eventually"
+      ],
+      "correctIndex": 0,
+      "explanation": "The total stays constant; energy only trades between forms like motion, height, heat, and sound.",
+      "misconception": "People think energy vanishes when something stops; it has only changed form."
+    },
+    {
+      "id": "co-q-forms",
+      "conceptId": "energy-changes-form",
+      "hotspotId": "hs-bar",
+      "prompt": "A ball rolls off a ramp at the top of a slope. Which energy swap happens as it descends?",
+      "options": [
+        "Potential (height) changes into kinetic (motion)",
+        "Kinetic changes into potential all the way down",
+        "Light changes into sound",
+        "Nothing changes — energy is frozen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Down the slope, stored height energy converts into motion — the same total, a different form.",
+      "misconception": "The reverse swap (motion to height) is what happens climbing up, not descending."
+    },
+    {
+      "id": "co-q-brake",
+      "conceptId": "energy-sank-to-heat",
+      "hotspotId": "hs-heat",
+      "prompt": "Where does a braking car's kinetic energy go?",
+      "options": [
+        "Mostly into heat in the brakes and tyres",
+        "Into nothing — it is gone forever",
+        "Into extra fuel the engine just gained",
+        "It stays in the wheels forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friction turns motion into heat; energy is conserved, so it hasn't vanished — it warmed things up.",
+      "misconception": "The 'it just disappears' intuition ignores heat, the most common energy destination."
+    },
+    {
+      "id": "co-q-closed",
+      "conceptId": "closed-systems",
+      "hotspotId": "hs-total",
+      "prompt": "In a closed system, the total energy...",
+      "options": [
+        "Stays the same at every moment",
+        "Grows as work is done",
+        "Shrinks as the object tires",
+        "Doubles at the top of a hill"
+      ],
+      "correctIndex": 0,
+      "explanation": "By definition a closed system has no energy entering or leaving, so the sum is fixed.",
+      "misconception": "Counting only the visible form (motion) and forgetting heat makes totals seem to shrink."
+    },
+    {
+      "id": "co-q-total",
+      "conceptId": "energy-conserved-never-lost",
+      "hotspotId": "hs-total",
+      "prompt": "At any moment while the coaster loops, which of these is true?",
+      "options": [
+        "PE + KE + heat = the same starting total",
+        "PE is always larger than the total",
+        "KE must be zero at the bottom",
+        "The total halves after each loop"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every form adds to the same constant — that sum is the law in one line.",
+      "misconception": "Focusing on just one form makes the total look like it changes; all forms must be added."
+    }
+  ]
+}

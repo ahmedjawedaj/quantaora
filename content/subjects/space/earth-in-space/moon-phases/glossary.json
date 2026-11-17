@@ -1,0 +1,10 @@
+{
+  "componentId": "moon-phases",
+  "terms": [
+    { "term": "Synodic month", "conceptId": "synodic-month", "definition": "The ~29.5-day cycle from one New Moon to the next; slightly longer than the Moon's orbital period because Earth also moves around the Sun." },
+    { "term": "Tidal locking", "conceptId": "tidal-locking", "definition": "When a body's rotation period exactly matches its orbital period, so it always shows the same face to what it orbits — true of the Moon and Earth." },
+    { "term": "Waxing", "conceptId": "moon-phase-geometry", "definition": "A phase in which the lit fraction of the Moon visible from Earth is growing, on the way to Full Moon." },
+    { "term": "Waning", "conceptId": "moon-phase-geometry", "definition": "A phase in which the lit fraction of the Moon visible from Earth is shrinking, on the way to New Moon." },
+    { "term": "Illumination", "conceptId": "moon-phase-geometry", "definition": "The fraction of the Moon's visible disc that is lit by the Sun at a given moment, from 0 (New) to 1 (Full)." }
+  ]
+}

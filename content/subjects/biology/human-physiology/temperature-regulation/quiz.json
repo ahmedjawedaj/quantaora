@@ -1,0 +1,80 @@
+{
+  "componentId": "temperature-regulation",
+  "questions": [
+    {
+      "id": "temp-reg-q-hypothalamus",
+      "conceptId": "hypothalamus-senses-temperature",
+      "hotspotId": "hs-hypothalamus",
+      "prompt": "Which part of the body acts as the main \"thermostat\" that senses temperature and triggers a response?",
+      "options": [
+        "The hypothalamus",
+        "The heart",
+        "The skin",
+        "The lungs"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hypothalamus, located at the base of the brain, constantly monitors blood temperature and sends out signals to trigger cooling or warming responses, much like a thermostat controls a heater or air conditioner.",
+      "misconception": "A common mix-up is thinking the skin is the main control center just because it's where sweating and flushing happen — but the skin only carries out the response; it's the hypothalamus that senses the change and decides what to do."
+    },
+    {
+      "id": "temp-reg-q-vasodilation",
+      "conceptId": "sweating-vasodilation-cooling",
+      "hotspotId": "hs-cooling-response",
+      "prompt": "When you get too hot, what happens to the blood vessels near your skin?",
+      "options": [
+        "They widen (vasodilation)",
+        "They narrow (vasoconstriction)",
+        "They disappear temporarily",
+        "They fill with sweat"
+      ],
+      "correctIndex": 0,
+      "explanation": "When you're overheated, blood vessels near the skin widen (vasodilation), bringing more warm blood close to the surface so heat can radiate away into the air, which is also why your skin can look flushed or red when you're hot.",
+      "misconception": "Some learners assume the blood vessels narrow when hot because they associate 'protecting' the body with closing things off — but narrowing (vasoconstriction) is actually the cold-weather response used to trap heat inside, the opposite of what happens when you're overheated."
+    },
+    {
+      "id": "temp-reg-q-sweating",
+      "conceptId": "sweating-vasodilation-cooling",
+      "hotspotId": "hs-cooling-response",
+      "prompt": "Why does sweating help cool your body down?",
+      "options": [
+        "Sweat evaporating off your skin carries heat away with it",
+        "Sweat directly lowers your blood temperature by mixing with it",
+        "Sweat blocks sunlight from reaching your skin",
+        "Sweat makes your muscles work less hard"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sweat is mostly water, and when it evaporates from your skin, it uses energy in the form of heat pulled from your body, which cools your skin and the blood flowing beneath it.",
+      "misconception": "A common misconception is that sweat itself is what's 'hot' and simply washes heat away like rinsing something off — but it's specifically the evaporation process that removes heat energy; sweat that drips off without evaporating (like on a very humid day) provides far less cooling."
+    },
+    {
+      "id": "temp-reg-q-shivering",
+      "conceptId": "shivering-vasoconstriction-warming",
+      "hotspotId": "hs-warming-response",
+      "prompt": "Why does your body shiver when you're cold?",
+      "options": [
+        "Rapid muscle contractions generate heat as a byproduct",
+        "Shivering directly widens your blood vessels",
+        "Shivering stops your hypothalamus from working",
+        "Shivering releases sweat to trap warmth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shivering is fast, repeated contraction of skeletal muscles. Muscle activity always produces some heat as a byproduct of using energy, and shivering deliberately increases this muscle activity to generate extra warmth.",
+      "misconception": "Some learners think shivering is just an involuntary 'shaking from fear of the cold' with no real purpose, rather than understanding it as a deliberate, controlled response the hypothalamus triggers specifically to produce heat."
+    },
+    {
+      "id": "temp-reg-q-homeostasis",
+      "conceptId": "homeostasis-maintained",
+      "hotspotId": "hs-homeostasis",
+      "prompt": "What is the best definition of \"homeostasis\" as it relates to temperature regulation?",
+      "options": [
+        "The body's process of keeping internal conditions like temperature stable despite outside changes",
+        "The exact number for normal human body temperature",
+        "The process of sweating specifically",
+        "A disease caused by extreme temperatures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Homeostasis is the broader concept — the body's ongoing effort to keep internal conditions (temperature, but also things like blood sugar and water levels) steady and balanced, even as the external environment or internal activity changes.",
+      "misconception": "Learners sometimes confuse homeostasis with a single fixed number (like '37°C') rather than understanding it as an active, ongoing balancing process — the target temperature is just the set point the system works to maintain, not homeostasis itself."
+    }
+  ]
+}

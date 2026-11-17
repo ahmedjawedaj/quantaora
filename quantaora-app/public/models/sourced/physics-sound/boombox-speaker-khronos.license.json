@@ -1,0 +1,33 @@
+{
+  "asset": "boombox-speaker-khronos.glb",
+  "component": "Sound > Volume / speaker source",
+  "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/BoomBox",
+  "downloadUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/BoomBox/glTF-Binary/BoomBox.glb",
+  "provider": "Khronos glTF Sample Models",
+  "creator": "Microsoft",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Optional credit: Boom Box, Microsoft / Khronos glTF Sample Models, CC0.",
+  "redistributionStatus": "Freely redistributable as a CC0 GLB sample asset.",
+  "dateSourced": "2026-09-08",
+  "fileSizeBytes": 10945640,
+  "sha256": "84c32a396684d0b329bbe60428f5cb89c5f447356ccf359b0374856653eca331",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 1,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 4,
+    "imageCount": 4,
+    "embeddedImages": 4,
+    "externalUriImages": 0,
+    "animationCount": 0,
+    "hasBinChunk": true,
+    "approxDimensions": [0.0198, 0.0195, 0.0202]
+  },
+  "notes": "Real textured boombox/speaker asset used to make Sound > Volume visibly about a physical speaker, not only a symbolic wave apparatus. The source scale is tiny, so GenericModel normalizes it for the lab canvas."
+}

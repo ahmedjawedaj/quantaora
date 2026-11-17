@@ -1,0 +1,103 @@
+{
+  "id": "distance-from-sun-timeline",
+  "subject": "space",
+  "title": "Distance From Sun Timeline",
+  "summary": "Press play and walk from the Sun to Neptune, world by world. The timeline lays out each planet at its real relative distance — Mercury just 0.4 AU out, Jupiter 5 AU, Neptune 30 — with an AU ruler and a light-time counter running the whole journey: sunlight's trip from the Sun to each planet's position.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "planets-in-order-from-sun",
+    "au-distances-mapped-timeline",
+    "neptune-farthest-planet",
+    "mars-to-jupiter-gap",
+    "light-time-along-timeline"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Solar System",
+    "unit": "Sun and Planets",
+    "systemOrGroup": "Planets (distance order)",
+    "component": "Distance From Sun Timeline",
+    "displayPath": "Space > Solar System > Sun and Planets > Planets (distance order) > Distance From Sun Timeline"
+  },
+  "crossReferences": [
+    {
+      "label": "Solar System Scale (Solar System)",
+      "branch": "solar-system",
+      "component": "Solar system scale",
+      "note": "This timeline lays the planets out at their relative distances the same way the Scale component's true-distance mode does — the timeline adds the order and the labels."
+    },
+    {
+      "label": "Orbit Simulator (Solar System)",
+      "branch": "solar-system",
+      "component": "Orbit simulator",
+      "note": "The distances on the timeline are the radii of the simulator's rings; the year length at each stop is the simulator's clock."
+    },
+    {
+      "label": "Revolution (Earth in Space)",
+      "branch": "earth-in-space",
+      "component": "Revolution",
+      "note": "Earth sits at the 1 AU mark on this timeline — the same distance the Earth in Space branch's Orbit component draws Earth's yearly path at."
+    }
+  ],
+  "belongsTo": "Solar System > Sun and Planets > Planets (distance order)",
+  "compareCandidate": {
+    "label": "Inner solar system walk vs. outer solar system walk",
+    "description": "From the Sun to Mars is about 1.5 AU — four planets packed into a short walk ending at the asteroid belt. From Jupiter to Neptune is four more planets stretched across about 25 AU. The inner solar system is a city block; the outer solar system is the whole city."
+  },
+  "parts": [
+    "The Sun (start point)",
+    "Eight planet stops in order",
+    "The AU ruler along the line",
+    "Light-time counter",
+    "The inner/outer boundary marker (asteroid belt)"
+  ],
+  "processes": [
+    "Ordering planets by distance from the Sun",
+    "Reading distances in AU along one ruler",
+    "Light travel time as a distance feeler",
+    "The asteroid belt as the inner/outer divide"
+  ],
+  "plainLanguageExplanation": "The distance-from-Sun timeline is a one-way street: start at the Sun and walk outward, planet by planet, keeping every distance honest. Mercury is 0.39 AU — barely a step. Venus 0.72, Earth 1 AU, Mars 1.52 — and then the street opens up: 2.2 to 3.3 AU is the asteroid belt, Jupiter sits at 5.2, Saturn 9.6, Uranus 19.2, and Neptune at the very end at 30 AU. Two big patterns show up along the walk. First, the planets get farther apart the farther out you go — the gaps grow like the rungs of a widening ladder. Second, sunlight has to travel the whole road: 3 minutes to Mercury's position, 8 minutes to Earth, 43 minutes to Jupiter, and over 4 hours to Neptune. The timeline includes a light-time counter that ticks as you walk, turning the ruler into a clock so the emptiness at the far end stops being an abstract number.",
+  "keyFacts": [
+    {
+      "label": "The order",
+      "value": "Mercury 0.39 AU → Venus 0.72 → Earth 1 → Mars 1.52 → asteroid belt → Jupiter 5.2 → Saturn 9.6 → Uranus 19.2 → Neptune 30"
+    },
+    {
+      "label": "Why the order matters",
+      "value": "Every planet's year and climate basics follow directly from where it stands on this line"
+    },
+    {
+      "label": "The gap",
+      "value": "From the Sun to Mars is ~1.5 AU; from Mars to Jupiter is ~3.7 AU — a gap wider than the entire inner solar system"
+    },
+    {
+      "label": "Light times",
+      "value": "Sunlight reaches: Mercury ~3 min, Earth ~8 min, Jupiter ~43 min, Neptune ~4-5 hours"
+    },
+    {
+      "label": "Inner vs. outer",
+      "value": "The asteroid belt marks the divide between the compact inner region and the vast outer region"
+    },
+    {
+      "label": "AU ruler",
+      "value": "One continuous ruler from 0 to 30 marks the whole walk, so relative spacing is always visible"
+    }
+  ],
+  "whyItMatters": "Distance from the Sun is the single best predictor of a planet's temperature, its year, and even its family — the inner rocky worlds and outer giants are divided by nothing more than a gap in this timeline. Thinking in terms of the timeline also builds the habit of ordering and scaling that astronomers use constantly: from here, the next question ('how far to the nearest star?') jumps to the light-year, the natural next ruler.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Heliocentric Distance Ordering",
+  "tagline": "One street, eight worlds, thirty AU",
+  "didYouKnow": "The piano-style gap pattern of the timeline — small gaps inside, huge gaps outside — is the same shape that told astronomers where to look for new planets, and it predicted Neptune before anyone saw it.",
+  "compareCandidateId": "solar-system-scale",
+  "compareReason": "The Scale component compares size with distance at once; the timeline strips size away entirely and makes the distance order the whole lesson."
+}

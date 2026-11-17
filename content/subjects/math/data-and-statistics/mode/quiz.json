@@ -1,0 +1,80 @@
+{
+  "componentId": "mode",
+  "questions": [
+    {
+      "id": "mode-def",
+      "conceptId": "mode-definition",
+      "hotspotId": "hs-mode-chip",
+      "prompt": "What is the mode of a dataset?",
+      "options": [
+        "The value that appears most often",
+        "The middle value after sorting",
+        "The total divided by the count",
+        "The largest value"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mode is simply the most frequent value.",
+      "misconception": "The middle value is the median and total ÷ count is the mean — the mode only needs counting."
+    },
+    {
+      "id": "mode-find",
+      "conceptId": "mode-find",
+      "hotspotId": "hs-counter",
+      "prompt": "What is the mode of 4, 2, 4, 7, 4, 9?",
+      "options": [
+        "4",
+        "2",
+        "7",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Count appearances: 4 appears three times — more than any other value.",
+      "misconception": "The mode is about repetition, not the middle (median) or position — 4 simply shows up most."
+    },
+    {
+      "id": "mode-ties",
+      "conceptId": "mode-ties",
+      "hotspotId": "hs-tie-chip",
+      "prompt": "If two values both appear 5 times and everything else fewer, the dataset has...",
+      "options": [
+        "Two modes",
+        "One mode",
+        "No mode",
+        "The mean as mode"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tie at the top gives two modes — a bimodal set.",
+      "misconception": "The tie does not cancel the modes — both top counters win, giving two modes."
+    },
+    {
+      "id": "mode-none",
+      "conceptId": "mode-ties",
+      "hotspotId": "hs-mode-chip",
+      "prompt": "When does a dataset have NO mode?",
+      "options": [
+        "When every value appears equally often",
+        "When it has a valley",
+        "When it's sorted",
+        "When there are two numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "With all values tied in frequency there is no single winner — no mode.",
+      "misconception": "Equal frequencies remove the winner; sorting or how many numbers there are don't."
+    },
+    {
+      "id": "mode-categorical",
+      "conceptId": "mode-categorical",
+      "hotspotId": "hs-mode-chip",
+      "prompt": "Why is the mode special among mean, median, and mode?",
+      "options": [
+        "It works for colors and words, not just numbers",
+        "It always equals the mean",
+        "It needs a calculator",
+        "It ignores the most common value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Counting categories works the same as counting numbers — the mode handles non-numeric data.",
+      "misconception": "Mean and median need numbers; the mode only counts, so it handles categories like colors and words."
+    }
+  ]
+}

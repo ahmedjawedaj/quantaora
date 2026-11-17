@@ -1,0 +1,86 @@
+{
+  "id": "table",
+  "subject": "math",
+  "title": "Table",
+  "summary": "A table organizes data points into rows and columns so they are easy to read, sort, and compare. Explore how tables structure information and feed charts.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "table-definition",
+    "table-rows-columns",
+    "table-read",
+    "table-chart"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Data basics",
+    "systemOrGroup": "Data and statistics",
+    "component": "Table",
+    "displayPath": "Math > Data And Statistics > Data basics > Data and statistics > Table"
+  },
+  "crossReferences": [
+    {
+      "label": "Data point (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Data point",
+      "note": "A table organizes individual data points into a grid."
+    },
+    {
+      "label": "Bar chart (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Bar chart",
+      "note": "A table's numbers are often turned into a bar chart for quick viewing."
+    },
+    {
+      "label": "Mean (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Mean",
+      "note": "Compute the mean by using the numbers read from a table."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Data basics > Data and statistics",
+  "compareCandidate": {
+    "label": "Table vs. bar chart",
+    "description": "A table lists numbers precisely, row by row; a bar chart shows the same numbers as heights you can compare at a glance."
+  },
+  "parts": [
+    "The header row",
+    "Rows",
+    "Columns"
+  ],
+  "processes": [
+    "Reading values from a table",
+    "Sorting a table"
+  ],
+  "plainLanguageExplanation": "A table organizes data points into rows (going across) and columns (going down), with a header that names each column. A class table might have one column for names and one for scores — each row is one student. To read a value, trace down to the right row and across to the right column. Tables make data exact, sortable, and easy to compare, and their numbers often feed straight into charts and statistics.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Data organized into rows and columns" },
+    { "label": "Rows", "value": "Go across — often one item each" },
+    { "label": "Columns", "value": "Go down — one attribute each" },
+    { "label": "Header", "value": "Names the columns" },
+    { "label": "Read it", "value": "Row + column pinpoints a value" },
+    { "label": "To charts", "value": "Table numbers feed charts and statistics" }
+  ],
+  "whyItMatters": "Tables are the standard way the world stores and shares data — from sports stats to nutrition labels to bank statements. Reading a table is a daily life skill.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Table",
+  "tagline": "Data in neat rows and columns",
+  "didYouKnow": "Nutrition labels, bus timetables, and sports scoreboards are all tables — millions of people read tables every day without ever calling them 'data tables'.",
+  "conditions": [
+    "Reading timetables",
+    "Comparing scores",
+    "Organizing surveys",
+    "Building charts"
+  ],
+  "compareCandidateId": "bar-chart",
+  "compareReason": "Students see charts and tables as interchangeable — comparing the exact numbers with the visual heights shows when each shines."
+}

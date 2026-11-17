@@ -1,0 +1,109 @@
+{
+  "id": "balanced-equation",
+  "subject": "chemistry",
+  "title": "Balanced Equation",
+  "summary": "A balanced equation is a chemical equation with equal numbers of each atom on both sides — obeying conservation of mass. It is the precise recipe of a reaction.",
+  "gradeMin": 8,
+  "gradeMax": 10,
+  "skillIds": [
+    "balanced-equal-atoms",
+    "balanced-conservation-of-mass",
+    "balanced-choosing-coefficients"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Chemical Reactions",
+    "unit": "Reading Reactions",
+    "systemOrGroup": "The quantities",
+    "component": "Balanced Equation",
+    "displayPath": "Chemistry > Chemical Reactions > Reading Reactions > The quantities > Balanced Equation"
+  },
+  "crossReferences": [
+    {
+      "label": "Coefficient (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Coefficient",
+      "note": "Coefficients are the numbers you adjust to balance an equation — the tool for the job."
+    },
+    {
+      "label": "Conservation of mass (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Conservation of mass",
+      "note": "A balanced equation is the written form of conservation of mass — equal atoms on both sides."
+    },
+    {
+      "label": "Reactant (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Reactant",
+      "note": "Reactants sit on the left of the balanced equation, matched atom-for-atom by the products."
+    },
+    {
+      "label": "Product (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Product",
+      "note": "Products sit on the right of the balanced equation, carrying exactly the reactant atoms."
+    }
+  ],
+  "belongsTo": "Chemical Reactions > Reading Reactions > The quantities",
+  "compareCandidate": {
+    "label": "Balanced vs. unbalanced equation",
+    "description": "A balanced equation shows equal atoms on both sides — it matches reality. An unbalanced equation has mismatched atoms, pretending atoms appear or vanish. Balancing fixes the count, not the substances."
+  },
+  "parts": [
+    "Equal atoms on both sides",
+    "The written form of conservation of mass",
+    "Made by choosing coefficients"
+  ],
+  "processes": [
+    "Counting atoms on each side",
+    "Adjusting coefficients until the sides match",
+    "Producing a precise, true recipe"
+  ],
+  "plainLanguageExplanation": "A balanced equation is a chemical equation in which the number of each kind of atom is the same on both sides of the arrow. Look at 2H₂ + O₂ → 2H₂O. Left side: the 2 in front of H₂ means two H₂ units, so 4 hydrogens; plus O₂ gives 2 oxygens. Right side: 2H₂O means two water molecules — 4 hydrogens and 2 oxygens. Every atom matches. Balanced. Why does this matter? Because reactions obey conservation of mass — atoms are never created or destroyed. An equation with mismatched atoms would be describing something impossible. Balancing is done by adjusting the coefficients — the numbers in front of the formulas — never by changing the subscripts inside the formulas. Changing a subscript would change the substance itself. So the recipe is: count the atoms, then tune the coefficients until both sides match. A balanced equation is a true recipe — it tells you exactly how much of each substance reacts and forms.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "An equation with equal numbers of each atom on both sides"
+    },
+    {
+      "label": "Why it's needed",
+      "value": "Reactions obey conservation of mass — atoms can't appear or vanish"
+    },
+    {
+      "label": "How you fix it",
+      "value": "Adjust the coefficients — never the subscripts"
+    },
+    {
+      "label": "Never change subscripts",
+      "value": "Subscripts define the substance — changing them changes the chemical"
+    },
+    {
+      "label": "Example",
+      "value": "2H₂ + O₂ → 2H₂O — 4 H and 2 O on both sides"
+    },
+    {
+      "label": "What it gives you",
+      "value": "The exact proportions of a reaction — a true recipe"
+    }
+  ],
+  "whyItMatters": "Balancing equations is the central skill of chemistry — it is how chemists write reactions truthfully, predict quantities, and respect the law of conservation of mass. A balanced equation is the difference between a correct recipe and a fictional one.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Balanced chemical equation",
+  "tagline": "The true recipe of a reaction",
+  "didYouKnow": "The phrase 'atoms are conserved' means a properly balanced equation is like an accounting sheet — every atom that goes in on the left is accounted for on the right, nothing lost, nothing invented.",
+  "conditions": [
+    "Writing reactions",
+    "Predicting amounts",
+    "Respecting conservation of mass"
+  ],
+  "compareCandidateId": "conservation-of-mass",
+  "compareReason": "Balancing is the skill and conservation of mass is the law it obeys — comparing them shows why the written equation must always match reality."
+}

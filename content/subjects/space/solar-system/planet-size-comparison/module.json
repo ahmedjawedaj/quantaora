@@ -1,0 +1,103 @@
+{
+  "id": "planet-size-comparison",
+  "subject": "space",
+  "title": "Planet Size Comparison",
+  "summary": "Line the planets up as spheres at one scale and the size story writes itself: Jupiter is 11 Earths wide and could swallow over 1,300 Earths by volume, Saturn is 9, the ice giants 4, and Mercury is barely half Earth's width. Add the Sun and it dwarfs them all at 109 Earths across.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "jupiter-largest-planet",
+    "mercury-smallest-planet",
+    "sun-dwarfs-all-planets",
+    "volume-grows-with-cube",
+    "size-comparison-at-one-scale"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Solar System",
+    "unit": "Sun and Planets",
+    "systemOrGroup": "Planets (size comparison)",
+    "component": "Planet Size Comparison",
+    "displayPath": "Space > Solar System > Sun and Planets > Planets (size comparison) > Planet Size Comparison"
+  },
+  "crossReferences": [
+    {
+      "label": "Solar System Scale (Solar System)",
+      "branch": "solar-system",
+      "component": "Solar system scale",
+      "note": "This component lines the worlds up by size; the Solar System Scale component keeps those sizes honest against the vast distances that separate them."
+    },
+    {
+      "label": "Planet Cards (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet cards",
+      "note": "The radius row on every card (0.38 ×, 1 ×, 11 × …) is drawn as a real sphere in this component."
+    },
+    {
+      "label": "Gravity Comparison (Solar System)",
+      "branch": "solar-system",
+      "component": "Gravity comparison",
+      "note": "Jupiter is the biggest AND the strongest-gravity planet — comparing the two components shows size and gravity usually travel together, with Saturn as the exception."
+    }
+  ],
+  "belongsTo": "Solar System > Sun and Planets > Planets (size comparison)",
+  "compareCandidate": {
+    "label": "Jupiter vs. Mercury",
+    "description": "Jupiter is the largest planet and Mercury the smallest. If you lined up 30 Mercurys end to end they would barely reach across Jupiter — and by volume, about 24,000 Mercurys would fit inside Jupiter. The solar system's planet sizes span an enormous range."
+  },
+  "parts": [
+    "Eight planet spheres at one scale",
+    "The Sun added at the same scale",
+    "Per-sphere radius labels (× Earth)",
+    "Volume fill toggle (Jupiter + Earth)",
+    "Earth reference sphere"
+  ],
+  "processes": [
+    "Comparing radii at one consistent scale",
+    "How volume grows with the cube of radius",
+    "Reading size labels in Earth-multiples",
+    "Appreciating the Sun's place in the family"
+  ],
+  "plainLanguageExplanation": "If you line up all eight planets next to each other at the same scale, you can finally see the size story that photos hide. Earth sits in the middle of the pack — about 12,700 km across. Mercury, the smallest planet, is barely more than half that. Mars is about half of Earth, Venus almost a twin. Then come the giants: Neptune and Uranus about 4 Earths wide, Saturn 9, and Jupiter a giant 11 Earths wide. Because spheres hold volume by radius cubed, Jupiter doesn't hold 11 times as much 'stuff' as Earth — it holds more than 1,300 times as much. And the Sun makes the whole lineup look small: it is 109 Earths across, so more than a million Earths could fit inside it. This component's model lines the spheres up on a shelf, labels each one in Earths, and has a special toggle that drops little Earth-sized spheres into Jupiter so the volume jump becomes visible.",
+  "keyFacts": [
+    {
+      "label": "Largest planet",
+      "value": "Jupiter — radius about 11 × Earth's, over 1,300 Earths by volume"
+    },
+    {
+      "label": "Smallest planet",
+      "value": "Mercury — radius about 0.38 × Earth's"
+    },
+    {
+      "label": "The giants",
+      "value": "Saturn ~9 ×, Uranus and Neptune ~4 × Earth's radius"
+    },
+    {
+      "label": "Earth's closest match",
+      "value": "Venus — about 0.95 × Earth's radius, often called Earth's twin by size"
+    },
+    {
+      "label": "The Sun",
+      "value": "About 109 Earths across — more than a million Earths by volume"
+    },
+    {
+      "label": "Radius vs. volume",
+      "value": "Volume grows as the cube of radius: 11 × the radius means over 1,300 × the volume"
+    }
+  ],
+  "whyItMatters": "Size decides almost everything about a planet — how much material it holds, how strong its gravity is, what its interior pressure is like, and whether it can hold an atmosphere. The radius-to-volume jump also teaches a genuinely important math idea: doubling a sphere's size means eight times the material. When scientists compare exoplanets to Earth, this is the first calculation they make — and it is the same math behind 'one balloon has eight times the air of a half-size balloon.'",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Relative Planetary Radii",
+  "tagline": "One shelf, one scale, all eight worlds",
+  "didYouKnow": "If Earth were the size of a marble, Jupiter would be the size of a basketball, and the Sun would be a giant sphere about 11 metres across.",
+  "compareCandidateId": "solar-system-scale",
+  "compareReason": "This component shows how big the planets are relative to each other; the Scale component shows how far apart the same planets are — size and distance are the two numbers every planet model must get right."
+}

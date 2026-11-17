@@ -1,0 +1,80 @@
+{
+  "componentId": "liver",
+  "questions": [
+    {
+      "id": "liv-q-factory",
+      "conceptId": "liver-500-jobs",
+      "hotspotId": "hs-cells",
+      "prompt": "Why is the liver called the body's chemical factory?",
+      "options": [
+        "It does hundreds of jobs like processing, storing, and cleaning",
+        "It makes blood cells",
+        "It pumps blood",
+        "It stores air"
+      ],
+      "correctIndex": 0,
+      "explanation": "The liver processes nutrients, makes bile, stores energy, and filters blood - more than 500 jobs in all.",
+      "misconception": "Blood cells are made in bone marrow and pumping is the heart's job - the liver is a processing factory."
+    },
+    {
+      "id": "liv-q-bile",
+      "conceptId": "bile-fat-digestion",
+      "hotspotId": "hs-bile",
+      "prompt": "What does the liver make that helps digest fats?",
+      "options": [
+        "Bile",
+        "Urine",
+        "Saliva",
+        "Insulin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The liver makes bile, a liquid stored in the gallbladder and released into the small intestine to help break down fats.",
+      "misconception": "Saliva is made in the mouth and insulin by the pancreas - the liver's fat-digesting helper is bile."
+    },
+    {
+      "id": "liv-q-filter",
+      "conceptId": "detox-and-filter",
+      "hotspotId": "hs-filter",
+      "prompt": "What does the liver do with harmful substances in the blood?",
+      "options": [
+        "It filters and removes them",
+        "It stores them forever",
+        "It turns them into bone",
+        "It ignores them"
+      ],
+      "correctIndex": 0,
+      "explanation": "The liver filters the blood, breaking down and removing harmful substances like alcohol and used-up chemicals.",
+      "misconception": "The liver doesn't store or ignore toxins - its job is to break them down and clear them."
+    },
+    {
+      "id": "liv-q-storage",
+      "conceptId": "nutrient-storage",
+      "hotspotId": "hs-lobes",
+      "prompt": "What does the liver store to use later?",
+      "options": [
+        "Sugar and vitamins",
+        "Urine",
+        "Bones",
+        "Oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "The liver stores sugar as a reserve and stores vitamins, releasing them when the body needs them.",
+      "misconception": "Urine is stored in the bladder and oxygen in the lungs - the liver stores energy and vitamins."
+    },
+    {
+      "id": "liv-q-regrow",
+      "conceptId": "liver-500-jobs",
+      "hotspotId": "hs-lobes",
+      "prompt": "What is special about the liver compared with most organs?",
+      "options": [
+        "It can regrow to nearly full size",
+        "It never needs blood",
+        "It is made of bone",
+        "It is outside the body"
+      ],
+      "correctIndex": 0,
+      "explanation": "The liver is remarkable at regrowing - it can rebuild itself after part is removed.",
+      "misconception": "The liver definitely needs blood (it filters it!), and it is inside the body - its special power is regrowth."
+    }
+  ]
+}

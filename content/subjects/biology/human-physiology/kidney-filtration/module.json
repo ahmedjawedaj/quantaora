@@ -1,0 +1,117 @@
+{
+  "id": "kidney-filtration",
+  "subject": "biology",
+  "title": "Filtration by Kidneys",
+  "summary": "The kidneys filter roughly 180 liters of blood plasma a day through about a million microscopic nephrons — pulling out water, salts, and waste, then reabsorbing almost everything the body still needs and sending the leftover waste out as urine. Trace a drop of blood from the renal artery through a nephron and out the ureter.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "blood-enters-kidney",
+    "nephron-filters-waste",
+    "reabsorption-of-needed-substances",
+    "urine-formation",
+    "waste-exits-via-ureter"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Body Processes",
+    "systemOrGroup": "Filtration by kidneys",
+    "component": "Filtration by Kidneys",
+    "displayPath": "Biology > Human Physiology > Filtration by Kidneys"
+  },
+  "crossReferences": [
+    {
+      "label": "Kidneys (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Urinary system",
+      "note": "This component's whole-organ layer and cross-section (cortex, medulla, renal pyramids, calyces, renal pelvis) are the same kidney structure covered as an organ in the Human Anatomy branch's Urinary system unit; this component focuses on the filtering process happening inside it, down to the nephron."
+    },
+    {
+      "label": "Bladder – Urine Storage (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Urinary system",
+      "note": "Urine leaving the kidney through the ureter (the final hotspot in this component) travels next to the bladder, where it is stored — covered as its own organ component in Human Anatomy."
+    },
+    {
+      "label": "Circulatory System — Blood Flow (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Blood circulation",
+      "note": "The renal artery and renal vein that carry blood into and out of the kidney are part of the wider circulatory loop covered in the Blood Circulation process component."
+    },
+    {
+      "label": "Liver — Detoxification (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Liver detoxification",
+      "note": "The liver is this component's compare candidate: both organs clean the blood, but the liver chemically breaks down toxins while the kidney physically filters blood under pressure."
+    }
+  ],
+  "belongsTo": "Human Physiology > Body Processes > Filtration by Kidneys",
+  "compareCandidate": {
+    "label": "Filtration by Kidneys vs. Liver Detoxification",
+    "description": "Both organs clean the blood, but the liver breaks down toxins and drugs chemically and sends waste out through bile and digestion, while the kidney physically filters blood under pressure and removes waste through urine — two different cleanup strategies the body uses side by side."
+  },
+  "parts": [
+    "Blood enters kidney",
+    "Nephron filters waste",
+    "Reabsorption of needed substances",
+    "Urine formation",
+    "Waste exits via ureter"
+  ],
+  "processes": [
+    "Filtration",
+    "Reabsorption",
+    "Secretion",
+    "Urine formation",
+    "Excretion"
+  ],
+  "plainLanguageExplanation": "Think of your kidneys as two bean-shaped recycling centers, one on each side of your lower back, each about the size of your fist. Every minute, blood flows into them through a big blood vessel. Inside each kidney are about a million tiny filtering units called nephrons — so small you'd need a microscope to see one, but together they do an enormous job. Each nephron works like a super-fine coffee filter: blood pressure pushes fluid out of tiny blood vessels into a cup-shaped filter, which catches water, salts, and waste products like urea (a leftover from your body breaking down protein) while keeping blood cells and important proteins inside the blood. But here's the clever part — the kidney doesn't just dump all that filtered fluid out. As the filtered fluid travels through a long, winding tube, the nephron pulls back almost all the water, sugar, and salts your body still needs and returns them to the blood. This is called reabsorption. What's left behind — the waste and extra water your body doesn't need — becomes urine. That urine drips down a tube called the ureter into your bladder, where it's stored until you go to the bathroom. Your kidneys repeat this filter-and-reabsorb cycle on your entire blood supply many times a day, which is how they keep your blood chemistry balanced without you ever having to think about it.",
+  "keyFacts": [
+    {
+      "label": "Number of kidneys",
+      "value": "2 (one on each side of the lower back, below the ribs)"
+    },
+    {
+      "label": "Shape",
+      "value": "Bean-shaped, roughly the size of a closed fist"
+    },
+    {
+      "label": "Filtering units per kidney",
+      "value": "About 1 million nephrons"
+    },
+    {
+      "label": "Fluid filtered per day",
+      "value": "Roughly 180 liters of blood plasma is filtered daily, but only about 1–2 liters leaves the body as urine — the rest is reabsorbed back into the blood"
+    },
+    {
+      "label": "Main waste removed",
+      "value": "Urea, a byproduct made when the body breaks down protein"
+    },
+    {
+      "label": "Exit pathway",
+      "value": "Urine travels from each kidney through a tube called the ureter to the bladder, then out through the urethra"
+    }
+  ],
+  "whyItMatters": "Every cell in your body makes waste as it works, just like a factory makes trash while it builds things. That waste has to go somewhere, or it builds up and starts poisoning the body. Kidneys are the cleanup crew that constantly pulls that waste out of the blood while carefully saving the water, salts, and nutrients the body still needs — which is why doctors check kidney health through blood and urine tests, and why people whose kidneys stop working need dialysis (a machine that filters their blood artificially) or a kidney transplant to survive. Understanding filtration also explains everyday things: why you need to drink water, why urine color changes with hydration, and why some medicines and diseases are hard on the kidneys.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Renal Filtration",
+  "tagline": "The body's fine-tuned filter",
+  "didYouKnow": "Real nephrons are microscopic — about a million per kidney — so the diagram shows one blown up to a visible size, the same way a textbook exploded-view diagram would.",
+  "conditions": [
+    "Kidney stones",
+    "Chronic kidney disease",
+    "Urinary tract infection",
+    "Dehydration",
+    "Nephrotic syndrome"
+  ],
+  "compareCandidateId": "liver",
+  "compareReason": "Both organs clean the blood, but the liver breaks down toxins and drugs chemically and sends waste out through bile and digestion, while the kidney physically filters blood under pressure and removes waste through urine — two different cleanup strategies the body uses side by side."
+}

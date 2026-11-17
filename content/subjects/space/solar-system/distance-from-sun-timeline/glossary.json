@@ -1,0 +1,60 @@
+{
+  "componentId": "distance-from-sun-timeline",
+  "terms": [
+    {
+      "term": "Distance order",
+      "conceptId": "planets-in-order-from-sun",
+      "hotspotId": "hs-earth-mark",
+      "definition": "The order of the planets by distance from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+      "function": "Sets the timeline road's structure — every stop follows this order, and every orbit/trivia fact follows the order too.",
+      "whereItIs": "The sequence of planet spheres standing on the road.",
+      "whyItMatters": "Distance order is the default mental axis of the whole solar system: planets, missions, images, and temperatures all follow it.",
+      "relatedConcept": "au-distances-mapped-timeline",
+      "quizId": "dtimeline-q-order"
+    },
+    {
+      "term": "AU (astronomical unit)",
+      "conceptId": "au-distances-mapped-timeline",
+      "hotspotId": "hs-au-ruler",
+      "definition": "The average Sun–Earth distance, about 150 million km — the ruler this timeline is drawn in.",
+      "function": "Lets the whole road use one readable scale, from 0 at the Sun to 30 at Neptune.",
+      "whereItIs": "The thin ruler band floating the length of the road.",
+      "whyItMatters": "Without the AU, distances collapse into unreadable numbers — with it, every step reads in understandable multiples.",
+      "relatedConcept": "planets-in-order-from-sun",
+      "quizId": "dtimeline-q-order"
+    },
+    {
+      "term": "Light travel time",
+      "conceptId": "light-time-along-timeline",
+      "hotspotId": "hs-au-ruler",
+      "definition": "How long sunlight takes to reach each planet's position along the road.",
+      "function": "Turns the ruler into a clock: about 3 minutes to Mercury, 8 to Earth, 43 to Jupiter, and over 4 hours to Neptune.",
+      "whereItIs": "The traveling light counter panel that moves along the ruler when played.",
+      "whyItMatters": "Light time is the human feel for cosmic distance — minutes along this road become years between the stars.",
+      "relatedConcept": "au-distances-mapped-timeline",
+      "quizId": "dt5-q-light"
+    },
+    {
+      "term": "The asteroid belt",
+      "conceptId": "mars-to-jupiter-gap",
+      "hotspotId": "hs-asteroid-belt-mark",
+      "definition": "The band of rocky leftovers orbiting between Mars and Jupiter, marking the inner/outer divide.",
+      "function": "Splits the road into two neighborhoods: inside the belt the compact inner planets, outside it the distant giants.",
+      "whereItIs": "The scattered crowd of tiny stone spheres across the road in the belt zone.",
+      "whyItMatters": "The belt sits in the widest empty stretch of the road — the solar system's biggest boundary.",
+      "relatedConcept": "planets-in-order-from-sun",
+      "quizId": "d3-q-belt-gap"
+    },
+    {
+      "term": "Inner and outer solar system",
+      "conceptId": "mars-to-jupiter-gap",
+      "hotspotId": "hs-asteroid-belt-mark",
+      "definition": "The two halves of the timeline separated by the asteroid belt: the inner rocky worlds (Mercury–Mars) and the outer giants (Jupiter–Neptune).",
+      "function": "Groups the planets into families that share size, composition, and spacing.",
+      "whereItIs": "Both halves of the road, divided at the belt band.",
+      "whyItMatters": "Four planets in the first 1.5 AU, four more across the next 28.5 AU — the timeline itself tells the story.",
+      "relatedConcept": "neptune-farthest-planet",
+      "quizId": "dt4-q-farthest"
+    }
+  ]
+}

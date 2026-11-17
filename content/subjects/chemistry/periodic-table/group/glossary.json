@@ -1,0 +1,46 @@
+{
+  "componentId": "group",
+  "terms": [
+    {
+      "term": "Group",
+      "conceptId": "group-is-column",
+      "hotspotId": "hs-group-column",
+      "definition": "A vertical column of the periodic table whose elements share the same number of valence electrons.",
+      "function": "Groups elements that behave alike so their properties can be predicted from their column position.",
+      "whereItIs": "The glowing vertical column of tiles in the model.",
+      "whyItMatters": "The group number is one of the quickest predictions of an element's behavior in all of chemistry.",
+      "relatedConcept": "group-shares-valence-electrons",
+      "quizId": "group-q-column"
+    },
+    {
+      "term": "Valence electrons",
+      "conceptId": "group-shares-valence-electrons",
+      "hotspotId": "hs-group-valence",
+      "definition": "The electrons in the outermost shell of an atom — the ones that control bonding.",
+      "function": "Decide how many bonds an atom forms and how reactive it is; shared down each group.",
+      "whereItIs": "The small shells shown beside each tile in the valence-highlight layer.",
+      "whyItMatters": "Shared valence electrons are the reason elements in a column behave alike.",
+      "relatedConcept": "group-elements-behave-alike",
+      "quizId": "group-q-valence"
+    },
+    {
+      "term": "Alkali metals",
+      "conceptId": "group-elements-behave-alike",
+      "definition": "The elements of Group 1 — soft, shiny metals with one valence electron, known for high reactivity.",
+      "function": "React readily because each atom wants to shed its single outer electron.",
+      "whereItIs": "The first column of the periodic table.",
+      "whyItMatters": "They are the textbook example of a group whose members all behave alike.",
+      "relatedConcept": "group-shares-valence-electrons"
+    },
+    {
+      "term": "Noble gases",
+      "conceptId": "group-elements-behave-alike",
+      "definition": "The elements of Group 18 — gases with full outer shells that almost never react.",
+      "function": "Remain unreactive because their full shells leave no need to gain or lose electrons.",
+      "whereItIs": "The last column of the periodic table.",
+      "whyItMatters": "They show the other extreme of group behavior — the calm mirror of the reactive alkali metals.",
+      "relatedConcept": "group-elements-behave-alike",
+      "quizId": "group-q-18"
+    }
+  ]
+}

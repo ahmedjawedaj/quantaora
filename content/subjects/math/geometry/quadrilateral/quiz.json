@@ -1,0 +1,80 @@
+{
+  "componentId": "quadrilateral",
+  "questions": [
+    {
+      "id": "quad-def",
+      "conceptId": "quadrilateral-definition",
+      "hotspotId": "hs-quad-plate",
+      "prompt": "What is a quadrilateral?",
+      "options": [
+        "A closed shape with 4 straight sides",
+        "A closed shape with 3 straight sides",
+        "A shape with 5 sides",
+        "Two rays sharing an endpoint"
+      ],
+      "correctIndex": 0,
+      "explanation": "A quadrilateral is any closed four-sided figure.",
+      "misconception": "Three sides make a triangle and five make a pentagon — 'quad' means four, so exactly four sides."
+    },
+    {
+      "id": "quad-360",
+      "conceptId": "quadrilateral-360",
+      "hotspotId": "hs-corner",
+      "prompt": "The four angles of any quadrilateral add up to...",
+      "options": [
+        "360°",
+        "180°",
+        "90°",
+        "540°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Split a quadrilateral along a diagonal and you get two triangles, each 180° — total 360°.",
+      "misconception": "A triangle sums to 180° and a single corner is 90° — the four-sided total is always 360°."
+    },
+    {
+      "id": "quad-family",
+      "conceptId": "quadrilateral-family",
+      "hotspotId": "hs-quad-plate",
+      "prompt": "Which has four equal sides AND four right angles?",
+      "options": [
+        "A square",
+        "A rhombus",
+        "A trapezoid",
+        "A parallelogram"
+      ],
+      "correctIndex": 0,
+      "explanation": "A square is the member with both equal sides and right angles.",
+      "misconception": "A rhombus has equal sides but can lean; a trapezoid only needs one pair of parallels — the square is the strict full package."
+    },
+    {
+      "id": "quad-flex",
+      "conceptId": "quadrilateral-flex",
+      "hotspotId": "hs-quad-plate",
+      "prompt": "When you push a square frame sideways, it becomes...",
+      "options": [
+        "A rhombus",
+        "A triangle",
+        "A circle",
+        "A pentagon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pushing a square flexes it into a leaning rhombus — four equal sides, tilted corners.",
+      "misconception": "Flexing changes the angles, not the side count or type — the four equal sides remain, becoming a rhombus."
+    },
+    {
+      "id": "quad-brace",
+      "conceptId": "quadrilateral-flex",
+      "hotspotId": "hs-quad-plate",
+      "prompt": "Why does adding a diagonal brace stiffen a rectangular frame?",
+      "options": [
+        "It splits the frame into two rigid triangles",
+        "It makes the frame heavier",
+        "It shortens the sides",
+        "It paints the frame"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagonal divides the quadrilateral into two triangles, and triangles cannot flex.",
+      "misconception": "Stiffening is about geometry, not weight or length — the diagonal's triangles lock every angle in place."
+    }
+  ]
+}

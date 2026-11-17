@@ -1,0 +1,95 @@
+{
+  "id": "predator",
+  "subject": "biology",
+  "title": "Predator",
+  "summary": "A predator is an animal that hunts, catches, and eats other animals for food. Explore what makes a great hunter and why predators matter to the balance of an ecosystem.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "hunts-and-eats",
+    "hunting-adaptations",
+    "keeps-prey-in-check",
+    "predator-prey-balance"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Predator",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Predator"
+  },
+  "crossReferences": [
+    {
+      "label": "Prey (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Prey",
+      "note": "Predators hunt prey - the animals they catch and eat. The two are locked in a constant race."
+    },
+    {
+      "label": "Consumer (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Consumer",
+      "note": "Predators are consumers - they eat other animals, so most are carnivores."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Predator",
+  "compareCandidate": {
+    "label": "Predator vs. prey",
+    "description": "A predator hunts and eats other animals. Prey is the animal being hunted and eaten. The same species can be both - a fox is a predator to a rabbit but prey to a wolf."
+  },
+  "parts": [
+    "Speed",
+    "Sharp senses",
+    "Claws",
+    "Hunting instinct"
+  ],
+  "processes": [
+    "Hunting for food",
+    "Using sharp senses and speed",
+    "Keeping prey balanced"
+  ],
+  "plainLanguageExplanation": "A predator is an animal that hunts and eats other animals. Predators come in many forms - a lion, an eagle, a wolf, or a dragonfly all hunt for their food. To be good hunters, predators are often equipped with speed, sharp senses, sharp teeth or claws, and good camouflage. Predators matter to an ecosystem because they keep prey populations in check - without predators, prey numbers can grow too high and damage their own food supply. Predators and prey exist in a constant race of better hunting against better escaping.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "An animal that hunts and eats other animals"
+    },
+    {
+      "label": "Examples",
+      "value": "Lions, eagles, wolves, dragonflies"
+    },
+    {
+      "label": "Adaptations",
+      "value": "Speed, sharp senses, claws, camouflage"
+    },
+    {
+      "label": "Role",
+      "value": "Keep prey populations from growing too large"
+    },
+    {
+      "label": "Balance",
+      "value": "Predator and prey are in a constant race of hunt vs. escape"
+    }
+  ],
+  "whyItMatters": "Predators shape the whole ecosystem - by keeping prey numbers in check, they stop one species from using up all the resources. Understanding them explains why top hunters matter far beyond the animals they eat.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "Hunts and eats other animals",
+  "didYouKnow": "A cheetah can accelerate from 0 to 100 km/h in about three seconds - faster than most sports cars - all to catch its prey.",
+  "conditions": [
+    "Losing hunting grounds",
+    "Poison entering the food chain",
+    "Removing predators from an area"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Predator",
+  "plain": "A predator is an animal that hunts and eats other animals. Predators come in many forms - a lion, an eagle, a wolf, or a dragonfly all hunt for their food. To be good hunters, predators are often equipped with speed, sharp senses, sharp teeth or claws, and good camouflage. Predators matter to an ecosystem because they keep prey populations in check - without predators, prey numbers can grow too high and damage their own food supply. Predators and prey exist in a constant race of better hunting against better escaping."
+}

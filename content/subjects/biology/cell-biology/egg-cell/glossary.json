@@ -1,0 +1,45 @@
+{
+  "componentId": "egg-cell",
+  "terms": [
+    {
+      "term": "Ovum",
+      "definition": "The scientific name for an egg cell."
+    },
+    {
+      "term": "Fertilization",
+      "definition": "The moment a sperm cell joins with an egg cell, combining their DNA to start a new organism."
+    },
+    {
+      "term": "Zona pellucida",
+      "definition": "A tough, clear protective coating surrounding the egg cell that sperm must get through to fertilize it.",
+      "conceptId": "zona-pellucida"
+    },
+    {
+      "term": "Cell membrane",
+      "definition": "The thin membrane (also called the oolemma in an egg cell) just inside the zona pellucida that encloses the egg's cytoplasm and controls what passes into and out of the cell.",
+      "conceptId": "cell-membrane"
+    },
+    {
+      "term": "Ovary",
+      "definition": "The organ where egg cells develop and mature."
+    },
+    {
+      "term": "Ovulation",
+      "definition": "The release of a mature egg cell from the ovary."
+    },
+    {
+      "term": "Chromosome",
+      "definition": "A tightly packed thread of DNA that carries genetic instructions; the egg cell carries 23 of them."
+    },
+    {
+      "term": "Cytoplasm",
+      "definition": "The gel-like substance filling a cell, holding its nutrients and structures outside the nucleus.",
+      "conceptId": "cytoplasm-nutrient-rich"
+    },
+    {
+      "term": "Nucleus",
+      "definition": "The egg cell's control center, holding half the genetic material (23 chromosomes) needed to form a new organism once combined with a sperm cell's nucleus.",
+      "conceptId": "nucleus"
+    }
+  ]
+}

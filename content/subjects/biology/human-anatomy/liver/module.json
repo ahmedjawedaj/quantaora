@@ -1,0 +1,105 @@
+{
+  "id": "liver",
+  "subject": "biology",
+  "title": "Liver",
+  "summary": "The liver is the body's largest internal organ and its main chemical factory - it processes nutrients, makes bile to help digest fat, stores energy, and cleans the blood. Explore its many jobs and its special structure.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "liver-500-jobs",
+    "bile-fat-digestion",
+    "detox-and-filter",
+    "nutrient-storage"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Digestive system",
+    "component": "Liver",
+    "displayPath": "Biology > Human Anatomy > Digestive system > Liver"
+  },
+  "crossReferences": [
+    {
+      "label": "Small Intestine (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Small intestine",
+      "note": "The liver sends bile to the small intestine to help digest fats, and it processes the nutrients absorbed there."
+    },
+    {
+      "label": "Digestion (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Digestion",
+      "note": "Bile from the liver is one of the body's digestion helpers, covered in the digestion process."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Digestive system > Liver",
+  "compareCandidate": {
+    "label": "Liver vs. kidney",
+    "description": "Both are filters, but differently. The liver processes what you eat, makes bile, and detoxifies. The kidneys filter blood to make urine and remove wastes and extra water."
+  },
+  "parts": [
+    "Liver lobes",
+    "Bile",
+    "Hepatocytes (liver cells)",
+    "Blood filtering"
+  ],
+  "processes": [
+    "Processing nutrients from digested food",
+    "Making bile to digest fats",
+    "Storing sugar and vitamins",
+    "Filtering harmful substances from blood"
+  ],
+  "plainLanguageExplanation": "The liver is the largest internal organ, sitting under the ribs on the right side. It is a chemical factory with over 500 jobs. It processes the nutrients that come from digested food, makes bile (a liquid that helps break down fats in digestion), stores sugar as a reserve, removes harmful substances (like alcohol and medicines) from the blood, and makes important proteins. Because blood from the digestive system flows through the liver first, the liver gets to process everything you eat. It is made of special cells arranged in neat plates, with blood flowing between them.",
+  "keyFacts": [
+    {
+      "label": "Nickname",
+      "value": "The body's chemical factory"
+    },
+    {
+      "label": "Size",
+      "value": "The largest internal organ"
+    },
+    {
+      "label": "Number of jobs",
+      "value": "More than 500 different jobs"
+    },
+    {
+      "label": "Bile",
+      "value": "Makes bile, a liquid that helps digest fats"
+    },
+    {
+      "label": "Cleaning",
+      "value": "Filters and removes harmful substances from the blood"
+    },
+    {
+      "label": "Storage",
+      "value": "Stores sugar and vitamins for later use"
+    },
+    {
+      "label": "Blood flow",
+      "value": "Blood from the digestive system passes through the liver first"
+    }
+  ],
+  "whyItMatters": "The liver processes everything you eat and drink, cleans the blood, and stores energy. Understanding it shows how your body turns food into useful materials and how it protects itself from harmful substances.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Liver (Hepar)",
+  "tagline": "The body's chemical factory",
+  "didYouKnow": "The liver is the only organ that can regrow - you can remove most of a person's liver and it will grow back to nearly full size.",
+  "conditions": [
+    "Cirrhosis",
+    "Hepatitis",
+    "Fatty liver"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Digestive system > Liver",
+  "plain": "The liver is the largest internal organ, sitting under the ribs on the right side. It is a chemical factory with over 500 jobs. It processes the nutrients that come from digested food, makes bile (a liquid that helps break down fats in digestion), stores sugar as a reserve, removes harmful substances (like alcohol and medicines) from the blood, and makes important proteins. Because blood from the digestive system flows through the liver first, the liver gets to process everything you eat. It is made of special cells arranged in neat plates, with blood flowing between them."
+}

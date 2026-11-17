@@ -1,0 +1,48 @@
+{
+  "componentId": "muscles",
+  "terms": [
+    {
+      "term": "Muscle",
+      "conceptId": "skeletal-smooth-cardiac",
+      "hotspotId": "hs-skeletal",
+      "definition": "A tissue that contracts to create movement.",
+      "function": "Pulls on bones and moves the body.",
+      "whereItIs": "Throughout the body, in three types.",
+      "whyItMatters": "Muscles power every move you make.",
+      "relatedConcept": "contract-pull-bones",
+      "quizId": "mu-q-three"
+    },
+    {
+      "term": "Skeletal muscle",
+      "conceptId": "skeletal-smooth-cardiac",
+      "hotspotId": "hs-skeletal",
+      "definition": "The striated muscle that moves the body on command.",
+      "function": "Moves bones when you decide to move.",
+      "whereItIs": "Attached to bones.",
+      "whyItMatters": "It is the muscle you control.",
+      "relatedConcept": "contract-pull-bones",
+      "quizId": "mu-q-contract"
+    },
+    {
+      "term": "Smooth muscle",
+      "conceptId": "skeletal-smooth-cardiac",
+      "hotspotId": "hs-smooth",
+      "definition": "The automatic muscle lining organs.",
+      "function": "Moves organ contents automatically.",
+      "whereItIs": "In walls of organs like the stomach.",
+      "whyItMatters": "It runs digestion and blood flow without thought.",
+      "relatedConcept": "skeletal-smooth-cardiac"
+    },
+    {
+      "term": "Cardiac muscle",
+      "conceptId": "skeletal-smooth-cardiac",
+      "hotspotId": "hs-cardiac",
+      "definition": "The heart muscle that beats automatically.",
+      "function": "Pumps blood without ever tiring.",
+      "whereItIs": "Only in the heart.",
+      "whyItMatters": "It keeps blood flowing for a lifetime.",
+      "relatedConcept": "contract-pull-bones",
+      "quizId": "mu-q-cardiac"
+    }
+  ]
+}

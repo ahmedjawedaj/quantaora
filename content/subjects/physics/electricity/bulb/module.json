@@ -1,0 +1,89 @@
+{
+  "id": "bulb",
+  "subject": "physics",
+  "title": "Light Bulb",
+  "summary": "A bulb turns electric current into light and heat: current runs up the wires, squeezes through a thin coiled filament that gets white-hot, and glows. In this model a clear bulb shows the filament, the flow of current through it, and the dark interior filling with brightness as the circuit closes.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "bulb-filament-glows",
+    "bulb-current-turns-to-light",
+    "bulb-loop-connection",
+    "bulb-heat-waste"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Components",
+    "systemOrGroup": "Components in a Circuit",
+    "component": "Light Bulb",
+    "displayPath": "Physics > Electricity > Components > Components in a Circuit > Light Bulb"
+  },
+  "crossReferences": [
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "The bulb is where the current pays its toll, converting flow into light."
+    },
+    {
+      "label": "Resistance (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Resistance",
+      "note": "The filament is a deliberate high-resistance wire — that's what makes it glow."
+    },
+    {
+      "label": "Battery (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Battery",
+      "note": "The battery supplies the push that drives current through the filament."
+    }
+  ],
+  "belongsTo": "Electricity > Components > Components in a Circuit",
+  "compareCandidate": {
+    "label": "Glowing filament vs. off bulb",
+    "description": "Closed loop: filament white-hot and bright. Open the switch: same bulb, no glow — the loop decides everything."
+  },
+  "parts": [
+    "The glass globe",
+    "The coiled filament",
+    "The support wires",
+    "The contact at the base"
+  ],
+  "processes": [
+    "Closing the circuit to start current",
+    "Current squeezing through the filament",
+    "Heating the filament white-hot",
+    "Shining light out of the glass"
+  ],
+  "plainLanguageExplanation": "A light bulb is a tiny controlled bottleneck: it takes current, pushes it through a super-thin coiled wire (the filament), and the filament gets so hot it glows. The current meets resistance in the thin filament — resistance that turns some of the moving energy into heat, and hot metal shines. That's it: the bulb is a resistor designed to glow. Two wires climb the base, the filament coils between them, and when the switch closes, the loop is complete and the whole bulb lights. The model lets you look inside a clear bulb: tap the switch and watch the filament go from grey to white-hot as the ammeter ticks, and the room glow grows. Two honest wrinkles: older bulbs waste 95% of their energy as heat (that's why they're warm) and a bulb only works when its loop is closed — a break anywhere, even in the base, kills the glow. Every torch, lamp, and headlight is this same bottleneck: resistance turning moving charges into brilliant heat.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A device that turns electric current into light by heating a thin filament" },
+    { "label": "Core part", "value": "The coiled filament — a deliberate resistance" },
+    { "label": "Requires a closed loop", "value": "Break the circuit and the glow dies instantly" },
+    { "label": "Heat side", "value": "Old bulbs turn most current into heat, not light" },
+    { "label": "Same current", "value": "The whole loop shares the one filament current" }
+  ],
+  "whyItMatters": "The bulb is the most common window into circuits — it's how kids and engineers first 'see' current at work. Understand why the filament glows (resistance + heat), why it needs the closed loop, and why heat is waste, and every other component — from LEDs to heaters — starts from the same story.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Incandescent lamp (and general bulb anatomy)",
+  "tagline": "Where current becomes light",
+  "didYouKnow": "A classic tungsten filament runs at about 2,500°C — hot enough that almost nothing else on Earth survives it. Most of its light comes off as infrared heat, which is why old bulbs warm rooms while LEDs mostly stay cool.",
+  "conditions": [
+    "Desk lamps and reading lights",
+    "Torch bulbs",
+    "Christmas string lights",
+    "Car headlights and tail lights",
+    "Fridge and oven indicator bulbs"
+  ],
+  "compareCandidateId": "switch",
+  "compareReason": "The bulb is the payoff; the switch is the doorkeeper — combined they show exactly how a closed loop decides light."
+}

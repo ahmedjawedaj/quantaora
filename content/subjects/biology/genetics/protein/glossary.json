@@ -1,0 +1,112 @@
+{
+  "componentId": "protein",
+  "terms": [
+    {
+      "term": "Protein",
+      "conceptId": "protein",
+      "definition": "A working molecule built by cells out of a chain of amino acids that folds into a specific 3D shape to do a job.",
+      "function": "Does the physical work of the cell and body — cutting, carrying, signaling, or building — based on the specific shape it folds into.",
+      "whereItIs": "Built inside cells by ribosomes, then used throughout the body wherever that particular job needs doing.",
+      "whyItMatters": "Proteins are why the body actually works, not just what it's made of — digestion, healing, immunity, and movement all depend on proteins doing their jobs correctly.",
+      "relatedConcept": "amino-acid-chain"
+    },
+    {
+      "term": "Amino Acid Chain",
+      "conceptId": "amino-acid-chain",
+      "hotspotId": "hs-amino-chain",
+      "definition": "A protein starts as a long chain of amino acids strung together like beads, in an order set by a gene.",
+      "function": "Serves as the raw, unfolded sequence of building blocks that folding will shape into the protein's working 3D form.",
+      "whereItIs": "The loose, unfolded tail near the model's N-terminus, before the chain folds into the compact core.",
+      "whyItMatters": "There are 20 different kinds of amino acid 'beads,' and the exact sequence determines everything that happens next, including the final shape and function.",
+      "relatedConcept": "gene",
+      "quizId": "protein-q-shape-function"
+    },
+    {
+      "term": "Folded 3D Shape",
+      "conceptId": "folded-3d-shape",
+      "hotspotId": "hs-folded-shape",
+      "definition": "The chain twists and folds into coils (alpha helices) and pleats (beta sheets), then packs into one specific compact 3D shape.",
+      "function": "Converts the 1D amino acid chain into a precise, stable 3D structure that can physically interact with other molecules.",
+      "whereItIs": "The dense folded core at the model's center, where helices and sheets pack together into the compact globule.",
+      "whyItMatters": "Folding happens automatically based on how amino acids attract and repel each other; getting the fold right is the difference between a working protein and one that can't do its job.",
+      "relatedConcept": "protein-folding",
+      "quizId": "protein-q-folded-shape"
+    },
+    {
+      "term": "Function Determined by Shape",
+      "conceptId": "function-determined-by-shape",
+      "hotspotId": "hs-shape-function",
+      "definition": "The folded shape creates pockets and surfaces that fit specific molecules, like a lock fits a key.",
+      "function": "Gives the protein its specific job — an enzyme's pocket fits its target molecule, an antibody's arms fit a specific germ.",
+      "whereItIs": "A distinct pocket, groove, or cleft on the folded core's surface, where the shape creates a specific-fitting slot.",
+      "whyItMatters": "This shape is exactly why a protein can do its job — without the right shape, correct amino acids alone aren't enough.",
+      "relatedConcept": "enzyme",
+      "quizId": "protein-q-shape-function"
+    },
+    {
+      "term": "Built from Gene Instructions",
+      "conceptId": "built-from-gene-instructions",
+      "hotspotId": "hs-gene-origin",
+      "definition": "Every protein is built by following instructions copied from a gene in DNA.",
+      "function": "Specifies the exact order of amino acids used to build this protein's chain, which then determines its fold and function.",
+      "whereItIs": "A dot on the chain's starting end (N-terminus), the same point where the amino acid chain begins.",
+      "whyItMatters": "A single change in the gene's instructions can change the amino acid sequence — and therefore the shape and function — of the protein it builds.",
+      "relatedConcept": "mutation",
+      "quizId": "protein-q-gene-origin"
+    },
+    {
+      "term": "Amino acid",
+      "conceptId": "amino-acid",
+      "definition": "A small molecule that acts like one bead on a chain; amino acids link together in long chains to build proteins.",
+      "function": "Acts as the single building-block unit that, strung together in sequence, forms a protein's amino acid chain.",
+      "whereItIs": "Linked end-to-end along the entire length of a protein's backbone, before and after folding.",
+      "whyItMatters": "There are 20 different amino acids, and which ones are used, and in what order, is what makes every protein different from every other protein.",
+      "relatedConcept": "amino-acid-chain"
+    },
+    {
+      "term": "Protein folding",
+      "conceptId": "protein-folding",
+      "definition": "The process by which a freshly made chain of amino acids bends and twists itself into a specific compact 3D shape.",
+      "function": "Turns a simple, linear chain of amino acids into the precise 3D structure the protein needs to do its job.",
+      "whereItIs": "Happens as soon as the amino acid chain is built by a ribosome, often folding as it's still being assembled.",
+      "whyItMatters": "A protein cannot function until it folds correctly; misfolded proteins are linked to diseases in the body.",
+      "relatedConcept": "folded-3d-shape"
+    },
+    {
+      "term": "Gene",
+      "conceptId": "gene",
+      "definition": "A section of DNA that contains the instructions for building one specific protein.",
+      "function": "Spells out, through its DNA sequence, the exact order of amino acids a cell should string together to build one protein.",
+      "whereItIs": "A specific stretch of DNA, packed inside chromosomes, inside the nucleus of a cell.",
+      "whyItMatters": "Genes are the original source of every protein's instructions — no gene, no protein.",
+      "relatedConcept": "built-from-gene-instructions"
+    },
+    {
+      "term": "Ribosome",
+      "conceptId": "ribosome",
+      "definition": "The cell structure that reads genetic instructions and links amino acids together to build a protein.",
+      "function": "Reads a copied gene instruction (messenger RNA) and physically links amino acids together in the order that instruction specifies.",
+      "whereItIs": "Found floating in a cell's cytoplasm or attached to the endoplasmic reticulum.",
+      "whyItMatters": "The ribosome is the actual construction site where a protein's amino acid chain gets built, turning genetic instructions into a real physical molecule.",
+      "relatedConcept": "amino-acid-chain"
+    },
+    {
+      "term": "Enzyme",
+      "conceptId": "enzyme",
+      "definition": "A type of protein that speeds up a chemical reaction in the body, like a helper that makes reactions happen faster.",
+      "function": "Uses its folded shape's binding pocket to grab a target molecule and speed up a specific chemical reaction involving it.",
+      "whereItIs": "Found throughout the body wherever a chemical reaction needs a speed boost, such as in digestion.",
+      "whyItMatters": "Enzymes are a clear, concrete example of shape-determines-function: an enzyme's pocket only fits its intended target molecule.",
+      "relatedConcept": "function-determined-by-shape"
+    },
+    {
+      "term": "Mutation",
+      "conceptId": "mutation",
+      "definition": "A change in a gene's DNA sequence that can change the amino acid chain, and sometimes the shape and function, of the protein it builds.",
+      "function": "Alters the instructions a gene provides, which can change which amino acid gets placed at a given position in the chain.",
+      "whereItIs": "Occurs within the DNA sequence of a gene, before that gene's instructions are ever copied and used.",
+      "whyItMatters": "A single mutation can be harmless, or it can break a protein's fold and function entirely, which is why mutations matter so much in genetics and disease.",
+      "relatedConcept": "built-from-gene-instructions"
+    }
+  ]
+}

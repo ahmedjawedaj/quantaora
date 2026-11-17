@@ -1,0 +1,49 @@
+{
+  "componentId": "halogen",
+  "terms": [
+    {
+      "term": "Halogen",
+      "conceptId": "halogen-seven-valence-electrons",
+      "hotspotId": "hs-halogen-column",
+      "definition": "An element in Group 17 — a reactive nonmetal with seven valence electrons, one short of a full shell.",
+      "function": "Reacts eagerly by grabbing one extra electron to fill its outer shell, becoming a -1 ion.",
+      "whereItIs": "Group 17 — the second-to-last column of the periodic table.",
+      "whyItMatters": "Halogens build the salts, disinfectants, and plastics of everyday life.",
+      "relatedConcept": "halogen-group-17",
+      "quizId": "halogen-q-valence"
+    },
+    {
+      "term": "Valence electrons",
+      "conceptId": "halogen-seven-valence-electrons",
+      "hotspotId": "hs-halogen-valence",
+      "definition": "The electrons in an atom's outermost shell; halogens have seven.",
+      "function": "Determines bonding — with seven, a halogen needs just one more to reach a full, stable shell.",
+      "whereItIs": "The seven teal electrons on the atom model's outer ring.",
+      "whyItMatters": "That one missing electron makes halogens among the most reactive nonmetals.",
+      "relatedConcept": "halogen-reactive-nonmetals",
+      "quizId": "halogen-q-reactivity"
+    },
+    {
+      "term": "Chloride ion (Cl⁻)",
+      "conceptId": "halogen-reactive-nonmetals",
+      "hotspotId": "hs-halogen-ion",
+      "definition": "A chlorine atom that has gained one electron, giving it a -1 charge and a full outer shell.",
+      "function": "Forms when a halogen grabs an electron; pairs with positive ions to build salts.",
+      "whereItIs": "The ion model beside the samples in the electron-grab layer.",
+      "whyItMatters": "Chloride ions in salt keep your body's fluids balanced.",
+      "relatedConcept": "halogen-seven-valence-electrons",
+      "quizId": "halogen-q-ion"
+    },
+    {
+      "term": "Group 17",
+      "conceptId": "halogen-group-17",
+      "hotspotId": "hs-halogen-column",
+      "definition": "The second-to-last column of the periodic table, home to the halogens.",
+      "function": "Stacks the seven-valence-electron nonmetal family together.",
+      "whereItIs": "The glowing second-to-last column in the model's table section.",
+      "whyItMatters": "Every element in this column shares the same grab-an-electron personality.",
+      "relatedConcept": "halogen-seven-valence-electrons",
+      "quizId": "halogen-q-salt"
+    }
+  ]
+}

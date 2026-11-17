@@ -1,0 +1,100 @@
+{
+  "id": "protozoa",
+  "subject": "biology",
+  "title": "Protozoa",
+  "summary": "Protozoa are single-celled living organisms that move and hunt like tiny animals. Explore a few of their shapes, how they capture food, and how protozoa are both helpful and can sometimes cause disease.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "protozoa-single-celled",
+    "protozoa-move",
+    "protozoa-eat",
+    "protozoa-nucleus",
+    "protozoa-helpful-and-harmful"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Microbiology",
+    "unit": "Microbes",
+    "systemOrGroup": "Microbial types",
+    "component": "Protozoa",
+    "displayPath": "Biology > Microbiology > Microbes > Microbial types > Protozoa"
+  },
+  "crossReferences": [
+    {
+      "label": "Bacteria (Microbiology)",
+      "branch": "microbiology",
+      "lowLevelItem": "Bacteria",
+      "note": "Protozoa are single-celled but have a nucleus, unlike bacteria which have no true nucleus."
+    },
+    {
+      "label": "Bacteria (Microbiology)",
+      "branch": "microbiology",
+      "lowLevelItem": "Protozoa",
+      "note": "Protozoa move and capture food like tiny animals, unlike type of microbes like viruses and some bacteria."
+    }
+  ],
+  "belongsTo": "Microbiology > Microbes > Microbial types",
+  "compareCandidate": {
+    "label": "Protozoa vs. bacterium",
+    "description": "Protozoa are single-celled but have a nucleus and often move and hunt like little animals. Bacteria have no true nucleus and are usually more passive single-celled life."
+  },
+  "parts": [
+    "Single cell body",
+    "Nucleus",
+    "Cell membrane",
+    "Movement structure (cilia/flagellum/pseudopod)",
+    "Food vacuole"
+  ],
+  "processes": [
+    "Moving by flagella, cilia, or pseudopods",
+    "Eating other microbes or food particles",
+    "Living in water, soil, and bodies"
+  ],
+  "plainLanguageExplanation": "Protozoa are tiny organisms made of a single cell, bigger than bacteria and with a true nucleus. They are some of the simplest 'animals'. Many can move on their own - some have a tail-like flagellum, some tiny hairs (cilia), and some ooze by making pseudopods 'false feet' (like the amoeba). They eat by particles in the water. Protozoa live in water and soil, and some live in the bodies of animals and people. Most are harmless, and a few cause diseases like malaria, which spreads a protozoan.",
+  "keyFacts": [
+    {
+      "label": "Cell type",
+      "value": "Single-celled, but with a true nucleus (eukaryotic)"
+    },
+    {
+      "label": "Size / looks",
+      "value": "Larger than most bacteria, with different shapes"
+    },
+    {
+      "label": "Movement",
+      "value": "Move with a flagellum, cilia, or pseudopods"
+    },
+    {
+      "label": "Feeding",
+      "value": "Eats food and other microbes (like tiny animals)"
+    },
+    {
+      "label": "Where they live",
+      "value": "Ponds, oceans, soil, and some in bodies"
+    },
+    {
+      "label": "Care",
+      "value": "Most harmless; a few can cause disease (e.g. malaria)"
+    }
+  ],
+  "whyItMatters": "Protozoa are plentiful water microbes that feed the food web and teach us how a single living cell can sense, move, and hunt. Understanding them also explains water-borne diseases like malaria and why clean water matters.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Protozoa",
+  "tagline": "Tiny single-celled hunters of the pond",
+  "didYouKnow": "The amoeba - one famous protozoan - moves and eats by changing its shape, flowing its jelly-like cell around its food.",
+  "conditions": [
+    "Infection",
+    "Protozoa-borne disease"
+  ],
+  "branch": "microbiology",
+  "displayPath": "Biology > Microbiology > Microbes > Microbial types > Protozoa"
+}

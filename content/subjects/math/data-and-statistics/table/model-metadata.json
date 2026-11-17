@@ -1,0 +1,90 @@
+{
+  "id": "table",
+  "componentId": "table",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/table/table.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/table.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Table frame",
+    "Header row",
+    "Data rows",
+    "Chart output"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-table-header",
+      "label": "Header row",
+      "conceptId": "table-definition",
+      "position": [
+        0,
+        0.95,
+        0.1
+      ],
+      "description": "The top row naming each column \u2014 Name, Score, Team.",
+      "positionHint": "The top strip of the table.",
+      "color": "#D9A441",
+      "function": "Names what each column holds."
+    },
+    {
+      "id": "hs-row",
+      "label": "Row",
+      "conceptId": "table-read",
+      "position": [
+        -0.5,
+        0.35,
+        0.15
+      ],
+      "description": "One horizontal record \u2014 one student's full data.",
+      "positionHint": "A single horizontal line of cells.",
+      "color": "#7FA86A",
+      "function": "One complete record."
+    },
+    {
+      "id": "hs-column",
+      "label": "Column",
+      "conceptId": "table-rows-columns",
+      "position": [
+        0.9,
+        0.45,
+        0.15
+      ],
+      "description": "One vertical attribute shared by all rows.",
+      "positionHint": "The vertical Score column.",
+      "color": "#6B85A8",
+      "function": "One attribute of every record."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A standing scoreboard table with a header, data rows, a sort control, and a chart plate that pops out bars. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Table frame: warm paper panel (roughness ~0.5). Header: warm amber-tinted strip with ink labels. Data rows: warm paper strips with ink text, subtle grid lines. Sort control: small warm-grey plate. Chart plate: warm paper panel with rising bar shapes (roughness ~0.5). Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: tables as organized data \u2014 a class scoreboard grid (Name, Score, Team) with five rows; rows highlight on trace; sort reorders by score; 'to chart' pops the scores out as bars.\n\nGEOMETRY: A standing table frame with a header row (Name, Score, Team) and five data rows of cells. Tracing a row highlights the whole strip. 'Sort by score' animates the rows re-ordering. Tapping a cell isolates and highlights it. 'To chart' slides a bar-chart plate beside the table whose bars match each score value.\n\nLAYERS (toggleable): (1) table frame; (2) header row; (3) data rows; (4) bar-chart plate.\n\nCAMERA: three-quarter from front-left, slightly above, frames the full grid; labels legible. Budget 6-10k triangles. Named nodes: TableFrame, HeaderRow, DataRows, CellHighlighter, SortControl, ChartPlate, Bars. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "table-tiles"
+  }
+}

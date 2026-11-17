@@ -1,0 +1,80 @@
+{
+  "componentId": "work",
+  "questions": [
+    {
+      "id": "work-q-definition",
+      "conceptId": "work-force-times-distance",
+      "hotspotId": "hs-counter",
+      "prompt": "In physics, what does 'work' mean?",
+      "options": [
+        "Energy transferred when a force moves an object",
+        "Studying or going to a job",
+        "Pushing hard, even if nothing moves",
+        "Muscle effort, whatever happens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is the energy a force transfers to an object it actually moves — no motion means zero work.",
+      "misconception": "Everyday 'effort' is not physics work; a push without movement does no work at all."
+    },
+    {
+      "id": "work-q-formula",
+      "conceptId": "work-force-times-distance",
+      "hotspotId": "hs-counter",
+      "prompt": "You push a cart 2 m with a force of 10 N. How much work did you do?",
+      "options": [
+        "20 J",
+        "10 J",
+        "5 J",
+        "200 J"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work = force × distance = 10 × 2 = 20 J.",
+      "misconception": "Using only force (10) or squaring values gives 200 J; the force × distance product is the recipe."
+    },
+    {
+      "id": "work-q-motion",
+      "conceptId": "work-requires-motion",
+      "hotspotId": "hs-track",
+      "prompt": "You push a heavy cabinet with all your strength, but it does not budge. How much work did the push do on it?",
+      "options": [
+        "Zero joules",
+        "A lot, then it becomes heat",
+        "Exactly as much as your effort",
+        "It depends on your tired arms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work needs distance: force with zero motion transfers zero energy — no distance, no work.",
+      "misconception": "Effort and work are different; physics 'work' requires the object to actually move."
+    },
+    {
+      "id": "work-q-energy",
+      "conceptId": "work-transfers-energy",
+      "hotspotId": "hs-cart",
+      "prompt": "The work you do on a cart shows up in the cart as...",
+      "options": [
+        "An equal gain of kinetic energy",
+        "A loss of its mass",
+        "Brighter paintwork",
+        "A longer track"
+      ],
+      "correctIndex": 0,
+      "explanation": "The work a force does on an object becomes that object's kinetic energy — same value in joules.",
+      "misconception": "Imagining work as 'used up' rather than transferred; it lands in the cart as motion."
+    },
+    {
+      "id": "work-q-unit",
+      "conceptId": "work-measured-in-joules",
+      "hotspotId": "hs-counter",
+      "prompt": "What is force × distance measured in?",
+      "options": [
+        "Joules (J)",
+        "Newtons (N)",
+        "Watts (W)",
+        "Seconds (s)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Work is energy, and energy is measured in joules.",
+      "misconception": "Newtons measure the force input and watts measure power; work keeps the joule."
+    }
+  ]
+}

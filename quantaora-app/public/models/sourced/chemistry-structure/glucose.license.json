@@ -1,0 +1,37 @@
+{
+  "asset": "glucose.glb",
+  "component": "molecules-and-bonding / starterMolecules / Glucose (C6H12O6, alpha-D-glucopyranose)",
+  "pipeline": "rcsb-sdf",
+  "sourceUrl": "https://files.rcsb.org/ligands/view/GLC_ideal.sdf",
+  "sourceDescription": "RCSB PDB Chemical Component Dictionary, ligand ID GLC (alpha-D-glucose), ideal (computed) 3D coordinates, 24 atoms matching C6H12O6.",
+  "creatorOwner": "wwPDB / RCSB PDB (coordinate data). GLB authored by Quantaora build script (public/models/sourced/chemistry-structure/build-molecules.mjs) using three.js + GLTFExporter, the same technique already used for public/models/chemistry/atoms-and-elements/atom.glb.",
+  "creator": "wwPDB / RCSB PDB (coordinate data). GLB authored by Quantaora build script (public/models/sourced/chemistry-structure/build-molecules.mjs) using three.js + GLTFExporter, the same technique already used for public/models/chemistry/atoms-and-elements/atom.glb.",
+  "license": "CC0 1.0 (RCSB PDB structure/component data is public domain / CC0)",
+  "attributionRequired": false,
+  "attributionText": "Not required. Recommended credit: \"Molecular geometry data: RCSB PDB (rcsb.org), CC0.\"",
+  "redistributionStatus": "Redistributable — CC0 source data, no restriction. GLB itself is a Quantaora-authored derivative (ball-and-stick render), not a redistribution of a third-party GLB file.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 985200,
+  "sha256": "18920acec3b53db00aa9dbe25cf864e7227dc8360181b3b3f2d8719a158c50e8",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 48,
+    "meshCount": 48,
+    "materialCount": 25,
+    "textureCount": 0,
+    "imageCount": 0,
+    "animationCount": 0,
+    "accessorCount": 192,
+    "generator": "THREE.GLTFExporter r185",
+    "gltfVersion": "2.0"
+  },
+  "approxWorldBoundingBoxUnits": [
+    4.692,
+    3.626,
+    2.175
+  ],
+  "boundingBoxNote": "Computed via THREE.Box3.setFromObject on the authored scene graph (world-space, post-transform) at build time, not from raw accessor min/max (which reflect local unit-geometry space for TRS-transformed nodes)."
+}

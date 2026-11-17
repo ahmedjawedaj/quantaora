@@ -1,0 +1,119 @@
+{
+  "id": "eye",
+  "componentId": "eye",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/human-anatomy/eye/eye.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/eye.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Sclera and eye socket",
+    "Cornea and pupil",
+    "Lens",
+    "Retina",
+    "Optic nerve"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cornea",
+      "label": "Cornea",
+      "conceptId": "cornea-pupil-iris",
+      "position": [
+        0.0,
+        0.15,
+        0.5
+      ],
+      "description": "The clear front window of the eye.",
+      "color": "#D98A6A",
+      "function": "Lets light in and starts focusing it.",
+      "positionHint": "The clear front surface."
+    },
+    {
+      "id": "hs-iris",
+      "label": "Iris and pupil",
+      "conceptId": "cornea-pupil-iris",
+      "position": [
+        0.0,
+        0.1,
+        0.35
+      ],
+      "description": "The colored iris controls the pupil hole size.",
+      "color": "#D9A441",
+      "function": "Controls how much light enters.",
+      "positionHint": "The colored ring around the pupil."
+    },
+    {
+      "id": "hs-lens",
+      "label": "Lens",
+      "conceptId": "lens-focuses-light",
+      "position": [
+        0.0,
+        0.05,
+        0.2
+      ],
+      "description": "The flexible lens that focuses light on the retina.",
+      "color": "#B5846A",
+      "function": "Focuses light onto the back of the eye.",
+      "positionHint": "Behind the iris."
+    },
+    {
+      "id": "hs-retina",
+      "label": "Retina",
+      "conceptId": "retina-light-cells",
+      "position": [
+        0.0,
+        0.0,
+        -0.3
+      ],
+      "description": "The light-sensitive screen at the back of the eye.",
+      "color": "#6B85A8",
+      "function": "Turns light into signals.",
+      "positionHint": "The back inner surface."
+    },
+    {
+      "id": "hs-optic",
+      "label": "Optic nerve",
+      "conceptId": "optic-nerve-to-brain",
+      "position": [
+        0.15,
+        -0.05,
+        -0.2
+      ],
+      "description": "The nerve cable carrying sight signals to the brain.",
+      "color": "#B5846A",
+      "function": "Carries the visual signal to the brain.",
+      "positionHint": "Leaving the back of the eyeball."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a human eye as a stylized-specimen study, shown in a clean sagittal cutaway of the eyeball so the path of light is visible: clear cornea, iris ring and pupil, flexible lens, and the curved retina at the back, with the optic nerve leaving toward the cut side. A soft thin light ray enters and focuses on the retina. Warm paper palette, muted iris, no glow. Named nodes: Sclera, Cornea, Iris, Lens, Retina, OpticNerve, LightRay. Budget 18-26k.",
+  "visual": {
+    "shape": "eye-ball"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "series-circuit",
+  "questions": [
+    {
+      "id": "se-q1",
+      "conceptId": "series-one-loop",
+      "hotspotId": "hs-loop",
+      "prompt": "What is a series circuit?",
+      "options": [
+        "Components arranged on one single loop",
+        "Each component on its own branch",
+        "Two batteries with no wire",
+        "Bulbs sharing separate paths"
+      ],
+      "correctIndex": 0,
+      "explanation": "In series, all components line up on the one loop — beads on a single string.",
+      "misconception": "The branch layout is the parallel circuit, not series."
+    },
+    {
+      "id": "se-q2",
+      "conceptId": "series-same-current-all",
+      "hotspotId": "hs-meter",
+      "prompt": "In a series circuit, the current at the first bulb compared with current at the last bulb is...",
+      "options": [
+        "The same everywhere",
+        "Bigger at the first",
+        "Bigger at the last",
+        "Zero in the middle"
+      ],
+      "correctIndex": 0,
+      "explanation": "One loop means identical amperes at every point — the same electrons pass each bulb.",
+      "misconception": "That current 'spends itself' along the way is a real misconception."
+    },
+    {
+      "id": "se-q3",
+      "conceptId": "series-volts-share",
+      "hotspotId": "hs-battery",
+      "prompt": "A 3 V battery feeds three equal series bulbs. About how many volts does each bulb see?",
+      "options": [
+        "About 1 V",
+        "3 V each",
+        "9 V each",
+        "Not enough information"
+      ],
+      "correctIndex": 0,
+      "explanation": "Series splits the supply volts across the bulbs, so 3 V ÷ 3 = 1 V per bulb.",
+      "misconception": "Each bulb seeing the full battery voltage is the parallel misunderstanding."
+    },
+    {
+      "id": "se-q4",
+      "conceptId": "series-one-break-stops-all",
+      "hotspotId": "hs-remove-a",
+      "prompt": "You unscrew one bulb from a series chain. The other bulbs...",
+      "options": [
+        "Go dark at once",
+        "Keep glowing, maybe dimmer",
+        "Get brighter",
+        "Flash on and off"
+      ],
+      "correctIndex": 0,
+      "explanation": "Breaking any link opens a series loop's only road, so the whole loop stops.",
+      "misconception": "The 'one bulb fails, others survive' behavior is the signature of parallel circuits."
+    },
+    {
+      "id": "se-q5",
+      "conceptId": "series-one-loop",
+      "hotspotId": "hs-bulb-b",
+      "prompt": "Adding a third bulb in series makes the existing bulbs...",
+      "options": [
+        "Dimmer than before",
+        "Brighter than before",
+        "Blue forever",
+        "Unaffected"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every extra series bulb adds total resistance, cutting the shared current — everyone dimmer.",
+      "misconception": "More bulbs feel like more power; in series they starve each other."
+    }
+  ]
+}

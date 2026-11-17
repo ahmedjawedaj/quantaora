@@ -1,0 +1,46 @@
+{
+  "componentId": "velocity",
+  "terms": [
+    {
+      "term": "Velocity",
+      "conceptId": "velocity-speed-with-direction",
+      "hotspotId": "hs-velocity-arrow",
+      "definition": "Speed with a direction — displacement divided by time.",
+      "function": "Reports both how fast an object moves and which way, as one vector arrow.",
+      "whereItIs": "The rotating arrow above the car on the loop.",
+      "whyItMatters": "It is the vector partner of speed and the input required for acceleration and momentum.",
+      "relatedConcept": "speed",
+      "quizId": "velocity-q-definition"
+    },
+    {
+      "term": "Vector quantity",
+      "conceptId": "velocity-vector-quantity",
+      "hotspotId": "hs-velocity-arrow",
+      "definition": "A quantity that needs both a magnitude and a direction, drawn as an arrow.",
+      "whyItMatters": "Velocities, forces, and momentum all need arrows; vectors are how physics organizes all direction-carrying facts.",
+      "whereItIs": "Every arrow sprouted from a moving body.",
+      "relatedConcept": "velocity-speed-with-direction",
+      "quizId": "velocity-q-vector"
+    },
+    {
+      "term": "Direction change",
+      "conceptId": "velocity-changes-with-direction",
+      "hotspotId": "hs-direction-label",
+      "definition": "A velocity change that occurs when the heading rotates, even when speed stays the same.",
+      "whyItMatters": "It is the reason constant speed on a curve still counts as changing velocity — and hence as acceleration.",
+      "whereItIs": "The compass ring and the arrow sweeping around as the car loops.",
+      "relatedConcept": "velocity-vector-quantity",
+      "quizId": "velocity-q-turn"
+    },
+    {
+      "term": "Negative velocity",
+      "conceptId": "velocity-changes-with-direction",
+      "hotspotId": "hs-negative-arrow",
+      "definition": "Velocity in the opposite direction to the positive reference, shown as a downward graph slope.",
+      "whyItMatters": "On a position-time graph a negative slope means the object is back-tracking toward its start.",
+      "whereItIs": "The reversed ghost arrow and the downward graph trace.",
+      "relatedConcept": "velocity-direction",
+      "quizId": "velocity-q-negative"
+    }
+  ]
+}

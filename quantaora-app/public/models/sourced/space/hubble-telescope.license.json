@@ -1,0 +1,32 @@
+{
+  "sourceUrl": "https://github.com/nasa/NASA-3D-Resources/blob/master/3D%20Models/Hubble%20Space%20Telescope%20(A)/Hubble%20Space%20Telescope%20(A).glb",
+  "resourcePage": "https://github.com/nasa/NASA-3D-Resources",
+  "creator": "NASA",
+  "license": "Public domain (\"free and without copyright\") — NASA 3D Resources repository",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 1694988,
+  "sha256": "e5ba4de15c7d359ac8fa1ab7e286aff42dec09c0fadae3db99252587f39fa384",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 5,
+    "textureCount": 5,
+    "imageCount": 10,
+    "animationCount": 0,
+    "accessorCount": 20,
+    "generator": "Khronos glTF Blender I/O v4.2.57",
+    "gltfVersion": "2.0",
+    "approxDimensions": [
+      458.2472,
+      501.3058,
+      525.4885
+    ]
+  }
+}

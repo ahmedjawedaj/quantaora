@@ -1,0 +1,47 @@
+{
+  "componentId": "nonmetal",
+  "terms": [
+    {
+      "term": "Nonmetal",
+      "conceptId": "nonmetal-dull-brittle-poor-conductor",
+      "hotspotId": "hs-nonmetal-samples",
+      "definition": "An element that is dull, often brittle, and a poor conductor of heat and electricity.",
+      "function": "Fills the upper right of the periodic table and includes the gases of the air we breathe.",
+      "whereItIs": "The upper-right region of the periodic table.",
+      "whyItMatters": "Oxygen, nitrogen, carbon, and the other life-critical elements are nonmetals.",
+      "relatedConcept": "nonmetal-occupies-right",
+      "quizId": "nonmetal-q-properties"
+    },
+    {
+      "term": "Brittle",
+      "conceptId": "nonmetal-dull-brittle-poor-conductor",
+      "hotspotId": "hs-nonmetal-brittle",
+      "definition": "A quality of some solids — they shatter when struck instead of bending.",
+      "function": "Shows one of the sharpest differences from metals, which bend and hammer flat.",
+      "whereItIs": "The sulfur lump in the model, which splits under the mallet.",
+      "whyItMatters": "Brittleness is a quick physical test for telling a nonmetal solid from a metal.",
+      "relatedConcept": "nonmetal-gases-and-brittle-solids",
+      "quizId": "nonmetal-q-state"
+    },
+    {
+      "term": "Covalent bond",
+      "conceptId": "nonmetal-gases-and-brittle-solids",
+      "definition": "A bond formed when atoms share electrons with each other.",
+      "function": "Holds nonmetal atoms together in molecules like O₂, CO₂, and water.",
+      "whereItIs": "Between the atoms inside every molecule of a nonmetal compound.",
+      "whyItMatters": "It is the main way nonmetals connect — and the foundation of organic and biological chemistry.",
+      "relatedConcept": "nonmetal-dull-brittle-poor-conductor",
+      "quizId": "nonmetal-q-bonding"
+    },
+    {
+      "term": "Halogen",
+      "conceptId": "nonmetal-occupies-right",
+      "definition": "A member of the nonmetal family in Group 17, like fluorine and chlorine.",
+      "function": "Shows that even within the nonmetals there are families with shared behavior.",
+      "whereItIs": "The second-from-last column of the periodic table.",
+      "whyItMatters": "Halogens connect the nonmetal family to reactivity and everyday compounds like table salt.",
+      "relatedConcept": "nonmetal-dull-brittle-poor-conductor",
+      "quizId": "nonmetal-q-region"
+    }
+  ]
+}

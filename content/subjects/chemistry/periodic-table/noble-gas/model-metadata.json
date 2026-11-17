@@ -1,0 +1,90 @@
+{
+  "id": "noble-gas",
+  "componentId": "noble-gas",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/noble-gas/noble-gas.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/noble-gas.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.85,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.85,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Balloon + neon tube",
+    "Shell view",
+    "Reaction test",
+    "Group 18 on table"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-noble-gas-column",
+      "label": "Group 18",
+      "conceptId": "noble-gas-group-18",
+      "position": [
+        0,
+        -1.25,
+        0.2
+      ],
+      "description": "This glowing column at the far right of the table is Group 18 — the noble gases. All six members sit stacked here.",
+      "positionHint": "The highlighted far-right column of tiles below the balloon.",
+      "color": "#7FA86A",
+      "function": "Shows where the noble gases live on the periodic table."
+    },
+    {
+      "id": "hs-noble-gas-full-shell",
+      "label": "Full outer shell",
+      "conceptId": "noble-gas-full-shell",
+      "position": [
+        0.95,
+        0.55,
+        0.1
+      ],
+      "description": "The small atom model shows a completely full outer shell — every electron space filled. This full shell is why noble gases never need to react.",
+      "positionHint": "The small atom model floating beside the balloon, visible when the shell-view layer is on.",
+      "color": "#D9A441",
+      "function": "Shows the full outer shell that makes noble gases stable."
+    },
+    {
+      "id": "hs-noble-gas-gases",
+      "label": "Noble gases in daily life",
+      "conceptId": "noble-gas-unreactive",
+      "position": [
+        -0.85,
+        0.6,
+        0.1
+      ],
+      "description": "The balloon is filled with helium and the tube glows with neon — two famous uses of the calm noble gases.",
+      "positionHint": "The balloon on the left and the neon tube beside it.",
+      "color": "#6B85A8",
+      "function": "Shows the everyday objects made from noble gases."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A helium balloon and a neon tube float centered above a table section, lit with soft neutral studio light — the neon tube may carry a gentle warm glow ONLY when the reaction-test layer demonstrates it, handled by the app; the mesh itself has no emissive. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: the balloon is a muted pastel coral, the tube a soft warm-amber at rest, the table tiles paper-white. Strong saturated color is reserved entirely for the small flat hotspot dots (molecular green / amber / slate accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Balloon: muted pastel coral, matte, roughness ~0.5. Neon tube: warm translucent amber at rest (alpha ~0.6), roughness ~0.4. Table tiles: paper-white, roughness ~0.55. Atom model: small teal electrons on a translucent hairline ring. No emissive channels anywhere — any glow (neon lighting up) is handled by app runtime UI, not baked into the asset.",
+  "assetBrief": "SUBJECT: the noble gases shown through their calm, everyday uses, built to be read as 'the full-shell family that never reacts.' Four procedural layers, all clean primitives:\n\n1) MAIN: two objects floating at center height — (a) a helium balloon (a simple ellipsoid ~0.8 wide, muted pastel coral, matte, with a thin string falling from it) and (b) a bent neon-tube shape (a thin torus segment, ~0.9 long, warm translucent amber at rest).\n\n2) SHELL VIEW (toggleable layer): a small atom model floats beside the balloon — one translucent hairline ring with tiny teal electron spheres completely filling it (e.g. 8 electrons for neon, or 2 for helium), showing the full outer shell.\n\n3) REACTION TEST (toggleable layer): a tiny spark (a small soft amber dot) appears near the gas tube; the app plays a short 'nothing happens' beat — the gas stays calm, nothing reacts. The tube may glow briefly here (app-driven).\n\n4) GROUP 18 ON TABLE (toggleable layer): below, a flat section of periodic table (paper-white tiles, ~9 x 5). The entire far-right column is given a faint muted green cast and slight raise — Group 18.\n\nCamera: framed so the balloon and tube are large and centered with the table slab below; auto-rotate default. Budget 6-10k triangles. Named nodes: HeliumBalloon, String, NeonTube, ShellAtom, ShellElectrons, ReactionSpark, TableSlab, Group18Column. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "valence-outer"
+  }
+}

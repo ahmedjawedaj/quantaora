@@ -1,0 +1,120 @@
+{
+  "id": "switch",
+  "componentId": "switch",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/switch/switch.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/switch.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.1,
+      4.0
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Switch base and lever",
+    "Contact posts",
+    "Wires in and out",
+    "Bulb and ammeter"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-lever",
+      "label": "Lever (Rocker)",
+      "conceptId": "switch-opens-closes-loop",
+      "position": [
+        0,
+        0.8,
+        0.2
+      ],
+      "description": "The rocker you flip to close or open the circuit's gap.",
+      "colorHint": "Amber rocker bar on the switch body.",
+      "color": "#D9A441",
+      "function": "Makes or breaks the contact."
+    },
+    {
+      "id": "hs-base",
+      "label": "Switch Base",
+      "conceptId": "switch-instantly-stops-current",
+      "position": [
+        0,
+        0.4,
+        0
+      ],
+      "description": "The body that anchors the contacts and the lever.",
+      "colorHint": "Pale grey block with two posts.",
+      "color": "#8A93A6",
+      "function": "Holds the switching mechanism."
+    },
+    {
+      "id": "hs-posts",
+      "label": "Contact Posts",
+      "conceptId": "switch-opens-closes-loop",
+      "position": [
+        -0.35,
+        0.6,
+        0.15
+      ],
+      "description": "The two metal contacts that touch when the switch closes.",
+      "colorHint": "Brass nubs at the base corners.",
+      "color": "#C9A44C",
+      "function": "Complete the conductor when closed."
+    },
+    {
+      "id": "hs-wire",
+      "label": "Wire Path",
+      "conceptId": "switch-too-much-current-safety",
+      "position": [
+        0.5,
+        0.2,
+        0
+      ],
+      "description": "The in/out wires whose loop the switch decides.",
+      "colorHint": "Cool grey loop running through the base.",
+      "color": "#6B85A8",
+      "function": "Carries the current the switch gates."
+    },
+    {
+      "id": "hs-bulb",
+      "label": "Bulb",
+      "conceptId": "switch-opens-closes-loop",
+      "position": [
+        1.4,
+        0.7,
+        0.1
+      ],
+      "description": "The load that snaps on or off with the lever.",
+      "colorHint": "Small clear bulb with warm glow.",
+      "color": "#D9A441",
+      "function": "Shows the on/off result of the switch."
+    },
+    {
+      "id": "hs-ammeter",
+      "label": "Ammeter",
+      "conceptId": "switch-too-much-current-safety",
+      "position": [
+        -1.3,
+        1.0,
+        0.1
+      ],
+      "description": "The current gauge that jumps when the switch closes.",
+      "colorHint": "Round green instrument.",
+      "color": "#7FA86A",
+      "function": "Reads the current the switch lets through."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. A simple switch block with an amber rocker, cool wire loop, warm bulb, and green ammeter.",
+  "materialNotes": "Metallic=0, roughness ~0.5. Rocker smooth amber, posts brass-rough metallic ~0.5; bulb glass clear.",
+  "assetBrief": "SUBJECT: a switch as the gate of a simple circuit.\n\nGEOMETRY: switch block at center with rocker lever, two brass posts, a loop running to a battery, a bulb at +x, and an ammeter at -x.\n\nINTERACTION: click lever → contacts touch/part; bulb and ammeter flip instantly; an ammeter knob raises current and warms the posts as a safety cue.\n\nNAMED NODES: SwitchBase, Rocker, PostL, PostR, LoopWire, Bulb, Ammeter. 7-9k tris.",
+  "visual": {
+    "shape": "switch-open"
+  }
+}

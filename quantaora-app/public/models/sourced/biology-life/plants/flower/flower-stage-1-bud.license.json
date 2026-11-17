@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://quaternius.com/packs/ultimatecrops.html",
+  "sourceDownloadUrl": "https://drive.google.com/drive/folders/1uhbi-NWp7pwqOGtraBZurbphyxAvoABZ",
+  "packName": "Ultimate Crops Pack (Quaternius)",
+  "originalFilename": "Flower_1.glb",
+  "creator": "Quaternius (quaternius.com, @quaternius)",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attributionRequired": false,
+  "attributionNote": "Not legally required under CC0; project convention credits Quaternius in in-app/docs credits anyway, consistent with the existing quaternius-ultimate-nature import.",
+  "redistributionStatus": "Permitted without restriction under CC0. Redistributed here as a converted GLB derived from the original FBX asset (geometry + material colors only; no textures; no animation/skeleton -- stripped during conversion because assimp's glTF2 exporter failed to write skinned/animated meshes from this pack, static-mesh export via OBJ intermediate succeeded).",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 6624,
+  "sha256": "5431f790a365909e20e9838958eab05d784785ef45f1a0b4cb9f9b024d931624",
+  "validation": {
+    "glbMagicHeaderValid": true,
+    "glTFVersion": 2,
+    "totalLengthMatchesFileSize": true,
+    "scenes": 1,
+    "nodes": 2,
+    "meshes": 1,
+    "materials": 1,
+    "textures": 0,
+    "animations": 0,
+    "accessors": 3,
+    "boundingBoxMin": [
+      -0.06376615911722183,
+      -0.016582868993282318,
+      -0.00009810909978114069
+    ],
+    "boundingBoxMax": [
+      0.06293917447328568,
+      0.007906253449618816,
+      0.10982388257980347
+    ],
+    "renderInspected": false,
+    "notes": "Validated via Node script parsing GLB binary header + JSON chunk only; not opened in a 3D viewer. Bounding box derived from the POSITION accessor min/max. Units are meters (glTF convention) as authored by Quaternius; unverified against real-world scale."
+  },
+  "note": "Flower growth stage 1 of 4 (bud)."
+}

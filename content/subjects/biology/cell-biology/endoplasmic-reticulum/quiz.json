@@ -1,0 +1,65 @@
+{
+  "componentId": "endoplasmic-reticulum",
+  "questions": [
+    {
+      "id": "er-q-rough",
+      "conceptId": "rough-er-proteins",
+      "hotspotId": "hs-rough",
+      "prompt": "Why is the rough ER called 'rough'?",
+      "options": [
+        "It is covered with ribosomes",
+        "It is torn and damaged",
+        "It has sharp edges",
+        "It is cold"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rough ER looks bumpy because it is dotted with ribosomes, which are there to build proteins.",
+      "misconception": "The name is about appearance - the bumps are ribosomes doing protein work, not damage."
+    },
+    {
+      "id": "er-q-smooth",
+      "conceptId": "smooth-er-lipids",
+      "hotspotId": "hs-smooth",
+      "prompt": "What is one main job of the smooth ER?",
+      "options": [
+        "Making lipids (fats)",
+        "Building ribosomes",
+        "Storing DNA",
+        "Making cell walls"
+      ],
+      "correctIndex": 0,
+      "explanation": "The smooth ER has no ribosomes and specializes in making lipids and processing many molecules.",
+      "misconception": "Building protein is the rough ER's job. The smooth ER focuses on fats and processing."
+    },
+    {
+      "id": "er-q-highway",
+      "conceptId": "membrane-network-transport",
+      "hotspotId": "hs-network",
+      "prompt": "How does the ER move materials around the cell?",
+      "options": [
+        "By budding off small transport bubbles",
+        "By turning into water",
+        "By growing roots",
+        "By dissolving them"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ER packages materials into small membrane bubbles (vesicles) that carry them to other organelles or out of the cell.",
+      "misconception": "The ER doesn't dissolve or turn materials into water - it wraps them in bubbles and ships them."
+    },
+    {
+      "id": "er-q-golgi",
+      "conceptId": "membrane-network-transport",
+      "hotspotId": "hs-vesicle",
+      "prompt": "After the ER packages proteins, where do the transport bubbles usually head next?",
+      "options": [
+        "To the Golgi apparatus for sorting and shipping",
+        "Back to the nucleus for storage",
+        "To the cell wall to be destroyed",
+        "Into the nucleus permanently"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ER sends its products to the Golgi apparatus, the cell's sorting and packaging center, which sends them where they are needed.",
+      "misconception": "Products don't return to the nucleus - they move forward down the production line to the Golgi."
+    }
+  ]
+}

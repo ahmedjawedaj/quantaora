@@ -1,0 +1,109 @@
+{
+  "id": "alkali-metal",
+  "subject": "chemistry",
+  "title": "Alkali Metal",
+  "summary": "The alkali metals are Group 1's soft, shiny, explosively reactive family — lithium, sodium, potassium, and friends. Explore why a single lonely valence electron makes them so eager to react.",
+  "gradeMin": 7,
+  "gradeMax": 9,
+  "skillIds": [
+    "alkali-metal-one-valence-electron",
+    "alkali-metal-reactive",
+    "alkali-metal-group-1"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "Famous groups",
+    "component": "Alkali Metal",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > Famous groups > Alkali Metal"
+  },
+  "crossReferences": [
+    {
+      "label": "Group (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Group",
+      "note": "The alkali metals are Group 1 — the first column of the periodic table."
+    },
+    {
+      "label": "Valence electron (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Valence electron",
+      "note": "Each alkali metal has exactly one valence electron — the single outer electron it is desperate to give away."
+    },
+    {
+      "label": "Ion (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Ion",
+      "note": "By losing that one electron, alkali metals become positive ions with a +1 charge, like Na⁺."
+    },
+    {
+      "label": "Noble gas (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Noble gas",
+      "note": "Alkali metals react to lose their one outer electron and end up with a full shell — copying the calm, stable noble gas configuration."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > Famous groups",
+  "compareCandidate": {
+    "label": "Alkali metal vs. noble gas",
+    "description": "Alkali metals have one lonely outer electron and react explosively to be rid of it. Noble gases have full outer shells and almost never react. One lonely electron versus a full shell — the two poles of reactivity."
+  },
+  "parts": [
+    "One valence electron",
+    "Soft and shiny",
+    "Extremely reactive"
+  ],
+  "processes": [
+    "Losing one electron to become +1 ions",
+    "Reacting violently with water and air",
+    "Storing safely under oil"
+  ],
+  "plainLanguageExplanation": "The alkali metals are the first column of the periodic table — Group 1 — and they are chemistry's most dramatic family. They are lithium, sodium, potassium, rubidium, cesium, and francium. Each one has exactly one electron in its outer shell: one single, lonely valence electron. That is the whole secret of the family. The alkali metal atom badly wants to be rid of that one outer electron, because losing it leaves behind a full, stable shell — the calm configuration of a noble gas. So alkali metals give away their outer electron eagerly, and because it happens so fast, they react violently — and famously. A lump of sodium dropped in water skitters and hisses, releasing hydrogen and heat so fast it can catch fire. Potassium reacts even harder, and cesium can explode on contact with water. That is why chemists store them under oil, away from air and moisture. In their pure form they are soft enough to cut with a butter knife and shine like fresh silver — before they tarnish in seconds.",
+  "keyFacts": [
+    {
+      "label": "Where they live",
+      "value": "Group 1 — the first column of the periodic table"
+    },
+    {
+      "label": "Members",
+      "value": "Lithium, sodium, potassium, rubidium, cesium, francium"
+    },
+    {
+      "label": "Valence electrons",
+      "value": "Exactly one — the single outer electron they are eager to lose"
+    },
+    {
+      "label": "Reactivity",
+      "value": "Extremely reactive — sodium and potassium react violently with water"
+    },
+    {
+      "label": "Result of reacting",
+      "value": "They lose one electron and become +1 ions (like Na⁺)"
+    },
+    {
+      "label": "Physical traits",
+      "value": "Soft (cut with a knife) and shiny, but tarnish almost instantly in air"
+    }
+  ],
+  "whyItMatters": "The alkali metals are the textbook example of a group sharing behavior — and of why valence electrons drive everything. Their violent reactions make reactivity real and memorable, and their +1 ions run your body and your batteries: sodium and potassium ions carry nerve signals, and lithium powers the rechargeable batteries in your devices.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Alkali metal (Group 1)",
+  "tagline": "The explosive one-electron family",
+  "didYouKnow": "Sodium and potassium ions are the tiny sparks behind your thoughts — every time you think or move, these alkali metal ions are flowing through your nerve cells.",
+  "conditions": [
+    "Battery chemistry (lithium)",
+    "Nerve signaling (Na⁺, K⁺)",
+    "Reaction demonstrations"
+  ],
+  "compareCandidateId": "noble-gas",
+  "compareReason": "One lonely outer electron versus a full shell — comparing the reactive alkali metals with the calm noble gases shows exactly why valence electrons decide an element's temperament."
+}

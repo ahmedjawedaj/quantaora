@@ -1,0 +1,65 @@
+{
+  "componentId": "golgi-apparatus",
+  "questions": [
+    {
+      "id": "gol-q-sorts",
+      "conceptId": "golgi-sorts-ships",
+      "hotspotId": "hs-cisternae",
+      "prompt": "What is the main job of the Golgi apparatus?",
+      "options": [
+        "To sort, package, and ship the cell's products",
+        "To store the cell's DNA",
+        "To release energy from food",
+        "To carry oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Golgi receives proteins and lipids, finishes them, and packages them into bubbles sent to the right destinations.",
+      "misconception": "Storage of DNA is the nucleus, energy is the mitochondrion - sorting and shipping is the Golgi's specialty."
+    },
+    {
+      "id": "gol-q-arrive",
+      "conceptId": "receives-from-er",
+      "hotspotId": "hs-in",
+      "prompt": "Where do the products that the Golgi sorts come from?",
+      "options": [
+        "From the endoplasmic reticulum",
+        "From the cell wall",
+        "From the vacuole",
+        "From the nucleus membrane"
+      ],
+      "correctIndex": 0,
+      "explanation": "Transport bubbles carry proteins and lipids from the ER to the Golgi for finishing and shipping.",
+      "misconception": "The ER is the workshop that feeds the Golgi; the Golgi doesn't make its own cargo from scratch."
+    },
+    {
+      "id": "gol-q-label",
+      "conceptId": "packages-and-labels",
+      "hotspotId": "hs-label",
+      "prompt": "Why do products leaving the Golgi often carry molecular tags?",
+      "options": [
+        "The tags direct each product to the right place",
+        "The tags make them heavier",
+        "The tags store energy",
+        "The tags are waste"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Golgi adds molecular labels that act like shipping addresses, telling the cell where each product should go.",
+      "misconception": "Tags are information, not bulk or energy - they route each package to its destination."
+    },
+    {
+      "id": "gol-q-ship",
+      "conceptId": "golgi-sorts-ships",
+      "hotspotId": "hs-out",
+      "prompt": "How do products leave the Golgi to reach their destination?",
+      "options": [
+        "Inside small membrane bubbles that bud off",
+        "By dissolving in water",
+        "By rolling along filaments",
+        "By becoming gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Golgi wraps finished products in membrane bubbles (vesicles) that travel to their target organelle or out of the cell.",
+      "misconception": "Cargo doesn't dissolve or leak out - it is sealed in a bubble and shipped like a package."
+    }
+  ]
+}

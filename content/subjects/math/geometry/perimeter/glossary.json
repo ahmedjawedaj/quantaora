@@ -1,0 +1,41 @@
+{
+  "componentId": "perimeter",
+  "terms": [
+    {
+      "term": "Perimeter",
+      "conceptId": "perimeter-definition",
+      "hotspotId": "hs-perimeter-outline",
+      "definition": "The total distance around a shape, equal to the sum of its sides.",
+      "function": "Measures the outline.",
+      "whereItIs": "The walker's full loop.",
+      "whyItMatters": "Perimeter is the measurement of every wrapped edge."
+    },
+    {
+      "term": "Side",
+      "conceptId": "perimeter-add",
+      "hotspotId": "hs-side",
+      "definition": "One straight edge of a polygon.",
+      "function": "Each side adds its length to the total.",
+      "whereItIs": "An edge of the bed.",
+      "whyItMatters": "The perimeter is built from every side."
+    },
+    {
+      "term": "Outline walk",
+      "conceptId": "perimeter-polygon",
+      "hotspotId": "hs-walker",
+      "definition": "The path going along the edge and back to the start.",
+      "function": "A way to picture the measurement.",
+      "whereItIs": "The path the walker travels.",
+      "whyItMatters": "Walking the edge turns perimeter into movement."
+    },
+    {
+      "term": "Missing side",
+      "conceptId": "perimeter-real",
+      "hotspotId": "hs-walker",
+      "definition": "A side found by subtracting known sides from the total.",
+      "function": "Perimeter − known sides = missing side.",
+      "whereItIs": "Solved from the counter and other edges.",
+      "whyItMatters": "You can find one unknown side when you know the walk's total."
+    }
+  ]
+}

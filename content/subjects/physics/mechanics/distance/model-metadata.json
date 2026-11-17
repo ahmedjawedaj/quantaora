@@ -1,0 +1,104 @@
+{
+  "id": "distance",
+  "componentId": "distance",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/distance/distance.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/distance.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      2.3,
+      4.1
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      2.3,
+      4.1
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Obstacle course path",
+    "Hiker on the path",
+    "Distance counter",
+    "Straight-line shortcut"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-path-distance",
+      "label": "Distance Counter",
+      "conceptId": "distance-length-of-path",
+      "position": [
+        0,
+        0.9,
+        0.2
+      ],
+      "description": "The full length of the path traveled — a scalar counter that ticks up with every meter and never decreases.",
+      "positionHint": "A floating meter readout above the course, updating as the hiker moves.",
+      "color": "#D9A441",
+      "function": "Adds up the total path length traveled in meters."
+    },
+    {
+      "id": "hs-start",
+      "label": "Start Point",
+      "conceptId": "distance-length-of-path",
+      "position": [
+        -1.6,
+        0.12,
+        0
+      ],
+      "description": "The gate where the path begins — distance starts counting from here.",
+      "positionHint": "A start-arch at the left edge of the course.",
+      "color": "#6B85A8",
+      "function": "Marks where distance measurement begins."
+    },
+    {
+      "id": "hs-finish",
+      "label": "Finish Point",
+      "conceptId": "distance-always-positive",
+      "position": [
+        1.6,
+        0.12,
+        0
+      ],
+      "description": "The gate where the path ends. Even if you loop back here, the distance counter keeps its full total.",
+      "positionHint": "A finish-arch on the right edge of the course.",
+      "color": "#7FA86A",
+      "function": "Marks where the measured leg of the path ends."
+    },
+    {
+      "id": "hs-straight-line",
+      "label": "Straight Line (displacement)",
+      "conceptId": "distance-total-vs-direct",
+      "position": [
+        0,
+        0.5,
+        0.4
+      ],
+      "description": "The direct shortcut from start to finish — the displacement, which is usually shorter than the full distance covered.",
+      "positionHint": "A dashed straight arrow from finish to start floating over the winding path.",
+      "color": "#D96B5A",
+      "function": "Shows the displacement contrast to the measured distance."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props besides the mat. A flat warm-wooden course with cones and a bridge, a little hiker character, a floating amber distance readout, and a dashed magenta straight shortcut. Saturated color only on the hotspot dots and the dashed arrow. Soft neutral studio light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Course mat warm-grey wood (roughness ~0.7), cones in accent geometry (soft orange, roughness ~0.6), hiker in warm paper neutral (roughness ~0.85), readout plate warm paper with ink text. No emissive — the live distance number is drawn by the app runtime UI.",
+  "assetBrief": "SUBJECT: distance as total path length on a winding course, contrasted with a straight-line displacement shortcut.\n\nGEOMETRY: a flat rectangular course (say 4.0 × 2.4 world units) on the floor at y=0. Start gate at x=-1.6, finish gate at x=+1.6. Between them a S-curved path (a raised ribbon, y≈0.06) with cones on either side. A small hiker token rides the path. A floating meter plate above reads live distance. A dashed straight arrow spans start→finish horizontally at y≈0.5.\n\nINTERACTION: a distance slider drags the hiker along the path ribbon and the counter increments; a layer toggles the shortcut arrow and resets to a straight drag.\n\nLAYERS: (1) path+cones, (2) hiker+readout, (3) straight-line arrow.\n\nNAMED NODES: CourseMat, StartGate, FinishGate, PathRibbon, Hiker, MeterPlate, ShortcutArrow. Budget 7-11k triangles, smooth topology.",
+  "visual": {
+    "shape": "distance-path"
+  }
+}

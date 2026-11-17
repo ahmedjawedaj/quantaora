@@ -1,0 +1,50 @@
+{
+  "componentId": "place-value",
+  "terms": [
+    {
+      "term": "Place value",
+      "conceptId": "place-value-position-meaning",
+      "hotspotId": "hs-digit-number",
+      "definition": "The idea that a digit's value depends on its position within a number.",
+      "function": "Gives each digit a place-based worth (ones, tens, hundreds, and so on).",
+      "whereItIs": "Shown by the block columns and written digits in the model.",
+      "whyItMatters": "It is the foundation of writing, reading, and computing with numbers."
+    },
+    {
+      "term": "Hundreds, tens, ones",
+      "conceptId": "place-value-position-meaning",
+      "hotspotId": "hs-hundreds",
+      "definition": "The first three place positions of a number, worth 100, 10, and 1 each.",
+      "function": "Tell what each digit contributes to the total value of the number.",
+      "whereItIs": "The three labeled columns in the model.",
+      "whyItMatters": "They are the starting set of places for understanding all whole numbers."
+    },
+    {
+      "term": "Base ten",
+      "conceptId": "place-value-ten-times",
+      "hotspotId": "hs-hundreds",
+      "definition": "A number system in which each place is ten times the one to its right.",
+      "function": "They make ten of a place into one of the next higher place.",
+      "whereItIs": "The scaling between the block columns.",
+      "whyItMatters": "Why our number system only needs ten digits to write any number."
+    },
+    {
+      "term": "Regrouping",
+      "conceptId": "place-value-regrouping",
+      "hotspotId": "hs-regroup-ones",
+      "definition": "Exchanging ten units of one place for a single unit of the next higher place.",
+      "function": "Turns piled-up ones into a ten, and tens into hundreds.",
+      "whereItIs": "The regroup animation in the ones-to-tens step.",
+      "whyItMatters": "It is what 'carrying' and 'borrowing' mean during adding and subtracting."
+    },
+    {
+      "term": "Expanded form",
+      "conceptId": "place-value-read-write",
+      "hotspotId": "hs-digit-number",
+      "definition": "A number written as the sum of its place-value parts, e.g. 573 = 500 + 70 + 3.",
+      "function": "Breaks a number open to show exactly what each digit contributes.",
+      "whereItIs": "Visible as the per-column digit plates in the model.",
+      "whyItMatters": "It makes the connection between written form and quantity crystal clear."
+    }
+  ]
+}

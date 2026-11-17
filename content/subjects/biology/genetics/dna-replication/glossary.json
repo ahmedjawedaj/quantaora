@@ -1,0 +1,75 @@
+{
+  "componentId": "dna-replication",
+  "vocabulary": [
+    {
+      "term": "DNA (deoxyribonucleic acid)",
+      "definition": "The twisted-ladder molecule that stores the instructions for building and running a living thing."
+    },
+    {
+      "term": "Double helix",
+      "definition": "The twisted-ladder shape of a DNA molecule — two strands wound around each other."
+    },
+    {
+      "term": "Base pair",
+      "definition": "Two matching letters (A-T or C-G) that sit across from each other and form a rung of the DNA ladder."
+    },
+    {
+      "term": "Helicase",
+      "definition": "The enzyme that unwinds and unzips the DNA double helix into two single strands."
+    },
+    {
+      "term": "DNA polymerase",
+      "definition": "The enzyme that builds a new DNA strand by reading a template strand and adding matching bases to it."
+    },
+    {
+      "term": "Template strand",
+      "definition": "An original DNA strand that gets used as the pattern for building a new matching strand."
+    },
+    {
+      "term": "Semi-conservative replication",
+      "definition": "The way DNA copies itself so every new molecule keeps one old strand and gains one new strand."
+    },
+    {
+      "term": "Mutation",
+      "definition": "A copying mistake in the DNA sequence that can change how a gene works."
+    }
+  ],
+  "structureCards": [
+    {
+      "conceptId": "dna-helix-unwinds",
+      "label": "Helix Unwinds",
+      "definition": "The stage where the two intact strands of the DNA double helix begin to come apart, starting the copying process.",
+      "function": "Helicase, an enzyme, breaks the hydrogen bonds holding each base pair together and unwinds the twisted double helix at this point, like unzipping a spiral zipper.",
+      "whereItIs": "At the top of the model (y ≈ +6.5), where the still-twisted double helix meets the replication fork and the two backbones begin to splay apart.",
+      "whyItMatters": "Nothing else in replication can happen until the helix is unwound — the bases have to be exposed before any new strand can be built alongside them.",
+      "relatedConcept": "dna-strands-separate"
+    },
+    {
+      "conceptId": "dna-strands-separate",
+      "label": "Strands Separate",
+      "definition": "The stage where the two backbone strands, now unwound, pull fully apart into a Y-shaped replication fork, exposing their unpaired bases.",
+      "function": "Once helicase has broken the base-pair bonds, the two single strands physically separate and curve outward, each becoming an independent template strand with its row of bases exposed.",
+      "whereItIs": "Middle-upper segment of the model (y ≈ +2), at the vertex of the Y where the two backbones diverge.",
+      "whyItMatters": "Each separated strand is what the copying machinery actually reads — without full separation, DNA polymerase would have nothing exposed to match new bases against.",
+      "relatedConcept": "dna-new-strands-built"
+    },
+    {
+      "conceptId": "dna-new-strands-built",
+      "label": "New Strands Built",
+      "definition": "The stage where a brand-new, complementary strand is constructed alongside each of the two original template strands.",
+      "function": "DNA polymerase reads each template strand and matches free-floating nucleotides to it using base-pairing rules (A with T, G with C), building a new strand base by base.",
+      "whereItIs": "Middle-lower segment of the model (y ≈ -2), between the two forming daughter strands where new base-pair rungs are actively reappearing.",
+      "whyItMatters": "This is the actual copying step — it's where the genetic information from the original strand gets physically duplicated into a second, matching strand.",
+      "relatedConcept": "dna-two-copies-formed"
+    },
+    {
+      "conceptId": "dna-two-copies-formed",
+      "label": "Two DNA Copies Formed",
+      "definition": "The finished result: two complete double helices, each built from one original strand and one newly built strand.",
+      "function": "The two new strand-pairs re-twist into full double helices, producing two DNA molecules that are structurally identical to the starting molecule.",
+      "whereItIs": "Bottom segment of the model (y ≈ -6.5), where the two fully re-formed double helices sit side by side.",
+      "whyItMatters": "This is why replication exists: a dividing cell needs two complete, accurate copies of its DNA so each daughter cell inherits a full instruction set.",
+      "relatedConcept": "dna-helix-unwinds"
+    }
+  ]
+}

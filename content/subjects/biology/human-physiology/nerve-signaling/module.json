@@ -1,0 +1,110 @@
+{
+  "id": "nerve-signaling",
+  "subject": "biology",
+  "title": "Nerve Signaling",
+  "summary": "Nerve signaling is the process by which a neuron picks up a stimulus, races an electrical impulse down its axon, hands the signal off chemically at the synapse, and triggers a response in the next cell. Follow the five-step chain from stimulus to response, see how myelin and saltatory conduction speed it up, and connect it back to the single neuron cell you already explored.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "stimulus-received",
+    "electrical-impulse-travels-axon",
+    "neurotransmitter-release-at-synapse",
+    "signal-received-by-next-neuron",
+    "response-triggered"
+  ],
+  "type": "process",
+  "estimatedMinutes": 14,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Nervous System Processes",
+    "systemOrGroup": "Nerve Signaling Pathway",
+    "component": "Nerve Signaling",
+    "displayPath": "Biology > Human Physiology > Nervous System Processes > Nerve Signaling Pathway > Nerve Signaling"
+  },
+  "crossReferences": [
+    {
+      "label": "Neuron (Cell Biology)",
+      "branch": "cell-biology",
+      "component": "neuron",
+      "note": "Nerve Signaling is the full process performed by the single neuron cell explored in the Cell Biology branch's Neuron component — this component follows the signal as it hands off across two neurons and on to an effector."
+    },
+    {
+      "label": "Nervous System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Nervous system",
+      "note": "This signaling process is what the brain, spinal cord, and nerves covered in the Human Anatomy branch's Nervous System unit are built to carry out at massive scale."
+    }
+  ],
+  "belongsTo": "Human Physiology > Nervous System Processes > Nerve Signaling Pathway",
+  "compareCandidate": {
+    "label": "Nerve signal vs. a phone call",
+    "description": "The electrical impulse racing down the axon is like a signal traveling through a wire, but crossing the synapse — where the signal must convert into a chemical, drift across a gap, and get picked up by a receiver — is like a phone converting your voice into a signal a tower has to catch and relay onward."
+  },
+  "parts": [
+    "Presynaptic neuron dendrites",
+    "Axon",
+    "Myelin sheath",
+    "Axon terminal (synaptic boutons)",
+    "Synaptic cleft",
+    "Postsynaptic neuron",
+    "Effector tissue"
+  ],
+  "processes": [
+    "Stimulus reception",
+    "Electrical impulse (action potential) conduction along the axon",
+    "Saltatory conduction at the nodes of Ranvier",
+    "Neurotransmitter release and diffusion across the synapse",
+    "Receptor binding on the postsynaptic neuron",
+    "Effector response (muscle contraction or gland secretion)",
+    "Reflex arc",
+    "Neural pathway formation (learning and memory)"
+  ],
+  "plainLanguageExplanation": "A nerve signal is your body's version of a text message — but instead of Wi-Fi, it travels as a tiny electrical pulse racing down a thread-like cell called a neuron. When something touches your skin, hits your eye, or your brain decides to move a finger, a neuron flips into \"on\" mode for a split second, and that \"on\" state zips down its long tail (the axon) like a flame racing along a fuse. When the signal reaches the very end of the neuron, it can't jump the tiny gap to the next cell electrically — so it releases a burst of chemical messengers (neurotransmitters) that drift across the gap and dock onto the next neuron, restarting the electrical pulse all over again. Chain enough of these hand-offs together — skin to spinal cord to brain to muscle — and you get everything from flinching off a hot stove to reading this sentence.",
+  "keyFacts": [
+    {
+      "label": "Signal type",
+      "value": "Electrical inside the neuron, chemical at the synapse (the gap between neurons)"
+    },
+    {
+      "label": "Typical speed",
+      "value": "Up to about 120 meters per second (over 250 mph) in fast, myelin-coated neurons"
+    },
+    {
+      "label": "Chemical messenger",
+      "value": "Neurotransmitters (e.g., acetylcholine, dopamine, serotonin) carry the signal across the synapse"
+    },
+    {
+      "label": "Speed booster",
+      "value": "The myelin sheath insulates the axon and lets the impulse jump between nodes of Ranvier (saltatory conduction), speeding it up"
+    },
+    {
+      "label": "Direction",
+      "value": "Signals normally flow one way: dendrite to cell body to axon to synapse"
+    },
+    {
+      "label": "Reset step",
+      "value": "After firing, the neuron has a brief refractory period before it can fire again"
+    }
+  ],
+  "whyItMatters": "Every single thing you do — pulling your hand off something hot, catching a ball, laughing at a joke, remembering your locker combination — depends on nerve signals firing correctly and fast. Nerve signaling is also the reason medicine can help so many conditions: painkillers block pain signals, anesthesia pauses signaling during surgery, and conditions like multiple sclerosis (damaged myelin) or Parkinson's disease (low dopamine) happen when some part of this chain breaks down. Understanding nerve signaling is the foundation for understanding your brain, your reflexes, and how doctors treat nervous system disorders.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Neural Impulse Transmission",
+  "tagline": "A spark, then a message",
+  "didYouKnow": "The electrical impulse inside a neuron can't jump the gap to the next cell — it has to convert into a chemical messenger that drifts across the synapse, more like a relay handoff than one continuous wire.",
+  "conditions": [
+    "Multiple sclerosis",
+    "Parkinson's disease",
+    "Peripheral neuropathy",
+    "Nerve compression",
+    "Epilepsy"
+  ],
+  "compareCandidateId": "hormone-signaling",
+  "compareReason": "Nerve signaling and hormone signaling are the body's two communication systems: nerve signals are fast electrical impulses that trigger quick, short-lived responses, while hormone signals are slower chemical messengers that reach the whole body and often last much longer — complementary, not competing, ways the body coordinates itself."
+}

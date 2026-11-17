@@ -1,0 +1,105 @@
+{
+  "componentId": "breathing",
+  "terms": [
+    {
+      "term": "Diaphragm contraction",
+      "conceptId": "diaphragm-contraction",
+      "hotspotId": "hs-diaphragm",
+      "definition": "The tightening and flattening of the dome-shaped diaphragm muscle that kicks off one breathing cycle.",
+      "function": "Enlarges the chest cavity by pulling the diaphragm's dome downward, dropping the pressure inside the lungs so the cycle can begin.",
+      "whereItIs": "At the base of the thoracic cavity, on the diaphragm dome beneath the lungs.",
+      "whyItMatters": "It's the trigger for every breath — without the diaphragm contracting first, the lungs have no reason to expand.",
+      "relatedConcept": "lung-expansion",
+      "quizId": "breathing-q-diaphragm"
+    },
+    {
+      "term": "Lung expansion",
+      "conceptId": "lung-expansion",
+      "hotspotId": "hs-lung-expansion",
+      "definition": "The outward and downward stretch of the elastic lungs as they fill the extra space made by the diaphragm.",
+      "function": "Lets the lungs' internal volume grow to match the enlarged chest cavity, which is what actually drops the air pressure inside the airway.",
+      "whereItIs": "The mid-outer surface of the lungs, most visible at the widest point of the larger, three-lobe right lung.",
+      "whyItMatters": "Lung expansion is a passive response, not an active pull — it's the direct link between the diaphragm's motion and air actually moving.",
+      "relatedConcept": "inhale",
+      "quizId": "breathing-q-lung-expansion"
+    },
+    {
+      "term": "Inhale",
+      "conceptId": "inhale",
+      "hotspotId": "hs-inhale",
+      "definition": "Drawing air into the lungs through the nose or mouth, down the trachea, and into the bronchi.",
+      "function": "Moves fresh, oxygen-rich air from outside the body down into the airway and toward the alveoli, driven by the pressure drop from lung expansion.",
+      "whereItIs": "The top of the trachea, just below where it meets the throat.",
+      "whyItMatters": "Inhaling is the delivery step — it's how oxygen physically gets from the outside world to where gas exchange can happen.",
+      "relatedConcept": "gas-exchange-alveoli",
+      "quizId": "breathing-q-inhale"
+    },
+    {
+      "term": "Gas exchange at alveoli",
+      "conceptId": "gas-exchange-alveoli",
+      "hotspotId": "hs-gas-exchange",
+      "definition": "The swap of oxygen and carbon dioxide across the thin walls of the alveoli, between the air and the blood.",
+      "function": "Lets oxygen diffuse from the air into the bloodstream and carbon dioxide diffuse from the blood into the air, using no pump — just diffusion.",
+      "whereItIs": "At the tips of the smallest airways, on the zoomed alveoli-cluster inset near the lower-outer edge of the right lung.",
+      "whyItMatters": "This is the actual point of breathing — every other stage exists to get air to this exchange surface and take the swapped gases away again.",
+      "relatedConcept": "alveoli",
+      "quizId": "breathing-q-gas-exchange"
+    },
+    {
+      "term": "Exhale",
+      "conceptId": "exhale",
+      "hotspotId": "hs-exhale",
+      "definition": "Pushing carbon-dioxide-rich air back out of the lungs as the diaphragm relaxes and the chest cavity shrinks.",
+      "function": "Clears out carbon dioxide-rich air so the next inhale can bring in a fresh supply of oxygen.",
+      "whereItIs": "The lower trachea / upper bronchi junction, just above where the airway splits into the two lungs.",
+      "whyItMatters": "Exhaling is mostly passive elastic recoil, not a separate active push — understanding that helps explain why breathing normally feels effortless at rest.",
+      "relatedConcept": "diaphragm-contraction",
+      "quizId": "breathing-q-exhale"
+    },
+    {
+      "term": "Diaphragm",
+      "conceptId": "diaphragm",
+      "definition": "A dome-shaped sheet of muscle below the lungs; it contracts and flattens downward to power inhaling and relaxes upward to help push air out.",
+      "function": "Acts as the primary engine of breathing by changing the volume of the chest cavity with every contraction and relaxation.",
+      "whereItIs": "Anchored to the lower ribs, forming the floor of the chest cavity beneath the lungs.",
+      "whyItMatters": "It's why singers, swimmers, and athletes train 'diaphragm control' — a stronger, more controlled diaphragm means more efficient breathing.",
+      "relatedConcept": "diaphragm-contraction"
+    },
+    {
+      "term": "Trachea",
+      "conceptId": "trachea",
+      "definition": "The windpipe — the main tube that carries air from your throat down toward the lungs.",
+      "function": "Provides a single, rigid, ring-reinforced passage for air to travel from the throat down to where it splits into the bronchi.",
+      "whereItIs": "Running down the front of the neck and upper chest, splitting into the left and right bronchi partway down.",
+      "whyItMatters": "Its cartilage rings keep it from collapsing with every breath, so air can always get through.",
+      "relatedConcept": "bronchi"
+    },
+    {
+      "term": "Bronchi",
+      "conceptId": "bronchi",
+      "definition": "The two large branches where the trachea splits, one leading into each lung, before dividing further into smaller airways.",
+      "function": "Route incoming air from the single trachea into each lung, then keep branching into progressively smaller tubes toward the alveoli.",
+      "whereItIs": "Just below the middle of the chest, where the trachea forks into a left and right branch.",
+      "whyItMatters": "This branching is why one windpipe can serve two lungs, and it's a common site for airway narrowing in conditions like asthma.",
+      "relatedConcept": "trachea"
+    },
+    {
+      "term": "Alveoli",
+      "conceptId": "alveoli",
+      "definition": "Tiny balloon-like air sacs at the very end of the airway branches, wrapped in thin blood vessels, where oxygen and carbon dioxide are swapped.",
+      "function": "Provide the enormous, thin-walled surface area needed for oxygen and carbon dioxide to diffuse between air and blood.",
+      "whereItIs": "Clustered like grapes at the terminal tips of the smallest bronchioles, deep inside the lungs.",
+      "whyItMatters": "Each pair of lungs has a few hundred million alveoli — that huge surface area is what makes gas exchange fast enough to keep up with the body's needs.",
+      "relatedConcept": "gas-exchange-alveoli"
+    },
+    {
+      "term": "Lungs",
+      "conceptId": "lungs",
+      "definition": "The pair of elastic, sponge-like organs that expand and recoil with every breath, housing the airway branches and alveoli.",
+      "function": "Provide the housing and elastic recoil for the entire breathing cycle — expanding to draw air in and springing back to help push it out.",
+      "whereItIs": "Filling most of the chest cavity, protected by the ribcage, with the right lung (3 lobes) larger than the left (2 lobes, to make room for the heart).",
+      "whyItMatters": "Because lungs are passive elastic tissue rather than active muscle, understanding them explains why the diaphragm — not the lungs themselves — is what actually drives breathing.",
+      "relatedConcept": "lung-expansion"
+    }
+  ]
+}

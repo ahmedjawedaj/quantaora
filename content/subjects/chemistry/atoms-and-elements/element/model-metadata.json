@@ -1,0 +1,89 @@
+{
+  "id": "element",
+  "componentId": "element",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/atoms-and-elements/element/element.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/atoms-and-elements/element.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.1
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.1
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Element samples",
+    "Zoom into atoms",
+    "Combine into compound"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-element-samples",
+      "label": "Element samples",
+      "conceptId": "element-one-kind-of-atom",
+      "position": [
+        -0.85,
+        0.55,
+        0
+      ],
+      "description": "Pure element samples: gold, carbon, oxygen, helium. Each is a substance made of exactly one kind of atom.",
+      "positionHint": "The four samples arranged in a row.",
+      "color": "#D9A441",
+      "function": "Shows pure substances made of a single kind of atom."
+    },
+    {
+      "id": "hs-element-atoms",
+      "label": "Identical atoms",
+      "conceptId": "element-one-kind-of-atom",
+      "position": [
+        0.8,
+        0.85,
+        0
+      ],
+      "description": "Zoom into the gold and every atom is a gold atom. One element = one kind of atom, repeated billions of times.",
+      "positionHint": "The atom cluster revealed when the zoom-in layer is on.",
+      "color": "#D96B5A",
+      "function": "Shows that an element is all identical atoms."
+    },
+    {
+      "id": "hs-element-combine",
+      "label": "Elements combining",
+      "conceptId": "element-pure-substance",
+      "position": [
+        0,
+        -0.8,
+        0
+      ],
+      "description": "When elements bond, they form a new substance — a compound. Hydrogen and oxygen bond into water; the raw ingredients become something new.",
+      "positionHint": "The hydrogen and oxygen atoms merging into a water molecule, visible when the combine layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows elements bonding into a compound."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. Four floating element samples in a row, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Gold: soft warm-yellow chunk; carbon: soft graphite block; oxygen: translucent pale-blue puff; helium: translucent pale-gray puff. Strong saturated color is reserved for the small flat hotspot dots (amber / coral / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere except gold (metallic ~0.7) and carbon (roughness ~0.8), single 2K shared texture atlas. Gold chunk: warm yellow, metallic 0.7. Carbon block: soft graphite, roughness 0.8. Oxygen/helium puffs: translucent pale, alpha ~0.3. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: samples of pure elements, built to be read as 'pure substances — one kind of atom each — that combine to make everything.' Three procedural layers, all clean primitives:\n\n1) MAIN: four element samples in a row (spacing ~1.2): (a) a small gold chunk — a few rounded soft warm-yellow polyhedra; (b) a carbon block — a soft graphite cube; (c) an oxygen puff — a soft translucent pale-blue rounded cloud; (d) a helium puff — a soft translucent pale-gray rounded cloud.\n\n2) ZOOM INTO ATOMS (toggleable layer): the camera eases into the gold chunk (app-driven) and it dissolves into a cluster of identical warm-yellow atom spheres (radius ~0.18) — all the same kind, all gold.\n\n3) COMBINE INTO COMPOUND (toggleable layer): a hydrogen atom (small warm off-white sphere) and an oxygen atom (small muted red sphere) float up from the samples and bond into a water molecule (104.5° ball-stick with a thin graphite rod) — a compound made from two elements.\n\nCamera: framed so all four samples fit with negative space; auto-rotate default. Budget 8-12k triangles. Named nodes: GoldChunk, CarbonBlock, OxygenPuff, HeliumPuff, GoldAtomCluster, GoldAtoms, HydrogenAtom, OxygenAtom, WaterMolecule, WaterBond. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "element-tile"
+  }
+}

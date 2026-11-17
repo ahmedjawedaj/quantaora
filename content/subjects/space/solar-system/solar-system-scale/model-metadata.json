@@ -1,0 +1,120 @@
+{
+  "id": "solar-system-scale",
+  "componentId": "solar-system-scale",
+  "subject": "space",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/solar-system/solar-system-scale.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/space/solar-system/solar-system-scale.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: it is generated entirely from three.js primitives at runtime by a scene-builder module, not loaded from a GLB file. `url` is a placeholder pointing to where that scene-builder module should live following this project's conventions. `thumbnailUrl` is a placeholder PNG path following the standard asset-folder convention (spec section 21). `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated values derived from the assetBrief's described scene layout — a starting point for the dev implementing the scene-builder, to be verified against the running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      8.5
+    ],
+    "target": [
+      2.2,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      8.5
+    ],
+    "target": [
+      2.2,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Sun (size-to-scale)",
+    "Inner planets (Mercury–Mars, size-to-scale)",
+    "Outer planets (Jupiter–Neptune, size-to-scale)",
+    "AU scale bar with light-travel-time counter",
+    "True-distance mode (distances expanded)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-sun",
+      "label": "The Sun",
+      "conceptId": "sun-dominates-in-size",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "description": "The Sun's radius is about 109 times Earth's. Against the planets lined up beside it, the Sun's sphere dominates the scene — and that gap is still far smaller than the real one.",
+      "positionHint": "Left end of the planet line at the scene origin. A large matte sphere (radius 1.0 in scene units), surface finished with soft granulation. The hotspot sits on its upper-left face where it reads against the backdrop.",
+      "color": "#E8A33D",
+      "function": "Anchors the scale comparison — every planet's size and distance is measured from here."
+    },
+    {
+      "id": "hs-earth-speck",
+      "label": "Earth (true scale)",
+      "conceptId": "planets-are-tiny-specks",
+      "position": [
+        1.62,
+        0,
+        0.22
+      ],
+      "description": "At true relative size, Earth is a tiny speck — only about 1/109th the Sun's diameter. In the model it sits just over one scale-bar length from the Sun, representing 1 AU.",
+      "positionHint": "Second small sphere in the inner-planet cluster along the +X axis (radius ~0.009 scene units in true-scale mode), just past Mercury. In size-only mode the same hotspot re-anchors to the Earth card's position.",
+      "color": "#7FA88A",
+      "function": "Shows how small a planet is against the Sun, and how far 1 AU really is."
+    },
+    {
+      "id": "hs-distance-gap",
+      "label": "The great gap",
+      "conceptId": "distance-gaps-are-huge",
+      "position": [
+        2.35,
+        0.1,
+        0
+      ],
+      "description": "Between Mars and Jupiter lies a stretch wider than the entire Sun–Mars distance. This empty-looking region is where the asteroid belt orbits.",
+      "positionHint": "Midway along the line between the inner-planet cluster and Jupiter, in the empty region where the asteroid-belt ring sits at true distance. Anchored to the belt ring geometry, no dedicated mesh of its own.",
+      "color": "#C08B5C",
+      "function": "Marks the biggest single jump in distance along the planet line."
+    },
+    {
+      "id": "hs-au-scale",
+      "label": "AU scale bar",
+      "conceptId": "au-distance-unit",
+      "position": [
+        1.05,
+        0.85,
+        0
+      ],
+      "description": "A thin bar floating above the line marks one astronomical unit — the average Sun–Earth distance, about 150 million km. A small counter shows light travel time along the bar.",
+      "positionHint": "Floating above the inner-planet cluster at roughly y=0.85, aligned along X with its near end at the Sun's edge. A slim flat box with tick marks and a small readout plane.",
+      "color": "#6B85A8",
+      "function": "Gives the model a measuring stick so distances and light-travel times can be read off directly."
+    },
+    {
+      "id": "hs-outer-planets",
+      "label": "Outer planets",
+      "conceptId": "distance-gaps-are-huge",
+      "position": [
+        4.3,
+        0.25,
+        0.55
+      ],
+      "description": "Jupiter, Saturn, Uranus, and Neptune are giant worlds — but in true-distance mode they recede so far that even Jupiter looks small. All four sit beyond the great gap.",
+      "positionHint": "Right side of the scene beyond the gap: four spheres in a compact group at the end of the line, Jupiter largest (radius ~0.11), then Saturn, Uranus, Neptune.",
+      "color": "#A6B0C4",
+      "function": "Shows the giant planets as a distant, dwarfed group at the far end of the scale."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar throughout: warm off-white studio backdrop, large centered object, minimal chrome, no glow, no bloom, no emissive materials anywhere, no cartoon outlines, no floor grid. The scene reads as a museum scale-model on a soft radial ground-shadow (a faint blurred dark ellipse beneath the planet line, not a modeled pedestal). All eight planets plus the Sun are built from smooth high-segment spheres (64/48) with flat matte PBR materials and subtle texture variation baked as vertex paint (banding for gas giants, mottling for rocky worlds) — never from image textures, since this is a schematic scale model, not a photoreal render. Color is restrained: warm cream-white Sun, muted ochre Mercury, warm cream Venus, soft dusty blue-green Earth, muted rust Mars, cream-and-tan-banded Jupiter, pale gold Saturn with thin ring discs, pale grey-green Uranus and Neptune. Hotspot dots are small flat-colored circles in the app's standard treatment — the only saturated color in the scene.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, no emissive channels, roughness ~0.55-0.7 across all bodies so they read as softly lit matte spheres with gentle specular falloff rather than glossy balls. The AU scale bar is a slim matte warm-grey flat box with a small dark-text readout plane. Any highlight-on-tap feedback for active hotspots/layers is handled by the app's runtime shader/UI, not baked into the asset.",
+  "assetBrief": "SUBJECT: A schematic solar system scale model laid out along the X axis — the Sun at the origin, with the eight planets placed along +X. The model has two arrangement states controlled by the app's layer toggle: (1) SIZE-ONLY mode — planets spaced evenly and enlarged just enough to be legible (Sun radius 1.0, Jupiter 0.11, Saturn 0.095, Uranus 0.04, Neptune 0.04, Earth 0.0095 scaled up for legibility to ~0.05 in this mode only, Mercury ~0.02, Venus ~0.045, Mars ~0.027), used for naming and size comparison; (2) TRUE-DISTANCE mode — planet positions follow real relative distances mapped onto the scene (1 AU ≈ 0.72 scene units: Mercury 0.29, Venus 0.52, Earth 0.72, Mars 1.1, then a gap, Jupiter 3.75, Saturn 6.9, Uranus 13.8, Neptune 21.6 units along X), with the planets' sizes kept honest at the same scale as the Sun, making Earth a speck. A thin AU scale bar floats at y=0.85 over the inner region with tick marks every 0.5 AU and a small light-travel-time readout (updates as the camera moves: 8 min at Earth, ~4h at Neptune). A faint ring of small spheres marks the asteroid belt between Mars and Jupiter in true-distance mode. Cross-section: not applicable (crossSectionAvailable false). Default camera framing ([0, 1.7, 8.5] → target [2.2, 0, 0]) shows the Sun and inner planets large and central with the outer planets receding toward the right frame edge. Slow auto-rotate (~28s/revolution) that pauses when a hotspot opens, so camera motion never fights the toggle animations. Grounding: soft radial ground-shadow beneath the whole line. Group every body and the scale bar under named groups matching the layers list so the app's layer-toggle UI can show/hide each independently.",
+  "visual": {
+    "shape": "solar-scale"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "breathing",
+  "subject": "biology",
+  "title": "Breathing",
+  "summary": "Breathing is the involuntary, muscle-driven cycle that pulls oxygen-rich air into the lungs and pushes carbon-dioxide-rich air back out. Watch the diaphragm contract, the lungs expand, air rush in, oxygen and carbon dioxide swap places at the alveoli, and the cycle reverse on the exhale — roughly 12-20 times a minute at rest.",
+  "gradeMin": 3,
+  "gradeMax": 8,
+  "skillIds": [
+    "diaphragm-contraction",
+    "lung-expansion",
+    "inhale",
+    "gas-exchange-alveoli",
+    "exhale"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Circulatory & Respiratory Processes",
+    "systemOrGroup": "Respiratory system",
+    "component": "Breathing",
+    "displayPath": "Biology > Human Physiology > Circulatory & Respiratory Processes > Respiratory system > Breathing"
+  },
+  "crossReferences": [
+    {
+      "label": "Respiratory System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Respiratory system",
+      "note": "The lungs, trachea, bronchi, and diaphragm animated in this breathing cycle are the same organs covered individually as static anatomy in the Human Anatomy branch's Respiratory System unit."
+    },
+    {
+      "label": "Blood Circulation (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Blood circulation",
+      "note": "Oxygen picked up during gas exchange at the alveoli is carried onward by the heartbeat-driven cardiac cycle covered as its own process in this branch — see this component's Compare it step."
+    },
+    {
+      "label": "Cellular Respiration (Genetics/Cell Biology)",
+      "branch": "human-physiology",
+      "note": "The oxygen breathing delivers to the blood is ultimately used by individual cells in cellular respiration to release usable energy from food; referenced here but taught as its own process."
+    }
+  ],
+  "belongsTo": "Human Physiology > Circulatory & Respiratory Processes > Respiratory system",
+  "compareCandidate": {
+    "label": "Breathing vs. blood circulation (the cardiac cycle)",
+    "description": "Both are rhythmic, involuntary, muscle-driven cycles that never stop and work as a team: breathing loads oxygen into the blood at the lungs, while the heartbeat-driven cardiac cycle carries that oxygen to every cell in the body and brings carbon dioxide back to be exhaled."
+  },
+  "parts": [
+    "Diaphragm contraction",
+    "Lung expansion",
+    "Inhale",
+    "Gas exchange at alveoli",
+    "Exhale"
+  ],
+  "processes": [
+    "Blood circulation (carrying oxygen and carbon dioxide around the body)",
+    "Cellular respiration (cells using oxygen to release energy from food)",
+    "Cardiac cycle (the heartbeat that pumps blood past the alveoli)"
+  ],
+  "plainLanguageExplanation": "Breathing is how your body pulls fresh air in and pushes used air back out, over and over, without you ever having to think about it. Every time you inhale, you're collecting oxygen — a gas your cells need to release energy from food — and every time you exhale, you're getting rid of carbon dioxide, a waste gas your cells don't need. The main muscle that makes this happen is the diaphragm, a dome-shaped sheet of muscle stretched under your lungs like the bottom of a drum. When it tightens and flattens, it makes more room inside your chest, so your elastic lungs expand to fill that space and air rushes in — the same way pulling back the plunger on a syringe drags air (or liquid) in behind it. Air travels down your windpipe (trachea), splits into smaller and smaller branches (bronchi), and finally reaches hundreds of millions of tiny air sacs called alveoli, each wrapped in a mesh of super-thin blood vessels. That's where the real swap happens: oxygen slips out of the air and into your blood, while carbon dioxide slips out of your blood and into the air, ready to be breathed out on the next exhale.",
+  "keyFacts": [
+    {
+      "label": "Resting breathing rate",
+      "value": "About 12-20 breaths per minute for a typical resting human; this rises sharply during exercise or stress"
+    },
+    {
+      "label": "Primary breathing muscle",
+      "value": "The diaphragm — a dome-shaped sheet of muscle beneath the lungs that contracts and flattens to power inhaling"
+    },
+    {
+      "label": "Alveoli count",
+      "value": "Each pair of lungs contains roughly a few hundred million tiny air sacs called alveoli, where gas exchange happens"
+    },
+    {
+      "label": "Automatic control",
+      "value": "A breathing control center in the brainstem sets the normal rhythm automatically, but breathing can also be consciously overridden (holding your breath, breathing faster)"
+    },
+    {
+      "label": "How gas exchange works",
+      "value": "Oxygen and carbon dioxide move across the thin alveoli walls by diffusion — moving from where there's more of them to where there's less, no pump needed"
+    }
+  ],
+  "whyItMatters": "Every cell in your body needs a steady supply of oxygen to turn food into usable energy, and breathing is the delivery system that makes that possible — it's why you can't skip it even for a few minutes. Understanding breathing explains everyday experiences: why you pant after running (your muscles are demanding oxygen faster than usual and producing carbon dioxide faster too), why yawning and sighing happen, and why conditions like asthma — where airways narrow — make breathing feel so much harder. It also underlies why swimmers and singers train their diaphragm control, why altitude makes breathing tougher (less oxygen in the air), and why doctors check breathing rate as one of the first signs of how well your body is doing.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Pulmonary Ventilation",
+  "tagline": "The rhythm that never stops",
+  "didYouKnow": "No muscle inside the lungs actually \"sucks\" air in — the lungs are passive, elastic tissue that simply expands to fill the extra space the diaphragm creates.",
+  "conditions": [
+    "Asthma",
+    "Sleep apnea",
+    "Hyperventilation",
+    "Chronic obstructive pulmonary disease (COPD)",
+    "Pneumonia",
+    "Altitude sickness"
+  ],
+  "compareCandidateId": "blood-circulation",
+  "compareReason": "Both are rhythmic, involuntary, muscle-driven cycles that never stop and work as a team: breathing loads oxygen into the blood at the lungs, while the heartbeat-driven cardiac cycle carries that oxygen to every cell in the body and brings carbon dioxide back to be exhaled."
+}

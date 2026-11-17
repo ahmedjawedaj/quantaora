@@ -1,0 +1,103 @@
+{
+  "id": "endothermic",
+  "subject": "chemistry",
+  "title": "Endothermic Reaction",
+  "summary": "An endothermic reaction absorbs energy from its surroundings, usually as heat — like a cold pack getting cold, an egg cooking, or a plant using sunlight. It is the opposite of exothermic.",
+  "gradeMin": 8,
+  "gradeMax": 10,
+  "skillIds": [
+    "endothermic-absorbs-energy",
+    "endothermic-cools-surroundings",
+    "endothermic-examples"
+  ],
+  "type": "model",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Chemical Reactions",
+    "unit": "Energy Changes",
+    "systemOrGroup": "Reactions and energy",
+    "component": "Endothermic Reaction",
+    "displayPath": "Chemistry > Chemical Reactions > Energy Changes > Reactions and energy > Endothermic Reaction"
+  },
+  "crossReferences": [
+    {
+      "label": "Exothermic reaction (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Exothermic",
+      "note": "The endothermic reaction absorbs energy; the exothermic reaction releases it. Opposite energy partners."
+    },
+    {
+      "label": "Reactant (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Reactant",
+      "note": "The reactants of an endothermic reaction hold LESS energy than the products — the extra must be pulled in from the surroundings."
+    },
+    {
+      "label": "Conservation of mass (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Conservation of mass",
+      "note": "Mass is conserved in endothermic reactions too — atoms are rearranged, even as energy is absorbed."
+    }
+  ],
+  "belongsTo": "Chemical Reactions > Energy Changes > Reactions and energy",
+  "compareCandidate": {
+    "label": "Endothermic vs. exothermic",
+    "description": "An endothermic reaction ABSORBS energy — it cools its surroundings, like a cold pack or a cooking egg. An exothermic reaction RELEASES energy — it warms its surroundings, like a fire or hand warmer. One takes in, the other gives out."
+  },
+  "parts": [
+    "Absorbs energy",
+    "Cools its surroundings",
+    "Needs an energy supply to run"
+  ],
+  "processes": [
+    "Pulling heat out of the surroundings",
+    "Feeding on sunlight or other energy",
+    "Driving cold packs, cooking, and photosynthesis"
+  ],
+  "plainLanguageExplanation": "An endothermic reaction is a chemical reaction that absorbs energy from its surroundings. The name means 'heat coming in' — endo (in) + therm (heat). When such a reaction runs, it sucks energy out of whatever surrounds it, usually as heat — which is why the surroundings get COLDER. The classic example is a cold pack: you crack the inner packet, a chemical reaction starts, and it absorbs heat so eagerly that the pack freezes cold. Cooking an egg is endothermic too — the egg absorbs heat from the pan to transform. And the most important endothermic reaction on Earth is photosynthesis: a plant absorbs energy from sunlight to build sugars from carbon dioxide and water. Why does this happen? In an endothermic reaction, the products hold MORE energy than the reactants. That extra energy does not appear by magic — it has to be pulled in from the surroundings. So the surroundings lose heat and cool down. Endothermic reactions are the quiet absorbers of chemistry — they take energy in and leave the world a little cooler.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A reaction that absorbs energy from its surroundings"
+    },
+    {
+      "label": "Name meaning",
+      "value": "'Endo' = in, 'therm' = heat — heat coming in"
+    },
+    {
+      "label": "What happens",
+      "value": "Pulls heat out of the surroundings, which cool down"
+    },
+    {
+      "label": "Why",
+      "value": "Products hold more energy than the reactants — the extra is pulled in"
+    },
+    {
+      "label": "Examples",
+      "value": "Cold packs, cooking an egg, photosynthesis"
+    },
+    {
+      "label": "Result",
+      "value": "The surroundings get colder"
+    }
+  ],
+  "whyItMatters": "Endothermic reactions power some of the most important processes on Earth — photosynthesis feeds the planet, cold packs ease injuries, and cooking transforms food. Understanding them explains why some reactions make things cold, and why the biggest energy input on the planet comes through plants absorbing sunlight.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Endothermic reaction",
+  "tagline": "Reactions that soak up heat",
+  "didYouKnow": "Every plant leaf is running endothermic reactions all day — absorbing sunlight to build sugars. When you eat a salad, you are eating the products of billions of endothermic reactions.",
+  "conditions": [
+    "Photosynthesis",
+    "Cold packs",
+    "Cooking and baking"
+  ],
+  "compareCandidateId": "exothermic",
+  "compareReason": "The endothermic and exothermic reactions are opposite energy partners — comparing absorbing with releasing makes the whole energy story of reactions crystal clear."
+}

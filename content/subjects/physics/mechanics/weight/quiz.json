@@ -1,0 +1,80 @@
+{
+  "componentId": "weight",
+  "questions": [
+    {
+      "id": "weight-q-definition",
+      "conceptId": "weight-gravitational-force",
+      "hotspotId": "hs-spring-scale",
+      "prompt": "What is weight in physics?",
+      "options": [
+        "The force of gravity pulling on an object's mass",
+        "How much space an object takes up",
+        "The amount of matter inside an object",
+        "How fast an object falls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight is a force — gravity's pull on the object's mass — and is measured in newtons.",
+      "misconception": "Weight and mass are frequently merged into one idea; weight is the force (N), mass is the matter (kg)."
+    },
+    {
+      "id": "weight-q-formula",
+      "conceptId": "weight-equals-mg",
+      "hotspotId": "hs-weight-value",
+      "prompt": "A 5 kg mass sits on Earth where g ≈ 10 m/s². What is its weight?",
+      "options": [
+        "50 N",
+        "5 N",
+        "0.5 N",
+        "20 N"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight = mass × g = 5 × 10 = 50 N.",
+      "misconception": "Some pick 5 N (as if weight were the same number as mass) or 0.5 N (dividing) — the formula multiplies by g."
+    },
+    {
+      "id": "weight-q-moon",
+      "conceptId": "weight-changes-with-gravity",
+      "hotspotId": "hs-location-dial",
+      "prompt": "The Moon's gravity is about 1/6 of Earth's. A 60 kg astronaut's weight on the Moon is roughly...",
+      "options": [
+        "One sixth of their Earth weight",
+        "Twice their Earth weight",
+        "Exactly the same as on Earth",
+        "Zero no matter what"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight = mass × g; g is about 1/6 as large, so the force (weight) drops to about a sixth while the 60 kg mass is unchanged.",
+      "misconception": "Choosing 'same as Earth' conflates weight with mass; choosing 'zero' confuses orbit with the lunar surface (where gravity still pulls)."
+    },
+    {
+      "id": "weight-q-unit",
+      "conceptId": "weight-gravitational-force",
+      "hotspotId": "hs-newton-mark",
+      "prompt": "Which unit is used to measure weight?",
+      "options": [
+        "Newton (N)",
+        "Kilogram (kg)",
+        "Liter (L)",
+        "Meter (m)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight is a force, so it uses the newton (N). The kilogram measures mass, not the force.",
+      "misconception": "Everyday scales print kg, which hides the distinction — but weight is a force and its proper unit is the newton."
+    },
+    {
+      "id": "weight-q-vs-mass",
+      "conceptId": "weight-vs-mass",
+      "hotspotId": "hs-kg-tag",
+      "prompt": "An object moves from Earth to the Moon. Which statement is true?",
+      "options": [
+        "Its mass stays the same, but its weight decreases",
+        "Its weight stays the same, but its mass increases",
+        "Both its mass and weight stay the same",
+        "Both its mass and weight decrease equally"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mass is a property of the object and stays 60 kg; weight is gravitational pull and falls to about a sixth because g is smaller on the Moon.",
+      "misconception": "Swapping the roles (weight constant, mass changing) is the classic inversion of the two quantities."
+    }
+  ]
+}

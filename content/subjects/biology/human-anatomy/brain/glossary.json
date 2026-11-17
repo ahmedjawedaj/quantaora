@@ -1,0 +1,60 @@
+{
+  "componentId": "brain",
+  "terms": [
+    {
+      "term": "Brain",
+      "conceptId": "cerebrum-thinking",
+      "hotspotId": "hs-cerebrum",
+      "definition": "The body's control center, made of billions of neurons.",
+      "function": "Thinks, senses, moves, feels, and remembers.",
+      "whereItIs": "Inside the skull.",
+      "whyItMatters": "It runs everything the body does.",
+      "relatedConcept": "cerebellum-balance",
+      "quizId": "brn-q-cerebrum"
+    },
+    {
+      "term": "Cerebrum",
+      "conceptId": "cerebrum-thinking",
+      "hotspotId": "hs-cerebrum",
+      "definition": "The large wrinkled outer brain.",
+      "function": "Handles thinking, sensing, and voluntary movement.",
+      "whereItIs": "Top and sides of the brain.",
+      "whyItMatters": "It is where most conscious thinking happens.",
+      "relatedConcept": "memory-emotion-regions",
+      "quizId": "brn-q-cerebrum"
+    },
+    {
+      "term": "Cerebellum",
+      "conceptId": "cerebellum-balance",
+      "hotspotId": "hs-cerebellum",
+      "definition": "The region at the back of the brain that coordinates balance and movement.",
+      "function": "Keeps movement smooth and balanced.",
+      "whereItIs": "At the base, at the back.",
+      "whyItMatters": "It makes coordinated skills like riding a bike possible.",
+      "relatedConcept": "cerebrum-thinking",
+      "quizId": "brn-q-cerebellum"
+    },
+    {
+      "term": "Brainstem",
+      "conceptId": "brainstem-automatic",
+      "hotspotId": "hs-brainstem",
+      "definition": "The stalk connecting the brain to the spinal cord.",
+      "function": "Runs automatic life functions like breathing and heartbeat.",
+      "whereItIs": "Underneath the brain.",
+      "whyItMatters": "It keeps life functions going without conscious thought.",
+      "relatedConcept": "cerebrum-thinking",
+      "quizId": "brn-q-brainstem"
+    },
+    {
+      "term": "Neuron",
+      "conceptId": "cerebrum-thinking",
+      "hotspotId": "hs-cerebrum",
+      "definition": "A nerve cell that sends and receives signals.",
+      "function": "Carries information around the brain and body.",
+      "whereItIs": "Throughout the nervous system.",
+      "whyItMatters": "Neurons are the wiring that makes the brain work.",
+      "relatedConcept": "brainstem-automatic",
+      "quizId": "brn-q-neurons"
+    }
+  ]
+}

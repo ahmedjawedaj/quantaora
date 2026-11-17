@@ -1,0 +1,103 @@
+{
+  "id": "metalloid",
+  "subject": "chemistry",
+  "title": "Metalloid",
+  "summary": "A metalloid is an element with properties between metals and nonmetals — shiny like a metal but conductive only part-way, which makes metalloids like silicon perfect semiconductors. Explore the staircase family that powers your electronics.",
+  "gradeMin": 7,
+  "gradeMax": 9,
+  "skillIds": [
+    "metalloid-between-metal-nonmetal",
+    "metalloid-semiconductor",
+    "metalloid-sits-on-staircase"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "The great elemental families",
+    "component": "Metalloid",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > The great elemental families > Metalloid"
+  },
+  "crossReferences": [
+    {
+      "label": "Metal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Metal",
+      "note": "Metalloids look somewhat metal-like — often shiny — but they do not conduct as freely as true metals."
+    },
+    {
+      "label": "Nonmetal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Nonmetal",
+      "note": "Metalloids sit between metals and nonmetals on the table, sharing some traits with each side."
+    },
+    {
+      "label": "Group (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Group",
+      "note": "The metalloids cross the groups along a diagonal staircase; most are in Groups 13-16."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > The great elemental families",
+  "compareCandidate": {
+    "label": "Metalloid vs. metal and nonmetal",
+    "description": "A metalloid sits between the two great families: it often looks shiny like a metal, but its conductivity is in-between — a 'semi' conductor — and it sits on the staircase that divides the table."
+  },
+  "parts": [
+    "In-between metal and nonmetal",
+    "Staircase position",
+    "Semiconductor behavior"
+  ],
+  "processes": [
+    "Conducting only part-way — switching on and off",
+    "Acting as semiconductors in electronics",
+    "Sitting along the table's dividing staircase"
+  ],
+  "plainLanguageExplanation": "A metalloid is an element that does not fit neatly into either big family — it behaves part-way between a metal and a nonmetal. Look at the periodic table and you will see a zigzag staircase running diagonally down it. The metalloids live along that staircase: boron, silicon, germanium, arsenic, antimony, tellurium, and sometimes a few others. Physically, many metalloids look metal-like — silicon and germanium have a dull metallic shine. But their chemistry and their conductivity are in-between. Most importantly, metalloids conduct electricity only partially, and they can be made to switch between conducting and not conducting. That 'part-way' behavior is so useful that it has a special name: semiconduction, meaning a semiconductor. This one property built the digital world. Silicon, the most famous metalloid, is the raw material of computer chips — every phone, laptop, and game console runs on silicon semiconductors that switch current on and off billions of times per second. Without the metalloids, modern electronics would not exist.",
+  "keyFacts": [
+    {
+      "label": "What they are",
+      "value": "Elements with properties between metals and nonmetals"
+    },
+    {
+      "label": "Staircase",
+      "value": "They sit along the diagonal staircase dividing the periodic table"
+    },
+    {
+      "label": "Members",
+      "value": "Boron, silicon, germanium, arsenic, antimony, tellurium"
+    },
+    {
+      "label": "Look",
+      "value": "Often dull-metallic — they can look shiny but not fully 'metal'"
+    },
+    {
+      "label": "Key trait",
+      "value": "Semiconductors — they conduct electricity only part-way and can be switched"
+    },
+    {
+      "label": "Famous one",
+      "value": "Silicon — the material of computer chips and solar cells"
+    }
+  ],
+  "whyItMatters": "The metalloids quietly run the modern world. Silicon semiconductors are inside nearly every electronic device, germanium powered early transistors, and metalloid behavior is the perfect demonstration of how the periodic table is really a continuous spectrum of properties — not just two hard categories.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Metalloid",
+  "tagline": "The staircase that powers your phone",
+  "didYouKnow": "The screen you are reading this on is almost certainly a silicon-based device — silicon, the most important metalloid, is inside nearly every computer chip on Earth.",
+  "conditions": [
+    "Semiconductors",
+    "Computer chips",
+    "Solar cells"
+  ],
+  "compareCandidateId": "metal",
+  "compareReason": "Comparing a metalloid with a true metal shows the difference between full conduction and the part-way 'semi' conduction that makes metalloids the unique middle family."
+}

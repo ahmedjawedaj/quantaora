@@ -1,0 +1,87 @@
+{
+  "id": "addition",
+  "subject": "math",
+  "title": "Addition",
+  "summary": "Addition is combining groups to find a total. It is the 'put together' operation — 3 apples plus 2 apples makes 5 apples. Explore addition as joining on a number line, regrouping in column form, and counting all or counting on.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "addition-combining-groups",
+    "addition-columns-regroup",
+    "addition-count-on",
+    "addition-properties"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Arithmetic Operations",
+    "systemOrGroup": "Addition",
+    "component": "Addition",
+    "displayPath": "Math > Number Sense And Arithmetic > Arithmetic Operations > Addition > Addition"
+  },
+  "crossReferences": [
+    {
+      "label": "Number line (Number Sense)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Number line",
+      "note": "Addition is modeled as a jump to the right on the number line."
+    },
+    {
+      "label": "Place value (Number Sense)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Place value",
+      "note": "Adding in columns uses place value — regrouping ten ones into one ten."
+    },
+    {
+      "label": "Multiplication (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Multiplication",
+      "note": "Multiplication is a shortcut for repeated addition of equal groups."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Arithmetic Operations > Addition",
+  "compareCandidate": {
+    "label": "Addition vs. multiplication",
+    "description": "Addition joins any groups — equal or not (3 + 4). Multiplication joins equal groups only, as repeated addition (3 × 4 = 4 + 4 + 4)."
+  },
+  "parts": [
+    "Addends and sum",
+    "The number-line jumps",
+    "The column regrouping view"
+  ],
+  "processes": [
+    "Combining sets to find a total",
+    "Counting all or counting on",
+    "Column addition with regrouping"
+  ],
+  "plainLanguageExplanation": "Addition is putting two or more groups together and finding the total. If you have 3 red marbles and 4 blue marbles, addition tells you there are 7 marbles in all. The groups being added are called addends, and the answer is the sum. There are clever ways to add beyond just counting: counting on (start at 3 and count four more), and column addition (line the numbers up by place value and add ones, tens, and hundreds — regrouping when a column passes nine). Addition is commutative: 3 + 4 gives the same total as 4 + 3. Addition is also the opposite operation of subtraction, which is why 7 − 3 checks 3 + 4.",
+  "keyFacts": [
+    { "label": "Meaning", "value": "Combining groups to find a total" },
+    { "label": "Parts", "value": "Addend + addend = sum" },
+    { "label": "Commutative", "value": "3 + 4 = 4 + 3, same total either order" },
+    { "label": "Example", "value": "3 + 4 = 7 marbles in all" },
+    { "label": "Inverse", "value": "Subtraction undoes addition: 7 − 4 = 3" },
+    { "label": "Regrouping", "value": "Carry a ten when a column sums to 10 or more" }
+  ],
+  "whyItMatters": "Addition is everywhere: buying groceries, adding scores, measuring lengths, and combining data. It is also the doorway to subtraction, multiplication, and division, so getting fluent with adding sets and sums makes every later operation easier.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Addition",
+  "tagline": "Putting groups together",
+  "didYouKnow": "The '+' plus sign was first used in the 1300s as a shorthand for 'and' — it literally comes from writing 'et' (Latin for and) quickly until it became a cross.",
+  "conditions": [
+    "Shopping totals",
+    "Adding scores",
+    "Combining measurements",
+    "Word problems"
+  ],
+  "compareCandidateId": "multiplication",
+  "compareReason": "Addition and multiplication look similar but behave differently — comparing equal-group vs. any-group joining clarifies when to use each."
+}

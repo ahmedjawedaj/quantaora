@@ -1,0 +1,46 @@
+{
+  "componentId": "period",
+  "terms": [
+    {
+      "term": "Period",
+      "conceptId": "period-is-row",
+      "hotspotId": "hs-period-row",
+      "definition": "A horizontal row of the periodic table whose elements share the same number of electron shells.",
+      "function": "Organizes elements by shell count and traces the shift from metals to nonmetals across the row.",
+      "whereItIs": "The glowing horizontal row of tiles in the model.",
+      "whyItMatters": "Together with groups, periods let you locate any element and predict its basic character.",
+      "relatedConcept": "period-same-shell-count",
+      "quizId": "period-q-row"
+    },
+    {
+      "term": "Electron shell",
+      "conceptId": "period-same-shell-count",
+      "hotspotId": "hs-period-shells",
+      "definition": "A layer of space around the nucleus where electrons live.",
+      "function": "Gives each atom its period — the number of shells matches the row number.",
+      "whereItIs": "The small shell icons beside each row tile.",
+      "whyItMatters": "The shell count is the one trait a whole period shares.",
+      "relatedConcept": "period-metals-to-nonmetals",
+      "quizId": "period-q-shells"
+    },
+    {
+      "term": "Metal",
+      "conceptId": "period-metals-to-nonmetals",
+      "definition": "An element on the left side of the periodic table — shiny, malleable, and a good conductor of heat and electricity.",
+      "function": "Behaves as a typical metal; found at the left end of each period.",
+      "whereItIs": "The warm-toned tiles at the left of the highlighted row.",
+      "whyItMatters": "Metals dominate the table and every period begins with them.",
+      "relatedConcept": "period-is-row"
+    },
+    {
+      "term": "Nonmetal",
+      "conceptId": "period-metals-to-nonmetals",
+      "definition": "An element on the right side of the periodic table — generally a poor conductor and often a gas or brittle solid.",
+      "function": "Behaves very differently from metals; found at the right end of each period.",
+      "whereItIs": "The cool-toned tiles at the right of the highlighted row.",
+      "whyItMatters": "The sweep from metal to nonmetal is the most visible pattern across every period.",
+      "relatedConcept": "period-same-shell-count",
+      "quizId": "period-q-sweep"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "isotope",
+  "componentId": "isotope",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/atoms-and-elements/isotope/isotope.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/atoms-and-elements/isotope.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Isotope pair (C-12, C-14)",
+    "Particle count",
+    "Uses"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-isotope-pair",
+      "label": "An isotope pair",
+      "conceptId": "isotope-same-element-diff-neutrons",
+      "position": [
+        0,
+        0.35,
+        0
+      ],
+      "description": "Two carbon atoms: carbon-12 and carbon-14. Same red protons, different gray neutron counts — an isotope pair.",
+      "positionHint": "The two atom nuclei side by side.",
+      "color": "#D9A441",
+      "function": "Shows two isotopes of the same element."
+    },
+    {
+      "id": "hs-isotope-protons",
+      "label": "The identical protons",
+      "conceptId": "isotope-same-protons",
+      "position": [
+        -0.85,
+        0.5,
+        0
+      ],
+      "description": "Both atoms have the same number of red protons — 6 each. This is what makes them BOTH carbon.",
+      "positionHint": "The red proton spheres in both nuclei.",
+      "color": "#D96B5A",
+      "function": "Shows the proton count that stays the same."
+    },
+    {
+      "id": "hs-isotope-neutrons",
+      "label": "The differing neutrons",
+      "conceptId": "isotope-different-mass",
+      "position": [
+        0.85,
+        0.5,
+        0
+      ],
+      "description": "Carbon-12 has 6 gray neutrons; carbon-14 has 8. The extra neutrons make carbon-14 heavier — and radioactive, which is what lets it date ancient bones.",
+      "positionHint": "The gray neutron spheres, differing between the two nuclei.",
+      "color": "#7FA86A",
+      "function": "Shows the neutron count that varies between isotopes."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. Two atom nuclei float side by side with faint electron clouds, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Protons: soft red spheres; neutrons: soft gray spheres; electron clouds: faint translucent warm-white shells. Strong saturated color is reserved for the small flat hotspot dots (amber / coral / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Protons: soft muted red, roughness ~0.4. Neutrons: soft muted gray, roughness ~0.4. Electron clouds: translucent warm-white shells, alpha ~0.1. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a carbon-12 / carbon-14 isotope pair, built to be read as 'same element, different weight — the neutrons differ.' Three procedural layers, all clean primitives:\n\n1) MAIN: two carbon atom nuclei side by side (spacing ~1.6), each a compact bundle with faint translucent electron-cloud shells: LEFT carbon-12 — 6 soft red proton spheres + 6 soft gray neutron spheres (radius ~0.2 each); RIGHT carbon-14 — 6 soft red proton spheres + 8 soft gray neutron spheres. The two extra neutrons on the right are slightly visually separated so they read as 'extra.'\n\n2) PARTICLE COUNT (toggleable layer): the protons on both atoms highlight briefly one by one (6 each), then the neutrons highlight one by one (6 vs 8) — making the identical-count and differing-count obvious. App renders small running tallies.\n\n3) USES (toggleable layer): small floating icons appear beside carbon-14 (app-rendered glyphs) — a bone (dating), a medical cross (medicine), and a plant/building (nuclear power) — linking the extra neutrons to real uses.\n\nCamera: framed so both nuclei and their clouds fit with negative space; auto-rotate default. Budget 8-12k triangles. Named nodes: Carbon12_Nucleus, Carbon14_Nucleus, Protons_06, Neutrons_C12, Neutrons_C14, ExtraNeutrons_02, Cloud_C12, Cloud_C14, UseIcons. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "isotope-variants"
+  }
+}

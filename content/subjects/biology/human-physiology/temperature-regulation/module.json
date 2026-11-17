@@ -1,0 +1,109 @@
+{
+  "id": "temperature-regulation",
+  "subject": "biology",
+  "title": "Temperature Regulation",
+  "summary": "Temperature regulation is the body's ongoing balancing act to hold core temperature near 37°C (98.6°F) no matter what's happening outside. Explore how the hypothalamus senses temperature like a thermostat, then triggers sweating and vasodilation to cool down or shivering and vasoconstriction to warm up — a negative feedback loop that keeps the body in balance.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "hypothalamus-senses-temperature",
+    "sweating-vasodilation-cooling",
+    "shivering-vasoconstriction-warming",
+    "homeostasis-maintained"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Body Systems Processes",
+    "systemOrGroup": "Temperature Regulation (process)",
+    "component": "Temperature Regulation",
+    "displayPath": "Biology > Human Physiology > Body Systems Processes > Temperature Regulation (process) > Temperature Regulation"
+  },
+  "crossReferences": [
+    {
+      "label": "Nerve Signaling (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Nerve signaling",
+      "note": "The hypothalamus's constant sensing of blood temperature and its signals to sweat glands, blood vessels, and muscles are carried out through the nerve-signaling process covered separately in this branch."
+    },
+    {
+      "label": "Blood Circulation (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Blood circulation",
+      "note": "Vasodilation and vasoconstriction work by changing how much blood the circulatory system routes near the skin surface, so this component leans directly on the circulation process covered elsewhere in this branch."
+    },
+    {
+      "label": "Immune Response (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Immune response",
+      "note": "A fever is the immune system deliberately resetting the hypothalamus's temperature set point higher, which is why a feverish body can feel cold and shiver even though its temperature is above normal — that connection is expanded in the Immune Response process."
+    }
+  ],
+  "belongsTo": "Human Physiology > Body Systems Processes > Temperature Regulation (process)",
+  "compareCandidate": {
+    "label": "Endotherms vs. ectotherms",
+    "description": "Humans are endotherms (\"warm-blooded\") — we generate our own internal heat through metabolism and actively regulate it with responses like sweating and shivering. Ectotherms (\"cold-blooded\") animals like reptiles instead rely on external heat sources and behaviors, such as basking in the sun or seeking shade, to control body temperature."
+  },
+  "parts": [
+    "Hypothalamus (thermostat)",
+    "Sweating & vasodilation (cooling response)",
+    "Shivering & vasoconstriction (warming response)",
+    "Homeostasis maintained (feedback loop closes)"
+  ],
+  "processes": [
+    "Negative feedback loops in the nervous system",
+    "The circulatory system's role in heat transport",
+    "Metabolism and heat production from cellular respiration",
+    "Fever as an immune response that resets the hypothalamus's set point",
+    "Evaporative cooling (the physics of sweat drying)"
+  ],
+  "plainLanguageExplanation": "Your body is like a house with a smart thermostat. No matter if it's freezing outside or blazing hot, a house with a good thermostat keeps its inside temperature steady. Your body does the same thing — it works hard to keep your core temperature close to 37°C (98.6°F), even when the world around you changes a lot. The \"thermostat\" in your body is a small structure deep in your brain called the hypothalamus. It constantly checks your blood temperature and compares it to the ideal setting. If you get too hot — from running around, exercise, or a hot day — your hypothalamus tells your sweat glands to release sweat (which cools you as it evaporates) and tells the blood vessels near your skin to widen (vasodilation), so heat can escape faster, which is why your face looks flushed when you're hot. If you get too cold, your hypothalamus does the opposite: it triggers shivering (fast muscle twitching that generates heat as a byproduct) and narrows the blood vessels near your skin (vasoconstriction) to keep warm blood deeper inside your body, away from the cold surface. This constant balancing act — sensing, adjusting, and staying steady — is called homeostasis, and temperature regulation is one of the clearest everyday examples of it in action. Interestingly, a fever works by turning this same thermostat up on purpose: the hypothalamus's set point rises above 37°C, so even though your actual temperature hasn't dropped, your body now reads itself as \"too cold\" compared to the new setting — which is why you can feel chilly and shiver during a fever even while your temperature is above normal.",
+  "keyFacts": [
+    {
+      "label": "Normal core body temperature",
+      "value": "About 37°C (98.6°F), though it naturally varies slightly through the day and between people"
+    },
+    {
+      "label": "Master control center",
+      "value": "The hypothalamus, a small region at the base of the brain, acts as the body's thermostat"
+    },
+    {
+      "label": "Cooling response",
+      "value": "Sweating (evaporative cooling) plus vasodilation (blood vessels near the skin widen to release heat)"
+    },
+    {
+      "label": "Warming response",
+      "value": "Shivering (rapid muscle contractions produce heat) plus vasoconstriction (blood vessels near the skin narrow to conserve heat)"
+    },
+    {
+      "label": "Feedback type",
+      "value": "Negative feedback loop — the response works to cancel out the original change, pulling temperature back toward the set point"
+    },
+    {
+      "label": "Danger zones",
+      "value": "Body temperature that strays too far from normal for too long (heatstroke when too hot, hypothermia when too cold) can be life-threatening, which is why this system matters so much"
+    }
+  ],
+  "whyItMatters": "Temperature regulation isn't just a background body process — it's what lets you run around on a hot summer day, walk to school in freezing winter air, or fight off an illness with a fever, all without your organs shutting down. Enzymes and cells inside your body only work properly within a narrow temperature range, so even a few degrees of drift in the wrong direction can make you feel sick, and a large drift can be dangerous. Understanding thermoregulation also explains everyday experiences: why you shiver and your lips look pale when you're freezing, why your face gets red and sweaty after exercise, and why doctors take your temperature when you're sick. It's also the foundation for understanding fevers, heatstroke, hypothermia, and how different animals (like reptiles versus mammals) survive in very different climates.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Thermoregulation",
+  "tagline": "The body's built-in thermostat",
+  "didYouKnow": "A fever works by turning the body's thermostat up on purpose — the hypothalamus's set point rises, so even though your temperature hasn't dropped, your body reads itself as 'too cold' compared to the new setting, which is why you can shiver during a fever while running hot.",
+  "conditions": [
+    "Fever",
+    "Heatstroke",
+    "Hypothermia",
+    "Hyperthyroidism",
+    "Frostbite"
+  ],
+  "compareCandidateId": "blood-circulation",
+  "compareReason": "Vasodilation and vasoconstriction work by changing how much blood the circulatory system routes near the skin surface, so temperature regulation leans directly on the blood circulation process to move heat around the body."
+}

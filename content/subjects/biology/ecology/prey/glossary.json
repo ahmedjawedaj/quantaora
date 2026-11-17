@@ -1,0 +1,38 @@
+{
+  "componentId": "prey",
+  "terms": [
+    {
+      "term": "Prey",
+      "conceptId": "hunted-by-predators",
+      "hotspotId": "hs-hunted",
+      "definition": "An animal that is hunted and eaten by a predator.",
+      "function": "Provides food for predators.",
+      "whereItIs": "Rabbits, mice, deer, fish.",
+      "whyItMatters": "They are the food base for hunters.",
+      "relatedConcept": "prey-defenses",
+      "quizId": "prey-q-def"
+    },
+    {
+      "term": "Camouflage",
+      "conceptId": "camouflage-speed-groups",
+      "hotspotId": "hs-camo",
+      "definition": "Blending in with the surroundings to hide.",
+      "function": "Hides prey from predator eyes.",
+      "whereItIs": "Fur, feathers, or skin that matches the background.",
+      "whyItMatters": "It is one of prey's best survival tools.",
+      "relatedConcept": "prey-defenses",
+      "quizId": "prey-q-defense"
+    },
+    {
+      "term": "Predator-prey race",
+      "conceptId": "predator-prey-race",
+      "hotspotId": "hs-group",
+      "definition": "The ongoing race where predators get better at hunting and prey get better at escaping.",
+      "function": "Drives adaptations in both sides.",
+      "whereItIs": "In every ecosystem.",
+      "whyItMatters": "It keeps both populations in a healthy balance.",
+      "relatedConcept": "hunted-by-predators",
+      "quizId": "prey-q-both"
+    }
+  ]
+}

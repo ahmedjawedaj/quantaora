@@ -1,0 +1,102 @@
+{
+  "id": "black-hole",
+  "subject": "space",
+  "title": "Black Hole",
+  "summary": "The endpoint of gravity's worst work: a collapsed core so dense that nothing — not even light — can escape. When a star's remnant passes about three solar masses, no pressure known can stop the collapse, and spacetime itself is bent into a region from which the inside never comes out.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "escape-velocity-light",
+    "event-horizon-boundary",
+    "tidal-forces-spaghettification",
+    "gravity-bends-light",
+    "stellar-black-hole-formation"
+  ],
+  "type": "model",
+  "estimatedMinutes": 13,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Stars",
+    "unit": "Stellar Lifecycle",
+    "systemOrGroup": "Stellar remnants",
+    "component": "Black Hole",
+    "displayPath": "Space > Stars > Stellar Lifecycle > Stellar remnants > Black Hole"
+  },
+  "crossReferences": [
+    {
+      "label": "Neutron Star (Stars)",
+      "branch": "stars",
+      "component": "Neutron star",
+      "note": "The step before: a neutron star is the densest object that still survives; the black hole is what gravity makes when that remnant passes roughly three solar masses."
+    },
+    {
+      "label": "Supernova (Stars)",
+      "branch": "stars",
+      "component": "Supernova",
+      "note": "The heaviest core collapses are born in a supernova that leaves a black hole rather than a neutron star."
+    },
+    {
+      "label": "The Sun (Solar System)",
+      "branch": "solar-system",
+      "component": "The Sun",
+      "note": "The Sun is nowhere near heavy enough to make a black hole — it takes at least about twenty solar masses of original star."
+    }
+  ],
+  "belongsTo": "Stars > Stellar Lifecycle > Stellar remnants",
+  "compareCandidate": {
+    "label": "Black hole vs. neutron star",
+    "description": "The same collapse, one step further: the neutron star is matter at its absolute limit; the black hole is matter gone past it. Comparing the two makes the mass threshold the final number in the branch's whole ladder."
+  },
+  "parts": [
+    "Singularity (the point of infinite density)",
+    "Event horizon (the no-return boundary)",
+    "Accretion disk (doomed infalling matter)",
+    "Spacetime distortion (the gravity lens)"
+  ],
+  "processes": [
+    "Stellar collapse beyond the limit",
+    "Escape velocity exceeding light speed",
+    "Event horizon formation",
+    "Accretion disk heating and photon-ring glow"
+  ],
+  "plainLanguageExplanation": "A black hole is what happens when gravity finishes a job it started on the main-sequence star. The core of a very massive star collapses; if it carries more than about three solar masses, even the pressure of packed neutrons is not enough, and the collapse has no brakes. The matter disappears into a point — the singularity — and around that point gravity is so strong that the speed needed to escape exceeds light itself. The spherical boundary where escape speed hits light speed is the event horizon: inside it, no message, no matter, no light can ever come out; the boundary itself looks black because no light returns. You cannot see the hole itself — you see its surroundings: a glowing, spiraling disk of doomed matter falling in (the accretion disk) and the distorted, lensed images of stars behind it, because the hole's gravity bends the light. Near the horizon, gravity stretches anything that falls in — tidal forces tear a long object apart, an effect vividly named spaghettification. Black holes are not vacuum-cleaners that roam the galaxy sucking things up; a stellar black hole is just a dense, dead object with strong but short-range gravity — you orbit it at a safe distance as you would any massive body.",
+  "keyFacts": [
+    {
+      "label": "Escape speed",
+      "value": "Inside the event horizon, escape needs to go faster than light — impossible, so nothing gets out"
+    },
+    {
+      "label": "Event horizon",
+      "value": "The spherical 'no return' boundary; its radius scales with mass (a 3-solar-mass hole is ~9 km across)"
+    },
+    {
+      "label": "What you see",
+      "value": "Not the hole — its shadow against the glowing accretion disk and the lensed stars behind"
+    },
+    {
+      "label": "Birth",
+      "value": "Heaviest stellar cores collapse into a black hole when they pass ~3 solar masses"
+    },
+    {
+      "label": "The Sun?",
+      "value": "Too light — the Sun will end as a white dwarf, never a black hole"
+    },
+    {
+      "label": "Not a vacuum",
+      "value": "No roaming monster: at a safe distance it's just a strong gravitational body — Earth could orbit one"
+    }
+  ],
+  "whyItMatters": "The black hole is the branch's final answer: where the ladder of stellar remnants ends, and where ordinary physics, as we experience it, runs out of rules. It is also the most genuinely testable idea in the sky — black holes were predicted in 1916, first confirmed indirectly by orbits of stars around the Milky Way's center, and finally photographed by the Event Horizon Telescope in 2019. Their physics lets us probe the extreme edge of Einstein's gravity and power the most luminous engines in the universe — quasars. Understanding the event horizon means understanding why the sky's most famous 'monster' is really the simplest endpoint of the very same gravity that holds you to Earth.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Gravitational collapse beyond the Tolman–Oppenheimer–Volkoff limit",
+  "tagline": "Where gravity refuses to lose",
+  "didYouKnow": "The first black hole photo (2019, M87) came from eight radio telescopes on five continents working as one Earth-sized telescope — and the 'ring of fire' in the picture is not the hole itself but light bent into a ring around its dark shadow.",
+  "compareCandidateId": "neutron-star",
+  "compareReason": "The very same collapse story, one chapter longer: neutron star matter is the strongest stuff that exists, and the black hole is the event after even that gives way. Together they end the branch with one clean threshold."
+}

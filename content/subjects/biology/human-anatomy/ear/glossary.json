@@ -1,0 +1,49 @@
+{
+  "componentId": "ear",
+  "terms": [
+    {
+      "term": "Ear",
+      "conceptId": "outer-ear-sound-waves",
+      "hotspotId": "hs-outer",
+      "definition": "The organ of hearing and balance.",
+      "function": "Gathers sound, turns it into signals, and senses balance.",
+      "whereItIs": "On the sides of the head.",
+      "whyItMatters": "It lets you hear the world and stay balanced.",
+      "relatedConcept": "cochlea-signals",
+      "quizId": "ear-q-parts"
+    },
+    {
+      "term": "Eardrum",
+      "conceptId": "eardrum-middle-bones",
+      "hotspotId": "hs-eardrum",
+      "definition": "The thin membrane that vibrates with sound waves.",
+      "function": "Starts the chain of vibration.",
+      "whereItIs": "At the end of the ear canal.",
+      "whyItMatters": "It is the first thing sound sets moving.",
+      "relatedConcept": "eardrum-middle-bones",
+      "quizId": "ear-q-eardrum"
+    },
+    {
+      "term": "Cochlea",
+      "conceptId": "cochlea-signals",
+      "hotspotId": "hs-cochlea",
+      "definition": "The coiled inner-ear structure that turns vibrations into signals.",
+      "function": "Converts mechanical vibration into nerve signals.",
+      "whereItIs": "Deep in the inner ear.",
+      "whyItMatters": "It is where sound becomes a signal.",
+      "relatedConcept": "outer-ear-sound-waves",
+      "quizId": "ear-q-cochlea"
+    },
+    {
+      "term": "Semicircular canals",
+      "conceptId": "balance-canals",
+      "hotspotId": "hs-balance",
+      "definition": "The inner-ear loops that sense movement and position.",
+      "function": "Help keep you balanced.",
+      "whereItIs": "Above the cochlea.",
+      "whyItMatters": "They are the body's balance sensors.",
+      "relatedConcept": "cochlea-signals",
+      "quizId": "ear-q-balance"
+    }
+  ]
+}

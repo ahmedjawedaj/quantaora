@@ -1,0 +1,129 @@
+{
+  "id": "heart",
+  "componentId": "heart",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/human-anatomy/heart/heart.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/heart.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Heart muscle (myocardium)",
+    "Four chambers",
+    "Valves",
+    "Aorta and pulmonary artery"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-right-atrium",
+      "label": "Right atrium",
+      "conceptId": "four-chambers",
+      "position": [
+        0.2,
+        0.35,
+        0.15
+      ],
+      "description": "The upper right chamber that receives oxygen-poor blood from the body.",
+      "color": "#6B85A8",
+      "function": "Receives oxygen-poor blood returning from the body.",
+      "positionHint": "Top-right chamber."
+    },
+    {
+      "id": "hs-right-ventricle",
+      "label": "Right ventricle",
+      "conceptId": "heart-double-pump",
+      "position": [
+        0.25,
+        0.1,
+        0.15
+      ],
+      "description": "The lower right chamber that pumps blood to the lungs.",
+      "color": "#6B85A8",
+      "function": "Pumps blood to the lungs to pick up oxygen.",
+      "positionHint": "Bottom-right, thick-walled."
+    },
+    {
+      "id": "hs-left-atrium",
+      "label": "Left atrium",
+      "conceptId": "four-chambers",
+      "position": [
+        -0.2,
+        0.35,
+        0.15
+      ],
+      "description": "The upper left chamber that receives oxygen-rich blood from the lungs.",
+      "color": "#D98A6A",
+      "function": "Receives oxygen-rich blood from the lungs.",
+      "positionHint": "Top-left chamber."
+    },
+    {
+      "id": "hs-left-ventricle",
+      "label": "Left ventricle",
+      "conceptId": "heart-double-pump",
+      "position": [
+        -0.25,
+        0.1,
+        0.15
+      ],
+      "description": "The lower left chamber that pumps blood to the whole body.",
+      "color": "#D98A6A",
+      "function": "The strongest chamber; pumps blood to the body.",
+      "positionHint": "Bottom-left, thickest walls."
+    },
+    {
+      "id": "hs-valve",
+      "label": "Valves",
+      "conceptId": "heart-valves-one-way",
+      "position": [
+        0.0,
+        0.28,
+        0.2
+      ],
+      "description": "Flaps that open and close to keep blood flowing in one direction.",
+      "color": "#D9A441",
+      "function": "Keep blood flowing one way through the heart.",
+      "positionHint": "Between atria and ventricles."
+    },
+    {
+      "id": "hs-aorta",
+      "label": "Aorta",
+      "conceptId": "pumping-blood",
+      "position": [
+        -0.35,
+        0.15,
+        0.25
+      ],
+      "description": "The huge artery that carries oxygen-rich blood out to the body.",
+      "color": "#B5846A",
+      "function": "Carries oxygen-rich blood out to the body.",
+      "positionHint": "Curving up from the left ventricle."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a single human heart as a stylized-specimen study model, cut open in a clean frontal plane so all four chambers and the valves are visible. Smooth cardiac surface with the coronary vessels in a soft muted red, the myocardium a warm paper-red, valves as clean pale flaps. Anatomy Atelier bar: warm off-white background, no gore, no glow, no saturated color. Named nodes: RightAtrium, RightVentricle, LeftAtrium, LeftVentricle, TricuspidValve, MitralValve, AortaRoot, PulmonaryArtery, Myocardium, CoronaryVessels. Budget 20-30k. The cut is a flat museum-model cap, never torn tissue."
+}

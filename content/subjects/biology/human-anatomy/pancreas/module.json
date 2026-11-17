@@ -1,0 +1,100 @@
+{
+  "id": "pancreas",
+  "subject": "biology",
+  "title": "Pancreas",
+  "summary": "The pancreas is a small gland behind the stomach with two big jobs: it makes digestive juices that help break down food, and it makes hormones like insulin that control sugar in your blood. Explore its dual role in digestion and blood-sugar balance.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "pancreatic-enzymes-digestion",
+    "insulin-blood-sugar",
+    "dual-role-gland",
+    "hormones-into-blood"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Digestive system / Endocrine system",
+    "component": "Pancreas",
+    "displayPath": "Biology > Human Anatomy > Digestive system / Endocrine system > Pancreas"
+  },
+  "crossReferences": [
+    {
+      "label": "Small Intestine (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Small intestine",
+      "note": "The pancreas sends its digestive enzymes to the small intestine, where they finish breaking down food."
+    },
+    {
+      "label": "Hormone Signaling (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Hormone signaling",
+      "note": "How insulin travels through the blood and signals cells is part of the hormone-signaling process."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Digestive system / Endocrine system > Pancreas",
+  "compareCandidate": {
+    "label": "Pancreas vs. liver",
+    "description": "Both help digestion, but differently. The liver makes bile (stored in the gallbladder) to help digest fats and cleans the blood. The pancreas makes digestive enzymes and the hormone insulin."
+  },
+  "parts": [
+    "Pancreatic juice (enzymes)",
+    "Insulin-producing cells",
+    "Duct to the small intestine",
+    "Hormone release into blood"
+  ],
+  "processes": [
+    "Making enzymes that digest food",
+    "Making insulin to control blood sugar",
+    "Sending enzymes to the small intestine"
+  ],
+  "plainLanguageExplanation": "The pancreas is a soft, elongated gland tucked behind the stomach. It has two very different jobs. For digestion, it makes pancreatic juice - a liquid full of enzymes - and sends it to the small intestine to help break down proteins, fats, and carbs. For balance, it makes hormones (especially insulin) and releases them into the blood. Insulin signals cells to take in sugar from the blood, keeping blood-sugar levels steady. So the pancreas is both a digestion helper and a blood-sugar controller.",
+  "keyFacts": [
+    {
+      "label": "Where",
+      "value": "A soft gland behind the stomach"
+    },
+    {
+      "label": "Digestion job",
+      "value": "Makes enzymes that help break down proteins, fats, and carbs"
+    },
+    {
+      "label": "Hormone job",
+      "value": "Makes insulin and other hormones that control blood sugar"
+    },
+    {
+      "label": "Enzymes travel",
+      "value": "Pancreatic juice flows to the small intestine"
+    },
+    {
+      "label": "Insulin job",
+      "value": "Signals cells to take sugar out of the blood"
+    },
+    {
+      "label": "Two-in-one",
+      "value": "Both a digestive gland and an endocrine (hormone) gland"
+    }
+  ],
+  "whyItMatters": "The pancreas is the body's two-in-one gland: it helps digest food AND keeps blood sugar balanced. Understanding it explains how your body handles the sugar in snacks and why diabetes is related to this small organ.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Pancreas",
+  "tagline": "The body's two-in-one gland",
+  "didYouKnow": "Your pancreas releases about 1.5 liters of digestive juice a day - and insulin, one of its hormones, is the key to how your body uses sugar.",
+  "conditions": [
+    "Diabetes",
+    "Pancreatitis",
+    "Pancreatic cancer"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Digestive system / Endocrine system > Pancreas",
+  "plain": "The pancreas is a soft, elongated gland tucked behind the stomach. It has two very different jobs. For digestion, it makes pancreatic juice - a liquid full of enzymes - and sends it to the small intestine to help break down proteins, fats, and carbs. For balance, it makes hormones (especially insulin) and releases them into the blood. Insulin signals cells to take in sugar from the blood, keeping blood-sugar levels steady. So the pancreas is both a digestion helper and a blood-sugar controller."
+}

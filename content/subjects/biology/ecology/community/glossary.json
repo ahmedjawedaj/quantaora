@@ -1,0 +1,37 @@
+{
+  "componentId": "community",
+  "terms": [
+    {
+      "term": "Community",
+      "conceptId": "community-living-only",
+      "hotspotId": "hs-species",
+      "definition": "All the different species' populations living together in one area.",
+      "function": "The living layer of an ecosystem.",
+      "whereItIs": "Any area where species coexist.",
+      "whyItMatters": "It captures all the living interactions in a place.",
+      "relatedConcept": "all-species-interactions",
+      "quizId": "com-q-def"
+    },
+    {
+      "term": "Species interaction",
+      "conceptId": "all-species-interactions",
+      "hotspotId": "hs-eat",
+      "definition": "Any way organisms of different species affect each other.",
+      "function": "Eating, competing, helping, or living on one another.",
+      "whereItIs": "Between community members.",
+      "whyItMatters": "Interactions shape the whole community.",
+      "relatedConcept": "species-compete-share",
+      "quizId": "com-q-interact"
+    },
+    {
+      "term": "Competition",
+      "conceptId": "species-compete-share",
+      "hotspotId": "hs-compete",
+      "definition": "When species need the same limited resource.",
+      "function": "Species compete for food, space, and other needs.",
+      "whereItIs": "Between similar species.",
+      "whyItMatters": "It limits who lives where and how many.",
+      "relatedConcept": "all-species-interactions"
+    }
+  ]
+}

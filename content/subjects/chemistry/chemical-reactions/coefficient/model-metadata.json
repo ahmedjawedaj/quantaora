@@ -1,0 +1,89 @@
+{
+  "id": "coefficient",
+  "componentId": "coefficient",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/chemical-reactions/coefficient/coefficient.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/chemical-reactions/coefficient.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Balanced equation",
+    "Unit count",
+    "Balance check"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-coefficient-number",
+      "label": "The coefficient",
+      "conceptId": "coefficient-counts-units",
+      "position": [
+        -1.0,
+        0.5,
+        0
+      ],
+      "description": "The highlighted big number in front of each formula is the coefficient — it counts how many whole units of that substance react.",
+      "positionHint": "The large numbers at the front of each formula in the equation.",
+      "color": "#D9A441",
+      "function": "Shows the number in front that counts units."
+    },
+    {
+      "id": "hs-coefficient-multiplies",
+      "label": "It multiplies everything",
+      "conceptId": "coefficient-front-of-formula",
+      "position": [
+        0.9,
+        0.7,
+        0
+      ],
+      "description": "The coefficient multiplies every atom in the formula. When the count layer is on, 2H₂O expands into two full water molecules.",
+      "positionHint": "The formula expanding into real molecules when the count layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows the coefficient multiplying every atom."
+    },
+    {
+      "id": "hs-coefficient-balance",
+      "label": "The balanced result",
+      "conceptId": "coefficient-balances-equations",
+      "position": [
+        0,
+        -0.7,
+        0
+      ],
+      "description": "With the right coefficients, the atoms on the left exactly match the atoms on the right — the equation is balanced.",
+      "positionHint": "The matching atom tallies shown when the balance layer is on.",
+      "color": "#D96B5A",
+      "function": "Shows the equation balanced by the coefficients."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A balanced chemical equation floats centered — 2H₂ + O₂ → 2H₂O — with the coefficients emphasized, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Formulas are app-rendered glyphs on flat tiles; when the count layer expands them, they become clean ball-stick molecules (hydrogen warm off-white, oxygen muted red). Strong saturated color is reserved for the small flat hotspot dots and the coefficient highlights (amber / molecular-green / coral accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Formula tiles: soft off-white matte, roughness ~0.6. Molecule spheres: CPK colors (H warm off-white, O muted red), roughness ~0.45-0.5. Bond rods: thin graphite cylinders. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the equation 2H₂ + O₂ → 2H₂O, built to be read as 'the numbers in front count units and balance the reaction.' Three procedural layers, all clean primitives:\n\n1) MAIN: a flat equation scene — three formula tiles (app-rendered glyphs): LEFT `2H₂`, `O₂`; RIGHT `2H₂O`, with an arrow tile between. The coefficient glyphs (the 2s) are subtly raised/highlighted.\n\n2) UNIT COUNT (toggleable layer): each formula expands into real ball-stick molecules — `2H₂` becomes two H₂ molecules, `O₂` one O₂, `2H₂O` two water molecules (app animates the expansion). The coefficient visually 'distributes' over the molecules.\n\n3) BALANCE CHECK (toggleable layer): the expanded molecules split into their atoms and line up in two columns (reactants left, products right) with the same atoms mirrored — H count and O count match on both sides. App renders simple running tallies.\n\nCamera: framed so the full equation fits with negative space; auto-rotate default. Budget 7-11k triangles. Named nodes: Tile_2H2, Tile_O2, Tile_2H2O, EquationArrow, Molecules_2H2, Molecule_O2, Molecules_2H2O, AtomColumns, Tallies. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "coefficient-multiples"
+  }
+}

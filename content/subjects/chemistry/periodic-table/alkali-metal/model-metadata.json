@@ -1,0 +1,90 @@
+{
+  "id": "alkali-metal",
+  "componentId": "alkali-metal",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/alkali-metal/alkali-metal.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/alkali-metal.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.85,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.85,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Alkali metal cube",
+    "One electron",
+    "Reaction test",
+    "Group 1 on table"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-alkali-column",
+      "label": "Group 1",
+      "conceptId": "alkali-metal-group-1",
+      "position": [
+        0,
+        -1.25,
+        0.2
+      ],
+      "description": "This glowing column at the far left of the table is Group 1 — the alkali metals. All six members sit stacked here.",
+      "positionHint": "The highlighted first column of tiles below the metal cube.",
+      "color": "#D96B5A",
+      "function": "Shows where the alkali metals live on the periodic table."
+    },
+    {
+      "id": "hs-alkali-valence",
+      "label": "One valence electron",
+      "conceptId": "alkali-metal-one-valence-electron",
+      "position": [
+        0.95,
+        0.55,
+        0.1
+      ],
+      "description": "The small atom model shows a sodium atom with just ONE electron on its outer shell — highlighted. That lonely electron is the key to the whole family.",
+      "positionHint": "The small atom model beside the cube, visible when the one-electron layer is on.",
+      "color": "#D9A441",
+      "function": "Shows the single valence electron that drives alkali metal reactivity."
+    },
+    {
+      "id": "hs-alkali-reactivity",
+      "label": "Water reaction",
+      "conceptId": "alkali-metal-reactive",
+      "position": [
+        -0.9,
+        0.15,
+        0.1
+      ],
+      "description": "When a small piece of alkali metal meets water, it skitters and releases hydrogen and heat so fast the reaction can ignite — pure reactivity on display.",
+      "positionHint": "The small water basin below the cube's edge, visible when the reaction-test layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows the violent reaction alkali metals have with water."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. The alkali metal cube floats centered above a table section, lit with soft neutral studio light — the cube carries a fresh soft-silver gleam (like freshly cut metal, NOT chrome), no glow, no bloom, no emissive. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: the cube is a soft silver-grey with a gentle sheen, the table tiles are paper-white with the first column faintly tinted. Strong saturated color is reserved entirely for the small flat hotspot dots (coral / amber / molecular green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR. Cube: metallic ~0.8 (a freshly cut soft metal — nearly true metal but with a matte-ish surface), roughness ~0.3, soft silver-grey. Table tiles: paper-white, metallic 0, roughness ~0.55. Atom model: small teal electron on a translucent hairline ring. Water basin: pale translucent blue, alpha ~0.5. No emissive channels anywhere — any reaction flash is handled by app runtime UI, not baked into the asset.",
+  "assetBrief": "SUBJECT: an alkali metal with its single outer electron and its famous water reaction, built to be read as 'the one-electron family that explodes into action.' Four procedural layers, all clean primitives:\n\n1) MAIN: one smooth soft-metal cube (~0.9 cube, rounded edges) at the center, soft silver-grey with a fresh gentle sheen (metallic ~0.8, roughness ~0.3) — gleaming like a freshly cut lump of sodium. This is the star of the scene.\n\n2) ONE ELECTRON (toggleable layer): a small atom model floats beside the cube — two translucent hairline rings (inner and outer) with tiny teal electrons filling the inner ring, and exactly ONE teal electron on the outer ring, slightly larger/brightened — the lone valence electron.\n\n3) REACTION TEST (toggleable layer): a small shallow bowl (pale translucent blue, alpha ~0.5) appears below the cube's front edge holding 'water.' A tiny sliver of the cube drops in; the app plays a short skitter-and-fizz animation with a soft amber heat shimmer (app-driven).\n\n4) GROUP 1 ON TABLE (toggleable layer): below, a flat section of periodic table (paper-white tiles, ~9 x 5). The entire first column is given a faint muted warm-coral cast and slight raise — Group 1.\n\nCamera: framed so the cube is large and centered with the table slab below; auto-rotate default. Budget 6-10k triangles. Named nodes: AlkaliCube, ShellAtom, InnerElectrons, ValenceElectron, WaterBasin, ReactionSliver, TableSlab, Group1Column. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "metal-lattice"
+  }
+}

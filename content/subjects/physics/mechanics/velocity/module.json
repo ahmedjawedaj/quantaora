@@ -1,0 +1,89 @@
+{
+  "id": "velocity",
+  "subject": "physics",
+  "title": "Velocity",
+  "summary": "Velocity is speed with a direction attached — not just 80 km/h, but 80 km/h heading east. It's the vector that tells you both how fast something moves and which way it's going, and it's the key that unlocks acceleration and momentum. Explore how a car's velocity arrow swings as it rounds a corner, even when its speed never changes.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "velocity-speed-with-direction",
+    "velocity-vector-quantity",
+    "velocity-changes-with-direction",
+    "velocity-graph"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Describing Motion",
+    "systemOrGroup": "Speed and Velocity",
+    "component": "Velocity",
+    "displayPath": "Physics > Mechanics > Describing Motion > Speed and Velocity > Velocity"
+  },
+  "crossReferences": [
+    {
+      "label": "Speed (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Speed",
+      "note": "Velocity is speed plus a direction; speed is the scalar size of the same motion."
+    },
+    {
+      "label": "Displacement (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Displacement",
+      "note": "Velocity measures displacement per time, which is why it carries the same direction as displacement and not distance."
+    },
+    {
+      "label": "Acceleration (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Acceleration",
+      "note": "Any change in velocity — speeding up, slowing down, OR turning — is acceleration, even at constant speed."
+    }
+  ],
+  "belongsTo": "Mechanics > Describing Motion > Speed and Velocity",
+  "compareCandidate": {
+    "label": "Velocity vs. speed",
+    "description": "Speed: 60 km/h. Velocity: 60 km/h south. Rounding a corner at steady speed keeps speed constant but changes velocity, because direction is part of velocity."
+  },
+  "parts": [
+    "The moving object",
+    "The speed value",
+    "The direction arrow attached to the object",
+    "The vector readout"
+  ],
+  "processes": [
+    "Stating both magnitude and direction as velocity",
+    "Watching direction arrows change value as they turn",
+    "Using displacement ÷ time (not distance) for the value",
+    "Reading velocity from a position-time graph slope with sign"
+  ],
+  "plainLanguageExplanation": "Velocity is the honest, full report card for movement: how fast AND which way. A runner crossing a field at 3 m/s headed north has a different velocity than a runner doing 3 m/s headed south, even though both run at the same speed. Because direction is part of the answer, velocity is a vector — it must be drawn with a head on the arrow. This shows up in a sneaky way: a car rounding a steady circular loop stays at a constant speed, but its velocity constantly changes because the arrow keeps turning to point where the car is going. The exact number comes from displacement, not distance: velocity = displacement ÷ time. On a position-time graph, the slope and its sign give the velocity — a downward-sloping line means the position is backtracking (negative velocity). Velocity is the deciding ruler for acceleration — anything, not just a speed change, that alters velocity.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Speed with a direction — displacement divided by time" },
+    { "label": "Vector", "value": "Always carries a direction (north, left, 30° east of north)" },
+    { "label": "Formula", "value": "velocity = displacement ÷ time, with the arrow's direction" },
+    { "label": "Constant speed ≠ constant velocity", "value": "Turning or looping changes direction, so velocity changes even at a steady 80 km/h" },
+    { "label": "Vector symbol", "value": "Written as v with an arrow overhead (v→), showing it is a vector" },
+    { "label": "Negative velocity", "value": "On a position-time graph, a downward slant is negative velocity—it backtracks" }
+  ],
+  "whyItMatters": "Velocity is where the simple speed idea meets the real world of direction. Traffic sensors, wind and ocean forecasts, and the flight paths of rockets all speak in velocity, including an arrow. Acceleration is defined purely as a change in velocity — so you cannot talk about brakes, tossing a ball, cornering, or momentum without velocity. Understanding that you can keep your speed and still change your velocity is exactly the moment physics clicks for most learners, and it's the idea the whole vector toolbox is built on.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Velocity (kinematics)",
+  "tagline": "Speed with a compass",
+  "didYouKnow": "Spacecraft don't really 'tear through the sky' — their velocity includes which direction they're drifting, and mission planners must blast retro-rockets to cancel the velocity they've already built up. The Moon's velocity-and-distance dance is what keeps it from falling into Earth or flying away.",
+  "conditions": [
+    "Air traffic vectors",
+    "Ocean current forecasts",
+    "Weather wind arrows",
+    "Rocket trajectory planning"
+  ],
+  "compareCandidateId": "speed",
+  "compareReason": "A car rounding a circle at a fixed 80 km/h speed but a ever-turning velocity arrow is the one demonstration that separates error-prone intuition from the vector truth."
+}

@@ -1,0 +1,100 @@
+{
+  "id": "cell-wall",
+  "componentId": "cell-wall",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/cell-wall/cell-wall.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/cell-wall.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Cellulose wall",
+    "Pores",
+    "Membrane inside",
+    "Fixed cell shape"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-wall-shell",
+      "label": "Cell wall shell",
+      "conceptId": "cellulose-rigid-shell",
+      "position": [
+        0.5,
+        0.05,
+        0.45
+      ],
+      "description": "The thick rigid layer of cellulose around the cell.",
+      "color": "#D98A6A",
+      "function": "Supports and protects the cell with its rigid shell."
+    },
+    {
+      "id": "hs-pore",
+      "label": "Pores",
+      "conceptId": "cellulose-rigid-shell",
+      "position": [
+        0.3,
+        0.4,
+        0.5
+      ],
+      "description": "Openings in the wall that let water and materials pass through.",
+      "color": "#6B85A8",
+      "function": "Let water and dissolved materials reach the membrane."
+    },
+    {
+      "id": "hs-membrane-side",
+      "label": "Membrane inside the wall",
+      "conceptId": "works-with-membrane",
+      "position": [
+        0.4,
+        0.0,
+        0.35
+      ],
+      "description": "The cell membrane lying just inside the wall, still controlling entry.",
+      "color": "#B5846A",
+      "function": "Controls what enters and leaves, while the wall supports."
+    },
+    {
+      "id": "hs-shape",
+      "label": "Fixed shape",
+      "conceptId": "support-and-shape",
+      "position": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "description": "The rectangular, fixed shape the wall gives plant cells.",
+      "color": "#D9A441",
+      "function": "Gives the cell a fixed, sturdy shape."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organelle floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality - museum-model cross-section caps, never gore. COLOR IS RESTRAINED: the organelle reads as a calm warm-paper specimen; each structural part is modeled in a muted near-neutral shade (warm taupe, pale vanilla, soft slate), never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Interior fluid (if any) is softly translucent but not glassy; cross-section cuts are clean flat museum caps. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a plant cell shown as a clean box slice to show the wall clearly. A thick, rigid outer band (the cell wall, warm-paper/tan) wraps the outside, with a thin inner membrane line just inside it. Small holes (pores) visible on the wall face. Inside, the large central vacuole presses the membrane against the wall - a soft outward arrow shows this turgor. Warm-paper palette, muted tan wall. Named nodes: CellWall, WallPores, InnerMembrane, VacuolePress, TurgorArrow. Budget 10-14k.",
+  "visual": {
+    "shape": "cell-wall-box"
+  }
+}

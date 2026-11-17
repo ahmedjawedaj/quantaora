@@ -1,0 +1,89 @@
+{
+  "id": "atomic-number",
+  "componentId": "atomic-number",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/atomic-number/atomic-number.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/atomic-number.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.8,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.8,
+      2.7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Element card + nucleus",
+    "Proton count",
+    "Table order"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-atomic-number",
+      "label": "Atomic number",
+      "conceptId": "atomic-number-counts-protons",
+      "position": [
+        0.95,
+        0.75,
+        0.1
+      ],
+      "description": "The atomic number sits at the top of the element card — a clean whole number that counts the element's protons and names the element.",
+      "positionHint": "The top position on the floating element card's face.",
+      "color": "#D96B5A",
+      "function": "Counts the protons and identifies the element."
+    },
+    {
+      "id": "hs-proton-count",
+      "label": "Proton count",
+      "conceptId": "atomic-number-counts-protons",
+      "position": [
+        -1.0,
+        0,
+        0
+      ],
+      "description": "This small nucleus contains exactly as many protons as the atomic number — each coral sphere is one proton, and the count matches the number on the card.",
+      "positionHint": "The small nucleus cluster beside the card, whose protons pop out when the proton-count layer is on.",
+      "color": "#D9A441",
+      "function": "Shows the atomic number as a real count of protons."
+    },
+    {
+      "id": "hs-table-position",
+      "label": "Box on the table",
+      "conceptId": "atomic-number-orders-table",
+      "position": [
+        0,
+        -1.35,
+        0.1
+      ],
+      "description": "This highlighted box is the element's home on the periodic table. Elements are laid out in order of increasing atomic number.",
+      "positionHint": "The highlighted tile on the section of periodic table below the card, visible when the table-order layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows where the atomic number places the element on the table."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. The element card floats centered with a small nucleus cluster and a section of periodic table behind/below, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: the card is warm paper-white, the protons are warm desaturated coral, the table tiles are soft muted graphite/paper squares. Strong saturated color is reserved entirely for the small flat hotspot dots (coral / amber / molecular green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Element card: warm paper-white rounded tile, roughness ~0.6, subtle bevel. Proton spheres: warm desaturated coral, roughness ~0.45. Table tiles: soft matte graphite with faint paper highlights, roughness ~0.55. No emissive channels anywhere — any highlight or pulse is handled by app runtime UI, not baked into the asset. Text on the card is rendered by the app UI layer.",
+  "assetBrief": "SUBJECT: an element card with its atomic number, built to be read as 'the identity number, visualized as a proton count and a table position.' Three procedural layers, all clean primitives:\n\n1) MAIN: a thin rounded tile (card) ~2.0 wide x 1.3 tall floating centered and tilted slightly toward camera, warm paper-white, subtle bevel. Beside it on the left, a small nucleus cluster of 6 coral spheres (radius ~0.22) tightly packed — the protons. The card carries NO text on the mesh; the atomic number renders as app UI at its top-left.\n\n2) PROTON COUNT (toggleable layer): the 6 coral spheres detach slightly outward from the nucleus cluster and fan out so each can be individually seen and counted.\n\n3) TABLE ORDER (toggleable layer): below the card, a small slab of periodic table — 2 rows x 8 tiles of thin rounded squares (warm paper with faint graphite border). The tile at this element's position (6th in row 1) is highlighted with a subtle raised bevel; the rest stay flat.\n\nCamera: framed so the card is large and centered with the nucleus to its left and the table slab below; auto-rotate default. Budget 6-10k triangles. Named nodes: ElementCard, NucleusCluster, Proton_01-06, TableSlab, TableTile_Highlight. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "element-tile"
+  }
+}

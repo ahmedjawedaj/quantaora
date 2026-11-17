@@ -1,0 +1,80 @@
+{
+  "componentId": "bulb",
+  "questions": [
+    {
+      "id": "bu-q-filament",
+      "conceptId": "bulb-filament-glows",
+      "hotspotId": "hs-filament",
+      "prompt": "Which part of the bulb glows to make light?",
+      "options": [
+        "The thin coiled filament",
+        "The glass globe",
+        "The screw base",
+        "The support wires"
+      ],
+      "correctIndex": 0,
+      "explanation": "The filament is the deliberately thin wire that heats up and glows.",
+      "misconception": "The glass only lets light out; the heat is all in the filament."
+    },
+    {
+      "id": "bu-q-resistance",
+      "conceptId": "bulb-current-turns-to-light",
+      "hotspotId": "hs-filament",
+      "prompt": "Why does the filament get hot?",
+      "options": [
+        "Current meets resistance as it squeezes through",
+        "The glass collects sunlight",
+        "The base is cold",
+        "Air inside heats the coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "The thin filament resists the current, turning some moving energy into heat — and heat makes it glow.",
+      "misconception": "The bulb's warmth is often blamed on the outside; it is made inside by resistance."
+    },
+    {
+      "id": "bu-q-loop",
+      "conceptId": "bulb-loop-connection",
+      "hotspotId": "hs-switch",
+      "prompt": "You open the switch in the bulb's loop. What happens?",
+      "options": [
+        "The filament goes dark immediately",
+        "It keeps glowing dimly for a while",
+        "The filament doubles in brightness",
+        "Nothing changes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current needs a complete loop; a break anywhere stops it and the bulb goes dark at once.",
+      "misconception": "The idea that stored heat keeps the bulb lit; without current the glow is instant-off."
+    },
+    {
+      "id": "bu-q-heat",
+      "conceptId": "bulb-heat-waste",
+      "hotspotId": "hs-globe",
+      "prompt": "Old light bulbs are warm when on. Why?",
+      "options": [
+        "Most of the energy becomes heat, not light",
+        "The glass makes heat by itself",
+        "The room heats the bulb",
+        "Light turns to heat on the glass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Incandescent bulbs waste most input as heat; only a few percent becomes visible light.",
+      "misconception": "Assuming all energy becomes light; heat is the biggest side effect, which is why LEDs win."
+    },
+    {
+      "id": "bu-q-brighter",
+      "conceptId": "bulb-current-turns-to-light",
+      "hotspotId": "hs-filament",
+      "prompt": "More current through the same filament means the bulb...",
+      "options": [
+        "Glows brighter",
+        "Glows dimmer",
+        "Turns off",
+        "Turns blue permanently"
+      ],
+      "correctIndex": 0,
+      "explanation": "More current = hotter filament = brighter light — the bulb's brightness follows the flow.",
+      "misconception": "Some invert the relation; more flow always means a hotter, brighter coil."
+    }
+  ]
+}

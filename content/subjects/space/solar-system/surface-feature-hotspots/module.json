@@ -1,0 +1,105 @@
+{
+  "id": "surface-feature-hotspots",
+  "subject": "space",
+  "title": "Planet Surface Features",
+  "summary": "Zoom in on the most famous landmarks in the solar system — Jupiter's Great Red Spot, Mars's Olympus Mons, Valles Marineris, Saturn's rings, Earth's oceans, and the Moon's dark maria. Six worlds, six landmark hotspots, one story about what geology and weather look like beyond Earth.",
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "skillIds": [
+    "great-red-spot-is-a-storm",
+    "olympus-mons-tallest-volcano",
+    "valles-marineris-canyon-system",
+    "saturn-rings-ice-and-rock",
+    "moon-maria-lava-plains"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Solar System",
+    "unit": "Sun and Planets",
+    "systemOrGroup": "Planets (surface landmarks)",
+    "component": "Planet Surface Features",
+    "displayPath": "Space > Solar System > Sun and Planets > Planets (surface landmarks) > Planet Surface Features"
+  },
+  "crossReferences": [
+    {
+      "label": "Planet Cards (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet cards",
+      "note": "The cards summarize each planet; this component zooms into the specific landmarks that make each world famous."
+    },
+    {
+      "label": "Planet Size Comparison (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet size comparison",
+      "note": "The Great Red Spot and Valles Marineris are so large they are measured against Earth — the size comparison component provides the Earth-sized reference those comparisons use."
+    },
+    {
+      "label": "Rotation and Day Length (Solar System)",
+      "branch": "solar-system",
+      "component": "Planet rotation and day length",
+      "note": "Jupiter's rapid spin is what stretches the Great Red Spot and shapes its swirling bands — rotation and weather are connected."
+    }
+  ],
+  "belongsTo": "Solar System > Sun and Planets > Planets (surface landmarks)",
+  "compareCandidate": {
+    "label": "Jupiter's Great Red Spot vs. Earth's hurricanes",
+    "description": "The Great Red Spot is a storm — the same kind of whirling weather system as an Earth hurricane, but about as wide as our whole planet and raging for at least 190 years. Comparing the two shows that 'weather' is a universal phenomenon, just on wildly different scales."
+  },
+  "parts": [
+    "Great Red Spot (Jupiter's storm)",
+    "Olympus Mons (Mars's giant volcano)",
+    "Valles Marineris (Mars's canyon system)",
+    "Saturn's rings",
+    "Earth's oceans and continents",
+    "The Moon's dark maria"
+  ],
+  "processes": [
+    "Storms as persistent weather systems",
+    "Volcanoes built over billions of years without plate tectonics",
+    "Canyons formed by rifting and erosion",
+    "Ring systems as orbiting debris",
+    "Basalt floods on the Moon"
+  ],
+  "plainLanguageExplanation": "Every world has a famous feature, and each one teaches a different idea. Jupiter's Great Red Spot is the biggest storm in the solar system — a swirling hurricane more than twice as wide as Earth that has been spinning for at least 190 years. Mars has Olympus Mons, the tallest volcano known anywhere — about 22 km high, nearly three Mount Everests — and Valles Marineris, a canyon system so long it would stretch across the whole United States. Saturn's rings look solid in photos but are actually trillions of separate chunks of ice and rock, some the size of houses. Earth's oceans and continents are the features we live on — the only world in the solar system with liquid water on its surface. And the Moon's dark patches, the maria, are ancient plains of lava that flooded after giant impacts. This model shows each world with its landmarks highlighted by hotspots, so you can explore the solar system's geography like a world-traveler.",
+  "keyFacts": [
+    {
+      "label": "Great Red Spot",
+      "value": "A storm on Jupiter wider than Earth, raging for at least 190 years"
+    },
+    {
+      "label": "Olympus Mons",
+      "value": "Tallest volcano in the solar system — about 22 km high on Mars, nearly 3 × Mount Everest"
+    },
+    {
+      "label": "Valles Marineris",
+      "value": "A canyon system on Mars over 4,000 km long — about the width of the USA"
+    },
+    {
+      "label": "Saturn's rings",
+      "value": "Countless separate chunks of ice and rock — not solid sheets — some house-sized"
+    },
+    {
+      "label": "Earth",
+      "value": "The only world known to have liquid water oceans on its surface"
+    },
+    {
+      "label": "Moon's maria",
+      "value": "Dark plains of ancient solidified lava on the near side of the Moon"
+    }
+  ],
+  "whyItMatters": "These landmarks are the reasons we send missions: the Great Red Spot teaches storm dynamics, Olympus Mons teaches volcanic building without plate tectonics, Valles Marineris teaches the history of Martian water and rifting, and the Moon's maria record the bombardment the young solar system went through. Every one of these features is a page in the solar system's history book — and some, like Earth's oceans, raise the question no other world answers: where is the water, and where is the life?",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Notable Planetary Landforms",
+  "tagline": "The solar system's greatest landmarks",
+  "didYouKnow": "Valles Marineris is so long that it would stretch across the entire United States — and its deepest point is about seven times deeper than the Grand Canyon.",
+  "compareCandidateId": "planet-size-comparison",
+  "compareReason": "The Great Red Spot and Valles Marineris are both measured against Earth's size — this component names the landmarks, the size comparison provides the reference they're measured against."
+}

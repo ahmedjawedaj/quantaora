@@ -1,0 +1,38 @@
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+**/coverage/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vercel/
+**/.vercel/
+
+# Local agent and browser state
+.claude/
+.serena/
+.playwright-mcp/
+CLAUDE.md
+
+# Review artifacts and temporary downloads
+review-screenshots/
+**/review-screenshots/
+tmpdl/
+**/tmpdl/
+dl/
+algebra/
+assets/reference/
+quantaora-app/*.png
+quantaora-app/*-snap.yml
+harvest-rcsb.js

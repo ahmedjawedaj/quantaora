@@ -1,0 +1,90 @@
+{
+  "id": "work",
+  "subject": "physics",
+  "title": "Work",
+  "summary": "In physics, work is the transfer of energy when a force moves an object: work = force × distance. Push the cart along the track in this model and the work counter climbs — and the cart's kinetic energy rises to match. No motion, no work: holding a bucket still does nothing, pushing it along B certain.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "work-force-times-distance",
+    "work-two-ingredients",
+    "work-measured-in-joules",
+    "work-requires-motion",
+    "work-transfers-energy"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Energy",
+    "unit": "Work and Power",
+    "systemOrGroup": "Work and Power",
+    "component": "Work",
+    "displayPath": "Physics > Energy > Work and Power > Work and Power > Work"
+  },
+  "crossReferences": [
+    {
+      "label": "Kinetic energy (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Kinetic energy",
+      "note": "Do work on a cart and its kinetic energy grows by exactly that work."
+    },
+    {
+      "label": "Force (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Force",
+      "note": "Work needs a force that actually manages to move something — push without motion does no work."
+    },
+    {
+      "label": "Power (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Power",
+      "note": "Power measures how quickly the same work gets done."
+    }
+  ],
+  "belongsTo": "Energy > Work and Power > Work and Power",
+  "compareCandidate": {
+    "label": "Work vs. power",
+    "description": "Work is the total energy transferred (force × distance); power is the rate — same work done in less time means more power."
+  },
+  "parts": [
+    "The cart and the track",
+    "The push barrel",
+    "The work counter",
+    "The equal-energy readout"
+  ],
+  "processes": [
+    "Pushing the cart across the track",
+    "Computing work = force × distance",
+    "Burning J through pushes",
+    "Transferring energy to the cart"
+  ],
+  "plainLanguageExplanation": "Work in physics doesn't mean chores — it means energy transferred by a force moving something. The recipe: work = force × distance, measured in joules. Move a heavy cart far while pushing both matter: push 10 N and move it 3 m → 30 J of work. Two twists make work different from popular a: zero motion, zero work (holding a full suitcase nowhere does no work — you knee honestly tires, but the physics says nothing happened); and the more you push, the more energy you hand the cart. The work counter every meter climbed adds J. Push hard and far in this model and the cart glides faster, banks more kinetic energy, counter's crater states exactly how much energy your arms handed over.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Energy transferred by a force moving an object" },
+    { "label": "Formula", "value": "Work = force × distance (both along the motion line)" },
+    { "label": "Unit", "value": "Joule (J)" },
+    { "label": "No motion, no work", "value": "Pushing a wall that won't move does zero work" },
+    { "label": "Doubles either", "value": "Twice the force or twice the distance → twice the work" }
+  ],
+  "whyItMatters": "Work is the currency of energy moves: every joule that transfers into a system does so as work. Physicists measure how engines, legs, and machines transfer energy in J of work. The rule 'no motion, no work' decides which pushes matter, how much energy athletes put into a ball, and how a ramp's force-doubling trades distance for effort — the same work done easier but longer.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Mechanical work",
+  "tagline": "Energy moved by force through distance",
+  "didYouKnow": "Lifting a 1 kg mass 1 m vertically does about 10 J of work. Pushing a lawn mower through a 20 m lawn takes hundreds of joules — yet your muscles only turn about a quarter of the food energy into tile work; the rest leaves as heat.",
+  "conditions": [
+    "Lifting weights at the gym",
+    "Pushing a shopping cart",
+    "Riding a bicycle up a hill",
+    "Machines moving loads",
+    "Falling water spinning mill wheels"
+  ],
+  "compareCandidateId": "power",
+  "compareReason": "Work waits until it's actual energy handed over; power we how fast the handing happens — same carton, two different watches."
+}

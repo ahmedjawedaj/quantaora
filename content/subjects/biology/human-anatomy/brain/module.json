@@ -1,0 +1,106 @@
+{
+  "id": "brain",
+  "subject": "biology",
+  "title": "Brain",
+  "summary": "The brain is the control center of the body - a soft, wrinkled organ that thinks, feels, moves, and remembers. Explore its main regions and how each one handles a different kind of job.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "cerebrum-thinking",
+    "cerebellum-balance",
+    "brainstem-automatic",
+    "memory-emotion-regions"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Nervous system",
+    "component": "Brain",
+    "displayPath": "Biology > Human Anatomy > Nervous system > Brain"
+  },
+  "crossReferences": [
+    {
+      "label": "Nerve Signaling (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Nerve signaling",
+      "note": "The brain's work depends on the nerve-signaling process - the way neurons pass electrical messages."
+    },
+    {
+      "label": "Eye (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Eye",
+      "note": "Visual information from the eye is processed by the brain's occipital lobe."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Nervous system > Brain",
+  "compareCandidate": {
+    "label": "Brain vs. computer",
+    "description": "The brain is sometimes compared to a computer, but it is different: it is soft tissue made of living cells, it learns and changes with experience, and it runs the whole body's automatic functions while also thinking and feeling."
+  },
+  "parts": [
+    "Cerebrum (lobes and hemispheres)",
+    "Cerebellum",
+    "Brainstem",
+    "Hippocampus",
+    "Amygdala"
+  ],
+  "processes": [
+    "Thinking and sensing",
+    "Controlling movement",
+    "Running automatic life functions",
+    "Forming memories and emotions"
+  ],
+  "plainLanguageExplanation": "The brain is the body's control center, made of billions of neurons (nerve cells) packed together. It has several main regions. The cerebrum, the big wrinkled outer part, handles thinking, sensing, and voluntary movement; its two halves are the right and left hemispheres, and its lobes do different jobs. The cerebellum at the back coordinates balance and smooth movement. The brainstem connects the brain to the spinal cord and runs automatic life jobs like breathing and heartbeat. Deep inside, the hippocampus helps form memories and the amygdala helps with emotions. The brain floats in fluid that cushions it, and is protected by the skull.",
+  "keyFacts": [
+    {
+      "label": "Job",
+      "value": "The body's control center for thinking, sensing, moving, and remembering"
+    },
+    {
+      "label": "Main parts",
+      "value": "Cerebrum, cerebellum, brainstem, and deeper memory/emotion centers"
+    },
+    {
+      "label": "Cerebrum",
+      "value": "Large wrinkled outer brain; handles thinking, sensing, and movement"
+    },
+    {
+      "label": "Cerebellum",
+      "value": "At the back; coordinates balance and smooth movement"
+    },
+    {
+      "label": "Brainstem",
+      "value": "Connects brain to spinal cord; runs breathing and heartbeat"
+    },
+    {
+      "label": "Neurons",
+      "value": "Made of billions of nerve cells that send signals"
+    },
+    {
+      "label": "Protection",
+      "value": "Skull plus cushioning fluid"
+    }
+  ],
+  "whyItMatters": "The brain runs everything you do - every thought, memory, movement, and heartbeat. Understanding its main regions explains why a bump on the head or damage to one part affects specific skills, and how the brain coordinates the whole body.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Brain (Encephalon)",
+  "tagline": "The body's control center",
+  "didYouKnow": "Your brain has about 86 billion neurons, and signals can travel between them at more than 100 meters per second.",
+  "conditions": [
+    "Concussion",
+    "Epilepsy",
+    "Stroke"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Nervous system > Brain",
+  "plain": "The brain is the body's control center, made of billions of neurons (nerve cells) packed together. It has several main regions. The cerebrum, the big wrinkled outer part, handles thinking, sensing, and voluntary movement; its two halves are the right and left hemispheres, and its lobes do different jobs. The cerebellum at the back coordinates balance and smooth movement. The brainstem connects the brain to the spinal cord and runs automatic life jobs like breathing and heartbeat. Deep inside, the hippocampus helps form memories and the amygdala helps with emotions. The brain floats in fluid that cushions it, and is protected by the skull."
+}

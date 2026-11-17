@@ -1,0 +1,46 @@
+{
+  "componentId": "switch",
+  "terms": [
+    {
+      "term": "Switch",
+      "conceptId": "switch-opens-closes-loop",
+      "hotspotId": "hs-lever",
+      "definition": "A device that opens or closes the current path — the circuit's gate.",
+      "function": "One click decides whether current has a road.",
+      "whereItIs": "The rocker lever on the switch body.",
+      "whyItMatters": "Every wall plate, button, and breaker runs on this idea.",
+      "relatedConcept": "current",
+      "quizId": "sw-q1"
+    },
+    {
+      "term": "Closed versus open",
+      "conceptId": "switch-only-path-decider",
+      "hotspotId": "hs-posts",
+      "definition": "Closed = contacts touch, loop complete; open = gap, loop broken.",
+      "whyItMatters": "It's the on/off semantics of every circuit.",
+      "whereItIs": "The contact posts touching or parted.",
+      "relatedConcept": "switch-opens-closes-loop",
+      "quizId": "sw-q3"
+    },
+    {
+      "term": "Instant stop",
+      "conceptId": "switch-instantly-stops-current",
+      "hotspotId": "hs-base",
+      "definition": "An open switch halts current everywhere in a series loop at once.",
+      "whyItMatters": "Why breakers can trip out danger in an instant.",
+      "whereItIs": "The bulb and ammeter zeroing simultaneously.",
+      "relatedConcept": "series-circuit",
+      "quizId": "sw-q2"
+    },
+    {
+      "term": "Current rating",
+      "conceptId": "switch-too-much-current-safety",
+      "hotspotId": "hs-wire",
+      "definition": "The maximum amps a switch is built to carry safely.",
+      "whyItMatters": "Oversized current overheats and ruins any switch.",
+      "whereItIs": "The post-warming warning under high ammeter.",
+      "relatedConcept": "resistance",
+      "quizId": "sw-q4"
+    }
+  ]
+}

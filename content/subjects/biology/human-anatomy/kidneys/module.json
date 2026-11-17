@@ -1,0 +1,106 @@
+{
+  "id": "kidneys",
+  "subject": "biology",
+  "title": "Kidneys",
+  "summary": "The kidneys are two bean-shaped organs that filter the blood to remove wastes and extra water, making urine. Explore their filtering units and the clean, balanced blood they send back into the body.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "nephrons-filter-blood",
+    "waste-to-urine",
+    "water-salt-balance",
+    "kidney-cleans-blood"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Urinary system",
+    "component": "Kidneys",
+    "displayPath": "Biology > Human Anatomy > Urinary system > Kidneys"
+  },
+  "crossReferences": [
+    {
+      "label": "Filtration by kidneys (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Filtration by kidneys",
+      "note": "The step-by-step process of how nephrons filter blood is covered in the kidney-filtration process."
+    },
+    {
+      "label": "Blood Vessels (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Blood vessels",
+      "note": "Blood flows into the kidney through a large artery, gets filtered, and returns through a vein."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Urinary system > Kidneys",
+  "compareCandidate": {
+    "label": "Kidney filter vs. coffee filter",
+    "description": "Like a coffee filter, the kidney separates wanted from unwanted - but it is far smarter: it actively decides what to keep (water, salts, sugar the body needs) and what to discard (waste)."
+  },
+  "parts": [
+    "Nephrons",
+    "Filtering unit",
+    "Ureters",
+    "Bladder",
+    "Renal blood vessels"
+  ],
+  "processes": [
+    "Filtering waste from the blood",
+    "Making urine",
+    "Balancing water and salts",
+    "Returning cleaned blood to the body"
+  ],
+  "plainLanguageExplanation": "The kidneys are two bean-shaped organs at the back of the abdomen, one on each side of the spine. Their job is to filter the blood. Every few minutes all of your blood passes through the kidneys, where tiny filtering units called nephrons take out waste products and extra water. That waste becomes urine, which travels through tubes to the bladder to be stored and later released. The kidneys also help keep the right balance of water and salts in your body and make hormones that help control blood pressure and make red blood cells. When your kidneys filter, the cleaned blood returns to your circulation.",
+  "keyFacts": [
+    {
+      "label": "Shape and place",
+      "value": "Two bean-shaped organs at the back of the abdomen"
+    },
+    {
+      "label": "Job",
+      "value": "Filter the blood, removing wastes and extra water"
+    },
+    {
+      "label": "Filter units",
+      "value": "Millions of tiny nephrons do the filtering"
+    },
+    {
+      "label": "Urine",
+      "value": "The filtered waste becomes urine, stored in the bladder"
+    },
+    {
+      "label": "Balance",
+      "value": "Helps keep water and salts balanced"
+    },
+    {
+      "label": "Bonus jobs",
+      "value": "Makes hormones that help blood pressure and red blood cells"
+    },
+    {
+      "label": "Speed",
+      "value": "Filters your whole blood supply many times a day"
+    }
+  ],
+  "whyItMatters": "The kidneys keep your blood clean and your body balanced. Understanding them explains what urine is, why staying hydrated matters, and how the body gets rid of its waste safely.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Kidneys (Renes)",
+  "tagline": "The body's blood filter",
+  "didYouKnow": "Your kidneys filter about 180 liters of fluid a day - but you only pee out about 1-2 liters, because almost all of it gets reabsorbed.",
+  "conditions": [
+    "Kidney stones",
+    "Kidney failure",
+    "Urinary tract infection"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Urinary system > Kidneys",
+  "plain": "The kidneys are two bean-shaped organs at the back of the abdomen, one on each side of the spine. Their job is to filter the blood. Every few minutes all of your blood passes through the kidneys, where tiny filtering units called nephrons take out waste products and extra water. That waste becomes urine, which travels through tubes to the bladder to be stored and later released. The kidneys also help keep the right balance of water and salts in your body and make hormones that help control blood pressure and make red blood cells. When your kidneys filter, the cleaned blood returns to your circulation."
+}

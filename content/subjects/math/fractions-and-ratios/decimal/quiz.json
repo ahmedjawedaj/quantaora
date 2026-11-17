@@ -1,0 +1,80 @@
+{
+  "componentId": "decimal",
+  "questions": [
+    {
+      "id": "decimal-definition",
+      "conceptId": "decimal-fraction-other-name",
+      "hotspotId": "hs-decimal-point",
+      "prompt": "What decimal is another name for 1/2?",
+      "options": [
+        "0.5",
+        "0.2",
+        "1.5",
+        "5.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "1/2 = 5/10, and five tenths is written 0.5.",
+      "misconception": "0.2 would be 2 tenths (1/5), not half; the decimal point keeps the tenths in their own place."
+    },
+    {
+      "id": "decimal-tenths",
+      "conceptId": "decimal-tenths-hundredths",
+      "hotspotId": "hs-place-columns",
+      "prompt": "What does the 4 mean in the decimal 0.4?",
+      "options": [
+        "4 tenths",
+        "4 hundredths",
+        "4 wholes",
+        "4 thousandths"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first digit after the point is the tenths place, so 0.4 means 4 tenths.",
+      "misconception": "The first place after the decimal point is tenths, not hundredths — 0.4 is 4/10, not 4/100."
+    },
+    {
+      "id": "decimal-hundredths",
+      "conceptId": "decimal-tenths-hundredths",
+      "hotspotId": "hs-place-columns",
+      "prompt": "Write seventy-five hundredths as a decimal.",
+      "options": [
+        "0.75",
+        "0.075",
+        "7.5",
+        "75.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seventy-five hundredths is 75/100, written 0.75.",
+      "misconception": "0.075 is 75 thousandths and 7.5 is seven and a half — the hundredths place needs two digits after the point."
+    },
+    {
+      "id": "decimal-compare",
+      "conceptId": "decimal-compare",
+      "hotspotId": "hs-grid",
+      "prompt": "Which decimal is LARGER?",
+      "options": [
+        "0.35",
+        "0.29",
+        "0.3",
+        "0.24"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compare place by place: the tenths (3 vs 2) already show 0.35 and 0.3 are larger than 0.29 and 0.24.",
+      "misconception": "Do not compare the number of digits — 0.35 is bigger than 0.29 because its tenths digit is larger, not because it has more digits."
+    },
+    {
+      "id": "decimal-money",
+      "conceptId": "decimal-place-value",
+      "hotspotId": "hs-grid",
+      "prompt": "What decimal of a dollar is $0.25?",
+      "options": [
+        "25 hundredths",
+        "25 tenths",
+        "2.5 hundredths",
+        "Quarter-dollar equals 0.25 tenths"
+      ],
+      "correctIndex": 0,
+      "explanation": "A dollar is 100 cents, so 25 cents is 25 hundredths of a dollar, written 0.25.",
+      "misconception": "Cents are hundredths of a dollar, not tenths — $0.25 is 25/100, not 25/10."
+    }
+  ]
+}

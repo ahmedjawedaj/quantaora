@@ -1,0 +1,89 @@
+{
+  "id": "resistance",
+  "subject": "physics",
+  "title": "Resistance",
+  "summary": "Resistance is how strongly a material fights the flow of current — measured in ohms. A thick short wire is an easy road; a long thin filament fights hard. In this model a resistor block slides along a metal rail; lengthen the path and the ammeter falls while the bulb dims, then switch the block's material to see copper flow free.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "resistance-opposes-current",
+    "resistance-unit-ohm",
+    "resistance-material-and-length",
+    "resistance-thin-long-high"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Resistance",
+    "systemOrGroup": "Voltage and Resistance",
+    "component": "Resistance",
+    "displayPath": "Physics > Electricity > Resistance > Voltage and Resistance > Resistance"
+  },
+  "crossReferences": [
+    {
+      "label": "Voltage (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Voltage",
+      "note": "The same voltage fights more or less current depending on resistance — the pair that rules circuits."
+    },
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "Resistance is the drag the flow of current must push through."
+    },
+    {
+      "label": "Conductors & insulators (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Conductors and insulators",
+      "note": "Conductors have tiny resistance, insulators have huge resistance — this model sits between the two."
+    }
+  ],
+  "belongsTo": "Electricity > Resistance > Voltage and Resistance",
+  "compareCandidate": {
+    "label": "Short fat vs. long thin",
+    "description": "The same rail under a short thick block and a long thin one shows resistance climbing with length and slimming."
+  },
+  "parts": [
+    "The resistor block",
+    "The metal rail",
+    "The ammeter and bulb",
+    "The material switch"
+  ],
+  "processes": [
+    "Sliding the block along the rail",
+    "Lengthening the current path",
+    "Reading lower amps and dimmer light",
+    "Switching materials to drop resistance"
+  ],
+  "plainLanguageExplanation": "Resistance is how much a material fights the flow of electric current — like friction slowing water in a rough pipe. It is measured in ohms (Ω). The more resistance, the harder the current has to push through, and with the same voltage you get less current: that's the famous pair, current = voltage ÷ resistance. Two things matter most: material (copper flows easily, rubber blocks almost entirely) and geometry (a long, thin path resists more than a short, thick one). In this model a resistor block sits on a metal rail; slide it to make the current travel a longer path and watch the ammeter sag and the bulb dim. Flip the material switch to copper and the same path suddenly pours current — tiny resistance. Resistance is the dimmer switch of the world: the filament of every bulb, the wire gauge in your walls, the resistor chips on circuit boards — all just drags the current is fighting against.",
+  "keyFacts": [
+    { "label": "Definition", "value": "How strongly a material resists current flow" },
+    { "label": "Unit", "value": "Ohm (Ω)" },
+    { "label": "The link", "value": "current = voltage ÷ resistance (Ohm's law)" },
+    { "label": "Materials matter", "value": "Copper low, rubber huge" },
+    { "label": "Geometry matters", "value": "Long and thin resist more than short and fat" }
+  ],
+  "whyItMatters": "Resistance is the control knob of electricity: it's why bulb filaments glow, why wires are sized by gauge, why fuses burn, and why resistors exist on boards. Design any circuit and you are really choosing resistances — too high and nothing flows, too low and wires melt. Understanding ohms is understanding why materials and shapes behave so differently in circuits.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Electrical resistance",
+  "tagline": "The drag on the current",
+  "didYouKnow": "Copper conducts a billion billion times better than rubber. A single copper atom in a crystal lets its outer electrons flow almost freely — resistance is basically how crowded and bumpy the electron road is.",
+  "conditions": [
+    "Bulb filaments glowing hot",
+    "Fuse wires burning to protect circuits",
+    "Electric heating elements",
+    "Wire gauge in house walls",
+    "Resistors on circuit boards"
+  ],
+  "compareCandidateId": "voltage",
+  "compareReason": "Voltage is the push, resistance is the drag — the same loop under more drag or more push shows the current splitting the difference."
+}

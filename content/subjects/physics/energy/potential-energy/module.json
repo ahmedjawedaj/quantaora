@@ -1,0 +1,90 @@
+{
+  "id": "potential-energy",
+  "subject": "physics",
+  "title": "Potential Energy",
+  "summary": "Potential energy is stored energy waiting to fall, stretch, or spring into action — a ball held high, a stretched rubber band, a raised hammer. Gravity and height decide it: PE = mass × g × height. Lift the block in this model and watch the stored energy rise; release it and watch the energy turn into motion.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "potential-energy-of-height",
+    "potential-energy-pe-formula",
+    "potential-energy-height-dependence",
+    "potential-energy-releases-into-motion"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Energy",
+    "unit": "Energy Forms",
+    "systemOrGroup": "Kinetic and Potential Energy",
+    "component": "Potential Energy",
+    "displayPath": "Physics > Energy > Energy Forms > Kinetic and Potential Energy > Potential Energy"
+  },
+  "crossReferences": [
+    {
+      "label": "Kinetic energy (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Kinetic energy",
+      "note": "Potential energy of a height becomes kinetic energy when the thing falls — the two exchange roles constantly."
+    },
+    {
+      "label": "Gravity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Gravity",
+      "note": "Gravity is the force that gives height its potential energy awaiting release."
+    },
+    {
+      "label": "Work (Energy)",
+      "branch": "energy",
+      "lowLevelItem": "Work",
+      "note": "Lifting a block up does work that is banked as gravitational potential energy."
+    }
+  ],
+  "belongsTo": "Energy > Energy Forms > Kinetic and Potential Energy",
+  "compareCandidate": {
+    "label": "Potential vs. kinetic energy",
+    "description": "Potential energy is stored (a block perched high); kinetic energy moves (a block falling). Lifting converts work into potential; dropping converts potential into kinetic."
+  },
+  "parts": [
+    "The block on the shelf",
+    "The lift control",
+    "The stored-energy meter",
+    "The floor it falls onto"
+  ],
+  "processes": [
+    "Lifting the block to store energy",
+    "Computing PE = mgh",
+    "Holding the position of each height",
+    "Releasing the block into motion"
+  ],
+  "plainLanguageExplanation": "Potential energy is energy that is stored up and waiting. A block high on a shelf has it because gravity could pull it down; a stretched rubber band has it because it can snap back. The recipe for the height kind is simple: PE (joules) = mass × gravity × height, where gravity on Earth is about 10 N/kg. That's why the higher an object rests and the heavier it is, the more energy hides inside it — dump trucks at the top of a dam hold the city's lights in energy form. This model is a block on a shelf with a lift button and a meter: raise the shelf, the meter climbs; ounce of height in, joule of stored energy out. Release the block and stored potential turns straight into kinetic energy as it falls — the energy doesn't disappear, it just changes job. This is the same stored treasure behind waterfalls, roller coasters, and every toy kettle hawker pulled high.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Stored energy an object has because of its position or shape" },
+    { "label": "Height formula", "value": "PE = mass × g × height (g ≈ 10 N/kg on Earth)" },
+    { "label": "Unit", "value": "Joule (J)" },
+    { "label": "Two heroes", "value": "More mass or more height both add stored energy" },
+    { "label": "Change to motion", "value": "Released potential becomes kinetic energy" },
+    { "label": "Other kinds", "value": "Stretched springs and rubber bands store elastic potential energy too" }
+  ],
+  "whyItMatters": "Potential energy is the world's giant battery: hydroelectric dams stored river height, boulders hold danger until they fall, and springs power everything from mousetraps to catapults. Athletes store it in their leg muscles, archers in drawn bows. Understand PE and you understand the way that energy is hidden, saved, and later spent — the engine behind dams, roller coasters, and trampolines.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Gravitational potential energy",
+  "tagline": "Stored energy of height",
+  "didYouKnow": "Two 1 kg bricks: one on the floor, one on a 10 m shelf. The top brick holds roughly 100 J of stored energy — enough to raise a bit 0.1°C, or to drop it with the crack of a hammer. Raise it twice as high and the stored energy doubles.",
+  "conditions": [
+    "Hydroelectric dams holding river water",
+    "Roller coasters topping their first hill",
+    "Archers drawing a bow",
+    "Pendulums and swings",
+    "Boulders on hillsides"
+  ],
+  "compareCandidateId": "kinetic-energy",
+  "compareReason": "Stored energy of height vs. energy of motion — the same block shows the energy at the top (potential) then converts it into kinetic on the way down."
+}

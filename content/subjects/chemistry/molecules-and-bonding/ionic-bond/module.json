@@ -1,0 +1,109 @@
+{
+  "id": "ionic-bond",
+  "subject": "chemistry",
+  "title": "Ionic Bond",
+  "summary": "An ionic bond is a bond formed when atoms transfer electrons — a metal gives electrons to a nonmetal, and the opposite charges attract. Explore how sodium and chlorine trade an electron to build table salt.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "ionic-transfers-electrons",
+    "ionic-metal-gives-nonmetal-takes",
+    "ionic-builds-salts"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Molecules And Bonding",
+    "unit": "How Atoms Bond",
+    "systemOrGroup": "The two great bonds",
+    "component": "Ionic Bond",
+    "displayPath": "Chemistry > Molecules And Bonding > How Atoms Bond > The two great bonds > Ionic Bond"
+  },
+  "crossReferences": [
+    {
+      "label": "Covalent bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Covalent bond",
+      "note": "The ionic bond transfers electrons; the covalent bond shares them. Together they are the two great ways atoms bond."
+    },
+    {
+      "label": "Compound (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Compound",
+      "note": "Ionic bonds build ionic compounds — salts like NaCl that are made of oppositely charged ions."
+    },
+    {
+      "label": "Metal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Metal",
+      "note": "Metals have few outer electrons and give them up easily — the electron giver in an ionic bond."
+    },
+    {
+      "label": "Nonmetal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Nonmetal",
+      "note": "Nonmetals want electrons to complete their shells — the electron taker in an ionic bond."
+    }
+  ],
+  "belongsTo": "Molecules And Bonding > How Atoms Bond > The two great bonds",
+  "compareCandidate": {
+    "label": "Ionic bond vs. covalent bond",
+    "description": "An ionic bond transfers electrons — a metal gives, a nonmetal takes, and opposite charges attract. A covalent bond shares electrons — two nonmetals hold a pair together. Transferring versus sharing."
+  },
+  "parts": [
+    "Transfer of electrons",
+    "Metal gives, nonmetal takes",
+    "Opposite charges attract"
+  ],
+  "processes": [
+    "Transferring electrons from a metal to a nonmetal",
+    "Forming positive and negative ions",
+    "Building salts with repeating crystal structures"
+  ],
+  "plainLanguageExplanation": "An ionic bond is the bond that forms when atoms don't share — they trade. Imagine sodium, a metal that has one lonely electron in its outer shell and hates it, and chlorine, a nonmetal that needs exactly one more electron to complete its shell. When they meet, sodium hands its electron to chlorine. Now sodium is missing a negative electron, so it is positive (Na⁺), and chlorine has an extra negative electron, so it is negative (Cl⁻). And here is the magic: opposite charges attract. The positive sodium ion and negative chloride ion are pulled toward each other and lock together — that attraction is the ionic bond. Huge numbers of these ions lock together in a repeating grid called a crystal lattice — which is exactly the structure of table salt. Ionic bonds are why salt is a solid at room temperature, dissolves in water, and even conducts electricity when melted or dissolved. The key difference from a covalent bond: covalent SHARES, ionic TRANSFERS.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A bond formed when one atom transfers electrons to another"
+    },
+    {
+      "label": "The transfer",
+      "value": "Metal gives electrons, nonmetal takes them"
+    },
+    {
+      "label": "Result",
+      "value": "Positive and negative ions that attract each other"
+    },
+    {
+      "label": "The structure",
+      "value": "Ions lock into a repeating crystal lattice"
+    },
+    {
+      "label": "Classic example",
+      "value": "NaCl — table salt, from sodium and chlorine"
+    },
+    {
+      "label": "vs. covalent",
+      "value": "Ionic transfers electrons; covalent shares them"
+    }
+  ],
+  "whyItMatters": "Ionic bonds build the salts of the Earth — table salt, the minerals in rocks, the nutrients in your blood. Understanding how atoms transfer electrons explains why metals and nonmetals are such natural partners, how crystals form, and how salts conduct electricity. It is the other half of the bonding story that holds chemistry together.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Ionic bond",
+  "tagline": "The bond that trades",
+  "didYouKnow": "The salt on your table is a lattice of millions of alternating Na⁺ and Cl⁻ ions — a repeating cube of positive and negative charges stacked like building blocks.",
+  "conditions": [
+    "Table salt and minerals",
+    "Dissolved salts in your blood",
+    "Batteries and electrolytes"
+  ],
+  "compareCandidateId": "covalent-bond",
+  "compareReason": "Transferring versus sharing — comparing the ionic bond with its rival the covalent bond makes the single most important distinction in bonding crystal clear."
+}

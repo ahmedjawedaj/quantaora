@@ -1,0 +1,109 @@
+{
+  "id": "product",
+  "subject": "chemistry",
+  "title": "Product",
+  "summary": "A product is a new substance created by a chemical reaction — written on the right side of the equation. Water is the product when hydrogen and oxygen react.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "product-created-by-reaction",
+    "product-right-of-equation",
+    "product-new-substance"
+  ],
+  "type": "model",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Chemical Reactions",
+    "unit": "Reading Reactions",
+    "systemOrGroup": "The starting materials",
+    "component": "Product",
+    "displayPath": "Chemistry > Chemical Reactions > Reading Reactions > The starting materials > Product"
+  },
+  "crossReferences": [
+    {
+      "label": "Reactant (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Reactant",
+      "note": "The product is what the reaction creates from the reactants — the two face each other across the arrow."
+    },
+    {
+      "label": "Balanced equation (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Balanced equation",
+      "note": "In a balanced equation, the atoms in the products exactly match the atoms in the reactants."
+    },
+    {
+      "label": "Conservation of mass (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Conservation of mass",
+      "note": "The mass of the products equals the mass of the reactants — atoms are conserved, so matter is conserved."
+    },
+    {
+      "label": "Compound (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Compound",
+      "note": "Many products are compounds — new substances with new properties created by the reaction."
+    }
+  ],
+  "belongsTo": "Chemical Reactions > Reading Reactions > The starting materials",
+  "compareCandidate": {
+    "label": "Product vs. reactant",
+    "description": "A product is the new substance that comes OUT of a reaction — created on the right of the arrow. A reactant is the starting material that goes IN — consumed on the left. The dish versus the ingredients."
+  },
+  "parts": [
+    "Created by a reaction",
+    "Sits on the right of the equation",
+    "A new substance with its own properties"
+  ],
+  "processes": [
+    "Forming as reactants rearrange",
+    "Holding exactly the atoms the reactants provided",
+    "Gaining brand-new properties"
+  ],
+  "plainLanguageExplanation": "A product is the new substance that a chemical reaction creates. When hydrogen and oxygen react, they combine into water — the water is the product. In a chemical equation, products are always written on the RIGHT side of the arrow: hydrogen + oxygen → water. The arrow means 'reacts to make,' and everything after it is a product. Products are genuinely new substances. The wood you burn, the carbon dioxide and ash that result — those are products. The cake you bake from flour and eggs — that is a product. And here is the crucial rule that connects products to reactants: the product's atoms are exactly the reactant's atoms, just rearranged. The same atoms that went into the reaction come out in the product — nothing is created or destroyed, only reconnected. That is why mass is conserved: the weight of the products exactly equals the weight of the reactants. Products are the other half of every reaction — the new thing that appears on the right of the arrow.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A new substance created by a chemical reaction"
+    },
+    {
+      "label": "Position",
+      "value": "Written on the RIGHT side of the equation arrow"
+    },
+    {
+      "label": "Its atoms",
+      "value": "Exactly the reactants' atoms, rearranged — none created or destroyed"
+    },
+    {
+      "label": "Mass",
+      "value": "Products weigh exactly what the reactants weighed"
+    },
+    {
+      "label": "Example",
+      "value": "Water is the product of hydrogen + oxygen"
+    },
+    {
+      "label": "Everyday",
+      "value": "Ash and CO₂ from burning, baked cake, breath from respiration"
+    }
+  ],
+  "whyItMatters": "Products are the outcome of every chemical change — the new substances that appear around you constantly, from the bread in your oven to the rust on a bike. Understanding products, and that their atoms come from the reactants, is central to reading equations and the law of conservation of mass.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Product",
+  "tagline": "The outcome of a reaction",
+  "didYouKnow": "The carbon dioxide you exhale is a product — its carbon atoms came from the food you ate, and its oxygen from the air you breathed. You are breathing out rearranged dinner.",
+  "conditions": [
+    "Every chemical reaction",
+    "Conservation of mass",
+    "New materials"
+  ],
+  "compareCandidateId": "reactant",
+  "compareReason": "Product and reactant are the two ends of every reaction — comparing the dish with the ingredients makes the whole reaction concept concrete."
+}

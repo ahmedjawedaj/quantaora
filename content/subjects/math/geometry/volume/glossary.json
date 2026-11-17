@@ -1,0 +1,41 @@
+{
+  "componentId": "volume",
+  "terms": [
+    {
+      "term": "Volume",
+      "conceptId": "volume-definition",
+      "hotspotId": "hs-volume-box",
+      "definition": "The amount of space a 3D object fills.",
+      "function": "Counted in cubic units packed inside.",
+      "whereItIs": "The space inside the clear box.",
+      "whyItMatters": "Volume measures capacity and fullness."
+    },
+    {
+      "term": "Cubic unit",
+      "conceptId": "volume-cubic-units",
+      "hotspotId": "hs-base-layer",
+      "definition": "A 1-by-1-by-1 cube used to pack and count a solid.",
+      "function": "The building block of volume measurement.",
+      "whereItIs": "Each small cube inside the box.",
+      "whyItMatters": "Volume numbers are counts of these cubes."
+    },
+    {
+      "term": "Base layer",
+      "conceptId": "volume-prism",
+      "hotspotId": "hs-base-layer",
+      "definition": "The bottom slab of cubes — the area of length × width.",
+      "function": "The foundation that height multiplies.",
+      "whereItIs": "The bottom slab of the box.",
+      "whyItMatters": "Base area × height is the volume formula in pictures."
+    },
+    {
+      "term": "Capacity",
+      "conceptId": "volume-real",
+      "hotspotId": "hs-volume-box",
+      "definition": "How much liquid or material an object can hold.",
+      "function": "Equal to the volume inside the container.",
+      "whereItIs": "The water level at the brim.",
+      "whyItMatters": "Capacity turns volume into water, soil, and air we use."
+    }
+  ]
+}

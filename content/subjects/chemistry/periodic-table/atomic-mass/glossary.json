@@ -1,0 +1,49 @@
+{
+  "componentId": "atomic-mass",
+  "terms": [
+    {
+      "term": "Atomic mass",
+      "conceptId": "atomic-mass-is-average",
+      "hotspotId": "hs-atomic-mass",
+      "definition": "The average mass of an element's atoms, measured in atomic mass units.",
+      "function": "Tells how heavy the element's atoms are on average, accounting for its isotope mixture.",
+      "whereItIs": "Printed below the atomic number on each element card of the periodic table.",
+      "whyItMatters": "It connects atomic particles to measurable weight and is central to weighing out elements in chemistry.",
+      "relatedConcept": "atomic-mass-protons-neutrons",
+      "quizId": "atomic-mass-q-average"
+    },
+    {
+      "term": "Atomic mass unit (amu)",
+      "conceptId": "atomic-mass-units",
+      "hotspotId": "hs-mass-units",
+      "definition": "The unit used to measure atomic mass; one amu is about the mass of a single proton or neutron.",
+      "function": "Gives chemists a scale small enough to weigh atoms, instead of everyday units like kilograms.",
+      "whereItIs": "The unit label attached to every atomic mass value.",
+      "whyItMatters": "Without amu, atomic masses would be awkwardly tiny numbers in kilograms.",
+      "relatedConcept": "atomic-mass-is-average",
+      "quizId": "atomic-mass-q-unit"
+    },
+    {
+      "term": "Proton",
+      "conceptId": "atomic-mass-protons-neutrons",
+      "hotspotId": "hs-proton-neutron-weight",
+      "definition": "The positive particle in the nucleus, weighing about 1 amu.",
+      "function": "Contributes roughly half of an atom's mass and defines the element.",
+      "whereItIs": "Inside the nucleus cluster, shown as the coral spheres.",
+      "whyItMatters": "Proton and neutron counts together set an atom's mass number.",
+      "relatedConcept": "atomic-mass-is-average",
+      "quizId": "atomic-mass-q-weight"
+    },
+    {
+      "term": "Neutron",
+      "conceptId": "atomic-mass-protons-neutrons",
+      "hotspotId": "hs-proton-neutron-weight",
+      "definition": "The neutral particle in the nucleus, weighing about 1 amu.",
+      "function": "Adds mass without changing the element; its count varies between isotopes.",
+      "whereItIs": "Inside the nucleus cluster, shown as the graphite spheres.",
+      "whyItMatters": "Neutron differences between isotopes are what make atomic masses averages instead of single numbers.",
+      "relatedConcept": "atomic-mass-is-average",
+      "quizId": "atomic-mass-q-vs-number"
+    }
+  ]
+}

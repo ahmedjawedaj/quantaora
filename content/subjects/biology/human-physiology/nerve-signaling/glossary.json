@@ -1,0 +1,159 @@
+{
+  "componentId": "nerve-signaling",
+  "terms": [
+    {
+      "term": "Stimulus received",
+      "conceptId": "stimulus-received",
+      "hotspotId": "hs-1",
+      "definition": "The moment a neuron's dendrites detect an incoming signal — chemical, mechanical, or electrical — and the membrane begins to depolarize.",
+      "function": "Starts the whole nerve-signaling chain by converting an outside trigger (heat, touch, light, or a chemical from another neuron) into the beginning of an electrical response.",
+      "whereItIs": "The branching dendrite tips of the presynaptic neuron, where 3-4 branches converge toward the cell body.",
+      "whyItMatters": "Without a clear starting trigger, a neuron has nothing to pass along — this is the step that turns the outside world into a nervous-system signal.",
+      "relatedConcept": "stimulus",
+      "quizId": "nerve-signaling-q-stimulus"
+    },
+    {
+      "term": "Electrical impulse travels axon",
+      "conceptId": "electrical-impulse-travels-axon",
+      "hotspotId": "hs-2",
+      "definition": "The stage where the action potential propagates rapidly down the myelinated axon, jumping between exposed nodes of Ranvier.",
+      "function": "Carries the signal at high speed from the cell body all the way to the axon terminals using saltatory conduction along the myelin-insulated shaft.",
+      "whereItIs": "Mid-shaft of the axon, centered on a gap (node of Ranvier) between two myelin sheath segments.",
+      "whyItMatters": "This is the step that gives nerve signals their speed — without myelin and saltatory conduction, reflexes and thoughts would happen far too slowly to be useful.",
+      "relatedConcept": "saltatory-conduction",
+      "quizId": "nerve-signaling-q-saltatory"
+    },
+    {
+      "term": "Neurotransmitter release at synapse",
+      "conceptId": "neurotransmitter-release-at-synapse",
+      "hotspotId": "hs-3",
+      "definition": "The stage where the arriving impulse triggers synaptic vesicles to fuse with the axon terminal membrane and release neurotransmitter molecules into the synaptic cleft.",
+      "function": "Converts the electrical signal into a chemical one so it can cross the gap between two neurons that don't physically touch.",
+      "whereItIs": "One of the bulbous axon terminal boutons at the end of the presynaptic neuron, just before the synaptic cleft.",
+      "whyItMatters": "This chemical hand-off is the reason so many medicines (painkillers, antidepressants, anesthesia) work — they all act by changing what happens at this exact step.",
+      "relatedConcept": "neurotransmitter",
+      "quizId": "nerve-signaling-q-neurotransmitter"
+    },
+    {
+      "term": "Signal received by next neuron",
+      "conceptId": "signal-received-by-next-neuron",
+      "hotspotId": "hs-4",
+      "definition": "The stage where neurotransmitter molecules cross the synaptic cleft and bind receptors on the postsynaptic neuron's dendrite, triggering a new electrical signal in that cell.",
+      "function": "Restarts the electrical signal in the next neuron in the chain, continuing the message onward.",
+      "whereItIs": "The receiving dendrite/soma surface of the postsynaptic neuron, directly across the synaptic gap from the presynaptic terminal boutons.",
+      "whyItMatters": "Every hand-off has to succeed for a signal to travel any distance — this is the step that makes a chain of separate cells behave like one continuous pathway.",
+      "relatedConcept": "receptor",
+      "quizId": "nerve-signaling-q-receptor"
+    },
+    {
+      "term": "Response triggered",
+      "conceptId": "response-triggered",
+      "hotspotId": "hs-5",
+      "definition": "The final stage where the signal reaches an effector — a muscle or gland — and produces a physical response such as contraction or secretion.",
+      "function": "Turns the nervous system's electrical/chemical message into a visible, physical action in the body.",
+      "whereItIs": "The stylized effector-tissue block positioned downstream of the postsynaptic neuron, representing the end organ.",
+      "whyItMatters": "This is the payoff step — it's why nerve signaling matters at all: flinching off a hot stove, catching a ball, and every other reflex or voluntary movement ends here.",
+      "relatedConcept": "electrical-impulse-travels-axon",
+      "quizId": "nerve-signaling-q-response"
+    },
+    {
+      "term": "Neuron",
+      "conceptId": "neuron",
+      "definition": "A nerve cell specialized to receive and send electrical and chemical signals.",
+      "function": "Acts as the basic messenger unit of the nervous system, chaining together with other neurons to carry signals over distance.",
+      "whereItIs": "Throughout the brain, spinal cord, and nerves; two neurons (presynaptic and postsynaptic) appear in this model on either side of the synapse.",
+      "whyItMatters": "Nerve signaling is simply what a neuron does — understanding the cell (see the Neuron component in Cell Biology) is the foundation for understanding this process.",
+      "relatedConcept": "stimulus-received"
+    },
+    {
+      "term": "Stimulus",
+      "conceptId": "stimulus",
+      "definition": "Anything that triggers a response in the body, like heat, light, sound, or pressure.",
+      "function": "Provides the initial trigger that a neuron's dendrites detect, kicking off the signaling chain.",
+      "whereItIs": "Outside the neuron — it can originate from the environment (a hot stove) or from another neuron's chemical signal.",
+      "whyItMatters": "Without a stimulus, there is nothing for the nervous system to respond to.",
+      "relatedConcept": "stimulus-received"
+    },
+    {
+      "term": "Axon",
+      "conceptId": "axon",
+      "definition": "The long, thin, tail-like part of a neuron that carries the electrical impulse away from the cell body.",
+      "function": "Provides the physical pathway the electrical impulse travels along on its way to the axon terminals.",
+      "whereItIs": "Running from the presynaptic neuron's cell body to its terminal boutons, wrapped in myelin sheath segments.",
+      "whyItMatters": "The axon's length and insulation determine how far and how fast a single neuron can send a signal.",
+      "relatedConcept": "myelin-sheath"
+    },
+    {
+      "term": "Synapse",
+      "conceptId": "synapse",
+      "definition": "The tiny gap between two neurons (or a neuron and a muscle) where the signal crosses using chemicals.",
+      "function": "Separates two neurons so the signal must convert from electrical to chemical and back, which lets the nervous system control, strengthen, or weaken signals between cells.",
+      "whereItIs": "The visible gap between the presynaptic neuron's axon terminal boutons and the postsynaptic neuron's dendrite surface.",
+      "whyItMatters": "Synapses are where learning, memory, and most nervous-system medicines actually happen — they are not just a passive gap.",
+      "relatedConcept": "neurotransmitter"
+    },
+    {
+      "term": "Neurotransmitter",
+      "conceptId": "neurotransmitter",
+      "definition": "A chemical messenger released at the synapse that carries the signal to the next cell.",
+      "function": "Diffuses across the synaptic cleft and binds receptors on the next cell, chemically continuing a signal that can't jump the gap electrically.",
+      "whereItIs": "Released from synaptic vesicles inside the axon terminal boutons into the synaptic cleft.",
+      "whyItMatters": "Neurotransmitters are how caffeine, many medicines, and neurological conditions change the way neurons communicate.",
+      "relatedConcept": "synapse"
+    },
+    {
+      "term": "Myelin sheath",
+      "conceptId": "myelin-sheath",
+      "definition": "A fatty insulating layer wrapped around many axons that speeds up signal travel.",
+      "function": "Insulates segments of the axon so the electrical signal jumps quickly between the gaps (nodes of Ranvier) instead of leaking away.",
+      "whereItIs": "Wrapped in discrete segments around the axon shaft, with small gaps between segments.",
+      "whyItMatters": "Myelin is why some signals travel over 100 meters per second — damage to it, as in multiple sclerosis, slows reactions and can cause numbness.",
+      "relatedConcept": "node-of-ranvier"
+    },
+    {
+      "term": "Node of Ranvier",
+      "conceptId": "node-of-ranvier",
+      "definition": "A small, exposed gap in the myelin sheath along an axon where the axon membrane is uninsulated.",
+      "function": "Lets the electrical impulse regenerate at each gap, which is what makes saltatory conduction possible.",
+      "whereItIs": "The narrow gaps between adjacent myelin sheath segments along the axon.",
+      "whyItMatters": "Nodes of Ranvier are the reason myelinated axons conduct signals so much faster than bare, unmyelinated ones.",
+      "relatedConcept": "saltatory-conduction"
+    },
+    {
+      "term": "Saltatory conduction",
+      "conceptId": "saltatory-conduction",
+      "definition": "The way an electrical impulse appears to \"jump\" rapidly from node of Ranvier to node of Ranvier along a myelinated axon, instead of traveling continuously.",
+      "function": "Speeds up impulse conduction dramatically compared to an unmyelinated axon of the same width, since the impulse only has to regenerate at the exposed nodes.",
+      "whereItIs": "Occurs specifically along myelinated stretches of the axon, jumping between nodes of Ranvier.",
+      "whyItMatters": "Saltatory conduction is the main reason myelinated neurons can send signals fast enough for split-second reflexes and coordinated movement.",
+      "relatedConcept": "electrical-impulse-travels-axon"
+    },
+    {
+      "term": "Electrical impulse",
+      "conceptId": "electrical-impulse",
+      "definition": "A fast-moving wave of electrical change (also called an action potential) that travels down the axon.",
+      "function": "Carries the neuron's signal from the cell body to the axon terminals as a self-propagating electrical event.",
+      "whereItIs": "Travels along the length of the axon, from the cell body to the terminal boutons.",
+      "whyItMatters": "This is the electrical half of nerve signaling — it's what makes nerve signals fast compared to purely chemical communication in the body.",
+      "relatedConcept": "electrical-impulse-travels-axon"
+    },
+    {
+      "term": "Receptor",
+      "conceptId": "receptor",
+      "definition": "A protein on the next neuron's surface that catches a specific neurotransmitter, like a lock catching a key.",
+      "function": "Binds a matching neurotransmitter and triggers a new electrical response in the receiving cell.",
+      "whereItIs": "Embedded in the postsynaptic neuron's membrane, facing the synaptic cleft.",
+      "whyItMatters": "Receptors determine which neurotransmitters a cell can actually respond to — this specificity is why different chemical messengers have very different effects.",
+      "relatedConcept": "signal-received-by-next-neuron"
+    },
+    {
+      "term": "Refractory period",
+      "conceptId": "refractory-period",
+      "definition": "A brief period right after a neuron fires during which it resets its electrical balance before it can fire again.",
+      "function": "Prevents a neuron from firing continuously without pause and helps keep signals traveling in one direction.",
+      "whereItIs": "Occurs along the axon immediately after an electrical impulse has passed through a given section.",
+      "whyItMatters": "The refractory period is why nerve signals are brief, distinct pulses rather than one continuous current, which keeps information encoded clearly.",
+      "relatedConcept": "electrical-impulse-travels-axon"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "componentId": "line",
+  "terms": [
+    {
+      "term": "Line",
+      "conceptId": "line-definition",
+      "hotspotId": "hs-line-path",
+      "definition": "A straight path extending forever in both directions.",
+      "function": "Connects points in a perfectly straight, endless row.",
+      "whereItIs": "The thin stroke across the board.",
+      "whyItMatters": "Direction and straightness start with the line."
+    },
+    {
+      "term": "Arrowhead",
+      "conceptId": "line-infinite",
+      "hotspotId": "hs-arrowhead",
+      "definition": "The small mark showing the line continues without end.",
+      "function": "Signals the path keeps going in that direction.",
+      "whereItIs": "Each drawn end of the stroke.",
+      "whyItMatters": "Arrowheads are what make it a line, not a segment."
+    },
+    {
+      "term": "Name",
+      "conceptId": "line-naming",
+      "hotspotId": "hs-point-on-line",
+      "definition": "Two points on the line name it, like line AB.",
+      "function": "Identifies which line you mean.",
+      "whereItIs": "The label tags on points A and B.",
+      "whyItMatters": "Naming helps you talk precisely about lines."
+    },
+    {
+      "term": "Straight",
+      "conceptId": "line-family",
+      "hotspotId": "hs-line-path",
+      "definition": "The property of not bending, leaning, or curving at all.",
+      "function": "Every point on a line lies in one straight row.",
+      "whereItIs": "The unfurled path on the board.",
+      "whyItMatters": "Straightness is what separates lines from curves."
+    }
+  ]
+}

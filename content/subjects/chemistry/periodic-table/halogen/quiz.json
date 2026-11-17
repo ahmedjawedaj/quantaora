@@ -1,0 +1,65 @@
+{
+  "componentId": "halogen",
+  "questions": [
+    {
+      "id": "halogen-q-valence",
+      "conceptId": "halogen-seven-valence-electrons",
+      "hotspotId": "hs-halogen-valence",
+      "prompt": "How many valence electrons does a halogen atom have?",
+      "options": [
+        "Seven",
+        "One",
+        "Eight",
+        "Two"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every halogen has seven valence electrons — exactly one short of a full shell of eight.",
+      "misconception": "One is the alkali metal count and eight is the noble gas count — the halogens sit right between, at seven, with one space to fill."
+    },
+    {
+      "id": "halogen-q-reactivity",
+      "conceptId": "halogen-reactive-nonmetals",
+      "hotspotId": "hs-halogen-column",
+      "prompt": "Why are halogens so reactive?",
+      "options": [
+        "They are one electron short of a full shell and grab one eagerly",
+        "They have too many electrons to hold",
+        "They are extremely heavy",
+        "They are always gases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Being just one electron short of a full, stable shell, halogens grab an extra electron from almost anything — which makes them highly reactive.",
+      "misconception": "Weight and size don't drive reactivity here — the one-electron shortage does. That is also why fluorine, the top halogen, is the most reactive element known."
+    },
+    {
+      "id": "halogen-q-ion",
+      "conceptId": "halogen-reactive-nonmetals",
+      "hotspotId": "hs-halogen-ion",
+      "prompt": "When a halogen like chlorine gains one electron, what does it become?",
+      "options": [
+        "A -1 negative ion (Cl⁻)",
+        "A +1 positive ion (Cl⁺)",
+        "A brand-new element",
+        "A noble gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grabbing one extra electron gives chlorine a -1 charge — a chloride ion, Cl⁻ — and a full, stable outer shell.",
+      "misconception": "Gaining an electron adds a NEGATIVE charge, not a positive one — so halogens form -1 anions, the mirror image of the alkali metals' +1 cations."
+    },
+    {
+      "id": "halogen-q-salt",
+      "conceptId": "halogen-group-17",
+      "hotspotId": "hs-halogen-ion",
+      "prompt": "Sodium (one extra electron) meets chlorine (one electron short). What do they build?",
+      "options": [
+        "Table salt — sodium chloride (NaCl)",
+        "Pure sodium gas",
+        "A noble gas",
+        "They cannot react at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sodium gives its one extra electron to chlorine; the +1 sodium ion and -1 chloride ion attract and lock into table salt, NaCl.",
+      "misconception": "It's easy to think opposite families can't get along — but it's precisely because they are opposite (one offers an electron, one needs it) that they bond so perfectly."
+    }
+  ]
+}

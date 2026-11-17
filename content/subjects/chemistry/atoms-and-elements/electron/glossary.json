@@ -1,0 +1,47 @@
+{
+  "componentId": "electron",
+  "terms": [
+    {
+      "term": "Electron",
+      "conceptId": "electron-negative-charge",
+      "hotspotId": "hs-electron-cloud",
+      "definition": "A tiny particle carrying a negative charge that orbits the nucleus.",
+      "function": "The particle that does the chemistry — shared, lost, or gained in reactions.",
+      "whereItIs": "The small teal dots orbiting the nucleus in the cloud.",
+      "whyItMatters": "Electrons are responsible for every chemical reaction and bond.",
+      "relatedConcept": "electron-chemistry",
+      "quizId": "electron-q-charge"
+    },
+    {
+      "term": "Electron cloud",
+      "conceptId": "electron-orbit-shells",
+      "hotspotId": "hs-electron-cloud",
+      "definition": "The large region around the nucleus where electrons orbit.",
+      "function": "Holds the electrons in organized shell layers around the atom.",
+      "whereItIs": "The large translucent sphere in the model.",
+      "whyItMatters": "The cloud is where all chemistry happens.",
+      "relatedConcept": "electron-negative-charge",
+      "quizId": "electron-q-location"
+    },
+    {
+      "term": "Valence electron",
+      "conceptId": "electron-chemistry",
+      "hotspotId": "hs-electron-bonding",
+      "definition": "An electron in the outermost shell of an atom.",
+      "function": "The electron that bonds — it is shared, lost, or gained during reactions.",
+      "whereItIs": "The outer-shell electron reaching toward the partner atom.",
+      "whyItMatters": "Valence electrons decide how an atom reacts.",
+      "relatedConcept": "electron-orbit-shells",
+      "quizId": "electron-q-chemistry"
+    },
+    {
+      "term": "Ion",
+      "conceptId": "electron-chemistry",
+      "definition": "An atom that has gained or lost electrons, giving it a charge.",
+      "function": "Forms when electrons are transferred during reactions.",
+      "whereItIs": "The result of the electron leaving in the bonding layer.",
+      "whyItMatters": "Ions are how atoms become charged and react.",
+      "relatedConcept": "electron-negative-charge"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "factors",
+  "componentId": "factors",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/factors/factors.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/factors.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.9
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.9
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Center number card",
+    "Factor-pair cards",
+    "Division check",
+    "Slider refresh"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-factor-pair",
+      "label": "Factor pair",
+      "conceptId": "factors-multiply-to-product",
+      "position": [
+        0.9,
+        0.7,
+        0
+      ],
+      "description": "A factor pair is two numbers that multiply to the center number \u2014 like 3 and 4 for 12.",
+      "positionHint": "The floating multiplication cards arranged around the center, each showing a factor pair.",
+      "color": "#D9A441",
+      "function": "Two numbers whose product is the target number."
+    },
+    {
+      "id": "hs-factor-list",
+      "label": "Factor list",
+      "conceptId": "factors-find-all",
+      "position": [
+        -0.9,
+        -0.2,
+        0.3
+      ],
+      "description": "The complete factor set is every number that divides the target evenly \u2014 for 12 that is 1, 2, 3, 4, 6, 12.",
+      "positionHint": "The flat list plate at the front of the scene showing the full factor set.",
+      "color": "#7FA86A",
+      "function": "Lists every factor of the center number."
+    },
+    {
+      "id": "hs-division-check",
+      "label": "Division check",
+      "conceptId": "factors-divide-evenly",
+      "position": [
+        0.9,
+        -0.3,
+        0.4
+      ],
+      "description": "Each factor divides the center number with no remainder \u2014 12 \u00f7 4 = 3 R 0 proves 4 is a factor.",
+      "positionHint": "The small division proof revealed when a factor card is flipped.",
+      "color": "#6B85A8",
+      "function": "Confirms a number is a factor by even division."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clean center number card with a ring of factor-pair cards around it and a factor list plate at the front. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Center card: warm paper white with ink-grey number (roughness ~0.5). Factor-pair cards: slightly smaller warm paper cards with ink text, each carrying a faint violet cast edge. Factor list plate: warm paper with ink text. Mat: soft warm-grey. No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: factors as a hub-and-spoke diagram \u2014 a center number card with its factor-pair cards arranged around it, plus a factor-list plate and division-check cards.\n\nGEOMETRY: Center card (flat rounded plate, ~0.8 \u00d7 0.5) showing '12' at origin. Around it, three factor-pair cards (1\u00d712, 2\u00d76, 3\u00d74) float in an arc at radius ~1.2, y \u2248 0.5. Each card sits above a throwaway division-check card (12 \u00f7 4 = 3 R 0). A front factor-list plate at y \u2248 \u22120.2 shows '1, 2, 3, 4, 6, 12'. A small slider control updates the center number (e.g. to 18 or 24) and rearranges the arc into the new factor pairs.\n\nLAYERS (toggleable): (1) center + pair arc; (2) division-check cards; (3) factor-list plate.\n\nCAMERA: head-on from +z frames center hub and arc; labels legible. Budget 6-10k triangles. Named nodes: CenterCard, FactorPair_Each, DivisionCheck_Each, FactorListPlate, NumberSlider_Knob. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "factor-cards"
+  }
+}

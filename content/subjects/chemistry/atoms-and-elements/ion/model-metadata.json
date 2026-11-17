@@ -1,0 +1,89 @@
+{
+  "id": "ion",
+  "componentId": "ion",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/atoms-and-elements/ion/ion.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/atoms-and-elements/ion.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Sodium + chlorine",
+    "Electron transfer",
+    "Charge and attraction"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-ion-pair",
+      "label": "The atom pair",
+      "conceptId": "ion-charged-atom",
+      "position": [
+        0,
+        0.35,
+        0
+      ],
+      "description": "A neutral sodium atom and a neutral chlorine atom, about to trade an electron and become ions.",
+      "positionHint": "The two atoms with their shell rings.",
+      "color": "#D9A441",
+      "function": "Shows the atoms that will become ions."
+    },
+    {
+      "id": "hs-ion-loses",
+      "label": "Sodium loses → Na⁺",
+      "conceptId": "ion-gain-or-lose-electrons",
+      "position": [
+        -0.85,
+        0.5,
+        0
+      ],
+      "description": "Sodium gives away its one outer electron. Now it has more protons than electrons — so it becomes positive Na⁺.",
+      "positionHint": "The sodium atom, losing its electron in the transfer layer.",
+      "color": "#D96B5A",
+      "function": "Shows losing electrons creating a positive ion."
+    },
+    {
+      "id": "hs-ion-gains",
+      "label": "Chlorine gains → Cl⁻",
+      "conceptId": "ion-gain-or-lose-electrons",
+      "position": [
+        0.85,
+        0.5,
+        0
+      ],
+      "description": "Chlorine accepts the electron. Now it has more electrons than protons — so it becomes negative Cl⁻.",
+      "positionHint": "The chlorine atom, gaining the electron in the transfer layer.",
+      "color": "#7FA86A",
+      "function": "Shows gaining electrons creating a negative ion."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A sodium atom and a chlorine atom float side by side, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Sodium: soft muted violet with one outer electron; chlorine: soft muted green with seven; shell rings translucent hairline. Strong saturated color is reserved for the small flat hotspot dots and the transfer electron (amber / coral / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Sodium sphere: soft muted violet matte, roughness ~0.5. Chlorine sphere: soft muted green matte, roughness ~0.5. Shell rings: translucent hairline, alpha ~0.25. Electron dots: small teal, roughness ~0.4. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a sodium and chlorine atom becoming ions, built to be read as 'lose an electron → positive; gain an electron → negative.' Three procedural layers, all clean primitives:\n\n1) MAIN: two atoms side by side (spacing ~1.7): LEFT sodium (soft muted violet sphere radius ~0.55) with a shell ring carrying ONE teal electron; RIGHT chlorine (soft muted green sphere radius ~0.5) with a shell ring carrying SEVEN teal electrons, one spot clearly empty. Both neutral.\n\n2) TRANSFER (toggleable layer): a curved dashed path arcs from sodium's lone electron to chlorine's empty spot; the electron dot animates along it (app-driven) and arrives in chlorine's empty slot.\n\n3) CHARGE AND ATTRACTION (toggleable layer): a soft + glyph appears over sodium and a − glyph over chlorine (app-drawn UI glyphs, not mesh text), and the two atoms ease closer together with a soft glow band between them — the ions attracting.\n\nCamera: framed so both atoms fit with negative space; auto-rotate default. Budget 7-11k triangles. Named nodes: SodiumAtom, ChlorineAtom, ShellRing_Na, ShellRing_Cl, SodiumElectron_01, ChlorineElectrons_07, TransferPath, TransferDot, AttractionBand. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "electron-transfer"
+  }
+}

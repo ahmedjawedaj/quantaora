@@ -1,0 +1,65 @@
+{
+  "componentId": "moon-phases",
+  "questions": [
+    {
+      "id": "phases-q-cause",
+      "conceptId": "moon-phase-geometry",
+      "prompt": "What actually causes the Moon to go through phases?",
+      "options": [
+        "The Moon's own light output changing",
+        "Earth's shadow falling on the Moon",
+        "How much of the Moon's always-sunlit half happens to face Earth",
+        "Clouds on Earth blocking part of the view"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Moon reflects sunlight and always has one lit half. As it orbits Earth, the angle between Sun, Moon, and Earth changes — so the amount of that lit half we can actually see from Earth changes too. That's a phase.",
+      "misconception": "\"Earth's shadow\" describes a lunar eclipse, a rare, brief event — not the routine month-long phase cycle, which is caused by simple geometry, not any shadow at all."
+    },
+    {
+      "id": "phases-q-new-moon",
+      "conceptId": "moon-phase-geometry",
+      "prompt": "At New Moon, why can we barely see the Moon at all?",
+      "options": [
+        "The Moon has moved too far away",
+        "The Moon's lit half is facing almost entirely away from Earth",
+        "Earth is blocking all sunlight from reaching the Moon",
+        "The Moon is not actually in the sky at that time"
+      ],
+      "correctIndex": 1,
+      "explanation": "At New Moon, the Moon sits roughly between Earth and the Sun, so the side facing us is the Moon's unlit (night) side — it's still there, just not visibly lit from our angle.",
+      "misconception": "It's tempting to think the Moon disappears or moves away, but it's in the sky the whole time — we just can't see its dark side."
+    },
+    {
+      "id": "phases-q-cycle-length",
+      "conceptId": "synodic-month",
+      "prompt": "How long does a full cycle of moon phases (new to new) take?",
+      "options": ["About 1 day", "About 7 days", "About 29.5 days", "About 1 year"],
+      "correctIndex": 2,
+      "explanation": "A full phase cycle, called a synodic month, takes about 29.5 days — slightly longer than the Moon's 27.3-day orbit because Earth also moves around the Sun during that time.",
+      "misconception": "The Moon's 27.3-day orbital period is often quoted as \"the phase cycle,\" but the actual phase cycle is a bit longer because Earth keeps moving too."
+    },
+    {
+      "id": "phases-q-same-face",
+      "conceptId": "tidal-locking",
+      "prompt": "Why do we always see the same face of the Moon, no matter the phase?",
+      "options": [
+        "The Moon does not rotate at all",
+        "The Moon is tidally locked — its rotation exactly matches its orbit around Earth",
+        "Earth's gravity keeps the same side lit",
+        "We don't — the far side is visible during a Full Moon"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Moon rotates once on its axis in exactly the same time it takes to orbit Earth once, so the same face always points toward us — tidal locking, the same mechanism covered on the Moons branch.",
+      "misconception": "\"Same face always visible\" gets misread as \"doesn't rotate,\" but it rotates at exactly the right rate to keep facing us — not zero rotation."
+    },
+    {
+      "id": "phases-q-order",
+      "conceptId": "moon-phase-geometry",
+      "prompt": "Which phase comes directly after First Quarter as the Moon continues orbiting toward Full?",
+      "options": ["Waxing Gibbous", "New Moon", "Waning Gibbous", "Last Quarter"],
+      "correctIndex": 0,
+      "explanation": "After First Quarter, more and more of the lit half faces Earth on the way to Full Moon — that growing phase is called Waxing Gibbous.",
+      "misconception": "\"Waxing\" (growing) and \"waning\" (shrinking) are easy to mix up — waxing phases lead up to Full Moon, waning phases lead away from it back toward New Moon."
+    }
+  ]
+}

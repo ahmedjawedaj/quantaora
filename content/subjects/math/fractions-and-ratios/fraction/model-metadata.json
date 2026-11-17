@@ -1,0 +1,90 @@
+{
+  "id": "fraction",
+  "componentId": "fraction",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/fractions-and-ratios/fraction/fraction.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/fractions-and-ratios/fraction.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Whole pizza",
+    "Slice divider",
+    "Lifted slices",
+    "Fraction plate"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-fraction-pizza",
+      "label": "Fraction",
+      "conceptId": "fraction-part-of-whole",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "description": "The pizza models how a whole splits into equal parts \u2014 shown as a fraction like 3/4.",
+      "positionHint": "The round pizza on the mat with equal slices, some lifted away.",
+      "color": "#D9A441",
+      "function": "Shows part of a whole as a fraction."
+    },
+    {
+      "id": "hs-numerator",
+      "label": "Numerator",
+      "conceptId": "fraction-part-of-whole",
+      "position": [
+        0,
+        0.9,
+        0.35
+      ],
+      "description": "The numerator (top) counts the parts you have \u2014 the 3 lifted slices.",
+      "positionHint": "The number plate showing '3' above the fraction bar.",
+      "color": "#D96B5A",
+      "function": "Counts the parts taken of a fraction."
+    },
+    {
+      "id": "hs-denominator",
+      "label": "Denominator",
+      "conceptId": "fraction-equal-parts",
+      "position": [
+        0,
+        0.2,
+        0.35
+      ],
+      "description": "The denominator (bottom) counts the equal parts the whole is split into \u2014 the 4 slices.",
+      "positionHint": "The number plate showing '4' below the fraction bar.",
+      "color": "#7FA86A",
+      "function": "Counts the equal parts in a whole."
+    }
+  ],
+  "visualStyleNotes": "Fractions And Ratios shares the Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A round pizza on a plain mat with some slices lifted and stacked, a slice-count slider, and a fraction plate. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / coral / molecular-green from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Pizza: warm paper-toned disc (roughness ~0.5) with a soft toast-crust ring and faint seam lines for slices. Lifted slices: a few plates floating above the pizza, same material. Mat: soft warm-grey (roughness ~0.85). Fraction plate: warm paper with ink '3/4' text. Slider: soft warm-grey rail with amber knob. No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a fraction as equal parts of a whole, modeled with a pizza \u2014 a round whole, a divider that cuts equal slices, lifted slice pieces, and a live fraction readout.\n\nGEOMETRY: Pizza: flat cylinder (radius ~1.0, thickness ~0.12) centered at origin, y \u2248 0.15, on a round mat. Slices are baked as wedge seams. A Divider slider updates the count of equal slices (2..8). Lifted slices: small wedge pieces hover above (y \u2248 0.4) showing how many parts are 'taken'. Fraction plate: a floating panel at the front-right reading 'numerator/denominator' that updates live.\n\nINTERACTION: a SliceCount slider (2,3,4,5,6,8) rebuilds seams maintaining equality; a Take slider lifts 0..n slices. All wedges stay equal size for any slice count.\n\nLAYERS (toggleable): (1) whole + seams; (2) lifted slices; (3) fraction plate + numerator/denominator labels.\n\nCAMERA: head-on from +z slightly high frames the pizza and plate; calm, minimal chrome. Budget 7-12k triangles. Named nodes: Pizza_Whole, SliceSeams, LiftedSlices, Mat, Slider_Knob, FractionPlate, NumeratorBadge, DenominatorBadge. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "fraction-pizza"
+  }
+}

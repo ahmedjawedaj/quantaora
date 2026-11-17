@@ -1,0 +1,88 @@
+{
+  "branchId": "sound",
+  "subject": "physics",
+  "qualityGoal": "Replace clean authored sound diagrams with recognizable inspectable objects: tuning fork, speaker, ear, and reflection/listening props.",
+  "sourcePolicy": {
+    "preferred": ["CC0 Public Domain", "Public domain"],
+    "allowedWithReview": ["CC Attribution"],
+    "rejectedForPaidProduct": ["CC Attribution-NonCommercial", "CC Attribution-NonCommercial-NoDerivs", "CC BY-NC", "CC BY-NC-SA", "CC BY-SA", "CC BY-ND"]
+  },
+  "candidates": [
+    {
+      "id": "brikk-resonant-tuning-fork",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-sound-vibration", "physics-sound-pitch"],
+      "assetName": "Resonant Tuning Fork",
+      "provider": "Sketchfab",
+      "creator": "The_Vague_Dragon (Brikk)",
+      "uid": "e3939cecca6540778faa467eab690f93",
+      "sourceUrl": "https://sketchfab.com/3d-models/resonant-tuning-fork-e3939cecca6540778faa467eab690f93",
+      "apiUrl": "https://api.sketchfab.com/v3/models/e3939cecca6540778faa467eab690f93",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 396,
+      "fit": "Low-poly tuning fork gives vibration and pitch a concrete physical object children can inspect.",
+      "risk": "Attribution copy required; visual simplicity may need authored vibration lines."
+    },
+    {
+      "id": "sousinho-stage-monitor-speaker",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-sound-volume", "physics-sound-medium", "physics-sound-echo"],
+      "assetName": "Stage Monitor Speaker",
+      "provider": "Sketchfab",
+      "creator": "Sousinho",
+      "uid": "be94233262e24cbfa3723b607567afac",
+      "sourceUrl": "https://sketchfab.com/3d-models/stage-monitor-speaker-be94233262e24cbfa3723b607567afac",
+      "apiUrl": "https://api.sketchfab.com/v3/models/be94233262e24cbfa3723b607567afac",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 3664,
+      "fit": "Speaker cone is a recognizable source for loudness, medium, and echo experiments.",
+      "risk": "Attribution copy required; inspect texture/material readability after import."
+    },
+    {
+      "id": "sousinho-stage-speaker-black",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-sound-volume", "physics-sound-echo"],
+      "assetName": "Stage Speaker - black",
+      "provider": "Sketchfab",
+      "creator": "Sousinho",
+      "uid": "f3209a6a45b844df92560099f982a508",
+      "sourceUrl": "https://sketchfab.com/3d-models/stage-speaker-black-f3209a6a45b844df92560099f982a508",
+      "apiUrl": "https://api.sketchfab.com/v3/models/f3209a6a45b844df92560099f982a508",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 6940,
+      "fit": "Larger speaker gives a stronger visible loudness source if the monitor speaker is too plain.",
+      "risk": "Attribution copy required; compare against monitor speaker before wiring."
+    },
+    {
+      "id": "ssavish274-human-ear-model",
+      "status": "ready-for-attribution-review",
+      "targetComponents": ["physics-sound-medium", "physics-sound-echo"],
+      "assetName": "Human Ear Model",
+      "provider": "Sketchfab",
+      "creator": "ssavish274",
+      "uid": "e1f0f4b6fae54d59bdc3c6b2534eb411",
+      "sourceUrl": "https://sketchfab.com/3d-models/human-ear-model-e1f0f4b6fae54d59bdc3c6b2534eb411",
+      "apiUrl": "https://api.sketchfab.com/v3/models/e1f0f4b6fae54d59bdc3c6b2534eb411",
+      "license": "CC Attribution",
+      "licenseRequirements": "Attribution required. Commercial use allowed by CC BY if attribution is included.",
+      "faceCount": 8064,
+      "fit": "Ear model can anchor listener, medium, and hearing-path discussion.",
+      "risk": "Attribution copy required; review anatomy quality before using as a hero."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "emiljoes-fnaf-speaker",
+      "assetName": "FNAF Speaker",
+      "provider": "Sketchfab",
+      "creator": "EmilJoes Games",
+      "uid": "e7c8889b3bc84c4088a0bd71ee49ecb5",
+      "sourceUrl": "https://sketchfab.com/3d-models/fnaf-speaker-e7c8889b3bc84c4088a0bd71ee49ecb5",
+      "license": "CC Attribution-NonCommercial",
+      "reason": "Non-commercial license; reject for paid or future commercial product."
+    }
+  ]
+}

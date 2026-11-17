@@ -1,0 +1,89 @@
+{
+  "id": "proportion",
+  "componentId": "proportion",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/fractions-and-ratios/proportion/proportion.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/fractions-and-ratios/proportion.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      3.8
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      3.8
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Recipe cards",
+    "Servings slider",
+    "Cross-product puzzle"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-proportion-eq",
+      "label": "Equal ratios",
+      "conceptId": "proportion-equal-ratios",
+      "position": [
+        0,
+        0.75,
+        0.3
+      ],
+      "description": "Two ratios that stay equal as they scale \u2014 2/4 = 4/8.",
+      "positionHint": "The equality plate between the two recipe cards.",
+      "color": "#D9A441",
+      "function": "Shows two ratios staying equal."
+    },
+    {
+      "id": "hs-missing-value",
+      "label": "Missing value",
+      "conceptId": "proportion-solve-missing",
+      "position": [
+        0.75,
+        0.3,
+        0
+      ],
+      "description": "The unknown x in a proportion like 3/5 = x/10 \u2014 what the solver finds.",
+      "positionHint": "The blank slot on the right recipe card.",
+      "color": "#7FA86A",
+      "function": "The value a proportion is solved to find."
+    },
+    {
+      "id": "hs-cross-products",
+      "label": "Cross products",
+      "conceptId": "proportion-cross-products",
+      "position": [
+        -0.75,
+        0.1,
+        0.3
+      ],
+      "description": "Multiplying across the equals sign (a \u00d7 d = b \u00d7 c) is how proportions are checked and solved.",
+      "positionHint": "The diagonal lines linking numbers across the proportion plate.",
+      "color": "#6B85A8",
+      "function": "The multiplication test that solves and checks proportions."
+    }
+  ],
+  "visualStyleNotes": "Fractions And Ratios, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. Two clean recipe cards on a mat with an equality plate between them and a servings slider. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Recipe cards: warm paper plates with ink text (people count + flour cups). Equality plate: warm paper with '2/4 = 4/8'. Servings slider: soft warm-grey rail with amber knob that scales both cards. Cross-product lines: thin ink-grey diagonal rods. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: proportions as scaling recipe cards \u2014 a people/flour pair that grows together while the ratio stays equal, plus a cross-product solver.\n\nGEOMETRY: Two recipe cards (floating flat plates ~0.9 \u00d7 0.6) at x \u2248 \u22120.75 and +0.75, y \u2248 0.35. Left card: '4 people \u00b7 2 cups'. Right card: '8 people \u00b7 4 cups'. Equality plate between them at top: '2/4 = 4/8'. Servings slider at the front rescales both cards (4/2, 8/4, 12/6...) keeping the ratio. A Cross-Product layer draws two diagonal rods across the equality plate and lights the pairings (2\u00d78 and 4\u00d74) when solving. Missing-value mode blanks the right card's number for a '3/5 = x/10' puzzle.\n\nLAYERS (toggleable): (1) recipe cards; (2) equality plate + cross-product rods; (3) missing-value puzzle.\n\nCAMERA: head-on, slightly above, from +z frames both cards; labels legible. Budget 6-10k triangles. Named nodes: Card_Left, Card_Right, EqualityPlate, CrossRods, ServingsSlider, PuzzleSlot, ResultBadge. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "proportion-cards"
+  }
+}

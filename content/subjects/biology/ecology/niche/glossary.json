@@ -1,0 +1,38 @@
+{
+  "componentId": "niche",
+  "terms": [
+    {
+      "term": "Niche",
+      "conceptId": "role-in-ecosystem",
+      "hotspotId": "hs-role",
+      "definition": "A species' role or job in its ecosystem.",
+      "function": "Describes how a species makes its living.",
+      "whereItIs": "Everywhere a species operates.",
+      "whyItMatters": "It explains how species share ecosystems.",
+      "relatedConcept": "niche-what-eats-lives",
+      "quizId": "nic-q-def"
+    },
+    {
+      "term": "Habitat vs. niche",
+      "conceptId": "habitat-address-vs-niche-role",
+      "hotspotId": "hs-role",
+      "definition": "Habitat is the address where a species lives; niche is the role it plays there.",
+      "function": "Separates 'where' from 'what role'.",
+      "whereItIs": "Applied to every species.",
+      "whyItMatters": "Keeping them separate helps us describe a species fully.",
+      "relatedConcept": "role-in-ecosystem",
+      "quizId": "nic-q-address"
+    },
+    {
+      "term": "Competition for niche",
+      "conceptId": "no-identical-niches",
+      "hotspotId": "hs-unique",
+      "definition": "The struggle when two species need the same niche resources.",
+      "function": "Usually forces species into different roles.",
+      "whereItIs": "Between similar species.",
+      "whyItMatters": "It shapes which species live where.",
+      "relatedConcept": "role-in-ecosystem",
+      "quizId": "nic-q-same"
+    }
+  ]
+}

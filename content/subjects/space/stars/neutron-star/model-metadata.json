@@ -1,0 +1,100 @@
+{
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/stars/neutron-star.scene.ts",
+  "thumbnailUrl": "src/features/model-viewer/thumbnails/space/stars/neutron-star.png",
+  "cameraDefault": {
+    "position": [
+      3.4,
+      2.2,
+      5
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    {
+      "id": "crust",
+      "label": "Neutron-star crust",
+      "explanation": "A solid lattice of iron-peaked atomic nuclei, barely a kilometer thick — the 'skin' of an object 20 km across."
+    },
+    {
+      "id": "interior",
+      "label": "Neutron superfluid core",
+      "explanation": "Beneath the crust, free neutrons flow with almost no viscosity — a quantum liquid at the center."
+    },
+    {
+      "id": "beams",
+      "label": "Pulsar beams",
+      "explanation": "Radio beams launched from the magnetic poles, sweeping the sky like lighthouse light as the star rotates."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-crust",
+      "label": "Crust — iron lattice",
+      "conceptId": "crust-to-core-structure",
+      "position": [
+        0.95,
+        0,
+        0.35
+      ],
+      "description": "A thin crystalline crust of iron-rich atomic nuclei — the surface of a city-sized ball with twice the Sun's mass."
+    },
+    {
+      "id": "hs-interior",
+      "label": "Neutron superfluid core",
+      "conceptId": "neutron-degeneracy-pressure",
+      "position": [
+        0.3,
+        0,
+        0.5
+      ],
+      "description": "Beneath the crust: a sea of free neutrons supporting the star by degeneracy pressure."
+    },
+    {
+      "id": "hs-beams",
+      "label": "Pulsar beams",
+      "conceptId": "pulsar-beacon-effect",
+      "position": [
+        2.2,
+        1.6,
+        1.8
+      ],
+      "description": "Radio light beamed out the magnetic poles; with each rotation the beam crosses Earth — the ticking pulsar."
+    },
+    {
+      "id": "hs-supernova-outflow",
+      "label": "Supernova debris cloud",
+      "conceptId": "supernova-remnant-core",
+      "position": [
+        0.9,
+        -0.9,
+        1.1
+      ],
+      "description": "The exploded star's envelope expanding around the new remnant, glowing pink and purple as it cools."
+    },
+    {
+      "id": "hs-city-scale",
+      "label": "City scale — a 20 km ball",
+      "conceptId": "density-city-scale",
+      "position": [
+        1.9,
+        -0.7,
+        0.6
+      ],
+      "description": "An outline of a small city floating beside the star to make its size sink in — the whole star sits inside it."
+    }
+  ],
+  "visualStyleNotes": "Small glowing blue-white sphere (radius ~0.9) beside a faint wireframe city dome for scale, matched Anatomy Atelier look: clean, warm, uncluttered. Two translucent pale beams sweep from the poles rotating slowly. Surrounding pink-purple translucent cloud like a faint shell, low opacity so it never obscures. Cross-section reveals the crust ring and interior shimmer.",
+  "materialNotes": "Star body: emissive white-blue core with subtle fresnel rim. Beams: additive blended cones, low opacity. Debris shell: translucent pink-violet, double-sided. City dome: faint dashed white lines to mark radial scale.",
+  "assetBrief": "Procedural Three.js scene: star sphere with two rotating cone beams, faint debris cloud shell, optional city-size wireframe dome for scale. Cross-section plane works on the star only. Camera at ~4.8 units, auto-rotate on. Hotspot beads ~0.16 radius, consistent with other star scenes.",
+  "componentId": "neutron-star",
+  "visual": {
+    "shape": "neutron-pulsar"
+  }
+}

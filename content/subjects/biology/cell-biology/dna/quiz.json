@@ -1,0 +1,80 @@
+{
+  "componentId": "dna",
+  "questions": [
+    {
+      "id": "dna-q-shape",
+      "conceptId": "double-helix",
+      "hotspotId": "hs-helix",
+      "prompt": "What is the shape of the DNA molecule?",
+      "options": [
+        "A twisted double-stranded ladder called a double helix",
+        "A long straight flat ribbon",
+        "A single round ball",
+        "A cube of linked squares"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNA is made of two strands wound around each other, forming the familiar twisted ladder shape called a double helix.",
+      "misconception": "Some draw DNA as a straight line or a tangled mess, but the regular double-helix twist is exactly what allows it to copy itself faithfully."
+    },
+    {
+      "id": "dna-q-bases",
+      "conceptId": "base-pairing",
+      "hotspotId": "hs-base-pair",
+      "prompt": "Which bases pair together in DNA?",
+      "options": [
+        "A pairs with T, and G pairs with C",
+        "A pairs with G, and T pairs with C",
+        "A pairs with A, and T pairs with T",
+        "G pairs with T only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The four bases pair in a fixed pattern: A (adenine) with T (thymine), and G (guanine) with C (cytosine).",
+      "misconception": "Learners sometimes mix up the pairing letters. The fixed rule (A-T, G-C) is what lets one strand make an exact copy of the other."
+    },
+    {
+      "id": "dna-q-what",
+      "conceptId": "genetic-code-storage",
+      "hotspotId": "hs-backbone",
+      "prompt": "What is the main job of DNA?",
+      "options": [
+        "To store the instructions that build and run an organism",
+        "To generate energy for the cell",
+        "To store water",
+        "To digest food"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNA holds the genetic code - the instructions living things use to build themselves and stay alive.",
+      "misconception": "Energy production is actually the job of the mitochondrion, not DNA. DNA carries information, not power."
+    },
+    {
+      "id": "dna-q-where",
+      "conceptId": "genetic-code-storage",
+      "hotspotId": "hs-helix",
+      "prompt": "Where is most of a cell's DNA found?",
+      "options": [
+        "In the nucleus",
+        "In the cell wall",
+        "In the cytoplasm only",
+        "On the outside of the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most DNA is packed into the nucleus, where it is protected and kept as the master instruction set. A little extra DNA lives in the mitochondria.",
+      "misconception": "DNA is not spread across the outside or wall of the cell - it is stored in the nucleus as the master instruction set (with a little extra in mitochondria)."
+    },
+    {
+      "id": "dna-q-rna",
+      "conceptId": "double-helix",
+      "hotspotId": "hs-backbone",
+      "prompt": "How is RNA different from DNA?",
+      "options": [
+        "RNA is usually single-stranded and can leave the nucleus",
+        "RNA is double-stranded and stays in the nucleus",
+        "RNA is made of proteins",
+        "RNA has no bases"
+      ],
+      "correctIndex": 0,
+      "explanation": "RNA is usually single-stranded and smaller. It copies the instructions from the nucleus and carries them out to where proteins are made. DNA is double-stranded and stays put.",
+      "misconception": "RNA is not just DNA by another name. Being single-stranded and able to travel out of the nucleus is what makes RNA a real, separate molecule."
+    }
+  ]
+}

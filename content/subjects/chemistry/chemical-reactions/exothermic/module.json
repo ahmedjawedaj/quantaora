@@ -1,0 +1,103 @@
+{
+  "id": "exothermic",
+  "subject": "chemistry",
+  "title": "Exothermic Reaction",
+  "summary": "An exothermic reaction releases energy to its surroundings, usually as heat or light — like a fire burning, a hand warmer heating up, or your body staying warm.",
+  "gradeMin": 8,
+  "gradeMax": 10,
+  "skillIds": [
+    "exothermic-releases-energy",
+    "exothermic-energy-to-surroundings",
+    "exothermic-examples"
+  ],
+  "type": "model",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Chemical Reactions",
+    "unit": "Energy Changes",
+    "systemOrGroup": "Reactions and energy",
+    "component": "Exothermic Reaction",
+    "displayPath": "Chemistry > Chemical Reactions > Energy Changes > Reactions and energy > Exothermic Reaction"
+  },
+  "crossReferences": [
+    {
+      "label": "Endothermic reaction (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Endothermic",
+      "note": "The exothermic reaction releases energy; the endothermic reaction absorbs it. Opposite energy partners."
+    },
+    {
+      "label": "Reactant (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Reactant",
+      "note": "The reactants of an exothermic reaction hold more energy than the products — the difference comes out as heat and light."
+    },
+    {
+      "label": "Conservation of mass (Chemical Reactions)",
+      "branch": "chemical-reactions",
+      "lowLevelItem": "Conservation of mass",
+      "note": "Mass is conserved in exothermic reactions — energy is released, but atoms are neither created nor destroyed."
+    }
+  ],
+  "belongsTo": "Chemical Reactions > Energy Changes > Reactions and energy",
+  "compareCandidate": {
+    "label": "Exothermic vs. endothermic",
+    "description": "An exothermic reaction RELEASES energy — it heats its surroundings, like a burning fire or a hand warmer. An endothermic reaction ABSORBS energy — it cools its surroundings, like a cold pack or cooking an egg. One gives out, the other takes in."
+  },
+  "parts": [
+    "Releases energy",
+    "Energy leaves as heat and light",
+    "Surroundings warm up"
+  ],
+  "processes": [
+    "Releasing stored chemical energy",
+    "Warming the surroundings as heat or light",
+    "Powering fires, warmers, and bodies"
+  ],
+  "plainLanguageExplanation": "An exothermic reaction is a chemical reaction that releases energy to its surroundings. The name literally means 'heat going out' — exo (out) + therm (heat). When such a reaction happens, the chemicals give off energy, usually as heat and sometimes as light. Think of a burning fire: the wood and oxygen react, and the reaction pours out heat and light. A hand warmer is another example — you crack the pack, a chemical reaction starts, and it releases heat that warms your hands. Even your own body is a furnace of exothermic reactions: the food you eat reacts with oxygen, releasing the energy that keeps you warm and powers your muscles. Why does this happen? The reactants in an exothermic reaction hold MORE energy than the products that form. The extra energy has to go somewhere, so the reaction releases it into the surroundings — which is why the surroundings get warmer. Exothermic reactions power fires, engines, hand warmers, and life itself.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A reaction that releases energy to its surroundings"
+    },
+    {
+      "label": "Name meaning",
+      "value": "'Exo' = out, 'therm' = heat — heat going out"
+    },
+    {
+      "label": "What comes out",
+      "value": "Usually heat, and sometimes light"
+    },
+    {
+      "label": "Why",
+      "value": "Reactants hold more energy than the products — the extra is released"
+    },
+    {
+      "label": "Examples",
+      "value": "Fire, hand warmers, engines, your body's metabolism"
+    },
+    {
+      "label": "Result",
+      "value": "The surroundings get warmer"
+    }
+  ],
+  "whyItMatters": "Exothermic reactions are the engine of everyday warmth and energy. Fire, engines, hand warmers, and the metabolism keeping your body at 37°C are all exothermic. Understanding them explains where heat comes from, why fires feel hot, and how energy moves between chemicals and the world.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Exothermic reaction",
+  "tagline": "Reactions that give off heat",
+  "didYouKnow": "Your body runs on exothermic reactions — the food you eat reacts with oxygen and releases heat. That is why you stay warm at 37°C even in a cold room.",
+  "conditions": [
+    "Fire and combustion",
+    "Hand warmers",
+    "Body warmth"
+  ],
+  "compareCandidateId": "endothermic",
+  "compareReason": "The exothermic and endothermic reactions are opposite energy partners — comparing releasing with absorbing makes the whole energy story of reactions crystal clear."
+}

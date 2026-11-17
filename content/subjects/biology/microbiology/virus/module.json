@@ -1,0 +1,105 @@
+{
+  "id": "virus",
+  "subject": "biology",
+  "title": "Virus",
+  "summary": "A virus is a tiny infectious agent that is not a living cell - it is a package of genetic material wrapped in a protein coat. Explore how a virus invades a host cell and tricks it into making more viruses, and why it needs a host to reproduce.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "virus-not-a-cell",
+    "virus-genetic-material-coat",
+    "virus-invades-host-cell",
+    "virus-cannot-reproduce-alone",
+    "virus-infection"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Microbiology",
+    "unit": "Microbes",
+    "systemOrGroup": "Microbial types",
+    "component": "Virus",
+    "displayPath": "Biology > Microbiology > Microbes > Microbial types > Virus"
+  },
+  "crossReferences": [
+    {
+      "label": "Bacteria (Microbiology)",
+      "branch": "microbiology",
+      "lowLevelItem": "Bacteria",
+      "note": "Unline bacteria (living single cells), viruses are not cells and cannot reproduce on their own - a key contrast."
+    },
+    {
+      "label": "Immune response (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Immune response",
+      "note": "When a virus infects a cell, the body's immune response works to detect and fight it, covered in Human Physiology."
+    },
+    {
+      "label": "Protozoa (Microbiology)",
+      "branch": "microbiology",
+      "lowLevelItem": "Protozoa",
+      "note": "Like viruses, protozoa can be infectious, but they are single-celled living organisms, very different from viruses."
+    }
+  ],
+  "belongsTo": "Microbiology > Microbes > Microbial types",
+  "compareCandidate": {
+    "label": "Virus vs. bacterium",
+    "description": "A virus is not a cell - it holds only genetic material in a protein coat and needs a host to copy itself. A bacterium is a living single-celled organism that can divide on its own. That is why they differ hugely."
+  },
+  "parts": [
+    "Protein coat (capsid)",
+    "Genetic material (DNA or RNA)",
+    "Attachment spikes",
+    "Invaded host cell"
+  ],
+  "processes": [
+    "Infecting a host cell",
+    "Forcing the host to copy the virus",
+    "Being fought by the immune system"
+  ],
+  "plainLanguageExplanation": "A virus is the smallest kind of infectious agent. It is not a cell and it is not living in the usual sense - it is basically a package of genetic material (DNA or RNA) wrapped inside a protein coat, sometimes with spikes. It cannot grow, eat, or reproduce on its own. Instead, it must find a living cell and get inside. Then it commandeers that cell's machinery to copy the virus, making many new viruses that can then infect more cells. That is how a viral infection spreads through the body, until the immune system attacks the viruses.",
+  "keyFacts": [
+    {
+      "label": "Not a cell",
+      "value": "A virus is a package of genetic material, not a living cell"
+    },
+    {
+      "label": "Structure",
+      "value": "Genetic material (DNA or RNA) inside a protein coat"
+    },
+    {
+      "label": "Reproduction",
+      "value": "Cannot reproduce alone - must commandeer a host cell"
+    },
+    {
+      "label": "Invasion",
+      "value": "Enters a host cell and forces it to make new viruses"
+    },
+    {
+      "label": "Size",
+      "value": "Much smaller than bacteria"
+    },
+    {
+      "label": "Treatment note",
+      "value": "Our immune system responds to them; antibiotics do not"
+    }
+  ],
+  "whyItMatters": "Viruses cause many illnesses from the common cold to flu, and understanding them explains infection, vaccines, and why antibiotics won't work on them. Since a virus is not a cell, it needs special handling - which is why we learn about them distinctly from bacteria.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Virus (not a cell)",
+  "tagline": "A tiny virus that needs a host to copy itself",
+  "didYouKnow": "A single virus particle is so small you would need thousands of them to span the width of a single typical cell.",
+  "conditions": [
+    "Infection",
+    "Viral lifecycle"
+  ],
+  "branch": "microbiology",
+  "displayPath": "Biology > Microbiology > Microbes > Microbial types > Virus"
+}

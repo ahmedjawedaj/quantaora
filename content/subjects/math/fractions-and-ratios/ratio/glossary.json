@@ -1,0 +1,50 @@
+{
+  "componentId": "ratio",
+  "terms": [
+    {
+      "term": "Ratio",
+      "conceptId": "ratio-compare-two",
+      "hotspotId": "hs-ratio-pair",
+      "definition": "A comparison of two quantities, written with a colon like 3:5.",
+      "function": "Shows how two amounts relate to each other.",
+      "whereItIs": "The red:blue label above the beads.",
+      "whyItMatters": "Ratios describe relationships in recipes, maps, and statistics."
+    },
+    {
+      "term": "Part-to-part ratio",
+      "conceptId": "ratio-part-part",
+      "hotspotId": "hs-part-group",
+      "definition": "A ratio comparing two different parts of a group, like red beads to blue beads.",
+      "function": "3:5 describes the mix of two colors.",
+      "whereItIs": "The two bead groups compared directly.",
+      "whyItMatters": "Part-to-part ratios describe how pieces relate, independent of the total."
+    },
+    {
+      "term": "Part-to-whole ratio",
+      "conceptId": "ratio-part-part",
+      "hotspotId": "hs-whole-total",
+      "definition": "A ratio comparing one part to the whole group.",
+      "function": "3 red beads out of 8 total is 3:8.",
+      "whereItIs": "The total-count view.",
+      "whyItMatters": "Part-to-whole ratios are the bridge between ratios and fractions."
+    },
+    {
+      "term": "Scaling a ratio",
+      "conceptId": "ratio-consistent",
+      "hotspotId": "hs-part-group",
+      "definition": "Multiplying both numbers of a ratio by the same factor to keep it equal.",
+      "function": "3:5, 6:10, and 9:15 all describe the same mix.",
+      "whereItIs": "The scale control that clones the bead groups.",
+      "whyItMatters": "Scaling is how you solve ratio problems at real-world sizes."
+    },
+    {
+      "term": "Simplifying a ratio",
+      "conceptId": "ratio-read-write-simplify",
+      "hotspotId": "hs-ratio-pair",
+      "definition": "Dividing both numbers of a ratio by a common factor to its simplest form.",
+      "function": "6:10 simplifies to 3:5.",
+      "whereItIs": "The simplest readout of a ratio.",
+      "whyItMatters": "Simplest form makes ratios easy to read and compare."
+    }
+  ]
+}

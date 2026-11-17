@@ -1,0 +1,104 @@
+{
+  "id": "niche",
+  "componentId": "niche",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/ecology/niche/niche.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/ecology/niche.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Role",
+    "Food",
+    "Activity time",
+    "Unique fit"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-role",
+      "label": "Role (job)",
+      "conceptId": "role-in-ecosystem",
+      "position": [
+        0.0,
+        0.25,
+        0.15
+      ],
+      "description": "The job the species does in its ecosystem.",
+      "color": "#D98A6A",
+      "function": "The species' lifestyle and function.",
+      "positionHint": "A job-title marker."
+    },
+    {
+      "id": "hs-eats",
+      "label": "What it eats",
+      "conceptId": "niche-what-eats-lives",
+      "position": [
+        0.35,
+        0.1,
+        0.1
+      ],
+      "description": "The food that is part of its niche.",
+      "color": "#D9A441",
+      "function": "Its feeding role.",
+      "positionHint": "A food marker."
+    },
+    {
+      "id": "hs-active",
+      "label": "When active",
+      "conceptId": "niche-what-eats-lives",
+      "position": [
+        -0.35,
+        0.05,
+        0.2
+      ],
+      "description": "Day or night activity - part of the niche.",
+      "color": "#6B85A8",
+      "function": "Its daily timing.",
+      "positionHint": "Sun and moon markers."
+    },
+    {
+      "id": "hs-unique",
+      "label": "Unique fit",
+      "conceptId": "no-identical-niches",
+      "position": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "description": "No two species fill the same niche in one place.",
+      "color": "#7FA874",
+      "function": "Each species holds its own role.",
+      "positionHint": "A puzzle-piece fit mark."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The scene reads as a calm stylized diorama - simplified, clean shapes with a restrained warm-paper and muted-green palette, not cartoon, not cluttered. COLOR IS RESTRAINED: each subject is a muted near-paper shade; strong saturated color is reserved entirely for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a stylized diorama showing a species' niche - a single bird with a job-title marker, a food marker, a day/night timing marker, and a puzzle-piece showing how the bird fits its ecosystem. Warm off-white background, muted, no glow. Named nodes: BirdRole, FoodMarker, DayNightMarker, PuzzleFit. Budget 8-12k.",
+  "visual": {
+    "shape": "niche-slot"
+  }
+}

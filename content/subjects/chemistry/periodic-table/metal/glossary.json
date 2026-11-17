@@ -1,0 +1,47 @@
+{
+  "componentId": "metal",
+  "terms": [
+    {
+      "term": "Metal",
+      "conceptId": "metal-shiny-malleable-conductive",
+      "hotspotId": "hs-metal-sample",
+      "definition": "An element that is shiny, malleable, and an excellent conductor of heat and electricity.",
+      "function": "Makes up about 80% of the elements and powers everything from wiring to bridges to cookware.",
+      "whereItIs": "The left side and middle of the periodic table.",
+      "whyItMatters": "Metals are the backbone of the modern world and a doorway into understanding electricity and bonding.",
+      "relatedConcept": "metal-occupies-left-and-middle",
+      "quizId": "metal-q-properties"
+    },
+    {
+      "term": "Luster",
+      "conceptId": "metal-shiny-malleable-conductive",
+      "hotspotId": "hs-metal-shine",
+      "definition": "The shiny, reflective quality of a metal's surface.",
+      "function": "Lets polished metals gleam and reflects light strongly.",
+      "whereItIs": "The bright highlight on the ingot's surface.",
+      "whyItMatters": "Luster is one of the fastest ways to recognize a metal by eye.",
+      "relatedConcept": "metal-shiny-malleable-conductive"
+    },
+    {
+      "term": "Free electrons",
+      "conceptId": "metal-shiny-malleable-conductive",
+      "hotspotId": "hs-metal-conductivity",
+      "definition": "The loose outer electrons of metal atoms that wander freely between atoms.",
+      "function": "Carry electric current and heat through the metal, which is why metals conduct so well.",
+      "whereItIs": "The drifting dots inside the ingot in the model.",
+      "whyItMatters": "Free electrons are the physical cause of every famous metal property.",
+      "relatedConcept": "metal-forms-positive-ions",
+      "quizId": "metal-q-conduction"
+    },
+    {
+      "term": "Cation",
+      "conceptId": "metal-forms-positive-ions",
+      "definition": "A positive ion formed when an atom loses electrons.",
+      "function": "Metals tend to become cations in reactions, which lets them bond with negative nonmetal ions.",
+      "whereItIs": "Formed whenever a metal atom gives away its loose outer electrons.",
+      "whyItMatters": "Metal cations and nonmetal anions are the two halves of every ionic bond.",
+      "relatedConcept": "metal-shiny-malleable-conductive",
+      "quizId": "metal-q-ion"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "group",
+  "componentId": "group",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/group/group.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/group.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      2.8
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      2.8
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Table section with column",
+    "Valence highlight",
+    "Reactivity meter"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-group-column",
+      "label": "A group (column)",
+      "conceptId": "group-is-column",
+      "position": [
+        0,
+        0.35,
+        0.25
+      ],
+      "description": "This glowing vertical column is one group. Its elements are stacked one above another and behave similarly.",
+      "positionHint": "The highlighted vertical column of tiles through the middle of the table section.",
+      "color": "#7FA86A",
+      "function": "Shows a vertical column — one group of the periodic table."
+    },
+    {
+      "id": "hs-group-elements",
+      "label": "Group members",
+      "conceptId": "group-is-column",
+      "position": [
+        -0.7,
+        0.95,
+        0.25
+      ],
+      "description": "Each tile in the column is a member of the group. Though they are different elements, they share the group's traits.",
+      "positionHint": "The individual tiles within the glowing column.",
+      "color": "#D9A441",
+      "function": "Marks the individual elements that make up the group."
+    },
+    {
+      "id": "hs-group-valence",
+      "label": "Shared valence electrons",
+      "conceptId": "group-shares-valence-electrons",
+      "position": [
+        1.0,
+        0.55,
+        0.25
+      ],
+      "description": "Every element in the column shows the same number of valence electrons in its outer shell — the shared trait that makes them a group.",
+      "positionHint": "The small atom shells floating beside each column tile, visible when the valence-highlight layer is on.",
+      "color": "#D96B5A",
+      "function": "Shows the identical valence electron count shared down the column."
+    },
+    {
+      "id": "hs-group-reactivity",
+      "label": "Similar reactivity",
+      "conceptId": "group-elements-behave-alike",
+      "position": [
+        0,
+        -1.15,
+        0.25
+      ],
+      "description": "Each element's reactivity bar sits at a similar level down the column — the practical result of sharing valence electrons.",
+      "positionHint": "The small vertical meters below the column tiles, visible when the reactivity-meter layer is on.",
+      "color": "#6B85A8",
+      "function": "Shows that group members share similar reactivity."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A section of periodic table floats centered with one column highlighted, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: table tiles are warm paper-white with faint graphite borders, the highlighted column tiles carry a soft muted green-grey cast. Strong saturated color is reserved entirely for the small flat hotspot dots (molecular green / amber / coral / slate accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Table tiles: warm paper-white rounded squares, roughness ~0.55, subtle bevel. Highlighted column tiles: same with a faint muted green-grey cast and slightly raised bevel. Valence shells: small translucent hairline rings with tiny teal electrons. No emissive channels anywhere — any glow or highlight is handled by app runtime UI, not baked into the asset. Tile text is rendered by the app UI layer.",
+  "assetBrief": "SUBJECT: a slice of the periodic table with one column emphasized, built to be read as 'the same column = the same group = the same behavior.' Three procedural layers, all clean primitives:\n\n1) MAIN: a grid of thin rounded-square tiles (paper-white, faint graphite border), 6 rows x 6 columns. The 3rd column from the left has 6 tiles, all given a faint muted green-grey cast and a slightly raised bevel — this is the highlighted group. No text on the mesh (symbols render as app UI).\n\n2) VALENCE HIGHLIGHT (toggleable layer): floating beside each tile of the highlighted column, a small atom-shell icon (one translucent hairline ring with tiny teal electron spheres). Every shell icon in the column shows the SAME electron count (e.g. 1) to make the shared trait visible.\n\n3) REACTIVITY METER (toggleable layer): a small vertical meter (thin rounded bar, muted graphite, filling to ~70%) beside each highlighted-column tile, all filling to the same height to show similar reactivity.\n\nCamera: framed so the grid fills the view with the highlighted column centered; auto-rotate default. Budget 8-12k triangles. Named nodes: TableGrid, Tile_01-36, HighlightColumn, ValenceShellIcon_01-06, ReactivityMeter_01-06. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "group-column"
+  }
+}

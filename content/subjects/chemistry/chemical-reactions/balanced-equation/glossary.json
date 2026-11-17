@@ -1,0 +1,38 @@
+{
+  "componentId": "balanced-equation",
+  "terms": [
+    {
+      "term": "Balanced equation",
+      "conceptId": "balanced-equal-atoms",
+      "hotspotId": "hs-balanced-pair",
+      "definition": "A chemical equation with equal numbers of each atom on both sides.",
+      "function": "Writes a reaction truthfully, obeying conservation of mass.",
+      "whereItIs": "The whole 2H₂ + O₂ → 2H₂O scene in the model.",
+      "whyItMatters": "Balanced equations are the trustworthy recipes of chemistry.",
+      "relatedConcept": "balanced-conservation-of-mass",
+      "quizId": "balanced-q-definition"
+    },
+    {
+      "term": "Conservation of mass",
+      "conceptId": "balanced-conservation-of-mass",
+      "hotspotId": "hs-balanced-count",
+      "definition": "The law that atoms are never created or destroyed in a reaction.",
+      "function": "Requires every balanced equation to show equal atoms on both sides.",
+      "whereItIs": "The matching tallies in the model.",
+      "whyItMatters": "It is the law that balancing obeys.",
+      "relatedConcept": "balanced-equal-atoms",
+      "quizId": "balanced-q-why"
+    },
+    {
+      "term": "Coefficient",
+      "conceptId": "balanced-choosing-coefficients",
+      "hotspotId": "hs-balanced-coefficient",
+      "definition": "The number in front of a formula, used to balance an equation.",
+      "function": "Adjusts the unit counts without changing the substances.",
+      "whereItIs": "The 2s in front of 2H₂ and 2H₂O.",
+      "whyItMatters": "Coefficients are the tool for balancing.",
+      "relatedConcept": "balanced-equal-atoms",
+      "quizId": "balanced-q-tool"
+    }
+  ]
+}

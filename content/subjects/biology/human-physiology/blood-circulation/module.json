@@ -1,0 +1,122 @@
+{
+  "id": "blood-circulation",
+  "subject": "biology",
+  "title": "Blood Circulation",
+  "summary": "Blood circulation is the nonstop process that pumps blood through your whole body, making two connected loops on every trip: a short pulmonary circuit to the lungs for fresh oxygen, and a long systemic circuit out to every organ and tissue. Trace a single drop of blood from the heart, out through arteries, across a capillary bed, and back through veins.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "Heart pumps blood",
+    "Arteries carry blood away from heart",
+    "Capillaries exchange gases and nutrients",
+    "Veins return blood to heart",
+    "Pulmonary circuit",
+    "Systemic circuit"
+  ],
+  "type": "model",
+  "estimatedMinutes": 14,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Circulatory & Respiratory Processes",
+    "systemOrGroup": "Cardiovascular system",
+    "component": "Blood Circulation",
+    "displayPath": "Biology > Human Physiology > Circulatory & Respiratory Processes > Cardiovascular system > Blood Circulation"
+  },
+  "crossReferences": [
+    {
+      "label": "Cardiovascular System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Cardiovascular system",
+      "note": "This component's model shows the heart and vessel network performing the circulation process; the same system is mapped structurally (chambers, valves, named vessels) in the Human Anatomy branch's Cardiovascular System unit."
+    },
+    {
+      "label": "Heart (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Cardiovascular system",
+      "note": "The Heart component covers the four chambers, valves, and named vessels (aorta, vena cava, pulmonary artery/vein) in structural detail — the pump that drives the circulation process taught here."
+    },
+    {
+      "label": "Breathing (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Breathing",
+      "note": "The pulmonary circuit exists specifically to connect blood flow to the breathing process at the lungs — see this component's Compare it step, and Breathing's own Compare it step for the reciprocal pairing."
+    }
+  ],
+  "belongsTo": "Human Physiology > Circulatory & Respiratory Processes > Cardiovascular system",
+  "compareCandidate": {
+    "label": "Blood circulation vs. breathing (the respiratory cycle)",
+    "description": "Both are rhythmic, involuntary, muscle-driven cycles that never stop and work as a team: the heartbeat-driven cardiac cycle covered here carries oxygen to every cell in the body and brings carbon dioxide back to the lungs, while breathing is what loads fresh oxygen into the blood and unloads that carbon dioxide at the lungs in the first place."
+  },
+  "parts": [
+    "Heart pumps blood",
+    "Arteries carry blood away from heart",
+    "Capillaries exchange gases and nutrients",
+    "Veins return blood to heart",
+    "Pulmonary circuit",
+    "Systemic circuit"
+  ],
+  "processes": [
+    "Breathing",
+    "Digestion",
+    "Filtration by kidneys",
+    "Temperature regulation",
+    "Immune response"
+  ],
+  "plainLanguageExplanation": "Your blood is like a delivery truck that never stops driving. Your heart is the engine that pushes it through a giant network of tubes called blood vessels, which stretch all through your body. As blood travels, it drops off oxygen and food to every cell, and picks up waste like carbon dioxide to carry away. Blood makes two loops on every trip around your body: a short loop to your lungs to grab fresh oxygen and dump carbon dioxide, and a long loop out to your whole body to deliver that oxygen and pick up waste. Then it comes back to the heart and does it all again — about once every minute, all day and all night, without you ever having to think about it.",
+  "keyFacts": [
+    {
+      "label": "Heart size",
+      "value": "About the size of your own fist"
+    },
+    {
+      "label": "Heartbeats per day",
+      "value": "Roughly 100,000 beats"
+    },
+    {
+      "label": "Two circuits",
+      "value": "Pulmonary circuit (heart to lungs and back) and systemic circuit (heart to the rest of the body and back)"
+    },
+    {
+      "label": "Heart chambers",
+      "value": "4 chambers: 2 atria (top) and 2 ventricles (bottom)"
+    },
+    {
+      "label": "Vessel job split",
+      "value": "Arteries carry blood away from the heart; veins carry blood back to the heart"
+    },
+    {
+      "label": "The pulmonary exception",
+      "value": "In the pulmonary circuit only, the pulmonary artery carries oxygen-poor blood toward the lungs and the pulmonary vein carries oxygen-rich blood back to the heart — the reverse of every other artery and vein in the body, where arteries are usually oxygen-rich and veins are usually oxygen-poor"
+    },
+    {
+      "label": "Exchange site",
+      "value": "Capillaries are so thin (about one cell thick) that gases and nutrients can pass right through their walls"
+    },
+    {
+      "label": "One full loop",
+      "value": "A single drop of blood completes a full circuit through the body in under a minute"
+    }
+  ],
+  "whyItMatters": "Every cell in your body needs a steady supply of oxygen and nutrients to stay alive, and it needs waste carried away just as constantly — circulation is what makes that possible, nonstop, for your entire life. Understanding it explains why your heart races when you exercise, why a cut bleeds, why doctors check your pulse and blood pressure, and how conditions like heart disease or clogged arteries disrupt the whole system.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Cardiovascular Circulation",
+  "tagline": "One pump, two loops, nonstop",
+  "didYouKnow": "In the pulmonary circuit only, the pulmonary artery carries oxygen-poor blood and the pulmonary vein carries oxygen-rich blood — the reverse of every other artery and vein in the body.",
+  "conditions": [
+    "Hypertension (high blood pressure)",
+    "Atherosclerosis",
+    "Arrhythmia",
+    "Varicose veins",
+    "Heart failure",
+    "Deep vein thrombosis"
+  ],
+  "compareCandidateId": "breathing",
+  "compareReason": "Both are rhythmic, involuntary, muscle-driven cycles that never stop and work as a team: the heartbeat-driven cardiac cycle carries oxygen to every cell in the body and brings carbon dioxide back to the lungs, while breathing is what loads fresh oxygen into the blood and unloads that carbon dioxide at the lungs in the first place."
+}

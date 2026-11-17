@@ -1,0 +1,45 @@
+{
+  "componentId": "fungus",
+  "terms": [
+    {
+      "term": "Fungus (fungi)",
+      "conceptId": "fungus-own-kingdom",
+      "hotspotId": "hs-mycelium",
+      "definition": "A living organism of its own kingdom - mushrooms, mold, and yeast - neither plant nor animal.",
+      "function": "Absorbs food and reproduces with spores.",
+      "whereItIs": "In soil, on wood, and on our skin and in our gut.",
+      "whyItMatters": "Fungi are key decomposers and are all around us.",
+      "quizId": "fungus-q-kingdom"
+    },
+    {
+      "term": "Hyphae",
+      "conceptId": "hyphae-mycelium",
+      "hotspotId": "hs-hyphae",
+      "definition": "The tiny thread-like cells that spread from a fungus and make up its mycelium.",
+      "function": "Spread through food/soil absorbing nutrients and dissolving food.",
+      "whereItIs": "Running under the surface of what the fungus colonizes.",
+      "whyItMatters": "They are the working arms that feed the whole fungus.",
+      "quizId": "fungus-q-food"
+    },
+    {
+      "term": "Mycelium",
+      "conceptId": "mycelium",
+      "hotspotId": "hs-mycelium",
+      "definition": "The whole tangled network of hyphae - the main, often hidden body of a fungus.",
+      "function": "The food-absorbing body of the fungus spreads through soil or wood.",
+      "whereItIs": "Underneath the ground where you see a mushroom.",
+      "whyItMatters": "It is the part you usually do not see, but is the real fungus.",
+      "quizId": "fungus-q-mycelium"
+    },
+    {
+      "term": "Spore",
+      "conceptId": "fungus-spores-reproduce",
+      "hotspotId": "hs-spores",
+      "definition": "A tiny spec released by a fungus that can grow into a new fungus.",
+      "function": "Reproduces and spreads the fungus to new places.",
+      "whereItIs": "Made and released from the mushroom fruiting body.",
+      "whyItMatters": "Spores are how fungi create the next generation.",
+      "quizId": "fungus-q-spores"
+    }
+  ]
+}

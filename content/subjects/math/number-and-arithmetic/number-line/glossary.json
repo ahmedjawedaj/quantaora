@@ -1,0 +1,59 @@
+{
+  "componentId": "number-line",
+  "terms": [
+    {
+      "term": "Number line",
+      "conceptId": "number-line-order-numbers",
+      "hotspotId": "hs-zero-reference",
+      "definition": "A straight line with equally spaced marks that shows numbers in order.",
+      "function": "Shows the size, order, and distance between numbers at a glance.",
+      "whereItIs": "The whole horizontal line in the model, ranging −5 to 5.",
+      "whyItMatters": "It is the visual map for ordering, comparing, and stepping numbers for addition and subtraction."
+    },
+    {
+      "term": "Zero reference point",
+      "conceptId": "number-line-compare-size",
+      "hotspotId": "hs-zero-reference",
+      "definition": "The center mark (0) that separates positive numbers on the right from negative numbers on the left.",
+      "function": "Anchor for deciding which numbers are positive or negative and comparing their distance from zero.",
+      "whereItIs": "The central, slightly taller tick labeled 0.",
+      "whyItMatters": "It is the starting reference for reading every other number's size."
+    },
+    {
+      "term": "Positive number",
+      "conceptId": "number-line-order-numbers",
+      "hotspotId": "hs-positive-side",
+      "definition": "A number greater than zero, placed to the right of the zero reference.",
+      "function": "Represents quantities on the 'above zero' side; increases to the right.",
+      "whereItIs": "The ticks labeled 1 to 5 on the right half of the line.",
+      "whyItMatters": "Most everyday counting quantities are positive numbers."
+    },
+    {
+      "term": "Negative number",
+      "conceptId": "number-line-compare-size",
+      "hotspotId": "hs-negative-side",
+      "definition": "A number less than zero, placed to the left of the zero reference.",
+      "function": "Represents amounts below zero, like temperatures or deficits.",
+      "whereItIs": "The ticks labeled −1 to −5 on the left half of the line.",
+      "whyItMatters": "It shows that numbers extend below zero and gives place for subtraction that goes past zero."
+    },
+    {
+      "term": "Equal spacing",
+      "conceptId": "number-line-spacing-equal",
+      "hotspotId": "hs-minus-spacing",
+      "definition": "The property that makes each gap between consecutive marks the same size.",
+      "function": "Ensures every jump measures a true, fair amount of value.",
+      "whereItIs": "Applied uniformly across the tick marks in the model.",
+      "whyItMatters": "Equal spacing is what turns a drawn line into an honest measuring ruler for numbers."
+    },
+    {
+      "term": "Jump",
+      "conceptId": "number-line-add-subtract-by-jumps",
+      "hotspotId": "hs-positive-side",
+      "definition": "The movement of one unit (or more) from one mark to another along the number line.",
+      "function": "Models addition by moving right and subtraction by moving left.",
+      "whereItIs": "The small arrow and movable marker above the line.",
+      "whyItMatters": "It connects the abstract idea of adding and subtracting to visible steps on the line."
+    }
+  ]
+}

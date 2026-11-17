@@ -1,0 +1,113 @@
+{
+  "componentId": "kidney-filtration",
+  "terms": [
+    {
+      "term": "Blood Enters Kidney",
+      "conceptId": "blood-enters-kidney",
+      "hotspotId": "hs-blood-enters-kidney",
+      "definition": "The first stage of filtration: oxygen- and waste-carrying blood arrives from the renal artery at the hilum and branches inward toward each nephron's glomerulus.",
+      "function": "Delivers a continuous, pressurized blood supply to the nephrons, since blood pressure is what drives fluid out of the glomerulus and into the filtering system.",
+      "whereItIs": "At the hilum, the concave medial notch of the kidney, on the renal artery stub.",
+      "whyItMatters": "Without a steady, high-pressure blood supply reaching the nephrons, filtration can't begin at all — this is why conditions that reduce blood flow to the kidneys, like severe dehydration or blood loss, can quickly reduce how well the kidneys clean the blood.",
+      "relatedConcept": "nephron-filters-waste",
+      "quizId": "kidney-filtration-q-blood-enters"
+    },
+    {
+      "term": "Nephron Filters Waste",
+      "conceptId": "nephron-filters-waste",
+      "hotspotId": "hs-nephron-filters-waste",
+      "definition": "The step where blood pressure forces water, salts, and small waste molecules out of the glomerulus's capillaries into Bowman's capsule, while blood cells and large proteins stay behind in the blood.",
+      "function": "Performs the actual filtering of blood plasma, separating small dissolved substances (which pass through) from blood cells and large proteins (which don't).",
+      "whereItIs": "On the exploded nephron inset, at the glomerulus and Bowman's capsule cluster.",
+      "whyItMatters": "This is the actual filtering step — everything downstream depends on getting it right, since letting blood cells or vital proteins leak into the filtrate here (a red flag doctors check for in urine tests) means the filter itself is damaged.",
+      "relatedConcept": "reabsorption-of-needed-substances",
+      "quizId": "kidney-filtration-q-nephron"
+    },
+    {
+      "term": "Reabsorption of Needed Substances",
+      "conceptId": "reabsorption-of-needed-substances",
+      "hotspotId": "hs-reabsorption",
+      "definition": "As filtrate travels down the tubule, useful water, glucose, amino acids, and salts are reabsorbed back into surrounding capillaries, leaving mostly waste and excess water behind.",
+      "function": "Reclaims almost everything the body still needs from the filtered fluid before it can be lost as urine.",
+      "whereItIs": "Along the proximal convoluted tubule and loop of Henle segment of the nephron inset, between Bowman's capsule and the distal tubule.",
+      "whyItMatters": "Without reabsorption, the body would lose almost all its water, sugar, and salts within hours of the kidneys filtering blood — reabsorption is what makes filtration survivable rather than catastrophic.",
+      "relatedConcept": "urine-formation",
+      "quizId": "kidney-filtration-q-reabsorption"
+    },
+    {
+      "term": "Urine Formation",
+      "conceptId": "urine-formation",
+      "hotspotId": "hs-urine-formation",
+      "definition": "The remaining filtrate — water plus wastes like urea — becomes concentrated urine as it passes through the collecting ducts into the renal pelvis.",
+      "function": "Converts leftover filtrate into a concentrated, storable liquid waste product.",
+      "whereItIs": "At the collecting duct and renal pelvis region inside the cross-section wedge, where the pyramid tips (calyces) funnel inward.",
+      "whyItMatters": "This is the step where 'stuff the body doesn't need' becomes a storable, concentrated liquid instead of many liters of dilute fluid — it's why urine, not raw filtrate, is what leaves the body.",
+      "relatedConcept": "waste-exits-via-ureter"
+    },
+    {
+      "term": "Waste Exits via Ureter",
+      "conceptId": "waste-exits-via-ureter",
+      "hotspotId": "hs-waste-exits-ureter",
+      "definition": "Urine drains from the renal pelvis through the ureter, carrying dissolved waste out of the kidney toward the bladder for storage and eventual elimination.",
+      "function": "Transports finished urine out of the kidney to the bladder for storage.",
+      "whereItIs": "On the ureter tube where it narrows and exits the hilum.",
+      "whyItMatters": "If the ureter is blocked — for example, by a kidney stone — urine can back up into the kidney and cause serious pain and damage, so this transport step is just as essential as the filtering itself.",
+      "relatedConcept": "urine",
+      "quizId": "kidney-filtration-q-ureter"
+    },
+    {
+      "term": "Nephron",
+      "conceptId": "nephron",
+      "definition": "A microscopic filtering unit inside the kidney; each kidney has about a million of them working together.",
+      "function": "Carries out the full filter-and-reabsorb cycle on its own small share of the blood supply, from filtration through reabsorption to handing off leftover waste to the collecting duct.",
+      "whereItIs": "Packed throughout the cortex and medulla of the kidney; shown enlarged in the exploded nephron inset since real nephrons are too small to see on the whole organ.",
+      "whyItMatters": "A single kidney's roughly one million nephrons working in parallel is what lets the organ filter your entire blood supply many times a day.",
+      "relatedConcept": "nephron-filters-waste"
+    },
+    {
+      "term": "Filtration",
+      "conceptId": "filtration",
+      "definition": "The process of blood pressure pushing water, salts, and waste out of tiny blood vessels into the nephron, while blood cells and large proteins stay behind.",
+      "function": "The first of the kidney's two-step cleanup process, separating small dissolved substances from blood cells and large proteins.",
+      "whereItIs": "Happens at the glomerulus, inside Bowman's capsule, at the start of each nephron.",
+      "whyItMatters": "Filtration is the step that makes everything else possible — without it, no waste would ever leave the blood in the first place.",
+      "relatedConcept": "nephron-filters-waste"
+    },
+    {
+      "term": "Reabsorption",
+      "conceptId": "reabsorption",
+      "definition": "The process where the nephron pulls needed water, sugar, and salts back out of the filtered fluid and returns them to the bloodstream.",
+      "function": "Prevents the body from losing the water and nutrients that filtration removed along with the waste.",
+      "whereItIs": "Along the tubule segments of the nephron, downstream of Bowman's capsule.",
+      "whyItMatters": "Reabsorption is why the kidneys can filter 180 liters of plasma a day while the body only loses 1–2 liters as urine.",
+      "relatedConcept": "reabsorption-of-needed-substances"
+    },
+    {
+      "term": "Urea",
+      "conceptId": "urea",
+      "definition": "A waste chemical made in the liver when the body breaks down protein; it is one of the main things kidneys remove from blood.",
+      "function": "Serves as the main nitrogen-containing waste product that filtration is built to remove from the blood.",
+      "whereItIs": "Dissolved in blood plasma before filtration, and in the filtrate and urine afterward.",
+      "whyItMatters": "Urea levels in blood are one of the main things doctors measure to check how well the kidneys are working.",
+      "relatedConcept": "nephron-filters-waste"
+    },
+    {
+      "term": "Ureter",
+      "conceptId": "ureter",
+      "definition": "The narrow tube that carries urine from each kidney down to the bladder (not to be confused with the urethra, which carries urine out of the body).",
+      "function": "Transports finished urine from the kidney to the bladder for storage.",
+      "whereItIs": "Exits the kidney at the hilum, running down toward the bladder.",
+      "whyItMatters": "The ureter is the only path urine has out of the kidney, which is why a blockage here can cause a serious backup.",
+      "relatedConcept": "waste-exits-via-ureter"
+    },
+    {
+      "term": "Urine",
+      "conceptId": "urine",
+      "definition": "The liquid waste made of water, urea, and other substances the body doesn't need, produced after filtration and reabsorption.",
+      "function": "Carries the body's dissolved waste products out of the body.",
+      "whereItIs": "Forms in the collecting ducts and renal pelvis, then travels through the ureter to the bladder.",
+      "whyItMatters": "Urine's color and content are a window into hydration and kidney health, which is why urine tests are a common medical check.",
+      "relatedConcept": "urine-formation"
+    }
+  ]
+}

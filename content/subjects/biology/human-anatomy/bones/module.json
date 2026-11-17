@@ -1,0 +1,106 @@
+{
+  "id": "bones",
+  "subject": "biology",
+  "title": "Bones",
+  "summary": "Bones are the body's living framework - a hard but alive skeleton that supports you, protects your organs, lets you move, and even makes blood cells. Explore what bones are made of and the many jobs they do.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "bones-support-protect",
+    "marrow-makes-blood",
+    "calcium-and-collagen",
+    "bones-grow-repair"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Skeletal system",
+    "component": "Bones",
+    "displayPath": "Biology > Human Anatomy > Skeletal system > Bones"
+  },
+  "crossReferences": [
+    {
+      "label": "Muscles (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Muscles",
+      "note": "Muscles pull on bones at joints to make movement - the two systems work as partners."
+    },
+    {
+      "label": "Muscle Contraction (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Muscle contraction",
+      "note": "When muscles contract they pull the attached bones, creating movement."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Skeletal system > Bones",
+  "compareCandidate": {
+    "label": "Bone vs. exoskeleton",
+    "description": "Humans have an internal skeleton (bones inside the body) that grows with you. Insects and crabs have an external skeleton (a hard shell on the outside) that they must shed to grow."
+  },
+  "parts": [
+    "Hard outer bone",
+    "Spongy inner bone",
+    "Bone marrow",
+    "Joints",
+    "Calcium minerals"
+  ],
+  "processes": [
+    "Supporting the body",
+    "Protecting organs",
+    "Working with muscles for movement",
+    "Making blood cells in marrow"
+  ],
+  "plainLanguageExplanation": "Bones are the hard parts of the body that form the skeleton. They are made of a mix of hard minerals (like calcium) and flexible protein (collagen), which together make them strong yet slightly bendy. Bones have several jobs: they support the body and give it shape, they protect soft organs (like the brain and heart), they work with muscles to let you move (the muscles pull on bones at joints), and inside many bones is bone marrow that makes blood cells. Bones are alive - they grow, repair themselves when broken, and store calcium. There are about 206 bones in an adult skeleton.",
+  "keyFacts": [
+    {
+      "label": "Count",
+      "value": "About 206 bones in an adult skeleton"
+    },
+    {
+      "label": "Made of",
+      "value": "Hard minerals (calcium) plus flexible protein (collagen)"
+    },
+    {
+      "label": "Support",
+      "value": "Give the body shape and hold it up"
+    },
+    {
+      "label": "Protection",
+      "value": "Protect organs like the brain and heart"
+    },
+    {
+      "label": "Movement",
+      "value": "Muscles pull on bones at joints to move you"
+    },
+    {
+      "label": "Blood cells",
+      "value": "Bone marrow inside bones makes blood cells"
+    },
+    {
+      "label": "Alive",
+      "value": "Bones grow, repair, and store calcium"
+    }
+  ],
+  "whyItMatters": "Bones hold you up, protect you, let you move, and even build your blood. Understanding them explains why milk and calcium matter, why bones heal after a break, and how the skeleton and muscles work together.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Bones (Skeletal system)",
+  "tagline": "The body's living framework",
+  "didYouKnow": "Your bones are stronger than steel ounce for ounce - yet they are alive, grow with you, and repair themselves when broken.",
+  "conditions": [
+    "Fracture",
+    "Osteoporosis",
+    "Rickets"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Skeletal system > Bones",
+  "plain": "Bones are the hard parts of the body that form the skeleton. They are made of a mix of hard minerals (like calcium) and flexible protein (collagen), which together make them strong yet slightly bendy. Bones have several jobs: they support the body and give it shape, they protect soft organs (like the brain and heart), they work with muscles to let you move (the muscles pull on bones at joints), and inside many bones is bone marrow that makes blood cells. Bones are alive - they grow, repair themselves when broken, and store calcium. There are about 206 bones in an adult skeleton."
+}

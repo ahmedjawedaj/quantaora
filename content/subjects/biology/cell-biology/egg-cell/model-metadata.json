@@ -1,0 +1,116 @@
+{
+  "id": "egg-cell",
+  "componentId": "egg-cell",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "pipelineNote": "Reviewer-flagged conflict resolved: spec §21 assigns cell-biology components to the GLB/GLTF authored-mesh pipeline, not procedural-three (that strategy is reserved for physics/math/space where possible). modelType here is set to 'glb-authored' accordingly. The assetBrief and visualStyleNotes fields below remain valid as construction guidance for the artist authoring the mesh in a DCC tool (e.g. Blender, built from concentric primitives) and exporting to GLB — they describe geometry and materials, not a runtime procedural-three build step.",
+  "url": "/assets/models/biology/cell-biology/egg-cell/egg-cell.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/egg-cell.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.45,
+      2.75
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.45,
+      2.75
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Zona pellucida (outer glycoprotein coat)",
+    "Cell membrane / oolemma (thin inner shell)",
+    "Cytoplasm, nutrient-rich (ooplasm fill)",
+    "Nucleus / germinal vesicle (offset interior sphere)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-zona-pellucida",
+      "label": "Zona Pellucida",
+      "conceptId": "zona-pellucida",
+      "position": [
+        -0.85,
+        0.1,
+        0.5
+      ],
+      "positionHint": "Outer intact sphere surface, upper-left quadrant (~10 o'clock, equator height), on the untouched (non-cutaway) side of the model so it reads as the clear outer boundary. Numeric position is an approximate placeholder (r ≈ 1.0 from center) pending final rig on the authored GLB mesh.",
+      "description": "The tough, translucent outer coat surrounding the egg. It protects the egg and controls which sperm can bind and enter during fertilization.",
+      "definition": "The zona pellucida is the tough, translucent outer coat that surrounds an egg cell.",
+      "function": "It protects the egg and controls which sperm cell can bind to and enter it, and it helps block additional sperm once one has fertilized the egg.",
+      "whereItIs": "The outermost layer of the egg cell, just outside the cell membrane.",
+      "whyItMatters": "By normally allowing only one sperm cell through, it helps make sure a new embryo starts with the correct amount of DNA instead of too much.",
+      "relatedConcept": "fertilization"
+    },
+    {
+      "id": "hs-cell-membrane",
+      "label": "Cell Membrane",
+      "conceptId": "cell-membrane",
+      "position": [
+        0.55,
+        0.25,
+        0.62
+      ],
+      "positionHint": "Along the exposed edge of the permanent quarter-wedge cutaway, front-right (~2 o'clock) at the cut face, shown as a thin ring directly beneath the zona pellucida layer. Numeric position is an approximate placeholder (r ≈ 0.865 from center) pending final rig on the authored GLB mesh.",
+      "description": "The thin membrane (oolemma) just inside the zona pellucida that encloses the egg's cytoplasm and controls what passes into and out of the cell.",
+      "definition": "The cell membrane (also called the oolemma in an egg cell) is the thin membrane that encloses the egg's contents.",
+      "function": "It controls what substances pass into and out of the egg cell and is the layer a sperm cell's membrane must fuse with to fertilize the egg.",
+      "whereItIs": "Just inside the zona pellucida, wrapping directly around the cytoplasm.",
+      "whyItMatters": "It's the actual boundary a sperm cell crosses during fertilization, and it helps trigger the block that stops extra sperm from entering afterward.",
+      "relatedConcept": "zona-pellucida"
+    },
+    {
+      "id": "hs-cytoplasm",
+      "label": "Cytoplasm (nutrient-rich)",
+      "conceptId": "cytoplasm-nutrient-rich",
+      "position": [
+        0.35,
+        -0.25,
+        0.35
+      ],
+      "positionHint": "Interior of the wedge cutaway, mid-radius, lower-front area between the membrane ring and the nucleus, showing the subtle granular fill. Numeric position is an approximate placeholder (r ≈ 0.55 from center) pending final rig on the authored GLB mesh.",
+      "description": "The jelly-like interior filled with nutrients and energy stores that will feed the earliest stages of embryo development after fertilization.",
+      "definition": "The cytoplasm is the jelly-like interior of the egg cell, packed with nutrients.",
+      "function": "It stores the food and energy reserves that fuel the earliest stages of embryonic development, before the embryo can get nutrients any other way.",
+      "whereItIs": "Fills the space between the cell membrane and the nucleus.",
+      "whyItMatters": "Without this nutrient stockpile, a newly fertilized egg wouldn't have the energy to begin dividing and developing.",
+      "relatedConcept": "nucleus"
+    },
+    {
+      "id": "hs-nucleus",
+      "label": "Nucleus",
+      "conceptId": "nucleus",
+      "position": [
+        0.05,
+        0.4,
+        0.25
+      ],
+      "positionHint": "Interior of the wedge cutaway, upper-center, a distinct smaller sphere offset slightly toward one pole rather than dead-center, per the germinal-vesicle's eccentric real position. Numeric position is an approximate placeholder pending final rig on the authored GLB mesh (nucleus sphere center offset ~0.15 units toward one pole, radius ~0.30).",
+      "description": "The egg's control center, holding half the genetic material needed to form a new organism once combined with a sperm cell's nucleus.",
+      "definition": "The nucleus is the egg cell's control center, holding its genetic material.",
+      "function": "It holds 23 chromosomes — half the DNA needed to build a new organism — ready to combine with a sperm cell's 23 chromosomes during fertilization.",
+      "whereItIs": "Near the center of the egg, offset slightly toward one side rather than dead-center.",
+      "whyItMatters": "This is where the egg's contribution to a new individual's DNA is stored, and where it merges with the sperm cell's DNA during fertilization.",
+      "relatedConcept": "chromosome"
+    }
+  ],
+  "visualStyleNotes": "Warm off-white background, single large centered object, generous negative space — matches Anatomy Atelier framing exactly. Concentric-sphere construction (icosphere, subdivision ~4 for a smooth silhouette at close camera distance — no faceting). A permanent small quarter-wedge (~80-90°) is cut away from the sphere by default so cell membrane, cytoplasm, and nucleus are visible without user interaction; the full cross-section toggle extends this to a half-bisection for closer study. Flat, clean-shaded cut faces (no jagged/torn-tissue look) — cut surfaces read as smooth matte discs, same aesthetic as Anatomy Atelier's organ cutaways. Palette stays muted and desaturated: zona pellucida pale warm cream with a faint rough-matte (not glossy) finish; membrane a slightly deeper bone/tan thin ring; cytoplasm soft muted peach/apricot with very subtle low-contrast granular noise (no visible discrete organelles); nucleus a soft dusty rose/mauve sphere, matte, no internal detail. No emissive glow, no gradients, no saturated cartoon colors, no toon outlines. Hotspot dots follow the app's standard semantic marker style (small flat-colored circle, gentle idle pulse, opens a slide-in structure card) — dot colors come from the app's hotspot color system, not from the layer material colors, so they stay legible against every layer.",
+  "assetBrief": "Author as a GLB mesh built from clean concentric primitives (in a DCC tool such as Blender) and exported for the app's GLB/GLTF model pipeline — no runtime procedural generation. This is a small, near-perfectly spherical cell, so geometric fidelity comes from clean concentric shells, not surface detail.\n\nPROPORTIONS (normalized to a 1.0-unit outer radius sphere):\n- Zona pellucida: outer shell from r=1.0 down to r≈0.88 (thickness ≈0.12, visually the thickest of the two outer layers — it's a substantial coat, not a thin film).\n- Cell membrane: a very thin shell immediately inside, r≈0.88 to r≈0.85 (thickness ≈0.03) — reads as a fine boundary line/ring, not a thick band.\n- Cytoplasm: fills the interior from r≈0.85 down to the nucleus boundary, solid soft-matte volume with very low-amplitude noise (bump/vertex-color only, no geometry displacement) to suggest \"nutrient-rich\" granularity without depicting individual organelles.\n- Nucleus: a single inner sphere, radius ≈0.30 of the outer radius, center offset ≈0.15 units off the egg's own center toward one pole (eccentric placement, not dead-center) — this matches the real biology (the germinal vesicle sits off-axis) and also gives the cutaway view a more visually interesting asymmetric composition.\n\nCUTAWAY GEOMETRY: Boolean-subtract (or mask via clip-plane pair) a ~80-90° wedge from one quadrant of the full sphere, oriented so the cut faces the default camera. This wedge is always present in the default view — it is not an interactive toggle, it's baked into the resting pose, matching Anatomy Atelier's convention of showing internal structure without requiring user action first. The separate \"cross-section\" interaction (spec §13) extends this same cut to a full half-bisection (180°) for closer inspection, and should animate smoothly between the two cut angles rather than popping.\n\nMATERIALS (all matte/lightly-rough PBR, zero emissive, zero specular sheen beyond a soft even studio highlight consistent with the rest of the app's models):\n- Zona pellucida: pale warm cream (~#F2E9DC), roughness high (~0.7), very slightly translucent-looking via a subtle fresnel rim only — do not make it glassy or glossy.\n- Cell membrane: slightly deeper tan/bone (~#D9C7AE), same matte finish, thin enough that it primarily reads as an outline/ring in the cutaway rather than a filled volume.\n- Cytoplasm: soft muted peach/apricot (~#EBC9A8), matte, with a faint low-frequency noise texture (procedural Perlin, subtle, no distinct blobs) for the \"nutrient-rich\" read.\n- Nucleus: dusty rose/mauve (~#D9A6A0), matte, flat color, no internal texture — it should read as a clean, simple inner sphere, deliberately the most visually distinct/saturated of the four layers since it's the focal \"control center\" concept.\n\nCAMERA & COMPOSITION: Default camera at roughly [0, 0.45, 2.75] looking at the sphere's center [0,0,0] — close enough that the egg fills a large central portion of frame with generous surrounding off-white space, slightly elevated (not flat-on) 3/4-ish angle so the wedge cutaway's interior is legible without feeling like a diagram. Auto-rotate on by default at a slow, calm speed (consistent with reference), pausing on user interaction.\n\nEXPORT: Deliver as a single glb with named node hierarchy matching the hotspot conceptIds (zona-pellucida, cell-membrane, cytoplasm-nutrient-rich, nucleus) so hotspot-to-mesh mapping and isolate/layer-toggle interactions (spec §13) can target each part directly.\n\nDO NOT: add any organelles beyond the four specified (no mitochondria, cortical granules, polar bodies, spindle fibers); do not use glossy/glassy/glowing materials on the zona pellucida (it is a matte biological coat, not a bubble or gem); no emissive rim-lighting or glow of any kind; no saturated \"cartoon\" primary colors; no toon/cel shading or outline strokes; no jagged or torn-looking cut edges on the wedge — cut faces must be clean, smooth, flat-shaded discs; no visible polygon faceting (keep icosphere subdivision high enough, ~level 4, that the silhouette reads as fully smooth at the default camera distance); no particle effects, sparkles, or animated fluid simulation inside the cytoplasm — the \"nutrient-rich\" quality comes from color and a static subtle noise texture only, not motion.",
+  "visual": {
+    "shape": "egg-cell"
+  }
+}

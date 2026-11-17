@@ -1,0 +1,38 @@
+{
+  "componentId": "neutron",
+  "terms": [
+    {
+      "term": "Neutron",
+      "conceptId": "neutron-in-nucleus",
+      "hotspotId": "hs-neutron-nucleus",
+      "definition": "A particle in the nucleus of an atom that carries no electric charge.",
+      "function": "Adds mass to the atom and helps stabilize the nucleus.",
+      "whereItIs": "The gray particles in the cutaway nucleus.",
+      "whyItMatters": "Neutrons are what make isotopes and add the mass that atomic weight records.",
+      "relatedConcept": "neutron-isotopes",
+      "quizId": "neutron-q-location"
+    },
+    {
+      "term": "Neutral charge",
+      "conceptId": "neutron-no-charge",
+      "hotspotId": "hs-neutron-neutral",
+      "definition": "Having no electric charge at all — the neutron's defining trait.",
+      "function": "Lets neutrons add mass without ever changing an atom's charge.",
+      "whereItIs": "On every neutron in the model — no charge marker at all.",
+      "whyItMatters": "Neutral charge is why neutrons can vary freely without altering the element.",
+      "relatedConcept": "neutron-in-nucleus",
+      "quizId": "neutron-q-charge"
+    },
+    {
+      "term": "Isotope",
+      "conceptId": "neutron-isotopes",
+      "hotspotId": "hs-neutron-isotopes",
+      "definition": "Atoms of the same element that have different numbers of neutrons.",
+      "function": "Gives an element multiple possible weights with the same identity.",
+      "whereItIs": "The carbon-12 and carbon-14 pair in the isotope layer.",
+      "whyItMatters": "Isotopes are used in medicine, archaeology, and nuclear power.",
+      "relatedConcept": "neutron-no-charge",
+      "quizId": "neutron-q-isotope"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "percent",
+  "subject": "math",
+  "title": "Percent",
+  "summary": "Percent means 'out of 100' — 25% is 25 out of every 100. Explore how a percent grid, a fraction, and a decimal all describe the same part, and how to read real percentages like scores and sales.",
+  "gradeMin": 5,
+  "gradeMax": 7,
+  "skillIds": [
+    "percent-out-of-100",
+    "percent-grid-visual",
+    "percent-fraction-decimal",
+    "percent-real-world"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Fractions And Ratios",
+    "unit": "Fraction, Decimal, Percent",
+    "systemOrGroup": "Percents",
+    "component": "Percent",
+    "displayPath": "Math > Fractions And Ratios > Fraction, Decimal, Percent > Percents > Percent"
+  },
+  "crossReferences": [
+    {
+      "label": "Fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Fraction",
+      "note": "A percent is a fraction with a denominator of 100 — 25% = 25/100."
+    },
+    {
+      "label": "Decimal (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Decimal",
+      "note": "Percent and decimal are two codes for the same amount — 25% = 0.25."
+    },
+    {
+      "label": "Ratio (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Ratio",
+      "note": "Percent compares a part to 100, like a ratio always compared to one hundred."
+    }
+  ],
+  "belongsTo": "Fractions And Ratios > Fraction, Decimal, Percent > Percents",
+  "compareCandidate": {
+    "label": "Percent vs. fraction",
+    "description": "A percent is a special fraction with a fixed denominator of 100 — 25% is always 25/100. A fraction can have any denominator. Percents make comparisons uniform: 25% and 40% are instantly comparable."
+  },
+  "parts": [
+    "Out of one hundred",
+    "The percent grid",
+    "Percent, fraction, decimal link"
+  ],
+  "processes": [
+    "Reading percents on a grid",
+    "Converting percent to fraction and decimal",
+    "Applying percent to real quantities"
+  ],
+  "plainLanguageExplanation": "Percent means 'per hundred' or 'out of 100'. If you score 25% on a 100-mark test, you got 25 marks. The 'percent grid' shows this perfectly: a 10-by-10 grid of 100 squares, and every shaded square is one percent. 50% means half the grid lit. Percent, fraction, and decimal are just three spellings of the same idea: 25% = 25/100 = 0.25. To find a percent of a number, you can convert to a decimal and multiply — 50% of 200 is 0.5 × 200 = 100. Sales ('30% off'), scores, and statistics all use percents because the 'out of 100' scale makes different situations easy to compare.",
+  "keyFacts": [
+    { "label": "Meaning", "value": "'Per hundred' — out of every 100" },
+    { "label": "25%", "value": "25 out of 100 = 25/100 = 0.25 = one quarter" },
+    { "label": "100%", "value": "The whole — 100 out of 100" },
+    { "label": "Grid", "value": "Each square of a 10×10 grid is 1%" },
+    { "label": "Of a number", "value": "25% of 80 = 0.25 × 80 = 20" },
+    { "label": "Compare", "value": "Percents make unrelated amounts comparable" }
+  ],
+  "whyItMatters": "Percents appear everywhere — discounts, test scores, interest, statistics, nutrition labels. Understanding percent as 'out of 100' lets you quickly compute discounts, understand data, and make sense of the numbers plastered across daily life.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Percent",
+  "tagline": "Parts out of every hundred",
+  "didYouKnow": "The % symbol evolved from the Latin 'per centum'. Merchants wrote 'per 100' so often they abbreviated it — eventually the letters mashed together into the % sign you see today.",
+  "conditions": [
+    "Test scores",
+    "Sales and discounts",
+    "Statistics in the news",
+    "Nutrition labels"
+  ],
+  "compareCandidateId": "decimal",
+  "compareReason": "Percent and decimal are two spellings of the same 'out of a hundred' idea — comparing 25% with 0.25 ties them together forever."
+}

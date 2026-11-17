@@ -1,0 +1,104 @@
+{
+  "id": "velocity",
+  "componentId": "velocity",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/velocity/velocity.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/velocity.png",
+  "defaultCamera": {
+    "position": [
+      0.4,
+      2.1,
+      4.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.4,
+      2.1,
+      4.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Circular track and car",
+    "Velocity arrow",
+    "Speedometer plate",
+    "Compass ring with direction labels"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-velocity-arrow",
+      "label": "Velocity Arrow",
+      "conceptId": "velocity-speed-with-direction",
+      "position": [
+        0.9,
+        0.5,
+        0.2
+      ],
+      "description": "The arrow attached to the car: same length at constant speed, but it keeps rotating to point which way the car heads.",
+      "positionHint": "An arrow beam from the car's roof, sweeping as the car drives the loop.",
+      "color": "#D96B5A",
+      "function": "Shows speed as arrow length and direction as arrow heading together."
+    },
+    {
+      "id": "hs-speed-value",
+      "label": "Speedometer Value",
+      "conceptId": "velocity-speed-with-direction",
+      "position": [
+        -0.8,
+        0.8,
+        0.3
+      ],
+      "description": "The plain speed number (e.g. 3 m/s) with no direction — the scalar part velocity borrows from speed.",
+      "positionHint": "A speedometer dial plate on a post next to the track.",
+      "color": "#D9A441",
+      "function": "Displays the directionless speed that velocity builds on."
+    },
+    {
+      "id": "hs-direction-label",
+      "label": "Direction Labels",
+      "conceptId": "velocity-changes-with-direction",
+      "position": [
+        0,
+        0.35,
+        -1.2
+      ],
+      "description": "A compass ring around the track names every heading (N, S, E, W) so the arrow's direction can be spoken aloud.",
+      "positionHint": "Raised letters printed on the ring at the track edge.",
+      "color": "#6B85A8",
+      "function": "Names the direction part of each velocity vector."
+    },
+    {
+      "id": "hs-negative-arrow",
+      "label": "Reverse Arrow",
+      "conceptId": "velocity-changes-with-direction",
+      "position": [
+        -0.6,
+        0.4,
+        0.6
+      ],
+      "description": "When the car reverses, the arrow flips 180° — a full direction change that shows velocity shifting while speed stays put.",
+      "positionHint": "A ghost arrow and label visible in reverse mode.",
+      "color": "#7FA86A",
+      "function": "Illustrates how reversing the direction flips the velocity vector."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar: warm off-white paper background, soft vignette, no floor grid, no props beyond the track. A circular loop on a warm-grey mat, tiny amber car, its velocity arrow a bright coral lever, one floating speedometer plate, and compass letters on the rim. Saturated color on arrow + hotspot dots only. Neutral studio light, no bloom, no emissive",
+  "materialNotes": "Metallic-roughness, metallic=0. Loop: warm cafe ring (roughness ~0.65) with a dashed grip lane. Car: amber body (roughness ~0.45). Arrow: coral matte prism (roughness ~0.4) with cone head. Dial: warm paper face with ink ticks. All readouts runtime app layer; the GLB ships cleanly static.",
+  "assetBrief": "SUBJECT: velocity as speed-with-direction demonstrated on a circular loop; constant speed, ever-turning velocity.\n\nGEOMETRY: circular track radius ~1.4 on y=0, an outer compass ring with letters at 4 cardinal points. A small car sits on the track riding an arrow asset that pivots to the heading. A speed dial floats on a thin post (-0.8,0.8,0.35).\n\nINTERACTION: the app moves the car at constant speed and rotates the arrow to the tangent heading; Reverse mode flips the arrow; the loop repeats showing the same speed with rotating velocity.\n\nLAYERS: track+car; arrow; dial; ring labels.\n\nNAMED NODES: LoopTrack, CompassRing, CarBody, VelocityArrow, SpeedDial, GhostArrow. 6-10k tris.",
+  "visual": {
+    "shape": "motion-vector"
+  }
+}

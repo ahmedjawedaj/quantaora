@@ -1,0 +1,48 @@
+{
+  "componentId": "alkali-metal",
+  "terms": [
+    {
+      "term": "Alkali metal",
+      "conceptId": "alkali-metal-one-valence-electron",
+      "hotspotId": "hs-alkali-column",
+      "definition": "An element in Group 1 — a soft, shiny, extremely reactive metal with one valence electron.",
+      "function": "Reacts eagerly by losing its single outer electron, becoming a +1 ion.",
+      "whereItIs": "Group 1 — the first column of the periodic table.",
+      "whyItMatters": "The alkali metals are the clearest example of how one valence electron creates a family of similar, dramatic behavior.",
+      "relatedConcept": "alkali-metal-group-1",
+      "quizId": "alkali-q-valence"
+    },
+    {
+      "term": "Valence electron",
+      "conceptId": "alkali-metal-one-valence-electron",
+      "hotspotId": "hs-alkali-valence",
+      "definition": "The single electron in the outermost shell of an alkali metal atom.",
+      "function": "Is the one electron the atom is eager to give away to reach a full, stable shell.",
+      "whereItIs": "The lone, highlighted electron on the outer ring in the model.",
+      "whyItMatters": "One valence electron is the whole reason the alkali metals react so violently.",
+      "relatedConcept": "alkali-metal-reactive",
+      "quizId": "alkali-q-valence"
+    },
+    {
+      "term": "Cation (Na⁺)",
+      "conceptId": "alkali-metal-one-valence-electron",
+      "definition": "A +1 positive ion formed when an alkali metal loses its one outer electron.",
+      "function": "Gives the metal a full stable shell and a positive charge it can use to bond.",
+      "whereItIs": "Formed in every alkali metal reaction — like sodium becoming Na⁺.",
+      "whyItMatters": "Sodium and potassium cations are essential to nerve signaling and batteries.",
+      "relatedConcept": "alkali-metal-reactive",
+      "quizId": "alkali-q-ion"
+    },
+    {
+      "term": "Group 1",
+      "conceptId": "alkali-metal-group-1",
+      "hotspotId": "hs-alkali-column",
+      "definition": "The first column of the periodic table, home to the alkali metals.",
+      "function": "Stacks the one-electron family together at the far left of the table.",
+      "whereItIs": "The glowing first column in the model's table section.",
+      "whyItMatters": "Every element in this column shares the same explosive temperament.",
+      "relatedConcept": "alkali-metal-one-valence-electron",
+      "quizId": "alkali-q-group"
+    }
+  ]
+}

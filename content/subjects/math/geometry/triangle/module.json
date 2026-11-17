@@ -1,0 +1,86 @@
+{
+  "id": "triangle",
+  "subject": "math",
+  "title": "Triangle",
+  "summary": "A triangle is a closed shape with three straight sides, three vertices, and three angles that always add to 180°. Explore triangle families, rigidity, and why it is the strongest shape.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "triangle-definition",
+    "triangle-180",
+    "triangle-types",
+    "triangle-rigid"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Shapes",
+    "systemOrGroup": "Polygons",
+    "component": "Triangle",
+    "displayPath": "Math > Geometry > Shapes > Polygons > Triangle"
+  },
+  "crossReferences": [
+    {
+      "label": "Angle (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Angle",
+      "note": "A triangle's three interior angles always add to 180°."
+    },
+    {
+      "label": "Segment (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Segment",
+      "note": "The three sides of a triangle are segments."
+    },
+    {
+      "label": "Area (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Area",
+      "note": "Area of a triangle is half base times height."
+    }
+  ],
+  "belongsTo": "Geometry > Shapes > Polygons",
+  "compareCandidate": {
+    "label": "Triangle vs. quadrilateral",
+    "description": "A triangle has three sides and is rigid; a quadrilateral has four sides and can flex like a gate — the triangle is the shape that cannot be pushed out of form."
+  },
+  "parts": [
+    "Three sides",
+    "Three vertices",
+    "Three angles"
+  ],
+  "processes": [
+    "Proving angles add to 180°",
+    "Sorting triangles by sides and angles"
+  ],
+  "plainLanguageExplanation": "A triangle is a closed shape made of three straight segments joined at three vertices. It has three sides, three corners, and three interior angles — and no matter what the triangle looks like, those angles always add up to exactly 180°. Triangles come in families: by sides — equilateral (all equal), isosceles (two equal), scalene (none equal); by angles — acute, right, obtuse. A triangle is also the only polygon that can't be pushed out of shape — it is rigid, which is why bridges and roofs use triangles everywhere.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Closed shape with 3 straight sides" },
+    { "label": "Vertices", "value": "3 corners" },
+    { "label": "Angles", "value": "Always add to 180°" },
+    { "label": "By sides", "value": "Equilateral, isosceles, scalene" },
+    { "label": "By angles", "value": "Acute, right, obtuse" },
+    { "label": "Rigid", "value": "Cannot be pushed out of shape" }
+  ],
+  "whyItMatters": "Triangles are the strongest and most common shape in engineering — roof trusses, bridge frames, bike frames, and cranes all use triangles because they refuse to flex. They are also the first shape students learn to measure and the foundation of all polygons.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Triangle",
+  "tagline": "The shape that can't bend",
+  "didYouKnow": "Because a triangle's three sides lock its angles, it is the only polygon that holds its shape under pressure — that is why the world's strongest structures are full of triangles.",
+  "conditions": [
+    "Building shapes",
+    "Measuring area",
+    "Roof and bridge design",
+    "Angle sums"
+  ],
+  "compareCandidateId": "quadrilateral",
+  "compareReason": "Students think all closed shapes behave alike — comparing the rigid triangle with the flexible quadrilateral shows the unique strength."
+}

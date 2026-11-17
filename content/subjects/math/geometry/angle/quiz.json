@@ -1,0 +1,80 @@
+{
+  "componentId": "angle",
+  "questions": [
+    {
+      "id": "angle-def",
+      "conceptId": "angle-definition",
+      "hotspotId": "hs-angle-arc",
+      "prompt": "What is an angle?",
+      "options": [
+        "The turn between two rays sharing an endpoint",
+        "A closed three-sided shape",
+        "A straight path with arrowheads",
+        "A dot at a location"
+      ],
+      "correctIndex": 0,
+      "explanation": "An angle is the amount of turn between two rays that share a vertex.",
+      "misconception": "A three-sided shape is a triangle, an endless path is a line, and a dot is a point — an angle is an open turn between rays."
+    },
+    {
+      "id": "angle-degrees",
+      "conceptId": "angle-degrees",
+      "hotspotId": "hs-angle-arc",
+      "prompt": "How many degrees are in a full turn around a point?",
+      "options": [
+        "360°",
+        "180°",
+        "90°",
+        "100°"
+      ],
+      "correctIndex": 0,
+      "explanation": "A full circle around a point measures 360 degrees.",
+      "misconception": "A half turn is 180° and a quarter turn is 90° — only the complete circle back to the start is 360°."
+    },
+    {
+      "id": "angle-types",
+      "conceptId": "angle-types",
+      "hotspotId": "hs-angle-arc",
+      "prompt": "An angle of 25° is...",
+      "options": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Angles smaller than 90° are acute; 25° is acute.",
+      "misconception": "Right means exactly 90°, and obtuse means bigger than 90° — any sharp turn under 90° is acute."
+    },
+    {
+      "id": "angle-measure",
+      "conceptId": "angle-measure",
+      "hotspotId": "hs-angle-arc",
+      "prompt": "What tool do you use to measure an angle?",
+      "options": [
+        "A protractor",
+        "A ruler",
+        "A scale",
+        "A tape measure"
+      ],
+      "correctIndex": 0,
+      "explanation": "A protractor reads the degrees between the two rays.",
+      "misconception": "A ruler measures straight lengths, not turns — angles need a protractor's half-circle scale."
+    },
+    {
+      "id": "angle-triangle",
+      "conceptId": "angle-measure",
+      "hotspotId": "hs-angle-arc",
+      "prompt": "The three angles of any triangle add up to...",
+      "options": [
+        "180°",
+        "360°",
+        "90°",
+        "60°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The three interior angles of a triangle always sum to 180°.",
+      "misconception": "A full turn is 360° and a single right angle is 90° — for a triangle the total is exactly 180°."
+    }
+  ]
+}

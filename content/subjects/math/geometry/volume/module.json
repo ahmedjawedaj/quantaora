@@ -1,0 +1,86 @@
+{
+  "id": "volume",
+  "subject": "math",
+  "title": "Volume",
+  "summary": "Volume measures how much space a 3D object fills — counted in cubic units. Explore rectangular prisms, why length × width × height works, and when volume appears in real life.",
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "skillIds": [
+    "volume-definition",
+    "volume-cubic-units",
+    "volume-prism",
+    "volume-real"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Measurement of solids",
+    "systemOrGroup": "Volume",
+    "component": "Volume",
+    "displayPath": "Math > Geometry > Measurement of solids > Volume > Volume"
+  },
+  "crossReferences": [
+    {
+      "label": "Area (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Area",
+      "note": "Area is the base surface; volume stacks area layers into depth."
+    },
+    {
+      "label": "Rectangle / Quadrilateral (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Quadrilateral",
+      "note": "A rectangular prism's base is a rectangle with area length × width."
+    },
+    {
+      "label": "Circle (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Circle",
+      "note": "Cylinders and spheres extend circles into 3D."
+    }
+  ],
+  "belongsTo": "Geometry > Measurement of solids > Volume",
+  "compareCandidate": {
+    "label": "Volume vs. area",
+    "description": "Area tiles a flat surface in square units; volume fills a solid in cubic units. Same object viewed flat vs. full."
+  },
+  "parts": [
+    "The base layer",
+    "The height",
+    "Cubic units"
+  ],
+  "processes": [
+    "Counting cubic units",
+    "Multiplying length × width × height"
+  ],
+  "plainLanguageExplanation": "Volume is how much space a 3D object takes up, measured in cubic units — little unit cubes that pack the solid. A rectangular prism is a box, and its volume is length × width × height. A box 4 long, 3 wide, and 2 tall holds 4 × 3 × 2 = 24 unit cubes. Think of it as the area of the base layer (length × width) multiplied by how many layers tall the box is (height). Volume answers 'how much water fits?', 'how much dirt fills this hole?', 'how much room is in this box?'",
+  "keyFacts": [
+    { "label": "Definition", "value": "Space a 3D object fills" },
+    { "label": "Units", "value": "Cubic units, like cm³ or m³" },
+    { "label": "Prism formula", "value": "Length × width × height" },
+    { "label": "Example", "value": "4 × 3 × 2 = 24 cubic units" },
+    { "label": "Think", "value": "Base area × layers of height" },
+    { "label": "Real use", "value": "Water, soil, packing boxes" }
+  ],
+  "whyItMatters": "Volume measures the space inside everything 3D — the water in a pool, the sand in a bucket, the air in a room. It is the measurement of capacity and fullness.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Volume",
+  "tagline": "Space inside a solid",
+  "didYouKnow": "The cubic unit you count — a 1-by-1-by-1 cube — is the 3D cousin of the square unit. Just as squares tile a surface, cubes pack a solid, filling three dimensions.",
+  "conditions": [
+    "Filling pools",
+    "Packing boxes",
+    "Measuring tanks",
+    "Buying soil"
+  ],
+  "compareCandidateId": "area",
+  "compareReason": "Students flatten 3D shapes in their minds — comparing the flat surface with the filled solid shows why cubic units take the extra dimension."
+}

@@ -1,0 +1,95 @@
+{
+  "componentId": "milky-way",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/galaxies/milky-way.scene.ts",
+  "thumbnailUrl": "src/features/model-viewer/thumbnails/space/galaxies/milky-way.png",
+  "cameraDefault": {
+    "position": [
+      7,
+      3.8,
+      8.5
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    {
+      "id": "disk",
+      "label": "Galactic disk",
+      "explanation": "The thin, spinning plane containing nearly all the galaxy's stars and gas — about 1,000 light-years thick."
+    },
+    {
+      "id": "bulge",
+      "label": "Central bulge",
+      "explanation": "The crowded, bright hub around the galactic center, full of older stars."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-central-bar",
+      "label": "Central bar",
+      "conceptId": "barred-spiral-structure",
+      "position": [
+        1.4,
+        0,
+        0.4
+      ],
+      "description": "A bright bar of stars across the hub — the feature that makes the Milky Way a barred spiral."
+    },
+    {
+      "id": "hs-spiral-arm",
+      "label": "Spiral arm — star factory",
+      "conceptId": "spiral-density-waves",
+      "position": [
+        3.2,
+        0,
+        1.6
+      ],
+      "description": "Density waves where gas piles up and ignites new stars — the blue, dusty winding arms you see in pictures."
+    },
+    {
+      "id": "hs-sun-position",
+      "label": "The Sun's position",
+      "conceptId": "sun-position-galaxy",
+      "position": [
+        2.3,
+        0,
+        1.1
+      ],
+      "description": "A small golden marker on a minor arm — about 26,000 light-years from the center."
+    },
+    {
+      "id": "hs-galactic-halo",
+      "label": "Galactic halo",
+      "conceptId": "galactic-disk-and-halo",
+      "position": [
+        -1.6,
+        3.2,
+        1.2
+      ],
+      "description": "A sparse sphere of old globular clusters around the disk — some of the oldest objects in the galaxy."
+    },
+    {
+      "id": "hs-galactic-center",
+      "label": "Galactic center",
+      "conceptId": "galactic-center-bulge",
+      "position": [
+        -0.4,
+        0,
+        0.2
+      ],
+      "description": "The bright hub, hiding the radio source Sgr A* — a supermassive black hole of ~4 million solar masses."
+    }
+  ],
+  "visualStyleNotes": "Angled barred-spiral pencil rendering: pale warm disk, golden bar, two blue-dusted arms, faint halo of small dots, all in the Anatomy Atelier clean-3D register — soft, not photorealistic. A toggle flips camera to an 'inside view' showing the band across the sky.",
+  "materialNotes": "Stars: instanced meshes, density fading with radius. Arms: additive glow with density wave texture. Bar: brighter warm white. Halo: sparse faint point sprites. Sgr A* hotspot: no disk rendered, just the label.",
+  "assetBrief": "Procedural Three.js scene: barred spiral with ~8k instanced star points, 2 arms, halo sphere of points, sun-position marker, inside-view toggle. Auto-rotate. Hotspots at listed positions.",
+  "visual": {
+    "shape": "galaxy-disk"
+  }
+}

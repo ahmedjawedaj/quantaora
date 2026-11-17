@@ -1,0 +1,90 @@
+{
+  "id": "volume",
+  "componentId": "volume",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/volume/volume.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/volume.png",
+  "defaultCamera": {
+    "position": [
+      1.2,
+      1.8,
+      3.2
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      1.2,
+      1.8,
+      3.2
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Box",
+    "Unit cubes",
+    "Base layer",
+    "Water fill"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-volume-box",
+      "label": "Box",
+      "conceptId": "volume-definition",
+      "position": [
+        0.2,
+        0.8,
+        0.1
+      ],
+      "description": "The rectangular prism whose interior space volume measures.",
+      "positionHint": "The clear box on the board.",
+      "color": "#D9A441",
+      "function": "The 3D object being filled."
+    },
+    {
+      "id": "hs-base-layer",
+      "label": "Base layer",
+      "conceptId": "volume-cubic-units",
+      "position": [
+        -0.4,
+        0.25,
+        0.2
+      ],
+      "description": "The bottom layer of unit cubes \u2014 length \u00d7 width, here 4 \u00d7 3 = 12.",
+      "positionHint": "The bottom slab of cubes.",
+      "color": "#7FA86A",
+      "function": "The area of the bottom layer."
+    },
+    {
+      "id": "hs-height-layer",
+      "label": "Height",
+      "conceptId": "volume-prism",
+      "position": [
+        0.8,
+        1.1,
+        0.2
+      ],
+      "description": "The third dimension that stacks layers \u2014 multiply the base by it.",
+      "positionHint": "The stack rising from the base layer.",
+      "color": "#6B85A8",
+      "function": "The number of layers tall."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A clear rectangular prism packed with visible unit cubes, a peelable front layer, and a tinted-water fill demo. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Box: clear warm-tinted glass look (transmission + roughness ~0.1, no metallic). Unit cubes: warm paper cubes with faint ink outlines (roughness ~0.5). Water fill: translucent warm-blue volume inside the box. Board: warm paper panel. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: volume as packing unit cubes \u2014 a clear rectangular prism (4\u00d73\u00d72) packed with visible unit cubes; peel front layer to reveal the base; extend the depth; fill with tinted water.\n\nGEOMETRY: A clear rectangular prism standing on a board, containing 4 \u00d7 3 \u00d7 2 = 24 small unit cubes with faint outlines. 'Peel' slides the front layer (the front 4\u00d73 slab) forward and down to reveal the 12-cube base layer; 'rebuild' restacks. A depth handle extends one horizontal dimension, re-laying cubes and updating a counter. 'Fill water' pours translucent tinted water to the brim of the prism, level with the top cubes, showing capacity = volume.\n\nLAYERS (toggleable): (1) board; (2) clear box shell; (3) unit cubes; (4) water fill.\n\nCAMERA: three-quarter from front-right, above eye level, frames the prism; labels legible. Budget 8-14k triangles. Named nodes: Board, BoxShell, UnitCubes, FrontLayer, BaseLayer, DepthHandle, WaterFill, CounterTag. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "volume-box"
+  }
+}

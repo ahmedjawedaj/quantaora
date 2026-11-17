@@ -1,0 +1,104 @@
+{
+  "id": "seed",
+  "componentId": "seed",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/plants/seed/seed.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/plants/seed.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Whole seed",
+    "Ghost broken open",
+    "Embryo",
+    "Stored food"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-seat",
+      "label": "Seed coat",
+      "conceptId": "seed-coat-protects",
+      "position": [
+        0,
+        0.2,
+        0.18
+      ],
+      "description": "The tough outer protective layer of the seed that shields the embryo and its food.",
+      "positionHint": "The outer shell layer of the broken-open seed.",
+      "color": "#B5846A",
+      "function": "Protects the baby plant and food inside."
+    },
+    {
+      "id": "hs-embryo",
+      "label": "Embryo",
+      "conceptId": "seed-embryo-baby-plant",
+      "position": [
+        0.15,
+        0.15,
+        0.2
+      ],
+      "description": "The tiny baby plant inside the seed that can grow into a new plant.",
+      "positionHint": "Small plant-shaped core tucked in the seed interior.",
+      "color": "#7FA874",
+      "function": "The new plant growing to become mature."
+    },
+    {
+      "id": "hs-food",
+      "label": "Stored food",
+      "conceptId": "seed-food-stored",
+      "position": [
+        -0.15,
+        0.1,
+        0.21
+      ],
+      "description": "Food stored around the embryo that gives the seedling its first energy.",
+      "positionHint": "The larger reserve volume filling most of the seed.",
+      "color": "#D9A441",
+      "function": "Feeds the seedling until it can make its own food."
+    },
+    {
+      "id": "hs-sprout",
+      "label": "Sprout",
+      "conceptId": "germination-sprouting",
+      "position": [
+        0,
+        -0.05,
+        0.22
+      ],
+      "description": "The young root and shoot that push out when the seed germinates.",
+      "positionHint": "Tiny green root and shoot emerging from the base of the seed.",
+      "color": "#7FA874",
+      "function": "The young parts that grow into root and stem."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. Clean stylized seed diorama - warm cream-browns and a hint of young green, not cartoon, not cluttered, no glow. Strong color reserved for the hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive.",
+  "assetBrief": "SUBJECT: a single seed cut open, showing a tough outer seed coat, a large stored-food interior, and a small plant-shaped embryo tucked inside, with a tiny green root and shoot emerging at germination. Warm cream-brown seed tones on pale background. Named nodes: SeedCoat, Embryo, StoredFood, Sprout. Budget 10-14k.",
+  "visual": {
+    "shape": "seed-sprout"
+  }
+}

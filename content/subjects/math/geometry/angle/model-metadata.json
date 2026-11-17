@@ -1,0 +1,90 @@
+{
+  "id": "angle",
+  "componentId": "angle",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/angle/angle.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/angle.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Board",
+    "Vertex",
+    "Ray sides",
+    "Angle arc + degree label"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-angle-arc",
+      "label": "The angle",
+      "conceptId": "angle-definition",
+      "position": [
+        0.4,
+        0.6,
+        0.1
+      ],
+      "description": "The arc marking the turn between the two rays \u2014 tagged with its degree measure.",
+      "positionHint": "The curved arc between the rays.",
+      "color": "#D9A441",
+      "function": "Shows the amount of turn."
+    },
+    {
+      "id": "hs-vertex",
+      "label": "Vertex V",
+      "conceptId": "angle-definition",
+      "position": [
+        -0.8,
+        0.2,
+        0.2
+      ],
+      "description": "The shared endpoint of the two rays.",
+      "positionHint": "The solid dot where the rays meet.",
+      "color": "#7FA86A",
+      "function": "The corner point of the angle."
+    },
+    {
+      "id": "hs-ray-side",
+      "label": "Ray side",
+      "conceptId": "angle-degrees",
+      "position": [
+        0.9,
+        0.35,
+        0.1
+      ],
+      "description": "One of the two ray sides of the angle \u2014 swingable around the vertex.",
+      "positionHint": "The stroke radiating from the vertex.",
+      "color": "#6B85A8",
+      "function": "One side of the angle."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A flat board with two rays from a vertex, a sweepable arc, a live degree label, and an optional protractor ring. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Board: warm paper panel (roughness ~0.5). Rays: thin warm-ink strips. Vertex: small solid warm-ink sphere. Angle arc: thin curved warm-ink strip. Degree label: small paper tag with ink text. Protractor ring (optional layer): translucent warm-grey disc with ink ticks. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: angles as the turn between two rays \u2014 a swingable ray opens and closes an angle from a fixed vertex; a live arc and degree label track the turn; a protractor ring can snap on for reading.\n\nGEOMETRY: A flat board with a vertex dot labeled V. One ray points fixed to the right; a second ray pivots around V as the learner drags it. A curved arc between the rays grows and shrinks with the swing, tagged by a degree label that updates live (0\u00b0\u2013360\u00b0). A 'show protractor' button snaps a translucent protractor ring around V with degree ticks. Clock presets (3:00, 2:00) set the rays to clock-hand positions.\n\nLAYERS (toggleable): (1) board; (2) vertex + rays; (3) angle arc + label; (4) protractor ring.\n\nCAMERA: three-quarter from above-front, frames the board; labels legible. Budget 5-9k triangles. Named nodes: Board, Vertex_V, RayFixed, RaySwing, AngleArc, DegreeLabel, ProtractorRing. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "angle-arc"
+  }
+}

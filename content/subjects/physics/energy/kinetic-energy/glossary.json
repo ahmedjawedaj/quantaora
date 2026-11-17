@@ -1,0 +1,46 @@
+{
+  "componentId": "kinetic-energy",
+  "terms": [
+    {
+      "term": "Kinetic energy",
+      "conceptId": "kinetic-energy-of-motion",
+      "hotspotId": "hs-energy-bar",
+      "definition": "The energy an object has because it is moving.",
+      "function": "Rises with motion; converted into potential or heat when the object slows.",
+      "whereItIs": "The energy bar beside the rolling cart.",
+      "whyItMatters": "Behind every crash, brake, and fast ball, it measures motion's power to do.",
+      "relatedConcept": "potential-energy",
+      "quizId": "ke-q-definition"
+    },
+    {
+      "term": "KE = ½mv²",
+      "conceptId": "kinetic-energy-ke-formula",
+      "hotspotId": "hs-energy-bar",
+      "definition": "The formula kinetic energy = half × mass × speed squared.",
+      "whyItMatters": "It explains why speed dominates energy and why fast things hit so hard.",
+      "whereItIs": "Implied by the sliders and the fill bar.",
+      "relatedConcept": "kinetic-energy-of-motion",
+      "quizId": "ke-q-formula"
+    },
+    {
+      "term": "Speed squared",
+      "conceptId": "kinetic-energy-squared-speed",
+      "hotspotId": "hs-speed-slider",
+      "definition": "The reason doubling speed produces four times the kinetic energy (2² = 4).",
+      "whyItMatters": "It is behind braking-distance rules and speed-limit rationale.",
+      "whereItIs": "The speed slider the bar reacts to.",
+      "relatedConcept": "kinetic-energy-ke-formula",
+      "quizId": "ke-q-squared"
+    },
+    {
+      "term": "Joule (J)",
+      "conceptId": "kinetic-energy-ke-formula",
+      "hotspotId": "hs-energy-bar",
+      "definition": "The SI unit of energy.",
+      "whyItMatters": "Every energy amount — kinetic, potential, electrical — is totaled in joules.",
+      "whereItIs": "Shown as the unit on the energy bar.",
+      "relatedConcept": "potential-energy",
+      "quizId": "ke-q-unit"
+    }
+  ]
+}

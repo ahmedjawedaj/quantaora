@@ -1,0 +1,101 @@
+{
+  "id": "kidneys",
+  "componentId": "kidneys",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/human-anatomy/kidneys/kidneys.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/kidneys.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Kidney organ",
+    "Nephrons",
+    "Ureter tube",
+    "Blood vessels"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-kidney-shape",
+      "label": "Kidney",
+      "conceptId": "kidney-cleans-blood",
+      "position": [
+        0.0,
+        0.15,
+        0.15
+      ],
+      "description": "The bean-shaped organ that filters the blood.",
+      "color": "#D98A6A",
+      "function": "Filters blood and makes urine.",
+      "positionHint": "The whole organ."
+    },
+    {
+      "id": "hs-nephron",
+      "label": "Nephrons",
+      "conceptId": "nephrons-filter-blood",
+      "position": [
+        0.25,
+        -0.05,
+        0.2
+      ],
+      "description": "Millions of tiny filtering units inside the kidney.",
+      "color": "#6B85A8",
+      "function": "Each nephron filters the blood.",
+      "positionHint": "Scattered through the kidney tissue."
+    },
+    {
+      "id": "hs-urine",
+      "label": "Urine (to bladder)",
+      "conceptId": "waste-to-urine",
+      "position": [
+        -0.35,
+        0.0,
+        0.25
+      ],
+      "description": "The tube carrying filtered waste to the bladder.",
+      "color": "#D9A441",
+      "function": "Carries the waste urine to the bladder.",
+      "positionHint": "Exiting the kidney on the inner side."
+    },
+    {
+      "id": "hs-clean",
+      "label": "Cleaned blood out",
+      "conceptId": "kidney-cleans-blood",
+      "position": [
+        0.3,
+        0.3,
+        0.1
+      ],
+      "description": "The blood vessel carrying filtered, cleaned blood back to the body.",
+      "color": "#B5846A",
+      "function": "Returns cleaned blood to circulation.",
+      "positionHint": "Leaving the kidney."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a kidney as a stylized-specimen study, opened in a clean coronal cutaway. Bean shape with a smooth outer surface, a cut revealing the inner zones (cortex, medulla) and a small pelvis region where the ureter exits. Tiny nephron structures suggested as delicate muted threads in the cut. A ureter tube leaves the inner edge; an artery and vein connect at the center. Warm paper palette, muted, no glow. Named nodes: KidneySurface, Cortex, Medulla, NephronThreads, RenalPelvis, Ureter, RenalArtery, RenalVein. Budget 20-28k."
+}

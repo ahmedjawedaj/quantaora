@@ -1,0 +1,118 @@
+{
+  "id": "mass",
+  "componentId": "mass",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/mass/mass.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/mass.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.6,
+      4.0
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.6,
+      4.0
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Balance scale with rock pile",
+    "Standard kilogram set",
+    "Location switcher (Earth / Moon)",
+    "kg readout plate"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-rock-pile",
+      "label": "Rock Pile",
+      "conceptId": "mass-amount-of-matter",
+      "position": [
+        -0.5,
+        0.35,
+        0
+      ],
+      "description": "The matter whose mass you measure — a pile of five grey rocks on the balance pan.",
+      "positionHint": "A heap of rocks on the left pan.",
+      "color": "#6B85A8",
+      "function": "Carries the matter being measured for its mass."
+    },
+    {
+      "id": "hs-balance-beam",
+      "label": "Balance Scale",
+      "conceptId": "mass-amount-of-matter",
+      "position": [
+        0,
+        0.9,
+        0
+      ],
+      "description": "The beam tips until both pans hold the same amount of matter — that's how it measures mass.",
+      "positionHint": "A wooden beam scale center-stage.",
+      "color": "#D9A441",
+      "function": "Compares amounts of matter to read mass fairly."
+    },
+    {
+      "id": "hs-kg-set",
+      "label": "Standard Kilograms",
+      "conceptId": "mass-kilogram",
+      "position": [
+        0.7,
+        0.35,
+        0
+      ],
+      "description": "Standard 1 kg masses used to balance the rock pile — their total is the rock mass.",
+      "positionHint": "Stacked labelled kilogram cubes on the right pan.",
+      "color": "#7FA86A",
+      "function": "Provides known masses to compare against."
+    },
+    {
+      "id": "hs-kg-readout",
+      "label": "kg Readout",
+      "conceptId": "mass-independent-of-location",
+      "position": [
+        0,
+        1.4,
+        0.4
+      ],
+      "description": "The mass plate that stays at the same kg number on Earth and on the Moon.",
+      "positionHint": "A floating plaque above the balance.",
+      "color": "#D96B5A",
+      "function": "Displays the mass in kilograms, location-independent."
+    },
+    {
+      "id": "hs-location-switch",
+      "label": "Location Switch",
+      "conceptId": "mass-vs-weight",
+      "position": [
+        1.2,
+        0.5,
+        0
+      ],
+      "description": "Drag Earth→Moon to move the whole scene; the kg readout never changes.",
+      "positionHint": "A slider with Earth and Moon icons on a post.",
+      "color": "#6B85A8",
+      "function": "Toggles location to test mass invariance."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper background, soft vignette, no floor grid. Wooden balance scale with grey rocks and green labelled kg cubes, a floating coral readout plaque, and a small Earth/Moon slider. Saturated color only on readout and switch. Neutral studio light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0. Beam/stand: warm oak (roughness ~0.55). Pans: brass-look but matte warm (roughness ~0.5). Rocks: grey-warm (roughness ~0.75). Kg cubes: matte green with ink '1 kg' faces. Readout: paper with ink digits.",
+  "assetBrief": "SUBJECT: mass as amount of matter measured by a balance, invariant across locations.\n\nGEOMETRY: balance scale centered (fulcrum at 0,0.55,0, beam length ~2.2, pans at ±0.55,0.3). Left pan holds a small rock pile; right pan holds removable 1 kg cubes. Plaque floats (0,1.4,0.4). Location slider post at (1.2,0.5,0) with two world backdrops switched by the app.\n\nINTERACTION: kg cubes are added/removed; beam pivots until level. Location switch swaps a ground disc from 'Earth' to 'Moon' hue and shows the readout holding constant.\n\nLAYERS: scale+rocks; kg set; location switch; readout.\n\nNAMED NODES: BalanceBase, BalanceBeam, LeftPan, RightPan, RockPile, KgCube1/2/3, ReadoutPlate, LocationSlider. 6-10k tris.",
+  "visual": {
+    "shape": "mass-balance"
+  }
+}

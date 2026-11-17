@@ -1,0 +1,80 @@
+{
+  "componentId": "outlier",
+  "questions": [
+    {
+      "id": "outlier-def",
+      "conceptId": "outlier-definition",
+      "hotspotId": "hs-outlier-dot",
+      "prompt": "What is an outlier?",
+      "options": [
+        "A data point far from the rest of the dataset",
+        "The largest point in the cluster",
+        "The middle point of the data",
+        "A missing data point"
+      ],
+      "correctIndex": 0,
+      "explanation": "An outlier is a point that sits unusually far from the other values.",
+      "misconception": "Neither the largest cluster member nor the middle — the outlier stands apart from the group by distance."
+    },
+    {
+      "id": "outlier-spot",
+      "conceptId": "outlier-spot",
+      "hotspotId": "hs-distance-gap",
+      "prompt": "How do you usually spot an outlier on a plot?",
+      "options": [
+        "It sits away from the cluster with a gap",
+        "It is the darkest-colored dot",
+        "It is at the graph's center",
+        "It has the most numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The lone point separated by an empty gap from the cluster is the outlier.",
+      "misconception": "Color, label, and position are not the signal — the visible empty distance is what marks the outlier."
+    },
+    {
+      "id": "outlier-mean",
+      "conceptId": "outlier-effect",
+      "hotspotId": "hs-outlier-dot",
+      "prompt": "A huge outlier added to a dataset will...",
+      "options": [
+        "Pull the mean upward",
+        "Leave the mean exactly the same",
+        "Lower the median",
+        "Erase the range"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding a huge value to the total raises the mean toward it.",
+      "misconception": "The mean uses every value including the outlier, so it must move toward it; the median is the statistic that mostly stays put."
+    },
+    {
+      "id": "outlier-range",
+      "conceptId": "outlier-effect",
+      "hotspotId": "hs-outlier-dot",
+      "prompt": "Which becomes the most extreme WHEN the outlier is present?",
+      "options": [
+        "The range — it stretches wide",
+        "The median — it jumps far",
+        "The total — it stays still",
+        "The count — it doubles"
+      ],
+      "correctIndex": 0,
+      "explanation": "The range is max − min, so a far point stretches it dramatically.",
+      "misconception": "The range only cares about the extremes — an outlier at an end blows it up, while the median ignores it."
+    },
+    {
+      "id": "outlier-decision",
+      "conceptId": "outlier-decision",
+      "hotspotId": "hs-outlier-dot",
+      "prompt": "When you find an outlier, the first thing to do is...",
+      "options": [
+        "Investigate what caused it",
+        "Delete it immediately",
+        "Round it to the cluster",
+        "Ignore it forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "Investigate first — it may be a real rare event or a recording error.",
+      "misconception": "Deleting or rounding without investigating can lose real information or leave an error distorting your data."
+    }
+  ]
+}

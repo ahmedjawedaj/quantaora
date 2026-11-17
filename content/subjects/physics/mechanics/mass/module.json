@@ -1,0 +1,89 @@
+{
+  "id": "mass",
+  "subject": "physics",
+  "title": "Mass",
+  "summary": "Mass is how much matter an object is made of — measured in kilograms, and it doesn't change no matter where you are. A 20 kg backpack is 20 kg on Earth, in space, or on Mars. Explore how mass is different from weight (which measures gravity's pull) and how a balance scale compares masses.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "mass-amount-of-matter",
+    "mass-kilogram",
+    "mass-independent-of-location",
+    "mass-vs-weight"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Forces",
+    "systemOrGroup": "Mass and Weight",
+    "component": "Mass",
+    "displayPath": "Physics > Mechanics > Forces > Mass and Weight > Mass"
+  },
+  "crossReferences": [
+    {
+      "label": "Weight (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Weight",
+      "note": "Weight is the gravitational force on the mass (w = mg), so mass is the thing that stays steady while weight varies with gravity."
+    },
+    {
+      "label": "Force (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Force",
+      "note": "Mass and force meet in Newton's second law — a bigger mass needs a bigger force to accelerate."
+    },
+    {
+      "label": "Gravity (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Gravity",
+      "note": "Mass is what gravity pulls on — the same mass pulled harder by a stronger gravity field becomes heavier."
+    }
+  ],
+  "belongsTo": "Mechanics > Forces > Mass and Weight",
+  "compareCandidate": {
+    "label": "Mass vs. weight",
+    "description": "Mass is the amount of matter (kg) and never changes; weight is the force of gravity on that mass (N) and changes with location — 100 kg stays 100 kg but weighs 160 N on the Moon."
+  },
+  "parts": [
+    "A set of rocks of different sizes",
+    "The balance scale pan",
+    "The reference kilogram masses",
+    "The location selector (Earth, Moon, space)"
+  ],
+  "processes": [
+    "Comparing amounts of matter with a balance",
+    "Reading mass in kilograms",
+    "Seeing mass stay constant as location changes",
+    "Separating mass from the force of weight"
+  ],
+  "plainLanguageExplanation": "Mass is simply how much stuff is there — how much matter an object contains. You measure it in kilograms (kg), and you measure it by comparing: a balance scale tips when the two sides don't hold the same amount of matter, so you shift standard kilogram weights until it balances. The deepest truth about mass is that it is a property of the object itself. Take a 20 kg rock to the top of a mountain, to the Moon, or float it in space — the rock still has 20 kg of matter; nothing left or arrived. What changes is not mass but weight, which is the gravitational pull the scale measures in newtons. On the Moon, gravity pulls the same 20 kg rock with only about 1/6 the force, so its weight drops to about 32 N even though it's still 20 kg. The model drives its point home with a movable scene: the balance holds 5 kg of rocks; drag the table from Earth to Moon and the balance reads the same 5 kg every time.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The amount of matter an object contains" },
+    { "label": "Unit", "value": "Kilogram (kg)" },
+    { "label": "Constant", "value": "Mass does not change no matter where you are" },
+    { "label": "Measured with", "value": "A balance, by comparing equal amounts of matter" },
+    { "label": "Not weight", "value": "Weight is gravity's pull (a force, N); mass is the stuff (kg)" },
+    { "label": "One kg feels like", "value": "About one liter of water" }
+  ],
+  "whyItMatters": "Mass is one of the most important properties an object has — gravity pulls on it and inertia resists changes to its motion. Builders, doctors, chemists, and athletes all read mass in kilograms, and rockets are designed around it. Getting mass clear solves the classic kg confusion kids face: 'how big' (mass) and 'how heavy' (weight) behave differently when you travel.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Mass",
+  "tagline": "How much stuff?",
+  "didYouKnow": "The 'standard kilogram' — the world's reference — was famously a metal cylinder kept in a vault in France. Even a tiny scratch on it changes the value of every other kilogram on Earth, which is why scientists redefined the kilogram in terms of a fundamental constant in 2019.",
+  "conditions": [
+    "Kitchen and bathroom scales",
+    "Souvenirs 'mass on Moon' exhibits",
+    "Sports equipment weights",
+    "Recipe measurements"
+  ],
+  "compareCandidateId": "weight",
+  "compareReason": "Two quantities that look the same but are profoundly different — the balance that stays at 5 kg on Earth and on the Moon is the fastest mind-changer."
+}

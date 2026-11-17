@@ -1,0 +1,48 @@
+{
+  "componentId": "chloroplast",
+  "terms": [
+    {
+      "term": "Chloroplast",
+      "conceptId": "photosynthesis-sugar-making",
+      "hotspotId": "hs-membrane",
+      "definition": "The green organelle where plants make sugar from sunlight - the site of photosynthesis.",
+      "function": "Captures light energy and builds sugar from water and carbon dioxide.",
+      "whereItIs": "In plant cells and some algae.",
+      "whyItMatters": "It is where plants produce their own food - and the oxygen we breathe.",
+      "relatedConcept": "chlorophyll-captures-light",
+      "quizId": "chl-q-job"
+    },
+    {
+      "term": "Chlorophyll",
+      "conceptId": "chlorophyll-captures-light",
+      "hotspotId": "hs-chloro",
+      "definition": "The green pigment in chloroplasts that captures energy from sunlight.",
+      "function": "Absorbs light energy to drive photosynthesis.",
+      "whereItIs": "In the thylakoid membranes of the chloroplast.",
+      "whyItMatters": "It is the pigment that makes leaves green and starts the food-making process.",
+      "relatedConcept": "thylakoids-grana",
+      "quizId": "chl-q-green"
+    },
+    {
+      "term": "Thylakoid (grana)",
+      "conceptId": "thylakoids-grana",
+      "hotspotId": "hs-grana",
+      "definition": "A flat membrane disc in the chloroplast; stacks of them are called grana.",
+      "function": "Provide a large surface where light energy is captured.",
+      "whereItIs": "Stacked inside the chloroplast.",
+      "whyItMatters": "They are the solar panels within the chloroplast.",
+      "relatedConcept": "chlorophyll-captures-light",
+      "quizId": "chl-q-grana"
+    },
+    {
+      "term": "Stroma",
+      "conceptId": "photosynthesis-sugar-making",
+      "hotspotId": "hs-stroma",
+      "definition": "The fluid space inside the chloroplast around the grana.",
+      "function": "Where carbon dioxide is built into sugar.",
+      "whereItIs": "Filling the chloroplast around the stacks.",
+      "whyItMatters": "The final sugar-making steps happen here.",
+      "relatedConcept": "thylakoids-grana"
+    }
+  ]
+}

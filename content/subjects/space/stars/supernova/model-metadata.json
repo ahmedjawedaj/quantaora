@@ -1,0 +1,95 @@
+{
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/stars/supernova.scene.ts",
+  "thumbnailUrl": "src/features/model-viewer/thumbnails/space/stars/supernova.png",
+  "cameraDefault": {
+    "position": [
+      6,
+      2.6,
+      7
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    {
+      "id": "onion-shells",
+      "label": "Onion-shell structure",
+      "explanation": "The star's fused layers, arranged like an onion: hydrogen outer shell, then heavier and heavier elements inward, ending in the iron core at the center."
+    },
+    {
+      "id": "blast-shell",
+      "label": "Expanding blast shell",
+      "explanation": "The envelope flying outward after the shock breaks through — the supernova remnant, glowing as it cools."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-iron-core",
+      "label": "Iron core — the fuse",
+      "conceptId": "core-collapse-trigger",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "description": "The center of the massive star where fusion builds iron — the one fuel that takes energy to fuse, so nothing can hold the core up anymore."
+    },
+    {
+      "id": "hs-collapsing-envelope",
+      "label": "Infalling envelope",
+      "conceptId": "core-collapse-trigger",
+      "position": [
+        1.8,
+        0.2,
+        1
+      ],
+      "description": "With no fusion energy left to hold them, the star's outer layers fall inward at a good fraction of light speed."
+    },
+    {
+      "id": "hs-shockwave",
+      "label": "Rebound shockwave",
+      "conceptId": "rebound-shock-wave",
+      "position": [
+        3.1,
+        0.3,
+        2.4
+      ],
+      "description": "The compressed core bounces back like a spring, sending a shock wave outward that shreds the star apart in one brilliant blow."
+    },
+    {
+      "id": "hs-remnant-shell",
+      "label": "Expanding remnant shell",
+      "conceptId": "visible-months-outburst",
+      "position": [
+        2.6,
+        1.1,
+        1.3
+      ],
+      "description": "The supernova remnant — hot expanding gas and freshly forged heavy elements that will seed the next generation of stars."
+    },
+    {
+      "id": "hs-element-forge",
+      "label": "Element forge",
+      "conceptId": "elements-forged-in-explosion",
+      "position": [
+        4.2,
+        0.5,
+        2.8
+      ],
+      "description": "Blast heat and speed build the heaviest elements — gold, silver, uranium, the very atoms of your body."
+    }
+  ],
+  "visualStyleNotes": "Timeline-driven scene (no auto-rotate; user drags the Play slider). Onion-shell star with a faint iron-gray core; blast goes off in a cool blue-white shell, then a warm violet remnant cloud expands. Anatomy Atelier warm whites and soft beams throughout, nothing stark.",
+  "materialNotes": "Star envelopes: translucent tinted shells (white, gold, cold blue); core: dark umber with violet rim. Shockwave ring: bright cyan wire-rim. Remnant cloud: translucent violet, soft noise texture, no opacity modulation over time.",
+  "assetBrief": "Procedural Three.js scene on a timeline controlled by a slider: onion-layered star (5 shells), collapse (shells descend inward), bounce ring emission, expanding remnant sphere. Element counter in the UI counts gold/silver/uranium. Hotspot beads (~0.16) present on all listed ids.",
+  "componentId": "supernova",
+  "visual": {
+    "shape": "supernova-burst"
+  }
+}

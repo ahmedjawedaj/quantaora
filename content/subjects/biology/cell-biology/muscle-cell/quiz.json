@@ -1,0 +1,53 @@
+{
+  "componentId": "muscle-cell",
+  "questions": [
+    {
+      "prompt": "What actually happens inside a myofibril when a muscle cell contracts?",
+      "options": [
+        "The actin and myosin filaments slide past each other, increasing their overlap",
+        "The actin and myosin filaments shrink and become physically shorter",
+        "The mitochondria shrink to make room for the cell to compress",
+        "The nucleus divides to create more space inside the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Contraction is the sliding-filament mechanism: myosin heads grab actin and pull it inward, so the filaments slide over each other and overlap more, shortening the whole unit — without either filament changing length.",
+      "misconception": "It's easy to picture contraction like squeezing a sponge, where the material itself shrinks. But the filaments are rigid structures; it's their position relative to each other that changes, not their size."
+    },
+    {
+      "prompt": "Why do muscle cells contain an unusually large number of mitochondria?",
+      "options": [
+        "Contraction requires a constant, large supply of ATP for energy",
+        "Mitochondria store the calcium needed to trigger contraction",
+        "Mitochondria physically pull the actin and myosin filaments together",
+        "More mitochondria make the cell membrane stronger"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sliding filaments and pumping calcium back out after each contraction both cost ATP. Muscle cells burn energy constantly, so they're packed with mitochondria to keep the ATP supply flowing.",
+      "misconception": "Students sometimes assume mitochondria play a direct mechanical role in contraction (like being part of the filament machinery), but their job is purely to supply energy — calcium storage is the sarcoplasmic reticulum's job, and the pulling is done by myosin."
+    },
+    {
+      "prompt": "What role does the sarcoplasmic reticulum play in contraction?",
+      "options": [
+        "It stores calcium and releases it to trigger the filaments to grip and pull",
+        "It generates the ATP that powers the contraction",
+        "It carries the electrical nerve signal into the cell",
+        "It is the outer membrane that separates the cell from its surroundings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sarcoplasmic reticulum is an internal calcium reservoir. When the signal to contract arrives, it releases a burst of calcium that exposes the binding sites on actin, letting myosin latch on and pull.",
+      "misconception": "It's often confused with the sarcolemma because the names sound alike — but the sarcolemma is the outer cell membrane that receives the nerve signal, while the sarcoplasmic reticulum is an internal structure that responds to that signal by releasing calcium."
+    },
+    {
+      "prompt": "Why is it unusual, compared to most cells in the body, for a skeletal muscle cell to have many nuclei?",
+      "options": [
+        "It's an adaptation to run a very large, long cell that needs to make lots of protein everywhere along its length",
+        "It's a sign the cell is diseased or dividing uncontrollably",
+        "Each nucleus controls a different, unrelated skeletal muscle cell",
+        "It only happens in cardiac muscle cells, never in skeletal muscle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skeletal muscle cells can be very long (sometimes running the length of a whole muscle), and one nucleus can't efficiently manage protein production over that entire distance. Having many nuclei spread throughout the cell lets it support its own size.",
+      "misconception": "Multiple nuclei can look alarming, like a sign of abnormal cell division (as it would be in most other cell types), but in skeletal muscle it's a normal, healthy adaptation to the cell's unusual length and workload — and it's specifically a feature of skeletal muscle, not all muscle types."
+    }
+  ]
+}

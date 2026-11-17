@@ -1,0 +1,80 @@
+{
+  "componentId": "percent",
+  "questions": [
+    {
+      "id": "percent-meaning",
+      "conceptId": "percent-out-of-100",
+      "hotspotId": "hs-grid-percent",
+      "prompt": "What does 35% mean?",
+      "options": [
+        "35 out of every 100",
+        "35 out of every 10",
+        "35 wholes",
+        "35 out of every 1000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Percent means out of 100, so 35% is 35 out of every hundred.",
+      "misconception": "Percent always compares to exactly 100, not 10 or 1000 — that fixed scale is what makes it useful."
+    },
+    {
+      "id": "percent-fraction",
+      "conceptId": "percent-fraction-decimal",
+      "hotspotId": "hs-fraction-card",
+      "prompt": "How do you write 25% as a fraction?",
+      "options": [
+        "25/100",
+        "100/25",
+        "25/10",
+        "2.5/100"
+      ],
+      "correctIndex": 0,
+      "explanation": "Percent means out of 100, so 25% = 25/100, which simplifies to 1/4.",
+      "misconception": "The 'out of 100' goes in the denominator; reversing to 100/25 or using 10 confuses the scale."
+    },
+    {
+      "id": "percent-decimal",
+      "conceptId": "percent-fraction-decimal",
+      "hotspotId": "hs-decimal-card",
+      "prompt": "How do you write 40% as a decimal?",
+      "options": [
+        "0.40",
+        "0.04",
+        "4.0",
+        "40.0"
+      ],
+      "correctIndex": 0,
+      "explanation": "40% = 40/100 = 0.40.",
+      "misconception": "0.04 would be 4% and 4.0 would be 400% — dividing by 100 moves the decimal two places to 0.40."
+    },
+    {
+      "id": "percent-of-number",
+      "conceptId": "percent-real-world",
+      "hotspotId": "hs-grid-percent",
+      "prompt": "What is 25% of 80?",
+      "options": [
+        "20",
+        "25",
+        "40",
+        "80"
+      ],
+      "correctIndex": 0,
+      "explanation": "25% of 80 = 0.25 × 80 = 20.",
+      "misconception": "25% of 80 is not 25 — you must multiply the percent (as a decimal) by the number: 0.25 × 80 = 20."
+    },
+    {
+      "id": "percent-whole",
+      "conceptId": "percent-out-of-100",
+      "hotspotId": "hs-grid-percent",
+      "prompt": "What percent represents a whole?",
+      "options": [
+        "100%",
+        "50%",
+        "0%",
+        "10%"
+      ],
+      "correctIndex": 0,
+      "explanation": "100% means all 100 of every 100, so it is the whole amount.",
+      "misconception": "Only 100% (100 out of 100) is the entire whole; any smaller percent leaves part out."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "bones",
+  "questions": [
+    {
+      "id": "b-q-count",
+      "conceptId": "bones-support-protect",
+      "hotspotId": "hs-bone-hard",
+      "prompt": "About how many bones are in an adult human skeleton?",
+      "options": [
+        "About 206",
+        "About 20",
+        "About 1,000",
+        "About 12"
+      ],
+      "correctIndex": 0,
+      "explanation": "An adult skeleton has about 206 bones (babies have more that fuse as they grow).",
+      "misconception": "206 is the adult count - babies have around 300 smaller bones that fuse together."
+    },
+    {
+      "id": "b-q-material",
+      "conceptId": "calcium-and-collagen",
+      "hotspotId": "hs-calcium",
+      "prompt": "What makes bone both hard and slightly flexible?",
+      "options": [
+        "A mix of minerals like calcium and flexible protein like collagen",
+        "Only metal",
+        "Only water",
+        "Only fat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bone combines hard calcium minerals with flexible collagen protein, giving it strength without brittleness.",
+      "misconception": "Bone is not one uniform material - the mineral+protein mix is what makes it strong and slightly bendy."
+    },
+    {
+      "id": "b-q-marrow",
+      "conceptId": "marrow-makes-blood",
+      "hotspotId": "hs-bone-marrow",
+      "prompt": "What does bone marrow make?",
+      "options": [
+        "Blood cells",
+        "Urine",
+        "Bile",
+        "Sweat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bone marrow, the soft tissue inside bones, produces red and white blood cells.",
+      "misconception": "Bile comes from the liver and urine from the kidneys - the marrow inside bones makes blood cells."
+    },
+    {
+      "id": "b-q-jobs",
+      "conceptId": "bones-support-protect",
+      "hotspotId": "hs-joint",
+      "prompt": "Which is a job bones perform?",
+      "options": [
+        "Protect organs like the brain and heart",
+        "Digest food",
+        "Filter air",
+        "Make saliva"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bones protect soft organs - the skull protects the brain and the ribs protect the heart and lungs.",
+      "misconception": "Digesting, filtering air, and making saliva are other organs' jobs - bones are for support and protection."
+    },
+    {
+      "id": "b-q-alive",
+      "conceptId": "bones-grow-repair",
+      "hotspotId": "hs-bone-hard",
+      "prompt": "Are bones living structures?",
+      "options": [
+        "Yes - they grow, repair, and store calcium",
+        "No - they are completely dead",
+        "Only when broken",
+        "Only in children"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bones are living tissue: they grow as you grow, heal after breaks, and store calcium for the body.",
+      "misconception": "Bones are far from dead - they constantly rebuild and repair themselves throughout life."
+    }
+  ]
+}

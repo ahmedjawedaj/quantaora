@@ -1,0 +1,109 @@
+{
+  "id": "group",
+  "subject": "chemistry",
+  "title": "Group",
+  "summary": "A group is a vertical column of the periodic table — elements that share the same number of valence electrons and therefore behave alike. Explore how columns group similar elements and why that similarity exists.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "group-is-column",
+    "group-shares-valence-electrons",
+    "group-elements-behave-alike"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "How the table is arranged",
+    "component": "Group",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > How the table is arranged > Group"
+  },
+  "crossReferences": [
+    {
+      "label": "Period (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Period",
+      "note": "Groups are the columns of the table; periods are the rows. Columns group by valence electrons, rows count the shells."
+    },
+    {
+      "label": "Valence electron (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Valence electron",
+      "note": "The reason elements in a group behave alike is that they share the same number of valence electrons."
+    },
+    {
+      "label": "Alkali metal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Alkali metal",
+      "note": "Group 1 is the alkali metals — one famous example of a group whose members behave very similarly."
+    },
+    {
+      "label": "Noble gas (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Noble gas",
+      "note": "Group 18 is the noble gases — a group famous for being the opposite of reactive, all sharing full outer shells."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > How the table is arranged",
+  "compareCandidate": {
+    "label": "Group vs. period",
+    "description": "A group is a vertical column — elements stacked above and below each other that share valence electrons and behave alike. A period is a horizontal row — elements side by side that share the same number of electron shells. Columns share behavior; rows share shell count."
+  },
+  "parts": [
+    "Vertical column",
+    "Shared valence electron count",
+    "Similar chemical behavior"
+  ],
+  "processes": [
+    "Grouping similar elements vertically",
+    "Predicting behavior from a group number",
+    "Connecting group position to valence electrons"
+  ],
+  "plainLanguageExplanation": "A group is a vertical column of the periodic table. The elements in a column — one above another — are called a group, and they are grouped together for a very good reason: they behave alike. The members of a group share the same number of valence electrons, which is the number of electrons in their outermost shell. Since valence electrons decide how atoms bond and react, elements with the same count act in similar ways. For example, Group 1 (the alkali metals) all have one valence electron, and they are all soft, shiny, and famously reactive. Group 18 (the noble gases) all have full outer shells, and they are all famously unreactive. Because of this, the group number is one of the most useful predictions in chemistry: find an element's column and you already know a lot about how it will behave. Columns are numbered 1 through 18 across the table (older tables also use labels like IA, IIA...).",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A vertical column of the periodic table"
+    },
+    {
+      "label": "Shared trait",
+      "value": "Elements in a group have the same number of valence electrons"
+    },
+    {
+      "label": "Behavior",
+      "value": "Elements in the same group react and bond in similar ways"
+    },
+    {
+      "label": "Group 1",
+      "value": "Alkali metals — one valence electron each, very reactive"
+    },
+    {
+      "label": "Group 18",
+      "value": "Noble gases — full outer shells, very unreactive"
+    },
+    {
+      "label": "Count",
+      "value": "There are 18 groups (columns) across the periodic table"
+    }
+  ],
+  "whyItMatters": "The group is the periodic table's built-in crystal ball. Because column-mates share valence electrons and behavior, knowing an element's group lets you predict how reactive it is, what kinds of bonds it forms, and even what compounds it is likely to make — without ever having touched the element.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Group (periodic table column)",
+  "tagline": "The table's columns of lookalikes",
+  "didYouKnow": "Because elements in the same group act alike, chemists can predict a brand-new element's behavior from its column before they have even created a sample of it.",
+  "conditions": [
+    "Reactivity prediction",
+    "Valence electrons",
+    "Element families"
+  ],
+  "compareCandidateId": "period",
+  "compareReason": "Groups (columns) and periods (rows) are the two directions the table is organized by — comparing them shows that columns group behavior while rows count shells."
+}

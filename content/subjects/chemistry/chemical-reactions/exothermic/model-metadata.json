@@ -1,0 +1,89 @@
+{
+  "id": "exothermic",
+  "componentId": "exothermic",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/chemical-reactions/exothermic/exothermic.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/chemical-reactions/exothermic.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.0
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Campfire scene",
+    "Energy out",
+    "Energy levels"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-exothermic-flame",
+      "label": "Releasing reaction",
+      "conceptId": "exothermic-releases-energy",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "description": "The burning log is an exothermic reaction — the wood's reactants release energy as heat and flame.",
+      "positionHint": "The campfire with its flame in the center.",
+      "color": "#D96B5A",
+      "function": "Shows a reaction releasing energy as fire."
+    },
+    {
+      "id": "hs-exothermic-energy",
+      "label": "Energy escaping outward",
+      "conceptId": "exothermic-energy-to-surroundings",
+      "position": [
+        0.95,
+        0.5,
+        0
+      ],
+      "description": "When the energy-out layer is on, glowing waves stream from the reaction into the surroundings — the released heat and light.",
+      "positionHint": "The radiating glow waves leaving the fire.",
+      "color": "#D9A441",
+      "function": "Shows energy flowing out to the surroundings."
+    },
+    {
+      "id": "hs-exothermic-levels",
+      "label": "Energy drop",
+      "conceptId": "exothermic-releases-energy",
+      "position": [
+        0,
+        -0.85,
+        0
+      ],
+      "description": "The energy-levels layer shows the reactants' energy high and the products' low — the difference between them is what the reaction releases.",
+      "positionHint": "The tall and short energy bars with the gap between them.",
+      "color": "#7FA86A",
+      "function": "Shows the energy drop from reactants to products."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A small stylized campfire floats centered, lit with soft neutral studio light — no bloom, no emissive in the asset itself (the flame glow is app-runtime). Clean stylized product-render look, specimen-quality not cartoon. Log: soft warm-brown rounded cylinder; flame: soft amber/teal stylized shape; sparks: small teal dots. Strong saturated color is reserved for the small flat hotspot dots (coral / amber / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Log: soft warm-brown matte, roughness ~0.6. Flame shape: soft translucent amber, alpha ~0.5, roughness ~0.5. Sparks: small teal dots. No emissive channels anywhere — the flame glow and energy waves are app runtime effects, not baked in.",
+  "assetBrief": "SUBJECT: a campfire as an exothermic reaction, built to be read as 'the reaction releases energy into its surroundings.' Three procedural layers, all clean primitives:\n\n1) MAIN: a small stylized campfire — one soft warm-brown rounded log (cylinder, radius ~0.45, length ~1.4) lying at center, a soft translucent amber flame shape (a few layered teardrop cones, alpha ~0.5) rising from it, and a few small teal spark dots floating up. Reactant molecule glyphs (app-rendered) hover faintly above.\n\n2) ENERGY OUT (toggleable layer): soft concentric glow rings and wave arcs radiate outward from the flame (app-rendered), with small teal spark dots streaming outward — the released heat and light made visible.\n\n3) ENERGY LEVELS (toggleable layer): two simple energy bars float beside the scene (app-rendered) — a TALL warm-orange bar labeled 'reactants' and a SHORT cool-gray bar labeled 'products,' with a soft glow band between them showing the released difference.\n\nCamera: framed so the fire fills the center with negative space; auto-rotate default. Budget 5-9k triangles. Named nodes: FireLog, FlameCore, FlameLayers, Sparks, ReactantGlyphs, EnergyWaves, ReactantBar, ProductBar, ReleasedBand. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "exothermic-out"
+  }
+}

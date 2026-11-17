@@ -1,0 +1,121 @@
+{
+  "id": "nerve-signaling",
+  "componentId": "nerve-signaling",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/models/biology/authored/physiology-nerve-signaling-neuron.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/nerve-signaling.png",
+  "defaultCamera": {
+    "position": [
+      0.2,
+      1.1,
+      6.2
+    ],
+    "target": [
+      0.2,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.2,
+      1.1,
+      6.2
+    ],
+    "target": [
+      0.2,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": true,
+  "layers": [
+    "presynaptic-neuron",
+    "myelin-sheath",
+    "axon-cross-section",
+    "synaptic-vesicles",
+    "postsynaptic-neuron",
+    "effector-tissue",
+    "impulse-pulse-animation"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-1",
+      "label": "Stimulus Received",
+      "conceptId": "stimulus-received",
+      "position": [
+        -2.9,
+        0.75,
+        0.05
+      ],
+      "description": "Dendrites of the presynaptic neuron detect an incoming signal (chemical, mechanical, or electrical) and depolarize the membrane at the receiving end.",
+      "positionHint": "On the dendrite arbor tips at the far left of the presynaptic neuron, where 3-4 branching dendrites converge toward the soma, roughly at [-2.9, 0.75, 0.05].",
+      "color": "#8FA98C",
+      "function": "Detects an incoming stimulus and depolarizes the receiving membrane to start the signal."
+    },
+    {
+      "id": "hs-2",
+      "label": "Electrical Impulse Travels Axon",
+      "conceptId": "electrical-impulse-travels-axon",
+      "position": [
+        -0.4,
+        -0.05,
+        0
+      ],
+      "description": "The action potential propagates rapidly down the myelinated axon, jumping between the exposed nodes of Ranvier (saltatory conduction).",
+      "positionHint": "Mid-shaft of the axon, centered on one of the visible gaps (nodes of Ranvier) between myelin sheath segments, roughly 1/3 to 1/2 way along the axon's length, near [-0.4, -0.05, 0].",
+      "color": "#D97B5A",
+      "function": "Propagates the action potential rapidly down the axon, jumping between nodes of Ranvier."
+    },
+    {
+      "id": "hs-3",
+      "label": "Neurotransmitter Release at Synapse",
+      "conceptId": "neurotransmitter-release-at-synapse",
+      "position": [
+        0.95,
+        0.05,
+        0.05
+      ],
+      "description": "At the axon terminal boutons, the impulse triggers synaptic vesicles to fuse with the membrane and release neurotransmitter molecules into the synaptic cleft.",
+      "positionHint": "On one of the 3-4 bulbous axon terminal boutons at the right end of the presynaptic neuron, just before the small gap (synaptic cleft), roughly at [0.95, 0.05, 0.05].",
+      "color": "#D9A441",
+      "function": "Releases neurotransmitter molecules into the synaptic cleft when the impulse arrives."
+    },
+    {
+      "id": "hs-4",
+      "label": "Signal Received by Next Neuron",
+      "conceptId": "signal-received-by-next-neuron",
+      "position": [
+        1.25,
+        0.05,
+        -0.05
+      ],
+      "description": "Neurotransmitter molecules cross the synaptic cleft and bind receptors on the postsynaptic neuron's dendrite, triggering a new electrical signal in that cell.",
+      "positionHint": "On the receiving dendrite/soma surface of the postsynaptic neuron, directly across the synaptic gap from the presynaptic terminal boutons, roughly at [1.25, 0.05, -0.05].",
+      "color": "#A8B89E",
+      "function": "Binds neurotransmitter receptors, restarting an electrical signal in the next neuron."
+    },
+    {
+      "id": "hs-5",
+      "label": "Response Triggered",
+      "conceptId": "response-triggered",
+      "position": [
+        3,
+        -0.05,
+        0
+      ],
+      "description": "The signal continues downstream to an effector (muscle or gland), producing a physical response such as contraction or secretion.",
+      "positionHint": "On the small stylized effector-tissue block positioned downstream/right of the postsynaptic neuron's axon terminus, roughly at [3.0, -0.05, 0], representing the end organ.",
+      "color": "#B8886A",
+      "function": "Delivers the signal to an effector, producing a physical response like contraction or secretion."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier language throughout: warm off-white studio background (#F6F2EA range), soft single-source ambient/area lighting with gentle contact shadows, no bloom/glow/emissive shaders, no neon or sci-fi color grading. Matte, slightly soft (non-glossy) PBR materials — think warm ceramic/paper finish, not clinical/glossy medical-illustration plastic. Palette is intentionally near-monochrome for the neuron structures themselves, per the reference's restraint: the presynaptic neuron, postsynaptic neuron, myelin sheath, and axon terminal boutons all share one warm sage-cream tonal family (2-3 closely related warm-neutral shades — muted sage-green membrane, warmer ivory-cream myelin, slightly deeper warm-gold boutons/vesicles) distinguished by value and roughness rather than by separate hues. The one genuinely distinct accent hue — a muted terracotta/coral — is reserved exclusively for the traveling electrical impulse and the hotspot marker system, so the eye reads the signal and interaction layer as the 'active' element against a calm, tonally unified specimen. Synaptic-cleft neurotransmitters render as tiny warm-gold dots (from the same boutons hue) rather than a particle-effect glow. Hotspot markers are small flat solid-color circles (~8-10px) in the terracotta accent with a thin off-white outline, subtle drop shadow only, no pulsing glow rings; clicking opens a soft tactile rounded card (warm off-white, soft shadow, generous padding) matching the reference's structure-card style. Documented, intentional exception to Anatomy Atelier's usual single-specimen framing: because Nerve Signaling is a process-type component (spec §6, not a static structure), it composes two partial neurons plus an effector left-to-right in one frame to narrate signal flow across cells — a single-specimen shot cannot show a hand-off. The reduced, near-monochrome palette above is what keeps this multi-element composition from reading as a busy diagram; if a future audit finds the narrative layout still reads as cluttered, the fix is tighter spacing/typography, not additional color-coding per part. Composition remains calm and legible at a glance: presynaptic neuron enters from the left, synapse in the center, postsynaptic neuron and effector tissue exit right — read left-to-right like a diagram, not a cluttered scientific plate. Absolutely avoid: cartoon faces/eyes on cells, hyper-detailed textbook red/blue neon axon diagrams, thick outlines/comic style, particle/spark VFX, or busy multi-color gradients.",
+  "materialNotes": "3-4 material slots max, all drawn from the same warm-neutral family with the impulse/hotspot system as the sole accent: (a) neuron membrane (presynaptic and postsynaptic) — matte muted sage-green, subtle soft PBR sheen (roughness ~0.5-0.65, low non-zero specular), no metallic, no subsurface-scatter theatrics; (b) myelin sheath — warm ivory/cream, slightly smoother/lighter value than the bare membrane so segments read distinctly against the axon gaps, same tonal family as (a) just shifted lighter; (c) synaptic vesicles/boutons/terminal — warm gold/mustard, matte, a natural deeper step in the same warm-neutral ramp; (d) effector tissue — a fourth closely-related warm neutral (dusty clay), not an unrelated hue, sculpted and finished to the same fidelity as the neurons (organic, slightly irregular surfaces — not a lower-detail placeholder shape, even though its geometry is simpler). The impulse-pulse animation and hotspot markers alone use the muted terracotta/coral accent; nothing else in the scene uses it, keeping the accent legible as 'this is the active signal.' No metallic, no glass/transmission shaders, no emissive maps anywhere, including on the pulse — its visibility comes from value/saturation contrast against the neutral cast, not an emissive glow.",
+  "assetBrief": "SUBJECT: A single presynaptic neuron in a chemical synapse with a partial postsynaptic neuron and a small stylized effector-tissue block, arranged left-to-right along the X-axis to visually narrate the 5-step signaling process (stimulus -> conduction -> release -> reception -> response). This left-to-right, multi-cell narrative composition is an intentional, documented departure from Anatomy Atelier's usual single-specimen realistic-tissue-tone framing — see visualStyleNotes for the rationale (process components need to show a hand-off across cells, which a single specimen shot cannot do) and for how the near-monochrome palette below keeps that departure from reading as a busy diagram.\n\nSCALE & COMPOSITION (scene units, 1 unit ≈ 1 \"conceptual\" meter, model does not need real micron accuracy, prioritize legibility): total scene spans roughly 6.4 units along X, from x=-3.0 to x=+3.4. From left to right:\n1. Presynaptic neuron dendrite arbor: 3-4 tapering branches (cylinder-taper primitives merged/sculpted, NOT hard-edged cones) converging into the soma, occupying x = -3.0 to -1.6, spreading roughly y = -0.2 to 1.3 (matching the dendrite-crown proportions used in the Cell Biology neuron model).\n2. Soma (cell body): a smooth, slightly irregular ellipsoid (organic, not a perfect sphere — subtle asymmetry reads as \"cell-like\"), roughly 0.5 units diameter, centered around x = -1.5.\n3. Axon: a single long tapered tube, diameter ~0.08-0.12 units, running from soma (x=-1.3) to terminal boutons (x=+0.8). Wrap it in 6-8 discrete myelin sheath segments (slightly thicker cylindrical wraps, ~0.18 diameter) with visible small gaps (~0.03 units) between segments — these gaps are the nodes of Ranvier and must read clearly at default camera distance since hotspot 2 sits on one.\n4. Axon terminal: axon branches into 3-4 small bulbous boutons (rounded teardrop shapes, ~0.15 diameter) ending around x = +0.9 to +1.0.\n5. Synaptic cleft: a deliberate visible gap of ~0.15-0.2 units between the boutons and the postsynaptic dendrite surface — this negative space is important, do not let the two neurons touch.\n6. Postsynaptic neuron (partial): only a receiving dendrite segment + partial soma needed, entering from x = +1.15 to +2.2, oriented so its dendrite surface faces the presynaptic boutons directly across the cleft. It does not need its own axon — it can taper off/fade into an implied continuation.\n7. Effector tissue: a small simplified block (e.g., 4-6 parallel rounded ridges suggesting a muscle-fiber bundle, OR a simple rounded gland-lobe shape) positioned x = +2.6 to +3.4, downstream of the postsynaptic neuron, connected by an implied thin conduction line. Keep its geometric complexity low (fewer distinct sub-forms than the neurons) since it is a supporting element, but sculpt and finish it to the same organic, non-templated fidelity as the neurons — same topology quality, same soft PBR material treatment, same attention to subtle asymmetry. Simple silhouette, not lower-quality surface work.\n\nTOPOLOGY / BUDGET: Target under 40-50k total triangles for smooth web/WebGL performance. Neurons can be sculpted at moderate resolution then decimated; myelin segments and boutons can reuse a single instanced/duplicated mesh to save budget. Avoid unnecessarily dense subdivision on flat/unseen surfaces (underside of scene, interior of effector block).\n\nMATERIALS: see materialNotes field above — near-monochrome warm-neutral family for all neuron/effector structures, with the terracotta/coral accent reserved solely for the impulse and hotspot system. No metallic, no glass/transmission shaders, no emissive maps.\n\nANIMATION HOOKS (for the impulse-pulse-animation layer, can be a simple vertex-color/UV-scroll or a small traveling sphere along a spline — pipeline's choice): a subtle traveling highlight (muted terracotta/coral, NOT bright/neon) that moves along the axon from soma to terminal when hotspot 2 or the \"Play Impulse\" control is triggered — this is the single named control for firing the pulse animation; all lesson and UI copy referencing this interaction should call it \"Play Impulse\" consistently. A small release animation of 3-5 tiny gold dots drifting from a bouton across the cleft to the postsynaptic dendrite plays for hotspot 3. Keep animations subtle and slow (calm, premium feel) — no fast flashing or particle bursts.\n\nCROSS-SECTION SUPPORT: The axon must be modeled so a clean radial cross-section cut is possible mid-shaft, revealing: outer myelin sheath ring, inner axon membrane, and a simplified schematic of 2-3 ion-channel shapes embedded in the membrane (small torus/ring primitives is sufficient — this is diagrammatic, not molecularly accurate). This cross-section is toggled by the \"axon-cross-section\" layer.\n\nCAMERA FRAMING (verified): defaultCamera/cameraDefault position [0.2, 1.1, 6.2] targeting [0.2, 0.1, 0] was checked against the full x=-3.0 to x=+3.4 (width 6.4) by roughly y=-0.3 to y=1.3 (height 1.6) scene bounding box. Target x is centered on the bounding box (0.2, not 0), and the 6.2-unit camera distance leaves roughly 20%+ margin on the horizontal extent at a typical ~50deg vertical / ~75-80deg horizontal FOV, with generous vertical headroom — neither the dendrite tips at hs-1 nor the effector block at hs-5 clip or crowd the frame edge. Re-verify with a render once the final rig's FOV is locked; nudge camera z outward first (not target) if any margin issue appears.\n\nWHAT NOT TO DO: no cartoon faces/eyes on any cell, no hard comic-style outlines, no bright neon blue/red \"textbook diagram\" axon coloring, no glow/bloom/emissive on the impulse or vesicles, no busy particle-effect sparks, no perfectly symmetrical/robotic-looking geometry (cells should feel organic, slightly irregular), no photoreal clinical-textbook red muscle tissue on the effector block, no per-part rainbow color-coding (see materialNotes for the near-monochrome + single-accent palette), no lower-fidelity/placeholder treatment on the effector block relative to the neurons. Reference images at assets/reference/anatomy-atelier/*.png and https://anatomy-livid.vercel.app/ are the ground truth for finish quality, lighting, and hotspot/card interaction language.",
+  "visual": {
+    "shape": "nerve-impulse"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "componentId": "chromosome",
+  "questions": [
+    {
+      "prompt": "What is the main job of a chromosome?",
+      "options": [
+        "To carry genetic instructions (genes) so they can be organized, copied, and passed on to new cells",
+        "To produce energy for the cell",
+        "To digest food particles inside the cell",
+        "To send electrical signals between cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "A chromosome's job is to package and organize DNA so its genetic instructions can be accurately copied and divided between new cells. It doesn't produce energy, digest anything, or send signals — those are jobs of other cell structures.",
+      "misconception": "Students often assume every structure in a cell must 'do' a physical task like an organelle does (e.g., making energy), rather than understanding that a chromosome's role is to store and organize information."
+    },
+    {
+      "prompt": "What are the two identical halves of a copied chromosome called, and what joins them together?",
+      "options": [
+        "Two chromatids, joined at a centromere",
+        "Two genes, joined at a nucleus",
+        "Two nuclei, joined at a chromatid",
+        "Two centromeres, joined at a gene"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a chromosome is copied, it forms two identical sister chromatids, held together at a pinched region called the centromere, giving the classic X-shape.",
+      "misconception": "Students often mix up 'chromatid' (a full copy/strand of the chromosome) with 'centromere' (just the small joining point), or think the centromere is itself a whole chromosome."
+    },
+    {
+      "prompt": "How many chromosomes are in a typical human body cell, and how are they organized?",
+      "options": [
+        "46, arranged in 23 pairs",
+        "23, arranged in one long strand",
+        "100, arranged in 50 pairs",
+        "46, all identical copies of the exact same chromosome"
+      ],
+      "correctIndex": 0,
+      "explanation": "A typical human body cell has 46 chromosomes organized into 23 pairs — one chromosome in each pair inherited from each parent.",
+      "misconception": "A common mix-up is thinking all 46 chromosomes are identical duplicates of one chromosome, or confusing the body-cell number (46) with the sex-cell number (23, found only in eggs and sperm)."
+    },
+    {
+      "prompt": "A chromosome only looks like a tight, X-shaped structure at certain times. When?",
+      "options": [
+        "Right before and during cell division, when DNA coils up tightly",
+        "All the time, even when the cell is not dividing",
+        "Only inside sperm and egg cells",
+        "Only when the cell is resting and not active"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNA condenses into the visible X-shaped chromosome only when a cell is getting ready to divide, so the genetic material can be moved and split cleanly. The rest of the time, it stays loosely spread out as chromatin so genes can be read and used.",
+      "misconception": "Because textbook diagrams almost always show the X-shape, students often assume chromosomes always look that way, rather than realizing the tightly coiled form is temporary and tied specifically to cell division."
+    },
+    {
+      "prompt": "What is the difference between a gene and a chromosome?",
+      "options": [
+        "A gene is one small segment of instructions located along a chromosome, which is a long coiled strand containing many genes",
+        "A gene is physically larger than a chromosome",
+        "A gene and a chromosome are exactly the same thing",
+        "A chromosome is a small piece cut from a single gene"
+      ],
+      "correctIndex": 0,
+      "explanation": "A chromosome is a long, coiled strand of DNA that carries many genes arranged along its length; a gene is just one specific segment of that DNA with instructions for a particular trait.",
+      "misconception": "Students frequently use 'gene' and 'chromosome' interchangeably, not realizing a chromosome is the larger structure that holds hundreds or thousands of individual genes."
+    }
+  ]
+}

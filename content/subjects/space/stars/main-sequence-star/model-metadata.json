@@ -1,0 +1,110 @@
+{
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/space/stars/main-sequence-star.scene.ts",
+  "thumbnailUrl": "src/features/model-viewer/thumbnails/space/stars/main-sequence-star.png",
+  "cameraDefault": {
+    "position": [
+      4.5,
+      2.7,
+      6.5
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    {
+      "id": "core",
+      "label": "Core",
+      "explanation": "At roughly 15 million K and 250 billion atmospheres, hydrogen nuclei collide here hard enough to fuse into helium — the engine of the whole star."
+    },
+    {
+      "id": "radiative-zone",
+      "label": "Radiative zone",
+      "explanation": "Energy crawls outward through this layer as light, constantly re-absorbed and re-emitted, taking tens of thousands of years to cross it."
+    },
+    {
+      "id": "convective-zone",
+      "label": "Convective zone",
+      "explanation": "The outer shell, where hot gas rises and cooled gas sinks in churning cells — like a pot of boiling water scaled up to a planetary scale."
+    },
+    {
+      "id": "photosphere",
+      "label": "Photosphere",
+      "explanation": "The visible 'surface.' Its temperature for the Sun is about 5,772 K — the layer whose color tells us the star's temperature."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hs-core",
+      "label": "Core — fusion furnace",
+      "conceptId": "hydrogen-fusion-in-core",
+      "position": [
+        0,
+        0,
+        0.18
+      ],
+      "description": "The star's engine. ~15 million K and 250 billion Earth-atmospheres squeeze hydrogen into helium, releasing the energy that props the star open.",
+      "positionHint": "Center of sphere"
+    },
+    {
+      "id": "hs-radiative-zone",
+      "label": "Radiative zone",
+      "conceptId": "energy-transport-radiative",
+      "position": [
+        1.3,
+        0,
+        0.6
+      ],
+      "description": "Energy moves photon by photon, absorbed and re-emitted in random directions, slowly leaking outward through this mid-layer.",
+      "positionHint": "Middle band"
+    },
+    {
+      "id": "hs-convective-zone",
+      "label": "Convective zone",
+      "conceptId": "energy-transport-convective",
+      "position": [
+        2.4,
+        0,
+        0.9
+      ],
+      "description": "The churning outer shell where hot gas rises and cooled gas sinks, like a pot of water boiling — and that churn is what makes the surface look grainy.",
+      "positionHint": "Outer shell below the surface"
+    },
+    {
+      "id": "hs-photosphere",
+      "label": "Photosphere — visible surface",
+      "conceptId": "color-tracks-temperature",
+      "position": [
+        3.1,
+        0.1,
+        1.1
+      ],
+      "description": "The visible disk of the star. Its color acts as a thermometer: red near 3,000 K, yellow-white at 5,800 K like the Sun, blue-white above 10,000 K.",
+      "positionHint": "Outer rim of the sphere"
+    },
+    {
+      "id": "hs-hydrostatic-balance",
+      "label": "Hydrostatic balance",
+      "conceptId": "hydrostatic-equilibrium-balance",
+      "position": [
+        0,
+        2.9,
+        0
+      ],
+      "description": "The tug of war behind a steady star — gravity pulling every layer inward, fusion pushing every layer outward, both forces summing to zero so the star holds its size.",
+      "positionHint": "A force-symbol emblem floating above the star"
+    }
+  ],
+  "visualStyleNotes": "Warm off-white sphere with a section cut away on the left to show three nested zones, following Anatomy Atelier's clean-3D look. Yellow-white photosphere, orange interior bands; the outer convective zone shows subtle boiling texture; two translucent arrows (inward golden, outward pale blue) float in balance above the star to depict hydrostatic equilibrium. Hotspots as glowing umber beads with soft labels, no cluttered overlays.",
+  "materialNotes": "Core: emissive warm yellow-white, slight inner glow. Radiative zone: translucent amber. Photosphere: rough surface with faint granule texture. Use gentle ambient warm lighting so the model reads as a drawing rather than a photograph.",
+  "assetBrief": "Procedural Three.js scene in the quasar app's space/stars folder: star sphere (cutaway on left third), layered zones, balanced in/out arrows, camera that frames the full sphere with auto-rotate. Hotspot bead radius ~0.14, picking raycast as in other scenes so toggling is consistent.",
+  "componentId": "main-sequence-star",
+  "visual": {
+    "shape": "main-star"
+  }
+}

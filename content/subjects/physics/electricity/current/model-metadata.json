@@ -1,0 +1,120 @@
+{
+  "id": "current",
+  "componentId": "current",
+  "subject": "physics",
+  "modelType": "manipulative",
+  "url": "/assets/models/electricity/current/current.glb",
+  "thumbnailUrl": "/assets/thumbnails/electricity/current.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.3,
+      4.4
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Wire loop",
+    "Electron stream",
+    "Battery",
+    "Bulb and ammeter"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-wire",
+      "label": "Wire",
+      "conceptId": "current-charge-in-motion",
+      "position": [
+        0.6,
+        0.3,
+        0
+      ],
+      "description": "The transparent conductor crowded with the streaming electron dots.",
+      "colorHint": "Gleaming clear tube with pale gold dots inside.",
+      "color": "#6B85A8",
+      "function": "Carries the current from battery to bulb."
+    },
+    {
+      "id": "hs-battery",
+      "label": "Battery",
+      "conceptId": "current-charge-in-motion",
+      "position": [
+        -1.2,
+        0.4,
+        0
+      ],
+      "description": "The power cell that pushes the electron stream onto the loop.",
+      "colorHint": "Warm cell with a red cap and − marked ring.",
+      "color": "#D96B5A",
+      "function": "Supplies the push that keeps the electrons moving."
+    },
+    {
+      "id": "hs-bulb",
+      "label": "Bulb",
+      "conceptId": "current-brighter-with-more-flow",
+      "position": [
+        1.3,
+        0.7,
+        0.1
+      ],
+      "description": "The small lamp that turns current into light — brighter as the flow climbs.",
+      "colorHint": "Clear tiny bulb with a warm glow inside.",
+      "color": "#D9A441",
+      "function": "Converts current into light and heat."
+    },
+    {
+      "id": "hs-ammeter",
+      "label": "Ammeter",
+      "conceptId": "current-unit-amp",
+      "position": [
+        -1.5,
+        0.9,
+        0.1
+      ],
+      "description": "The instrument reading the flow in amperes at the loop.",
+      "colorHint": "Pale-green round gauge on a small stand.",
+      "color": "#7FA86A",
+      "function": "Displays how many amps flow."
+    },
+    {
+      "id": "hs-flow-slider",
+      "label": "Flow Slider",
+      "conceptId": "current-charge-in-motion",
+      "position": [
+        -1.4,
+        0.8,
+        0.25
+      ],
+      "description": "Tunes the march of the dots; the ammeter and bulb follow.",
+      "colorHint": "Horizontal slider on a small pedestal.",
+      "color": "#7FA86A",
+      "function": "Sets the flow the model demonstrates."
+    },
+    {
+      "id": "hs-break",
+      "label": "Break Switch",
+      "conceptId": "current-flow-needs-a-loop",
+      "position": [
+        0.2,
+        0.8,
+        0.2
+      ],
+      "description": "Cuts a gap out of the wire and freezes the whole stream instantly.",
+      "colorHint": "A small lever switch toggling a removable segment.",
+      "color": "#D9A441",
+      "function": "Demonstrates that a break stops the whole loop."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper ground, soft vignette. A transparent cool-blue loop of glass tube, gold streaming dots, warm battery and a green round ammeter.",
+  "materialNotes": "Glass tube: roughness ~0.15, metallic 0 (clear). Dots: small rounded gold spheres, no emissive bloom but slightly self-lit. Metal caps of battery pale ochre.",
+  "assetBrief": "SUBJECT: current seen as streaming charge on a loop with an ammeter.\n\nGEOMETRY: loop made of a transparent tube (wire) with pill-of-dots inside; battery left, bulb right, ammeter stand; slider pedestal and a removable break segment on the loop.\n\nINTERACTION: the slider raises dot speed and ammeter value; the break lever lifts a segment and halts every dot; bulb dims as slider lowers.\n\nNAMED EDGES: WireLoop, ElectronStream, Battery, Bulb, Ammeter, FlowSlider, BreakSegment. ~7-10k tris.",
+  "visual": {
+    "shape": "current-loop"
+  }
+}

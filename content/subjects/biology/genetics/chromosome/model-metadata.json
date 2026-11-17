@@ -1,0 +1,192 @@
+{
+  "componentId": "chromosome",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "content/subjects/biology/genetics/chromosome/assets/chromosome.glb",
+  "thumbnailUrl": "content/subjects/biology/genetics/chromosome/assets/chromosome-thumb.png",
+  "cameraDefault": {
+    "position": [
+      0,
+      0.15,
+      2.6
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "materialBudget": {
+    "maxMaterials": 4,
+    "materialsUsed": 3,
+    "strategy": "Two shared clay materials (opaque body + DNA-reveal accent) plus vertex-color tinting carry the whole model, so the sister-chromatid pairing, centromere landmark, and gene-band striping all stay within a small, draw-call-friendly material budget instead of one material per mesh.",
+    "materials": [
+      {
+        "id": "ChromatidCentromereClay",
+        "description": "Shared matte-clay PBR material (roughness ~0.55-0.7, metalness 0, no emissive) for all four chromatid arms and the centromere. Per-submesh tint comes from vertex color, not separate material instances: the two chromatid pairs use two values of the same dusty-rose/coral hue so they read as clearly paired, and the centromere uses a distinct sandy-beige neutral so it reads as the landmark waist.",
+        "usedBy": [
+          "Chromatid_A_p",
+          "Chromatid_A_q",
+          "Chromatid_B_p",
+          "Chromatid_B_q",
+          "Centromere"
+        ],
+        "tintMapping": {
+          "Chromatid_A_p": "muted dusty-rose/coral (primary chromatid tone)",
+          "Chromatid_A_q": "muted dusty-rose/coral (primary chromatid tone), same as Chromatid_A_p",
+          "Chromatid_B_p": "muted dusty-rose/coral, slightly deeper value than the A pair so the two sister chromatids are distinguishable but clearly matched",
+          "Chromatid_B_q": "muted dusty-rose/coral, slightly deeper value than the A pair, matching Chromatid_B_p",
+          "Centromere": "sandy-beige warm neutral, distinct from both chromatid tones"
+        }
+      },
+      {
+        "id": "GeneBandTint",
+        "description": "Vertex-color banding applied on top of ChromatidCentromereClay's surface (not a separate shader) to render 4-6 gene-band markers per chromatid as tonal light/dark alternation within the same dusty-rose/coral hue family — matching how real G-banding reads as light/dark alternation rather than multicolor. No separate teal, ochre, or plum hues are used; saturated, distinguishable color is reserved for hotspot dots and UI only, keeping the specimen itself near-monochromatic like the Anatomy Atelier reference.",
+        "usedBy": [
+          "Chromatid_A_p",
+          "Chromatid_A_q",
+          "Chromatid_B_p",
+          "Chromatid_B_q"
+        ],
+        "tintMapping": {
+          "gene-band-light": "a lighter, slightly desaturated value of the base chromatid rose/coral hue",
+          "gene-band-dark": "a darker, slightly more saturated value of the same base chromatid rose/coral hue"
+        }
+      },
+      {
+        "id": "DNARevealAccent",
+        "description": "Small nested-geometry material for the DNA_Reveal_Segment only: pale warm white/cream backbone with two muted accent tones (soft blue, warm coral) for base-pair rungs. Strictly a minor accent confined to a small sub-geometry — capped at roughly 6% of viewport width at default camera framing so it never reads as a second focal color zone competing with the rose/beige specimen body.",
+        "usedBy": [
+          "DNA_Reveal_Segment"
+        ],
+        "tintMapping": {
+          "backbone": "pale warm white/cream",
+          "base-pair-rungs": "soft muted blue and warm coral, minor accents only"
+        },
+        "maxScreenFootprint": "~6% of viewport width at cameraDefault framing; hidden by default (see layers.uncoiled-dna-reveal)"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "id": "full-chromosome",
+      "label": "Full Chromosome (default)",
+      "submesh": "Chromatid_A_p+Chromatid_A_q+Chromatid_B_p+Chromatid_B_q+Centromere",
+      "defaultVisible": true
+    },
+    {
+      "id": "chromatid-pair-isolated",
+      "label": "Chromatid Pair Isolated",
+      "submesh": "Chromatid_A_p+Chromatid_A_q (isolated from Chromatid_B_p+Chromatid_B_q)",
+      "defaultVisible": false,
+      "visibilityNote": "Learner-toggled isolate mode that fades out one sister chromatid pair so the remaining pair (a short p-arm and long q-arm meeting at the centromere) can be inspected on its own."
+    },
+    {
+      "id": "coiled-surface",
+      "label": "Coiled Surface",
+      "submesh": "low-relief coiled/braided bump map across all Chromatid_* meshes",
+      "defaultVisible": true
+    },
+    {
+      "id": "uncoiled-dna-reveal",
+      "label": "Uncoiled DNA Reveal",
+      "submesh": "DNA_Reveal_Segment",
+      "defaultVisible": false,
+      "visibilityNote": "Hidden by default; toggling this layer (or activating cross-section) reveals the small nested double-helix segment inside Chromatid_A_q. Kept off by default so the reveal reads as a deliberate zoom-in, not a competing focal color zone at first view."
+    },
+    {
+      "id": "gene-bands-highlighted",
+      "label": "Gene Bands Highlighted",
+      "submesh": "GeneBandTint vertex-color stripes across Chromatid_* surfaces",
+      "defaultVisible": false,
+      "visibilityNote": "Off by default to keep the first-view silhouette clean; toggling this layer boosts contrast on the light/dark tonal gene-band stripes so they read clearly as 4-6 distinct markers per chromatid."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "hotspot-chromatid",
+      "label": "Chromatid",
+      "conceptId": "chromatid",
+      "position": [
+        0.28,
+        0.32,
+        0.15
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "upper-right arm, mid-length along one of the four chromatid arms, offset from the centromere so the hotspot dot sits clearly on a single arm and not the waist",
+      "description": "One of the two identical halves of a duplicated chromosome, joined to its sister chromatid at the centromere. Each chromatid contains one complete DNA molecule.",
+      "structureCard": {
+        "function": "Each chromatid is one complete copy of the chromosome's DNA, produced when the cell replicates its DNA before dividing; the two sister chromatids carry identical genetic information until they separate during cell division.",
+        "whereItIs": "One of the four arm segments that make up the X-shape — the short arm and long arm on one side of the centromere together form a single chromatid.",
+        "whyItMatters": "Having two identical chromatids means the cell has an exact backup copy ready to hand to each new daughter cell, so genetic information isn't lost when the cell divides.",
+        "relatedConcept": "centromere"
+      }
+    },
+    {
+      "id": "hotspot-centromere",
+      "label": "Centromere",
+      "conceptId": "centromere",
+      "position": [
+        0,
+        0,
+        0.12
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "exact center waist of the X-shape, front-facing on the model's midline",
+      "description": "The pinched, narrow region where the two sister chromatids are held together. It is also the attachment point for spindle fibers during cell division.",
+      "structureCard": {
+        "function": "The centromere is the constricted region that physically holds the two sister chromatids together and serves as the docking point for spindle fibers during cell division.",
+        "whereItIs": "The pinched waist at the exact center of the X-shape, where all four chromatid arms converge.",
+        "whyItMatters": "Without the centromere, spindle fibers would have nothing to grab onto, and the cell couldn't pull the sister chromatids apart accurately during division.",
+        "relatedConcept": "spindle-fiber"
+      }
+    },
+    {
+      "id": "hotspot-dna",
+      "label": "Tightly Coiled DNA",
+      "conceptId": "tightly-coiled-dna",
+      "position": [
+        -0.25,
+        -0.3,
+        0.15
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "lower-left chromatid arm, at the point where the nested DNA_Reveal_Segment geometry is visible or toggled, showing the unwound double-helix suggestion beneath the coiled surface",
+      "description": "Chromosomes are made of DNA wound tightly around proteins and coiled repeatedly, letting nearly two meters of DNA fit inside a microscopic cell nucleus.",
+      "structureCard": {
+        "function": "This is the DNA itself, wound around histone proteins and coiled repeatedly so nearly two meters of DNA per cell fits inside a microscopic nucleus.",
+        "whereItIs": "Beneath the chromatid's outer surface, revealed as a small nested double-helix segment in one chromatid arm when the Uncoiled DNA Reveal layer is toggled on.",
+        "whyItMatters": "Coiling is what makes the chromosome's compact, storable shape possible — without it, DNA would be far too long and tangled to fit or move safely inside a dividing cell.",
+        "relatedConcept": "histone"
+      }
+    },
+    {
+      "id": "hotspot-genes",
+      "label": "Genes Arranged Along Its Length",
+      "conceptId": "genes-arranged-along-length",
+      "position": [
+        -0.26,
+        0.3,
+        0.15
+      ],
+      "positionSource": "estimated-pending-glb-export",
+      "positionHint": "upper-left chromatid arm, positioned over one of the 4-6 tonal gene-band markers so the dot visually aligns with a banding stripe",
+      "description": "Genes are specific segments of DNA positioned at fixed locations along the chromosome, each carrying instructions for a particular trait or protein.",
+      "structureCard": {
+        "function": "Genes are specific DNA segments positioned at fixed locations along the chromosome, each holding instructions for a particular trait or protein.",
+        "whereItIs": "Marked by the light/dark gene-band stripes spaced along each chromatid arm, most visible when the Gene Bands Highlighted layer is toggled on.",
+        "whyItMatters": "Because each gene sits at a fixed address on a specific chromosome, scientists can map traits to locations and predict how they're inherited.",
+        "relatedConcept": "allele"
+      }
+    }
+  ],
+  "hotspotAnchorNodeGroup": "HotspotAnchors",
+  "hotspotPositionReconciliationNote": "All hotspot `position` values above are pre-production estimates authored from positionHint descriptions against the ~1.0-unit-tall bounding box, for early UI wiring only. They must be reconciled against the actual `HotspotAnchors` empty-node world-positions once chromosome.glb is exported, and this field replaced with final coordinates at that time.",
+  "visualStyleNotes": "Warm off-white scene background matching Anatomy Atelier; matte clay-like PBR materials (roughness ~0.55-0.7, minimal specular, zero emissive); soft large-area three-point lighting with gentle ambient occlusion in the centromere pinch and arm creases. The specimen itself stays near-monochromatic: muted dusty-rose/coral chromatid pair (sister pair B a slightly deeper value than pair A) with a sandy-beige centromere band. Gene-band markers are tonal light/dark alternation within that same rose/coral hue family (not a multicolor rainbow of teal/ochre/plum) — real chromosome G-banding is light/dark alternation, and reserving saturated, distinguishable color for hotspot dots and UI (not the specimen body) keeps the model consistent with Anatomy Atelier's near-monochromatic specimen language. Subtle low-relief coiled-chromatin bump texture on the chromatid surface, not raised geometry. The nested double-helix DNA reveal segment uses pale cream backbone with soft-blue/warm-coral base-pair rung accents strictly as minor accents on a small sub-geometry, capped at roughly 6% of viewport width at default camera framing so it never becomes a second competing focal color zone. Colored hotspot dots (small, flat, calm accent colors) open structure cards on click, consistent with reference interaction language. Auto-rotate on by default at a slow, calm speed. Cross-section / layer toggle reveals the small nested double-helix segment within one chromatid arm rather than a full molecular model. No glow, no gradients, no gamey shaders, no cluttered on-model text.",
+  "assetBrief": "CHROMOSOME — 3D model spec for Quantaora (Genetics > Biology)\n\nOVERVIEW\nBuild a single metaphase chromosome in its classic X-shape (two sister chromatids joined at a centromere), presented as a clean, stylized biological illustration rendered in 3D — not a photoreal or gamey model. Think \"museum specimen model\" crossed with a textbook diagram, matching the Anatomy Atelier reference: warm off-white scene background, soft matte materials, no glow/emissive shaders, no particle effects, no neon gradients.\n\nFORM & PROPORTIONS\n- Overall silhouette: the iconic \"X\" chromosome shape, ~1.0 unit tall (viewport-normalized), built from two elongated, gently tapered chromatid arms per side (four arm segments total meeting at a central pinch).\n- Each chromatid arm: a smooth, rounded-capsule cross-section (not a hard cylinder) that thickens slightly at the ends (telomeres) and narrows toward the centromere pinch — modest asymmetry between the two arm-pairs (p-arm shorter, q-arm longer) is fine for realism but keep it subtle and legible.\n- Centromere: a visibly narrower \"waist\" where all four chromatid arms converge, modeled as a smooth constriction rather than a hard joint — this is the primary landmark and must read clearly from the default camera angle.\n- Surface detail: the outer chromatid surface should carry a subtle, low-relief coiled/braided texture (suggesting supercoiled chromatin) — bump/normal map only, not separate geometry, kept fine enough not to look \"ropey\" or cartoonish.\n- Sub-surface reveal (see LAYERS below): beneath/within one chromatid arm, a secondary thin double-helix DNA strand geometry is nested, visible only when the \"Uncoiled DNA Reveal\" layer is toggled on or via cross-section — this represents \"tightly coiled DNA\" unwinding to show the underlying double helix at one arm segment. Keep this reveal geometry small: capped at roughly 6% of viewport width at default camera framing so it stays a minor accent, not a second focal point.\n- Gene markers: 4-6 small flush-fit band markers spaced along the length of each chromatid to represent \"genes arranged along its length\" — rendered as tonal light/dark variation within the base chromatid hue (like real chromosome G-banding), not raised geometry and not a multicolor rainbow, so the silhouette stays clean and the specimen stays near-monochromatic.\n\nMATERIALS & PALETTE\n- Base chromatid material: matte clay-like finish, muted dusty rose / warm coral (primary chromatid color), with the sister chromatid pair in a very slightly deeper shade of the same hue so the two are distinguishable but clearly paired — avoid saturated primary colors.\n- Centromere: a soft warm neutral (sandy beige) band, distinct enough to read as a landmark but still within the warm off-white palette family.\n- Gene bands: light/dark tonal alternation within the same dusty-rose/coral hue family used for the chromatid body — no additional hues (no teal, ochre, or plum). Saturated, distinguishable color stays reserved for hotspot dots and UI, matching how Anatomy Atelier keeps the specimen itself near-monochromatic.\n- DNA sub-strand (nested reveal): pale warm white/cream backbone with two muted accent tones (soft blue, warm coral) for base-pair rungs, kept minimal — a suggestion of the double helix, not a fully detailed molecular model, and confined to a small nested segment with a max screen footprint of ~6% of viewport width at default camera distance so it never reads as a second competing color zone.\n- No emissive materials, no rim-light glow, no metallic/glossy shaders. Matte/satin PBR roughness ~0.55-0.7, very low specular, consistent with the reference's soft-clay look.\n- Scene: warm off-white studio background (matches Anatomy Atelier), soft three-point lighting with a large soft key light, gentle ambient occlusion in the centromere pinch and arm creases — no hard cast shadows, no colored lighting.\n\nWHAT NOT TO DO\n- No glowing/emissive edges, no neon gradient fills, no sci-fi holographic look.\n- No literal molecular hyper-detail (no individual nucleotide letters, no photoreal double-helix ladder covering the whole model) — the DNA reveal is a simplified, elegant suggestion, confined to a small nested segment at a capped screen footprint.\n- No cartoon eyes/faces or anthropomorphizing.\n- No cluttered UI-in-3D-space signage; all labeling happens via hotspot cards outside the model.\n- No multicolor gene-band rainbow (no teal/ochre/plum) — gene bands are light/dark tonal variation within one hue family only.\n- Keep polycount lightweight/optimized for real-time web (target well under 50k tris) — this is glb-authored for fidelity but must still be a clean, performant asset, not a dense sculpt.\n\nDELIVERABLE\nSingle GLB, ~1 unit tall at origin, Y-up, centered at world origin, with named mesh nodes: Chromatid_A_p, Chromatid_A_q, Chromatid_B_p, Chromatid_B_q, Centromere, DNA_Reveal_Segment (child of Chromatid_A_q, hidden by default), and a HotspotAnchors empty-node group (one empty per hotspot id above, positioned per the positionHints) so hotspot dots can bind to named node world-positions rather than hardcoded coordinates. Material slots match the palette above (see materialBudget) so hotspot/layer toggles can target them independently.",
+  "visual": {
+    "shape": "chromosome-x"
+  }
+}

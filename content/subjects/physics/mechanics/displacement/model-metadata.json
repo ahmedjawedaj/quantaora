@@ -1,0 +1,104 @@
+{
+  "id": "displacement",
+  "componentId": "displacement",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/displacement/displacement.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/displacement.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      2.6,
+      4.2
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      2.6,
+      4.2
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Journey grid with dots",
+    "Displacement arrow",
+    "Leg arrows tip-to-tail",
+    "Dotted path comparison"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-displacement-arrow",
+      "label": "Displacement Arrow",
+      "conceptId": "displacement-vector",
+      "position": [
+        0.6,
+        0.5,
+        0
+      ],
+      "description": "The single net arrow from the start dot to the target dot — it carries both a size and a direction.",
+      "positionHint": "A straight arrow spanning start to finish across the grid.",
+      "color": "#D96B5A",
+      "function": "Shows the net straight-line result of a journey, magnitude and direction together."
+    },
+    {
+      "id": "hs-start-position",
+      "label": "Initial Position",
+      "conceptId": "displacement-change-in-position",
+      "position": [
+        -0.9,
+        0.2,
+        -0.3
+      ],
+      "description": "Where the journey begins — the tail end of the displacement arrow.",
+      "positionHint": "A blue dot near one corner of the grid.",
+      "color": "#6B85A8",
+      "function": "Marks the initial position displacement is measured between."
+    },
+    {
+      "id": "hs-final-position",
+      "label": "Final Position",
+      "conceptId": "displacement-change-in-position",
+      "position": [
+        0.9,
+        0.2,
+        0.3
+      ],
+      "description": "Where the journey ends — the head of the displacement arrow.",
+      "positionHint": "A coral dot near the opposite corner of the grid.",
+      "color": "#D9A441",
+      "function": "Marks the final position the displacement arrow reaches."
+    },
+    {
+      "id": "hs-zero-test",
+      "label": "Zero Displacement",
+      "conceptId": "displacement-net-result",
+      "position": [
+        0,
+        0.3,
+        -0.5
+      ],
+      "description": "Set start and final position on the same dot and the arrow shrinks to nothing — zero displacement even after a long trek.",
+      "positionHint": "A small badge shown when both dots overlap.",
+      "color": "#7FA86A",
+      "function": "Demonstrates that returning to the start yields zero net displacement."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A flat warm-grey grid mat (xz plane), a blue start dot, a coral target dot, a single coral straight displacement arrow, plus dotted leg arrows and a faint grey dotted detour path. Saturated color only on the arrow and hotspots. Soft neutral studio light, no emissive, no bloom.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Grid mat warm-grey speckled (roughness ~0.7), dots are small smooth spheres (roughness ~0.3), displacement arrow a polished soda-coral prism (roughness ~0.35, metallic=0), leg arrows warm white dotted. Dotted path dashed greys. Live readout text is an app-layer overlay.",
+  "assetBrief": "SUBJECT: displacement as the net vector between an initial and a final position, with tip-to-tail vector addition.\n\nGEOMETRY: a flat world-axis grid mat on y=0 (say 4.0 × 3.0). An orange displacement arrow sits on the mat from Start to Target, drawn as a low prism with a cone head. A chain of grey leg-arrows (2–4) can fade in, laid tip-to-tail, ending at the same target to show the legs merging into the net. A dashed grey route winding around illustrates ignored distance.\n\nINTERACTION: 1) drag the Start dot anywhere on the mat — the arrow redraws as the direct new connect; 2) a <Journey Components> toggles showing the leg arrows and their tip-to-tail sum; 3) a Quick Zero preset overlaps Target on Start.\n\nNAMES: GridMat, StartDot, TargetDot, DisplacementArrow, Leg1/2/3, RouteDashed, ReadoutBadge. Budget 6-9k triangles.",
+  "visual": {
+    "shape": "displacement-straight"
+  }
+}

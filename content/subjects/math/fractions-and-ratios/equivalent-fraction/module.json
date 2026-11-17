@@ -1,0 +1,87 @@
+{
+  "id": "equivalent-fraction",
+  "subject": "math",
+  "title": "Equivalent Fractions",
+  "summary": "Equivalent fractions name the same amount with different numbers — 1/2, 2/4, and 3/6 all equal the same share. Explore how multiplying or dividing both the numerator and denominator by the same number keeps the fraction equal.",
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "skillIds": [
+    "equiv-fraction-same-amount",
+    "equiv-fraction-multiply-both",
+    "equiv-fraction-simplify",
+    "equiv-fraction-compare"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Fractions And Ratios",
+    "unit": "Fraction Basics",
+    "systemOrGroup": "Fractions",
+    "component": "Equivalent Fractions",
+    "displayPath": "Math > Fractions And Ratios > Fraction Basics > Fractions > Equivalent Fractions"
+  },
+  "crossReferences": [
+    {
+      "label": "Fraction (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Fraction",
+      "note": "Equivalent fractions are different fractions that name the same part of a whole."
+    },
+    {
+      "label": "Denominator (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Denominator",
+      "note": "Changing the denominator (with the numerator) is how equivalent fractions are made."
+    },
+    {
+      "label": "Decimal (Fractions And Ratios)",
+      "branch": "fractions-and-ratios",
+      "lowLevelItem": "Decimal",
+      "note": "All equivalent fractions share the same decimal value — 1/2 = 2/4 = 0.5."
+    }
+  ],
+  "belongsTo": "Fractions And Ratios > Fraction Basics > Fractions",
+  "compareCandidate": {
+    "label": "Equivalent vs. equal-looking",
+    "description": "1/2 and 2/4 look different but are equal because they name the same amount. Comparing 1/3 with 2/6 shows the same share, while 1/2 and 2/3 are NOT equivalent."
+  },
+  "parts": [
+    "Different names, same amount",
+    "Multiplying both numbers by the same factor",
+    "Simplifying by dividing both numbers"
+  ],
+  "processes": [
+    "Generating equivalent fractions by scaling",
+    "Simplifying fractions to lowest terms",
+    "Using cross products to check equality"
+  ],
+  "plainLanguageExplanation": "Equivalent fractions are different fractions that name the same amount. 1/2 of a pizza and 2/4 of the same pizza are the same share — the slice is just cut differently. To make an equivalent fraction, multiply (or divide) both the numerator and the denominator by the same number: 1/2 × 2/2 = 2/4, and 1/2 × 3/3 = 3/6. Working the other way, simplifying a fraction means dividing both numbers by a common factor — 6/8 ÷ 2/2 = 3/4. A fraction is in simplest form when only 1 divides both numbers. To check if two fractions are equivalent, cross-multiply: 1/2 and 3/6, since 1 × 6 = 2 × 3, they are equal.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Fractions that name the same amount with different numbers" },
+    { "label": "Example", "value": "1/2 = 2/4 = 3/6 — all half of the whole" },
+    { "label": "Rule", "value": "Multiply or divide BOTH numbers by the same amount" },
+    { "label": "Simplest form", "value": "6/8 simplifies to 3/4 by dividing by 2" },
+    { "label": "Check", "value": "Cross multiply: 1×6 = 2×3, so 1/2 = 3/6" },
+    { "label": "Decimal link", "value": "All equivalent fractions have the same decimal value" }
+  ],
+  "whyItMatters": "Equivalent fractions are how you add, subtract, and compare fractions — rewriting 1/3 as 2/6 lets you combine it with 3/6. Simplifying makes fractions clean, and the concept powers ratios and proportional reasoning later.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Equivalent fractions",
+  "tagline": "Same amount, different numbers",
+  "didYouKnow": "Cross-multiplication works for any pair of fractions — if the two cross-products are equal, the fractions are equivalent, no matter how big the numbers get.",
+  "conditions": [
+    "Adding fractions",
+    "Simplifying answers",
+    "Comparing sizes",
+    "Measuring with units"
+  ],
+  "compareCandidateId": "fraction",
+  "compareReason": "Equivalence is about the amount a fraction names, not its written numbers — comparing 1/2 with 2/4 makes the whole idea click."
+}

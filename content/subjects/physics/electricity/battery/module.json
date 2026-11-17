@@ -1,0 +1,104 @@
+{
+  "id": "battery",
+  "subject": "physics",
+  "title": "Battery",
+  "summary": "A battery is a portable store of chemical energy that becomes electrical pressure: chemicals react inside, pushing electrons to one terminal and pulling them from the other, creating the voltage that drives current. In this model a cutaway cell shows the chemical layers and the terminal push that lights a bulb.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "battery-chemical-energy",
+    "battery-+--terminals",
+    "battery-volts-and-stamina",
+    "battery-drives-the-loop"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Components",
+    "systemOrGroup": "Components in a Circuit",
+    "component": "Battery",
+    "displayPath": "Physics > Electricity > Components > Components in a Circuit > Battery"
+  },
+  "crossReferences": [
+    {
+      "label": "Voltage (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Voltage",
+      "note": "The battery's chemistry creates the potential difference that becomes the circuit's push."
+    },
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "Connect the terminals through a loop and the battery's push sets charge moving."
+    },
+    {
+      "label": "Bulb (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Light bulb",
+      "note": "The classic load the battery drives; it converts the flow back into light."
+    }
+  ],
+  "belongsTo": "Electricity > Components > Components in a Circuit",
+  "compareCandidate": {
+    "label": "Fresh vs. drained battery",
+    "description": "A full cell pushes hard; a drained cell still sits there but its chemistry has nothing left — voltage drops and the bulb fades."
+  },
+  "parts": [
+    "The outer case",
+    "The chemical layers",
+    "The + and − terminals",
+    "The connected bulb"
+  ],
+  "processes": [
+    "Chemicals reacting inside the cell",
+    "Piling electrons at the − terminal",
+    "Creating the voltage between the ends",
+    "Driving the current through the bulb"
+  ],
+  "plainLanguageExplanation": "A battery is a backpack of chemical energy that turns into electrical pressure when you close a circuit. Inside, two different chemicals are separated; a reaction pushes electrons onto one terminal (the −) and leaves the other terminal short (−?), so the two ends have different energy levels. Connect a wire between them and the electrons race to balance — that's the current — while the reaction keeps topping up the flow until its chemicals are spent. Simple numbers: each standard cell gives 1.5 V, and cells stacked in a pack add their volts (your 9 V block is six inside). Two things matter about any battery: the voltage (how hard it pushes) and the capacity (how long it can keep pushing — the Ah or mAh number). In the cutaway model you can see the case, the chemical layers, the +/− terminals, and a bulb wired on; as the 'usage' knob turns, the layers shrink and the bulb dims — that's a battery being drained.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "A store of chemical energy that turns into electrical push"
+    },
+    {
+      "label": "Two terminals",
+      "value": "+ and −, whose difference is the voltage"
+    },
+    {
+      "label": "Standard cell",
+      "value": "1.5 V per ordinary cell; packs add up"
+    },
+    {
+      "label": "Two ratings",
+      "value": "Volts (push) and capacity in mAh (stamina)"
+    },
+    {
+      "label": "Drains with use",
+      "value": "Chemicals get spent; the bulb then dims"
+    }
+  ],
+  "whyItMatters": "Batteries power everything from smoke detectors to electric cars, and their two numbers — volts and mAh — choose which device matches which battery. Understanding that a battery is chemistry, not magic, explains why cells wear out, why rechargeables exist, and why voltage and capacity are different ideas. It's the closest thing to portable power in daily life.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Electrochemical cell / battery",
+  "tagline": "Chemical energy turned into push",
+  "didYouKnow": "The modern battery idea is two centuries old: Alessandro Volta stacked zinc and copper discs with brine-soaked paper between them — each 'voltaic pile' pair gave roughly 1 V, and the volt is named after him.",
+  "conditions": [
+    "AA / AAA cells in remotes and toys",
+    "9 V smoke detector batteries",
+    "Phone and laptop rechargeables",
+    "12 V car batteries",
+    "Electric vehicle battery packs"
+  ],
+  "compareCandidateId": "bulb",
+  "compareReason": "The battery is the source and the bulb is the load — the same loop shows the push leaving the cell and the glow arriving at the filament."
+}

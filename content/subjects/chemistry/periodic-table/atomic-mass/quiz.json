@@ -1,0 +1,65 @@
+{
+  "componentId": "atomic-mass",
+  "questions": [
+    {
+      "id": "atomic-mass-q-unit",
+      "conceptId": "atomic-mass-units",
+      "hotspotId": "hs-mass-units",
+      "prompt": "What unit is used to measure the mass of atoms?",
+      "options": [
+        "Atomic mass units (amu)",
+        "Kilograms only",
+        "Liters",
+        "Newtons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atomic mass is measured in atomic mass units (amu), where one amu is about the mass of a single proton or neutron.",
+      "misconception": "Atoms are far too small to weigh in everyday units like kilograms — the atomic mass unit is a special scale just for particles this tiny."
+    },
+    {
+      "id": "atomic-mass-q-weight",
+      "conceptId": "atomic-mass-protons-neutrons",
+      "hotspotId": "hs-proton-neutron-weight",
+      "prompt": "What makes up nearly all of an atom's mass?",
+      "options": [
+        "Its protons and neutrons",
+        "Its electrons",
+        "Its shells",
+        "Its empty space"
+      ],
+      "correctIndex": 0,
+      "explanation": "Protons and neutrons each weigh about 1 amu and make up nearly all of an atom's mass. Electrons are far too light to matter here.",
+      "misconception": "Electrons are the famous moving particles, but they weigh about 1/1836 of a proton — nearly all the mass sits in the protons and neutrons."
+    },
+    {
+      "id": "atomic-mass-q-average",
+      "conceptId": "atomic-mass-is-average",
+      "hotspotId": "hs-atomic-mass",
+      "prompt": "Why is carbon's atomic mass 12.011 instead of exactly 12?",
+      "options": [
+        "It is a weighted average of carbon's isotopes",
+        "Carbon atoms are broken and lose mass",
+        "The scale is incorrectly calibrated",
+        "Carbon has extra electrons that add weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon's atomic mass is a weighted average of all its naturally occurring isotopes — mostly carbon-12 with small amounts of heavier carbon-13 and -14.",
+      "misconception": "Atoms never lose or gain mass in chemistry, and electrons are far too light to shift a mass number — the decimal comes purely from mixing isotopes."
+    },
+    {
+      "id": "atomic-mass-q-vs-number",
+      "conceptId": "atomic-mass-is-average",
+      "hotspotId": "hs-atomic-mass",
+      "prompt": "Which statement correctly tells the two numbers apart?",
+      "options": [
+        "Atomic number names the element; atomic mass describes average weight",
+        "Atomic mass names the element; atomic number describes weight",
+        "They are two names for the same number",
+        "Both count only neutrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The atomic number is the proton count that identifies the element; the atomic mass is the average weight of its atoms including neutrons.",
+      "misconception": "They sound similar and sit side by side on the card, but they measure different things — identity versus weight — and never match."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "fungus",
+  "componentId": "fungus",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/microbiology/fungus/fungus.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/microbiology/fungus.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      3.0
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Mushroom + soil surface",
+    "Soil lifted away",
+    "Hyphae / mycelium network",
+    "Spore release",
+    "Yeast (single cell)"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-fruit",
+      "label": "Fruiting body",
+      "conceptId": "fungus-spores-reproduce",
+      "position": [
+        0.15,
+        0.5,
+        0.18
+      ],
+      "description": "The mushroom part above ground - the reproductive spore-producing body of the fungus.",
+      "positionHint": "The mushroom cap and stalk standing above the soil.",
+      "color": "#D98A6A",
+      "function": "Makes and releases the spores."
+    },
+    {
+      "id": "hs-mycelium",
+      "label": "Mycelium",
+      "conceptId": "hyphae-mycelium",
+      "position": [
+        -0.15,
+        -0.2,
+        0.2
+      ],
+      "description": "The weblike network of fine threads under the soil - the main body of the fungus.",
+      "positionHint": "The network of fine threads spread under the lifted soil.",
+      "color": "#B5846A",
+      "function": "Absorbs food from the soil."
+    },
+    {
+      "id": "hs-hyphae",
+      "label": "Hypha (thread)",
+      "conceptId": "hyphae-mycelium",
+      "position": [
+        -0.3,
+        -0.25,
+        0.2
+      ],
+      "description": "A single thin thread of the fungus that makes up the mycelium network.",
+      "positionHint": "One long thin line branching in the web.",
+      "color": "#7FA874",
+      "function": "Single tube of the fungus that spreads and absorbs."
+    },
+    {
+      "id": "hs-spores",
+      "label": "Spores",
+      "conceptId": "fungus-spores-reproduce",
+      "position": [
+        0.35,
+        0.55,
+        0.18
+      ],
+      "description": "Tiny reproductive specks a fungus releases that grow into new fungi.",
+      "positionHint": "Small dots drifting away from beneath the mushroom cap.",
+      "color": "#D9A441",
+      "function": "Spread to grow new fungi."
+    },
+    {
+      "id": "hs-yeast",
+      "label": "Yeast (single cell)",
+      "conceptId": "hyphae-mycelium",
+      "position": [
+        0.4,
+        -0.35,
+        0.2
+      ],
+      "description": "A separate tiny single-celled fungus, like yeast used to make bread rise.",
+      "positionHint": "A small separate cell placed apart from the mushroom for clarity.",
+      "color": "#6B85A8",
+      "function": "A single-celled form of fungus."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A calm diorama - a clean mushroom over parted warm soil with a muted under-mycelium web. Warm cream, muted earth tones, no gamey glow. Strong saturated color reserved for the small hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.55-0.65. No emissive.",
+  "assetBrief": "SUBJECT: a cross-view diorama, a clean stylized mushroom standing over a patched soil, with the soil partially lifted to reveal a netted web of fine hyphae (the mycelium) underneath. Tiny spore specks drift from under the cap. A separate small oval marks yeast. Named nodes: Mushroom, MyceliumWeb, Hypha, SporeDots, YeastCell. Budget 12-16k.",
+  "visual": {
+    "shape": "fungus-cap"
+  }
+}

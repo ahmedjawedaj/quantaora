@@ -1,0 +1,60 @@
+{
+  "componentId": "gravity-comparison",
+  "terms": [
+    {
+      "term": "Mass",
+      "conceptId": "mass-never-changes",
+      "hotspotId": "hs-mass-weight-note",
+      "definition": "The amount of matter in your body — the same number everywhere in the universe.",
+      "function": "Stays constant across all platforms; it is the 'stuff' of you, independent of any planet.",
+      "whereItIs": "The number on the mass/weight card that never changes as the astronaut hops platforms.",
+      "whyItMatters": "Confusing mass with weight is the most common gravity error — mass is a property of you, weight is a force between you and a world.",
+      "relatedConcept": "weight-depends-on-gravity",
+      "quizId": "gravcmp-q-mass"
+    },
+    {
+      "term": "Weight",
+      "conceptId": "weight-depends-on-gravity",
+      "hotspotId": "hs-earth-scale",
+      "definition": "The force of gravity pulling on your mass — it changes with the world you're on.",
+      "function": "Determines the scale readout on each platform: mass × local gravity.",
+      "whereItIs": "The floating readout panel that updates as the astronaut moves from platform to platform.",
+      "whyItMatters": "Weight is why the same astronaut can feel light on the Moon and heavy on Jupiter.",
+      "relatedConcept": "mass-never-changes",
+      "quizId": "gravcmp-q-define"
+    },
+    {
+      "term": "Surface gravity",
+      "conceptId": "weight-depends-on-gravity",
+      "hotspotId": "hs-jupiter-scale",
+      "definition": "How strongly a world pulls on objects at its surface, written as a multiple of Earth's (1 g).",
+      "function": "Sets the platform labels: Moon 0.17 g, Mars 0.38 g, Earth 1 g, Saturn 1.07 g, Jupiter 2.5 g.",
+      "whereItIs": "The label plane under each platform sphere in the row.",
+      "whyItMatters": "Surface gravity depends on both mass and radius — the two together explain every number in the row.",
+      "relatedConcept": "jupiter-gravity-strongest",
+      "quizId": "gravcmp-q-most"
+    },
+    {
+      "term": "Density",
+      "conceptId": "saturn-gravity-surprise",
+      "hotspotId": "hs-saturn-scale",
+      "definition": "How much mass is packed into a given volume; Saturn is far less dense than Earth.",
+      "function": "Explains the Saturn surprise: low density plus a huge radius leaves surface gravity almost equal to Earth's.",
+      "whereItIs": "Referenced by the note tag on the Saturn platform.",
+      "whyItMatters": "Density is the missing ingredient that stops 'biggest = heaviest' from being true in space.",
+      "relatedConcept": "jupiter-gravity-strongest",
+      "quizId": "gravcmp-q-saturn"
+    },
+    {
+      "term": "The Moon",
+      "conceptId": "moon-gravity-one-sixth",
+      "hotspotId": "hs-moon-scale",
+      "definition": "Earth's natural satellite, with surface gravity about one sixth of Earth's.",
+      "function": "Serves as the row's weakest-gravity reference — 0.17 g.",
+      "whereItIs": "The leftmost platform, grey sphere.",
+      "whyItMatters": "Apollo astronauts' famous bouncy moonwalk is pure gravity math: same mass, one sixth the weight.",
+      "relatedConcept": "weight-depends-on-gravity",
+      "quizId": "gravcmp-q-moon"
+    }
+  ]
+}

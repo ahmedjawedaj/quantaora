@@ -1,0 +1,65 @@
+{
+  "componentId": "conservation-of-mass",
+  "questions": [
+    {
+      "id": "mass-q-law",
+      "conceptId": "mass-conserved-in-reactions",
+      "hotspotId": "hs-mass-scales",
+      "prompt": "What does the law of conservation of mass say?",
+      "options": [
+        "Matter is never created or destroyed in a chemical reaction",
+        "Matter appears when a reaction runs",
+        "Matter always becomes lighter in reactions",
+        "Only some reactions conserve matter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The law says matter is never created or destroyed — it is only rearranged.",
+      "misconception": "Matter never appears or disappears in any chemical reaction — the atoms always carry through from start to finish."
+    },
+    {
+      "id": "mass-q-ash",
+      "conceptId": "mass-conserved-in-reactions",
+      "hotspotId": "hs-mass-scales",
+      "prompt": "A log burns to ash that looks lighter than the log. Where did the mass go?",
+      "options": [
+        "It went into the smoke and gases — the atoms were rearranged, not destroyed",
+        "It disappeared into nothing",
+        "The fire destroyed the atoms",
+        "The ash is lighter because atoms shrink"
+      ],
+      "correctIndex": 0,
+      "explanation": "The log's atoms became ash, smoke, and gases — if you weighed ALL the products, the mass would match.",
+      "misconception": "Atoms are never destroyed and never shrink — the 'missing' mass simply left as smoke and gases that you did not collect."
+    },
+    {
+      "id": "mass-q-equal",
+      "conceptId": "same-mass-in-out",
+      "hotspotId": "hs-mass-count",
+      "prompt": "How does the total mass of the products compare to the total mass of the reactants?",
+      "options": [
+        "It is exactly equal",
+        "Products are always heavier",
+        "Products are always lighter",
+        "It depends on the color"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the same atoms are present throughout, the product mass equals the reactant mass exactly.",
+      "misconception": "The mass can never differ — the products are the same atoms rearranged, so the total weight is identical."
+    },
+    {
+      "id": "mass-q-why",
+      "conceptId": "atoms-rearranged-not-created",
+      "hotspotId": "hs-mass-rearrange",
+      "prompt": "Why must chemical equations be balanced?",
+      "options": [
+        "Because the same atoms must appear on both sides — conservation of mass",
+        "To make them look nicer",
+        "Because unbalanced equations explode",
+        "It is an optional decoration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Balancing an equation reflects the law — equal atoms (and therefore equal mass) on both sides.",
+      "misconception": "Balancing is not decoration — it is a factual requirement. Unbalanced equations would claim atoms appear or vanish, which never happens."
+    }
+  ]
+}

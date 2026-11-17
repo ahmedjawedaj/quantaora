@@ -1,0 +1,80 @@
+{
+  "componentId": "milky-way",
+  "questions": [
+    {
+      "id": "mw-q-shape",
+      "conceptId": "barred-spiral-structure",
+      "hotspotId": "hs-central-bar",
+      "prompt": "What kind of galaxy is the Milky Way?",
+      "options": [
+        "A round elliptical galaxy",
+        "A barred spiral with a central bar and winding arms",
+        "An irregular cloud with no structure",
+        "A ring galaxy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Milky Way is a barred spiral: a flat spinning disk with a bright central bar and two main spiral arms, wrapped in a halo of older stars.",
+      "misconception": "From inside we never see the whirlpool shape, so believing it is an even fog of stars is natural — but surveys of the galaxy's stars and gas reveal the bar and arms clearly."
+    },
+    {
+      "id": "mw-q-sun",
+      "conceptId": "sun-position-galaxy",
+      "hotspotId": "hs-sun-position",
+      "prompt": "Where is the Sun in the Milky Way?",
+      "options": [
+        "At the exact center",
+        "About 26,000 light-years from the center, near the inner edge of a spiral arm",
+        "At the outer tip of an arm",
+        "In the halo above the disk"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sun sits roughly halfway out — about 26,000 light-years from the galactic center, riding in the Orion Arm, one of the galaxy's minor arms.",
+      "misconception": "The galaxy's center is the brightest visible place, so placing the Sun there is tempting — but the view would be rubbish anyway: the hub hides behind dust clouds from our position."
+    },
+    {
+      "id": "mw-q-band",
+      "conceptId": "why-band-in-sky",
+      "hotspotId": "hs-spiral-arm",
+      "prompt": "Why does the Milky Way look like a pale band across the sky?",
+      "options": [
+        "It is a cloud of gas close to Earth",
+        "We see the galaxy's disk edge-on from inside — countless faint stars blur together",
+        "It is light leaking from the galaxy's core only",
+        "It is a reflection of the Moon"
+      ],
+      "correctIndex": 1,
+      "explanation": "From inside the disk, looking along the flat plane of the galaxy, the light of billions of dim stars overlaps into one pale river of light that circles the whole sky.",
+      "misconception": "A 'band' suggests a rare shape — but the plane of the galaxy is a giant flat circle, and from inside, its rim is visible in every direction at once, exactly like standing inside a spinning hula hoop."
+    },
+    {
+      "id": "mw-q-rotation",
+      "conceptId": "galactic-rotation",
+      "hotspotId": "hs-spiral-arm",
+      "prompt": "How long does the Sun take to travel once around the galaxy?",
+      "options": [
+        "One year, like its orbit around Earth",
+        "About 230 million years — one 'galactic year'",
+        "A thousand years",
+        "About 100,000 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "At the Sun's distance, one orbit of the galaxy takes roughly 230 million years — a scale so huge that the galaxy has spun only about 20 times since the Sun formed.",
+      "misconception": "Solar-system orbits are years; but the circle the Sun rides is 25 million times wider, so the 'year' stretches to 230 million Earth-years."
+    },
+    {
+      "id": "mw-q-halo",
+      "conceptId": "galactic-disk-and-halo",
+      "hotspotId": "hs-galactic-halo",
+      "prompt": "What sits in the Milky Way's halo?",
+      "options": [
+        "Millions of newborn stars in arms",
+        "Old globular clusters and faint stars, sparsely spread",
+        "The supermassive black hole",
+        "The Sun and planets"
+      ],
+      "correctIndex": 1,
+      "explanation": "Around and below the flat disk, the halo holds some of the galaxy's oldest objects — globular clusters and individual old stars — in a faint, sprawling sphere.",
+      "misconception": "Galaxy = disk is the instinct; but the halo is the proof that the galaxy spans a sphere of dark matter beyond the seen disk."
+    }
+  ]
+}

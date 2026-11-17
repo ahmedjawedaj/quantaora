@@ -1,0 +1,113 @@
+{
+  "id": "allele",
+  "subject": "biology",
+  "title": "Allele",
+  "summary": "An allele is one version of a gene — the specific answer a chromosome carries at a given location (locus) for a trait like flower color or eye color. Explore a matched pair of chromosomes, see how a dominant allele can mask a recessive one, and toggle between homozygous and heterozygous pairings to see why offspring don't look exactly like either parent.",
+  "gradeMin": 5,
+  "gradeMax": 9,
+  "skillIds": [
+    "allele",
+    "gene",
+    "locus",
+    "dominant-allele",
+    "recessive-allele",
+    "homozygous-pairing",
+    "heterozygous-pairing",
+    "genotype",
+    "phenotype"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "Heredity & Inheritance",
+    "systemOrGroup": "Genes and Alleles",
+    "component": "Allele",
+    "displayPath": "Biology > Genetics > Heredity & Inheritance > Allele"
+  },
+  "crossReferences": [
+    {
+      "label": "Gene (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "Gene",
+      "note": "A gene is the whole instruction (e.g. 'flower color'); an allele is one specific version of that instruction. This component's 'Compare it' step pairs directly with the Gene component."
+    },
+    {
+      "label": "Chromosome (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "Chromosome",
+      "note": "Alleles physically sit at a locus on a chromosome — the Chromosome component covers the structure that carries the locus this component zooms into."
+    },
+    {
+      "label": "Inheritance (Genetics process)",
+      "branch": "genetics",
+      "process": "Inheritance",
+      "note": "How alleles pass from parent to offspring, one per parent per gene, is expanded as a full process in the genetics branch."
+    },
+    {
+      "label": "Punnett squares (Genetics process)",
+      "branch": "genetics",
+      "process": "Punnett squares",
+      "note": "The dominant/recessive, homozygous/heterozygous vocabulary introduced here is the foundation for reading and building Punnett squares in that process module."
+    }
+  ],
+  "belongsTo": "Genetics > Chromosome > Locus > Allele",
+  "belongsToNote": "Physically, an allele sits at a specific locus (location) on a chromosome, which sits inside the nucleus, inside the cell — that's its place in the structural hierarchy. Categorically, an allele is not a separate layer 'inside' a gene; it IS one version of the gene. Both statements are true at once: 'where it sits' is locus-on-chromosome, 'what it is' is version-of-gene. See compareCandidate below for the version-of relationship in detail.",
+  "compareCandidate": {
+    "label": "Allele vs. Gene",
+    "description": "A gene is the whole question a chromosome asks (e.g. 'what color should the flower be?'). An allele is one possible answer to that question (e.g. 'purple' or 'white'). Every organism has exactly one gene for a given trait at a given locus, but that gene can exist as many different alleles across a population — while any single organism carries only two of those possible alleles at a time, one per chromosome copy."
+  },
+  "parts": [
+    "Dominant allele",
+    "Recessive allele",
+    "Homozygous pairing",
+    "Heterozygous pairing"
+  ],
+  "processes": [
+    "Inheritance",
+    "Punnett squares",
+    "DNA replication",
+    "Meiosis"
+  ],
+  "plainLanguageExplanation": "Think of a gene as a question your body needs answered — like 'what color should the flower be?' An allele is one possible answer to that question. Every gene in your body comes in a pair (one copy from your mom, one from your dad, for genes on non-sex chromosomes), and each copy can be a different version, or allele, of that gene. So if the gene is 'flower color,' one allele might be the instruction for 'purple' and the other allele might say 'white.' Alleles are a big part of why offspring look like a blend of their parents but never an exact copy of either one — you get one allele from each parent, shuffled together like a deck of cards.",
+  "keyFacts": [
+    { "label": "What it is", "value": "One of two or more alternative versions of the same gene, located at the same spot (locus) on matching chromosomes" },
+    { "label": "Where it lives", "value": "On chromosomes, inside the nucleus of nearly every cell" },
+    { "label": "How many you have per gene", "value": "For genes on non-sex chromosomes, two — one inherited from the biological mother, one from the biological father. Genes on the sex chromosomes are an exception: for example, a person with one X and one Y chromosome has only a single copy of most X-linked genes." },
+    { "label": "Dominant vs. recessive", "value": "A dominant allele's trait shows up even with just one copy; a recessive allele's trait only shows up when both copies are recessive" },
+    { "label": "Notation", "value": "Scientists write dominant alleles with a capital letter (e.g., P) and recessive alleles with a lowercase letter (e.g., p)" },
+    { "label": "Discoverer", "value": "The pattern of inherited traits was first worked out by Gregor Mendel in the 1860s using pea plants, decades before genes or DNA were understood" }
+  ],
+  "whyItMatters": "Alleles explain why you have some traits like your parents and others totally different, why two purple-flowered pea plants can produce a white-flowered offspring, and why family traits like curly hair or a widow's peak seem to skip a generation. Understanding alleles is also the foundation for understanding inherited conditions, why doctors ask about family medical history, why selective breeding works in crops and pets, and how traits spread or disappear in populations over time.",
+  "simulationSpec": {
+    "id": "allele-tile-drag",
+    "subject": "biology",
+    "title": "Allele Tile Drag — Genotype to Phenotype",
+    "description": "Backs the lesson's 'Touch it' step and predictionPrompt. Learner drags allele tiles into the two open chromosome slots at a single locus and sees the resulting genotype and phenotype update live. Runs the same pea-flower-color trait used in predictionPrompt, practiceItem, and checkpoint so the learner builds fluency on one example before the quiz generalizes to new traits.",
+    "traitExample": {
+      "gene": "Flower color",
+      "dominantAllele": { "symbol": "P", "label": "Purple", "tileColor": "dominant (terracotta)" },
+      "recessiveAllele": { "symbol": "p", "label": "White", "tileColor": "recessive (sand)" }
+    },
+    "variables": [
+      { "id": "slotAAllele", "type": "enum", "options": ["P", "p"], "description": "Allele tile placed in chromosome A's locus slot" },
+      { "id": "slotBAllele", "type": "enum", "options": ["P", "p"], "description": "Allele tile placed in chromosome B's locus slot" }
+    ],
+    "outputs": [
+      { "id": "genotype", "type": "string", "description": "Concatenation of the two slotted alleles in dominant-first order, e.g. 'Pp', 'PP', 'pp'" },
+      { "id": "phenotype", "type": "string", "description": "Purple if at least one P allele is present; white only if both slots are p" },
+      { "id": "pairingLabel", "type": "enum", "options": ["Homozygous", "Heterozygous"], "description": "Homozygous when both slotted alleles match, Heterozygous when they differ" }
+    ],
+    "initialState": { "slotAAllele": "P", "slotBAllele": "p" },
+    "stepLogic": "On every tile-drop into a slot: (1) update slotAAllele/slotBAllele to the dropped tile's symbol, (2) recompute genotype by reading both slots dominant-letter-first, (3) recompute phenotype = 'Purple' if either slot is 'P', else 'White', (4) recompute pairingLabel = 'Homozygous' if slotAAllele === slotBAllele else 'Heterozygous', (5) tween the connector/bracket label and any slot highlight over 200-300ms to reflect the new pairingLabel, matching the model-metadata.json state-swap behavior for the Homozygous/Heterozygous hotspots.",
+    "note": "This is the authored simulation spec for this component in lieu of a standalone simulation.ts file; a future implementation pass should translate stepLogic into an actual step() function against the SimulationDefinition shape (spec §22)."
+  },
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

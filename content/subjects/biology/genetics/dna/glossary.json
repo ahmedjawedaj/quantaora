@@ -1,0 +1,86 @@
+{
+  "componentId": "dna",
+  "terms": [
+    {
+      "term": "Double helix",
+      "conceptId": "double-helix",
+      "hotspotId": "hotspot-double-helix",
+      "definition": "The twisted, spiral-staircase shape formed by two DNA strands winding around each other.",
+      "function": "Lets two long complementary strands pack tightly and protect the base-pair sequence inside, while still allowing the molecule to unzip for copying and reading.",
+      "whereItIs": "The overall shape of the whole DNA model, visible along the outer curve of either strand.",
+      "whyItMatters": "The 3D twist is what lets an enormous length of DNA fit inside a nucleus far too small to see.",
+      "relatedConcept": "backbone",
+      "quizId": "dna-q-double-helix"
+    },
+    {
+      "term": "Base pair",
+      "conceptId": "base-pairs",
+      "hotspotId": "hotspot-base-pairs",
+      "definition": "Two bases on opposite DNA strands that bond together — always A with T, or C with G.",
+      "function": "Holds the two strands together across the central axis and encodes the actual genetic information, via a fixed pairing rule that lets one strand template the other.",
+      "whereItIs": "The 'rungs' of the ladder, running the full height of the helix.",
+      "whyItMatters": "This is the part of DNA that actually carries information — the order of base pairs spells out genes.",
+      "relatedConcept": "genes",
+      "quizId": "dna-q-base-pairs"
+    },
+    {
+      "term": "Sugar-phosphate backbone",
+      "conceptId": "backbone",
+      "hotspotId": "hotspot-backbone",
+      "definition": "The two outer rails of the DNA ladder, built from repeating sugar and phosphate molecules.",
+      "function": "Provides the structural rail that holds every base pair in place and gives each strand a consistent direction — it does not carry the genetic code itself.",
+      "whereItIs": "The two continuous outer strands running the full height of the helix.",
+      "whyItMatters": "Without the backbone, the base pairs would have nothing to anchor them into a stable, copyable molecule.",
+      "relatedConcept": "double-helix",
+      "quizId": "dna-q-backbone"
+    },
+    {
+      "term": "Gene",
+      "conceptId": "genes",
+      "hotspotId": "hotspot-genes",
+      "definition": "A specific segment of DNA sequence that contains the instructions for a particular protein or trait.",
+      "function": "Acts as a readable unit: the order of base pairs within a gene is transcribed into RNA and then translated into a protein.",
+      "whereItIs": "A contiguous run of consecutive base pairs along the strand; this model highlights one example region in the upper third of the helix.",
+      "whyItMatters": "Genes are the functional 'sentences' inside the DNA 'book' — inheritance, mutation, and traits all happen at the level of individual genes.",
+      "relatedConcept": "base-pairs",
+      "quizId": "dna-q-genes"
+    },
+    {
+      "term": "DNA location (nucleus)",
+      "conceptId": "dna-location",
+      "definition": "Where DNA is physically housed inside a cell: tightly coiled within the nucleus.",
+      "function": "Keeping DNA contained inside the nucleus protects it and separates the master copy of the genetic code from the rest of the cell's machinery.",
+      "whereItIs": "Inside the nucleus of almost every human cell (mature red blood cells are an exception — they lose their nucleus).",
+      "whyItMatters": "Understanding DNA's location explains why messenger RNA has to physically travel out of the nucleus to reach the ribosomes that build proteins.",
+      "relatedConcept": "double-helix",
+      "quizId": "dna-q-location"
+    },
+    {
+      "term": "Nucleotide",
+      "conceptId": "nucleotide",
+      "definition": "The basic building block of DNA, made of a sugar, a phosphate, and one of four bases (A, T, C, or G).",
+      "function": "Nucleotides link together in long chains to form each DNA strand; the sequence of their bases is what encodes genetic information.",
+      "whereItIs": "Every position along both DNA strands — each backbone segment plus its attached base is one nucleotide.",
+      "whyItMatters": "DNA is often described as a 'chain of nucleotides' — understanding this building block explains both the backbone (sugar+phosphate) and the base pairs (the base) in one concept.",
+      "relatedConcept": "base-pairs"
+    },
+    {
+      "term": "Chromosome",
+      "conceptId": "chromosome",
+      "definition": "A tightly coiled package of DNA; humans typically have 23 pairs inside most cell nuclei.",
+      "function": "Organizes and protects an entire long DNA molecule by coiling it around proteins into a compact, manageable structure that can be copied and divided evenly during cell division.",
+      "whereItIs": "Inside the nucleus, most visible as X-shaped structures right before a cell divides.",
+      "whyItMatters": "Chromosome count and structure are how doctors detect certain genetic conditions (for example, an extra copy of chromosome 21 causes Down syndrome).",
+      "relatedConcept": "genes"
+    },
+    {
+      "term": "Complementary strands",
+      "conceptId": "complementary-strands",
+      "definition": "The two strands of a DNA molecule, which mirror each other exactly because of the fixed A-T / C-G pairing rule.",
+      "function": "Lets either strand act as a template to rebuild the other, which is the basis of how DNA copies itself before a cell divides.",
+      "whereItIs": "Both backbone strands together, considered as a matched pair across every base-pair rung.",
+      "whyItMatters": "Complementary strands are why a lab can determine an unknown DNA sequence just by reading its partner strand.",
+      "relatedConcept": "base-pairs"
+    }
+  ]
+}

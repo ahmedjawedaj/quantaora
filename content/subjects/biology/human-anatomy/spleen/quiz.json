@@ -1,0 +1,65 @@
+{
+  "componentId": "spleen",
+  "questions": [
+    {
+      "id": "spl-q-filter",
+      "conceptId": "filters-blood",
+      "hotspotId": "hs-filter-tissue",
+      "prompt": "What is one main job of the spleen?",
+      "options": [
+        "Filter the blood and recycle old red blood cells",
+        "Pump blood around the body",
+        "Digest food",
+        "Store urine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spleen filters the blood, catching and recycling old or damaged red blood cells.",
+      "misconception": "Pumping blood is the heart - the spleen's job is filtering and recycling blood cells."
+    },
+    {
+      "id": "spl-q-recycle",
+      "conceptId": "recycles-red-cells",
+      "hotspotId": "hs-filter-tissue",
+      "prompt": "When the spleen recycles old red blood cells, what useful material is salvaged?",
+      "options": [
+        "Iron",
+        "Water",
+        "Oxygen only",
+        "Bone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spleen breaks down old red blood cells and salvages the iron, which the body uses to build new cells.",
+      "misconception": "Iron is the key ingredient being recycled - it is reused to make fresh red blood cells."
+    },
+    {
+      "id": "spl-q-immune",
+      "conceptId": "immune-checkpoint",
+      "hotspotId": "hs-immune",
+      "prompt": "How does the spleen help the immune system?",
+      "options": [
+        "White blood cells there spot and fight germs in the blood",
+        "It makes bone marrow",
+        "It stores memories",
+        "It makes oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "White blood cells in the spleen monitor the passing blood and respond to germs, acting as an immune checkpoint.",
+      "misconception": "The spleen doesn't make bone marrow or oxygen - its immune role is monitoring the blood for germs."
+    },
+    {
+      "id": "spl-q-store",
+      "conceptId": "stores-blood-cells",
+      "hotspotId": "hs-store",
+      "prompt": "Why does the spleen store blood cells?",
+      "options": [
+        "So they are ready if the body needs them",
+        "To keep them from the heart",
+        "To make them older",
+        "To turn them to bone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spleen stores some blood cells and platelets, releasing them when the body needs extra.",
+      "misconception": "Storage here is for emergencies, not aging or transforming the cells."
+    }
+  ]
+}

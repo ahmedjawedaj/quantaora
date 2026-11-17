@@ -1,0 +1,89 @@
+{
+  "id": "force",
+  "subject": "physics",
+  "title": "Force",
+  "summary": "A force is a push or a pull — the thing that starts, stops, or turns a pickup — like your foot to a ball (a 20 N kick). Forces are vectors drawn as arrows. Balance the arrows and nothing changes; tip the balance and the object accelerates. Explore how tiny pushes and giant pulls both read in newtons (N).",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "force-push-pull",
+    "force-newton-unit",
+    "force-vector",
+    "force-net-force"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Forces",
+    "systemOrGroup": "Forces",
+    "component": "Force",
+    "displayPath": "Physics > Mechanics > Forces > Forces > Force"
+  },
+  "crossReferences": [
+    {
+      "label": "Mass (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Mass",
+      "note": "The same force moves heavy objects differently than light ones — that link is Newton's second law, explored with Mass and Force together."
+    },
+    {
+      "label": "Acceleration (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Acceleration",
+      "note": "An unbalanced net force is what causes acceleration — force and acceleration are cause and effect."
+    },
+    {
+      "label": "Friction (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Friction",
+      "note": "Friction is a force between surfaces that often works opposite to your push, stealing some of your applied force."
+    }
+  ],
+  "belongsTo": "Mechanics > Forces > Forces",
+  "compareCandidate": {
+    "label": "Force vs. momentum",
+    "description": "A force is a push or pull applied right now; momentum is how much motion an object already has. Forces change momentum — that's exactly what Newton's second law says."
+  },
+  "parts": [
+    "The pushing or pulling agent",
+    "The object being pushed or pulled",
+    "The force arrow (showing size in N and direction)",
+    "The scale that measures the newtons"
+  ],
+  "processes": [
+    "Describing a force as a push or a pull",
+    "Measuring force magnitude in newtons (N)",
+    "Adding forces tip-to-tail into a net force",
+    "Using balanced vs. unbalanced forces to predict motion"
+  ],
+  "plainLanguageExplanation": "A force is just a push or a pull — the simplest idea in physics. Your hand pushes a door (push), a magnet pulls a pin (pull), gravity pulls everything down (pull). Every force has a size, measured in newtons (N), and a direction; so a force is a vector — you draw it as an arrow, long for big forces, pointing the way it acts. The trick that matters most is balance: if every force on an object cancels, the net force is zero and the object keeps doing what it's doing (rest or steady motion). The moment the forces don't cancel — like a tug-of-war one side pulls harder — a net force shows up, and only then does the object accelerate. In the model you tug on a box with two forces at once and watch the arrow algebra: two 10 N pushes on opposite sides come to 0 N net; two pulls the same way sum to 20 N. Everything about force — the unit, the arrows, the balance — is ready for Newton's second law (F = ma) right afterward.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A push or a pull acting on an object" },
+    { "label": "Unit", "value": "Newton (N)" },
+    { "label": "Vector", "value": "Has a size AND a direction; drawn as an arrow" },
+    { "label": "Balanced forces", "value": "They cancel to zero net force — no change in motion" },
+    { "label": "Unbalanced forces", "value": "A leftover net force — the object accelerates" },
+    { "label": "Newton's second law", "value": "net force = mass × acceleration (F = ma)" }
+  ],
+  "whyItMatters": "Force is the everyday word full of physics: catching a ball uses a force, a rocket needs forces, and every machine — from a bicycle to a crane — is designed around pushes and pulls measured in newtons. Balancing forces is how engineers keep a bridge standing and how a feather and a brick hit the ground together when air is removed. Understanding forces unlocks the rest of mechanics (acceleration, momentum) and even chemistry; it is the single concept most present in your daily life.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Force",
+  "tagline": "A push or a pull",
+  "didYouKnow": "The newton is the force that gives a 1 kilogram mass an acceleration of 1 m/s². So when you hold a 1-liter bottle of water still, you're pushing up with about 9.8 N — the same as the force of gravity on it.",
+  "conditions": [
+    "Pushing a trolley",
+    "Tug-of-war",
+    "Magnet pulling a nail",
+    "Spring scales at the supermarket"
+  ],
+  "compareCandidateId": "momentum",
+  "compareReason": "A force is a push/pull applied now; momentum stores the motion an object already has. Watching a box build momentum as a constant net force acts shows how they're related."
+}

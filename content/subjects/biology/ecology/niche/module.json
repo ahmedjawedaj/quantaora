@@ -1,0 +1,99 @@
+{
+  "id": "niche",
+  "subject": "biology",
+  "title": "Niche",
+  "summary": "A niche is a species' role in its ecosystem - its job and lifestyle, including what it eats, where it lives, and how it uses the environment. Explore how each species fits into the ecosystem like a piece in a puzzle.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "role-in-ecosystem",
+    "niche-what-eats-lives",
+    "no-identical-niches",
+    "habitat-address-vs-niche-role"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Niche",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Niche"
+  },
+  "crossReferences": [
+    {
+      "label": "Habitat (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Habitat",
+      "note": "The habitat is where a species lives; the niche is the role it plays there - two different ideas."
+    },
+    {
+      "label": "Producer (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Producer",
+      "note": "A plant's niche includes being a producer - making food from sunlight that feeds the rest of the ecosystem."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Niche",
+  "compareCandidate": {
+    "label": "Habitat vs. niche",
+    "description": "The habitat is the address - where the species lives. The niche is the career - the role and lifestyle: what it eats, when active, and how it makes a living there."
+  },
+  "parts": [
+    "What it eats",
+    "What eats it",
+    "When it is active",
+    "How it uses resources"
+  ],
+  "processes": [
+    "Filling a role in the ecosystem",
+    "Avoiding direct competition with other species",
+    "Using resources in a particular way"
+  ],
+  "plainLanguageExplanation": "A niche is the role a species plays in its ecosystem - its 'job.' It includes what the species eats, what eats it, when it is active (day or night), and how it uses the resources around it. For example, a honeybee's niche includes pollinating flowers, collecting nectar, and being food for some birds. Two different species cannot hold exactly the same niche in the same place for long - they compete, and one usually wins. A niche is like a species' career; the habitat is just its address.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "A species' role or 'job' in its ecosystem"
+    },
+    {
+      "label": "Includes",
+      "value": "What it eats, what eats it, when active, how it uses resources"
+    },
+    {
+      "label": "Address vs. role",
+      "value": "Habitat = where it lives (address); niche = what it does (role)"
+    },
+    {
+      "label": "Competition",
+      "value": "Two species cannot hold exactly the same niche in one place"
+    },
+    {
+      "label": "Example",
+      "value": "A bee's niche: pollinates flowers, collects nectar, feeds birds"
+    },
+    {
+      "label": "Unique fit",
+      "value": "Each species fits its ecosystem like a puzzle piece"
+    }
+  ],
+  "whyItMatters": "Niches explain how many species can share one ecosystem without crowding each other out - each has its own role. Understanding niches shows why removing one species can leave an empty role, and how competition shapes nature.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "A species' role in its ecosystem",
+  "didYouKnow": "In one forest, owls hunt at night while hawks hunt by day - different niches let them share the same habitat.",
+  "conditions": [
+    "Competitive exclusion",
+    "Specialist vs. generalist",
+    "Resource partitioning"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Niche",
+  "plain": "A niche is the role a species plays in its ecosystem - its 'job.' It includes what the species eats, what eats it, when it is active (day or night), and how it uses the resources around it. For example, a honeybee's niche includes pollinating flowers, collecting nectar, and being food for some birds. Two different species cannot hold exactly the same niche in the same place for long - they compete, and one usually wins. A niche is like a species' career; the habitat is just its address."
+}

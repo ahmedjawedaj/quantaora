@@ -1,0 +1,59 @@
+{
+  "componentId": "planet-cards",
+  "terms": [
+    {
+      "term": "Rocky world (terrestrial planet)",
+      "conceptId": "planets-sort-by-type",
+      "hotspotId": "hs-family-tag",
+      "definition": "A planet made mostly of rock and metal with a solid surface — Mercury, Venus, Earth, and Mars.",
+      "function": "Defines the inner-planet family: small, dense, and close to the Sun.",
+      "whereItIs": "Tagged over the inner four cards of the deck.",
+      "whyItMatters": "All four rocky worlds are small compared with the giant planets, which is why the family tag exists.",
+      "relatedConcept": "gas-giants-vs-rocky-worlds",
+      "quizId": "pcards-q-families"
+    },
+    {
+      "term": "Gas giant",
+      "conceptId": "gas-giants-vs-rocky-worlds",
+      "hotspotId": "hs-jupiter-card",
+      "definition": "A huge planet made mostly of hydrogen and helium with no solid surface near its clouds — Jupiter and Saturn.",
+      "function": "Marks the two largest planets as a distinct family from the rocky worlds.",
+      "whereItIs": "Tagged over the Jupiter and Saturn cards; Jupiter's card is the largest in the deck.",
+      "whyItMatters": "Gas giants hold most of the mass in the solar system outside the Sun, yet have nothing to stand on.",
+      "relatedConcept": "planets-sort-by-type",
+      "quizId": "pcards-q-gas-giant"
+    },
+    {
+      "term": "Ice giant",
+      "conceptId": "ice-giants-uranus-neptune",
+      "hotspotId": "hs-family-tag",
+      "definition": "A planet made mostly of icy materials — water, ammonia, and methane — over a rocky core: Uranus and Neptune.",
+      "function": "Separates Uranus and Neptune from the gas giants in the deck's family tags.",
+      "whereItIs": "Tagged over the Uranus and Neptune cards at the right end of the fan.",
+      "whyItMatters": "Ice giants look similar to gas giants but have a genuinely different composition, so they get their own family.",
+      "relatedConcept": "gas-giants-vs-rocky-worlds"
+    },
+    {
+      "term": "Day (rotation period)",
+      "conceptId": "day-length-per-planet",
+      "hotspotId": "hs-jupiter-card",
+      "definition": "The time a planet takes to spin once around its own axis — the length of one day on that world.",
+      "function": "Explains why day length appears as a row on every card: each planet spins at its own speed.",
+      "whereItIs": "A row on every card; Jupiter's 9.9-hour day is the shortest in the deck.",
+      "whyItMatters": "Day length is decided by spin, not by size or distance — the biggest planet has the shortest day.",
+      "relatedConcept": "year-length-per-planet",
+      "quizId": "pcards-q-fastest-day"
+    },
+    {
+      "term": "Year (orbital period)",
+      "conceptId": "year-length-per-planet",
+      "hotspotId": "hs-neptune-card",
+      "definition": "The time a planet takes to complete one full orbit of the Sun.",
+      "function": "Explains why the year row grows steadily as the deck moves outward from the Sun.",
+      "whereItIs": "A row on every card, growing from Mercury's 88 days to Neptune's ~165 Earth years.",
+      "whyItMatters": "Year length is decided by distance from the Sun — the farther a planet orbits, the longer its year.",
+      "relatedConcept": "day-length-per-planet",
+      "quizId": "pcards-q-longest-year"
+    }
+  ]
+}

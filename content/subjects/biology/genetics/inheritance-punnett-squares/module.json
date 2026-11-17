@@ -1,0 +1,92 @@
+{
+  "id": "inheritance-punnett-squares",
+  "subject": "biology",
+  "title": "Inheritance and Punnett Squares",
+  "summary": "A Punnett square is a 2x2 grid that predicts every possible allele combination two parents can pass to their offspring. Build a classic pea-plant cross, read off the resulting genotypes, and watch how those genotypes translate into a predicted ratio of visible traits.",
+  "gradeMin": 5,
+  "gradeMax": 9,
+  "skillIds": [
+    "punnett-square",
+    "genotype",
+    "phenotype",
+    "dominant-allele",
+    "recessive-allele",
+    "monohybrid-cross",
+    "genotype-ratio",
+    "phenotype-ratio",
+    "homozygous",
+    "heterozygous"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "Heredity & Inheritance",
+    "systemOrGroup": "Patterns of Inheritance",
+    "component": "Inheritance and Punnett Squares",
+    "displayPath": "Biology > Genetics > Heredity & Inheritance > Patterns of Inheritance > Inheritance and Punnett Squares"
+  },
+  "crossReferences": [
+    {
+      "label": "Allele (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "Allele",
+      "note": "The dominant/recessive, homozygous/heterozygous vocabulary this component builds a Punnett square out of is introduced in full in the Allele component."
+    },
+    {
+      "label": "Gene (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "Gene",
+      "note": "Each row/column of a Punnett square represents one parent's two alleles for a single gene; this component assumes the Gene/Allele distinction as background."
+    },
+    {
+      "label": "Trait (Genetics)",
+      "branch": "genetics",
+      "lowLevelItem": "Trait",
+      "note": "A Punnett square's phenotype ratio is a prediction about which traits will actually be observable — this component's 'Use it' step connects directly to the Trait component."
+    },
+    {
+      "label": "Meiosis (Genetics process)",
+      "branch": "genetics",
+      "process": "Meiosis",
+      "note": "Punnett squares work because meiosis separates each parent's allele pair so only one allele per gene ends up in each egg or sperm — the reason each parent contributes exactly one letter per row/column."
+    }
+  ],
+  "belongsTo": "Biology > Genetics > Heredity & Inheritance > Patterns of Inheritance > Punnett Squares",
+  "belongsToNote": "A Punnett square is not a physical structure like a chromosome or an allele — it's a diagrammatic tool geneticists use to predict outcomes within the broader system of heredity. It sits conceptually alongside the Allele and Gene components (which describe what's being inherited) as the 'how do we predict what happens when they combine' step, one level up from the parts being combined.",
+  "compareCandidate": {
+    "label": "Simple dominance vs. incomplete dominance/codominance",
+    "description": "Everything in this component uses simple dominant/recessive inheritance, where one allele fully masks the other (Rr looks identical to RR). Incomplete dominance and codominance are non-Mendelian patterns where that clean masking breaks down — in incomplete dominance the heterozygote's trait blends between the two parents (e.g. pink snapdragons from red x white parents), and in codominance both alleles show up fully and separately at once (e.g. roan cattle coats with visible patches of both red and white hair). A standard 2x2 Punnett square still works to predict the genotype ratio in both cases — only the phenotype-ratio step changes, because the genotype-to-phenotype rule is different."
+  },
+  "parts": [
+    "Parent alleles combine",
+    "Punnett square grid",
+    "Predicted genotype ratios",
+    "Predicted phenotype ratios"
+  ],
+  "processes": [
+    "Meiosis",
+    "Fertilization",
+    "Gene expression",
+    "Mutation"
+  ],
+  "plainLanguageExplanation": "Every trait an organism has — like whether a pea plant's seeds are round or wrinkled — comes from two instruction copies called alleles, one handed down from each parent. Sometimes the two copies agree, sometimes they don't. When they disagree, one version (the dominant allele) usually \"wins\" and shows up, while the other (the recessive allele) hides in the background unless it's paired with another recessive copy. A Punnett square is a simple 2x2 grid that lets you play matchmaker: you line up one parent's two alleles across the top and the other parent's two alleles down the side, then fill in each box by combining the row and column letters. The finished grid shows every possible allele combination their offspring could get, and how likely each one is — turning an invisible, chancy process into something you can see and count.",
+  "keyFacts": [
+    { "label": "Where alleles come from", "value": "Each parent contributes exactly one allele per gene, so offspring get one allele from each parent for every gene." },
+    { "label": "Dominant vs. recessive", "value": "A dominant allele (written with a capital letter) shows its trait even with just one copy present; a recessive allele (lowercase letter) only shows when both copies are recessive." },
+    { "label": "Genotype", "value": "The letter-pair combination of alleles an organism carries for a gene, e.g. RR, Rr, or rr." },
+    { "label": "Phenotype", "value": "The physical trait that a genotype produces — what you can actually observe, like round vs. wrinkled seeds." },
+    { "label": "Classic monohybrid cross result", "value": "Crossing two heterozygotes (Rr x Rr) predicts a 1:2:1 genotype ratio (RR:Rr:rr) and a 3:1 phenotype ratio (dominant trait : recessive trait)." },
+    { "label": "Historical roots", "value": "Gregor Mendel's 1860s pea plant experiments established the rules of inheritance; British geneticist Reginald Punnett later devised the grid method in the early 1900s to visualize Mendel's ratios." },
+    { "label": "Prediction, not guarantee", "value": "A Punnett square shows the probability of outcomes across many offspring — it does not determine the exact result for any single offspring." }
+  ],
+  "whyItMatters": "Punnett squares turn heredity from a mystery into math you can check. They explain everyday things kids notice — why siblings can look so different, why a trait can \"skip\" a generation and reappear, or why two brown-eyed parents can have a blue-eyed child. The same logic underlies genetic counseling, where families use inheritance patterns to understand the chance of passing on a condition; agricultural and animal breeding, where farmers predict which crosses will produce desired traits; and the broader science of evolution, since predictable inheritance is what allows traits to spread or fade in a population over generations.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

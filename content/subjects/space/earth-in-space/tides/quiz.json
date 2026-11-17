@@ -1,0 +1,75 @@
+{
+  "componentId": "tides",
+  "questions": [
+    {
+      "id": "tides-q-two-highs",
+      "conceptId": "tidal-bulges",
+      "prompt": "Why do most coastlines experience roughly two high tides a day, not one?",
+      "options": [
+        "Earth has two moons briefly each day",
+        "Earth has two tidal bulges (near and far side) and spins through both roughly every 24 hours",
+        "The Sun causes one tide and the Moon causes the other",
+        "Ocean currents reset every 12 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earth carries two tidal bulges at all times — one facing the Moon and one directly opposite it. As Earth spins, most points pass through both bulges once per rotation, producing two high tides.",
+      "misconception": "It feels like only the near-Moon side should bulge, but the far side bulges too, for a different reason (the solid Earth being pulled toward the Moon more than the far water is) — both bulges are real and simultaneous."
+    },
+    {
+      "id": "tides-q-far-bulge",
+      "conceptId": "differential-gravity",
+      "prompt": "What causes the tidal bulge on the side of Earth facing AWAY from the Moon?",
+      "options": [
+        "The Sun pulling from the opposite direction",
+        "Earth's own body being pulled toward the Moon slightly more than the far-side water is, leaving that water relatively behind",
+        "Reflected gravity bouncing off the Moon",
+        "Wind patterns caused by Earth's rotation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Moon's gravity pulls Earth's solid body (closer, on average, to the Moon) more strongly than it pulls the far-side ocean water. That difference leaves the far water \"lagging behind,\" which is exactly what a bulge on the far side looks like.",
+      "misconception": "This is the single most counterintuitive part of tides — it feels backwards that gravity pulling toward the Moon could create a bulge pointing away from it, but it's a real, well-understood effect (differential gravity)."
+    },
+    {
+      "id": "tides-q-spring-tide",
+      "conceptId": "spring-and-neap-tides",
+      "prompt": "What is a spring tide?",
+      "options": [
+        "A tide that only happens in the spring season",
+        "When the Sun and Moon are aligned, combining their pull for extra-high and extra-low tides",
+        "The very first tide of the year",
+        "A tide caused by melting snow"
+      ],
+      "correctIndex": 1,
+      "explanation": "A spring tide happens at New Moon or Full Moon, when the Sun and Moon are roughly aligned with Earth — their gravitational pulls add together, producing bigger tidal swings. The name refers to the tide \"springing up,\" not the season.",
+      "misconception": "The word \"spring\" strongly suggests the season, but spring tides happen roughly twice a month, year-round, whenever the Sun and Moon happen to align."
+    },
+    {
+      "id": "tides-q-moon-vs-sun",
+      "conceptId": "tidal-bulges",
+      "prompt": "Why does the Moon have a bigger effect on Earth's tides than the much more massive Sun?",
+      "options": [
+        "The Moon is actually more massive than the Sun",
+        "Tidal pull weakens quickly with distance, and the Moon is vastly closer to Earth than the Sun is",
+        "The Sun's gravity does not reach Earth's oceans",
+        "Only the Moon has gravity strong enough to move water"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tidal force falls off faster with distance than ordinary gravity does. The Moon is about 400 times closer to Earth than the Sun, and that closeness outweighs the Sun's much larger mass — giving the Moon roughly twice the Sun's tidal effect.",
+      "misconception": "Mass alone would suggest the Sun should dominate everything gravitational, but tides specifically depend on how much gravity *changes* across Earth's width — and that change is much bigger for the closer Moon."
+    },
+    {
+      "id": "tides-q-neap-tide",
+      "conceptId": "spring-and-neap-tides",
+      "prompt": "What is a neap tide?",
+      "options": [
+        "When the Sun and Moon are at right angles to Earth, so their pulls partly cancel, giving milder tides",
+        "The strongest tide of the month",
+        "A tide that only occurs during a lunar eclipse",
+        "A tide caused only by wind, not gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "A neap tide happens at the quarter-moon phases, when the Sun and Moon pull from roughly right angles to each other. Their pulls partly cancel out, so the difference between high and low tide is smaller than usual.",
+      "misconception": "Spring and neap tides are easy to mix up because both are named for the Sun-Moon relationship — spring tides (aligned pulls) are the strong ones; neap tides (right-angle pulls) are the mild ones."
+    }
+  ]
+}

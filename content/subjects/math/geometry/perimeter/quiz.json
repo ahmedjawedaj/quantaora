@@ -1,0 +1,80 @@
+{
+  "componentId": "perimeter",
+  "questions": [
+    {
+      "id": "perimeter-def",
+      "conceptId": "perimeter-definition",
+      "hotspotId": "hs-perimeter-outline",
+      "prompt": "What is perimeter?",
+      "options": [
+        "The total distance around a shape",
+        "The surface a shape covers",
+        "The space inside a shape",
+        "The height of a shape"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perimeter is the length of a shape's outline — all sides added.",
+      "misconception": "Surface and space inside describe area — perimeter is the distance walked around the edge."
+    },
+    {
+      "id": "perimeter-add",
+      "conceptId": "perimeter-add",
+      "hotspotId": "hs-side",
+      "prompt": "What is the perimeter of a triangle with sides 3, 4, and 5?",
+      "options": [
+        "12",
+        "60",
+        "7",
+        "15"
+      ],
+      "correctIndex": 0,
+      "explanation": "Add all three sides: 3 + 4 + 5 = 12.",
+      "misconception": "Perimeter is a sum, not a product — 3 × 4 × 5 = 60 would be wrong; you walk the outline adding each side."
+    },
+    {
+      "id": "perimeter-rectangle",
+      "conceptId": "perimeter-polygon",
+      "hotspotId": "hs-side",
+      "prompt": "A rectangle is 5 cm long and 2 cm wide. Its perimeter is...",
+      "options": [
+        "14 cm",
+        "10 cm",
+        "7 cm",
+        "20 cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two lengths and two widths: 5 + 2 + 5 + 2 = 14 cm.",
+      "misconception": "You must count all four sides — 5 + 2 = 7 only covers one length and one width, missing the other two."
+    },
+    {
+      "id": "perimeter-missing",
+      "conceptId": "perimeter-polygon",
+      "hotspotId": "hs-walker",
+      "prompt": "A pentagon has perimeter 20 and four sides of 4, 3, 2, 4. The fifth side is...",
+      "options": [
+        "7",
+        "13",
+        "20",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract known sides: 20 − (4 + 3 + 2 + 4) = 20 − 13 = 7.",
+      "misconception": "The perimeter is the whole walk — the missing side is what is left after the known sides, not any of the other totals."
+    },
+    {
+      "id": "perimeter-vs-area",
+      "conceptId": "perimeter-real",
+      "hotspotId": "hs-perimeter-outline",
+      "prompt": "Which job needs PERIMETER, not area?",
+      "options": [
+        "Buying fence for a yard",
+        "Buying carpet for a floor",
+        "Buying paint for a wall",
+        "Buying grass seed for a lawn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fencing wraps the edge — it needs the outline distance, the perimeter.",
+      "misconception": "Carpet, paint, and seed COVER a surface — those are area jobs; fencing encircles, which is perimeter."
+    }
+  ]
+}

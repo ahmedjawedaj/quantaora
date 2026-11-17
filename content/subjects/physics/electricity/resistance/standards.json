@@ -1,0 +1,26 @@
+{
+  "componentId": "resistance",
+  "standards": [
+    {
+      "standardId": "MS-PS2-5",
+      "standard": "Electric Forces and Fields",
+      "description": "Objects that interact electrically push or pull; resistance modifies the resulting current.",
+      "level": "support",
+      "traceDetail": "The drag of resistance changes the current pushed by the fixed voltage."
+    },
+    {
+      "standardId": "4-PS3-2",
+      "standard": "Energy Transfer",
+      "description": "Energy transferred by electric currents is affected by the path and material.",
+      "level": "primary",
+      "traceDetail": "Longer path and worse conductor dim the bulb, showing reduced energy transfer rate."
+    },
+    {
+      "standardId": "HS-PS2-5",
+      "standard": "Circuits and Ohm's Law",
+      "description": "Current relates to potential difference and resistance; Ohm's law quantifies the relation.",
+      "level": "primary",
+      "traceDetail": "Ammeter = voltage ÷ ohms visible as the block slides."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "subject": "space",
+  "name": "Space and Solar System",
+  "hierarchy": "Subject > Branch > Unit > System/Group > Component > Structure/Variable/Rule > Micro-skill",
+  "mvpModule": {
+    "id": "orbit-sandbox",
+    "title": "Orbit Sandbox",
+    "branch": "solar-system",
+    "skills": ["gravity", "orbit", "mass", "distance", "period", "solar-system-scale"],
+    "interactions": ["Change planet mass", "Change orbital distance", "Run orbit", "Compare inner and outer planets", "Simulate eclipse or seasons as later extension"]
+  },
+  "branches": [
+    {
+      "id": "solar-system",
+      "name": "Solar System",
+      "detailed": true,
+      "star": ["Sun"],
+      "planets": ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
+      "dwarfPlanets": ["Pluto", "Ceres", "Eris", "Haumea", "Makemake"],
+      "moons": ["Moon", "Phobos", "Deimos", "Europa", "Ganymede", "Callisto", "Io", "Titan", "Enceladus", "Triton"],
+      "otherObjects": ["Asteroid belt", "Kuiper belt", "Oort cloud", "Comets", "Meteoroids", "Rings"],
+      "planetItemTemplate": ["3D model", "Rotation", "Orbit path", "Size", "Mass", "Gravity", "Atmosphere", "Temperature", "Day length", "Year length", "Moons", "Surface features", "Exploration missions", "Could humans visit? card", "Compare with Earth"],
+      "components": {
+        "mars": {
+          "id": "mars",
+          "name": "Mars",
+          "lowLevelItems": ["Olympus Mons", "Valles Marineris", "Polar ice caps", "Thin atmosphere", "Phobos", "Deimos", "Rover missions"]
+        },
+        "jupiter": {
+          "id": "jupiter",
+          "name": "Jupiter",
+          "lowLevelItems": ["Great Red Spot", "Gas giant layers", "Strong magnetic field", "Europa", "Io", "Ganymede", "Callisto"]
+        }
+      },
+      "interactiveComponents": ["Solar system scale mode", "Planet cards", "Orbit simulator", "Gravity comparison", "Planet rotation/day length", "Planet size comparison", "Distance-from-Sun timeline", "Surface feature hotspots"]
+    },
+    {
+      "id": "stars",
+      "name": "Stars",
+      "detailed": true,
+      "lowLevelItems": ["Protostar", "Main-sequence star", "Red giant", "White dwarf", "Neutron star", "Supernova", "Black hole"],
+      "properties": ["Mass", "Temperature", "Luminosity", "Color", "Fusion", "Lifecycle"],
+      "interactiveComponents": ["Star lifecycle timeline", "Fusion animation", "Color/temperature slider", "Hertzsprung-Russell diagram explorer"]
+    },
+    {
+      "id": "galaxies",
+      "name": "Galaxies",
+      "detailed": true,
+      "lowLevelItems": ["Milky Way", "Andromeda", "Spiral galaxy", "Elliptical galaxy", "Irregular galaxy", "Star cluster", "Nebula", "Galactic center"],
+      "interactiveComponents": ["Galaxy shape explorer", "Zoom scale: planet -> solar system -> galaxy -> universe", "Milky Way location map"]
+    },
+    {
+      "id": "gravity-and-orbits",
+      "name": "Gravity And Orbits",
+      "detailed": false
+    },
+    {
+      "id": "moons",
+      "name": "Moons",
+      "detailed": false,
+      "contentSource": "bespoke — documented, tested exception to the content/subjects/** pipeline. 5 components authored directly in quantaora-app/src/data/moons.ts from real NASA/JPL data (not invented facts), each with its own real NASA-derived GLB. Contract pinned by quantaora-app/src/data/moons.test.ts. See docs/PROJECT-STATUS.md for rationale."
+    },
+    {
+      "id": "asteroids-and-comets",
+      "name": "Asteroids And Comets",
+      "detailed": false
+    },
+    {
+      "id": "space-exploration",
+      "name": "Space Exploration",
+      "detailed": false
+    },
+    {
+      "id": "cosmology-foundations",
+      "name": "Cosmology Foundations",
+      "detailed": false
+    },
+    {
+      "id": "telescopes-and-observation",
+      "name": "Telescopes And Observation",
+      "detailed": false
+    },
+    {
+      "id": "earth-in-space",
+      "name": "Earth In Space",
+      "detailed": true,
+      "lowLevelItems": ["Axis", "Rotation", "Revolution", "Tilt", "Equator", "Hemisphere", "Orbit"],
+      "processes": ["Day and night", "Seasons", "Moon phases", "Solar eclipse", "Lunar eclipse", "Tides"],
+      "interactiveComponents": ["Seasons simulator", "Moon phase wheel", "Eclipse alignment model", "Tide cause/effect model"]
+    }
+  ]
+}

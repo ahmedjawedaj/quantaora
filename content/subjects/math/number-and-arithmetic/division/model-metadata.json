@@ -1,0 +1,103 @@
+{
+  "id": "division",
+  "componentId": "division",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/division/division.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/division.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      3.9
+    ],
+    "target": [
+      0,
+      0.35,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      3.9
+    ],
+    "target": [
+      0,
+      0.35,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Cube dividend",
+    "Sharing bowls",
+    "Repeated subtraction track"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-dividend",
+      "label": "Dividend",
+      "conceptId": "division-equal-sharing",
+      "position": [
+        -1.0,
+        0.5,
+        0
+      ],
+      "description": "The dividend is the total being shared \u2014 the 12 cubes waiting to be dealt into the bowls.",
+      "positionHint": "The pile of 12 cubes on the left of the mat.",
+      "color": "#6B85A8",
+      "function": "The number being divided."
+    },
+    {
+      "id": "hs-divisor",
+      "label": "Divisor",
+      "conceptId": "division-equal-sharing",
+      "position": [
+        1.0,
+        0.4,
+        0
+      ],
+      "description": "The divisor is the group size \u2014 the 4 bowls the cubes get shared into.",
+      "positionHint": "The row of 4 empty sharing bowls on the right of the mat.",
+      "color": "#D9A441",
+      "function": "The number you divide by."
+    },
+    {
+      "id": "hs-quotient",
+      "label": "Quotient",
+      "conceptId": "division-equal-sharing",
+      "position": [
+        1.0,
+        0.7,
+        0.3
+      ],
+      "description": "The quotient is the answer \u2014 how many cubes end up in each bowl (3).",
+      "positionHint": "The label plate over each filled bowl showing the count 3.",
+      "color": "#7FA86A",
+      "function": "The result of the division."
+    },
+    {
+      "id": "hs-repeated-subtraction",
+      "label": "Repeated subtraction",
+      "conceptId": "division-repeated-subtraction",
+      "position": [
+        0,
+        -0.3,
+        0.5
+      ],
+      "description": "Division can be read as subtracting the divisor again and again \u2014 12 \u2212 4 \u2212 4 \u2212 4 reaches zero after 3 steps.",
+      "positionHint": "The horizontal track at the front showing 12 \u2192 8 \u2192 4 \u2192 0.",
+      "color": "#D96B5A",
+      "function": "Shows division as repeated subtraction counting the groups."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A pile of cubes on a mat, a row of sharing bowls, and a repeated-subtraction track along the front. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (grid-blue / amber / molecular-green / coral from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Cubes: warm off-white (roughness ~0.5). Bowls: soft warm-grey shallow cylinders (roughness ~0.6). Track: ink-grey strip with warm paper step labels (12, 8, 4, 0). Mat: soft warm-grey (roughness ~0.85). Quotient plates: warm amber with ink text. No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: division as equal sharing and repeated subtraction \u2014 12 cubes dealt into 4 bowls of 3, with a stepping track along the front.\n\nGEOMETRY: Mat (thin rounded slab ~4 wide). Dividend pile: 12 unit cubes clustered at x \u2248 \u22121.0, z \u2248 0, y \u2248 0.3. Bowls: 4 shallow rounded bowls spaced along x \u2248 0.5..1.6 at z \u2248 0. A Deal action (app-driven) distributes the cubes one at a time so each bowl finishes with 3. Repeated-subtraction track: a low strip at y \u2248 0.05, z \u2248 0.55 with step markers 12, 8, 4, 0 that light up as groups are dealt.\n\nLAYERS (toggleable): (1) dividend pile / shared state; (2) quotient count plates on bowls; (3) repeated-subtraction track stepping.\n\nCAMERA: head-on from +z with slight downward tilt frames the pile, bowls, and track; calm, minimal chrome. Budget 6-11k triangles. Named nodes: Mat, DividendPile, Bowls (4), QuotientPlates, TrackSteps, DealLights. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "div-bowls"
+  }
+}

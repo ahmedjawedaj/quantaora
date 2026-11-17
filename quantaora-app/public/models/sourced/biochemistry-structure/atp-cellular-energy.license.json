@@ -1,0 +1,14 @@
+{
+  "id": "atp-cellular-energy",
+  "ligandId": "ATP",
+  "title": "Adenosine triphosphate",
+  "sourceName": "RCSB PDB Chemical Component Dictionary - ATP",
+  "sourceUrl": "https://files.rcsb.org/ligands/view/ATP_ideal.sdf",
+  "license": "RCSB PDB Chemical Component Dictionary data files are distributed under CC0 1.0 Universal",
+  "licenseStatus": "CLEAR",
+  "qualityTier": "support",
+  "targetComponents": [
+    "biology-biochemistry-atp-cellular-energy"
+  ],
+  "generatedBy": "scripts/assets/build-rcsb-biochemistry-glbs.mjs"
+}

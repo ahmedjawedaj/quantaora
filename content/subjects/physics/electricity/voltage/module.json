@@ -1,0 +1,89 @@
+{
+  "id": "voltage",
+  "subject": "physics",
+  "title": "Voltage",
+  "summary": "Voltage is the electrical pressure that pushes current around a circuit — measured in volts. A 9 V battery pushes twice as hard as a 4.5 V one, and the voltmeter shows the push waiting at the battery's ends. In this model you stack 1.5 V cells: double the push, double the current the bulb sees.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "voltage-the-push",
+    "voltage-unit-volt",
+    "voltage-dictates-current",
+    "voltage-pumps-charge"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Voltage",
+    "systemOrGroup": "Voltage and Resistance",
+    "component": "Voltage",
+    "displayPath": "Physics > Electricity > Voltage > Voltage and Resistance > Voltage"
+  },
+  "crossReferences": [
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "Voltage is the push that starts current flowing in the loop."
+    },
+    {
+      "label": "Resistance (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Resistance",
+      "note": "Voltage divided by resistance decides the current — together they rule the loop."
+    },
+    {
+      "label": "Battery (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Battery",
+      "note": "A 9 V battery stacks six 1.5 V cells to reach its push."
+    }
+  ],
+  "belongsTo": "Electricity > Voltage > Voltage and Resistance",
+  "compareCandidate": {
+    "label": "Higher vs. lower voltage",
+    "description": "Same bulb and wire, but a bigger battery voltage pushes more current and a brighter glow."
+  },
+  "parts": [
+    "The battery bank",
+    "The circuit loop",
+    "The voltmeter",
+    "The bulb"
+  ],
+  "processes": [
+    "Building a battery from cells",
+    "Pushing the current around",
+    "Metering the volts at the terminals",
+    "Watching current follow the push"
+  ],
+  "plainLanguageExplanation": "Voltage is the electrical pressure that pushes current around a circuit — the 'how hard' of electricity, measured in volts (V). Picture water: the battery is your water tower, the wire is the pipe, and current is the water flowing to your house. Voltage is the height of the tower — how hard the water pressure pushes. Raise the voltage and the pressure climbs, driving more current through the same wire at the same resistance. A 9 V battery pushes twice as hard as a 4.5 V one. In this model you can see a battery bank holding small 1.5 V cells: tap to add the next cell, watch the voltmeter climb, and see the extra push force more current into the waiting bulb. That's why lights get brighter on bigger batteries and why 'volts' matter on every charger — the push decides the ride.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The electrical push that drives the current" },
+    { "label": "Unit", "value": "Volt (V)" },
+    { "label": "Cells stack", "value": "1.5 V cells in series add up (two give 3 V)" },
+    { "label": "Push leads flow", "value": "More volts, same wire -> more current" },
+    { "label": "Measured across", "value": "The voltmeter taps the two ends of the cell" }
+  ],
+  "whyItMatters": "Voltage is the pressure that makes circuits run, and its level decides battery life, bulb brightness, and which charger reaches a phone. Car batteries run at 12 V, mains at 120-230 V, and every LED strip names its working volts — understanding the push is the first step to making current do what you want.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Electric potential difference",
+  "tagline": "The push behind the current",
+  "didYouKnow": "Household mains deliver about 230 V in many countries and about 120 V in North America — a difference you feel in appliance ratings. AAA, AA, and D cells all give 1.5 V yet carry different amounts of charge: volts tell the push, not the stamina.",
+  "conditions": [
+    "9 V smoke detectors",
+    "12 V car batteries",
+    "Household sockets at 120 / 230 V",
+    "Phone chargers rated in volts",
+    "LED strips needing a matched voltage"
+  ],
+  "compareCandidateId": "current",
+  "compareReason": "Run the same loop under a weak cell or a stack of cells to see current follow the push, not the other way around."
+}

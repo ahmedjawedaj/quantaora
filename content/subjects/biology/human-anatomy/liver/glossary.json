@@ -1,0 +1,48 @@
+{
+  "componentId": "liver",
+  "terms": [
+    {
+      "term": "Liver",
+      "conceptId": "liver-500-jobs",
+      "hotspotId": "hs-lobes",
+      "definition": "The body's largest internal organ and main chemical factory.",
+      "function": "Processes nutrients, makes bile, stores energy, and filters blood.",
+      "whereItIs": "Upper right of the abdomen, under the ribs.",
+      "whyItMatters": "It processes everything you eat and cleans your blood.",
+      "relatedConcept": "bile-fat-digestion",
+      "quizId": "liv-q-factory"
+    },
+    {
+      "term": "Bile",
+      "conceptId": "bile-fat-digestion",
+      "hotspotId": "hs-bile",
+      "definition": "A liquid the liver makes that helps digest fats.",
+      "function": "Breaks fats into smaller pieces for digestion.",
+      "whereItIs": "Made in the liver, stored in the gallbladder.",
+      "whyItMatters": "It is the liver's helper in digesting fatty food.",
+      "relatedConcept": "liver-500-jobs",
+      "quizId": "liv-q-bile"
+    },
+    {
+      "term": "Hepatocyte",
+      "conceptId": "liver-500-jobs",
+      "hotspotId": "hs-cells",
+      "definition": "The working liver cell that does the organ's chemical jobs.",
+      "function": "Processes nutrients, makes bile, and detoxifies.",
+      "whereItIs": "Arranged in plates through the liver.",
+      "whyItMatters": "These cells perform the liver's many jobs.",
+      "relatedConcept": "detox-and-filter"
+    },
+    {
+      "term": "Detoxification",
+      "conceptId": "detox-and-filter",
+      "hotspotId": "hs-filter",
+      "definition": "The liver's job of breaking down and removing harmful substances.",
+      "function": "Cleans the blood of toxins.",
+      "whereItIs": "Throughout the liver tissue.",
+      "whyItMatters": "It protects the body from harmful chemicals.",
+      "relatedConcept": "liver-500-jobs",
+      "quizId": "liv-q-filter"
+    }
+  ]
+}

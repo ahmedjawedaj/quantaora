@@ -1,0 +1,46 @@
+{
+  "componentId": "mass",
+  "terms": [
+    {
+      "term": "Mass",
+      "conceptId": "mass-amount-of-matter",
+      "hotspotId": "hs-rock-pile",
+      "definition": "The amount of matter an object is made of.",
+      "function": "Names how much 'stuff' exists, in kilograms, no matter where the object is.",
+      "whereItIs": "The rock pile and the standard kg cubes that balance it.",
+      "whyItMatters": "It is the 'm' in F = ma and the thing gravity pulls on.",
+      "relatedConcept": "mass-kilogram",
+      "quizId": "mass-q-definition"
+    },
+    {
+      "term": "Kilogram (kg)",
+      "conceptId": "mass-kilogram",
+      "hotspotId": "hs-kg-set",
+      "definition": "The SI unit of mass.",
+      "whyItMatters": "Gives every amount of matter a standard number; one kg is roughly a liter of water.",
+      "whereItIs": "The labelled standard cubes in the right pan.",
+      "relatedConcept": "mass-amount-of-matter",
+      "quizId": "mass-q-unit"
+    },
+    {
+      "term": "Invariance of mass",
+      "conceptId": "mass-independent-of-location",
+      "hotspotId": "hs-kg-readout",
+      "definition": "The property that mass doesn't change when gravity or location changes.",
+      "whyItMatters": "It is what separates mass from weight, which is location-dependent.",
+      "whereItIs": "The readout that holds steady through the Earth→Moon drag.",
+      "relatedConcept": "mass-vs-weight",
+      "quizId": "mass-q-constant"
+    },
+    {
+      "term": "Balance scale",
+      "conceptId": "mass-amount-of-matter",
+      "hotspotId": "hs-balance-beam",
+      "definition": "A device that measures mass by comparing two amounts of matter on a beam.",
+      "whyItMatters": "Unlike a spring scale it compares matter directly, so the Moon can't fool it.",
+      "whereItIs": "The central wooden beam scale.",
+      "relatedConcept": "mass-kilogram",
+      "quizId": "mass-q-balance"
+    }
+  ]
+}

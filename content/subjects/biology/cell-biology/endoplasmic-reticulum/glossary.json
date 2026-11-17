@@ -1,0 +1,49 @@
+{
+  "componentId": "endoplasmic-reticulum",
+  "terms": [
+    {
+      "term": "Endoplasmic reticulum (ER)",
+      "conceptId": "membrane-network-transport",
+      "hotspotId": "hs-network",
+      "definition": "A folded network of membranes that builds proteins and lipids and moves materials around the cell.",
+      "function": "Builds, finishes, and transports the cell's products.",
+      "whereItIs": "Spreading through the cytoplasm as folded membranes.",
+      "whyItMatters": "It is the production line and delivery system of the cell.",
+      "relatedConcept": "rough-er-proteins",
+      "quizId": "er-q-highway"
+    },
+    {
+      "term": "Rough ER",
+      "conceptId": "rough-er-proteins",
+      "hotspotId": "hs-rough",
+      "definition": "The part of the ER dotted with ribosomes, where proteins are built and folded.",
+      "function": "Builds and folds proteins destined for the cell or shipping.",
+      "whereItIs": "The bumpy regions of the ER network.",
+      "whyItMatters": "It connects ribosome work to the cell's shipping system.",
+      "relatedConcept": "membrane-network-transport",
+      "quizId": "er-q-rough"
+    },
+    {
+      "term": "Smooth ER",
+      "conceptId": "smooth-er-lipids",
+      "hotspotId": "hs-smooth",
+      "definition": "The part of the ER without ribosomes that makes lipids and processes molecules.",
+      "function": "Builds fats and helps process and detoxify molecules.",
+      "whereItIs": "The smooth tube-like regions of the ER.",
+      "whyItMatters": "It supplies the cell with the fats it needs for membranes and energy.",
+      "relatedConcept": "membrane-network-transport",
+      "quizId": "er-q-smooth"
+    },
+    {
+      "term": "Vesicle",
+      "conceptId": "membrane-network-transport",
+      "hotspotId": "hs-vesicle",
+      "definition": "A small membrane bubble that carries materials between organelles.",
+      "function": "Ships finished products from the ER toward the Golgi and beyond.",
+      "whereItIs": "Budding from the ER and floating through the cytoplasm.",
+      "whyItMatters": "It is how the cell's products actually get delivered.",
+      "relatedConcept": "rough-er-proteins",
+      "quizId": "er-q-golgi"
+    }
+  ]
+}

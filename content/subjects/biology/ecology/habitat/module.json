@@ -1,0 +1,99 @@
+{
+  "id": "habitat",
+  "subject": "biology",
+  "title": "Habitat",
+  "summary": "A habitat is the natural home of a species - the specific place where it lives, feeds, and raises its young, with everything it needs to survive. Explore what makes a good habitat and why it matters.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "natural-home",
+    "food-water-shelter",
+    "habitat-change-loss",
+    "species-habitat-fit"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Habitat",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Habitat"
+  },
+  "crossReferences": [
+    {
+      "label": "Ecosystem (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Ecosystem",
+      "note": "A habitat sits inside an ecosystem - it is the specific home of one species within the larger system."
+    },
+    {
+      "label": "Niche (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Niche",
+      "note": "The habitat is WHERE a species lives; the niche is its ROLE - the way it makes a living there."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Habitat",
+  "compareCandidate": {
+    "label": "Habitat vs. niche",
+    "description": "The habitat is where a species lives - its address. The niche is its role - its job and lifestyle in that address, including what it eats and how it uses the space."
+  },
+  "parts": [
+    "Food and water",
+    "Shelter",
+    "Living space",
+    "Place to raise young"
+  ],
+  "processes": [
+    "Providing what a species needs",
+    "Supporting a species' daily life",
+    "Being threatened when it changes"
+  ],
+  "plainLanguageExplanation": "A habitat is the natural home of a species - the place where it lives, finds food and water, gets shelter, and raises young. A fish's habitat might be a pond; a camel's habitat is the desert; a worm's habitat is the soil. A good habitat provides everything the organism needs: food, water, shelter, and the right space. If a habitat changes (like a forest being cut down), the organisms that live there can lose their home and may not survive. Each species has a preferred habitat, and protecting habitats is key to protecting species.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "The natural home of a species"
+    },
+    {
+      "label": "Provides",
+      "value": "Food, water, shelter, and space to raise young"
+    },
+    {
+      "label": "Examples",
+      "value": "Pond for a fish, desert for a camel, soil for a worm"
+    },
+    {
+      "label": "Change",
+      "value": "A changed or lost habitat can threaten the species"
+    },
+    {
+      "label": "Fit",
+      "value": "Each species is adapted to its preferred habitat"
+    },
+    {
+      "label": "Different from ecosystem",
+      "value": "A habitat is one species' home; an ecosystem is the whole system"
+    }
+  ],
+  "whyItMatters": "Habitats are where life happens - every species has a place that meets its needs. Understanding habitats explains why animals live where they do and why protecting or losing a habitat changes everything for the species inside it.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "A species' natural home",
+  "didYouKnow": "Polar bears and camels both live on Earth, but their habitats are as different as ice and sand - each is built for its own home.",
+  "conditions": [
+    "Habitat loss",
+    "Deforestation",
+    "Wetland drainage"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Habitat",
+  "plain": "A habitat is the natural home of a species - the place where it lives, finds food and water, gets shelter, and raises young. A fish's habitat might be a pond; a camel's habitat is the desert; a worm's habitat is the soil. A good habitat provides everything the organism needs: food, water, shelter, and the right space. If a habitat changes (like a forest being cut down), the organisms that live there can lose their home and may not survive. Each species has a preferred habitat, and protecting habitats is key to protecting species."
+}

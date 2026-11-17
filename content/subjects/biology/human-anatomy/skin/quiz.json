@@ -1,0 +1,80 @@
+{
+  "componentId": "skin",
+  "questions": [
+    {
+      "id": "sk-q-largest",
+      "conceptId": "epidermis-dermis-layers",
+      "hotspotId": "hs-dermis",
+      "prompt": "What is the body's largest organ?",
+      "options": [
+        "The skin",
+        "The heart",
+        "The liver",
+        "The brain"
+      ],
+      "correctIndex": 0,
+      "explanation": "The skin is the largest organ, covering about 2 square meters in an adult.",
+      "misconception": "The liver is the largest internal organ, but overall the skin is the body's largest organ."
+    },
+    {
+      "id": "sk-q-layers",
+      "conceptId": "epidermis-dermis-layers",
+      "hotspotId": "hs-epidermis",
+      "prompt": "What are the two main layers of the skin?",
+      "options": [
+        "Epidermis and dermis",
+        "Cortex and medulla",
+        "Cardiac and smooth",
+        "Lobar and alveolar"
+      ],
+      "correctIndex": 0,
+      "explanation": "The skin's two main layers are the thin outer epidermis and the thick inner dermis.",
+      "misconception": "Cortex/medulla are kidney terms and cardiac/smooth are muscle types - skin has epidermis and dermis."
+    },
+    {
+      "id": "sk-q-sweat",
+      "conceptId": "temperature-control-sweating",
+      "hotspotId": "hs-sweat",
+      "prompt": "How does sweating help you on a hot day?",
+      "options": [
+        "Evaporating sweat carries heat away from the skin",
+        "It fills the lungs",
+        "It makes more blood",
+        "It cools the brain directly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sweat evaporating from the skin uses heat energy, which cools the body down.",
+      "misconception": "Sweat cools by evaporation of water from the skin surface, not by filling organs or making blood."
+    },
+    {
+      "id": "sk-q-sense",
+      "conceptId": "protection-and-sensation",
+      "hotspotId": "hs-sense",
+      "prompt": "What can the skin sense?",
+      "options": [
+        "Touch, pressure, heat, and cold",
+        "Only sounds",
+        "Only tastes",
+        "Only colors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The skin's sensory nerves detect touch, pressure, heat, and cold, sending signals to the brain.",
+      "misconception": "Sounds are sensed by the ear, tastes by the tongue, colors by the eye - the skin handles touch and temperature."
+    },
+    {
+      "id": "sk-q-replace",
+      "conceptId": "skin-repairs-itself",
+      "hotspotId": "hs-epidermis",
+      "prompt": "What happens to the outer layer of skin constantly?",
+      "options": [
+        "Its cells are shed and replaced",
+        "It turns into bone",
+        "It stops growing after age 10",
+        "It becomes muscle"
+      ],
+      "correctIndex": 0,
+      "explanation": "The outer epidermis cells wear away and are constantly replaced, so your skin renews itself.",
+      "misconception": "Skin does not become bone or muscle - it continuously renews its outer layer throughout life."
+    }
+  ]
+}

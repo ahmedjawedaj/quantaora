@@ -1,0 +1,104 @@
+{
+  "id": "temperature-regulation",
+  "componentId": "temperature-regulation",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/models/brain.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-physiology/temperature-regulation.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.5,
+      2.6
+    ],
+    "target": [
+      0,
+      1.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.5,
+      2.6
+    ],
+    "target": [
+      0,
+      1.3,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Skin surface",
+    "Nervous system (hypothalamus + signal pathway)",
+    "Cooling response — sweating & vasodilation",
+    "Warming response — shivering & vasoconstriction"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-hypothalamus",
+      "label": "Hypothalamus",
+      "conceptId": "hypothalamus-senses-temperature",
+      "position": [
+        0,
+        1.62,
+        0.08
+      ],
+      "description": "The hypothalamus is the body's thermostat. It constantly monitors blood temperature and nerve signals from the skin, comparing them to the body's set point (about 37°C / 98.6°F).",
+      "positionHint": "Mid-skull, exposed on the sagittal cross-section of the head, slightly below eye level.",
+      "color": "#D9A441",
+      "function": "Monitors blood temperature and compares it to the body's set point, like a thermostat."
+    },
+    {
+      "id": "hs-cooling-response",
+      "label": "Sweating & Vasodilation",
+      "conceptId": "sweating-vasodilation-cooling",
+      "position": [
+        0,
+        1.33,
+        0.16
+      ],
+      "description": "When the body is too warm, blood vessels near the skin widen (vasodilation) and sweat glands release moisture. Both release heat and cool the body down.",
+      "positionHint": "Center of the chest skin cross-section tile, active when the tile is toggled to its cooling state — widened capillary mesh with a sweat droplet at the surface. Mutually exclusive with the warming state; only one state is visible on the tile at a time.",
+      "color": "#6B85A8",
+      "function": "Narrows skin blood vessels and triggers shivering to conserve and generate heat."
+    },
+    {
+      "id": "hs-warming-response",
+      "label": "Shivering & Vasoconstriction",
+      "conceptId": "shivering-vasoconstriction-warming",
+      "position": [
+        0,
+        1.33,
+        0.16
+      ],
+      "description": "When the body is too cold, blood vessels near the skin narrow (vasoconstriction) to conserve heat, and muscles contract rapidly (shivering) to generate warmth.",
+      "positionHint": "Same site on the chest skin cross-section tile as the cooling-response hotspot, active when the tile is toggled to its warming state — narrowed capillary mesh beside a raised hair follicle (goosebump). Mutually exclusive with the cooling state.",
+      "color": "#6B85A8",
+      "function": "Narrows skin blood vessels and triggers shivering to conserve and generate heat."
+    },
+    {
+      "id": "hs-homeostasis",
+      "label": "Homeostasis Maintained",
+      "conceptId": "homeostasis-maintained",
+      "position": [
+        0,
+        1.2,
+        0.1
+      ],
+      "description": "Once the corrective response brings body temperature back to the set point, the hypothalamus stops sending signals — the feedback loop closes and balance is restored.",
+      "positionHint": "Sternum/core of the chest, just below the skin cross-section tile — anchored to a UV coordinate on Torso_Mesh, no dedicated geometry.",
+      "color": "#7fa88a",
+      "function": "Closes the feedback loop once temperature returns to the set point, stopping the corrective signal."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC-ish) with a soft radial vignette beneath the model, no floor grid, no scene props. The figure floats/stands centered and large in frame, lit with soft neutral studio light (no rim-light glow, no bloom, no emissive materials anywhere). Render as clean stylized-realistic anatomy — medical-illustration-meets-product-render, not photoreal, not cartoon, with the same smooth continuous topology and no-faceted-low-poly, no-toon-outline treatment used on the reference's organ specimens. COLOR IS RESTRAINED: this is a specimen model, not an infographic. Across the whole mesh, color is used only as a faint informational cast, not a saturated legend — the cooling-state vessel mesh carries a barely-there warm blush (a few percent desaturated coral shift from the base skin tone, not a bright coral fill), the warming-state vessel mesh carries an equally faint cool pale cast (a few percent desaturated blue-grey shift, not a bright blue-grey fill), and the hypothalamus/nerve-signal mesh carries a similarly faint warm-amber cast. All three stay close enough to the base skin neutral that, without the hotspot dot open, a viewer reads 'a subtly different material,' not 'a colored zone.' Strong, saturated color is reserved entirely for the small flat-colored hotspot dots (coral / blue-grey / amber accents matching the app's Biology palette) — never for the mesh or textures themselves, matching how the reference almost never uses color on the organ itself. Cross-sections read as clean flat-capped cuts (like a museum anatomical model), never as gory/torn tissue. The chest skin cross-section tile is a single toggleable comparison state, not two permanently co-present halves: only the cooling state or the warming state is visible on the tile at any moment, switched by the app's layer control, so the default camera framing only ever has to resolve one state's detail — legible at the specified default distance without requiring a zoom interaction.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Base skin/body material: warm neutral matte (roughness ~0.5-0.6, subtle baked AO, no subsurface scattering, no specular sheen) — this is the dominant material across the whole bust, head, and torso. Vessel/nerve/muscle accent materials sit only a few percent off the base skin material (see visualStyleNotes for the restrained color direction) with a slightly lower roughness (~0.45-0.5) so they read as 'highlighted' through subtle sheen and value contrast rather than through hue. No emissive channels anywhere — any glow, pulse, or highlight-on-tap feedback for the active layer/hotspot state is handled by the app's runtime shader/UI, not baked into the asset. Hotspot dots themselves (a UI-layer overlay, not baked into the mesh) are the only place strong saturated color appears.",
+  "assetBrief": "SUBJECT: A waist-up human anatomical bust built at real human scale (standing figure ≈1.75 m, cropped bust occupies roughly y=0.9m to y=1.8m, ~40% frame crop at the hips). This is a composite diagram model, not a full illustrated body — its only job is to carry two clearly legible feature sites: (1) a head cross-section exposing the hypothalamus, and (2) a chest-mounted 'skin cross-section tile' that toggles between the two thermoregulation response states.\n\nSCULPTURAL DIRECTION FOR THE BASE BUST: Do not default to a generic smooth mannequin. Sculpt the bust with the same restrained, specimen-quality realism used on this project's organ models (see the neuron and cell references) — naturalistic adult-generic proportions and musculature landmarks (a believable collarbone/sternum notch, a subtle deltoid-to-neck transition, a believable jaw and cranial silhouette) rendered with soft, simplified surface planes rather than either hyper-detailed photoreal skin (no pores, no fine wrinkles, no visible hair, no blemishes) or a featureless mannequin blob. Think 'anatomical teaching bust carved with intent' — the kind of restrained, confident surface modeling a medical-illustration studio would produce, not a stock low-poly humanoid placeholder. Neutral, symmetrical, standing/floating pose, chin level, shoulders relaxed, arms at sides (elbows may crop out of frame — do not model hands/lower arms in detail). Keep proportions naturalistic and adult-generic; avoid any age, gender, or ethnicity markers that would make this read as a specific person.\n\nHEAD CROSS-SECTION: Cut the head on the mid-sagittal plane (x=0) so roughly half the skull/scalp is removed, revealing a simplified, clean brain interior. Do not model full neuroanatomy — only need: an outer brain silhouette (cerebrum lobes, simplified smooth forms) and one small, clearly separated highlighted structure near the center-base of the brain representing the hypothalamus (a small ellipsoid, ~1.5 cm across, carrying the faint warm-amber material cast described in materialNotes so it reads as 'the important part' through subtle value/sheen contrast, not a saturated color block). Cut face should be a flat, clean cap (like a museum cutaway model) — no jagged/torn edges, no visible blood/gore.\n\nCHEST SKIN CROSS-SECTION TILE (toggle-state design, not split halves): A rounded-rectangle 'window' (~10 cm x 8 cm — sized down from a two-halves split so a single state's detail reads clearly at the default camera distance without zoom) set into the sternum area of the torso, as if a small patch of skin has been sliced away and the layers (epidermis/dermis/hypodermis) are shown edge-on, floating slightly proud of the body surface like a specimen slide (matches Anatomy Atelier's 'microscopic view' panel language). Model ONE shared base layer stack (`SkinTile_BaseLayers`: epidermis/dermis/hypodermis) plus TWO alternate detail states that occupy the same footprint and are shown one at a time via app-driven visibility toggle:\n  - COOLING STATE (`SkinTile_CoolingState`): capillary mesh shown wide/engorged, carrying the faint warm-cast material; one small sweat droplet mesh (or clear glassy blob) sitting at the skin surface directly above a visible sweat-gland coil in the dermis.\n  - WARMING STATE (`SkinTile_WarmingState`): capillary mesh shown narrow/pinched, carrying the faint cool-cast material; a small hair follicle with erector pili muscle shown contracted, producing a raised 'goosebump' bump in the epidermis.\nBoth states share the same base layer stack and footprint so toggling between them reads as a true before/after comparison of the same patch of skin, not two different diagrams. Only one state is ever visible at a time — do not build them as permanently co-present mirrored halves.\n\nMATERIALS: see materialNotes field above — single 2K PBR texture atlas (or shared trim sheet), metallic-roughness workflow, metallic=0 everywhere, no emissive channels, restrained near-neutral color casts rather than saturated legend colors.\n\nTOPOLOGY/BUDGET: Target 15-25k triangles total, web-optimized glTF/GLB, single draw call per material group where feasible, baked lighting/AO where useful, no rigging required beyond an optional idle 'breathing' blend shape (subtle chest rise/fall, ≤2% scale) — nice-to-have, not required for MVP.\n\nNAMED NODES (must exist for hotspot anchoring, layer toggling, and cross-section clipping): `Head_CrossSection_ClipPlane` (sagittal, static clip at x=0), `Brain_Mesh`, `Hypothalamus_Mesh` (separate object so it can isolate/highlight independently), `Torso_Mesh`, `SkinTile_Frame`, `SkinTile_BaseLayers` (shared epidermis/dermis/hypodermis stack), `SkinTile_CoolingState` (contains `Vessel_Dilated_Mesh`, `SweatGland_Mesh`, `SweatDroplet_Mesh`; app-toggled visible/hidden as a group), `SkinTile_WarmingState` (contains `Vessel_Constricted_Mesh`, `ArrectorPili_Muscle_Mesh`, `HairFollicle_Mesh`; app-toggled visible/hidden as a group, mutually exclusive with `SkinTile_CoolingState`). The 'Homeostasis Maintained' hotspot has no dedicated geometry — anchor it directly to a UV coordinate on `Torso_Mesh` at the sternum, just below the skin tile.\n\nREFERENCE MATCH: Match the render/lighting/composition treatment in assets/reference/anatomy-atelier/desktop-overview.png and desktop-interaction.png exactly — object floats alone on a warm off-white radial-vignette ground with no scene props, camera framing leaves generous negative space above and beside the model for the hotspot-card UI, auto-rotate is slow and default-on.\n\nDO NOT: do not build a full body (legs/feet unnecessary, crop at hip); do not add photoreal skin detail (pores, hair, wrinkles, veins beyond the two called-out capillary meshes); do not use any glow/bloom/emissive materials; do not show blood, torn tissue, or graphic gore in either cross-section; do not add clothing; do not give the figure a specific identifiable gender/ethnicity/age; do not rig for full-body animation (idle breathing blend shape only, optional); do not exceed the 15-25k triangle budget; do not bake hotspot dots, labels, or UI chrome into the mesh/textures — those are runtime overlays; do not build the cooling and warming skin-tile states as permanently co-present split halves — they must be a single toggleable comparison, one state visible at a time; do not use saturated 'legend' colors on any mesh region — keep all color casts faint and reserve strong saturated color for the runtime hotspot dots only; do not include a separate skeletal-reference layer or `Skeleton_Reference_Mesh` node — out of scope for MVP.",
+  "visual": {
+    "shape": "thermo-regulation"
+  }
+}

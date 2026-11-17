@@ -1,0 +1,80 @@
+{
+  "componentId": "white-dwarf",
+  "questions": [
+    {
+      "id": "wd-q-dense",
+      "conceptId": "density-extreme-scale",
+      "hotspotId": "hs-degenerate-interior",
+      "prompt": "About how heavy would a teaspoon of white-dwarf matter be on your kitchen scale?",
+      "options": [
+        "A few grams, like sugar",
+        "A few kilograms, like a laptop",
+        "About five and a half tons — like a school bus",
+        "It would float, so almost nothing"
+      ],
+      "correctIndex": 2,
+      "explanation": "A white dwarf packs between half and 1.4 solar masses into a ball the size of Earth. Squeezed into a teaspoon, that matter weighs roughly 5.5 tons.",
+      "misconception": "Everything you have ever touched is ordinary matter, so a star's leftover does not sound denser than granite — but here the particles are nearly touching, about a million times denser than anything on Earth."
+    },
+    {
+      "id": "wd-q-hold",
+      "conceptId": "electron-degeneracy-pressure",
+      "hotspotId": "hs-degenerate-interior",
+      "prompt": "What stops a white dwarf from collapsing under its own gravity?",
+      "options": [
+        "Fusion in its core keeps it hot",
+        "Electron degeneracy pressure — electrons refuse to be squeezed closer together",
+        "A magnetic field cradles the star",
+        "Rotation so fast it would fly apart"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quantum rules forbid two electrons from sharing the same place. As gravity compresses them, that refusal creates a pressure that does not depend on temperature — so the star is held open even though nothing is burning.",
+      "misconception": "After the red giant, 'the core burns' is the easy guess — but this object has no furnace at all; what props it up is electron refusal, not fire."
+    },
+    {
+      "id": "wd-q-birth",
+      "conceptId": "planetary-nebula-shedding",
+      "hotspotId": "hs-planetary-nebula",
+      "prompt": "How is a white dwarf born?",
+      "options": [
+        "A newborn star starts out as a white dwarf",
+        "A red giant sheds its outer envelope, leaving its core exposed",
+        "A planet reheats until it turns white",
+        "Two stars merge and then freeze"
+      ],
+      "correctIndex": 1,
+      "explanation": "The red giant's weak outer layers drift off as a planetary nebula, and the exposed, super-dense core is the white dwarf — this scene is written all over the sky.",
+      "misconception": "A 'planetary nebula' sounds like it should make planets, and a glowing leftover sounds like a newborn star — but the name is a historical accident, and the dwarf is at the end of a star's life, not the beginning."
+    },
+    {
+      "id": "wd-q-glow",
+      "conceptId": "cooling-over-aeons",
+      "hotspotId": "hs-no-fusion-core",
+      "prompt": "A white dwarf glows white-hot but is not fusing anything. Why does it still shine?",
+      "options": [
+        "It reflects light from nearby stars",
+        "It is radiating away its stored heat, cooling like an ember with no fire",
+        "It has a hidden nuclear glow stick",
+        "It is actually sparkling liquid"
+      ],
+      "correctIndex": 1,
+      "explanation": "When fusion stops, the dwarf keeps the enormous heat earned during its lifetime. That heat leaks away over billions of years, so it glows, then cools — it never re-lights.",
+      "misconception": "White-hot naturally suggests something is burning, but the dwarf is a stove after the fuel line was cut: still warm, but no new heat is being made."
+    },
+    {
+      "id": "wd-q-limit",
+      "conceptId": "chandrasekhar-mass-limit",
+      "hotspotId": "hs-chandrasekhar-limit",
+      "prompt": "What happens if a white dwarf is pushed past the Chandrasekhar limit (about 1.4 solar masses)?",
+      "options": [
+        "Nothing special — it quietly gets heavier forever",
+        "Electron pressure can no longer hold it; it must become something denser or blow up",
+        "It turns into a planet",
+        "It suddenly starts fusing again like a fresh star"
+      ],
+      "correctIndex": 1,
+      "explanation": "Above ~1.4 solar masses even electron degeneracy gives out, and the core either collapses into a neutron star or — in a binary pair — explodes as a type Ia supernova. The white dwarf cannot just keep growing.",
+      "misconception": "Adding mass sounds harmless, but quantum pressure has a hard maximum; at the limit the standoff collapses instead of adjusting."
+    }
+  ]
+}

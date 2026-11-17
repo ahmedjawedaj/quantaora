@@ -1,0 +1,95 @@
+{
+  "componentId": "planet-cards",
+  "questions": [
+    {
+      "id": "pcards-q-families",
+      "conceptId": "planets-sort-by-type",
+      "hotspotId": "hs-family-tag",
+      "prompt": "The eight planets can be sorted into two main families. What are they?",
+      "options": [
+        "Rocky worlds and gas/ice giants",
+        "Hot planets and cold planets",
+        "Moons and ringed worlds",
+        "Old planets and young planets"
+      ],
+      "correctIndex": 0,
+      "explanation": "The four inner planets (Mercury, Venus, Earth, Mars) are small rocky worlds; the four outer planets are gas giants (Jupiter, Saturn) and ice giants (Uranus, Neptune).",
+      "misconception": "Sorting by temperature or color feels natural from pictures, but composition — what the planet is actually made of — is the real dividing line between the two families."
+    },
+    {
+      "id": "pcards-q-smallest",
+      "conceptId": "planet-card-fact-sheet",
+      "hotspotId": "hs-mercury-card",
+      "prompt": "Which planet has the smallest card — the smallest radius of the eight?",
+      "options": [
+        "Mercury",
+        "Mars",
+        "Venus",
+        "Pluto"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mercury is the smallest planet, with a radius of about 2,440 km — only 0.38 times Earth's. Pluto is smaller, but it is a dwarf planet, not one of the eight planets.",
+      "misconception": "Mars is small in the solar system's story, but Mercury is smaller — and Pluto is not in the deck at all because it is a dwarf planet."
+    },
+    {
+      "id": "pcards-q-fastest-day",
+      "conceptId": "day-length-per-planet",
+      "hotspotId": "hs-jupiter-card",
+      "prompt": "Which planet has the shortest day of the eight?",
+      "options": [
+        "Earth",
+        "Jupiter",
+        "Mercury",
+        "Neptune"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jupiter spins the fastest of all the planets — one rotation, and therefore one day, takes only about 9.9 hours.",
+      "misconception": "It feels natural to assume the biggest planet spins slowest, but Jupiter is actually the fastest spinner in the solar system."
+    },
+    {
+      "id": "pcards-q-longest-year",
+      "conceptId": "year-length-per-planet",
+      "hotspotId": "hs-neptune-card",
+      "prompt": "Which planet has the longest year?",
+      "options": [
+        "Jupiter",
+        "Uranus",
+        "Neptune",
+        "Saturn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Neptune, the most distant planet, takes about 165 Earth years to orbit the Sun once — the longest year of the eight planets.",
+      "misconception": "Jupiter is the biggest, so it is easy to assume its year is longest too — but year length follows distance from the Sun, not size, and Neptune is farthest away."
+    },
+    {
+      "id": "pcards-q-gas-giant",
+      "conceptId": "gas-giants-vs-rocky-worlds",
+      "hotspotId": "hs-jupiter-card",
+      "prompt": "What does 'gas giant' mean for Jupiter and Saturn?",
+      "options": [
+        "They are mostly hydrogen and helium with no solid surface near their clouds",
+        "They are made of frozen gas like a giant ice cube",
+        "They have rocky surfaces hidden under thin gas clouds",
+        "They are mostly empty gas with almost no mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gas giants are composed overwhelmingly of hydrogen and helium, like the Sun, and have no solid surface to stand on anywhere near their visible cloud tops.",
+      "misconception": "Some learners picture a 'gas giant' as a thin cloud ball that is mostly empty — in reality it is a vast, dense planet; the name refers to composition, not flimsiness."
+    },
+    {
+      "id": "pcards-q-earth-reference",
+      "conceptId": "planet-card-fact-sheet",
+      "hotspotId": "hs-earth-card",
+      "prompt": "Why does every card use Earth as the reference for radius and gravity?",
+      "options": [
+        "Because Earth is the biggest planet",
+        "So every number compares against the world you already know",
+        "Because Earth has the shortest year",
+        "Astronomers only study Earth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Writing sizes and gravity 'in Earths' (1 ×, 0.38 ×, 2.5 ×) gives every learner an immediate mental anchor — you know exactly what one Earth is.",
+      "misconception": "Earth is not the biggest or smallest planet — it is merely the reference we already live on, which is exactly why it makes the best measuring stick."
+    }
+  ]
+}

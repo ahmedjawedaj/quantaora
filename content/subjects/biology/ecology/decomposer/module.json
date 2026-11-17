@@ -1,0 +1,95 @@
+{
+  "id": "decomposer",
+  "subject": "biology",
+  "title": "Decomposer",
+  "summary": "A decomposer is a living thing that breaks down dead plants and animals and returns their materials to the soil. Explore how fungi, bacteria, and worms recycle nutrients back into the ecosystem.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "breaks-down-dead",
+    "recycles-nutrients",
+    "fungi-bacteria-worms",
+    "ecosystem-recyclers"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Ecology",
+    "unit": "Ecology Foundations",
+    "systemOrGroup": "Ecological levels and roles",
+    "component": "Decomposer",
+    "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Decomposer"
+  },
+  "crossReferences": [
+    {
+      "label": "Producer (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Producer",
+      "note": "Decomposers return nutrients that producers (plants) take back up from the soil."
+    },
+    {
+      "label": "Ecosystem (Ecology)",
+      "branch": "ecology",
+      "lowLevelItem": "Ecosystem",
+      "note": "Decomposition is the matter-recycling loop inside every ecosystem."
+    }
+  ],
+  "belongsTo": "Ecology > Ecology Foundations > Ecological levels and roles > Decomposer",
+  "compareCandidate": {
+    "label": "Decomposer vs. consumer",
+    "description": "A consumer eats living things. A decomposer breaks down things that are already dead - fallen leaves, dead animals - and returns their materials to the soil."
+  },
+  "parts": [
+    "Dead matter",
+    "Fungi",
+    "Bacteria",
+    "Worms"
+  ],
+  "processes": [
+    "Breaking down dead matter",
+    "Returning nutrients to soil",
+    "Keeping the nutrient cycle going"
+  ],
+  "plainLanguageExplanation": "A decomposer breaks down dead things - fallen leaves, dead animals, and waste - and returns their materials to the soil. Fungi, bacteria, and earthworms are the main decomposers. As they eat and break down dead matter, they release nutrients like nitrogen and minerals back into the soil, where plants can use them again. Decomposers are the ecosystem's recyclers: without them, nutrients would stay locked up in dead bodies and the soil would slowly run out of the materials life needs.",
+  "keyFacts": [
+    {
+      "label": "Definition",
+      "value": "Breaks down dead plants and animals"
+    },
+    {
+      "label": "Main kinds",
+      "value": "Fungi, bacteria, and earthworms"
+    },
+    {
+      "label": "What they return",
+      "value": "Nutrients like nitrogen and minerals back to the soil"
+    },
+    {
+      "label": "Role",
+      "value": "The ecosystem's recyclers"
+    },
+    {
+      "label": "Without them",
+      "value": "Nutrients stay locked in dead bodies and the soil runs short"
+    }
+  ],
+  "whyItMatters": "Decomposers close the loop in every ecosystem - they return dead materials to the soil so nutrients can be used again. Understanding them explains why the ground does not pile up with dead things and how soil stays rich.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "tagline": "Breaks down dead matter",
+  "didYouKnow": "A single teaspoon of soil can hold more than a billion bacteria - a whole world of decomposers working under your feet.",
+  "conditions": [
+    "Pesticides",
+    "Pollution",
+    "Clearing dead wood from forests"
+  ],
+  "branch": "ecology",
+  "displayPath": "Biology > Ecology > Ecology Foundations > Ecological levels and roles > Decomposer",
+  "plain": "A decomposer breaks down dead things - fallen leaves, dead animals, and waste - and returns their materials to the soil. Fungi, bacteria, and earthworms are the main decomposers. As they eat and break down dead matter, they release nutrients like nitrogen and minerals back into the soil, where plants can use them again. Decomposers are the ecosystem's recyclers: without them, nutrients would stay locked up in dead bodies and the soil would slowly run out of the materials life needs."
+}

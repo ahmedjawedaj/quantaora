@@ -1,0 +1,46 @@
+{
+  "componentId": "voltage",
+  "terms": [
+    {
+      "term": "Voltage",
+      "conceptId": "voltage-the-push",
+      "hotspotId": "hs-voltmeter",
+      "definition": "The electrical pressure, or potential difference, that pushes current.",
+      "function": "Drives charge around the loop, like water pressure in a pipe.",
+      "whereItIs": "The reading across the battery bank.",
+      "whyItMatters": "The push decides brightness, battery choice, and charging rates.",
+      "relatedConcept": "current",
+      "quizId": "vo-q-definition"
+    },
+    {
+      "term": "Volt (V)",
+      "conceptId": "voltage-unit-volt",
+      "hotspotId": "hs-voltmeter",
+      "definition": "The unit of electrical pressure.",
+      "whyItMatters": "Volt ratings on batteries, mains, and chargers tell you the push available.",
+      "whereItIs": "The voltmeter scale.",
+      "relatedConcept": "voltage-the-push",
+      "quizId": "vo-q-unit"
+    },
+    {
+      "term": "Stacked cells",
+      "conceptId": "voltage-pumps-charge",
+      "hotspotId": "hs-cells",
+      "definition": "Cells placed end-to-end in series so their pushes add (1.5 + 1.5 = 3 V).",
+      "whyItMatters": "It's how battery packs reach their rated volts.",
+      "whereItIs": "The growing cell stack in the bank.",
+      "relatedConcept": "battery",
+      "quizId": "vo-q-stack"
+    },
+    {
+      "term": "Voltage-current link",
+      "conceptId": "voltage-dictates-current",
+      "hotspotId": "hs-add-cell",
+      "definition": "More push through the same resistance means more current.",
+      "whyItMatters": "It explains brighter bulbs, hotter wires, and why voltage must match devices.",
+      "whereItIs": "The bulb brightening with every added cell.",
+      "relatedConcept": "current",
+      "quizId": "vo-q-add-cell"
+    }
+  ]
+}

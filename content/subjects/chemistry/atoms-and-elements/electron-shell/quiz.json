@@ -1,0 +1,65 @@
+{
+  "componentId": "electron-shell",
+  "questions": [
+    {
+      "id": "shell-q-what",
+      "conceptId": "shell-layer-around-nucleus",
+      "hotspotId": "hs-shell-layers",
+      "prompt": "What is an electron shell?",
+      "options": [
+        "A layer of space around the nucleus where electrons orbit",
+        "The dense core of the atom",
+        "A type of bond between atoms",
+        "The outer skin of a molecule"
+      ],
+      "correctIndex": 0,
+      "explanation": "An electron shell is a layer of space around the nucleus at a fixed distance, where electrons orbit.",
+      "misconception": "The dense core is the nucleus and bonds are connections between atoms — the shell is specifically the orbital layer around the nucleus where electrons live."
+    },
+    {
+      "id": "shell-q-capacity",
+      "conceptId": "shell-holds-maximum",
+      "hotspotId": "hs-shell-inner",
+      "prompt": "How many electrons can the first (innermost) shell hold?",
+      "options": [
+        "2",
+        "8",
+        "18",
+        "Unlimited"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first shell, closest to the nucleus, holds at most 2 electrons. The second holds up to 8, and later shells can hold more.",
+      "misconception": "The 8-electron capacity belongs to the second shell — the innermost shell is smaller and caps out at just 2."
+    },
+    {
+      "id": "shell-q-fill-order",
+      "conceptId": "shell-holds-maximum",
+      "hotspotId": "hs-shell-inner",
+      "prompt": "In what order do electrons fill the shells?",
+      "options": [
+        "Inner shells first, then outer shells",
+        "Outer shells first, then inner",
+        "All at once, randomly",
+        "From the middle outward"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electrons fill the inner shells first, then the outer ones — the atom builds its layers from the inside out.",
+      "misconception": "Electrons never jump to the outer shells while inner shells are empty — the filling order is strictly inner-first."
+    },
+    {
+      "id": "shell-q-outermost",
+      "conceptId": "shell-outermost-bonds",
+      "hotspotId": "hs-shell-outer",
+      "prompt": "Which shell decides how an atom bonds?",
+      "options": [
+        "The outermost shell",
+        "The innermost shell",
+        "The shell nearest the nucleus",
+        "None of the shells"
+      ],
+      "correctIndex": 0,
+      "explanation": "The outermost shell's electrons — the valence electrons — are the ones shared, lost, or gained when atoms bond.",
+      "misconception": "The inner shells are buried and do not interact with other atoms — chemistry happens entirely at the outermost shell."
+    }
+  ]
+}

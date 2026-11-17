@@ -1,0 +1,48 @@
+{
+  "componentId": "nucleus",
+  "terms": [
+    {
+      "term": "Nucleus",
+      "conceptId": "nucleus-core-of-atom",
+      "hotspotId": "hs-nucleus-core",
+      "definition": "The dense, positively charged core at the center of an atom.",
+      "function": "Holds the protons and neutrons and nearly all the atom's mass.",
+      "whereItIs": "The small bundle of spheres at the center of the model.",
+      "whyItMatters": "The nucleus holds the atom's identity, mass, and nuclear energy.",
+      "relatedConcept": "nucleus-protons-neutrons",
+      "quizId": "nucleus-q-what"
+    },
+    {
+      "term": "Proton",
+      "conceptId": "nucleus-protons-neutrons",
+      "hotspotId": "hs-nucleus-particles",
+      "definition": "A positively charged particle packed in the nucleus.",
+      "function": "Gives the nucleus its positive charge and defines the element.",
+      "whereItIs": "The red spheres in the nucleus bundle.",
+      "whyItMatters": "The proton count is the element's identity number.",
+      "relatedConcept": "nucleus-core-of-atom",
+      "quizId": "nucleus-q-contents"
+    },
+    {
+      "term": "Neutron",
+      "conceptId": "nucleus-protons-neutrons",
+      "hotspotId": "hs-nucleus-particles",
+      "definition": "A charge-free particle packed in the nucleus.",
+      "function": "Adds mass and stability to the nucleus.",
+      "whereItIs": "The gray spheres in the nucleus bundle.",
+      "whyItMatters": "Neutron counts create isotopes of the same element.",
+      "relatedConcept": "nucleus-holds-mass",
+      "quizId": "nucleus-q-contents"
+    },
+    {
+      "term": "Atomic mass",
+      "conceptId": "nucleus-holds-mass",
+      "definition": "The total mass of the atom, almost entirely from its nucleus.",
+      "function": "Measures an atom's weight, dominated by protons and neutrons.",
+      "whereItIs": "Reflected by the heavy nucleus bundle in the model.",
+      "whyItMatters": "Explains why the atom's mass sits in its tiny core.",
+      "relatedConcept": "nucleus-protons-neutrons",
+      "quizId": "nucleus-q-mass"
+    }
+  ]
+}

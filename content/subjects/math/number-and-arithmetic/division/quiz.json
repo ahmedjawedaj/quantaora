@@ -1,0 +1,80 @@
+{
+  "componentId": "division",
+  "questions": [
+    {
+      "id": "division-12-4",
+      "conceptId": "division-equal-sharing",
+      "hotspotId": "hs-quotient",
+      "prompt": "What is 12 ÷ 4?",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "12 shared into 4 equal groups gives 3 in each group.",
+      "misconception": "Confusing division with subtraction (12 − 4 = 8) or using the divisor as the quotient — 12 ÷ 4 is 3."
+    },
+    {
+      "id": "division-parts",
+      "conceptId": "division-equal-sharing",
+      "hotspotId": "hs-divisor",
+      "prompt": "In 18 ÷ 6 = 3, which number is the divisor?",
+      "options": [
+        "6",
+        "18",
+        "3",
+        "13"
+      ],
+      "correctIndex": 0,
+      "explanation": "The divisor is the number you divide by — here 6 — the group size you split 18 into.",
+      "misconception": "The dividend (18) is the total being split, the divisor (6) is how the groups are sized, and the quotient (3) is the answer."
+    },
+    {
+      "id": "division-inverse",
+      "conceptId": "division-inverse-multiplication",
+      "hotspotId": "hs-quotient",
+"prompt": "If 9 × 4 = 36, which division fact matches?",
+      "options": [
+        "36 ÷ 9 = 4",
+        "36 ÷ 6 = 9",
+        "36 − 9 = 27",
+        "9 × 36 = 324"
+      ],
+      "correctIndex": 0,
+      "explanation": "Division is the inverse of multiplication: 36 split into groups of 9 gives 4 groups.",
+      "misconception": "Both 36 ÷ 9 = 4 and 36 ÷ 4 = 9 are correct — they are the two division facts of the same multiplication fact family."
+    },
+    {
+      "id": "division-remainder",
+      "conceptId": "division-remainder",
+      "hotspotId": "hs-dividend",
+      "prompt": "What is 14 ÷ 4?",
+      "options": [
+        "3 with a remainder of 2",
+        "3 evenly",
+        "4 with a remainder of 2",
+        "It cannot be divided"
+      ],
+      "correctIndex": 0,
+      "explanation": "14 split into 4 groups gives 3 each (12 used) with 2 cubes left over — the remainder.",
+      "misconception": "Remainders are not failures — 14 ÷ 4 = 3 R 2 means the total did not split evenly, and the remainder is exactly what is left."
+    },
+    {
+      "id": "division-zero",
+      "conceptId": "division-repeated-subtraction",
+      "hotspotId": "hs-repeated-subtraction",
+      "prompt": "Which repeated subtraction corresponds to 15 ÷ 5?",
+      "options": [
+        "15 − 5 − 5 − 5 = 0 (three times)",
+        "15 − 5 = 10 (once)",
+        "5 − 15 doesn't work",
+        "15 + 5 = 20"
+      ],
+      "correctIndex": 0,
+      "explanation": "Division is repeated subtraction — removing 5 from 15 three times leaves 0, so 15 ÷ 5 = 3.",
+      "misconception": "Repeated subtraction must go all the way to zero; counting how many 5's you remove gives the quotient."
+    }
+  ]
+}

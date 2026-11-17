@@ -1,0 +1,65 @@
+{
+  "componentId": "producer",
+  "questions": [
+    {
+      "id": "pro-q-def",
+      "conceptId": "makes-own-food",
+      "hotspotId": "hs-food",
+      "prompt": "What is a producer?",
+      "options": [
+        "A living thing that makes its own food",
+        "An animal that hunts others",
+        "A thing that eats dead material",
+        "Anything that moves"
+      ],
+      "correctIndex": 0,
+      "explanation": "A producer makes its own food, usually by using sunlight to turn water and carbon dioxide into sugar.",
+      "misconception": "Producers make their own food; hunters and scavengers are consumers, not producers."
+    },
+    {
+      "id": "pro-q-how",
+      "conceptId": "photosynthesis-sunlight",
+      "hotspotId": "hs-leaf",
+      "prompt": "How do most producers make food?",
+      "options": [
+        "Photosynthesis using sunlight",
+        "By eating other plants",
+        "By drinking water only",
+        "From the heat of the soil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Photosynthesis uses sunlight, water, and carbon dioxide to make sugar - the plant's food.",
+      "misconception": "Producers do not eat - they build food from sunlight and simple ingredients."
+    },
+    {
+      "id": "pro-q-example",
+      "conceptId": "makes-own-food",
+      "hotspotId": "hs-leaf",
+      "prompt": "Which of these is a producer?",
+      "options": [
+        "A blade of grass",
+        "A fox",
+        "A hawk",
+        "A worm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grass makes its own food through photosynthesis, so it is a producer. A fox, hawk, and worm all eat other things.",
+      "misconception": "Producers are plants and algae; anything that eats to survive is a consumer."
+    },
+    {
+      "id": "pro-q-chain",
+      "conceptId": "base-of-food-chain",
+      "hotspotId": "hs-base",
+      "prompt": "Why do food chains start with producers?",
+      "options": [
+        "They turn sunlight into food everything else can use",
+        "They are the biggest organisms",
+        "They live longest",
+        "They move fastest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only producers capture sunlight and turn it into food, so every other link depends on them for energy.",
+      "misconception": "Producers are first because of what they make, not their size, age, or speed."
+    }
+  ]
+}

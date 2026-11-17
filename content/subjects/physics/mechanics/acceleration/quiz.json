@@ -1,0 +1,80 @@
+{
+  "componentId": "acceleration",
+  "questions": [
+    {
+      "id": "accel-q-definition",
+      "conceptId": "acceleration-change-in-velocity",
+      "hotspotId": "hs-velocity-graph",
+      "prompt": "What is acceleration?",
+      "options": [
+        "The rate at which velocity changes",
+        "The total distance traveled",
+        "The speed reached at the finish",
+        "The push that starts a race"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acceleration answers how quickly velocity changes per second — it is the rate of change of velocity, not a distance or a finish speed.",
+      "misconception": "Learners often reduce acceleration to 'going faster'; slowing down and turning are accelerations too, because velocity encompasses direction."
+    },
+    {
+      "id": "accel-q-formula",
+      "conceptId": "acceleration-formula",
+      "hotspotId": "hs-accel-arrow",
+      "prompt": "A car speeds from rest to 20 m/s in 5 s. What is its average acceleration?",
+      "options": [
+        "4 m/s²",
+        "100 m/s²",
+        "5 m/s²",
+        "20 m/s²"
+      ],
+      "correctIndex": 0,
+      "explanation": "a = (final − initial) ÷ time = (20 − 0) ÷ 5 = 4 m/s².",
+      "misconception": "Adding (20+5=25), doubling (100), or picking the final speed (20) shows the formula seat-belt error — always subtract first, then divide."
+    },
+    {
+      "id": "accel-q-negative",
+      "conceptId": "acceleration-positive-negative",
+      "hotspotId": "hs-brake",
+      "prompt": "A car brakes from 15 m/s to 0 m/s in 3 s. What is the sign of its acceleration?",
+      "options": [
+        "Negative — velocity is decreasing",
+        "Positive — brakes add speed",
+        "Cannot be told without distance",
+        "Zero — braking isn't acceleration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Braking reduces velocity, and a decrease shows up as a negative (final − initial). Negative acceleration is still acceleration.",
+      "misconception": "Some think braking is the absence of acceleration. It's acceleration pointing opposite the motion — a negative value, not no value."
+    },
+    {
+      "id": "accel-q-zero",
+      "conceptId": "acceleration-positive-negative",
+      "hotspotId": "hs-accel-arrow",
+      "prompt": "A train cruises at a steady 22 m/s on straight track. What is its acceleration?",
+      "options": [
+        "0 m/s²",
+        "22 m/s²",
+        "0.05 m/s²",
+        "It keeps accelerating all the time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Constant velocity means velocity doesn't change, so acceleration is zero — cruising is not the same as accelerating.",
+      "misconception": "Motion itself is drained to stand for acceleration; movement is not acceleration, change of velocity is."
+    },
+    {
+      "id": "accel-q-graph",
+      "conceptId": "acceleration-graph",
+      "hotspotId": "hs-velocity-graph",
+      "prompt": "On a velocity-time graph, what does the slope represent?",
+      "options": [
+        "Acceleration",
+        "Speed",
+        "Distance",
+        "Mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slope on a velocity-time graph is (velocity change) ÷ (time change), which is exactly the definition of acceleration.",
+      "misconception": "The slope of distance-time is speed; people carry that habit over and mislabel this graph's slope as speed."
+    }
+  ]
+}

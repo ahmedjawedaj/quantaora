@@ -1,0 +1,65 @@
+{
+  "componentId": "kidney-filtration",
+  "questions": [
+    {
+      "id": "kidney-filtration-q-nephron",
+      "conceptId": "nephron-filters-waste",
+      "hotspotId": "hs-nephron-filters-waste",
+      "prompt": "What is the main job of a nephron inside the kidney?",
+      "options": [
+        "To pump blood through the body",
+        "To filter waste and extra water out of the blood",
+        "To digest food from the stomach",
+        "To store urine until you go to the bathroom"
+      ],
+      "correctIndex": 1,
+      "explanation": "A nephron is a microscopic filtering unit — its job is to let blood pressure push water, salts, and waste out of tiny blood vessels while keeping blood cells and large proteins inside the blood, then reclaim what's still needed.",
+      "misconception": "Picking 'pump blood' confuses the nephron with the heart's job. Picking 'digest food' mixes up the urinary system with the digestive system. Picking 'store urine' confuses the nephron (which makes urine) with the bladder (which stores it) — these are different organs with different jobs."
+    },
+    {
+      "id": "kidney-filtration-q-reabsorption",
+      "conceptId": "reabsorption-of-needed-substances",
+      "hotspotId": "hs-reabsorption",
+      "prompt": "The kidneys filter about 180 liters of blood plasma a day, but a person only produces about 1–2 liters of urine. Why is there such a big difference?",
+      "options": [
+        "Most of the filtered fluid evaporates before it becomes urine",
+        "The nephron reabsorbs most of the water, sugar, and salt back into the blood",
+        "The bladder shrinks the fluid down before storing it",
+        "The kidney only filters a small part of the 180 liters"
+      ],
+      "correctIndex": 1,
+      "explanation": "The full 180 liters really is filtered — but as that fluid travels through the nephron's tubes, the body reabsorbs almost all the water and useful substances back into the bloodstream, leaving only 1–2 liters of true waste behind as urine.",
+      "misconception": "Saying fluid 'evaporates' ignores that the body is a closed, wet system, not an open pan of water. Saying the bladder shrinks fluid mixes up storage with reabsorption, which happens in the kidney's tubes, not the bladder. Saying only part is filtered contradicts the 180-liter figure, which is exactly how much is filtered before reabsorption happens."
+    },
+    {
+      "id": "kidney-filtration-q-ureter",
+      "conceptId": "waste-exits-via-ureter",
+      "hotspotId": "hs-waste-exits-ureter",
+      "prompt": "After urine forms inside the kidney, where does it go next?",
+      "options": [
+        "Back into the bloodstream to be filtered again",
+        "Through the ureter down to the bladder",
+        "Directly out of the body through the skin",
+        "Into the stomach to be broken down"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once urine is formed, it drains through the ureter — a narrow tube — down into the bladder, where it's stored until the body is ready to release it through the urethra.",
+      "misconception": "Thinking urine goes 'back into the bloodstream' confuses urine (finished waste) with reabsorbed fluid (which happens earlier, before urine is fully formed). Thinking it exits through skin confuses urine with sweat, a completely different waste system. Thinking it goes to the stomach confuses the urinary system with the digestive system."
+    },
+    {
+      "id": "kidney-filtration-q-blood-enters",
+      "conceptId": "blood-enters-kidney",
+      "hotspotId": "hs-blood-enters-kidney",
+      "prompt": "Which structure carries blood INTO the kidney so filtering can begin?",
+      "options": [
+        "The ureter",
+        "The renal artery",
+        "The urethra",
+        "The bladder"
+      ],
+      "correctIndex": 1,
+      "explanation": "The renal artery is the large blood vessel that delivers blood into the kidney under pressure, which is what drives filtration in the nephrons; filtered blood then leaves through the renal vein.",
+      "misconception": "Picking the ureter confuses it with a blood vessel — the ureter actually carries urine (not blood) out of the kidney toward the bladder. Picking the urethra confuses it with the ureter, and it's actually the final tube urine exits the body through, far from the kidney. Picking the bladder confuses a storage organ downstream with the entry point of blood into the kidney."
+    }
+  ]
+}

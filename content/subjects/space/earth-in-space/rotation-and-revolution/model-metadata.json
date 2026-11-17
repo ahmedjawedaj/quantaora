@@ -1,0 +1,16 @@
+{
+  "componentId": "rotation-and-revolution",
+  "modelType": "procedural-r3f",
+  "url": "src/components/explorer/EarthSpaceViewer.tsx",
+  "thumbnailUrl": "/assets/thumbnails/space/earth-in-space/rotation-and-revolution.png",
+  "assetStatus": "Already implemented — a hand-built React Three Fiber scene (EarthSpaceViewer.tsx, mode=\"motion\"), not a pending asset. Earth renders from the same real, already-cleared GLB used by the Solar System branch (see src/data/planets.ts's earth entry and modelRegistry.ts for provenance/license).",
+  "defaultCamera": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "cameraDefault": { "position": [0, 3, 13], "target": [0, 0, 0] },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": ["Sun (light source)", "Earth (spins on its axis)", "Earth's orbit ring", "Sunlit/dark terminator shading"],
+  "hotspots": [],
+  "visualStyleNotes": "Anatomy Atelier quality bar: warm off-white studio backdrop, no floor grid, no glow/bloom. Earth orbits a small Sun marker on a thin ring while spinning independently on its own tilted-free axis for this mode; the lit hemisphere tracks the Sun direction in real time via directional lighting, not a texture swap.",
+  "materialNotes": "Earth uses its existing real GLB material set (metallic-roughness PBR); no emissive channels — day/night is real-time directional lighting, not a baked day/night texture.",
+  "note": "Unlike the hotspot-on-a-body pattern used by Moons/Stars/Galaxies, this branch is process-driven: the 'Touch it' interaction is a live physics simulation (independent rotation/revolution speed sliders) rather than tapping points on a single model, so this component intentionally carries no hotspots — the simulation itself is the interactive surface."
+}

@@ -1,0 +1,35 @@
+{
+  "componentId": "phloem",
+  "terms": [
+    {
+      "term": "Phloem",
+      "conceptId": "phloem-carries-food",
+      "hotspotId": "hs-phloem-tube",
+      "definition": "The plant tissue that carries food (sugar) made in the leaves to the rest of the plant.",
+      "function": "Delivers the food plants make to every part that needs it.",
+      "whereItIs": "Running through the stem, into the leaves and roots and seeds.",
+      "whyItMatters": "It is how the plant moves the food it makes to the rest of itself.",
+      "quizId": "phloem-q-what"
+    },
+    {
+      "term": "Food transport",
+      "conceptId": "food-from-leaves-around",
+      "hotspotId": "hs-leaf-source",
+      "definition": "The movement of sugar food out from the leaves through the phloem.",
+      "function": "Spreads the plant's food and storage from the leaves to other parts.",
+      "whereItIs": "Leaving the leaf and traveling through the phloem tubes.",
+      "whyItMatters": "It makes sure no part of a plant goes hungry even if it has no leaves.",
+      "quizId": "q-phloem-direction"
+    },
+    {
+      "term": "Living tube cells",
+      "conceptId": "phloem-living-tubes",
+      "hotspotId": "hs-phloem-tube",
+      "definition": "The living cells that make up phloem tubes and help move the food.",
+      "function": "Work actively to push the food through the plant.",
+      "whereItIs": "In the phloem tissue of leaves, stems, roots.",
+      "whyItMatters": "The living cells are what make phloem able to really transport food around.",
+      "quizId": "q-phloem-cells"
+    }
+  ]
+}

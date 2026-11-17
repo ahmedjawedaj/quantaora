@@ -1,0 +1,65 @@
+{
+  "componentId": "chloroplast",
+  "questions": [
+    {
+      "id": "chl-q-job",
+      "conceptId": "photosynthesis-sugar-making",
+      "hotspotId": "hs-stroma",
+      "prompt": "What is the main job of the chloroplast?",
+      "options": [
+        "To make sugar using sunlight",
+        "To digest waste",
+        "To store water",
+        "To hold the DNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "The chloroplast performs photosynthesis - using sunlight, water, and carbon dioxide to make sugar and release oxygen.",
+      "misconception": "Digesting waste is the lysosome, storing water is the vacuole - making food from light is the chloroplast's job."
+    },
+    {
+      "id": "chl-q-green",
+      "conceptId": "chlorophyll-captures-light",
+      "hotspotId": "hs-chloro",
+      "prompt": "Why are chloroplasts green?",
+      "options": [
+        "They contain chlorophyll, a green pigment that captures light",
+        "They contain red blood",
+        "They are made of grass",
+        "They absorb green light only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chlorophyll is the green pigment inside chloroplasts that captures light energy for photosynthesis.",
+      "misconception": "Plants are green because of chlorophyll, not because they 'absorb' green light - the pigment reflects green while capturing other light."
+    },
+    {
+      "id": "chl-q-where",
+      "conceptId": "photosynthesis-sugar-making",
+      "hotspotId": "hs-membrane",
+      "prompt": "In which cells are chloroplasts found?",
+      "options": [
+        "Plant cells and some algae",
+        "Animal cells",
+        "Human muscle cells",
+        "Red blood cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chloroplasts are found in plant cells and some algae, which is why those organisms can photosynthesize.",
+      "misconception": "Animal cells cannot photosynthesize - they do not have chloroplasts and get food by eating instead."
+    },
+    {
+      "id": "chl-q-grana",
+      "conceptId": "thylakoids-grana",
+      "hotspotId": "hs-grana",
+      "prompt": "What are the stacks of flat discs inside a chloroplast called?",
+      "options": [
+        "Thylakoid stacks (grana)",
+        "Ribosomes",
+        "Vacuoles",
+        "Nucleoli"
+      ],
+      "correctIndex": 0,
+      "explanation": "The flattened discs are thylakoids, and stacks of them are called grana. They are where light energy is captured.",
+      "misconception": "The discs are not storage sacs or ribosomes - their large surface is built to capture light for photosynthesis."
+    }
+  ]
+}

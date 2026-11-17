@@ -1,0 +1,65 @@
+{
+  "componentId": "compound",
+  "questions": [
+    {
+      "id": "compound-q-definition",
+      "conceptId": "compound-different-elements",
+      "hotspotId": "hs-compound-examples",
+      "prompt": "What is a compound?",
+      "options": [
+        "A pure substance made of two or more different elements chemically bonded",
+        "A mixture of elements that are not bonded",
+        "A single element by itself",
+        "Any liquid at room temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "A compound is a pure substance formed when two or more different elements bond together chemically.",
+      "misconception": "A mixture has no chemical bonds (you can separate it by filtering), and a single element is not a compound — the compound requires DIFFERENT elements actually bonded."
+    },
+    {
+      "id": "compound-q-new-identity",
+      "conceptId": "compound-new-identity",
+      "hotspotId": "hs-compound-new-identity",
+      "prompt": "Why is sodium (a reactive metal) plus chlorine (a poisonous gas) safe to eat as salt?",
+      "options": [
+        "Bonding gives the elements a new identity — salt has its own properties",
+        "The dangerous parts are filtered out",
+        "Tiny amounts of poison are harmless",
+        "Sodium and chlorine stop existing entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "When elements chemically bond, they form a new substance with new properties. Salt is neither a reactive metal nor a poison — it is a brand-new compound.",
+      "misconception": "The elements do not disappear and the danger is not filtered — the chemical bond TRANSFORMS the elements into a compound whose properties belong only to the compound."
+    },
+    {
+      "id": "compound-q-vs-mixture",
+      "conceptId": "compound-different-elements",
+      "hotspotId": "hs-compound-elements",
+      "prompt": "How is a compound different from a mixture?",
+      "options": [
+        "A compound's elements are chemically bonded; a mixture's are just mixed",
+        "A mixture is always heavier",
+        "A compound can be separated by filtering",
+        "There is no difference"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a compound the elements are chemically bonded and fixed in ratio; in a mixture the parts are simply mixed and can be separated by physical means.",
+      "misconception": "Mixtures are separable by filtering or picking apart; compounds are NOT — separating a compound requires a chemical reaction to break the bonds."
+    },
+    {
+      "id": "compound-q-example",
+      "conceptId": "compound-everywhere",
+      "hotspotId": "hs-compound-examples",
+      "prompt": "Which of these is a compound?",
+      "options": [
+        "Water — H₂O, hydrogen bonded to oxygen",
+        "Pure oxygen gas — O₂",
+        "A bucket of sand and salt",
+        "A pure copper wire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water is two different elements (hydrogen and oxygen) chemically bonded — a compound. O₂, the sand-salt mix, and pure copper are not compounds.",
+      "misconception": "O₂ is two of the SAME element (not a compound), a sand-salt mix has no bonds (a mixture), and pure copper is a single element."
+    }
+  ]
+}

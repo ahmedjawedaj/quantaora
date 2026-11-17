@@ -1,0 +1,37 @@
+{
+  "asset": "carbon-dioxide.glb",
+  "component": "molecules-and-bonding / starterMolecules / Carbon dioxide (CO2)",
+  "pipeline": "rcsb-sdf",
+  "sourceUrl": "https://files.rcsb.org/ligands/view/CO2_ideal.sdf",
+  "sourceDescription": "RCSB PDB Chemical Component Dictionary, ligand ID CO2, ideal (computed) 3D coordinates.",
+  "creatorOwner": "wwPDB / RCSB PDB (coordinate data). GLB authored by Quantaora build script (public/models/sourced/chemistry-structure/build-molecules.mjs) using three.js + GLTFExporter, the same technique already used for public/models/chemistry/atoms-and-elements/atom.glb.",
+  "creator": "wwPDB / RCSB PDB (coordinate data). GLB authored by Quantaora build script (public/models/sourced/chemistry-structure/build-molecules.mjs) using three.js + GLTFExporter, the same technique already used for public/models/chemistry/atoms-and-elements/atom.glb.",
+  "license": "CC0 1.0 (RCSB PDB structure/component data is public domain / CC0)",
+  "attributionRequired": false,
+  "attributionText": "Not required. Recommended credit: \"Molecular geometry data: RCSB PDB (rcsb.org), CC0.\"",
+  "redistributionStatus": "Redistributable — CC0 source data, no restriction. GLB itself is a Quantaora-authored derivative (ball-and-stick render), not a redistribution of a third-party GLB file.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 126816,
+  "sha256": "eabeac09996137356e17576c78588b0ac77a87e049f8728b1bb5a7dd792eb23e",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 7,
+    "meshCount": 7,
+    "materialCount": 4,
+    "textureCount": 0,
+    "imageCount": 0,
+    "animationCount": 0,
+    "accessorCount": 28,
+    "generator": "THREE.GLTFExporter r185",
+    "gltfVersion": "2.0"
+  },
+  "approxWorldBoundingBoxUnits": [
+    0.8,
+    0.8,
+    2.089
+  ],
+  "boundingBoxNote": "Computed via THREE.Box3.setFromObject on the authored scene graph (world-space, post-transform) at build time, not from raw accessor min/max (which reflect local unit-geometry space for TRS-transformed nodes). Double C=O bonds are rendered as twin parallel cylinders, matching the 'Bond highlighting' interactive-component requirement."
+}

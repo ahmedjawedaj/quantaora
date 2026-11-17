@@ -1,0 +1,65 @@
+{
+  "componentId": "cell-wall",
+  "questions": [
+    {
+      "id": "cw-q-material",
+      "conceptId": "cellulose-rigid-shell",
+      "hotspotId": "hs-wall-shell",
+      "prompt": "What is the plant cell wall mostly made of?",
+      "options": [
+        "Cellulose, a tough carbohydrate",
+        "Protein",
+        "Cholesterol",
+        "DNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "The plant cell wall is mostly made of cellulose, a strong carbohydrate that forms a rigid shell.",
+      "misconception": "The wall is not protein or DNA - it is a structural carbohydrate, like a very strong building material."
+    },
+    {
+      "id": "cw-q-job",
+      "conceptId": "support-and-shape",
+      "hotspotId": "hs-shape",
+      "prompt": "What is one main job of the cell wall?",
+      "options": [
+        "To support and protect the cell and give it shape",
+        "To store DNA",
+        "To make proteins",
+        "To digest food"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cell wall is a rigid shell that gives plant cells support, protection, and their fixed shape.",
+      "misconception": "Storing DNA is the nucleus and making protein is the ribosome - the wall is all about structure."
+    },
+    {
+      "id": "cw-q-who",
+      "conceptId": "cellulose-rigid-shell",
+      "hotspotId": "hs-wall-shell",
+      "prompt": "Which cells have a cell wall?",
+      "options": [
+        "Plant cells, fungi, and many bacteria",
+        "Only animal cells",
+        "Only human cells",
+        "No cells do"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plant cells, fungi, and many bacteria have cell walls. Animal cells do not - they are supported by membranes and other structures.",
+      "misconception": "Animal cells do not have a cell wall, which is why animal cells can move and change shape more freely."
+    },
+    {
+      "id": "cw-q-membrane",
+      "conceptId": "works-with-membrane",
+      "hotspotId": "hs-membrane-side",
+      "prompt": "Even though a plant has a cell wall, what still controls what enters the cell?",
+      "options": [
+        "The cell membrane inside the wall",
+        "The wall itself",
+        "The vacuole",
+        "Nothing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cell membrane still lies inside the wall and controls what enters and leaves the cell; the wall is mainly for support.",
+      "misconception": "The wall is like a gatehouse? No - it is mostly a support shell; the membrane is still the controller of entry and exit."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "componentId": "endothermic",
+  "questions": [
+    {
+      "id": "endothermic-q-definition",
+      "conceptId": "endothermic-absorbs-energy",
+      "hotspotId": "hs-endothermic-pack",
+      "prompt": "What is an endothermic reaction?",
+      "options": [
+        "A reaction that absorbs energy from its surroundings",
+        "A reaction that releases energy to its surroundings",
+        "A reaction with no energy change",
+        "A reaction that only happens in fire"
+      ],
+      "correctIndex": 0,
+      "explanation": "An endothermic reaction absorbs energy — endo (in) + therm (heat), so energy flows inward.",
+      "misconception": "Releasing energy is the exothermic reaction's job — the endothermic reaction is specifically the one that ABSORBS energy from outside."
+    },
+    {
+      "id": "endothermic-q-effect",
+      "conceptId": "endothermic-cools-surroundings",
+      "hotspotId": "hs-endothermic-energy",
+      "prompt": "What happens to the surroundings when an endothermic reaction runs?",
+      "options": [
+        "They cool down — heat is pulled out of them",
+        "They warm up",
+        "Nothing changes",
+        "They start glowing"
+      ],
+      "correctIndex": 0,
+      "explanation": "An endothermic reaction pulls heat out of its surroundings, so the surroundings get colder — like a cold pack.",
+      "misconception": "It is the EXOTHERMIC reaction that warms things up — endothermic pulls heat out and leaves the surroundings colder."
+    },
+    {
+      "id": "endothermic-q-why",
+      "conceptId": "endothermic-absorbs-energy",
+      "hotspotId": "hs-endothermic-levels",
+      "prompt": "Why does an endothermic reaction absorb energy?",
+      "options": [
+        "The products hold more energy than the reactants — the extra is pulled in",
+        "The reactants hold more energy than the products",
+        "Energy is destroyed during the reaction",
+        "The reaction gains atoms"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an endothermic reaction the products are higher-energy, so the extra energy must be absorbed from the surroundings.",
+      "misconception": "Energy is never destroyed and atoms never appear — the absorption happens because the products need more energy than the reactants had."
+    },
+    {
+      "id": "endothermic-q-example",
+      "conceptId": "endothermic-examples",
+      "hotspotId": "hs-endothermic-pack",
+      "prompt": "Which of these is an endothermic reaction?",
+      "options": [
+        "A cold pack turning freezing when cracked",
+        "A hand warmer heating up",
+        "A log burning in a fire",
+        "Your body staying warm"
+      ],
+      "correctIndex": 0,
+      "explanation": "A cold pack absorbing heat and turning cold is a classic endothermic reaction — it pulls energy IN from its surroundings.",
+      "misconception": "Hand warmers, fires, and body warmth all give energy OUT — those are exothermic. The cold pack takes energy in, which is endothermic."
+    }
+  ]
+}

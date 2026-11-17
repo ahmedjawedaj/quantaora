@@ -1,0 +1,33 @@
+{
+  "asset": "scattering-skull-khronos.glb",
+  "component": "Evolution > Fossil Evidence / skull specimen",
+  "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/ScatteringSkull",
+  "downloadUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb",
+  "provider": "Khronos glTF Sample Assets",
+  "creator": "Vladimir Petkovic",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Optional credit: ScatteringSkull by Vladimir Petkovic / Khronos glTF Sample Assets, CC0.",
+  "redistributionStatus": "Freely redistributable as a CC0 GLB sample asset.",
+  "dateSourced": "2026-09-08",
+  "fileSizeBytes": 8959044,
+  "sha256": "339eafce3fdbc4175ed4798addba7d0c175cb0dab316e9d91abc053422050a00",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 1,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "imageCount": 1,
+    "embeddedImages": 1,
+    "externalUriImages": 0,
+    "animationCount": 0,
+    "hasBinChunk": true,
+    "approxDimensions": [0.2042, 0.2528, 0.3394]
+  },
+  "notes": "Real skull specimen GLB used to improve Evolution > Fossil Evidence. It is not a dinosaur/fossil photogrammetry scan, but it gives the lesson a realistic bone structure instead of an authored-only fossil slab."
+}

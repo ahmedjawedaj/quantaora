@@ -1,0 +1,110 @@
+{
+  "id": "halogen",
+  "subject": "chemistry",
+  "title": "Halogen",
+  "summary": "The halogens are Group 17's reactive nonmetal family — fluorine, chlorine, bromine, iodine, and astatine. Explore why seven valence electrons make them so eager to grab one more, and the everyday compounds they build.",
+  "gradeMin": 7,
+  "gradeMax": 9,
+  "skillIds": [
+    "halogen-seven-valence-electrons",
+    "halogen-reactive-nonmetals",
+    "halogen-group-17"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "Famous groups",
+    "component": "Halogen",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > Famous groups > Halogen"
+  },
+  "crossReferences": [
+    {
+      "label": "Group (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Group",
+      "note": "The halogens are Group 17 — the second-to-last column of the periodic table."
+    },
+    {
+      "label": "Valence electron (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Valence electron",
+      "note": "Every halogen has seven valence electrons — just one short of a full shell, which is why they are so eager to react."
+    },
+    {
+      "label": "Ion (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Ion",
+      "note": "By grabbing one extra electron, halogens become negative ions with a -1 charge, like Cl⁻."
+    },
+    {
+      "label": "Alkali metal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Alkali metal",
+      "note": "Halogens and alkali metals are natural partners — the metal gives away its one electron and the halogen grabs it, building compounds like table salt."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > Famous groups",
+  "compareCandidate": {
+    "label": "Halogen vs. alkali metal",
+    "description": "Halogens have seven valence electrons and grab one more; alkali metals have one and give it away. The two families complete each other — which is exactly why they pair up to form compounds like salt."
+  },
+  "parts": [
+    "Seven valence electrons",
+    "Reactive nonmetals",
+    "Gain one electron to become -1 ions"
+  ],
+  "processes": [
+    "Grabbing one electron to fill their shell",
+    "Forming -1 ions like Cl⁻",
+    "Pairing with metals to build salts"
+  ],
+  "plainLanguageExplanation": "The halogens are Group 17 of the periodic table — the second-to-last column — and they are the most reactive family of nonmetals. Their members are fluorine, chlorine, bromine, iodine, and astatine. The secret of the family is electron arithmetic: every halogen atom has seven valence electrons, just one short of a full shell of eight. One short electron is a powerful craving. A halogen atom will grab an extra electron from almost anything that has one, which makes the pure halogens extremely reactive — chlorine is a greenish, dangerous gas, and fluorine is the most reactive element known. When a halogen grabs that one extra electron, it becomes a negative ion with a -1 charge, like chloride (Cl⁻). And here is the beautiful part: halogens pair perfectly with the alkali metals, because those metals have exactly one electron they want to give away. Sodium gives its one electron to chlorine, and the two lock into table salt, sodium chloride. Fluorine and chlorine also join carbon to build the plastics and everyday chemistry of modern life.",
+  "keyFacts": [
+    {
+      "label": "Where they live",
+      "value": "Group 17 — the second-to-last column of the periodic table"
+    },
+    {
+      "label": "Members",
+      "value": "Fluorine, chlorine, bromine, iodine, astatine"
+    },
+    {
+      "label": "Valence electrons",
+      "value": "Seven — just one short of a full shell of eight"
+    },
+    {
+      "label": "Reactivity",
+      "value": "The most reactive nonmetal family; fluorine is the most reactive element of all"
+    },
+    {
+      "label": "Result of reacting",
+      "value": "They grab one electron and become -1 ions (like Cl⁻)"
+    },
+    {
+      "label": "Famous compound",
+      "value": "Sodium + chlorine → table salt (NaCl)"
+    }
+  ],
+  "whyItMatters": "The halogens are everywhere in your world. Chlorine keeps swimming pools safe and makes PVC plastic; iodine is essential for your thyroid; fluorine strengthens teeth in toothpaste; and sodium chloride — made from a halogen and an alkali metal — is the salt on your table. Understanding the halogens makes the seven-valence-electron pattern of the periodic table concrete and useful.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Halogen (Group 17)",
+  "tagline": "The seven-electron electron grabbers",
+  "didYouKnow": "The salt on your dinner table is a chemical marriage between two famous families — sodium, an alkali metal with one extra electron, and chlorine, a halogen that is one electron short.",
+  "conditions": [
+    "Table salt",
+    "Water disinfection",
+    "Fluoride in toothpaste",
+    "Thyroid health (iodine)"
+  ],
+  "compareCandidateId": "alkali-metal",
+  "compareReason": "Seven electrons wanting one versus one electron wanting to leave — comparing halogens with alkali metals shows why the two families complete each other in compounds like salt."
+}

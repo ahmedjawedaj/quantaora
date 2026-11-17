@@ -1,0 +1,98 @@
+{
+  "id": "inheritance-punnett-squares",
+  "componentId": "inheritance-punnett-squares",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/genetics/inheritance-punnett-squares/inheritance-punnett-squares.procedural.ts",
+  "thumbnailUrl": "/assets/thumbnails/biology/genetics/inheritance-punnett-squares.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.9,
+      4.6
+    ],
+    "target": [
+      0,
+      1.55,
+      0.05
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.9,
+      4.6
+    ],
+    "target": [
+      0,
+      1.55,
+      0.05
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "punnett-grid-slab",
+    "parent-allele-beads",
+    "offspring-genotype-beads",
+    "genotype-ratio-stacks",
+    "phenotype-ratio-stacks",
+    "labels-and-annotations"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-parent-alleles-combine",
+      "label": "Parent alleles combine",
+      "conceptId": "parent-alleles-combine",
+      "position": [
+        0,
+        2.85,
+        0.12
+      ],
+      "positionHint": "Centered directly between the two father allele beads on the top edge (local coords roughly (0, 2.85, 0.12)) — the point that visibly touches both father beads (at x -0.15 and x 0.15) and reads as the row where alleles are supplied, with the mother's bead pair visible just below-left down the grid's side edge.",
+      "description": "Each parent contributes one allele per gene. The father's two alleles line up along the top edge of the grid; the mother's two line up down the left edge. Where a row and column meet, their alleles combine to form an offspring's genotype."
+    },
+    {
+      "id": "hs-punnett-square-grid",
+      "label": "Punnett square grid",
+      "conceptId": "punnett-square-grid",
+      "position": [
+        0,
+        1.85,
+        0.08
+      ],
+      "positionHint": "Dead center of the vertical grid slab, local coords roughly (0, 1.85, 0.08) — front face, midpoint of the four cells and their dividers.",
+      "description": "The 2x2 grid itself: four cells, each showing the genotype produced by one father-allele/mother-allele combination. It's the tool geneticists use to predict all possible offspring outcomes from a single cross."
+    },
+    {
+      "id": "hs-predicted-genotype-ratios",
+      "label": "Predicted genotype ratios",
+      "conceptId": "predicted-genotype-ratios",
+      "position": [
+        -0.45,
+        0.21,
+        0.4
+      ],
+      "positionHint": "Left cluster on the pedestal shelf below the grid, local coords roughly (-0.45, 0.21, 0.4) — center of the three-tower stack group, with the y-coordinate resting on the actual disk geometry (towers rise from base y=0.15 up to roughly y=0.27 for the tallest 2-disk tower).",
+      "description": "Counting the four grid cells gives the expected genotype ratio (e.g. 1 homozygous-dominant : 2 heterozygous : 1 homozygous-recessive for a classic monohybrid cross). Shown as a small cluster of stacked disk-towers whose heights encode the ratio."
+    },
+    {
+      "id": "hs-predicted-phenotype-ratios",
+      "label": "Predicted phenotype ratios",
+      "conceptId": "predicted-phenotype-ratios",
+      "position": [
+        0.45,
+        0.25,
+        0.4
+      ],
+      "positionHint": "Right cluster on the pedestal shelf below the grid, local coords roughly (0.45, 0.25, 0.4) — center of the two-tower stack group, with the y-coordinate resting on the actual disk geometry (towers rise from base y=0.15 up to roughly y=0.33 for the tallest 3-disk tower).",
+      "description": "Genotypes translate to observable traits. Dominant and recessive genotypes that share the same visible trait are grouped, giving the phenotype ratio (e.g. 3 dominant-trait : 1 recessive-trait). Shown as a second, smaller disk-tower cluster beside the genotype stacks."
+    }
+  ],
+  "visualStyleNotes": "Reads as a single calm \"specimen object\" in the Anatomy Atelier language, not a UI diagram: a vertical punnett-square slab floating above the same warm matte pedestal dome seen in desktop-overview.png/desktop-interaction.png, with two small satellite clusters resting on a shelf in front of the pedestal. No literal grid-app or spreadsheet look. Deviates from Atelier's default in one deliberate way: autoRotateDefault is false, because the grid carries letters/text that must stay legible and unmirrored — the object opens in a fixed 3/4-front view instead of spinning, and the learner opts into rotation manually (a \"physically meaningful control,\" per spec section 12, not a default show-off spin). Hotspot dots use the same small flat-colored circular markers as the reference, sized ~0.05 units, offset 0.02 units in front of surface geometry to avoid z-fighting. Palette pulls the Biology identity from spec section 12: warm paper/off-white base (~#F5EFE6), coral accent (~#E0785B) for dominant traits, leaf green (~#6B8F71) for recessive traits, graphite/ink (~#3A342C) for engraved text and divider lines — used as thin accent rings, never as flat saturated fills, so the piece stays in the calm/scientific register rather than reading as a toy.",
+  "materialNotes": "Matte ceramic/porcelain-paper shader throughout (MeshStandardMaterial-equivalent: roughness ~0.6-0.7, metalness 0, no emissive, no bloom/glow). Punnett grid slab: warm paper/off-white (~#F5EFE6), subtle micro-roughness, zero specularity spike — eggshell ceramic, not plastic. Divider lines: shallow engraved grooves in graphite/ink (~#3A342C) with soft AO, not applied decals. Parent and offspring allele beads: same ceramic material as the slab body, with a single engraved humanist-sans letter per bead; letter case (upper/lower) always carries the dominant/recessive distinction, never color alone. Genotype ratio disk stacks: same warm-paper ceramic, with an engraved monospace-style ratio plaque beneath the cluster. Phenotype ratio disk stacks: same ceramic base with a thin rim accent ring in coral (~#E0785B, dominant) or leaf green (~#6B8F71, recessive) — the only place flat color-coding appears, and always paired with the plaque numerals, never color alone. Lighting: soft 3-point warm studio setup matching the Atelier reference renders, gentle contact AO under every bead and disk stack, no rim glow, no colored lights. Background: warm off-white with a very subtle radial vignette.",
+  "assetBrief": "OBJECT: \"The Inheritance Table\" — a procedural Three.js composition (primitives only: rounded boxes, capsules, cylinders/disks, thin plane dividers — no sculpted/organic geometry, no GLB needed). Build entirely from parametric primitives so genotype/ratio values can be swapped at runtime for different cross scenarios (e.g. monohybrid vs. test cross) without re-authoring geometry.\n\nCOMPOSITION (single centered object on the standard Atelier pedestal dome, local origin = top-center of pedestal, +y up, +z toward camera):\n\n1. Pedestal: reuse the existing warm matte stone/plaster dome asset/material used for other Biology components (same silhouette as the heart/brain reference renders) — do not create a new pedestal style.\n\n2. Punnett grid slab: a vertical rounded-corner slab, x: -0.85 to 0.85, y: 1.05 to 2.65 (1.6 tall x 1.7 wide), 0.06 thick, front face at z=0.03. Matte warm-paper/porcelain material (#F5EFE6-ish, subtle micro-roughness, zero specularity spike — think eggshell ceramic, not plastic). Two thin engraved graphite divider lines (one vertical, one horizontal) split the face into 4 equal cells, each ~0.85 wide x 0.8 tall. Divider lines are shallow grooves with soft AO, not applied decals.\n\n3. Father allele pair (top, outside grid): two capsule \"beads,\" each ~0.12 radius x 0.22 long, standing upright, centered at (-0.15, 2.85, 0.1) and (0.15, 2.85, 0.1) — spaced to align with the grid's two columns. Same ceramic material as the slab, with a single engraved serif letter per bead (e.g. \"B\" and \"b\" — uppercase for dominant, lowercase for recessive). Letter engraving carries the dominant/recessive distinction; do not rely on color alone.\n\n4. Mother allele pair (left, outside grid): same bead geometry rotated 90°, centered at (-1.1, 2.0, 0.1) and (-1.1, 1.7, 0.1), aligned with the grid's two rows.\n\n5. Offspring beads (inset in each of the 4 cells): smaller paired beads (~0.08 radius) sitting just in front of the cell face (z=0.09) at cell centers (-0.43, 2.25), (0.43, 2.25), (-0.43, 1.45), (0.43, 1.45) — each pair shows the combined genotype for that cell (e.g. \"Bb\", \"BB\", \"bb\"), letters engraved as in step 3.\n\n6. Genotype ratio stacks (left shelf cluster): three disk-towers (flat cylinder \"coins,\" ~0.22 radius, ~0.06 thick per disk, stacked) at x = -0.75, -0.45, -0.15, base y = 0.15, on the pedestal's front shelf, z ~0.3-0.5. Tower heights encode the ratio (e.g. 1:2:1 → 1, 2, 1 disks; the tallest 2-disk tower tops out around y=0.27). A small engraved plaque beneath the cluster carries the ratio in monospace-style numerals per spec section 12 (e.g. \"1 : 2 : 1\").\n\n7. Phenotype ratio stacks (right shelf cluster): two disk-towers at x = 0.25, 0.65, same base y and disk size as step 6, heights encoding e.g. 3:1 (the tallest 3-disk tower tops out around y=0.33). Disks get a thin coral or leaf-green accent ring on their rim (dominant vs. recessive trait) — the only place flat color-coding appears, and always paired with the plaque numerals, never color alone.\n\nMATERIALS & LIGHTING: matte ceramic/ceramic-paper shader throughout (roughness ~0.6-0.7, no metalness, no emissive, no bloom/glow of any kind — spec section 12 explicitly forbids glow/gradient-heavy visuals). Soft 3-point warm studio lighting matching the Atelier reference renders, gentle contact AO under every bead and disk stack, warm-off-white background with a very subtle radial vignette (match desktop-overview.png).\n\nTYPOGRAPHY ON-MODEL: engraved/embossed letters on beads use a humanist sans (matches spec's UI typeface direction), ratio plaques use a monospace-style face (matches spec's \"monospace for formulas/data\" rule) — never mix the two within one label.\n\nCAMERA: default position (0, 1.9, 4.6), target (0, 1.55, 0.05), standard ~35-40° vertical FOV perspective — frames the full grid, both parent bead-pairs, and both shelf clusters with even margin, matching the large-centered-object framing in desktop-overview.png.\n\nINTERACTION NOTES FOR PIPELINE: auto-rotate defaults off (see visualStyleNotes) but must still be toggleable; isolate control should support isolating \"grid only,\" \"parents only,\" or \"ratios only\" via the layers list; no cross-section control (nothing to section — surface it as unavailable/disabled rather than omitted, consistent with other components' viewer chrome); auto-rotate and any idle animation must pause whenever a hotspot card is open.\n\nDO NOT: use bright saturated/cartoon colors as primary fills; add glow, bloom, or emissive materials; give beads faces/eyes or any cartoon character treatment; render a literal DNA double-helix (that belongs to the separate DNA component, not this one); use photographic/PBR-noisy textures — keep everything flat matte ceramic; encode dominant/recessive using color alone (colorblind-unsafe) — letters and plaque numerals must always carry the meaning; make the pedestal glossy or reflective; crowd the composition with extra labels beyond the four hotspot-triggered structure cards.",
+  "visual": {
+    "shape": "punnett-grid"
+  }
+}

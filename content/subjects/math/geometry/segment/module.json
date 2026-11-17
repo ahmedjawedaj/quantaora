@@ -1,0 +1,86 @@
+{
+  "id": "segment",
+  "subject": "math",
+  "title": "Segment",
+  "summary": "A segment is the part of a line between two endpoints — a straight piece with a definite length. Explore how segments are named, measured, and used as the sides of every polygon.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "segment-definition",
+    "segment-length",
+    "segment-naming",
+    "segment-side"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 6,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Building blocks",
+    "systemOrGroup": "Basic elements",
+    "component": "Segment",
+    "displayPath": "Math > Geometry > Building blocks > Basic elements > Segment"
+  },
+  "crossReferences": [
+    {
+      "label": "Line (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Line",
+      "note": "A segment is a piece of a line stopped at two endpoints."
+    },
+    {
+      "label": "Ray (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Ray",
+      "note": "A ray stops at one end; a segment stops at both."
+    },
+    {
+      "label": "Perimeter (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Perimeter",
+      "note": "The perimeter of a polygon is the sum of its segment sides."
+    }
+  ],
+  "belongsTo": "Geometry > Building blocks > Basic elements",
+  "compareCandidate": {
+    "label": "Segment vs. line",
+    "description": "A segment has two endpoints and a fixed length; a line has no endpoints and goes on forever."
+  },
+  "parts": [
+    "The two endpoints",
+    "The straight piece between",
+    "The measurable length"
+  ],
+  "processes": [
+    "Measuring a segment",
+    "Building a shape from segments"
+  ],
+  "plainLanguageExplanation": "A segment is the part of a line that sits between two endpoints — a straight, stop-at-both-ends piece. Because it stops, a segment has a definite length you can measure with a ruler. Name it with its two endpoints, like segment AB. Unlike a line or ray, a segment has no arrowheads — just two solid dots. Every side of a triangle, rectangle, or polygon is a segment, and the perimeter is the total of all the segment lengths.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The part of a line between two endpoints" },
+    { "label": "Drawn as", "value": "A straight stroke with solid dots at both ends" },
+    { "label": "Length", "value": "Measurable — it stops" },
+    { "label": "Naming", "value": "Segment AB" },
+    { "label": "Sides", "value": "Polygon sides are segments" },
+    { "label": "Perimeter", "value": "The sum of the segment lengths" }
+  ],
+  "whyItMatters": "Segments are the practical parts of geometry — the sides you measure, the edges you walk along, the lines on a ruler. Understanding segments turns abstract lines into things with size.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Segment",
+  "tagline": "A stop-at-both-ends line",
+  "didYouKnow": "A ruler is really a tool for measuring segments — the distance between two marks is always a segment, because it has a start and an end.",
+  "conditions": [
+    "Measuring lengths",
+    "Naming shapes",
+    "Building polygons",
+    "Finding perimeter"
+  ],
+  "compareCandidateId": "line",
+  "compareReason": "Segments and lines look alike in drawings — comparing their endpoints makes the difference measurable and clear."
+}

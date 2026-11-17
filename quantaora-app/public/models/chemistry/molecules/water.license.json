@@ -1,0 +1,37 @@
+{
+  "asset": "water.glb",
+  "component": "molecules-and-bonding / starterMolecules / Water (H2O)",
+  "pipeline": "rcsb-sdf",
+  "sourceUrl": "https://files.rcsb.org/ligands/view/HOH_ideal.sdf",
+  "sourceDescription": "RCSB PDB Chemical Component Dictionary, ligand ID HOH, ideal (computed) 3D coordinates.",
+  "creatorOwner": "wwPDB / RCSB PDB (coordinate data). GLB authored by Quantaora build script (public/models/sourced/chemistry-structure/build-molecules.mjs) using three.js + GLTFExporter, the same technique already used for public/models/chemistry/atoms-and-elements/atom.glb.",
+  "creator": "wwPDB / RCSB PDB (coordinate data). GLB authored by Quantaora build script (public/models/sourced/chemistry-structure/build-molecules.mjs) using three.js + GLTFExporter, the same technique already used for public/models/chemistry/atoms-and-elements/atom.glb.",
+  "license": "CC0 1.0 (RCSB PDB structure/component data is public domain / CC0)",
+  "attributionRequired": false,
+  "attributionText": "Not required. Recommended credit: \"Molecular geometry data: RCSB PDB (rcsb.org), CC0.\"",
+  "redistributionStatus": "Redistributable — CC0 source data, no restriction. GLB itself is a Quantaora-authored derivative (ball-and-stick render), not a redistribution of a third-party GLB file.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 119380,
+  "sha256": "28c81364ff88f60fdf5f5f36f17318fba4d06183cea6cf4fabee23fcd8e16c13",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 5,
+    "meshCount": 5,
+    "materialCount": 4,
+    "textureCount": 0,
+    "imageCount": 0,
+    "animationCount": 0,
+    "accessorCount": 20,
+    "generator": "THREE.GLTFExporter r185",
+    "gltfVersion": "2.0"
+  },
+  "approxWorldBoundingBoxUnits": [
+    0.947,
+    0.76,
+    1.354
+  ],
+  "boundingBoxNote": "Computed via THREE.Box3.setFromObject on the authored scene graph (world-space, post-transform) at build time, not from raw accessor min/max (which reflect local unit-geometry space for TRS-transformed nodes)."
+}

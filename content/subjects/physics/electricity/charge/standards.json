@@ -1,0 +1,26 @@
+{
+  "componentId": "charge",
+  "standards": [
+    {
+      "standardId": "3-PS2-3",
+      "standard": "Electric and Magnetic Interactions",
+      "description": "Ask questions to determine cause and effect relationships of electric or magnetic interactions between two objects not in contact with each other.",
+      "level": "primary",
+      "traceDetail": "The two bench balls attract and repel without touching — a direct non-contact force."
+    },
+    {
+      "standardId": "4-PS3-2",
+      "standard": "Energy and Energy Transfer",
+      "description": "Make observations to provide evidence that energy can be transferred from one place to another by electric currents, sound, light, heat, or something.",
+      "level": "support",
+      "traceDetail": "Charge built by rubbing stores energy that transfers across the spark."
+    },
+    {
+      "standardId": "MS-PS2-3",
+      "standard": "Interactions Between Objects",
+      "description": "Ask questions about data to determine the factors that affect the strength of electric and magnetic forces.",
+      "level": "primary",
+      "traceDetail": "Loading opposite vs. same signs changes arrow strength and direction."
+    }
+  ]
+}

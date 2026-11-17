@@ -1,0 +1,89 @@
+{
+  "id": "distance",
+  "subject": "physics",
+  "title": "Distance",
+  "summary": "Distance is how much ground an object actually covers while moving — the length of its whole path, like a runner bag-tracking 400 m around a track. Distance is a plain number with no direction: it is always positive and only ever grows. Explore how tracking a path's length compares to the simpler straight-line jump of displacement.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "distance-length-of-path",
+    "distance-always-positive",
+    "distance-total-vs-direct",
+    "distance-unit"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Mechanics",
+    "unit": "Describing Motion",
+    "systemOrGroup": "Position and Displacement",
+    "component": "Distance",
+    "displayPath": "Physics > Mechanics > Describing Motion > Position and Displacement > Distance"
+  },
+  "crossReferences": [
+    {
+      "label": "Position (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Position",
+      "note": "Distance is the amount of path covered starting from a position; position tells you where the path began."
+    },
+    {
+      "label": "Displacement (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Displacement",
+      "note": "Distance counts every meter of the path; displacement counts only the straight-line change from start to stop."
+    },
+    {
+      "label": "Speed (Mechanics)",
+      "branch": "mechanics",
+      "lowLevelItem": "Speed",
+      "note": "Speed is exactly the distance traveled divided by the time taken, so distance is the top of the speed formula."
+    }
+  ],
+  "belongsTo": "Mechanics > Describing Motion > Position and Displacement",
+  "compareCandidate": {
+    "label": "Distance vs. displacement",
+    "description": "Both are measured here on the same map — distance is the total length of the winding path you walked (say 12 m), displacement is the straight line from your start to the stop (say 4 m). Distance never goes down."
+  },
+  "parts": [
+    "The path being traveled",
+    "The start and stop points",
+    "A meter counter that adds every step",
+    "The map/shortcut line for comparison"
+  ],
+  "processes": [
+    "Adding up the length of every piece of a path",
+    "Reading the distance in meters on the model",
+    "Contrasting the path length with the straight line home",
+    "Basing speed calculations on measured distance"
+  ],
+  "plainLanguageExplanation": "Distance is simply how far a journey goes — the full amount of ground covered, measured along the path you actually take. If you walk around a square, you add the length of each side: 10 m + 10 m + 10 m + 10 m = 40 m. That number, in meters, is the distance. It's a plain, directionless number — never negative — so it's called a scalar. The fun it is that distance is usually bigger than the straight-line hop between start and end, because going around streets or weaving through cones adds length. In this model you'll drag a character around an obstacle course, watch the distance counter climb, and compare it to the short straight arrow carried in the same frame. Distance gives us the meter-count we plug into speed = distance ÷ time, so it's the first truth about how much travel really happened.",
+  "keyFacts": [
+    { "label": "Definition", "value": "The total length of the path an object travels, end to end" },
+    { "label": "Unit", "value": "Meters (m) — bigger scales add kilometers, small ones centimeters" },
+    { "label": "Scalar quantity", "value": "A plain number with no direction; it can never be negative or decrease" },
+    { "label": "To measure", "value": "Add up every stretch of the path, whether straight, curved, or with turns" },
+    { "label": "vs displacement", "value": "For a path with detours, distance is larger than the straight-line displacement" },
+    { "label": "Speed link", "value": "Speed = distance ÷ time turns measured distance into how fast" }
+  ],
+  "whyItMatters": "Distance powers almost every outdoor calculation in life: the length of a run, the fuel a car burns on a winding road, the drop a satellite covers around Earth. In physics, distance is the meter-scorer that speed and power are built on — and knowing whether someone is 'round' is how pilots and taxi drivers bill for the path actually traveled rather than the straight line on a map. Distance also sets the difference between covering ground and changing places, which is the key building block of the entire motion story.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Distance (kinematics)",
+  "tagline": "How much ground did it cover?",
+  "didYouKnow": "The word 'odometer' comes from the Greek words for 'path' and 'measure' — literally a path-measurer. A car's odometer counts distance (every bend), while a straight-line GPS shortcut can differ from it a lot — the same reason hiking trail signs read kilometers no one can rally with a ruler.",
+  "conditions": [
+    "Odometer readings in cars",
+    "Running race lengths",
+    "Treadmill displays",
+    "Route planners"
+  ],
+  "compareCandidateId": "displacement",
+  "compareReason": "The same path seen two ways — meters actually walked vs. the straight-line shortcut — is the clearest argument for why distance and displacement are different quantities."
+}

@@ -1,0 +1,109 @@
+{
+  "id": "nucleus",
+  "subject": "chemistry",
+  "title": "Nucleus",
+  "summary": "The nucleus is the dense, positively charged core of an atom, packed with protons and neutrons. It is tiny — but it holds nearly all of the atom's mass.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "nucleus-core-of-atom",
+    "nucleus-protons-neutrons",
+    "nucleus-holds-mass"
+  ],
+  "type": "model",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "Inside The Atom",
+    "systemOrGroup": "The atom's core",
+    "component": "Nucleus",
+    "displayPath": "Chemistry > Atoms And Elements > Inside The Atom > The atom's core > Nucleus"
+  },
+  "crossReferences": [
+    {
+      "label": "Proton (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Proton",
+      "note": "Protons are the positively charged particles packed in the nucleus — they give it its positive charge."
+    },
+    {
+      "label": "Neutron (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Neutron",
+      "note": "Neutrons are the charge-free particles packed in the nucleus — they add mass and stability."
+    },
+    {
+      "label": "Electron shell (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron shell",
+      "note": "The nucleus is at the center; the electron shells wrap far around it in a mostly empty gap."
+    },
+    {
+      "label": "Electron (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron",
+      "note": "The nucleus's positive charge is what pulls the negative electrons into orbit around the atom."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > Inside The Atom > The atom's core",
+  "compareCandidate": {
+    "label": "Nucleus vs. electron shell",
+    "description": "The nucleus is the tiny, dense, positive core packed with protons and neutrons; the electron shells are the huge, nearly empty space far outside where light electrons orbit. One holds the mass, the other does the chemistry."
+  },
+  "parts": [
+    "The atom's core",
+    "Packed with protons and neutrons",
+    "Holds nearly all the atom's mass"
+  ],
+  "processes": [
+    "Being the dense center of the atom",
+    "Carrying the atom's positive charge",
+    "Pulling electrons into orbit"
+  ],
+  "plainLanguageExplanation": "The nucleus is the core of the atom — the tiny, dense, positively charged blob at the very center. Everything that gives the atom its mass is jammed in there: the protons and neutrons. Here is the mind-bending part: the nucleus is incredibly small. If an atom were a football stadium, the nucleus would be a marble on the center spot. The rest of the stadium — the enormous space around that marble — is where the electrons orbit. Yet despite being so tiny, the nucleus holds nearly all of the atom's mass. A proton or neutron weighs about 1,836 times more than an electron, so the few protons and neutrons in the nucleus outweigh all the electrons put together. The nucleus also carries the atom's positive charge — the protons inside it. That positive charge is what reaches out across the empty space and pulls the negative electrons in, keeping the whole atom together. The nucleus is small, dense, positive, and the center of everything in chemistry.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "The dense core at the center of an atom"
+    },
+    {
+      "label": "Inside it",
+      "value": "Packed with protons and neutrons"
+    },
+    {
+      "label": "Charge",
+      "value": "Positive — from the protons inside"
+    },
+    {
+      "label": "Mass",
+      "value": "Holds nearly all the atom's mass despite being tiny"
+    },
+    {
+      "label": "Size",
+      "value": "If the atom were a stadium, the nucleus would be a marble"
+    },
+    {
+      "label": "Its pull",
+      "value": "The positive charge pulls the electrons into orbit"
+    }
+  ],
+  "whyItMatters": "The nucleus is where an atom's identity and nearly all its mass live. It explains why atoms are mostly empty space, why the periodic table orders elements by proton count, and — at the extreme — why nuclear energy is so powerful: the nucleus is a bundle of enormous energy and force.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Nucleus",
+  "tagline": "The dense heart of the atom",
+  "didYouKnow": "If you squeezed all the empty space out of your body — shrinking it to just the nuclei of its atoms — you would be smaller than a grain of sand.",
+  "conditions": [
+    "Atomic structure",
+    "Nuclear energy",
+    "Element identity"
+  ],
+  "compareCandidateId": "electron-shell",
+  "compareReason": "The nucleus and the shells are the two halves of atomic structure — comparing the dense core with the vast empty space around it makes the atom's true anatomy unforgettable."
+}

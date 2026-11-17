@@ -1,0 +1,88 @@
+{
+  "id": "parallel-circuit",
+  "subject": "physics",
+  "title": "Parallel Circuit",
+  "summary": "In a parallel circuit every component sits on its own branch of wire — so each bulb gets the full battery voltage and keeps glowing when a neighbor is removed. This model wires bulbs side by side: pop one off its branch and the others stay lit, exactly the wiring behind your home's lights.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "parallel-multiple-branches",
+    "parallel-same-voltage-each",
+    "parallel-independent-branches",
+    "parallel-current-splits-at-junction"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Circuits",
+    "systemOrGroup": "Building Circuits",
+    "component": "Parallel Circuit",
+    "displayPath": "Physics > Electricity > Circuits > Building Circuits > Parallel Circuit"
+  },
+  "crossReferences": [
+    {
+      "label": "Series circuit (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Series circuit",
+      "note": "The other extreme — one shared loop where every bulb shares the same current and one break stops all."
+    },
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "At each junction the total current splits into the branches, then recombines."
+    },
+    {
+      "label": "Voltage (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Voltage",
+      "note": "Every parallel branch sees the full battery volts."
+    }
+  ],
+  "belongsTo": "Electricity > Circuits > Building Circuits",
+  "compareCandidate": {
+    "label": "Parallel vs. series",
+    "description": "Parallel: separate branches, full voltage each, independent survival. Series: one shared loop, split voltage, one-breaks-all."
+  },
+  "parts": [
+    "The shared top rail",
+    "The branch wires",
+    "The bulb on each branch",
+    "The remove-one test"
+  ],
+  "processes": [
+    "Splitting current at the first junction",
+    "Giving every branch full voltage",
+    "Keeping each branch independent",
+    "Recombining current at the far rail"
+  ],
+  "plainLanguageExplanation": "A parallel circuit is the opposite arrangement to series: instead of one marble-only track, it's several parallel tracks off the same two rails. The wires leave the battery's top rail, thread through their own bulb, then drop back to the bottom rail — every bulb on its own private lane. Three big wins come straight from that layout. First: every branch connects right across the battery, so EVERY bulb sees the full battery voltage (a 3 V battery means 3 V to each bulb, not a third each). Second: the branches are independent — pull one bulb and its lane goes dark but the other lanes keep glowing at full color, which is exactly why household wiring is parallel. Third: the current, instead of being one number everywhere, splits at the first junction, each bulb draws its share, and the routes rejoin at the far rail — the total current leaving the battery is the sum of all the branch currents. If that heavy shared path is measured it reads higher than any single branch.",
+  "keyFacts": [
+    { "label": "Separate branches", "value": "Each component rides its own track between shared rails" },
+    { "label": "Full voltage each", "value": "Every branch connects across the whole battery" },
+    { "label": "Independent survival", "value": "Removing one bulb leaves the others lit" },
+    { "label": "Current splits then rejoins", "value": "Junction current = sum of branch currents" },
+    { "label": "Home wiring", "value": "Real houses are parallel so one light never kills the rest" }
+  ],
+  "whyItMatters": "Your house is a parallel circuit — that's why one burnt bulb doesn't black out every room. Parallel is where the current really earns its 'how much flows' meaning, because it splits and rejoins at junctions. Understanding it is the difference between 'one bad light kills the holidays' and the wiring you trust every night.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Parallel circuit",
+  "tagline": "Every bulb on its own lane",
+  "didYouKnow": "The junction rule that governs parallel branches — current splits in, recombines out — is the same current-conservation law couriers trust at a fork: what leaves a crossroads equals what enters it, only the loads choose lanes.",
+  "conditions": [
+    "Home light loops",
+    "Christmas tree lights (modern parallel)",
+    "Street lamps on poles",
+    "Power outlets in a room"
+  ],
+  "compareCandidateId": "series-circuit",
+  "compareReason": "Same bulbs, two layouts: parallel gives each its own branch and survives; series shares one loop and dies together. Flip between them on one board."
+}

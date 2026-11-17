@@ -1,0 +1,38 @@
+{
+  "componentId": "molecule",
+  "terms": [
+    {
+      "term": "Molecule",
+      "conceptId": "molecule-two-plus-atoms",
+      "hotspotId": "hs-molecule-examples",
+      "definition": "Two or more atoms held together by covalent bonds, acting as one unit.",
+      "function": "Forms the smallest unit of a substance that keeps its identity.",
+      "whereItIs": "Each of the four structures in the model.",
+      "whyItMatters": "Molecules are the building blocks of air, water, food, and DNA.",
+      "relatedConcept": "molecule-smallest-unit",
+      "quizId": "molecule-q-definition"
+    },
+    {
+      "term": "Covalent bond",
+      "conceptId": "molecule-covalent-bonds",
+      "hotspotId": "hs-molecule-bonds",
+      "definition": "A bond formed when atoms share a pair of electrons.",
+      "function": "Holds the atoms of a molecule together as a team.",
+      "whereItIs": "The rods joining the atoms in each molecule.",
+      "whyItMatters": "Covalent bonds are what turn separate atoms into a molecule.",
+      "relatedConcept": "molecule-two-plus-atoms",
+      "quizId": "molecule-q-holds-together"
+    },
+    {
+      "term": "Smallest unit",
+      "conceptId": "molecule-smallest-unit",
+      "hotspotId": "hs-molecule-atoms",
+      "definition": "The smallest piece of a substance that still acts like that substance.",
+      "function": "Sets the limit: break a molecule and the substance's identity is lost.",
+      "whereItIs": "Any whole molecule in the model — intact, it is the substance.",
+      "whyItMatters": "Explains why substances behave the way they do at the particle level.",
+      "relatedConcept": "molecule-two-plus-atoms",
+      "quizId": "molecule-q-smallest"
+    }
+  ]
+}

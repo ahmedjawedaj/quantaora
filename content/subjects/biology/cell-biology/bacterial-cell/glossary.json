@@ -1,0 +1,37 @@
+{
+  "componentId": "bacterial-cell",
+  "terms": [
+    {
+      "term": "Prokaryote",
+      "definition": "A living thing made of a single cell that has no nucleus and no membrane-bound compartments inside it — bacteria are prokaryotes."
+    },
+    {
+      "term": "Nucleoid",
+      "definition": "The region inside a bacterial cell where its circular DNA sits, loosely coiled — it does the job of a nucleus but isn't wrapped in its own membrane."
+    },
+    {
+      "term": "Cytoplasm",
+      "definition": "The gel-like fluid that fills the inside of a cell, where the DNA, ribosomes, and chemical reactions all sit together."
+    },
+    {
+      "term": "Ribosome",
+      "definition": "A tiny molecular machine that reads genetic instructions and builds proteins — bacterial ribosomes are a different size than human ones."
+    },
+    {
+      "term": "Cell wall",
+      "definition": "A rigid outer layer around most bacterial cells that gives them shape and protects them from bursting or collapsing."
+    },
+    {
+      "term": "Peptidoglycan",
+      "definition": "The tough, mesh-like molecule that makes up the cell wall in most bacteria."
+    },
+    {
+      "term": "Flagellum",
+      "definition": "A long, whip-like structure that spins like a propeller to help a bacterial cell swim toward food or away from danger."
+    },
+    {
+      "term": "Binary fission",
+      "definition": "The way most bacteria reproduce: one cell copies its DNA and splits in half, making two identical new cells."
+    }
+  ]
+}

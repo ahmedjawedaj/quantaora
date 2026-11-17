@@ -1,0 +1,89 @@
+{
+  "id": "balanced-equation",
+  "componentId": "balanced-equation",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/chemical-reactions/balanced-equation/balanced-equation.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/chemical-reactions/balanced-equation.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      3.2
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Balanced equation",
+    "Atom count",
+    "Unbalance demo"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-balanced-pair",
+      "label": "The balanced equation",
+      "conceptId": "balanced-equal-atoms",
+      "position": [
+        0,
+        0.45,
+        0
+      ],
+      "description": "2H₂ + O₂ → 2H₂O — every atom on the left is matched on the right. This equation obeys conservation of mass.",
+      "positionHint": "The full equation scene with its molecule rows.",
+      "color": "#D9A441",
+      "function": "Shows a fully balanced chemical equation."
+    },
+    {
+      "id": "hs-balanced-count",
+      "label": "Matched atom counts",
+      "conceptId": "balanced-equal-atoms",
+      "position": [
+        -0.9,
+        0.55,
+        0
+      ],
+      "description": "The count layer splits every molecule into atoms — 4 hydrogens and 2 oxygens on each side, perfectly matched.",
+      "positionHint": "The split-out atoms with matching tallies on each side.",
+      "color": "#7FA86A",
+      "function": "Shows the equal atom counts that make it balanced."
+    },
+    {
+      "id": "hs-balanced-coefficient",
+      "label": "Coefficients at work",
+      "conceptId": "balanced-choosing-coefficients",
+      "position": [
+        0.95,
+        0.55,
+        0
+      ],
+      "description": "The coefficients — the 2s in front of H₂ and H₂O — are what make both sides match. Adjusting them is how you balance.",
+      "positionHint": "The highlighted coefficient numbers in front of the formulas.",
+      "color": "#D96B5A",
+      "function": "Shows the coefficients that balance the equation."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. The equation 2H₂ + O₂ → 2H₂O floats centered with molecule rows beneath, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Formula tiles: soft off-white with app-rendered glyphs; molecule rows: ball-stick in CPK colors (hydrogen warm off-white, oxygen muted red). Strong saturated color is reserved for the small flat hotspot dots and the coefficient highlights (amber / molecular-green / coral accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Formula tiles: soft off-white matte, roughness ~0.6. Molecule spheres: CPK colors, roughness ~0.45-0.5. Bond rods: thin graphite cylinders. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: the balanced equation 2H₂ + O₂ → 2H₂O, built to be read as 'equal atoms on both sides — the true recipe.' Three procedural layers, all clean primitives:\n\n1) MAIN: a flat equation scene — formula tiles (app-rendered glyphs) `2H₂` + `O₂` on the left, an arrow tile, `2H₂O` on the right; beneath, molecule rows: left shows two H₂ ball-sticks and one O₂, right shows two water ball-sticks. Coefficients subtly highlighted.\n\n2) ATOM COUNT (toggleable layer): all molecules split into atoms that arrange in two matching columns (left and right); the app renders running tallies that end equal (H:4, O:2 both sides) with a soft balance confirmation glow.\n\n3) UNBALANCE DEMO (toggleable layer): the coefficient on 2H₂O dims to 1 (making H₂ + O₂ → H₂O), the right-side oxygen count drops to 1, and the tally shows a mismatch — a red 'unbalanced' hint (app-rendered) appears. The atoms visibly do not match.\n\nCamera: framed so the full equation and molecule rows fit with negative space; auto-rotate default. Budget 8-12k triangles. Named nodes: Tile_2H2, Tile_O2, Tile_H2O, EquationArrow, Molecules_Reactants, Molecules_Products, AtomColumns, Tallies, BalanceGlow. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "equation-balance"
+  }
+}

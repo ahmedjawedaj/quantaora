@@ -1,0 +1,58 @@
+{
+  "componentId": "bones",
+  "terms": [
+    {
+      "term": "Bone",
+      "conceptId": "bones-support-protect",
+      "hotspotId": "hs-bone-hard",
+      "definition": "The hard, living tissue that forms the skeleton.",
+      "function": "Supports, protects, and helps the body move.",
+      "whereItIs": "Forming the whole skeleton.",
+      "whyItMatters": "Bones are the body's framework.",
+      "relatedConcept": "marrow-makes-blood",
+      "quizId": "b-q-jobs"
+    },
+    {
+      "term": "Bone marrow",
+      "conceptId": "marrow-makes-blood",
+      "hotspotId": "hs-bone-marrow",
+      "definition": "The soft tissue inside bones that makes blood cells.",
+      "function": "Produces red and white blood cells.",
+      "whereItIs": "Inside the cavities of bones.",
+      "whyItMatters": "It is the body's blood-cell factory.",
+      "relatedConcept": "calcium-and-collagen",
+      "quizId": "b-q-marrow"
+    },
+    {
+      "term": "Calcium",
+      "conceptId": "calcium-and-collagen",
+      "hotspotId": "hs-calcium",
+      "definition": "A mineral that makes bone hard.",
+      "function": "Hardens bone and stores minerals.",
+      "whereItIs": "Throughout bone tissue.",
+      "whyItMatters": "It is why bones are strong (and why calcium in food matters).",
+      "relatedConcept": "bones-support-protect",
+      "quizId": "b-q-material"
+    },
+    {
+      "term": "Joint",
+      "conceptId": "bones-support-protect",
+      "hotspotId": "hs-joint",
+      "definition": "The place where two bones meet.",
+      "function": "Lets the skeleton bend and move.",
+      "whereItIs": "Between bones, like knees and elbows.",
+      "whyItMatters": "Joints make movement possible.",
+      "relatedConcept": "calcium-and-collagen"
+    },
+    {
+      "term": "Collagen",
+      "conceptId": "calcium-and-collagen",
+      "hotspotId": "hs-calcium",
+      "definition": "A flexible protein in bone.",
+      "function": "Gives bone its slight flexibility.",
+      "whereItIs": "Mixed through the bone tissue.",
+      "whyItMatters": "It keeps bone from being brittle.",
+      "relatedConcept": "calcium-and-collagen"
+    }
+  ]
+}

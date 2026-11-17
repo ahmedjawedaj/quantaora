@@ -1,0 +1,80 @@
+{
+  "componentId": "table",
+  "questions": [
+    {
+      "id": "table-def",
+      "conceptId": "table-definition",
+      "hotspotId": "hs-table-header",
+      "prompt": "What is a table?",
+      "options": [
+        "Data organized into rows and columns",
+        "A single data point",
+        "A type of average",
+        "A straight line graph"
+      ],
+      "correctIndex": 0,
+      "explanation": "A table lays data points out in a grid of rows and columns.",
+      "misconception": "A point is a single observation and a line graph is a chart — a table is the organized grid structure itself."
+    },
+    {
+      "id": "table-rows-columns",
+      "conceptId": "table-rows-columns",
+      "hotspotId": "hs-column",
+      "prompt": "In a class table, what does a ROW usually represent?",
+      "options": [
+        "One student's full record",
+        "One test only",
+        "The class average",
+        "A chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rows run across and usually hold one record — one student's data across all columns.",
+      "misconception": "Columns hold one attribute each, but a whole row is one item's complete record."
+    },
+    {
+      "id": "table-read",
+      "conceptId": "table-read",
+      "hotspotId": "hs-row",
+      "prompt": "To read Mia's score from a table, you...",
+      "options": [
+        "Find her row and read the score column",
+        "Read the header only",
+        "Read the first row",
+        "Count all the cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trace down to Mia's row, then across to the score column — row and column meet at the value.",
+      "misconception": "The header names columns but holds no scores — each value sits at the crossing of a specific row and column."
+    },
+    {
+      "id": "table-sort",
+      "conceptId": "table-read",
+      "hotspotId": "hs-row",
+      "prompt": "Why might you sort a table by score?",
+      "options": [
+        "To see highest to lowest at a glance",
+        "To delete the header",
+        "To turn it into a circle",
+        "To hide the names"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sorting reorders rows so rankings and patterns become obvious.",
+      "misconception": "Sorting changes the order of rows, not the data itself — and it never removes rows or columns."
+    },
+    {
+      "id": "table-chart",
+      "conceptId": "table-chart",
+      "hotspotId": "hs-table-header",
+      "prompt": "The numbers in a table can be turned directly into...",
+      "options": [
+        "A bar chart",
+        "A degree measure",
+        "A new table only",
+        "A perimeter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Table numbers are the raw material for charts like bar charts and line graphs.",
+      "misconception": "Charts are the visual form of table data — the same numbers can appear as bars, dots, or lines."
+    }
+  ]
+}

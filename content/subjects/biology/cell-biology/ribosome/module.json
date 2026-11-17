@@ -1,0 +1,93 @@
+{
+  "id": "ribosome",
+  "subject": "biology",
+  "title": "Ribosome",
+  "summary": "The ribosome is the protein builder of the cell - a tiny two-part machine that reads a cell's instruction and links amino acids into proteins. Explore how it reads the code, joins the pieces, and why this small organelle matters in every living cell.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "protein-building",
+    "amino-acid-linking",
+    "reads-instructions"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Ribosome",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Ribosome"
+  },
+  "crossReferences": [
+    {
+      "label": "Nucleus (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Nucleus",
+      "note": "The nucleus reads the DNA and sends out copies of instructions; ribosomes read those copies to build proteins."
+    },
+    {
+      "label": "Endoplasmic reticulum (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Endoplasmic reticulum",
+      "note": "Ribosomes clamp onto the rough ER to push their fresh proteins into the cell's shipping system."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Free ribosomes vs. rough-ER ribosomes",
+    "description": "Free-floating ribosomes build proteins the cell uses inside itself. Ribosomes clamped onto the rough ER build proteins that get packaged and shipped out to other parts of the cell or the body."
+  },
+  "parts": [
+    "Small subunit",
+    "Large subunit",
+    "Message-reading site",
+    "Amino-acid joining site"
+  ],
+  "processes": [
+    "Translation: reading the code to build a protein",
+    "Linking amino acids in the order given"
+  ],
+  "plainLanguageExplanation": "The ribosome is the tiny factory that makes proteins. It reads a copy of an instruction from the cell's DNA and, following it like a recipe, joins small building blocks called amino acids together in the exact order shown. The chain folds into a protein that does real work, like building structure, moving molecules, or fighting germs. Ribosomes can float free in the cytoplasm or clamp onto the rough endoplasmic reticulum. Either way, their one job is to read the code and build protein to match.",
+  "keyFacts": [
+    {
+      "label": "Main job",
+      "value": "Builds proteins by linking amino acids in the order the code says"
+    },
+    {
+      "label": "Size",
+      "value": "One of the smallest but most numerous organelles in a cell"
+    },
+    {
+      "label": "Where found",
+      "value": "Floating free in the cytoplasm or attached to the rough ER"
+    },
+    {
+      "label": "How it works",
+      "value": "Reads a messenger code, then joins amino acids to form a protein"
+    },
+    {
+      "label": "Everywhere",
+      "value": "Found in all living cells, from bacteria to human cells"
+    }
+  ],
+  "whyItMatters": "Without ribosomes, no cell could build proteins, and without proteins nothing could be made, moved, or repaired. They turn the cell's stored instructions into the actual working molecules of life.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Ribosome",
+  "tagline": "The protein builder",
+  "didYouKnow": "A single active cell can hold millions of ribosomes, each snapping amino acids together in under a second.",
+  "conditions": [
+    "Translation",
+    "Protein synthesis"
+  ],
+  "branch": "cell-biology",
+  "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Ribosome",
+  "plain": "The ribosome is the tiny factory that makes proteins. It reads a copy of an instruction from the cell's DNA and, following it like a recipe, joins small building blocks called amino acids together in the exact order shown. The chain folds into a protein that does real work, like building structure, moving molecules, or fighting germs. Ribosomes can float free in the cytoplasm or clamp onto the rough endoplasmic reticulum. Either way, their one job is to read the code and build protein to match."
+}

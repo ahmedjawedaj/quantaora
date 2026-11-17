@@ -1,0 +1,90 @@
+{
+  "id": "ray",
+  "componentId": "ray",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/ray/ray.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/ray.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Board",
+    "Ray path",
+    "Endpoint",
+    "Arrowhead"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-ray-path",
+      "label": "Ray AB",
+      "conceptId": "ray-definition",
+      "position": [
+        0.3,
+        0.45,
+        0.1
+      ],
+      "description": "The straight path starting at A and extending forever through B.",
+      "positionHint": "The thin stroke from the dot to the arrowhead.",
+      "color": "#D9A441",
+      "function": "The one-directional infinite path."
+    },
+    {
+      "id": "hs-endpoint",
+      "label": "Endpoint A",
+      "conceptId": "ray-naming",
+      "position": [
+        -0.85,
+        0.45,
+        0.2
+      ],
+      "description": "The fixed dot where the ray starts \u2014 named first.",
+      "positionHint": "The solid dot at the start of the stroke.",
+      "color": "#7FA86A",
+      "function": "The starting point of the ray."
+    },
+    {
+      "id": "hs-arrowhead",
+      "label": "Arrowhead",
+      "conceptId": "ray-one-direction",
+      "position": [
+        1.05,
+        0.45,
+        0.1
+      ],
+      "description": "The mark showing the ray continues forever in this direction.",
+      "positionHint": "The arrow triangle at the open end.",
+      "color": "#6B85A8",
+      "function": "Shows the endless direction."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A flat board carrying a ray \u2014 a solid endpoint dot, a thin straight stroke, and one arrowhead \u2014 with a second swingable ray option for making angles. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Board: warm paper panel (roughness ~0.5). Ray stroke: thin warm-ink strip. Endpoint: small solid warm-ink sphere. Arrowhead: small warm-ink triangle. Second ray (optional): identical thin strip in a slightly different ink tone. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: rays as one-directional paths \u2014 a single ray AB on a board rotates around its fixed endpoint like a light beam; a second ray can be added from the same endpoint and swung to form an angle.\n\nGEOMETRY: A flat board with a ray: solid dot A at one end, thin straight stroke, arrowhead at the other. Dragging the arrowhead swings the ray around fixed endpoint A. An 'extend' button lengthens the drawn stroke. An 'add ray' button spawns a second ray AC from the same endpoint A; dragging its arrowhead opens and closes an angle whose vertex is A. Labels float at A, B, C.\n\nLAYERS (toggleable): (1) board; (2) ray AB; (3) ray AC; (4) endpoint + labels.\n\nCAMERA: three-quarter from above-front, frames the board and both rays; labels legible. Budget 4-8k triangles. Named nodes: Board, RayAB, RayAC, Endpoint_A, Arrowheads, Labels. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "ray-arrow"
+  }
+}

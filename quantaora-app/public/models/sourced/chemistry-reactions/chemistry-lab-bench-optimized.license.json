@@ -1,0 +1,41 @@
+{
+  "assetName": "chemistry-lab-bench-optimized.glb",
+  "derivedFrom": "chemistry-lab-bench.glb",
+  "sourceAsset": "Chemistry Set",
+  "sourceUrl": "https://polyhaven.com/a/chemistry_set",
+  "creator": "Jiri Ptacek",
+  "owner": "Poly Haven",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://polyhaven.com/license",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (CC0). Project convention: credit 'Chemistry Set by Jiri Ptacek / Poly Haven (CC0)' in the in-app asset credits list.",
+  "redistributionStatus": "Freely redistributable, modification and commercial use permitted, no restriction.",
+  "dateSourced": "2026-08-18",
+  "processingNote": "Asset Recovery Wave 3 (2026-08-18): material-factor-edit derivative addressing the CONDITIONAL-for-material-fault glass vessels (docs/assets/reviews/chemistry-reactions-visual.md), which render as near-black opaque silhouettes under the app's no-IBL two-directional-light stage. Edited only the 'chemistry_set_glass' material (37 node instances: beakers, bottles, graduated cylinder) via a small @gltf-transform/core script: metallicFactor 1 -> 0.05, roughnessFactor 1 -> 0.35, per the review's own scoped recommendation ('remap the glass nodes' metalness factor down toward 0 and rely on diffuse/normal map plus modest roughness'). The 'chemistry_set' material (non-glass props: clamp stand, tripod, tube rack, etc., which the review found render correctly already) was left untouched. No geometry, texture pixels, node transforms, or license/attribution facts changed -- verified by re-reading the material factors back out of the written .glb. Original file preserved unmodified alongside this derivative.",
+  "fileSizeBytes": 3721252,
+  "sha256": "0a76c5dc79f581dfb1d87a6a6e30562329d70f614ca400bc037bdf0e94072f09",
+  "validation": {
+    "magicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 50,
+    "meshCount": 50,
+    "materialCount": 2,
+    "textureCount": 6,
+    "animationCount": 0,
+    "materialsBefore": {
+      "chemistry_set_glass": { "metallicFactor": 1, "roughnessFactor": 1 },
+      "chemistry_set": { "metallicFactor": 1, "roughnessFactor": 1 }
+    },
+    "materialsAfter": {
+      "chemistry_set_glass": { "metallicFactor": 0.05, "roughnessFactor": 0.35 },
+      "chemistry_set": { "metallicFactor": 1, "roughnessFactor": 1 }
+    },
+    "geometryUnchanged": true,
+    "fileSizeBeforeBytes": 3726556,
+    "fileSizeAfterBytes": 3721252,
+    "renderInspected": false,
+    "notes": "File size effectively unchanged (small delta from JSON re-serialization, not from any resampling). This is a scalar-factor edit only; the baked metallicRoughnessTexture pixels are unchanged, so final per-pixel metalness/roughness = factor x texture value as per the glTF PBR spec. Flagged for a follow-up visual-acceptance render pass to confirm the glass vessels now read as translucent/frosted rather than near-black under the app's actual GenericViewer lighting rig."
+  },
+  "note": "Whole-diorama lab-bench scene; individual prop splitting (beaker/test-tube/clamp-stand as separate hero assets) remains a separate, unaddressed follow-up idea per the source review, not attempted here."
+}

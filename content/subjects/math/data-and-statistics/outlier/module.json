@@ -1,0 +1,86 @@
+{
+  "id": "outlier",
+  "subject": "math",
+  "title": "Outlier",
+  "summary": "An outlier is a data point that sits far away from the rest of a dataset. Explore how to spot one, how it bends the mean and the range, and how to decide whether to ignore it.",
+  "gradeMin": 5,
+  "gradeMax": 8,
+  "skillIds": [
+    "outlier-definition",
+    "outlier-spot",
+    "outlier-effect",
+    "outlier-decision"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Data And Statistics",
+    "unit": "Statistics",
+    "systemOrGroup": "Summarizing data",
+    "component": "Outlier",
+    "displayPath": "Math > Data And Statistics > Statistics > Summarizing data > Outlier"
+  },
+  "crossReferences": [
+    {
+      "label": "Mean (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Mean",
+      "note": "An outlier pulls the mean strongly because it is added to the total."
+    },
+    {
+      "label": "Range (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Range",
+      "note": "One far-out point stretches the range dramatically."
+    },
+    {
+      "label": "Median (Data And Statistics)",
+      "branch": "data-and-statistics",
+      "lowLevelItem": "Median",
+      "note": "The median resists outliers because it only uses the middle position."
+    }
+  ],
+  "belongsTo": "Data And Statistics > Statistics > Summarizing data",
+  "compareCandidate": {
+    "label": "Outlier vs. normal point",
+    "description": "An outlier is a genuine data point but far from the pack — spottable and important, unlike a typical near-the-cluster point."
+  },
+  "parts": [
+    "The far point",
+    "The cluster",
+    "The gap"
+  ],
+  "processes": [
+    "Spotting an outlier in a plot",
+    "Judging whether to keep or question it"
+  ],
+  "plainLanguageExplanation": "An outlier is a data point that sits far away from the rest of the dataset — one lonely house price among modest ones, one giant storm in a calm year. It may be a real observation or an error like a typing mistake, and you must look at it carefully. An outlier distorts the mean (because it is added to the total) and the range (because it stretches the extremes), while leaving the median almost untouched. Scientists record it rather than hide it, but then must decide whether it's a rare true event or an error to drop.",
+  "keyFacts": [
+    { "label": "Definition", "value": "A data point far from the rest" },
+    { "label": "Where it sits", "value": "Outside the cluster, alone in a gap" },
+    { "label": "On the mean", "value": "Pulls it hard" },
+    { "label": "On the range", "value": "Stretches it wide" },
+    { "label": "On the median", "value": "Barely moves the middle" },
+    { "label": "Decision", "value": "Real event or error? Investigate, then decide" }
+  ],
+  "whyItMatters": "Outliers can be the most interesting points in a dataset — a customer with a huge order, a machine that broke, a star athlete. Knowing how they shift your summaries and when to keep or question them is honest statistics.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Outlier",
+  "tagline": "The point far from the crowd",
+  "didYouKnow": "Outliers have scientific gold in them — the planet Neptune was found because astronomers studied a strange irregularity (an outlier) in Uranus's orbit and asked what could explain it.",
+  "conditions": [
+    "Quality control",
+    "Fair reporting",
+    "Error-checking",
+    "Athletic records"
+  ],
+  "compareCandidateId": "median",
+  "compareReason": "Students don't realize one point could bend their 'average' — comparing the outlier's effect on mean vs. median makes robustness real."
+}

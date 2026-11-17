@@ -1,0 +1,49 @@
+{
+  "componentId": "skin",
+  "terms": [
+    {
+      "term": "Skin",
+      "conceptId": "protection-and-sensation",
+      "hotspotId": "hs-dermis",
+      "definition": "The body's largest organ - a protective outer covering.",
+      "function": "Protects, senses touch, controls temperature, and repairs itself.",
+      "whereItIs": "Covering the whole body.",
+      "whyItMatters": "It is the body's first line of defense.",
+      "relatedConcept": "epidermis-dermis-layers",
+      "quizId": "sk-q-largest"
+    },
+    {
+      "term": "Epidermis",
+      "conceptId": "epidermis-dermis-layers",
+      "hotspotId": "hs-epidermis",
+      "definition": "The thin protective outer layer of skin.",
+      "function": "Protects and constantly replaces its cells.",
+      "whereItIs": "The outermost layer.",
+      "whyItMatters": "It is the surface that takes the daily wear.",
+      "relatedConcept": "protection-and-sensation",
+      "quizId": "sk-q-layers"
+    },
+    {
+      "term": "Dermis",
+      "conceptId": "epidermis-dermis-layers",
+      "hotspotId": "hs-dermis",
+      "definition": "The thick inner layer of the skin.",
+      "function": "Holds vessels, nerves, and glands.",
+      "whereItIs": "Beneath the epidermis.",
+      "whyItMatters": "It gives the skin strength and its senses.",
+      "relatedConcept": "temperature-control-sweating",
+      "quizId": "sk-q-sense"
+    },
+    {
+      "term": "Sweat gland",
+      "conceptId": "temperature-control-sweating",
+      "hotspotId": "hs-sweat",
+      "definition": "A gland in the dermis that releases sweat.",
+      "function": "Cools the body through evaporation.",
+      "whereItIs": "In the dermis, opening to the surface.",
+      "whyItMatters": "It is key to staying cool.",
+      "relatedConcept": "protection-and-sensation",
+      "quizId": "sk-q-sweat"
+    }
+  ]
+}

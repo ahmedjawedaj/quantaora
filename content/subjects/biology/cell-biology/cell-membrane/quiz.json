@@ -1,0 +1,80 @@
+{
+  "componentId": "cell-membrane",
+  "questions": [
+    {
+      "id": "cm-q-bilayer",
+      "conceptId": "phospholipid-bilayer",
+      "hotspotId": "hs-bilayer",
+      "prompt": "What is the cell membrane mainly made of?",
+      "options": [
+        "A double layer of phospholipids with proteins inside",
+        "A single sheet of rigid cellulose",
+        "Pure water with no structure",
+        "A mixture of DNA and sugar"
+      ],
+      "correctIndex": 0,
+      "explanation": "The membrane is a phospholipid bilayer - two rows of oily molecules with the heads facing water and the tails tucked inward - with proteins floating in it, forming a flexible yet organized sheet.",
+      "misconception": "It is tempting to imagine a hard shell, but the membrane is a flexible, fluid-like double layer of lipids, not a stiff wall."
+    },
+    {
+      "id": "cm-q-selective",
+      "conceptId": "selective-permeability",
+      "hotspotId": "hs-selective-gate",
+      "prompt": "What does 'selective permeability' mean for a cell membrane?",
+      "options": [
+        "It lets some substances pass but blocks others",
+        "It lets everything through freely",
+        "It lets nothing in or out at all",
+        "It only lets lipids through and nothing else"
+      ],
+      "correctIndex": 0,
+      "explanation": "Selective means the membrane chooses: small, simple molecules like water pass through; larger or charged ones need special protein doors, giving the cell control over its inside.",
+      "misconception": "Some assume 'selective' means 'leaks things or blocks everything.' The truth is it is a controlled filter - some things move freely, some need help, some are kept out."
+    },
+    {
+      "id": "cm-q-water",
+      "conceptId": "membrane-transport",
+      "hotspotId": "hs-boundary",
+      "prompt": "Which molecule can most easily pass straight through the lipid bilayer on its own?",
+      "options": [
+        "A small water molecule",
+        "A large protein",
+        "A big starch molecule",
+        "A heavy salt particle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Small, simple molecules like water pass through the bilayer because they are small enough to slip between the lipid tails. Large or charged particles usually need protein doors.",
+      "misconception": "People sometimes think any needed 'stuff' passes freely. Size and charge matter - the tiny water molecule goes through easily, the big or charged ones do not."
+    },
+    {
+      "id": "cm-q-all-cells",
+      "conceptId": "flexible-boundary",
+      "hotspotId": "hs-boundary",
+      "prompt": "Which is true about the cell membrane?",
+      "options": [
+        "Every cell has a cell membrane",
+        "Only plant cells have a cell membrane",
+        "Only animal cells have a cell membrane",
+        "Cells in water do not need a membrane"
+      ],
+      "correctIndex": 0,
+      "explanation": "All cells - animal, plant, and bacterial - are wrapped in a cell membrane. It is the boundary that makes each cell a separate unit with control over its insides.",
+      "misconception": "Because plants also have a cell wall, some people think plants lack a membrane too. In fact the plant cell has BOTH a membrane (inside) and a wall (outside)."
+    },
+    {
+      "id": "cm-q-wall-vs-membrane",
+      "conceptId": "selective-permeability",
+      "hotspotId": "hs-selective-gate",
+      "prompt": "How is the cell membrane different from a plant cell wall?",
+      "options": [
+        "The membrane controls entry and exit; the wall mainly gives support and shape",
+        "The membrane is thick and rigid; the wall controls entry",
+        "They are the same structure with two names",
+        "The membrane only exists in animal cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "The membrane is thin, flexible, alive, and controls what crosses the boundary. The cell wall is thick and rigid and mainly provides structure and protection.",
+      "misconception": "The two are easily confused because they both wrap the cell. But function is different - the gate is on the membrane, while the wall is a sturdy, non-living shell."
+    }
+  ]
+}

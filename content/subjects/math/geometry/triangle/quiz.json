@@ -1,0 +1,80 @@
+{
+  "componentId": "triangle",
+  "questions": [
+    {
+      "id": "triangle-def",
+      "conceptId": "triangle-definition",
+      "hotspotId": "hs-triangle-plate",
+      "prompt": "What is a triangle?",
+      "options": [
+        "A closed shape with 3 straight sides",
+        "A closed shape with 4 straight sides",
+        "Two rays sharing a point",
+        "An endless straight path"
+      ],
+      "correctIndex": 0,
+      "explanation": "A triangle closes three straight sides into one shape.",
+      "misconception": "Four sides make a quadrilateral, two rays make an angle, and an endless path is a line — a triangle is exactly three sides."
+    },
+    {
+      "id": "triangle-180",
+      "conceptId": "triangle-180",
+      "hotspotId": "hs-vertex-a",
+      "prompt": "The three angles of any triangle add up to...",
+      "options": [
+        "180°",
+        "90°",
+        "360°",
+        "270°"
+      ],
+      "correctIndex": 0,
+      "explanation": "No matter the shape, a triangle's angles sum to 180°.",
+      "misconception": "A single angle can be 90° and a quadrilateral sums to 360°, but the triangle total is always 180°."
+    },
+    {
+      "id": "triangle-types-sides",
+      "conceptId": "triangle-types",
+      "hotspotId": "hs-triangle-plate",
+      "prompt": "A triangle with all three sides equal is called...",
+      "options": [
+        "Equilateral",
+        "Isosceles",
+        "Scalene",
+        "Right"
+      ],
+      "correctIndex": 0,
+      "explanation": "An equilateral triangle has three equal sides.",
+      "misconception": "Two equal sides is isosceles, no equal sides is scalene, and right is about angles — equilateral means all side lengths match."
+    },
+    {
+      "id": "triangle-types-angles",
+      "conceptId": "triangle-types",
+      "hotspotId": "hs-vertex-a",
+      "prompt": "A triangle with one 90° angle is called...",
+      "options": [
+        "Right",
+        "Acute",
+        "Obtuse",
+        "Equilateral"
+      ],
+      "correctIndex": 0,
+      "explanation": "A triangle containing a right angle (90°) is a right triangle.",
+      "misconception": "Acute triangles have all angles under 90°, obtuse triangles have one over 90° — the presence of a perfect right angle makes it a right triangle."
+    },
+    {
+      "id": "triangle-rigid",
+      "conceptId": "triangle-rigid",
+      "hotspotId": "hs-triangle-plate",
+      "prompt": "Why are triangles used in bridges and roofs?",
+      "options": [
+        "They are rigid and won't bend out of shape",
+        "They have the most sides",
+        "They are the cheapest to paint",
+        "They are flexible like gates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triangles lock their angles in place, so they resist being pushed out of shape.",
+      "misconception": "Rigidity is the reason — quadrilaterals flex, which is why frames are braced by triangles."
+    }
+  ]
+}

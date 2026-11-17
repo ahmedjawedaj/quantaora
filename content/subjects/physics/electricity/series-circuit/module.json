@@ -1,0 +1,89 @@
+{
+  "id": "series-circuit",
+  "subject": "physics",
+  "title": "Series Circuit",
+  "summary": "In a series circuit, components line up on one single loop — so the same current flows through every bulb, the volts share out, and if one bulb goes wrong the whole loop goes dark. This model wires bulbs in a chain: count the current at any point, pop a bulb, and watch the domino fail.",
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "skillIds": [
+    "series-one-loop",
+    "series-same-current-all",
+    "series-volts-share",
+    "series-one-break-stops-all"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Physics",
+    "branch": "Electricity",
+    "unit": "Circuits",
+    "systemOrGroup": "Building Circuits",
+    "component": "Series Circuit",
+    "displayPath": "Physics > Electricity > Circuits > Building Circuits > Series Circuit"
+  },
+  "crossReferences": [
+    {
+      "label": "Parallel circuit (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Parallel circuit",
+      "note": "The other extreme arrangement — every bulb on its own loop instead of one shared chain."
+    },
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "The one identical current that every series element shares."
+    },
+    {
+      "label": "Current (Electricity)",
+      "branch": "electricity",
+      "lowLevelItem": "Current",
+      "note": "The battery's total volts split across the series components."
+    }
+  ],
+  "belongsTo": "Electricity > Circuits > Building Circuits",
+  "compareCandidate": {
+    "label": "Series vs. parallel",
+    "description": "Series: one loop, shared current, one break kills all. Parallel: separate branches, independent bulbs."
+  },
+  "parts": [
+    "The single loop",
+    "The chain of bulbs",
+    "The battery",
+    "The remove-one test"
+  ],
+  "processes": [
+    "Following the one and only path",
+    "Reading equal current everywhere",
+    "Sharing the battery volts across the chain",
+    "Breaking any element to stop the loop"
+  ],
+  "plainLanguageExplanation": "A series circuit is the simplest electric layout: one tube, one path, every component in a single line — like beads on one string. Because there's only one route, the current is the exact same everywhere: the same electrons hurry through the first bulb, then the second, then the third. The battery's total voltage gets shared, splitting among the bulbs (each bulb 'sees' only its slice — three equal bulbs on 3 V each feel 1 V). And here's the famous domino rule: break the string anywhere — unscrew one bulb, and the whole loop stops; every light goes dark, because the current's only road is gone. This model strings three bulbs on one loop; move between meters at each bulb and the ammeter reads the same number: then pop one bulb and the others darken instantly.",
+  "keyFacts": [
+    { "label": "One loop", "value": "All components form a single closed path" },
+    { "label": "Same current", "value": "Every point of the loop carries identical amps" },
+    { "label": "Voltage splits", "value": "The supply volts divide across the components" },
+    { "label": "One breaks all", "value": "A single open bulb stops the entire loop" },
+    { "label": "Extra resistors", "value": "Adding bulbs makes each dimmer (more total resistance)" }
+  ],
+  "whyItMatters": "Christmas lights and cheap strings fail exactly the way this model shows — one bad bulb kills a whole chain. Series thinking explains why household bulbs are NOT wired in series (one would take them all dark) and how voltage dividers work in volume knobs and sensors. It is the default answer to 'What if everything shared one road?'",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Series circuit",
+  "tagline": "One loop for everything",
+  "didYouKnow": "Old-fashioned Christmas string lights 'married' in series, so one failed bulb froze the whole garland — the reason modern sets are parallel. The string that goes dark if you unscrew one bulb is the entire story of series in a single Christmas-tree test.",
+  "conditions": [
+    "Old Christmas bulb strings",
+    "Flashlights with stacked bulbs",
+    "Some string LEDs",
+    "Volume control dividers",
+    "Two-switch stair lights in one loop"
+  ],
+  "compareCandidateId": "parallel-circuit",
+  "compareReason": "Same bulbs, two arrangements: series shares one loop and dies together; parallel gives each its own loop and survives. Flip between them on one board."
+}

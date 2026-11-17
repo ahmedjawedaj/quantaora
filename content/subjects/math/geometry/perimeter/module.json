@@ -1,0 +1,86 @@
+{
+  "id": "perimeter",
+  "subject": "math",
+  "title": "Perimeter",
+  "summary": "Perimeter is the total distance around a shape — the sum of all its sides. Explore how to measure around polygons, find missing sides, and when perimeter shows up in real life.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "perimeter-definition",
+    "perimeter-add",
+    "perimeter-polygon",
+    "perimeter-real"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 7,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Measurement of shapes",
+    "systemOrGroup": "Perimeter",
+    "component": "Perimeter",
+    "displayPath": "Math > Geometry > Measurement of shapes > Perimeter > Perimeter"
+  },
+  "crossReferences": [
+    {
+      "label": "Segment (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Segment",
+      "note": "Every side of a polygon is a segment; the perimeter adds their lengths."
+    },
+    {
+      "label": "Quadrilateral (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Quadrilateral",
+      "note": "A rectangle's perimeter is twice the length plus twice the width."
+    },
+    {
+      "label": "Area (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Area",
+      "note": "Perimeter is the outline; area is the surface inside — two different measurements."
+    }
+  ],
+  "belongsTo": "Geometry > Measurement of shapes > Perimeter",
+  "compareCandidate": {
+    "label": "Perimeter vs. area",
+    "description": "Perimeter walks AROUND the shape (a distance); area tiles the INSIDE (a surface). The same perimeter can surround very different areas."
+  },
+  "parts": [
+    "The outline",
+    "Each side",
+    "The total distance"
+  ],
+  "processes": [
+    "Adding all sides",
+    "Finding a missing side"
+  ],
+  "plainLanguageExplanation": "Perimeter is the total distance around a shape — imagine walking along its edge until you return to your start. Add up the lengths of every side to find it. For a triangle with sides 3, 4, and 5, the perimeter is 3 + 4 + 5 = 12. A rectangle has two lengths and two widths, so its perimeter is 2 × length + 2 × width. If you know the perimeter and all but one side, subtract to find the missing one. Fencing a yard, framing a picture, and edging a garden are all perimeter jobs.",
+  "keyFacts": [
+    { "label": "Definition", "value": "Total distance around a shape" },
+    { "label": "How to find it", "value": "Add every side" },
+    { "label": "Triangle", "value": "3 + 4 + 5 = 12" },
+    { "label": "Rectangle", "value": "2 × L + 2 × W" },
+    { "label": "Missing side", "value": "Subtract known sides from the total" },
+    { "label": "Real use", "value": "Fencing, framing, edging" }
+  ],
+  "whyItMatters": "Whenever something wraps around the edge of a shape — a fence, a frame, a border — the amount you need is the perimeter. It is the practical measurement of outlines.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Perimeter",
+  "tagline": "The walk around",
+  "didYouKnow": "'Perimeter' comes from Greek — 'peri' means around and 'metron' means measure. So perimeter literally means 'measuring around' the outside.",
+  "conditions": [
+    "Fencing gardens",
+    "Framing pictures",
+    "Edging tables",
+    "Wrapping borders"
+  ],
+  "compareCandidateId": "area",
+  "compareReason": "Perimeter and area are the classic pair students mix up — comparing around vs. inside makes each one unforgettable."
+}

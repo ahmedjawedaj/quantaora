@@ -1,0 +1,30 @@
+{
+  "asset": "mercury-optimized.glb",
+  "derivedFrom": "mercury.glb",
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/m/Mercury_1_4878.glb",
+  "resourcePage": "https://science.nasa.gov/resource/mercury-3d-model/",
+  "creator": "NASA Visualization Technology Applications and Development (VTAD)",
+  "license": "Public domain (U.S. Government work, science.nasa.gov / NASA media usage guidelines)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required (public domain / U.S. Government work). Crediting NASA in an in-app credits line is good practice and matches the style already used for the 5 existing public/models/space/*.glb entries.",
+  "redistributionStatus": "Permitted — public domain U.S. Government work, explicitly free for reuse without copyright restriction per NASA media usage guidelines / NASA-3D-Resources repository terms.",
+  "dateSourced": "2026-08-18",
+  "processingNote": "Asset Recovery Wave 3 (2026-08-18): texture-space seam-blend derivative addressing the CONDITIONAL-for-visual-defect pole-to-pole seam (docs/assets/reviews/space-planets-visual.md). Geometry, UVs, and mesh topology are byte-identical to the source; only the embedded baseColorTexture (mercury_diff.jpg, re-saved as PNG by the extraction step, no other change) was edited. Fix method: measured a genuine ~7-intensity-unit relative darkening at texture-space x=1240 (left-of-center within the visible/front cube-map face, spanning roughly y=460-950) using a Python/Pillow column-average scan against a wide local-background baseline -- this is the same defect location described in the source review. Applied a narrow (28px-wide), feathered (raised-cosine falloff) Gaussian blur (radius 3px) centered on that column, blending smoothly back to the untouched original texture at both edges of the band so no new hard edge was introduced. This follows the review's own suggested scoped fix ('edge-padding/blur at the cube-map boundaries') rather than the alternative (re-exporting the whole texture as equirectangular), which was out of scope/budget for this pass. No license or attribution facts changed. Original file preserved unmodified alongside this derivative.",
+  "fileSizeBytes": 3240844,
+  "sha256": "be31e782688a41306a67cf2a184880e4b40c8909973e1e26c23b81de12b4f0a3",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 1,
+    "meshCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "animationCount": 0,
+    "approxDimensions": [1000.0001, 1000.0001, 1000.0001],
+    "fileSizeBeforeBytes": 3048920,
+    "fileSizeAfterBytes": 3240844,
+    "geometryUnchanged": true,
+    "notes": "Mesh/UV/bbox byte-for-byte unchanged from source (confirmed via gltf-transform inspect). Texture file size increased slightly (2.96MB -> ~3.09MB raw PNG) from PNG re-encoding of the extracted image, not from added resolution. The seam is visibly softened in the edited texture (verified by side-by-side crop comparison of the affected band) but not perfectly eliminated -- a residual faint gradient remains where the hard line used to be. Flagged for a follow-up visual-acceptance render pass to judge whether this now clears the bar, or whether a full equirectangular re-export is still warranted for a polished-hero treatment."
+  }
+}

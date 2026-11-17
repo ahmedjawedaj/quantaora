@@ -1,0 +1,109 @@
+{
+  "id": "ion",
+  "subject": "chemistry",
+  "title": "Ion",
+  "summary": "An ion is an atom that has gained or lost electrons, giving it an electric charge. Sodium becomes Na⁺ by losing an electron; chlorine becomes Cl⁻ by gaining one.",
+  "gradeMin": 8,
+  "gradeMax": 10,
+  "skillIds": [
+    "ion-charged-atom",
+    "ion-gain-or-lose-electrons",
+    "ion-positive-negative"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "Atoms That Vary",
+    "systemOrGroup": "Variations of an atom",
+    "component": "Ion",
+    "displayPath": "Chemistry > Atoms And Elements > Atoms That Vary > Variations of an atom > Ion"
+  },
+  "crossReferences": [
+    {
+      "label": "Isotope (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Isotope",
+      "note": "Isotopes vary neutrons (mass); ions vary electrons (charge). Two different ways an element's atoms can vary."
+    },
+    {
+      "label": "Electron (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron",
+      "note": "Ions are created by gaining or losing electrons — the electron is the particle that changes."
+    },
+    {
+      "label": "Ionic bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Ionic bond",
+      "note": "Ionic bonds form between oppositely charged ions — Na⁺ and Cl⁻ attract and build salt."
+    },
+    {
+      "label": "Nonmetal (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Nonmetal",
+      "note": "Nonmetals tend to gain electrons, becoming negative ions like Cl⁻."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > Atoms That Vary > Variations of an atom",
+  "compareCandidate": {
+    "label": "Ion vs. isotope",
+    "description": "An ion is an atom with a different electron count — same element, different charge. An isotope is an atom with a different neutron count — same element, different mass. Electrons change the charge; neutrons change the weight."
+  },
+  "parts": [
+    "An atom with a charge",
+    "Made by gaining or losing electrons",
+    "Positive or negative"
+  ],
+  "processes": [
+    "Losing electrons to become positive",
+    "Gaining electrons to become negative",
+    "Attracting opposite ions into salts"
+  ],
+  "plainLanguageExplanation": "An ion is an atom that carries an electric charge because it has gained or lost electrons. Normally an atom has equal protons and electrons — equal positive and negative — so it is neutral. But electrons can leave or arrive. If an atom LOSES an electron, it has more protons than electrons, so it becomes positive: a cation, like sodium becoming Na⁺. If an atom GAINS an electron, it has more electrons than protons, so it becomes negative: an anion, like chlorine becoming Cl⁻. Why does this happen? Atoms push toward full outer shells. Sodium, with one lonely outer electron, is eager to drop it and become a stable Na⁺. Chlorine, one electron short, eagerly grabs one and becomes Cl⁻. And here is the payoff: opposite charges attract. The positive Na⁺ and negative Cl⁻ snap together — that is the ionic bond that builds table salt. Ions are everywhere: dissolved in your blood, in batteries, in seawater, and driving the signals in your nerves. An ion is just an atom with a charge — a particle that has gained or lost a little electric edge.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "An atom that has gained or lost electrons, so it carries a charge"
+    },
+    {
+      "label": "Positive ion",
+      "value": "Lost electrons → more protons → cation, like Na⁺"
+    },
+    {
+      "label": "Negative ion",
+      "value": "Gained electrons → more electrons → anion, like Cl⁻"
+    },
+    {
+      "label": "Why it happens",
+      "value": "Atoms push toward full outer shells"
+    },
+    {
+      "label": "What it builds",
+      "value": "Opposite ions attract — building ionic compounds like salt"
+    },
+    {
+      "label": "Everywhere",
+      "value": "In your blood, nerves, batteries, and seawater"
+    }
+  ],
+  "whyItMatters": "Ions are charged atoms, and charges drive much of the world: the salt on your table, the signals in your nerves, the batteries in your phone, and the reactions in your body. Understanding ions connects atomic structure to real chemistry — and sets up ionic bonding.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Ion",
+  "tagline": "The atom with a charge",
+  "didYouKnow": "Your nerves send messages using ions — a lightning-fast dance of sodium and potassium ions rushing in and out of your nerve cells.",
+  "conditions": [
+    "Salts and minerals",
+    "Nerve signals",
+    "Batteries"
+  ],
+  "compareCandidateId": "isotope",
+  "compareReason": "Ions change electrons and isotopes change neutrons — comparing these two variations of the same atom makes the difference between charge and mass unforgettable."
+}

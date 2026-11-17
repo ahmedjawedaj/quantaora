@@ -1,0 +1,48 @@
+{
+  "componentId": "small-intestine",
+  "terms": [
+    {
+      "term": "Small intestine",
+      "conceptId": "finishes-digestion",
+      "hotspotId": "hs-si-tube",
+      "definition": "The long coiled tube where digestion finishes and nutrients are absorbed.",
+      "function": "Absorbs almost all nutrients from food.",
+      "whereItIs": "Between the stomach and the large intestine.",
+      "whyItMatters": "It is where your body actually gets its food.",
+      "relatedConcept": "villi-absorption",
+      "quizId": "si-q-job"
+    },
+    {
+      "term": "Villi",
+      "conceptId": "villi-absorption",
+      "hotspotId": "hs-villi",
+      "definition": "Millions of tiny finger-like projections lining the small intestine.",
+      "function": "Absorb nutrients into the blood.",
+      "whereItIs": "On the inner surface of the small intestine.",
+      "whyItMatters": "They give the intestine its huge absorbing surface.",
+      "relatedConcept": "enormous-surface-area",
+      "quizId": "si-q-villi"
+    },
+    {
+      "term": "Microvilli",
+      "conceptId": "enormous-surface-area",
+      "hotspotId": "hs-villi",
+      "definition": "Even tinier projections on each villus.",
+      "function": "Add even more surface area.",
+      "whereItIs": "On top of each villus.",
+      "whyItMatters": "They make absorption even more efficient.",
+      "relatedConcept": "villi-absorption"
+    },
+    {
+      "term": "Absorption",
+      "conceptId": "nutrient-absorption-blood",
+      "hotspotId": "hs-blood",
+      "definition": "The movement of nutrients from the intestine into the blood.",
+      "function": "Delivers food molecules to the body.",
+      "whereItIs": "Across the villi in the small intestine.",
+      "whyItMatters": "It is how food becomes usable by the body.",
+      "relatedConcept": "villi-absorption",
+      "quizId": "si-q-next"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+name: Lab or learning proposal
+description: Propose a new lab or a meaningful improvement to an existing one.
+title: "[Lab]: "
+labels: [enhancement, curriculum, triage]
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: Subject and branch
+      placeholder: Physics / Sound
+    validations:
+      required: true
+  - type: input
+    id: learner
+    attributes:
+      label: Intended learner level
+      placeholder: Ages 10-13 or equivalent prior knowledge
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Learning objective
+      description: What should a learner be able to explain or do afterward?
+    validations:
+      required: true
+  - type: textarea
+    id: interaction
+    attributes:
+      label: Proposed interaction
+      description: Explain what the learner predicts, changes, observes, and explains.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Curriculum or scientific references
+      description: Link authoritative sources that support the content.
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Visual or 3D asset needs
+      description: Include candidate sources and licenses when known.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing labs and issues before proposing this.
+          required: true

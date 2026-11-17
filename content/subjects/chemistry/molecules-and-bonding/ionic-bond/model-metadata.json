@@ -1,0 +1,89 @@
+{
+  "id": "ionic-bond",
+  "componentId": "ionic-bond",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/molecules-and-bonding/ionic-bond/ionic-bond.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/molecules-and-bonding/ionic-bond.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      2.9
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Sodium + chlorine",
+    "Electron transfer",
+    "Salt lattice"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-ionic-transfer",
+      "label": "Electron transfer",
+      "conceptId": "ionic-transfers-electrons",
+      "position": [
+        0.3,
+        0.35,
+        0
+      ],
+      "description": "Sodium's lone outer electron travels across to chlorine. This full transfer — not a share — is what makes the bond ionic.",
+      "positionHint": "The curved glowing path between the two atoms, with a small dot traveling along it when the layer is on.",
+      "color": "#D9A441",
+      "function": "Shows the electron moving from sodium to chlorine."
+    },
+    {
+      "id": "hs-ions-attract",
+      "label": "Attracting ions",
+      "conceptId": "ionic-transfers-electrons",
+      "position": [
+        0,
+        -0.5,
+        0
+      ],
+      "description": "After the transfer, sodium is positive (Na⁺) and chlorine is negative (Cl⁻). Opposite charges pull the ions together — that pull is the ionic bond.",
+      "positionHint": "The space between the two atoms, where a + and − pair appears when the transfer layer is on.",
+      "color": "#7FA86A",
+      "function": "Shows the positive and negative ions being pulled together."
+    },
+    {
+      "id": "hs-ionic-lattice",
+      "label": "Salt crystal lattice",
+      "conceptId": "ionic-builds-salts",
+      "position": [
+        0,
+        -1.15,
+        0
+      ],
+      "description": "The repeating cube of alternating violet (Na⁺) and green (Cl⁻) ions below is a slice of the salt crystal lattice.",
+      "positionHint": "The grid of alternating colored cubes beneath the atoms, visible when the lattice layer is on.",
+      "color": "#D96B5A",
+      "function": "Shows the repeating crystal structure that millions of ions form."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A sodium atom and a chlorine atom float side by side, large in frame, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Sodium is a soft muted violet sphere, chlorine a soft muted green sphere, each with a thin shell ring. Strong saturated color is reserved for the small flat hotspot dots and the traveling transfer electron (amber / molecular-green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Sodium sphere: soft muted violet matte, roughness ~0.5. Chlorine sphere: soft muted green matte, roughness ~0.5. Shell rings: thin translucent hairline circles. Lattice cells: small matte cubes alternating the violet and green, roughness ~0.6. Transfer dot: small saturated amber. No emissive channels anywhere — any glow is handled by app runtime UI.",
+  "assetBrief": "SUBJECT: a sodium atom and a chlorine atom forming an ionic bond, built to be read as 'transfer an electron, make opposite charges, lock together as salt.' Three procedural layers, all clean primitives:\n\n1) MAIN: two atoms side by side — LEFT sodium (sphere radius ~0.55, soft muted violet) and RIGHT chlorine (sphere radius ~0.5, soft muted green), centers separated by ~1.6. Each has a thin translucent hairline shell ring. Sodium's ring carries ONE small teal electron dot; chlorine's ring carries SEVEN small dots (one spot clearly empty).\n\n2) TRANSFER (toggleable layer): a curved dashed path arcs from sodium's lone electron to chlorine's empty spot; a small saturated amber dot animates along the path (app-driven). After arrival, a soft + appears over sodium and a soft − over chlorine (app-drawn UI glyphs, not mesh text), and the two atoms ease slightly closer.\n\n3) LATTICE (toggleable layer): below the atom pair, a small 3×3×3 cube grid of alternating violet and green cells (each cell a small cube, edge ~0.18, muted) — a visible slice of the salt crystal lattice.\n\nCamera: framed so the two atoms are large and centered with the lattice appearing below; auto-rotate default. Budget 8-12k triangles. Named nodes: SodiumAtom, ChlorineAtom, ShellRing_Na, ShellRing_Cl, SodiumElectron, ChlorineElectrons_07, TransferPath, TransferDot, LatticeCells, LatticeCell_Na, LatticeCell_Cl. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "ionic-transfer"
+  }
+}

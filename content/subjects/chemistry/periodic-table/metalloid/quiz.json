@@ -1,0 +1,65 @@
+{
+  "componentId": "metalloid",
+  "questions": [
+    {
+      "id": "metalloid-q-definition",
+      "conceptId": "metalloid-between-metal-nonmetal",
+      "hotspotId": "hs-metalloid-silicon",
+      "prompt": "What is a metalloid?",
+      "options": [
+        "An element with properties between metals and nonmetals",
+        "A completely fake element",
+        "A metal that has been melted",
+        "A nonmetal that is shiny"
+      ],
+      "correctIndex": 0,
+      "explanation": "A metalloid blends both worlds — its look, behavior, and conductivity sit between the properties of metals and nonmetals.",
+      "misconception": "Metalloids are real, distinct elements — not failed metals or disguised nonmetals. They have their own identity as the in-between family."
+    },
+    {
+      "id": "metalloid-q-staircase",
+      "conceptId": "metalloid-sits-on-staircase",
+      "hotspotId": "hs-metalloid-staircase",
+      "prompt": "Where do the metalloids sit on the periodic table?",
+      "options": [
+        "Along a diagonal staircase dividing metals from nonmetals",
+        "All in the last column",
+        "In the center of the table only",
+        "Scattered randomly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The metalloids line up along the zigzag staircase that runs diagonally down the table, separating the metal region from the nonmetal region.",
+      "misconception": "It's easy to imagine the families separated by a clean straight line, but the dividing line is a diagonal staircase — and the metalloids live exactly on its steps."
+    },
+    {
+      "id": "metalloid-q-semiconductor",
+      "conceptId": "metalloid-semiconductor",
+      "hotspotId": "hs-metalloid-semi",
+      "prompt": "Why is a metalloid called a semiconductor?",
+      "options": [
+        "It conducts electricity only part-way and can be switched",
+        "It conducts better than any metal",
+        "It never conducts electricity at all",
+        "It conducts only heat, never electricity"
+      ],
+      "correctIndex": 0,
+      "explanation": "A semiconductor conducts part-way — between a full conductor (metal) and an insulator (nonmetal) — and can be switched on and off, which is perfect for electronics.",
+      "misconception": "Semiconductors aren't the best conductors (metals win that title) and they aren't insulators — their whole trick is being switchably in-between."
+    },
+    {
+      "id": "metalloid-q-silicon",
+      "conceptId": "metalloid-semiconductor",
+      "hotspotId": "hs-metalloid-silicon",
+      "prompt": "Why is silicon, a metalloid, so important to modern technology?",
+      "options": [
+        "It is a semiconductor used to build computer chips",
+        "It is the strongest metal",
+        "It is the cheapest gas",
+        "It glows in the dark"
+      ],
+      "correctIndex": 0,
+      "explanation": "Silicon's switchable semiconduction makes it the ideal raw material for the chips in computers, phones, and nearly all electronics.",
+      "misconception": "Silicon isn't a metal at all and it's a solid, not a gas — its fame comes specifically from its semiconductor behavior, not from strength or appearance."
+    }
+  ]
+}

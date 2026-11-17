@@ -1,0 +1,100 @@
+{
+  "id": "cytoskeleton",
+  "componentId": "cytoskeleton",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/cell-biology/cytoskeleton/cytoskeleton.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/cell-biology/cytoskeleton.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.35,
+      2.5
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Microtubule tracks",
+    "Actin filaments",
+    "Intermediate filaments",
+    "Cargo moving on tracks"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-microtubule",
+      "label": "Microtubules",
+      "conceptId": "microtubule-tracks-transport",
+      "position": [
+        0.3,
+        0.2,
+        0.25
+      ],
+      "description": "Thick hollow tubes that act like support beams and transport tracks.",
+      "color": "#6B85A8",
+      "function": "Support the cell and act as tracks for moving materials."
+    },
+    {
+      "id": "hs-actin",
+      "label": "Actin filaments",
+      "conceptId": "cell-shape-and-movement",
+      "position": [
+        -0.3,
+        0.05,
+        0.3
+      ],
+      "description": "Thin protein filaments that help the cell keep shape and move.",
+      "color": "#D98A6A",
+      "function": "Help shape the cell and drive movement."
+    },
+    {
+      "id": "hs-intermediate",
+      "label": "Intermediate filaments",
+      "conceptId": "protein-fiber-network",
+      "position": [
+        0.1,
+        -0.25,
+        0.3
+      ],
+      "description": "Middle-sized cables that anchor organelles and hold parts in place.",
+      "color": "#B5846A",
+      "function": "Anchor organelles and give the cell its stable framework."
+    },
+    {
+      "id": "hs-transport",
+      "label": "Transport along tracks",
+      "conceptId": "microtubule-tracks-transport",
+      "position": [
+        0.05,
+        0.3,
+        0.15
+      ],
+      "description": "A small cargo bubble being carried along a microtubule rail.",
+      "color": "#D9A441",
+      "function": "Carry materials along the microtubule rails."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organelle floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality - museum-model cross-section caps, never gore. COLOR IS RESTRAINED: the organelle reads as a calm warm-paper specimen; each structural part is modeled in a muted near-neutral shade (warm taupe, pale vanilla, soft slate), never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. Interior fluid (if any) is softly translucent but not glassy; cross-section cuts are clean flat museum caps. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a cell shown as a soft translucent slice with the cytoskeleton visible inside. Three fiber types clearly distinguished by thickness: thick hollow-tube microtubules running as straight rails, thin wavy actin filaments near the edges, and middle-sized intermediate filaments forming cables. A small cargo bubble is shown riding along one microtubule in the transport layer. Muted palette, no glow. Named nodes: Microtubules01-06, ActinFilaments, IntermediateFilaments, CargoBubble. Budget 12-18k.",
+  "visual": {
+    "shape": "cytoskeleton-net"
+  }
+}

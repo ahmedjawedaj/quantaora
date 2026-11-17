@@ -1,0 +1,75 @@
+{
+  "id": "gene",
+  "subject": "biology",
+  "title": "Gene",
+  "summary": "A gene is a short, specific stretch of DNA that carries the instructions to build one protein or influence one trait. Explore its promoter 'on switch,' its coding sequence, and the single protein it produces — then see how that one small stretch fits inside a chromosome, and how it differs from an allele.",
+  "gradeMin": 5,
+  "gradeMax": 9,
+  "skillIds": [
+    "segment-of-dna",
+    "promoter-region",
+    "coding-sequence",
+    "produces-protein-or-trait"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "DNA & Genes",
+    "systemOrGroup": "Gene (unit of heredity)",
+    "component": "Gene",
+    "displayPath": "Biology > Genetics > DNA & Genes > Gene"
+  },
+  "crossReferences": [
+    {
+      "label": "Nucleus (Cell Biology)",
+      "branch": "cell-biology",
+      "systemOrGroup": "Nucleus",
+      "note": "Genes are stretches of DNA physically packed, as chromosomes, inside the nucleus covered in the Cell Biology branch."
+    },
+    {
+      "label": "Inheritance (Genetics)",
+      "branch": "genetics",
+      "process": "Inheritance",
+      "note": "How the different versions (alleles) of a gene pass from parents to offspring, and how Punnett squares predict the outcome, is expanded as a full process elsewhere in this branch."
+    }
+  ],
+  "belongsTo": "Genetics > DNA & Genes > Gene (unit of heredity)",
+  "compareCandidate": {
+    "label": "Gene vs. Allele",
+    "description": "A gene is the general instruction slot every individual carries two copies of, such as the ABO blood-type gene. An allele is one specific version of that instruction, such as the A, B, or O version — everyone has the gene, but which alleles they carry determines the outcome."
+  },
+  "parts": [
+    "Segment of DNA",
+    "Promoter region",
+    "Coding sequence",
+    "Produces one protein or trait"
+  ],
+  "processes": [
+    "DNA replication",
+    "Transcription",
+    "Translation",
+    "Protein synthesis",
+    "Mutation",
+    "Inheritance"
+  ],
+  "plainLanguageExplanation": "A gene is like one single instruction written inside a much bigger instruction book. That book is your DNA, and it's coiled up inside almost every cell in your body. Each gene is a short stretch of DNA that spells out how to build one particular protein — and proteins are the tiny worker-molecules that build your body and make it run, from the keratin that makes up your hair to the enzyme that helps you digest food. You have tens of thousands of these instructions stored away, and different combinations of them switched on or off are a big part of what makes you look and work the way you do.",
+  "keyFacts": [
+    { "label": "Made of", "value": "DNA (deoxyribonucleic acid) — a sequence of chemical letters A, T, C, and G" },
+    { "label": "Location", "value": "Found at a specific spot, called a locus, along a chromosome" },
+    { "label": "Job", "value": "Carries the instructions to build one specific protein, or influence one specific trait" },
+    { "label": "Human gene count", "value": "Humans have roughly 20,000 protein-coding genes" },
+    { "label": "Share of the genome", "value": "Protein-coding genes make up only a small fraction (roughly 1-2%) of all human DNA — the rest has other jobs, including switching genes on and off" },
+    { "label": "Where they live", "value": "Genes are strung along chromosomes, which are packed inside the nucleus of a cell" },
+    { "label": "Passed down", "value": "Genes are inherited from parents — one copy of most genes comes from each parent" }
+  ],
+  "whyItMatters": "Genes are the reason children resemble their parents, the reason identical twins look alike, and the reason some illnesses run in families. Doctors use knowledge of genes to diagnose inherited conditions, predict health risks, and develop targeted treatments. Scientists edit genes to grow hardier crops, produce medicines like insulin, and research cures for genetic diseases. Understanding genes is really understanding the instruction manual for every living thing — including you.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  }
+}

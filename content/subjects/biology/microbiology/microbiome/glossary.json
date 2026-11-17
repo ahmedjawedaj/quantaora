@@ -1,0 +1,45 @@
+{
+  "componentId": "microbiome",
+  "terms": [
+    {
+      "term": "Microbiome",
+      "conceptId": "microbiome-community",
+      "hotspotId": "hs-gut",
+      "definition": "The community of trillions of microbes, mostly bacteria, that live in and on your body.",
+      "function": "Helps digest food, makes vitamins, and trains the immune system.",
+      "whereItIs": "Mostly in the gut, and on the skin and mouth.",
+      "whyItMatters": "It is a huge partner ecosystem that keeps your body working and healthy.",
+      "quizId": "microbiome-q-what"
+    },
+    {
+      "term": "Gut microbiota",
+      "conceptId": "microbiome-community",
+      "hotspotId": "hs-gut",
+      "definition": "The community of microbes living in the intestines.",
+      "function": "Helps break down food and supports digestion.",
+      "whereItIs": "Along the lining of the intestines.",
+      "whyItMatters": "It is the largest and most important part of the microbiome.",
+      "quizId": "microbiome-q-main"
+    },
+    {
+      "term": "Beneficial bacteria",
+      "conceptId": "microbiome-helpful-jobs",
+      "hotspotId": "hs-jobs",
+      "definition": "The many helpful bacteria in your microbiome that support your health.",
+      "function": "Help digest, make vitamins, and keep out harmful germs.",
+      "whereItIs": "Throughout the gut and on the skin.",
+      "whyItMatters": "They show that most microbes in you are partners, not enemies.",
+      "quizId": "microbiome-q-how"
+    },
+    {
+      "term": "Gut balance",
+      "conceptId": "microbiome-balance-health",
+      "hotspotId": "hs-balance",
+      "definition": "The healthy state where the community of microbes stays balanced.",
+      "function": "Keeps the helpful microbes in numbers stable and healthy.",
+      "whereItIs": "In the gut community of your body.",
+      "whyItMatters": "A balanced microbiome supports good health; imbalance causes problems.",
+      "quizId": "microbiome-q-balance"
+    }
+  ]
+}

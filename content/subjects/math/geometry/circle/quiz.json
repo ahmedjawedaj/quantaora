@@ -1,0 +1,80 @@
+{
+  "componentId": "circle",
+  "questions": [
+    {
+      "id": "circle-def",
+      "conceptId": "circle-definition",
+      "hotspotId": "hs-circle-rim",
+      "prompt": "What is a circle?",
+      "options": [
+        "All points the same distance from a center",
+        "A shape with four equal straight sides",
+        "A shape with three straight sides",
+        "A straight path extending forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "A circle is every point at one fixed distance from its center.",
+      "misconception": "Four sides make a square and three make a triangle — the circle is defined by equal distance from a center, not sides."
+    },
+    {
+      "id": "circle-radius-diameter",
+      "conceptId": "circle-radius-diameter",
+      "hotspotId": "hs-diameter",
+      "prompt": "If a circle's diameter is 10 cm, what is its radius?",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "20 cm",
+        "π cm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diameter is two radii, so the radius is 10 ÷ 2 = 5 cm.",
+      "misconception": "The diameter crosses the whole circle — the radius is half of it, not the same or double."
+    },
+    {
+      "id": "circle-circumference",
+      "conceptId": "circle-circumference",
+      "hotspotId": "hs-circle-rim",
+      "prompt": "What is the circumference?",
+      "options": [
+        "The distance around the rim of the circle",
+        "The distance from center to rim",
+        "The distance across the circle",
+        "The middle point"
+      ],
+      "correctIndex": 0,
+      "explanation": "Circumference is the total distance around the outside edge.",
+      "misconception": "Center-to-rim is the radius and across-through-center is the diameter — around the outside is the circumference."
+    },
+    {
+      "id": "circle-pi",
+      "conceptId": "circle-pi",
+      "hotspotId": "hs-circle-rim",
+      "prompt": "For ANY circle, circumference divided by diameter equals...",
+      "options": [
+        "π (about 3.14)",
+        "2",
+        "6.28",
+        "It changes with size"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ratio of circumference to diameter is always pi, no matter the circle's size.",
+      "misconception": "Pi is a constant ratio — bigger circles have bigger absolute numbers but the ratio stays the same ~3.14."
+    },
+    {
+      "id": "circle-wheel",
+      "conceptId": "circle-circumference",
+      "hotspotId": "hs-circle-rim",
+      "prompt": "A wheel with radius 1 unit rolls one full turn. How far does it travel?",
+      "options": [
+        "About 6.28 units",
+        "1 unit",
+        "2 units",
+        "About 3.14 units"
+      ],
+      "correctIndex": 0,
+      "explanation": "One turn covers one circumference = 2 × π × r = 2 × π × 1 ≈ 6.28 units.",
+      "misconception": "The wheel travels its circumference per turn, which is 2πr — the radius alone or the diameter alone is too small."
+    }
+  ]
+}

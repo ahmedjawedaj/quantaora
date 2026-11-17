@@ -1,0 +1,40 @@
+{
+  "asset": "virus-influenza-capsid-rna-nih.glb",
+  "assetGroup": "Influenza Capsid, Envelope and RNA (deconstructible, 3-part set) - this file is the capsid+RNA core piece; see virus-influenza-envelope-a-nih.glb and virus-influenza-envelope-b-nih.glb for the envelope halves",
+  "componentMapping": "biology > microbiology > Virus (low-level item) - PRIMARY virus candidate (most pedagogically complete: shows envelope, capsid, and RNA as separable pieces)",
+  "sourceUrl": "https://3d.nih.gov/entries/14934",
+  "sourceEntryId": "3DPX-014934",
+  "creator": "NIH 3D user \"PeeryA\"",
+  "owner": "NIH 3D (3d.nih.gov); commissioned by the Smithsonian National Museum of Natural History for the \"Outbreak: Epidemics in a Connected World\" exhibit",
+  "license": "CC-BY 4.0",
+  "attributionRequired": true,
+  "attributionText": "\"Influenza Capsid, Envelope and RNA\" by PeeryA, NIH 3D (3d.nih.gov, entry 3DPX-014934), commissioned by the Smithsonian National Museum of Natural History. Licensed CC-BY 4.0.",
+  "redistributionStatus": "Permitted under CC-BY 4.0 (commercial use and modification allowed with attribution).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/19620/runs/2f676509-ebac-486a-ae15-aa8979b1846a/output-files/427449",
+  "downloadedVariant": "Influenza_capsid_RNA_NIH3D.glb",
+  "fileSizeBytes": 15064996,
+  "sha256": "eed473c53879939b032436c22870c6d8319489012251e47e1a4e34360f0c7ef8",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 2,
+    "sampleBoundsMin": [
+      1.7870277166366577,
+      0.5417715311050415,
+      0.5285481214523315
+    ],
+    "sampleBoundsMax": [
+      2.014571189880371,
+      2.784512758255005,
+      2.771851062774658
+    ],
+    "notes": "Right at the 15MB hero-asset ceiling. Designed as a deconstructible 3-piece set with the two envelope-half files; combined the set is ~39MB, so an integration pass should decide whether to load all three or use only the capsid+RNA piece by default with envelope halves as an 'explode/isolate' interaction. Not render-inspected visually in this pass."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "componentId": "black-hole",
+  "terms": [
+    {
+      "term": "Black hole",
+      "definition": "A collapsed core so dense that inside its boundary even light cannot escape — the final remnant of the heaviest star cores.",
+      "conceptId": "escape-velocity-light",
+      "hotspotId": "hs-event-horizon",
+      "function": "The last step of stellar collapse."
+    },
+    {
+      "term": "Event horizon",
+      "definition": "The spherical boundary around a black hole where escape speed reaches the speed of light; inside it, nothing can ever cross back out.",
+      "conceptId": "event-horizon-boundary",
+      "hotspotId": "hs-event-horizon",
+      "whereItIs": "The apparent black disk of the hole",
+      "whyItMatters": "It separates the inside of a black hole from everything else in the universe."
+    },
+    {
+      "term": "Singularity",
+      "definition": "The point at the heart of a black hole where the collapsed matter has been crushed down to essentially zero size and infinite density.",
+      "conceptId": "stellar-black-hole-formation",
+      "hotspotId": "hs-singularity",
+      "function": "The ultimate state of the collapsing star core.",
+      "whyItMatters": "Wrapped by the horizon, it is the boundary of what our physics can describe."
+    },
+    {
+      "term": "Accretion disk",
+      "definition": "Gas spiraling into a black hole, heated by compression until it glows — the actual fiery ring we see around the dark shadow.",
+      "conceptId": "accretion-disk-fall",
+      "hotspotId": "hs-accretion-disk",
+      "whereItIs": "A flat, tilted whirl around the horizon",
+      "whyItMatters": "It is the main way astronomers spot a black hole from far away."
+    },
+    {
+      "term": "Photon ring",
+      "definition": "The thin, bright circle of light: rays from behind the hole bent by gravity to loop around it before heading out to us.",
+      "conceptId": "gravity-bends-light",
+      "hotspotId": "hs-photon-ring",
+      "function": "Makes a black hole's shadow visible.",
+      "whereItIs": "Wrapped tightly around the shadow"
+    },
+    {
+      "term": "Spaghettification",
+      "definition": "The stretching of an object that falls near a black hole when tidal gravity pulls its near side harder than its far side.",
+      "conceptId": "tidal-forces-spaghettification",
+      "hotspotId": "hs-tidal-stretch",
+      "function": "What happens to matter before it crosses the horizon."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "componentId": "segment",
+  "terms": [
+    {
+      "term": "Segment",
+      "conceptId": "segment-definition",
+      "hotspotId": "hs-segment-stroke",
+      "definition": "The straight part of a line between two endpoints.",
+      "function": "Stops at both ends and has a measurable length.",
+      "whereItIs": "The stroke between the two dots.",
+      "whyItMatters": "Segments are the sides of every polygon."
+    },
+    {
+      "term": "Endpoint",
+      "conceptId": "segment-naming",
+      "hotspotId": "hs-endpoint-a",
+      "definition": "Each stop at the end of a segment.",
+      "function": "Dots A and B bound the segment.",
+      "whereItIs": "The solid dots at each end.",
+      "whyItMatters": "Endpoints define where the segment starts and ends."
+    },
+    {
+      "term": "Length",
+      "conceptId": "segment-length",
+      "hotspotId": "hs-endpoint-b",
+      "definition": "The distance between the two endpoints.",
+      "function": "A definite amount you can measure.",
+      "whereItIs": "The ruler reading along the bottom.",
+      "whyItMatters": "Length gives segments real, usable size."
+    },
+    {
+      "term": "Perimeter",
+      "conceptId": "segment-side",
+      "hotspotId": "hs-segment-stroke",
+      "definition": "The total length of all a polygon's segment sides.",
+      "function": "Add up every side to find it.",
+      "whereItIs": "Built from many segments when shapes close up.",
+      "whyItMatters": "Perimeter turns segments into the outline of a shape."
+    }
+  ]
+}

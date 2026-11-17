@@ -1,0 +1,41 @@
+{
+  "componentId": "proportion",
+  "terms": [
+    {
+      "term": "Proportion",
+      "conceptId": "proportion-equal-ratios",
+      "hotspotId": "hs-proportion-eq",
+      "definition": "A statement that two ratios are equal.",
+      "function": "2/4 = 4/8 says the two comparisons match.",
+      "whereItIs": "The equality between the two recipe cards.",
+      "whyItMatters": "Proportions let you scale any ratio up or down."
+    },
+    {
+      "term": "Cross product",
+      "conceptId": "proportion-cross-products",
+      "hotspotId": "hs-cross-products",
+      "definition": "In a/b = c/d, the products a × d and b × c, which must be equal.",
+      "function": "Confirms a proportion and solves for a missing value.",
+      "whereItIs": "The diagonal rods crossing the equality plate.",
+      "whyItMatters": "It is the reliable method for solving every proportion."
+    },
+    {
+      "term": "Missing value",
+      "conceptId": "proportion-solve-missing",
+      "hotspotId": "hs-missing-value",
+      "definition": "The unknown number x in a proportion that the solver finds.",
+      "function": "In 3/5 = x/10, x = 6.",
+      "whereItIs": "The blank slot in the proportion puzzle.",
+      "whyItMatters": "Finding missing values is how proportions answer real questions."
+    },
+    {
+      "term": "Scaling",
+      "conceptId": "proportion-real-world",
+      "hotspotId": "hs-missing-value",
+      "definition": "Growing or shrinking both parts of a ratio by the same factor.",
+      "function": "Feeding 4 with 2 cups scales to feeding 10 with 5 cups.",
+      "whereItIs": "The servings slider rescaling both cards.",
+      "whyItMatters": "Real proportions keep the ratio constant at any size."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "dna",
+  "componentId": "dna",
+  "subject": "biology",
+  "branch": "genetics",
+  "modelType": "procedural-three",
+  "url": "src/features/model-viewer/scenes/biology/genetics/dna.scene.ts",
+  "thumbnailUrl": "/assets/thumbnails/biology/genetics/dna.png",
+  "assetStatus": "Not yet built. This is a procedural-three model: it is generated entirely from three.js primitives at runtime by a scene-builder module, not loaded from a GLB file, so there is no binary asset to place under public/assets/models/. `url` is a placeholder pointing to where that scene-builder module should live, following this project's source-code conventions, and must resolve to the real implemented module once built. `thumbnailUrl` is a placeholder PNG path following the standard asset-folder convention (spec section 21) for the static preview/card image, and must be generated (a rendered screenshot of the default full-helix pose) once the procedural scene exists. `defaultCamera`/`cameraDefault` and every hotspot's `position` below are estimated numeric values derived from the assetBrief's described helix geometry (radius ~0.9, visible height ~6 units centered on the origin) — a starting point for the dev implementing the scene-builder, not measurements of an existing mesh — and should be verified and adjusted against the actual running scene before shipping.",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.2,
+      6.5
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.2,
+      6.5
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Full helix",
+    "Sugar-phosphate backbone only",
+    "Base pairs only",
+    "Gene region highlight"
+  ],
+  "hotspots": [
+    {
+      "id": "hotspot-double-helix",
+      "label": "Double Helix",
+      "conceptId": "double-helix",
+      "position": [
+        0.64,
+        0,
+        0.64
+      ],
+      "description": "Two long strands twist around each other in a spiral staircase shape called a double helix. This twisted-ladder form lets a huge amount of genetic information pack tightly into the nucleus of every cell.",
+      "positionHint": "Placed on the outer curve of one strand at roughly the vertical midpoint of the model (y=0 of the -3 to +3 visible height), where the overall helical twist is clearest — not on a rung.",
+      "structureCard": {
+        "name": "Double Helix",
+        "plainLanguageDefinition": "The twisted, spiral-staircase shape formed by two DNA strands winding around each other.",
+        "function": "Lets two long complementary strands pack tightly and protect the base-pair sequence inside, while still allowing the molecule to unzip for copying and reading.",
+        "whereItIs": "The overall shape of the whole model — visible along the outer curve of either strand at any height, clearest at the vertical midpoint where the twist reads most cleanly.",
+        "whyItMatters": "The 3D twist (not just the ladder-like rungs) is what lets an enormous length of DNA — about two meters per human cell, stretched out — fit inside a nucleus far too small to see.",
+        "relatedConcept": "backbone"
+      }
+    },
+    {
+      "id": "hotspot-base-pairs",
+      "label": "Nucleotide Base Pairs (A-T, C-G)",
+      "conceptId": "base-pairs",
+      "position": [
+        0.44,
+        0.3,
+        0.08
+      ],
+      "description": "The 'rungs' of the ladder are pairs of chemical bases: Adenine always pairs with Thymine, and Cytosine always pairs with Guanine. This strict pairing rule is what lets DNA copy itself accurately.",
+      "positionHint": "Placed directly on one rung near the vertical center of the helix (y=0.3), angled so the viewer can see the two colored base blocks meeting in the middle.",
+      "structureCard": {
+        "name": "Nucleotide Base Pairs (A-T, C-G)",
+        "plainLanguageDefinition": "Two bases on opposite DNA strands that bond together in the middle of the ladder — always A with T, or C with G.",
+        "function": "Hold the two strands together across the central axis and encode the actual genetic information; the fixed pairing rule lets one strand serve as an exact template for rebuilding the other during replication.",
+        "whereItIs": "The 'rungs' of the ladder, running the full height of the helix, each one a matched pair of bases meeting near the central axis.",
+        "whyItMatters": "This is the part of DNA that actually carries information — the order of A-T and C-G pairs along the strand is what spells out genes.",
+        "relatedConcept": "genes"
+      }
+    },
+    {
+      "id": "hotspot-backbone",
+      "label": "Sugar-Phosphate Backbone",
+      "conceptId": "backbone",
+      "position": [
+        -0.85,
+        -1.0,
+        -0.31
+      ],
+      "description": "Running up each side of the ladder is a repeating chain of sugar and phosphate molecules. This backbone is the strong structural rail that holds the base pairs in place and gives each strand its shape.",
+      "positionHint": "Placed on the twisting outer rail/tube of one strand, roughly one-third up from the bottom of the model (y=-1.0 of the -3 to +3 visible height), distinct from any rung.",
+      "structureCard": {
+        "name": "Sugar-Phosphate Backbone",
+        "plainLanguageDefinition": "The two outer rails of the DNA ladder, built from repeating sugar and phosphate molecules.",
+        "function": "Provides the structural rail that holds every base pair in place and gives each strand a consistent direction — it does not itself carry the genetic code, only the code-carrying rungs it holds steady.",
+        "whereItIs": "The two continuous outer strands running the full height of the helix, one third of the way up from the base of the model in this view.",
+        "whyItMatters": "Without the backbone, the base pairs would have nothing to anchor them into a stable, copyable molecule — it's the difference between a real ladder and a loose pile of rungs.",
+        "relatedConcept": "double-helix"
+      }
+    },
+    {
+      "id": "hotspot-genes",
+      "label": "Genes Encoded Along the Strand",
+      "conceptId": "genes",
+      "position": [
+        -0.16,
+        1.8,
+        0.89
+      ],
+      "description": "Specific stretches of base pairs along the strand spell out genes — instructions for building particular proteins, like the ones that determine eye color or how a cell functions.",
+      "positionHint": "Placed on a highlighted band of several consecutive rungs near the top third of the helix (y=1.8 of the -3 to +3 visible height), visually distinguished (e.g. a colored sleeve segment) from the rest of the strand to show it as a defined 'gene region.'",
+      "structureCard": {
+        "name": "Genes Encoded Along the Strand",
+        "plainLanguageDefinition": "A specific stretch of DNA sequence that contains the instructions for building a particular protein or trait.",
+        "function": "Acts as a readable unit: the order of base pairs within a gene is transcribed into RNA and then translated into a protein, which is how DNA's code turns into an actual physical trait or cell function.",
+        "whereItIs": "A contiguous run of roughly 8 consecutive rungs in the upper third of the helix, highlighted with a translucent colored sleeve to mark it as a defined gene region distinct from the rest of the strand.",
+        "whyItMatters": "Genes are the functional 'sentences' inside the DNA 'book' — most of what genetics actually studies (inheritance, mutation, traits) happens at the level of individual genes, not the whole molecule.",
+        "relatedConcept": "base-pairs"
+      }
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier quality bar: warm off-white/cream scene background (no pure white, no dark/space background), soft ambient + single warm key light with gentle contact shadow under the model, no bloom/glow/emissive materials, no neon or saturated gamer colors. The helix itself should read as clean, matte, slightly stylized \"museum specimen\" geometry rather than a photoreal molecular-biology textbook diagram — smooth toon-adjacent shading, soft rounded caps on every cylinder, no hard edges or visible polygon facets. Backbone strands rendered as two continuous smooth tubes (not a stack of segments) in two clearly distinct but muted, warm-neutral tones (e.g. warm taupe and soft clay) so left/right strands are distinguishable at a glance without looking like a color-coded diagram. Base-pair rungs use four muted, desaturated hues (one per base — A, T, C, G) — pastel enough to sit inside the Anatomy Atelier palette, never neon RGB primary colors. Camera framed so the full vertical helix is centered with generous negative space above and below, matching the reference's large-centered-object-on-empty-stage composition. Auto-rotate is slow (about one full turn per 18-22s) and stops immediately on user drag. Hotspot dots: this component uses a single consistent muted terracotta/rose accent color (~#C4694F) for all four hotspot markers, rather than one hue per hotspot. Corrected from an earlier draft that claimed this single-color scheme was already how the reference does it — a screenshot review of the live Anatomy Atelier reference (anatomy-livid.vercel.app) actually shows varied per-hotspot dot colors there (distinct rust/orange, maroon, navy, and purple dots, each with a light halo ring). The single-color choice here is therefore a deliberate simplification for this specific component, not a claimed match to that convention: DNA's surface is already carrying two layers of hue-coding (four muted base-pair colors for A/T/C/G, two muted backbone-strand tones), so adding a third layer of varied hotspot-dot hues risked being read as more color-coded meaning than intended. Dots sit slightly proud of the surface with a subtle glow-free ring on hover only.",
+  "materialNotes": "MeshStandardMaterial (or MeshToonMaterial for extra stylization, matching the reference's illustrative-not-photoreal feel) with a matte, low-roughness-but-not-glossy finish (roughness ≈ 0.55, metalness = 0). No emissive maps, no normal/bump texture detail needed — the clean-3D language relies on smooth clean geometry + flat warm color, not surface texture. Base station under the model (like Anatomy Atelier's soft ground shadow ellipse) should be a simple radial-gradient blurred shadow plane, not a literal floor.",
+  "assetBrief": "MODEL: Procedurally generated B-form DNA double helix, built entirely from Three.js primitives (TubeGeometry for backbone strands, CylinderGeometry/CapsuleGeometry for base-pair rungs, SphereGeometry for hotspot markers) — no GLB import needed. This is the right call because DNA's structure is a repeating parametric form (a helix is literally a math function), so procedural generation gives exact control over turn count, rung spacing, and per-segment coloring, and makes the \"isolate a single base pair\" and \"gene region highlight\" interactions trivial (toggle visibility/opacity per generated segment) rather than requiring a hand-authored mesh with baked-in states.\n\nGEOMETRY SPEC:\n- Helix axis: vertical (Y-up), total visible height ≈ 6 world units centered on the origin (visible range y = -3 to +3, matching the hotspot y-values above), radius ≈ 0.9 units.\n- Turn count: 5 full turns visible (real DNA has ~10.5 bp/turn; use a reduced, evenly-spaced 12 rungs per turn for visual clarity at this scale rather than literal biological density — this is a teaching model, not a research-accurate rendering).\n- Two backbone strands: generate each as a smooth TubeGeometry following a helical parametric curve (x = r·cos(θ), z = r·sin(θ), y = θ·pitch), radius ≈ 0.06 units, **16-sided radial segments minimum** (raised from an earlier 8-sided draft) for a genuinely rounded look. Ensure smooth (vertex-averaged) normals are enabled regardless of exact segment count. This matters specifically because the isolate/cross-section mode (below) dollies the camera in close on a single base pair — at 8 segments the backbone and rung caps would show visible polygon facets at that zoom level, breaking the \"no visible polygon facets\" promise in visualStyleNotes; 16 segments (or higher) is the minimum to hold that promise under a close camera. Strand B is phase-offset 180° from strand A.\n- Base-pair rungs: at each rung position along the helix, place two half-rungs (one from each backbone) meeting at the central axis — model each half as a CapsuleGeometry (radius ≈ 0.05, length ≈ 0.85, rounded caps, **16-sided radial segments minimum**, same smooth-normals requirement as the backbone) angled to connect backbone to axis. Total rungs ≈ 60 across the visible height, evenly spaced.\n- Base coloring: assign each rung a base pair (A-T or C-G) and color its two halves accordingly from a fixed 4-color muted palette (A, T, C, G each get one consistent hue reused throughout — do not randomize per-instance, the color-to-base mapping must be constant so a legend/glossary can reference it).\n- Gene region highlight layer: a contiguous run of ~8 consecutive rungs (positioned in the upper third of the helix, roughly y=1 to y=3, matching the `hotspot-genes` position above) gets a distinct treatment when the \"Gene region\" layer is toggled on — e.g. a subtle translucent colored sleeve/cylinder wrapping just that segment, OR a slight outward color-brighten on those rungs only. Must be toggleable independently of base coloring.\n- Cross-section / isolate mode: support isolating a single rung — camera dollies in and all other rungs + backbone fade to ~15% opacity, leaving one base pair large and legible in the center of frame so the two vs. three hydrogen-bond difference between A-T and C-G can be called out in a follow-up UI card (bond lines can be simple thin cylinders between the two base halves). See the radial-segment-count note above — this close-in view is exactly where low segment counts would fail visually.\n\nMATERIALS: See `materialNotes` field above.\n\nPALETTE (warm, muted, off-white-scene-compatible):\n- Scene background: warm cream (#F7F1E8-ish family, matching reference).\n- Strand A backbone: warm taupe (~#B8A99A family).\n- Strand B backbone: soft clay/terracotta-muted (~#C79B84 family).\n- Base A: dusty blue (~#8FA8AE).\n- Base T: muted gold (~#D4B483).\n- Base C: soft sage (~#9CAF88).\n- Base G: dusty rose (~#C08497).\n- Hotspot dot accent: single consistent terracotta/rose (~#C4694F) — see the `visualStyleNotes` field above for why this is a deliberate simplification rather than a claimed match to the reference's actual varied-hue hotspot convention.\nAll hues desaturated/muted — never pull from a saturated RGB \"textbook diagram\" palette or neon.\n\nCAMERA & FRAMING: Default position [0, 0.2, 6.5] looking at target [0, 0.2, 0] — frames the full helix vertically centered with headroom, matching Anatomy Atelier's large-centered-object composition. Orbit controls: drag to rotate, scroll/pinch to zoom, auto-rotate default ON at slow speed, pauses on user interaction and resumes after a few seconds idle (match reference's toggle behavior — must remain user-toggleable off).\n\nINTERACTION LAYERS (map to a \"Layers\" side panel like the reference's Rotate/Zoom/Isolate/Cross-section/Layers/Compare rail):\n1. Full helix (default) — everything visible.\n2. Sugar-phosphate backbone only — base-pair rungs hidden/faded, both backbone tubes fully opaque and emphasized.\n3. Base pairs only — backbone tubes faded to ~20% opacity, rungs fully visible and colored.\n4. Gene region highlight — full helix visible, gene segment sleeve/glow toggled on per above.\n\nDO NOT: add glow/bloom/emissive lighting to any part; use neon or fully saturated RGB base colors; render photoreal double-helix texture detail (grooves, phosphate texture maps); clutter the scene with particle effects, floating labels, or background gradients; make the helix \"gamey\" (no cartoon eyes/faces, no bouncy squash-stretch animation); use fewer than 16 radial segments on any backbone tube or rung capsule; default auto-rotate speed should never feel frantic — keep it slow and calm, consistent with the meditative pacing of the Anatomy Atelier reference.",
+  "visual": {
+    "shape": "dna-helix"
+  }
+}

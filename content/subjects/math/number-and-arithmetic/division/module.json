@@ -1,0 +1,87 @@
+{
+  "id": "division",
+  "subject": "math",
+  "title": "Division",
+  "summary": "Division splits a number into equal groups or shares it evenly — 12 ÷ 4 = 3 means 12 shared into 4 equal groups of 3. Explore division as equal sharing, as repeated subtraction, and as the inverse of multiplication.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "division-equal-sharing",
+    "division-repeated-subtraction",
+    "division-inverse-multiplication",
+    "division-remainder"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Arithmetic Operations",
+    "systemOrGroup": "Division",
+    "component": "Division",
+    "displayPath": "Math > Number Sense And Arithmetic > Arithmetic Operations > Division > Division"
+  },
+  "crossReferences": [
+    {
+      "label": "Multiplication (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Multiplication",
+      "note": "Division is the inverse of multiplication — 3 × 4 = 12 pairs with 12 ÷ 4 = 3."
+    },
+    {
+      "label": "Subtraction (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Subtraction",
+      "note": "Division can be modeled as repeated subtraction of the same size group."
+    },
+    {
+      "label": "Factors (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Factors",
+      "note": "A division with no remainder means the divisor is a factor of the dividend."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Arithmetic Operations > Division",
+  "compareCandidate": {
+    "label": "Division vs. multiplication",
+    "description": "Multiplication builds products from equal groups; division splits products back into equal groups. The same three numbers form a fact family: 3 × 4 = 12, 12 ÷ 4 = 3, 12 ÷ 3 = 4."
+  },
+  "parts": [
+    "Dividend, divisor, and quotient",
+    "Equal-sharing tray",
+    "Repeated subtraction view"
+  ],
+  "processes": [
+    "Sharing into equal groups",
+    "Repeated subtraction",
+    "Handling remainders"
+  ],
+  "plainLanguageExplanation": "Division splits a total into equal groups or shares it fairly. 12 ÷ 4 = 3 reads '12 divided by 4', meaning if you split 12 into 4 equal groups, each group has 3. The number being split is the dividend, the group size is the divisor, and the answer is the quotient. Division is the opposite of multiplication: 3 × 4 = 12, so 12 ÷ 4 = 3. You can also think of division as repeated subtraction — subtracting 4 from 12 three times reaches zero. Sometimes a total does not split evenly; the leftover amount is called the remainder, like 14 ÷ 4 = 3 remainder 2.",
+  "keyFacts": [
+    { "label": "Meaning", "value": "Splitting into equal groups, or fair sharing" },
+    { "label": "Parts", "value": "Dividend ÷ divisor = quotient" },
+    { "label": "Example", "value": "12 ÷ 4 = 3 (three groups of four)" },
+    { "label": "Repeated subtraction", "value": "12 − 4 − 4 − 4 = 0 → subtract 4 three times" },
+    { "label": "Inverse", "value": "Division undoes multiplication: 12 ÷ 3 = 4" },
+    { "label": "Remainder", "value": "Leftover when a number cannot split evenly — 14 ÷ 4 = 3 R 2" }
+  ],
+  "whyItMatters": "Division handles sharing, splitting, grouping, and fair amounts — cutting a pizza for 4 people, sharing candies, or dividing a bill. As the inverse of multiplication, division completes the fact families that power algebra and fractions later.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Division",
+  "tagline": "Splitting into equal groups",
+  "didYouKnow": "Division and multiplication are the only inverse pair where you can always find both facts from one equation — knowing 7 × 8 = 56 instantly gives you 56 ÷ 8 = 7.",
+  "conditions": [
+    "Sharing snacks",
+    "Splitting a bill",
+    "Packaging items",
+    "Fair groups"
+  ],
+  "compareCandidateId": "multiplication",
+  "compareReason": "Division is multiplication turned backwards, so comparing the two over the same three numbers makes the whole fact family stick."
+}

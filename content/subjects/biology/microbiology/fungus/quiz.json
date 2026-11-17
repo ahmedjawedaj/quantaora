@@ -1,0 +1,65 @@
+{
+  "componentId": "fungus",
+  "questions": [
+    {
+      "id": "fungus-q-kingdom",
+      "conceptId": "fungus-own-kingdom",
+      "hotspotId": "hs-mycelium",
+      "prompt": "What is a fungus most closely described as?",
+      "options": [
+        "A living organism of its own kingdom, neither plant nor animal",
+        "A type of plant that photosynthesizes",
+        "A kind of rock",
+        "A single gemstone cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fungi form their own kingdom of living things - mushrooms, molds, and yeast - which are neither plants nor animals.",
+      "misconception": "Because a mushroom looks like a plant, many think fungi are plants. But they belong to their own kingdom and do not photosynthesize."
+    },
+    {
+      "id": "fungus-q-mycelium",
+      "conceptId": "hyphae-mycelium",
+      "hotspotId": "hs-mycelium",
+      "prompt": "What is the main body of most fungi?",
+      "options": [
+        "A network of fine threads (hyphae) called mycelium, mostly underground",
+        "The round cap of the mushroom",
+        "A single huge leaf",
+        "A hard shell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hidden network of threads called mycelium is the main body; what you see above ground is usually just the fruiting body releasing spores.",
+      "misconception": "People often think the mushroom cap is the whole fungus. In fact the cap is only the spore-producing fruiting body and the spread mycelium threads below are the main body."
+    },
+    {
+      "id": "fungus-q-food",
+      "conceptId": "fungus-decomposer",
+      "hotspotId": "hs-hyphae",
+      "prompt": "How do most fungi get their food?",
+      "options": [
+        "By releasing enzymes that break apart material and absorbing the nutrients",
+        "By catching sunlight and photosynthesizing",
+        "By drinking water only",
+        "By hunting and swallowing prey"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fungi are decomposers - they release enzymes to break down dead material and then absorb the dissolved nutrients.",
+      "misconception": "Unlike plants, fungi do not make food from sunlight; they break down existing material and absorb the nutrients."
+    },
+    {
+      "id": "fungus-q-spores",
+      "conceptId": "fungus-spores-reproduce",
+      "hotspotId": "hs-spores",
+      "prompt": "How do fungi reproduce and spread?",
+      "options": [
+        "By releasing tiny spores that grow into new fungi",
+        "By growing big seeds like plants",
+        "By dividing only with a host cell",
+        "They cannot spread at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fungi make tiny spores, often from the mushroom cap, which spread and grow into new fungi where they settle.",
+      "misconception": "Fungi relate raise no seeds and need no host. They use tiny spores spread to reproduce, quite unlike viruses."
+    }
+  ]
+}

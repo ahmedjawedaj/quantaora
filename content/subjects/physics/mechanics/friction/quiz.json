@@ -1,0 +1,80 @@
+{
+  "componentId": "friction",
+  "questions": [
+    {
+      "id": "friction-q-definition",
+      "conceptId": "friction-contact-force",
+      "hotspotId": "hs-friction-arrow",
+      "prompt": "What is friction?",
+      "options": [
+        "A contact force that resists sliding between two surfaces",
+        "A force that only acts in outer space",
+        "The force that pulls objects toward Earth",
+        "The speed an object reaches when dropped"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friction is a contact force between touching surfaces that resists their sliding past each other.",
+      "misconception": "Friction gets confused with gravity or with speed; it's a rubbing-contact force with its own direction."
+    },
+    {
+      "id": "friction-q-direction",
+      "conceptId": "friction-opposes-motion",
+      "hotspotId": "hs-friction-arrow",
+      "prompt": "A book slides to the right across a table. Which way does friction act?",
+      "options": [
+        "To the left, opposite the motion",
+        "To the right, with the motion",
+        "Straight up",
+        "It doesn't point anywhere"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friction always opposes the sliding — it pushes back the opposite way the book moves.",
+      "misconception": "A surprising wrong idea is that friction helps things move forward; it resists, so it points against the motion."
+    },
+    {
+      "id": "friction-q-roughness",
+      "conceptId": "friction-depends-on-surfaces-and-press",
+      "hotspotId": "hs-surface-strips",
+      "prompt": "Which surface will produce the LARGEST friction with a sliding book?",
+      "options": [
+        "Rough sandpaper",
+        "Glossy ice",
+        "Smooth glass",
+        "A dry mirror"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rougher surfaces grab more — sandpaper gives a much bigger friction force than ice or glass.",
+      "misconception": "Smooth shiny things feel 'safe' to some learners; the smoothness is exactly why they create tiny friction."
+    },
+    {
+      "id": "friction-q-press",
+      "conceptId": "friction-depends-on-surfaces-and-press",
+      "hotspotId": "hs-press-load",
+      "prompt": "Two identical boxes slide on the same surface. Box A is heavy, box B is light. Which has more friction?",
+      "options": [
+        "Box A — pressing harder increases friction",
+        "Box B — light things grip more",
+        "They are identical",
+        "Friction never depends on weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressing harder raises the normal force between surfaces, which increases the friction — the heavy box grips more.",
+      "misconception": "Intuition often says light = slippery; in fact the greater the press, the stronger the grip."
+    },
+    {
+      "id": "friction-q-useful",
+      "conceptId": "friction-useful-and-wasteful",
+      "hotspotId": "hs-friction-arrow",
+      "prompt": "Which example shows friction being USEFUL?",
+      "options": [
+        "Car brakes pressing pads against the wheels to stop",
+        "Holes wearing in old shoes",
+        "Machines overheating",
+        "A sled slowing down too fast"
+      ],
+      "correctIndex": 0,
+      "explanation": "Friction turns into the grip that brakes use — that's friction doing the job. Wear, heat, and slow sleds are the waste side.",
+      "misconception": "All friction feels 'bad' to some learners; the same force that wears shoes is what lets brakes stop the car."
+    }
+  ]
+}

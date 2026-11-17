@@ -1,0 +1,103 @@
+{
+  "id": "place-value",
+  "componentId": "place-value",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/number-and-arithmetic/place-value/place-value.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/number-and-arithmetic/place-value.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.4,
+      3.6
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.4,
+      3.6
+    ],
+    "target": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Base-ten blocks",
+    "Digit labels",
+    "Regrouping animation"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-hundreds",
+      "label": "Hundreds place",
+      "conceptId": "place-value-position-meaning",
+      "position": [
+        0.9,
+        0.6,
+        0
+      ],
+      "description": "The hundreds place holds digits worth hundreds \u2014 a 5 here means 500.",
+      "positionHint": "A column of hundred-blocks (10 by 10 slabs) on the right side of the model.",
+      "color": "#D96B5A",
+      "function": "Holds the hundreds digit, each worth 100."
+    },
+    {
+      "id": "hs-tens",
+      "label": "Tens place",
+      "conceptId": "place-value-position-meaning",
+      "position": [
+        0,
+        0.6,
+        0
+      ],
+      "description": "The tens place holds digits worth tens \u2014 a digit 3 here means 30.",
+      "positionHint": "A column of ten-sticks in the center of the model.",
+      "color": "#7FA86A",
+      "function": "Holds the tens digit, each worth 10."
+    },
+    {
+      "id": "hs-regroup-ones",
+      "label": "Ones place",
+      "conceptId": "place-value-regrouping",
+      "position": [
+        -0.9,
+        0.6,
+        0
+      ],
+      "description": "The ones place holds single units. When ten ones collect, they regroup into one ten.",
+      "positionHint": "A column of single cubes on the right side of the model.",
+      "color": "#D9A441",
+      "function": "Holds the ones digit, each worth 1."
+    },
+    {
+      "id": "hs-digit-number",
+      "label": "Digit labels",
+      "conceptId": "place-value-read-write",
+      "position": [
+        0,
+        -0.5,
+        0.3
+      ],
+      "description": "The written digit under each column ties the blocks to the number they represent.",
+      "positionHint": "Flat label plates beneath each column showing the number's digits (e.g. 573).",
+      "color": "#6B85A8",
+      "function": "Links the concrete blocks to the abstract written number."
+    }
+  ],
+  "visualStyleNotes": "Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. Three vertical columns of clean base-ten blocks (hundreds flat blocks, tens rods, ones cubes) sit on a calm surface, lit with soft neutral studio light \u2014 no rim-light glow, no bloom, no emissive. Strong saturated color is reserved for the small flat hotspot dots (coral / molecular-green / amber / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered. Calm, minimal chrome, labels as flat plates.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Hundred-blocks: soft warm amber (roughness ~0.5) with faint inset grid lines. Ten-rods: soft violet (roughness ~0.5). Ones cubes: warm off-white (roughness ~0.55). Base shadow plane: very soft warm grey (roughness ~0.9). Digit label plates: warm paper white with ink text. No emissive channels anywhere \u2014 interaction highlights are handled by app runtime UI.",
+  "assetBrief": "SUBJECT: base-ten place value as three groups of clean blocks \u2014 one for hundreds (a 10\u00d7(ten) is 10 by 10 = 100 surface), one for tens (10 joined rods), one for ones (10 single cubes) arranged along the x-axis and sharing a smooth matte surface, with a digit plate beneath each column (settling on 5 hundreds, 7 tens, 3 ones = 573).\n\nGEOMETRY: hundreds = a 10\u00d710 grid of unit cubes (radius 0.03 cubes) around x=0.9; tens = ten unit rods arranged at x=0; ones = 10 unit cubes at x=\u22120.9. Regrouping layer: a loose group named Regroupables = ten single cubes that a tap animates into a single ten-rod (app-driven tween) to show 10 ones \u2192 1 ten. Digit plates lined under each column.\n\nLAYERS (toggleable): (1) show/hide block groups; (2) digit label plates; (3) regroup animation set.\n\nCAMERA: head-on from +z fits all three columns; labels legible. Budget 8-15k triangles. Named nodes: HundredsGrid, TensRods, OnesCubes, Regroupables, DigitPlate_Each, Pop_Label. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "place-value-blocks"
+  }
+}

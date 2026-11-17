@@ -1,0 +1,80 @@
+{
+  "componentId": "supernova",
+  "questions": [
+    {
+      "id": "sn-q-trigger",
+      "conceptId": "core-collapse-trigger",
+      "hotspotId": "hs-iron-core",
+      "prompt": "What finally makes a very massive star explode?",
+      "options": [
+        "It runs out of fuel layer by layer, and its iron core can no longer release energy, so it collapses in about a second",
+        "Another star hits it",
+        "It gets too hot for its own skin and pops",
+        "A comet smacks into it"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fusion builds layers up to iron at the center. Iron takes energy to fuse rather than giving it, so the core suddenly has no energy source — gravity collapses it in about a second.",
+      "misconception": "Explosions read as 'too much fuel catching fire' — but the fuse is the opposite: fuel that can no longer burn is what lets gravity win the round."
+    },
+    {
+      "id": "sn-q-shock",
+      "conceptId": "rebound-shock-wave",
+      "hotspotId": "hs-shockwave",
+      "prompt": "What physically tears the star apart?",
+      "options": [
+        "The heat of the core melts the gas",
+        "A shock wave rebounds off the collapsed core and blasts through the infalling envelope",
+        "The star's own rotation shreds it",
+        "Space rocks strike from outside"
+      ],
+      "correctIndex": 1,
+      "explanation": "The collapsing core stops suddenly at neutron density and bounces back like a spring; that bounce sends a shock wave racing outward at close to light speed, blowing the envelope into space.",
+      "misconception": "The explosion reads as 'something in the middle blows up' — but the tearing comes from the rebound, the same way a bouncing ball throws a wave outward."
+    },
+    {
+      "id": "sn-q-elements",
+      "conceptId": "elements-forged-in-explosion",
+      "hotspotId": "hs-element-forge",
+      "prompt": "Where did Earth's gold and uranium come from?",
+      "options": [
+        "They were always here, from the Big Bang onward",
+        "They were forged in supernovae that exploded before the solar system existed",
+        "They came from deep under Earth's crust, made by pressure alone",
+        "Comets imported them from another galaxy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Big-bang nucleosynthesis only made the lightest elements. Everything heavier than iron — gold, silver, uranium — is forged in supernovae, so the atoms in Earth and in you predate the Sun.",
+      "misconception": "'Earth is old' makes it seem enough, but the Earth is much younger than its own matter; the heavy atoms carried into it were minted in stellar explosions billions of years earlier."
+    },
+    {
+      "id": "sn-q-bright",
+      "conceptId": "visible-months-outburst",
+      "hotspotId": "hs-remnant-shell",
+      "prompt": "How bright does a supernova get compared with the rest of its galaxy?",
+      "options": [
+        "About as bright as one star",
+        "Brighter than its whole galaxy for a few weeks — tens of billions of stars worth of light",
+        "Brighter than the Sun but dimmer than the galaxy",
+        "It is invisible except to special telescopes"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a few weeks, a single supernova outshines the combined light of all the billions of ordinary stars in its home galaxy — one of the brightest events in space.",
+      "misconception": "Comparisons with the Sun cap the imagination; 'as bright as a galaxy for weeks' stretches it correctly — that is why supernovae of other galaxies are discovered from Earth to this day."
+    },
+    {
+      "id": "sn-q-remnant",
+      "conceptId": "neutron-star-or-black-hole",
+      "hotspotId": "hs-remnant-shell",
+      "prompt": "What is left at the center after a core-collapse supernova?",
+      "options": [
+        "Nothing at all — the star vanishes without a trace",
+        "Either a neutron star or a black hole, depending on how massive the core is",
+        "A fresh main-sequence star",
+        "A fleet of new planets"
+      ],
+      "correctIndex": 1,
+      "explanation": "The collapsed core survives as a neutron star (up to ~2-3 solar masses) or, for the very heaviest cores, keeps collapsing into a black hole.",
+      "misconception": "After such a violent event, 'completely gone' feels natural — but the densest residue always remains, and what it becomes is decided by the core's mass on the way down."
+    }
+  ]
+}

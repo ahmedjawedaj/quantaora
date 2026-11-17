@@ -1,0 +1,65 @@
+{
+  "componentId": "xylem",
+  "questions": [
+    {
+      "id": "xylem-q-what",
+      "conceptId": "xylem-carries-water",
+      "hotspotId": "hs-tubelet",
+      "prompt": "What does xylem carry through a plant?",
+      "options": [
+        "Water and dissolved minerals",
+        "Only sugar food",
+        "Only oxygen gas",
+        "Seeds and pollen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Xylem carries water and dissolved minerals upward from the roots to the leaves.",
+      "misconception": "Xylem is not the food tissue. It carries water and minerals up, while the separate phloem tissue carries food."
+    },
+    {
+      "id": "xylem-q-direction",
+      "conceptId": "xylem-from-root-to-leaf",
+      "hotspotId": "hs-tubelet",
+      "prompt": "In which direction does water travel in the xylem?",
+      "options": [
+        "Up, from the roots to the leaves",
+        "Down, from the leaves to the roots",
+        "Sideways across the leaf only",
+        "It stays still"
+      ],
+      "correctIndex": 0,
+      "explanation": "Water and minerals move up the xylem tubes, from the roots where they enter to the leaves where they are used.",
+      "misconception": "It is easy to confuse with food, which goes down. But xylem always moves water up from the root."
+    },
+    {
+      "id": "xylem-q-structure",
+      "conceptId": "xylem-organic-tubes",
+      "hotspotId": "hs-tubelet",
+      "prompt": "What does xylem look like inside a stem?",
+      "options": [
+        "A bundle of long hollow tubes",
+        "One big round leaf",
+        "A flat thin sheet",
+        "Tiny colored seeds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Xylem is made of many long, hollow tubes joined end to end, forming a water pipe reaching up through the plant.",
+      "misconception": "It is not a leaf, sheet, or seed - it is a set of slender tubes built to carry water upward."
+    },
+    {
+      "id": "xylem-q-why",
+      "conceptId": "xylem-from-root-to-leaf",
+      "hotspotId": "hs-leafend",
+      "prompt": "Why does the plant need xylem to reach the leaves?",
+      "options": [
+        "The leaves need water to make food by photosynthesis",
+        "The leaves smell the water",
+        "The flowers need the water for color",
+        "The roots need the water pushed back down"
+      ],
+      "correctIndex": 0,
+      "explanation": "The leaves use water, brought up by xylem, as one ingredient to make sugar food and to stay healthy through photosynthesis.",
+      "misconception": "The water is not returned down or for color - it is needed at the leaves for photosynthesis and lives."
+    }
+  ]
+}

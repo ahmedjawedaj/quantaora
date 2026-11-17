@@ -1,0 +1,90 @@
+{
+  "id": "range",
+  "componentId": "range",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/range/range.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/range.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Track",
+    "Value blocks",
+    "Range arrow",
+    "Outlier"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-range-arrow",
+      "label": "Range",
+      "conceptId": "range-definition",
+      "position": [
+        0.2,
+        0.55,
+        0.1
+      ],
+      "description": "The arrow spanning from the low block to the high block \u2014 the spread.",
+      "positionHint": "The double-headed arrow on the track.",
+      "color": "#D9A441",
+      "function": "The gap measured as the range."
+    },
+    {
+      "id": "hs-high-block",
+      "label": "Largest value",
+      "conceptId": "range-compute",
+      "position": [
+        1.0,
+        0.3,
+        0.15
+      ],
+      "description": "The highest block on the track \u2014 one end of the range.",
+      "positionHint": "The block at the far right.",
+      "color": "#7FA86A",
+      "function": "The max of the dataset."
+    },
+    {
+      "id": "hs-low-block",
+      "label": "Smallest value",
+      "conceptId": "range-compute",
+      "position": [
+        -1.0,
+        0.3,
+        0.15
+      ],
+      "description": "The lowest block on the track \u2014 the range's other end.",
+      "positionHint": "The block at the far left.",
+      "color": "#6B85A8",
+      "function": "The min of the dataset."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A horizontal track 0-100 with value blocks, a double-headed range arrow, and a slider/anchor interaction. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / slate-blue from the palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Track: soft warm-grey rail with ink ticks (roughness ~0.5). Value blocks: warm paper cubes with ink numbers. Range arrow: double-headed strip warm amber. Outlier: one gray block slightly offset. Length label: warm paper plate with live range value. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: range as the min-to-max spread \u2014 a track with blocks (55, 70, 82, 90, plus extremes); a double-headed arrow spans the gap; dragging extremes updates the label; outlier adds a far block and widens the page.\n\nGEOMETRY: A horizontal track marked 0-100 with a series of value blocks sitting on it at their values (55, 70, 82, 90). The low (55) and high (90) ends are highlighted; a double-headed arrow with a center label spans from low to high showing the range. Sliding a block moves it along the track and updates the range label. 'Bunched' preset clusters blocks; 'outlier' adds a gray fifth block at 5 that snaps the arrow wide.\n\nLAYERS (toggleable): (1) track; (2) value blocks; (3) range arrow + label; (4) outlier block.\n\nCAMERA: three-quarter from front-left, above, frames the full track; labels visible. Budget 5-9k triangles. Named nodes: Track, Blocks, LowBlock, HighBlock, RangeArrow, RangeLabel, OutlierBlock. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "range-span"
+  }
+}

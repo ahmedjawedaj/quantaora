@@ -1,0 +1,86 @@
+{
+  "id": "circle",
+  "subject": "math",
+  "title": "Circle",
+  "summary": "A circle is the set of all points at the same distance from a center. Explore the radius, diameter, circumference, and the special number pi that ties them together.",
+  "gradeMin": 4,
+  "gradeMax": 7,
+  "skillIds": [
+    "circle-definition",
+    "circle-radius-diameter",
+    "circle-circumference",
+    "circle-pi"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Curves",
+    "systemOrGroup": "Circles",
+    "component": "Circle",
+    "displayPath": "Math > Geometry > Curves > Circles > Circle"
+  },
+  "crossReferences": [
+    {
+      "label": "Point (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Point",
+      "note": "The center of a circle is a point, and every rim point is a point too."
+    },
+    {
+      "label": "Segment (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Segment",
+      "note": "The radius and diameter are segments inside the circle."
+    },
+    {
+      "label": "Area (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Area",
+      "note": "A circle's area uses pi and the radius squared."
+    }
+  ],
+  "belongsTo": "Geometry > Curves > Circles",
+  "compareCandidate": {
+    "label": "Circle vs. polygon",
+    "description": "A polygon is made of straight sides; a circle is one smooth curve where every rim point is the same distance from the center."
+  },
+  "parts": [
+    "The center",
+    "The radius",
+    "The rim"
+  ],
+  "processes": [
+    "Relating radius and diameter",
+    "Finding circumference with pi"
+  ],
+  "plainLanguageExplanation": "A circle is every point at exactly the same distance from one center point. The radius is a segment from the center to the rim; the diameter is a segment across through the center — exactly two radii. The distance around the rim is the circumference. For every circle, the circumference divided by the diameter is always the same number: pi (π), about 3.14159. So circumference = 2 × π × radius, or π × diameter. A wheel with radius 1 unit rolls out about 6.28 units per turn.",
+  "keyFacts": [
+    { "label": "Definition", "value": "All points the same distance from a center" },
+    { "label": "Radius", "value": "Center to rim" },
+    { "label": "Diameter", "value": "Across through center = 2 × radius" },
+    { "label": "Circumference", "value": "Distance around = π × diameter" },
+    { "label": "Pi", "value": "≈ 3.14 — same for every circle" },
+    { "label": "Example", "value": "r = 1 → circumference ≈ 6.28" }
+  ],
+  "whyItMatters": "Circles are the shape of wheels, planets, coins, and clocks — anything that rolls or orbits. Pi is one of the most famous numbers in math, and understanding circles unlocks measuring anything round.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Circle",
+  "tagline": "Perfectly round",
+  "didYouKnow": "The value of pi has been chased for thousands of years — the ancient Babylonians used 3.125 around 1900 BCE, and today computers have calculated trillions of digits, yet the decimal never repeats and never ends.",
+  "conditions": [
+    "Measuring wheels",
+    "Designing round objects",
+    "Finding circumference",
+    "Orbits and clocks"
+  ],
+  "compareCandidateId": "quadrilateral",
+  "compareReason": "Students expect all shapes to have straight sides — comparing the smooth circle with a four-sided polygon shows what makes it unique."
+}

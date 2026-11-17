@@ -1,0 +1,100 @@
+{
+  "id": "blood-vessels",
+  "subject": "biology",
+  "title": "Blood Vessels",
+  "summary": "Blood vessels are the body's delivery network - tubes that carry blood to every part of the body and back. Explore arteries, veins, and capillaries, and how the network works like highways, side roads, and tiny driveways.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "arteries-carry-away",
+    "veins-carry-back",
+    "capillaries-exchange",
+    "one-way-valves"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Cardiovascular system",
+    "component": "Blood Vessels",
+    "displayPath": "Biology > Human Anatomy > Cardiovascular system > Blood Vessels"
+  },
+  "crossReferences": [
+    {
+      "label": "Heart (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Heart",
+      "note": "The heart is the pump that drives blood through all the vessels."
+    },
+    {
+      "label": "Blood Circulation (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Blood circulation",
+      "note": "The route blood takes through arteries, capillaries, and veins is the blood-circulation process."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Cardiovascular system > Blood Vessels",
+  "compareCandidate": {
+    "label": "Arteries vs. veins",
+    "description": "Arteries carry blood away from the heart under high pressure (thick walls). Veins carry blood back toward the heart with one-way valves (thinner walls). Capillaries are where the exchange happens."
+  },
+  "parts": [
+    "Arteries",
+    "Veins",
+    "Capillaries",
+    "One-way valves"
+  ],
+  "processes": [
+    "Carrying blood away from the heart (arteries)",
+    "Carrying blood back to the heart (veins)",
+    "Exchanging materials with cells (capillaries)"
+  ],
+  "plainLanguageExplanation": "Blood vessels are the tubes that carry blood around the body. There are three main types. Arteries carry blood away from the heart; they have thick, stretchy walls because the heart's pumping makes blood flow through them at high pressure. Veins carry blood back toward the heart; they have thinner walls and small one-way valves to stop blood flowing backward. Capillaries are the tiniest vessels, so thin that materials can pass through their walls - this is where oxygen, nutrients, and waste are exchanged with the cells. So the network works like this: arteries are the highways out, capillaries are the driveways where the delivery happens, and veins are the highways back.",
+  "keyFacts": [
+    {
+      "label": "Types",
+      "value": "Arteries, veins, and capillaries"
+    },
+    {
+      "label": "Arteries",
+      "value": "Carry blood away from the heart; thick stretchy walls"
+    },
+    {
+      "label": "Veins",
+      "value": "Carry blood back to the heart; one-way valves"
+    },
+    {
+      "label": "Capillaries",
+      "value": "Tiny vessels where materials are exchanged with cells"
+    },
+    {
+      "label": "Network",
+      "value": "Highways (arteries), driveways (capillaries), highways back (veins)"
+    },
+    {
+      "label": "Length",
+      "value": "Laid end to end, your vessels would go around the Earth more than twice"
+    }
+  ],
+  "whyItMatters": "Blood vessels deliver oxygen and food to every cell and carry waste away. Understanding arteries, veins, and capillaries explains your pulse, why veins look blue through the skin, and how every part of you stays supplied.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Blood vessels (Vascular system)",
+  "tagline": "The body's delivery network",
+  "didYouKnow": "If all your blood vessels were laid end to end, they would stretch about 96,000 kilometers - more than twice around the Earth.",
+  "conditions": [
+    "Atherosclerosis",
+    "Varicose veins",
+    "High blood pressure"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Cardiovascular system > Blood Vessels",
+  "plain": "Blood vessels are the tubes that carry blood around the body. There are three main types. Arteries carry blood away from the heart; they have thick, stretchy walls because the heart's pumping makes blood flow through them at high pressure. Veins carry blood back toward the heart; they have thinner walls and small one-way valves to stop blood flowing backward. Capillaries are the tiniest vessels, so thin that materials can pass through their walls - this is where oxygen, nutrients, and waste are exchanged with the cells. So the network works like this: arteries are the highways out, capillaries are the driveways where the delivery happens, and veins are the highways back."
+}

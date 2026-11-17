@@ -1,0 +1,86 @@
+{
+  "id": "area",
+  "subject": "math",
+  "title": "Area",
+  "summary": "Area measures how much surface a shape covers — counted in square units. Explore rectangles, squares, and triangles, and why area formulas make counting easy.",
+  "gradeMin": 3,
+  "gradeMax": 6,
+  "skillIds": [
+    "area-definition",
+    "area-square-units",
+    "area-rectangle",
+    "area-triangle"
+  ],
+  "type": "simulation",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Geometry",
+    "unit": "Measurement of shapes",
+    "systemOrGroup": "Area",
+    "component": "Area",
+    "displayPath": "Math > Geometry > Measurement of shapes > Area > Area"
+  },
+  "crossReferences": [
+    {
+      "label": "Rectangle / Quadrilateral (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Quadrilateral",
+      "note": "Rectangle area = length × width is the base formula."
+    },
+    {
+      "label": "Triangle (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Triangle",
+      "note": "A triangle is half of a rectangle, so its area is half base × height."
+    },
+    {
+      "label": "Circle (Geometry)",
+      "branch": "geometry",
+      "lowLevelItem": "Circle",
+      "note": "Circle area = π × radius²."
+    }
+  ],
+  "belongsTo": "Geometry > Measurement of shapes > Area",
+  "compareCandidate": {
+    "label": "Area vs. perimeter",
+    "description": "Perimeter is the distance AROUND a shape; area is the surface INSIDE it. Two shapes can share a perimeter but have very different areas."
+  },
+  "parts": [
+    "The surface",
+    "Square units",
+    "The formula"
+  ],
+  "processes": [
+    "Counting square units",
+    "Using length × width"
+  ],
+  "plainLanguageExplanation": "Area is the amount of surface a shape covers, measured in square units — little unit squares that tile the shape. For a rectangle, count rows times columns, or just use length × width: a 4-by-3 rectangle covers 12 square units because 4 × 3 = 12. A square is a rectangle with equal sides, so its area is side × side. A triangle covers exactly half of its surrounding rectangle, so its area is ½ × base × height. Area answers 'how much floor, paint, or grass?'",
+  "keyFacts": [
+    { "label": "Definition", "value": "The surface a shape covers" },
+    { "label": "Units", "value": "Square units, like cm² or m²" },
+    { "label": "Rectangle", "value": "Length × width" },
+    { "label": "Example", "value": "4 × 3 = 12 square units" },
+    { "label": "Square", "value": "Side × side" },
+    { "label": "Triangle", "value": "½ × base × height" }
+  ],
+  "whyItMatters": "Area is how you buy carpet, pour concrete, paint walls, and plant grass. It is the measurement that turns flat shapes into real-world surfaces.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Area",
+  "tagline": "The space inside",
+  "didYouKnow": "Area units are ALWAYS squared — square meters, square feet — because you are counting squares of space. The '2' superscript reminds you the measurement covers two dimensions: across and down.",
+  "conditions": [
+    "Buying flooring",
+    "Painting walls",
+    "Landscaping",
+    "Comparing sizes of surfaces"
+  ],
+  "compareCandidateId": "perimeter",
+  "compareReason": "Students blur the outline with the surface — comparing around vs. inside makes the two measurements distinct."
+}

@@ -1,0 +1,101 @@
+{
+  "id": "pancreas",
+  "componentId": "pancreas",
+  "subject": "biology",
+  "modelType": "glb-authored",
+  "url": "/assets/models/biology/human-anatomy/pancreas/pancreas.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/human-anatomy/pancreas.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.4,
+      2.6
+    ],
+    "target": [
+      0,
+      0.15,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Gland body",
+    "Enzyme production",
+    "Insulin cells",
+    "Duct and blood release"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-pan-gland",
+      "label": "Pancreas gland",
+      "conceptId": "dual-role-gland",
+      "position": [
+        0.0,
+        0.15,
+        0.1
+      ],
+      "description": "The elongated gland behind the stomach.",
+      "color": "#D98A6A",
+      "function": "The soft gland that makes enzymes and hormones.",
+      "positionHint": "The whole organ."
+    },
+    {
+      "id": "hs-enzyme",
+      "label": "Digestive enzymes",
+      "conceptId": "pancreatic-enzymes-digestion",
+      "position": [
+        0.3,
+        0.05,
+        0.2
+      ],
+      "description": "The enzymes that help break down food in the small intestine.",
+      "color": "#D9A441",
+      "function": "Break down proteins, fats, and carbs.",
+      "positionHint": "Made in the pancreas, sent to the intestine."
+    },
+    {
+      "id": "hs-insulin",
+      "label": "Insulin cells",
+      "conceptId": "insulin-blood-sugar",
+      "position": [
+        -0.25,
+        -0.05,
+        0.2
+      ],
+      "description": "The cell clusters that make the hormone insulin.",
+      "color": "#6B85A8",
+      "function": "Make insulin to control blood sugar.",
+      "positionHint": "Scattered through the gland."
+    },
+    {
+      "id": "hs-blood",
+      "label": "Hormones into blood",
+      "conceptId": "hormones-into-blood",
+      "position": [
+        0.15,
+        -0.2,
+        0.2
+      ],
+      "description": "Hormones being released into the bloodstream.",
+      "color": "#B5846A",
+      "function": "Carry insulin to cells around the body.",
+      "positionHint": "Released from the gland into the blood."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette beneath the model, no floor grid, no scene props. The organ floats large and centered, lit with soft neutral studio light (no rim glow, no bloom, no emissive anywhere). Clean stylized-specimen quality matching the reference organ specimens - smooth continuous topology, medical-illustration-meets-product-render, not photoreal, not cartoon. COLOR IS RESTRAINED: the organ reads as a warm-paper specimen with a faint informational cast per structure, never a saturated legend color. Strong saturated color is reserved entirely for the small flat-colored hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.6, single 2K shared texture atlas where possible, baked AO. No subsurface scattering, no specular sheen. Cross-sections are clean flat-capped museum cuts, never gory or torn tissue. No emissive channels anywhere.",
+  "assetBrief": "SUBJECT: a pancreas as a stylized-specimen study - a soft, elongated, slightly lobed gland, opened in clean cutaway. One region shows the production of digestive enzymes with a small duct running toward the intestine; another shows scattered cell clusters (the insulin islands) releasing small hormone dots into a nearby blood vessel. Warm paper palette, muted, no glow. Named nodes: PancreasBody, DuctToIntestine, EnzymeRegion, InsulinClusters, BloodVessel, HormoneDots. Budget 18-26k."
+}

@@ -1,0 +1,26 @@
+{
+  "componentId": "voltage",
+  "standards": [
+    {
+      "standardId": "MS-PS2-5",
+      "standard": "Electric Forces and Fields",
+      "description": "Fields exist between objects exerting force; electric circuits are driven by a potential difference.",
+      "level": "primary",
+      "traceDetail": "The battery bank's potential difference is the push setting charges in motion."
+    },
+    {
+      "standardId": "PS3.B",
+      "standard": "Conservation of Energy and Energy Transfer",
+      "description": "Energy moves via the electric current that voltage drives through the bulb.",
+      "level": "support",
+      "traceDetail": "Each added volt increases the bulb's energy transfer rate, shown as brighter glow."
+    },
+    {
+      "standardId": "HS-PS2-5",
+      "standard": "Electrical Potential Difference",
+      "description": "Macroscopically, current in circuits arises from a potential difference; voltage is that difference.",
+      "level": "primary",
+      "traceDetail": "Stacking cells demonstrates additive potential difference and its effect on current."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sourceUrl": "https://polyhaven.com/a/vintage_microscope",
+  "sourceDownloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_microscope/vintage_microscope_1k.gltf",
+  "packName": "Poly Haven asset (individual model, not a pack)",
+  "originalFilename": "vintage_microscope_1k.gltf + vintage_microscope.bin + 3 jpg textures (1k)",
+  "creator": "Luis Jose Fernandez Rodriguez, via Poly Haven (polyhaven.com)",
+  "license": "CC0 1.0 Universal (Public Domain Dedication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attributionRequired": false,
+  "attributionNote": "Not legally required under CC0; Poly Haven asks for a credit as courtesy only.",
+  "redistributionStatus": "Permitted without restriction under CC0. Redistributed here as a single-file GLB converted via assimp from Poly Haven's official 1k glTF export (gltf + bin + diffuse/normal/ARM jpg textures), all three source files verified against the md5 checksums published by the Poly Haven API before conversion.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 837008,
+  "sha256": "4f360044e0da4d2d4c7b695ddd8138cf26d3cb7505a38da9899e837882f4c073",
+  "validation": {
+    "glbMagicHeaderValid": true,
+    "glTFVersion": 2,
+    "totalLengthMatchesFileSize": true,
+    "scenes": 1,
+    "nodes": 9,
+    "meshes": 8,
+    "materials": 3,
+    "textures": 3,
+    "animations": 0,
+    "accessors": 36,
+    "boundingBoxMin": [-0.0326380655169487, 2.2250738585072014e-308, -0.006873677484691143],
+    "boundingBoxMax": [0.028638066723942757, 0.129497230052948, 0.03806301951408386],
+    "renderInspected": false,
+    "notes": "Validated via Node script parsing GLB binary header + JSON chunk only; not opened in a 3D viewer. Bounding box (~0.13 m tall) is smaller than Poly Haven's stated ~0.4 m real-world height for this scan -- likely a unit/scale convention difference in the glTF export, re-check scale before placing in a scene."
+  },
+  "note": "Brass vintage microscope, real photogrammetry/PBR scan. Candidate for the Human Physiology 'Microscope mode' interactive component and general non-anatomy lab-equipment set dressing. Not a stylized asset -- visual style differs from the app's low-poly Quaternius nature/ecology assets; flag for art-direction review before use alongside them in the same scene."
+}

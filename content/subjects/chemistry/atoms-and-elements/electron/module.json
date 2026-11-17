@@ -1,0 +1,109 @@
+{
+  "id": "electron",
+  "subject": "chemistry",
+  "title": "Electron",
+  "summary": "An electron is a tiny, negatively charged particle that orbits the nucleus in shells. Electrons are the particles that do chemistry — the ones shared, lost, or gained in every reaction.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "electron-negative-charge",
+    "electron-orbit-shells",
+    "electron-chemistry"
+  ],
+  "type": "model",
+  "estimatedMinutes": 8,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Atoms And Elements",
+    "unit": "Inside The Atom",
+    "systemOrGroup": "Subatomic particles",
+    "component": "Electron",
+    "displayPath": "Chemistry > Atoms And Elements > Inside The Atom > Subatomic particles > Electron"
+  },
+  "crossReferences": [
+    {
+      "label": "Proton (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Proton",
+      "note": "The electron's opposite — protons are positive and in the nucleus, electrons are negative and orbit far outside. Their attraction holds the atom together."
+    },
+    {
+      "label": "Electron shell (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Electron shell",
+      "note": "Electrons don't orbit at random — they live in specific layers called shells, at fixed distances from the nucleus."
+    },
+    {
+      "label": "Valence electron (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Valence electron",
+      "note": "The electrons in the outermost shell are called valence electrons, and they are the ones that do all the bonding."
+    },
+    {
+      "label": "Ion (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Ion",
+      "note": "When an atom gains or loses electrons, it becomes an ion — a charged atom."
+    }
+  ],
+  "belongsTo": "Atoms And Elements > Inside The Atom > Subatomic particles",
+  "compareCandidate": {
+    "label": "Electron vs. proton",
+    "description": "Electrons are negative and orbit far outside the nucleus; protons are positive and packed inside it. Tiny electrons weigh almost nothing but carry chemistry; heavy protons define the element."
+  },
+  "parts": [
+    "Negative electric charge",
+    "Orbits the nucleus in shells",
+    "The particle of chemistry"
+  ],
+  "processes": [
+    "Circling the nucleus in shell layers",
+    "Being shared, lost, or gained in reactions",
+    "Driving every chemical bond"
+  ],
+  "plainLanguageExplanation": "An electron is the smallest and lightest of the atom's particles — and it is the one that does all the chemistry. An electron carries a negative charge and orbits the nucleus far outside it, not in a wild tangle but in organized layers called shells. The nucleus is tiny and heavy, but it is surrounded by a much larger cloud of these nearly weightless electrons, pulled inward by the attraction between their negative charge and the protons' positive charge. Here is the important part: electrons are the particle that matters for chemistry. When atoms react, they rearrange electrons. They share them, give them away, or grab new ones. The electrons in the outermost shell are called valence electrons, and they decide how an atom bonds. An electron is about 1,836 times lighter than a proton — it weighs almost nothing — yet it is the particle responsible for fire, water, life, batteries, and every chemical reaction that has ever happened.",
+  "keyFacts": [
+    {
+      "label": "Charge",
+      "value": "Negative (-1) — opposite of the proton"
+    },
+    {
+      "label": "Location",
+      "value": "Orbits the nucleus in shells, far outside it"
+    },
+    {
+      "label": "Weight",
+      "value": "Tiny — about 1,836 times lighter than a proton"
+    },
+    {
+      "label": "The key job",
+      "value": "The particle shared, lost, or gained in every reaction"
+    },
+    {
+      "label": "Valence electrons",
+      "value": "The outermost-shell electrons that decide bonding"
+    },
+    {
+      "label": "Attraction",
+      "value": "Pulled toward the nucleus by the positive protons"
+    }
+  ],
+  "whyItMatters": "Electrons are the particles that do chemistry. Everything you have ever watched react, burn, dissolve, or sparkle did so because electrons were being rearranged. Understanding electrons unlocks chemical bonding, reactions, electricity, and how the entire physical world transforms matter.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Electron",
+  "tagline": "The particle that does chemistry",
+  "didYouKnow": "If a proton were the size of a marble, the electron orbiting it would be about a kilometer away — an atom is mostly empty space.",
+  "conditions": [
+    "Every chemical reaction",
+    "Electricity and batteries",
+    "Chemical bonding"
+  ],
+  "compareCandidateId": "proton",
+  "compareReason": "The negative electron and positive proton are the atom's two charged halves — comparing them makes the attraction that holds every atom together crystal clear."
+}

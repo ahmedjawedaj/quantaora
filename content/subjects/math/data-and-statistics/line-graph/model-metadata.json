@@ -1,0 +1,90 @@
+{
+  "id": "line-graph",
+  "componentId": "line-graph",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/data-and-statistics/line-graph/line-graph.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/data-and-statistics/line-graph.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.7,
+      3.6
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Chart plate",
+    "Grid",
+    "Dots",
+    "Connecting line"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-line-trend",
+      "label": "Connecting line",
+      "conceptId": "line-graph-definition",
+      "position": [
+        0.3,
+        0.7,
+        0.15
+      ],
+      "description": "The segments linking the dots into a trend path.",
+      "positionHint": "The path tracing through the dots.",
+      "color": "#D9A441",
+      "function": "Shows the trend between measured points."
+    },
+    {
+      "id": "hs-dot",
+      "label": "Data point dot",
+      "conceptId": "line-graph-read",
+      "position": [
+        -0.6,
+        0.5,
+        0.2
+      ],
+      "description": "One measured value at a moment in time.",
+      "positionHint": "The round dot on the line.",
+      "color": "#7FA86A",
+      "function": "One data point."
+    },
+    {
+      "id": "hs-time-axis",
+      "label": "Time axis",
+      "conceptId": "line-graph-connect",
+      "position": [
+        -0.8,
+        0.05,
+        0.1
+      ],
+      "description": "The horizontal axis carrying time from left to right.",
+      "positionHint": "The tick-labeled horizontal axis.",
+      "color": "#6B85A8",
+      "function": "Orders the points in time."
+    }
+  ],
+  "visualStyleNotes": "Data And Statistics, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A standing chart plate with a dot-to-dot line path, a time axis and value axis, and a topic icon. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Chart plate: warm paper panel (roughness ~0.5). Grid: faint warm-ink lines on the plate surface. Dots: small warm-ink spheres at each point. Connecting line: thin warm amber strip between dots. Pointer: small warm-grey marker gliding along the line. Thermometer icon: small warm paper tag. Mat: soft warm-grey (roughness ~0.85). No emissive channels \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: line graphs as trends over time \u2014 a chart plate with a 7-point temperature series; 'build' reveals dots one by one as segments connect; dots are draggable; 'trace' glides a pointer along the line.\n\nGEOMETRY: A standing chart plate with a faint grid. Seven dots sit left to right (7a.m.-7a.m.), connected by line segments into a path that rises and dips. 'Build' animates dots and segments appearing in order. Dragging a dot re-adjusts its two neighboring segments. 'Trace' moves a small pointer along the line; a readout says whether the pointer is rising or falling. A small thermometer tag at top labels the series 'hourly temperature'.\n\nLAYERS (toggleable): (1) chart plate; (2) grid; (3) dots; (4) connecting line + pointer.\n\nCAMERA: three-quarter from front-left, slightly above, frames the full chart; labels legible. Budget 6-10k triangles. Named nodes: ChartPlate, Grid, Dots, Segments, Pointer, TimeAxis, ValueAxis, ThermometerTag. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "line-graph-poly"
+  }
+}

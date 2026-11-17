@@ -1,0 +1,80 @@
+{
+  "componentId": "gravity",
+  "questions": [
+    {
+      "id": "gravity-q-definition",
+      "conceptId": "gravity-force-between-masses",
+      "hotspotId": "hs-planet",
+      "prompt": "What is gravity?",
+      "options": [
+        "A force that pulls masses toward each other",
+        "A force that only pushes things apart",
+        "A magnetic effect at the edges of planets",
+        "The reason air is warm near the ground"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gravity is an attractive force between masses — the bigger the masses, the stronger the pull between them.",
+      "misconception": "Some picture gravity as a planet's 'air pressure' or as a pushy force; it's a pull between any two masses."
+    },
+    {
+      "id": "gravity-q-fall",
+      "conceptId": "gravity-fall-same-acceleration",
+      "hotspotId": "hs-falling-balls",
+      "prompt": "In a vacuum (no air), a bowling ball and a feather are dropped together. Which hits the ground first?",
+      "options": [
+        "They hit at the same time",
+        "The bowling ball first",
+        "The feather first",
+        "The bowling ball, twice as fast"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without air resistance, gravity accelerates all objects identically — the bowling ball's extra mass cancels its bigger pull.",
+      "misconception": "Real-life staggering (feather floats) comes from air resistance; remove the air and mass stops mattering."
+    },
+    {
+      "id": "gravity-q-field",
+      "conceptId": "gravity-gravitational-field",
+      "hotspotId": "hs-gravity-accel",
+      "prompt": "What is Earth's gravitational field strength, commonly rounded for school calculations?",
+      "options": [
+        "About 9.8 m/s²",
+        "About 1 m/s²",
+        "About 98 m/s²",
+        "About 0 m/s²"
+      ],
+      "correctIndex": 0,
+      "explanation": "Earth's gravitational field strength is about 9.8 m/s², often rounded to 10 m/s² for mental math.",
+      "misconception": "Picking 98 m/s² treats the field as a force; the field is an acceleration (9.8 m/s²). The newton appears only when you multiply it by a mass to get weight."
+    },
+    {
+      "id": "gravity-q-orbit",
+      "conceptId": "gravity-force-between-masses",
+      "hotspotId": "hs-satellite-orbit",
+      "prompt": "What keeps a satellite from flying straight off into space?",
+      "options": [
+        "Gravity keeps pulling it inward toward the planet",
+        "It has no weight in orbit",
+        "A force from the rocket engine stays on",
+        "The vacuum has nothing to push against"
+      ],
+      "correctIndex": 0,
+      "explanation": "The satellite wants to go straight, but gravity continuously bends its path inward into an orbit — it keeps 'falling around' the planet.",
+      "misconception": "Floating in orbit is sometimes mistaken for 'no gravity'; gravity is almost full-strength there, the satellite just keeps missing the ground."
+    },
+    {
+      "id": "gravity-q-weight",
+      "conceptId": "gravity-weight-origin",
+      "hotspotId": "hs-planet",
+      "prompt": "Which statement connects gravity and weight correctly?",
+      "options": [
+        "Weight is the gravitational force on a mass (W = mg)",
+        "Weight is the amount of matter gravity squeezes out of an object",
+        "Gravity only matters at the surface of stars",
+        "Weight is measured in kilograms only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weight is gravity's pull on a mass, quantified as W = mg. No gravity (deep space) means no weight.",
+      "misconception": "Weight is force (N) from gravity — it is not a mass measurement, and deep space gravity isn't zero instantly."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "componentId": "efficiency",
+  "standards": [
+    {
+      "standardId": "4-PS3-4",
+      "standard": "Designing Energy-Converting Devices",
+      "description": "Apply scientific ideas to design, test, and refine a device that converts energy from one form to another.",
+      "level": "support",
+      "traceDetail": "Friction knob demonstrates how refining a converter raises the useful share."
+    },
+    {
+      "standardId": "HS-PS3-3",
+      "standard": "Energy and Matter",
+      "description": "Design, build, and refine a device that works within given constraints to convert energy from one form to another; efficiency frames the useful share.",
+      "level": "primary",
+      "traceDetail": "Input/output bar split and the always-below-100 identity teach the conversion report card."
+    },
+    {
+      "standardId": "MS-PS3-5",
+      "standard": "Conservation of Energy in Systems",
+      "description": "Account for energy transfers; wasted heat is still energy conserved, now low-grade.",
+      "level": "support",
+      "traceDetail": "The waste bar ties efficiency back to conservation — nothing vanished, shares changed."
+    }
+  ]
+}

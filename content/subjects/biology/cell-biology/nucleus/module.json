@@ -1,0 +1,104 @@
+{
+  "id": "nucleus",
+  "subject": "biology",
+  "title": "Nucleus",
+  "summary": "The nucleus is the command center of a eukaryotic cell — a membrane-bound sphere that holds most of the cell's DNA and coordinates activity like growth, division, and protein building. Explore the double nuclear membrane, the pores that control what enters and leaves, and the dense nucleolus, then see how the nucleus directs everything a cell does.",
+  "gradeMin": 6,
+  "gradeMax": 8,
+  "skillIds": [
+    "nuclear-envelope",
+    "nucleoplasm",
+    "nucleolus",
+    "nuclear-pores-controlled-transport",
+    "dna-storage-control-center"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Cell Biology",
+    "unit": "Cell Structures",
+    "systemOrGroup": "Cell structures (organelles)",
+    "component": "Nucleus",
+    "displayPath": "Biology > Cell Biology > Cell Structures > Cell structures (organelles) > Nucleus"
+  },
+  "crossReferences": [
+    {
+      "label": "DNA (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "DNA",
+      "note": "The nucleus is the organelle whose main job is to safely store and manage the cell's DNA and direct how its instructions are used."
+    },
+    {
+      "label": "Ribosome (Cell Biology)",
+      "branch": "cell-biology",
+      "lowLevelItem": "Ribosome",
+      "note": "Instructions copied from DNA inside the nucleus are read by ribosomes, which build proteins to match them."
+    },
+    {
+      "label": "Animal Cell (Cell Biology)",
+      "branch": "cell-biology",
+      "grouping": "Animal cell",
+      "note": "Eukaryotic cells like the animal cell always contain a nucleus; prokaryotic cells like bacteria do not."
+    }
+  ],
+  "belongsTo": "Cell Biology > Cell Structures > Cell structures (organelles)",
+  "compareCandidate": {
+    "label": "Nucleus in prokaryotes vs. eukaryotes",
+    "description": "Eukaryotic cells (animals, plants, fungi, protists) have a true membrane-bound nucleus holding their DNA. Prokaryotic cells like bacteria have no nucleus — their DNA floats freely in the cytoplasm in a region called the nucleoid."
+  },
+  "parts": [
+    "Nuclear envelope (membrane)",
+    "Nuclear pores",
+    "Nucleolus",
+    "Nucleoplasm"
+  ],
+  "processes": [
+    "Transport across the nuclear envelope through pores",
+    "Reading DNA as the control center for cell activity",
+    "Ribosome assembly at the nucleolus"
+  ],
+  "plainLanguageExplanation": "The nucleus is like the brain of the cell — a rounded sac near the middle that acts as the control center. It is wrapped in a double layer called the nuclear envelope, and that envelope is not completely sealed: it is full of tiny holes called nuclear pores that work like doors, letting messages and materials in and out. Inside sits the nucleoplasm, and floating within it is the denser, darker nucleolus, plus most of the cell's DNA. The DNA holds all the instructions the cell needs, so the nucleus's job is to protect that instruction book and to decide which instructions get used. It decides it by 'reading' the DNA and sending copies of the needed instructions out through the pores to other parts of the cell, where they get turned into proteins. Because it controls every instruction, the nucleus coordinates division, growth, and nearly every activity the cell performs.",
+  "keyFacts": [
+    {
+      "label": "Where it sits",
+      "value": "A large, usually central organelle found in all eukaryotic cells"
+    },
+    {
+      "label": "Main job",
+      "value": "Control center — stores and protects the cell's DNA and directs cell activity"
+    },
+    {
+      "label": "Envelope",
+      "value": "A double membrane that wraps the nucleus and separates it from the cytoplasm"
+    },
+    {
+      "label": "Pores",
+      "value": "Nuclear pores are openings in the envelope that control what enters and leaves, like a entrance gate"
+    },
+    {
+      "label": "Nucleolus",
+      "value": "A dense structure inside the nucleus where the cell builds the machine parts used by ribosomes"
+    },
+    {
+      "label": "Found in",
+      "value": "Eukaryotic cells only — bacteria and other prokaryotes keep their DNA loose in the nucleoid instead"
+    }
+  ],
+  "whyItMatters": "Almost every cell in your body has a nucleus running the show, so understanding it is the key to understanding how a single microscopic drop of protoplasm can carry the full plans for an entire organism. It's also the doorstep for genetics: the instructions in the DNA inside the nucleus are what make you you, and processes like DNA replication and transcription all begin here. When you learn about the nucleus, you unlock the whole story of how cells work, divide, and follow their instructions.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "The cell nucleus",
+  "tagline": "The command center of the cell",
+  "didYouKnow": "A single human cell's nucleus holds about two meters of DNA packed tightly inside, yet that strand is thin enough to be invisible to the eye.",
+  "conditions": [
+    "Cell division",
+    "Transcription",
+    "DNA replication"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "componentId": "multiplication",
+  "questions": [
+    {
+      "id": "multiplication-3x4",
+      "conceptId": "multiplication-equal-groups",
+      "hotspotId": "hs-product",
+      "prompt": "What is 3 × 4?",
+      "options": [
+        "12",
+        "7",
+        "9",
+        "16"
+      ],
+      "correctIndex": 0,
+      "explanation": "3 × 4 means three groups of four: 4 + 4 + 4 = 12.",
+      "misconception": "Adding the factors (3 + 4 = 7) instead of grouping them (3 groups of 4) is the classic mix-up — multiplication needs equal groups, not a sum."
+    },
+    {
+      "id": "multiplication-array",
+      "conceptId": "multiplication-array",
+      "hotspotId": "hs-array",
+      "prompt": "An array has 2 rows and 6 dots in each row. How many dots total?",
+      "options": [
+        "12",
+        "8",
+        "6",
+        "14"
+      ],
+      "correctIndex": 0,
+      "explanation": "2 rows of 6 = 2 × 6 = 12 dots.",
+      "misconception": "Counting only one row (6) or adding rows plus columns (2 + 6 = 8) forgets that every row's dots must be counted — 2 × 6 = 12."
+    },
+    {
+      "id": "multiplication-commutative",
+      "conceptId": "multiplication-commutative",
+      "hotspotId": "hs-array",
+      "prompt": "Which statement about 3 × 7 and 7 × 3 is true?",
+      "options": [
+        "They both equal 21",
+        "3 × 7 is larger",
+        "7 × 3 is larger",
+        "Neither can be computed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiplication is commutative — flipping the array (3 rows of 7 = 7 rows of 3) keeps the product at 21.",
+      "misconception": "The order of factors does not change a product; only the visual arrangement of the array changes."
+    },
+    {
+      "id": "multiplication-repeated-add",
+      "conceptId": "multiplication-repeated-addition",
+      "hotspotId": "hs-array",
+      "prompt": "Which shows 4 × 3 as repeated addition?",
+      "options": [
+        "3 + 3 + 3 + 3",
+        "4 + 4 + 4 + 4 + 3",
+        "4 + 3",
+        "3 × 4 is not addition at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "4 × 3 reads 'four groups of three', which is 3 + 3 + 3 + 3 = 12.",
+      "misconception": "Reading the groups backwards (4 + 4 + 4) still equals 12 by commutativity, but the reading 'four groups of three' is 3 + 3 + 3 + 3."
+    },
+    {
+      "id": "multiplication-inverse",
+      "conceptId": "multiplication-repeated-addition",
+      "hotspotId": "hs-product",
+      "prompt": "If 6 × 5 = 30, which division fact pairs with it?",
+      "options": [
+        "30 ÷ 5 = 6",
+        "30 + 5 = 35",
+        "5 × 30 = 150",
+        "30 − 5 = 25"
+      ],
+      "correctIndex": 0,
+      "explanation": "Division is the inverse of multiplication — splitting 30 into groups of 5 gives 6 groups.",
+      "misconception": "Multiplication's inverse is division, not subtraction; 30 ÷ 5 = 6 exactly undoes 6 × 5 = 30."
+    }
+  ]
+}

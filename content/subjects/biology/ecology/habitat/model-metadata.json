@@ -1,0 +1,118 @@
+{
+  "id": "habitat",
+  "componentId": "habitat",
+  "subject": "biology",
+  "modelType": "procedural-three",
+  "url": "/assets/models/biology/ecology/habitat/habitat.glb",
+  "thumbnailUrl": "/assets/thumbnails/biology/ecology/habitat.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.5,
+      3.2
+    ],
+    "target": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": true,
+  "layers": [
+    "Natural home",
+    "Food and water",
+    "Shelter",
+    "Raising young"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-home",
+      "label": "Natural home",
+      "conceptId": "natural-home",
+      "position": [
+        0.0,
+        0.2,
+        0.15
+      ],
+      "description": "The place where a species lives and thrives.",
+      "color": "#D98A6A",
+      "function": "The home base of a species.",
+      "positionHint": "The whole scene."
+    },
+    {
+      "id": "hs-food",
+      "label": "Food and water",
+      "conceptId": "food-water-shelter",
+      "position": [
+        0.35,
+        0.1,
+        0.1
+      ],
+      "description": "The resources a species needs to survive.",
+      "color": "#D9A441",
+      "function": "Needed for energy and life.",
+      "positionHint": "Food and water markers."
+    },
+    {
+      "id": "hs-shelter",
+      "label": "Shelter",
+      "conceptId": "food-water-shelter",
+      "position": [
+        -0.35,
+        0.05,
+        0.2
+      ],
+      "description": "Somewhere safe to hide and rest.",
+      "color": "#6B85A8",
+      "function": "Protects the species from danger.",
+      "positionHint": "A shelter shape."
+    },
+    {
+      "id": "hs-raise",
+      "label": "Raising young",
+      "conceptId": "food-water-shelter",
+      "position": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "description": "A safe place to raise offspring.",
+      "color": "#7FA874",
+      "function": "Lets the next generation grow.",
+      "positionHint": "A nest-like shape with young."
+    },
+    {
+      "id": "hs-change",
+      "label": "Change threat",
+      "conceptId": "habitat-change-loss",
+      "position": [
+        0.3,
+        -0.05,
+        0.25
+      ],
+      "description": "Habitat change can threaten the species.",
+      "color": "#B5846A",
+      "function": "Shows how habitat loss endangers life.",
+      "positionHint": "A warning mark."
+    }
+  ],
+  "visualStyleNotes": "Anatomy Atelier bar throughout: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no scene props. The scene reads as a calm stylized diorama - simplified, clean shapes with a restrained warm-paper and muted-green palette, not cartoon, not cluttered. COLOR IS RESTRAINED: each subject is a muted near-paper shade; strong saturated color is reserved entirely for the small flat hotspot dots.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0, matte roughness ~0.5-0.65. No emissive anywhere.",
+  "assetBrief": "SUBJECT: a stylized diorama of a single species' habitat - a bird in its woodland corner: a small tree, a food berry marker, a water drop, a nest with two chicks, and a small warning mark for habitat change. Warm off-white background, muted greens and paper tones, no glow. Named nodes: TreeHome, BerryFood, WaterDrop, NestChicks, ChangeWarning. Budget 8-12k.",
+  "visual": {
+    "shape": "habitat-layers"
+  }
+}

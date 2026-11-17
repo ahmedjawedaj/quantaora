@@ -1,0 +1,109 @@
+{
+  "id": "hormone-signaling",
+  "subject": "biology",
+  "title": "Hormone Signaling",
+  "summary": "Hormone signaling is the body's chemical messaging system: a gland releases a hormone into the bloodstream, the hormone travels to cells all over the body, but only cells with a matching receptor respond — and a feedback loop dials the release back down once the job is done. Follow the five-step chain from gland to feedback, and see how this slower, blood-borne chemical system complements the fast electrical signals sent by neurons.",
+  "gradeMin": 5,
+  "gradeMax": 9,
+  "skillIds": [
+    "gland-releases-hormone",
+    "hormone-travels-in-bloodstream",
+    "target-cell-receptor-binds-hormone",
+    "cell-response-triggered",
+    "feedback-regulation"
+  ],
+  "type": "model",
+  "estimatedMinutes": 12,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Physiology",
+    "unit": "Body Systems Processes",
+    "systemOrGroup": "Hormone Signaling (process)",
+    "component": "Hormone Signaling",
+    "displayPath": "Biology > Human Physiology > Body Systems Processes > Hormone Signaling (process) > Hormone Signaling"
+  },
+  "crossReferences": [
+    {
+      "label": "Endocrine System (Human Anatomy)",
+      "branch": "human-anatomy",
+      "systemOrGroup": "Endocrine system",
+      "note": "This component's generic gland and target cell stand in for the real glands — pituitary, thyroid, adrenal glands, pancreas — mapped as anatomical structures in the Human Anatomy branch's Endocrine System unit. This component teaches the general release-transport-receptor-response-feedback pathway they all share."
+    },
+    {
+      "label": "Nerve Signaling (Human Physiology)",
+      "branch": "human-physiology",
+      "component": "nerve-signaling",
+      "note": "Nerve signaling and hormone signaling are the body's two communication systems — this component's compare candidate. Nerve signaling is fast and electrical/local; hormone signaling is slower, chemical, and body-wide."
+    }
+  ],
+  "belongsTo": "Human Physiology > Body Systems Processes > Hormone Signaling (process)",
+  "compareCandidate": {
+    "label": "Hormone Signaling vs. Nerve Signaling",
+    "description": "Nerve signals are fast electrical impulses that travel along a fixed cell-to-cell wire and trigger quick, short-lived responses, like yanking a hand off a hot stove. Hormone signals are chemical messengers released into the bloodstream, so they take longer to arrive and reach the whole body rather than one wired path, but their effects — like growth or changes in metabolism — often last much longer. The two systems are complementary, not competing, ways the body coordinates itself."
+  },
+  "parts": [
+    "Gland releases hormone",
+    "Hormone travels in bloodstream",
+    "Target cell receptor binds hormone",
+    "Cell response triggered",
+    "Feedback regulation"
+  ],
+  "processes": [
+    "Hormone synthesis and release by an endocrine gland",
+    "Hormone transport through the bloodstream",
+    "Receptor binding (lock-and-key recognition) on a target cell",
+    "Signal transduction and altered cell activity",
+    "Negative feedback regulation of further hormone release"
+  ],
+  "plainLanguageExplanation": "Think of your body as a huge building with no phones — just a mail system. Hormone signaling is that mail system. A gland (like a tiny factory) writes a \"message\" — a hormone — and drops it into your bloodstream, which acts like a delivery truck that drives past every cell in your body. Most cells ignore the message completely. But some cells have a special mailbox called a receptor that's shaped to fit that exact hormone, like a lock built for one key. When the hormone finds a cell with a matching receptor, it \"unlocks\" the mailbox and the cell changes what it's doing — maybe pulling sugar out of the blood, maybe speeding up your heartbeat. Once the job is done, a feedback signal travels back to the gland saying \"message delivered, you can stop sending more\" — so the system settles back to normal instead of overdoing it.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A chemical communication system where glands release hormones into the bloodstream to control distant target cells."
+    },
+    {
+      "label": "Signal type",
+      "value": "Chemical (a hormone molecule), unlike the nervous system which uses electrical impulses."
+    },
+    {
+      "label": "Speed vs. duration",
+      "value": "Generally slower to start than nerve signals, but the effects usually last much longer."
+    },
+    {
+      "label": "How targeting works",
+      "value": "A hormone only affects cells that carry a matching receptor — the 'lock and key' model — so it can travel past most cells with no effect."
+    },
+    {
+      "label": "Self-regulation",
+      "value": "Most hormone pathways use negative feedback: once the response reaches a healthy level, a signal loops back to the gland to slow or stop further release."
+    },
+    {
+      "label": "Example glands",
+      "value": "The pancreas, thyroid, adrenal glands, and pituitary gland are all part of the endocrine system and release different hormones."
+    },
+    {
+      "label": "Example hormone",
+      "value": "Insulin, released by the pancreas, signals cells to take in glucose (sugar) from the blood, helping bring blood sugar back down after a meal."
+    }
+  ],
+  "whyItMatters": "Hormone signaling is running in your body right now, quietly keeping everything in balance — how much sugar is in your blood, how fast you grow, how you react when startled, even when you feel hungry or sleepy. When this messaging system misfires (like in diabetes, where insulin signaling breaks down), the whole balance can be thrown off, which is why understanding the gland-to-bloodstream-to-receptor pathway is a foundation for understanding many real health conditions.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Endocrine Signal Transduction",
+  "tagline": "The body's slow-mail system",
+  "didYouKnow": "A hormone can flow right past most of the cells in your body with zero effect — only cells carrying a matching receptor, shaped like a lock for that one key, actually respond to it.",
+  "conditions": [
+    "Type 1 diabetes",
+    "Type 2 diabetes",
+    "Hypothyroidism",
+    "Hyperthyroidism",
+    "Growth hormone deficiency"
+  ],
+  "compareCandidateId": "nerve-signaling",
+  "compareReason": "Nerve signals are fast electrical impulses that travel along a fixed cell-to-cell wire and trigger quick, short-lived responses, like yanking a hand off a hot stove. Hormone signals are chemical messengers released into the bloodstream, so they take longer to arrive and reach the whole body, but their effects often last much longer — the two systems are complementary, not competing."
+}

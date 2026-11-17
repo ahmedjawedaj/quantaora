@@ -1,0 +1,109 @@
+{
+  "id": "atomic-mass",
+  "subject": "chemistry",
+  "title": "Atomic Mass",
+  "summary": "Atomic mass is the average mass of an element's atoms, measured in atomic mass units (amu). Explore why it is usually a decimal, how protons and neutrons set it, and how it differs from the atomic number.",
+  "gradeMin": 7,
+  "gradeMax": 9,
+  "skillIds": [
+    "atomic-mass-protons-neutrons",
+    "atomic-mass-is-average",
+    "atomic-mass-units"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Periodic Table",
+    "unit": "Reading the Periodic Table",
+    "systemOrGroup": "The numbers on an element card",
+    "component": "Atomic Mass",
+    "displayPath": "Chemistry > Periodic Table > Reading the Periodic Table > The numbers on an element card > Atomic Mass"
+  },
+  "crossReferences": [
+    {
+      "label": "Isotope (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Isotope",
+      "note": "Atomic mass is a weighted average across all the element's isotopes — which is exactly why the numbers come out as decimals."
+    },
+    {
+      "label": "Atomic number (Periodic Table)",
+      "branch": "periodic-table",
+      "lowLevelItem": "Atomic number",
+      "note": "Atomic number counts protons (whole, clean); atomic mass averages mass including neutrons (decimal). Both appear on every element card."
+    },
+    {
+      "label": "Proton (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Proton",
+      "note": "Protons weigh about 1 amu each — they are roughly half the story behind an element's atomic mass."
+    },
+    {
+      "label": "Neutron (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Neutron",
+      "note": "Neutrons weigh about 1 amu each too — together with protons they make up nearly all of an atom's mass."
+    }
+  ],
+  "belongsTo": "Periodic Table > Reading the Periodic Table > The numbers on an element card",
+  "compareCandidate": {
+    "label": "Atomic mass vs. atomic number",
+    "description": "The atomic number is a whole number counting protons — it names the element. The atomic mass is a decimal average of all the element's atoms, including neutrons — it describes weight. One says what the element IS; the other says how much its atoms weigh on average."
+  },
+  "parts": [
+    "Weight of protons + neutrons",
+    "Weighted average of isotopes",
+    "Atomic mass units (amu)"
+  ],
+  "processes": [
+    "Averaging an element's isotopes into one table value",
+    "Measuring atoms in atomic mass units",
+    "Telling weight apart from identity"
+  ],
+  "plainLanguageExplanation": "The atomic mass is the number on an element card that tells you how much the element's atoms weigh, on average. It is measured in atomic mass units, or amu, where one amu is about the mass of a single proton or neutron. Since protons and neutrons each weigh about 1 amu, a carbon-12 atom (6 protons + 6 neutrons) has a mass of almost exactly 12 amu. But here is the twist: most elements on the periodic table have an atomic mass that is a decimal, not a whole number. Carbon's is 12.011. That is because an element's atoms are not all identical in mass — they come in different isotopes. The atomic mass printed on the table is a weighted average of all the element's isotopes, weighted by how common each one is. Carbon's average lands just above 12 because a tiny fraction of carbon atoms are the heavier carbon-13 and carbon-14. So remember the pair: the atomic number tells you what the element is, and the atomic mass tells you how much its atoms weigh on average.",
+  "keyFacts": [
+    {
+      "label": "What it measures",
+      "value": "The average mass of an element's atoms, in atomic mass units (amu)"
+    },
+    {
+      "label": "Unit",
+      "value": "Atomic mass unit (amu) — one amu is about the mass of one proton or neutron"
+    },
+    {
+      "label": "Protons + neutrons",
+      "value": "Nearly all of an atom's mass comes from its protons and neutrons (~1 amu each)"
+    },
+    {
+      "label": "Why decimal",
+      "value": "It is a weighted average across the element's isotopes, so it usually lands between whole numbers"
+    },
+    {
+      "label": "Carbon example",
+      "value": "Carbon's atomic mass is about 12.011 amu — close to 12 because carbon-12 dominates"
+    },
+    {
+      "label": "Not identity",
+      "value": "Atomic mass describes weight; atomic number names the element"
+    }
+  ],
+  "whyItMatters": "Atomic mass connects the microscopic world of atoms to the measurable world of balances and scales. It lets chemists weigh out exactly the right amounts of elements, it is how we compare atoms of different elements, and understanding it as an isotope average is essential for later ideas like the mole and stoichiometry.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Atomic mass (atomic weight)",
+  "tagline": "How much an element's atoms weigh",
+  "didYouKnow": "If you could stack up 602,200,000,000,000,000,000,000 carbon atoms, they would weigh exactly 12 grams — the same as about 48 paperclips.",
+  "conditions": [
+    "Mole concept",
+    "Stoichiometry",
+    "Weighing substances"
+  ],
+  "compareCandidateId": "atomic-number",
+  "compareReason": "Both numbers print on every element card, but atomic number is a clean proton count naming the element while atomic mass is a decimal isotope average describing weight — comparing them clears up the most common confusion on the periodic table."
+}

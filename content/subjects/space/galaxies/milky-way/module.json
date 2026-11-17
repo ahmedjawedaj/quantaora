@@ -1,0 +1,103 @@
+{
+  "id": "milky-way",
+  "subject": "space",
+  "title": "The Milky Way",
+  "summary": "Our home galaxy — a barred spiral of roughly 100–400 billion stars, a hundred thousand light-years across. Seen from inside it looks like a pale band across the sky; from above it would be a glowing whirlpool with a central bar and dusty spiral arms.",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "skillIds": [
+    "barred-spiral-structure",
+    "sun-position-galaxy",
+    "galactic-disk-and-halo",
+    "light-year-scale",
+    "why-band-in-sky"
+  ],
+  "type": "model",
+  "estimatedMinutes": 13,
+  "hierarchyPath": {
+    "subject": "Space",
+    "branch": "Galaxies",
+    "unit": "Our Galaxy",
+    "systemOrGroup": "Galactic architecture",
+    "component": "The Milky Way",
+    "displayPath": "Space > Galaxies > Our Galaxy > Galactic architecture > The Milky Way"
+  },
+  "crossReferences": [
+    {
+      "label": "Andromeda (Galaxies)",
+      "branch": "galaxies",
+      "component": "Andromeda",
+      "note": "Our closest large neighbor — a bigger, classic spiral galaxy, on a collision course with the Milky Way in about four billion years."
+    },
+    {
+      "label": "Galactic Center (Galaxies)",
+      "branch": "galaxies",
+      "component": "Galactic center",
+      "note": "The bright hub of the galaxy, hiding a supermassive black hole four million times the Sun's mass."
+    },
+    {
+      "label": "The Sun (Solar System)",
+      "branch": "solar-system",
+      "component": "The Sun",
+      "note": "The Sun is a fairly ordinary star near the inner edge of one of the Milky Way's spiral arms."
+    }
+  ],
+  "belongsTo": "Galaxies > Our Galaxy > Galactic architecture",
+  "compareCandidate": {
+    "label": "Milky Way vs. Andromeda",
+    "description": "Two big spirals of the Local Group: ours is the barred, dustier one; Andromeda is bigger, smoother, and closing in on us. Comparing them shows the same architecture at slightly different sizes and histories."
+  },
+  "parts": [
+    "Barred spiral disk (the whirlpool)",
+    "Central bulge (the bright hub)",
+    "Halo of globular clusters",
+    "Supermassive black hole at the heart",
+    "Dust lanes and spiral arms"
+  ],
+  "processes": [
+    "Galactic rotation (200 million years per orbit)",
+    "Spiral density waves",
+    "Star formation in the arms",
+    "The slow approach of Andromeda"
+  ],
+  "plainLanguageExplanation": "The Milky Way is the galaxy you live in. All the stars you can see on a clear night belong to it, but it is far bigger than the whole visible night sky: a disk about 100,000 light-years across, containing somewhere between 100 and 400 billion stars, plus gas, dust, and dark matter. From the outside it would look like a glowing whirlpool with a bright bar across its center and two main spiral arms winding out of it — that shape is why astronomers call it a barred spiral galaxy. Our Sun sits about 26,000 light-years from the center, roughly halfway out, near the inner edge of a minor arm called the Orion Arm. From inside, you see the disk as a band of faint light circling the sky — the 'milky' band that gave the galaxy its name, since its countless faint stars blur together. The whole galaxy rotates, but not like a solid wheel: the center takes about 25 million years to spin once, the Sun about 230 million years — one 'galactic year.' At the galaxy's heart lies a crowded hub and a supermassive black hole of about four million solar masses, around which everything slowly turns.",
+  "keyFacts": [
+    {
+      "label": "Size",
+      "value": "About 100,000 light-years across; 100–400 billion stars"
+    },
+    {
+      "label": "Shape",
+      "value": "Barred spiral: central bar, two main arms, thin dusty disk, halo of clusters"
+    },
+    {
+      "label": "Our address",
+      "value": "Sun ~26,000 light-years from the center, halfway out in the Orion Arm"
+    },
+    {
+      "label": "The 'milky band'",
+      "value": "The galaxy seen edge-on from inside — countless faint stars blurring into one band across the sky"
+    },
+    {
+      "label": "Rotation",
+      "value": "One 'galactic year' for the Sun: about 230 million years"
+    },
+    {
+      "label": "Heart",
+      "value": "Central bulge hosting a supermassive black hole ~4 million solar masses (Sgr A*)"
+    }
+  ],
+  "whyItMatters": "The Milky Way is the frame for every other fact in astronomy: knowing where the Sun sits in the galaxy tells you why the night sky looks the way it does, why the band of the Milky Way runs where it runs, and why stars seem to drift in one direction. It is also the reference point for comparing every other galaxy — astronomers classify spiral galaxies by how much like the Milky Way they are. And the galaxy is not a static picture: it rotates, it forges new stars, and its collision with Andromeda in about four billion years is a preview of what happens when galaxies meet. Understanding it turns the night sky from a scattering of lights into a map with an address.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Barred spiral galaxy (Hubble type SBbc), Local Group",
+  "tagline": "The galaxy you are already living in",
+  "didYouKnow": "The Milky Way is moving — the whole galaxy is flying through space at about 600 kilometers per second, and in roughly four billion years it will begin merging with Andromeda.",
+  "compareCandidateId": "andromeda",
+  "compareReason": "Two spirals, one neighborhood: ours with a bar and dusty arms, Andromeda bigger and smoother — the comparison makes galactic architecture concrete and introduces the collision to come."
+}

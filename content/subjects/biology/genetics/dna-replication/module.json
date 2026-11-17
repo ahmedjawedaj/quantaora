@@ -1,0 +1,83 @@
+{
+  "id": "dna-replication",
+  "subject": "biology",
+  "branch": "genetics",
+  "gradeMin": 7,
+  "gradeMax": 10,
+  "name": "DNA Replication",
+  "scientificName": "DNA Replication (S-phase synthesis)",
+  "title": "DNA Replication",
+  "summary": "DNA replication is how a cell makes a perfect backup copy of its entire instruction manual before it splits into two. Explore the unzipping of the double helix, the base-pairing rule (A-T, C-G), the enzymes helicase and DNA polymerase, and why each new double helix is half old, half new.",
+  "hierarchy": {
+    "subject": "Biology",
+    "branch": "Genetics",
+    "unit": "DNA & Genes",
+    "systemOrGroup": "DNA Replication & Repair",
+    "component": "DNA Replication",
+    "parentPath": "Biology > Genetics > DNA & Genes > DNA Replication"
+  },
+  "plainLanguageExplanation": "DNA replication is how a cell makes a perfect backup copy of its entire instruction manual before it splits into two. Think of your DNA as a zipper-shaped twisted ladder. To copy it, the cell unzips the ladder down the middle, splitting it into two single strands. Each half-ladder becomes a template — a pattern the cell reads to rebuild what's missing. Special builder molecules grab free-floating letters (A, T, C, G) and snap the correct matching partner onto each exposed rung (A always pairs with T, and C always pairs with G), rebuilding a brand-new second half for each strand. When it's done, there are two complete double-stranded ladders where there used to be one — and each new ladder is half old, half new. This happens every time a cell is about to divide, so both new cells get a full, accurate copy of the genetic instructions.",
+  "keyFacts": [
+    {
+      "label": "Where it happens",
+      "value": "Inside the nucleus, during the S phase (synthesis phase) of the cell cycle, before a cell divides"
+    },
+    {
+      "label": "Base-pairing rule",
+      "value": "Adenine (A) always pairs with Thymine (T); Cytosine (C) always pairs with Guanine (G)"
+    },
+    {
+      "label": "Result",
+      "value": "One original DNA molecule becomes two identical DNA molecules"
+    },
+    {
+      "label": "Semi-conservative copying",
+      "value": "Each new DNA molecule keeps one original strand and one brand-new strand — a mix, not a copy built entirely from scratch"
+    },
+    {
+      "label": "Key enzyme: DNA polymerase",
+      "value": "Reads each template strand and adds the matching new letters to build the new strand"
+    },
+    {
+      "label": "Key enzyme: helicase",
+      "value": "Unwinds and separates the two original strands so they can be read and copied"
+    },
+    {
+      "label": "Why accuracy matters",
+      "value": "Copying mistakes (mutations) can change how a cell works, so the process includes proofreading to catch errors"
+    }
+  ],
+  "whyItMatters": "Every time your body makes a new skin cell to heal a cut, a new blood cell, or grows a millimeter taller, a cell somewhere had to copy its entire DNA instruction set first — accurately enough that the new cell can do its job correctly. DNA replication is the reason cells can multiply without losing information, the reason children inherit accurate genetic instructions from egg and sperm cells, and the reason doctors can spot when copying goes wrong (mutations), which is at the root of many genetic conditions and cancers. It also underpins tools scientists use every day, like DNA fingerprinting and PCR testing (the same copying idea used in medical labs to multiply tiny DNA samples so they can be studied).",
+  "parts": [
+    "Helix unwinds",
+    "Strands separate",
+    "New complementary strands built",
+    "Two identical DNA copies formed"
+  ],
+  "processes": [
+    "Transcription",
+    "Translation",
+    "Mitosis (cell division)",
+    "Meiosis",
+    "Mutation and DNA repair"
+  ],
+  "belongsTo": [
+    "Cell cycle (S phase)",
+    "Mitosis",
+    "Meiosis"
+  ],
+  "belongsToNote": "DNA Replication is the S-phase step of the cell cycle: it must finish accurately before a cell can enter mitosis (or meiosis) and physically divide, because each resulting daughter cell needs its own complete, correct copy of the genome.",
+  "compareCandidate": {
+    "label": "DNA Replication vs. Transcription",
+    "description": "Both start by unzipping part of the DNA double helix and both build a new strand using base-pairing rules, which is exactly why students mix them up. The key difference: replication copies the entire DNA molecule using DNA polymerase so a cell can divide into two, producing double-stranded DNA; transcription copies just one gene using RNA polymerase to make a single-stranded RNA message that leaves the nucleus to help build a protein."
+  },
+  "lesson": {
+    "predictionPrompt": "Before you tap the 'Strands Separate' hotspot: the DNA ladder's two original strands are about to split apart in the model above. What do you predict happens to each lonely single strand next — does it just float there, get destroyed, or get used as a pattern to build something new? Tap the hotspot and read its structure card to check your prediction.",
+    "practiceItem": "Predict, out loud or in the answer box, the correct top-to-bottom order of these four stage labels before you look at the model again: 'New strands built', 'Two DNA copies formed', 'Helix unwinds', 'Strands separate'. Then orbit the model and tap each of the four hotspots from top to bottom to check yourself, reading every structure card as you go. Finish by answering the matching sequencing quiz question, which lists the four stages out of order and asks you to choose the correct top-to-bottom sequence.",
+    "checkpoint": "Checkpoint: Can you explain, in one or two sentences and without looking at the model, why the two new DNA molecules are each called 'half old, half new'? If yes, you've got semi-conservative replication — move on to Transcription to compare."
+  },
+  "quizRef": "quiz.json",
+  "modelMetadataRef": "model-metadata.json",
+  "glossaryRef": "glossary.json",
+  "standardsRef": "standards.json"
+}

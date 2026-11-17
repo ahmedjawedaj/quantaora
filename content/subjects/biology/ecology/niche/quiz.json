@@ -1,0 +1,65 @@
+{
+  "componentId": "niche",
+  "questions": [
+    {
+      "id": "nic-q-def",
+      "conceptId": "role-in-ecosystem",
+      "hotspotId": "hs-role",
+      "prompt": "What is a niche in ecology?",
+      "options": [
+        "A species' role or job in its ecosystem",
+        "A species' physical home",
+        "The color of a species",
+        "The size of a species"
+      ],
+      "correctIndex": 0,
+      "explanation": "A niche is the role a species plays - its lifestyle, what it eats, and how it uses the ecosystem.",
+      "misconception": "The physical home is the habitat; the niche is the role or job within it."
+    },
+    {
+      "id": "nic-q-address",
+      "conceptId": "habitat-address-vs-niche-role",
+      "hotspotId": "hs-role",
+      "prompt": "How are habitat and niche different?",
+      "options": [
+        "Habitat is where; niche is the role",
+        "They are the same thing",
+        "Niche is where; habitat is the role",
+        "Neither matters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Habitat = the address (where a species lives). Niche = the career (the role it plays there).",
+      "misconception": "People often mix them up - remember address vs. job, which side of the comparison is which."
+    },
+    {
+      "id": "nic-q-includes",
+      "conceptId": "niche-what-eats-lives",
+      "hotspotId": "hs-eats",
+      "prompt": "Which is part of a species' niche?",
+      "options": [
+        "What it eats and when it is active",
+        "The color of its fur",
+        "The height of its home",
+        "Its age"
+      ],
+      "correctIndex": 0,
+      "explanation": "A niche includes feeding habits, activity timing, and resource use - the species' lifestyle.",
+      "misconception": "Appearance is not a niche - niche is about behavior and role, not looks."
+    },
+    {
+      "id": "nic-q-same",
+      "conceptId": "no-identical-niches",
+      "hotspotId": "hs-unique",
+      "prompt": "Can two species hold exactly the same niche in the same place?",
+      "options": [
+        "No - they compete and usually one wins",
+        "Yes, always",
+        "Only at night",
+        "Only if they are the same size"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two species cannot hold the same niche in one place for long - they compete for the same resources.",
+      "misconception": "Nature usually avoids this - competition forces species into different roles."
+    }
+  ]
+}

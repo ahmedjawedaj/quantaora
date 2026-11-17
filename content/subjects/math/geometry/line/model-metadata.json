@@ -1,0 +1,90 @@
+{
+  "id": "line",
+  "componentId": "line",
+  "subject": "math",
+  "modelType": "procedural-three",
+  "url": "/assets/models/math/geometry/line/line.glb",
+  "thumbnailUrl": "/assets/thumbnails/math/geometry/line.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      1.8,
+      3.6
+    ],
+    "target": [
+      0,
+      0.2,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Board",
+    "Line path",
+    "Arrowheads",
+    "Points A and B"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-line-path",
+      "label": "Line AB",
+      "conceptId": "line-definition",
+      "position": [
+        0.1,
+        0.45,
+        0.1
+      ],
+      "description": "The straight path through points A and B \u2014 extending forever both ways.",
+      "positionHint": "The thin straight stroke across the board.",
+      "color": "#D9A441",
+      "function": "The infinite straight path."
+    },
+    {
+      "id": "hs-arrowhead",
+      "label": "Arrowhead",
+      "conceptId": "line-infinite",
+      "position": [
+        -1.05,
+        0.45,
+        0.1
+      ],
+      "description": "The mark showing the line continues forever in this direction.",
+      "positionHint": "The small arrow triangle at the line's drawn end.",
+      "color": "#7FA86A",
+      "function": "Shows the never-ending extension."
+    },
+    {
+      "id": "hs-point-on-line",
+      "label": "Point on the line",
+      "conceptId": "line-naming",
+      "position": [
+        0.55,
+        0.45,
+        0.2
+      ],
+      "description": "A point the line passes through \u2014 used to name the line.",
+      "positionHint": "The labeled dot B on the path.",
+      "color": "#6B85A8",
+      "function": "Helps name and locate the line."
+    }
+  ],
+  "visualStyleNotes": "Geometry, Math palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with soft radial vignette, no floor grid, no props. A flat board carrying a thin straight stroke with arrowheads at both ends and two labeled points. Soft neutral studio light, no rim-light glow, no bloom, no emissive. Strong saturated color reserved for the small flat hotspot dots (amber / molecular-green / grid-blue from the Math palette). Specimen-quality clean-3D, not cartoon, not cluttered.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere. Board: warm paper panel (roughness ~0.5). Line stroke: thin warm-ink strip (roughness ~0.4). Arrowheads: small warm-ink triangles. Points: small warm-ink spheres with paper label tags. Mat: soft warm-grey (roughness ~0.85). No emissive channels anywhere \u2014 highlights handled by app runtime UI.",
+  "assetBrief": "SUBJECT: lines as infinite straight paths \u2014 a thin stroke with arrowheads both ends passes through points A and B on a board; an 'extend' control pushes the drawn path longer both ways.\n\nGEOMETRY: A flat board with a straight thin stroke running across it. Small arrowhead triangles at both drawn ends. Two labeled dots A and B sit on the stroke and can be dragged along it. An 'extend' button animates the stroke growing longer at both ends simultaneously; a 'slide' mode moves the whole stroke vertically while keeping it straight.\n\nLAYERS (toggleable): (1) board; (2) line stroke; (3) arrowheads; (4) points A and B.\n\nCAMERA: three-quarter from above-front, frames the full board; labels legible. Budget 4-8k triangles. Named nodes: Board, LineStroke, Arrowhead_L, Arrowhead_R, Dot_A, Dot_B, ExtendButton. All labels are hotspot dots in the app layer.",
+  "visual": {
+    "shape": "line-arrows"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "multiplication",
+  "subject": "math",
+  "title": "Multiplication",
+  "summary": "Multiplication is repeated addition of equal groups — 3 × 4 means three groups of four, or 4 + 4 + 4 = 12. Explore multiplication as arrays, groups, and repeated jumps, plus why the order of factors does not change the product.",
+  "gradeMin": 3,
+  "gradeMax": 5,
+  "skillIds": [
+    "multiplication-equal-groups",
+    "multiplication-array",
+    "multiplication-commutative",
+    "multiplication-repeated-addition"
+  ],
+  "type": "manipulative",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Math",
+    "branch": "Number Sense And Arithmetic",
+    "unit": "Arithmetic Operations",
+    "systemOrGroup": "Multiplication",
+    "component": "Multiplication",
+    "displayPath": "Math > Number Sense And Arithmetic > Arithmetic Operations > Multiplication > Multiplication"
+  },
+  "crossReferences": [
+    {
+      "label": "Addition (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Addition",
+      "note": "Multiplication is a shortcut for adding the same number many times."
+    },
+    {
+      "label": "Division (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Division",
+      "note": "Division is the inverse of multiplication — 3 × 4 = 12 pairs with 12 ÷ 4 = 3."
+    },
+    {
+      "label": "Factors (Arithmetic)",
+      "branch": "number-and-arithmetic",
+      "lowLevelItem": "Factors",
+      "note": "The two numbers multiplied together are the factors of the product."
+    }
+  ],
+  "belongsTo": "Number Sense And Arithmetic > Arithmetic Operations > Multiplication",
+  "compareCandidate": {
+    "label": "Multiplication vs. addition",
+    "description": "Addition joins any groups; multiplication is repeated addition of equal groups only. 3 + 4 is not 3 × 4 — multiplication needs equal-size groups."
+  },
+  "parts": [
+    "Factors and product",
+    "Equal groups",
+    "The array grid"
+  ],
+  "processes": [
+    "Grouping equal sets",
+    "Reading arrays as rows × columns",
+    "Relating to repeated addition"
+  ],
+  "plainLanguageExplanation": "Multiplication is a fast way to add equal groups. 3 × 4 reads 'three groups of four': 4 + 4 + 4 = 12. The numbers being multiplied are factors, and the result is the product. An array shows this clearly — 3 rows with 4 dots each makes a 3-by-4 grid with 12 dots total. Multiplication is commutative: 3 × 4 and 4 × 3 both make 12, because you can flip the array sideways without changing the total. It is also the inverse of division, which splits a product back into equal groups.",
+  "keyFacts": [
+    { "label": "Meaning", "value": "Repeated addition of equal groups" },
+    { "label": "Parts", "value": "Factor × factor = product" },
+    { "label": "Example", "value": "3 × 4 = 12 (three groups of four)" },
+    { "label": "Array", "value": "3 rows of 4 dots = 12 dots" },
+    { "label": "Commutative", "value": "3 × 4 = 4 × 3, same product" },
+    { "label": "Inverse", "value": "Division undoes multiplication: 12 ÷ 4 = 3" }
+  ],
+  "whyItMatters": "Multiplication makes counting equal groups fast and is the foundation for division, factors, area, ratios, and algebra. From arrays of dots to pricing in a store, it is one of the most used operations in everyday math.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Multiplication",
+  "tagline": "Adding equal groups fast",
+  "didYouKnow": "The symbol '×' was introduced in 1631 — before that, mathematicians just wrote 'a, b' or used words, which made writing long products very clunky.",
+  "conditions": [
+    "Counting arrays",
+    "Area of rectangles",
+    "Prices for multiple items",
+    "Equal sharing"
+  ],
+  "compareCandidateId": "addition",
+  "compareReason": "Multiplication and addition overlap but are not the same — comparing equal-group vs. any-group joining is the classic mix-up to clarify."
+}

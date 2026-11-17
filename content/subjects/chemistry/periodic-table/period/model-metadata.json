@@ -1,0 +1,89 @@
+{
+  "id": "period",
+  "componentId": "period",
+  "subject": "chemistry",
+  "modelType": "procedural-three",
+  "url": "/assets/models/chemistry/periodic-table/period/period.glb",
+  "thumbnailUrl": "/assets/thumbnails/chemistry/periodic-table/period.png",
+  "defaultCamera": {
+    "position": [
+      0,
+      0.9,
+      2.8
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0,
+      0.9,
+      2.8
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "autoRotateDefault": true,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Table section with row",
+    "Shell count",
+    "Character sweep"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-period-row",
+      "label": "A period (row)",
+      "conceptId": "period-is-row",
+      "position": [
+        0,
+        0.35,
+        0.25
+      ],
+      "description": "This glowing horizontal row is one period. Its elements sit side by side and all share the same number of electron shells.",
+      "positionHint": "The highlighted horizontal row of tiles through the middle of the table section.",
+      "color": "#6B85A8",
+      "function": "Shows a horizontal row — one period of the periodic table."
+    },
+    {
+      "id": "hs-period-shells",
+      "label": "Shared shell count",
+      "conceptId": "period-same-shell-count",
+      "position": [
+        1.0,
+        0.55,
+        0.25
+      ],
+      "description": "Every element in the row shows the same number of shells — the period number. This is the trait the whole row shares.",
+      "positionHint": "The small shell icons floating beside each row tile, visible when the shell-count layer is on.",
+      "color": "#D9A441",
+      "function": "Shows the identical shell count shared across the row."
+    },
+    {
+      "id": "hs-period-sweep",
+      "label": "Metal → nonmetal sweep",
+      "conceptId": "period-metals-to-nonmetals",
+      "position": [
+        0,
+        -1.1,
+        0.25
+      ],
+      "description": "Across the row the tiles shift from warm metal tones on the left to cool nonmetal tones on the right — the row is a journey across element character.",
+      "positionHint": "The gradient of tile colors along the row, visible when the character-sweep layer is on.",
+      "color": "#D96B5A",
+      "function": "Shows the shift from metals to nonmetals across the period."
+    }
+  ],
+  "visualStyleNotes": "Chemistry palette, Anatomy Atelier bar: warm off-white/paper background (#F7F3EC) with a soft radial vignette, no floor grid, no props. A section of periodic table floats centered with one row highlighted, lit with soft neutral studio light — no rim-light glow, no bloom, no emissive anywhere. Clean stylized product-render look, specimen-quality not cartoon. Color on the mesh is restrained: table tiles are warm paper-white with faint graphite borders; the character-sweep layer tints the row tiles with a gentle warm-to-cool gradient at low saturation. Strong saturated color is reserved entirely for the small flat hotspot dots (slate / amber / coral / molecular green accents from the Chemistry palette). Slow auto-rotation, calm, minimal chrome.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0 everywhere, single 2K shared texture atlas. Table tiles: warm paper-white rounded squares, roughness ~0.55, subtle bevel. Shell icons: small translucent hairline rings with tiny teal electron dots. No emissive channels anywhere — any glow or highlight is handled by app runtime UI, not baked into the asset. Tile text is rendered by the app UI layer.",
+  "assetBrief": "SUBJECT: a slice of the periodic table with one row emphasized, built to be read as 'the same row = the same number of shells = a journey from metal to nonmetal.' Three procedural layers, all clean primitives:\n\n1) MAIN: a grid of thin rounded-square tiles (paper-white, faint graphite border), 4 rows x 8 columns. The 2nd row from the top has 8 tiles given a faint muted blue-grey cast and a slightly raised bevel — this is the highlighted period. No text on the mesh (symbols render as app UI).\n\n2) SHELL COUNT (toggleable layer): floating beside each tile of the highlighted row, a small shell icon (translucent hairline ring) — every icon shows the SAME number of tiny teal electron dots (e.g. 3) to make the shared trait visible.\n\n3) CHARACTER SWEEP (toggleable layer): the highlighted row's tiles get a gentle low-saturation gradient — warm desaturated coral at the left, passing through soft olive, ending cool desaturated blue at the right — suggesting metals to nonmetals.\n\nCamera: framed so the grid fills the view with the highlighted row centered; auto-rotate default. Budget 8-12k triangles. Named nodes: TableGrid, Tile_01-32, HighlightRow, ShellIcon_01-08, SweepTint. All labels are hotspot dots in the app layer; no text on the mesh.",
+  "visual": {
+    "shape": "period-row"
+  }
+}

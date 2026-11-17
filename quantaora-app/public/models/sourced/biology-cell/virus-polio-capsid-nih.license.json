@@ -1,0 +1,40 @@
+{
+  "asset": "virus-polio-capsid-nih.glb",
+  "componentMapping": "biology > microbiology > Virus (low-level item) - alternate/secondary virus candidate",
+  "sourceUrl": "https://3d.nih.gov/entries/3DPX-001519",
+  "sourceEntryId": "3DPX-001519",
+  "underlyingStructureData": "EMDB 5886 (poliovirus capsid)",
+  "creator": "James Tyrwhitt Drake",
+  "owner": "NIH 3D (3d.nih.gov)",
+  "license": "CC0 1.0 (Public Domain Dedication)",
+  "attributionRequired": false,
+  "attributionText": "Not legally required. Recommended credit: \"Polio Virus Capsid\", NIH 3D (3d.nih.gov, entry 3DPX-001519), by James Tyrwhitt Drake, derived from EMDB 5886. CC0 1.0.",
+  "redistributionStatus": "Unrestricted (CC0 public domain dedication).",
+  "dateSourced": "2026-08-18",
+  "downloadUrl": "https://3d.nih.gov/api/submissions/2118/runs/00096a8a-5cac-4c82-b7b2-59a267f8e0b7/output-files/42506",
+  "downloadedVariant": "Polio_remesh_clean2_NIH3D.glb (whole capsid, not the cutaway slice variants)",
+  "fileSizeBytes": 23839532,
+  "sha256": "5213b166f61dd6d938d71c0c111e60e226b0dc6e542b1b01a87317366c587d42",
+  "validation": {
+    "glbMagicHeaderOk": true,
+    "glbVersion": 2,
+    "sceneCount": 1,
+    "nodeCount": 2,
+    "meshCount": 1,
+    "materialCount": 0,
+    "textureCount": 0,
+    "animationCount": 0,
+    "accessorCount": 2,
+    "sampleBoundsMin": [
+      -179.14791870117188,
+      31.63005256652832,
+      -186.1675567626953
+    ],
+    "sampleBoundsMax": [
+      178.71286010742188,
+      403.7621154785156,
+      187.6307830810547
+    ],
+    "notes": "Exceeds the 15MB hero-asset guideline (23.8MB) - remesh_clean print-oriented mesh is high-poly for a solid watertight print. Recommend decimation/Draco compression before shipping, or prefer the Influenza deconstructible set as the primary Virus hero and keep this as a secondary/compare asset. Not render-inspected visually in this pass."
+  }
+}

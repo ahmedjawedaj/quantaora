@@ -1,0 +1,110 @@
+{
+  "id": "compound",
+  "subject": "chemistry",
+  "title": "Compound",
+  "summary": "A compound is a pure substance made of two or more different elements chemically bonded together — water, salt, sugar, and carbon dioxide. Explore how elements lose their old identity and become something new.",
+  "gradeMin": 6,
+  "gradeMax": 9,
+  "skillIds": [
+    "compound-different-elements",
+    "compound-new-identity",
+    "compound-everywhere"
+  ],
+  "type": "model",
+  "estimatedMinutes": 9,
+  "hierarchyPath": {
+    "subject": "Chemistry",
+    "branch": "Molecules And Bonding",
+    "unit": "What Bonds Build",
+    "systemOrGroup": "Bonded different elements",
+    "component": "Compound",
+    "displayPath": "Chemistry > Molecules And Bonding > What Bonds Build > Bonded different elements > Compound"
+  },
+  "crossReferences": [
+    {
+      "label": "Molecule (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Molecule",
+      "note": "Many compounds are molecules made of different elements — like H₂O. A molecule of one element (O₂) is not a compound."
+    },
+    {
+      "label": "Element (Atoms And Elements)",
+      "branch": "atoms-and-elements",
+      "lowLevelItem": "Element",
+      "note": "A compound is built from two or more different elements chemically combined."
+    },
+    {
+      "label": "Ionic bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Ionic bond",
+      "note": "Ionic compounds like salt are held together by ionic bonds."
+    },
+    {
+      "label": "Covalent bond (Molecules And Bonding)",
+      "branch": "molecules-and-bonding",
+      "lowLevelItem": "Covalent bond",
+      "note": "Molecular compounds like water are held together by covalent bonds."
+    }
+  ],
+  "belongsTo": "Molecules And Bonding > What Bonds Build > Bonded different elements",
+  "compareCandidate": {
+    "label": "Compound vs. molecule",
+    "description": "A compound is a substance of different elements chemically bonded — its atoms are always different kinds. A molecule is any two or more bonded atoms, same element or different. O₂ is a molecule but not a compound; H₂O is both."
+  },
+  "parts": [
+    "Two or more different elements",
+    "Chemical bonds",
+    "A brand-new substance"
+  ],
+  "processes": [
+    "Combining different elements in fixed ratios",
+    "Taking on a new identity with new properties",
+    "Forming the substances all around us"
+  ],
+  "plainLanguageExplanation": "A compound is a substance made when two or more DIFFERENT elements combine by chemical bonding. The key idea: the elements give up their old identities. Take the compound sodium chloride, table salt. It is made of sodium — a soft metal so reactive it fizzes violently in water — and chlorine — a poisonous gas. But bonded together, these two dangerous elements become the safe, tasty crystals you sprinkle on food. The compound has a new identity with new properties. The same is true of water: hydrogen is a flammable gas and oxygen feeds fires, but bonded as H₂O they make the substance that puts fires out. Compounds always have a fixed ratio — water is always exactly two hydrogens to one oxygen. Because the elements are chemically bonded (not just mixed), you cannot separate them by filtering or picking them apart — separating a compound takes a chemical reaction. Compounds are all around us: water, salt, sugar, carbon dioxide, medicines, and the DNA in your cells.",
+  "keyFacts": [
+    {
+      "label": "What it is",
+      "value": "A pure substance of two or more different elements chemically bonded"
+    },
+    {
+      "label": "New identity",
+      "value": "Elements lose their old properties — sodium + chlorine becomes safe salt"
+    },
+    {
+      "label": "Fixed ratio",
+      "value": "Always combined in exact proportions — water is always 2H + 1O"
+    },
+    {
+      "label": "vs. mixture",
+      "value": "Bonded, not just mixed — separation needs a chemical reaction"
+    },
+    {
+      "label": "Examples",
+      "value": "H₂O (water), NaCl (salt), CO₂ (carbon dioxide), sugar"
+    },
+    {
+      "label": "Bonds",
+      "value": "Held by covalent or ionic bonds"
+    }
+  ],
+  "whyItMatters": "Compounds are almost everything you can name — water, salt, sugar, air's carbon dioxide, medicines, and the molecules of your own body. Understanding compounds explains why matter around you behaves so differently from the raw elements, and it is the door to every chemical reaction and formula in chemistry.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Compound",
+  "tagline": "Elements with a new identity",
+  "didYouKnow": "Hydrogen and oxygen are both gases, but bonded together they make liquid water — a compound with properties neither element has.",
+  "conditions": [
+    "Water you drink",
+    "Salt on your food",
+    "Air's carbon dioxide",
+    "Medicines and DNA"
+  ],
+  "compareCandidateId": "molecule",
+  "compareReason": "The molecule-versus-compound split trips up every student — comparing O₂ with H₂O shows precisely where the two ideas diverge."
+}

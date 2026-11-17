@@ -1,0 +1,80 @@
+{
+  "componentId": "charge",
+  "questions": [
+    {
+      "id": "ch-q-kinds",
+      "conceptId": "charge-two-kinds",
+      "hotspotId": "hs-ball-p",
+      "prompt": "What are the two kinds of electric charge?",
+      "options": [
+        "Positive and negative",
+        "Left and right",
+        "Heavy and light",
+        "Fast and slow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Charge is positive (protons) or negative (electrons); those are the only two kinds.",
+      "misconception": "Everyday pairings like left/right or heavy/light are not charges at all."
+    },
+    {
+      "id": "ch-q-attract",
+      "conceptId": "charge-same-repel-opposite-attract",
+      "hotspotId": "hs-arrows",
+      "prompt": "A positive ball and a negative ball are placed near each other. What happens?",
+      "options": [
+        "They attract",
+        "They repel",
+        "Nothing happens",
+        "They swap charges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opposite signs attract — this is the golden rule of charge.",
+      "misconception": "Many flip the rule; like signs repel, opposite signs attract."
+    },
+    {
+      "id": "ch-q-repel",
+      "conceptId": "charge-same-repel-opposite-attract",
+      "hotspotId": "hs-ball-n",
+      "prompt": "Two balloons both rub on wool and both become negative. When brought close, they...",
+      "options": [
+        "Repel each other",
+        "Attract each other",
+        "Stick smoothly",
+        "Exchange the wool"
+      ],
+      "correctIndex": 0,
+      "explanation": "Like signs repel — two negative balloons push each other apart.",
+      "misconception": "The 'opposites only attract' memory is incomplete; like charges repel is its twin."
+    },
+    {
+      "id": "ch-q-move",
+      "conceptId": "charge-electron-movement",
+      "hotspotId": "hs-ball-n",
+      "prompt": "When you rub a balloon on your hair, what actually moves from the hair to the balloon?",
+      "options": [
+        "Electrons",
+        "Protons",
+        "Neutrons",
+        "The whole balloon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electrons are the light negative particles that rub off and onto objects; protons stay put.",
+      "misconception": "Imagining protons or whole hair bundles moving; only electrons travel in rubbing."
+    },
+    {
+      "id": "ch-q-flow",
+      "conceptId": "charge-static-imbalance",
+      "hotspotId": "hs-discharge",
+      "prompt": "When the spark leaps across the bench and the arrows drop to zero, what has happened?",
+      "options": [
+        "Charge found a path and balanced",
+        "The charge was destroyed",
+        "The battery ran out",
+        "The balls stopped existing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Charge is conserved — it flows along the spark path until the imbalance cancels, leaving zero force.",
+      "misconception": "The 'charge vanishes' belief; it only redistributes along a path."
+    }
+  ]
+}

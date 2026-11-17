@@ -1,0 +1,41 @@
+{
+  "componentId": "numerator",
+  "terms": [
+    {
+      "term": "Numerator",
+      "conceptId": "numerator-top-of-fraction",
+      "hotspotId": "hs-numerator-label",
+      "definition": "The top number in a fraction, counting the equal parts you have.",
+      "function": "In 3/4 the numerator 3 counts the three parts you have.",
+      "whereItIs": "The lit number above the fraction bar.",
+      "whyItMatters": "It is the 'how much' part of a fraction."
+    },
+    {
+      "term": "Denominator",
+      "conceptId": "numerator-top-of-fraction",
+      "hotspotId": "hs-denominator-label",
+      "definition": "The bottom number in a fraction, naming the equal parts of the whole.",
+      "function": "In 3/4 the denominator 4 says the parts are fourths.",
+      "whereItIs": "The number below the fraction bar, fixed at 4 here.",
+      "whyItMatters": "It gives meaning to the numerator by naming the part size."
+    },
+    {
+      "term": "Equal parts",
+      "conceptId": "numerator-counts-parts",
+      "hotspotId": "hs-filled-segments",
+      "definition": "Segments of a whole that are all the same size.",
+      "function": "The numerator counts them — each lit segment is one part.",
+      "whereItIs": "The equal segments of the fraction bar.",
+      "whyItMatters": "Equal parts keep the fraction's meaning consistent."
+    },
+    {
+      "term": "Fraction",
+      "conceptId": "numerator-counts-parts",
+      "hotspotId": "hs-filled-segments",
+      "definition": "A number made of a numerator over a denominator describing part of a whole.",
+      "function": "Numerator (parts you have) over denominator (parts in the whole).",
+      "whereItIs": "The full n/4 display on the plate.",
+      "whyItMatters": "The fraction is the complete story; the numerator is its top half."
+    }
+  ]
+}

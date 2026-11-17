@@ -1,0 +1,38 @@
+{
+  "asset": "sodium-chloride-lattice.glb",
+  "component": "molecules-and-bonding / starterMolecules / Sodium chloride (NaCl) — rendered as its real rock-salt ionic lattice rather than a discrete molecule, since NaCl has no discrete molecular form.",
+  "pipeline": "textbook-geometry",
+  "sourceUrl": null,
+  "sourceDescription": "NaCl is an ionic solid (no discrete 'molecule'), so it has no RCSB PDB Chemical Component Dictionary ligand entry as a compound — only its constituent ions (NA, CL) exist individually in the CCD. Geometry instead uses the standard rock-salt crystal structure: cubic lattice constant a = 5.64 Angstrom (well-established public-domain crystallographic constant), Na+ and Cl- alternating on a simple-cubic grid of spacing a/2 by (i+j+k) parity, which reproduces the correct two-interpenetrating-FCC rock-salt structure. A 3x3x3 grid (one conventional unit cell plus neighbors) is rendered with thin rods along nearest-neighbor axes to make the lattice legible.",
+  "creatorOwner": "Quantaora (project-authored GLB, public/models/sourced/chemistry-structure/build-molecules.mjs, using three.js + GLTFExporter — same technique already used for public/models/chemistry/atoms-and-elements/atom.glb).",
+  "creator": "Quantaora (project-authored GLB, public/models/sourced/chemistry-structure/build-molecules.mjs, using three.js + GLTFExporter — same technique already used for public/models/chemistry/atoms-and-elements/atom.glb).",
+  "license": "Project-owned authored asset (built from public-domain crystallographic constants)",
+  "attributionRequired": false,
+  "attributionText": "Not required — project-owned asset.",
+  "redistributionStatus": "Redistributable — project-owned, no restriction.",
+  "dateSourced": "2026-08-18",
+  "fileSizeBytes": 1206556,
+  "sha256": "bd84c141c6df131777508829d00573c27936b222ee73f04506729d148a9890b0",
+  "validation": {
+    "magicOk": true,
+    "glbVersion": 2,
+    "lengthMatchesFile": true,
+    "sceneCount": 1,
+    "nodeCount": 81,
+    "meshCount": 81,
+    "materialCount": 28,
+    "textureCount": 0,
+    "imageCount": 0,
+    "animationCount": 0,
+    "accessorCount": 324,
+    "generator": "THREE.GLTFExporter r185",
+    "gltfVersion": "2.0"
+  },
+  "approxWorldBoundingBoxUnits": [
+    4.022,
+    4.022,
+    4.022
+  ],
+  "boundingBoxNote": "Computed via THREE.Box3.setFromObject on the authored scene graph (world-space, post-transform) at build time, not from raw accessor min/max (which reflect local unit-geometry space for TRS-transformed nodes). Also usable as the periodic-table branch's ionic-crystal-lattice example.",
+  "doubleUse": "Also serves periodic-table branch's crystal-lattice / periodic-material need (ionic bonding, metal + nonmetal category contrast) — not a duplicate use of a flagship asset, it is the correct scientific representation for both the molecules-and-bonding starterMolecule 'Sodium chloride' and a periodic-table ionic-lattice example."
+}

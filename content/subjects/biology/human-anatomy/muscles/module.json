@@ -1,0 +1,106 @@
+{
+  "id": "muscles",
+  "subject": "biology",
+  "title": "Muscles",
+  "summary": "Muscles are the body's movers - tissues that contract to pull on bones and create movement. Explore the three muscle types and how a muscle moves your body.",
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "skillIds": [
+    "skeletal-smooth-cardiac",
+    "contract-pull-bones",
+    "muscle-pairs-movement",
+    "muscles-need-energy"
+  ],
+  "type": "model",
+  "estimatedMinutes": 10,
+  "hierarchyPath": {
+    "subject": "Biology",
+    "branch": "Human Anatomy",
+    "unit": "Organs and Systems",
+    "systemOrGroup": "Muscular system",
+    "component": "Muscles",
+    "displayPath": "Biology > Human Anatomy > Muscular system > Muscles"
+  },
+  "crossReferences": [
+    {
+      "label": "Bones (Human Anatomy)",
+      "branch": "human-anatomy",
+      "lowLevelItem": "Bones",
+      "note": "Skeletal muscles pull on bones at joints - the two systems move the body together."
+    },
+    {
+      "label": "Muscle Contraction (Human Physiology)",
+      "branch": "human-physiology",
+      "process": "Muscle contraction",
+      "note": "The step-by-step process of how a muscle shortens is the muscle-contraction process."
+    }
+  ],
+  "belongsTo": "Human Anatomy > Muscular system > Muscles",
+  "compareCandidate": {
+    "label": "Skeletal vs. cardiac muscle",
+    "description": "Skeletal muscles move your body when you decide to and tire with work. Cardiac muscle is only in the heart, contracts automatically, and never tires - like a perfect engine that never stops."
+  },
+  "parts": [
+    "Skeletal muscle",
+    "Smooth muscle",
+    "Cardiac muscle",
+    "Tendons",
+    "Muscle pairs"
+  ],
+  "processes": [
+    "Contracting to move the body",
+    "Pulling on bones at joints",
+    "Pumping blood (cardiac)",
+    "Working in pairs"
+  ],
+  "plainLanguageExplanation": "Muscles are tissues that can shorten (contract) to pull on bones and create movement. There are three types. Skeletal muscle attaches to bones and moves your body when you decide to move - it is striated (striped) and under your control. Smooth muscle is found in organs like the stomach and blood vessels; it works automatically. Cardiac muscle is only in the heart, beats automatically, and never tires. Skeletal muscles work in pairs: when one shortens (contracts) another relaxes, and together they move a joint. Muscles need energy and use it when they work, which is why you get tired and breathe faster during exercise.",
+  "keyFacts": [
+    {
+      "label": "Job",
+      "value": "Contract to pull on bones and create movement"
+    },
+    {
+      "label": "Types",
+      "value": "Skeletal, smooth, and cardiac muscle"
+    },
+    {
+      "label": "Skeletal",
+      "value": "Moves your body; under your control; striated"
+    },
+    {
+      "label": "Smooth",
+      "value": "In organs like stomach and vessels; automatic"
+    },
+    {
+      "label": "Cardiac",
+      "value": "Only in the heart; beats without tiring"
+    },
+    {
+      "label": "Pairs",
+      "value": "Muscles work in pairs - one contracts while another relaxes"
+    },
+    {
+      "label": "Energy",
+      "value": "Working muscles use energy; that is why you get tired"
+    }
+  ],
+  "whyItMatters": "Muscles let you run, lift, breathe, digest, and pump blood. Understanding the three types and how muscles pull on bones explains why exercise makes you stronger, why the heart never stops, and how every move you make happens.",
+  "files": {
+    "lesson": "lesson.md",
+    "quiz": "quiz.json",
+    "modelMetadata": "model-metadata.json",
+    "glossary": "glossary.json",
+    "standards": "standards.json"
+  },
+  "scientificName": "Muscles (Muscular system)",
+  "tagline": "The body's movers",
+  "didYouKnow": "You have over 600 skeletal muscles - and the strongest one, the masseter in your jaw, can bite down with more force than any other muscle for its size.",
+  "conditions": [
+    "Muscle strain",
+    "Cramp",
+    "Muscular dystrophy"
+  ],
+  "branch": "human-anatomy",
+  "displayPath": "Biology > Human Anatomy > Muscular system > Muscles",
+  "plain": "Muscles are tissues that can shorten (contract) to pull on bones and create movement. There are three types. Skeletal muscle attaches to bones and moves your body when you decide to move - it is striated (striped) and under your control. Smooth muscle is found in organs like the stomach and blood vessels; it works automatically. Cardiac muscle is only in the heart, beats automatically, and never tires. Skeletal muscles work in pairs: when one shortens (contracts) another relaxes, and together they move a joint. Muscles need energy and use it when they work, which is why you get tired and breathe faster during exercise."
+}

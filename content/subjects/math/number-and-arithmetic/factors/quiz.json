@@ -1,0 +1,80 @@
+{
+  "componentId": "factors",
+  "questions": [
+    {
+      "id": "factors-12",
+      "conceptId": "factors-multiply-to-product",
+      "hotspotId": "hs-factor-pair",
+      "prompt": "Which list shows ALL the factors of 12?",
+      "options": [
+        "1, 2, 3, 4, 6, 12",
+        "1, 2, 3, 6, 12",
+        "2, 4, 6, 12",
+        "1, 12, 24, 36"
+      ],
+      "correctIndex": 0,
+      "explanation": "The full factor set of 12 is 1, 2, 3, 4, 6, and 12 — everything that divides 12 evenly.",
+      "misconception": "Dropping 4 (a factor via 3×4) or adding multiples like 24 and 36 confuses factors with multiples."
+    },
+    {
+      "id": "factors-18",
+      "conceptId": "factors-find-all",
+      "hotspotId": "hs-factor-list",
+      "prompt": "What are all the factor pairs of 18?",
+      "options": [
+        "1×18, 2×9, 3×6",
+        "1×18, 2×9 only",
+        "1×18, 3×6, 4×4",
+        "18×1, 9×2, 6×3, 3×6, 2×9, 1×18"
+      ],
+      "correctIndex": 0,
+      "explanation": "The factor pairs of 18 are 1×18, 2×9, and 3×6 — each pair multiplies to 18.",
+      "misconception": "Pairs should not be double-counted (1×18 and 18×1 are the same pair), and 4×4 = 16 does not equal 18."
+    },
+    {
+      "id": "factors-even-division",
+      "conceptId": "factors-divide-evenly",
+      "hotspotId": "hs-division-check",
+      "prompt": "Why is 5 NOT a factor of 24?",
+      "options": [
+        "24 ÷ 5 leaves a remainder",
+        "5 is too small",
+        "5 is an odd number",
+        "5 is bigger than 24"
+      ],
+      "correctIndex": 0,
+      "explanation": "A factor must divide evenly — 24 ÷ 5 = 4 R 4, so 5 is not a factor.",
+      "misconception": "Size and odd/even are red herrings — the only test is whether the division comes out even with no remainder."
+    },
+    {
+      "id": "factors-always",
+      "conceptId": "factors-multiply-to-product",
+      "hotspotId": "hs-factor-pair",
+      "prompt": "Which two factors are factors of EVERY whole number?",
+      "options": [
+        "1 and the number itself",
+        "0 and 1",
+        "2 and the number itself",
+        "The number and its double"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every whole number is divisible by 1 and by itself, so those two are always factors.",
+      "misconception": "Zero is not a factor of anything, and even numbers like 2 are not factors of every number (for example, 2 is not a factor of 9)."
+    },
+    {
+      "id": "factors-list-limit",
+      "conceptId": "factors-find-all",
+      "hotspotId": "hs-factor-list",
+      "prompt": "How far do you need to test to find all the factors of 30?",
+      "options": [
+        "Up to about the middle, around 5-6",
+        "Up to 30",
+        "Up to 15",
+        "Only test prime numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Once you pass the middle of a number, each new factor simply pairs with one you already found, so testing to about the square root is enough.",
+      "misconception": "You do not need to test every number up to the number itself — factor pairs mirror around the middle, so half the testing finds all the factors."
+    }
+  ]
+}

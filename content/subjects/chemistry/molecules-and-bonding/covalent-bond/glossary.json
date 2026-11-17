@@ -1,0 +1,46 @@
+{
+  "componentId": "covalent-bond",
+  "terms": [
+    {
+      "term": "Covalent bond",
+      "conceptId": "covalent-shared-electrons",
+      "hotspotId": "hs-covalent-bond",
+      "definition": "A chemical bond formed when two atoms share a pair of electrons.",
+      "function": "Holds the atoms of a molecule together — both nuclei pull on the shared pair.",
+      "whereItIs": "The band between the oxygen and hydrogen atoms in the water molecule.",
+      "whyItMatters": "Covalent bonds build water, air, and nearly every molecule in living things.",
+      "relatedConcept": "covalent-builds-molecules",
+      "quizId": "covalent-q-definition"
+    },
+    {
+      "term": "Shared electron pair",
+      "conceptId": "covalent-shared-electrons",
+      "hotspotId": "hs-shared-pair",
+      "definition": "A pair of electrons that two atoms both pull on and both effectively own.",
+      "function": "Lets each atom feel closer to a full outer shell without either stealing an electron.",
+      "whereItIs": "The two small teal dots between the atoms in the model.",
+      "whyItMatters": "It is the actual 'stuff' of a covalent bond.",
+      "relatedConcept": "covalent-nonmetals-share",
+      "quizId": "covalent-q-why-holds"
+    },
+    {
+      "term": "Molecule",
+      "conceptId": "covalent-builds-molecules",
+      "definition": "Two or more atoms held together by covalent bonds.",
+      "function": "The smallest unit of a covalent compound that still has its properties.",
+      "whereItIs": "The whole water molecule in the model.",
+      "whyItMatters": "Molecules are what covalent bonds build — the fundamental particles of most familiar substances.",
+      "relatedConcept": "covalent-shared-electrons",
+      "quizId": "covalent-q-molecule"
+    },
+    {
+      "term": "Double bond",
+      "conceptId": "covalent-nonmetals-share",
+      "definition": "A covalent bond in which two pairs of electrons are shared between the same two atoms.",
+      "function": "Holds atoms even more tightly — found in O₂, CO₂, and many important molecules.",
+      "whereItIs": "Shown as two parallel rods in the oxygen molecule layer.",
+      "whyItMatters": "Double bonds store energy and shape molecules like carbon dioxide.",
+      "relatedConcept": "covalent-shared-electrons"
+    }
+  ]
+}

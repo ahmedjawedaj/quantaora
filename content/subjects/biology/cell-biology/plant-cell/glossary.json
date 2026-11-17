@@ -1,0 +1,75 @@
+{
+  "componentId": "plant-cell",
+  "terms": [
+    {
+      "term": "Cell wall",
+      "conceptId": "cell-wall",
+      "definition": "A rigid outer layer made of cellulose that surrounds the cell membrane and gives a plant cell its fixed, boxy shape."
+    },
+    {
+      "term": "Cell membrane",
+      "conceptId": "cell-membrane",
+      "definition": "A thin, flexible layer just inside the cell wall that controls what enters and leaves the cell."
+    },
+    {
+      "term": "Cytoplasm",
+      "conceptId": "cytoplasm",
+      "definition": "The jelly-like fluid that fills the inside of the cell, where the organelles sit and chemical reactions happen."
+    },
+    {
+      "term": "Nucleus",
+      "conceptId": "nucleus",
+      "definition": "The organelle that stores the cell's DNA and directs everything the cell does."
+    },
+    {
+      "term": "DNA",
+      "conceptId": "dna",
+      "definition": "The coded instructions, stored in the nucleus, that tell a cell how to grow, work, and build proteins."
+    },
+    {
+      "term": "Mitochondrion",
+      "conceptId": "mitochondrion",
+      "definition": "The organelle that breaks down sugar to release energy the cell can use (plural: mitochondria)."
+    },
+    {
+      "term": "Ribosome",
+      "conceptId": "ribosome",
+      "definition": "A tiny structure that builds proteins by reading instructions copied from DNA."
+    },
+    {
+      "term": "Endoplasmic reticulum",
+      "conceptId": "endoplasmic-reticulum",
+      "definition": "A folded network of membranes that helps build and move proteins and fats through the cell."
+    },
+    {
+      "term": "Golgi apparatus",
+      "conceptId": "golgi-apparatus",
+      "definition": "The organelle that packages and ships proteins and other molecules to where they're needed, like a cell's post office."
+    },
+    {
+      "term": "Vacuole",
+      "conceptId": "vacuole",
+      "definition": "A large, fluid-filled sac that stores water, nutrients, and waste, and helps keep the cell firm."
+    },
+    {
+      "term": "Chloroplast",
+      "conceptId": "chloroplast",
+      "definition": "The organelle that captures sunlight and uses it to make sugar through photosynthesis."
+    },
+    {
+      "term": "Cytoskeleton",
+      "conceptId": "cytoskeleton",
+      "definition": "A network of protein fibers inside the cell that gives it internal structure and helps move materials around."
+    },
+    {
+      "term": "Photosynthesis",
+      "conceptId": "photosynthesis",
+      "definition": "The process plants use to turn sunlight, water, and carbon dioxide into sugar and oxygen."
+    },
+    {
+      "term": "Turgor pressure",
+      "conceptId": "turgor-pressure",
+      "definition": "The pressure of water pushing the cell membrane against the cell wall, which keeps the cell firm."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "componentId": "weight",
+  "terms": [
+    {
+      "term": "Weight",
+      "conceptId": "weight-gravitational-force",
+      "hotspotId": "hs-spring-scale",
+      "definition": "The force of gravity acting on an object's mass.",
+      "function": "Tells how hard gravity pulls, measured in newtons via spring stretch.",
+      "whereItIs": "The needle on the spring scale plate.",
+      "whyItMatters": "It's the force you feel constantly and the one scales read.",
+      "relatedConcept": "weight-changes-with-gravity",
+      "quizId": "weight-q-definition"
+    },
+    {
+      "term": "W = mg",
+      "conceptId": "weight-equals-mg",
+      "hotspotId": "hs-weight-value",
+      "definition": "The formula weight = mass × gravitational field strength.",
+      "whyItMatters": "Shows why the same mass produces different weights in different gravity.",
+      "whereItIs": "Computed live in the floating weight badge.",
+      "relatedConcept": "mass",
+      "quizId": "weight-q-formula"
+    },
+    {
+      "term": "gravitational field strength (g)",
+      "conceptId": "weight-changes-with-gravity",
+      "hotspotId": "hs-location-dial",
+      "definition": "The strength of gravity at a place, about 9.8 m/s² on Earth and 1.6 on the Moon.",
+      "whyItMatters": "Choosing a different g is exactly what changes weight, not mass.",
+      "whereItIs": "Selected by the Earth/Moon/space dial.",
+      "relatedConcept": "weight-gravitational-force",
+      "quizId": "weight-q-moon"
+    },
+    {
+      "term": "Mass (contrast)",
+      "conceptId": "weight-vs-mass",
+      "hotspotId": "hs-kg-tag",
+      "definition": "The amount of matter, in kg, that never changes with gravity.",
+      "whyItMatters": "Keeping mass fixed while weight swings is the entire point of the distinction.",
+      "whereItIs": "The tag on the backpack that the dial never moves.",
+      "relatedConcept": "weight-equals-mg",
+      "quizId": "weight-q-vs-mass"
+    }
+  ]
+}

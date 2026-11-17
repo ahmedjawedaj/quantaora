@@ -1,0 +1,118 @@
+{
+  "id": "acceleration",
+  "componentId": "acceleration",
+  "subject": "physics",
+  "modelType": "procedural",
+  "url": "/assets/models/mechanics/acceleration/acceleration.glb",
+  "thumbnailUrl": "/assets/thumbnails/mechanics/acceleration.png",
+  "defaultCamera": {
+    "position": [
+      0.2,
+      1.6,
+      4.1
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "cameraDefault": {
+    "position": [
+      0.2,
+      1.6,
+      4.1
+    ],
+    "target": [
+      0,
+      0.3,
+      0
+    ]
+  },
+  "autoRotateDefault": false,
+  "crossSectionAvailable": false,
+  "layers": [
+    "Cart and straight track",
+    "Gas and brake controls",
+    "Velocity-time graph screen",
+    "Acceleration readout"
+  ],
+  "hotspots": [
+    {
+      "id": "hs-cart",
+      "label": "Cart",
+      "conceptId": "acceleration-change-in-velocity",
+      "position": [
+        0.7,
+        0.35,
+        0
+      ],
+      "description": "The cart moving along the track, its velocity controlled by the gas and brake.",
+      "positionHint": "A small rounded cart on the straight mat.",
+      "color": "#D9A441",
+      "function": "Carries the object whose velocity changes."
+    },
+    {
+      "id": "hs-gas",
+      "label": "Gas Control",
+      "conceptId": "acceleration-positive",
+      "position": [
+        -1.3,
+        0.5,
+        0
+      ],
+      "description": "Press to make the cart speed up — a positive acceleration and an upward-sloping velocity-time line.",
+      "positionHint": "A raised push-pedal near the track edge.",
+      "color": "#7FA86A",
+      "function": "Applies positive acceleration to the cart."
+    },
+    {
+      "id": "hs-brake",
+      "label": "Brake Control",
+      "conceptId": "acceleration-negative",
+      "position": [
+        -1.3,
+        0.35,
+        0
+      ],
+      "description": "Press to slow the cart — a negative acceleration and a line that dips downward.",
+      "positionHint": "A red pedal beside the gas pedal.",
+      "color": "#D96B5A",
+      "function": "Applies negative acceleration (deceleration)."
+    },
+    {
+      "id": "hs-velocity-graph",
+      "label": "Velocity-Time Graph",
+      "conceptId": "acceleration-graph",
+      "position": [
+        0,
+        1.2,
+        0.5
+      ],
+      "description": "The live line of velocity against time; its slope is the acceleration — steep up means big positive, dipping down means negative.",
+      "positionHint": "Floating screen over the track drawing the cart's velocity.",
+      "color": "#6B85A8",
+      "function": "Shows how acceleration looks as slope on the velocity graph."
+    },
+    {
+      "id": "hs-accel-arrow",
+      "label": "Acceleration Readout",
+      "conceptId": "acceleration-formula",
+      "position": [
+        0.3,
+        0.8,
+        0.4
+      ],
+      "description": "The numeric acceleration in m/s², with its sign, computed live from the run.",
+      "positionHint": "A small badge with a signed number near the cart.",
+      "color": "#7FA86A",
+      "function": "Reads the m/s² value of the current acceleration."
+    }
+  ],
+  "visualStyleNotes": "Warm off-white paper backdrop with soft vignette, no floor grid. A straight warm-grey track, amber cart, green gas pedal and coral brake pedal, floating velocity screen. Saturated color on pedals and readout dots only. Soft neutral studio light, no bloom, no emissive.",
+  "materialNotes": "Metallic-roughness PBR, metallic=0. Track: warm-grey (roughness ~0.7). Cart: amber smooth body (roughness ~0.4). Pedals: soft sculpted plastic in muted green and coral (roughness ~0.5). Graph screen: paper white with dark ink axes. Number text runtime overlay.",
+  "assetBrief": "SUBJECT: acceleration as the rate of change of velocity-on-a-straight-track, procedural to drive.\n\nGEOMETRY: straight mat along +x (length ~7), cart near origin, two pedals slightly ahead, floating graph screen overhead (0, 1.2, 0.5).\n\nINTERACTION: Gas applies a positive constant a; idle drops a to zero; Brake clamps a negative. The app computes velocity = integral of acceleration each frame and strokes the graph so its slope is the live a. Support 0→1.5× for 'turn it steep'.\n\nLAYERS: track+cart; controls; graph; readout plate.\n\nNAMED NODES: TrackMat, Cart, GasPedal, BrakePedal, VelocityScreen, AccelPlate. 5-9k tris.",
+  "visual": {
+    "shape": "acceleration-arrows"
+  }
+}

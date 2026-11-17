@@ -1,0 +1,52 @@
+{
+  "componentId": "main-sequence-star",
+  "terms": [
+    {
+      "term": "Main sequence",
+      "definition": "The long, stable stage of a star's life when it fuses hydrogen into helium in its core. Stars spend roughly 90% of their lives here.",
+      "conceptId": "hydrogen-fusion-in-core",
+      "hotspotId": "hs-core",
+      "function": "The star's default state — the balance of gravity and fusion pressure that keeps it steady."
+    },
+    {
+      "term": "Hydrostatic equilibrium",
+      "definition": "The balance between gravity pulling a star inward and the pressure of fusion energy pushing it outward, so the star keeps a constant size.",
+      "conceptId": "hydrostatic-equilibrium-balance",
+      "hotspotId": "hs-hydrostatic-balance",
+      "whereItIs": "Every layer of the star, from core to photosphere",
+      "whyItMatters": "It is the reason a star can shine for billions of years without collapsing or expanding."
+    },
+    {
+      "term": "Fusion",
+      "definition": "Merging light atomic nuclei into heavier ones with a release of energy — hydrogen into helium in main-sequence cores.",
+      "conceptId": "hydrogen-fusion-in-core",
+      "hotspotId": "hs-core",
+      "function": "The star's power source.",
+      "relatedConcept": "protostar-ignition-threshold"
+    },
+    {
+      "term": "Photosphere",
+      "definition": "The visible surface of the star, where light finally escapes into space — about 5,772 K for the Sun.",
+      "conceptId": "color-tracks-temperature",
+      "hotspotId": "hs-photosphere",
+      "whereItIs": "The outermost visible layer of the star",
+      "whyItMatters": "Its color is the direct reading of the star's surface temperature."
+    },
+    {
+      "term": "Radiative zone",
+      "definition": "The layer inside the star where energy travels outward as light, constantly absorbed and re-emitted — the slow, crawling middle section of the star's interior.",
+      "conceptId": "energy-transport-radiative",
+      "hotspotId": "hs-radiative-zone",
+      "function": "Transfers energy from core to outer shell.",
+      "relatedConcept": "energy-transport-convective"
+    },
+    {
+      "term": "Convective zone",
+      "definition": "The outer shell of the star where hot gas rises and cooler gas sinks in boiling cells, carrying energy to the surface.",
+      "conceptId": "energy-transport-convective",
+      "hotspotId": "hs-convective-zone",
+      "whereItIs": "The outermost interior layer, beneath the photosphere",
+      "whyItMatters": "The churning makes the surface look grainy and mixes the star's gas."
+    }
+  ]
+}
