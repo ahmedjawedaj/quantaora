@@ -2,8 +2,8 @@
 
 [![CI](https://github.com/ahmedjawedaj/quantaora/actions/workflows/ci.yml/badge.svg)](https://github.com/ahmedjawedaj/quantaora/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/ahmedjawedaj/quantaora/actions/workflows/codeql.yml/badge.svg)](https://github.com/ahmedjawedaj/quantaora/actions/workflows/codeql.yml)
-[![Deploy](https://github.com/ahmedjawedaj/quantaora/actions/workflows/deploy-vercel.yml/badge.svg)](https://github.com/ahmedjawedaj/quantaora/actions/workflows/deploy-vercel.yml)
-[![Live App](https://img.shields.io/badge/live-quantaora.vercel.app-000000?logo=vercel)](https://quantaora.vercel.app)
+[![Deployed on Vercel](https://img.shields.io/badge/deployed%20on-Vercel-000000?logo=vercel)](https://quantaora.vercel.app)
+[![Live App](https://img.shields.io/website?url=https%3A%2F%2Fquantaora.vercel.app&label=live%20app)](https://quantaora.vercel.app)
 [![License: MIT](https://img.shields.io/badge/code-MIT-2ea44f.svg)](LICENSE)
 
 **Interactive 3D STEM learning labs built for curious kids.**
